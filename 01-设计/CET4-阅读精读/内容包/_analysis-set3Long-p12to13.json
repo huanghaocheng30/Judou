@@ -1,0 +1,367 @@
+{
+  "sentences": {
+    "12-0": {
+      "translationLiteral": "分心也是一个严重的问题。",
+      "translationNatural": "分心同样是个严重问题。",
+      "structMarkup": "【Distraction】 _is_ ~also a serious issue~.",
+      "structureSummary": "主系表",
+      "components": [
+        { "part": "Distraction", "role": "主语", "note": "分心（不可数抽象名词）" },
+        { "part": "is", "role": "系动词", "note": "单数" },
+        { "part": "also a serious issue", "role": "表语", "note": "also 表「同样」，衔接上文" }
+      ],
+      "clauses": [
+        "distraction 不可数，不加 -s。",
+        "also 在此表「另一个同样的问题」，起并列衔接作用。",
+        "a serious issue：issue 可数，表「问题」。"
+      ],
+      "phrases": [
+        { "text": "a serious issue", "meaning": "一个严重问题", "usage": "issue 比 problem 更中性，常指「值得讨论的问题」。", "example": "Privacy is a serious issue. 隐私是个严重问题。" },
+        { "text": "distraction", "meaning": "分心、干扰", "usage": "不可数；动词 distract（使分心）。", "example": "Noise is a major distraction. 噪音是主要的干扰。" }
+      ],
+      "pitfalls": [
+        "distraction 不可数，不说 a distraction（作可数时指「消遣」）。",
+        "issue 与 problem 都可指问题，issue 更中性。"
+      ],
+      "paragraphRole": "转折进入新议题：承认分心是真实存在的问题。"
+    },
+    "12-1": {
+      "translationLiteral": "当孩子从聊天切到音乐再切到作业时，他们确实很可能难以把每项任务都做好。",
+      "translationNatural": "孩子一会儿聊天、一会儿听歌、一会儿写作业，来回切，那确实很难每件事都做好。",
+      "structMarkup": "{When kids switch from chat to music to homework}, 【they】 _are indeed likely_ ~to have trouble doing each task well~.",
+      "structureSummary": "时间状语从句 + 主系表（likely）+ 不定式",
+      "components": [
+        { "part": "When kids switch from chat to music to homework", "role": "时间状语从句", "note": "switch from A to B to C" },
+        { "part": "they", "role": "主语", "note": "指孩子" },
+        { "part": "are indeed likely", "role": "系表", "note": "indeed 加强肯定" },
+        { "part": "to have trouble doing each task well", "role": "不定式补足", "note": "have trouble doing 结构" }
+      ],
+      "clauses": [
+        "switch from A to B：从 A 转到 B（此处连用两个 to，表连续切换）。",
+        "be likely to do：很可能做某事。",
+        "have trouble doing sth：做某事有困难（trouble 后接动名词）。"
+      ],
+      "phrases": [
+        { "text": "have trouble doing sth", "meaning": "做某事有困难", "usage": "trouble 后接动名词，不接 to do；也可 have difficulty doing。", "example": "They have trouble focusing. 他们难以集中注意力。" },
+        { "text": "switch from A to B", "meaning": "从 A 切换到 B", "usage": "可连用多个 to 表连续切换。", "example": "He switched from chat to email. 他从聊天转到邮件。" }
+      ],
+      "pitfalls": [
+        "have trouble doing 不能写 have trouble to do。",
+        "switch from...to...：from 与 to 须配对。",
+        "indeed 在此加强「确实」，不是「实际上相反」。"
+      ],
+      "paragraphRole": "给出分心的具体机制与后果，支撑上句判断。"
+    },
+    "12-2": {
+      "translationLiteral": "研究表明，学生不会在网上核查信息——「聪明搜索」是学校亟需教授的技能。",
+      "translationNatural": "研究还表明，学生上网根本不核实信息——「聪明地搜索」这门本事，学校得赶紧教。",
+      "structMarkup": "{And} 【studies】 _show_ ~{that pupils don't fact-check information online}~—\"smart searching\" is a skill schools need to teach urgently.",
+      "structureSummary": "主谓 + that 宾语从句 + 破折号后的独立分句",
+      "components": [
+        { "part": "And", "role": "连词", "note": "承接上文，另加一条论据" },
+        { "part": "studies", "role": "主语", "note": "研究（复数）" },
+        { "part": "show", "role": "谓语", "note": "表明" },
+        { "part": "that pupils don't fact-check information online", "role": "宾语从句", "note": "省略 that 也可" },
+        { "part": "\"smart searching\" is a skill schools need to teach urgently", "role": "破折号后的独立分句", "note": "内含省略 that 的定语从句" }
+      ],
+      "clauses": [
+        "fact-check：核实（事实），复合动词。",
+        "a skill schools need to teach：省略 that/which 的定语从句，schools 是 teach 的主语。",
+        "urgently 修饰 teach，表「亟需」。",
+        "破折号后是独立分句，补充作者判断，不属宾语从句。"
+      ],
+      "phrases": [
+        { "text": "fact-check", "meaning": "核实事实、查证", "usage": "复合动词，新闻与媒体素养语境高频。", "example": "Always fact-check what you read. 读到的东西一定要核实。" },
+        { "text": "a skill sb need to teach", "meaning": "某人需要教授的技能", "usage": "定语从句省略关系代词，须注意主谓一致。", "example": "Coding is a skill schools should teach. 编程是学校该教的技能。" }
+      ],
+      "pitfalls": [
+        "fact-check 带连字符，作动词用。",
+        "a skill schools need to teach：省略了 that，schools 是从句主语。",
+        "破折号后的分句不属于 studies show 的宾语。"
+      ],
+      "paragraphRole": "补充第二个具体问题：缺乏信息核实能力，需要学校介入。"
+    },
+    "12-3": {
+      "translationLiteral": "同样属实的是，过多的社交网络使用和玩游戏会挤占功课和睡眠时间。",
+      "translationNatural": "还有一点也对：社交太多、游戏太凶，确实会挤掉写作业和睡觉的时间。",
+      "structMarkup": "【It】 _'s also true_ ~{that too much social networking and game playing can cut into schoolwork and sleep}~.",
+      "structureSummary": "形式主语 + 系表 + 真正主语从句",
+      "components": [
+        { "part": "It", "role": "形式主语", "note": "真正主语是 that 从句" },
+        { "part": "'s also true", "role": "系表", "note": "also 表「另一点」" },
+        { "part": "that too much social networking and game playing can cut into schoolwork and sleep", "role": "真正主语", "note": "并列主语 + can cut into" }
+      ],
+      "clauses": [
+        "It is true that...：形式主语句式。",
+        "too much + 不可数名词：过多的……（social networking / game playing 均不可数）。",
+        "cut into：削减、挤占（固定搭配）。"
+      ],
+      "phrases": [
+        { "text": "cut into", "meaning": "削减、挤占", "usage": "常指占用时间、利润等。", "example": "Work cuts into family time. 工作挤占了家庭时间。" },
+        { "text": "game playing", "meaning": "玩游戏", "usage": "动名词短语作名词，不可数。", "example": "Excessive game playing affects sleep. 过度玩游戏影响睡眠。" }
+      ],
+      "pitfalls": [
+        "cut into 的介词是 into。",
+        "social networking 与 game playing 都不可数，谓语用 can（单数形式）。",
+        "It's also true that：also 位置在 be 之后。"
+      ],
+      "paragraphRole": "承认第三项风险：挤占功课与睡眠时间。"
+    },
+    "12-4": {
+      "translationLiteral": "这恰恰是为什么父母仍然需要围绕它设定明确的界限——就像对待任何其他让人分心的事物一样。",
+      "translationNatural": "正因如此，家长还是得给它划清界限——对待任何让人分心的东西都该这样。",
+      "structMarkup": "【This】 _is_ ~precisely why parents still need to set firm boundaries around it~, (as with any other distraction).",
+      "structureSummary": "主系表（why 从句作表语）+ 比较状语",
+      "components": [
+        { "part": "This", "role": "主语", "note": "指上几句所述风险" },
+        { "part": "is", "role": "系动词", "note": "单数" },
+        { "part": "precisely why parents still need to set firm boundaries around it", "role": "表语从句", "note": "why 引导，precisely 加强" },
+        { "part": "as with any other distraction", "role": "比较状语", "note": "正如对待其他分心事物" }
+      ],
+      "clauses": [
+        "This is why...：这就是……的原因（why 引导表语从句）。",
+        "set firm boundaries around sth：围绕……划定明确界限。",
+        "as with：正如对待……一样（as 后接介词短语）。"
+      ],
+      "phrases": [
+        { "text": "set boundaries", "meaning": "划定界限、立规矩", "usage": "常搭 set boundaries around/on sth。", "example": "Parents should set boundaries on screen time. 家长应设屏幕时间界限。" },
+        { "text": "as with", "meaning": "正如……一样、对待……时也一样", "usage": "as 后接介词短语，与 as in 类似。", "example": "As with any skill, practice matters. 和任何技能一样，练习很重要。" }
+      ],
+      "pitfalls": [
+        "precisely why：precisely 修饰 why 从句，不改变结构。",
+        "set boundaries 用 set，不用 make。",
+        "as with 后接名词短语，不接从句（接从句用 as when）。"
+      ],
+      "paragraphRole": "得出结论：家长应设界限，把风险转化为可操作的建议。"
+    },
+    "13-0": {
+      "translationLiteral": "那么，最好的应对方式是什么？",
+      "translationNatural": "那要怎么应对才最好？",
+      "structMarkup": "{So} _what's_ 【the best way】 (to cope)?",
+      "structureSummary": "疑问句：主系表 + 不定式后置定语",
+      "components": [
+        { "part": "So", "role": "连接副词", "note": "那么（承上）" },
+        { "part": "what's", "role": "疑问词+系动词", "note": "what is 的缩写" },
+        { "part": "the best way", "role": "主语/表语", "note": "最好的方式（疑问句倒装）" },
+        { "part": "to cope", "role": "后置定语", "note": "不定式修饰 way" }
+      ],
+      "clauses": [
+        "the way to do sth：做某事的方式（不定式作后置定语）。",
+        "疑问句中 what 提到句首，is 随后，形成倒装。",
+        "cope 不及物，常搭 cope with sth。"
+      ],
+      "phrases": [
+        { "text": "the best way to do sth", "meaning": "做某事的最佳方式", "usage": "不定式作后置定语；也可 the best way of doing。", "example": "What is the best way to learn? 学习的最佳方式是什么？" },
+        { "text": "cope", "meaning": "应对、处理", "usage": "多作不及物，cope with sth；单独用表「应付得来」。", "example": "Parents must cope with new pressures. 家长必须应对新压力。" }
+      ],
+      "pitfalls": [
+        "the way to do sth 中 to do 是定语，不是目的状语。",
+        "cope 通常需 with 才能带宾语。",
+        "what's 是 what is 的缩写，不是 what has。"
+      ],
+      "paragraphRole": "设问过渡，把文章从「问题」转向「对策」。"
+    },
+    "13-1": {
+      "translationLiteral": "就是那条适用于育儿中一切事情的老掉牙建议：适度。",
+      "translationNatural": "还是那句听腻了的老话，养孩子哪件事都适用：适度就好。",
+      "structMarkup": "【The same boring old advice】 {that applies to everything in parenting}: ~moderation~.",
+      "structureSummary": "名词短语（带定语从句）+ 冒号后的同位语",
+      "components": [
+        { "part": "The same boring old advice", "role": "中心名词短语", "note": "同样那条老掉牙的建议（省略谓语）" },
+        { "part": "that applies to everything in parenting", "role": "定语从句", "note": "修饰 advice" },
+        { "part": "moderation", "role": "同位语", "note": "冒号后点明建议内容" }
+      ],
+      "clauses": [
+        "省略句：整个句子省略了 is，只保留核心名词短语与冒号解释。",
+        "apply to：适用于（不及物动词 + 介词）。",
+        "冒号后 moderation 作 advice 的同位语。"
+      ],
+      "phrases": [
+        { "text": "apply to", "meaning": "适用于", "usage": "不及物动词；apply for 表「申请」。", "example": "The rule applies to everyone. 这条规定适用于所有人。" },
+        { "text": "moderation", "meaning": "适度、节制", "usage": "不可数名词；in moderation 表「适度地」。", "example": "Eat sweets in moderation. 甜食要适量吃。" }
+      ],
+      "pitfalls": [
+        "apply to（适用于）与 apply for（申请）不同。",
+        "moderation 不可数，不加 a。",
+        "本句为省略句（省 is），不是成分残缺。"
+      ],
+      "paragraphRole": "给出核心对策：适度。以省略句形式强调，语气干脆。"
+    },
+    "13-2": {
+      "translationLiteral": "丽贝卡·艾农认为，关键在于以身作则展示良好行为。",
+      "translationNatural": "丽贝卡·艾农认为，关键是自己先做出好样子。",
+      "structMarkup": "【Rebecca Eynon】 _argues_ ~{that it's key to model good behaviour}~.",
+      "structureSummary": "主谓 + that 宾语从句（形式主语 it）",
+      "components": [
+        { "part": "Rebecca Eynon", "role": "主语", "note": "研究者" },
+        { "part": "argues", "role": "谓语", "note": "主张、论证（比 says 更有论证性）" },
+        { "part": "that it's key to model good behaviour", "role": "宾语从句", "note": "it 为形式主语" }
+      ],
+      "clauses": [
+        "argue that...：主张、论证（后接从句）。",
+        "it's key to do sth：关键在于做某事（it 为形式主语）。",
+        "model 作动词表「做出示范、以身作则」。"
+      ],
+      "phrases": [
+        { "text": "it is key to do sth", "meaning": "做某事很关键", "usage": "key 作形容词表「关键的」；it 为形式主语。", "example": "It is key to stay calm. 保持冷静很关键。" },
+        { "text": "model good behaviour", "meaning": "以身作则、做出良好示范", "usage": "model 作动词表「示范」；behaviour 英式拼写。", "example": "Teachers model good behaviour. 老师以身作则。" }
+      ],
+      "pitfalls": [
+        "model 在此是动词（示范），不是名词「模型」。",
+        "it is key to do：it 是形式主语，真正主语为不定式。",
+        "argue 此处是「主张」，不是「争吵」。"
+      ],
+      "paragraphRole": "引入专家建议：家长要以身作则。"
+    },
+    "13-3": {
+      "translationLiteral": "那些不停盯着手机、不读书的父母，很可能会养出同样如此的孩子。",
+      "translationNatural": "自己成天盯手机、从不看书的家长，养出来的孩子多半也这样。",
+      "structMarkup": "【Parents】 {who stare non-stop at their phones and don't read books} _are likely to breed_ ~kids~ {who will do the same}.",
+      "structureSummary": "主语 + who 定语从句 + 谓语 + 宾语 + who 定语从句",
+      "components": [
+        { "part": "Parents", "role": "主语", "note": "父母" },
+        { "part": "who stare non-stop at their phones and don't read books", "role": "定语从句1", "note": "修饰 Parents，内含两个并列谓语" },
+        { "part": "are likely to breed", "role": "谓语", "note": "很可能养出" },
+        { "part": "kids", "role": "宾语", "note": "孩子" },
+        { "part": "who will do the same", "role": "定语从句2", "note": "修饰 kids" }
+      ],
+      "clauses": [
+        "who 引导两个定语从句，分别修饰 parents 与 kids。",
+        "be likely to do：很可能做某事。",
+        "do the same：照做、同样如此（替代前文行为）。",
+        "non-stop：不停地（副词/形容词）。"
+      ],
+      "phrases": [
+        { "text": "be likely to do", "meaning": "很可能做某事", "usage": "可与 probable/possible 结构互换改写。", "example": "Kids are likely to copy parents. 孩子很可能模仿父母。" },
+        { "text": "do the same", "meaning": "照样做、同样如此", "usage": "替代前文动作，避免重复。", "example": "He shouted, and she did the same. 他喊，她也跟着喊。" },
+        { "text": "stare at", "meaning": "盯着看", "usage": "后接名词；stare non-stop at 表「不停盯着」。", "example": "They stare at screens all day. 他们整天盯屏幕。" }
+      ],
+      "pitfalls": [
+        "parents ... are likely：主语 Parents 为复数，谓语用 are。",
+        "do the same 是替代用法，不能改成 do same。",
+        "breed 在此表「养育出、培养出」，不是「繁殖」的狭义。"
+      ],
+      "paragraphRole": "用具体对比说明「以身作则」的分量，支撑上句专家观点。"
+    },
+    "13-4": {
+      "translationLiteral": "一如既往，我们应当小心自己的行为。",
+      "translationNatural": "说到底还是那句：管好自己。",
+      "structMarkup": "(As ever), 【we】 _ought to be_ ~careful about our own behaviour~.",
+      "structureSummary": "状语 + 主谓 + 表语",
+      "components": [
+        { "part": "As ever", "role": "状语", "note": "一如既往" },
+        { "part": "we", "role": "主语", "note": "泛指我们（含家长）" },
+        { "part": "ought to be", "role": "谓语", "note": "ought to 表义务" },
+        { "part": "careful about our own behaviour", "role": "表语", "note": "注意自己的行为" }
+      ],
+      "clauses": [
+        "as ever：一如既往，固定短语。",
+        "ought to：应该（比 should 略正式，否定为 ought not to）。",
+        "be careful about sth：注意、当心某事。"
+      ],
+      "phrases": [
+        { "text": "as ever", "meaning": "一如既往、和往常一样", "usage": "常置于句首，表「照旧如此」。", "example": "As ever, he arrived early. 他一如既往地早到。" },
+        { "text": "be careful about", "meaning": "注意、当心", "usage": "也可 be careful with（小心处理某物）。", "example": "Be careful about what you post. 发内容要当心。" }
+      ],
+      "pitfalls": [
+        "ought to 的否定是 ought not to，疑问句为 Ought we to...?",
+        "be careful about（注意某事）与 be careful with（小心使用）有别。",
+        "our own：own 加强「自己的」。"
+      ],
+      "paragraphRole": "结尾归到自省：管好自己的行为，是全篇的落点。"
+    }
+  },
+  "tokens": {
+    "distraction": {
+      "phonetic": "/dɪˈstrækʃn/",
+      "pos": "n.",
+      "senseInContext": "分心、让人分心的事物（分心也是严重问题）",
+      "collocations": ["a distraction from", "cause distraction", "digital distractions"],
+      "examples": ["Phones are a constant distraction. 手机是持续的干扰。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "dis-（分开）+ trahere（拉）→ 被拉走",
+        "synonyms": ["interruption", "diversion", "disturbance"],
+        "confusables": ["distract（v. 使分心）", "distracted（adj. 心不在焉的）"]
+      }
+    },
+    "fact-check": {
+      "phonetic": "/ˈfækt tʃek/",
+      "pos": "v.",
+      "senseInContext": "核实事实（学生不核实网上的信息）",
+      "collocations": ["fact-check a claim", "fact-checking", "double-check"],
+      "examples": ["Journalists must fact-check claims. 记者必须核实说法。"],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "fact（事实）+ check（检查）",
+        "synonyms": ["verify", "confirm", "validate"],
+        "confusables": ["fact-check 作名词也可（a fact-check）", "cross-check（交叉核对）"]
+      }
+    },
+    "urgent": {
+      "phonetic": "/ˈɜːdʒənt/",
+      "pos": "adj.",
+      "senseInContext": "紧迫的、亟需的（学校亟需教授这项技能）",
+      "collocations": ["an urgent need", "urgent action", "it is urgent that"],
+      "examples": ["There is an urgent need for reform. 亟需改革。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "urgere（催促）",
+        "synonyms": ["pressing", "critical", "immediate"],
+        "confusables": ["urgency（n. 紧迫）", "urgently（adv.）", "emergent（adj. 新出现的）"]
+      }
+    },
+    "boundary": {
+      "phonetic": "/ˈbaʊndri/",
+      "pos": "n.",
+      "senseInContext": "界限、边界（家长需设定明确界限）",
+      "collocations": ["set boundaries", "boundary between", "push boundaries"],
+      "examples": ["Children need clear boundaries. 孩子需要明确的界限。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "bound（界限）+ -ary",
+        "synonyms": ["limit", "border", "line"],
+        "confusables": ["bound（adj. 必定；v. 跳跃）", "border（n. 国界）"]
+      }
+    },
+    "moderation": {
+      "phonetic": "/ˌmɒdəˈreɪʃn/",
+      "pos": "n.",
+      "senseInContext": "适度、节制（对策就是适度）",
+      "collocations": ["in moderation", "everything in moderation", "moderation in"],
+      "examples": ["Drink coffee in moderation. 咖啡要适量喝。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "moderate（适度的）+ -ion",
+        "synonyms": ["restraint", "balance", "temperance"],
+        "confusables": ["moderate（adj. 适度的）", "moderator（n. 主持人）"]
+      }
+    },
+    "breed": {
+      "phonetic": "/briːd/",
+      "pos": "v.",
+      "senseInContext": "养育出、培养出（养出同样行为的孩子）",
+      "collocations": ["breed kids", "breed contempt", "born and bred"],
+      "examples": ["Familiarity breeds contempt. 亲近生侮慢。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "古英语 bredan（孵化）",
+        "synonyms": ["raise", "bring up", "produce"],
+        "confusables": ["breed 的过去式 bred", "breath（n. 呼吸）", "bread（n. 面包）"]
+      }
+    },
+    "cope": {
+      "phonetic": "/kəʊp/",
+      "pos": "v.",
+      "senseInContext": "应对、处理（最好的应对方式）",
+      "collocations": ["cope with", "cope well/badly", "coping mechanism"],
+      "examples": ["Parents cope with constant change. 家长要应对持续的变化。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "源自 couper（打、对抗）",
+        "synonyms": ["deal with", "manage", "handle"],
+        "confusables": ["copy（v. 复制）", "cope with 的介词不可省"]
+      }
+    }
+  }
+}

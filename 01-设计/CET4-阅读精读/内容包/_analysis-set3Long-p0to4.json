@@ -1,0 +1,669 @@
+{
+  "sentences": {
+    "0": {
+      "translationLiteral": "青少年与社交网络",
+      "translationNatural": "青少年和社交网络",
+      "structMarkup": "【Teenagers】 {and} 【social networking】",
+      "structureSummary": "名词短语并列（标题，省略谓语）",
+      "components": [
+        { "part": "Teenagers", "role": "并列成分1", "note": "复数泛指青少年群体" },
+        { "part": "and", "role": "并列连词", "note": "连接两个话题词" },
+        { "part": "social networking", "role": "并列成分2", "note": "动名词短语作名词：社交网络活动" }
+      ],
+      "clauses": [
+        "标题体省略谓语，只保留核心话题词。",
+        "social networking 是动名词短语名词化，指「使用社交网络」这类活动。",
+        "Teenagers 用复数，泛指整个群体。"
+      ],
+      "phrases": [
+        { "text": "social networking", "meaning": "社交网络（活动）", "usage": "不可数；指在网络上建立联系的活动，与 social network（具体平台/网络）有别。", "example": "Social networking takes up hours a day. 社交网络每天占据好几个小时。" },
+        { "text": "teenagers", "meaning": "青少年（13—19 岁）", "usage": "由 -teen 后缀而来，指 13 到 19 岁的人。", "example": "Most teenagers own a smartphone. 大多数青少年都有智能手机。" }
+      ],
+      "pitfalls": [
+        "social networking（活动，不可数）与 social network（平台/关系网，可数）不同。",
+        "teenager 指 13–19 岁，不含儿童（children）。"
+      ],
+      "paragraphRole": "标题点明全文主题：青少年与社交网络的关系。"
+    },
+    "1-0": {
+      "translationLiteral": "作为一名有两个上小学的儿子的家长，我为那些与青少年和社交媒体相关的问题感到担忧。",
+      "translationNatural": "我有两个上小学的儿子，所以我特别担心青少年跟社交媒体扯上的那些麻烦。",
+      "structMarkup": "(As a parent of two boys at primary school), 【I】 _worry about_ ~the issues~ (associated with teenagers and social media).",
+      "structureSummary": "身份状语 + 主谓 + 宾语 + 过去分词后置定语",
+      "components": [
+        { "part": "As a parent of two boys at primary school", "role": "身份状语", "note": "as 表「作为」" },
+        { "part": "I", "role": "主语", "note": "作者本人" },
+        { "part": "worry about", "role": "谓语", "note": "担心，短语动词" },
+        { "part": "the issues", "role": "宾语", "note": "那些问题" },
+        { "part": "associated with teenagers and social media", "role": "后置定语", "note": "过去分词短语修饰 issues" }
+      ],
+      "clauses": [
+        "as a parent...：as 引导身份状语，意为「作为……」。",
+        "worry about sth：担心某事；worry that 后接从句。",
+        "be associated with：与……相关，此处用过去分词短语作后置定语。"
+      ],
+      "phrases": [
+        { "text": "worry about", "meaning": "担心、为……发愁", "usage": "后接名词或动名词；后接从句用 worry that。", "example": "Parents worry about screen time. 家长担心屏幕时间。" },
+        { "text": "be associated with", "meaning": "与……相关联", "usage": "作后置定语时用 associated with。", "example": "problems associated with social media 与社交媒体相关的问题" }
+      ],
+      "pitfalls": [
+        "as 在此是「作为」，不是「当……时」。",
+        "associated with 修饰紧邻的 the issues，不是修饰 I。",
+        "at primary school：英式说法，美式为 in elementary school。"
+      ],
+      "paragraphRole": "以家长身份切入，建立读者共鸣，为质疑媒体叙事做铺垫。"
+    },
+    "1-1": {
+      "translationLiteral": "报纸上不断充斥着关于毒瘾与攻击行为的可怕报道，这些行为据称是由暴力电子游戏引起的。",
+      "translationNatural": "报纸上天天都是这类吓人的报道：谁染上毒瘾、谁又动手打人，说是暴力游戏害的。",
+      "structMarkup": "【Newspapers】 _are constantly filled_ (with frightening accounts of drug addiction and aggressive behaviour) (supposedly caused by violent videogames).",
+      "structureSummary": "主谓（被动）+ 状语 + 过去分词后置定语",
+      "components": [
+        { "part": "Newspapers", "role": "主语", "note": "报纸（复数泛指）" },
+        { "part": "are constantly filled", "role": "谓语", "note": "be filled with 的被动，constantly 表频率" },
+        { "part": "with frightening accounts of drug addiction and aggressive behaviour", "role": "状语", "note": "accounts of 后接两个并列名词" },
+        { "part": "supposedly caused by violent videogames", "role": "后置定语", "note": "修饰前面的行为，supposedly 表「据称」" }
+      ],
+      "clauses": [
+        "be filled with：充满、充斥（贬义语境常表「充斥着」）。",
+        "accounts of：关于……的叙述/报道，account 在此不表「账户」。",
+        "supposedly caused by：据称由……引起，过去分词短语作后置定语。"
+      ],
+      "phrases": [
+        { "text": "be filled with", "meaning": "充满、充斥着", "usage": "可指物理填充，也可指内容充斥。", "example": "The report is filled with errors. 这份报告错误百出。" },
+        { "text": "accounts of", "meaning": "关于……的叙述/报道", "usage": "account 表「描述」时可数；first-hand account 亲历叙述。", "example": "She gave a vivid account of the trip. 她生动地描述了这次旅行。" },
+        { "text": "supposedly caused by", "meaning": "据称由……引起", "usage": "supposedly 表「据称、据信」，暗含未必属实。", "example": "Illness supposedly caused by stress 据称由压力引起的疾病" }
+      ],
+      "pitfalls": [
+        "account 在此是「叙述、报道」，不是「账户」。",
+        "supposedly 暗示「据称」，作者未必认同——这正是后文反驳的伏笔。",
+        "be filled with 不写成 be full with（应为 be full of）。"
+      ],
+      "paragraphRole": "描述媒体叙事（毒瘾、暴力游戏），作为后文要反驳的靶子。"
+    },
+    "1-2": {
+      "translationLiteral": "但即便这些报道触及了真实的担忧，它们也没有真正反映出日常青少年社交行为的主体：在线聊天、发短信、上网浏览，以及一个以数字方式运行的青少年新领域的出现。",
+      "translationNatural": "可就算这些报道说中了某些真问题，它们也没真正反映出青少年日常社交的主流：网上聊天、发短信、刷网页，还有一个靠数字方式运转的青少年新世界正在出现。",
+      "structMarkup": "{But} {even when these accounts touch on real concerns}, 【they】 _do not really reflect_ ~the great mass of everyday teenage social behaviour~: (the online chat, the texting, the surfing, and the emergence of a new teenage sphere {that is conducted digitally}).",
+      "structureSummary": "让步状语从句 + 主谓宾 + 冒号后四项并列解释",
+      "components": [
+        { "part": "even when these accounts touch on real concerns", "role": "让步状语从句", "note": "even when 表「即便」" },
+        { "part": "they", "role": "主句主语", "note": "指 these accounts" },
+        { "part": "do not really reflect", "role": "谓语", "note": "do 强调否定" },
+        { "part": "the great mass of everyday teenage social behaviour", "role": "宾语", "note": "日常社交行为的主体" },
+        { "part": "the online chat, the texting, the surfing, and the emergence of a new teenage sphere", "role": "解释性并列成分", "note": "四项并列说明具体内容" },
+        { "part": "that is conducted digitally", "role": "定语从句", "note": "修饰 sphere" }
+      ],
+      "clauses": [
+        "even when：即便在……时，让步状语从句。",
+        "touch on：涉及、谈及（不深入）。",
+        "the great mass of：……的主体、大部分（mass 在此表「大宗」）。",
+        "冒号后四项并列，前三个是具体活动，第四个是概括性现象。",
+        "that is conducted digitally：被动定语从句修饰 sphere。"
+      ],
+      "phrases": [
+        { "text": "touch on", "meaning": "涉及、谈及", "usage": "后接名词；比 discuss 更轻，指「略略提到」。", "example": "The report touches on several issues. 报告涉及了几个问题。" },
+        { "text": "the great mass of", "meaning": "……的主体、绝大部分", "usage": "mass 可表「大量、主体」；the masses 指民众。", "example": "The great mass of workers support it. 绝大多数工人支持它。" },
+        { "text": "be conducted digitally", "meaning": "以数字方式进行", "usage": "conduct 表「进行（活动）」，被动式常见。", "example": "The meeting was conducted online. 会议在网上进行。" }
+      ],
+      "pitfalls": [
+        "even when 与 even if 有别：前者偏「即便事实上」，后者偏「即便假设」。",
+        "the great mass of 后接不可数或复数，谓语视中心词而定。",
+        "冒号后四项须保持并列结构（都是名词短语）。"
+      ],
+      "paragraphRole": "转折并提出核心论点——媒体报道不等于青少年日常社交的全貌。"
+    },
+    "2-0": {
+      "translationLiteral": "新技术总是引发代际恐慌，而这种恐慌通常与成年人的恐惧关系更大，与青少年的生活关系更小。",
+      "translationNatural": "新技术总会引发一代人对下一代人的恐慌，而这种恐慌多半是成年人自己怕，跟青少年的真实生活关系不大。",
+      "structMarkup": "【New technologies】 _always provoke_ ~generational panic~, {which usually has more to do with adult fears than with the lives of teenagers}.",
+      "structureSummary": "主谓宾 + which 非限制性定语从句（内含比较结构）",
+      "components": [
+        { "part": "New technologies", "role": "主语", "note": "复数泛指" },
+        { "part": "always provoke", "role": "谓语", "note": "总是引发" },
+        { "part": "generational panic", "role": "宾语", "note": "代际恐慌" },
+        { "part": "which usually has more to do with adult fears than with the lives of teenagers", "role": "非限制性定语从句", "note": "which 指代 panic" }
+      ],
+      "clauses": [
+        "have to do with：与……有关（不是 have to「必须」）。",
+        "more ... than ...：比较结构，比较的是「与成年人恐惧的关系」和「与青少年生活的关系」。",
+        "which 指代 generational panic，不是 technologies。"
+      ],
+      "phrases": [
+        { "text": "have to do with", "meaning": "与……有关", "usage": "注意与 have to（必须）区分；否定 have nothing to do with。", "example": "This has to do with funding. 这与资金有关。" },
+        { "text": "provoke", "meaning": "引发、激起", "usage": "常搭 provoke panic/debate/anger。", "example": "The film provoked debate. 这部电影引发了争论。" },
+        { "text": "generational panic", "meaning": "代际恐慌", "usage": "generational 表「一代人之间的」。", "example": "Every new medium triggers generational panic. 每种新媒介都会引发代际恐慌。" }
+      ],
+      "pitfalls": [
+        "have to do with（有关）与 have to（必须）形似义异。",
+        "which 指代 panic，若指 technologies 则语义不通。",
+        "more to do with A than with B：两个 with 并列，不能只留一个。"
+      ],
+      "paragraphRole": "提出规律性判断：恐慌多源于成年人，而非青少年的真实处境。"
+    },
+    "2-1": {
+      "translationLiteral": "在 20 世纪 30 年代，父母们担心收音机正「不可抗拒地控制着他们的孩子」。",
+      "translationNatural": "1930 年代，父母们担心收音机会「死死抓住孩子不放」。",
+      "structMarkup": "(In the 1930s), 【parents】 _worried_ ~{that radio was gaining \"an irresistible hold of their children\"}~.",
+      "structureSummary": "时间状语 + 主谓 + that 宾语从句",
+      "components": [
+        { "part": "In the 1930s", "role": "时间状语", "note": "20 世纪 30 年代" },
+        { "part": "parents", "role": "主语", "note": "父母们" },
+        { "part": "worried", "role": "谓语", "note": "担心" },
+        { "part": "that radio was gaining an irresistible hold of their children", "role": "宾语从句", "note": "内含 gain a hold of" }
+      ],
+      "clauses": [
+        "worry that...：担心……（后接从句）。",
+        "gain a hold of/on：取得对……的控制（hold 为名词）。",
+        "过去进行时 was gaining 表「正在逐渐获得」。"
+      ],
+      "phrases": [
+        { "text": "gain a hold of/on", "meaning": "控制住、抓住", "usage": "hold 作名词表「控制力」；也可说 get a grip on。", "example": "Fear gained a hold on the crowd. 恐惧攫住了人群。" },
+        { "text": "irresistible", "meaning": "不可抗拒的", "usage": "ir-（否定）+ resistible；常修饰 impulse/charm。", "example": "An irresistible urge to laugh 忍不住想笑" }
+      ],
+      "pitfalls": [
+        "the 1930s：年代用定冠词 + 复数。",
+        "hold 在此是名词（控制），不是动词。",
+        "worry that 与 worry about 后接成分不同（从句 vs 名词）。"
+      ],
+      "paragraphRole": "举例一：收音机时代的家长恐慌，印证上句规律。"
+    },
+    "2-2": {
+      "translationLiteral": "在 80 年代，巨大的危险是索尼随身听。",
+      "translationNatural": "到了 80 年代，最大的「危险」成了索尼随身听。",
+      "structMarkup": "(In the 80s), 【the great danger】 _was_ ~the Sony Walkman~.",
+      "structureSummary": "时间状语 + 主系表",
+      "components": [
+        { "part": "In the 80s", "role": "时间状语", "note": "20 世纪 80 年代" },
+        { "part": "the great danger", "role": "主语", "note": "巨大的危险（带反讽）" },
+        { "part": "was", "role": "系动词", "note": "过去时" },
+        { "part": "the Sony Walkman", "role": "表语", "note": "索尼随身听，专有名词" }
+      ],
+      "clauses": [
+        "the 80s：年代的简写形式，等于 the 1980s。",
+        "主系表结构，语气带反讽——把随身听说成「巨大危险」。",
+        "Walkman 是索尼的注册商标名，首字母大写。"
+      ],
+      "phrases": [
+        { "text": "the 80s", "meaning": "20 世纪 80 年代", "usage": "年代简写，前加 the；也可写 the eighties。", "example": "Music in the 80s was bold. 80 年代的音乐很大胆。" },
+        { "text": "the great danger", "meaning": "巨大的危险", "usage": "此处为反讽用法，实际并无危险。", "example": "The great danger turned out to be boredom. 所谓的巨大危险其实是无聊。" }
+      ],
+      "pitfalls": [
+        "the 80s 须用定冠词，且 80s 为复数形式。",
+        "本句是反讽——「巨大危险」是当年家长的说法，作者并不认同。",
+        "Walkman 为专有名词，首字母大写。"
+      ],
+      "paragraphRole": "举例二：随身听恐慌，与收音机形成年代序列。"
+    },
+    "2-3": {
+      "translationLiteral": "当你审视当今的数字活动时，事实比你预想的要积极得多。",
+      "translationNatural": "可你要是看看今天孩子们在网上干的那些事，情况比你想象的好得多。",
+      "structMarkup": "{When you look at today's digital activity}, 【the facts】 _are_ ~much more positive~ {than you might expect}.",
+      "structureSummary": "时间状语从句 + 主系表（比较级）+ than 从句",
+      "components": [
+        { "part": "When you look at today's digital activity", "role": "时间状语从句", "note": "内含所有格 today's" },
+        { "part": "the facts", "role": "主语", "note": "事实（复数）" },
+        { "part": "are much more positive", "role": "系表", "note": "much 修饰比较级" },
+        { "part": "than you might expect", "role": "比较状语从句", "note": "might 表委婉推测" }
+      ],
+      "clauses": [
+        "much 修饰比较级（very 不能修饰比较级）。",
+        "than you might expect：比较从句，might 使语气委婉。",
+        "today's 是所有格形式，指「当今的」。"
+      ],
+      "phrases": [
+        { "text": "much more positive", "meaning": "积极得多", "usage": "much/far/a lot 修饰比较级；very 不可。", "example": "The outlook is much more positive now. 现在前景乐观得多。" },
+        { "text": "than you might expect", "meaning": "比你预想的", "usage": "常用 might/could 使比较对象带推测色彩。", "example": "It is cheaper than you might expect. 它比你预想的便宜。" }
+      ],
+      "pitfalls": [
+        "much 修饰比较级；very more positive 是典型错误。",
+        "digital activity 单数泛指一类活动，也可用复数。",
+        "when 从句用一般现在时，主句也用现在时，构成普遍陈述。"
+      ],
+      "paragraphRole": "转折句——把叙述从「恐慌史」拉回当下的事实。"
+    },
+    "3-0": {
+      "translationLiteral": "的确，研究年轻人的社会科学家发现，他们的数字使用可以是有创造性的，甚至是有益的。",
+      "translationNatural": "确实，研究青少年的社会科学家发现：他们上网的方式可以有创意，甚至挺有益。",
+      "structMarkup": "(Indeed), 【social scientists】 {who study young people} _have found_ ~{that their digital use can be inventive and even beneficial}~.",
+      "structureSummary": "副词 + 主语（带定语从句）+ 谓谓 + that 宾语从句",
+      "components": [
+        { "part": "Indeed", "role": "副词", "note": "的确，加强肯定" },
+        { "part": "social scientists", "role": "主语", "note": "社会科学家" },
+        { "part": "who study young people", "role": "定语从句", "note": "修饰 scientists" },
+        { "part": "have found", "role": "谓语", "note": "现在完成时" },
+        { "part": "that their digital use can be inventive and even beneficial", "role": "宾语从句", "note": "can be + 并列形容词" }
+      ],
+      "clauses": [
+        "who 引导定语从句修饰 scientists，谓语 have found 与主语一致。",
+        "their 指 young people（不是 scientists）——代词指代要读准。",
+        "can be + 形容词：表可能性。",
+        "even beneficial：even 表递进「甚至」。"
+      ],
+      "phrases": [
+        { "text": "digital use", "meaning": "数字设备/网络的使用", "usage": "不可数；类似 screen time。", "example": "Digital use varies by age. 数字设备使用情况因年龄而异。" },
+        { "text": "inventive and beneficial", "meaning": "有创造性的且有益的", "usage": "两个形容词并列作表语。", "example": "The approach is both inventive and beneficial. 这个方法既有创意又有益。" }
+      ],
+      "pitfalls": [
+        "their 指 young people，不是 scientists。",
+        "digital use 不可数，不加 -s。",
+        "have found 是现在完成时，表研究结论至今有效。"
+      ],
+      "paragraphRole": "引入正面研究结论，与上段的恐慌形成对照。"
+    },
+    "3-1": {
+      "translationLiteral": "这不仅在社交生活方面如此，在教育方面也是如此。",
+      "translationNatural": "这不光在社交上成立，在教育上也一样。",
+      "structMarkup": "【This】 _is_ ~true~ (not just in terms of their social lives, but their education too).",
+      "structureSummary": "主系表 + 范围状语（not just... but... too）",
+      "components": [
+        { "part": "This", "role": "主语", "note": "指上句的研究发现" },
+        { "part": "is", "role": "系动词", "note": "单数" },
+        { "part": "true", "role": "表语", "note": "成立的、属实的" },
+        { "part": "not just in terms of their social lives, but their education too", "role": "范围状语", "note": "并列两个领域" }
+      ],
+      "clauses": [
+        "not just ... but ... too：不仅……而且……，与 not only...but also 同义。",
+        "in terms of：就……而言、在……方面。",
+        "their 指青少年。"
+      ],
+      "phrases": [
+        { "text": "in terms of", "meaning": "就……而言、在……方面", "usage": "后接名词或动名词；写作高频。", "example": "In terms of cost, it is competitive. 就成本而言，它有竞争力。" },
+        { "text": "not just ... but ... too", "meaning": "不仅……而且……", "usage": "并列两个成分，语气比 not only...but also 略口语。", "example": "It helps not just students but teachers too. 这不仅帮学生，也帮老师。" }
+      ],
+      "pitfalls": [
+        "not just...but...too 中 too 置于句末，位置固定。",
+        "in terms of 后接名词，不能接从句。",
+        "This is true 的 true 是形容词表语，不能换成 truth。"
+      ],
+      "paragraphRole": "扩大论点范围：数字使用的好处不限于社交，也延伸到教育。"
+    },
+    "3-2": {
+      "translationLiteral": "那么，如果你使用大量社交媒体，你会变得无法或者不愿意进行面对面的接触吗？",
+      "translationNatural": "那么问题来了：你要是天天泡在社交媒体上，会不会就没法、或者不愿意跟人当面打交道了？",
+      "structMarkup": "{So} {if you use a ton of social media}, _do_ 【you】 _become_ ~unable, or unwilling, to engage in face-to-face contact~?",
+      "structureSummary": "连词 + 条件从句 + 疑问句主谓 + 表语（并列形容词 + 不定式）",
+      "components": [
+        { "part": "So", "role": "连接副词", "note": "承上启下" },
+        { "part": "if you use a ton of social media", "role": "条件状语从句", "note": "一般现在时表假设" },
+        { "part": "do you become", "role": "疑问主谓", "note": "助动词 do 提前" },
+        { "part": "unable, or unwilling, to engage in face-to-face contact", "role": "表语+不定式", "note": "unable/willing 后接 to do" }
+      ],
+      "clauses": [
+        "become + 形容词：变得……，后接不定式说明具体行为。",
+        "unable to do 与 unwilling to do：前者「不能」，后者「不愿」。",
+        "engage in：参与、从事（正式用语）。"
+      ],
+      "phrases": [
+        { "text": "a ton of", "meaning": "大量的", "usage": "口语量词，可接可数或不可数。", "example": "She spends a ton of time online. 她花大量时间上网。" },
+        { "text": "engage in", "meaning": "参与、从事", "usage": "正式用语；名词形式 engagement。", "example": "They engage in frequent debate. 他们经常辩论。" },
+        { "text": "face-to-face contact", "meaning": "面对面接触", "usage": "复合形容词带连字符；contact 不可数。", "example": "Children need face-to-face contact. 孩子需要面对面交流。" }
+      ],
+      "pitfalls": [
+        "a ton of 是口语表达，正式写作宜用 a great deal of。",
+        "unable 后接 to do，不能接 doing。",
+        "face-to-face 作定语须带连字符。"
+      ],
+      "paragraphRole": "提出待检验的关键疑问，引出后文的反驳数据。"
+    },
+    "3-3": {
+      "translationLiteral": "证据表明并非如此。",
+      "translationNatural": "证据显示：不是这样。",
+      "structMarkup": "【The evidence】 _suggests_ ~not~.",
+      "structureSummary": "主谓 + 省略式宾语",
+      "components": [
+        { "part": "The evidence", "role": "主语", "note": "证据" },
+        { "part": "suggests", "role": "谓语", "note": "表明、提示" },
+        { "part": "not", "role": "省略式宾语", "note": "替代否定的宾语从句" }
+      ],
+      "clauses": [
+        "suggest not：省略式表达，等于 suggest that this is not the case。",
+        "suggest 后不接 to do；接从句或动名词。",
+        "短句独立成句，起到强调与转折作用。"
+      ],
+      "phrases": [
+        { "text": "suggest not", "meaning": "表明并非如此", "usage": "省略式，用于简洁地否定前文猜测。", "example": "The data suggests not. 数据表明并非如此。" },
+        { "text": "the evidence suggests", "meaning": "证据表明", "usage": "议论文高频句式，后接 that 从句或省略式 not。", "example": "The evidence suggests a link. 证据表明存在关联。" }
+      ],
+      "pitfalls": [
+        "suggest 后不能接 to do，也不能直接接形容词。",
+        "not 在此替代整个否定从句，不能换成 no。"
+      ],
+      "paragraphRole": "简短有力的论断，承上启下，为后文的实证铺路。"
+    },
+    "3-4": {
+      "translationLiteral": "美国智库皮尤研究中心的阿曼达·伦哈特所做的研究发现，最热衷发短信的孩子，也是最可能花时间与朋友当面相处的孩子。",
+      "translationNatural": "美国智库皮尤研究中心的阿曼达·伦哈特做过研究，发现：最爱发短信的那些孩子，恰恰也是最愿意跟朋友见面待在一起的孩子。",
+      "structMarkup": "【Research】 (by Amanda Lenhart of the Pew Research Centre, a US think tank) _found_ ~{that the most passionate texters are also the kids most likely to spend time with friends in person}~.",
+      "structureSummary": "主语 + 后置定语 + 谓语 + that 宾语从句",
+      "components": [
+        { "part": "Research", "role": "主语", "note": "研究（不可数）" },
+        { "part": "by Amanda Lenhart of the Pew Research Centre, a US think tank", "role": "后置定语", "note": "a US think tank 是同位语" },
+        { "part": "found", "role": "谓语", "note": "过去时" },
+        { "part": "that the most passionate texters are also the kids most likely to spend time with friends in person", "role": "宾语从句", "note": "从句为主系表" },
+        { "part": "most likely to spend time with friends in person", "role": "后置定语", "note": "修饰 kids，省略 who are" }
+      ],
+      "clauses": [
+        "research by sb：某人的研究，by 引出研究者。",
+        "a US think tank 作同位语，补充说明 Pew Research Centre。",
+        "most likely to do：最可能做……，作后置定语。",
+        "in person：亲自、当面。"
+      ],
+      "phrases": [
+        { "text": "in person", "meaning": "亲自、当面", "usage": "副词短语；与 by person 无关。", "example": "We met in person at last. 我们终于见面了。" },
+        { "text": "most likely to do", "meaning": "最可能做某事", "usage": "likely 后接不定式；very likely 也可。", "example": "Teens most likely to succeed 最可能成功的青少年" }
+      ],
+      "pitfalls": [
+        "in person（当面）与 in the person of（以……的身份）不同。",
+        "most likely to 作后置定语时省略了 who are。",
+        "research 不可数，不说 a research（可用 a study）。"
+      ],
+      "paragraphRole": "给出实证：发短信多的孩子线下社交并不少，直接反驳上句疑问。"
+    },
+    "3-5": {
+      "translationLiteral": "一种社交形式并不取代另一种。",
+      "translationNatural": "一种社交方式并不会取代另一种。",
+      "structMarkup": "【One form of socialising】 _doesn't replace_ ~the other~.",
+      "structureSummary": "主谓宾（否定）",
+      "components": [
+        { "part": "One form of socialising", "role": "主语", "note": "一种社交形式" },
+        { "part": "doesn't replace", "role": "谓语", "note": "不取代（强调否定）" },
+        { "part": "the other", "role": "宾语", "note": "两者中的另一个" }
+      ],
+      "clauses": [
+        "one ... the other ...：两者中一个与另一个的固定搭配。",
+        "replace A with B：用 B 取代 A；此处 replace 直接接宾语表「取代」。",
+        "socialising 是英式拼写（美式 socializing）。"
+      ],
+      "phrases": [
+        { "text": "one ... the other", "meaning": "一个……另一个（限两者）", "usage": "三者以上用 one ... another ... the other。", "example": "One is cheap; the other is fast. 一个便宜，另一个快。" },
+        { "text": "replace", "meaning": "取代、替换", "usage": "及物动词；replace A with B 表「用 B 替换 A」。", "example": "Email replaced letters. 电子邮件取代了信件。" }
+      ],
+      "pitfalls": [
+        "the other 只用于两者；三者以上用 another。",
+        "replace 是及物动词，须带宾语。",
+        "socialising 英式拼写，勿与 socializing 混用（同一词）。"
+      ],
+      "paragraphRole": "明确结论：线上社交不替代线下社交。"
+    },
+    "3-6": {
+      "translationLiteral": "它扩展了它。",
+      "translationNatural": "它是把它扩大了。",
+      "structMarkup": "【It】 _expands_ ~it~.",
+      "structureSummary": "主谓宾（两个 it 指代不同）",
+      "components": [
+        { "part": "It（主语）", "role": "主语", "note": "指线上社交（数字社交）" },
+        { "part": "expands", "role": "谓语", "note": "扩大、扩展" },
+        { "part": "it（宾语）", "role": "宾语", "note": "指线下社交（面对面社交）" }
+      ],
+      "clauses": [
+        "两个 it 指代不同对象，需回看前文判断。",
+        "expand 及物动词，表「扩大、使增加」。",
+        "极短句在议论文中用于强调结论。"
+      ],
+      "phrases": [
+        { "text": "expand", "meaning": "扩大、扩展", "usage": "及物；名词 expansion。", "example": "Online chats expand their social circle. 网上聊天扩大了他们的社交圈。" },
+        { "text": "replace vs. expand", "meaning": "替代 vs. 扩大（辨析对）", "usage": "议论文常用对立动词组：replace 表「取而代之」，expand 表「在原有基础上扩大」。", "example": "Technology expands rather than replaces old skills. 技术扩大而非取代旧技能。" }
+      ],
+      "pitfalls": [
+        "两个 it 指代不同，误读会完全颠倒句意。",
+        "expand 与 expend（花费）拼写相近，勿混。"
+      ],
+      "paragraphRole": "用极短句补强上句结论：线上社交是「扩展」而非「替代」。"
+    },
+    "4-0": {
+      "translationLiteral": "「孩子们仍然会花时间面对面相处，」伦哈特说。",
+      "translationNatural": "「孩子们还是会见面的，」伦哈特说。",
+      "structMarkup": "\"【Kids】 _still spend_ ~time~ (face to face),\" 【Lenhart】 _says_.",
+      "structureSummary": "引语（主谓宾 + 状语）+ 转述主句",
+      "components": [
+        { "part": "Kids", "role": "引语主语", "note": "孩子们" },
+        { "part": "still spend", "role": "引语谓语", "note": "仍然花（时间）" },
+        { "part": "time", "role": "引语宾语", "note": "spend time 固定搭配" },
+        { "part": "face to face", "role": "方式状语", "note": "面对面（此处不加连字符，作状语）" },
+        { "part": "Lenhart says", "role": "转述主句", "note": "一般现在时转述" }
+      ],
+      "clauses": [
+        "spend time (in) doing sth / spend time with sb：花时间做某事/陪某人。",
+        "face to face 作状语时不加连字符（作定语才加）。",
+        "转述动词用一般现在时 says，是新闻/学术引用的常见做法。"
+      ],
+      "phrases": [
+        { "text": "spend time", "meaning": "花时间", "usage": "spend time with sb / (in) doing sth。", "example": "They spend time with friends daily. 他们每天和朋友待在一起。" },
+        { "text": "face to face", "meaning": "面对面地", "usage": "作状语不加连字符；作定语用 face-to-face。", "example": "We talked face to face. 我们当面谈了。" }
+      ],
+      "pitfalls": [
+        "face to face（状语，无限连字符）与 face-to-face（定语）用法不同。",
+        "spend 的过去式为 spent，不可写 spended。",
+        "引语内句号在引号内，转述主句在后。"
+      ],
+      "paragraphRole": "用研究者原话支持上段结论，增强可信度。"
+    },
+    "4-1": {
+      "translationLiteral": "确实，随着他们长大并获得更多自由，他们常常会减少对社交网络的使用。",
+      "translationNatural": "确实，孩子越大、越自由，反而常常不那么沉迷社交网络了。",
+      "structMarkup": "(Indeed), {as they get older and are given more freedom}, 【they】 _often ease up on_ ~social networking~.",
+      "structureSummary": "副词 + as 时间状语从句 + 主谓 + 宾语",
+      "components": [
+        { "part": "Indeed", "role": "副词", "note": "确实" },
+        { "part": "as they get older and are given more freedom", "role": "时间/伴随状语从句", "note": "两个并列谓语（get / are given）" },
+        { "part": "they", "role": "主句主语", "note": "指青少年" },
+        { "part": "often ease up on", "role": "谓语", "note": "放松、减少" },
+        { "part": "social networking", "role": "宾语", "note": "社交网络使用" }
+      ],
+      "clauses": [
+        "as 引导时间状语从句，表「随着」。",
+        "the older ... the more 的隐含比较（越大越……），此处用 as 结构表达。",
+        "ease up on sth：在……上放松、减少。"
+      ],
+      "phrases": [
+        { "text": "ease up on", "meaning": "在……上放松、减少", "usage": "后接名词；同义 go easy on。", "example": "He eased up on training after the injury. 受伤后他减少了训练。" },
+        { "text": "be given more freedom", "meaning": "获得更多自由", "usage": "give sb freedom 的被动式。", "example": "Teens are given more freedom at 16. 青少年 16 岁时获得更多自由。" }
+      ],
+      "pitfalls": [
+        "ease up on 的介词是 on，不是 in。",
+        "as 在此表「随着」，不是「因为」。",
+        "are given 是被动，主语 they 是接受者。"
+      ],
+      "paragraphRole": "给出反直觉的现象：年龄增长反而减少社交网络使用。"
+    },
+    "4-2": {
+      "translationLiteral": "早期，网络是他们的「第三空间」，但到了青少年后期，随着独立性增强，它被替代了。",
+      "translationNatural": "一开始，网络是他们的「第三个空间」；可到了十七八岁，因为更独立了，这个位置就让给别人了。",
+      "structMarkup": "(Early on), 【the web】 _is_ ~their \"third space\"~, {but} (by the late teens), 【it】 _'s replaced_ (in reaction to greater independence).",
+      "structureSummary": "两个并列分句（主系表 / 主谓被动 + 状语）",
+      "components": [
+        { "part": "Early on", "role": "时间状语", "note": "早期、一开始" },
+        { "part": "the web", "role": "主语1", "note": "网络" },
+        { "part": "is their \"third space\"", "role": "系表", "note": "第三空间（家庭、学校之外的第三处）" },
+        { "part": "by the late teens", "role": "时间状语", "note": "到青少年后期" },
+        { "part": "it's replaced", "role": "谓语", "note": "被动，it 指 the web 的位置" },
+        { "part": "in reaction to greater independence", "role": "原因状语", "note": "作为对更强独立的反应" }
+      ],
+      "clauses": [
+        "third space：社会学概念，指家庭与学校之外的第三处社交场所。",
+        "by the late teens：到十七八岁时，by 表「到……为止」。",
+        "in reaction to：作为对……的反应。",
+        "it's replaced：被动语态，省略了 by other things。"
+      ],
+      "phrases": [
+        { "text": "the third space", "meaning": "第三空间（家庭、学校之外的社交场所）", "usage": "社会学用语，指非家非校的第三处。", "example": "The café serves as a third space. 咖啡馆成了第三空间。" },
+        { "text": "in reaction to", "meaning": "作为对……的反应", "usage": "后接名词；同义 in response to。", "example": "Prices fell in reaction to the news. 价格因这消息而下跌。" }
+      ],
+      "pitfalls": [
+        "by the late teens 的 by 表「到……时为止」，与 until 不同。",
+        "it's replaced 是被动（被替代），不是 it has replaced。",
+        "the web 指互联网整体，用定冠词。"
+      ],
+      "paragraphRole": "解释上句现象：网络作为「第三空间」的地位随独立性增强而让位。"
+    },
+    "4-3": {
+      "translationLiteral": "他们不得不上 Facebook，才能知道亲友之间发生了什么，但他们对它抱有矛盾心理，牛津互联网研究所研究员丽贝卡·艾农说——她在三年内访谈了约 200 名英国青少年。",
+      "translationNatural": "他们必须上 Facebook，不然就不知道亲戚朋友之间在发生什么；可他们对此心里是矛盾的，牛津互联网研究所研究员丽贝卡·艾农说——她三年里访谈了约 200 个英国青少年。",
+      "structMarkup": "【They】 _have to be_ (on Facebook), (to know what's going on among friends and family), {but} 【they】 _are_ ~ambivalent about it~, 【says Rebecca Eynon】, (a research fellow at the Oxford Internet Institute), {who has interviewed about 200 British teenagers over three years}.",
+      "structureSummary": "两个并列分句 + 插入的转述主谓（倒装）+ 同位语 + who 定语从句",
+      "components": [
+        { "part": "They have to be on Facebook", "role": "分句1", "note": "have to 表客观必要" },
+        { "part": "to know what's going on among friends and family", "role": "目的状语", "note": "what's going on 名词性从句作 know 的宾语" },
+        { "part": "they are ambivalent about it", "role": "分句2", "note": "对它有矛盾心理" },
+        { "part": "says Rebecca Eynon", "role": "转述主谓（倒装）", "note": "谓语在前、主语在后" },
+        { "part": "a research fellow at the Oxford Internet Institute", "role": "同位语", "note": "说明身份" },
+        { "part": "who has interviewed about 200 British teenagers over three years", "role": "定语从句", "note": "修饰 Eynon" }
+      ],
+      "clauses": [
+        "have to be on Facebook：have to 表客观必要（不得不）。",
+        "what's going on：名词性从句作 know 的宾语。",
+        "be ambivalent about：对……有矛盾心理。",
+        "says Rebecca Eynon：引语后的倒装转述（更常见于新闻文体）。",
+        "who 引导非限制性定语从句，补充研究者的研究经历。"
+      ],
+      "phrases": [
+        { "text": "have to", "meaning": "不得不、必须（客观必要）", "usage": "与 must（主观）相对；否定 don't have to 表「不必」。", "example": "They have to check messages daily. 他们每天不得不上线看消息。" },
+        { "text": "be ambivalent about", "meaning": "对……抱矛盾心理", "usage": "ambivalent 后接 about/towards。", "example": "She is ambivalent about the offer. 她对这份提议心情矛盾。" },
+        { "text": "what's going on", "meaning": "发生着什么、情况如何", "usage": "口语常用；正式可写 what is happening。", "example": "Nobody knew what was going on. 没人知道发生了什么。" }
+      ],
+      "pitfalls": [
+        "ambivalent（矛盾的）与 ambiguous（含糊的）不同。",
+        "says Rebecca Eynon 是倒装转述，主语在谓语之后。",
+        "what's going on 中 what 是从句主语，语序不倒装。"
+      ],
+      "paragraphRole": "引研究者的话点出关键张力：不得不用，却又心存矛盾。"
+    },
+    "4-4": {
+      "translationLiteral": "随着他们在网络生活中积累经验，他们开始调整自己的行为，与在新的沟通技能上挣扎——就像他们在现实世界中所做的那样。",
+      "translationNatural": "上网过日子过久了，他们就开始调整自己的做法，也像在现实里一样，磕磕绊绊地学新的沟通本事。",
+      "structMarkup": "{As they gain experience with living online}, 【they】 _begin to adjust_ ~their behaviour~, (struggling with new communication skills), {as they do in the real world}.",
+      "structureSummary": "as 时间状语从句 + 主谓宾 + 现在分词伴随状语 + as 方式状语从句",
+      "components": [
+        { "part": "As they gain experience with living online", "role": "时间状语从句", "note": "as 表「随着」" },
+        { "part": "they", "role": "主句主语", "note": "青少年" },
+        { "part": "begin to adjust", "role": "谓语", "note": "begin to do 开始做" },
+        { "part": "their behaviour", "role": "宾语", "note": "他们的行为" },
+        { "part": "struggling with new communication skills", "role": "伴随状语", "note": "现在分词，表同时发生" },
+        { "part": "as they do in the real world", "role": "方式状语从句", "note": "do 替代 adjust" }
+      ],
+      "clauses": [
+        "as 引导时间状语从句（随着）与方式状语从句（正如），本句两处 as 用法不同。",
+        "gain experience with：在……方面积累经验。",
+        "begin to do：开始做某事（也可 begin doing）。",
+        "as they do：do 为代动词，替代 adjust their behaviour。"
+      ],
+      "phrases": [
+        { "text": "gain experience with", "meaning": "在……方面积累经验", "usage": "也可 gain experience in doing sth。", "example": "They gained experience with online tools. 他们积累了使用在线工具的经验。" },
+        { "text": "struggle with", "meaning": "在……上挣扎、费力应对", "usage": "后接名词或动名词。", "example": "Kids struggle with new social rules. 孩子们在新社交规则上很吃力。" }
+      ],
+      "pitfalls": [
+        "两个 as 用法不同：第一个表「随着」（时间），第二个表「正如」（方式）。",
+        "as they do 中的 do 是代动词，不是实义「做」。",
+        "begin to adjust 后接宾语，不接 to do 之外的成分。"
+      ],
+      "paragraphRole": "收束该段：线上社交的技能也要靠练习习得，与线下无异。"
+    }
+  },
+  "tokens": {
+    "provoke": {
+      "phonetic": "/prəˈvəʊk/",
+      "pos": "v.",
+      "senseInContext": "引发、激起（新技术总引发代际恐慌）",
+      "collocations": ["provoke debate", "provoke anger", "provoke a reaction"],
+      "examples": ["The decision provoked widespread criticism. 这一决定招致广泛批评。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "pro-（向前）+ vocare（呼喊）",
+        "synonyms": ["trigger", "spark", "give rise to"],
+        "confusables": ["provocative（adj. 挑衅的）", "provocation（n. 挑衅）"]
+      }
+    },
+    "account": {
+      "phonetic": "/əˈkaʊnt/",
+      "pos": "n.",
+      "senseInContext": "叙述、报道（报纸上吓人的报道）",
+      "collocations": ["an account of", "first-hand account", "by all accounts"],
+      "examples": ["She gave an account of the accident. 她叙述了事故经过。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ac-（to）+ computare（计算）→ 结算→说明",
+        "synonyms": ["description", "report", "narrative"],
+        "confusables": ["account（账户；账目）", "accountable（adj. 有责任的）", "account for（解释；占）"]
+      }
+    },
+    "reflect": {
+      "phonetic": "/rɪˈflekt/",
+      "pos": "v.",
+      "senseInContext": "反映、体现（报道未反映社交全貌）",
+      "collocations": ["reflect a trend", "be reflected in", "reflect on sth"],
+      "examples": ["The data reflects a real change. 数据反映了一个真实变化。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "re-（回）+ flectere（弯曲）→ 折回",
+        "synonyms": ["show", "mirror", "represent"],
+        "confusables": ["reflection（n. 反射；反思）", "reflect on（思考）与 reflect（反映）不同"]
+      }
+    },
+    "emergence": {
+      "phonetic": "/iˈmɜːdʒəns/",
+      "pos": "n.",
+      "senseInContext": "出现、兴起（一个青少年新领域的出现）",
+      "collocations": ["the emergence of", "emergence from", "the emergence of new markets"],
+      "examples": ["The emergence of AI changed the industry. 人工智能的出现改变了这个行业。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "emerge（浮现）+ -ence",
+        "synonyms": ["appearance", "rise", "advent"],
+        "confusables": ["emergency（n. 紧急情况）", "emergent（adj. 新出现的）"]
+      }
+    },
+    "beneficial": {
+      "phonetic": "/ˌbenɪˈfɪʃl/",
+      "pos": "adj.",
+      "senseInContext": "有益的（数字使用甚至是有益的）",
+      "collocations": ["be beneficial to", "mutually beneficial", "beneficial effects"],
+      "examples": ["Exercise is beneficial to health. 运动有益健康。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "benefit（益处）+ -ial",
+        "synonyms": ["helpful", "advantageous", "favourable"],
+        "confusables": ["beneficent（adj. 行善的）", "beneficiary（n. 受益人）"]
+      }
+    },
+    "engage": {
+      "phonetic": "/ɪnˈɡeɪdʒ/",
+      "pos": "v.",
+      "senseInContext": "参与、进行（进行面对面接触）",
+      "collocations": ["engage in", "engage with", "be engaged in"],
+      "examples": ["Students engage in group work. 学生参与小组活动。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "en-（使）+ gage（保证）→ 投入",
+        "synonyms": ["participate in", "take part in", "involve oneself in"],
+        "confusables": ["engagement（n. 参与；订婚）", "engaging（adj. 迷人的）"]
+      }
+    },
+    "expand": {
+      "phonetic": "/ɪkˈspænd/",
+      "pos": "v.",
+      "senseInContext": "扩大、扩展（线上社交扩大了线下社交）",
+      "collocations": ["expand into", "expand the scope", "expand rapidly"],
+      "examples": ["The company expanded into Asia. 公司扩张到了亚洲。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ex-（向外）+ pandere（展开）",
+        "synonyms": ["enlarge", "extend", "broaden"],
+        "confusables": ["expend（v. 花费）", "expansion（n. 扩张）", "expansive（adj. 广阔的）"]
+      }
+    },
+    "ambivalent": {
+      "phonetic": "/æmˈbɪvələnt/",
+      "pos": "adj.",
+      "senseInContext": "有矛盾心理的（对社交媒体既要用又矛盾）",
+      "collocations": ["be ambivalent about", "ambivalent feelings", "deeply ambivalent"],
+      "examples": ["She felt ambivalent about leaving. 她对离开心情矛盾。"],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "ambi-（两者）+ valentia（力量）→ 两股力量并存",
+        "synonyms": ["conflicted", "torn", "uncertain"],
+        "confusables": ["ambiguous（adj. 含糊不清的）", "ambivalence（n. 矛盾心理）"]
+      }
+    }
+  }
+}

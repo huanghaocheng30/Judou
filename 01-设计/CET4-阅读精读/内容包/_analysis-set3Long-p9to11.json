@@ -1,0 +1,463 @@
+{
+  "sentences": {
+    "9-0": {
+      "translationLiteral": "当语言学家娜奥米·巴伦研究学生的即时通讯时，即便在那里，她也发现「u」代「you」这类缩写形式的用法少得令人意外；而且随着学生年龄增长，他们开始写出语法更完整的句子。",
+      "translationNatural": "语言学家娜奥米·巴伦研究学生用即时通讯时发现：就算在这种场合，像用「u」代替「you」的缩写其实少得出奇；而且孩子越大，写出来的句子反而越合乎语法。",
+      "structMarkup": "{When linguist Naomi Baron studied students' instant messaging} {even there} 【she】 _found_ ~surprisingly rare usage of short forms such as \"u\" for \"you\"~, {and} {as students got older}, 【they】 _began to write_ (in more grammatical sentences).",
+      "structureSummary": "时间状语从句 + 插入状语 + 主谓宾 + and 并列分句（内含 as 从句）",
+      "components": [
+        { "part": "When linguist Naomi Baron studied students' instant messaging", "role": "时间状语从句", "note": "职位 + 人名作主语" },
+        { "part": "even there", "role": "插入状语", "note": "即便在这种场合（强调意外）" },
+        { "part": "she", "role": "主语1", "note": "指研究者" },
+        { "part": "found surprisingly rare usage of short forms such as \"u\" for \"you\"", "role": "谓语+宾语", "note": "such as 举例" },
+        { "part": "as students got older", "role": "时间状语从句", "note": "随着学生年龄增长" },
+        { "part": "they began to write in more grammatical sentences", "role": "并列分句", "note": "begin to do + in 表方式" }
+      ],
+      "clauses": [
+        "linguist Naomi Baron：身份名词 + 人名构成同位语式主语。",
+        "surprisingly rare：程度副词修饰形容词，表「少得出奇」。",
+        "usage of short forms such as A for B：A 代替 B 的用法。",
+        "as students got older：as 表「随着」，时间状语从句。",
+        "write in more grammatical sentences：in 表「以……方式」。"
+      ],
+      "phrases": [
+        { "text": "such as", "meaning": "例如、诸如", "usage": "后接名词或名词短语，不能接从句。", "example": "Short forms such as \"u\" are rare. 像「u」这样的缩写很少见。" },
+        { "text": "usage of", "meaning": "……的用法", "usage": "usage 不可数（指使用方式）或可数（指具体用法）。", "example": "The usage of slang is declining. 俚语的使用在减少。" },
+        { "text": "begin to do sth", "meaning": "开始做某事", "usage": "也可 begin doing；后者更强调持续。", "example": "They began to write longer texts. 他们开始写更长的文字。" }
+      ],
+      "pitfalls": [
+        "surprisingly 修饰 rare，不能理解为「令人惊讶地被发现」。",
+        "in more grammatical sentences：in 在此表方式，不表位置。",
+        "instant messaging 是「即时通讯」（不可数活动），不是「即时消息」。"
+      ],
+      "paragraphRole": "用研究数据反驳「网络语言毁掉语法」的担忧。"
+    },
+    "9-1": {
+      "translationLiteral": "那是因为他们想显得更成熟，而且他们知道成年人应该怎样写。",
+      "translationNatural": "因为他们想显得成熟些，也知道大人该怎么写东西。",
+      "structMarkup": "【That】 _is_ ~because they want to appear more adult~, {and} 【they】 _know_ ~how adults are expected to write~.",
+      "structureSummary": "主系表（because 从句作表语）+ and 并列分句",
+      "components": [
+        { "part": "That", "role": "主语", "note": "指上句现象" },
+        { "part": "is", "role": "系动词", "note": "单数" },
+        { "part": "because they want to appear more adult", "role": "表语从句", "note": "because 引导，说明原因" },
+        { "part": "they", "role": "第二分句主语", "note": "指学生" },
+        { "part": "know how adults are expected to write", "role": "谓语+宾语从句", "note": "how 引导宾语从句" }
+      ],
+      "clauses": [
+        "That is because...：那是因为……（与 That is why 方向相反）。",
+        "appear + 形容词：显得……（appear 作系动词）。",
+        "how adults are expected to write：how 引导宾语从句，被动式。"
+      ],
+      "phrases": [
+        { "text": "that is because", "meaning": "那是因为", "usage": "后接原因；That is why 后接结果，方向相反。", "example": "That is because they lack practice. 那是因为他们缺乏练习。" },
+        { "text": "appear + adj.", "meaning": "显得、看起来", "usage": "appear 作系动词，后接形容词。", "example": "They want to appear confident. 他们想显得自信。" }
+      ],
+      "pitfalls": [
+        "That is because（原因）与 That is why（结果）不能互换。",
+        "appear 作系动词时后接形容词，不加 -ly。",
+        "be expected to do：被期待做某事（被动）。"
+      ],
+      "paragraphRole": "解释上句现象：孩子写得更规范，是出于想显得成熟的动机。"
+    },
+    "9-2": {
+      "translationLiteral": "显然，教青少年正式写作仍然至关重要，但发短信大概并没有破坏他们学习正式写作的能力。",
+      "translationNatural": "很明显，教孩子写正式文章还是非常重要的；但发短信大概并没有毁掉他们学这门本事的能力。",
+      "structMarkup": "(Clearly), 【teaching teens formal writing】 _is_ ~still crucial~, {but} 【texting】 _probably isn't destroying_ ~their ability to learn it~.",
+      "structureSummary": "副词 + 动名词主语 + 主系表 + but 并列分句",
+      "components": [
+        { "part": "Clearly", "role": "副词", "note": "显然（修饰全句）" },
+        { "part": "teaching teens formal writing", "role": "主语1", "note": "动名词短语，谓语用单数" },
+        { "part": "is still crucial", "role": "系表", "note": "仍然至关重要" },
+        { "part": "texting", "role": "主语2", "note": "发短信（动名词名词化）" },
+        { "part": "probably isn't destroying", "role": "谓语2", "note": "大概没有破坏（进行时否定）" },
+        { "part": "their ability to learn it", "role": "宾语2", "note": "it 指 formal writing" }
+      ],
+      "clauses": [
+        "teaching teens formal writing：teach sb sth 双宾语结构的动名词化。",
+        "动名词作主语，谓语用单数 is / isn't。",
+        "ability to learn it：it 指 formal writing。",
+        "probably 表示谨慎判断，弱化绝对语气。"
+      ],
+      "phrases": [
+        { "text": "be crucial", "meaning": "至关重要", "usage": "后接 to/for + 名词。", "example": "Practice is crucial to progress. 练习对进步至关重要。" },
+        { "text": "destroy one's ability to do", "meaning": "破坏某人做某事的能力", "usage": "ability 后接不定式。", "example": "Stress can destroy the ability to focus. 压力会破坏专注力。" }
+      ],
+      "pitfalls": [
+        "teach sb sth 是双宾语结构，不说 teach sb to sth。",
+        "动名词主语配单数谓语。",
+        "it 指 formal writing，不是 texting。"
+      ],
+      "paragraphRole": "收束该节点：正式写作仍要教，但短信并未毁掉这项能力。"
+    },
+    "10-0": {
+      "translationLiteral": "可能确实如此：与两代人之前相比，如今重度阅读的孩子更少了——那时廉价的平装书提升了阅读率。",
+      "translationNatural": "情况可能真是这样：跟两代人以前比，现在痴迷读书的孩子确实少了——那会儿便宜的平装书把阅读率带起来了。",
+      "structMarkup": "【It】 _is_ ~probably true~ {that fewer kids are heavy readers compared with two generations ago}, {when cheap paperbacks boosted rates of reading}.",
+      "structureSummary": "形式主语 + 系表 + 真正主语从句（内含比较与 when 定语从句）",
+      "components": [
+        { "part": "It", "role": "形式主语", "note": "真正主语是 that 从句" },
+        { "part": "is probably true", "role": "系表", "note": "probably 表谨慎" },
+        { "part": "that fewer kids are heavy readers compared with two generations ago", "role": "真正主语", "note": "内含比较状语" },
+        { "part": "when cheap paperbacks boosted rates of reading", "role": "非限制性定语从句", "note": "修饰 two generations ago" }
+      ],
+      "clauses": [
+        "It is true that...：形式主语句式，that 从句为真正主语。",
+        "fewer kids（更少的孩子）+ 复数动词 are。",
+        "compared with：与……相比（过去分词短语作状语）。",
+        "when 引导非限制性定语从句，先行词是 two generations ago（时间）。"
+      ],
+      "phrases": [
+        { "text": "heavy reader", "meaning": "阅读量大的人、重度读者", "usage": "heavy 在此表「大量的」，如 heavy smoker。", "example": "He is a heavy reader of history. 他大量阅读历史书。" },
+        { "text": "compared with", "meaning": "与……相比", "usage": "作状语，可置于句首或句末。", "example": "Sales rose compared with last year. 销量比去年上升。" },
+        { "text": "boost rates", "meaning": "提高比率", "usage": "boost 表「促进、提升」。", "example": "The policy boosted literacy rates. 该政策提高了识字率。" }
+      ],
+      "pitfalls": [
+        "fewer（更少，可数）与 less（更少，不可数）不同。",
+        "compared with 作状语时不需逻辑主语一致要求（不同于 compared to 的用法争议）。",
+        "when 定语从句的先行词是时间短语 two generations ago。"
+      ],
+      "paragraphRole": "承认对方的合理之处（重度阅读者确实变少），使论证更公允。"
+    },
+    "10-1": {
+      "translationLiteral": "但即便在那时，也只有少数人——也许 20%——是终身的重度阅读者，而 20 世纪 80 年代给这种文化重击的是有线电视，不是互联网。",
+      "translationNatural": "可就算在那会儿，也只有少数人——大概 20% 吧——一辈子爱读书；而 1980 年代狠狠打击这种文化的，是有线电视，不是互联网。",
+      "structMarkup": "{But} {even back then}, 【a minority of people】—(perhaps 20%)—_were_ ~lifelong heavy readers~, {and} 【it was cable TV, not the internet, that struck a blow at that culture in the 1980s】.",
+      "structureSummary": "状语 + 主系表 + and 并列的强调句（it was...that...）",
+      "components": [
+        { "part": "even back then", "role": "时间状语", "note": "即便在当时" },
+        { "part": "a minority of people", "role": "主语1", "note": "少数人（a minority of + 复数，谓语可复数）" },
+        { "part": "perhaps 20%", "role": "同位语", "note": "插入补充比例" },
+        { "part": "were lifelong heavy readers", "role": "系表", "note": "终身重度读者" },
+        { "part": "it was cable TV, not the internet, that struck a blow...", "role": "强调句", "note": "It is/was X that... 结构" },
+        { "part": "struck a blow at that culture", "role": "强调句谓语", "note": "strike a blow at 打击" }
+      ],
+      "clauses": [
+        "it was cable TV, not the internet, that...：强调句型，强调主语 cable TV（否定 the internet）。",
+        "strike a blow at：打击、重创（固定搭配）。",
+        "a minority of + 复数名词，谓语可用复数（were）。",
+        "lifelong：终身的（复合形容词）。"
+      ],
+      "phrases": [
+        { "text": "strike a blow at", "meaning": "打击、重创", "usage": "也可 strike a blow for（为……而奋斗）。", "example": "The ruling struck a blow at free speech. 该裁决重创了言论自由。" },
+        { "text": "a minority of", "meaning": "少数……", "usage": "反义 a majority of；谓语单复数视 of 后名词。", "example": "A minority of students objected. 少数学生反对。" },
+        { "text": "lifelong", "meaning": "终身的", "usage": "复合形容词，如 lifelong friend/learning。", "example": "She is a lifelong reader. 她一辈子都爱读书。" }
+      ],
+      "pitfalls": [
+        "强调句 It was X that...：去掉 It was 和 that 句子仍完整，可据此判定。",
+        "strike a blow at 的介词是 at。",
+        "even back then（即便在那时）与 even then 近义，back 加强「回溯」。"
+      ],
+      "paragraphRole": "用强调句纠正归因：真正打击阅读文化的是有线电视，不是互联网。"
+    },
+    "10-2": {
+      "translationLiteral": "不过，仍有 15% 或更多的孩子被发现非常爱读书。",
+      "translationNatural": "不过，还是能发现 15% 以上、甚至更多的孩子特别爱看书。",
+      "structMarkup": "(Still), 【15% or more of kids】 _are found_ ~to be deeply bookish~.",
+      "structureSummary": "副词 + 主语 + 谓语（被动）+ 不定式补足",
+      "components": [
+        { "part": "Still", "role": "连接副词", "note": "不过、仍然（转折）" },
+        { "part": "15% or more of kids", "role": "主语", "note": "15% 或更多的孩子" },
+        { "part": "are found", "role": "谓语", "note": "被动，研究表明" },
+        { "part": "to be deeply bookish", "role": "主语补足语", "note": "find sb to be + adj. 的被动" }
+      ],
+      "clauses": [
+        "sb is found to be + adj.：find sb to be 的被动，表研究结论。",
+        "15% or more of + 复数名词，谓语用复数 are。",
+        "deeply 修饰形容词 bookish，表程度。"
+      ],
+      "phrases": [
+        { "text": "or more", "meaning": "或更多", "usage": "常与数字连用表下限。", "example": "Ten or more people applied. 十人或更多人申请了。" },
+        { "text": "be found to be", "meaning": "被发现是、研究表明是", "usage": "find sb/sth to be 的被动式。", "example": "The method was found to be effective. 该方法被发现有效。" },
+        { "text": "bookish", "meaning": "爱读书的、书卷气的", "usage": "形容词，可中性也可略带「书呆子」意味。", "example": "He was a bookish child. 他是个爱读书的孩子。" }
+      ],
+      "pitfalls": [
+        "be found to be 不能写 be found being。",
+        "15% or more of kids 谓语用复数。",
+        "Still 在此是「不过」的转折义，不是「仍然」。"
+      ],
+      "paragraphRole": "补充数据：仍有可观比例的孩子热爱阅读，避免以偏概全。"
+    },
+    "10-3": {
+      "translationLiteral": "事实上，网络世界为孩子提供了成为有文化素养且富有创造力的人的绝佳机会，因为年轻人现在不仅能把想法发布给朋友，还能发布给全世界。",
+      "translationNatural": "其实网络给了孩子难得的机会，让他们变得爱读会写、有创造力——因为现在的年轻人写点东西，不光能给朋友看，还能给全世界看。",
+      "structMarkup": "(In fact), 【the online world】 _offers_ ~kids remarkable opportunities to become literate and creative~ {because young people can now publish ideas not just to their friends, but to the world}.",
+      "structureSummary": "副词 + 主谓双宾 + 原因状语从句（内含 not just...but...）",
+      "components": [
+        { "part": "In fact", "role": "副词短语", "note": "事实上" },
+        { "part": "the online world", "role": "主语", "note": "网络世界" },
+        { "part": "offers", "role": "谓语", "note": "offer sb sth 双宾语" },
+        { "part": "kids", "role": "间接宾语", "note": "孩子" },
+        { "part": "remarkable opportunities to become literate and creative", "role": "直接宾语", "note": "不定式作后置定语" },
+        { "part": "because young people can now publish ideas not just to their friends, but to the world", "role": "原因状语从句", "note": "not just...but... 并列" }
+      ],
+      "clauses": [
+        "offer sb sth：为某人提供某物（= offer sth to sb）。",
+        "opportunities to do sth：做某事的机会（不定式作后置定语）。",
+        "not just to their friends, but to the world：并列两个介词短语。",
+        "literate（有读写能力的）与 creative 并列作 become 的表语。"
+      ],
+      "phrases": [
+        { "text": "offer sb sth", "meaning": "为某人提供某物", "usage": "可转换为 offer sth to sb。", "example": "The site offers kids a platform. 该网站为孩子提供平台。" },
+        { "text": "not just ... but ...", "meaning": "不仅……而且……", "usage": "并列成分须一致（此处两个 to 短语）。", "example": "They write not just for marks but for readers. 他们不只为准分而写，也为读者而写。" },
+        { "text": "become literate", "meaning": "变得有读写能力", "usage": "literate 为形容词，名词 literacy。", "example": "Children become literate through reading. 孩子通过阅读识字。" }
+      ],
+      "pitfalls": [
+        "offer sb sth 不加介词 to（offer to sb 是另一形式）。",
+        "not just...but... 并列成分要一致（都是 to 短语）。",
+        "literate（形容词）与 literacy（名词）词性不同。"
+      ],
+      "paragraphRole": "正面论证：网络提供了练习读写与创造的真实机会。"
+    },
+    "10-4": {
+      "translationLiteral": "事实证明，当他们为陌生读者写作时，那种「真实的受众」意识会让他们更努力、更向前推自己一把，并创造出有力的新沟通形式。",
+      "translationNatural": "而且你会发现：一旦是写给不认识的人看，他们那种「真有人读」的感觉会让他们更拼、逼自己更进一步，还能创出很有力量的新表达方式。",
+      "structMarkup": "{And} it _turns out_ {that when they write for strangers, their sense of \"authentic audience\" makes them work harder, push themselves further, and create powerful new communicative forms}.",
+      "structureSummary": "形式主语 it + 谓语 turns out + that 从句（内含 when 从句与 make 复合宾语）",
+      "components": [
+        { "part": "it turns out", "role": "主句", "note": "turn out 表「结果是、原来」" },
+        { "part": "that when they write for strangers...", "role": "真正主语从句", "note": "that 从句内含 when 从句" },
+        { "part": "their sense of \"authentic audience\"", "role": "从句主语", "note": "真实受众意识" },
+        { "part": "makes them work harder, push themselves further, and create powerful new communicative forms", "role": "从句谓语+复合宾语", "note": "make sb do，三个并列不定式（省略 to）" }
+      ],
+      "clauses": [
+        "it turns out that...：结果是、原来（形式主语结构）。",
+        "make sb do sth：使某人做某事，不定式不带 to。",
+        "三个并列动词短语（work harder / push themselves further / create forms）共享 make them。",
+        "themselves 是反身代词，指代 they（学生）。"
+      ],
+      "phrases": [
+        { "text": "turn out", "meaning": "结果是、原来", "usage": "可接 that 从句或 to be。", "example": "It turned out that she was right. 结果证明她是对的。" },
+        { "text": "authentic audience", "meaning": "真实的受众", "usage": "教育学用语，指写作有真实读者而非只交给老师。", "example": "Blogs give students an authentic audience. 博客让学生拥有真实读者。" },
+        { "text": "push oneself further", "meaning": "逼自己更进一步", "usage": "push oneself 表「鞭策自己」。", "example": "Competition pushes them further. 竞争促使他们更进步。" }
+      ],
+      "pitfalls": [
+        "make sb do sth 中不定式不带 to，与 force sb to do 不同。",
+        "it turns out that 的 it 是形式主语，不能省略。",
+        "authentic（真实的、可信的）与 genuine 近义，但 authentic 强调「非伪造」。"
+      ],
+      "paragraphRole": "深化论点：有真实读者会提升写作投入与创造力。"
+    },
+    "11-0": {
+      "translationLiteral": "很少有人会否认，上网时间过长可能有害。",
+      "translationNatural": "大概没人会否认：上网太久确实可能有害。",
+      "structMarkup": "【Few】 _would deny_ ~{that too much time online can be harmful}~.",
+      "structureSummary": "主语（否定意义）+ 谓语 + that 宾语从句",
+      "components": [
+        { "part": "Few", "role": "主语", "note": "few 表否定「很少有人」" },
+        { "part": "would deny", "role": "谓语", "note": "would 表委婉" },
+        { "part": "that too much time online can be harmful", "role": "宾语从句", "note": "can be harmful 表可能性" }
+      ],
+      "clauses": [
+        "Few would deny that...：很少有人会否认……（弱化的肯定表达）。",
+        "too much time online：online 作后置定语修饰 time。",
+        "can be harmful：can 表「有时会」（可能性），不是能力。"
+      ],
+      "phrases": [
+        { "text": "few would deny", "meaning": "很少有人会否认", "usage": "委婉表示「普遍认同」。", "example": "Few would deny the value of sleep. 很少有人否认睡眠的价值。" },
+        { "text": "be harmful", "meaning": "有害的", "usage": "后接 to + 名词；名词 harm。", "example": "Too much screen time is harmful. 屏幕时间过多有害。" }
+      ],
+      "pitfalls": [
+        "few（几乎没有，否定）与 a few（有些，肯定）不同。",
+        "can be harmful 的 can 表可能性，不是「能够」。",
+        "time online：online 作后置定语。"
+      ],
+      "paragraphRole": "让步：承认上网过度的风险，避免论证显得片面。"
+    },
+    "11-1": {
+      "translationLiteral": "有些危险是情感层面的：在远处伤害一个人，与当面伤害他，是不一样的。",
+      "translationNatural": "有些危险是情感上的：隔着屏幕伤人，跟当面伤人，不是一回事。",
+      "structMarkup": "【Some of the dangers】 _are_ ~emotional~: (hurting someone from a distance is not the same as hurting them face to face).",
+      "structureSummary": "主系表 + 冒号后的解释性分句（动名词作主语）",
+      "components": [
+        { "part": "Some of the dangers", "role": "主语", "note": "其中一些危险" },
+        { "part": "are", "role": "系动词", "note": "复数" },
+        { "part": "emotional", "role": "表语", "note": "情感层面的" },
+        { "part": "hurting someone from a distance", "role": "冒号后分句主语1", "note": "动名词短语" },
+        { "part": "is not the same as hurting them face to face", "role": "冒号后谓语+比较", "note": "the same as 比较结构" }
+      ],
+      "clauses": [
+        "A is not the same as B：A 与 B 不同（the same as 比较结构）。",
+        "hurting... 动名词作主语，谓语用单数 is。",
+        "from a distance：从远处（抽象距离）。",
+        "face to face 作状语，不加连字符。"
+      ],
+      "phrases": [
+        { "text": "the same as", "meaning": "与……相同", "usage": "the same as 后接名词或从句；否定式表「不同」。", "example": "Online chat is not the same as talking. 网上聊天和面对面说话不一样。" },
+        { "text": "from a distance", "meaning": "从远处、隔着距离", "usage": "可指物理距离，也可指心理距离。", "example": "He watched from a distance. 他在远处看着。" }
+      ],
+      "pitfalls": [
+        "the same as 不能写 the same like。",
+        "hurting 作主语，谓语用单数 is。",
+        "them 指 someone（单数用 they/them 表性别中立）。"
+      ],
+      "paragraphRole": "指出网络伤害的特殊性（情感层面），补充风险的维度。"
+    },
+    "11-2": {
+      "translationLiteral": "如果我们运气好，法律环境会发生变化，使青少年的网络生活不太可能在日后困扰他们。",
+      "translationNatural": "运气好的话，法律环境会变，让孩子们的网上生活不那么容易在将来给他们惹麻烦。",
+      "structMarkup": "{If we're lucky}, 【the legal environment】 _will change_ (to make teenagers' online lives less likely to haunt them later on).",
+      "structureSummary": "条件状语从句 + 主谓 + 目的状语（内含 make 复合宾语）",
+      "components": [
+        { "part": "If we're lucky", "role": "条件状语从句", "note": "如果运气好" },
+        { "part": "the legal environment", "role": "主语", "note": "法律环境" },
+        { "part": "will change", "role": "谓语", "note": "将来时" },
+        { "part": "to make teenagers' online lives less likely to haunt them later on", "role": "目的状语", "note": "make + 宾语 + 形容词补足" }
+      ],
+      "clauses": [
+        "if we're lucky：口语化条件从句，表「运气好的话」。",
+        "make sth less likely：使某事更不可能（make + 宾语 + 形容词）。",
+        "be likely to do：可能做某事。",
+        "haunt sb：缠绕某人、（往事）困扰某人。"
+      ],
+      "phrases": [
+        { "text": "be likely to do", "meaning": "可能做某事", "usage": "less likely to do 表「不太可能」。", "example": "They are less likely to repeat it. 他们不太可能再犯。" },
+        { "text": "haunt sb", "meaning": "（往事）困扰某人、缠绕某人", "usage": "本义「闹鬼」，引申为「挥之不去地困扰」。", "example": "Old posts can haunt you. 旧帖可能日后缠上你。" },
+        { "text": "later on", "meaning": "日后、以后", "usage": "副词短语，常与将来时连用。", "example": "It may matter later on. 以后可能会有影响。" }
+      ],
+      "pitfalls": [
+        "make sth + adj.（less likely）是复合宾语结构，不加 to be 也可。",
+        "haunt 在此是比喻义「困扰」，不是「闹鬼」。",
+        "teenagers' online lives：所有格 teenagers'，注意撇号位置。"
+      ],
+      "paragraphRole": "提出制度层面的解决方向：法律环境改变。"
+    },
+    "11-3": {
+      "translationLiteral": "就在上周，加利福尼亚州通过了一项法律，允许未成年人要求互联网公司删除他们的数字过往，欧盟也已考虑类似立法。",
+      "translationNatural": "就在上周，加州通过法律，允许未成年人要求互联网公司删掉他们的「数字过去」；欧盟也在考虑类似的立法。",
+      "structMarkup": "(Just last week), 【California】 _passed_ ~a law~ (allowing minors to demand that internet firms erase their digital past) {and} 【the EU】 _has considered_ ~similar legislation~.",
+      "structureSummary": "时间状语 + 第一分句（主谓宾 + 现在分词后置定语）+ and 第二分句",
+      "components": [
+        { "part": "Just last week", "role": "时间状语", "note": "就在上周" },
+        { "part": "California", "role": "主语1", "note": "加利福尼亚州" },
+        { "part": "passed a law", "role": "谓语+宾语", "note": "通过了一项法律" },
+        { "part": "allowing minors to demand that...", "role": "现在分词后置定语", "note": "修饰 law，说明法律内容" },
+        { "part": "the EU", "role": "主语2", "note": "欧盟" },
+        { "part": "has considered similar legislation", "role": "谓语+宾语", "note": "现在完成时" }
+      ],
+      "clauses": [
+        "allowing minors to demand：allow sb to do（允许某人做）。",
+        "demand that internet firms erase...：demand 后从句用虚拟语气（should) do。",
+        "the EU has considered：the EU 视为单数，用 has。",
+        "similar legislation：类似立法（legislation 不可数）。"
+      ],
+      "phrases": [
+        { "text": "allow sb to do sth", "meaning": "允许某人做某事", "usage": "不写 allow sb doing。", "example": "The law allows minors to delete data. 该法律允许未成年人删除数据。" },
+        { "text": "demand that", "meaning": "要求……", "usage": "从句用虚拟语气 (should) + 动词原形。", "example": "They demanded that he resign. 他们要求他辞职。" },
+        { "text": "legislation", "meaning": "立法、法规", "usage": "不可数名词；一条法律是 a piece of legislation。", "example": "The EU passed new legislation. 欧盟通过了新立法。" }
+      ],
+      "pitfalls": [
+        "demand that 从句用 (should) erase，不用 erases。",
+        "legislation 不可数，不说 a legislation。",
+        "the EU 作主语视为单数。"
+      ],
+      "paragraphRole": "用加州与欧盟的实际立法，证明「制度纠偏」已在发生。"
+    }
+  },
+  "tokens": {
+    "crucial": {
+      "phonetic": "/ˈkruːʃl/",
+      "pos": "adj.",
+      "senseInContext": "至关重要的（教正式写作仍然关键）",
+      "collocations": ["be crucial to/for", "play a crucial role", "absolutely crucial"],
+      "examples": ["Sleep is crucial for memory. 睡眠对记忆至关重要。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "crux（十字、关键）",
+        "synonyms": ["vital", "essential", "critical"],
+        "confusables": ["crucially（adv.）", "crucible（n. 坩埚）"]
+      }
+    },
+    "boost": {
+      "phonetic": "/buːst/",
+      "pos": "v.",
+      "senseInContext": "提升、促进（廉价平装书提升了阅读率）",
+      "collocations": ["boost sales", "boost confidence", "a boost to"],
+      "examples": ["The campaign boosted sales by 20%. 这场活动使销量提升 20%。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "来源不明，19 世纪美语",
+        "synonyms": ["raise", "increase", "lift"],
+        "confusables": ["boast（v. 吹嘘）", "boost 可作名词 a boost"]
+      }
+    },
+    "minority": {
+      "phonetic": "/maɪˈnɒrəti/",
+      "pos": "n.",
+      "senseInContext": "少数（只有少数人是终身重度阅读者）",
+      "collocations": ["a minority of", "ethnic minority", "in the minority"],
+      "examples": ["Only a minority supported the plan. 只有少数人支持该计划。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "minor（较小的）+ -ity",
+        "synonyms": ["small number", "few"],
+        "confusables": ["majority（n. 多数）", "minor（adj. 次要的）"]
+      }
+    },
+    "bookish": {
+      "phonetic": "/ˈbʊkɪʃ/",
+      "pos": "adj.",
+      "senseInContext": "爱读书的、书卷气的（15% 以上的孩子爱读书）",
+      "collocations": ["a bookish child", "bookish interests", "quietly bookish"],
+      "examples": ["He was a bookish teenager. 他是个爱读书的少年。"],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "book（书）+ -ish",
+        "synonyms": ["studious", "literary", "scholarly"],
+        "confusables": ["booked（adj. 已预订的）", "bookish 可能带「书呆子」意味"]
+      }
+    },
+    "literate": {
+      "phonetic": "/ˈlɪtərət/",
+      "pos": "adj.",
+      "senseInContext": "有读写能力的、有文化素养的",
+      "collocations": ["computer literate", "digitally literate", "fully literate"],
+      "examples": ["Adults should be digitally literate. 成年人应具备数字素养。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "littera（字母）+ -ate",
+        "synonyms": ["educated", "lettered", "well-read"],
+        "confusables": ["literacy（n. 读写能力）", "literal（adj. 字面的）", "literary（adj. 文学的）"]
+      }
+    },
+    "authentic": {
+      "phonetic": "/ɔːˈθentɪk/",
+      "pos": "adj.",
+      "senseInContext": "真实的、真正的（真实受众意识）",
+      "collocations": ["authentic audience", "authentic experience", "authentic materials"],
+      "examples": ["Students need an authentic audience. 学生需要真实的读者群。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "authentes（原作者）",
+        "synonyms": ["genuine", "real", "bona fide"],
+        "confusables": ["authoritative（adj. 权威的）", "authenticity（n. 真实性）"]
+      }
+    },
+    "deny": {
+      "phonetic": "/dɪˈnaɪ/",
+      "pos": "v.",
+      "senseInContext": "否认（很少有人会否认上网过度有害）",
+      "collocations": ["deny that...", "deny doing sth", "deny sb sth"],
+      "examples": ["He denied taking the money. 他否认拿了钱。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "de-（加强）+ negare（否认）",
+        "synonyms": ["reject", "refute", "contradict"],
+        "confusables": ["deny doing（不是 deny to do）", "denial（n. 否认）", "refuse（拒绝）与 deny 不同"]
+      }
+    },
+    "legislation": {
+      "phonetic": "/ˌledʒɪsˈleɪʃn/",
+      "pos": "n.",
+      "senseInContext": "立法、法规（欧盟考虑类似立法）",
+      "collocations": ["pass legislation", "new legislation", "legislation on sth"],
+      "examples": ["Parliament passed new legislation. 议会通过了新法规。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "legis（法律）+ latio（提出）",
+        "synonyms": ["law", "statute", "regulation"],
+        "confusables": ["legislature（n. 立法机关）", "legislative（adj. 立法的）", "legislation 不可数"]
+      }
+    }
+  }
+}

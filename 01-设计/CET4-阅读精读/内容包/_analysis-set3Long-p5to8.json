@@ -1,0 +1,562 @@
+{
+  "sentences": {
+    "5-0": {
+      "translationLiteral": "父母们担心孩子不在乎隐私，这种担心是错的。",
+      "translationNatural": "家长担心孩子不在乎隐私，其实这担心是错的。",
+      "structMarkup": "【Parents】 _are_ ~wrong~ (to worry {that kids don't care about privacy}).",
+      "structureSummary": "主系表 + 不定式（说明在哪方面错）",
+      "components": [
+        { "part": "Parents", "role": "主语", "note": "父母们（复数泛指）" },
+        { "part": "are", "role": "系动词", "note": "复数" },
+        { "part": "wrong", "role": "表语", "note": "错的" },
+        { "part": "to worry that kids don't care about privacy", "role": "不定式状语", "note": "说明「在哪件事上错」" }
+      ],
+      "clauses": [
+        "be wrong to do sth：做某事是错的（对某行为作评价）。",
+        "worry that...：担心……（后接从句）。",
+        "care about：在乎、关心。"
+      ],
+      "phrases": [
+        { "text": "be wrong to do sth", "meaning": "做某事是错的", "usage": "评价某人行为；与 be wrong about（对某事判断错）不同。", "example": "You were wrong to blame her. 你怪她是错的。" },
+        { "text": "care about", "meaning": "在乎、关心", "usage": "后接名词或从句；care for 表「照顾」。", "example": "Teens do care about privacy. 青少年确实在乎隐私。" }
+      ],
+      "pitfalls": [
+        "be wrong to do（行为错）与 be wrong about（判断错）搭配不同。",
+        "care about（在乎）与 care for（照顾）有别。",
+        "privacy 不可数，不加 a。"
+      ],
+      "paragraphRole": "提出常见误解（孩子不在乎隐私），为下句的反证立靶。"
+    },
+    "5-1": {
+      "translationLiteral": "事实上，他们会花上几个小时修改 Facebook 的设置，或者使用像 Snapchat 这样的阅后即焚分享工具，以尽量减少自己的痕迹。",
+      "translationNatural": "其实他们会花好几个钟头改 Facebook 的隐私设置，或者用 Snapchat 那种「看完就删」的工具，就为了少留点痕迹。",
+      "structMarkup": "(In fact), 【they】 _spend_ ~hours~ (changing Facebook settings {or} using quick-delete sharing tools, such as Snapchat), (to minimise their traces).",
+      "structureSummary": "副词 + 主谓宾 + 两个并列动名词（spend time doing）+ 目的不定式",
+      "components": [
+        { "part": "In fact", "role": "副词短语", "note": "事实上（转折）" },
+        { "part": "they", "role": "主语", "note": "青少年" },
+        { "part": "spend", "role": "谓语", "note": "spend time doing 结构" },
+        { "part": "hours", "role": "宾语", "note": "好几个小时" },
+        { "part": "changing Facebook settings or using quick-delete sharing tools, such as Snapchat", "role": "方式状语", "note": "两个并列动名词" },
+        { "part": "to minimise their traces", "role": "目的状语", "note": "不定式表目的" }
+      ],
+      "clauses": [
+        "spend time (in) doing sth：花时间做某事，动词用 -ing。",
+        "or 连接两个并列动名词短语，都作 spend 的方式状语。",
+        "such as Snapchat：举例，such as 后接名词。",
+        "to minimise：不定式表目的。"
+      ],
+      "phrases": [
+        { "text": "spend time doing sth", "meaning": "花时间做某事", "usage": "动词须用 -ing，不能接 to do。", "example": "They spend hours editing photos. 他们花好几个小时修图。" },
+        { "text": "such as", "meaning": "例如、诸如", "usage": "后接名词，不能接从句；与 for example 用法不同。", "example": "Tools such as Snapchat are popular. 像 Snapchat 这样的工具很流行。" },
+        { "text": "minimise traces", "meaning": "减少痕迹", "usage": "minimise 英式拼写（美式 minimize）。", "example": "They use apps to minimise traces. 他们用应用减少痕迹。" }
+      ],
+      "pitfalls": [
+        "spend time doing 不能写 spend time to do。",
+        "such as 后接名词，不能接句子。",
+        "minimise 英式拼写，美式为 minimize（同一词）。"
+      ],
+      "paragraphRole": "用具体行为反证上句：青少年其实很在意隐私。"
+    },
+    "5-2": {
+      "translationLiteral": "或者他们在 Instagram 上发一张照片，与朋友愉快地聊上一阵，然后把它删掉，以便不留任何痕迹。",
+      "translationNatural": "再不然就是在 Instagram 发张照片，跟朋友聊得挺开心，然后删掉，什么痕迹都不留。",
+      "structMarkup": "{Or} 【they】 _post_ ~a photograph~ (on Instagram), _have_ ~a pleasant conversation with friends~ {and} _then delete_ ~it~ {so that no traces remain}.",
+      "structureSummary": "三个并列谓语 + so that 目的状语从句",
+      "components": [
+        { "part": "Or", "role": "并列连词", "note": "或者（承接上句的另一种做法）" },
+        { "part": "they", "role": "主语", "note": "青少年" },
+        { "part": "post a photograph on Instagram", "role": "谓语1+宾语", "note": "在 Instagram 发照片" },
+        { "part": "have a pleasant conversation with friends", "role": "谓语2+宾语", "note": "与朋友愉快交谈" },
+        { "part": "then delete it", "role": "谓语3+宾语", "note": "然后删掉（it 指照片）" },
+        { "part": "so that no traces remain", "role": "目的状语从句", "note": "以便不留痕迹" }
+      ],
+      "clauses": [
+        "三个谓语（post / have / delete）由 and then 串联，共享主语 they。",
+        "have a conversation with sb：与某人交谈（have 是万能动词）。",
+        "so that + 从句：表目的，从句常带 can/may 或直接用陈述。",
+        "it 指前文的 a photograph。"
+      ],
+      "phrases": [
+        { "text": "have a conversation with", "meaning": "与……交谈", "usage": "have 替代具体动词；也可说 hold a conversation。", "example": "She had a long conversation with her mentor. 她和导师长谈了一次。" },
+        { "text": "so that", "meaning": "以便、为了（引导目的从句）", "usage": "后接完整从句；与 so...that（如此……以至于）不同。", "example": "They whisper so that nobody hears. 他们小声说以免被人听到。" }
+      ],
+      "pitfalls": [
+        "so that（目的）与 so ... that（结果）结构不同。",
+        "have a conversation 不用 do a conversation。",
+        "delete it：it 指照片，不是账号。"
+      ],
+      "paragraphRole": "与上句并列，进一步举例说明青少年的隐私意识。"
+    },
+    "6-0": {
+      "translationLiteral": "这并不是说孩子们总是能做出好的判断。",
+      "translationNatural": "这倒不是说孩子们总能做出明智判断。",
+      "structMarkup": "【This】 _is not_ ~to say~ {that kids always use good judgment}.",
+      "structureSummary": "主系表（不定式作表语）+ that 从句（作 say 的宾语）",
+      "components": [
+        { "part": "This", "role": "主语", "note": "指上文的说法" },
+        { "part": "is not to say", "role": "系表结构", "note": "并不是说（让步性限定）" },
+        { "part": "that kids always use good judgment", "role": "宾语从句", "note": "作 say 的宾语" }
+      ],
+      "clauses": [
+        "This is not to say that...：并不是说……，用于限定前面的结论，避免绝对化。",
+        "use good judgment：做出好判断（judgment 不可数）。",
+        "always 与 not 的位置：not 否定的是 to say，不是 always。"
+      ],
+      "phrases": [
+        { "text": "this is not to say that", "meaning": "这并不是说……", "usage": "议论文中用于限定、补充例外。", "example": "This is not to say the plan is perfect. 这并不是说计划完美无缺。" },
+        { "text": "use good judgment", "meaning": "做出好的判断", "usage": "judgment 不可数；美式拼写 judgment，英式 judgement。", "example": "Teens can use good judgment online. 青少年在网上能做出正确判断。" }
+      ],
+      "pitfalls": [
+        "not 否定的是 to say，不是 always——语义须读准。",
+        "judgment 不可数，不说 a good judgment（可数时指「判决」）。",
+        "be to do 在此表「意味着」，不是将来。"
+      ],
+      "paragraphRole": "让步性限定——承认青少年也会判断失误，使论证更客观。"
+    },
+    "6-1": {
+      "translationLiteral": "和所有人一样，他们会犯错——有时是严重的错误。",
+      "translationNatural": "跟大家一样，他们也会犯错，有时候错得还不轻。",
+      "structMarkup": "(Like everyone else), 【they】 _make_ ~mistakes~—(sometimes serious ones).",
+      "structureSummary": "比较状语 + 主谓宾 + 破折号补充",
+      "components": [
+        { "part": "Like everyone else", "role": "比较状语", "note": "像其他人一样（like 为介词）" },
+        { "part": "they", "role": "主语", "note": "青少年" },
+        { "part": "make", "role": "谓语", "note": "make mistakes 固定搭配" },
+        { "part": "mistakes", "role": "宾语", "note": "错误（复数）" },
+        { "part": "sometimes serious ones", "role": "破折号补充", "note": "ones 替代 mistakes" }
+      ],
+      "clauses": [
+        "Like everyone else：like 是介词，后接名词；不能换成 as（as 后接从句）。",
+        "make mistakes：犯错，用 make 不用 do。",
+        "ones 替代前文的 mistakes，避免重复。"
+      ],
+      "phrases": [
+        { "text": "make mistakes", "meaning": "犯错", "usage": "mistake 可数；make a mistake 单数。", "example": "Everyone makes mistakes. 人人都会犯错。" },
+        { "text": "like everyone else", "meaning": "像其他人一样", "usage": "like 为介词；正式文体也可用 as everyone else does。", "example": "Like everyone else, he needs sleep. 和所有人一样，他需要睡眠。" }
+      ],
+      "pitfalls": [
+        "like（介词）与 as（连词）不能互换：as everyone else does 才对。",
+        "make mistakes 不用 do mistakes。",
+        "ones 替代复数名词，it 替代单数。"
+      ],
+      "paragraphRole": "补充说明：青少年也会犯错，与上句的让步呼应。"
+    },
+    "6-2": {
+      "translationLiteral": "但弄清楚在网上该如何举止，是一项新的社交技能。",
+      "translationNatural": "可「在网上该怎么表现」这件事，本身就是一门新的社交技能。",
+      "structMarkup": "{But} 【working out how to behave online】 _is_ ~a new social skill~.",
+      "structureSummary": "动名词短语作主语 + 主系表",
+      "components": [
+        { "part": "But", "role": "转折连词", "note": "转折" },
+        { "part": "working out how to behave online", "role": "主语", "note": "动名词短语，谓语用单数" },
+        { "part": "how to behave online", "role": "宾语", "note": "疑问词 + 不定式作 work out 的宾语" },
+        { "part": "is", "role": "系动词", "note": "单数，与动名词主语一致" },
+        { "part": "a new social skill", "role": "表语", "note": "一项新社交技能" }
+      ],
+      "clauses": [
+        "动名词短语作主语，谓语用单数 is。",
+        "work out：弄清楚、想明白（短语动词）。",
+        "how to do sth：疑问词 + 不定式，作宾语。"
+      ],
+      "phrases": [
+        { "text": "work out", "meaning": "弄清楚、解决；也有「锻炼」义", "usage": "含义随语境：work out a problem（解决）/ work out at the gym（健身）。", "example": "They must work out the new rules. 他们得弄清新规则。" },
+        { "text": "how to behave", "meaning": "如何举止、如何表现", "usage": "疑问词 + 不定式，常作宾语。", "example": "Kids learn how to behave online. 孩子学习网上如何举止。" }
+      ],
+      "pitfalls": [
+        "working out 作主语，谓语用单数。",
+        "behave 是不及物动词，不加宾语（behave oneself 例外）。",
+        "how to behave：疑问词后接不定式，不接从句时也常见。"
+      ],
+      "paragraphRole": "把「上网得体」重新定义为需要学习的新技能，为后文「给孩子时间」铺垫。"
+    },
+    "6-3": {
+      "translationLiteral": "虽然网上有大量戏剧性事件和混乱，但对大多数青少年来说，它并不是一个无休止的侵害循环：皮尤的一项研究发现，只有 15% 的青少年说在过去 12 个月里有人在网上欺凌过他们。",
+      "translationNatural": "网上确实乱七八糟的事不少，可对大多数青少年来说，它还不至于变成一个没完没了的受害循环：皮尤的一项调查发现，只有 15% 的青少年说过去一年里在网上被人欺负过。",
+      "structMarkup": "{While there's plenty of drama and messiness online}, 【it】 _is not_, (for most teens), ~a cycle of non-stop abuse~: 【a Pew study】 _found_ {only 15% of teens said someone had bullied them online in the last 12 months}.",
+      "structureSummary": "让步状语从句 + 主系表（带插入语）+ 冒号后的证据句",
+      "components": [
+        { "part": "While there's plenty of drama and messiness online", "role": "让步状语从句", "note": "while 表「虽然」" },
+        { "part": "it", "role": "主语", "note": "指网络环境" },
+        { "part": "is not", "role": "系动词否定", "note": "否定判断" },
+        { "part": "for most teens", "role": "插入语", "note": "对大多数青少年来说" },
+        { "part": "a cycle of non-stop abuse", "role": "表语", "note": "无休止的侵害循环" },
+        { "part": "a Pew study found...", "role": "证据句", "note": "冒号后引用研究数据" }
+      ],
+      "clauses": [
+        "while 在句首表让步（虽然），不是「当……时」。",
+        "there's plenty of：有大量（plenty of 接不可数或复数）。",
+        "for most teens 作插入语，限定判断的范围。",
+        "had bullied：过去完成时，表「在过去 12 个月中（此前）发生过」。"
+      ],
+      "phrases": [
+        { "text": "plenty of", "meaning": "大量的", "usage": "接不可数名词或复数名词。", "example": "There's plenty of evidence. 有大量证据。" },
+        { "text": "a cycle of", "meaning": "……的循环", "usage": "后接名词；常见 a vicious cycle（恶性循环）。", "example": "It became a cycle of blame. 它变成了互相指责的循环。" },
+        { "text": "bully sb", "meaning": "欺凌某人", "usage": "及物动词；名词 bullying（欺凌行为）。", "example": "He was bullied at school. 他在学校被欺负。" }
+      ],
+      "pitfalls": [
+        "while 在此是「虽然」，判断依据是主句的否定判断。",
+        "for most teens 插入语不可省略，否则「不是侵害循环」的判断失去范围限定。",
+        "had bullied 是过去完成时，与 in the last 12 months 呼应。"
+      ],
+      "paragraphRole": "用数据反驳「网络等于持续受害」的夸大叙事，落实客观立场。"
+    },
+    "7-0": {
+      "translationLiteral": "但这一切短形式的写作，肯定正在影响读写能力吧？",
+      "translationNatural": "可这么写短东西，总该影响语文能力了吧？",
+      "structMarkup": "{But} {surely} 【all this short-form writing】 _is affecting_ ~literacy~?",
+      "structureSummary": "转折 + 副词 + 主谓宾（疑问句）",
+      "components": [
+        { "part": "But", "role": "转折连词", "note": "转入新话题" },
+        { "part": "surely", "role": "副词", "note": "想必、肯定（表推断语气）" },
+        { "part": "all this short-form writing", "role": "主语", "note": "所有这类短文本写作" },
+        { "part": "is affecting", "role": "谓语", "note": "现在进行时，表正在发生" },
+        { "part": "literacy", "role": "宾语", "note": "读写能力（不可数）" }
+      ],
+      "clauses": [
+        "surely 表说话人的推断（「想必」），使反问带预设。",
+        "short-form 是复合形容词，带连字符。",
+        "现在进行时 is affecting 表「正在产生影响」。"
+      ],
+      "phrases": [
+        { "text": "short-form writing", "meaning": "短文本写作（如短信、帖子）", "usage": "short-form 为复合形容词；反义 long-form。", "example": "Short-form writing dominates social media. 短文本写作主导社交媒体。" },
+        { "text": "affect literacy", "meaning": "影响读写能力", "usage": "affect 及物动词，不加介词。", "example": "Screens may affect literacy. 屏幕可能影响读写能力。" }
+      ],
+      "pitfalls": [
+        "affect（动词，影响）与 effect（名词，效果）不能混。",
+        "literacy（读写能力）与 literature（文学）不同。",
+        "surely 表推断，不宜译成「确实」。"
+      ],
+      "paragraphRole": "提出第二个常见担忧（写作能力下降），开启新一轮论证。"
+    },
+    "7-1": {
+      "translationLiteral": "老师们当然担心。",
+      "translationNatural": "老师们当然是担心的。",
+      "structMarkup": "(Certainly), 【teachers】 _worry_.",
+      "structureSummary": "副词 + 主谓（不及物）",
+      "components": [
+        { "part": "Certainly", "role": "副词", "note": "当然、确实" },
+        { "part": "teachers", "role": "主语", "note": "老师们（复数泛指）" },
+        { "part": "worry", "role": "谓语", "note": "担心（不及物）" }
+      ],
+      "clauses": [
+        "worry 可作不及物动词（担心），也可及物式 worry sb（使担心）。",
+        "Certainly 置句首修饰全句，表「确实」。",
+        "极短句承接上文，加强语气。"
+      ],
+      "phrases": [
+        { "text": "certainly", "meaning": "当然、确实", "usage": "置句首表强调；回答问题时也表「当然」。", "example": "Certainly, there are risks. 当然，是有风险的。" },
+        { "text": "worry", "meaning": "担心（不及物）", "usage": "worry about sth / worry that...；及物时表使某人担心。", "example": "Teachers worry about literacy. 老师担心读写能力。" }
+      ],
+      "pitfalls": [
+        "worry 作不及物动词时不带宾语；作及物动词时表「使……担心」。",
+        "Certainly 与 Of course 近义，但更正式。"
+      ],
+      "paragraphRole": "简短确认教师群体的担忧，为下句具体说明铺垫。"
+    },
+    "7-2": {
+      "translationLiteral": "他们说，孩子们在写作中使用过于随意的语言和网络用语，而且对长篇阅读和复杂论证没有那么多耐心。",
+      "translationNatural": "他们说，孩子写东西时用语太随便，满篇网络腔，读长文章、看复杂论证也没那么大耐心了。",
+      "structMarkup": "【They】 _say_ ~{that kids use overly casual language and text-speak in writing, and don't have as much patience for long reading and complex arguments}~.",
+      "structureSummary": "主谓 + that 宾语从句（内含两个并列谓语）",
+      "components": [
+        { "part": "They", "role": "主语", "note": "指老师们" },
+        { "part": "say", "role": "谓语", "note": "说、称" },
+        { "part": "that kids use overly casual language and text-speak in writing", "role": "宾语从句谓语1", "note": "用过于随意的语言与网络用语" },
+        { "part": "and don't have as much patience for long reading and complex arguments", "role": "宾语从句谓语2", "note": "对长阅读与复杂论证缺乏耐心" }
+      ],
+      "clauses": [
+        "that 从句内两个并列谓语（use / don't have），共享主语 kids。",
+        "overly casual：overly 修饰形容词，表「过度地」。",
+        "as much patience for A and B：对 A 和 B 一样的耐心；as much 为量词短语。",
+        "text-speak：复合名词，指「短信式网络用语」。"
+      ],
+      "phrases": [
+        { "text": "text-speak", "meaning": "网络用语、短信体文字", "usage": "复合名词，指缩写、表情等非正式书写方式。", "example": "Text-speak is common among teens. 网络用语在青少年中很普遍。" },
+        { "text": "have patience for", "meaning": "对……有耐心", "usage": "patience 不可数；也可说 be patient with。", "example": "Few have patience for long articles. 很少有人有耐心读长文。" },
+        { "text": "overly casual", "meaning": "过于随意的", "usage": "overly 表「过度」，常含贬义。", "example": "The tone was overly casual. 语气过于随便。" }
+      ],
+      "pitfalls": [
+        "patience 不可数，不加 -s。",
+        "as much patience for：as much 修饰不可数名词。",
+        "overly（副词）修饰形容词 casual，不能换成 over。"
+      ],
+      "paragraphRole": "具体化教师的担忧：语言随意、缺乏耐心。"
+    },
+    "7-3": {
+      "translationLiteral": "然而，对大学一年级论文的研究表明，这些焦虑可能部分建立在错误的怀旧之上。",
+      "translationNatural": "可对大学新生论文的研究表明，这些焦虑里头，有一部分可能是「想当年多好」的错觉在作祟。",
+      "structMarkup": "{Yet} 【studies of first-year college papers】 _suggest_ ~{these anxieties may be partly based on misguided nostalgia}~.",
+      "structureSummary": "转折 + 主谓 + 宾语从句",
+      "components": [
+        { "part": "Yet", "role": "转折连词", "note": "然而" },
+        { "part": "studies of first-year college papers", "role": "主语", "note": "对大学一年级论文的研究" },
+        { "part": "suggest", "role": "谓语", "note": "表明（复数主语，用原形）" },
+        { "part": "these anxieties may be partly based on misguided nostalgia", "role": "宾语从句", "note": "省略 that" }
+      ],
+      "clauses": [
+        "studies 复数主语 + suggest 原形，不用 suggests。",
+        "be based on：建立在……之上。",
+        "may be partly：情态 + 副词，表「可能部分地」，语气谨慎。"
+      ],
+      "phrases": [
+        { "text": "be based on", "meaning": "建立在……之上、基于", "usage": "基础/依据类表达；被动形式常用。", "example": "The claim is based on shaky evidence. 这一说法基于不牢靠的证据。" },
+        { "text": "misguided nostalgia", "meaning": "错误的怀旧、想当然的「从前更好」", "usage": "misguided 表「被误导的」，nostalgia 不可数。", "example": "It is misguided nostalgia to think so. 这么想是一种错误的怀旧。" }
+      ],
+      "pitfalls": [
+        "studies 复数，谓语用 suggest 而非 suggests。",
+        "nostalgia 不可数，不加 a。",
+        "may be partly：部分否定式的谨慎表达，不能读成「完全是」。"
+      ],
+      "paragraphRole": "转折反驳：把教师担忧部分归因于「怀旧错觉」。"
+    },
+    "7-4": {
+      "translationLiteral": "当斯坦福大学学者安德里亚·伦斯福德收集自 1917 年以来「新生写作」课论文中错误率的数据时，她发现这些错误率与今天几乎完全相同。",
+      "translationNatural": "斯坦福大学的学者安德里亚·伦斯福德把「大一写作」课论文的错误率一路追溯到 1917 年，结果发现：当年的错误率跟今天几乎一模一样。",
+      "structMarkup": "{When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in \"freshman composition\" papers going back to 1917}, 【she】 _found_ ~{that they were virtually identical to today}~.",
+      "structureSummary": "时间状语从句 + 主谓 + that 宾语从句",
+      "components": [
+        { "part": "When Stanford University scholar Andrea Lunsford gathered data...", "role": "时间状语从句", "note": "内含同位语与后置定语" },
+        { "part": "data on the rates of errors", "role": "宾语", "note": "on 引出「关于」" },
+        { "part": "in \"freshman composition\" papers going back to 1917", "role": "后置定语", "note": "going back to 表追溯至" },
+        { "part": "she", "role": "主句主语", "note": "指 Lunsford" },
+        { "part": "found that they were virtually identical to today", "role": "主谓+宾语从句", "note": "they 指 error rates" }
+      ],
+      "clauses": [
+        "Stanford University scholar Andrea Lunsford：职位 + 人名构成同位语。",
+        "going back to 1917：现在分词短语作后置定语，表「追溯到」。",
+        "be identical to：与……完全相同。",
+        "virtually：几乎、实际上（不是「虚拟地」）。"
+      ],
+      "phrases": [
+        { "text": "be identical to", "meaning": "与……完全相同", "usage": "to 为介词；identical with 也可。", "example": "The two results are identical to each other. 两个结果完全相同。" },
+        { "text": "go back to", "meaning": "追溯到", "usage": "后接时间或地点。", "example": "Records go back to 1900. 记录可追溯到 1900 年。" },
+        { "text": "virtually identical", "meaning": "几乎完全相同", "usage": "virtually 表「几乎」，是程度副词。", "example": "The figures are virtually identical. 这些数字几乎完全相同。" }
+      ],
+      "pitfalls": [
+        "virtually 表「几乎」，不是「虚拟地」。",
+        "be identical to 后接名词，不接 that 从句。",
+        "freshman composition 是课程名，用引号标出。"
+      ],
+      "paragraphRole": "用百年数据证明「今不如昔」是错觉，直接反驳上段的担忧。"
+    },
+    "8-0": {
+      "translationLiteral": "但即便错误率保持稳定，学生的论文在篇幅和复杂度上却有了长足发展。",
+      "translationNatural": "可就算错误率没变，学生的文章在长度和复杂度上反而大幅提升了。",
+      "structMarkup": "{But} {even as error rates stayed stable}, 【student essays】 _have blossomed_ (in size and complexity).",
+      "structureSummary": "让步状语从句 + 主谓 + 范围状语",
+      "components": [
+        { "part": "But", "role": "转折连词", "note": "转折" },
+        { "part": "even as error rates stayed stable", "role": "让步状语从句", "note": "even as 表「即便在……的同时」" },
+        { "part": "student essays", "role": "主语", "note": "学生作文（复数）" },
+        { "part": "have blossomed", "role": "谓语", "note": "现在完成时，表已发生的变化" },
+        { "part": "in size and complexity", "role": "范围状语", "note": "在篇幅与复杂度上" }
+      ],
+      "clauses": [
+        "even as：表「即便在……的同时」，让步 + 同时。",
+        "stay stable：保持稳定（系表结构）。",
+        "blossom 本义「开花」，此处比喻「蓬勃发展」。",
+        "现在完成时 have blossomed 与上段的过去数据形成对照。"
+      ],
+      "phrases": [
+        { "text": "even as", "meaning": "即便在……的同时", "usage": "引导让步状语从句，兼表时间同时性。", "example": "Even as sales fell, profits rose. 即便销量下降，利润仍上升。" },
+        { "text": "stay stable", "meaning": "保持稳定", "usage": "stay 作系动词表「保持」，后接形容词。", "example": "Prices stayed stable all year. 全年价格保持稳定。" },
+        { "text": "blossom", "meaning": "开花；蓬勃发展", "usage": "比喻义常搭 blossom into。", "example": "Her talent blossomed at college. 她的才华在大学里绽放。" }
+      ],
+      "pitfalls": [
+        "even as（即便同时）与 even if（即便假设）不同。",
+        "stay 在此是系动词，后接形容词而非副词。",
+        "in size and complexity：in 表「在……方面」。"
+      ],
+      "paragraphRole": "转折推进——错误率没变，但写作规模和质量提升了。"
+    },
+    "8-1": {
+      "translationLiteral": "它们现在长了六倍，而且与过去那种「我今年夏天做了什么」的作文不同，它们提出了有证据支持的论点。",
+      "translationNatural": "现在这些文章长到六倍，而且不像过去那种「我暑假干了啥」的流水账，它们会摆出有证据支撑的论点。",
+      "structMarkup": "【They】 _are_ ~now six times longer~ {and}, (unlike older \"what I did this summer\" essays), 【they】 _offer_ ~arguments supported by evidence~.",
+      "structureSummary": "并列分句（主系表 / 主谓宾）+ 插入比较状语",
+      "components": [
+        { "part": "They", "role": "主语1", "note": "指学生作文" },
+        { "part": "are now six times longer", "role": "系表", "note": "六倍长（倍数表达）" },
+        { "part": "unlike older \"what I did this summer\" essays", "role": "比较状语（插入）", "note": "与过去那类作文不同" },
+        { "part": "they", "role": "主语2", "note": "仍指作文" },
+        { "part": "offer arguments supported by evidence", "role": "谓语+宾语", "note": "supported by evidence 为过去分词后置定语" }
+      ],
+      "clauses": [
+        "six times longer：倍数 + 比较级，表「长六倍」。",
+        "unlike + 名词：与……不同（介词）。",
+        "arguments supported by evidence：过去分词短语作后置定语。",
+        "what I did this summer 用引号标出，作 essays 的同位说明。"
+      ],
+      "phrases": [
+        { "text": "six times longer", "meaning": "长六倍", "usage": "倍数 + 比较级；three times as long as 为另一表达。", "example": "The report is three times longer than before. 报告比以前长了三倍。" },
+        { "text": "unlike", "meaning": "与……不同", "usage": "介词，后接名词；与 dislike（不喜欢）拼写不同。", "example": "Unlike older essays, these argue a point. 与旧式作文不同，这些会立论。" },
+        { "text": "arguments supported by evidence", "meaning": "有证据支持的论点", "usage": "过去分词短语作后置定语，等于 which are supported by...", "example": "Claims supported by evidence are stronger. 有证据支撑的主张更有力。" }
+      ],
+      "pitfalls": [
+        "倍数表达：six times longer（长六倍）≠ six times as long as（是……的六倍长），注意区分。",
+        "unlike（介词）与 dislike（动词）拼写相近。",
+        "supported by evidence 修饰 arguments，不是 they。"
+      ],
+      "paragraphRole": "用篇幅与论证质量的具体提升，支撑上句「论文有长足发展」。"
+    },
+    "8-2": {
+      "translationLiteral": "为什么？",
+      "translationNatural": "为什么会这样？",
+      "structMarkup": "【Why】? (【is that so】?)",
+      "structureSummary": "疑问副词独立成句（省略主谓）",
+      "components": [
+        { "part": "Why", "role": "疑问副词", "note": "询问原因" },
+        { "part": "（省略的主谓）", "role": "省略成分", "note": "完整形式为 Why is that so? / Why have essays grown longer?" }
+      ],
+      "clauses": [
+        "Why? 是省略句，独立成句用于引出下文的解释。",
+        "承接上句「论文变长、论证更强」这一现象追问原因。"
+      ],
+      "phrases": [
+        { "text": "Why?", "meaning": "为什么？（省略式追问）", "usage": "独立使用，常用于段落间引出解释。", "example": "Why? The answer is simple. 为什么？答案很简单。" },
+        { "text": "That is why...", "meaning": "这就是……的原因", "usage": "后接从句，与 That is because... 方向相反。", "example": "That is why essays are longer. 这就是文章变长的原因。" }
+      ],
+      "pitfalls": [
+        "Why? 是省略句，不能理解为不完整病句。",
+        "That is why（结果）与 That is because（原因）方向相反。"
+      ],
+      "paragraphRole": "用极短问句切换节奏，引出下一句的原因解释。"
+    },
+    "8-3": {
+      "translationLiteral": "计算机极大地提高了学生的能力：收集信息、取样不同观点、以及更流畅地写作。",
+      "translationNatural": "电脑大大提升了学生的本事——查资料、看不同观点、把文章写得更顺。",
+      "structMarkup": "【Computers】 _have vastly increased_ ~the ability of students~ (to gather information, sample different points of view and write more fluidly).",
+      "structureSummary": "主谓宾 + 不定式（三项并列）作后置定语",
+      "components": [
+        { "part": "Computers", "role": "主语", "note": "电脑（复数）" },
+        { "part": "have vastly increased", "role": "谓语", "note": "现在完成时 + 程度副词" },
+        { "part": "the ability of students", "role": "宾语", "note": "学生的能力" },
+        { "part": "to gather information, sample different points of view and write more fluidly", "role": "后置定语", "note": "三个并列不定式说明能力内容" }
+      ],
+      "clauses": [
+        "the ability to do sth：做某事的能力，不定式作后置定语。",
+        "三个不定式并列（gather / sample / write），共享 to。",
+        "sample 作动词，表「抽样、尝试体验」。",
+        "write more fluidly：more 修饰副词 fluidly。"
+      ],
+      "phrases": [
+        { "text": "the ability to do sth", "meaning": "做某事的能力", "usage": "ability 后接不定式，不接 of doing（口语偶见）。", "example": "The ability to focus matters. 专注的能力很重要。" },
+        { "text": "points of view", "meaning": "观点、视角", "usage": "复数形式；也可说 viewpoints。", "example": "Read different points of view. 读读不同观点。" },
+        { "text": "write fluidly", "meaning": "写得流畅", "usage": "fluidly 为副词修饰 write；形容词 fluid。", "example": "She writes fluidly in English. 她的英文写得很流畅。" }
+      ],
+      "pitfalls": [
+        "the ability to do，不用 the ability of doing。",
+        "sample 在此是动词「抽样、体验」，不是名词「样本」。",
+        "three 项并列不定式共享 to，后两项不再重复 to（也可重复）。"
+      ],
+      "paragraphRole": "回答上句「为什么」：电脑提升了信息获取与表达能力。"
+    }
+  },
+  "tokens": {
+    "privacy": {
+      "phonetic": "/ˈprɪvəsi/",
+      "pos": "n.",
+      "senseInContext": "隐私（青少年其实很在意隐私）",
+      "collocations": ["privacy settings", "invade privacy", "a matter of privacy"],
+      "examples": ["Teens adjust their privacy settings. 青少年会调整隐私设置。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "private（私人的）+ -cy",
+        "synonyms": ["seclusion", "confidentiality", "secrecy"],
+        "confusables": ["private（adj. 私人的）", "privacy 不可数"]
+      }
+    },
+    "judgment": {
+      "phonetic": "/ˈdʒʌdʒmənt/",
+      "pos": "n.",
+      "senseInContext": "判断力（孩子未必总能做出好判断）",
+      "collocations": ["good judgment", "use one's judgment", "in my judgment"],
+      "examples": ["Trust your own judgment. 相信你自己的判断。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "judge（判断）+ -ment",
+        "synonyms": ["discernment", "sense", "discrimination"],
+        "confusables": ["judgement（英式拼写）", "judge（v./n.）"]
+      }
+    },
+    "literacy": {
+      "phonetic": "/ˈlɪtərəsi/",
+      "pos": "n.",
+      "senseInContext": "读写能力（短文本写作是否影响读写能力）",
+      "collocations": ["digital literacy", "adult literacy", "literacy rates"],
+      "examples": ["Digital literacy is now essential. 数字素养如今必不可少。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "literate（识字的）+ -cy",
+        "synonyms": ["reading ability", "competence in reading"],
+        "confusables": ["literature（n. 文学）", "literal（adj. 字面的）", "literate（adj. 识字的）"]
+      }
+    },
+    "nostalgia": {
+      "phonetic": "/nɒˈstældʒə/",
+      "pos": "n.",
+      "senseInContext": "怀旧、对过去的怀念（对「从前更好」的错觉）",
+      "collocations": ["a sense of nostalgia", "nostalgia for", "a wave of nostalgia"],
+      "examples": ["He felt nostalgia for his school days. 他怀念学生时代。"],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "nostos（归乡）+ algos（痛苦）",
+        "synonyms": ["longing", "reminiscence", "wistfulness"],
+        "confusables": ["nostalgic（adj. 怀旧的）", "nostalgia 不可数"]
+      }
+    },
+    "virtually": {
+      "phonetic": "/ˈvɜːtʃuəli/",
+      "pos": "adv.",
+      "senseInContext": "几乎、差不多（错误率与今天几乎相同）",
+      "collocations": ["virtually impossible", "virtually identical", "virtually all"],
+      "examples": ["The two are virtually the same. 两者几乎一样。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "virtual（实质上的）+ -ly",
+        "synonyms": ["almost", "nearly", "practically"],
+        "confusables": ["virtually 不是「虚拟地」", "virtual（adj. 虚拟的；实际上的）"]
+      }
+    },
+    "identical": {
+      "phonetic": "/aɪˈdentɪkl/",
+      "pos": "adj.",
+      "senseInContext": "完全相同的（错误率与今天完全相同）",
+      "collocations": ["be identical to/with", "identical twins", "virtually identical"],
+      "examples": ["The copies are identical. 这些副本完全相同。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "idem（同一）+ -ical",
+        "synonyms": ["the same", "indistinguishable", "matching"],
+        "confusables": ["identity（n. 身份）", "identify（v. 识别）", "identically（adv.）"]
+      }
+    },
+    "blossom": {
+      "phonetic": "/ˈblɒsəm/",
+      "pos": "v.",
+      "senseInContext": "蓬勃发展、成长（论文在篇幅与复杂度上长足发展）",
+      "collocations": ["blossom into", "blossom as", "a blossoming career"],
+      "examples": ["Their friendship blossomed. 他们的友谊开花了。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "blostm（花）",
+        "synonyms": ["flourish", "thrive", "develop"],
+        "confusables": ["bloom（n./v. 开花）", "bosom（n. 胸怀）"]
+      }
+    },
+    "complexity": {
+      "phonetic": "/kəmˈpleksəti/",
+      "pos": "n.",
+      "senseInContext": "复杂性、复杂度（论文的复杂度提升）",
+      "collocations": ["the complexity of", "increasing complexity", "a high degree of complexity"],
+      "examples": ["The complexity of the issue surprised us. 问题的复杂性让我们吃惊。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "complex（复杂的）+ -ity",
+        "synonyms": ["intricacy", "sophistication", "difficulty"],
+        "confusables": ["complex（adj. 复杂的 n. 综合体）", "completion（n. 完成）"]
+      }
+    }
+  }
+}
