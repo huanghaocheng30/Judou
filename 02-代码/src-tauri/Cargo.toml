@@ -19,3 +19,5 @@ serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 # bundled：随 crate 编译 SQLite C 源码，不依赖系统 sqlite3.lib（计划评审 R1）
 rusqlite = { version = "0.32", features = ["bundled"] }
+# sentence.text_hash = sha256(text) 前 16 位（02 D3）；标准实现，不自己写哈希
+sha2 = "0.10"

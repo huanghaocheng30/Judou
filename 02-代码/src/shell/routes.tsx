@@ -1,9 +1,11 @@
 /**
- * 自写 hash 路由：8 条扁平路由（#/today … #/settings）。
+ * 自写 hash 路由（不引 react-router）：
+ * - 扁平路由表（#/today … #/settings）+ **参数化路径** `#/article/:id`（M1 新增）
+ * - 查询串（`#/library?vis=system&exam=cet4`）不参与路由匹配，交给页面自己读（文章库筛选保持）
+ * - `useReturn()`：精读页返回，修掉原型「点了没反应」的缺陷（AC7）
  *
- * ponytail: 不引 react-router —— 8 页扁平表 + 原生 `<a href="#/x">` 已够用，
- * 30 行解决；等出现嵌套路由/路由守卫/参数化路径（M1 的 #/article/:id）再评估引入，
- * 届时只改本文件的 ROUTES 与 normalize 一处。
+ * ponytail: 仍不引 react-router —— 8 条路由 + 一条 `:id` 参数用 3 个函数解决；
+ * 等出现嵌套路由/路由守卫/懒加载再评估引入。
  */
 import { useCallback, useEffect, useState, type ReactNode } from "react";
 import { Import } from "../pages/Import";
@@ -86,24 +88,62 @@ export const ROUTES: RouteDef[] = [
 
 export const DEFAULT_ROUTE = "#/today";
 
-/** 把任意 hash（含空/未知/带尾斜杠）收敛成路由表内的合法值 */
-export function normalizeHash(raw: string): string {
+/** 精读页路径前缀（`#/article/:id` 收敛成 `#/article` 参与路由匹配） */
+const ARTICLE_PREFIX = "#/article/";
+
+export interface ParsedRoute {
+  /** 路由表内的 path（带参精读页收敛为 `#/article`） */
+  path: string;
+  /** `#/article/:id` 的 id；其余路由为 undefined */
+  articleId?: number;
+  /** `?` 之后的查询串（文章库筛选/返回时保持） */
+  query: URLSearchParams;
+}
+
+/** 任意 hash（含空/未知/带尾斜杠/带查询串）→ 结构化路由 */
+export function parseHash(raw: string): ParsedRoute {
   const cleaned = raw.trim().replace(/\/+$/, "");
-  if (!cleaned) return DEFAULT_ROUTE;
   const withPrefix = cleaned.startsWith("#") ? cleaned : `#${cleaned.startsWith("/") ? "" : "/"}${cleaned}`;
-  return ROUTES.some((route) => route.path === withPrefix) ? withPrefix : DEFAULT_ROUTE;
+  const hashMark = withPrefix.indexOf("?");
+  const pathPart = hashMark >= 0 ? withPrefix.slice(0, hashMark) : withPrefix;
+  const query = new URLSearchParams(hashMark >= 0 ? withPrefix.slice(hashMark + 1) : "");
+
+  if (pathPart.startsWith(ARTICLE_PREFIX)) {
+    const id = Number(pathPart.slice(ARTICLE_PREFIX.length));
+    return { path: "#/article", articleId: Number.isInteger(id) && id > 0 ? id : undefined, query };
+  }
+  const known = ROUTES.some((route) => route.path === pathPart);
+  return { path: known ? pathPart : DEFAULT_ROUTE, query };
+}
+
+/** 结构化路由 → 规范 hash（保留查询串） */
+export function toHash(path: string, query?: URLSearchParams | string): string {
+  const text = typeof query === "string" ? query.replace(/^\?/, "") : query?.toString() ?? "";
+  return text ? `${path}?${text}` : path;
+}
+
+/**
+ * 把任意 hash 收敛成路由表内的合法值（`normalizeHash` 保留 M0 语义，但**不得丢掉参数与查询串**：
+ * `#/article/3` 收敛成 `#/article` 会让精读页路由失效——这是 CDP 断言抓到的真 bug）。
+ */
+export function normalizeHash(raw: string): string {
+  const parsed = parseHash(raw);
+  const base = parsed.path === "#/article" && parsed.articleId ? `${parsed.path}/${parsed.articleId}` : parsed.path;
+  return toHash(base, parsed.query);
 }
 
 /** 当前路由 + 导航函数（导航即改 hash，触发 hashchange） */
-export function useRoute(): [string, (next: string) => void] {
-  const [hash, setHash] = useState<string>(() => normalizeHash(window.location.hash));
+export function useRoute(): [ParsedRoute, (next: string) => void] {
+  const [route, setRoute] = useState<ParsedRoute>(() => parseHash(window.location.hash));
 
   useEffect(() => {
-    const onHashChange = () => setHash(normalizeHash(window.location.hash));
+    const onHashChange = () => setRoute(parseHash(window.location.hash));
     window.addEventListener("hashchange", onHashChange);
-    // 首帧无 hash 时补上默认路由，保证「刚启动」与「刷新」状态一致
-    if (normalizeHash(window.location.hash) !== window.location.hash) {
-      window.location.hash = normalizeHash(window.location.hash);
+    // 首帧「没有 hash」时才补默认路由；**已知路由（含带参精读页）一律不重写**，
+    // 否则会把 `#/article/3` 抹成 `#/article`（参数丢失 → 精读页打不开）。
+    const raw = window.location.hash.trim();
+    if (raw === "" || raw === "#" || raw === "#/") {
+      window.location.hash = DEFAULT_ROUTE;
     }
     return () => window.removeEventListener("hashchange", onHashChange);
   }, []);
@@ -112,9 +152,50 @@ export function useRoute(): [string, (next: string) => void] {
     window.location.hash = normalizeHash(next);
   }, []);
 
-  return [hash, navigate];
+  return [route, navigate];
 }
 
-export function findRoute(hash: string): RouteDef {
-  return ROUTES.find((route) => route.path === hash) ?? ROUTES[0];
+export function findRoute(path: string): RouteDef {
+  return ROUTES.find((route) => route.path === path) ?? ROUTES[0];
+}
+
+// ─────────────────────── 返回导航（AC7） ───────────────────────
+
+/** 文章库上一次的查询串（离开列表页时写入；返回时带回） */
+const LIBRARY_QUERY_KEY = "library.query";
+
+/** 离开文章库去精读时调用：记住当前筛选（≤ 200 字符的查询串，非敏感数据） */
+export function rememberLibraryQuery(search: string): void {
+  try {
+    sessionStorage.setItem(LIBRARY_QUERY_KEY, search.replace(/^\?/, ""));
+  } catch {
+    // sessionStorage 被禁用（隐私模式/策略）：静默退化，返回时不带筛选即可（AC7 三态之③）
+  }
+}
+
+function readLibraryQuery(): string {
+  try {
+    return sessionStorage.getItem(LIBRARY_QUERY_KEY) ?? "";
+  } catch {
+    return "";
+  }
+}
+
+/**
+ * 精读页的返回：**优先浏览器历史**（回到列表页时筛选天然还在，因为它就是同一份 URL），
+ * 没有应用内历史（新会话冷启动直接打开 `#/article/:id`）则回落 `#/library` 并带出上次查询串。
+ *
+ * 三态（02 D7）：① 同会话从列表页进来 → `history.back()` 带出 query；
+ * ② 冷启动直接开精读 → 无 marker、无历史 → `#/library` 无筛选且**不抛错**；
+ * ③ sessionStorage 不可用 → 读不到 marker → 退化成 ②。
+ */
+export function useReturn(): () => void {
+  return useCallback(() => {
+    const hasLibraryMarker = readLibraryQuery() !== "";
+    if (hasLibraryMarker && window.history.length > 1) {
+      window.history.back();
+      return;
+    }
+    window.location.hash = toHash("#/library", readLibraryQuery());
+  }, []);
 }

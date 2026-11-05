@@ -13,6 +13,9 @@
     "verify:sql": "node scripts/verify-sql.mjs",
     "verify:contrast": "node scripts/check-contrast.mjs",
     "verify:ci": "node scripts/check-ci.mjs",
+    "verify:pack": "node scripts/verify-pack.mjs",
+    "verify:import": "node scripts/verify-import.mjs",
+    "verify:render": "node scripts/verify-render.mjs",
     "test:theme": "node --test scripts/theme.test.mjs"
   },
   "dependencies": {

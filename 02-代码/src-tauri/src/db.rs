@@ -10,8 +10,12 @@ use rusqlite::{Connection, OptionalExtension};
 
 use crate::commands::CommandError;
 
-/// 迁移清单：(版本号, SQL 原文)。M0 只有 001。
-const MIGRATIONS: &[(i64, &str)] = &[(1, include_str!("../migrations/001_init.sql"))];
+/// 迁移清单：(版本号, SQL 原文)，**严格升序**、按 `schema_meta.version` 游标逐个执行。
+/// 001 已发布冻结；后续结构变更一律追加新文件（002 起），不回头改老文件。
+const MIGRATIONS: &[(i64, &str)] = &[
+    (1, include_str!("../migrations/001_init.sql")),
+    (2, include_str!("../migrations/002_add_import_columns.sql")),
+];
 
 pub struct Db {
     conn: Mutex<Connection>,
@@ -40,6 +44,34 @@ impl Db {
 
     pub fn path(&self) -> &Path {
         &self.path
+    }
+
+    /// 只读借用连接（查询用）：锁在闭包结束时释放，闭包内只应 SELECT。
+    /// 抽这一层是为了让命令层/导入核对共用一把锁，不用各自摸 `Mutex`。
+    pub fn read<T>(&self, f: impl FnOnce(&Connection) -> Result<T, CommandError>) -> Result<T, CommandError> {
+        let conn = self.lock()?;
+        f(&conn)
+    }
+
+    /// 写事务：闭包拿到 `&Transaction`（可一次 prepare 多条语句批量执行），
+    /// 返回 `Ok` 才提交，`Err` 整体回滚（导入中途失败不会留下半套数据）。
+    pub fn write<T>(
+        &self,
+        f: impl FnOnce(&rusqlite::Transaction<'_>) -> Result<T, CommandError>,
+    ) -> Result<T, CommandError> {
+        let mut conn = self.lock()?;
+        let tx = conn.transaction().map_err(|err| CommandError::db("开启写事务", err))?;
+        let value = f(&tx)?;
+        tx.commit().map_err(|err| CommandError::db("提交写事务", err))?;
+        Ok(value)
+    }
+
+    /// 连接累计写入行数（SQLite `total_changes`）。
+    /// AC3 用它做辅证：同一进程内导入前后差值 = 0 ⇒ 这次没有写任何行。
+    pub fn total_changes(&self) -> Result<i64, CommandError> {
+        let conn = self.lock()?;
+        conn.query_row("SELECT total_changes()", [], |row| row.get(0))
+            .map_err(|err| CommandError::db("读取写入计数", err))
     }
 
     fn lock(&self) -> Result<std::sync::MutexGuard<'_, Connection>, CommandError> {
@@ -142,11 +174,11 @@ mod tests {
         dir.join("judou.db")
     }
 
-    /// 首次迁移必须建出 19 张表并写 version=1。
+    /// 首次迁移必须建出 19 张表并写 version=2（001 建表 + 002 加列，两条都跑了）。
     /// 这条用例能证明失败：迁移框架若预建 schema_meta，001 的 CREATE TABLE 会撞
     /// `table schema_meta already exists`（2026-11-05 真机 dev 启动实测该错）。
     #[test]
-    fn open_creates_19_tables_and_version_1() {
+    fn open_creates_19_tables_and_version_2() {
         let path = temp_db_path("migrate");
         let db = Db::open(path.clone()).expect("首次迁移应成功");
         {
@@ -164,7 +196,40 @@ mod tests {
             let version: String = conn
                 .query_row("SELECT value FROM schema_meta WHERE key='version'", [], |row| row.get(0))
                 .expect("读 version 失败");
-            assert_eq!(version, "1");
+            assert_eq!(version, "2");
+        }
+        std::fs::remove_dir_all(path.parent().expect("有父目录")).ok();
+    }
+
+    /// 002 三列必须落地，且类型/默认值符合 02 D1（AC2 的 Rust 侧判据）。
+    /// 这条用例能证明失败：只跑 001 时三列都不存在（本包改造前实测 FAIL）。
+    #[test]
+    fn migration_002_adds_three_columns() {
+        let path = temp_db_path("cols");
+        let db = Db::open(path.clone()).expect("迁移应成功");
+        {
+            let conn = db.conn.lock().expect("锁未中毒");
+            let col = |table: &str, name: &str| -> (String, String, Option<String>) {
+                let rows: Vec<(String, String, Option<String>)> = conn
+                    .prepare(&format!("PRAGMA table_info({table})"))
+                    .expect("PRAGMA 失败")
+                    .query_map([], |row| Ok((row.get(1)?, row.get(2)?, row.get(4)?)))
+                    .expect("游标失败")
+                    .map(|row| row.expect("行读取失败"))
+                    .collect();
+                rows.into_iter()
+                    .find(|(n, _, _)| n == name)
+                    .unwrap_or_else(|| panic!("{table} 缺列 {name}"))
+            };
+            let (_, is_word_ty, is_word_default) = col("token", "is_word");
+            assert_eq!(is_word_ty, "INTEGER", "token.is_word 应为 INTEGER");
+            assert_eq!(is_word_default.as_deref(), Some("1"), "token.is_word 默认应为 1");
+            let (_, pack_ty, pack_default) = col("article", "pack_version");
+            assert_eq!(pack_ty, "TEXT", "article.pack_version 应为 TEXT");
+            assert_eq!(pack_default, None, "article.pack_version 不应有默认值");
+            let (_, count_ty, count_default) = col("article", "sentence_count");
+            assert_eq!(count_ty, "INTEGER", "article.sentence_count 应为 INTEGER");
+            assert_eq!(count_default.as_deref(), Some("0"), "sentence_count 默认应为 0");
         }
         std::fs::remove_dir_all(path.parent().expect("有父目录")).ok();
     }

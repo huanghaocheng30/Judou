@@ -1,6 +1,6 @@
-#!/usr/bin/env node
+﻿#!/usr/bin/env node
 /**
- * AC2 运行期断言：只读打开 Tauri 生成的本地库，核查 19 张物理表 / schema_meta.version /
+ * AC2 运行期断言：只读打开 Tauri 生成的本地库，核查 19 张物理表 / schema_meta.version（002 后应为 2） /
  * 6 条显式索引 / app_setting 实际值。与 verify-sql.mjs 的区别：
  *   verify-sql = 迁移 SQL 空跑（写代码时的语法与结构自检）
  *   check-tables = 真实运行期库（证明应用启动时确实建了库）
@@ -58,7 +58,7 @@ if (tables.length !== 19) { console.error(`FAIL: 表数应为 19，实测 ${tabl
 
 const version = db.prepare("SELECT value FROM schema_meta WHERE key='version'").get();
 console.log(`schema_meta.version = ${version ? version.value : "<缺失>"}`);
-if (!version || version.value !== "1") { console.error("FAIL: version 应为 1"); failed = true; }
+if (!version || version.value !== "2") { console.error("FAIL: version 应为 2（002 落地后）"); failed = true; }
 
 const indexes = db
   .prepare("SELECT name FROM sqlite_master WHERE type='index' AND name NOT LIKE 'sqlite_%' ORDER BY name")
@@ -77,4 +77,4 @@ console.log(`PRAGMA foreign_keys（只读连接，仅展示）= ${JSON.stringify
 
 db.close();
 if (failed) { console.error("FAIL: 运行期库与 02 D2 清单不符"); process.exit(1); }
-console.log("PASS: 运行期库 19 张表 / version=1 / 6 索引 全部符合");
+console.log("PASS: 运行期库 19 张表 / version=2 / 6 索引 全部符合");

@@ -110,9 +110,16 @@ for (const [theme, vars] of Object.entries(themes)) {
 }
 
 // 组件配对：「文字色 on 填充色」（R-1：既有 10 项只测「变量色 on --paper」，不覆盖组件填充底）
-// ponytail: 只做「.seg.on 动态解析 + .btn 常量」两条代表配对；全量组件映射待样式拆模块后再上 CSS 解析器。
+// ponytail: 只做三条代表配对；全量组件映射待样式拆模块后再上 CSS 解析器。
 const appCss = readFileSync(path.join(root, "src", "styles", "app.css"), "utf8");
-const segOnBody = (appCss.match(/\.seg\.on\s*\{([\s\S]*?)\}/) || [])[1] || "";
+const blockBody = (selector) => {
+  const escaped = selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return (appCss.match(new RegExp(`${escaped}\\s*\\{([\\s\\S]*?)\\}`)) || [])[1] || "";
+};
+const segOnBody = blockBody(".seg.on");
+// D-M0-6（M0 遗留债务）：`.tag` 是「强调色文字 on accent-soft 填充」，M0 实测浅色 3.73:1 不达标。
+// 每个主题各成一项判据（不是 +1）：既有 14 项 + 2 = 16 项。
+const tagBody = blockBody(".tag");
 const declOf = (body, prop) => (body.match(new RegExp(`(?:^|[\\s;])${prop}\\s*:\\s*([^;]+);`)) || [])[1]?.trim() || null;
 const resolveColor = (value, vars) => {
   const ref = value && value.match(/var\(\s*(--[a-z0-9-]+)\s*\)/);
@@ -121,6 +128,7 @@ const resolveColor = (value, vars) => {
 const COMPONENT_PAIRS = [
   ["选中态 .seg.on（文字 on 自身填充）", declOf(segOnBody, "color"), declOf(segOnBody, "background"), 4.5],
   ["按钮 .btn（--ink-2 on --paper）", "var(--ink-2)", "var(--paper)", 4.5],
+  ["标签 .tag（文字 on 自身填充）", declOf(tagBody, "color"), declOf(tagBody, "background"), 4.5],
 ];
 for (const [theme, vars] of Object.entries(themes)) {
   for (const [label, fgRaw, bgRaw, threshold] of COMPONENT_PAIRS) {
