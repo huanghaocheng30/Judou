@@ -6,19 +6,49 @@
       "structMarkup": "【We】 _did_ ~a study~ (on paternity leave) (five years ago).",
       "structureSummary": "主谓宾 + 后置定语 + 时间状语",
       "components": [
-        { "part": "We", "role": "主语", "note": "第一人称复数，指研究团队" },
-        { "part": "did", "role": "谓语", "note": "do a study 固定搭配中的动词部分" },
-        { "part": "a study", "role": "宾语", "note": "研究" },
-        { "part": "on paternity leave", "role": "后置定语", "note": "修饰 study，说明研究主题" },
-        { "part": "five years ago", "role": "时间状语", "note": "一般过去时的标志" }
+        {
+          "part": "We",
+          "role": "主语",
+          "note": "第一人称复数，指研究团队"
+        },
+        {
+          "part": "did",
+          "role": "谓语",
+          "note": "do a study 固定搭配中的动词部分"
+        },
+        {
+          "part": "a study",
+          "role": "宾语",
+          "note": "研究"
+        },
+        {
+          "part": "on paternity leave",
+          "role": "后置定语",
+          "note": "修饰 study，说明研究主题"
+        },
+        {
+          "part": "five years ago",
+          "role": "时间状语",
+          "note": "一般过去时的标志"
+        }
       ],
       "clauses": [
         "一般过去时 did：five years ago 是明确的过去时间点，不能用现在完成时。",
         "on paternity leave 是介词短语作后置定语，修饰 study，不是修饰谓语 did。"
       ],
       "phrases": [
-        { "text": "do a study on sth", "meaning": "对……做一项研究", "usage": "也可说 conduct/carry out a study on sth，do 更口语。", "example": "They did a study on sleep patterns. 他们对睡眠模式做了一项研究。" },
-        { "text": "paternity leave", "meaning": "陪产假（父亲享有的育儿假）", "usage": "paternity 指父方；maternity leave 是产假；parental leave 是父母任一方都可休的育儿假。", "example": "He took two weeks of paternity leave. 他休了两周陪产假。" }
+        {
+          "text": "do a study on sth",
+          "meaning": "对……做一项研究",
+          "usage": "也可说 conduct/carry out a study on sth，do 更口语。",
+          "example": "They did a study on sleep patterns. 他们对睡眠模式做了一项研究。"
+        },
+        {
+          "text": "paternity leave",
+          "meaning": "陪产假（父亲享有的育儿假）",
+          "usage": "paternity 指父方；maternity leave 是产假；parental leave 是父母任一方都可休的育儿假。",
+          "example": "He took two weeks of paternity leave. 他休了两周陪产假。"
+        }
       ],
       "pitfalls": [
         "paternity（父方）易与 maternity（母方）、parental（父母通用）混用。",
@@ -32,19 +62,49 @@
       "structMarkup": "(Compared with those findings), 【these numbers】 _were_ ~shocking~ (to me).",
       "structureSummary": "过去分词短语作状语 + 主系表",
       "components": [
-        { "part": "Compared with those findings", "role": "比较状语", "note": "过去分词短语，逻辑主语与主句主语 these numbers 一致" },
-        { "part": "these numbers", "role": "主语", "note": "指本次调查的数据" },
-        { "part": "were", "role": "系动词", "note": "过去时，描述研究者当时的感受" },
-        { "part": "shocking", "role": "表语", "note": "令人震惊的" },
-        { "part": "to me", "role": "对象状语", "note": "对谁而言" }
+        {
+          "part": "Compared with those findings",
+          "role": "比较状语",
+          "note": "过去分词短语，逻辑主语与主句主语 these numbers 一致"
+        },
+        {
+          "part": "these numbers",
+          "role": "主语",
+          "note": "指本次调查的数据"
+        },
+        {
+          "part": "were",
+          "role": "系动词",
+          "note": "过去时，描述研究者当时的感受"
+        },
+        {
+          "part": "shocking",
+          "role": "表语",
+          "note": "令人震惊的"
+        },
+        {
+          "part": "to me",
+          "role": "对象状语",
+          "note": "对谁而言"
+        }
       ],
       "clauses": [
         "过去分词短语 Compared with... 作状语，逻辑主语须与主句主语一致（these numbers 被拿来比较）。",
         "shocking 修饰物（令人震惊的），shocked 修饰人（感到震惊的）。"
       ],
       "phrases": [
-        { "text": "compared with/to", "meaning": "与……相比", "usage": "可置于句首作状语，也可插入句中；不要写成 Comparing with（主动形式会与主句主语错位）。", "example": "Compared with last year, profits rose 20%. 与去年相比，利润增长了 20%。" },
-        { "text": "be shocking to sb", "meaning": "对某人来说令人震惊", "usage": "同类：be surprising/surprising to sb。", "example": "The result was shocking to everyone. 这个结果让所有人都震惊。" }
+        {
+          "text": "compared with/to",
+          "meaning": "与……相比",
+          "usage": "可置于句首作状语，也可插入句中；不要写成 Comparing with（主动形式会与主句主语错位）。",
+          "example": "Compared with last year, profits rose 20%. 与去年相比，利润增长了 20%。"
+        },
+        {
+          "text": "be shocking to sb",
+          "meaning": "对某人来说令人震惊",
+          "usage": "同类：be surprising/surprising to sb。",
+          "example": "The result was shocking to everyone. 这个结果让所有人都震惊。"
+        }
       ],
       "pitfalls": [
         "误写 Comparing with those findings：主动分词要求逻辑主语是人，与 these numbers 不符。",
@@ -58,14 +118,46 @@
       "structMarkup": "\"【I】 _did not expect_ ~80% of people~ (to say {the organisation finds dads taking this leave acceptable}) {and} ~three-quarters~ (to say {it's equally supportive of women and men taking leave}),\" 【Harrington】 _said_.",
       "structureSummary": "主谓宾补（expect sb to do，两个并列）+ 转述主句",
       "components": [
-        { "part": "I", "role": "引语主语", "note": "研究者本人" },
-        { "part": "did not expect", "role": "谓语", "note": "否定 + 助动词 did 强调" },
-        { "part": "80% of people", "role": "宾语1", "note": "第一组受访者比例" },
-        { "part": "to say the organisation finds dads taking this leave acceptable", "role": "宾语补足语1", "note": "expect sb to do 结构" },
-        { "part": "the organisation finds dads taking this leave acceptable", "role": "宾语从句", "note": "find + 宾语 + 宾补" },
-        { "part": "three-quarters", "role": "宾语2", "note": "承前省略 of people" },
-        { "part": "to say it's equally supportive of women and men taking leave", "role": "宾语补足语2", "note": "与宾语1 并列" },
-        { "part": "Harrington said", "role": "转述主句", "note": "倒装在引语之后" }
+        {
+          "part": "I",
+          "role": "引语主语",
+          "note": "研究者本人"
+        },
+        {
+          "part": "did not expect",
+          "role": "谓语",
+          "note": "否定 + 助动词 did 强调"
+        },
+        {
+          "part": "80% of people",
+          "role": "宾语1",
+          "note": "第一组受访者比例"
+        },
+        {
+          "part": "to say the organisation finds dads taking this leave acceptable",
+          "role": "宾语补足语1",
+          "note": "expect sb to do 结构"
+        },
+        {
+          "part": "the organisation finds dads taking this leave acceptable",
+          "role": "宾语从句",
+          "note": "find + 宾语 + 宾补"
+        },
+        {
+          "part": "three-quarters",
+          "role": "宾语2",
+          "note": "承前省略 of people"
+        },
+        {
+          "part": "to say it's equally supportive of women and men taking leave",
+          "role": "宾语补足语2",
+          "note": "与宾语1 并列"
+        },
+        {
+          "part": "Harrington said",
+          "role": "转述主句",
+          "note": "倒装在引语之后"
+        }
       ],
       "clauses": [
         "expect sb to do sth：两个 to say 不定式并列，共享 expect。",
@@ -74,9 +166,24 @@
         "three-quarters 后承前省略 of people，避免重复。"
       ],
       "phrases": [
-        { "text": "expect sb to do sth", "meaning": "期望/料想某人做某事", "usage": "否定形式 didn't expect sb to do 常用来表达「出乎意料」。", "example": "I didn't expect him to agree so quickly. 我没料到他会答应得这么快。" },
-        { "text": "find sth + adj.", "meaning": "觉得某事如何", "usage": "形容词作宾语补足语，不是副词。", "example": "I find the rule acceptable. 我觉得这条规定可以接受。" },
-        { "text": "be supportive of", "meaning": "支持……的", "usage": "supportive 是形容词，后接 of；动词形式是 support。", "example": "The company is supportive of working mothers. 公司支持职场妈妈。" }
+        {
+          "text": "expect sb to do sth",
+          "meaning": "期望/料想某人做某事",
+          "usage": "否定形式 didn't expect sb to do 常用来表达「出乎意料」。",
+          "example": "I didn't expect him to agree so quickly. 我没料到他会答应得这么快。"
+        },
+        {
+          "text": "find sth + adj.",
+          "meaning": "觉得某事如何",
+          "usage": "形容词作宾语补足语，不是副词。",
+          "example": "I find the rule acceptable. 我觉得这条规定可以接受。"
+        },
+        {
+          "text": "be supportive of",
+          "meaning": "支持……的",
+          "usage": "supportive 是形容词，后接 of；动词形式是 support。",
+          "example": "The company is supportive of working mothers. 公司支持职场妈妈。"
+        }
       ],
       "pitfalls": [
         "find dads taking this leave acceptable 中间插入分词短语，容易误把 taking 当谓语。",
@@ -91,15 +198,51 @@
       "structMarkup": "【The previous study】 _found_ ~that~ {nearly three-quarters of fathers saw two to four weeks as an appropriate duration for paternity leave} {and} 【76%】 _said_ {they would prefer not to take all their time off at once}.",
       "structureSummary": "主谓 + that 宾语从句（从句内含 and 并列的两个分句）",
       "components": [
-        { "part": "The previous study", "role": "主语", "note": "指五年前那项研究" },
-        { "part": "found", "role": "谓语", "note": "发现" },
-        { "part": "that...", "role": "宾语从句", "note": "整个 that 从句到句末才是 found 的宾语" },
-        { "part": "nearly three-quarters of fathers", "role": "从句1主语", "note": "近四分之三的父亲" },
-        { "part": "saw", "role": "从句1谓语", "note": "see sth as sth 结构" },
-        { "part": "two to four weeks", "role": "从句1宾语", "note": "两到四周" },
-        { "part": "as an appropriate duration for paternity leave", "role": "宾语补足语", "note": "as 引出「认为是什么」" },
-        { "part": "76%", "role": "从句2主语", "note": "承前指 76% 的父亲" },
-        { "part": "would prefer not to take all their time off at once", "role": "从句2谓语+宾语", "note": "would 表意愿" }
+        {
+          "part": "The previous study",
+          "role": "主语",
+          "note": "指五年前那项研究"
+        },
+        {
+          "part": "found",
+          "role": "谓语",
+          "note": "发现"
+        },
+        {
+          "part": "that...",
+          "role": "宾语从句",
+          "note": "整个 that 从句到句末才是 found 的宾语"
+        },
+        {
+          "part": "nearly three-quarters of fathers",
+          "role": "从句1主语",
+          "note": "近四分之三的父亲"
+        },
+        {
+          "part": "saw",
+          "role": "从句1谓语",
+          "note": "see sth as sth 结构"
+        },
+        {
+          "part": "two to four weeks",
+          "role": "从句1宾语",
+          "note": "两到四周"
+        },
+        {
+          "part": "as an appropriate duration for paternity leave",
+          "role": "宾语补足语",
+          "note": "as 引出「认为是什么」"
+        },
+        {
+          "part": "76%",
+          "role": "从句2主语",
+          "note": "承前指 76% 的父亲"
+        },
+        {
+          "part": "would prefer not to take all their time off at once",
+          "role": "从句2谓语+宾语",
+          "note": "would 表意愿"
+        }
       ],
       "clauses": [
         "see sth as sth：把……看作……，as 不可换成 like。",
@@ -108,9 +251,24 @@
         "would prefer 中的 would 表意愿/倾向，不表过去将来。"
       ],
       "phrases": [
-        { "text": "see sth as sth", "meaning": "把……视为……", "usage": "as 是介词，后接名词；同义 regard sth as sth、view sth as sth。", "example": "Many see remote work as a benefit. 很多人把远程办公看作福利。" },
-        { "text": "at once", "meaning": "①一次性、一起 ②立刻", "usage": "本句是「一次性把假休完」义；表「立刻」时多与将来/祈使连用。", "example": "Don't eat it all at once. 别一次全吃完。" },
-        { "text": "prefer not to do sth", "meaning": "宁愿不做某事", "usage": "否定词置于不定式前：prefer not to do，而非 prefer to not do（口语可见但不规范）。", "example": "I prefer not to discuss it now. 我宁愿现在不谈这个。" }
+        {
+          "text": "see sth as sth",
+          "meaning": "把……视为……",
+          "usage": "as 是介词，后接名词；同义 regard sth as sth、view sth as sth。",
+          "example": "Many see remote work as a benefit. 很多人把远程办公看作福利。"
+        },
+        {
+          "text": "at once",
+          "meaning": "①一次性、一起 ②立刻",
+          "usage": "本句是「一次性把假休完」义；表「立刻」时多与将来/祈使连用。",
+          "example": "Don't eat it all at once. 别一次全吃完。"
+        },
+        {
+          "text": "prefer not to do sth",
+          "meaning": "宁愿不做某事",
+          "usage": "否定词置于不定式前：prefer not to do，而非 prefer to not do（口语可见但不规范）。",
+          "example": "I prefer not to discuss it now. 我宁愿现在不谈这个。"
+        }
       ],
       "pitfalls": [
         "at once 在本句不是「立刻」，而是「一次性」——这是全句最易错处。",
@@ -122,16 +280,44 @@
     "8-0": {
       "translationLiteral": "自那以后，出现了若干起涉及陪产假的针对公司的法律案件——包括针对摩根大通和雅诗兰黛的案件——这些案件有助于向公司施压，使它们的育儿假政策实现性别中立。",
       "translationNatural": "从那以后，围绕陪产假打了不少官司——摩根大通、雅诗兰黛都被起诉过——这些案子帮着给公司施压，让它们的育儿假政策做到男女一样。",
-      "structMarkup": "(Since then), there _have been_ ~a number of legal cases~ (against companies) (involving paternity leave)—(including cases against JPMorgan Chase and Estée Lauder)—{which have helped put pressure on companies to make their parental leave policies gender neutral}.",
+      "structMarkup": "(Since then), there _have been_ 【a number of legal cases】 (against companies) (involving paternity leave)—(including cases against JPMorgan Chase and Estée Lauder)—{which have helped put pressure on companies to make their parental leave policies gender neutral}.",
       "structureSummary": "there be 存在句 + 双重后置定语 + which 非限制性定语从句",
       "components": [
-        { "part": "Since then", "role": "时间状语", "note": "自那（五年前的研究）以来" },
-        { "part": "there have been", "role": "存在句谓语", "note": "现在完成时，与 since 呼应" },
-        { "part": "a number of legal cases", "role": "主语", "note": "若干法律案件" },
-        { "part": "against companies", "role": "后置定语1", "note": "修饰 cases，起诉对象是公司" },
-        { "part": "involving paternity leave", "role": "后置定语2", "note": "现在分词短语，说明案件涉及陪产假" },
-        { "part": "including cases against JPMorgan Chase and Estée Lauder", "role": "插入补充", "note": "破折号内举例" },
-        { "part": "which have helped put pressure on companies...", "role": "非限制性定语从句", "note": "先行词是 cases" }
+        {
+          "part": "Since then",
+          "role": "时间状语",
+          "note": "自那（五年前的研究）以来"
+        },
+        {
+          "part": "there have been",
+          "role": "存在句谓语",
+          "note": "现在完成时，与 since 呼应"
+        },
+        {
+          "part": "a number of legal cases",
+          "role": "主语",
+          "note": "若干法律案件"
+        },
+        {
+          "part": "against companies",
+          "role": "后置定语1",
+          "note": "修饰 cases，起诉对象是公司"
+        },
+        {
+          "part": "involving paternity leave",
+          "role": "后置定语2",
+          "note": "现在分词短语，说明案件涉及陪产假"
+        },
+        {
+          "part": "including cases against JPMorgan Chase and Estée Lauder",
+          "role": "插入补充",
+          "note": "破折号内举例"
+        },
+        {
+          "part": "which have helped put pressure on companies...",
+          "role": "非限制性定语从句",
+          "note": "先行词是 cases"
+        }
       ],
       "clauses": [
         "there have been：since then 是现在完成时的标志，不能用 there were。",
@@ -140,9 +326,24 @@
         "put pressure on sb to do sth：不定式表施压的目的/内容。"
       ],
       "phrases": [
-        { "text": "put pressure on sb to do sth", "meaning": "向某人施压做某事", "usage": "pressure 不可数，不加 a；同义 press sb to do。", "example": "Regulators put pressure on banks to cut fees. 监管机构向银行施压降费。" },
-        { "text": "gender neutral", "meaning": "性别中立的（男女同等对待）", "usage": "复合形容词，neutral 前不加连字符也常见；同义 gender-blind。", "example": "The policy is now gender neutral. 这项政策现在对男女一视同仁。" },
-        { "text": "a number of", "meaning": "若干、一些", "usage": "修饰可数名词复数，谓语用复数；the number of 则是「……的数量」，谓语用单数。", "example": "A number of students were absent. 一些学生缺席了。" }
+        {
+          "text": "put pressure on sb to do sth",
+          "meaning": "向某人施压做某事",
+          "usage": "pressure 不可数，不加 a；同义 press sb to do。",
+          "example": "Regulators put pressure on banks to cut fees. 监管机构向银行施压降费。"
+        },
+        {
+          "text": "gender neutral",
+          "meaning": "性别中立的（男女同等对待）",
+          "usage": "复合形容词，neutral 前不加连字符也常见；同义 gender-blind。",
+          "example": "The policy is now gender neutral. 这项政策现在对男女一视同仁。"
+        },
+        {
+          "text": "a number of",
+          "meaning": "若干、一些",
+          "usage": "修饰可数名词复数，谓语用复数；the number of 则是「……的数量」，谓语用单数。",
+          "example": "A number of students were absent. 一些学生缺席了。"
+        }
       ],
       "pitfalls": [
         "a number of（一些，谓语复数）与 the number of（数量，谓语单数）不能混。",
@@ -157,13 +358,41 @@
       "structMarkup": "(However), 【the study】 _also shows_ ~how traditional gender roles endure~ (both at work), {where more women than men reported changes in their perceived career potential}, {and at home}—(even among workers who claim to have a strong desire for equality).",
       "structureSummary": "主谓 + how 宾语从句（从句内含 both…and 并列状语 + where 定语从句 + 递进状语）",
       "components": [
-        { "part": "However", "role": "转折副词", "note": "与此前的乐观数据形成转折" },
-        { "part": "the study", "role": "主语", "note": "本次研究" },
-        { "part": "also shows", "role": "谓语", "note": "一般现在时，陈述研究结论" },
-        { "part": "how traditional gender roles endure", "role": "宾语从句", "note": "how 引导，作 shows 的宾语" },
-        { "part": "both at work ... and at home", "role": "并列地点状语", "note": "both…and… 连接两处" },
-        { "part": "where more women than men reported changes in their perceived career potential", "role": "非限制性定语从句", "note": "修饰 at work" },
-        { "part": "even among workers who claim to have a strong desire for equality", "role": "递进状语", "note": "even 强调「连……也不例外」" }
+        {
+          "part": "However",
+          "role": "转折副词",
+          "note": "与此前的乐观数据形成转折"
+        },
+        {
+          "part": "the study",
+          "role": "主语",
+          "note": "本次研究"
+        },
+        {
+          "part": "also shows",
+          "role": "谓语",
+          "note": "一般现在时，陈述研究结论"
+        },
+        {
+          "part": "how traditional gender roles endure",
+          "role": "宾语从句",
+          "note": "how 引导，作 shows 的宾语"
+        },
+        {
+          "part": "both at work ... and at home",
+          "role": "并列地点状语",
+          "note": "both…and… 连接两处"
+        },
+        {
+          "part": "where more women than men reported changes in their perceived career potential",
+          "role": "非限制性定语从句",
+          "note": "修饰 at work"
+        },
+        {
+          "part": "even among workers who claim to have a strong desire for equality",
+          "role": "递进状语",
+          "note": "even 强调「连……也不例外」"
+        }
       ],
       "clauses": [
         "how 引导宾语从句，作 shows 的宾语，意为「……如何/以何种方式」。",
@@ -173,9 +402,24 @@
         "who claim to have... 定语从句修饰 workers。"
       ],
       "phrases": [
-        { "text": "at work / at home", "meaning": "在工作场所 / 在家里", "usage": "两个介词短语常成对出现，表「职场与家庭」两个领域。", "example": "She faces pressure both at work and at home. 她在职场和家里都承受压力。" },
-        { "text": "a desire for sth", "meaning": "对……的渴望", "usage": "desire 后可接 for + 名词，或 to do / that 从句。", "example": "They share a desire for change. 他们都渴望改变。" },
-        { "text": "claim to do sth", "meaning": "声称做某事", "usage": "claim 后接不定式，不用 claim doing。", "example": "He claims to have finished the report. 他声称已完成报告。" }
+        {
+          "text": "at work / at home",
+          "meaning": "在工作场所 / 在家里",
+          "usage": "两个介词短语常成对出现，表「职场与家庭」两个领域。",
+          "example": "She faces pressure both at work and at home. 她在职场和家里都承受压力。"
+        },
+        {
+          "text": "a desire for sth",
+          "meaning": "对……的渴望",
+          "usage": "desire 后可接 for + 名词，或 to do / that 从句。",
+          "example": "They share a desire for change. 他们都渴望改变。"
+        },
+        {
+          "text": "claim to do sth",
+          "meaning": "声称做某事",
+          "usage": "claim 后接不定式，不用 claim doing。",
+          "example": "He claims to have finished the report. 他声称已完成报告。"
+        }
       ],
       "pitfalls": [
         "endure 在此是「持续存在」（不及物），不是「忍受」（及物）——全句最易误解处。",
@@ -191,78 +435,155 @@
       "phonetic": "/ˈʃɒkɪŋ/",
       "pos": "adj.",
       "senseInContext": "令人震惊的、出乎意料的（形容数据）",
-      "collocations": ["shocking news", "be shocking to sb"],
-      "examples": ["The figures were shocking to the researchers. 这些数字让研究者震惊。"],
+      "collocations": [
+        "shocking news",
+        "be shocking to sb"
+      ],
+      "examples": [
+        "The figures were shocking to the researchers. 这些数字让研究者震惊。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "shock（v./n. 震惊）+ -ing",
-        "synonyms": ["astonishing", "startling", "striking"],
-        "confusables": ["shocked（感到震惊的，修饰人）", "shock（名词/动词）"]
+        "synonyms": [
+          "astonishing",
+          "startling",
+          "striking"
+        ],
+        "confusables": [
+          "shocked（感到震惊的，修饰人）",
+          "shock（名词/动词）"
+        ]
       }
     },
     "acceptable": {
       "phonetic": "/əkˈseptəbl/",
       "pos": "adj.",
       "senseInContext": "可接受的、说得过去的（公司认为爸爸休陪产假没问题）",
-      "collocations": ["socially acceptable", "find sth acceptable", "acceptable to sb"],
-      "examples": ["Long hours are no longer acceptable. 长时间加班不再被接受。"],
+      "collocations": [
+        "socially acceptable",
+        "find sth acceptable",
+        "acceptable to sb"
+      ],
+      "examples": [
+        "Long hours are no longer acceptable. 长时间加班不再被接受。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "accept（接受）+ -able",
-        "synonyms": ["tolerable", "reasonable", "satisfactory"],
-        "confusables": ["accept（v. 接受）", "acceptance（n. 接受）", "accepted（被普遍接受的）"]
+        "synonyms": [
+          "tolerable",
+          "reasonable",
+          "satisfactory"
+        ],
+        "confusables": [
+          "accept（v. 接受）",
+          "acceptance（n. 接受）",
+          "accepted（被普遍接受的）"
+        ]
       }
     },
     "appropriate": {
       "phonetic": "/əˈprəʊpriət/",
       "pos": "adj.",
       "senseInContext": "合适的、恰当的（陪产假两到四周是合适时长）",
-      "collocations": ["appropriate for sth", "an appropriate time/duration", "age-appropriate"],
-      "examples": ["Two weeks is an appropriate duration for the leave. 两周是该假期的合适时长。"],
+      "collocations": [
+        "appropriate for sth",
+        "an appropriate time/duration",
+        "age-appropriate"
+      ],
+      "examples": [
+        "Two weeks is an appropriate duration for the leave. 两周是该假期的合适时长。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "ap-（to）+ proprius（own，自己的）→ 适合自身的",
-        "synonyms": ["suitable", "proper", "fitting"],
-        "confusables": ["appropriate（adj. 合适的）/əˈprəʊprieɪt/（v. 挪用、拨款，重音在后）"]
+        "synonyms": [
+          "suitable",
+          "proper",
+          "fitting"
+        ],
+        "confusables": [
+          "appropriate（adj. 合适的）/əˈprəʊprieɪt/（v. 挪用、拨款，重音在后）"
+        ]
       }
     },
     "duration": {
       "phonetic": "/djuˈreɪʃn/",
       "pos": "n.",
       "senseInContext": "持续时间、时长（陪产假可休多久）",
-      "collocations": ["for the duration of", "a short/long duration", "duration of stay"],
-      "examples": ["The duration of the leave varies by company. 假期时长因公司而异。"],
+      "collocations": [
+        "for the duration of",
+        "a short/long duration",
+        "duration of stay"
+      ],
+      "examples": [
+        "The duration of the leave varies by company. 假期时长因公司而异。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "dur（持久）+ -ation",
-        "synonyms": ["length", "period", "span"],
-        "confusables": ["during（prep. 在……期间）", "durable（adj. 耐用的）"]
+        "synonyms": [
+          "length",
+          "period",
+          "span"
+        ],
+        "confusables": [
+          "during（prep. 在……期间）",
+          "durable（adj. 耐用的）"
+        ]
       }
     },
     "neutral": {
       "phonetic": "/ˈnjuːtrəl/",
       "pos": "adj.",
       "senseInContext": "中立的、不偏袒任何一方的（政策对男女同等）",
-      "collocations": ["gender neutral", "remain neutral", "neutral on sth"],
-      "examples": ["The wording should be gender neutral. 措辞应当不偏向任何性别。"],
+      "collocations": [
+        "gender neutral",
+        "remain neutral",
+        "neutral on sth"
+      ],
+      "examples": [
+        "The wording should be gender neutral. 措辞应当不偏向任何性别。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "neuter（中性的）",
-        "synonyms": ["impartial", "unbiased", "even-handed"],
-        "confusables": ["natural（adj. 自然的）", "neutrality（n. 中立）"]
+        "synonyms": [
+          "impartial",
+          "unbiased",
+          "even-handed"
+        ],
+        "confusables": [
+          "natural（adj. 自然的）",
+          "neutrality（n. 中立）"
+        ]
       }
     },
     "pressure": {
       "phonetic": "/ˈpreʃə(r)/",
       "pos": "n.",
       "senseInContext": "压力（舆论/法律对公司施加的推动力）",
-      "collocations": ["put pressure on sb", "under pressure", "pressure to do sth"],
-      "examples": ["Public pressure forced the company to change. 公众压力迫使公司改变。"],
+      "collocations": [
+        "put pressure on sb",
+        "under pressure",
+        "pressure to do sth"
+      ],
+      "examples": [
+        "Public pressure forced the company to change. 公众压力迫使公司改变。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "press（压）+ -ure",
-        "synonyms": ["stress", "strain", "push"],
-        "confusables": ["press（v. 按、压）", "pressurize（v. 加压、施压）"]
+        "synonyms": [
+          "stress",
+          "strain",
+          "push"
+        ],
+        "confusables": [
+          "press（v. 按、压）",
+          "pressurize（v. 加压、施压）"
+        ]
       }
     }
   }

@@ -3,15 +3,39 @@
     "0-0": {
       "translationLiteral": "越来越多的父亲在休陪产假，但母亲仍然承担着所有的活儿。",
       "translationNatural": "当爹的休陪产假越来越普遍，可家里的活还是当妈的全包。",
-      "structMarkup": "{More fathers} _are taking_ ~paternity leave~, {but} {mothers} _are still doing_ ~all the work~.",
+      "structMarkup": "【More fathers】 _are taking_ ~paternity leave~, {but} 【mothers】 _are still doing_ ~all the work~.",
       "structureSummary": "两个并列分句（but 转折）：主谓宾 + 主谓宾",
       "components": [
-        { "part": "More fathers", "role": "第一分句主语", "note": "越来越多的父亲" },
-        { "part": "are taking", "role": "第一分句谓语", "note": "现在进行时" },
-        { "part": "paternity leave", "role": "宾语", "note": "陪产假（paternity 父亲身份）" },
-        { "part": "but", "role": "连词", "note": "转折" },
-        { "part": "mothers", "role": "第二分句主语", "note": "母亲们" },
-        { "part": "are still doing all the work", "role": "第二分句谓语+宾语", "note": "still 强调“仍然”" }
+        {
+          "part": "More fathers",
+          "role": "第一分句主语",
+          "note": "越来越多的父亲"
+        },
+        {
+          "part": "are taking",
+          "role": "第一分句谓语",
+          "note": "现在进行时"
+        },
+        {
+          "part": "paternity leave",
+          "role": "宾语",
+          "note": "陪产假（paternity 父亲身份）"
+        },
+        {
+          "part": "but",
+          "role": "连词",
+          "note": "转折"
+        },
+        {
+          "part": "mothers",
+          "role": "第二分句主语",
+          "note": "母亲们"
+        },
+        {
+          "part": "are still doing all the work",
+          "role": "第二分句谓语+宾语",
+          "note": "still 强调“仍然”"
+        }
       ],
       "clauses": [
         "but 连接两个并列分句，形成“表面进步、实质未变”的对照。",
@@ -43,12 +67,36 @@
       "structMarkup": "【Attitudes (towards paternity leave)】 _have drastically changed_ (in America) (in the last five years) {as more fathers feel comfortable taking extended time off}, {but gender bias persists when it comes to career prospects and the home}, (according to a new study of working parents).",
       "structureSummary": "主谓 + as 原因状语从句 + but 并列分句 + according to 状语",
       "components": [
-        { "part": "Attitudes towards paternity leave", "role": "主语", "note": "对陪产假的态度" },
-        { "part": "have drastically changed", "role": "谓语", "note": "现在完成时，drastically 表程度" },
-        { "part": "as more fathers feel comfortable taking extended time off", "role": "原因状语从句", "note": "as 表“因为”" },
-        { "part": "but gender bias persists", "role": "并列分句", "note": "转折：偏见仍然存在" },
-        { "part": "when it comes to career prospects and the home", "role": "状语", "note": "when it comes to 是固定说法" },
-        { "part": "according to a new study of working parents", "role": "状语", "note": "说明信息来源" }
+        {
+          "part": "Attitudes towards paternity leave",
+          "role": "主语",
+          "note": "对陪产假的态度"
+        },
+        {
+          "part": "have drastically changed",
+          "role": "谓语",
+          "note": "现在完成时，drastically 表程度"
+        },
+        {
+          "part": "as more fathers feel comfortable taking extended time off",
+          "role": "原因状语从句",
+          "note": "as 表“因为”"
+        },
+        {
+          "part": "but gender bias persists",
+          "role": "并列分句",
+          "note": "转折：偏见仍然存在"
+        },
+        {
+          "part": "when it comes to career prospects and the home",
+          "role": "状语",
+          "note": "when it comes to 是固定说法"
+        },
+        {
+          "part": "according to a new study of working parents",
+          "role": "状语",
+          "note": "说明信息来源"
+        }
       ],
       "clauses": [
         "as 引导原因状语从句（此处表“因为”，不是“当……时”）。",
@@ -88,12 +136,36 @@
       "structMarkup": "【Research (by the Boston College Center for Work & Family), {which surveyed new parents at four large US companies {who were qualified for taking at least six weeks paid parental leave}},】 _found_ ~{that 81% of the 1,240 employees surveyed said the notion of fathers taking leave has become more acceptable}~.",
       "structureSummary": "主语（带两层定语从句）+ 谓语 + 宾语从句（内含第二层宾语从句）",
       "components": [
-        { "part": "Research by the Boston College Center for Work & Family", "role": "主语", "note": "研究主体" },
-        { "part": "which surveyed new parents at four large US companies", "role": "非限制性定语从句", "note": "修饰 research" },
-        { "part": "who were qualified for taking at least six weeks paid parental leave", "role": "定语从句", "note": "修饰 new parents" },
-        { "part": "found", "role": "谓语", "note": "发现" },
-        { "part": "that 81% of the 1,240 employees surveyed said...", "role": "宾语从句", "note": "研究结论" },
-        { "part": "the notion of fathers taking leave has become more acceptable", "role": "第二层宾语从句", "note": "said 的宾语" }
+        {
+          "part": "Research by the Boston College Center for Work & Family",
+          "role": "主语",
+          "note": "研究主体"
+        },
+        {
+          "part": "which surveyed new parents at four large US companies",
+          "role": "非限制性定语从句",
+          "note": "修饰 research"
+        },
+        {
+          "part": "who were qualified for taking at least six weeks paid parental leave",
+          "role": "定语从句",
+          "note": "修饰 new parents"
+        },
+        {
+          "part": "found",
+          "role": "谓语",
+          "note": "发现"
+        },
+        {
+          "part": "that 81% of the 1,240 employees surveyed said...",
+          "role": "宾语从句",
+          "note": "研究结论"
+        },
+        {
+          "part": "the notion of fathers taking leave has become more acceptable",
+          "role": "第二层宾语从句",
+          "note": "said 的宾语"
+        }
       ],
       "clauses": [
         "which surveyed... 是非限制性定语从句，修饰 research。",
@@ -134,13 +206,41 @@
       "structMarkup": "【62% of fathers】 _took_ ~the maximum amount of time off~ (compared to 93% of mothers), {and} 【around three-quarters of workers】 _said_ ~{their employer was equally supportive of mothers and fathers taking parental leave}~ {and} 【over half】 _said_ ~{leave policies had made workplace culture better}~.",
       "structureSummary": "三个并列分句：主谓宾 + 主谓宾从句 + 主谓宾从句",
       "components": [
-        { "part": "62% of fathers", "role": "第一分句主语", "note": "62% 的父亲" },
-        { "part": "took the maximum amount of time off", "role": "第一分句谓语+宾语", "note": "休了最长假期" },
-        { "part": "compared to 93% of mothers", "role": "插入比较", "note": "与母亲的 93% 相比" },
-        { "part": "around three-quarters of workers", "role": "第二分句主语", "note": "约四分之三的员工" },
-        { "part": "their employer was equally supportive of...", "role": "宾语从句1", "note": "said 的宾语" },
-        { "part": "over half", "role": "第三分句主语", "note": "过半（员工）" },
-        { "part": "leave policies had made workplace culture better", "role": "宾语从句2", "note": "said 的宾语，用过去完成时" }
+        {
+          "part": "62% of fathers",
+          "role": "第一分句主语",
+          "note": "62% 的父亲"
+        },
+        {
+          "part": "took the maximum amount of time off",
+          "role": "第一分句谓语+宾语",
+          "note": "休了最长假期"
+        },
+        {
+          "part": "compared to 93% of mothers",
+          "role": "插入比较",
+          "note": "与母亲的 93% 相比"
+        },
+        {
+          "part": "around three-quarters of workers",
+          "role": "第二分句主语",
+          "note": "约四分之三的员工"
+        },
+        {
+          "part": "their employer was equally supportive of...",
+          "role": "宾语从句1",
+          "note": "said 的宾语"
+        },
+        {
+          "part": "over half",
+          "role": "第三分句主语",
+          "note": "过半（员工）"
+        },
+        {
+          "part": "leave policies had made workplace culture better",
+          "role": "宾语从句2",
+          "note": "said 的宾语，用过去完成时"
+        }
       ],
       "clauses": [
         "三个分句由 and 连接，都是调查数据。",
@@ -180,11 +280,31 @@
       "structMarkup": "【The US】 _is_ ~one of only three countries (in the world) (not to offer statutory paid leave)~, {but increasingly states and companies are starting to take up the issue}.",
       "structureSummary": "主系表（one of + 复数）+ but 并列分句",
       "components": [
-        { "part": "The US", "role": "主语", "note": "美国" },
-        { "part": "is", "role": "系动词", "note": "主系结构" },
-        { "part": "one of only three countries", "role": "表语", "note": "仅有的三个国家之一" },
-        { "part": "not to offer statutory paid leave", "role": "后置定语", "note": "不定式修饰 countries" },
-        { "part": "but increasingly states and companies are starting to take up the issue", "role": "并列分句", "note": "转折：州与企业开始行动" }
+        {
+          "part": "The US",
+          "role": "主语",
+          "note": "美国"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "主系结构"
+        },
+        {
+          "part": "one of only three countries",
+          "role": "表语",
+          "note": "仅有的三个国家之一"
+        },
+        {
+          "part": "not to offer statutory paid leave",
+          "role": "后置定语",
+          "note": "不定式修饰 countries"
+        },
+        {
+          "part": "but increasingly states and companies are starting to take up the issue",
+          "role": "并列分句",
+          "note": "转折：州与企业开始行动"
+        }
       ],
       "clauses": [
         "one of + 复数名词作表语，谓语用单数 is。",
@@ -218,10 +338,26 @@
       "structMarkup": "(So far), 【eight states and the District of Columbia】 _have_ ~their own paid family leave laws~.",
       "structureSummary": "主谓宾结构（简单句）",
       "components": [
-        { "part": "So far", "role": "时间状语", "note": "到目前为止（常配现在完成时）" },
-        { "part": "eight states and the District of Columbia", "role": "主语", "note": "八个州 + 哥伦比亚特区（并列）" },
-        { "part": "have", "role": "谓语", "note": "拥有" },
-        { "part": "their own paid family leave laws", "role": "宾语", "note": "自己的带薪家事假法" }
+        {
+          "part": "So far",
+          "role": "时间状语",
+          "note": "到目前为止（常配现在完成时）"
+        },
+        {
+          "part": "eight states and the District of Columbia",
+          "role": "主语",
+          "note": "八个州 + 哥伦比亚特区（并列）"
+        },
+        {
+          "part": "have",
+          "role": "谓语",
+          "note": "拥有"
+        },
+        {
+          "part": "their own paid family leave laws",
+          "role": "宾语",
+          "note": "自己的带薪家事假法"
+        }
       ],
       "clauses": [
         "本句是简单句，没有从句。"
@@ -252,10 +388,26 @@
       "structMarkup": "【Brad Harrington, (executive director of the center) and (lead author of the study),】 _estimates_ ~{only 20% to 30% of companies in the US offer paid parental leave}~.",
       "structureSummary": "主语（带同位语）+ 谓语 + 宾语从句（省略 that）",
       "components": [
-        { "part": "Brad Harrington", "role": "主语", "note": "人名" },
-        { "part": "executive director of the center and lead author of the study", "role": "同位语", "note": "说明身份" },
-        { "part": "estimates", "role": "谓语", "note": "估计" },
-        { "part": "only 20% to 30% of companies in the US offer paid parental leave", "role": "宾语从句", "note": "省略 that" }
+        {
+          "part": "Brad Harrington",
+          "role": "主语",
+          "note": "人名"
+        },
+        {
+          "part": "executive director of the center and lead author of the study",
+          "role": "同位语",
+          "note": "说明身份"
+        },
+        {
+          "part": "estimates",
+          "role": "谓语",
+          "note": "估计"
+        },
+        {
+          "part": "only 20% to 30% of companies in the US offer paid parental leave",
+          "role": "宾语从句",
+          "note": "省略 that"
+        }
       ],
       "clauses": [
         "estimates 后省略 that，引导宾语从句。",
@@ -287,10 +439,26 @@
       "structMarkup": "【He】 _feels_ ~{the research findings reflect an obvious change in corporate attitudes to new fathers taking time off}~.",
       "structureSummary": "主谓 + 宾语从句（省略 that）",
       "components": [
-        { "part": "He", "role": "主语", "note": "指 Brad Harrington" },
-        { "part": "feels", "role": "谓语", "note": "认为（= thinks）" },
-        { "part": "the research findings reflect an obvious change", "role": "宾语从句", "note": "省略 that" },
-        { "part": "in corporate attitudes to new fathers taking time off", "role": "后置定语", "note": "修饰 change" }
+        {
+          "part": "He",
+          "role": "主语",
+          "note": "指 Brad Harrington"
+        },
+        {
+          "part": "feels",
+          "role": "谓语",
+          "note": "认为（= thinks）"
+        },
+        {
+          "part": "the research findings reflect an obvious change",
+          "role": "宾语从句",
+          "note": "省略 that"
+        },
+        {
+          "part": "in corporate attitudes to new fathers taking time off",
+          "role": "后置定语",
+          "note": "修饰 change"
+        }
       ],
       "clauses": [
         "feels 后省略 that，接宾语从句。",
@@ -322,37 +490,77 @@
       "phonetic": "/pəˈtɜːnəti/",
       "pos": "n./adj.",
       "senseInContext": "父亲的、父职的（paternity leave 陪产假）",
-      "collocations": ["paternity leave", "paternity test", "maternity（对应词）"],
-      "examples": ["He took paternity leave after the birth. 孩子出生后他休了陪产假。"],
+      "collocations": [
+        "paternity leave",
+        "paternity test",
+        "maternity（对应词）"
+      ],
+      "examples": [
+        "He took paternity leave after the birth. 孩子出生后他休了陪产假。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "pater（父亲）+ -nity", "synonyms": "fatherhood", "confusables": "paternity 父亲的 / maternity 母亲的；paternal 慈父般的" }
+      "more": {
+        "roots": "pater（父亲）+ -nity",
+        "synonyms": "fatherhood",
+        "confusables": "paternity 父亲的 / maternity 母亲的；paternal 慈父般的"
+      }
     },
     "bias": {
       "phonetic": "/ˈbaɪəs/",
       "pos": "n./v.",
       "senseInContext": "偏见（gender bias persists 性别偏见依然存在）",
-      "collocations": ["gender bias", "bias against", "biased（形容词）"],
-      "examples": ["The study found bias in hiring. 研究发现招聘中存在偏见。"],
+      "collocations": [
+        "gender bias",
+        "bias against",
+        "biased（形容词）"
+      ],
+      "examples": [
+        "The study found bias in hiring. 研究发现招聘中存在偏见。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "源自古法语 biais（斜的）→ 倾斜 → 偏向", "synonyms": "prejudice / partiality", "confusables": "bias 可指“偏差/偏好”；prejudice 贬义更重" }
+      "more": {
+        "roots": "源自古法语 biais（斜的）→ 倾斜 → 偏向",
+        "synonyms": "prejudice / partiality",
+        "confusables": "bias 可指“偏差/偏好”；prejudice 贬义更重"
+      }
     },
     "persist": {
       "phonetic": "/pəˈsɪst/",
       "pos": "v.",
       "senseInContext": "持续存在（gender bias persists 性别偏见依然存在）",
-      "collocations": ["persist in doing", "persist with", "persistent（形容词）"],
-      "examples": ["The problem persists despite reforms. 尽管改革，问题仍然存在。"],
+      "collocations": [
+        "persist in doing",
+        "persist with",
+        "persistent（形容词）"
+      ],
+      "examples": [
+        "The problem persists despite reforms. 尽管改革，问题仍然存在。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "per-（贯穿）+ sist（站立）→ 一直站着", "synonyms": "continue / endure / remain", "confusables": "persist in doing 表“执意做”；persistent 形容词" }
+      "more": {
+        "roots": "per-（贯穿）+ sist（站立）→ 一直站着",
+        "synonyms": "continue / endure / remain",
+        "confusables": "persist in doing 表“执意做”；persistent 形容词"
+      }
     },
     "statutory": {
       "phonetic": "/ˈstætʃətri/",
       "pos": "adj.",
       "senseInContext": "法定的（statutory paid leave 法定带薪假）",
-      "collocations": ["statutory rights", "statutory holiday", "statute（法规）"],
-      "examples": ["Employees have statutory rights. 员工享有法定权利。"],
+      "collocations": [
+        "statutory rights",
+        "statutory holiday",
+        "statute（法规）"
+      ],
+      "examples": [
+        "Employees have statutory rights. 员工享有法定权利。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "statute（法规）+ -ory", "synonyms": "legal / lawful", "confusables": "statutory 法定的；statuary 是“雕像”，拼写相近" }
+      "more": {
+        "roots": "statute（法规）+ -ory",
+        "synonyms": "legal / lawful",
+        "confusables": "statutory 法定的；statuary 是“雕像”，拼写相近"
+      }
     }
   }
 }

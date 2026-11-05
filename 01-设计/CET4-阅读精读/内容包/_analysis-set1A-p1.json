@@ -6,11 +6,31 @@
       "structMarkup": "(In 2016), 【researchers (from Columbia, Harvard, and Georgetown)】 _conducted_ ~a study~ (to figure it out).",
       "structureSummary": "主谓宾结构：主语 + 后置定语 + 谓语 + 宾语 + 目的状语",
       "components": [
-        { "part": "In 2016", "role": "时间状语", "note": "交代研究时间，放句首" },
-        { "part": "researchers from Columbia, Harvard, and Georgetown", "role": "主语", "note": "中心词是 researchers，from... 是后置定语，说明研究者来自哪里" },
-        { "part": "conducted", "role": "谓语", "note": "conduct 的过去式，意为“开展、进行”" },
-        { "part": "a study", "role": "宾语", "note": "conduct a study 是固定搭配“做研究”" },
-        { "part": "to figure it out", "role": "目的状语", "note": "不定式表示“为了弄清楚这件事”" }
+        {
+          "part": "In 2016",
+          "role": "时间状语",
+          "note": "交代研究时间，放句首"
+        },
+        {
+          "part": "researchers from Columbia, Harvard, and Georgetown",
+          "role": "主语",
+          "note": "中心词是 researchers，from... 是后置定语，说明研究者来自哪里"
+        },
+        {
+          "part": "conducted",
+          "role": "谓语",
+          "note": "conduct 的过去式，意为“开展、进行”"
+        },
+        {
+          "part": "a study",
+          "role": "宾语",
+          "note": "conduct a study 是固定搭配“做研究”"
+        },
+        {
+          "part": "to figure it out",
+          "role": "目的状语",
+          "note": "不定式表示“为了弄清楚这件事”"
+        }
       ],
       "clauses": [
         "本句是简单句，没有从句。",
@@ -44,12 +64,36 @@
       "structMarkup": "【They】 _found_ ~{busy people are perceived to be of high status}~, and interestingly, 【these status attributions】 _are heavily influenced_ (by our own beliefs about social mobility).",
       "structureSummary": "两个并列分句：①主谓 + 宾语从句；②主谓（被动）+ by 短语施动者",
       "components": [
-        { "part": "They", "role": "主语", "note": "指上一句的研究者" },
-        { "part": "found", "role": "谓语", "note": "后接省略 that 的宾语从句" },
-        { "part": "busy people are perceived to be of high status", "role": "宾语从句", "note": "作 found 的宾语" },
-        { "part": "these status attributions", "role": "主语", "note": "第二个分句的主语：这些地位归因" },
-        { "part": "are heavily influenced", "role": "谓语", "note": "被动语态，heavily 修饰影响程度" },
-        { "part": "by our own beliefs about social mobility", "role": "状语", "note": "by 短语引出施动者，about... 修饰 beliefs" }
+        {
+          "part": "They",
+          "role": "主语",
+          "note": "指上一句的研究者"
+        },
+        {
+          "part": "found",
+          "role": "谓语",
+          "note": "后接省略 that 的宾语从句"
+        },
+        {
+          "part": "busy people are perceived to be of high status",
+          "role": "宾语从句",
+          "note": "作 found 的宾语"
+        },
+        {
+          "part": "these status attributions",
+          "role": "主语",
+          "note": "第二个分句的主语：这些地位归因"
+        },
+        {
+          "part": "are heavily influenced",
+          "role": "谓语",
+          "note": "被动语态，heavily 修饰影响程度"
+        },
+        {
+          "part": "by our own beliefs about social mobility",
+          "role": "状语",
+          "note": "by 短语引出施动者，about... 修饰 beliefs"
+        }
       ],
       "clauses": [
         "busy people are perceived to be of high status 是省略了连接词 that 的宾语从句，作 found 的宾语。",
@@ -86,14 +130,34 @@
     "1-2": {
       "translationLiteral": "换句话说，我们越是相信一个人有基于努力获得成功的机会，我们就越倾向于认为那些跳过休闲、一直工作的人有更高的地位。",
       "translationNatural": "也就是说，我们越相信“努力就能成功”，就越容易觉得那些放弃休息、整天工作的人地位更高。",
-      "structMarkup": "(In other words), {the more we believe that one has the opportunity for success (based on hard work)}, {the more we tend to think that people who skip leisure and work all the time are of higher standing}.",
+      "structMarkup": "(In other words), {the more 【we】 _believe_ ~that one has the opportunity for success~ (based on hard work)}, {the more 【we】 _tend to think_ ~that people who skip leisure and work all the time are of higher standing~}.",
       "structureSummary": "“the more..., the more...”比较结构：前半是从句，后半是主句",
       "components": [
-        { "part": "In other words", "role": "插入语", "note": "过渡语，表示“换句话说”" },
-        { "part": "the more we believe that...", "role": "比较状语从句", "note": "the more 引导的前置从句" },
-        { "part": "the more we tend to think that...", "role": "主句", "note": "与前面的 the more 呼应，构成“越……越……”" },
-        { "part": "people who skip leisure and work all the time", "role": "宾语从句的主语", "note": "其中 who... 是定语从句修饰 people" },
-        { "part": "are of higher standing", "role": "宾语从句的表语", "note": "be of + 名词 = 具有某属性" }
+        {
+          "part": "In other words",
+          "role": "插入语",
+          "note": "过渡语，表示“换句话说”"
+        },
+        {
+          "part": "the more we believe that...",
+          "role": "比较状语从句",
+          "note": "the more 引导的前置从句"
+        },
+        {
+          "part": "the more we tend to think that...",
+          "role": "主句",
+          "note": "与前面的 the more 呼应，构成“越……越……”"
+        },
+        {
+          "part": "people who skip leisure and work all the time",
+          "role": "宾语从句的主语",
+          "note": "其中 who... 是定语从句修饰 people"
+        },
+        {
+          "part": "are of higher standing",
+          "role": "宾语从句的表语",
+          "note": "be of + 名词 = 具有某属性"
+        }
       ],
       "clauses": [
         "the more..., the more... 是“越……越……”的比较结构：前半是让步/条件性的状语从句，后半才是主句。",
@@ -135,73 +199,152 @@
       "phonetic": "/kənˈdʌktɪd/",
       "pos": "v.（过去式）",
       "senseInContext": "开展了、进行了（conduct a study 做研究）",
-      "collocations": ["conduct a study/survey/experiment", "conduct oneself well"],
-      "examples": ["The team conducted interviews with 200 parents. 团队对 200 位家长进行了访谈。"],
+      "collocations": [
+        "conduct a study/survey/experiment",
+        "conduct oneself well"
+      ],
+      "examples": [
+        "The team conducted interviews with 200 parents. 团队对 200 位家长进行了访谈。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "con-（一起）+ duct（引导）→ 引导到一起 → 进行、实施", "synonyms": "carry out / perform / do", "confusables": "名词 conduct 读 /ˈkɒndʌkt/，意为“行为、举止”，重音在前" }
+      "more": {
+        "roots": "con-（一起）+ duct（引导）→ 引导到一起 → 进行、实施",
+        "synonyms": "carry out / perform / do",
+        "confusables": "名词 conduct 读 /ˈkɒndʌkt/，意为“行为、举止”，重音在前"
+      }
     },
     "perceived": {
       "phonetic": "/pəˈsiːvd/",
       "pos": "v.（过去分词）",
       "senseInContext": "被认为、被看作（be perceived to be 被认为是）",
-      "collocations": ["be perceived as", "be perceived to be", "perceive sth. as sth."],
-      "examples": ["Silence is often perceived as agreement. 沉默常被当作同意。"],
+      "collocations": [
+        "be perceived as",
+        "be perceived to be",
+        "perceive sth. as sth."
+      ],
+      "examples": [
+        "Silence is often perceived as agreement. 沉默常被当作同意。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "per-（贯穿）+ ceive（抓取）→ 抓住 → 感知、认为", "synonyms": "be regarded as / be seen as", "confusables": "perceive 强调主观认知，不一定是事实；与 notice（注意到）不同" }
+      "more": {
+        "roots": "per-（贯穿）+ ceive（抓取）→ 抓住 → 感知、认为",
+        "synonyms": "be regarded as / be seen as",
+        "confusables": "perceive 强调主观认知，不一定是事实；与 notice（注意到）不同"
+      }
     },
     "status": {
       "phonetic": "/ˈsteɪtəs/",
       "pos": "n.",
       "senseInContext": "地位、身份（high status 高地位）",
-      "collocations": ["social status", "high/low status", "status symbol"],
-      "examples": ["Owning a car was once a status symbol. 拥有汽车曾是身份的象征。"],
+      "collocations": [
+        "social status",
+        "high/low status",
+        "status symbol"
+      ],
+      "examples": [
+        "Owning a car was once a status symbol. 拥有汽车曾是身份的象征。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "stat（站立）→ 所处的位置 → 地位", "synonyms": "standing / rank / position", "confusables": "status 单复数同形（two statuses 也可，但少见）；不要写成 statu" }
+      "more": {
+        "roots": "stat（站立）→ 所处的位置 → 地位",
+        "synonyms": "standing / rank / position",
+        "confusables": "status 单复数同形（two statuses 也可，但少见）；不要写成 statu"
+      }
     },
     "influenced": {
       "phonetic": "/ˈɪnfluənst/",
       "pos": "v.（过去分词）",
       "senseInContext": "受影响（be influenced by 受……影响）",
-      "collocations": ["be influenced by", "influence sb. to do", "have an influence on"],
-      "examples": ["Teenagers are easily influenced by their peers. 青少年容易受同龄人影响。"],
+      "collocations": [
+        "be influenced by",
+        "influence sb. to do",
+        "have an influence on"
+      ],
+      "examples": [
+        "Teenagers are easily influenced by their peers. 青少年容易受同龄人影响。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "in-（进入）+ flu（流动）→ 流入 → 影响", "synonyms": "affected / shaped", "confusables": "influence 偏潜移默化；affect 更中性直接；effect 多为名词“效果”" }
+      "more": {
+        "roots": "in-（进入）+ flu（流动）→ 流入 → 影响",
+        "synonyms": "affected / shaped",
+        "confusables": "influence 偏潜移默化；affect 更中性直接；effect 多为名词“效果”"
+      }
     },
     "mobility": {
       "phonetic": "/məʊˈbɪləti/",
       "pos": "n.",
       "senseInContext": "流动性（social mobility 社会流动性）",
-      "collocations": ["social mobility", "upward mobility", "job mobility"],
-      "examples": ["Upward mobility depends on education and opportunity. 向上流动取决于教育与机会。"],
+      "collocations": [
+        "social mobility",
+        "upward mobility",
+        "job mobility"
+      ],
+      "examples": [
+        "Upward mobility depends on education and opportunity. 向上流动取决于教育与机会。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "mob（移动）+ -ility（能力）→ 可移动性；同族 mobile 移动的", "synonyms": "movement / flexibility", "confusables": "mobility 是名词；mobile 是形容词“移动的”" }
+      "more": {
+        "roots": "mob（移动）+ -ility（能力）→ 可移动性；同族 mobile 移动的",
+        "synonyms": "movement / flexibility",
+        "confusables": "mobility 是名词；mobile 是形容词“移动的”"
+      }
     },
     "opportunity": {
       "phonetic": "/ˌɒpəˈtjuːnəti/",
       "pos": "n.",
       "senseInContext": "机会（the opportunity for success 成功的机会）",
-      "collocations": ["have the opportunity to do", "take the opportunity", "equal opportunity"],
-      "examples": ["Everyone should have the opportunity to learn. 每个人都应有学习的机会。"],
+      "collocations": [
+        "have the opportunity to do",
+        "take the opportunity",
+        "equal opportunity"
+      ],
+      "examples": [
+        "Everyone should have the opportunity to learn. 每个人都应有学习的机会。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "op-（朝向）+ port（港口）→ 顺风入港 → 良机", "synonyms": "chance / opening", "confusables": "opportunity 偏正式；chance 还可表“可能性、偶然”" }
+      "more": {
+        "roots": "op-（朝向）+ port（港口）→ 顺风入港 → 良机",
+        "synonyms": "chance / opening",
+        "confusables": "opportunity 偏正式；chance 还可表“可能性、偶然”"
+      }
     },
     "leisure": {
       "phonetic": "/ˈleʒə(r)/",
       "pos": "n.",
       "senseInContext": "休闲、闲暇（skip leisure 放弃休息）",
-      "collocations": ["leisure time", "at leisure", "leisure activities"],
-      "examples": ["He reads for leisure, not for exams. 他读书是为了消遣，不是为了考试。"],
+      "collocations": [
+        "leisure time",
+        "at leisure",
+        "leisure activities"
+      ],
+      "examples": [
+        "He reads for leisure, not for exams. 他读书是为了消遣，不是为了考试。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "源自古法语 leisir（被允许）→ 自由支配的时间", "synonyms": "free time / spare time", "confusables": "leisure 不可数；at leisure 意为“空闲时/从容地”" }
+      "more": {
+        "roots": "源自古法语 leisir（被允许）→ 自由支配的时间",
+        "synonyms": "free time / spare time",
+        "confusables": "leisure 不可数；at leisure 意为“空闲时/从容地”"
+      }
     },
     "tend": {
       "phonetic": "/tend/",
       "pos": "v.",
       "senseInContext": "倾向于（tend to think 往往会认为）",
-      "collocations": ["tend to do sth.", "tend towards", "a tendency to do"],
-      "examples": ["We tend to remember stories better than facts. 我们往往更容易记住故事而非事实。"],
+      "collocations": [
+        "tend to do sth.",
+        "tend towards",
+        "a tendency to do"
+      ],
+      "examples": [
+        "We tend to remember stories better than facts. 我们往往更容易记住故事而非事实。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "tend（伸展）→ 朝某方向伸 → 倾向", "synonyms": "be inclined to / be likely to", "confusables": "tend to do 表示倾向；tend 还有“照料”（tend the garden）" }
+      "more": {
+        "roots": "tend（伸展）→ 朝某方向伸 → 倾向",
+        "synonyms": "be inclined to / be likely to",
+        "confusables": "tend to do 表示倾向；tend 还有“照料”（tend the garden）"
+      }
     }
   }
 }

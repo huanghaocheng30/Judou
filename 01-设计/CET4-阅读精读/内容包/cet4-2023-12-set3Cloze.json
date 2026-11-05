@@ -1009,7 +1009,7 @@
           "analysis": {
             "translationLiteral": "例如，最近发表在《PLOS ONE》期刊上的一项研究发现，一个人社交圈的强度，比健身追踪器上关于身体活动、心率和睡眠的数据，更能（28）自述的压力、幸福感和健康水平。",
             "translationNatural": "举个例子：最近《PLOS ONE》上的一项研究发现，一个人社交圈有多结实，比健身手环记录的运动、心率、睡眠数据，更能（28 指示）他自己报告的压力、快乐和健康程度。",
-            "structMarkup": "(One recent study published in the journal PLOS ONE), (for example), _found_ ~{that the strength of a person's social circle was a better _28_ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep}~.",
+            "structMarkup": "【One recent study】 (published in the journal PLOS ONE), (for example), _found_ ~{that the strength of a person's social circle was a better _28_ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep}~.",
             "structureSummary": "主语（带后置定语）+ 插入语 + 谓语 + that 宾语从句（内含比较结构）",
             "components": [
               {
@@ -2219,7 +2219,7 @@
           "analysis": {
             "translationLiteral": "这些研究提示，丰富的社交生活能降低压力水平、改善情绪、鼓励积极的健康行为并抑制有害行为、增进心脏健康，还能提高疾病的（34）率。",
             "translationNatural": "这些研究说，社交生活丰富的人压力更小、心情更好，更愿意做对健康有益的事、少做伤身的事，心脏更健康，病后（34 康复）率也更高。",
-            "structMarkup": "(A rich social life), (these studies suggest), _can_ _lower_ ~stress levels~, _improve_ ~mood~, _encourage_ ~positive health behaviors~ {and} _discourage_ ~damaging ones~, _boost_ ~heart health~ {and} _improve_ ~illness _34_ rates~.",
+            "structMarkup": "【A rich social life】, (these studies suggest), _can_ _lower_ ~stress levels~, _improve_ ~mood~, _encourage_ ~positive health behaviors~ {and} _discourage_ ~damaging ones~, _boost_ ~heart health~ {and} _improve_ ~illness _34_ rates~.",
             "structureSummary": "插入语 + 主谓 + 五个并列动宾结构",
             "components": [
               {
@@ -2445,7 +2445,7 @@
           "analysis": {
             "translationLiteral": "与此同时，社会孤立与更高的身体疾病和心理健康问题发生率相关。",
             "translationNatural": "反过来，被社会孤立的人，身体生病和心理出问题的比例都更高。",
-            "structMarkup": "(Social isolation), (meanwhile), _is linked_ (to higher rates of physical diseases and mental health conditions).",
+            "structMarkup": "【Social isolation】, (meanwhile), _is linked_ ~to higher rates of physical diseases and mental health conditions~.",
             "structureSummary": "主语 + 插入语 + 谓语（被动）+ 状语",
             "components": [
               {

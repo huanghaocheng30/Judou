@@ -6,11 +6,31 @@
       "structMarkup": "【People in business】 _often make_ ~decisions~ (based on their own personal feelings or instincts).",
       "structureSummary": "主谓宾 + 方式状语（过去分词短语）",
       "components": [
-        { "part": "People in business", "role": "主语", "note": "in business 作后置定语，指商界人士" },
-        { "part": "often", "role": "频率副词", "note": "中位副词，位于实义动词前" },
-        { "part": "make", "role": "谓语", "note": "make decisions 固定搭配" },
-        { "part": "decisions", "role": "宾语", "note": "决定（可数复数）" },
-        { "part": "based on their own personal feelings or instincts", "role": "方式状语", "note": "过去分词短语，逻辑主语是 people" }
+        {
+          "part": "People in business",
+          "role": "主语",
+          "note": "in business 作后置定语，指商界人士"
+        },
+        {
+          "part": "often",
+          "role": "频率副词",
+          "note": "中位副词，位于实义动词前"
+        },
+        {
+          "part": "make",
+          "role": "谓语",
+          "note": "make decisions 固定搭配"
+        },
+        {
+          "part": "decisions",
+          "role": "宾语",
+          "note": "决定（可数复数）"
+        },
+        {
+          "part": "based on their own personal feelings or instincts",
+          "role": "方式状语",
+          "note": "过去分词短语，逻辑主语是 people"
+        }
       ],
       "clauses": [
         "make a decision / make decisions：做决定，不用 do。",
@@ -18,8 +38,18 @@
         "their own personal：own 加强「自己的」，personal 强调「个人的」。"
       ],
       "phrases": [
-        { "text": "make decisions", "meaning": "做决定", "usage": "decision 可数；单数用 make a decision。", "example": "Managers make decisions every day. 管理者每天都在做决定。" },
-        { "text": "be based on", "meaning": "基于……、以……为依据", "usage": "作状语时用过去分词 based on，逻辑主语被动。", "example": "The report is based on interviews. 这份报告基于访谈。" }
+        {
+          "text": "make decisions",
+          "meaning": "做决定",
+          "usage": "decision 可数；单数用 make a decision。",
+          "example": "Managers make decisions every day. 管理者每天都在做决定。"
+        },
+        {
+          "text": "be based on",
+          "meaning": "基于……、以……为依据",
+          "usage": "作状语时用过去分词 based on，逻辑主语被动。",
+          "example": "The report is based on interviews. 这份报告基于访谈。"
+        }
       ],
       "pitfalls": [
         "based on（被动/状语）与 basing on（主动，主语须是人且主动基于）不可混。",
@@ -34,10 +64,26 @@
       "structMarkup": "【It】 _is_ ~quite horrifying~ (to see people being guided by some unknown force).",
       "structureSummary": "形式主语 + 主系表 + 真正主语（不定式短语）",
       "components": [
-        { "part": "It", "role": "形式主语", "note": "真正主语是后面的不定式" },
-        { "part": "is quite horrifying", "role": "系表结构", "note": "quite 修饰 horrifying" },
-        { "part": "to see people being guided by some unknown force", "role": "真正主语", "note": "不定式短语" },
-        { "part": "people being guided by some unknown force", "role": "复合宾语", "note": "see sb being done 结构" }
+        {
+          "part": "It",
+          "role": "形式主语",
+          "note": "真正主语是后面的不定式"
+        },
+        {
+          "part": "is quite horrifying",
+          "role": "系表结构",
+          "note": "quite 修饰 horrifying"
+        },
+        {
+          "part": "to see people being guided by some unknown force",
+          "role": "真正主语",
+          "note": "不定式短语"
+        },
+        {
+          "part": "people being guided by some unknown force",
+          "role": "复合宾语",
+          "note": "see sb being done 结构"
+        }
       ],
       "clauses": [
         "It is + adj. + to do sth：形式主语句式，避免头重脚轻。",
@@ -45,8 +91,18 @@
         "being guided：现在分词被动式，作宾语补足语。"
       ],
       "phrases": [
-        { "text": "be guided by", "meaning": "受……引导/指导", "usage": "guide 的被动式；guided by 常作后置或状语。", "example": "Decisions should be guided by evidence. 决策应以证据为导向。" },
-        { "text": "an unknown force", "meaning": "未知的力量", "usage": "force 在此指抽象的「力量」，可数。", "example": "They felt driven by an unknown force. 他们觉得被一股未知力量驱使。" }
+        {
+          "text": "be guided by",
+          "meaning": "受……引导/指导",
+          "usage": "guide 的被动式；guided by 常作后置或状语。",
+          "example": "Decisions should be guided by evidence. 决策应以证据为导向。"
+        },
+        {
+          "text": "an unknown force",
+          "meaning": "未知的力量",
+          "usage": "force 在此指抽象的「力量」，可数。",
+          "example": "They felt driven by an unknown force. 他们觉得被一股未知力量驱使。"
+        }
       ],
       "pitfalls": [
         "see people being guided 是「看见正在被引导」，不是「看见被引导过」（后者为 see people guided）。",
@@ -61,11 +117,31 @@
       "structMarkup": "{But} 【how wise】 _is_ 【it】, (really), (to let your instincts drive your decisions)?",
       "structureSummary": "疑问句：表语前置 + 形式主语 + 真正主语（不定式）",
       "components": [
-        { "part": "But", "role": "转折连词", "note": "与上句的惊恐形成转折" },
-        { "part": "how wise", "role": "表语（疑问词引导）", "note": "前置到句首" },
-        { "part": "it", "role": "形式主语", "note": "真正主语是后面的不定式" },
-        { "part": "really", "role": "插入副词", "note": "加强反问语气" },
-        { "part": "to let your instincts drive your decisions", "role": "真正主语", "note": "不定式短语" }
+        {
+          "part": "But",
+          "role": "转折连词",
+          "note": "与上句的惊恐形成转折"
+        },
+        {
+          "part": "how wise",
+          "role": "表语（疑问词引导）",
+          "note": "前置到句首"
+        },
+        {
+          "part": "it",
+          "role": "形式主语",
+          "note": "真正主语是后面的不定式"
+        },
+        {
+          "part": "really",
+          "role": "插入副词",
+          "note": "加强反问语气"
+        },
+        {
+          "part": "to let your instincts drive your decisions",
+          "role": "真正主语",
+          "note": "不定式短语"
+        }
       ],
       "clauses": [
         "How + adj. + is it + to do sth：疑问句中的形式主语句式。",
@@ -73,8 +149,18 @@
         "drive your decisions：drive 在此为比喻用法，「驱使、主导」。"
       ],
       "phrases": [
-        { "text": "how wise is it to do sth", "meaning": "做某事有多明智", "usage": "反问句式，常用于质疑某做法。", "example": "How wise is it to ignore the warning? 无视警告有多明智呢？" },
-        { "text": "let sth drive sth", "meaning": "让……主导……", "usage": "drive 表「驱动、左右」；同类 let fear drive you。", "example": "Don't let anger drive your choices. 别让愤怒左右你的选择。" }
+        {
+          "text": "how wise is it to do sth",
+          "meaning": "做某事有多明智",
+          "usage": "反问句式，常用于质疑某做法。",
+          "example": "How wise is it to ignore the warning? 无视警告有多明智呢？"
+        },
+        {
+          "text": "let sth drive sth",
+          "meaning": "让……主导……",
+          "usage": "drive 表「驱动、左右」；同类 let fear drive you。",
+          "example": "Don't let anger drive your choices. 别让愤怒左右你的选择。"
+        }
       ],
       "pitfalls": [
         "let 后接动词原形 drive，不能加 to。",
@@ -89,11 +175,31 @@
       "structMarkup": "(In the decision-making process), 【relying on instincts】 _only makes sense_ {when you have a vast experience to support you}.",
       "structureSummary": "范围状语 + 动名词主语 + 谓语 + 时间状语从句",
       "components": [
-        { "part": "In the decision-making process", "role": "范围状语", "note": "在决策过程中" },
-        { "part": "relying on instincts", "role": "主语", "note": "动名词短语作主语，谓语用单数" },
-        { "part": "only", "role": "限定副词", "note": "只有……才" },
-        { "part": "makes sense", "role": "谓语", "note": "讲得通、有道理" },
-        { "part": "when you have a vast experience to support you", "role": "时间状语从句", "note": "内含不定式作后置定语" }
+        {
+          "part": "In the decision-making process",
+          "role": "范围状语",
+          "note": "在决策过程中"
+        },
+        {
+          "part": "relying on instincts",
+          "role": "主语",
+          "note": "动名词短语作主语，谓语用单数"
+        },
+        {
+          "part": "only",
+          "role": "限定副词",
+          "note": "只有……才"
+        },
+        {
+          "part": "makes sense",
+          "role": "谓语",
+          "note": "讲得通、有道理"
+        },
+        {
+          "part": "when you have a vast experience to support you",
+          "role": "时间状语从句",
+          "note": "内含不定式作后置定语"
+        }
       ],
       "clauses": [
         "动名词短语 relying on instincts 作主语，谓语用单数 makes。",
@@ -101,9 +207,24 @@
         "a vast experience to support you：不定式作后置定语，修饰 experience。"
       ],
       "phrases": [
-        { "text": "make sense", "meaning": "讲得通、有道理、合理", "usage": "主语常为做法或说法；否定 make no sense。", "example": "That approach makes sense to me. 这个做法我认为有道理。" },
-        { "text": "rely on", "meaning": "依靠、依赖", "usage": "同义 depend on；后接名词或动名词。", "example": "We rely on data, not hunches. 我们靠数据，不靠直觉。" },
-        { "text": "the decision-making process", "meaning": "决策过程", "usage": "decision-making 是复合形容词，带连字符。", "example": "The decision-making process takes weeks. 决策过程要花数周。" }
+        {
+          "text": "make sense",
+          "meaning": "讲得通、有道理、合理",
+          "usage": "主语常为做法或说法；否定 make no sense。",
+          "example": "That approach makes sense to me. 这个做法我认为有道理。"
+        },
+        {
+          "text": "rely on",
+          "meaning": "依靠、依赖",
+          "usage": "同义 depend on；后接名词或动名词。",
+          "example": "We rely on data, not hunches. 我们靠数据，不靠直觉。"
+        },
+        {
+          "text": "the decision-making process",
+          "meaning": "决策过程",
+          "usage": "decision-making 是复合形容词，带连字符。",
+          "example": "The decision-making process takes weeks. 决策过程要花数周。"
+        }
       ],
       "pitfalls": [
         "relying on instincts 作主语，谓语不能写成 make（须 makes）。",
@@ -118,10 +239,26 @@
       "structMarkup": "【Simply \"feeling\" that something is right or should be done】 _is_ ~highly subjective~ {and} _can drown_ ~you~.",
       "structureSummary": "动名词主语 + 主系表 + and 并列谓语",
       "components": [
-        { "part": "Simply \"feeling\" that something is right or should be done", "role": "主语", "note": "动名词 + that 从句" },
-        { "part": "that something is right or should be done", "role": "同位语从句", "note": "说明 feeling 的内容" },
-        { "part": "is highly subjective", "role": "系表结构", "note": "高度主观" },
-        { "part": "can drown you", "role": "并列谓语+宾语", "note": "drown 为比喻「压垮」" }
+        {
+          "part": "Simply \"feeling\" that something is right or should be done",
+          "role": "主语",
+          "note": "动名词 + that 从句"
+        },
+        {
+          "part": "that something is right or should be done",
+          "role": "同位语从句",
+          "note": "说明 feeling 的内容"
+        },
+        {
+          "part": "is highly subjective",
+          "role": "系表结构",
+          "note": "高度主观"
+        },
+        {
+          "part": "can drown you",
+          "role": "并列谓语+宾语",
+          "note": "drown 为比喻「压垮」"
+        }
       ],
       "clauses": [
         "动名词 feeling + that 从句作主语，谓语用单数 is。",
@@ -129,8 +266,18 @@
         "drown 在此为比喻用法，指「被情绪淹没、做出错误判断」。"
       ],
       "phrases": [
-        { "text": "highly subjective", "meaning": "高度主观的", "usage": "highly 修饰形容词表程度；反义 objective。", "example": "That judgment is highly subjective. 这个判断高度主观。" },
-        { "text": "drown sb", "meaning": "淹没某人；引申为「压倒、压垮」", "usage": "本义溺水，比喻义常指被情绪或工作淹没。", "example": "He was drowned in paperwork. 他淹没在文书工作里。" }
+        {
+          "text": "highly subjective",
+          "meaning": "高度主观的",
+          "usage": "highly 修饰形容词表程度；反义 objective。",
+          "example": "That judgment is highly subjective. 这个判断高度主观。"
+        },
+        {
+          "text": "drown sb",
+          "meaning": "淹没某人；引申为「压倒、压垮」",
+          "usage": "本义溺水，比喻义常指被情绪或工作淹没。",
+          "example": "He was drowned in paperwork. 他淹没在文书工作里。"
+        }
       ],
       "pitfalls": [
         "feeling 在此是动名词作主语，不是现在分词。",
@@ -142,13 +289,29 @@
     "2-0": {
       "translationLiteral": "另一方面，还有一种更具理性的做决定的方法。",
       "translationNatural": "反过来说，做决定也有更理性的路子。",
-      "structMarkup": "(On the other hand), there _is_ ~a more rational approach~ (to making decisions).",
+      "structMarkup": "(On the other hand), there _is_ 【a more rational approach】 (to making decisions).",
       "structureSummary": "连接状语 + there be 存在句 + 后置定语",
       "components": [
-        { "part": "On the other hand", "role": "连接状语", "note": "引出对立面" },
-        { "part": "there is", "role": "存在句谓语", "note": "单数，与 approach 一致" },
-        { "part": "a more rational approach", "role": "主语", "note": "更理性的方法" },
-        { "part": "to making decisions", "role": "后置定语", "note": "to 是介词，后接动名词" }
+        {
+          "part": "On the other hand",
+          "role": "连接状语",
+          "note": "引出对立面"
+        },
+        {
+          "part": "there is",
+          "role": "存在句谓语",
+          "note": "单数，与 approach 一致"
+        },
+        {
+          "part": "a more rational approach",
+          "role": "主语",
+          "note": "更理性的方法"
+        },
+        {
+          "part": "to making decisions",
+          "role": "后置定语",
+          "note": "to 是介词，后接动名词"
+        }
       ],
       "clauses": [
         "there is + 单数主语：存在句，谓语与后面第一个名词一致。",
@@ -156,8 +319,18 @@
         "more rational：rational 的比较级用 more 构成。"
       ],
       "phrases": [
-        { "text": "on the other hand", "meaning": "另一方面", "usage": "常与 on the one hand 配对使用，引出对照观点。", "example": "On the other hand, the cost is high. 另一方面，成本很高。" },
-        { "text": "an approach to sth/doing sth", "meaning": "做某事的方法", "usage": "to 是介词，后接名词或动名词。", "example": "We need a new approach to training. 我们需要新的培训方法。" }
+        {
+          "text": "on the other hand",
+          "meaning": "另一方面",
+          "usage": "常与 on the one hand 配对使用，引出对照观点。",
+          "example": "On the other hand, the cost is high. 另一方面，成本很高。"
+        },
+        {
+          "text": "an approach to sth/doing sth",
+          "meaning": "做某事的方法",
+          "usage": "to 是介词，后接名词或动名词。",
+          "example": "We need a new approach to training. 我们需要新的培训方法。"
+        }
       ],
       "pitfalls": [
         "approach to 后接动名词（making），不能写 approach to make。",
@@ -172,9 +345,21 @@
       "structMarkup": "【Data and analysis】 _have long been associated_ (with informed decisions).",
       "structureSummary": "并列主语 + 谓语（现在完成时被动）+ 状语",
       "components": [
-        { "part": "Data and analysis", "role": "并列主语", "note": "数据与分析" },
-        { "part": "have long been associated", "role": "谓语", "note": "现在完成时被动，long 插在中间" },
-        { "part": "with informed decisions", "role": "状语", "note": "be associated with 的固定搭配" }
+        {
+          "part": "Data and analysis",
+          "role": "并列主语",
+          "note": "数据与分析"
+        },
+        {
+          "part": "have long been associated",
+          "role": "谓语",
+          "note": "现在完成时被动，long 插在中间"
+        },
+        {
+          "part": "with informed decisions",
+          "role": "状语",
+          "note": "be associated with 的固定搭配"
+        }
       ],
       "clauses": [
         "have long been associated with：现在完成时被动，long 置于 have 与 been 之间。",
@@ -182,8 +367,18 @@
         "informed decisions：有依据/知情的决策，informed 是形容词。"
       ],
       "phrases": [
-        { "text": "be associated with", "meaning": "与……相关联", "usage": "表相关性，不代表因果；名词形式 association。", "example": "Success is often associated with persistence. 成功常与坚持相关。" },
-        { "text": "informed decision", "meaning": "有依据的决定、知情决策", "usage": "informed 表「基于信息的」，常见搭配 informed choice/consent。", "example": "Patients need information to make informed decisions. 病人需要信息才能做出知情决定。" }
+        {
+          "text": "be associated with",
+          "meaning": "与……相关联",
+          "usage": "表相关性，不代表因果；名词形式 association。",
+          "example": "Success is often associated with persistence. 成功常与坚持相关。"
+        },
+        {
+          "text": "informed decision",
+          "meaning": "有依据的决定、知情决策",
+          "usage": "informed 表「基于信息的」，常见搭配 informed choice/consent。",
+          "example": "Patients need information to make informed decisions. 病人需要信息才能做出知情决定。"
+        }
       ],
       "pitfalls": [
         "data 在现代英语中常作复数（datum 的复数），此处用 have；作不可数时用 has，两种皆可但须一致。",
@@ -198,11 +393,31 @@
       "structMarkup": "【These】 _reduce_ ~the likelihood of errors~ {and} _increase_ ~the chances of success~.",
       "structureSummary": "主语 + 两个并列谓语+宾语",
       "components": [
-        { "part": "These", "role": "主语", "note": "指前句的数据与分析" },
-        { "part": "reduce", "role": "谓语1", "note": "降低" },
-        { "part": "the likelihood of errors", "role": "宾语1", "note": "出错的可能性" },
-        { "part": "increase", "role": "谓语2", "note": "提高" },
-        { "part": "the chances of success", "role": "宾语2", "note": "成功的机会" }
+        {
+          "part": "These",
+          "role": "主语",
+          "note": "指前句的数据与分析"
+        },
+        {
+          "part": "reduce",
+          "role": "谓语1",
+          "note": "降低"
+        },
+        {
+          "part": "the likelihood of errors",
+          "role": "宾语1",
+          "note": "出错的可能性"
+        },
+        {
+          "part": "increase",
+          "role": "谓语2",
+          "note": "提高"
+        },
+        {
+          "part": "the chances of success",
+          "role": "宾语2",
+          "note": "成功的机会"
+        }
       ],
       "clauses": [
         "两个谓语共用主语 These，由 and 连接。",
@@ -210,8 +425,18 @@
         "the chances of success：成功的机会，chances 用复数表「几率」。"
       ],
       "phrases": [
-        { "text": "reduce the likelihood of", "meaning": "降低……的可能性", "usage": "likelihood 不可数；同义 lower the risk of。", "example": "Testing reduces the likelihood of failure. 测试能降低失败的可能性。" },
-        { "text": "increase the chances of", "meaning": "提高……的机会", "usage": "chances 用复数；也可说 improve the odds of。", "example": "Practice increases your chances of success. 练习能提高你成功的机会。" }
+        {
+          "text": "reduce the likelihood of",
+          "meaning": "降低……的可能性",
+          "usage": "likelihood 不可数；同义 lower the risk of。",
+          "example": "Testing reduces the likelihood of failure. 测试能降低失败的可能性。"
+        },
+        {
+          "text": "increase the chances of",
+          "meaning": "提高……的机会",
+          "usage": "chances 用复数；也可说 improve the odds of。",
+          "example": "Practice increases your chances of success. 练习能提高你成功的机会。"
+        }
       ],
       "pitfalls": [
         "likelihood 不可数，不加 -s；chance 在此可数用复数。",
@@ -226,10 +451,26 @@
       "structMarkup": "【Big, systematic data】 _is_ ~mostly the foundation of most of our decisions~, (personal and business alike).",
       "structureSummary": "主系表 + 补充性状语",
       "components": [
-        { "part": "Big, systematic data", "role": "主语", "note": "大规模系统化数据" },
-        { "part": "is", "role": "系动词", "note": "单数，视 data 为不可数" },
-        { "part": "mostly the foundation of most of our decisions", "role": "表语", "note": "mostly 与 most 同现" },
-        { "part": "personal and business alike", "role": "补充性状语", "note": "alike 后置表「同样地」" }
+        {
+          "part": "Big, systematic data",
+          "role": "主语",
+          "note": "大规模系统化数据"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "单数，视 data 为不可数"
+        },
+        {
+          "part": "mostly the foundation of most of our decisions",
+          "role": "表语",
+          "note": "mostly 与 most 同现"
+        },
+        {
+          "part": "personal and business alike",
+          "role": "补充性状语",
+          "note": "alike 后置表「同样地」"
+        }
       ],
       "clauses": [
         "mostly（大多）是副词，most（大多数）是限定词，两者不可互换。",
@@ -237,8 +478,18 @@
         "personal and business alike：alike 置于名词短语后，表「两者同样」。"
       ],
       "phrases": [
-        { "text": "the foundation of", "meaning": "……的基础", "usage": "常搭 lay/build the foundation of。", "example": "Trust is the foundation of teamwork. 信任是团队合作的基础。" },
-        { "text": "... alike", "meaning": "……都一样、无论……还是……", "usage": "置于名词短语后，表「两者同样适用」。", "example": "The rule applies to students and teachers alike. 这条规定对师生同样适用。" }
+        {
+          "text": "the foundation of",
+          "meaning": "……的基础",
+          "usage": "常搭 lay/build the foundation of。",
+          "example": "Trust is the foundation of teamwork. 信任是团队合作的基础。"
+        },
+        {
+          "text": "... alike",
+          "meaning": "……都一样、无论……还是……",
+          "usage": "置于名词短语后，表「两者同样适用」。",
+          "example": "The rule applies to students and teachers alike. 这条规定对师生同样适用。"
+        }
       ],
       "pitfalls": [
         "mostly（大多、主要地）与 most（大多数）不能混用。",
@@ -253,11 +504,31 @@
       "structMarkup": "{But} (with its extreme usability) _comes_ 【a complication】: {what do you do if you strongly feel something should not be done, even if the data insists that it should}?",
       "structureSummary": "完全倒装句 + 冒号后的解释性问句",
       "components": [
-        { "part": "But", "role": "转折连词", "note": "转入问题" },
-        { "part": "with its extreme usability", "role": "伴随状语", "note": "伴随其极高可用性" },
-        { "part": "comes", "role": "谓语（前置）", "note": "倒装，主语后置" },
-        { "part": "a complication", "role": "主语（后置）", "note": "一个复杂问题" },
-        { "part": "what do you do if...", "role": "解释性问句", "note": "冒号后说明 complication 是什么" }
+        {
+          "part": "But",
+          "role": "转折连词",
+          "note": "转入问题"
+        },
+        {
+          "part": "with its extreme usability",
+          "role": "伴随状语",
+          "note": "伴随其极高可用性"
+        },
+        {
+          "part": "comes",
+          "role": "谓语（前置）",
+          "note": "倒装，主语后置"
+        },
+        {
+          "part": "a complication",
+          "role": "主语（后置）",
+          "note": "一个复杂问题"
+        },
+        {
+          "part": "what do you do if...",
+          "role": "解释性问句",
+          "note": "冒号后说明 complication 是什么"
+        }
       ],
       "clauses": [
         "With X comes Y：完全倒装结构，谓语 comes 前置于主语 a complication。",
@@ -266,8 +537,18 @@
         "insists that it should：insist 后接 that 从句常带虚拟 should（此处 should 后省略动词）。"
       ],
       "phrases": [
-        { "text": "come with", "meaning": "伴随而来、随之而来", "usage": "本句为倒装：With A comes B = B comes with A。", "example": "With success comes responsibility. 成功伴随责任而来。" },
-        { "text": "insist that", "meaning": "坚持认为、坚决要求", "usage": "表「要求」时从句用虚拟 (should) do；表「坚称」时用陈述语气。", "example": "She insists that he was right. 她坚持认为他是对的。" }
+        {
+          "text": "come with",
+          "meaning": "伴随而来、随之而来",
+          "usage": "本句为倒装：With A comes B = B comes with A。",
+          "example": "With success comes responsibility. 成功伴随责任而来。"
+        },
+        {
+          "text": "insist that",
+          "meaning": "坚持认为、坚决要求",
+          "usage": "表「要求」时从句用虚拟 (should) do；表「坚称」时用陈述语气。",
+          "example": "She insists that he was right. 她坚持认为他是对的。"
+        }
       ],
       "pitfalls": [
         "完全倒装：With its usability comes a complication，主语在后，别按中文语序理解。",
@@ -282,104 +563,208 @@
       "phonetic": "/ˈɪnstɪŋkt/",
       "pos": "n.",
       "senseInContext": "直觉、本能（凭感觉做决定的那个「感觉」）",
-      "collocations": ["by instinct", "trust your instincts", "natural instinct"],
-      "examples": ["She trusted her instincts and said no. 她相信直觉，拒绝了。"],
+      "collocations": [
+        "by instinct",
+        "trust your instincts",
+        "natural instinct"
+      ],
+      "examples": [
+        "She trusted her instincts and said no. 她相信直觉，拒绝了。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "in-（内）+ stinguere（刺激）→ 内在冲动",
-        "synonyms": ["intuition", "gut feeling", "hunch"],
-        "confusables": ["instinctive（adj. 本能的）", "instinctively（adv. 本能地）"]
+        "synonyms": [
+          "intuition",
+          "gut feeling",
+          "hunch"
+        ],
+        "confusables": [
+          "instinctive（adj. 本能的）",
+          "instinctively（adv. 本能地）"
+        ]
       }
     },
     "subjective": {
       "phonetic": "/səbˈdʒektɪv/",
       "pos": "adj.",
       "senseInContext": "主观的（凭感觉判断是高度主观的）",
-      "collocations": ["highly subjective", "subjective judgment", "subjective opinion"],
-      "examples": ["Taste is subjective. 品味是主观的。"],
+      "collocations": [
+        "highly subjective",
+        "subjective judgment",
+        "subjective opinion"
+      ],
+      "examples": [
+        "Taste is subjective. 品味是主观的。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "sub-（下）+ jacere（投）→ 置于自身之下",
-        "synonyms": ["personal", "biased", "one-sided"],
-        "confusables": ["objective（adj. 客观的）", "subject（n. 主题；科目）"]
+        "synonyms": [
+          "personal",
+          "biased",
+          "one-sided"
+        ],
+        "confusables": [
+          "objective（adj. 客观的）",
+          "subject（n. 主题；科目）"
+        ]
       }
     },
     "rational": {
       "phonetic": "/ˈræʃnəl/",
       "pos": "adj.",
       "senseInContext": "理性的、基于理性的（更理性的决策方法）",
-      "collocations": ["rational decision", "rational thinking", "perfectly rational"],
-      "examples": ["We need a rational discussion. 我们需要理性的讨论。"],
+      "collocations": [
+        "rational decision",
+        "rational thinking",
+        "perfectly rational"
+      ],
+      "examples": [
+        "We need a rational discussion. 我们需要理性的讨论。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "ratio（计算、理性）",
-        "synonyms": ["logical", "reasoned", "sensible"],
-        "confusables": ["rationale（n. 理由、依据）", "rationale 与 rational 拼写近但词性不同"]
+        "synonyms": [
+          "logical",
+          "reasoned",
+          "sensible"
+        ],
+        "confusables": [
+          "rationale（n. 理由、依据）",
+          "rationale 与 rational 拼写近但词性不同"
+        ]
       }
     },
     "informed": {
       "phonetic": "/ɪnˈfɔːmd/",
       "pos": "adj.",
       "senseInContext": "有依据的、知情的（基于信息的决策）",
-      "collocations": ["informed decision", "well-informed", "keep sb informed"],
-      "examples": ["Make an informed choice about the plan. 对方案做出知情选择。"],
+      "collocations": [
+        "informed decision",
+        "well-informed",
+        "keep sb informed"
+      ],
+      "examples": [
+        "Make an informed choice about the plan. 对方案做出知情选择。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "inform（告知）+ -ed",
-        "synonyms": ["grounded", "knowledgeable", "well-briefed"],
-        "confusables": ["informative（adj. 信息量大的）", "information（n. 信息）"]
+        "synonyms": [
+          "grounded",
+          "knowledgeable",
+          "well-briefed"
+        ],
+        "confusables": [
+          "informative（adj. 信息量大的）",
+          "information（n. 信息）"
+        ]
       }
     },
     "likelihood": {
       "phonetic": "/ˈlaɪklihʊd/",
       "pos": "n.",
       "senseInContext": "可能性（降低出错的可能性）",
-      "collocations": ["the likelihood of", "increase/reduce the likelihood", "in all likelihood"],
-      "examples": ["There is little likelihood of rain. 下雨的可能性很小。"],
+      "collocations": [
+        "the likelihood of",
+        "increase/reduce the likelihood",
+        "in all likelihood"
+      ],
+      "examples": [
+        "There is little likelihood of rain. 下雨的可能性很小。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "likely（可能的）+ -hood",
-        "synonyms": ["probability", "chance", "prospect"],
-        "confusables": ["likely（adj./adv. 可能的）", "likeness（n. 相似）"]
+        "synonyms": [
+          "probability",
+          "chance",
+          "prospect"
+        ],
+        "confusables": [
+          "likely（adj./adv. 可能的）",
+          "likeness（n. 相似）"
+        ]
       }
     },
     "systematic": {
       "phonetic": "/ˌsɪstəˈmætɪk/",
       "pos": "adj.",
       "senseInContext": "系统化的、有体系的（大规模系统化数据）",
-      "collocations": ["systematic approach", "systematic review", "systematic error"],
-      "examples": ["They took a systematic approach to the problem. 他们系统地处理了这个问题。"],
+      "collocations": [
+        "systematic approach",
+        "systematic review",
+        "systematic error"
+      ],
+      "examples": [
+        "They took a systematic approach to the problem. 他们系统地处理了这个问题。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "system（系统）+ -atic",
-        "synonyms": ["methodical", "structured", "organized"],
-        "confusables": ["systemic（adj. 全身的、系统性的，多用于医学/制度）", "systematically（adv.）"]
+        "synonyms": [
+          "methodical",
+          "structured",
+          "organized"
+        ],
+        "confusables": [
+          "systemic（adj. 全身的、系统性的，多用于医学/制度）",
+          "systematically（adv.）"
+        ]
       }
     },
     "foundation": {
       "phonetic": "/faʊnˈdeɪʃn/",
       "pos": "n.",
       "senseInContext": "基础、根基（决策的基础）",
-      "collocations": ["the foundation of", "lay the foundation", "solid foundation"],
-      "examples": ["Reading lays the foundation for writing. 阅读为写作打基础。"],
+      "collocations": [
+        "the foundation of",
+        "lay the foundation",
+        "solid foundation"
+      ],
+      "examples": [
+        "Reading lays the foundation for writing. 阅读为写作打基础。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "found（建立）+ -ation",
-        "synonyms": ["basis", "base", "groundwork"],
-        "confusables": ["found（v. 建立）", "foundation 也可指「基金会」"]
+        "synonyms": [
+          "basis",
+          "base",
+          "groundwork"
+        ],
+        "confusables": [
+          "found（v. 建立）",
+          "foundation 也可指「基金会」"
+        ]
       }
     },
     "complication": {
       "phonetic": "/ˌkɒmplɪˈkeɪʃn/",
       "pos": "n.",
       "senseInContext": "复杂问题、麻烦（可用性带来的新问题）",
-      "collocations": ["a further complication", "cause complications", "medical complications"],
-      "examples": ["A new complication arose. 新的麻烦出现了。"],
+      "collocations": [
+        "a further complication",
+        "cause complications",
+        "medical complications"
+      ],
+      "examples": [
+        "A new complication arose. 新的麻烦出现了。"
+      ],
       "isCet4HighFreq": true,
       "more": {
         "roots": "com-（一起）+ plicare（折叠）→ 缠绕在一起",
-        "synonyms": ["problem", "difficulty", "snag"],
-        "confusables": ["complicated（adj. 复杂的）", "complex（adj. 复杂的 n. 综合体）"]
+        "synonyms": [
+          "problem",
+          "difficulty",
+          "snag"
+        ],
+        "confusables": [
+          "complicated（adj. 复杂的）",
+          "complex（adj. 复杂的 n. 综合体）"
+        ]
       }
     }
   }
