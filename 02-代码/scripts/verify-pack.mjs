@@ -56,8 +56,15 @@ console.log(`字节总数: ${totalBytes}（期望 ${EXPECTED_BYTES}）`);
 if (totalBytes !== EXPECTED_BYTES) fail(`字节总数应为 ${EXPECTED_BYTES}，实测 ${totalBytes}`);
 
 // ① 逐文件 SHA-256
-const sha256 = (file) => createHash("sha256").update(readFileSync(file)).digest("hex");
-let matched = 0;
+// 两个层次分开报，避免把「checkout 策略」误判成「内容坏了」：
+//   raw  = 两侧字节完全相同（本工作树的常态，13/13）
+//   eol  = 仅行尾不同（`git clone` 到 `core.autocrlf=true` 的机器时，设计区的 LF 会被 checkout
+//          转成 CRLF，而 `content-pack/**` 由 `02-代码/.gitattributes` 的 `-text` 钉住不变）
+// 判据：内容（EOL 归一后）必须一致；raw 一致数单独打印，供审查判断当前 checkout 策略。
+const sha256 = (buf) => createHash("sha256").update(buf).digest("hex");
+const normalizeEol = (buf) => Buffer.from(buf.toString("utf8").replace(/\r\n/g, "\n"), "utf8");
+let rawMatched = 0;
+let eolOnly = 0;
 const missingInSource = [];
 const mismatched = [];
 console.log("\n文件 | 字节 | SHA-256 前 12 位 | 一致");
@@ -65,18 +72,28 @@ console.log("---|---|---|---");
 for (const name of packFiles) {
   const packPath = path.join(packDir, name);
   const sourcePath = path.join(sourceDir, name);
-  const digest = sha256(packPath);
+  const packBuf = readFileSync(packPath);
+  const digest = sha256(packBuf);
   if (!existsSync(sourcePath)) {
     missingInSource.push(name);
-    console.log(`${name} | ${statSync(packPath).size} | ${digest.slice(0, 12)} | 来源缺失`);
+    console.log(`${name} | ${packBuf.length} | ${digest.slice(0, 12)} | 来源缺失`);
     continue;
   }
-  const same = digest === sha256(sourcePath);
-  if (same) matched += 1;
+  const sourceBuf = readFileSync(sourcePath);
+  const rawSame = digest === sha256(sourceBuf);
+  const contentSame = rawSame || sha256(normalizeEol(packBuf)) === sha256(normalizeEol(sourceBuf));
+  if (rawSame) rawMatched += 1;
+  else if (contentSame) eolOnly += 1;
   else mismatched.push(name);
-  console.log(`${name} | ${statSync(packPath).size} | ${digest.slice(0, 12)} | ${same ? "ok" : "FAIL"}`);
+  console.log(`${name} | ${packBuf.length} | ${digest.slice(0, 12)} | ${rawSame ? "ok" : contentSame ? "eol" : "FAIL"}`);
 }
-console.log(`\nSHA-256 一致: ${matched}/${packFiles.length}`);
+console.log(`\n内容一致: ${rawMatched + eolOnly}/${packFiles.length}（其中 raw 字节一致 ${rawMatched}，仅 EOL 差异 ${eolOnly}）`);
+if (eolOnly > 0) {
+  console.log(
+    `  提示：${eolOnly} 个文件仅行尾不同——这是 checkout 策略造成的（\`git clone\` 到 core.autocrlf=true 时，` +
+      `设计区 JSON 被转 CRLF，而 content-pack 被 .gitattributes 的 -text 钉住）。内容本身一致。`,
+  );
+}
 if (missingInSource.length) fail(`来源目录缺文件：${missingInSource.join(", ")}`);
 if (mismatched.length) fail(`内容不一致：${mismatched.join(", ")}`);
 
@@ -97,4 +114,7 @@ if (failed) {
   console.error("\nFAIL: 内容包落位与设计区不一致");
   process.exit(1);
 }
-console.log(`\nPASS: ${matched}/${packFiles.length} 文件 SHA-256 一致｜${totalBytes} B｜无 \`_\` 中间件｜manifest 12 篇齐全`);
+console.log(
+  `\nPASS: ${rawMatched + eolOnly}/${packFiles.length} 文件内容一致（raw ${rawMatched} + 仅 EOL ${eolOnly}）｜${totalBytes} B｜` +
+    `无 \`_\` 中间件｜manifest ${manifest.articles.length} 篇齐全`,
+);
