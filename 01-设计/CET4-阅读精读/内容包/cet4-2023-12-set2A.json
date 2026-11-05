@@ -4319,6 +4319,23 @@
         "confusables": "entrepreneur（创业者）/ enterprise（企业）/ entrepreneurial（创业的）"
       }
     },
+    "outcompete": {
+      "phonetic": "/ˌaʊtkəmˈpiːt/",
+      "pos": "v.",
+      "sense": "胜过、在竞争中击败",
+      "collocations": [
+        "outcompete rivals",
+        "outcompete the market"
+      ],
+      "examples": [
+        "Banks outcompete smaller rivals. 银行在竞争中胜过较小对手。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "out-（超过）+ compete（竞争）",
+        "confusables": "outcompete（胜过）/ outperform（表现更优）"
+      }
+    },
     "it's": {
       "phonetic": "/ɪts/",
       "pos": "缩略",
@@ -4384,6 +4401,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "avoid doing（不是 avoid to do）/ prevent（阻止）"
+      }
+    },
+    "traps": {
+      "phonetic": "/træps/",
+      "pos": "n./v.",
+      "sense": "陷阱（trap 的复数）；困住（动词三单）",
+      "lemma": "trap",
+      "collocations": [
+        "common traps",
+        "traps people"
+      ],
+      "examples": [
+        "There are several traps in this argument. 这个论证有几个陷阱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "traps（陷阱）/ trap（单数）"
       }
     },
     "often": {
@@ -4520,6 +4554,22 @@
         "confusables": "increase（动词）/ increase in（名词 + 介词）"
       }
     },
+    "willingness": {
+      "phonetic": "/ˈwɪlɪŋnəs/",
+      "pos": "n.",
+      "sense": "意愿（不可数）",
+      "collocations": [
+        "willingness to do",
+        "show willingness"
+      ],
+      "examples": [
+        "Their willingness to change surprised critics. 他们愿意改变让批评者意外。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "willingness（意愿）/ willing（愿意的）"
+      }
+    },
     "take": {
       "phonetic": "/teɪk/",
       "pos": "v.",
@@ -4570,6 +4620,22 @@
       "more": {
         "roots": "behave（举止）+ -ior",
         "confusables": "behaviour（英式）/ behavior（美式）"
+      }
+    },
+    "ultimately": {
+      "phonetic": "/ˈʌltɪmətli/",
+      "pos": "adv.",
+      "sense": "最终、根本上",
+      "collocations": [
+        "ultimately depends on",
+        "ultimately, ..."
+      ],
+      "examples": [
+        "Culture change ultimately depends on leaders. 文化变革最终取决于领导者。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "ultimately（最终）/ finally（最后）/ in the end（最终）"
       }
     },
     "hurt": {
@@ -4673,6 +4739,22 @@
         "confusables": "you're（you are）/ your（你的）"
       }
     },
+    "outcompeting": {
+      "phonetic": "/ˌaʊtkəmˈpiːtɪŋ/",
+      "pos": "v.",
+      "sense": "outcompete 的现在分词（胜过）",
+      "lemma": "outcompete",
+      "collocations": [
+        "outcompeting rivals"
+      ],
+      "examples": [
+        "They are outcompeting local shops. 他们正在压过本地商店。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "outcompeting（正在胜过）/ outcompete（胜过）"
+      }
+    },
     "great": {
       "phonetic": "/ɡreɪt/",
       "pos": "adj.",
@@ -4705,6 +4787,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "way（方法）/ road（道路）/ method（方法，正式）"
+      }
+    },
+    "stay": {
+      "phonetic": "/steɪ/",
+      "pos": "v./n.",
+      "sense": "停留、保持（stay + adj.）；逗留",
+      "collocations": [
+        "stay home",
+        "stay stable",
+        "stay in touch"
+      ],
+      "examples": [
+        "Error rates stayed stable. 错误率保持稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "stay（停留/保持）/ remain（保持，正式）/ keep（保持）"
       }
     },
     "focused": {
@@ -4876,6 +4975,37 @@
         "confusables": "develop（发展）/ development（发展，名词）"
       }
     },
+    "win-at-all-costs": {
+      "phonetic": "/ˌwɪn ət ɔːl ˈkɒsts/",
+      "pos": "adj.",
+      "sense": "不惜一切代价求胜的（复合形容词）",
+      "collocations": [
+        "a win-at-all-costs mentality"
+      ],
+      "examples": [
+        "A win-at-all-costs culture harms teams. 不惜代价求胜的文化损害团队。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "win-at-all-costs（不惜代价求胜）/ at all costs（无论如何）"
+      }
+    },
+    "mentality": {
+      "phonetic": "/menˈtæləti/",
+      "pos": "n.",
+      "sense": "心态、思维方式（可数）",
+      "collocations": [
+        "a competitive mentality",
+        "herd mentality"
+      ],
+      "examples": [
+        "A busyness mentality is hard to change. 忙碌心态很难改变。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "mentality（心态）/ mental（心理的）/ mindset（思维定式）"
+      }
+    },
     "causes": {
       "phonetic": "/ˈkɔːzɪz/",
       "pos": "v./n.",
@@ -5011,6 +5141,22 @@
         "confusables": "link（联系/连接）/ connect（连接）/ connection（联系）"
       }
     },
+    "unethical": {
+      "phonetic": "/ʌnˈeθɪkl/",
+      "pos": "adj.",
+      "sense": "不道德的、不合伦理的",
+      "collocations": [
+        "unethical behaviour",
+        "it is unethical to"
+      ],
+      "examples": [
+        "Such tests would be unethical. 这类测试不合伦理。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "unethical（不道德的）/ ethical（合乎伦理的）/ ethics（伦理）"
+      }
+    },
     "behavior": {
       "phonetic": "/bɪˈheɪvjə(r)/",
       "pos": "n.",
@@ -5097,6 +5243,22 @@
         "confusables": "against（反对）/ for（支持）/ versus（对，多用于比较与对抗）"
       }
     },
+    "willing": {
+      "phonetic": "/ˈwɪlɪŋ/",
+      "pos": "adj.",
+      "sense": "愿意的（be willing to do）",
+      "collocations": [
+        "be willing to do",
+        "willing to help"
+      ],
+      "examples": [
+        "Few firms are willing to change. 很少有公司愿意改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be willing to do（愿意）/ unwilling（不愿意）/ willingness（意愿）"
+      }
+    },
     "behave": {
       "phonetic": "/bɪˈheɪv/",
       "pos": "v.",
@@ -5114,6 +5276,22 @@
         "confusables": "behave（不及物动词）/ behaviour（名词）/ behave oneself（守规矩）"
       }
     },
+    "unethically": {
+      "phonetic": "/ʌnˈeθɪkli/",
+      "pos": "adv.",
+      "sense": "不道德地",
+      "collocations": [
+        "act unethically",
+        "behave unethically"
+      ],
+      "examples": [
+        "The firm acted unethically. 该公司行为不道德。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "unethically（不道德地）/ ethically（合乎伦理地）"
+      }
+    },
     "win": {
       "phonetic": "/wɪn/",
       "pos": "v./n.",
@@ -5129,6 +5307,87 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "win（赢，后接比赛或奖项）/ beat（打败某人）/ earn（挣得）"
+      }
+    },
+    "stain": {
+      "phonetic": "/steɪn/",
+      "pos": "n./v.",
+      "sense": "污点（可数）/ 弄污",
+      "collocations": [
+        "a stain on",
+        "stain removal"
+      ],
+      "examples": [
+        "The scandal left a stain on the firm. 丑闻给公司留下污点。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "stain（污点）/ stain 与 stay（停留）拼写近"
+      }
+    },
+    "reputation": {
+      "phonetic": "/ˌrepjuˈteɪʃn/",
+      "pos": "n.",
+      "sense": "声誉（可数/不可数）",
+      "collocations": [
+        "a good reputation",
+        "reputation for"
+      ],
+      "examples": [
+        "Firms protect their reputation. 公司维护自己的声誉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "reputation（声誉）/ fame（名气）/ repute（名声，正式）"
+      }
+    },
+    "strain": {
+      "phonetic": "/streɪn/",
+      "pos": "n./v.",
+      "sense": "压力、负担（可数/不可数）；拉伤 / 拉紧",
+      "collocations": [
+        "put a strain on",
+        "under strain"
+      ],
+      "examples": [
+        "Long hours put a strain on families. 长时间工作给家庭带来压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "strain（压力/拉伤）/ stress（压力）/ tension（紧张）"
+      }
+    },
+    "relationships": {
+      "phonetic": "/rɪˈleɪʃnʃɪps/",
+      "pos": "n.",
+      "sense": "关系（relationship 的复数）",
+      "lemma": "relationship",
+      "collocations": [
+        "close relationships",
+        "social relationships"
+      ],
+      "examples": [
+        "Close relationships improve health. 亲密关系能改善健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "relationships（关系）/ relations（关系，国际/正式）"
+      }
+    },
+    "trap": {
+      "phonetic": "/træp/",
+      "pos": "n./v.",
+      "sense": "陷阱（可数）/ 困住",
+      "collocations": [
+        "fall into a trap",
+        "be trapped in"
+      ],
+      "examples": [
+        "The obvious answer is a trap. 显而易见的答案往往是个陷阱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "trap（陷阱）/ pitfall（隐患）/ snare（圈套）"
       }
     },
     "stop": {
@@ -5196,6 +5455,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "provide sb with sth / provide sth for sb（两种搭配）/ offer"
+      }
+    },
+    "short-term": {
+      "phonetic": "/ˌʃɔːt ˈtɜːm/",
+      "pos": "adj.",
+      "sense": "短期的",
+      "collocations": [
+        "short-term gains",
+        "in the short term"
+      ],
+      "examples": [
+        "Short-term costs may be higher. 短期成本可能更高。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "short-term（短期的）/ long-term（长期的）"
       }
     },
     "benefits": {
@@ -5281,6 +5556,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "consequence（后果）/ result（结果）/ as a consequence of（由于）"
+      }
+    },
+    "reason": {
+      "phonetic": "/ˈriːzn/",
+      "pos": "n./v.",
+      "sense": "原因、理由（可数）；理性 / 推理",
+      "collocations": [
+        "the reason for",
+        "reason with",
+        "for this reason"
+      ],
+      "examples": [
+        "One of the top reasons to take leave is sharing care. 休假的首要原因之一是分担照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "the reason for（……的原因）/ the reason why（后接从句）/ cause（原因）"
       }
     },
     "creates": {
@@ -5383,6 +5675,22 @@
       "more": {
         "roots": "eager（渴望的）+ -ness",
         "confusables": "eagerness（急切）/ eager（形容词）/ eagerly（副词）"
+      }
+    },
+    "particularly": {
+      "phonetic": "/pəˈtɪkjələli/",
+      "pos": "adv.",
+      "sense": "尤其、特别",
+      "collocations": [
+        "particularly important",
+        "not particularly"
+      ],
+      "examples": [
+        "This matters particularly for new fathers. 这对新爸爸尤其重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "particularly（尤其）/ especially（尤其，更常用）/ particular（特定的）"
       }
     },
     "make": {
@@ -5572,6 +5880,23 @@
         "confusables": "critical（关键的/批评的）/ criticism（批评）/ criticize（批评）"
       }
     },
+    "thinking": {
+      "phonetic": "/ˈθɪŋkɪŋ/",
+      "pos": "n./v.",
+      "sense": "思考、想法（不可数）；think 的现在分词",
+      "lemma": "think",
+      "collocations": [
+        "critical thinking",
+        "way of thinking"
+      ],
+      "examples": [
+        "Critical thinking is a key skill. 批判性思维是关键技能。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "thinking（思考）/ thought（想法/think 的过去式）"
+      }
+    },
     "considering": {
       "phonetic": "/kənˈsɪdərɪŋ/",
       "pos": "prep./v.",
@@ -5587,6 +5912,40 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "considering（考虑到）/ considering that（考虑到……）"
+      }
+    },
+    "opposing": {
+      "phonetic": "/əˈpəʊzɪŋ/",
+      "pos": "adj./v.",
+      "sense": "对立的、反对的；oppose 的现在分词",
+      "lemma": "oppose",
+      "collocations": [
+        "opposing views",
+        "opposing sides"
+      ],
+      "examples": [
+        "They hold opposing views on the policy. 他们对政策持对立观点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "opposing（对立的）/ opposite（相反的）"
+      }
+    },
+    "viewpoints": {
+      "phonetic": "/ˈvjuːpɔɪnts/",
+      "pos": "n.",
+      "sense": "观点（viewpoint 的复数）",
+      "lemma": "viewpoint",
+      "collocations": [
+        "different viewpoints",
+        "from my viewpoint"
+      ],
+      "examples": [
+        "Students sample different viewpoints. 学生接触不同观点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "viewpoints（观点）/ points of view（同义）"
       }
     },
     "conducting": {
@@ -5827,6 +6186,22 @@
         "confusables": "put（不规则动词，三态同形）/ put off（推迟）/ put up with（忍受）"
       }
     },
+    "peril": {
+      "phonetic": "/ˈperəl/",
+      "pos": "n.",
+      "sense": "危险（不可数，文学/正式）",
+      "collocations": [
+        "in peril",
+        "the perils of"
+      ],
+      "examples": [
+        "The perils of over-reliance are clear. 过度依赖的危险很明显。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "peril（危险，正式）/ danger（危险）/ risky（危险的）"
+      }
+    },
     "overcome": {
       "phonetic": "/ˌəʊvəˈkʌm/",
       "pos": "v.",
@@ -5841,6 +6216,21 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "overcome（克服）/ be overcome with（被……压倒，情绪）"
+      }
+    },
+    "risk-inducing": {
+      "phonetic": "/ˈrɪsk ɪnˌdjuːsɪŋ/",
+      "pos": "adj.",
+      "sense": "引发风险的（复合形容词）",
+      "collocations": [
+        "risk-inducing behaviour"
+      ],
+      "examples": [
+        "Some online behaviour is risk-inducing. 有些网上行为会引发风险。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "risk-inducing（引发风险的）/ risky（有风险的）"
       }
     },
     "effects": {
@@ -5858,6 +6248,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "effects（效果）/ affects（影响，动词三单）"
+      }
+    },
+    "stand": {
+      "phonetic": "/stænd/",
+      "pos": "v./n.",
+      "sense": "站立；忍受（can't stand）；立场（名词）",
+      "collocations": [
+        "stand out",
+        "stand for",
+        "can't stand"
+      ],
+      "examples": [
+        "His record still stands today. 他的纪录至今仍未被打破。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "stand out（突出）/ stand for（代表）/ can't stand（无法忍受）"
       }
     },
     "endanger": {
@@ -5928,6 +6335,23 @@
         "confusables": "emotional（情感的）/ emotive（引起情绪的）/ emotion（情绪）"
       }
     },
+    "state": {
+      "phonetic": "/steɪt/",
+      "pos": "n./v.",
+      "sense": "状态、州、国家（可数）；陈述（动词）",
+      "collocations": [
+        "in a state of",
+        "state that",
+        "the state of"
+      ],
+      "examples": [
+        "The report states that rates are stable. 报告指出错误率稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "state（状态/陈述）/ status（地位）/ statement（陈述）"
+      }
+    },
     "actively": {
       "phonetic": "/ˈæktɪvli/",
       "pos": "adv.",
@@ -5942,6 +6366,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "actively（积极地）/ actively 反义 passively"
+      }
+    },
+    "monitor": {
+      "phonetic": "/ˈmɒnɪtə(r)/",
+      "pos": "v./n.",
+      "sense": "监测（及物）；显示器、班长",
+      "collocations": [
+        "monitor progress",
+        "monitor behaviour"
+      ],
+      "examples": [
+        "Apps monitor sleep patterns. 应用监测睡眠模式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "monitor（监测）/ observe（观察）/ supervision（监督）"
       }
     },
     "feelings": {

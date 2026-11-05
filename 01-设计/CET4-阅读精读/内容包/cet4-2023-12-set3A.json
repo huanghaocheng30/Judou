@@ -4781,6 +4781,22 @@
         "confusables": "decade（十年）/ decade 前用 three 不加 of"
       }
     },
+    "retirement": {
+      "phonetic": "/rɪˈtaɪəmənt/",
+      "pos": "n.",
+      "sense": "退役、退休（可数/不可数）",
+      "collocations": [
+        "after his retirement",
+        "early retirement"
+      ],
+      "examples": [
+        "Three decades after his retirement, he is still famous. 退役三十年后他仍出名。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "retirement（退役/退休）/ retire（退役）"
+      }
+    },
     "still": {
       "phonetic": "/stɪl/",
       "pos": "adv./adj.",
@@ -4828,6 +4844,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "beloved（受喜爱的）/ loving（充满爱的）/ loved（被爱的）"
+      }
+    },
+    "racehorses": {
+      "phonetic": "/ˈreɪshɔːsɪz/",
+      "pos": "n.",
+      "sense": "赛马（racehorse 的复数）",
+      "lemma": "racehorse",
+      "collocations": [
+        "one of the best-known racehorses"
+      ],
+      "examples": [
+        "He is one of the most beloved racehorses. 他是最受喜爱的赛马之一。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "race（比赛）+ horse（马）",
+        "confusables": "racehorses（赛马）/ horses（马）"
       }
     },
     "time": {
@@ -4899,6 +4932,55 @@
         "confusables": "several（数个，后接复数）/ some（一些）"
       }
     },
+    "owners": {
+      "phonetic": "/ˈəʊnəz/",
+      "pos": "n.",
+      "sense": "所有者、马主（owner 的复数）",
+      "lemma": "owner",
+      "collocations": [
+        "several owners",
+        "car owners"
+      ],
+      "examples": [
+        "He was passed around to several owners. 他被辗转于数个马主之间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "owners（所有者）/ ownership（所有权）"
+      }
+    },
+    "purchased": {
+      "phonetic": "/ˈpɜːtʃəst/",
+      "pos": "v.",
+      "sense": "purchase 的过去式/过去分词（购买）",
+      "lemma": "purchase",
+      "collocations": [
+        "be purchased for",
+        "purchased online"
+      ],
+      "examples": [
+        "He was purchased for Noel Le Mar. 他是为诺埃尔·勒马尔买下的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "purchased for（为……购买）/ bought"
+      }
+    },
+    "noel": {
+      "phonetic": "/ˈnəʊəl/",
+      "pos": "n.（专有名词）",
+      "sense": "诺埃尔（Noel Le Mar，买主的名字）",
+      "collocations": [
+        "Noel Le Mar"
+      ],
+      "examples": [
+        "The horse was purchased for Noel Le Mar. 这匹马是为诺埃尔·勒马尔买的。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
     "le": {
       "phonetic": "/lə/",
       "pos": "冠词（法语）",
@@ -4964,6 +5046,53 @@
         "confusables": "be made of（材质可见）/ be made from（材质改变）"
       }
     },
+    "purchase": {
+      "phonetic": "/ˈpɜːtʃəs/",
+      "pos": "n./v.",
+      "sense": "购买（可数/不可数）/ 购买（及物，正式）",
+      "collocations": [
+        "make a purchase",
+        "purchase price"
+      ],
+      "examples": [
+        "The agent who made the purchase was McCain. 完成购买的经纪人是麦凯恩。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "purchase（购买，正式）/ buy（买，通用）/ chase（追逐）"
+      }
+    },
+    "now-legendary": {
+      "phonetic": "/ˌnaʊ ˈledʒəndri/",
+      "pos": "adj.",
+      "sense": "如今已成传奇的（复合形容词）",
+      "collocations": [
+        "the now-legendary trainer"
+      ],
+      "examples": [
+        "The agent was the now-legendary trainer McCain. 经纪人是如今已成传奇的麦凯恩。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "now-legendary（如今传奇的）/ now-famous（如今著名的）"
+      }
+    },
+    "trainer": {
+      "phonetic": "/ˈtreɪnə(r)/",
+      "pos": "n.",
+      "sense": "驯马师、教练（可数）；运动鞋（英式复数）",
+      "collocations": [
+        "horse trainer",
+        "a personal trainer"
+      ],
+      "examples": [
+        "The now-legendary trainer was McCain. 如今已成传奇的驯马师是麦凯恩。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "trainer（驯马师/教练）/ coach（教练）/ trainee（受训者）"
+      }
+    },
     "donald": {
       "phonetic": "/ˈdɒnəld/",
       "pos": "n.（专有名词）",
@@ -4993,6 +5122,37 @@
       "isCet4HighFreq": false,
       "more": {
         "confusables": "ginger（绰号/姜）/ ginseng（人参）"
+      }
+    },
+    "mccain": {
+      "phonetic": "/məˈkeɪn/",
+      "pos": "n.（专有名词）",
+      "sense": "麦凯恩（Donald \"Ginger\" McCain，驯马师）",
+      "collocations": [
+        "Ginger McCain"
+      ],
+      "examples": [
+        "McCain trained Red Rum. 麦凯恩训练了「红朗姆」。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
+    "wasn't": {
+      "phonetic": "/ˈwɒznt/",
+      "pos": "缩略",
+      "sense": "was not 的缩写",
+      "collocations": [
+        "wasn't apparent",
+        "wasn't clear"
+      ],
+      "examples": [
+        "It wasn't apparent at the time. 当时并不明显。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "wasn't（was not）/ weren't（were not）"
       }
     },
     "apparent": {
@@ -5077,6 +5237,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "foot（单数）/ feet（复数）/ on foot（步行）"
+      }
+    },
+    "trainers": {
+      "phonetic": "/ˈtreɪnəz/",
+      "pos": "n.",
+      "sense": "驯马师（trainer 的复数）；运动鞋（英式）",
+      "lemma": "trainer",
+      "collocations": [
+        "many trainers",
+        "a pair of trainers"
+      ],
+      "examples": [
+        "Many trainers would have given up. 许多驯马师早就放弃了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "trainers（驯马师）/ sneakers（美式运动鞋）"
       }
     },
     "mean": {
@@ -5164,6 +5341,22 @@
         "confusables": "though（虽然/不过）/ although（虽然，更正式，不放句末）/ even though（即便，语气更强）"
       }
     },
+    "obstacle": {
+      "phonetic": "/ˈɒbstəkl/",
+      "pos": "n.",
+      "sense": "障碍（可数）",
+      "collocations": [
+        "an obstacle to",
+        "overcome an obstacle"
+      ],
+      "examples": [
+        "It was just an obstacle to be overcome. 那只是一个必须克服的障碍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "obstacle to（……的障碍，to 是介词）/ barrier（障碍）"
+      }
+    },
     "greatness": {
       "phonetic": "/ˈɡreɪtnəs/",
       "pos": "n.",
@@ -5230,6 +5423,22 @@
         "confusables": "true（真实的）/ truth（名词）/ real（真实的，指非虚构）"
       }
     },
+    "talent": {
+      "phonetic": "/ˈtælənt/",
+      "pos": "n.",
+      "sense": "天赋（可数/不可数）；人才",
+      "collocations": [
+        "true talent",
+        "a talent for"
+      ],
+      "examples": [
+        "His true talent came out in steeplechases. 他的真本事在障碍赛中显露。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "talent（天赋）/ gift（天赋）/ talented（有天赋的）"
+      }
+    },
     "came": {
       "phonetic": "/keɪm/",
       "pos": "v.",
@@ -5248,6 +5457,24 @@
         "confusables": "came（过去式）/ come（原形）/ coming（现在分词）"
       }
     },
+    "steeplechases": {
+      "phonetic": "/ˈstiːpltʃeɪsɪz/",
+      "pos": "n.",
+      "sense": "障碍赛马（steeplechase 的复数）",
+      "lemma": "steeplechase",
+      "collocations": [
+        "in steeplechases",
+        "steeplechase races"
+      ],
+      "examples": [
+        "His true talent came out in steeplechases. 他的真本事在障碍赛中显露。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "steeple（尖塔）+ chase（追逐）",
+        "confusables": "steeplechase（障碍赛马）/ hurdles（跨栏）"
+      }
+    },
     "power": {
       "phonetic": "/ˈpaʊə(r)/",
       "pos": "n./v.",
@@ -5263,6 +5490,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "power（权力/力量）/ strength（体力）"
+      }
+    },
+    "speed": {
+      "phonetic": "/spiːd/",
+      "pos": "n./v.",
+      "sense": "速度（可数/不可数）/ 加速（speed up）",
+      "collocations": [
+        "at speed",
+        "speed up",
+        "high speed"
+      ],
+      "examples": [
+        "His speed and jumping ability stood out. 他的速度和跳跃能力很突出。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "speed（速度）/ pace（步速/节奏）/ rate（比率）"
       }
     },
     "jumping": {
@@ -5470,6 +5714,22 @@
         "confusables": "second（第二/秒）/ secondly（第二点）/ secondary（次要的）"
       }
     },
+    "successive": {
+      "phonetic": "/səkˈsesɪv/",
+      "pos": "adj.",
+      "sense": "连续的、接连的",
+      "collocations": [
+        "successive firsts",
+        "successive years"
+      ],
+      "examples": [
+        "He took successive firsts. 他连续夺冠。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "successive（连续的）/ successful（成功的）"
+      }
+    },
     "firsts": {
       "phonetic": "/fɜːsts/",
       "pos": "n.",
@@ -5502,6 +5762,37 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "since（自从/因为）/ for（持续一段时间）/ from（起点）"
+      }
+    },
+    "reynoldstown": {
+      "phonetic": "/ˈrenəldztaʊn/",
+      "pos": "n.（专有名词）",
+      "sense": "雷诺兹敦（1935—1936 年连续夺冠的赛马名）",
+      "collocations": [
+        "since Reynoldstown in 1935-1936"
+      ],
+      "examples": [
+        "He was the first horse to win successive titles since Reynoldstown. 他是自雷诺兹敦以来第一匹连续夺冠的马。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
+    "spirit": {
+      "phonetic": "/ˈspɪrɪt/",
+      "pos": "n.",
+      "sense": "精神（不可数/可数）；情绪",
+      "collocations": [
+        "spirit and grace",
+        "in good spirits"
+      ],
+      "examples": [
+        "His spirit and grace charmed fans. 他的精神与优雅迷住了粉丝。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "spirit（精神）/ mind（心智）/ soul（灵魂）"
       }
     },
     "grace": {
@@ -5692,6 +5983,23 @@
         "confusables": "times（次数/时代）/ time（时间）"
       }
     },
+    "try": {
+      "phonetic": "/traɪ/",
+      "pos": "v./n.",
+      "sense": "尝试（try to do / try doing）；试一试（可数）",
+      "collocations": [
+        "try to do",
+        "try doing",
+        "give it a try"
+      ],
+      "examples": [
+        "He returned in 1977 to try again. 1977 年他回来再试一次。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "try to do（努力做）/ try doing（试着做看效果）"
+      }
+    },
     "again": {
       "phonetic": "/əˈɡen/",
       "pos": "adv.",
@@ -5725,6 +6033,23 @@
         "confusables": "largely（主要地）/ large（大的）——不是「大量地」"
       }
     },
+    "regarded": {
+      "phonetic": "/rɪˈɡɑːdɪd/",
+      "pos": "v.",
+      "sense": "regard 的过去式/过去分词（认为，be regarded as）",
+      "lemma": "regard",
+      "collocations": [
+        "be regarded as",
+        "widely regarded"
+      ],
+      "examples": [
+        "He was largely regarded as past his prime. 他被普遍认为已过巅峰。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be regarded as（被视为）/ regard（认为/尊重）"
+      }
+    },
     "past": {
       "phonetic": "/pɑːst/",
       "pos": "prep./adj./n.",
@@ -5740,6 +6065,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "past（过去的/经过）/ passed（pass 的过去式）"
+      }
+    },
+    "prime": {
+      "phonetic": "/praɪm/",
+      "pos": "n./adj.",
+      "sense": "全盛期（past one's prime）；首要的、优质的",
+      "collocations": [
+        "past his prime",
+        "in one's prime",
+        "prime minister"
+      ],
+      "examples": [
+        "He was regarded as past his prime. 他被认为已过巅峰期。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "prime（全盛期/首要的）/ primary（主要的）/ prime 也指质数"
       }
     },
     "old": {
@@ -5777,6 +6119,23 @@
         "confusables": "be expected to（预计会）/ expect sb to do（期待某人做）"
       }
     },
+    "place": {
+      "phonetic": "/pleɪs/",
+      "pos": "n./v.",
+      "sense": "地方（可数）；位置 / 放置",
+      "collocations": [
+        "in place",
+        "take place",
+        "in the first place"
+      ],
+      "examples": [
+        "Many places could benefit from existing technology. 许多地方能受益于现有技术。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "take place（发生）/ take the place of（取代）/ in place（到位）"
+      }
+    },
     "highly": {
       "phonetic": "/ˈhaɪli/",
       "pos": "adv.",
@@ -5792,6 +6151,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "highly（抽象程度高）/ high（物理高）"
+      }
+    },
+    "surprised": {
+      "phonetic": "/səˈpraɪzd/",
+      "pos": "adj./v.",
+      "sense": "感到惊讶的（修饰人）；surprise 的过去式/过去分词",
+      "lemma": "surprise",
+      "collocations": [
+        "be surprised at",
+        "surprised to find"
+      ],
+      "examples": [
+        "He surprised sporting fans around the world. 他让全世界体育迷震惊。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "surprised（感到惊讶的，修饰人）/ surprising（令人惊讶的，修饰物）"
+      }
+    },
+    "sporting": {
+      "phonetic": "/ˈspɔːtɪŋ/",
+      "pos": "adj.",
+      "sense": "体育的、运动的",
+      "collocations": [
+        "sporting fans",
+        "sporting event"
+      ],
+      "examples": [
+        "He surprised sporting fans worldwide. 他让全世界的体育迷震惊。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sporting（体育的）/ sports（运动的，作定语）/ sport（运动）"
       }
     },
     "world": {
@@ -5860,6 +6252,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "ahead of（在……之前/领先）/ in front of（在……前面，空间）"
+      }
+    },
+    "nearest": {
+      "phonetic": "/ˈnɪərɪst/",
+      "pos": "adj.",
+      "sense": "最近的（near 的最高级）",
+      "lemma": "near",
+      "collocations": [
+        "the nearest horse",
+        "nearest to"
+      ],
+      "examples": [
+        "He was 25 lengths ahead of the nearest horse. 他领先最近的对手 25 个马身。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "nearest（最近）/ next（下一个）/ near（靠近）"
       }
     },
     "taking": {
@@ -5965,6 +6374,23 @@
         "confusables": "greatest（最伟大）/ great（伟大的）/ the greatest（加 the）"
       }
     },
+    "moments": {
+      "phonetic": "/ˈməʊmənts/",
+      "pos": "n.",
+      "sense": "时刻（moment 的复数）",
+      "lemma": "moment",
+      "collocations": [
+        "greatest moments",
+        "at moments"
+      ],
+      "examples": [
+        "It is one of the greatest moments in racing. 这是赛马史上最伟大的时刻之一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "moments（时刻）/ at the moment（此刻）"
+      }
+    },
     "headed": {
       "phonetic": "/ˈhedɪd/",
       "pos": "v./adj.",
@@ -5999,6 +6425,23 @@
         "confusables": "at once（立即/一次性）/ once（一次/一旦）"
       }
     },
+    "suffered": {
+      "phonetic": "/ˈsʌfəd/",
+      "pos": "v.",
+      "sense": "suffer 的过去式/过去分词（遭受）",
+      "lemma": "suffer",
+      "collocations": [
+        "suffered an injury",
+        "suffered losses"
+      ],
+      "examples": [
+        "He suffered an injury before the race. 赛前他受了伤。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "suffered（遭受）/ suffer from（患……病）"
+      }
+    },
     "injury": {
       "phonetic": "/ˈɪndʒəri/",
       "pos": "n.",
@@ -6030,6 +6473,56 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "heels（蹄踵/脚后跟）/ heal（治愈）同音"
+      }
+    },
+    "shortly": {
+      "phonetic": "/ˈʃɔːtli/",
+      "pos": "adv.",
+      "sense": "不久；简短地",
+      "collocations": [
+        "shortly before",
+        "shortly after"
+      ],
+      "examples": [
+        "He was injured shortly before the race. 赛前不久他受了伤。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "shortly before（在……前不久）/ shortly（不久）/ short（短的）"
+      }
+    },
+    "race": {
+      "phonetic": "/reɪs/",
+      "pos": "n./v.",
+      "sense": "比赛（可数）；种族 / 竞赛",
+      "collocations": [
+        "horse race",
+        "the human race",
+        "race against"
+      ],
+      "examples": [
+        "He was headed for the big race. 他正朝着那场大赛去。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "race（比赛/种族）/ racing（赛马运动）"
+      }
+    },
+    "retired": {
+      "phonetic": "/rɪˈtaɪəd/",
+      "pos": "v./adj.",
+      "sense": "retire 的过去式/过去分词（退役、退休）；退休的",
+      "lemma": "retire",
+      "collocations": [
+        "was retired soon after",
+        "retired teachers"
+      ],
+      "examples": [
+        "He was retired soon after the injury. 受伤后不久他就退役了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "retired（退役/退休）/ retirement（退役/退休，名词）"
       }
     },
     "soon": {
@@ -6117,6 +6610,23 @@
         "confusables": "decrease（减少）/ increase（增加）/ reduce（及物，减少某物）"
       }
     },
+    "traveled": {
+      "phonetic": "/ˈtrævld/",
+      "pos": "v.",
+      "sense": "travel 的过去式/过去分词（旅行，美式拼写）",
+      "lemma": "travel",
+      "collocations": [
+        "traveled all over",
+        "traveled abroad"
+      ],
+      "examples": [
+        "He traveled all over the country. 他走遍全国。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "traveled（美式）/ travelled（英式）"
+      }
+    },
     "country": {
       "phonetic": "/ˈkʌntri/",
       "pos": "n.",
@@ -6132,6 +6642,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "country（国家/乡村）/ countryside（乡村地区）"
+      }
+    },
+    "various": {
+      "phonetic": "/ˈveəriəs/",
+      "pos": "adj.",
+      "sense": "各种各样的（后接复数名词）",
+      "collocations": [
+        "for various reasons",
+        "various engagements"
+      ],
+      "examples": [
+        "He traveled for various engagements. 他为各种活动奔走。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "various（各种各样的）/ variety（多样性）/ varied（多样的）"
       }
     },
     "engagements": {
@@ -6186,6 +6712,39 @@
         "confusables": "led（过去式）/ lead（原形；也指铅）"
       }
     },
+    "pre-race": {
+      "phonetic": "/ˌpriː ˈreɪs/",
+      "pos": "adj.",
+      "sense": "赛前的（复合形容词）",
+      "collocations": [
+        "pre-race parades",
+        "pre-race nerves"
+      ],
+      "examples": [
+        "He led pre-race parades at Aintree. 他在安特里领衔赛前巡游。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "pre-race（赛前的）/ post-race（赛后的）"
+      }
+    },
+    "parades": {
+      "phonetic": "/pəˈreɪdz/",
+      "pos": "n./v.",
+      "sense": "巡游（parade 的复数）；游行（动词三单）",
+      "lemma": "parade",
+      "collocations": [
+        "pre-race parades",
+        "hold parades"
+      ],
+      "examples": [
+        "He often led pre-race parades. 他常领衔赛前巡游。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "parades（巡游）/ parade（单数）"
+      }
+    },
     "aintree": {
       "phonetic": "/ˈeɪntriː/",
       "pos": "n.（专有名词）",
@@ -6199,6 +6758,39 @@
       "isCet4HighFreq": false,
       "more": {
         "confusables": "专有名词，首字母大写"
+      }
+    },
+    "racecourse": {
+      "phonetic": "/ˈreɪskɔːs/",
+      "pos": "n.",
+      "sense": "赛马场（可数）",
+      "collocations": [
+        "Aintree Racecourse",
+        "at the racecourse"
+      ],
+      "examples": [
+        "He led parades at Aintree Racecourse. 他在安特里赛马场领衔巡游。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "race（比赛）+ course（场地）",
+        "confusables": "racecourse（赛马场）/ racetrack（赛道）"
+      }
+    },
+    "popular": {
+      "phonetic": "/ˈpɒpjələ(r)/",
+      "pos": "adj.",
+      "sense": "受欢迎的、流行的",
+      "collocations": [
+        "a popular guest",
+        "popular among"
+      ],
+      "examples": [
+        "He was a popular guest at public events. 他是公开活动上受欢迎的嘉宾。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "popular（受欢迎的）/ popularity（受欢迎）/ popular with（受……欢迎）"
       }
     },
     "guest": {

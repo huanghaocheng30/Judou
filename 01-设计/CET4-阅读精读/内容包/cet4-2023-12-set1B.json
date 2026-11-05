@@ -4533,6 +4533,23 @@
         "confusables": "paid（pay 的过去式）/ payed（航海用语，罕用）"
       }
     },
+    "position": {
+      "phonetic": "/pəˈzɪʃn/",
+      "pos": "n./v.",
+      "sense": "位置、职位、立场（可数）/ 安置",
+      "collocations": [
+        "positions of power",
+        "in position",
+        "take a position"
+      ],
+      "examples": [
+        "Women struggle to reach positions of power. 女性难以进入权力高位。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "position（位置/立场）/ place（地方）/ rank（等级）"
+      }
+    },
     "within": {
       "phonetic": "/wɪˈðɪn/",
       "pos": "prep.",
@@ -4649,6 +4666,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "statistical（统计的）/ statistics（统计学/数据）/ statistic（统计量）"
+      }
+    },
+    "technique": {
+      "phonetic": "/tekˈniːk/",
+      "pos": "n.",
+      "sense": "技巧、技术（可数）",
+      "collocations": [
+        "a new technique",
+        "technique for"
+      ],
+      "examples": [
+        "They developed a better technique. 他们开发了更好的技巧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "technique（技巧）/ technology（技术，偏设备/系统）/ skill（技能）"
       }
     },
     "account": {
@@ -4974,6 +5007,23 @@
         "confusables": "in fact（事实上）/ as a matter of fact（同义，更口语）/ the fact that（同位语从句）"
       }
     },
+    "tended": {
+      "phonetic": "/ˈtendɪd/",
+      "pos": "v.",
+      "sense": "tend 的过去式/过去分词（倾向于；照料）",
+      "lemma": "tend",
+      "collocations": [
+        "tended to do",
+        "tended to be"
+      ],
+      "examples": [
+        "Men tended to report higher confidence. 男性往往报告更高的信心。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tended to do（倾向于）/ tended（照料）"
+      }
+    },
     "days": {
       "phonetic": "/deɪz/",
       "pos": "n.",
@@ -4989,6 +5039,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "days（复数）/ day's（一天的）"
+      }
+    },
+    "wanted": {
+      "phonetic": "/ˈwɒntɪd/",
+      "pos": "v./adj.",
+      "sense": "want 的过去式/过去分词（想要）；被通缉的",
+      "lemma": "want",
+      "collocations": [
+        "wanted to do",
+        "wanted by police"
+      ],
+      "examples": [
+        "They wanted to appear more adult. 他们想显得更成熟。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "wanted（想要）/ want（原形）"
       }
     },
     "determine": {
@@ -5076,6 +5143,56 @@
         "confusables": "business（生意）/ busy（忙的）"
       }
     },
+    "trips": {
+      "phonetic": "/trɪps/",
+      "pos": "n./v.",
+      "sense": "旅行（trip 的复数）；绊倒（动词三单）",
+      "lemma": "trip",
+      "collocations": [
+        "business trips",
+        "day trips"
+      ],
+      "examples": [
+        "Short trips are cheaper. 短途旅行更便宜。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "trips（旅行）/ travels（旅行，动词三单）"
+      }
+    },
+    "tested": {
+      "phonetic": "/ˈtestɪd/",
+      "pos": "v./adj.",
+      "sense": "test 的过去式/过去分词（测试）；经过检验的",
+      "lemma": "test",
+      "collocations": [
+        "be tested",
+        "tested methods"
+      ],
+      "examples": [
+        "The idea has been tested in several studies. 这一想法已在多项研究中检验。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tested（测试）/ testing（正在测试）"
+      }
+    },
+    "variety": {
+      "phonetic": "/vəˈraɪəti/",
+      "pos": "n.",
+      "sense": "多样性、种类（可数/不可数）；a variety of（各种各样的）",
+      "collocations": [
+        "a variety of",
+        "a wide variety"
+      ],
+      "examples": [
+        "A variety of tools are available. 有各种各样的工具。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "a variety of（各种各样的）/ various（各种的）/ vary（变化）"
+      }
+    },
     "possible": {
       "phonetic": "/ˈpɒsəbl/",
       "pos": "adj.",
@@ -5125,6 +5242,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "choosing（现在分词）/ chosen（过去分词）"
+      }
+    },
+    "plan": {
+      "phonetic": "/plæn/",
+      "pos": "n./v.",
+      "sense": "计划（可数）/ 计划、打算",
+      "collocations": [
+        "make a plan",
+        "plan to do",
+        "a plan for"
+      ],
+      "examples": [
+        "They plan to change the policy. 他们计划修改政策。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "plan to do（计划做）/ plan on doing（打算）"
       }
     },
     "ahead": {
@@ -5330,6 +5464,40 @@
         "confusables": "consumer（消费者）/ customer（顾客）/ client（客户）"
       }
     },
+    "preferences": {
+      "phonetic": "/ˈprefrənsɪz/",
+      "pos": "n.",
+      "sense": "偏好（preference 的复数）",
+      "lemma": "preference",
+      "collocations": [
+        "leave preferences",
+        "preferences for"
+      ],
+      "examples": [
+        "Fathers' preferences varied by age. 父亲的偏好在不同年龄有所不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "preferences（偏好）/ preference for（对……的偏好）"
+      }
+    },
+    "play": {
+      "phonetic": "/pleɪ/",
+      "pos": "v./n.",
+      "sense": "玩、扮演、起（作用）；戏剧",
+      "collocations": [
+        "play a role",
+        "play a part in",
+        "play with"
+      ],
+      "examples": [
+        "Instincts play a role in decision-making. 直觉在决策中起作用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "play a role in（起作用）/ play a part in（同义）"
+      }
+    },
     "central": {
       "phonetic": "/ˈsentrəl/",
       "pos": "adj.",
@@ -5345,6 +5513,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "central（中心的，形容词）/ center（中心，名词）"
+      }
+    },
+    "role": {
+      "phonetic": "/rəʊl/",
+      "pos": "n.",
+      "sense": "角色、作用（可数）",
+      "collocations": [
+        "play a role in",
+        "gender roles",
+        "the role of"
+      ],
+      "examples": [
+        "Traditional gender roles endure. 传统性别角色延续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "role（角色/作用）/ roll（滚动/名单）"
       }
     },
     "economic": {
@@ -5520,6 +5705,39 @@
         "confusables": "feels（三单）/ feel（原形）"
       }
     },
+    "unfairly": {
+      "phonetic": "/ˌʌnˈfeəli/",
+      "pos": "adv.",
+      "sense": "不公平地",
+      "collocations": [
+        "treated unfairly",
+        "unfairly denied"
+      ],
+      "examples": [
+        "Fathers felt they were treated unfairly. 父亲们觉得受到不公平对待。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "unfairly（不公平地）/ unfairly 反义 fairly"
+      }
+    },
+    "treated": {
+      "phonetic": "/ˈtriːtɪd/",
+      "pos": "v.",
+      "sense": "treat 的过去式/过去分词（对待、治疗）",
+      "lemma": "treat",
+      "collocations": [
+        "be treated as",
+        "treated fairly"
+      ],
+      "examples": [
+        "Fathers felt they were treated unfairly. 父亲们觉得受到不公平对待。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be treated as（被视为）/ treat（对待/治疗）"
+      }
+    },
     "engages": {
       "phonetic": "/ɪnˈɡeɪdʒɪz/",
       "pos": "v.",
@@ -5638,6 +5856,23 @@
         "confusables": "explains（三单）/ explain sth to sb（不是 explain sb sth）"
       }
     },
+    "showed": {
+      "phonetic": "/ʃəʊd/",
+      "pos": "v.",
+      "sense": "show 的过去式（显示、表明）",
+      "lemma": "show",
+      "collocations": [
+        "showed that",
+        "showed up"
+      ],
+      "examples": [
+        "The surveys showed men exhibit more of these behaviours. 调查显示男性表现出更多这类行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "showed（过去式）/ shown（过去分词）"
+      }
+    },
     "exhibit": {
       "phonetic": "/ɪɡˈzɪbɪt/",
       "pos": "v./n.",
@@ -5702,6 +5937,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "engage in（从事）/ engage with（与……互动）/ be engaged to（与……订婚）"
+      }
+    },
+    "relatively": {
+      "phonetic": "/ˈrelətɪvli/",
+      "pos": "adv.",
+      "sense": "相对地、比较地",
+      "collocations": [
+        "relatively small",
+        "relatively few"
+      ],
+      "examples": [
+        "The effect is relatively small. 影响相对较小。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "relatively（相对地）/ relative（相对的/亲戚）/ related（相关的）"
+      }
+    },
+    "sign": {
+      "phonetic": "/saɪn/",
+      "pos": "n./v.",
+      "sense": "迹象、标志（可数）/ 签署",
+      "collocations": [
+        "a sign of",
+        "sign a contract",
+        "no sign of"
+      ],
+      "examples": [
+        "There is no sign of decline yet. 目前还没有下降迹象。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sign（迹象/签字）/ signal（信号）/ signature（签名）"
       }
     },
     "abnormal": {
@@ -5773,6 +6041,54 @@
         "confusables": "disappears（三单）/ disappear（原形）/ vanish（消失）"
       }
     },
+    "plug": {
+      "phonetic": "/plʌɡ/",
+      "pos": "n./v.",
+      "sense": "插头、塞子（可数）/ 插入、堵塞",
+      "collocations": [
+        "plug in",
+        "plug a gap"
+      ],
+      "examples": [
+        "They plug gaps in the data. 他们填补数据缺口。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "plug（插头/塞住）/ plug in（插电）/ plug up（堵住）"
+      }
+    },
+    "variable": {
+      "phonetic": "/ˈveəriəbl/",
+      "pos": "adj./n.",
+      "sense": "可变的、多变的；变量（可数）",
+      "collocations": [
+        "a key variable",
+        "highly variable"
+      ],
+      "examples": [
+        "Results are highly variable. 结果变化很大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "variable（可变的/变量）/ various（各种各样的）/ variety（多样性）"
+      }
+    },
+    "prior": {
+      "phonetic": "/ˈpraɪə(r)/",
+      "pos": "adj.",
+      "sense": "先前的（prior to 在……之前）",
+      "collocations": [
+        "prior research",
+        "prior to"
+      ],
+      "examples": [
+        "This idea is supported by prior research. 这一想法有先前研究支持。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "prior to（在……之前，正式）/ previous（先前的）/ before（之前）"
+      }
+    },
     "research": {
       "phonetic": "/rɪˈsɜːtʃ/",
       "pos": "n./v.",
@@ -5825,6 +6141,22 @@
         "confusables": "result in（导致）/ result from（起因于）/ as a result of（由于）"
       }
     },
+    "motivation": {
+      "phonetic": "/ˌməʊtɪˈveɪʃn/",
+      "pos": "n.",
+      "sense": "动机、动力（可数/不可数）",
+      "collocations": [
+        "motivation for",
+        "lose motivation"
+      ],
+      "examples": [
+        "Their motivation was to share care. 他们的动机是分担照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "motivation（动机）/ motive（动机，具体）/ motivate（激励）"
+      }
+    },
     "performance": {
       "phonetic": "/pəˈfɔːməns/",
       "pos": "n.",
@@ -5857,6 +6189,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "workplace（一个词，工作场所）/ work place（分写，罕用）"
+      }
+    },
+    "morale": {
+      "phonetic": "/məˈrɑːl/",
+      "pos": "n.",
+      "sense": "士气（不可数）",
+      "collocations": [
+        "boost morale",
+        "low morale"
+      ],
+      "examples": [
+        "Fair policies boost morale. 公平政策能提振士气。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "morale（士气）/ moral（道德的）——拼写仅差一个字母"
       }
     },
     "culture": {
@@ -6113,6 +6461,23 @@
         "confusables": "significant（显著的）/ significance（意义）"
       }
     },
+    "sums": {
+      "phonetic": "/sʌmz/",
+      "pos": "n./v.",
+      "sense": "金额、总和（sum 的复数）；总计（动词三单）",
+      "lemma": "sum",
+      "collocations": [
+        "large sums of money",
+        "sum up"
+      ],
+      "examples": [
+        "They spent large sums on research. 他们在研究上花了大量金钱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sums（总额）/ sum up（总结）/ amount（数量）"
+      }
+    },
     "difference": {
       "phonetic": "/ˈdɪfrəns/",
       "pos": "n.",
@@ -6233,6 +6598,55 @@
         "confusables": "early（早）/ soon（不久）/ earlier（更早）"
       }
     },
+    "translate": {
+      "phonetic": "/trænsˈleɪt/",
+      "pos": "v.",
+      "sense": "翻译；转化（translate into）",
+      "collocations": [
+        "translate into",
+        "translate from"
+      ],
+      "examples": [
+        "Small gains translate into real savings. 小的收益能转化为实际节省。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "translate into（转化为）/ translation（翻译）"
+      }
+    },
+    "savings": {
+      "phonetic": "/ˈseɪvɪŋz/",
+      "pos": "n.",
+      "sense": "储蓄（复数）；节省",
+      "lemma": "saving",
+      "collocations": [
+        "savings account",
+        "energy savings"
+      ],
+      "examples": [
+        "Energy savings cut costs. 节能能降低成本。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "savings（储蓄）/ saving（节省/拯救）"
+      }
+    },
+    "million": {
+      "phonetic": "/ˈmɪljən/",
+      "pos": "num./n.",
+      "sense": "百万（数词）；数百万（millions of）",
+      "collocations": [
+        "$5 million",
+        "millions of"
+      ],
+      "examples": [
+        "They reached a $5 million settlement. 他们达成 500 万美元和解。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "million（百万）/ billion（十亿）；作定语不加复数：a 5 million dollar deal"
+      }
+    },
     "year": {
       "phonetic": "/jɪə(r)/",
       "pos": "n.",
@@ -6265,6 +6679,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "large（大，数量/规模）/ big（大，具体）/ at large（整体的/在逃的）"
+      }
+    },
+    "multinational": {
+      "phonetic": "/ˌmʌltiˈnæʃnəl/",
+      "pos": "adj./n.",
+      "sense": "跨国的（形容词）；跨国公司",
+      "collocations": [
+        "multinational companies",
+        "a multinational"
+      ],
+      "examples": [
+        "Multinational firms face pressure to change. 跨国公司面临改变的压力。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "multi-（多）+ national（国家的）",
+        "confusables": "multinational（跨国的）/ international（国际的）"
       }
     },
     "regular": {

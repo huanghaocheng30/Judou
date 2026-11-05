@@ -3764,6 +3764,39 @@
         "confusables": "journal（期刊/日志）/ journey（旅程）/ journalism（新闻业）"
       }
     },
+    "sports": {
+      "phonetic": "/spɔːts/",
+      "pos": "n./adj.",
+      "sense": "体育运动（sport 的复数）；运动的（作定语）",
+      "lemma": "sport",
+      "collocations": [
+        "sports news",
+        "play sports"
+      ],
+      "examples": [
+        "Sports coverage rarely mentions this. 体育报道很少提到这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sports（运动，作定语）/ sport（一项运动）"
+      }
+    },
+    "medicine": {
+      "phonetic": "/ˈmedsn/",
+      "pos": "n.",
+      "sense": "医学（不可数）；药物（可数/不可数）",
+      "collocations": [
+        "study medicine",
+        "take medicine"
+      ],
+      "examples": [
+        "She studied medicine at university. 她在大学学医。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "medicine（药物/医学）/ drug（药物/毒品）/ medication（药物，正式）"
+      }
+    },
     "several": {
       "phonetic": "/ˈsevrəl/",
       "pos": "adj./pron.",
@@ -3917,6 +3950,22 @@
         "confusables": "times（时代）/ time（时间，不可数）"
       }
     },
+    "meaningful": {
+      "phonetic": "/ˈmiːnɪŋfl/",
+      "pos": "adj.",
+      "sense": "有意义的、重要的",
+      "collocations": [
+        "meaningful work",
+        "a meaningful change"
+      ],
+      "examples": [
+        "They want more meaningful work. 他们想要更有意义的工作。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "meaningful（有意义的）/ meaningless（无意义的）"
+      }
+    },
     "health": {
       "phonetic": "/helθ/",
       "pos": "n.",
@@ -4053,6 +4102,22 @@
         "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
       }
     },
+    "somewhat": {
+      "phonetic": "/ˈsʌmwɒt/",
+      "pos": "adv.",
+      "sense": "有点儿、稍微（正式）",
+      "collocations": [
+        "somewhat different",
+        "somewhat surprising"
+      ],
+      "examples": [
+        "The results were somewhat surprising. 结果有点出人意料。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "somewhat（有点，正式）/ a bit（有点，口语）/ slightly（稍微）"
+      }
+    },
     "since": {
       "phonetic": "/sɪns/",
       "pos": "conj./prep./adv.",
@@ -4137,6 +4202,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "guidelines（准则）/ rules（规则）"
+      }
+    },
+    "recommend": {
+      "phonetic": "/ˌrekəˈmend/",
+      "pos": "v.",
+      "sense": "建议、推荐（recommend doing / recommend that）",
+      "collocations": [
+        "recommend doing",
+        "highly recommend"
+      ],
+      "examples": [
+        "Experts recommend moderation. 专家建议适度。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "recommend doing（不是 to do）/ recommend that（从句用虚拟）"
       }
     },
     "getting": {
@@ -4271,6 +4352,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "interview（访谈/面试）/ interviewer（采访者）/ interviewee（受访者）"
+      }
+    },
+    "survey": {
+      "phonetic": "/ˈsɜːveɪ/",
+      "pos": "n./v.",
+      "sense": "调查（可数）/ 调查、审视",
+      "collocations": [
+        "conduct a survey",
+        "a survey of"
+      ],
+      "examples": [
+        "A survey of 290 employees found a gap. 一项针对 290 名员工的调查发现了差距。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "survey（调查）/ poll（民意调查）/ inspect（检查）"
       }
     },
     "contrary": {
@@ -4480,6 +4577,23 @@
         "confusables": "times（次数/时代）/ time（时间）"
       }
     },
+    "recommended": {
+      "phonetic": "/ˌrekəˈmendɪd/",
+      "pos": "v./adj.",
+      "sense": "recommend 的过去式/过去分词（建议）；被推荐的",
+      "lemma": "recommend",
+      "collocations": [
+        "the recommended amount",
+        "recommended by"
+      ],
+      "examples": [
+        "They followed the recommended approach. 他们采用了推荐的方法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "recommended（被推荐的）/ recommend（建议）"
+      }
+    },
     "government": {
       "phonetic": "/ˈɡʌvənmənt/",
       "pos": "n.",
@@ -4547,6 +4661,22 @@
         "confusables": "active（活跃的）/ passive（被动的）"
       }
     },
+    "observational": {
+      "phonetic": "/ˌɒbzəˈveɪʃənl/",
+      "pos": "adj.",
+      "sense": "观察的、观察性的（研究）",
+      "collocations": [
+        "observational study",
+        "observational data"
+      ],
+      "examples": [
+        "Observational studies cannot prove causation. 观察性研究不能证明因果。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "observational（观察性的）/ experimental（实验的）/ observe（观察）"
+      }
+    },
     "like": {
       "phonetic": "/laɪk/",
       "pos": "prep./v./conj.",
@@ -4579,6 +4709,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "cannot（一个词，正式）/ can not（分写，多用于强调 not）/ can't（口语缩写）"
+      }
+    },
+    "prove": {
+      "phonetic": "/pruːv/",
+      "pos": "v.",
+      "sense": "证明（prove that / prove to be）",
+      "collocations": [
+        "prove that",
+        "prove to be",
+        "prove sb wrong"
+      ],
+      "examples": [
+        "Observational data cannot prove causation. 观察数据不能证明因果。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "prove（证明）/ proof（证据）/ prove 后接形容词表「证明是」"
       }
     },
     "cause": {
@@ -4799,6 +4946,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "despite + 名词（不是从句）/ although + 从句"
+      }
+    },
+    "study's": {
+      "phonetic": "/ˈstʌdiz/",
+      "pos": "n.（所有格）",
+      "sense": "该研究的（study 的所有格）",
+      "lemma": "study",
+      "collocations": [
+        "the study's findings"
+      ],
+      "examples": [
+        "The study's findings were clear. 该研究的发现很清楚。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "study's（单数所有格）/ studies'（复数所有格）"
       }
     },
     "results": {

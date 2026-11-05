@@ -4390,6 +4390,39 @@
         "confusables": "come（来）/ go（去）"
       }
     },
+    "realms": {
+      "phonetic": "/relmz/",
+      "pos": "n.",
+      "sense": "领域、范围（realm 的复数）",
+      "lemma": "realm",
+      "collocations": [
+        "in the realm of",
+        "different realms"
+      ],
+      "examples": [
+        "It matters in the realm of work. 这在工作领域很重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "realm（领域）/ area（领域）/ kingdom（王国）"
+      }
+    },
+    "technology": {
+      "phonetic": "/tekˈnɒlədʒi/",
+      "pos": "n.",
+      "sense": "技术（可数/不可数）",
+      "collocations": [
+        "new technology",
+        "existing technology"
+      ],
+      "examples": [
+        "Many places could benefit from existing technology. 许多地方能受益于现有技术。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "technology（技术）/ technique（技巧）/ technical（技术的）"
+      }
+    },
     "used": {
       "phonetic": "/juːzd/",
       "pos": "v./adj.",
@@ -4406,6 +4439,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）"
+      }
+    },
+    "refer": {
+      "phonetic": "/rɪˈfɜː(r)/",
+      "pos": "v.",
+      "sense": "指称（refer to）；参考",
+      "collocations": [
+        "refer to",
+        "refer to sb as"
+      ],
+      "examples": [
+        "They refer to this as the third space. 他们把这称作第三空间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "refer to（提及/指称）/ refer to as（称为）/ reference（参考）"
+      }
+    },
+    "operating": {
+      "phonetic": "/ˈɒpəreɪtɪŋ/",
+      "pos": "adj./v.",
+      "sense": "运营的、运作的；operate 的现在分词",
+      "lemma": "operate",
+      "collocations": [
+        "operating system",
+        "operating costs"
+      ],
+      "examples": [
+        "Operating costs rose sharply. 运营成本大幅上升。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "operating（运营的）/ operation（运营/手术）/ operate（操作/运营）"
       }
     },
     "system": {
@@ -4439,6 +4505,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "execute（执行）/ execution（执行）/ executive（高管）"
+      }
+    },
+    "multiple": {
+      "phonetic": "/ˈmʌltɪpl/",
+      "pos": "adj./n.",
+      "sense": "多个的、多样的；倍数",
+      "collocations": [
+        "multiple factors",
+        "multiple choice"
+      ],
+      "examples": [
+        "Multiple factors explain the gap. 多种因素解释了这一差距。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "multiple（多个的）/ several（几个）/ multiply（乘/倍增）"
       }
     },
     "however": {
@@ -4576,6 +4658,23 @@
         "confusables": "experts（专家）/ expertise（专业知识）"
       }
     },
+    "neuroscience": {
+      "phonetic": "/ˈnjʊərəʊsaɪəns/",
+      "pos": "n.",
+      "sense": "神经科学（不可数）",
+      "collocations": [
+        "neuroscience research",
+        "cognitive neuroscience"
+      ],
+      "examples": [
+        "Neuroscience shows multitasking limits. 神经科学揭示了多任务处理的局限。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "neuro（神经）+ science（科学）",
+        "confusables": "neuroscience（神经科学）/ neurology（神经学）"
+      }
+    },
     "brains": {
       "phonetic": "/breɪnz/",
       "pos": "n.",
@@ -4677,6 +4776,23 @@
         "confusables": "soon（不久）/ early（早）/ quickly（快）"
       }
     },
+    "require": {
+      "phonetic": "/rɪˈkwaɪə(r)/",
+      "pos": "v.",
+      "sense": "需要、要求（require sb to do / require that）",
+      "collocations": [
+        "require sb to do",
+        "require that",
+        "be required to"
+      ],
+      "examples": [
+        "The job requires careful judgment. 这份工作需要谨慎判断。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "require sb to do（要求某人做）/ require doing（需要被做）/ need（需要）"
+      }
+    },
     "attention": {
       "phonetic": "/əˈtenʃn/",
       "pos": "n.",
@@ -4710,6 +4826,23 @@
         "confusables": "productivity（生产率）/ production（产量）/ product（产品）"
       }
     },
+    "suffers": {
+      "phonetic": "/ˈsʌfəz/",
+      "pos": "v.",
+      "sense": "suffer 的第三人称单数（遭受）",
+      "lemma": "suffer",
+      "collocations": [
+        "suffers under",
+        "suffers from"
+      ],
+      "examples": [
+        "Local farming suffers under the policy. 当地农业在该政策下受损。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "suffers（三单）/ suffer（原形）"
+      }
+    },
     "call": {
       "phonetic": "/kɔːl/",
       "pos": "v./n.",
@@ -4725,6 +4858,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "call sb sth（称某人某物）/ call sb up（打电话）/ so-called（所谓的）"
+      }
+    },
+    "therefore": {
+      "phonetic": "/ˈðeəfɔː(r)/",
+      "pos": "adv.",
+      "sense": "因此（正式，连接因果）",
+      "collocations": [
+        "therefore, ...",
+        "and therefore"
+      ],
+      "examples": [
+        "The data is limited; therefore instinct matters. 数据有限，因此直觉重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "therefore（因此，正式）/ so（所以，口语）/ thus（因此，书面）"
       }
     },
     "reality": {
@@ -4779,6 +4928,22 @@
         "confusables": "move（移动）/ movement（运动/动作）"
       }
     },
+    "quickly": {
+      "phonetic": "/ˈkwɪkli/",
+      "pos": "adv.",
+      "sense": "快速地",
+      "collocations": [
+        "quickly change",
+        "as quickly as possible"
+      ],
+      "examples": [
+        "Attitudes are changing quickly. 态度正在快速改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "quickly（快速地）/ fast（快，口语）/ rapidly（迅速，正式）"
+      }
+    },
     "task": {
       "phonetic": "/tɑːsk/",
       "pos": "n./v.",
@@ -4794,6 +4959,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "task（任务）/ work（工作，不可数）/ chore（家务）"
+      }
+    },
+    "requires": {
+      "phonetic": "/rɪˈkwaɪəz/",
+      "pos": "v.",
+      "sense": "require 的第三人称单数（需要）",
+      "lemma": "require",
+      "collocations": [
+        "requires patience",
+        "requires that"
+      ],
+      "examples": [
+        "Good judgment requires experience. 好的判断需要经验。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "requires（三单）/ require（原形）"
       }
     },
     "essential": {
@@ -4831,6 +5013,23 @@
         "confusables": "condition（状况/病症）/ situation（情形）/ state（状态）"
       }
     },
+    "needs": {
+      "phonetic": "/niːdz/",
+      "pos": "n./v.",
+      "sense": "需求（need 的复数）；需要（动词三单）",
+      "lemma": "need",
+      "collocations": [
+        "meet needs",
+        "needs to do"
+      ],
+      "examples": [
+        "The system meets basic needs. 这个系统满足基本需求。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "needs（需求/三单）/ need（需要）"
+      }
+    },
     "automatic": {
       "phonetic": "/ˌɔːtəˈmætɪk/",
       "pos": "adj.",
@@ -4862,6 +5061,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
+      }
+    },
+    "walking": {
+      "phonetic": "/ˈwɔːkɪŋ/",
+      "pos": "n./v.",
+      "sense": "步行（不可数）；walk 的现在分词",
+      "lemma": "walk",
+      "collocations": [
+        "walking more",
+        "walking distance"
+      ],
+      "examples": [
+        "Walking more improves health. 多走路能改善健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "walking（步行）/ walk（走）"
       }
     },
     "eating": {
@@ -4932,6 +5148,23 @@
         "confusables": "mental（心理的）/ physical（身体的）"
       }
     },
+    "processes": {
+      "phonetic": "/ˈprəʊsesɪz/",
+      "pos": "n./v.",
+      "sense": "过程（process 的复数）；处理（动词三单）",
+      "lemma": "process",
+      "collocations": [
+        "cognitive processes",
+        "decision processes"
+      ],
+      "examples": [
+        "Decision processes vary by person. 决策过程因人而异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "processes（过程）/ process（单数/处理）"
+      }
+    },
     "answering": {
       "phonetic": "/ˈɑːnsərɪŋ/",
       "pos": "v.",
@@ -4947,6 +5180,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "answering（现在分词）/ answered（过去式）"
+      }
+    },
+    "phone": {
+      "phonetic": "/fəʊn/",
+      "pos": "n./v.",
+      "sense": "手机、电话（可数）/ 打电话",
+      "collocations": [
+        "on the phone",
+        "phone calls"
+      ],
+      "examples": [
+        "Parents stare non-stop at their phones. 家长不停地盯着手机。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "phone（电话）/ telephone（同义，正式）/ phon（音素）"
       }
     },
     "writing": {
@@ -4982,6 +5231,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "for example（插入语，缩写 e.g.）/ such as（后接名词）"
+      }
+    },
+    "side": {
+      "phonetic": "/saɪd/",
+      "pos": "n./adj.",
+      "sense": "一边、方面（可数）；旁边的",
+      "collocations": [
+        "on the other side",
+        "side effects",
+        "side by side"
+      ],
+      "examples": [
+        "On the other side of the coin, there are optimists. 反过来说，也有乐观者。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "on the other side（另一方面）/ on the other hand（另一方面，更常用）"
       }
     },
     "coin": {
@@ -5119,6 +5385,22 @@
         "confusables": "concluded（过去式）/ conclusion（结论，名词）"
       }
     },
+    "regardless": {
+      "phonetic": "/rɪˈɡɑːdləs/",
+      "pos": "adv.",
+      "sense": "不管怎样（regardless of 后接名词）",
+      "collocations": [
+        "regardless of",
+        "regardless, ..."
+      ],
+      "examples": [
+        "Regardless of the cost, firms must act. 无论代价如何，公司必须行动。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "regardless of（不管，后接名词）/ regardless（不管怎样，副词）"
+      }
+    },
     "whether": {
       "phonetic": "/ˈweðə(r)/",
       "pos": "conj.",
@@ -5185,6 +5467,22 @@
         "confusables": "several（数个，后接复数）/ some（一些）"
       }
     },
+    "mere": {
+      "phonetic": "/mɪə(r)/",
+      "pos": "adj.",
+      "sense": "仅仅的、只不过的（强调微小）",
+      "collocations": [
+        "a mere 2%",
+        "the mere thought of"
+      ],
+      "examples": [
+        "A mere 2% of men did more childcare. 仅 2% 的男性承担更多育儿。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "mere（仅仅的）/ merely（仅仅，副词）/ only（只有）"
+      }
+    },
     "fact": {
       "phonetic": "/fækt/",
       "pos": "n.",
@@ -5200,6 +5498,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "in fact（事实上）/ as a matter of fact（同义，更口语）/ the fact that（同位语从句）"
+      }
+    },
+    "perceive": {
+      "phonetic": "/pəˈsiːv/",
+      "pos": "v.",
+      "sense": "察觉、认为（perceive sth as）",
+      "collocations": [
+        "perceive sth as",
+        "be perceived as"
+      ],
+      "examples": [
+        "They perceive the risk as low. 他们认为风险很低。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "perceive（察觉/认为）/ perception（看法）/ perceived（自感的）"
       }
     },
     "activity": {
@@ -5340,6 +5654,23 @@
         "confusables": "view（观点）/ opinion（意见）/ point of view（视角）"
       }
     },
+    "understood": {
+      "phonetic": "/ˌʌndəˈstʊd/",
+      "pos": "v.",
+      "sense": "understand 的过去式与过去分词（理解）",
+      "lemma": "understand",
+      "collocations": [
+        "be understood as",
+        "widely understood"
+      ],
+      "examples": [
+        "The finding is understood as a warning. 这一发现被理解为警示。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "understood（过去式/过去分词）/ understand（原形）"
+      }
+    },
     "adapt": {
       "phonetic": "/əˈdæpt/",
       "pos": "v.",
@@ -5426,6 +5757,22 @@
         "confusables": "company（公司/陪伴）/ companion（同伴）"
       }
     },
+    "undertake": {
+      "phonetic": "/ˌʌndəˈteɪk/",
+      "pos": "v.",
+      "sense": "着手、承担（undertake a task / undertake to do）",
+      "collocations": [
+        "undertake research",
+        "undertake to do"
+      ],
+      "examples": [
+        "They undertook a three-year study. 他们开展了一项为期三年的研究。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "undertake（承担/着手）/ take on（承担）/ undergo（经历）"
+      }
+    },
     "activities": {
       "phonetic": "/ækˈtɪvətiz/",
       "pos": "n.",
@@ -5510,6 +5857,22 @@
         "confusables": "look at（看）/ look for（找）/ look after（照顾）"
       }
     },
+    "skilled": {
+      "phonetic": "/skɪld/",
+      "pos": "adj.",
+      "sense": "熟练的、有技能的",
+      "collocations": [
+        "skilled workers",
+        "skilled at"
+      ],
+      "examples": [
+        "Skilled workers are in demand. 熟练工人很抢手。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "skilled（熟练的）/ skillful（娴熟的）/ unskilled（非熟练的）"
+      }
+    },
     "improve": {
       "phonetic": "/ɪmˈpruːv/",
       "pos": "v.",
@@ -5525,6 +5888,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "improve（改善本身）/ improve on（在……基础上做得更好）"
+      }
+    },
+    "taught": {
+      "phonetic": "/tɔːt/",
+      "pos": "v.",
+      "sense": "teach 的过去式与过去分词（教）",
+      "lemma": "teach",
+      "collocations": [
+        "taught to",
+        "was taught that"
+      ],
+      "examples": [
+        "Kids are taught grammar at school. 孩子在学校学语法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "taught（teach 的过去式）/ thought（think 的过去式）"
       }
     },
     "something": {
@@ -5644,6 +6024,23 @@
         "confusables": "working（工作的）/ work（工作）"
       }
     },
+    "practices": {
+      "phonetic": "/ˈpræktɪsɪz/",
+      "pos": "n./v.",
+      "sense": "做法、惯例（practice 的复数，名词）；练习（动词三单，美式拼写 practices）",
+      "lemma": "practice",
+      "collocations": [
+        "common practices",
+        "workplace practices"
+      ],
+      "examples": [
+        "New practices spread slowly. 新做法传播缓慢。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "practice（美式名词/动词）/ practise（英式动词）"
+      }
+    },
     "benefits": {
       "phonetic": "/ˈbenɪfɪts/",
       "pos": "n.",
@@ -5677,6 +6074,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "clear（清楚的）/ clean（干净的）/ clearly（明显地）"
+      }
+    },
+    "quicker": {
+      "phonetic": "/ˈkwɪkə(r)/",
+      "pos": "adj.",
+      "sense": "更快的（quick 的比较级）",
+      "lemma": "quick",
+      "collocations": [
+        "quicker than",
+        "a quicker way"
+      ],
+      "examples": [
+        "Social media offers a quicker way to connect. 社交媒体提供了更快的联络方式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "quicker（更快）/ quickest（最快）"
       }
     },
     "efficient": {
@@ -5816,6 +6230,23 @@
         "confusables": "by no means（绝不）/ by all means（当然可以）/ means（单复同形）"
       }
     },
+    "powers": {
+      "phonetic": "/ˈpaʊəz/",
+      "pos": "n.",
+      "sense": "力量、权限（power 的复数）",
+      "lemma": "power",
+      "collocations": [
+        "positions of power",
+        "powers of"
+      ],
+      "examples": [
+        "People in positions of power decide. 掌权者做决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "powers（力量/权限）/ power（单数）"
+      }
+    },
     "concentration": {
       "phonetic": "/ˌkɒnsnˈtreɪʃn/",
       "pos": "n.",
@@ -5830,6 +6261,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "concentration（专注）/ concentrate（集中）"
+      }
+    },
+    "reduced": {
+      "phonetic": "/rɪˈdjuːst/",
+      "pos": "v./adj.",
+      "sense": "reduce 的过去式/过去分词（减少）；减少的",
+      "lemma": "reduce",
+      "collocations": [
+        "reduced risk",
+        "be reduced to"
+      ],
+      "examples": [
+        "Stress was reduced by social support. 社交支持降低了压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "reduced（减少的）/ reducing（正在减少）"
       }
     },
     "lead": {

@@ -1,0 +1,665 @@
+{
+  "soil": {
+    "phonetic": "/sɔɪl/", "pos": "n.", "sense": "土壤（不可数/可数）",
+    "collocations": ["soil quality", "healthy soil"],
+    "examples": ["Healthy soil holds water better. 健康的土壤保水性更好。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "soil（土壤）/ earth（泥土/地球）/ land（土地）" }
+  },
+  "solution": {
+    "phonetic": "/səˈluːʃn/", "pos": "n.", "sense": "解决办法（可数）；溶液",
+    "collocations": ["the solution to", "find a solution"],
+    "examples": ["The solution to this dilemma is using both. 这个两难的解法是把两者都用上。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "the solution to（……的解决办法，用 to）/ answer to（同义）" }
+  },
+  "somewhat": {
+    "phonetic": "/ˈsʌmwɒt/", "pos": "adv.", "sense": "有点儿、稍微（正式）",
+    "collocations": ["somewhat different", "somewhat surprising"],
+    "examples": ["The results were somewhat surprising. 结果有点出人意料。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "somewhat（有点，正式）/ a bit（有点，口语）/ slightly（稍微）" }
+  },
+  "sony": {
+    "phonetic": "/ˈsəʊni/", "pos": "n.（专有名词）", "sense": "索尼（Sony，日本电子公司）",
+    "collocations": ["the Sony Walkman"],
+    "examples": ["In the 80s, the great danger was the Sony Walkman. 80 年代的「巨大危险」是索尼随身听。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "sort": {
+    "phonetic": "/sɔːt/", "pos": "n./v.", "sense": "种类（可数，口语）；sort of（有点儿）/ 分类",
+    "collocations": ["sort of", "a sort of", "sort out"],
+    "examples": ["There's sort of an unstated expectation. 存在一种说不清的隐性期待。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "sort of（有点儿，口语）/ kind of（同义）/ sort out（解决）" }
+  },
+  "sound": {
+    "phonetic": "/saʊnd/", "pos": "n./v./adj.", "sense": "声音（可数/不可数）；听起来（sound + adj.）；健全的",
+    "collocations": ["sound like", "sound advice", "make a sound"],
+    "examples": ["The idea sounds reasonable. 这个想法听起来合理。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "sound（声音/听起来）/ noise（噪音）/ voice（人声）" }
+  },
+  "sounds": {
+    "phonetic": "/saʊndz/", "pos": "v./n.", "sense": "sound 的第三人称单数（听起来）；声音（复数）",
+    "lemma": "sound",
+    "collocations": ["it sounds like", "sounds good"],
+    "examples": ["That sounds like a fair compromise. 这听起来是个公平的折中。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "sounds（三单/复数）/ sound（声音）" }
+  },
+  "soybean": {
+    "phonetic": "/ˈsɔɪbiːn/", "pos": "n.", "sense": "大豆（可数）",
+    "collocations": ["soybean production", "soybean prices"],
+    "examples": ["Brazil is a major soybean producer. 巴西是大豆主要生产国。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "soybean（美式）/ soya bean（英式）" }
+  },
+  "space": {
+    "phonetic": "/speɪs/", "pos": "n./v.", "sense": "空间、空地（可数/不可数）；太空 / 留出间隔",
+    "collocations": ["third space", "in space", "make space for"],
+    "examples": ["The web is their \"third space\". 网络是他们的「第三空间」。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "space（空间/太空）/ room（房间/空间，不可数）" }
+  },
+  "speed": {
+    "phonetic": "/spiːd/", "pos": "n./v.", "sense": "速度（可数/不可数）/ 加速（speed up）",
+    "collocations": ["at speed", "speed up", "high speed"],
+    "examples": ["His speed and jumping ability stood out. 他的速度和跳跃能力很突出。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "speed（速度）/ pace（步速/节奏）/ rate（比率）" }
+  },
+  "sphere": {
+    "phonetic": "/sfɪə(r)/", "pos": "n.", "sense": "领域、圈子（可数）；球体",
+    "collocations": ["a new teenage sphere", "in the sphere of"],
+    "examples": ["A new teenage sphere is conducted digitally. 一个新的青少年领域以数字方式运行。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "sphere（领域/球体）/ field（领域）/ area（领域）" }
+  },
+  "spirit": {
+    "phonetic": "/ˈspɪrɪt/", "pos": "n.", "sense": "精神（不可数/可数）；情绪",
+    "collocations": ["spirit and grace", "in good spirits"],
+    "examples": ["His spirit and grace charmed fans. 他的精神与优雅迷住了粉丝。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "spirit（精神）/ mind（心智）/ soul（灵魂）" }
+  },
+  "spoilage": {
+    "phonetic": "/ˈspɔɪlɪdʒ/", "pos": "n.", "sense": "腐坏、变质（不可数）",
+    "collocations": ["food spoilage", "reduce spoilage"],
+    "examples": ["Better storage reduces spoilage. 更好的储存能减少腐坏。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "spoil（破坏）+ -age", "confusables": "spoilage（腐坏）/ spoil（破坏/宠坏）" }
+  },
+  "spoken": {
+    "phonetic": "/ˈspəʊkən/", "pos": "v./adj.", "sense": "speak 的过去分词；口语的",
+    "lemma": "speak",
+    "collocations": ["spoken English", "spoken language"],
+    "examples": ["Spoken language differs from written language. 口语与书面语不同。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "spoken（口语的/过去分词）/ spoke（过去式）" }
+  },
+  "sporting": {
+    "phonetic": "/ˈspɔːtɪŋ/", "pos": "adj.", "sense": "体育的、运动的",
+    "collocations": ["sporting fans", "sporting event"],
+    "examples": ["He surprised sporting fans worldwide. 他让全世界的体育迷震惊。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "sporting（体育的）/ sports（运动的，作定语）/ sport（运动）" }
+  },
+  "sports": {
+    "phonetic": "/spɔːts/", "pos": "n./adj.", "sense": "体育运动（sport 的复数）；运动的（作定语）",
+    "lemma": "sport",
+    "collocations": ["sports news", "play sports"],
+    "examples": ["Sports coverage rarely mentions this. 体育报道很少提到这一点。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "sports（运动，作定语）/ sport（一项运动）" }
+  },
+  "spouse": {
+    "phonetic": "/spaʊs/", "pos": "n.", "sense": "配偶（可数，法律/正式用语）",
+    "collocations": ["a spouse or partner", "spouse's income"],
+    "examples": ["Support can come from a spouse. 支持可以来自配偶。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "spouse（配偶，正式）/ partner（伴侣）" }
+  },
+  "stable": {
+    "phonetic": "/ˈsteɪbl/", "pos": "adj.", "sense": "稳定的；牢固的",
+    "collocations": ["remain stable", "a stable job"],
+    "examples": ["Error rates stayed stable. 错误率保持稳定。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "stable（稳定的）/ steady（平稳的）/ stability（稳定性）" }
+  },
+  "stain": {
+    "phonetic": "/steɪn/", "pos": "n./v.", "sense": "污点（可数）/ 弄污",
+    "collocations": ["a stain on", "stain removal"],
+    "examples": ["The scandal left a stain on the firm. 丑闻给公司留下污点。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "stain（污点）/ stain 与 stay（停留）拼写近" }
+  },
+  "stand": {
+    "phonetic": "/stænd/", "pos": "v./n.", "sense": "站立；忍受（can't stand）；立场（名词）",
+    "collocations": ["stand out", "stand for", "can't stand"],
+    "examples": ["His record still stands today. 他的纪录至今仍未被打破。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "stand out（突出）/ stand for（代表）/ can't stand（无法忍受）" }
+  },
+  "standard": {
+    "phonetic": "/ˈstændəd/", "pos": "n./adj.", "sense": "标准（可数）；常规 / 标准的",
+    "collocations": ["the old standard", "standard practice", "by standard"],
+    "examples": ["The old standard of women staying home no longer applies. 「女性在家」的旧标准不再适用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "standard（标准）/ criterion（准则）/ level（水平）" }
+  },
+  "standardisation": {
+    "phonetic": "/ˌstændədaɪˈzeɪʃn/", "pos": "n.", "sense": "标准化（英式拼写，不可数）",
+    "collocations": ["standardisation of data", "standardisation efforts"],
+    "examples": ["Standardisation makes comparison easier. 标准化让比较更容易。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "standardisation（英式）/ standardization（美式）" }
+  },
+  "standing": {
+    "phonetic": "/ˈstændɪŋ/", "pos": "n./adj.", "sense": "地位、声望（不可数）；常设的、长期的",
+    "collocations": ["of higher standing", "a standing committee"],
+    "examples": ["They seem to be of higher standing. 他们似乎地位更高。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "standing（地位/常设的）/ status（地位）/ stand（站）" }
+  },
+  "stanford": {
+    "phonetic": "/ˈstænfəd/", "pos": "n.（专有名词）", "sense": "斯坦福（Stanford University 斯坦福大学）",
+    "collocations": ["Stanford University"],
+    "examples": ["A Stanford scholar studied error rates. 一位斯坦福学者研究了错误率。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "stare": {
+    "phonetic": "/steə(r)/", "pos": "v.", "sense": "盯着看（stare at）",
+    "collocations": ["stare at", "stare non-stop at"],
+    "examples": ["Parents stare non-stop at their phones. 家长不停地盯着手机。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "stare at（盯着）/ look at（看）/ glance at（瞥一眼）" }
+  },
+  "state": {
+    "phonetic": "/steɪt/", "pos": "n./v.", "sense": "状态、州、国家（可数）；陈述（动词）",
+    "collocations": ["in a state of", "state that", "the state of"],
+    "examples": ["The report states that rates are stable. 报告指出错误率稳定。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "state（状态/陈述）/ status（地位）/ statement（陈述）" }
+  },
+  "statutory": {
+    "phonetic": "/ˈstætʃətri/", "pos": "adj.", "sense": "法定的、成文法的",
+    "collocations": ["statutory leave", "statutory rights"],
+    "examples": ["Statutory leave varies by country. 法定假期因国家而异。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "statute（法令）+ -ory", "confusables": "statutory（法定的）/ statute（法令）" }
+  },
+  "stay": {
+    "phonetic": "/steɪ/", "pos": "v./n.", "sense": "停留、保持（stay + adj.）；逗留",
+    "collocations": ["stay home", "stay stable", "stay in touch"],
+    "examples": ["Error rates stayed stable. 错误率保持稳定。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "stay（停留/保持）/ remain（保持，正式）/ keep（保持）" }
+  },
+  "stayed": {
+    "phonetic": "/steɪd/", "pos": "v.", "sense": "stay 的过去式/过去分词（停留、保持）",
+    "lemma": "stay",
+    "collocations": ["stayed stable", "stayed at home"],
+    "examples": ["Error rates stayed stable over a century. 错误率一个世纪来保持稳定。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "stayed（过去式）/ staying（现在分词）" }
+  },
+  "staying": {
+    "phonetic": "/ˈsteɪɪŋ/", "pos": "v.", "sense": "stay 的现在分词（停留）",
+    "lemma": "stay",
+    "collocations": ["women staying home", "staying in touch"],
+    "examples": ["The old standard of women staying home is outdated. 「女性在家」的旧标准已过时。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "staying（现在分词）/ stayed（过去式）" }
+  },
+  "steep": {
+    "phonetic": "/stiːp/", "pos": "adj.", "sense": "陡的；（价格）过高的",
+    "collocations": ["a steep rise", "steep prices"],
+    "examples": ["Costs rose steeply. 成本大幅上升。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "steep（陡的/过高的）/ sharp（急剧的）" }
+  },
+  "steeplechases": {
+    "phonetic": "/ˈstiːpltʃeɪsɪz/", "pos": "n.", "sense": "障碍赛马（steeplechase 的复数）",
+    "lemma": "steeplechase",
+    "collocations": ["in steeplechases", "steeplechase races"],
+    "examples": ["His true talent came out in steeplechases. 他的真本事在障碍赛中显露。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "steeple（尖塔）+ chase（追逐）", "confusables": "steeplechase（障碍赛马）/ hurdles（跨栏）" }
+  },
+  "storage": {
+    "phonetic": "/ˈstɔːrɪdʒ/", "pos": "n.", "sense": "储存（不可数）；存储空间",
+    "collocations": ["food storage", "data storage"],
+    "examples": ["Better storage reduces spoilage. 更好的储存减少腐坏。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "storage（储存）/ store（储存/商店）" }
+  },
+  "strain": {
+    "phonetic": "/streɪn/", "pos": "n./v.", "sense": "压力、负担（可数/不可数）；拉伤 / 拉紧",
+    "collocations": ["put a strain on", "under strain"],
+    "examples": ["Long hours put a strain on families. 长时间工作给家庭带来压力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "strain（压力/拉伤）/ stress（压力）/ tension（紧张）" }
+  },
+  "strangers": {
+    "phonetic": "/ˈstreɪndʒəz/", "pos": "n.", "sense": "陌生人（stranger 的复数）",
+    "lemma": "stranger",
+    "collocations": ["write for strangers", "talk to strangers"],
+    "examples": ["When they write for strangers, they try harder. 写给陌生人时，他们更努力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "strangers（陌生人）/ strangers 与 strange（奇怪的）同源" }
+  },
+  "strategies": {
+    "phonetic": "/ˈstrætədʒiz/", "pos": "n.", "sense": "策略（strategy 的复数）",
+    "lemma": "strategy",
+    "collocations": ["coping strategies", "new strategies"],
+    "examples": ["They develop coping strategies. 他们发展出应对策略。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "strategies（策略）/ strategy（单数）/ tactic（战术）" }
+  },
+  "strength": {
+    "phonetic": "/streŋθ/", "pos": "n.", "sense": "力量（不可数）；强项（可数）；强度",
+    "collocations": ["the strength of", "physical strength", "strengths and weaknesses"],
+    "examples": ["The strength of a social circle predicts stress. 社交圈的牢固度能预测压力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "strength（力量/强项）/ power（力量）/ weakness（弱点）" }
+  },
+  "strengthened": {
+    "phonetic": "/ˈstreŋθnd/", "pos": "v.", "sense": "strengthen 的过去式/过去分词（加强）",
+    "lemma": "strengthen",
+    "collocations": ["strengthened by", "strengthen ties"],
+    "examples": ["Legal cases strengthened the case for change. 法律诉讼强化了变革的理由。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "strengthened（加强）/ weaken（削弱）" }
+  },
+  "strong": {
+    "phonetic": "/strɒŋ/", "pos": "adj.", "sense": "强壮的、强烈的；有力的",
+    "collocations": ["strong evidence", "a strong desire", "strongly（副词）"],
+    "examples": ["They claim a strong desire for equality. 他们声称强烈渴望平等。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "strong（强烈的）/ strongly（强烈地）/ weak（弱的）" }
+  },
+  "strongly": {
+    "phonetic": "/ˈstrɒŋli/", "pos": "adv.", "sense": "强烈地、坚定地",
+    "collocations": ["strongly associated with", "strongly agree"],
+    "examples": ["Social support is strongly associated with better health. 社会支持与更好的健康密切相关。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "strongly（强烈地）/ strongly associated with（与……密切相关）" }
+  },
+  "struck": {
+    "phonetic": "/strʌk/", "pos": "v.", "sense": "strike 的过去式与过去分词（打击、撞击）",
+    "lemma": "strike",
+    "collocations": ["struck a blow at", "was struck by"],
+    "examples": ["Cable TV struck a blow at reading culture. 有线电视重创了阅读文化。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "struck（strike 的过去式）/ stroke（中风/笔画）" }
+  },
+  "struggling": {
+    "phonetic": "/ˈstrʌɡlɪŋ/", "pos": "v.", "sense": "struggle 的现在分词（挣扎、努力）",
+    "lemma": "struggle",
+    "collocations": ["struggling with", "struggling to do"],
+    "examples": ["Kids are struggling with new social rules. 孩子们在新社交规则上很吃力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "struggling with（应对困难）/ struggling to do（努力做）" }
+  },
+  "student": {
+    "phonetic": "/ˈstjuːdnt/", "pos": "n.", "sense": "学生（可数）",
+    "collocations": ["a college student", "student essays"],
+    "examples": ["A student wrote the essay. 一名学生写了这篇文章。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "student（学生）/ pupil（中小学生）" }
+  },
+  "studied": {
+    "phonetic": "/ˈstʌdid/", "pos": "v./adj.", "sense": "study 的过去式/过去分词（研究）；刻意的",
+    "lemma": "study",
+    "collocations": ["studied the data", "a studied calm"],
+    "examples": ["Researchers studied young people's digital use. 研究者研究了年轻人的数字使用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "studied（研究/刻意的）/ study（研究）" }
+  },
+  "study's": {
+    "phonetic": "/ˈstʌdiz/", "pos": "n.（所有格）", "sense": "该研究的（study 的所有格）",
+    "lemma": "study",
+    "collocations": ["the study's findings"],
+    "examples": ["The study's findings were clear. 该研究的发现很清楚。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "study's（单数所有格）/ studies'（复数所有格）" }
+  },
+  "subject": {
+    "phonetic": "/ˈsʌbdʒɪkt/", "pos": "n./adj.", "sense": "主题、学科（可数）；研究对象 / 易受影响的（be subject to）",
+    "collocations": ["on the subject of", "be subject to", "a subject of"],
+    "examples": ["On the subject of career advancement, opinions differ. 谈到职业晋升，看法不一。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "be subject to（受……影响）/ on the subject of（关于）" }
+  },
+  "subjective": {
+    "phonetic": "/səbˈdʒektɪv/", "pos": "adj.", "sense": "主观的",
+    "collocations": ["highly subjective", "subjective judgment"],
+    "examples": ["Simply feeling something is right is highly subjective. 仅凭感觉是对的，高度主观。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "subjective（主观的）/ objective（客观的）" }
+  },
+  "substantial": {
+    "phonetic": "/səbˈstænʃl/", "pos": "adj.", "sense": "大量的、实质性的",
+    "collocations": ["substantial progress", "a substantial amount"],
+    "examples": ["There is still substantial progress to be made. 仍有大量进展要做。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "substantial（大量的）/ substantive（实质性的）/ substantially（大幅地）" }
+  },
+  "successful": {
+    "phonetic": "/səkˈsesfl/", "pos": "adj.", "sense": "成功的",
+    "collocations": ["a successful outcome", "successful in doing"],
+    "examples": ["The policy has been broadly successful. 该政策总体上是成功的。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "successful（成功的）/ successive（连续的）" }
+  },
+  "successive": {
+    "phonetic": "/səkˈsesɪv/", "pos": "adj.", "sense": "连续的、接连的",
+    "collocations": ["successive firsts", "successive years"],
+    "examples": ["He took successive firsts. 他连续夺冠。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "successive（连续的）/ successful（成功的）" }
+  },
+  "suffered": {
+    "phonetic": "/ˈsʌfəd/", "pos": "v.", "sense": "suffer 的过去式/过去分词（遭受）",
+    "lemma": "suffer",
+    "collocations": ["suffered an injury", "suffered losses"],
+    "examples": ["He suffered an injury before the race. 赛前他受了伤。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "suffered（遭受）/ suffer from（患……病）" }
+  },
+  "suffers": {
+    "phonetic": "/ˈsʌfəz/", "pos": "v.", "sense": "suffer 的第三人称单数（遭受）",
+    "lemma": "suffer",
+    "collocations": ["suffers under", "suffers from"],
+    "examples": ["Local farming suffers under the policy. 当地农业在该政策下受损。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "suffers（三单）/ suffer（原形）" }
+  },
+  "summer": {
+    "phonetic": "/ˈsʌmə(r)/", "pos": "n.", "sense": "夏天（可数/不可数）",
+    "collocations": ["in summer", "summer holidays", "this summer"],
+    "examples": ["Essays titled \"what I did this summer\" are outdated. 题为「我暑假做了什么」的作文已过时。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "summer（夏天）/ some（一些）" }
+  },
+  "sums": {
+    "phonetic": "/sʌmz/", "pos": "n./v.", "sense": "金额、总和（sum 的复数）；总计（动词三单）",
+    "lemma": "sum",
+    "collocations": ["large sums of money", "sum up"],
+    "examples": ["They spent large sums on research. 他们在研究上花了大量金钱。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "sums（总额）/ sum up（总结）/ amount（数量）" }
+  },
+  "supposed": {
+    "phonetic": "/səˈpəʊzd/", "pos": "v./adj.", "sense": "suppose 的过去式/过去分词；（be supposed to）应该、据信",
+    "lemma": "suppose",
+    "collocations": ["be supposed to", "supposedly（副词）"],
+    "examples": ["That's what I think I'm supposed to say. 我以为自己「应该」这么说。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "be supposed to（应该/据信）/ supposedly（据称）" }
+  },
+  "supposedly": {
+    "phonetic": "/səˈpəʊzɪdli/", "pos": "adv.", "sense": "据称、据说（暗含未必属实）",
+    "collocations": ["supposedly caused by", "supposedly safe"],
+    "examples": ["Behaviour supposedly caused by violent games. 据称由暴力游戏引起的行为。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "supposedly（据称）/ allegedly（据称，法律语境）" }
+  },
+  "surely": {
+    "phonetic": "/ˈʃʊəli/", "pos": "adv.", "sense": "想必、肯定（表推断）；稳当地",
+    "collocations": ["surely not", "slowly but surely"],
+    "examples": ["Surely all this writing is affecting literacy? 这一切写作肯定正在影响读写能力吧？"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "surely（想必/肯定）/ sure（确信的）/ certainly（确实）" }
+  },
+  "surfing": {
+    "phonetic": "/ˈsɜːfɪŋ/", "pos": "n./v.", "sense": "网上浏览（不可数）；冲浪；surf 的现在分词",
+    "lemma": "surf",
+    "collocations": ["the surfing", "surfing the web"],
+    "examples": ["The surfing is part of everyday behaviour. 网上浏览是日常行为的一部分。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "surfing（浏览/冲浪）/ browsing（浏览）" }
+  },
+  "surprised": {
+    "phonetic": "/səˈpraɪzd/", "pos": "adj./v.", "sense": "感到惊讶的（修饰人）；surprise 的过去式/过去分词",
+    "lemma": "surprise",
+    "collocations": ["be surprised at", "surprised to find"],
+    "examples": ["He surprised sporting fans around the world. 他让全世界体育迷震惊。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "surprised（感到惊讶的，修饰人）/ surprising（令人惊讶的，修饰物）" }
+  },
+  "surprisingly": {
+    "phonetic": "/səˈpraɪzɪŋli/", "pos": "adv.", "sense": "令人惊讶地",
+    "collocations": ["surprisingly rare", "surprisingly high"],
+    "examples": ["She found surprisingly rare usage of short forms. 她发现缩写用法少得出奇。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "surprisingly（令人惊讶地）/ surprisedly（罕用）" }
+  },
+  "survey": {
+    "phonetic": "/ˈsɜːveɪ/", "pos": "n./v.", "sense": "调查（可数）/ 调查、审视",
+    "collocations": ["conduct a survey", "a survey of"],
+    "examples": ["A survey of 290 employees found a gap. 一项针对 290 名员工的调查发现了差距。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "survey（调查）/ poll（民意调查）/ inspect（检查）" }
+  },
+  "switch": {
+    "phonetic": "/swɪtʃ/", "pos": "v./n.", "sense": "切换（switch from A to B）；开关（名词）",
+    "collocations": ["switch from A to B", "switch on/off"],
+    "examples": ["When kids switch between tasks, quality drops. 孩子切换任务时质量会下降。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "switch（切换/开关）/ change（改变）/ shift（转移）" }
+  },
+  "talent": {
+    "phonetic": "/ˈtælənt/", "pos": "n.", "sense": "天赋（可数/不可数）；人才",
+    "collocations": ["true talent", "a talent for"],
+    "examples": ["His true talent came out in steeplechases. 他的真本事在障碍赛中显露。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "talent（天赋）/ gift（天赋）/ talented（有天赋的）" }
+  },
+  "talk": {
+    "phonetic": "/tɔːk/", "pos": "v./n.", "sense": "谈话（talk to/with）；谈话（可数）",
+    "collocations": ["talk about", "talk to", "small talk"],
+    "examples": ["They talk about school online. 他们在网上聊学校的事。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "talk about（谈论）/ speak to（对……说）/ chat（闲聊）" }
+  },
+  "talked": {
+    "phonetic": "/tɔːkt/", "pos": "v.", "sense": "talk 的过去式/过去分词（谈话）",
+    "lemma": "talk",
+    "collocations": ["talked about", "talked with"],
+    "examples": ["They talked about the change. 他们谈论了这一变化。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "talked（过去式）/ talking（现在分词）" }
+  },
+  "talking": {
+    "phonetic": "/ˈtɔːkɪŋ/", "pos": "v./n.", "sense": "talk 的现在分词；谈话（不可数）",
+    "lemma": "talk",
+    "collocations": ["talking about", "talking to"],
+    "examples": ["They are talking about fairness. 他们在谈公平。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "talking（现在分词）/ talk（谈话）" }
+  },
+  "tank": {
+    "phonetic": "/tæŋk/", "pos": "n.", "sense": "罐、水箱（可数）；坦克",
+    "collocations": ["water tank", "think tank"],
+    "examples": ["The Pew Research Centre is a US think tank. 皮尤研究中心是美国智库。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "think tank（智库）/ tank（水箱/坦克）" }
+  },
+  "taught": {
+    "phonetic": "/tɔːt/", "pos": "v.", "sense": "teach 的过去式与过去分词（教）",
+    "lemma": "teach",
+    "collocations": ["taught to", "was taught that"],
+    "examples": ["Kids are taught grammar at school. 孩子在学校学语法。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "taught（teach 的过去式）/ thought（think 的过去式）" }
+  },
+  "teach": {
+    "phonetic": "/tiːtʃ/", "pos": "v.", "sense": "教（teach sb sth / teach sb to do）",
+    "collocations": ["teach sb to do", "teach a subject"],
+    "examples": ["Schools need to teach smart searching. 学校需要教聪明搜索。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "teach sb sth（双宾语）/ learn（学，方向相反）" }
+  },
+  "teachers": {
+    "phonetic": "/ˈtiːtʃəz/", "pos": "n.", "sense": "教师（teacher 的复数）",
+    "lemma": "teacher",
+    "collocations": ["teachers worry", "school teachers"],
+    "examples": ["Certainly, teachers worry about writing. 老师们当然担心写作。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "teachers（教师）/ students（学生）" }
+  },
+  "teaching": {
+    "phonetic": "/ˈtiːtʃɪŋ/", "pos": "n./v.", "sense": "教学（不可数）；teach 的现在分词",
+    "lemma": "teach",
+    "collocations": ["teaching formal writing", "teaching methods"],
+    "examples": ["Teaching formal writing is still crucial. 教正式写作仍然关键。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "teaching（教学）/ teach（教）" }
+  },
+  "teams": {
+    "phonetic": "/tiːmz/", "pos": "n.", "sense": "团队（team 的复数）",
+    "lemma": "team",
+    "collocations": ["research teams", "team work"],
+    "examples": ["Research teams reached similar conclusions. 研究团队得出类似结论。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "teams（团队）/ groups（群体）" }
+  },
+  "technique": {
+    "phonetic": "/tekˈniːk/", "pos": "n.", "sense": "技巧、技术（可数）",
+    "collocations": ["a new technique", "technique for"],
+    "examples": ["They developed a better technique. 他们开发了更好的技巧。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "technique（技巧）/ technology（技术，偏设备/系统）/ skill（技能）" }
+  },
+  "technology": {
+    "phonetic": "/tekˈnɒlədʒi/", "pos": "n.", "sense": "技术（可数/不可数）",
+    "collocations": ["new technology", "existing technology"],
+    "examples": ["Many places could benefit from existing technology. 许多地方能受益于现有技术。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "technology（技术）/ technique（技巧）/ technical（技术的）" }
+  },
+  "temperature": {
+    "phonetic": "/ˈtemprətʃə(r)/", "pos": "n.", "sense": "温度（可数/不可数）；体温",
+    "collocations": ["rising temperatures", "body temperature"],
+    "examples": ["Rising temperatures reduce yields. 气温上升降低产量。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "temperature（温度）/ weather（天气）" }
+  },
+  "temperature-resistant": {
+    "phonetic": "/ˈtemprətʃə rɪˌzɪstənt/", "pos": "adj.", "sense": "耐高温的（复合形容词）",
+    "collocations": ["temperature-resistant crops"],
+    "examples": ["Temperature-resistant crops may adapt better. 耐高温作物可能适应得更好。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "temperature-resistant（耐高温的）/ heat-tolerant（耐热的）" }
+  },
+  "tended": {
+    "phonetic": "/ˈtendɪd/", "pos": "v.", "sense": "tend 的过去式/过去分词（倾向于；照料）",
+    "lemma": "tend",
+    "collocations": ["tended to do", "tended to be"],
+    "examples": ["Men tended to report higher confidence. 男性往往报告更高的信心。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "tended to do（倾向于）/ tended（照料）" }
+  },
+  "terms": {
+    "phonetic": "/tɜːmz/", "pos": "n.", "sense": "术语、条件（term 的复数）；in terms of（就……而言）",
+    "lemma": "term",
+    "collocations": ["in terms of", "come to terms with", "terms and conditions"],
+    "examples": ["This is true not just in terms of social lives. 这不仅在社交方面成立。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "in terms of（就……而言）/ on good terms（关系好）" }
+  },
+  "tested": {
+    "phonetic": "/ˈtestɪd/", "pos": "v./adj.", "sense": "test 的过去式/过去分词（测试）；经过检验的",
+    "lemma": "test",
+    "collocations": ["be tested", "tested methods"],
+    "examples": ["The idea has been tested in several studies. 这一想法已在多项研究中检验。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "tested（测试）/ testing（正在测试）" }
+  },
+  "text-speak": {
+    "phonetic": "/ˈtekst spiːk/", "pos": "n.", "sense": "网络体文字、短信体（不可数）",
+    "collocations": ["text-speak in writing", "use text-speak"],
+    "examples": ["They say kids use text-speak in writing. 他们说孩子写作用网络体。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "text-speak（网络体）/ texting（发短信）" }
+  },
+  "texters": {
+    "phonetic": "/ˈtekstəz/", "pos": "n.", "sense": "发短信的人（texter 的复数）",
+    "lemma": "texter",
+    "collocations": ["the most passionate texters"],
+    "examples": ["The most passionate texters also see friends in person. 最爱发短信的人也常与朋友见面。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "text（发短信）+ -er（人）", "confusables": "texters（发短信者）/ texting（发短信）" }
+  },
+  "therefore": {
+    "phonetic": "/ˈðeəfɔː(r)/", "pos": "adv.", "sense": "因此（正式，连接因果）",
+    "collocations": ["therefore, ...", "and therefore"],
+    "examples": ["The data is limited; therefore instinct matters. 数据有限，因此直觉重要。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "therefore（因此，正式）/ so（所以，口语）/ thus（因此，书面）" }
+  },
+  "they'll": {
+    "phonetic": "/ðeɪl/", "pos": "缩略", "sense": "they will 的缩写",
+    "collocations": ["they'll do", "they'll be"],
+    "examples": ["They'll adapt quickly. 他们会很快适应。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "they'll（they will）/ they'd（they would/had）" }
+  },
+  "they're": {
+    "phonetic": "/ðeə(r)/", "pos": "缩略", "sense": "they are 的缩写",
+    "collocations": ["they're likely to", "they're not"],
+    "examples": ["They're not replacing one another. 它们并不互相取代。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "they're（they are）/ their（他们的）/ there（那里）" }
+  },
+  "thing": {
+    "phonetic": "/θɪŋ/", "pos": "n.", "sense": "事情、东西（可数）",
+    "collocations": ["the thing is", "the same thing", "for one thing"],
+    "examples": ["Could the same thing happen to crops? 同样的事会发生在作物上吗？"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "thing（事情/东西）/ stuff（东西，不可数）" }
+  },
+  "thinking": {
+    "phonetic": "/ˈθɪŋkɪŋ/", "pos": "n./v.", "sense": "思考、想法（不可数）；think 的现在分词",
+    "lemma": "think",
+    "collocations": ["critical thinking", "way of thinking"],
+    "examples": ["Critical thinking is a key skill. 批判性思维是关键技能。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "thinking（思考）/ thought（想法/think 的过去式）" }
+  },
+  "threats": {
+    "phonetic": "/θrets/", "pos": "n.", "sense": "威胁（threat 的复数）",
+    "lemma": "threat",
+    "collocations": ["threats to", "security threats"],
+    "examples": ["Climate change poses threats to crops. 气候变化对作物构成威胁。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "threats（威胁）/ threaten（威胁，动词）" }
+  },
+  "today's": {
+    "phonetic": "/təˈdeɪz/", "pos": "n.（所有格）", "sense": "今天的、当今的（today 的所有格）",
+    "lemma": "today",
+    "collocations": ["today's digital activity", "today's leaders"],
+    "examples": ["Look at today's digital activity. 看看当今的数字活动。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "today's（今天的）/ todays（错误写法）" }
+  },
+  "told": {
+    "phonetic": "/təʊld/", "pos": "v.", "sense": "tell 的过去式与过去分词（告诉）",
+    "lemma": "tell",
+    "collocations": ["told that", "was told to"],
+    "examples": ["He was allegedly told mothers came first. 据称他被告知母亲优先。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "told（tell 的过去式）/ tell（原形）" }
+  },
+  "ton": {
+    "phonetic": "/tʌn/", "pos": "n.", "sense": "吨（可数）；a ton of（大量，口语）",
+    "collocations": ["a ton of", "tons of"],
+    "examples": ["They use a ton of social media. 他们大量使用社交媒体。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "a ton of（大量，口语）/ a lot of（同义）" }
+  }
+}

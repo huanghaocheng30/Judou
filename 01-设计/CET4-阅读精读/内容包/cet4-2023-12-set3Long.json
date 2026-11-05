@@ -13226,6 +13226,23 @@
         "confusables": "primary（首要的/初级的）/ prime（首要的/全盛期）/ secondary（次要的）"
       }
     },
+    "school": {
+      "phonetic": "/skuːl/",
+      "pos": "n.",
+      "sense": "学校（可数）；学派",
+      "collocations": [
+        "at school",
+        "primary school",
+        "school work"
+      ],
+      "examples": [
+        "He is at primary school. 他在上小学。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "school（学校）/ university（大学）/ college（学院）"
+      }
+    },
     "worry": {
       "phonetic": "/ˈwʌri/",
       "pos": "v./n.",
@@ -13292,6 +13309,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "media（媒体，复数）/ medium（媒介，单数）/ mass media（大众传媒）"
+      }
+    },
+    "newspapers": {
+      "phonetic": "/ˈnjuːzpeɪpəz/",
+      "pos": "n.",
+      "sense": "报纸（newspaper 的复数）",
+      "lemma": "newspaper",
+      "collocations": [
+        "in the newspapers",
+        "newspapers report"
+      ],
+      "examples": [
+        "Newspapers are constantly filled with such stories. 报纸不断充斥着这类报道。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "newspapers（报纸）/ news（新闻）"
       }
     },
     "constantly": {
@@ -13427,6 +13461,22 @@
         "confusables": "behaviour（英式）/ behavior（美式）/ behave（动词）"
       }
     },
+    "supposedly": {
+      "phonetic": "/səˈpəʊzɪdli/",
+      "pos": "adv.",
+      "sense": "据称、据说（暗含未必属实）",
+      "collocations": [
+        "supposedly caused by",
+        "supposedly safe"
+      ],
+      "examples": [
+        "Behaviour supposedly caused by violent games. 据称由暴力游戏引起的行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "supposedly（据称）/ allegedly（据称，法律语境）"
+      }
+    },
     "caused": {
       "phonetic": "/kɔːzd/",
       "pos": "v.",
@@ -13442,6 +13492,56 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "caused by（由……引起）/ cause（原因/导致）"
+      }
+    },
+    "violent": {
+      "phonetic": "/ˈvaɪələnt/",
+      "pos": "adj.",
+      "sense": "暴力的、猛烈的",
+      "collocations": [
+        "violent videogames",
+        "violent behaviour"
+      ],
+      "examples": [
+        "They blame violent videogames. 他们归咎于暴力电子游戏。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "violent（暴力的）/ violence（暴力，名词）/ fierce（激烈的）"
+      }
+    },
+    "videogames": {
+      "phonetic": "/ˈvɪdiəʊɡeɪmz/",
+      "pos": "n.",
+      "sense": "电子游戏（videogame 的复数）",
+      "lemma": "videogame",
+      "collocations": [
+        "violent videogames",
+        "play videogames"
+      ],
+      "examples": [
+        "Behaviour supposedly caused by violent videogames. 据称由暴力电子游戏引起的行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "videogames（连写）/ video games（分写更常见）"
+      }
+    },
+    "touch": {
+      "phonetic": "/tʌtʃ/",
+      "pos": "v./n.",
+      "sense": "触及（touch on）；接触（不可数）",
+      "collocations": [
+        "touch on",
+        "keep in touch",
+        "get in touch"
+      ],
+      "examples": [
+        "These accounts touch on real concerns. 这些报道触及真实担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "touch on（涉及）/ keep in touch（保持联系）"
       }
     },
     "real": {
@@ -13530,6 +13630,23 @@
         "confusables": "great（巨大/很棒）/ big（大，物理）/ large（大，数量）"
       }
     },
+    "mass": {
+      "phonetic": "/mæs/",
+      "pos": "n./adj.",
+      "sense": "大量、主体（the great mass of）；群众；质量 / 大规模的",
+      "collocations": [
+        "the great mass of",
+        "mass media",
+        "a mass of"
+      ],
+      "examples": [
+        "They do not reflect the great mass of everyday behaviour. 它们未反映日常行为的主体。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "mass（大量/群众）/ massive（巨大的）"
+      }
+    },
     "everyday": {
       "phonetic": "/ˈevrideɪ/",
       "pos": "adj.",
@@ -13614,6 +13731,23 @@
         "confusables": "texting（发短信）/ text（文本/发短信）"
       }
     },
+    "surfing": {
+      "phonetic": "/ˈsɜːfɪŋ/",
+      "pos": "n./v.",
+      "sense": "网上浏览（不可数）；冲浪；surf 的现在分词",
+      "lemma": "surf",
+      "collocations": [
+        "the surfing",
+        "surfing the web"
+      ],
+      "examples": [
+        "The surfing is part of everyday behaviour. 网上浏览是日常行为的一部分。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "surfing（浏览/冲浪）/ browsing（浏览）"
+      }
+    },
     "emergence": {
       "phonetic": "/iˈmɜːdʒəns/",
       "pos": "n.",
@@ -13645,6 +13779,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "sphere": {
+      "phonetic": "/sfɪə(r)/",
+      "pos": "n.",
+      "sense": "领域、圈子（可数）；球体",
+      "collocations": [
+        "a new teenage sphere",
+        "in the sphere of"
+      ],
+      "examples": [
+        "A new teenage sphere is conducted digitally. 一个新的青少年领域以数字方式运行。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sphere（领域/球体）/ field（领域）/ area（领域）"
       }
     },
     "conducted": {
@@ -13714,6 +13864,22 @@
         "confusables": "always（总是）/ all ways（所有方式）"
       }
     },
+    "provoke": {
+      "phonetic": "/prəˈvəʊk/",
+      "pos": "v.",
+      "sense": "引发、激起（及物）；激怒",
+      "collocations": [
+        "provoke panic",
+        "provoke debate"
+      ],
+      "examples": [
+        "New technologies always provoke generational panic. 新技术总是引发代际恐慌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "provoke（引发/激怒）/ trigger（触发）/ provocative（挑衅的）"
+      }
+    },
     "generational": {
       "phonetic": "/ˌdʒenəˈreɪʃənl/",
       "pos": "adj.",
@@ -13729,6 +13895,22 @@
       "more": {
         "roots": "generation（世代）+ -al",
         "confusables": "generational（代际的）/ generation（一代）"
+      }
+    },
+    "panic": {
+      "phonetic": "/ˈpænɪk/",
+      "pos": "n./v.",
+      "sense": "恐慌（可数/不可数）/ 惊慌",
+      "collocations": [
+        "generational panic",
+        "in a panic"
+      ],
+      "examples": [
+        "New technologies always provoke generational panic. 新技术总是引发代际恐慌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "panic（恐慌）/ panicked（慌乱，过去式/形容词）"
       }
     },
     "usually": {
@@ -13817,6 +13999,39 @@
         "confusables": "parents（父母）/ relatives（亲戚）"
       }
     },
+    "worried": {
+      "phonetic": "/ˈwʌrid/",
+      "pos": "adj./v.",
+      "sense": "担心的（修饰人）；worry 的过去式/过去分词",
+      "lemma": "worry",
+      "collocations": [
+        "worried about",
+        "worried that"
+      ],
+      "examples": [
+        "Parents worried that radio was gaining hold. 父母担心收音机抓住了孩子。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "worried（感到担心的，修饰人）/ worrying（令人担忧的，修饰物）"
+      }
+    },
+    "radio": {
+      "phonetic": "/ˈreɪdiəʊ/",
+      "pos": "n.",
+      "sense": "收音机、广播（可数/不可数）",
+      "collocations": [
+        "on the radio",
+        "radio broadcast"
+      ],
+      "examples": [
+        "Parents worried that radio was gaining a hold on children. 父母担心收音机抓住了孩子。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "radio（收音机/广播）/ broadcast（播出）"
+      }
+    },
     "gaining": {
       "phonetic": "/ˈɡeɪnɪŋ/",
       "pos": "v.",
@@ -13902,6 +14117,36 @@
         "confusables": "danger（危险）/ dangerous（危险的）/ risk（风险）"
       }
     },
+    "sony": {
+      "phonetic": "/ˈsəʊni/",
+      "pos": "n.（专有名词）",
+      "sense": "索尼（Sony，日本电子公司）",
+      "collocations": [
+        "the Sony Walkman"
+      ],
+      "examples": [
+        "In the 80s, the great danger was the Sony Walkman. 80 年代的「巨大危险」是索尼随身听。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
+    "walkman": {
+      "phonetic": "/ˈwɔːkmən/",
+      "pos": "n.（专有名词）",
+      "sense": "随身听（Sony Walkman，索尼便携磁带播放器）",
+      "collocations": [
+        "the Sony Walkman"
+      ],
+      "examples": [
+        "In the 80s, the great danger was the Sony Walkman. 80 年代的「巨大危险」是索尼随身听。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
     "look": {
       "phonetic": "/lʊk/",
       "pos": "v./n.",
@@ -13917,6 +14162,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "look at（看）/ look for（找）/ look after（照顾）"
+      }
+    },
+    "today's": {
+      "phonetic": "/təˈdeɪz/",
+      "pos": "n.（所有格）",
+      "sense": "今天的、当今的（today 的所有格）",
+      "lemma": "today",
+      "collocations": [
+        "today's digital activity",
+        "today's leaders"
+      ],
+      "examples": [
+        "Look at today's digital activity. 看看当今的数字活动。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "today's（今天的）/ todays（错误写法）"
       }
     },
     "digital": {
@@ -14175,6 +14437,24 @@
         "confusables": "true（真实的）/ truth（名词）/ real（真实的，指非虚构）"
       }
     },
+    "terms": {
+      "phonetic": "/tɜːmz/",
+      "pos": "n.",
+      "sense": "术语、条件（term 的复数）；in terms of（就……而言）",
+      "lemma": "term",
+      "collocations": [
+        "in terms of",
+        "come to terms with",
+        "terms and conditions"
+      ],
+      "examples": [
+        "This is true not just in terms of social lives. 这不仅在社交方面成立。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in terms of（就……而言）/ on good terms（关系好）"
+      }
+    },
     "education": {
       "phonetic": "/ˌedʒuˈkeɪʃn/",
       "pos": "n.",
@@ -14189,6 +14469,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "education（教育）/ educate（教育）/ educated（受过教育的）"
+      }
+    },
+    "ton": {
+      "phonetic": "/tʌn/",
+      "pos": "n.",
+      "sense": "吨（可数）；a ton of（大量，口语）",
+      "collocations": [
+        "a ton of",
+        "tons of"
+      ],
+      "examples": [
+        "They use a ton of social media. 他们大量使用社交媒体。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "a ton of（大量，口语）/ a lot of（同义）"
       }
     },
     "become": {
@@ -14222,6 +14518,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "unable to do（不能）/ unable doing（错误）/ capable/able 反义"
+      }
+    },
+    "unwilling": {
+      "phonetic": "/ʌnˈwɪlɪŋ/",
+      "pos": "adj.",
+      "sense": "不愿意的（be unwilling to do）",
+      "collocations": [
+        "be unwilling to do",
+        "unwilling to accept"
+      ],
+      "examples": [
+        "Do you become unwilling to meet face to face? 你会变得不愿当面交流吗？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "unwilling to do（不愿做）/ reluctant（不情愿的）/ willing（愿意的）"
       }
     },
     "engage": {
@@ -14405,6 +14717,55 @@
         "confusables": "think about（考虑）/ think of（想起）/ think over（仔细考虑）"
       }
     },
+    "tank": {
+      "phonetic": "/tæŋk/",
+      "pos": "n.",
+      "sense": "罐、水箱（可数）；坦克",
+      "collocations": [
+        "water tank",
+        "think tank"
+      ],
+      "examples": [
+        "The Pew Research Centre is a US think tank. 皮尤研究中心是美国智库。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "think tank（智库）/ tank（水箱/坦克）"
+      }
+    },
+    "passionate": {
+      "phonetic": "/ˈpæʃənət/",
+      "pos": "adj.",
+      "sense": "热情的、热衷的",
+      "collocations": [
+        "the most passionate texters",
+        "passionate about"
+      ],
+      "examples": [
+        "The most passionate texters also see friends in person. 最热衷发短信的人也常与朋友见面。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "passionate（热衷的）/ passion（热情）/ passionate about（热衷于）"
+      }
+    },
+    "texters": {
+      "phonetic": "/ˈtekstəz/",
+      "pos": "n.",
+      "sense": "发短信的人（texter 的复数）",
+      "lemma": "texter",
+      "collocations": [
+        "the most passionate texters"
+      ],
+      "examples": [
+        "The most passionate texters also see friends in person. 最爱发短信的人也常与朋友见面。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "text（发短信）+ -er（人）",
+        "confusables": "texters（发短信者）/ texting（发短信）"
+      }
+    },
     "kids": {
       "phonetic": "/kɪdz/",
       "pos": "n.",
@@ -14526,6 +14887,23 @@
         "confusables": "form（形式/表格）/ shape（形状）"
       }
     },
+    "socialising": {
+      "phonetic": "/ˈsəʊʃəlaɪzɪŋ/",
+      "pos": "n./v.",
+      "sense": "社交（英式拼写）；socialise 的现在分词",
+      "lemma": "socialise",
+      "collocations": [
+        "one form of socialising",
+        "socialising online"
+      ],
+      "examples": [
+        "One form of socialising doesn't replace the other. 一种社交形式并不取代另一种。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "socialising（英式）/ socializing（美式）"
+      }
+    },
     "doesn't": {
       "phonetic": "/ˈdʌznt/",
       "pos": "缩略",
@@ -14540,6 +14918,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "doesn't（does not）/ don't（do not，复数或第一二人称）"
+      }
+    },
+    "replace": {
+      "phonetic": "/rɪˈpleɪs/",
+      "pos": "v.",
+      "sense": "取代、替换（replace A with B）",
+      "collocations": [
+        "replace A with B",
+        "be replaced by"
+      ],
+      "examples": [
+        "One form of socialising doesn't replace the other. 一种社交形式并不取代另一种。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "replace A with B（用 B 替换 A）/ substitute A for B（相反）"
       }
     },
     "expands": {
@@ -14731,6 +15125,23 @@
         "confusables": "early（早）/ soon（不久）/ earlier（更早）"
       }
     },
+    "web": {
+      "phonetic": "/web/",
+      "pos": "n.",
+      "sense": "网络（the web）；蜘蛛网",
+      "collocations": [
+        "on the web",
+        "web page",
+        "surfing the web"
+      ],
+      "examples": [
+        "Early on, the web is their third space. 早期网络是他们的第三空间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "the web（网络）/ internet（同义，更正式）"
+      }
+    },
     "third": {
       "phonetic": "/θɜːd/",
       "pos": "num./n.",
@@ -14746,6 +15157,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "a third of（三分之一）/ three（三）/ thirdly（第三点）"
+      }
+    },
+    "space": {
+      "phonetic": "/speɪs/",
+      "pos": "n./v.",
+      "sense": "空间、空地（可数/不可数）；太空 / 留出间隔",
+      "collocations": [
+        "third space",
+        "in space",
+        "make space for"
+      ],
+      "examples": [
+        "The web is their \"third space\". 网络是他们的「第三空间」。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "space（空间/太空）/ room（房间/空间，不可数）"
       }
     },
     "late": {
@@ -14796,6 +15224,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
+      }
+    },
+    "replaced": {
+      "phonetic": "/rɪˈpleɪst/",
+      "pos": "v.",
+      "sense": "replace 的过去式/过去分词（取代）",
+      "lemma": "replace",
+      "collocations": [
+        "be replaced by",
+        "replaced with"
+      ],
+      "examples": [
+        "By the late teens, it's replaced. 到青少年后期，它被替换了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "replaced（被取代）/ replacing（正在取代）"
+      }
+    },
+    "reaction": {
+      "phonetic": "/riˈækʃn/",
+      "pos": "n.",
+      "sense": "反应（可数/不可数）",
+      "collocations": [
+        "in reaction to",
+        "a reaction to"
+      ],
+      "examples": [
+        "The web is replaced in reaction to greater independence. 网络因更大的独立性而被替换。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in reaction to（作为对……的反应）/ respond（回应）"
       }
     },
     "greater": {
@@ -14977,6 +15438,22 @@
         "confusables": "fellow（同伴/研究员）/ follow（跟随）"
       }
     },
+    "oxford": {
+      "phonetic": "/ˈɒksfəd/",
+      "pos": "n.（专有名词）",
+      "sense": "牛津（Oxford University 牛津大学；Oxford Internet Institute）",
+      "collocations": [
+        "Oxford Internet Institute",
+        "at Oxford"
+      ],
+      "examples": [
+        "She is a fellow at the Oxford Internet Institute. 她是牛津互联网研究所研究员。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
     "internet": {
       "phonetic": "/ˈɪntənet/",
       "pos": "n.",
@@ -15148,6 +15625,23 @@
         "confusables": "adjust（调整）/ adapt（适应/改编）/ adjustment（调整，名词）"
       }
     },
+    "struggling": {
+      "phonetic": "/ˈstrʌɡlɪŋ/",
+      "pos": "v.",
+      "sense": "struggle 的现在分词（挣扎、努力）",
+      "lemma": "struggle",
+      "collocations": [
+        "struggling with",
+        "struggling to do"
+      ],
+      "examples": [
+        "Kids are struggling with new social rules. 孩子们在新社交规则上很吃力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "struggling with（应对困难）/ struggling to do（努力做）"
+      }
+    },
     "communication": {
       "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
       "pos": "n.",
@@ -15250,6 +15744,22 @@
         "confusables": "care about（在乎）/ care for（照顾/喜欢）/ take care of（照料）"
       }
     },
+    "privacy": {
+      "phonetic": "/ˈprɪvəsi/",
+      "pos": "n.",
+      "sense": "隐私（不可数）",
+      "collocations": [
+        "care about privacy",
+        "privacy settings"
+      ],
+      "examples": [
+        "Parents worry that kids don't care about privacy. 家长担心孩子不在乎隐私。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "privacy（隐私）/ private（私人的）"
+      }
+    },
     "fact": {
       "phonetic": "/fækt/",
       "pos": "n.",
@@ -15302,6 +15812,23 @@
         "confusables": "changing（正在变的）/ changed（已变的）"
       }
     },
+    "settings": {
+      "phonetic": "/ˈsetɪŋz/",
+      "pos": "n.",
+      "sense": "设置（setting 的复数）；环境",
+      "lemma": "setting",
+      "collocations": [
+        "privacy settings",
+        "Facebook settings"
+      ],
+      "examples": [
+        "They spend hours changing settings. 他们花数小时修改设置。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "settings（设置/环境）/ setting（单数）"
+      }
+    },
     "using": {
       "phonetic": "/ˈjuːzɪŋ/",
       "pos": "v.",
@@ -15317,6 +15844,86 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "using（现在分词）/ used（过去式/过去分词）"
+      }
+    },
+    "quick-delete": {
+      "phonetic": "/ˌkwɪk dɪˈliːt/",
+      "pos": "adj.",
+      "sense": "快速删除的（复合形容词）",
+      "collocations": [
+        "quick-delete sharing tools"
+      ],
+      "examples": [
+        "They use quick-delete tools such as Snapchat. 他们用 Snapchat 这类阅后即焚工具。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "quick-delete（快速删除的）/ auto-delete（自动删除）"
+      }
+    },
+    "sharing": {
+      "phonetic": "/ˈʃeərɪŋ/",
+      "pos": "n./v.",
+      "sense": "分享（不可数）；share 的现在分词",
+      "lemma": "share",
+      "collocations": [
+        "sharing caregiving",
+        "sharing tools"
+      ],
+      "examples": [
+        "They want to share caregiving. 他们想分担照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sharing（分享）/ share（分享/份额）"
+      }
+    },
+    "tools": {
+      "phonetic": "/tuːlz/",
+      "pos": "n.",
+      "sense": "工具（tool 的复数）",
+      "lemma": "tool",
+      "collocations": [
+        "digital tools",
+        "research tools"
+      ],
+      "examples": [
+        "Digital tools change how teens write. 数字工具改变了青少年的写作方式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tools（工具）/ devices（设备）"
+      }
+    },
+    "snapchat": {
+      "phonetic": "/ˈsnæptʃæt/",
+      "pos": "n.（专有名词）",
+      "sense": "Snapchat（阅后即焚的社交应用）",
+      "collocations": [
+        "tools such as Snapchat"
+      ],
+      "examples": [
+        "They use quick-delete tools such as Snapchat. 他们使用 Snapchat 这类阅后即焚工具。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
+    "minimise": {
+      "phonetic": "/ˈmɪnɪmaɪz/",
+      "pos": "v.",
+      "sense": "使最小化、减少（英式拼写）",
+      "collocations": [
+        "minimise traces",
+        "minimise risk"
+      ],
+      "examples": [
+        "They minimise their traces online. 他们尽量减少网上痕迹。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "minimise（英式）/ minimize（美式）/ minimum（最小值）"
       }
     },
     "traces": {
@@ -15336,6 +15943,38 @@
         "confusables": "traces（痕迹）/ trace（追踪）/ track（轨迹）"
       }
     },
+    "post": {
+      "phonetic": "/pəʊst/",
+      "pos": "v./n.",
+      "sense": "发布、邮寄（动词）；帖子、职位（名词）",
+      "collocations": [
+        "post a photo",
+        "post online"
+      ],
+      "examples": [
+        "They post a photograph and then delete it. 他们发照片然后删掉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "post（发布/邮寄）/ upload（上传）/ publish（发表）"
+      }
+    },
+    "photograph": {
+      "phonetic": "/ˈfəʊtəɡrɑːf/",
+      "pos": "n./v.",
+      "sense": "照片（可数）/ 拍照",
+      "collocations": [
+        "post a photograph",
+        "take a photograph"
+      ],
+      "examples": [
+        "They post a photograph on Instagram. 他们在 Instagram 发一张照片。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "photograph（照片）/ photo（口语同义）/ photography（摄影）"
+      }
+    },
     "instagram": {
       "phonetic": "/ˈɪnstəɡræm/",
       "pos": "n.（专有名词）",
@@ -15350,6 +15989,22 @@
       "isCet4HighFreq": false,
       "more": {
         "confusables": "专有名词，首字母大写"
+      }
+    },
+    "pleasant": {
+      "phonetic": "/ˈpleznt/",
+      "pos": "adj.",
+      "sense": "愉快的、令人愉快的",
+      "collocations": [
+        "a pleasant conversation",
+        "pleasant weather"
+      ],
+      "examples": [
+        "They have a pleasant conversation with friends. 他们与朋友愉快交谈。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "pleasant（令人愉快的）/ pleased（感到高兴的）/ pleasure（愉悦）"
       }
     },
     "conversation": {
@@ -15686,6 +16341,22 @@
         "confusables": "drama（戏剧/戏剧性）/ dramatic（戏剧性的）"
       }
     },
+    "messiness": {
+      "phonetic": "/ˈmesinəs/",
+      "pos": "n.",
+      "sense": "混乱、杂乱（不可数）",
+      "collocations": [
+        "plenty of messiness",
+        "social messiness"
+      ],
+      "examples": [
+        "There is plenty of drama and messiness online. 网上有大量戏码和混乱。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "messiness（混乱）/ messy（凌乱的）/ mess（一团糟）"
+      }
+    },
     "cycle": {
       "phonetic": "/ˈsaɪkl/",
       "pos": "n./v.",
@@ -15805,6 +16476,55 @@
         "confusables": "last（最后的/上一个）/ latest（最新的）/ latter（后者）"
       }
     },
+    "months": {
+      "phonetic": "/mʌnθs/",
+      "pos": "n.",
+      "sense": "月（month 的复数）",
+      "lemma": "month",
+      "collocations": [
+        "in the last 12 months",
+        "for months"
+      ],
+      "examples": [
+        "15% said they were bullied in the last 12 months. 15% 说过去 12 个月里被欺凌过。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "months（月）/ mouths（嘴）"
+      }
+    },
+    "surely": {
+      "phonetic": "/ˈʃʊəli/",
+      "pos": "adv.",
+      "sense": "想必、肯定（表推断）；稳当地",
+      "collocations": [
+        "surely not",
+        "slowly but surely"
+      ],
+      "examples": [
+        "Surely all this writing is affecting literacy? 这一切写作肯定正在影响读写能力吧？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "surely（想必/肯定）/ sure（确信的）/ certainly（确实）"
+      }
+    },
+    "short-form": {
+      "phonetic": "/ˌʃɔːt ˈfɔːm/",
+      "pos": "adj.",
+      "sense": "短形式的（复合形容词）",
+      "collocations": [
+        "short-form writing",
+        "short-form content"
+      ],
+      "examples": [
+        "Short-form writing may affect literacy. 短文本写作可能影响读写能力。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "short-form（短形式的）/ long-form（长形式的）"
+      }
+    },
     "writing": {
       "phonetic": "/ˈraɪtɪŋ/",
       "pos": "n./v.",
@@ -15872,6 +16592,39 @@
         "confusables": "certainly（确实）/ certain（确定的）/ sure（确信的，口语）"
       }
     },
+    "teachers": {
+      "phonetic": "/ˈtiːtʃəz/",
+      "pos": "n.",
+      "sense": "教师（teacher 的复数）",
+      "lemma": "teacher",
+      "collocations": [
+        "teachers worry",
+        "school teachers"
+      ],
+      "examples": [
+        "Certainly, teachers worry about writing. 老师们当然担心写作。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "teachers（教师）/ students（学生）"
+      }
+    },
+    "overly": {
+      "phonetic": "/ˈəʊvəli/",
+      "pos": "adv.",
+      "sense": "过于、过度地（修饰形容词）",
+      "collocations": [
+        "overly casual",
+        "overly broad"
+      ],
+      "examples": [
+        "Kids use overly casual language in writing. 孩子写作时用语过于随意。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "overly（过于）/ over（超过）/ too（太）"
+      }
+    },
     "casual": {
       "phonetic": "/ˈkæʒuəl/",
       "pos": "adj.",
@@ -15903,6 +16656,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "language（语言）/ speech（言语）/ tongue（语言，文学用法）"
+      }
+    },
+    "text-speak": {
+      "phonetic": "/ˈtekst spiːk/",
+      "pos": "n.",
+      "sense": "网络体文字、短信体（不可数）",
+      "collocations": [
+        "text-speak in writing",
+        "use text-speak"
+      ],
+      "examples": [
+        "They say kids use text-speak in writing. 他们说孩子写作用网络体。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "text-speak（网络体）/ texting（发短信）"
       }
     },
     "patience": {
@@ -16111,6 +16880,22 @@
         "confusables": "anxieties（焦虑，复数）/ anxiety（单数/不可数）/ anxious（焦虑的）"
       }
     },
+    "partly": {
+      "phonetic": "/ˈpɑːtli/",
+      "pos": "adv.",
+      "sense": "部分地、在一定程度上",
+      "collocations": [
+        "partly because",
+        "partly true"
+      ],
+      "examples": [
+        "These anxieties may be partly based on nostalgia. 这些焦虑可能部分源于怀旧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "partly（部分地）/ partially（部分地，更正式）/ in part（部分地）"
+      }
+    },
     "based": {
       "phonetic": "/beɪst/",
       "pos": "v./adj.",
@@ -16128,6 +16913,54 @@
         "confusables": "based on（基于，被动/状语）/ basing on（主动，主语须是人）"
       }
     },
+    "misguided": {
+      "phonetic": "/ˌmɪsˈɡaɪdɪd/",
+      "pos": "adj.",
+      "sense": "被误导的、错误的",
+      "collocations": [
+        "misguided nostalgia",
+        "misguided effort"
+      ],
+      "examples": [
+        "These anxieties may be based on misguided nostalgia. 这些焦虑可能源于错误的怀旧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "misguided（被误导的）/ misguided 与 mistaken 近义"
+      }
+    },
+    "nostalgia": {
+      "phonetic": "/nɒˈstældʒə/",
+      "pos": "n.",
+      "sense": "怀旧（不可数）",
+      "collocations": [
+        "misguided nostalgia",
+        "nostalgia for"
+      ],
+      "examples": [
+        "These anxieties may be based on misguided nostalgia. 这些焦虑可能源于错误的怀旧。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "nostos（归乡）+ algos（痛苦）",
+        "confusables": "nostalgia（怀旧）/ nostalgic（怀旧的）"
+      }
+    },
+    "stanford": {
+      "phonetic": "/ˈstænfəd/",
+      "pos": "n.（专有名词）",
+      "sense": "斯坦福（Stanford University 斯坦福大学）",
+      "collocations": [
+        "Stanford University"
+      ],
+      "examples": [
+        "A Stanford scholar studied error rates. 一位斯坦福学者研究了错误率。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
     "university": {
       "phonetic": "/ˌjuːnɪˈvɜːsəti/",
       "pos": "n.",
@@ -16143,6 +16976,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "university（大学）/ college（学院）/ at university（在读大学，不加 the）"
+      }
+    },
+    "scholar": {
+      "phonetic": "/ˈskɒlə(r)/",
+      "pos": "n.",
+      "sense": "学者（可数）",
+      "collocations": [
+        "a Stanford scholar",
+        "a visiting scholar"
+      ],
+      "examples": [
+        "A Stanford University scholar gathered the data. 一位斯坦福学者收集了数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "scholar（学者）/ scholarship（奖学金/学术）/ scholarly（学术的）"
       }
     },
     "andrea": {
@@ -16294,6 +17143,22 @@
         "confusables": "back（回/背部）/ backward（向后的）"
       }
     },
+    "virtually": {
+      "phonetic": "/ˈvɜːtʃuəli/",
+      "pos": "adv.",
+      "sense": "几乎、差不多（不是「虚拟地」）",
+      "collocations": [
+        "virtually identical",
+        "virtually impossible"
+      ],
+      "examples": [
+        "Error rates were virtually identical to today. 错误率与今天几乎完全相同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "virtually（几乎）/ virtual（虚拟的/实际上的）"
+      }
+    },
     "identical": {
       "phonetic": "/aɪˈdentɪkl/",
       "pos": "adj.",
@@ -16344,6 +17209,55 @@
         "confusables": "error（错误，正式）/ mistake（错误，通用）"
       }
     },
+    "stayed": {
+      "phonetic": "/steɪd/",
+      "pos": "v.",
+      "sense": "stay 的过去式/过去分词（停留、保持）",
+      "lemma": "stay",
+      "collocations": [
+        "stayed stable",
+        "stayed at home"
+      ],
+      "examples": [
+        "Error rates stayed stable over a century. 错误率一个世纪来保持稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "stayed（过去式）/ staying（现在分词）"
+      }
+    },
+    "stable": {
+      "phonetic": "/ˈsteɪbl/",
+      "pos": "adj.",
+      "sense": "稳定的；牢固的",
+      "collocations": [
+        "remain stable",
+        "a stable job"
+      ],
+      "examples": [
+        "Error rates stayed stable. 错误率保持稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "stable（稳定的）/ steady（平稳的）/ stability（稳定性）"
+      }
+    },
+    "student": {
+      "phonetic": "/ˈstjuːdnt/",
+      "pos": "n.",
+      "sense": "学生（可数）",
+      "collocations": [
+        "a college student",
+        "student essays"
+      ],
+      "examples": [
+        "A student wrote the essay. 一名学生写了这篇文章。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "student（学生）/ pupil（中小学生）"
+      }
+    },
     "essays": {
       "phonetic": "/ˈeseɪz/",
       "pos": "n.",
@@ -16376,6 +17290,22 @@
       "isCet4HighFreq": false,
       "more": {
         "confusables": "blossomed（过去式）/ blossom（原形）"
+      }
+    },
+    "size": {
+      "phonetic": "/saɪz/",
+      "pos": "n.",
+      "sense": "尺寸、规模（可数/不可数）",
+      "collocations": [
+        "in size",
+        "the size of"
+      ],
+      "examples": [
+        "Essays grew in size and complexity. 文章在篇幅和复杂度上都增长了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in size（在规模上）/ size（尺寸）"
       }
     },
     "complexity": {
@@ -16463,6 +17393,39 @@
         "confusables": "no longer（不再，指时间）/ no more（不再，指数量）"
       }
     },
+    "unlike": {
+      "phonetic": "/ˌʌnˈlaɪk/",
+      "pos": "prep.",
+      "sense": "与……不同（介词）",
+      "collocations": [
+        "unlike older essays",
+        "unlike most people"
+      ],
+      "examples": [
+        "Unlike older essays, these argue a point. 与旧式作文不同，这些会立论。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "unlike（与……不同，介词）/ dislike（不喜欢，动词）"
+      }
+    },
+    "summer": {
+      "phonetic": "/ˈsʌmə(r)/",
+      "pos": "n.",
+      "sense": "夏天（可数/不可数）",
+      "collocations": [
+        "in summer",
+        "summer holidays",
+        "this summer"
+      ],
+      "examples": [
+        "Essays titled \"what I did this summer\" are outdated. 题为「我暑假做了什么」的作文已过时。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "summer（夏天）/ some（一些）"
+      }
+    },
     "offer": {
       "phonetic": "/ˈɒfə(r)/",
       "pos": "v./n.",
@@ -16513,6 +17476,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "computers（复数）/ computer（单数）"
+      }
+    },
+    "vastly": {
+      "phonetic": "/ˈvɑːstli/",
+      "pos": "adv.",
+      "sense": "极大地、大幅度地",
+      "collocations": [
+        "vastly increased",
+        "vastly different"
+      ],
+      "examples": [
+        "Computers vastly increased students' ability. 电脑极大提高了学生的能力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "vastly（极大地）/ vastly increased（极大提高）/ vast（巨大的）"
       }
     },
     "increased": {
@@ -16601,6 +17580,22 @@
         "confusables": "information（不可数，不加 -s）/ informations（错误）"
       }
     },
+    "sample": {
+      "phonetic": "/ˈsɑːmpl/",
+      "pos": "v./n.",
+      "sense": "尝试体验（动词）；样本（可数）",
+      "collocations": [
+        "sample different points of view",
+        "a sample of"
+      ],
+      "examples": [
+        "Students sample different points of view. 学生接触不同观点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sample（抽样/体验）/ sampling（抽样）/ example（例子）"
+      }
+    },
     "different": {
       "phonetic": "/ˈdɪfrənt/",
       "pos": "adj.",
@@ -16616,6 +17611,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "points": {
+      "phonetic": "/pɔɪnts/",
+      "pos": "n./v.",
+      "sense": "观点、分数（point 的复数）；指向（动词三单）",
+      "lemma": "point",
+      "collocations": [
+        "points of view",
+        "make points"
+      ],
+      "examples": [
+        "They sample different points of view. 他们接触不同观点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "points of view（观点）/ point of view（单数）"
       }
     },
     "view": {
@@ -16684,6 +17696,21 @@
         "confusables": "linguist（语言学家）/ linguistics（语言学）/ language（语言）"
       }
     },
+    "naomi": {
+      "phonetic": "/neɪˈəʊmi/",
+      "pos": "n.（专有名词）",
+      "sense": "娜奥米（Naomi Baron，语言学家）",
+      "collocations": [
+        "Naomi Baron"
+      ],
+      "examples": [
+        "Naomi Baron studied instant messaging. 娜奥米·巴伦研究了即时通讯。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
     "baron": {
       "phonetic": "/ˈbærən/",
       "pos": "n.",
@@ -16700,6 +17727,23 @@
         "confusables": "baron（男爵/巨头）/ barren（贫瘠的）"
       }
     },
+    "studied": {
+      "phonetic": "/ˈstʌdid/",
+      "pos": "v./adj.",
+      "sense": "study 的过去式/过去分词（研究）；刻意的",
+      "lemma": "study",
+      "collocations": [
+        "studied the data",
+        "a studied calm"
+      ],
+      "examples": [
+        "Researchers studied young people's digital use. 研究者研究了年轻人的数字使用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "studied（研究/刻意的）/ study（研究）"
+      }
+    },
     "instant": {
       "phonetic": "/ˈɪnstənt/",
       "pos": "adj./n.",
@@ -16714,6 +17758,71 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "instant（立即的/瞬间）/ instantly（立即，副词）/ constant（不断的）"
+      }
+    },
+    "messaging": {
+      "phonetic": "/ˈmesɪdʒɪŋ/",
+      "pos": "n./v.",
+      "sense": "发消息（不可数）；message 的现在分词",
+      "lemma": "message",
+      "collocations": [
+        "instant messaging",
+        "messaging apps"
+      ],
+      "examples": [
+        "Instant messaging changed how teens talk. 即时通讯改变了青少年的说话方式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "messaging（发消息）/ message（消息）"
+      }
+    },
+    "surprisingly": {
+      "phonetic": "/səˈpraɪzɪŋli/",
+      "pos": "adv.",
+      "sense": "令人惊讶地",
+      "collocations": [
+        "surprisingly rare",
+        "surprisingly high"
+      ],
+      "examples": [
+        "She found surprisingly rare usage of short forms. 她发现缩写用法少得出奇。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "surprisingly（令人惊讶地）/ surprisedly（罕用）"
+      }
+    },
+    "rare": {
+      "phonetic": "/reə(r)/",
+      "pos": "adj.",
+      "sense": "罕见的、稀有的；（肉）半熟的",
+      "collocations": [
+        "rare usage",
+        "it is rare that"
+      ],
+      "examples": [
+        "She found surprisingly rare usage of short forms. 她发现缩写用法少得出奇。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "rare（罕见的）/ rarely（很少）/ scarce（稀缺的）"
+      }
+    },
+    "usage": {
+      "phonetic": "/ˈjuːsɪdʒ/",
+      "pos": "n.",
+      "sense": "用法、使用（不可数）",
+      "collocations": [
+        "rare usage",
+        "usage of short forms"
+      ],
+      "examples": [
+        "She found surprisingly rare usage of short forms. 她发现缩写用法少得出奇。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "usage（用法）/ use（使用）/ user（用户）"
       }
     },
     "short": {
@@ -16818,6 +17927,23 @@
         "confusables": "grammatical（合乎语法的）/ grammar（语法）/ ungrammatical（不合语法的）"
       }
     },
+    "sentences": {
+      "phonetic": "/ˈsentənsɪz/",
+      "pos": "n./v.",
+      "sense": "句子（sentence 的复数）；判决（动词三单）",
+      "lemma": "sentence",
+      "collocations": [
+        "grammatical sentences",
+        "complete sentences"
+      ],
+      "examples": [
+        "They began to write in more grammatical sentences. 他们开始写更合语法的句子。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sentences（句子/判决）/ sentence（单数）"
+      }
+    },
     "want": {
       "phonetic": "/wɒnt/",
       "pos": "v.",
@@ -16901,6 +18027,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "clearly（显然/清楚地）/ clear（清楚的）"
+      }
+    },
+    "teaching": {
+      "phonetic": "/ˈtiːtʃɪŋ/",
+      "pos": "n./v.",
+      "sense": "教学（不可数）；teach 的现在分词",
+      "lemma": "teach",
+      "collocations": [
+        "teaching formal writing",
+        "teaching methods"
+      ],
+      "examples": [
+        "Teaching formal writing is still crucial. 教正式写作仍然关键。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "teaching（教学）/ teach（教）"
       }
     },
     "formal": {
@@ -17122,6 +18265,23 @@
         "confusables": "cheap（便宜）/ inexpensive（不贵，中性）/ low-cost（低成本的）"
       }
     },
+    "paperbacks": {
+      "phonetic": "/ˈpeɪpəbæks/",
+      "pos": "n.",
+      "sense": "平装书（paperback 的复数）",
+      "lemma": "paperback",
+      "collocations": [
+        "cheap paperbacks",
+        "in paperback"
+      ],
+      "examples": [
+        "Cheap paperbacks boosted rates of reading. 廉价平装书提升了阅读率。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "paperbacks（平装书）/ hardbacks（精装书）"
+      }
+    },
     "boosted": {
       "phonetic": "/ˈbuːstɪd/",
       "pos": "v.",
@@ -17137,6 +18297,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "boosted（过去式）/ boosting（现在分词）"
+      }
+    },
+    "minority": {
+      "phonetic": "/maɪˈnɒrəti/",
+      "pos": "n.",
+      "sense": "少数、少数派（可数）",
+      "collocations": [
+        "a minority of",
+        "in the minority",
+        "ethnic minority"
+      ],
+      "examples": [
+        "A minority were lifelong heavy readers. 少数人是终身重度读者。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "minority（少数）/ majority（多数）/ minor（次要的）"
+      }
+    },
+    "perhaps": {
+      "phonetic": "/pəˈhæps/",
+      "pos": "adv.",
+      "sense": "也许、可能（比 maybe 略正式）",
+      "collocations": [
+        "perhaps the most",
+        "perhaps 20%"
+      ],
+      "examples": [
+        "Perhaps 20% were lifelong heavy readers. 也许 20% 是终身重度读者。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "perhaps（也许）/ maybe（也许，口语）/ probably（很可能）"
       }
     },
     "lifelong": {
@@ -17169,6 +18362,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "cable（电缆/有线）/ able（能够的）"
+      }
+    },
+    "tv": {
+      "phonetic": "/ˌtiː ˈviː/",
+      "pos": "n.（缩写）",
+      "sense": "电视（television）",
+      "collocations": [
+        "cable TV",
+        "watch TV"
+      ],
+      "examples": [
+        "Cable TV struck a blow at reading culture. 有线电视重创了阅读文化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "TV（电视）/ television（全称）"
+      }
+    },
+    "struck": {
+      "phonetic": "/strʌk/",
+      "pos": "v.",
+      "sense": "strike 的过去式与过去分词（打击、撞击）",
+      "lemma": "strike",
+      "collocations": [
+        "struck a blow at",
+        "was struck by"
+      ],
+      "examples": [
+        "Cable TV struck a blow at reading culture. 有线电视重创了阅读文化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "struck（strike 的过去式）/ stroke（中风/笔画）"
       }
     },
     "blow": {
@@ -17272,6 +18498,23 @@
         "confusables": "remarkable（非凡的）/ remarkably（显著地）/ remark（评论）"
       }
     },
+    "opportunities": {
+      "phonetic": "/ˌɒpəˈtjuːnətiz/",
+      "pos": "n.",
+      "sense": "机会（opportunity 的复数）",
+      "lemma": "opportunity",
+      "collocations": [
+        "opportunities to do",
+        "equal opportunities"
+      ],
+      "examples": [
+        "The online world offers remarkable opportunities. 网络世界提供难得机会。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "opportunities（机会）/ chances（机会/可能性）"
+      }
+    },
     "literate": {
       "phonetic": "/ˈlɪtərət/",
       "pos": "adj.",
@@ -17305,6 +18548,22 @@
         "confusables": "creative（有创造力的）/ creativity（创造力）"
       }
     },
+    "publish": {
+      "phonetic": "/ˈpʌblɪʃ/",
+      "pos": "v.",
+      "sense": "发表、出版（及物）",
+      "collocations": [
+        "publish a study",
+        "publish findings"
+      ],
+      "examples": [
+        "Young people can publish ideas to the world. 年轻人可以向世界发布想法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "publish（发表）/ publication（发表/出版物）"
+      }
+    },
     "ideas": {
       "phonetic": "/aɪˈdɪəz/",
       "pos": "n.",
@@ -17320,6 +18579,40 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "ideas（想法）/ ideals（理想）"
+      }
+    },
+    "turns": {
+      "phonetic": "/tɜːnz/",
+      "pos": "v./n.",
+      "sense": "turn 的第三人称单数（转变）；it turns out（结果是）",
+      "lemma": "turn",
+      "collocations": [
+        "it turns out that",
+        "turns into"
+      ],
+      "examples": [
+        "It turns out that writing for strangers helps. 结果表明为陌生人写作有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "it turns out（结果是）/ turn（转变）"
+      }
+    },
+    "strangers": {
+      "phonetic": "/ˈstreɪndʒəz/",
+      "pos": "n.",
+      "sense": "陌生人（stranger 的复数）",
+      "lemma": "stranger",
+      "collocations": [
+        "write for strangers",
+        "talk to strangers"
+      ],
+      "examples": [
+        "When they write for strangers, they try harder. 写给陌生人时，他们更努力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "strangers（陌生人）/ strangers 与 strange（奇怪的）同源"
       }
     },
     "sense": {
@@ -17492,6 +18785,22 @@
         "confusables": "create（创造）/ make（制作）/ produce（生产）"
       }
     },
+    "powerful": {
+      "phonetic": "/ˈpaʊəfl/",
+      "pos": "adj.",
+      "sense": "强大的、有力的",
+      "collocations": [
+        "powerful new forms",
+        "a powerful effect"
+      ],
+      "examples": [
+        "They create powerful new communicative forms. 他们创造出有力的新沟通形式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "powerful（强大的）/ power（力量）/ powerless（无力的）"
+      }
+    },
     "communicative": {
       "phonetic": "/kəˈmjuːnɪkətɪv/",
       "pos": "adj.",
@@ -17607,6 +18916,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "from a distance（从远处）/ in the distance（在远处）"
+      }
+    },
+    "we're": {
+      "phonetic": "/wɪə(r)/",
+      "pos": "缩略",
+      "sense": "we are 的缩写",
+      "collocations": [
+        "we're likely to",
+        "we're not"
+      ],
+      "examples": [
+        "If we're lucky, the law will change. 运气好的话法律会变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "we're（we are）/ were（was 的复数 / 是）/ wear（穿）"
       }
     },
     "lucky": {
@@ -17795,6 +19120,23 @@
         "confusables": "allowing（现在分词）/ allow sb to do（不是 doing）"
       }
     },
+    "minors": {
+      "phonetic": "/ˈmaɪnəz/",
+      "pos": "n.",
+      "sense": "未成年人（minor 的复数）；辅修科目",
+      "lemma": "minor",
+      "collocations": [
+        "allowing minors to",
+        "minors and adults"
+      ],
+      "examples": [
+        "The law allows minors to demand deletion. 该法律允许未成年人要求删除。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "minors（未成年人）/ minors 也指辅修科目 / major（成年人/主修）"
+      }
+    },
     "demand": {
       "phonetic": "/dɪˈmɑːnd/",
       "pos": "n./v.",
@@ -17963,6 +19305,38 @@
         "confusables": "issue（议题/问题，中性）/ problem（难题）/ question（疑问）"
       }
     },
+    "switch": {
+      "phonetic": "/swɪtʃ/",
+      "pos": "v./n.",
+      "sense": "切换（switch from A to B）；开关（名词）",
+      "collocations": [
+        "switch from A to B",
+        "switch on/off"
+      ],
+      "examples": [
+        "When kids switch between tasks, quality drops. 孩子切换任务时质量会下降。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "switch（切换/开关）/ change（改变）/ shift（转移）"
+      }
+    },
+    "music": {
+      "phonetic": "/ˈmjuːzɪk/",
+      "pos": "n.",
+      "sense": "音乐（不可数）",
+      "collocations": [
+        "listen to music",
+        "music streaming"
+      ],
+      "examples": [
+        "They switch from chat to music to homework. 他们从聊天切到音乐再切到作业。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "music（不可数）/ musical（音乐的）"
+      }
+    },
     "homework": {
       "phonetic": "/ˈhəʊmwɜːk/",
       "pos": "n.",
@@ -17977,6 +19351,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "homework（不可数）/ housework（家务）"
+      }
+    },
+    "trouble": {
+      "phonetic": "/ˈtrʌbl/",
+      "pos": "n./v.",
+      "sense": "困难（不可数）；麻烦 / 使困扰",
+      "collocations": [
+        "have trouble doing",
+        "in trouble",
+        "take the trouble to"
+      ],
+      "examples": [
+        "They have trouble doing each task well. 他们难以把每项任务做好。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "have trouble doing（做某事有困难）/ problem（问题）"
       }
     },
     "doing": {
@@ -18048,6 +19439,23 @@
         "confusables": "show（显示）/ prove（证明，更强）/ indicate（表明，正式）"
       }
     },
+    "pupils": {
+      "phonetic": "/ˈpjuːplz/",
+      "pos": "n.",
+      "sense": "学生（pupil 的复数）；瞳孔",
+      "lemma": "pupil",
+      "collocations": [
+        "school pupils",
+        "pupils don't fact-check"
+      ],
+      "examples": [
+        "Pupils don't fact-check information online. 学生不在网上核实信息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "pupils（学生，英式/瞳孔）/ students（学生）"
+      }
+    },
     "fact-check": {
       "phonetic": "/ˈfækt tʃek/",
       "pos": "v./n.",
@@ -18062,6 +19470,57 @@
       "isCet4HighFreq": false,
       "more": {
         "confusables": "fact-check（核实事实）/ cross-check（交叉核对）"
+      }
+    },
+    "smart": {
+      "phonetic": "/smɑːt/",
+      "pos": "adj.",
+      "sense": "聪明的；智能的",
+      "collocations": [
+        "smart searching",
+        "smart phone",
+        "smart move"
+      ],
+      "examples": [
+        "Smart searching is a skill schools must teach. 聪明搜索是学校必须教的技能。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "smart（聪明的/智能的）/ clever（机灵的）/ intelligent（智能的，正式）"
+      }
+    },
+    "searching": {
+      "phonetic": "/ˈsɜːtʃɪŋ/",
+      "pos": "n./v.",
+      "sense": "搜索（不可数）；search 的现在分词",
+      "lemma": "search",
+      "collocations": [
+        "smart searching",
+        "searching for"
+      ],
+      "examples": [
+        "Smart searching is a skill worth teaching. 聪明搜索是值得教的技能。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "searching（搜索）/ search（搜寻）/ research（研究）"
+      }
+    },
+    "schools": {
+      "phonetic": "/skuːlz/",
+      "pos": "n.",
+      "sense": "学校（school 的复数）",
+      "lemma": "school",
+      "collocations": [
+        "schools need to teach",
+        "public schools"
+      ],
+      "examples": [
+        "Smart searching is a skill schools need to teach. 聪明搜索是学校需要教的技能。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "schools（学校）/ schooling（教育）"
       }
     },
     "need": {
@@ -18081,6 +19540,38 @@
         "confusables": "need to do（实义动词）/ need do（情态动词，多用于否定疑问）"
       }
     },
+    "teach": {
+      "phonetic": "/tiːtʃ/",
+      "pos": "v.",
+      "sense": "教（teach sb sth / teach sb to do）",
+      "collocations": [
+        "teach sb to do",
+        "teach a subject"
+      ],
+      "examples": [
+        "Schools need to teach smart searching. 学校需要教聪明搜索。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "teach sb sth（双宾语）/ learn（学，方向相反）"
+      }
+    },
+    "urgently": {
+      "phonetic": "/ˈɜːdʒəntli/",
+      "pos": "adv.",
+      "sense": "紧急地、亟需地",
+      "collocations": [
+        "need to teach urgently",
+        "urgently required"
+      ],
+      "examples": [
+        "This is a skill schools need to teach urgently. 这是学校亟需教授的技力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "urgently（紧急地）/ urgent（紧急的）/ urgency（紧迫性）"
+      }
+    },
     "game": {
       "phonetic": "/ɡeɪm/",
       "pos": "n.",
@@ -18095,6 +19586,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "game（游戏）/ sport（体育运动）/ match（一场比赛）"
+      }
+    },
+    "playing": {
+      "phonetic": "/ˈpleɪɪŋ/",
+      "pos": "v./n.",
+      "sense": "play 的现在分词；游戏（不可数）",
+      "lemma": "play",
+      "collocations": [
+        "game playing",
+        "playing a role"
+      ],
+      "examples": [
+        "Too much game playing cuts into sleep. 游戏过多挤占睡眠。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "playing（玩）/ game playing（玩游戏）"
       }
     },
     "cut": {
@@ -18114,6 +19622,22 @@
         "confusables": "cut into（挤占）/ cut down on（减少）/ cut off（切断）"
       }
     },
+    "schoolwork": {
+      "phonetic": "/ˈskuːlwɜːk/",
+      "pos": "n.",
+      "sense": "课业、作业（不可数）",
+      "collocations": [
+        "cut into schoolwork",
+        "schoolwork and sleep"
+      ],
+      "examples": [
+        "Gaming cuts into schoolwork and sleep. 游戏挤占功课和睡眠。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "schoolwork（课业）/ homework（家庭作业）"
+      }
+    },
     "sleep": {
       "phonetic": "/sliːp/",
       "pos": "n./v.",
@@ -18129,6 +19653,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "sleep（睡眠）/ asleep（睡着的，表语）/ sleepy（困倦的）"
+      }
+    },
+    "precisely": {
+      "phonetic": "/prɪˈsaɪsli/",
+      "pos": "adv.",
+      "sense": "恰恰、正是；精确地",
+      "collocations": [
+        "precisely why",
+        "precisely because"
+      ],
+      "examples": [
+        "This is precisely why parents still need boundaries. 这正是家长仍需界限的原因。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "precisely（恰恰/精确地）/ exactly（恰好）/ precise（精确的）"
       }
     },
     "set": {
@@ -18333,6 +19873,38 @@
         "confusables": "everything（一切）/ every thing（每件物品）"
       }
     },
+    "parenting": {
+      "phonetic": "/ˈpeərəntɪŋ/",
+      "pos": "n.",
+      "sense": "育儿（不可数）",
+      "collocations": [
+        "in parenting",
+        "parenting advice"
+      ],
+      "examples": [
+        "The advice applies to everything in parenting. 这条建议适用于育儿中的一切。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "parenting（育儿）/ parent（父母）"
+      }
+    },
+    "moderation": {
+      "phonetic": "/ˌmɒdəˈreɪʃn/",
+      "pos": "n.",
+      "sense": "适度、节制（不可数）",
+      "collocations": [
+        "in moderation",
+        "the advice is moderation"
+      ],
+      "examples": [
+        "The advice is moderation. 建议就是适度。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "moderation（适度）/ moderate（适度的）"
+      }
+    },
     "argues": {
       "phonetic": "/ˈɑːɡjuːz/",
       "pos": "v.",
@@ -18365,6 +19937,73 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "key to（……的关键，to 为介词）/ key（钥匙）"
+      }
+    },
+    "model": {
+      "phonetic": "/ˈmɒdl/",
+      "pos": "n./v.",
+      "sense": "模范、模型（可数）/ 示范、建模（动词）",
+      "collocations": [
+        "model good behaviour",
+        "role model",
+        "a model of"
+      ],
+      "examples": [
+        "It is key to model good behaviour. 以身作则很关键。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "model（示范/模型）/ model 作动词表「做示范」"
+      }
+    },
+    "stare": {
+      "phonetic": "/steə(r)/",
+      "pos": "v.",
+      "sense": "盯着看（stare at）",
+      "collocations": [
+        "stare at",
+        "stare non-stop at"
+      ],
+      "examples": [
+        "Parents stare non-stop at their phones. 家长不停地盯着手机。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "stare at（盯着）/ look at（看）/ glance at（瞥一眼）"
+      }
+    },
+    "phones": {
+      "phonetic": "/fəʊnz/",
+      "pos": "n.",
+      "sense": "手机（phone 的复数）",
+      "lemma": "phone",
+      "collocations": [
+        "smart phones",
+        "checking phones"
+      ],
+      "examples": [
+        "They stop checking their phones. 他们不再看手机。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "phones（手机）/ Phones（音素，术语）"
+      }
+    },
+    "read": {
+      "phonetic": "/riːd/",
+      "pos": "v.",
+      "sense": "读（过去式/过去分词读 /red/）",
+      "collocations": [
+        "read books",
+        "read aloud",
+        "read about"
+      ],
+      "examples": [
+        "Parents who don't read books model behaviour. 不读书的家长也在做示范。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "read（读，过去式同形但读音 /red/）/ read（现在式 /riːd/）"
       }
     },
     "books": {
@@ -18415,6 +20054,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "ever（曾经）/ never（从不）/ ever since（自从）"
+      }
+    },
+    "ought": {
+      "phonetic": "/ɔːt/",
+      "pos": "modal v.",
+      "sense": "应该（ought to do，否定 ought not to）",
+      "collocations": [
+        "ought to do",
+        "ought not to"
+      ],
+      "examples": [
+        "We ought to be careful about our own behaviour. 我们应当注意自己的行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "ought to（应该，比 should 略正式）/ should（应该）"
       }
     },
     "careful": {

@@ -3724,6 +3724,23 @@
         "confusables": "be familiar with（某人熟悉某物）/ be familiar to（某物为某人所熟悉）"
       }
     },
+    "path": {
+      "phonetic": "/pɑːθ/",
+      "pos": "n.",
+      "sense": "小路；路径、途径（可数）",
+      "collocations": [
+        "a familiar path",
+        "career path",
+        "take a path"
+      ],
+      "examples": [
+        "They take a familiar path. 他们走一条熟悉的路。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "path（小路/途径）/ road（道路）/ route（路线）"
+      }
+    },
     "starting": {
       "phonetic": "/ˈstɑːtɪŋ/",
       "pos": "v./adj.",
@@ -4120,6 +4137,21 @@
         "confusables": "journal（期刊/日志）/ journey（旅程）/ journalism（新闻业）"
       }
     },
+    "plos": {
+      "phonetic": "/ˌpiː el əʊ ˈes/",
+      "pos": "n.（专有名词）",
+      "sense": "PLOS ONE（学术期刊名，公共科学图书馆出版）",
+      "collocations": [
+        "the journal PLOS ONE"
+      ],
+      "examples": [
+        "The study was published in PLOS ONE. 该研究发表在《PLOS ONE》上。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，期刊名"
+      }
+    },
     "example": {
       "phonetic": "/ɪɡˈzɑːmpl/",
       "pos": "n.",
@@ -4155,6 +4187,39 @@
         "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
       }
     },
+    "strength": {
+      "phonetic": "/streŋθ/",
+      "pos": "n.",
+      "sense": "力量（不可数）；强项（可数）；强度",
+      "collocations": [
+        "the strength of",
+        "physical strength",
+        "strengths and weaknesses"
+      ],
+      "examples": [
+        "The strength of a social circle predicts stress. 社交圈的牢固度能预测压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "strength（力量/强项）/ power（力量）/ weakness（弱点）"
+      }
+    },
+    "person's": {
+      "phonetic": "/ˈpɜːsnz/",
+      "pos": "n.（所有格）",
+      "sense": "一个人的（person 的所有格）",
+      "lemma": "person",
+      "collocations": [
+        "a person's social circle"
+      ],
+      "examples": [
+        "The strength of a person's social circle matters. 一个人社交圈的牢固度很重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "person's（单数所有格）/ persons'（复数所有格）"
+      }
+    },
     "circle": {
       "phonetic": "/ˈsɜːkl/",
       "pos": "n./v.",
@@ -4169,6 +4234,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "circle（圆圈/圈子）/ circular（圆形的）"
+      }
+    },
+    "self-reported": {
+      "phonetic": "/ˌself rɪˈpɔːtɪd/",
+      "pos": "adj.",
+      "sense": "自我报告的（数据由受访者自己提供）",
+      "collocations": [
+        "self-reported stress",
+        "self-reported data"
+      ],
+      "examples": [
+        "The study used self-reported stress levels. 该研究使用自我报告的压力水平。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "self-reported（自我报告的）/ observed（观察到的）"
       }
     },
     "stress": {
@@ -4237,6 +4318,22 @@
         "confusables": "fitness（健康/适合）/ fit（适合/健康的）"
       }
     },
+    "tracker": {
+      "phonetic": "/ˈtrækə(r)/",
+      "pos": "n.",
+      "sense": "追踪器（可数）",
+      "collocations": [
+        "fitness tracker",
+        "activity tracker"
+      ],
+      "examples": [
+        "Fitness tracker data was less predictive. 健身追踪器数据的预测力更弱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tracker（追踪器）/ track（追踪）/ trace（痕迹）"
+      }
+    },
     "data": {
       "phonetic": "/ˈdeɪtə/",
       "pos": "n.",
@@ -4290,6 +4387,23 @@
         "confusables": "heart（心/核心）/ hearth（壁炉地面）"
       }
     },
+    "rate": {
+      "phonetic": "/reɪt/",
+      "pos": "n./v.",
+      "sense": "比率（可数）；速度 / 评价",
+      "collocations": [
+        "at a rate of",
+        "error rates",
+        "rate sth as"
+      ],
+      "examples": [
+        "Only 15% of teens reported being bullied at that rate. 按此比例只有 15% 的青少年报告被欺凌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "rate（比率）/ ratio（比例关系）/ rating（评级）"
+      }
+    },
     "finding": {
       "phonetic": "/ˈfaɪndɪŋ/",
       "pos": "n./v.",
@@ -4322,6 +4436,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "self（自我，名词）/ selves（复数）/ self- 前缀表「自我」"
+      }
+    },
+    "represented": {
+      "phonetic": "/ˌreprɪˈzentɪd/",
+      "pos": "v.",
+      "sense": "represent 的过去式/过去分词（代表、占）",
+      "lemma": "represent",
+      "collocations": [
+        "be represented by",
+        "represented a fraction"
+      ],
+      "examples": [
+        "The self represented by health data is incomplete. 由健康数据代表的自我是不完整的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "represented（代表/占）/ representation（代表）"
       }
     },
     "endless": {
@@ -4390,6 +4521,23 @@
         "confusables": "tell sb sth（双宾语，必须有对象）/ say sth（后接内容）/ speak（说语言）"
       }
     },
+    "whole": {
+      "phonetic": "/həʊl/",
+      "pos": "adj./n.",
+      "sense": "整个的（形容词）；整体（the whole）",
+      "collocations": [
+        "the whole story",
+        "on the whole",
+        "the whole of"
+      ],
+      "examples": [
+        "Data doesn't tell the whole story. 数据讲不出全部实情。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "the whole story（全部实情）/ on the whole（总的来说）/ hole（洞）"
+      }
+    },
     "there's": {
       "phonetic": "/ðeəz/",
       "pos": "缩略",
@@ -4441,6 +4589,23 @@
         "confusables": "activities（复数）/ activity（单数）"
       }
     },
+    "network": {
+      "phonetic": "/ˈnetwɜːk/",
+      "pos": "n./v.",
+      "sense": "网络、人脉（可数）/ 建立人脉",
+      "collocations": [
+        "social network",
+        "network of",
+        "networking"
+      ],
+      "examples": [
+        "My social network is part of who I am. 我的社交圈是自我的一部分。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "network（网络）/ networking（社交网络活动）/ net（网）"
+      }
+    },
     "aspects": {
       "phonetic": "/ˈæspekts/",
       "pos": "n.",
@@ -4456,6 +4621,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "aspects（方面）/ respects（方面，in some respects 同义）"
+      }
+    },
+    "measurements": {
+      "phonetic": "/ˈmeʒəmənts/",
+      "pos": "n.",
+      "sense": "测量数据（measurement 的复数）",
+      "lemma": "measurement",
+      "collocations": [
+        "in any of these measurements",
+        "body measurements"
+      ],
+      "examples": [
+        "These aspects are not reflected in any of these measurements. 这些方面未反映在任何一项测量中。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "measurements（测量数据）/ measure（测量/措施）"
       }
     },
     "idea": {
@@ -4524,6 +4706,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "studies（复数/三单）/ study（单数）"
+      }
+    },
+    "shown": {
+      "phonetic": "/ʃəʊn/",
+      "pos": "v.",
+      "sense": "show 的过去分词（显示、展示）",
+      "lemma": "show",
+      "collocations": [
+        "has been shown",
+        "shown to be"
+      ],
+      "examples": [
+        "Studies have shown that social support helps. 研究显示社会支持有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "shown（过去分词）/ showed（过去式）"
       }
     },
     "support": {
@@ -4613,6 +4812,39 @@
         "confusables": "family（家庭，整体可单）/ families（多个家庭）"
       }
     },
+    "members": {
+      "phonetic": "/ˈmembəz/",
+      "pos": "n.",
+      "sense": "成员（member 的复数）",
+      "lemma": "member",
+      "collocations": [
+        "family members",
+        "team members"
+      ],
+      "examples": [
+        "Support comes from family members. 支持来自家庭成员。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "members（成员）/ membership（会员资格）"
+      }
+    },
+    "spouse": {
+      "phonetic": "/spaʊs/",
+      "pos": "n.",
+      "sense": "配偶（可数，法律/正式用语）",
+      "collocations": [
+        "a spouse or partner",
+        "spouse's income"
+      ],
+      "examples": [
+        "Support can come from a spouse. 支持可以来自配偶。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "spouse（配偶，正式）/ partner（伴侣）"
+      }
+    },
     "associated": {
       "phonetic": "/əˈsəʊʃieɪtɪd/",
       "pos": "v./adj.",
@@ -4645,6 +4877,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "mental（心理的）/ physical（身体的）"
+      }
+    },
+    "rich": {
+      "phonetic": "/rɪtʃ/",
+      "pos": "adj.",
+      "sense": "丰富的、富有的；油腻的",
+      "collocations": [
+        "a rich social life",
+        "rich in"
+      ],
+      "examples": [
+        "A rich social life improves health. 丰富的社交生活能改善健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "rich（丰富的/富有的）/ wealthy（富有的）/ rich in（富含）"
       }
     },
     "life": {
@@ -4696,6 +4944,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "lower（降低/更低）/ low（低的）/ lose（失去）"
+      }
+    },
+    "mood": {
+      "phonetic": "/muːd/",
+      "pos": "n.",
+      "sense": "情绪、心情（可数）",
+      "collocations": [
+        "improve mood",
+        "in a good mood",
+        "mood swings"
+      ],
+      "examples": [
+        "Social life can improve mood. 社交生活能改善情绪。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "mood（情绪）/ temper（脾气）/ emotion（情感）"
       }
     },
     "encourage": {
@@ -5034,6 +5299,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "emerging（新兴的）/ emerged（已出现的）"
+      }
+    },
+    "widespread": {
+      "phonetic": "/ˈwaɪdspred/",
+      "pos": "adj.",
+      "sense": "普遍的、广泛存在的",
+      "collocations": [
+        "a widespread problem",
+        "widespread use"
+      ],
+      "examples": [
+        "Loneliness is a widespread public health problem. 孤独是普遍的公共卫生问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "widespread（普遍的）/ common（常见的）/ extensive（广泛的）"
       }
     },
     "public": {
