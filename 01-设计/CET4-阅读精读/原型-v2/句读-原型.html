@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>句读 Judou · 原型 v2</title>
+<style>
+:root{
+  --paper:#FAF8F4; --paper-2:#F3EFE7; --paper-3:#EDE7DB;
+  --ink:#1F1D1A; --ink-2:#5C554A; --ink-3:#8C8477;
+  --line:#E2DCCF; --line-2:#CFC7B6;
+  --blue:#2F5D8A; --blue-soft:#E6EDF5;
+  --rose:#A63A5B; --rose-soft:#F7E8EC;
+  --green:#3F7A5A; --green-soft:#E6F0E9;
+  --accent:#B4622F; --accent-soft:#F6E9DE;
+  --shadow:0 1px 2px rgba(31,29,26,.05), 0 8px 24px -12px rgba(31,29,26,.18);
+  --serif:"Source Serif 4", Georgia, "Times New Roman", "Songti SC", serif;
+  --sans:-apple-system, "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+  --mono:"Cascadia Code", Consolas, monospace;
+}
+[data-theme="dark"] .mk.subj{color:#9CC0EA;background:rgba(96,148,210,.20)}
+[data-theme="dark"] .mk.pred{color:#9CC0EA;border-bottom-color:#9CC0EA}
+[data-theme="dark"] .mk.obj{text-decoration-color:rgba(224,140,164,.9)}
+[data-theme="dark"] .mk.clause{border-left-color:#4E4E5C}
+[data-theme="dark"] .ac-sec p,[data-theme="dark"] .ac-sec li,[data-theme="dark"] .legend li{color:#B6AFA5}
+[data-theme="dark"] .phr em,[data-theme="dark"] .muted{color:#948C82}
+[data-theme="dark"]{
+  --paper:#14141A; --paper-2:#1B1B22; --paper-3:#23232C;
+  --ink:#E9E4DA; --ink-2:#A9A29A; --ink-3:#7A746C;
+  --line:#2C2C36; --line-2:#3A3A46;
+  --blue:#7FA9D4; --blue-soft:#1C2632;
+  --rose:#D77A94; --rose-soft:#2A1D22;
+  --green:#7FB795; --green-soft:#1B2A22;
+  --accent:#D08A5A; --accent-soft:#2A211A;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:3px}
+
+/* 壳 */
+.shell{display:flex;min-height:100vh}
+.side{width:210px;flex:none;background:var(--paper-2);border-right:1px solid var(--line);padding:18px 12px;display:flex;flex-direction:column;position:sticky;top:0;height:100vh}
+.brand{display:flex;align-items:center;gap:9px;padding:6px 10px 18px}
+.brand .mark{width:24px;height:24px;position:relative;flex:none}
+.brand .mark i{position:absolute;display:block}
+.brand .mark .bk{left:0;top:0;right:7px;bottom:2px;background:var(--ink);clip-path:polygon(0 0,100% 0,100% 100%,50% 76%,0 100%)}
+.brand .mark .dk{right:0;bottom:0;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.brand b{font-family:var(--serif);font-size:21px;letter-spacing:.06em;display:block;line-height:1.1}
+.brand .latin{font-size:9px;letter-spacing:.3em;color:var(--ink-3);text-transform:uppercase}
+.nav{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:7px;color:var(--ink-2);font-size:13.5px;margin-bottom:1px}
+.nav svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;opacity:.8}
+.nav:hover{background:var(--paper-3);color:var(--ink)}
+.nav.on{background:var(--paper);color:var(--ink);font-weight:600;box-shadow:inset 0 0 0 1px var(--line)}
+.nav .badge{margin-left:auto;background:var(--accent);color:#fff;font-size:10.5px;font-weight:600;padding:1px 6px;border-radius:99px;line-height:1.5}
+.side-foot{margin-top:auto;padding:10px;display:flex;gap:6px;align-items:center}
+.theme-btn{font-size:12px;color:var(--ink-3);border:1px solid var(--line);border-radius:99px;padding:3px 9px}
+.theme-btn.on{color:var(--ink);border-color:var(--line-2);background:var(--paper)}
+
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{display:flex;align-items:center;gap:12px;padding:14px 28px;border-bottom:1px solid var(--line);position:sticky;top:0;background:color-mix(in srgb, var(--paper) 92%, transparent);backdrop-filter:blur(8px);z-index:5}
+.back{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border:1px solid var(--line);border-radius:7px;color:var(--ink-2);font-size:16px}
+.back:hover{background:var(--paper-2);color:var(--ink)}
+.topbar h1{font-family:var(--serif);font-size:16.5px;margin:0;font-weight:600;letter-spacing:.01em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topbar .meta{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto}
+.tag{font-size:11px;padding:1.5px 7px;border-radius:99px;background:var(--blue-soft);color:var(--blue);font-weight:600;white-space:nowrap}
+.tag.plain{background:var(--paper-3);color:var(--ink-2);font-weight:500}
+
+/* 正文 + 旁批 */
+.read{display:grid;grid-template-columns:minmax(0,1fr) 372px;gap:0;flex:1;min-height:0}
+.article{padding:34px 44px 120px;max-width:660px;margin:0 auto;width:100%}
+.article .h{font-family:var(--serif);font-size:27px;line-height:1.3;margin:0 0 10px;letter-spacing:-.01em}
+.article .sub{color:var(--ink-3);font-size:12.5px;margin-bottom:26px}
+.para{font-family:var(--serif);font-size:18px;line-height:2;margin:0 0 22px;color:var(--ink)}
+.s{cursor:pointer;border-radius:3px;transition:background .12s}
+.s:hover{background:color-mix(in srgb, var(--blue) 8%, transparent)}
+.s.cur{background:color-mix(in srgb, var(--blue) 5%, transparent);border-radius:2px}
+.w{cursor:pointer;border-radius:2px;padding:0 .5px}
+.w:hover{background:color-mix(in srgb, var(--accent) 16%, transparent);text-decoration:underline;text-underline-offset:3px}
+.w.has-an{border-bottom:1px dotted color-mix(in srgb, var(--accent) 55%, transparent)}
+.w.sel{background:color-mix(in srgb, var(--accent) 18%, transparent);border-bottom:1px solid var(--accent);border-radius:2px}
+.blank{display:inline-block;min-width:26px;text-align:center;font-family:var(--sans);font-size:12.5px;font-weight:600;color:var(--rose);background:var(--rose-soft);border:1px dashed color-mix(in srgb, var(--rose) 45%, transparent);border-radius:5px;padding:0 5px;margin:0 1px;cursor:pointer;vertical-align:1px}
+.qwrap{margin-top:34px;border-top:1px solid var(--line);padding-top:20px}
+.qwrap summary{cursor:pointer;font-weight:600;font-size:13.5px;color:var(--ink-2);list-style:none;display:flex;align-items:center;gap:8px}
+.qwrap summary::-webkit-details-marker{display:none}
+.qwrap summary::before{content:"▸";font-size:11px;color:var(--ink-3)}
+.qwrap[open] summary::before{content:"▾"}
+.q{margin:16px 0;padding:14px 16px;border:1px solid var(--line);border-radius:9px;background:var(--paper-2)}
+.q-stem{font-size:13.5px;margin-bottom:8px}
+.q-opts{display:grid;gap:4px}
+.opt{display:flex;gap:8px;font-size:13px;color:var(--ink-2);padding:2px 0}
+.opt i{font-style:normal;font-weight:600;color:var(--ink-3);min-width:12px}
+.q-ans{margin-top:8px;font-size:12.5px;color:var(--green);font-weight:600}
+.q-ans[hidden]{display:none}
+.q-tools{margin-top:8px}
+.link{font-size:12.5px;color:var(--blue);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+
+.aside{border-left:1px solid var(--line);background:var(--paper-2);overflow-y:auto;max-height:calc(100vh - 57px);position:sticky;top:57px}
+.ac{padding:20px 22px 80px}
+.ac-empty{padding:40px 20px 28px}
+.ac-empty h5{font-family:var(--serif);font-size:15.5px;margin:0 0 18px;color:var(--ink);font-weight:600;text-align:center}
+.ac-empty ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:13px}
+.ac-empty li{font-size:12.5px;line-height:1.7;color:var(--ink-2);padding-left:11px;border-left:2px solid var(--line-2)}
+.ac-empty li b{display:block;color:var(--ink);font-size:12.5px;margin-bottom:2px;font-weight:600}
+.ac-kicker{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px}
+.ac-quote{font-family:var(--serif);font-size:14.5px;line-height:1.75;color:var(--ink-2);margin:0 0 4px;padding-left:10px;border-left:2px solid var(--line-2)}
+.ac-sec{padding:14px 0;border-top:1px solid var(--line)}
+.ac-sec:first-of-type{border-top:none}
+.ac-sec h4{font-size:11.5px;font-weight:600;color:var(--ink-3);margin:0 0 8px;letter-spacing:.06em}
+.ac-sec p{margin:0 0 6px;font-size:13px;line-height:1.75}
+.ac-sec .lit{color:var(--ink-2)}
+.ac-sec .nat{color:var(--ink);font-weight:500}
+.ac-sec .sum{color:var(--ink-2);font-size:12.5px;margin-top:10px}
+.ac-sec ul{margin:0;padding-left:16px;font-size:13px;line-height:1.8}
+.ac-sec li{margin:2px 0}
+.phr{list-style:none;padding:0!important}
+.phr li{display:flex;gap:8px;align-items:baseline;padding:3px 0}
+.phr b{font-family:var(--serif);font-size:13.5px;color:var(--blue);font-weight:600;white-space:nowrap}
+.phr span{color:var(--ink-2);font-size:12.5px}
+.phr em{display:block;font-style:normal;color:var(--ink-3);font-size:11.5px;line-height:1.6;margin-top:2px}
+.pit li{color:var(--ink-2)}
+.mk-line{font-family:var(--serif);font-size:15px;line-height:2.25;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px 13px}
+.mk{white-space:pre-wrap}
+.mk.subj{color:var(--blue);background:color-mix(in srgb, var(--blue) 16%, transparent);border-radius:2px;padding:0 2px}
+.mk.pred{color:var(--blue);border-bottom:1.5px solid var(--blue);padding:0 1px}
+.mk.obj{color:var(--ink);text-decoration:underline dashed color-mix(in srgb,var(--rose) 60%,transparent);text-decoration-thickness:1px;text-underline-offset:5px}
+.mk.clause{border-left:2px solid var(--line-2);padding-left:2px;color:var(--ink)}
+.mk.phrase{color:var(--ink-2);border-bottom:1px dashed var(--line-2)}
+.legend{list-style:none;padding:0!important;display:flex;flex-wrap:wrap;gap:6px;margin-top:12px!important}
+.legend li{font-size:10.5px;padding:0}
+.legend .mk{font-size:10.5px;padding:1px 5px!important;border:1px solid var(--line);border-radius:3px}
+.wc-word{font-family:var(--serif);font-size:25px;display:flex;align-items:baseline;gap:10px}
+.wc-ph{font-family:var(--mono);font-size:12px;color:var(--ink-3)}
+.wc-pos{font-size:11px;color:var(--ink-3);border:1px solid var(--line-2);border-radius:4px;padding:0 4px}
+.wc-src{font-size:11px;color:var(--ink-3);margin:12px 0 2px;letter-spacing:.04em}
+.wc-sense{font-size:14px;line-height:1.8;margin:0}
+.wc-actions{display:flex;gap:8px;margin-top:16px}
+.btn{font-size:12.5px;padding:6px 13px;border-radius:7px;border:1px solid var(--line-2);color:var(--ink-2);background:var(--paper)}
+.btn:hover{color:var(--ink);border-color:var(--ink-3)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.btn.primary:hover{filter:brightness(1.06)}
+.btn.primary.done{background:var(--green);border-color:var(--green)}
+code{font-family:var(--mono);font-size:12px;background:var(--paper-3);padding:1px 5px;border-radius:4px;color:var(--ink-2)}
+.muted{color:var(--ink-3)}
+details summary{cursor:pointer;font-size:12.5px;color:var(--blue)}
+
+/* 通用页面 */
+.page{padding:30px 28px 90px;max-width:1180px;width:100%;margin:0 auto}
+.page-h{display:flex;align-items:baseline;gap:12px;margin:0 0 6px}
+.page-h h2{font-family:var(--serif);font-size:22px;margin:0;font-weight:600}
+.page-sub{color:var(--ink-3);font-size:12.5px;margin:0 0 22px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:18px}
+.tab{padding:7px 12px;font-size:13px;color:var(--ink-2);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab.on{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+select,.inp{font:inherit;font-size:12.5px;padding:5px 24px 5px 9px;border:1px solid var(--line-2);border-radius:7px;background:var(--paper);color:var(--ink-2);appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--ink-3) 50%),linear-gradient(135deg,var(--ink-3) 50%,transparent 50%);background-position:calc(100% - 13px) 52%,calc(100% - 9px) 52%;background-size:4px 4px,4px 4px;background-repeat:no-repeat}
+.grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.card{display:flex;flex-direction:column;padding:15px 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper);min-height:104px}
+.card:hover{border-color:var(--line-2);box-shadow:var(--shadow)}
+.card-title{font-family:var(--serif);font-size:15.5px;line-height:1.4;margin-bottom:9px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--ink-3);margin-top:auto}
+.empty{border:1px dashed var(--line-2);border-radius:10px;padding:26px;text-align:center;color:var(--ink-3);font-size:13px;line-height:2}
+.empty .btn{margin-top:6px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line)}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:baseline}
+.vw{font-family:var(--serif);font-size:15px}
+.vw .ph{display:block;font-family:var(--mono);font-size:11px;color:var(--ink-3)}
+.vs{color:var(--ink-2);font-size:12.5px}
+.va{color:var(--ink-3);font-size:12px}
+.chip{font-size:11px;padding:1.5px 7px;border-radius:99px;background:var(--paper-3);color:var(--ink-2);white-space:nowrap}
+.chip.b{background:var(--blue-soft);color:var(--blue)}
+.stat-grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));margin-bottom:26px}
+.stat{padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--paper)}
+.stat b{display:block;font-family:var(--serif);font-size:26px;line-height:1.1}
+.stat span{font-size:11.5px;color:var(--ink-3)}
+.row{display:flex;gap:10px;align-items:center}
+.stack{display:flex;flex-direction:column;gap:14px;max-width:620px}
+label.f{display:block;font-size:12px;color:var(--ink-2);margin-bottom:6px}
+textarea.inp, input.inp{width:100%;padding:10px 12px;border-radius:8px;background:var(--paper);color:var(--ink);min-height:auto}
+textarea.inp{min-height:160px;line-height:1.7;font-family:var(--mono);font-size:12.5px}
+.kv{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:13px}
+.kv span{color:var(--ink-3)}
+.seg{display:inline-flex;border:1px solid var(--line-2);border-radius:8px;overflow:hidden}
+.seg button{padding:5px 12px;font-size:12.5px;color:var(--ink-2)}
+.seg button.on{background:var(--paper-3);color:var(--ink);font-weight:600}
+.hint{font-size:12px;color:var(--ink-3);line-height:1.8}
+@media (max-width:1100px){
+  .read{grid-template-columns:1fr}
+  .aside{position:fixed;left:210px;right:0;bottom:0;top:auto;max-height:55vh;border-left:none;border-top:1px solid var(--line-2);border-radius:14px 14px 0 0;box-shadow:0 -12px 40px -12px rgba(0,0,0,.28);z-index:20;display:none}
+  .aside.open{display:block}
+  .article{padding:26px 24px 120px}
+}
+@media (max-width:720px){
+  .side{position:fixed;bottom:0;left:0;right:0;top:auto;height:auto;width:auto;flex-direction:row;padding:6px;border-right:none;border-top:1px solid var(--line);z-index:30;overflow-x:auto}
+  .brand,.side-foot{display:none}
+  .nav{flex-direction:column;gap:2px;font-size:10px;padding:6px 10px;min-width:56px;text-align:center}
+  .nav .badge{position:absolute;transform:translate(14px,-6px)}
+  .aside{left:0}
+  .topbar{padding:10px 14px}
+  .page{padding:20px 14px 90px}
+  .article .h{font-size:22px}
+  .para{font-size:17px}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <a class="brand" href="#/today"><span class="mark" aria-hidden="true"><i class="bk"></i><i class="dk"></i></span><span><b>句读</b><span class="latin">Judou</span></span></a>
+    
+  <a class="nav" href="#/today" data-nav="today">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h10M4 19h7"/></svg>
+    <span>今日</span>
+  </a>
+    
+  <a class="nav" href="#/library" data-nav="library">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h9l5 5v11H5z"/><path d="M14 4v5h5"/></svg>
+    <span>文章库</span>
+  </a>
+    
+  <a class="nav" href="#/review" data-nav="review">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 3-6.2"/><path d="M4 4v5h5"/></svg>
+    <span>复习</span><b class="badge">2</b>
+  </a>
+    
+  <a class="nav" href="#/vocab" data-nav="vocab">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h9a3 3 0 0 1 3 3v13H9a3 3 0 0 1-3-3z"/><path d="M18 20H9"/></svg>
+    <span>生词本</span>
+  </a>
+    
+  <a class="nav" href="#/import" data-nav="import">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v10"/><path d="M8 10l4 4 4-4"/><path d="M4 18h16"/></svg>
+    <span>导入</span>
+  </a>
+    
+  <a class="nav" href="#/records" data-nav="records">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V9M12 20V4M19 20v-7"/></svg>
+    <span>记录</span>
+  </a>
+    
+  <a class="nav" href="#/settings" data-nav="settings">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/></svg>
+    <span>设置</span>
+  </a>
+    <div class="side-foot">
+      <button class="theme-btn" data-theme="light">浅</button>
+      <button class="theme-btn" data-theme="dark">深</button>
+      <button class="theme-btn on" data-theme="system">跟随</button>
+    </div>
+  </aside>
+  <div class="main" id="main"></div>
+</div>
+
+<script>
+const DATA = {
+  articles: [{"key":"set1-passageA","title":"Why We Are So Proud to Say We're Busy","year":"2023 年 12 月","section":"仔细阅读","words":350,"sents":20,"setNo":1,"kind":"system"},{"key":"set1B","title":"Women Pay Lower Airfares Than Men","year":"2023 年 12 月","section":"仔细阅读","words":345,"sents":15,"setNo":1,"kind":"system"},{"key":"set1Long","title":"Climate Change and Food","year":"2023 年 12 月","section":"长篇阅读","words":1023,"sents":42,"setNo":1,"kind":"system"},{"key":"set1Cloze","title":"Ten Minutes of Exercise a Week","year":"2023 年 12 月","section":"选词填空","words":228,"sents":9,"setNo":1,"kind":"system"},{"key":"set2A","title":"The Upside and Downside of Having a Rival","year":"2023 年 12 月","section":"仔细阅读","words":348,"sents":15,"setNo":2,"kind":"system"},{"key":"set2B","title":"Can We Really Multitask?","year":"2023 年 12 月","section":"仔细阅读","words":344,"sents":17,"setNo":2,"kind":"system"},{"key":"set2Long","title":"Paternity Leave and Gender Roles","year":"2023 年 12 月","section":"长篇阅读","words":990,"sents":39,"setNo":2,"kind":"system"},{"key":"set2Cloze","title":"How Hobbies Improve Your Work","year":"2023 年 12 月","section":"选词填空","words":237,"sents":10,"setNo":2,"kind":"system"},{"key":"set3A","title":"Red Rum: A Racing Legend","year":"2023 年 12 月","section":"仔细阅读","words":345,"sents":19,"setNo":3,"kind":"system"},{"key":"set3B","title":"Instinct or Data: How to Decide","year":"2023 年 12 月","section":"仔细阅读","words":343,"sents":21,"setNo":3,"kind":"system"},{"key":"set3Long","title":"Teenagers and Social Networking","year":"2023 年 12 月","section":"长篇阅读","words":1030,"sents":58,"setNo":3,"kind":"system"},{"key":"set3Cloze","title":"Why Friends Are Good for Your Health","year":"2023 年 12 月","section":"选词填空","words":237,"sents":9,"setNo":3,"kind":"system"}],
+  article: {"key":"set1-passageA","title":"Why We Are So Proud to Say We're Busy","year":"2023 年 12 月","section":"仔细阅读","words":350,"sents":20,"paragraphs":[{"idx":0,"sentences":[{"idx":0,"text":"One of my bad habits is saying \"busy\" when people ask me how I'm doing.","tokens":[{"s":"One","n":"one","w":true,"a":0,"e":3,"an":null},{"s":"of","n":"of","w":true,"a":4,"e":6,"an":null},{"s":"my","n":"my","w":true,"a":7,"e":9,"an":null},{"s":"bad","n":"bad","w":true,"a":10,"e":13,"an":null},{"s":"habits","n":"habits","w":true,"a":14,"e":20,"an":null},{"s":"is","n":"is","w":true,"a":21,"e":23,"an":null},{"s":"saying","n":"saying","w":true,"a":24,"e":30,"an":null},{"s":"\"","n":null,"w":false,"a":31,"e":32,"an":null},{"s":"busy","n":"busy","w":true,"a":32,"e":36,"an":null},{"s":"\"","n":null,"w":false,"a":36,"e":37,"an":null},{"s":"when","n":"when","w":true,"a":38,"e":42,"an":null},{"s":"people","n":"people","w":true,"a":43,"e":49,"an":null},{"s":"ask","n":"ask","w":true,"a":50,"e":53,"an":null},{"s":"me","n":"me","w":true,"a":54,"e":56,"an":null},{"s":"how","n":"how","w":true,"a":57,"e":60,"an":null},{"s":"I'm","n":"i'm","w":true,"a":61,"e":64,"an":null},{"s":"doing","n":"doing","w":true,"a":65,"e":70,"an":null},{"s":".","n":null,"w":false,"a":70,"e":71,"an":null}],"an":{"translationLiteral":"我的坏习惯之一是，当人们问我过得怎么样时说“忙”。","translationNatural":"我有个坏毛病：别人问我近况如何，我张口就说“忙”。","structMarkup":"【One of my bad habits】 _is_ ~saying \"busy\"~ {when people ask me how I'm doing}.","structureSummary":"主语 + 系动词 + 动名词表语 + 时间状语从句（主系表结构）","components":[{"part":"One of my bad habits","role":"主语","note":"one of + 复数名词作主语，谓语用单数"},{"part":"is","role":"系动词","note":"与主语保持单数一致"},{"part":"saying \"busy\"","role":"表语","note":"动名词短语作表语，说明主语的具体内容"},{"part":"when people ask me how I'm doing","role":"时间状语从句","note":"修饰整个主句，交代说“忙”的场合"}],"clauses":["when people ask me how I'm doing 是 when 引导的时间状语从句。","从句内部 how I'm doing 是 how 引导的宾语从句，作 ask 的直接宾语（me 是间接宾语）；宾语从句用陈述语序，不能写成 how am I doing。"],"phrases":[{"text":"one of + 复数名词","meaning":"……之一","usage":"作主语时谓语用单数，因为核心词是 one 而不是后面的复数名词。","example":"One of my friends is a doctor. 我的朋友中有一位是医生。"},{"text":"how are you doing / how I'm doing","meaning":"你过得怎么样、近况如何","usage":"英语口语中最常见的问候语之一，回答可用 pretty good / not bad / busy 等。","example":"— How are you doing? — Not bad, thanks. 你最近怎么样？还不错，谢谢。"}],"pitfalls":["one of my bad habits 作主语，谓语必须用 is，不能用 are。","saying 是动名词（名词性质），不是现在分词；它在这里充当表语，说明“坏习惯”是什么。","how I'm doing 是宾语从句，用陈述语序；错写成 how am I doing 是中式英语常见错误。"],"paragraphRole":"开篇点题：用“打招呼就说忙”这个日常场景抛出全文要讨论的现象。"}},{"idx":1,"text":"Sometimes it's because I actually am busy, but other times it's because that's what I think I'm supposed to say.","tokens":[{"s":"Sometimes","n":"sometimes","w":true,"a":0,"e":9,"an":null},{"s":"it's","n":"it's","w":true,"a":10,"e":14,"an":null},{"s":"because","n":"because","w":true,"a":15,"e":22,"an":null},{"s":"I","n":"i","w":true,"a":23,"e":24,"an":null},{"s":"actually","n":"actually","w":true,"a":25,"e":33,"an":{"phonetic":"/ˈæktʃuəli/","pos":"adv.","senseInContext":"实际上、确实（本句用来强调“是真的忙”，与后面的借口形成对照）","collocations":["actually do sth.","not actually"],"examples":["I actually enjoy working on weekends. 我其实很享受周末工作。"],"isCet4HighFreq":true,"more":{"roots":"actual + -ly","synonyms":"really / in fact / as a matter of fact","confusables":"actually 常被误读为“目前”（应为 currently）"}}},{"s":"am","n":"am","w":true,"a":34,"e":36,"an":null},{"s":"busy","n":"busy","w":true,"a":37,"e":41,"an":null},{"s":",","n":null,"w":false,"a":41,"e":42,"an":null},{"s":"but","n":"but","w":true,"a":43,"e":46,"an":null},{"s":"other","n":"other","w":true,"a":47,"e":52,"an":null},{"s":"times","n":"times","w":true,"a":53,"e":58,"an":null},{"s":"it's","n":"it's","w":true,"a":59,"e":63,"an":null},{"s":"because","n":"because","w":true,"a":64,"e":71,"an":null},{"s":"that's","n":"that's","w":true,"a":72,"e":78,"an":null},{"s":"what","n":"what","w":true,"a":79,"e":83,"an":null},{"s":"I","n":"i","w":true,"a":84,"e":85,"an":null},{"s":"think","n":"think","w":true,"a":86,"e":91,"an":null},{"s":"I'm","n":"i'm","w":true,"a":92,"e":95,"an":null},{"s":"supposed","n":"supposed","w":true,"a":96,"e":104,"an":{"phonetic":"/səˈpəʊzd/","pos":"adj.","senseInContext":"（be supposed to）应该、被期望——本句指“社会认为我应该这么说”","collocations":["be supposed to do sth.","be supposed to be"],"examples":["We are supposed to hand in the report by Friday. 我们应该周五前交报告。"],"isCet4HighFreq":true,"more":{"roots":"sup-（下）+ pose（放）→ 放在下面作为依据 → 认为、假定","synonyms":"be expected to / should","confusables":"be supposed to 表示“按理应该”；be supposed to have done 表示“本应该做却没做”"}}},{"s":"to","n":"to","w":true,"a":105,"e":107,"an":null},{"s":"say","n":"say","w":true,"a":108,"e":111,"an":null},{"s":".","n":null,"w":false,"a":111,"e":112,"an":null}],"an":{"translationLiteral":"有时它是因为我实际上很忙，但是其他时候它是因为那就是我认为我应该说的话。","translationNatural":"有时是因为我确实很忙，但另一些时候是因为，我觉得这就是我“应该”说的话。","structMarkup":"【Sometimes】 _it's_ ~because I actually am busy~, but 【other times】 _it's_ ~because that's what I think I'm supposed to say~.","structureSummary":"it is because..., but it is because...（两个并列分句，各自主系表结构，表语都是 because 从句）","components":[{"part":"Sometimes / other times","role":"状语","note":"时间状语，分别修饰前后两个分句，形成对比"},{"part":"it","role":"主语","note":"指代上一句提到的“说忙”这件事"},{"part":"'s (= is)","role":"系动词","note":"主系结构，后接表语"},{"part":"because I actually am busy","role":"表语从句","note":"because 引导，作 is 的表语"},{"part":"but","role":"并列连词","note":"连接两个分句，构成转折对比"}],"clauses":["because I actually am busy 是 because 引导的表语从句，作 is 的表语。","because that's what I think I'm supposed to say 也是 because 引导的表语从句；从句内部 that's = that is，是主系结构。","what I think I'm supposed to say 是 what 引导的表语从句，作 that's 中 is 的表语。","I think I'm supposed to say 是宾语从句，作 think 的宾语（前面省略了连接词 that）；what 在该从句中作 say 的宾语。"],"phrases":[{"text":"be supposed to do sth.","meaning":"应该做某事；被期望做某事","usage":"后接动词原形，常表示按规定、惯例或义务应当做的事；口语中也常带“据说、按理说”的意味。","example":"You are supposed to arrive on time. 你应该准时到。"},{"text":"that's because...","meaning":"那是因为……","usage":"用来解释原因，后接从句；注意与 that's why（所以）方向相反。","example":"That's because he was late. 那是因为他迟到了。"}],"pitfalls":["what I think I'm supposed to say 不要译成“我认为什么是我应该说的”。what 引导的是表语从句，意思是“……的话/东西”，整体应译为“我认为自己应该说的话”。","I think I'm supposed to say 中，think 后面省略了连接词 that。","what 从句内部必须用陈述语序，不能写成 what do I think...。","that's 在这里 = that is，是完整的主系结构，that 作主语，不是引导定语从句的关系代词。"],"paragraphRole":"承接上一句，把“说忙”拆成两种动机：客观事实与心理预期，为后文分析“为什么大家都爱显得忙”做铺垫。"}},{"idx":2,"text":"That's what important people say.","tokens":[{"s":"That's","n":"that's","w":true,"a":0,"e":6,"an":null},{"s":"what","n":"what","w":true,"a":7,"e":11,"an":null},{"s":"important","n":"important","w":true,"a":12,"e":21,"an":{"phonetic":"/ɪmˈpɔːtnt/","pos":"adj.","senseInContext":"重要的、有分量的（本句指“有身份的人”）","collocations":["an important role","it is important that...(should) do","important to sb."],"examples":["Sleep is important to memory. 睡眠对记忆很重要。"],"isCet4HighFreq":true,"more":{"roots":"im-（入）+ port（搬运）→ 带进来说明的 → 重要的","synonyms":"significant / vital / crucial","confusables":"important 修饰人时指“有地位的”，不等于“好人”"}}},{"s":"people","n":"people","w":true,"a":22,"e":28,"an":null},{"s":"say","n":"say","w":true,"a":29,"e":32,"an":null},{"s":".","n":null,"w":false,"a":32,"e":33,"an":null}],"an":{"translationLiteral":"那是重要人物所说的话。","translationNatural":"有身份的人才这么说话。","structMarkup":"~That~ _'s_ ~what important people say~.","structureSummary":"主系表结构，表语是 what 引导的名词性从句","components":[{"part":"That","role":"主语","note":"指代上一句说的“我很忙”这句话"},{"part":"'s (= is)","role":"系动词","note":"主系结构"},{"part":"what important people say","role":"表语从句","note":"what 引导，相当于 the thing that important people say"}],"clauses":["what important people say 是 what 引导的表语从句；what 在从句中作 say 的宾语。","important people 是名词短语作从句主语。"],"phrases":[{"text":"what sb. say(s)","meaning":"某人说的话","usage":"what 引导名词性从句时，本身兼作从句中的成分（主语/宾语/表语），不能再用 that 替代。","example":"What he said surprised everyone. 他说的话让所有人吃惊。"},{"text":"important people","meaning":"重要人物、大人物","usage":"口语中可指「有头有脸的人」，此处带轻讽意味。","example":"All the important people were there. 所有大人物都到场了。"}],"pitfalls":["不要把 what 换成 that：that important people say 语法上不成立。","句首 That 是代词作主语，不要误认为是引导从句的连接词。"],"paragraphRole":"给出第一个“理由”：说忙是身份标签，模仿上位者的说话方式。"}},{"idx":3,"text":"That's what people who get promoted say.","tokens":[{"s":"That's","n":"that's","w":true,"a":0,"e":6,"an":null},{"s":"what","n":"what","w":true,"a":7,"e":11,"an":null},{"s":"people","n":"people","w":true,"a":12,"e":18,"an":null},{"s":"who","n":"who","w":true,"a":19,"e":22,"an":null},{"s":"get","n":"get","w":true,"a":23,"e":26,"an":null},{"s":"promoted","n":"promoted","w":true,"a":27,"e":35,"an":{"phonetic":"/prəˈməʊtɪd/","pos":"v.（过去分词）","senseInContext":"被提拔、被晋升","collocations":["be/get promoted to + 职位","promote sb. to sth."],"examples":["He was promoted to manager last year. 他去年被提升为经理。"],"isCet4HighFreq":true,"more":{"roots":"pro-（向前）+ mot（移动）→ 往前推 → 促进、提拔","synonyms":"be upgraded / be elevated","confusables":"promote 还有“推销、促进”义：promote a product 推销产品"}}},{"s":"say","n":"say","w":true,"a":36,"e":39,"an":null},{"s":".","n":null,"w":false,"a":39,"e":40,"an":null}],"an":{"translationLiteral":"那是得到晋升的人所说的话。","translationNatural":"升了职的人才把“忙”挂在嘴边。","structMarkup":"【That】 _'s_ ~what people {who get promoted} _say_~.","structureSummary":"主系表结构，表语从句中嵌一个定语从句","components":[{"part":"That","role":"主语","note":"同上，指代“我很忙”"},{"part":"'s (= is)","role":"系动词","note":"主系结构"},{"part":"what people ... say","role":"表语从句","note":"what 作 say 的宾语"},{"part":"who get promoted","role":"定语从句","note":"修饰 people，说明是哪一类人"}],"clauses":["what people who get promoted say 是 what 引导的表语从句。","who get promoted 是 who 引导的定语从句，修饰 people（不是同位语，也不是宾语从句）。","get promoted 是“get + 过去分词”构成的被动结构，等于 be promoted。"],"phrases":[{"text":"get promoted","meaning":"得到晋升","usage":"get + 过去分词表示被动，多用于口语；比 be promoted 更自然。同类：get fired（被解雇）、get paid（得到报酬）。","example":"She got promoted last month. 她上个月升职了。"},{"text":"people who...","meaning":"……的那类人","usage":"定语从句限定 people，指某一类人；口语中常用这种结构下定义。","example":"People who read widely think better. 阅读面广的人思考更好。"}],"pitfalls":["who get promoted 修饰紧挨着的 people，不要误认为修饰 That 或 what。","get promoted 中 promoted 是过去分词表被动，不是过去式。"],"paragraphRole":"与上一句并列，把“说忙”与“成功者的身份符号”绑得更紧，为下文转折蓄势。"}},{"idx":4,"text":"But working long hours doesn't drive better results.","tokens":[{"s":"But","n":"but","w":true,"a":0,"e":3,"an":null},{"s":"working","n":"working","w":true,"a":4,"e":11,"an":null},{"s":"long","n":"long","w":true,"a":12,"e":16,"an":null},{"s":"hours","n":"hours","w":true,"a":17,"e":22,"an":null},{"s":"doesn't","n":"doesn't","w":true,"a":23,"e":30,"an":null},{"s":"drive","n":"drive","w":true,"a":31,"e":36,"an":{"phonetic":"/draɪv/","pos":"v.","senseInContext":"带来、促成（本句 drive better results = 带来更好的结果，不是“驾驶”）","collocations":["drive results","drive growth","drive sales","drive sb. to do sth."],"examples":["Innovation drives growth. 创新推动增长。"],"isCet4HighFreq":true,"more":{"roots":"无常见词根拆分；drive 本义“驱动”","synonyms":"lead to / bring about / produce","confusables":"drive 还有“驱使某人做某事”（drive sb. mad 把某人逼疯）"}}},{"s":"better","n":"better","w":true,"a":37,"e":43,"an":null},{"s":"results","n":"results","w":true,"a":44,"e":51,"an":null},{"s":".","n":null,"w":false,"a":51,"e":52,"an":null}],"an":{"translationLiteral":"但是长时间工作不会驱动更好的结果。","translationNatural":"可加班加点并不会带来更好的业绩。","structMarkup":"【But】【Working long hours】 _doesn't drive_ ~better results~.","structureSummary":"主谓宾结构（动名词短语作主语，简单句）","components":[{"part":"But","role":"并列连词","note":"承接上文，引出转折"},{"part":"Working long hours","role":"主语","note":"动名词短语作主语，视为单数"},{"part":"doesn't drive","role":"谓语","note":"drive 此处意为“带来、促成”，不是“驾驶”"},{"part":"better results","role":"宾语","note":"复数泛指“更好的成果”"}],"clauses":["本句是简单句，没有从句；主语由动名词短语 working long hours 充当。","否定用助动词 doesn't，因为动名词短语作主语时谓语按第三人称单数处理。"],"phrases":[{"text":"work long hours","meaning":"长时间工作、加班","usage":"hours 用复数，指工作时长；同类表达还有 work overtime（加班）。","example":"She often works long hours before exams. 考试前她常常长时间工作。"},{"text":"drive results","meaning":"带来成果、推动结果","usage":"drive 在此为“驱动、促成”，商业语境常见：drive growth（拉动增长）、drive sales（带动销量）。","example":"Clear goals drive better results. 明确的目标会带来更好的结果。"}],"pitfalls":["主语是动名词短语，谓语用单数 doesn't，不能写 don't drive。","drive 在这里不是“驾驶”；看到 drive + results/growth/sales 要译成“带来、拉动”。","不要漏译 better：它体现“更”的比较意味，与上文“工作时间越长越好”的假设形成对照。"],"paragraphRole":"第一次转折：用事实反驳“忙就有价值”的暗示，把论点从“身份象征”推进到“实际效果”。"}},{"idx":5,"text":"Never taking a vacation won't lead to a promotion.","tokens":[{"s":"Never","n":"never","w":true,"a":0,"e":5,"an":null},{"s":"taking","n":"taking","w":true,"a":6,"e":12,"an":null},{"s":"a","n":"a","w":true,"a":13,"e":14,"an":null},{"s":"vacation","n":"vacation","w":true,"a":15,"e":23,"an":{"phonetic":"/vəˈkeɪʃn/","pos":"n.","senseInContext":"假期、休假（take a vacation 去度假）","collocations":["take a vacation","on vacation","summer vacation","paid vacation"],"examples":["We're on vacation next week. 我们下周休假。"],"isCet4HighFreq":true,"more":{"roots":"vac-（空）→ 空出来的时间 → 假期；同族：vacant 空的、vacuum 真空","synonyms":"holiday（英）/ break / leave","confusables":"vacation 偏美式长假期；holiday 偏英式；leave 多指因事请假"}}},{"s":"won't","n":"won't","w":true,"a":24,"e":29,"an":null},{"s":"lead","n":"lead","w":true,"a":30,"e":34,"an":{"phonetic":"/liːd/","pos":"v.","senseInContext":"（lead to）导致、通向——本句说“不休假并不会带来晋升”","collocations":["lead to sth./doing","lead sb. to do sth.","lead a...life"],"examples":["Poor sleep can lead to poor memory. 睡眠不足会导致记忆力下降。"],"isCet4HighFreq":true,"more":{"roots":"lead 本义“带领”→ 引申“导致”","synonyms":"result in / cause / bring about","confusables":"lead to 后接名词/动名词；lead sb. to do 是“使某人做”"}}},{"s":"to","n":"to","w":true,"a":35,"e":37,"an":null},{"s":"a","n":"a","w":true,"a":38,"e":39,"an":null},{"s":"promotion","n":"promotion","w":true,"a":40,"e":49,"an":{"phonetic":"/prəˈməʊʃn/","pos":"n.","senseInContext":"晋升、提拔（本句指升职机会）","collocations":["get/win a promotion","promotion opportunity","sales promotion"],"examples":["She got a promotion after two years. 两年后她升职了。"],"isCet4HighFreq":true,"more":{"roots":"pro-（向前）+ mot（移动）+ -ion（名词）","synonyms":"advancement / elevation","confusables":"promotion 还有“促销、宣传”义：sales promotion 促销活动"}}},{"s":".","n":null,"w":false,"a":49,"e":50,"an":null}],"an":{"translationLiteral":"从不度假不会导致晋升。","translationNatural":"一直不歇假，也换不来升职。","structMarkup":"【Never taking a vacation】 _won't lead to_ ~a promotion~.","structureSummary":"主谓宾结构（否定词前置的动名词短语作主语）","components":[{"part":"Never taking a vacation","role":"主语","note":"动名词短语作主语，never 放在句首否定整句"},{"part":"won't lead to","role":"谓语","note":"will not lead to，表推断的否定"},{"part":"a promotion","role":"宾语","note":"promotion 名词“晋升”，单数指一次升职机会"}],"clauses":["本句是简单句，无从句。","never 置于句首但不引起倒装，因为它修饰的是动名词短语（主语的一部分），而非整个句子。"],"phrases":[{"text":"take a vacation","meaning":"休假、去度假","usage":"vacation 前用 take a；英式英语更常说 take a holiday；on vacation 表示“在休假中”。","example":"You should take a vacation after the project. 项目结束后你该休个假。"},{"text":"lead to","meaning":"导致、通向","usage":"to 是介词，后接名词或动名词：lead to success / lead to failing the exam。","example":"Hard work leads to success. 努力带来成功。"}],"pitfalls":["never 与 won't 同时出现，形成双重否定，语气很强：“再怎么不休假，也绝不会换来升职”。","lead to 的 to 是介词，不能接动词原形；错写 lead to promote 是常见错误。","promotion 是名词；动词形式是 promote（上一句刚出现过 get promoted）。"],"paragraphRole":"与上一句并列，第二个反例：不休假同样不等于升职，进一步拆掉“忙=上进”的等式。"}},{"idx":6,"text":"So why are we so proud to talk about how busy we are all the time?","tokens":[{"s":"So","n":"so","w":true,"a":0,"e":2,"an":null},{"s":"why","n":"why","w":true,"a":3,"e":6,"an":null},{"s":"are","n":"are","w":true,"a":7,"e":10,"an":null},{"s":"we","n":"we","w":true,"a":11,"e":13,"an":null},{"s":"so","n":"so","w":true,"a":14,"e":16,"an":null},{"s":"proud","n":"proud","w":true,"a":17,"e":22,"an":{"phonetic":"/praʊd/","pos":"adj.","senseInContext":"自豪的、骄傲的（be proud to do 为做某事感到自豪）","collocations":["be proud of sb./sth.","be proud to do sth.","a proud moment"],"examples":["I'm proud of what we achieved. 我为我们取得的成果感到骄傲。"],"isCet4HighFreq":true,"more":{"roots":"源自古法语 prud（勇敢、可敬）","synonyms":"pleased / honoured","confusables":"proud 可褒可贬；贬义时指“傲慢的”（a proud man）"}}},{"s":"to","n":"to","w":true,"a":23,"e":25,"an":null},{"s":"talk","n":"talk","w":true,"a":26,"e":30,"an":null},{"s":"about","n":"about","w":true,"a":31,"e":36,"an":null},{"s":"how","n":"how","w":true,"a":37,"e":40,"an":null},{"s":"busy","n":"busy","w":true,"a":41,"e":45,"an":null},{"s":"we","n":"we","w":true,"a":46,"e":48,"an":null},{"s":"are","n":"are","w":true,"a":49,"e":52,"an":null},{"s":"all","n":"all","w":true,"a":53,"e":56,"an":null},{"s":"the","n":"the","w":true,"a":57,"e":60,"an":null},{"s":"time","n":"time","w":true,"a":61,"e":65,"an":null},{"s":"?","n":null,"w":false,"a":65,"e":66,"an":null}],"an":{"translationLiteral":"所以我们为什么如此自豪地谈论我们一直有多么忙？","translationNatural":"那我们为什么还总爱把“忙”挂在嘴边、说得那么自豪呢？","structMarkup":"{So} _why are_ 【we】 ~so proud to talk about~ {how busy we are all the time}?","structureSummary":"why 引导的特殊疑问句：疑问词 + 系动词 + 主语 + 表语（形容词短语 + 宾语从句）","components":[{"part":"So","role":"连词","note":"承上启下，引出结论式反问"},{"part":"why","role":"疑问副词","note":"引导特殊疑问句，问原因"},{"part":"are","role":"系动词","note":"疑问语序中提前到主语前"},{"part":"we","role":"主语","note":"泛指“我们”"},{"part":"so proud to talk about...","role":"表语","note":"形容词 proud + 不定式，说明“自豪到什么程度”"},{"part":"how busy we are all the time","role":"宾语从句","note":"作介词 about 的宾语，用陈述语序"}],"clauses":["整句是 why 引导的特殊疑问句，采用疑问语序：why + are + we。","how busy we are all the time 是 how 引导的宾语从句，作介词 about 的宾语；从句内部用陈述语序 we are，不是 are we。","该从句带感叹意味（how + 形容词），但整体仍是宾语从句，句末问号属于主句。"],"phrases":[{"text":"be proud to do sth.","meaning":"为做某事感到自豪／骄傲","usage":"proud 后接 of + 名词（be proud of sb.）或 to do（be proud to do）；此处指“自豪地去做某事”。","example":"I'm proud to be part of this team. 我为能成为这个团队的一员而自豪。"},{"text":"all the time","meaning":"一直、始终、总是","usage":"时间状语，常置于句末；语气比 always 更口语、更强。","example":"He is on his phone all the time. 他总是在看手机。"}],"pitfalls":["主句用疑问语序 are we，宾语从句必须用陈述语序 we are——这是本句最容易写错的地方。","so proud to talk about 中，about 的宾语是整个从句，不要只把 how busy 当宾语。","how busy we are 不是感叹句（感叹句应为 How busy we are!），这里被 about 引导成宾语从句。"],"paragraphRole":"段末反问，把话题从“个人习惯”推向“社会现象”，为下一段引入研究做铺垫。"}}]},{"idx":1,"sentences":[{"idx":0,"text":"In 2016, researchers from Columbia, Harvard, and Georgetown conducted a study to figure it out.","tokens":[{"s":"In","n":"in","w":true,"a":0,"e":2,"an":null},{"s":"2016","n":"2016","w":true,"a":3,"e":7,"an":null},{"s":",","n":null,"w":false,"a":7,"e":8,"an":null},{"s":"researchers","n":"researchers","w":true,"a":9,"e":20,"an":null},{"s":"from","n":"from","w":true,"a":21,"e":25,"an":null},{"s":"Columbia","n":"columbia","w":true,"a":26,"e":34,"an":null},{"s":",","n":null,"w":false,"a":34,"e":35,"an":null},{"s":"Harvard","n":"harvard","w":true,"a":36,"e":43,"an":null},{"s":",","n":null,"w":false,"a":43,"e":44,"an":null},{"s":"and","n":"and","w":true,"a":45,"e":48,"an":null},{"s":"Georgetown","n":"georgetown","w":true,"a":49,"e":59,"an":null},{"s":"conducted","n":"conducted","w":true,"a":60,"e":69,"an":{"phonetic":"/kənˈdʌktɪd/","pos":"v.（过去式）","senseInContext":"开展了、进行了（conduct a study 做研究）","collocations":["conduct a study/survey/experiment","conduct oneself well"],"examples":["The team conducted interviews with 200 parents. 团队对 200 位家长进行了访谈。"],"isCet4HighFreq":true,"more":{"roots":"con-（一起）+ duct（引导）→ 引导到一起 → 进行、实施","synonyms":"carry out / perform / do","confusables":"名词 conduct 读 /ˈkɒndʌkt/，意为“行为、举止”，重音在前"}}},{"s":"a","n":"a","w":true,"a":70,"e":71,"an":null},{"s":"study","n":"study","w":true,"a":72,"e":77,"an":null},{"s":"to","n":"to","w":true,"a":78,"e":80,"an":null},{"s":"figure","n":"figure","w":true,"a":81,"e":87,"an":null},{"s":"it","n":"it","w":true,"a":88,"e":90,"an":null},{"s":"out","n":"out","w":true,"a":91,"e":94,"an":null},{"s":".","n":null,"w":false,"a":94,"e":95,"an":null}],"an":{"translationLiteral":"在 2016 年，来自哥伦比亚大学、哈佛大学和乔治城大学的研究人员进行了一项研究来弄清楚它。","translationNatural":"2016 年，哥伦比亚、哈佛和乔治城三所大学的研究者做了一项研究，想把这件事弄明白。","structMarkup":"(In 2016), 【researchers (from Columbia, Harvard, and Georgetown)】 _conducted_ ~a study~ (to figure it out).","structureSummary":"主谓宾结构：主语 + 后置定语 + 谓语 + 宾语 + 目的状语","components":[{"part":"In 2016","role":"时间状语","note":"交代研究时间，放句首"},{"part":"researchers from Columbia, Harvard, and Georgetown","role":"主语","note":"中心词是 researchers，from... 是后置定语，说明研究者来自哪里"},{"part":"conducted","role":"谓语","note":"conduct 的过去式，意为“开展、进行”"},{"part":"a study","role":"宾语","note":"conduct a study 是固定搭配“做研究”"},{"part":"to figure it out","role":"目的状语","note":"不定式表示“为了弄清楚这件事”"}],"clauses":["本句是简单句，没有从句。","to figure it out 是不定式短语作目的状语，不是从句，所以前面不加 that。","from Columbia, Harvard, and Georgetown 是介词短语作后置定语，修饰 researchers。"],"phrases":[{"text":"conduct a study","meaning":"开展一项研究","usage":"conduct 是较正式的“进行、实施”，常搭配 research / survey / experiment。","example":"They conducted a survey among 500 students. 他们在 500 名学生中做了一项调查。"},{"text":"figure out","meaning":"弄清楚、搞明白、算出","usage":"动词短语，out 不能省略；口语高频。","example":"I can't figure out why he left. 我弄不明白他为什么离开。"}],"pitfalls":["researchers from... 的主语中心词是 researchers，谓语用复数 conducted。","conduct 在这里是动词“开展”，不要和名词“行为、举止”混。","figure out 的 out 不能丢，figure 单独用是“认为、计算”。"],"paragraphRole":"交代研究出处，为全文论点提供证据支撑。"}},{"idx":1,"text":"They found busy people are perceived to be of high status, and interestingly, these status attributions are heavily influenced by our own beliefs about social mobility.","tokens":[{"s":"They","n":"they","w":true,"a":0,"e":4,"an":null},{"s":"found","n":"found","w":true,"a":5,"e":10,"an":null},{"s":"busy","n":"busy","w":true,"a":11,"e":15,"an":null},{"s":"people","n":"people","w":true,"a":16,"e":22,"an":null},{"s":"are","n":"are","w":true,"a":23,"e":26,"an":null},{"s":"perceived","n":"perceived","w":true,"a":27,"e":36,"an":{"phonetic":"/pəˈsiːvd/","pos":"v.（过去分词）","senseInContext":"被认为、被看作（be perceived to be 被认为是）","collocations":["be perceived as","be perceived to be","perceive sth. as sth."],"examples":["Silence is often perceived as agreement. 沉默常被当作同意。"],"isCet4HighFreq":true,"more":{"roots":"per-（贯穿）+ ceive（抓取）→ 抓住 → 感知、认为","synonyms":"be regarded as / be seen as","confusables":"perceive 强调主观认知，不一定是事实；与 notice（注意到）不同"}}},{"s":"to","n":"to","w":true,"a":37,"e":39,"an":null},{"s":"be","n":"be","w":true,"a":40,"e":42,"an":null},{"s":"of","n":"of","w":true,"a":43,"e":45,"an":null},{"s":"high","n":"high","w":true,"a":46,"e":50,"an":null},{"s":"status","n":"status","w":true,"a":51,"e":57,"an":{"phonetic":"/ˈsteɪtəs/","pos":"n.","senseInContext":"地位、身份（high status 高地位）","collocations":["social status","high/low status","status symbol"],"examples":["Owning a car was once a status symbol. 拥有汽车曾是身份的象征。"],"isCet4HighFreq":true,"more":{"roots":"stat（站立）→ 所处的位置 → 地位","synonyms":"standing / rank / position","confusables":"status 单复数同形（two statuses 也可，但少见）；不要写成 statu"}}},{"s":",","n":null,"w":false,"a":57,"e":58,"an":null},{"s":"and","n":"and","w":true,"a":59,"e":62,"an":null},{"s":"interestingly","n":"interestingly","w":true,"a":63,"e":76,"an":null},{"s":",","n":null,"w":false,"a":76,"e":77,"an":null},{"s":"these","n":"these","w":true,"a":78,"e":83,"an":null},{"s":"status","n":"status","w":true,"a":84,"e":90,"an":{"phonetic":"/ˈsteɪtəs/","pos":"n.","senseInContext":"地位、身份（high status 高地位）","collocations":["social status","high/low status","status symbol"],"examples":["Owning a car was once a status symbol. 拥有汽车曾是身份的象征。"],"isCet4HighFreq":true,"more":{"roots":"stat（站立）→ 所处的位置 → 地位","synonyms":"standing / rank / position","confusables":"status 单复数同形（two statuses 也可，但少见）；不要写成 statu"}}},{"s":"attributions","n":"attributions","w":true,"a":91,"e":103,"an":null},{"s":"are","n":"are","w":true,"a":104,"e":107,"an":null},{"s":"heavily","n":"heavily","w":true,"a":108,"e":115,"an":null},{"s":"influenced","n":"influenced","w":true,"a":116,"e":126,"an":{"phonetic":"/ˈɪnfluənst/","pos":"v.（过去分词）","senseInContext":"受影响（be influenced by 受……影响）","collocations":["be influenced by","influence sb. to do","have an influence on"],"examples":["Teenagers are easily influenced by their peers. 青少年容易受同龄人影响。"],"isCet4HighFreq":true,"more":{"roots":"in-（进入）+ flu（流动）→ 流入 → 影响","synonyms":"affected / shaped","confusables":"influence 偏潜移默化；affect 更中性直接；effect 多为名词“效果”"}}},{"s":"by","n":"by","w":true,"a":127,"e":129,"an":null},{"s":"our","n":"our","w":true,"a":130,"e":133,"an":null},{"s":"own","n":"own","w":true,"a":134,"e":137,"an":null},{"s":"beliefs","n":"beliefs","w":true,"a":138,"e":145,"an":null},{"s":"about","n":"about","w":true,"a":146,"e":151,"an":null},{"s":"social","n":"social","w":true,"a":152,"e":158,"an":null},{"s":"mobility","n":"mobility","w":true,"a":159,"e":167,"an":{"phonetic":"/məʊˈbɪləti/","pos":"n.","senseInContext":"流动性（social mobility 社会流动性）","collocations":["social mobility","upward mobility","job mobility"],"examples":["Upward mobility depends on education and opportunity. 向上流动取决于教育与机会。"],"isCet4HighFreq":false,"more":{"roots":"mob（移动）+ -ility（能力）→ 可移动性；同族 mobile 移动的","synonyms":"movement / flexibility","confusables":"mobility 是名词；mobile 是形容词“移动的”"}}},{"s":".","n":null,"w":false,"a":167,"e":168,"an":null}],"an":{"translationLiteral":"他们发现忙碌的人被认为具有高地位，而且有趣的是，这些地位归属很大程度上受我们自己关于社会流动性的信念所影响。","translationNatural":"他们发现，忙碌的人会被看作地位更高；有意思的是，这种“高地位”的判断，很大程度上取决于我们自己对“社会流动”的看法。","structMarkup":"【They】 _found_ ~{busy people are perceived to be of high status}~, and interestingly, 【these status attributions】 _are heavily influenced_ (by our own beliefs about social mobility).","structureSummary":"两个并列分句：①主谓 + 宾语从句；②主谓（被动）+ by 短语施动者","components":[{"part":"They","role":"主语","note":"指上一句的研究者"},{"part":"found","role":"谓语","note":"后接省略 that 的宾语从句"},{"part":"busy people are perceived to be of high status","role":"宾语从句","note":"作 found 的宾语"},{"part":"these status attributions","role":"主语","note":"第二个分句的主语：这些地位归因"},{"part":"are heavily influenced","role":"谓语","note":"被动语态，heavily 修饰影响程度"},{"part":"by our own beliefs about social mobility","role":"状语","note":"by 短语引出施动者，about... 修饰 beliefs"}],"clauses":["busy people are perceived to be of high status 是省略了连接词 that 的宾语从句，作 found 的宾语。","busy people are perceived to be 是“sb. is perceived to be...”的被动结构，主动形式为 people perceive busy people to be...。","and 连接两个并列分句；interestingly 是插入语，修饰整个第二分句。"],"phrases":[{"text":"be perceived to be","meaning":"被认为是……","usage":"perceive sb./sth. to be... 的被动式；同义：be regarded as / be seen as。","example":"He is perceived to be the best candidate. 他被认为是最佳人选。"},{"text":"be influenced by","meaning":"受……影响","usage":"被动结构；influence 也可作名词：have an influence on。","example":"Our choices are influenced by advertising. 我们的选择受广告影响。"},{"text":"social mobility","meaning":"社会流动性（一个人改变社会阶层的可能性）","usage":"社会学常用术语，与 hard work、success 常一起出现。","example":"Education is a key driver of social mobility. 教育是社会流动的关键推动力。"}],"pitfalls":["found 后面省略了 that，不要把 busy people 误当成主句主语。","perceive 的被动是 be perceived to be，不是 be perceived as being（后者也可用但更啰嗦）。","attributions 是名词复数，源自动词 attribute A to B（把 A 归因于 B）。"],"paragraphRole":"给出研究结论“忙=高地位”，同时埋下“这取决于我们自己的信念”这条关键线索。"}},{"idx":2,"text":"In other words, the more we believe that one has the opportunity for success based on hard work, the more we tend to think that people who skip leisure and work all the time are of higher standing.","tokens":[{"s":"In","n":"in","w":true,"a":0,"e":2,"an":null},{"s":"other","n":"other","w":true,"a":3,"e":8,"an":null},{"s":"words","n":"words","w":true,"a":9,"e":14,"an":null},{"s":",","n":null,"w":false,"a":14,"e":15,"an":null},{"s":"the","n":"the","w":true,"a":16,"e":19,"an":null},{"s":"more","n":"more","w":true,"a":20,"e":24,"an":null},{"s":"we","n":"we","w":true,"a":25,"e":27,"an":null},{"s":"believe","n":"believe","w":true,"a":28,"e":35,"an":null},{"s":"that","n":"that","w":true,"a":36,"e":40,"an":null},{"s":"one","n":"one","w":true,"a":41,"e":44,"an":null},{"s":"has","n":"has","w":true,"a":45,"e":48,"an":null},{"s":"the","n":"the","w":true,"a":49,"e":52,"an":null},{"s":"opportunity","n":"opportunity","w":true,"a":53,"e":64,"an":{"phonetic":"/ˌɒpəˈtjuːnəti/","pos":"n.","senseInContext":"机会（the opportunity for success 成功的机会）","collocations":["have the opportunity to do","take the opportunity","equal opportunity"],"examples":["Everyone should have the opportunity to learn. 每个人都应有学习的机会。"],"isCet4HighFreq":true,"more":{"roots":"op-（朝向）+ port（港口）→ 顺风入港 → 良机","synonyms":"chance / opening","confusables":"opportunity 偏正式；chance 还可表“可能性、偶然”"}}},{"s":"for","n":"for","w":true,"a":65,"e":68,"an":null},{"s":"success","n":"success","w":true,"a":69,"e":76,"an":null},{"s":"based","n":"based","w":true,"a":77,"e":82,"an":null},{"s":"on","n":"on","w":true,"a":83,"e":85,"an":null},{"s":"hard","n":"hard","w":true,"a":86,"e":90,"an":null},{"s":"work","n":"work","w":true,"a":91,"e":95,"an":null},{"s":",","n":null,"w":false,"a":95,"e":96,"an":null},{"s":"the","n":"the","w":true,"a":97,"e":100,"an":null},{"s":"more","n":"more","w":true,"a":101,"e":105,"an":null},{"s":"we","n":"we","w":true,"a":106,"e":108,"an":null},{"s":"tend","n":"tend","w":true,"a":109,"e":113,"an":{"phonetic":"/tend/","pos":"v.","senseInContext":"倾向于（tend to think 往往会认为）","collocations":["tend to do sth.","tend towards","a tendency to do"],"examples":["We tend to remember stories better than facts. 我们往往更容易记住故事而非事实。"],"isCet4HighFreq":true,"more":{"roots":"tend（伸展）→ 朝某方向伸 → 倾向","synonyms":"be inclined to / be likely to","confusables":"tend to do 表示倾向；tend 还有“照料”（tend the garden）"}}},{"s":"to","n":"to","w":true,"a":114,"e":116,"an":null},{"s":"think","n":"think","w":true,"a":117,"e":122,"an":null},{"s":"that","n":"that","w":true,"a":123,"e":127,"an":null},{"s":"people","n":"people","w":true,"a":128,"e":134,"an":null},{"s":"who","n":"who","w":true,"a":135,"e":138,"an":null},{"s":"skip","n":"skip","w":true,"a":139,"e":143,"an":null},{"s":"leisure","n":"leisure","w":true,"a":144,"e":151,"an":{"phonetic":"/ˈleʒə(r)/","pos":"n.","senseInContext":"休闲、闲暇（skip leisure 放弃休息）","collocations":["leisure time","at leisure","leisure activities"],"examples":["He reads for leisure, not for exams. 他读书是为了消遣，不是为了考试。"],"isCet4HighFreq":true,"more":{"roots":"源自古法语 leisir（被允许）→ 自由支配的时间","synonyms":"free time / spare time","confusables":"leisure 不可数；at leisure 意为“空闲时/从容地”"}}},{"s":"and","n":"and","w":true,"a":152,"e":155,"an":null},{"s":"work","n":"work","w":true,"a":156,"e":160,"an":null},{"s":"all","n":"all","w":true,"a":161,"e":164,"an":null},{"s":"the","n":"the","w":true,"a":165,"e":168,"an":null},{"s":"time","n":"time","w":true,"a":169,"e":173,"an":null},{"s":"are","n":"are","w":true,"a":174,"e":177,"an":null},{"s":"of","n":"of","w":true,"a":178,"e":180,"an":null},{"s":"higher","n":"higher","w":true,"a":181,"e":187,"an":null},{"s":"standing","n":"standing","w":true,"a":188,"e":196,"an":null},{"s":".","n":null,"w":false,"a":196,"e":197,"an":null}],"an":{"translationLiteral":"换句话说，我们越是相信一个人有基于努力获得成功的机会，我们就越倾向于认为那些跳过休闲、一直工作的人有更高的地位。","translationNatural":"也就是说，我们越相信“努力就能成功”，就越容易觉得那些放弃休息、整天工作的人地位更高。","structMarkup":"(In other words), {the more 【we】 _believe_ ~that one has the opportunity for success~ (based on hard work)}, {the more 【we】 _tend to think_ ~that people who skip leisure and work all the time are of higher standing~}.","structureSummary":"“the more..., the more...”比较结构：前半是从句，后半是主句","components":[{"part":"In other words","role":"插入语","note":"过渡语，表示“换句话说”"},{"part":"the more we believe that...","role":"比较状语从句","note":"the more 引导的前置从句"},{"part":"the more we tend to think that...","role":"主句","note":"与前面的 the more 呼应，构成“越……越……”"},{"part":"people who skip leisure and work all the time","role":"宾语从句的主语","note":"其中 who... 是定语从句修饰 people"},{"part":"are of higher standing","role":"宾语从句的表语","note":"be of + 名词 = 具有某属性"}],"clauses":["the more..., the more... 是“越……越……”的比较结构：前半是让步/条件性的状语从句，后半才是主句。","we believe that one has the opportunity for success 中，that 引导宾语从句。","we tend to think that people... are of higher standing 中，that 引导宾语从句。","who skip leisure and work all the time 是 who 引导的定语从句，修饰 people。"],"phrases":[{"text":"the more..., the more...","meaning":"越……越……","usage":"两个 the + 比较级前后呼应；前为从句、后为主句，不能单独使用前半。","example":"The more you read, the faster you read. 你读得越多，读得越快。"},{"text":"tend to do sth.","meaning":"倾向于做某事、往往会做","usage":"表示习惯性倾向，比 will 更客观。","example":"People tend to overestimate their own ability. 人们往往高估自己的能力。"},{"text":"be of + 抽象名词","meaning":"具有……（性质/地位）","usage":"be of importance = be important；此处 be of higher standing = 地位更高。","example":"This matter is of great importance. 这件事非常重要。"}],"pitfalls":["the more... 前半是从句，不能单独成句；整句意思落在后半。","one has the opportunity 中的 one 是泛指“一个人”，不是数词“一”。","定语从句 who skip leisure... 紧贴 people，不要误认为修饰 standing。","standing 在此是名词“地位、身份”，不是“站立”。"],"paragraphRole":"把研究结论一般化为“越相信努力能成功，越崇拜忙碌”，点明“忙=高地位”其实是我们自己信念的投射。"}}]},{"idx":2,"sentences":[{"idx":0,"text":"That's why we feel like we have to appear busy, and there's a real perception that if someone is knee-deep in meetings, emails, and stress, then they're probably a big deal.","tokens":[{"s":"That's","n":"that's","w":true,"a":0,"e":6,"an":null},{"s":"why","n":"why","w":true,"a":7,"e":10,"an":null},{"s":"we","n":"we","w":true,"a":11,"e":13,"an":null},{"s":"feel","n":"feel","w":true,"a":14,"e":18,"an":null},{"s":"like","n":"like","w":true,"a":19,"e":23,"an":null},{"s":"we","n":"we","w":true,"a":24,"e":26,"an":null},{"s":"have","n":"have","w":true,"a":27,"e":31,"an":null},{"s":"to","n":"to","w":true,"a":32,"e":34,"an":null},{"s":"appear","n":"appear","w":true,"a":35,"e":41,"an":{"phonetic":"/əˈpɪə(r)/","pos":"v.","senseInContext":"显得、看起来（appear busy 显得忙，不是“出现”）","collocations":["appear to be","appear + 形容词","it appears that"],"examples":["He appears calm, but he isn't. 他看起来平静，其实不是。"],"isCet4HighFreq":true,"more":{"roots":"ap-（向）+ pear（显露）→ 显现","synonyms":"seem / look","confusables":"appear 还有“出现、到场”义：He appeared at the door."}}},{"s":"busy","n":"busy","w":true,"a":42,"e":46,"an":null},{"s":",","n":null,"w":false,"a":46,"e":47,"an":null},{"s":"and","n":"and","w":true,"a":48,"e":51,"an":null},{"s":"there's","n":"there's","w":true,"a":52,"e":59,"an":null},{"s":"a","n":"a","w":true,"a":60,"e":61,"an":null},{"s":"real","n":"real","w":true,"a":62,"e":66,"an":null},{"s":"perception","n":"perception","w":true,"a":67,"e":77,"an":{"phonetic":"/pəˈsepʃn/","pos":"n.","senseInContext":"看法、认知（a real perception 一种真实的看法）","collocations":["public perception","a perception that...","perception of"],"examples":["Public perception of the brand changed quickly. 公众对该品牌的看法很快改变了。"],"isCet4HighFreq":true,"more":{"roots":"per-（贯穿）+ cept（抓取）+ -ion → 抓取到的印象","synonyms":"view / belief / impression","confusables":"perception 偏“认知、印象”；opinion 偏“个人意见”"}}},{"s":"that","n":"that","w":true,"a":78,"e":82,"an":null},{"s":"if","n":"if","w":true,"a":83,"e":85,"an":null},{"s":"someone","n":"someone","w":true,"a":86,"e":93,"an":null},{"s":"is","n":"is","w":true,"a":94,"e":96,"an":null},{"s":"knee-deep","n":"knee-deep","w":true,"a":97,"e":106,"an":null},{"s":"in","n":"in","w":true,"a":107,"e":109,"an":null},{"s":"meetings","n":"meetings","w":true,"a":110,"e":118,"an":null},{"s":",","n":null,"w":false,"a":118,"e":119,"an":null},{"s":"emails","n":"emails","w":true,"a":120,"e":126,"an":null},{"s":",","n":null,"w":false,"a":126,"e":127,"an":null},{"s":"and","n":"and","w":true,"a":128,"e":131,"an":null},{"s":"stress","n":"stress","w":true,"a":132,"e":138,"an":null},{"s":",","n":null,"w":false,"a":138,"e":139,"an":null},{"s":"then","n":"then","w":true,"a":140,"e":144,"an":null},{"s":"they're","n":"they're","w":true,"a":145,"e":152,"an":null},{"s":"probably","n":"probably","w":true,"a":153,"e":161,"an":null},{"s":"a","n":"a","w":true,"a":162,"e":163,"an":null},{"s":"big","n":"big","w":true,"a":164,"e":167,"an":null},{"s":"deal","n":"deal","w":true,"a":168,"e":172,"an":null},{"s":".","n":null,"w":false,"a":172,"e":173,"an":null}],"an":{"translationLiteral":"那就是为什么我们觉得我们必须显得忙，而且确实存在一种看法：如果某人深陷于会议、邮件和压力之中，那他可能是个大人物。","translationNatural":"所以我们才觉得自己必须显得很忙；而且大家真的相信：一个人要是被会议、邮件和压力缠得脱不开身，那他多半是个人物。","structMarkup":"【That】 _'s_ ~why we feel like we have to appear busy~, and 【there】 _'s_ ~a real perception that if someone is knee-deep in meetings, emails, and stress, then they're probably a big deal~.","structureSummary":"两个并列分句：①主系表（表语为 why 从句）；②there be 存在句 + 同位语从句","components":[{"part":"That","role":"主语","note":"指代上一段的结论"},{"part":"'s (= is)","role":"系动词","note":"主系结构"},{"part":"why we feel like we have to appear busy","role":"表语从句","note":"That's why... 是“这就是为什么……”"},{"part":"there","role":"引导词","note":"第二分句的 there be 存在句"},{"part":"a real perception","role":"主语（实义主语）","note":"真正被陈述的对象：一种真实的看法"},{"part":"that if someone is..., then they're probably a big deal","role":"同位语从句","note":"说明 perception 的具体内容"}],"clauses":["why we feel like we have to appear busy 是 why 引导的表语从句（That's why + 结果）。","feel like 在口语中可直接接句子，表示“感觉好像……”。","that if someone is..., then they're... 是 that 引导的同位语从句，解释 perception 的内容，不是定语从句。","同位语从句内部又套了一层 if 引导的条件状语从句 + then 引导的主句。"],"phrases":[{"text":"feel like + 句子","meaning":"感觉好像……","usage":"口语结构；也可接名词/动名词（feel like a coffee 想喝杯咖啡）。","example":"I feel like I've been running all day. 我感觉自己一整天都在跑。"},{"text":"knee-deep in","meaning":"深陷于、忙于（字面：深到膝盖）","usage":"形象化表达，常搭工作/麻烦：knee-deep in debt 债台高筑。","example":"She's knee-deep in paperwork. 她深陷文书工作之中。"},{"text":"a big deal","meaning":"大人物；了不起的事（口语）","usage":"否定式 no big deal 意为“没什么大不了”；形容人是“人物、大咖”。","example":"He acts like he's a big deal. 他表现得自己是个大人物似的。"}],"pitfalls":["That's why... 表结果，That's because... 表原因，两者常被混用。","there's a perception that... 里 that 引导同位语从句，不能用 which 替换。","a big deal 是口语习语，不能按字面译成“一笔大交易”。"],"paragraphRole":"把研究结论落到日常行为：解释我们为什么要“装忙”，并点出这种看法是被普遍相信的。"}},{"idx":1,"text":"This culture of busyness is making it hard for employees to find work-life balance.","tokens":[{"s":"This","n":"this","w":true,"a":0,"e":4,"an":null},{"s":"culture","n":"culture","w":true,"a":5,"e":12,"an":{"phonetic":"/ˈkʌltʃə(r)/","pos":"n.","senseInContext":"文化、风气（this culture of busyness 这种忙碌文化）","collocations":["company culture","a culture of...","cultural difference"],"examples":["The company has a culture of long hours. 这家公司有加班文化。"],"isCet4HighFreq":true,"more":{"roots":"cult（耕作）+ -ure → 培育出来的东西 → 文化","synonyms":"custom / climate / ethos","confusables":"culture 指群体风气；habit 指个人习惯"}}},{"s":"of","n":"of","w":true,"a":13,"e":15,"an":null},{"s":"busyness","n":"busyness","w":true,"a":16,"e":24,"an":null},{"s":"is","n":"is","w":true,"a":25,"e":27,"an":null},{"s":"making","n":"making","w":true,"a":28,"e":34,"an":null},{"s":"it","n":"it","w":true,"a":35,"e":37,"an":null},{"s":"hard","n":"hard","w":true,"a":38,"e":42,"an":null},{"s":"for","n":"for","w":true,"a":43,"e":46,"an":null},{"s":"employees","n":"employees","w":true,"a":47,"e":56,"an":{"phonetic":"/ɪmˈplɔɪiːz/","pos":"n.","senseInContext":"员工、雇员（复数）","collocations":["full-time employee","employee benefits","employer vs employee"],"examples":["The company has 300 employees. 这家公司有 300 名员工。"],"isCet4HighFreq":true,"more":{"roots":"em-（使进入）+ ploy（卷入）→ 被雇佣","synonyms":"staff / worker / workforce","confusables":"employee 员工 / employer 雇主，拼写只差一位"}}},{"s":"to","n":"to","w":true,"a":57,"e":59,"an":null},{"s":"find","n":"find","w":true,"a":60,"e":64,"an":null},{"s":"work-life","n":"work-life","w":true,"a":65,"e":74,"an":null},{"s":"balance","n":"balance","w":true,"a":75,"e":82,"an":{"phonetic":"/ˈbæləns/","pos":"n.","senseInContext":"平衡（work-life balance 工作与生活的平衡）","collocations":["work-life balance","keep/lose one's balance","strike a balance"],"examples":["She tries to keep a balance between study and rest. 她努力在学习和休息之间保持平衡。"],"isCet4HighFreq":true,"more":{"roots":"bi-（二）+ lanx（盘）→ 天平两盘 → 平衡","synonyms":"equilibrium / stability","confusables":"balance 也可作动词“使平衡”；on balance 意为“总的来说”"}}},{"s":".","n":null,"w":false,"a":82,"e":83,"an":null}],"an":{"translationLiteral":"这种忙碌文化正在使员工难以找到工作与生活的平衡。","translationNatural":"这种“忙文化”让员工越来越难在工作与生活之间找到平衡。","structMarkup":"【This culture of busyness】 _is making_ ~it~ ~hard~ (for employees) (to find work-life balance).","structureSummary":"主谓宾补结构：make it + 形容词 + for sb. + to do（it 为形式宾语）","components":[{"part":"This culture of busyness","role":"主语","note":"busyness 是 busy 的名词形式，意为“忙碌的状态”"},{"part":"is making","role":"谓语","note":"现在进行时，强调正在发生"},{"part":"it","role":"形式宾语","note":"占位，真正的宾语是后面的不定式"},{"part":"hard","role":"宾语补足语","note":"说明 it 的状态：难"},{"part":"for employees","role":"不定式的逻辑主语","note":"说明“对谁来说难”"},{"part":"to find work-life balance","role":"真正宾语","note":"被 it 替代的后置宾语"}],"clauses":["本句是简单句，没有从句。","make it hard for sb. to do sth. 是固定句型：it 作形式宾语，形容词作宾补，不定式作真正宾语。"],"phrases":[{"text":"make it hard for sb. to do sth.","meaning":"使某人难以做某事","usage":"同族句型：make it easy/possible/necessary for sb. to do。","example":"Noise makes it hard for me to focus. 噪音让我很难集中注意力。"},{"text":"work-life balance","meaning":"工作与生活的平衡","usage":"固定复合名词，中间用连字符；常搭 find / maintain / achieve。","example":"Remote work can improve work-life balance. 远程办公能改善工作与生活的平衡。"}],"pitfalls":["it 是形式宾语，不能换成 this 或 that。","hard 是宾语补足语，不要写成 hardly（几乎不），意思完全不同。","busyness 与 business 拼写接近但意思不同：前者“忙碌”，后者“生意”。"],"paragraphRole":"指出忙碌文化的第一个后果：挤压工作与生活的平衡。"}},{"idx":2,"text":"According to a recent study, one in five highly engaged employees is at risk of burnout.","tokens":[{"s":"According","n":"according","w":true,"a":0,"e":9,"an":null},{"s":"to","n":"to","w":true,"a":10,"e":12,"an":null},{"s":"a","n":"a","w":true,"a":13,"e":14,"an":null},{"s":"recent","n":"recent","w":true,"a":15,"e":21,"an":null},{"s":"study","n":"study","w":true,"a":22,"e":27,"an":null},{"s":",","n":null,"w":false,"a":27,"e":28,"an":null},{"s":"one","n":"one","w":true,"a":29,"e":32,"an":null},{"s":"in","n":"in","w":true,"a":33,"e":35,"an":null},{"s":"five","n":"five","w":true,"a":36,"e":40,"an":null},{"s":"highly","n":"highly","w":true,"a":41,"e":47,"an":null},{"s":"engaged","n":"engaged","w":true,"a":48,"e":55,"an":{"phonetic":"/ɪnˈɡeɪdʒd/","pos":"adj.","senseInContext":"投入的、敬业的（highly engaged employees 高度投入的员工）","collocations":["be engaged in","highly engaged","be engaged to sb."],"examples":["Engaged employees stay longer. 投入度高的员工留得更久。"],"isCet4HighFreq":true,"more":{"roots":"en-（使）+ gage（抵押/承诺）→ 作出承诺 → 投入","synonyms":"committed / involved","confusables":"be engaged to sb. 是“与某人订婚”；be engaged in 是“从事/投入”"}}},{"s":"employees","n":"employees","w":true,"a":56,"e":65,"an":{"phonetic":"/ɪmˈplɔɪiːz/","pos":"n.","senseInContext":"员工、雇员（复数）","collocations":["full-time employee","employee benefits","employer vs employee"],"examples":["The company has 300 employees. 这家公司有 300 名员工。"],"isCet4HighFreq":true,"more":{"roots":"em-（使进入）+ ploy（卷入）→ 被雇佣","synonyms":"staff / worker / workforce","confusables":"employee 员工 / employer 雇主，拼写只差一位"}}},{"s":"is","n":"is","w":true,"a":66,"e":68,"an":null},{"s":"at","n":"at","w":true,"a":69,"e":71,"an":null},{"s":"risk","n":"risk","w":true,"a":72,"e":76,"an":null},{"s":"of","n":"of","w":true,"a":77,"e":79,"an":null},{"s":"burnout","n":"burnout","w":true,"a":80,"e":87,"an":{"phonetic":"/ˈbɜːnaʊt/","pos":"n.","senseInContext":"职业倦怠、身心耗尽（at risk of burnout）","collocations":["suffer from burnout","employee burnout","burn out（动词）"],"examples":["Long hours often lead to burnout. 长时间工作常导致身心耗尽。"],"isCet4HighFreq":false,"more":{"roots":"burn（烧）+ out（尽）→ 烧尽 → 耗尽","synonyms":"exhaustion / fatigue","confusables":"burnout 名词连写；burn out 是动词短语；burned out 是形容词"}}},{"s":".","n":null,"w":false,"a":87,"e":88,"an":null}],"an":{"translationLiteral":"根据最近一项研究，五个高度投入的员工中有一个面临倦怠的风险。","translationNatural":"最近一项研究显示，每五个高度投入的员工里，就有一个面临职业倦怠的风险。","structMarkup":"(According to a recent study), 【one in five highly engaged employees】 _is_ (at risk of burnout).","structureSummary":"主系表结构：主语 + 系动词 + 介词短语作表语","components":[{"part":"According to a recent study","role":"状语","note":"表示信息来源"},{"part":"one in five highly engaged employees","role":"主语","note":"核心词是 one，故谓语用单数"},{"part":"is","role":"系动词","note":"与 one 保持一致"},{"part":"at risk of burnout","role":"表语","note":"介词短语作表语，说明状态"}],"clauses":["本句是简单句，没有从句；According to 是介词短语作状语，后面只能接名词，不能接句子。"],"phrases":[{"text":"according to","meaning":"根据、按照","usage":"后接名词或名词短语（according to the report）；不能接 that 从句。","example":"According to the survey, most students sleep late. 调查显示，多数学生睡得晚。"},{"text":"one in five","meaning":"五分之一","usage":"作主语时谓语用单数；同义：one out of five。","example":"One in five adults has tried it. 五分之一的成年人试过。"},{"text":"at risk of","meaning":"有……的风险","usage":"后接名词或动名词：at risk of failing；也可说 be at risk（处于危险中）。","example":"Smokers are at risk of lung cancer. 吸烟者有患肺癌的风险。"}],"pitfalls":["one in five... 作主语时谓语用单数 is，不能用 are。","according to 后面不能接 that 从句，这是常见错误。","burnout 是“职业倦怠”，burn out 是动词短语“烧尽、耗尽”。"],"paragraphRole":"用一项研究数据坐实“忙碌文化有害”，把议论从现象推进到代价。"}}]},{"idx":3,"sentences":[{"idx":0,"text":"Personally, I'm going to stop saying \"busy\" when people ask me how I am.","tokens":[{"s":"Personally","n":"personally","w":true,"a":0,"e":10,"an":null},{"s":",","n":null,"w":false,"a":10,"e":11,"an":null},{"s":"I'm","n":"i'm","w":true,"a":12,"e":15,"an":null},{"s":"going","n":"going","w":true,"a":16,"e":21,"an":null},{"s":"to","n":"to","w":true,"a":22,"e":24,"an":null},{"s":"stop","n":"stop","w":true,"a":25,"e":29,"an":null},{"s":"saying","n":"saying","w":true,"a":30,"e":36,"an":null},{"s":"\"","n":null,"w":false,"a":37,"e":38,"an":null},{"s":"busy","n":"busy","w":true,"a":38,"e":42,"an":null},{"s":"\"","n":null,"w":false,"a":42,"e":43,"an":null},{"s":"when","n":"when","w":true,"a":44,"e":48,"an":null},{"s":"people","n":"people","w":true,"a":49,"e":55,"an":null},{"s":"ask","n":"ask","w":true,"a":56,"e":59,"an":null},{"s":"me","n":"me","w":true,"a":60,"e":62,"an":null},{"s":"how","n":"how","w":true,"a":63,"e":66,"an":null},{"s":"I","n":"i","w":true,"a":67,"e":68,"an":null},{"s":"am","n":"am","w":true,"a":69,"e":71,"an":null},{"s":".","n":null,"w":false,"a":71,"e":72,"an":null}],"an":{"translationLiteral":"就我个人而言，我打算停止在人们问我怎么样时说“忙”。","translationNatural":"就我自己来说，别人问我近况，我不打算再答“忙”了。","structMarkup":"(Personally), 【I】 _'m going to stop saying_ ~\"busy\"~ {when people ask me how I am}.","structureSummary":"主谓宾结构 + 时间状语从句（be going to 表打算）","components":[{"part":"Personally","role":"插入语","note":"表示“就我个人而言”，修饰整句"},{"part":"I","role":"主语","note":"作者自己"},{"part":"'m going to stop saying","role":"谓语","note":"be going to 表主观打算；stop doing 表“停止做”"},{"part":"\"busy\"","role":"宾语","note":"saying 的宾语，指说“忙”这个词"},{"part":"when people ask me how I am","role":"时间状语从句","note":"交代说这句话的场合"}],"clauses":["when people ask me how I am 是 when 引导的时间状语从句。","从句内部 how I am 是 how 引导的宾语从句，作 ask 的直接宾语，用陈述语序（不是 how am I）。","stop saying 中 saying 是动名词，作 stop 的宾语。"],"phrases":[{"text":"be going to do sth.","meaning":"打算、将要（做某事）","usage":"表主观计划或已有迹象的预测，比 will 更能体现“决定”。","example":"I'm going to start running next week. 我打算下周开始跑步。"},{"text":"stop doing sth.","meaning":"停止做某事（不再做）","usage":"对比 stop to do sth.＝停下来去做另一件事，两者意思差别很大。","example":"He stopped smoking last year. 他去年戒烟了。"}],"pitfalls":["stop saying 是“不再说”；stop to say 是“停下来去说”，别混。","how I am 是宾语从句，必须用陈述语序。","saying 后接的是词本身（\"busy\"），带引号，不要理解成形容词 busy。"],"paragraphRole":"从议论转向行动：作者宣布自己不再用“忙”作答，开启下文的做法与呼吁。"}},{"idx":1,"text":"It sounds self-righteous and sets the wrong tone.","tokens":[{"s":"It","n":"it","w":true,"a":0,"e":2,"an":null},{"s":"sounds","n":"sounds","w":true,"a":3,"e":9,"an":null},{"s":"self-righteous","n":"self-righteous","w":true,"a":10,"e":24,"an":null},{"s":"and","n":"and","w":true,"a":25,"e":28,"an":null},{"s":"sets","n":"sets","w":true,"a":29,"e":33,"an":null},{"s":"the","n":"the","w":true,"a":34,"e":37,"an":null},{"s":"wrong","n":"wrong","w":true,"a":38,"e":43,"an":null},{"s":"tone","n":"tone","w":true,"a":44,"e":48,"an":{"phonetic":"/təʊn/","pos":"n.","senseInContext":"语气、基调（set the wrong tone 定错了调子）","collocations":["set the tone","tone of voice","in a ... tone"],"examples":["Her tone suggested she was annoyed. 她的语气表明她有点恼火。"],"isCet4HighFreq":true,"more":{"roots":"ton（音调）→ 语气、色调","synonyms":"manner / mood / pitch","confusables":"tone 指语气/色调；tune 指曲调，别混"}}},{"s":".","n":null,"w":false,"a":48,"e":49,"an":null}],"an":{"translationLiteral":"它听起来自以为是，并且设定了错误的语气。","translationNatural":"这话听起来自以为是，也把气氛带偏了。","structMarkup":"【It】 _sounds_ ~self-righteous~ and _sets_ ~the wrong tone~.","structureSummary":"并列谓语：主语 + 系动词 + 表语，and + 谓语 + 宾语","components":[{"part":"It","role":"主语","note":"指上一句说的“我很忙”这句话"},{"part":"sounds","role":"系动词","note":"感官动词作系动词，后接形容词"},{"part":"self-righteous","role":"表语","note":"形容词“自以为是的、自以为正确的”"},{"part":"sets","role":"谓语","note":"与 sounds 并列的第二个谓语"},{"part":"the wrong tone","role":"宾语","note":"set the tone 意为“定调”"}],"clauses":["本句是简单句，没有从句；and 连接两个并列谓语，共用主语 It。","sounds 是系动词，所以后面接形容词 self-righteous 而不是副词。"],"phrases":[{"text":"sound + 形容词","meaning":"听起来……","usage":"sound / taste / smell / feel / look 都可作系动词，后接形容词。","example":"That sounds great. 听起来不错。"},{"text":"set the tone","meaning":"定调、奠定基调","usage":"常用搭配：set the tone for sth.（为某事定调）。","example":"The first meeting sets the tone for the project. 第一次会议为项目定下基调。"}],"pitfalls":["sound 作系动词时接形容词，不能说 sounds self-righteously。","self-righteous 带连字符，意思是“自认为永远正确的”，比 confident 带贬义。","sets 的主语仍是 It，不要误以为换了主语。"],"paragraphRole":"给出作者不再说“忙”的第一条理由：这话在道德姿态和语气上都不得体。"}},{"idx":2,"text":"Phrases like \"I have limited access to email\" and \"I'll respond as soon as I get back\" sound like you're being held against your will from working as opposed to making the most of your time off.","tokens":[{"s":"Phrases","n":"phrases","w":true,"a":0,"e":7,"an":null},{"s":"like","n":"like","w":true,"a":8,"e":12,"an":null},{"s":"\"","n":null,"w":false,"a":13,"e":14,"an":null},{"s":"I","n":"i","w":true,"a":14,"e":15,"an":null},{"s":"have","n":"have","w":true,"a":16,"e":20,"an":null},{"s":"limited","n":"limited","w":true,"a":21,"e":28,"an":null},{"s":"access","n":"access","w":true,"a":29,"e":35,"an":{"phonetic":"/ˈækses/","pos":"n.","senseInContext":"接触、使用的机会（limited access to email 不太方便查邮件）","collocations":["have access to","gain access to","internet access"],"examples":["Everyone has access to the online library. 每个人都能使用在线图书馆。"],"isCet4HighFreq":true,"more":{"roots":"ac-（向）+ cess（走）→ 走近 → 接近、通道","synonyms":"entry / availability","confusables":"access 是不可数名词，不能说 an access；动词用法 access sth. 较正式"}}},{"s":"to","n":"to","w":true,"a":36,"e":38,"an":null},{"s":"email","n":"email","w":true,"a":39,"e":44,"an":null},{"s":"\"","n":null,"w":false,"a":44,"e":45,"an":null},{"s":"and","n":"and","w":true,"a":46,"e":49,"an":null},{"s":"\"","n":null,"w":false,"a":50,"e":51,"an":null},{"s":"I'll","n":"i'll","w":true,"a":51,"e":55,"an":null},{"s":"respond","n":"respond","w":true,"a":56,"e":63,"an":{"phonetic":"/rɪˈspɒnd/","pos":"v.","senseInContext":"回复、回应（I'll respond 我会回复）","collocations":["respond to sth.","respond promptly","in response to"],"examples":["Please respond to the email by Friday. 请在周五前回复邮件。"],"isCet4HighFreq":true,"more":{"roots":"re-（回）+ spond（承诺）→ 回话 → 回应","synonyms":"reply / answer / react","confusables":"respond 是不及物动词，接宾语要加 to；reply 可直接接 that 从句"}}},{"s":"as","n":"as","w":true,"a":64,"e":66,"an":null},{"s":"soon","n":"soon","w":true,"a":67,"e":71,"an":null},{"s":"as","n":"as","w":true,"a":72,"e":74,"an":null},{"s":"I","n":"i","w":true,"a":75,"e":76,"an":null},{"s":"get","n":"get","w":true,"a":77,"e":80,"an":null},{"s":"back","n":"back","w":true,"a":81,"e":85,"an":null},{"s":"\"","n":null,"w":false,"a":85,"e":86,"an":null},{"s":"sound","n":"sound","w":true,"a":87,"e":92,"an":null},{"s":"like","n":"like","w":true,"a":93,"e":97,"an":null},{"s":"you're","n":"you're","w":true,"a":98,"e":104,"an":null},{"s":"being","n":"being","w":true,"a":105,"e":110,"an":null},{"s":"held","n":"held","w":true,"a":111,"e":115,"an":null},{"s":"against","n":"against","w":true,"a":116,"e":123,"an":null},{"s":"your","n":"your","w":true,"a":124,"e":128,"an":null},{"s":"will","n":"will","w":true,"a":129,"e":133,"an":null},{"s":"from","n":"from","w":true,"a":134,"e":138,"an":null},{"s":"working","n":"working","w":true,"a":139,"e":146,"an":null},{"s":"as","n":"as","w":true,"a":147,"e":149,"an":null},{"s":"opposed","n":"opposed","w":true,"a":150,"e":157,"an":{"phonetic":"/əˈpəʊzd/","pos":"adj./v.（过去分词）","senseInContext":"（as opposed to）而不是，与……相对","collocations":["as opposed to","be opposed to","oppose doing sth."],"examples":["I prefer tea, as opposed to coffee. 比起咖啡，我更喜欢茶。"],"isCet4HighFreq":true,"more":{"roots":"op-（相对）+ pose（放）→ 放在对面 → 反对","synonyms":"rather than / instead of","confusables":"be opposed to 是“反对”；as opposed to 是“而不是”，两者不同"}}},{"s":"to","n":"to","w":true,"a":158,"e":160,"an":null},{"s":"making","n":"making","w":true,"a":161,"e":167,"an":null},{"s":"the","n":"the","w":true,"a":168,"e":171,"an":null},{"s":"most","n":"most","w":true,"a":172,"e":176,"an":null},{"s":"of","n":"of","w":true,"a":177,"e":179,"an":null},{"s":"your","n":"your","w":true,"a":180,"e":184,"an":null},{"s":"time","n":"time","w":true,"a":185,"e":189,"an":null},{"s":"off","n":"off","w":true,"a":190,"e":193,"an":null},{"s":".","n":null,"w":false,"a":193,"e":194,"an":null}],"an":{"translationLiteral":"像“我查看邮件的机会有限”和“我一回来就回复”这样的说法，听起来像是你被违背意愿地拦着不能工作，而不是在充分利用你的休假时间。","translationNatural":"“我不太方便查邮件”“我回来就回复”这类话，听起来像是你被强迫不能工作，而不是在好好享受假期。","structMarkup":"【Phrases like \"I have limited access to email\" and \"I'll respond as soon as I get back\"】 _sound like_ ~{you're being held against your will from working}~ (as opposed to making the most of your time off).","structureSummary":"主系表结构：主语（较长的名词短语）+ sound like + 从句 + 对比状语","components":[{"part":"Phrases like ... and ...","role":"主语","note":"中心词是 Phrases，like 后是两个引号举例"},{"part":"sound like","role":"系动词短语","note":"口语中 like 后可接句子，相当于“听起来像……”"},{"part":"you're being held against your will from working","role":"表语从句","note":"现在进行时被动，说明“被拦住、不能工作”"},{"part":"as opposed to making the most of your time off","role":"对比状语","note":"引出被对比的另一种解读"}],"clauses":["sound like 在口语中可后接完整从句，相当于 it sounds as if...。","you're being held against your will from working 是现在进行时的被动语态（are being held）。","引号内 I'll respond as soon as I get back 含 as soon as 引导的时间状语从句。","as opposed to 是介词性短语，后接名词或动名词，不接句子。"],"phrases":[{"text":"have limited access to","meaning":"接触/使用……的机会有限","usage":"access 是不可数名词，常搭 have access to（能接触到）。","example":"Students have free access to the library. 学生可以免费使用图书馆。"},{"text":"as soon as","meaning":"一……就……","usage":"引导时间状语从句，主句常用将来时，从句用一般现在时表将来。","example":"I'll call you as soon as I arrive. 我一到就给你打电话。"},{"text":"against one's will","meaning":"违背某人的意愿","usage":"固定搭配；will 在此是名词“意愿”，不是助动词。","example":"He signed the paper against his will. 他违背意愿签了那份文件。"},{"text":"as opposed to","meaning":"而不是、与……相对","usage":"用于对比两种说法或做法，后接名词/动名词。","example":"We should listen, as opposed to arguing. 我们该倾听，而不是争辩。"},{"text":"make the most of","meaning":"充分利用","usage":"the most of 后接名词；同义 make full use of。","example":"Make the most of your summer break. 好好利用你的暑假。"}],"pitfalls":["sound like 后面可以直接跟从句（口语），不要写成 sound as。","as opposed to 意为“而不是”，容易误读成“反对”。","being held 是进行时被动；漏掉 being 就变成一般现在时被动，时间感不同。","against one's will 中的 will 是名词“意愿”，别当成将来时的 will。"],"paragraphRole":"用三个具体说法作例子，说明“措辞”如何暴露我们对工作的真实态度——像是被迫，而不是享受假期。"}}]},{"idx":4,"sentences":[{"idx":0,"text":"That's why we recently launched the Out of Office Email Generator, a free tool you can use before your next long weekend or trip.","tokens":[{"s":"That's","n":"that's","w":true,"a":0,"e":6,"an":null},{"s":"why","n":"why","w":true,"a":7,"e":10,"an":null},{"s":"we","n":"we","w":true,"a":11,"e":13,"an":null},{"s":"recently","n":"recently","w":true,"a":14,"e":22,"an":null},{"s":"launched","n":"launched","w":true,"a":23,"e":31,"an":null},{"s":"the","n":"the","w":true,"a":32,"e":35,"an":null},{"s":"Out","n":"out","w":true,"a":36,"e":39,"an":null},{"s":"of","n":"of","w":true,"a":40,"e":42,"an":null},{"s":"Office","n":"office","w":true,"a":43,"e":49,"an":null},{"s":"Email","n":"email","w":true,"a":50,"e":55,"an":null},{"s":"Generator","n":"generator","w":true,"a":56,"e":65,"an":null},{"s":",","n":null,"w":false,"a":65,"e":66,"an":null},{"s":"a","n":"a","w":true,"a":67,"e":68,"an":null},{"s":"free","n":"free","w":true,"a":69,"e":73,"an":null},{"s":"tool","n":"tool","w":true,"a":74,"e":78,"an":null},{"s":"you","n":"you","w":true,"a":79,"e":82,"an":null},{"s":"can","n":"can","w":true,"a":83,"e":86,"an":null},{"s":"use","n":"use","w":true,"a":87,"e":90,"an":null},{"s":"before","n":"before","w":true,"a":91,"e":97,"an":null},{"s":"your","n":"your","w":true,"a":98,"e":102,"an":null},{"s":"next","n":"next","w":true,"a":103,"e":107,"an":null},{"s":"long","n":"long","w":true,"a":108,"e":112,"an":null},{"s":"weekend","n":"weekend","w":true,"a":113,"e":120,"an":null},{"s":"or","n":"or","w":true,"a":121,"e":123,"an":null},{"s":"trip","n":"trip","w":true,"a":124,"e":128,"an":null},{"s":".","n":null,"w":false,"a":128,"e":129,"an":null}],"an":{"translationLiteral":"那就是为什么我们最近推出了“不在办公室邮件生成器”，一个你可以在下一个长周末或旅行前使用的免费工具。","translationNatural":"所以我们最近做了个“休假自动回复生成器”——免费工具，下次小长假或出门旅行前就能用。","structMarkup":"【That】 _'s_ ~why we recently launched the Out of Office Email Generator~, ~a free tool (you can use) (before your next long weekend or trip)~.","structureSummary":"主系表结构 + 同位语（解释前文名词）+ 省略关系词的定语从句","components":[{"part":"That","role":"主语","note":"指代上一段的困境"},{"part":"'s (= is)","role":"系动词","note":"主系结构"},{"part":"why we recently launched the Out of Office Email Generator","role":"表语从句","note":"That's why... 引出结果"},{"part":"a free tool","role":"同位语","note":"解释前面的 Generator 是什么"},{"part":"you can use","role":"定语从句（省略 that/which）","note":"修饰 tool"},{"part":"before your next long weekend or trip","role":"时间状语","note":"说明使用时机"}],"clauses":["why we recently launched... 是 why 引导的表语从句，作 is 的表语。","you can use 是省略了关系词 that/which 的定语从句，修饰 a free tool。","a free tool... 是同位语，与 the Out of Office Email Generator 指同一事物。"],"phrases":[{"text":"launch a tool / product","meaning":"推出、发布（工具/产品）","usage":"launch 用于产品、活动、网站的发布；也可作名词“发布”。","example":"They launched a new app last month. 他们上个月发布了一款新应用。"},{"text":"out of office","meaning":"不在办公室、休假中","usage":"邮箱自动回复里常见：I'm out of office until Monday.（我休假到下周一）","example":"Set an out of office reply before you leave. 走之前设一个休假自动回复。"},{"text":"long weekend","meaning":"长周末（含额外休息日，如小长假）","usage":"英式说法，指周五或周一连着休的三天假期。","example":"We're going hiking over the long weekend. 小长假我们打算去徒步。"}],"pitfalls":["a free tool... 是同位语，不是宾语补足语，它与前面的名词指同一件事。","you can use 前省略了 that/which，不要误认为是另一个分句。","Out of Office 是固定表达，指“休假中”，不是“离开办公室”这个动作。"],"paragraphRole":"从批评转向建设：给出作者团队的实际解决方案，为结尾的倡议做铺垫。"}},{"idx":1,"text":"You can share loud and proud that you won't be checking email until you're back.","tokens":[{"s":"You","n":"you","w":true,"a":0,"e":3,"an":null},{"s":"can","n":"can","w":true,"a":4,"e":7,"an":null},{"s":"share","n":"share","w":true,"a":8,"e":13,"an":null},{"s":"loud","n":"loud","w":true,"a":14,"e":18,"an":null},{"s":"and","n":"and","w":true,"a":19,"e":22,"an":null},{"s":"proud","n":"proud","w":true,"a":23,"e":28,"an":{"phonetic":"/praʊd/","pos":"adj.","senseInContext":"自豪的、骄傲的（be proud to do 为做某事感到自豪）","collocations":["be proud of sb./sth.","be proud to do sth.","a proud moment"],"examples":["I'm proud of what we achieved. 我为我们取得的成果感到骄傲。"],"isCet4HighFreq":true,"more":{"roots":"源自古法语 prud（勇敢、可敬）","synonyms":"pleased / honoured","confusables":"proud 可褒可贬；贬义时指“傲慢的”（a proud man）"}}},{"s":"that","n":"that","w":true,"a":29,"e":33,"an":null},{"s":"you","n":"you","w":true,"a":34,"e":37,"an":null},{"s":"won't","n":"won't","w":true,"a":38,"e":43,"an":null},{"s":"be","n":"be","w":true,"a":44,"e":46,"an":null},{"s":"checking","n":"checking","w":true,"a":47,"e":55,"an":null},{"s":"email","n":"email","w":true,"a":56,"e":61,"an":null},{"s":"until","n":"until","w":true,"a":62,"e":67,"an":null},{"s":"you're","n":"you're","w":true,"a":68,"e":74,"an":null},{"s":"back","n":"back","w":true,"a":75,"e":79,"an":null},{"s":".","n":null,"w":false,"a":79,"e":80,"an":null}],"an":{"translationLiteral":"你可以响亮而自豪地分享：直到你回来之前，你不会查看邮件。","translationNatural":"你可以理直气壮地宣布：假期结束前不查邮箱。","structMarkup":"【You】 _can share_ ~loud and proud~ ~{that you won't be checking email until you're back}~.","structureSummary":"主谓宾结构：主语 + 情态动词 + 谓语 + 方式状语 + 宾语从句","components":[{"part":"You","role":"主语","note":"泛指使用者"},{"part":"can share","role":"谓语","note":"share 此处指“公开说、分享”"},{"part":"loud and proud","role":"方式状语","note":"两个形容词并列作状语，意为“大声而自豪地”"},{"part":"that you won't be checking email until you're back","role":"宾语从句","note":"说明分享的内容"}],"clauses":["that 引导宾语从句，作 share 的宾语。","until you're back 是 until 引导的时间状语从句。","won't be checking 是将来进行时的否定，强调“那段时间都不会在查”。"],"phrases":[{"text":"loud and proud","meaning":"大声而自豪地、理直气壮地","usage":"口语表达，两个形容词并列作状语，修饰动词。","example":"She said it loud and proud. 她理直气壮地说了出来。"},{"text":"not... until...","meaning":"直到……才……","usage":"否定词 + until，译成中文时把“才”放在 until 之后。","example":"I won't leave until you come back. 你不回来我就不走。"}],"pitfalls":["loud and proud 是形容词短语作状语，不要改成 loudly and proudly（虽可懂但不地道）。","not...until 不能直译成“不……直到……”，中文习惯说“直到……才……”。","until 从句用一般现在时表将来（you're back），不用 will be。"],"paragraphRole":"说明工具的实际用法：把“我在休假”明白说出来，不留愧疚感。"}},{"idx":2,"text":"Managers need to think twice about emailing their teams on the weekend and talking about how busy they are.","tokens":[{"s":"Managers","n":"managers","w":true,"a":0,"e":8,"an":{"phonetic":"/ˈmænɪdʒəz/","pos":"n.","senseInContext":"管理者、经理（复数）","collocations":["senior manager","project manager","line manager"],"examples":["Managers should listen to their teams. 管理者应当倾听团队的声音。"],"isCet4HighFreq":true,"more":{"roots":"man（手）+ age → 用手处理 → 管理","synonyms":"supervisor / director","confusables":"manager 侧重管理岗；leader 侧重带领方向"}}},{"s":"need","n":"need","w":true,"a":9,"e":13,"an":null},{"s":"to","n":"to","w":true,"a":14,"e":16,"an":null},{"s":"think","n":"think","w":true,"a":17,"e":22,"an":null},{"s":"twice","n":"twice","w":true,"a":23,"e":28,"an":null},{"s":"about","n":"about","w":true,"a":29,"e":34,"an":null},{"s":"emailing","n":"emailing","w":true,"a":35,"e":43,"an":null},{"s":"their","n":"their","w":true,"a":44,"e":49,"an":null},{"s":"teams","n":"teams","w":true,"a":50,"e":55,"an":null},{"s":"on","n":"on","w":true,"a":56,"e":58,"an":null},{"s":"the","n":"the","w":true,"a":59,"e":62,"an":null},{"s":"weekend","n":"weekend","w":true,"a":63,"e":70,"an":null},{"s":"and","n":"and","w":true,"a":71,"e":74,"an":null},{"s":"talking","n":"talking","w":true,"a":75,"e":82,"an":null},{"s":"about","n":"about","w":true,"a":83,"e":88,"an":null},{"s":"how","n":"how","w":true,"a":89,"e":92,"an":null},{"s":"busy","n":"busy","w":true,"a":93,"e":97,"an":null},{"s":"they","n":"they","w":true,"a":98,"e":102,"an":null},{"s":"are","n":"are","w":true,"a":103,"e":106,"an":null},{"s":".","n":null,"w":false,"a":106,"e":107,"an":null}],"an":{"translationLiteral":"管理者在周末给团队发邮件以及谈论他们有多忙这件事上需要三思。","translationNatural":"管理者得掂量掂量：周末要不要给团队发邮件，要不要聊自己有多忙。","structMarkup":"【Managers】 _need to think twice_ (about emailing their teams on the weekend and talking about how busy they are).","structureSummary":"主谓结构 + 介词宾语（两个并列动名词短语）","components":[{"part":"Managers","role":"主语","note":"复数泛指管理者"},{"part":"need to think twice","role":"谓语","note":"need to do 表必要性；think twice 意为“三思”"},{"part":"about emailing their teams on the weekend","role":"介词宾语","note":"第一个动名词短语"},{"part":"and talking about how busy they are","role":"介词宾语","note":"第二个动名词短语，与前面并列"}],"clauses":["about 后面接两个并列的动名词短语，共同作 think twice about 的宾语。","how busy they are 是 how 引导的宾语从句，作 talking about 的宾语，用陈述语序。"],"phrases":[{"text":"think twice about sth./doing","meaning":"对……三思、慎重考虑","usage":"后接名词或动名词；语气上带有提醒意味。","example":"Think twice before you quit your job. 辞职前要三思。"},{"text":"email sb.","meaning":"给某人发邮件","usage":"email 可直接作动词，email sb. about sth.；名词为 an email。","example":"I'll email you the file tonight. 今晚我把文件发邮件给你。"}],"pitfalls":["think twice about 后接动名词，不能接动词原形。","how busy they are 用陈述语序，不是 how busy are they。","themselves（第 4-3 句）与 their 的用法别混：their teams 指“他们的团队”。"],"paragraphRole":"把责任指向管理者：周末发邮件、聊忙碌，本身就是再生产的“忙文化”。"}},{"idx":3,"text":"Leaders should take time off themselves and encourage employees to do the same.","tokens":[{"s":"Leaders","n":"leaders","w":true,"a":0,"e":7,"an":null},{"s":"should","n":"should","w":true,"a":8,"e":14,"an":null},{"s":"take","n":"take","w":true,"a":15,"e":19,"an":null},{"s":"time","n":"time","w":true,"a":20,"e":24,"an":null},{"s":"off","n":"off","w":true,"a":25,"e":28,"an":null},{"s":"themselves","n":"themselves","w":true,"a":29,"e":39,"an":null},{"s":"and","n":"and","w":true,"a":40,"e":43,"an":null},{"s":"encourage","n":"encourage","w":true,"a":44,"e":53,"an":{"phonetic":"/ɪnˈkʌrɪdʒ/","pos":"v.","senseInContext":"鼓励、支持（encourage employees to do the same 鼓励员工照做）","collocations":["encourage sb. to do sth.","encourage doing","be encouraged by"],"examples":["My parents encouraged me to read widely. 父母鼓励我广泛阅读。"],"isCet4HighFreq":true,"more":{"roots":"en-（使）+ courage（勇气）→ 给人勇气","synonyms":"motivate / inspire / support","confusables":"encourage sb. to do（带 to）；反义 discourage sb. from doing"}}},{"s":"employees","n":"employees","w":true,"a":54,"e":63,"an":{"phonetic":"/ɪmˈplɔɪiːz/","pos":"n.","senseInContext":"员工、雇员（复数）","collocations":["full-time employee","employee benefits","employer vs employee"],"examples":["The company has 300 employees. 这家公司有 300 名员工。"],"isCet4HighFreq":true,"more":{"roots":"em-（使进入）+ ploy（卷入）→ 被雇佣","synonyms":"staff / worker / workforce","confusables":"employee 员工 / employer 雇主，拼写只差一位"}}},{"s":"to","n":"to","w":true,"a":64,"e":66,"an":null},{"s":"do","n":"do","w":true,"a":67,"e":69,"an":null},{"s":"the","n":"the","w":true,"a":70,"e":73,"an":null},{"s":"same","n":"same","w":true,"a":74,"e":78,"an":null},{"s":".","n":null,"w":false,"a":78,"e":79,"an":null}],"an":{"translationLiteral":"领导者应该自己休假，并鼓励员工也这样做。","translationNatural":"领导该自己带头休假，也鼓励员工跟着休。","structMarkup":"【Leaders】 _should take_ ~time off~ (themselves) and _encourage_ ~employees~ (to do the same).","structureSummary":"并列谓语：主语 + 情态动词 + 谓语 + 宾语（+ 同位语）+ and + 谓语 + 宾语 + 宾补","components":[{"part":"Leaders","role":"主语","note":"复数泛指领导者"},{"part":"should take","role":"谓语","note":"情态动词 should 表建议"},{"part":"time off","role":"宾语","note":"take time off 是固定搭配“休假”"},{"part":"themselves","role":"同位语","note":"强调“亲自、带头”"},{"part":"encourage","role":"谓语","note":"与 take 并列的第二个谓语"},{"part":"employees","role":"宾语","note":"鼓励的对象"},{"part":"to do the same","role":"宾语补足语","note":"不定式说明鼓励他们做什么"}],"clauses":["本句是简单句，没有从句；and 连接两个并列谓语（should take... 和 encourage...）。","encourage sb. to do sth. 是不带 to 的宾语补足语？注意：这里 to do 是不定式作宾补，必须带 to。"],"phrases":[{"text":"take time off","meaning":"休假、抽时间休息","usage":"off 是副词；也可说 take a day off（请一天假）。","example":"You need to take some time off. 你需要休息一段时间。"},{"text":"encourage sb. to do sth.","meaning":"鼓励某人做某事","usage":"后接带 to 的不定式；反义 discourage sb. from doing。","example":"Teachers should encourage students to ask questions. 老师应鼓励学生提问。"},{"text":"do the same","meaning":"照做、也这样做","usage":"避免重复前面的动词短语时使用。","example":"He bought a bike, and I did the same. 他买了辆自行车，我也买了一辆。"}],"pitfalls":["encourage 后必须带 to：encourage sb. to do，不能省略 to。","themselves 是同位语，用来强调主语“领导自己”，不是宾语。","time off 中 off 是副词，不能写成 time of。"],"paragraphRole":"结尾倡议：要求领导者以身作则、让休假成为被鼓励的行为，收束全文。"}}]}],"questions":[{"no":46,"stem":"What is a reason for the author to be in the habit of saying \"busy\" when asked how he is doing?","answer":"A","options":[{"k":"A","t":"He just follows successful people's example."},{"k":"B","t":"He thinks everyone should be devoted to work."},{"k":"C","t":"He is actually proud to be fully occupied."},{"k":"D","t":"He believes busyness ensures accomplishments."}]},{"no":47,"stem":"Why do we tend to think that busy people are of high status?","answer":"B","options":[{"k":"A","t":"Our status can be attributed to our social mobility."},{"k":"B","t":"We hold the belief that hard work leads to success."},{"k":"C","t":"Our own opportunity for success never comes easily."},{"k":"D","t":"We find few people of high status have time for leisure."}]},{"no":48,"stem":"What do we learn about the culture of busyness from a recent study?","answer":"D","options":[{"k":"A","t":"It places employees in endless meetings, emails and stress."},{"k":"B","t":"It compels some 20% of employees to appear always busy."},{"k":"C","t":"It distorts many employees' belief of what a satisfying life is."},{"k":"D","t":"It does much harm to many busy employees' well-being."}]},{"no":49,"stem":"What do such utterances as \"I have limited access to email\" sound like according to the author?","answer":"C","options":[{"k":"A","t":"One is too busy to check all emails in time."},{"k":"B","t":"One is opposed to the prevailing work culture."},{"k":"C","t":"One is forced by circumstances to stop working."},{"k":"D","t":"One is simply enjoying their time off work."}]},{"no":50,"stem":"Why did the author and his colleagues launch the Out of Office Email Generator?","answer":"B","options":[{"k":"A","t":"To enable busy employees to spend less time checking emails."},{"k":"B","t":"To ensure employees as well as employers truly have time off."},{"k":"C","t":"To stop managers from talking about how busy their teams usually are."},{"k":"D","t":"To encourage both employers and employees to answer emails promptly."}]}]},
+  word: {"surface":"actually","sentence":"Sometimes it's because I actually am busy, but other times it's because that's what I think I'm supposed to say.","phonetic":"/ˈæktʃuəli/","pos":"adv.","senseInContext":"实际上、确实（本句用来强调“是真的忙”，与后面的借口形成对照）","collocations":["actually do sth.","not actually"],"examples":["I actually enjoy working on weekends. 我其实很享受周末工作。"],"isCet4HighFreq":true,"more":{"roots":"actual + -ly","synonyms":"really / in fact / as a matter of fact","confusables":"actually 常被误读为“目前”（应为 currently）"},"lex":{"phonetic":"/ˈæktʃuəli/","pos":"adv.","sense":"实际上、事实上；居然（表出乎意料）","collocations":["actually, ...","not actually"],"examples":["In reality the female actually did most of it. 现实中主要还是女性在做。"],"isCet4HighFreq":true,"more":{"confusables":"actually（实际上）/ currently（目前）/ in fact（事实上）"}}},
+  vocab: [{"w":"perceive","art":"Can We Really Multitask?","phonetic":"/pəˈsiːv/","pos":"v.","sense":"察觉、认为（perceive sth as）","tag":"四级高频"},{"w":"mobility","art":"Why We Are So Proud to Say We're Busy","phonetic":"/məʊˈbɪləti/","pos":"n.","sense":"流动、迁移（不可数）；活动能力","tag":"四级高频"},{"w":"burnout","art":"Why We Are So Proud to Say We're Busy","phonetic":"/ˈbɜːnaʊt/","pos":"n.","sense":"职业倦怠、精疲力竭（不可数）","tag":"一般"}],
+  analysisHtml: {},
+};
+
+// ---------- 视图 ----------
+const views = {
+  today(){
+    return `
+    <div class="topbar"><h1>今日</h1><div class="meta"><span class="tag plain">2026 年 11 月 5 日</span></div></div>
+    <div class="page">
+      <div class="stat-grid">
+        <div class="stat"><b>2</b><span>今日待复习</span></div>
+        <div class="stat"><b>9</b><span>已精读篇数</span></div>
+        <div class="stat"><b>47</b><span>生词</span></div>
+        <div class="stat"><b>6</b><span>连续天数</span></div>
+      </div>
+      <div class="page-h"><h2>继续精读</h2></div>
+      <p class="page-sub">上次读到第 2 段 · 3 天前</p>
+      <div class="grid">
+        <a class="card" href="#/article">
+          <div class="card-title">Why We Are So Proud to Say We're Busy</div>
+          <div class="card-meta"><span class="tag">仔细阅读</span><span>2023 年 12 月</span><span>350 词</span><span>20 句</span></div>
+        </a>
+      </div>
+      <div class="page-h" style="margin-top:34px"><h2>今日待复习</h2></div>
+      <p class="page-sub">到期文章按时间排序，完成后顺延到下一档</p>
+      <div class="grid">
+        <a class="card" href="#/article">
+          <div class="card-title">Ten Minutes of Exercise a Week</div>
+          <div class="card-meta"><span class="tag plain">第 3 次复习</span><span>下次：14 天后</span></div>
+        </a>
+        <a class="card" href="#/article">
+          <div class="card-title">Climate Change and Food</div>
+          <div class="card-meta"><span class="tag plain">第 1 次复习</span><span>下次：3 天后</span></div>
+        </a>
+      </div>
+    </div>`;
+  },
+
+  library(){
+    return `
+    <div class="topbar"><h1>文章库</h1><div class="meta"><span class="tag plain">12 篇内置 · 0 篇导入</span></div></div>
+    <div class="page">
+      <div class="tabs">
+        <button class="tab on">内置</button>
+        <button class="tab">我导入的</button>
+      </div>
+      <div class="filters">
+        <select><option>全部考试</option><option>四级（12）</option><option>六级（0）</option><option>其他（0）</option></select>
+        <select><option>全部年份</option><option>2023</option></select>
+        <select><option>全部题型</option><option>仔细阅读</option><option>长篇阅读</option><option>选词填空</option></select>
+        <input class="inp" placeholder="搜索篇名" style="flex:1;min-width:160px" />
+      </div>
+      <div class="grid">
+  <a class="card" href="#/article" data-article="set1-passageA">
+    <div class="card-title">Why We Are So Proud to Say We're Busy</div>
+    <div class="card-meta">
+      <span class="tag">仔细阅读</span><span>2023 年 12 月</span><span>350 词</span><span>20 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set1B">
+    <div class="card-title">Women Pay Lower Airfares Than Men</div>
+    <div class="card-meta">
+      <span class="tag">仔细阅读</span><span>2023 年 12 月</span><span>345 词</span><span>15 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set1Long">
+    <div class="card-title">Climate Change and Food</div>
+    <div class="card-meta">
+      <span class="tag">长篇阅读</span><span>2023 年 12 月</span><span>1023 词</span><span>42 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set1Cloze">
+    <div class="card-title">Ten Minutes of Exercise a Week</div>
+    <div class="card-meta">
+      <span class="tag">选词填空</span><span>2023 年 12 月</span><span>228 词</span><span>9 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set2A">
+    <div class="card-title">The Upside and Downside of Having a Rival</div>
+    <div class="card-meta">
+      <span class="tag">仔细阅读</span><span>2023 年 12 月</span><span>348 词</span><span>15 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set2B">
+    <div class="card-title">Can We Really Multitask?</div>
+    <div class="card-meta">
+      <span class="tag">仔细阅读</span><span>2023 年 12 月</span><span>344 词</span><span>17 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set2Long">
+    <div class="card-title">Paternity Leave and Gender Roles</div>
+    <div class="card-meta">
+      <span class="tag">长篇阅读</span><span>2023 年 12 月</span><span>990 词</span><span>39 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set2Cloze">
+    <div class="card-title">How Hobbies Improve Your Work</div>
+    <div class="card-meta">
+      <span class="tag">选词填空</span><span>2023 年 12 月</span><span>237 词</span><span>10 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set3A">
+    <div class="card-title">Red Rum: A Racing Legend</div>
+    <div class="card-meta">
+      <span class="tag">仔细阅读</span><span>2023 年 12 月</span><span>345 词</span><span>19 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set3B">
+    <div class="card-title">Instinct or Data: How to Decide</div>
+    <div class="card-meta">
+      <span class="tag">仔细阅读</span><span>2023 年 12 月</span><span>343 词</span><span>21 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set3Long">
+    <div class="card-title">Teenagers and Social Networking</div>
+    <div class="card-meta">
+      <span class="tag">长篇阅读</span><span>2023 年 12 月</span><span>1030 词</span><span>58 句</span>
+    </div>
+  </a>
+  <a class="card" href="#/article" data-article="set3Cloze">
+    <div class="card-title">Why Friends Are Good for Your Health</div>
+    <div class="card-meta">
+      <span class="tag">选词填空</span><span>2023 年 12 月</span><span>237 词</span><span>9 句</span>
+    </div>
+  </a></div>
+      <div class="empty" style="margin-top:18px">
+        还没有导入自己的材料<br>
+        <a class="btn" href="#/import">去导入 →</a>
+      </div>
+    </div>`;
+  },
+
+  article(){
+    const a = DATA.article;
+    return `
+    <div class="topbar">
+      <a class="back" href="#/library" aria-label="返回文章库">‹</a>
+      <h1>${a.title}</h1>
+      <div class="meta"><span class="tag">${a.section}</span><span class="tag plain">${a.year}</span><span class="tag plain">${a.words} 词</span><span class="tag plain">${a.sents} 句</span></div>
+    </div>
+    <div class="read">
+      <article class="article">
+        <h2 class="h">${a.title}</h2>
+        <div class="sub">2023 年 12 月 · ${a.section} · Passage One · 点句子看结构，点单词看本句语境义</div>
+        ${a.paragraphs.map(p=>`<p class="para">${p.sentences.map((s,si)=>`<span class="s" data-p="${p.idx}" data-s="${si}">${renderSent(s)}</span>`).join(' ')}</p>`).join('')}
+        <details class="qwrap">
+          <summary>题目（${a.questions.length} 题）· 答案默认折叠</summary>
+          ${a.questions.map(q=>`<div class="q"><div class="q-stem"><b>${q.no}.</b> ${q.stem}</div><div class="q-opts">${q.options.map(o=>`<div class="opt"><i>${o.k}</i>${o.t}</div>`).join('')}</div><div class="q-tools"><span class="link" data-reveal>显示答案</span></div><div class="q-ans" hidden>答案：${q.answer||'—'}</div></div>`).join('')}
+        </details>
+      </article>
+      <aside class="aside" id="aside"><div class="ac" id="ac">${emptyCard()}</div></aside>
+    </div>`;
+  },
+
+  review(){
+    return `
+    <div class="topbar"><h1>复习</h1><div class="meta"><span class="tag">今日 2 篇</span></div></div>
+    <div class="page">
+      <div class="page-h"><h2>今日待复习</h2></div>
+      <p class="page-sub">间隔 1 · 3 · 7 · 14 天，读完一次顺延一档</p>
+      <table>
+        <thead><tr><th>文章</th><th>上次复习</th><th>当前档位</th><th>下次</th></tr></thead>
+        <tbody>
+          <tr><td class="vw" style="font-family:var(--serif)">Ten Minutes of Exercise a Week</td><td class="va">11 月 1 日</td><td><span class="chip b">第 2 次 · 7 天</span></td><td class="va">今天</td></tr>
+          <tr><td class="vw" style="font-family:var(--serif)">Climate Change and Food</td><td class="va">10 月 29 日</td><td><span class="chip">第 0 次 · 1 天</span></td><td class="va">今天</td></tr>
+        </tbody>
+      </table>
+      <div class="row" style="margin-top:20px"><a class="btn primary" href="#/article">开始复习（复用精读页）</a><span class="hint">复习模式下隐藏「已读」标记，底部固定「完成本次复习」</span></div>
+      <div class="page-h" style="margin-top:34px"><h2>复习历史</h2></div>
+      <p class="page-sub">最近 5 次</p>
+      <table><tbody>
+        <tr><td class="va">11 月 1 日</td><td class="vw" style="font-family:var(--serif)">Why We Are So Proud to Say We're Busy</td><td><span class="chip">第 1 次 → 第 2 次</span></td></tr>
+        <tr><td class="va">10 月 29 日</td><td class="vw" style="font-family:var(--serif)">Women Pay Lower Airfares Than Men</td><td><span class="chip">第 0 次 → 第 1 次</span></td></tr>
+      </tbody></table>
+    </div>`;
+  },
+
+  vocab(){
+    return `
+    <div class="topbar"><h1>生词本</h1><div class="meta"><span class="tag plain">${DATA.vocab.length} 词 · 按文章分组</span></div></div>
+    <div class="page">
+      <div class="filters">
+        <select><option>按文章</option><option>按标签</option><option>按掌握状态</option></select>
+        <select><option>全部状态</option><option>陌生</option><option>模糊</option><option>已掌握</option></select>
+        <button class="btn" style="margin-left:auto">导出 HTML</button>
+      </div>
+      <table>
+        <thead><tr><th>词</th><th>语境义</th><th>来源</th><th>标签</th></tr></thead>
+        <tbody>${vocabRows}</tbody>
+      </table>
+      <div class="empty" style="margin-top:18px">点开任一空态都能看到「下一步做什么」的入口 —— 这里示例为生词为空时的样子</div>
+    </div>`;
+  },
+
+  import(){
+    return `
+    <div class="topbar"><h1>导入自己的材料</h1></div>
+    <div class="page">
+      <p class="page-sub">粘贴文本或选择 TXT / MD，先预览切句结果，确认后再入库</p>
+      <div class="stack">
+        <div>
+          <label class="f">标题</label>
+          <input class="inp" value="Untitled passage" />
+        </div>
+        <div>
+          <label class="f">正文（粘贴）</label>
+          <textarea class="inp" placeholder="把阅读材料粘贴到这里……"></textarea>
+        </div>
+        <div class="row">
+          <button class="btn">选择 TXT / MD 文件</button>
+          <button class="btn primary">预览切句</button>
+        </div>
+        <div class="empty">预览区：识别到 4 段 · 18 句 · 312 词（可按段剔除、可改标题）</div>
+      </div>
+      <div class="page-h" style="margin-top:30px"><h2>导入后的样子</h2></div>
+      <p class="hint">导入文章没有预置解析：点句子只出笔记入口，词卡显示「暂无预置解析」，但收藏与笔记照常可用。</p>
+    </div>`;
+  },
+
+  records(){
+    return `
+    <div class="topbar"><h1>记录与统计</h1></div>
+    <div class="page">
+      <div class="stat-grid">
+        <div class="stat"><b>12</b><span>已读篇数</span></div>
+        <div class="stat"><b>4.2h</b><span>累计时长</span></div>
+        <div class="stat"><b>47</b><span>生词</span></div>
+        <div class="stat"><b>128</b><span>句笔记</span></div>
+        <div class="stat"><b>2.4</b><span>次/篇 复习</span></div>
+        <div class="stat"><b>6</b><span>连续天数</span></div>
+      </div>
+      <div class="page-h"><h2>最近阅读</h2></div>
+      <table>
+        <thead><tr><th>文章</th><th>进度</th><th>时长</th><th>状态</th></tr></thead>
+        <tbody>
+          <tr><td class="vw" style="font-family:var(--serif)">Why We Are So Proud to Say We're Busy</td><td class="va">第 2 / 5 段</td><td class="va">23 分钟</td><td><span class="chip">在读</span></td></tr>
+          <tr><td class="vw" style="font-family:var(--serif)">Women Pay Lower Airfares Than Men</td><td class="va">完</td><td class="va">31 分钟</td><td><span class="chip b">已完成</span></td></tr>
+          <tr><td class="vw" style="font-family:var(--serif)">Ten Minutes of Exercise a Week</td><td class="va">完</td><td class="va">18 分钟</td><td><span class="chip b">已完成</span></td></tr>
+        </tbody>
+      </table>
+    </div>`;
+  },
+
+  settings(){
+    return `
+    <div class="topbar"><h1>设置</h1></div>
+    <div class="page">
+      <div class="stack">
+        <div>
+          <label class="f">主题</label>
+          <div class="seg" id="themeseg">
+            <button data-t="light">浅色</button><button data-t="dark">深色</button><button data-t="system" class="on">跟随系统</button>
+          </div>
+        </div>
+        <div class="kv"><span>复习间隔</span><b>1 · 3 · 7 · 14 天（本期只读）</b></div>
+        <div class="kv"><span>数据备份</span><button class="btn">备份到文件</button></div>
+        <div class="kv"><span>恢复数据</span><button class="btn">从备份恢复</button></div>
+        <div class="kv"><span>版本</span><b>v0.1.0</b></div>
+        <div class="kv"><span>开源许可</span><span>MIT · 内置内容为演示用途，版权归原作者</span></div>
+        <div class="kv"><span>首次引导</span><button class="btn">重新播放</button></div>
+      </div>
+    </div>`;
+  },
+};
+
+function renderSent(s){
+  let out='', cur=0;
+  (s.tokens||[]).forEach((t,i)=>{
+    if(t.a>cur) out+=escapeHtml(s.text.slice(cur,t.a));
+    if(t.w) out+=`<span class="w${t.an?' has-an':''}" data-w="${i}">${escapeHtml(t.s)}</span>`;
+    else if(/^\d+$/.test(t.s)) out+=`<span class="blank" data-no="${t.s}">${escapeHtml(t.s)}</span>`;
+    else out+=escapeHtml(t.s);
+    cur=t.e;
+  });
+  if(cur<s.text.length) out+=escapeHtml(s.text.slice(cur));
+  return out;
+}
+function escapeHtml(x){return String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+function emptyCard(){
+  return `<div class="ac-empty"><h5>点句子开始精读</h5><ul>
+    <li><b>句子</b>六段式解析：翻译 / 成分 / 从句 / 短语 / 易错 / 段作用</li>
+    <li><b>单词</b>本句语境义，可加入生词本、可写笔记</li>
+    <li><b>编号空格</b>正确答案与逐条排除</li></ul></div>`;
+}
+function analysisHtml(s){
+  if(!s.an) return `<div class="ac-empty">该篇暂无预置解析<br><span>导入材料只保留笔记入口</span></div>`;
+  const a=s.an;
+  const li=(arr)=>arr.map(x=>`<li>${escapeHtml(x)}</li>`).join('');
+  return `
+  <div class="ac-head">
+    <div class="ac-kicker">句 ${s.idx+1} · 解析</div>
+    <p class="ac-quote">${escapeHtml(s.text)}</p>
+  </div>
+  <section class="ac-sec"><h4>① 翻译</h4><p class="lit">${escapeHtml(a.translationLiteral)}</p><p class="nat">${escapeHtml(a.translationNatural)}</p></section>
+  <section class="ac-sec"><h4>② 主干与成分</h4><div class="mk-line">${markup(a.structMarkup)}</div><p class="sum">${escapeHtml(a.structureSummary)}</p>
+    <ul class="legend"><li><span class="mk subj">主语</span></li><li><span class="mk pred">谓语</span></li><li><span class="mk obj">宾语/表语</span></li><li><span class="mk clause">{从句}</span></li><li><span class="mk phrase">(短语)</span></li></ul>
+  </section>
+  <section class="ac-sec"><h4>③ 从句与语法点</h4><ul>${li(a.clauses)}</ul></section>
+  <section class="ac-sec"><h4>④ 重点短语</h4><ul class="phr">${a.phrases.map(p=>{const t=typeof p==='string'?p:p.text;const m=typeof p==='string'?'':p.meaning;const u=typeof p==='string'?'':p.usage;return `<li><b>${escapeHtml(t)}</b><span>${escapeHtml(m)}</span>${u?`<em>${escapeHtml(u)}</em>`:''}</li>`}).join('')}</ul></section>
+  <section class="ac-sec"><h4>⑤ 易错点</h4><ul class="pit">${li(a.pitfalls)}</ul></section>
+  <section class="ac-sec"><h4>⑥ 本句在段落中的作用</h4><p>${escapeHtml(a.paragraphRole)}</p></section>`;
+}
+function markup(src){
+  const stack=[{type:'root',buf:'',gl:''}];
+  const flush=(n)=>`<span class="mk ${n.type}">${escapeHtml(n.gl)}${n.buf}${{clause:'}',phrase:')'}[n.type]||''}</span>`;
+  const closeTop=()=>{const n=stack.pop();stack[stack.length-1].buf+=flush(n)};
+  for(const ch of src){
+    const top=stack[stack.length-1];
+    if(ch==='【')stack.push({type:'subj',buf:'',gl:''});
+    else if(ch==='】'){if(stack.some(n=>n.type==='subj')){while(stack[stack.length-1].type!=='subj')closeTop();closeTop()}else top.buf+=escapeHtml(ch)}
+    else if(ch==='{')stack.push({type:'clause',buf:'',gl:'{'});
+    else if(ch==='}'){if(stack.some(n=>n.type==='clause')){while(stack[stack.length-1].type!=='clause')closeTop();closeTop()}else top.buf+=escapeHtml(ch)}
+    else if(ch==='(')stack.push({type:'phrase',buf:'',gl:'('});
+    else if(ch===')'){if(stack.some(n=>n.type==='phrase')){while(stack[stack.length-1].type!=='phrase')closeTop();closeTop()}else top.buf+=escapeHtml(ch)}
+    else if(ch==='_'){if(top.type==='pred')closeTop();else stack.push({type:'pred',buf:'',gl:''})}
+    else if(ch==='~'){if(top.type==='obj')closeTop();else stack.push({type:'obj',buf:'',gl:''})}
+    else top.buf+=escapeHtml(ch);
+  }
+  while(stack.length>1)closeTop();
+  return stack[0].buf;
+}
+function wordHtml(w){
+  return `
+  <div class="ac-head">
+    <div class="ac-kicker">词卡</div>
+    <div class="wc-word">${escapeHtml(w.surface)}<span class="wc-ph">${escapeHtml(w.phonetic)}</span><span class="wc-pos">${escapeHtml(w.pos)}</span></div>
+    <p class="ac-quote" style="font-size:12.5px;margin:12px 0 10px">…${escapeHtml(w.sentence.slice(0, Math.max(0, w.sentence.toLowerCase().indexOf(w.surface.toLowerCase()) - 30)))}<b style="color:var(--accent)">${escapeHtml(w.surface)}</b>${escapeHtml(w.sentence.slice(Math.max(0, w.sentence.toLowerCase().indexOf(w.surface.toLowerCase())) + w.surface.length, Math.max(0, w.sentence.toLowerCase().indexOf(w.surface.toLowerCase())) + w.surface.length + 34))}…</p>
+    <p class="wc-src">本句中的意思（语境义）</p>
+    <p class="wc-sense">${escapeHtml(w.senseInContext)}</p>
+  </div>
+  <section class="ac-sec"><h4>搭配</h4><p>${(Array.isArray(w.collocations)?w.collocations:[w.collocations]).map(x=>`<code>${escapeHtml(x)}</code>`).join(' ')}</p></section>
+  <section class="ac-sec"><h4>例句</h4><p>${(Array.isArray(w.examples)?w.examples:[w.examples]).map(x=>escapeHtml(x).replace(/s(?=[一-龥])/g,'<br>')).join('<br>')}</p></section>
+  <section class="ac-sec"><h4>词义（通用）</h4><p class="muted">${w.lex?escapeHtml(w.lex.sense):'暂无预置词条'}</p></section>
+  <section class="ac-sec"><h4>更多</h4><details><summary>词根 / 近义 / 易混</summary>
+    <p>${escapeHtml(w.more?.roots||'—')}</p>
+    <p class="muted">近义：${(Array.isArray(w.more?.synonyms)?w.more.synonyms:[w.more?.synonyms||'—']).join('、')}</p>
+    <p class="muted">易混：${(Array.isArray(w.more?.confusables)?w.more.confusables:[w.more?.confusables||'—']).join('；')}</p>
+  </details></section>
+  <div class="wc-actions"><button class="btn primary" id="addVocab">加入生词本</button><button class="btn">写笔记</button></div>`;
+}
+
+// ---------- 路由 ----------
+function route(){
+  const h = (location.hash || '#/today').replace(/^#\//,'').split('?')[0] || 'today';
+  const name = h === 'article' ? 'article' : (views[h] ? h : 'today');
+  document.getElementById('main').innerHTML = views[name]();
+  document.querySelectorAll('.nav').forEach(n=>n.classList.toggle('on', n.dataset.nav===name));
+  window.scrollTo(0,0);
+  bind();
+}
+function bind(){
+  const main = document.getElementById('main');
+  // 点句
+  main.querySelectorAll('.s').forEach(el=>{
+    el.addEventListener('click',(e)=>{
+      if(e.target.classList.contains('w')||e.target.classList.contains('blank'))return;
+      main.querySelectorAll('.s.cur').forEach(x=>x.classList.remove('cur'));
+      el.classList.add('cur');
+      main.querySelectorAll('.w.sel').forEach(x=>x.classList.remove('sel'));
+      const p=+el.dataset.p, s=+el.dataset.s;
+      const sent=DATA.article.paragraphs[p].sentences[s];
+      const ac=document.getElementById('ac');
+      if(ac){ac.innerHTML=analysisHtml(sent); document.getElementById('aside')?.classList.add('open');}
+    });
+  });
+  // 点词
+  main.querySelectorAll('.w').forEach(el=>{
+    el.addEventListener('click',(e)=>{
+      e.stopPropagation();
+      const ac=document.getElementById('ac');
+      main.querySelectorAll('.w.sel').forEach(x=>x.classList.remove('sel'));
+      el.classList.add('sel');
+      if(ac&&DATA.word){ac.innerHTML=wordHtml(DATA.word); document.getElementById('aside')?.classList.add('open');}
+    });
+  });
+  // 点空
+  main.querySelectorAll('.blank').forEach(el=>{
+    el.addEventListener('click',(e)=>{
+      e.stopPropagation();
+      const no=el.dataset.no;
+      const ac=document.getElementById('ac');
+      if(ac){ac.innerHTML=`
+        <div class="ac-head"><div class="ac-kicker">第 ${no} 空</div><p class="ac-quote">正确答案：impact（F）</p></div>
+        <section class="ac-sec"><h4>为什么是它</h4><p>空格前有 a meaningful 修饰、后面接 on health，需要一个能与 on 搭配的名词。</p></section>
+        <section class="ac-sec"><h4>易错与排除</h4><ul class="pit"><li>A adjust（动词，调整）语义不合</li><li>L risk（风险）语义不合</li><li>H moderate（形容词）词性不合</li></ul></section>
+        <div class="wc-actions"><button class="btn primary">写笔记</button></div>`; document.getElementById('aside')?.classList.add('open');}
+    });
+  });
+  // 显示答案
+  main.querySelectorAll('[data-reveal]').forEach(el=>{
+    el.addEventListener('click',()=>{const a=el.closest('.q').querySelector('.q-ans'); if(a)a.hidden=false; el.textContent='已显示答案';});
+  });
+  // 加入生词本
+  const add=document.getElementById('addVocab');
+  if(add) add.addEventListener('click',()=>{add.textContent='已加入';add.classList.add('done');});
+  // 主题分段
+  main.querySelectorAll('#themeseg button').forEach(b=>{
+    b.addEventListener('click',()=>{setTheme(b.dataset.t); main.querySelectorAll('#themeseg button').forEach(x=>x.classList.toggle('on',x===b));});
+  });
+  // 侧栏主题按钮
+  document.querySelectorAll('.theme-btn').forEach(b=>{
+    b.addEventListener('click',()=>{setTheme(b.dataset.theme); document.querySelectorAll('.theme-btn').forEach(x=>x.classList.toggle('on',x===b));});
+  });
+  // Tab 切换（仅视觉）
+  main.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+    main.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===t));
+  }));
+}
+
+// ---------- 主题 ----------
+function applyTheme(t){
+  const sysDark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const real = t==='system' ? (sysDark?'dark':'light') : t;
+  document.documentElement.dataset.theme = real;
+}
+function setTheme(t){ localStorage.setItem('judou-theme',t); applyTheme(t); }
+applyTheme(localStorage.getItem('judou-theme')||'system');
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>applyTheme(localStorage.getItem('judou-theme')||'system'));
+
+window.addEventListener('hashchange', route);
+const QP = new URLSearchParams(location.search);
+if (QP.get('view') && !location.hash) location.hash = '#/' + QP.get('view');
+if (QP.get('theme')) applyTheme(QP.get('theme'));
+route();
+// 截图/演示用：?pick=段-句 自动选中该句，?pickword=1 选中首个带解析的词
+// 延后一拍执行：设置 location.hash 会异步触发 hashchange → route() 重渲染，需等它完成
+setTimeout(() => {
+  const PICK = QP.get('pick');
+  if (PICK) {
+    const [pp, ss] = PICK.split('-').map(Number);
+    const el = document.querySelector(`.s[data-p="${pp}"][data-s="${ss}"]`);
+    if (el) el.click();
+  }
+  if (QP.get('pickword')) {
+    const w = document.querySelector('.w.has-an') || document.querySelector('.w');
+    if (w) w.click();
+  }
+}, 120);
+</script>
+</body>
+</html>
