@@ -1,0 +1,283 @@
+{
+  "sentences": {
+    "0": {
+      "translationLiteral": "在赛马运动的历史上，很少有马能像「红朗姆」那样赢得英国公众的喜爱。",
+      "translationNatural": "赛马史上，能让英国人这么喜欢的马，几乎没有几匹比得上「红朗姆」。",
+      "structMarkup": "(In the history of horse racing), 【few horses】 _have captured_ ~the affection of the British public~ (like Red Rum).",
+      "structureSummary": "范围状语 + 主谓宾 + 比较状语（否定词 + 比较 = 最高级意味）",
+      "components": [
+        { "part": "In the history of horse racing", "role": "范围状语", "note": "限定讨论范围" },
+        { "part": "few horses", "role": "主语", "note": "few 表否定：几乎没有马" },
+        { "part": "have captured", "role": "谓语", "note": "现在完成时，表至今仍成立的影响" },
+        { "part": "the affection of the British public", "role": "宾语", "note": "英国公众的喜爱" },
+        { "part": "like Red Rum", "role": "比较状语", "note": "like 是介词「像」" }
+      ],
+      "clauses": [
+        "few … have captured … like …：否定词 + 比较结构，实际表达最高级意味——「最能赢得喜爱的是它」。",
+        "现在完成时 have captured：从过去到现在的影响力，不能改成一般过去时。",
+        "like 在此是介词，后接名词；若接从句要用 as。"
+      ],
+      "phrases": [
+        { "text": "capture the affection of", "meaning": "赢得……的喜爱", "usage": "affection 不可数；同义 win the hearts of。", "example": "The show captured the affection of a whole generation. 这部剧赢得了一整代人的喜爱。" },
+        { "text": "in the history of", "meaning": "在……的历史上", "usage": "常用于开篇，把话题放到宏观时间尺度上。", "example": "In the history of the sport, no one has done more. 这项运动史上没人贡献更大。" }
+      ],
+      "pitfalls": [
+        "few（几乎没有，否定）与 a few（有几个，肯定）相反。",
+        "like Red Rum 用 like 而非 as：as 后接从句（as Red Rum did）。",
+        "affection 不可数，不说 an affection。"
+      ],
+      "paragraphRole": "开篇点题，用「赛马史」这一宏观背景托出主角的地位。"
+    },
+    "1": {
+      "translationLiteral": "今天，在他退役三十年后，他依然是有史以来最知名、最受喜爱的赛马之一。",
+      "translationNatural": "如今他退役已经三十年，仍然是有史以来最有名、最讨人喜欢的赛马之一。",
+      "structMarkup": "(Today), (three decades after his retirement), 【he】 _is_ ~still one of the best-known and most beloved racehorses of all time~.",
+      "structureSummary": "两个时间状语 + 主系表",
+      "components": [
+        { "part": "Today", "role": "时间状语", "note": "把叙述拉回当下" },
+        { "part": "three decades after his retirement", "role": "时间状语", "note": "名词短语 + after，不是从句" },
+        { "part": "he", "role": "主语", "note": "指 Red Rum" },
+        { "part": "is", "role": "系动词", "note": "单数，与 one 一致" },
+        { "part": "one of the best-known and most beloved racehorses of all time", "role": "表语", "note": "「最……之一」固定结构" },
+        { "part": "still", "role": "中位副词", "note": "依然" }
+      ],
+      "clauses": [
+        "three decades after his retirement 是名词短语作时间状语，等于 three decades after he retired。",
+        "one of + 最高级 + 复数名词：谓语动词用单数（此处 is），因为中心词是 one。",
+        "best-known 是复合形容词的最高级形式。"
+      ],
+      "phrases": [
+        { "text": "one of the most ...", "meaning": "最……之一", "usage": "后接复数名词，谓语用单数；不要写成 one of the most famous racehorse。", "example": "It is one of the most popular books ever written. 这是有史以来最受欢迎的书之一。" },
+        { "text": "of all time", "meaning": "有史以来", "usage": "常与最高级连用，强调时间跨度。", "example": "She is the fastest runner of all time. 她是有史以来跑得最快的人。" }
+      ],
+      "pitfalls": [
+        "one of the best-known racehorses：racehorses 必须复数。",
+        "谓语用 is 而非 are——中心词是 one。",
+        "three decades after his retirement 中间不加 when。"
+      ],
+      "paragraphRole": "从历史拉回当下，确认其持久影响力，为下文倒叙生平作铺垫。"
+    },
+    "1-0": {
+      "translationLiteral": "「红朗姆」在被为诺埃尔·勒马买下之前，曾被辗转于数个马主之间。",
+      "translationNatural": "「红朗姆」先是在好几个马主手里转来转去，后来才有人把它买下来给诺埃尔·勒马尔。",
+      "structMarkup": "【Red Rum】 _was passed around_ (to several owners) (before being purchased for Noel Le Mar).",
+      "structureSummary": "主谓（被动）+ 方向状语 + 时间状语（介词 + 动名词被动）",
+      "components": [
+        { "part": "Red Rum", "role": "主语", "note": "马名" },
+        { "part": "was passed around", "role": "谓语", "note": "pass around 的被动式，表多次转手" },
+        { "part": "to several owners", "role": "方向状语", "note": "转手给数个马主" },
+        { "part": "before being purchased for Noel Le Mar", "role": "时间状语", "note": "before + 动名词被动" }
+      ],
+      "clauses": [
+        "before being purchased：before 是介词，后接动名词；被动含义用 being done。",
+        "was passed around：pass sb around 表示「把……转手给多方」。",
+        "purchased for sb：为某人买下，for 引出受益人。"
+      ],
+      "phrases": [
+        { "text": "pass sb/sth around", "meaning": "把……辗转转手、传递", "usage": "口语中也指「传阅、轮流传递」。", "example": "The photos were passed around the office. 照片在办公室里传看。" },
+        { "text": "be purchased for sb", "meaning": "为某人买下", "usage": "purchase 比 buy 正式；for 引出受益人。", "example": "The painting was purchased for the nation. 这幅画为国家购得。" }
+      ],
+      "pitfalls": [
+        "before being purchased：介词后必须动名词，不能写 before purchased。",
+        "to several owners 是「转手给」，不是「属于」。",
+        "pass around 的被动是 was passed around，不能省略 around。"
+      ],
+      "paragraphRole": "交代早年的坎坷与被转手的经历，与后文的辉煌形成反差。"
+    },
+    "1-1": {
+      "translationLiteral": "完成这笔购买的中介，就是如今已成传奇的驯马师唐纳德·「金杰」·麦凯恩。",
+      "translationNatural": "经手这笔买卖的经纪人，正是今天大名鼎鼎的驯马师唐纳德·「金杰」·麦凯恩。",
+      "structMarkup": "【The agent】 {who made the purchase} _was_ ~the now-legendary horse trainer Donald \"Ginger\" McCain~.",
+      "structureSummary": "主语 + who 定语从句 + 主系表（表语带同位语）",
+      "components": [
+        { "part": "The agent", "role": "主语", "note": "经纪人、中介" },
+        { "part": "who made the purchase", "role": "定语从句", "note": "修饰 agent" },
+        { "part": "was", "role": "系动词", "note": "单数" },
+        { "part": "the now-legendary horse trainer", "role": "表语", "note": "表语中心词为 trainer" },
+        { "part": "Donald \"Ginger\" McCain", "role": "同位语", "note": "说明 trainer 的具体人名" }
+      ],
+      "clauses": [
+        "who 引导定语从句修饰 agent，从句用一般过去时 made。",
+        "now-legendary 是复合形容词，作前置定语（如今已成传奇的）。",
+        "人名作同位语紧贴表语中心词，不改变句子主干。"
+      ],
+      "phrases": [
+        { "text": "make a purchase", "meaning": "购买、成交", "usage": "the purchase 特指前文那笔交易；make 是固定搭配。", "example": "They made a large purchase last week. 他们上周做了一笔大额采购。" },
+        { "text": "now-legendary", "meaning": "如今已成传奇的", "usage": "now + 形容词构成复合定语，常用于人物介绍。", "example": "the now-famous designer 如今声名鹊起的设计师" }
+      ],
+      "pitfalls": [
+        "the agent who made the purchase：who 指人，不能换 which。",
+        "同位语不加逗号属限制性用法，指明是哪一位驯马师。",
+        "make a purchase 不用 do a purchase。"
+      ],
+      "paragraphRole": "引出关键人物麦凯恩，为后文「慧眼识马」埋下伏笔。"
+    },
+    "2-0": {
+      "translationLiteral": "当时并不明显，但「红朗姆」的脚上患有一种严重的骨病。",
+      "translationNatural": "当时谁都看不出来，可「红朗姆」的蹄子里其实有严重的骨病。",
+      "structMarkup": "【It】 _wasn't_ ~apparent~ (at the time), {but} 【Red Rum】 _had_ ~a serious bone disease~ (in his foot).",
+      "structureSummary": "主系表 + but 并列转折分句",
+      "components": [
+        { "part": "It", "role": "主语", "note": "指「马有骨病」这一事实" },
+        { "part": "wasn't apparent", "role": "系表结构", "note": "不明显" },
+        { "part": "at the time", "role": "时间状语", "note": "在当时" },
+        { "part": "Red Rum", "role": "第二分句主语", "note": "马名" },
+        { "part": "had", "role": "第二分句谓语", "note": "have 表「患有」" },
+        { "part": "a serious bone disease", "role": "宾语", "note": "严重骨病" },
+        { "part": "in his foot", "role": "位置状语", "note": "在蹄部" }
+      ],
+      "clauses": [
+        "It wasn't apparent：it 指代后文所述情况（马有骨病）。",
+        "have a disease：have 表「患有」，不用 have got 更正式。",
+        "at the time 是固定短语「在当时」，不指「准时」。"
+      ],
+      "phrases": [
+        { "text": "at the time", "meaning": "在当时", "usage": "表过去某一时点；表「准时」用 on time。", "example": "Nobody noticed the problem at the time. 当时没人注意到这个问题。" },
+        { "text": "a bone disease", "meaning": "骨病、骨骼疾病", "usage": "disease 可数；同类 heart disease（心脏病）多不可数。", "example": "He suffers from a rare bone disease. 他患有一种罕见骨病。" }
+      ],
+      "pitfalls": [
+        "wasn't apparent：apparent 是形容词作表语，不能换成副词 apparently。",
+        "at the time（当时）≠ on time（准时）≠ in time（及时）。",
+        "his foot 在此泛指蹄部，不必改成 hooves。"
+      ],
+      "paragraphRole": "抛出隐患，制造「天才却有致命弱点」的张力。"
+    },
+    "2-1": {
+      "translationLiteral": "对许多马（以及许多驯马师）来说，这意味着赛马生涯在尚未开始之前就已终结。",
+      "translationNatural": "对大多数马和驯马师来说，这等于宣判：赛马生涯还没开始就结束了。",
+      "structMarkup": "(For many horses (and many trainers)) 【this】 _would mean_ ~the end of a racing career~ (before it even began).",
+      "structureSummary": "范围状语 + 主谓宾 + 时间状语从句",
+      "components": [
+        { "part": "For many horses (and many trainers)", "role": "范围状语", "note": "对……而言" },
+        { "part": "this", "role": "主语", "note": "指骨病这件事" },
+        { "part": "would mean", "role": "谓语", "note": "would 表推测性结论" },
+        { "part": "the end of a racing career", "role": "宾语", "note": "赛马生涯的终结" },
+        { "part": "before it even began", "role": "时间状语从句", "note": "it 指 a racing career" }
+      ],
+      "clauses": [
+        "would mean：would 在此表对假设情形的推断（「那就意味着」），不是过去将来。",
+        "before it even began：it 指 racing career；even 强调「还没来得及」。",
+        "this 指上句的 bone disease，代词回指要读准。"
+      ],
+      "phrases": [
+        { "text": "mean the end of", "meaning": "意味着……的终结", "usage": "后接名词；也可说 spell the end of。", "example": "The ban meant the end of the trade. 这项禁令意味着该行业的终结。" },
+        { "text": "before it even began", "meaning": "还没开始就（结束）", "usage": "常用 even 强化「过早」的意味。", "example": "The plan failed before it even began. 计划还没开始就失败了。" }
+      ],
+      "pitfalls": [
+        "would 在此不是过去将来，而是推断语气。",
+        "a racing career 后接 it 回指，不要误指马本身。",
+        "even 位置在 began 之前，不能随意前移。"
+      ],
+      "paragraphRole": "强调骨病的严重性，反衬后文成就之难得。"
+    },
+    "2-2": {
+      "translationLiteral": "不过，对金杰和「红朗姆」来说，那不过是通往伟大之路上必须被克服的一个障碍。",
+      "translationNatural": "可对金杰和「红朗姆」来说，这不过是通往伟大的路上一个必须迈过去的坎。",
+      "structMarkup": "(For Ginger and Red Rum), (though), 【it】 _was_ ~just an obstacle to greatness~ {that had to be overcome}.",
+      "structureSummary": "范围状语 + 插入转折 + 主系表 + 定语从句",
+      "components": [
+        { "part": "For Ginger and Red Rum", "role": "范围状语", "note": "对他们两个而言" },
+        { "part": "though", "role": "插入转折副词", "note": "前后逗号隔开，等于 however" },
+        { "part": "it", "role": "主语", "note": "指骨病" },
+        { "part": "was", "role": "系动词", "note": "过去时" },
+        { "part": "just an obstacle to greatness", "role": "表语", "note": "只是通往伟大的一个障碍" },
+        { "part": "that had to be overcome", "role": "定语从句", "note": "修饰 obstacle" }
+      ],
+      "clauses": [
+        "that had to be overcome：that 指 obstacle；have to 的被动为 had to be overcome。",
+        "though 作插入语时前后加逗号，可与句首 Although 互换改写。",
+        "obstacle to greatness：to 是介词，后接名词。"
+      ],
+      "phrases": [
+        { "text": "an obstacle to sth", "meaning": "……的障碍", "usage": "to 是介词，后接名词或动名词，不接 to do。", "example": "Cost is a major obstacle to expansion. 成本是扩张的主要障碍。" },
+        { "text": "overcome an obstacle", "meaning": "克服障碍", "usage": "overcome 的过去分词为 overcome（不规则）；同义 get over。", "example": "They overcame many obstacles. 他们克服了许多障碍。" }
+      ],
+      "pitfalls": [
+        "obstacle to 不能接动词原形（不是 obstacle to overcome）。",
+        "had to be overcome 是「必须被克服」，不是「已被克服」。",
+        "just 在此等于 only，语气弱化，表「不过是」。"
+      ],
+      "paragraphRole": "转折句——把「隐患」重新定义为「待克服的障碍」，奠定全篇励志基调。"
+    }
+  },
+  "tokens": {
+    "affection": {
+      "phonetic": "/əˈfekʃn/",
+      "pos": "n.",
+      "senseInContext": "喜爱、爱慕（英国公众对这匹马的喜爱）",
+      "collocations": ["capture/win the affection of", "show affection for", "deep affection"],
+      "examples": ["She has a deep affection for animals. 她非常喜爱动物。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "af-（to）+ facere（做）→ 对……动心",
+        "synonyms": ["fondness", "love", "liking"],
+        "confusables": ["affect（v. 影响）", "affectionate（adj. 亲昵的）", "affection 不可数"]
+      }
+    },
+    "capture": {
+      "phonetic": "/ˈkæptʃə(r)/",
+      "pos": "v.",
+      "senseInContext": "赢得、抓住（赢得公众的喜爱）",
+      "collocations": ["capture attention/imagination", "capture the market", "capture a moment"],
+      "examples": ["The story captured the public's imagination. 这个故事激发了公众的想象。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "capt（抓取）+ -ure",
+        "synonyms": ["win", "grab", "seize"],
+        "confusables": ["captive（n. 俘虏 adj. 被俘的）", "captivate（v. 使着迷）"]
+      }
+    },
+    "apparent": {
+      "phonetic": "/əˈpærənt/",
+      "pos": "adj.",
+      "senseInContext": "明显的、显而易见的（当时并不明显）",
+      "collocations": ["it is apparent that", "for no apparent reason", "become apparent"],
+      "examples": ["It soon became apparent that he was right. 很快就清楚他是对的。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ap-（to）+ parere（出现）→ 显现出来的",
+        "synonyms": ["obvious", "evident", "clear"],
+        "confusables": ["apparently（adv. 显然；据说）", "appear（v. 出现）"]
+      }
+    },
+    "legendary": {
+      "phonetic": "/ˈledʒəndri/",
+      "pos": "adj.",
+      "senseInContext": "传奇般的、极著名的（如今已成传奇的驯马师）",
+      "collocations": ["a legendary figure", "legendary status", "legendary performance"],
+      "examples": ["He became a legendary coach. 他成了传奇教练。"],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "legend（传说）+ -ary",
+        "synonyms": ["famous", "iconic", "renowned"],
+        "confusables": ["legend（n. 传说；传奇人物）", "legendry（罕用）"]
+      }
+    },
+    "obstacle": {
+      "phonetic": "/ˈɒbstəkl/",
+      "pos": "n.",
+      "senseInContext": "障碍、阻碍（通往伟大的一个障碍）",
+      "collocations": ["an obstacle to", "overcome an obstacle", "a major obstacle"],
+      "examples": ["Lack of funding is the main obstacle. 缺乏资金是主要障碍。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ob-（反对）+ stare（站立）→ 挡在前面",
+        "synonyms": ["barrier", "hurdle", "impediment"],
+        "confusables": ["obstruct（v. 阻碍）", "obstacle to（不是 to do）"]
+      }
+    },
+    "overcome": {
+      "phonetic": "/ˌəʊvəˈkʌm/",
+      "pos": "v.",
+      "senseInContext": "克服、战胜（必须克服的障碍）",
+      "collocations": ["overcome difficulties", "overcome an obstacle", "be overcome by/with"],
+      "examples": ["She overcame her fear of speaking. 她克服了演讲恐惧。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "over（越过）+ come（来）",
+        "synonyms": ["surmount", "conquer", "get over"],
+        "confusables": ["overcome 的过去式 overcame、过去分词 overcome", "be overcome with emotion（情绪压垮）"]
+      }
+    }
+  }
+}

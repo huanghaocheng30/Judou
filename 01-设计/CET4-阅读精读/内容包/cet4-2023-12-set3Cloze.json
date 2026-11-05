@@ -1,5 +1,5 @@
 {
-  "packVersion": "2023-12-set1-v0.1",
+  "packVersion": "2023-12-set1-v0.9",
   "articleId": "set3Cloze",
   "sourceKey": "cet4-2023-12-set3Cloze",
   "meta": {
@@ -232,7 +232,71 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "当人们着手改善健康时，通常走一条熟悉的路径：开始健康饮食、改善睡眠、进行规律锻炼。",
+            "translationNatural": "人们想改善健康，一般都会走那条老路：吃得健康点、睡得好一点、坚持锻炼。",
+            "structMarkup": "{When people set out to improve their health}, 【they】 _usually take_ ~a familiar path~: (starting a healthy diet, getting better sleep, and doing regular exercise).",
+            "structureSummary": "时间状语从句 + 主谓宾 + 冒号后的三项并列补充",
+            "components": [
+              {
+                "part": "When people set out to improve their health",
+                "role": "时间状语从句",
+                "note": "set out to do 表「着手做」"
+              },
+              {
+                "part": "they",
+                "role": "主语",
+                "note": "指 people"
+              },
+              {
+                "part": "usually take",
+                "role": "谓语",
+                "note": "take a path 走一条路"
+              },
+              {
+                "part": "a familiar path",
+                "role": "宾语",
+                "note": "熟悉的路径（比喻）"
+              },
+              {
+                "part": "starting a healthy diet, getting better sleep, and doing regular exercise",
+                "role": "解释性并列成分",
+                "note": "三个动名词短语说明 path 的具体内容"
+              }
+            ],
+            "clauses": [
+              "set out to do sth：着手、开始做某事（比 begin 更有「动身」的意味）。",
+              "take a path：走一条路，此处为比喻用法。",
+              "冒号后三个动名词并列，解释 path 具体指什么。"
+            ],
+            "phrases": [
+              {
+                "text": "set out to do sth",
+                "meaning": "着手做某事、动身去做",
+                "usage": "后接不定式；名词 set out 还可表「出发」。",
+                "example": "They set out to change the system. 他们着手改变这套制度。"
+              },
+              {
+                "text": "take a familiar path",
+                "meaning": "走一条熟悉的路",
+                "usage": "path 常作比喻，指「做法、途径」。",
+                "example": "He took the familiar path of least resistance. 他走了那条熟悉的省事之路。"
+              },
+              {
+                "text": "do regular exercise",
+                "meaning": "进行规律锻炼",
+                "usage": "exercise 表「锻炼」时不可数；do exercise 是固定搭配。",
+                "example": "Doctors advise doing regular exercise. 医生建议规律锻炼。"
+              }
+            ],
+            "pitfalls": [
+              "set out to do 不能写 set out doing。",
+              "exercise 表「锻炼」不可数（表「练习题」才可数）。",
+              "冒号后的三个动名词并列，须保持形式一致（都用 -ing）。"
+            ],
+            "paragraphRole": "开篇列举大众熟悉的健康做法，为后文「漏了社交健康」做铺垫。"
+          }
         },
         {
           "idx": 1,
@@ -531,7 +595,72 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "当然，这些行为每一项都重要，但它们都（26）于身体健康——而越来越多的研究表明，社交健康即使不比身体健康更重要，也同等重要，对（27）幸福感而言。",
+            "translationNatural": "当然，这些行为每一项都重要，但它们都只（26 聚焦）在身体上——而越来越多研究表明，社交健康就算不比身体健康更重要，也同等重要，关系到（27 整体的）幸福感。",
+            "structMarkup": "【Each of these behaviors】 _is_ ~important~, (of course), {but} 【they all _26_ on physical health】—{and} 【a growing body of research】 _suggests_ {that social health is just as, if not more, important to _27_ well-being}.",
+            "structureSummary": "让步性转折并列句 + and 连接的第二个分句（内含宾语从句）",
+            "components": [
+              {
+                "part": "Each of these behaviors",
+                "role": "分句1主语",
+                "note": "each of + 复数，谓语用单数 is"
+              },
+              {
+                "part": "is important, of course",
+                "role": "分句1系表",
+                "note": "of course 作插入语表让步"
+              },
+              {
+                "part": "but they all 26 on physical health",
+                "role": "分句2",
+                "note": "26 填 focus（focus on 聚焦于）"
+              },
+              {
+                "part": "a growing body of research",
+                "role": "分句3主语",
+                "note": "越来越多的研究"
+              },
+              {
+                "part": "suggests that social health is just as, if not more, important to 27 well-being",
+                "role": "分句3谓语+宾语从句",
+                "note": "内含比较结构与插入语"
+              }
+            ],
+            "clauses": [
+              "each of + 复数名词作主语，谓语用单数（is）。",
+              "just as, if not more, important：插入「if not more」表「即使不更……也一样」，是比较结构的难点。",
+              "a growing body of research：body of 表「一批、大量」，谓语用单数。",
+              "important to sth：对……重要（to 为介词）。"
+            ],
+            "phrases": [
+              {
+                "text": "focus on",
+                "meaning": "聚焦于、集中于",
+                "usage": "26 空答案；focus 可作动词（focus on）或名词（the focus of）。",
+                "example": "The campaign focuses on prevention. 这场运动聚焦于预防。"
+              },
+              {
+                "text": "a growing body of research",
+                "meaning": "越来越多的研究",
+                "usage": "body of 表「一批」，后接不可数名词，谓语单数。",
+                "example": "A growing body of evidence supports this. 越来越多的证据支持这一点。"
+              },
+              {
+                "text": "just as, if not more, important",
+                "meaning": "即使不更重要，也同等重要",
+                "usage": "插入语 if not more 用于加强比较，不改变句子主干。",
+                "example": "This factor is just as, if not more, critical. 这个因素即使不更关键，也一样关键。"
+              }
+            ],
+            "pitfalls": [
+              "26 空须填动词原形 focus（focus on）；介词 on 已在空后，别再重复。",
+              "just as ... as 结构被 if not more 打断，读句时先跳过插入语。",
+              "each of these behaviors 谓语单数 is，不能写 are。"
+            ],
+            "paragraphRole": "转折句——指出大家只盯着身体，漏掉了社交健康这一同等重要的维度。"
+          }
         }
       ]
     },
@@ -876,7 +1005,71 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "例如，最近发表在《PLOS ONE》期刊上的一项研究发现，一个人社交圈的强度，比健身追踪器上关于身体活动、心率和睡眠的数据，更能（28）自述的压力、幸福感和健康水平。",
+            "translationNatural": "举个例子：最近《PLOS ONE》上的一项研究发现，一个人社交圈有多结实，比健身手环记录的运动、心率、睡眠数据，更能（28 指示）他自己报告的压力、快乐和健康程度。",
+            "structMarkup": "(One recent study published in the journal PLOS ONE), (for example), _found_ ~{that the strength of a person's social circle was a better _28_ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep}~.",
+            "structureSummary": "主语（带后置定语）+ 插入语 + 谓语 + that 宾语从句（内含比较结构）",
+            "components": [
+              {
+                "part": "One recent study published in the journal PLOS ONE",
+                "role": "主语",
+                "note": "published... 为过去分词后置定语"
+              },
+              {
+                "part": "for example",
+                "role": "插入语",
+                "note": "举例"
+              },
+              {
+                "part": "found",
+                "role": "谓语",
+                "note": "过去时"
+              },
+              {
+                "part": "that the strength of a person's social circle was a better 28 of...",
+                "role": "宾语从句",
+                "note": "从句为主系表 + 比较"
+              },
+              {
+                "part": "than fitness tracker data on physical activity, heart rate and sleep",
+                "role": "比较状语",
+                "note": "与 social circle 对比"
+              }
+            ],
+            "clauses": [
+              "a better 28 of ... than ...：形容词比较级 + than，比较双方是「社交圈强度」与「健身追踪器数据」。",
+              "the strength of a person's social circle：社交圈的强度/牢固度。",
+              "on physical activity, heart rate and sleep：on 表「关于」，作 data 的后置定语。"
+            ],
+            "phrases": [
+              {
+                "text": "a better indicator of",
+                "meaning": "……更好的指标",
+                "usage": "28 空答案；indicator of 表「……的指示物」。",
+                "example": "Test scores are a poor indicator of ability. 考试分数不是能力的可靠指标。"
+              },
+              {
+                "text": "self-reported",
+                "meaning": "自我报告的",
+                "usage": "复合形容词，指受访者自己填报的数据。",
+                "example": "The study used self-reported sleep data. 该研究采用自我报告的睡眠数据。"
+              },
+              {
+                "text": "fitness tracker",
+                "meaning": "健身追踪器、运动手环",
+                "usage": "tracker 指「追踪设备」；动词 track 表记录。",
+                "example": "My fitness tracker says I slept badly. 我的手环显示我睡得不好。"
+              }
+            ],
+            "pitfalls": [
+              "28 空填名词 indicator（a better indicator of）；不能填 indicate（动词）。",
+              "比较双方须平行：the strength of a social circle 对 fitness tracker data。",
+              "self-reported 带连字符，作前置定语。"
+            ],
+            "paragraphRole": "用具体研究支撑上句论断：社交关系比身体数据更能预测健康感受。"
+          }
         },
         {
           "idx": 1,
@@ -1289,7 +1482,85 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "这一发现表明，由无穷无尽的健康数据所代表的「（29）自我」并不能说明全部（30）。还有一个「有资格的自我」，那就是我是谁、我有哪些活动、我的社交网络，而这些方面在这些测量中都没有被（31）。",
+            "translationNatural": "这个发现说明：被无穷健康数据代表的那个「（29 量化）自我」，并不能讲出全部的（30 故事）。还有另一个「有资质的自我」——我是谁、我做什么、我的社交圈，而这些方面在这些测量里全都没被（31 反映）出来。",
+            "structMarkup": "【That finding】 _suggests_ ~{that the \"_29_ self\" represented by endless amounts of health data doesn't tell the whole _30_}~. 【There】 _is_ ~also a qualified self~, {which is who I am, what are my activities, my social network}, {and} 【all of these aspects】 _are not _31_ in any of these measurements~.",
+            "structureSummary": "第一句：主谓 + that 宾语从句；第二句：there be + which 定语从句 + and 并列分句",
+            "components": [
+              {
+                "part": "That finding",
+                "role": "第一句主语",
+                "note": "指前句研究结果"
+              },
+              {
+                "part": "suggests that the \"_29_ self\" ... doesn't tell the whole _30_",
+                "role": "宾语从句",
+                "note": "29 为 quantified，30 为 story"
+              },
+              {
+                "part": "represented by endless amounts of health data",
+                "role": "后置定语",
+                "note": "过去分词短语修饰 self"
+              },
+              {
+                "part": "There is also a qualified self",
+                "role": "第二句存在句",
+                "note": "还有一个「有资格的自我」"
+              },
+              {
+                "part": "which is who I am, what are my activities, my social network",
+                "role": "非限制性定语从句",
+                "note": "三个并列成分解释 qualified self"
+              },
+              {
+                "part": "all of these aspects are not _31_ in any of these measurements",
+                "role": "并列分句",
+                "note": "31 填 reflected"
+              }
+            ],
+            "clauses": [
+              "tell the whole story：讲出全部实情，30 空填 story（固定习语）。",
+              "the quantified self：量化自我，指「用数据衡量自己」的概念，29 空填 quantified。",
+              "which 引导非限制性定语从句，从句内含三个并列成分（who... / what... / my social network）。",
+              "be reflected in：被反映在……中，31 空填 reflected。",
+              "not ... in any of：在任何一个……中都不，全否定。"
+            ],
+            "phrases": [
+              {
+                "text": "tell the whole story",
+                "meaning": "讲出全部实情、说明一切",
+                "usage": "30 空答案；常用于否定句 doesn't tell the whole story。",
+                "example": "Numbers don't tell the whole story. 数字说明不了全部问题。"
+              },
+              {
+                "text": "the quantified self",
+                "meaning": "量化自我（用数据记录和衡量自己）",
+                "usage": "29 空答案；quantified 是「量化的」，源自 quantity。",
+                "example": "The quantified self movement tracks everything. 「量化自我」运动记录一切。"
+              },
+              {
+                "text": "be reflected in",
+                "meaning": "被反映在……中",
+                "usage": "31 空答案；reflect 的被动式。",
+                "example": "These values are reflected in the design. 这些价值体现在设计中。"
+              },
+              {
+                "text": "endless amounts of",
+                "meaning": "无穷无尽的",
+                "usage": "amounts of + 不可数名词，表大量。",
+                "example": "We collect endless amounts of data. 我们收集海量数据。"
+              }
+            ],
+            "pitfalls": [
+              "29 空填 quantified（过去分词作前置定语），不是 quantity 或 quantify。",
+              "30 空填 story，与 tell 构成 tell the whole story，不是 tail 或 storey。",
+              "31 空填 reflected（被动），不是 reflect。",
+              "qualified self 与 quantified self 仅差几个字母，务必区分。"
+            ],
+            "paragraphRole": "提出核心概念对立：量化自我 ≠ 完整的自我，社交与身份维度被漏掉。"
+          }
         }
       ]
     },
@@ -1375,7 +1646,55 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "这一观点得到了大量（32）研究的支持。",
+            "translationNatural": "这个说法有大量（32 先前的）研究支撑。",
+            "structMarkup": "【This idea】 _is supported_ (by plenty of _32_ research).",
+            "structureSummary": "主谓（被动）+ 状语",
+            "components": [
+              {
+                "part": "This idea",
+                "role": "主语",
+                "note": "指上文的观点"
+              },
+              {
+                "part": "is supported",
+                "role": "谓语",
+                "note": "被动语态"
+              },
+              {
+                "part": "by plenty of 32 research",
+                "role": "状语",
+                "note": "32 填 prior（先前的）"
+              }
+            ],
+            "clauses": [
+              "be supported by：由……支持。",
+              "plenty of + 不可数名词：大量……（research 不可数）。",
+              "prior research：先前的研究，prior 表「此前的」。"
+            ],
+            "phrases": [
+              {
+                "text": "be supported by",
+                "meaning": "得到……支持",
+                "usage": "常搭 evidence/research/findings。",
+                "example": "The theory is supported by data. 该理论有数据支持。"
+              },
+              {
+                "text": "prior research",
+                "meaning": "先前的研究",
+                "usage": "32 空答案；prior 表「在前的」，同义 previous/earlier。",
+                "example": "Prior research reached similar conclusions. 先前研究得出了类似结论。"
+              }
+            ],
+            "pitfalls": [
+              "32 空填形容词 prior（prior research），不能填 base 或 eagerly。",
+              "research 不可数，不能说 researches（除非指多份具体研究）。",
+              "plenty of 可接可数复数也可接不可数。"
+            ],
+            "paragraphRole": "承上启下：用「大量研究支持」为后文的具体证据开路。"
+          }
         },
         {
           "idx": 1,
@@ -1588,7 +1907,60 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "研究表明，社会支持——无论来自朋友、家人还是配偶——都与更好的心理和身体健康（33）相关。",
+            "translationNatural": "研究显示，社会支持——不管是朋友、家人还是伴侣给的——都和更好的身心健康（33 强烈地）相关。",
+            "structMarkup": "【Studies】 _have shown_ ~{that social support—whether it comes from friends, family members or a spouse—is _33_ associated with better mental and physical health}~.",
+            "structureSummary": "主谓 + that 宾语从句（内含让步状语从句与插入语）",
+            "components": [
+              {
+                "part": "Studies",
+                "role": "主语",
+                "note": "复数，谓语用 have"
+              },
+              {
+                "part": "have shown",
+                "role": "谓语",
+                "note": "现在完成时"
+              },
+              {
+                "part": "that social support ... is 33 associated with better mental and physical health",
+                "role": "宾语从句",
+                "note": "33 填 strongly"
+              },
+              {
+                "part": "whether it comes from friends, family members or a spouse",
+                "role": "让步状语从句",
+                "note": "whether...or... 表「无论……还是」"
+              }
+            ],
+            "clauses": [
+              "whether it comes from A, B or C：让步状语从句，表「无论来自谁」。",
+              "be associated with：与……相关（相关不等于因果）。",
+              "strongly associated with：强相关，33 空填副词 strongly 修饰 associated。"
+            ],
+            "phrases": [
+              {
+                "text": "be strongly associated with",
+                "meaning": "与……密切相关",
+                "usage": "33 空答案；副词 strongly 修饰过去分词 associated。",
+                "example": "Exercise is strongly associated with lower stress. 运动与较低压力密切相关。"
+              },
+              {
+                "text": "mental and physical health",
+                "meaning": "心理与身体健康",
+                "usage": "固定搭配，mental 与 physical 并列修饰 health。",
+                "example": "Sleep affects both mental and physical health. 睡眠影响身心健康。"
+              }
+            ],
+            "pitfalls": [
+              "33 空填副词 strongly（修饰 associated），不能填 strong。",
+              "whether ... or ... 在此是让步状语，不是「是否」的疑问。",
+              "be associated with 后接名词，不接 that 从句。"
+            ],
+            "paragraphRole": "引出社会支持与健康的关联证据，支撑「社交影响健康」。"
+          }
         },
         {
           "idx": 2,
@@ -1843,7 +2215,67 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "这些研究提示，丰富的社交生活能降低压力水平、改善情绪、鼓励积极的健康行为并抑制有害行为、增进心脏健康，还能提高疾病的（34）率。",
+            "translationNatural": "这些研究说，社交生活丰富的人压力更小、心情更好，更愿意做对健康有益的事、少做伤身的事，心脏更健康，病后（34 康复）率也更高。",
+            "structMarkup": "(A rich social life), (these studies suggest), _can_ _lower_ ~stress levels~, _improve_ ~mood~, _encourage_ ~positive health behaviors~ {and} _discourage_ ~damaging ones~, _boost_ ~heart health~ {and} _improve_ ~illness _34_ rates~.",
+            "structureSummary": "插入语 + 主谓 + 五个并列动宾结构",
+            "components": [
+              {
+                "part": "A rich social life",
+                "role": "主语",
+                "note": "丰富的社交生活"
+              },
+              {
+                "part": "these studies suggest",
+                "role": "插入语",
+                "note": "主谓插入，等于 as these studies suggest"
+              },
+              {
+                "part": "can lower / improve / encourage / discourage / boost / improve",
+                "role": "并列谓语",
+                "note": "六个动词共同支配各自宾语"
+              },
+              {
+                "part": "illness 34 rates",
+                "role": "最后一个宾语",
+                "note": "34 填 recovery（康复率）"
+              }
+            ],
+            "clauses": [
+              "these studies suggest 作插入语，主句仍是 A rich social life can ...。",
+              "多个动词并列，共享情态动词 can。",
+              "damaging ones：ones 替代 behaviors，避免重复。",
+              "illness recovery rates：疾病康复率，34 空填 recovery。"
+            ],
+            "phrases": [
+              {
+                "text": "illness recovery rates",
+                "meaning": "疾病康复率",
+                "usage": "34 空答案；recovery 不可数，rates 用复数表多种疾病。",
+                "example": "Social support improves illness recovery rates. 社会支持能提高疾病康复率。"
+              },
+              {
+                "text": "discourage damaging behaviors",
+                "meaning": "抑制有害行为",
+                "usage": "discourage 表「阻止、使不敢」，反义 encourage。",
+                "example": "Taxes can discourage harmful habits. 税收能抑制有害习惯。"
+              },
+              {
+                "text": "boost heart health",
+                "meaning": "增进心脏健康",
+                "usage": "boost 表「提升、促进」。",
+                "example": "Walking boosts heart health. 走路有益心脏健康。"
+              }
+            ],
+            "pitfalls": [
+              "34 空填名词 recovery（recovery rates），不能填 recover。",
+              "damaging ones 中的 ones 替代 behaviors，不能换成 ones'。",
+              "六个并列动词都在情态动词 can 之后，须用原形。"
+            ],
+            "paragraphRole": "集中罗列社交生活对健康的多重好处，是「社交有益」的最强证据段。"
+          }
         }
       ]
     },
@@ -1869,7 +2301,33 @@
               "end": 16,
               "surface": "isolation",
               "normalized": "isolation",
-              "isWord": true
+              "isWord": true,
+              "analysis": {
+                "phonetic": "/ˌaɪsəˈleɪʃn/",
+                "pos": "n.",
+                "senseInContext": "孤立、隔绝（社会孤立带来更高疾病率）",
+                "collocations": [
+                  "social isolation",
+                  "in isolation",
+                  "isolation from"
+                ],
+                "examples": [
+                  "Social isolation raises the risk of illness. 社会孤立会提高患病风险。"
+                ],
+                "isCet4HighFreq": true,
+                "more": {
+                  "roots": "isolate（隔离）+ -ion",
+                  "synonyms": [
+                    "separation",
+                    "solitude",
+                    "detachment"
+                  ],
+                  "confusables": [
+                    "isolated（adj. 孤立的）",
+                    "insulation（n. 隔热、绝缘）"
+                  ]
+                }
+              }
             },
             {
               "start": 16,
@@ -1983,7 +2441,60 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "与此同时，社会孤立与更高的身体疾病和心理健康问题发生率相关。",
+            "translationNatural": "反过来，被社会孤立的人，身体生病和心理出问题的比例都更高。",
+            "structMarkup": "(Social isolation), (meanwhile), _is linked_ (to higher rates of physical diseases and mental health conditions).",
+            "structureSummary": "主语 + 插入语 + 谓语（被动）+ 状语",
+            "components": [
+              {
+                "part": "Social isolation",
+                "role": "主语",
+                "note": "社会孤立（不可数）"
+              },
+              {
+                "part": "meanwhile",
+                "role": "插入语",
+                "note": "与此同时（表对照）"
+              },
+              {
+                "part": "is linked to",
+                "role": "谓语",
+                "note": "be linked to 与……相关"
+              },
+              {
+                "part": "higher rates of physical diseases and mental health conditions",
+                "role": "状语",
+                "note": "更高的发病率"
+              }
+            ],
+            "clauses": [
+              "be linked to：与……有关联（比 be associated with 更强调联系）。",
+              "rates of：……的比率，rates 用复数表多种比率。",
+              "mental health conditions：心理健康问题（condition 此处指「病症」）。"
+            ],
+            "phrases": [
+              {
+                "text": "be linked to",
+                "meaning": "与……有关联",
+                "usage": "link A to B 的被动式；同义 be connected with。",
+                "example": "Poor sleep is linked to weight gain. 睡眠不足与体重增加有关。"
+              },
+              {
+                "text": "social isolation",
+                "meaning": "社会孤立",
+                "usage": "isolation 不可数；形容词 isolated（被孤立的）。",
+                "example": "Social isolation harms mental health. 社会孤立损害心理健康。"
+              }
+            ],
+            "pitfalls": [
+              "be linked to 的 to 是介词，后接名词。",
+              "condition 在医学语境中表「病症」，mental health conditions 指心理疾病。",
+              "isolation 不可数，不加 -s。"
+            ],
+            "paragraphRole": "转向反面证据：孤立带来更高疾病率，形成正反论证。"
+          }
         },
         {
           "idx": 1,
@@ -2010,7 +2521,33 @@
               "end": 18,
               "surface": "significant",
               "normalized": "significant",
-              "isWord": true
+              "isWord": true,
+              "analysis": {
+                "phonetic": "/sɪɡˈnɪfɪkənt/",
+                "pos": "adj.",
+                "senseInContext": "显著的、重要的（一个相当严重的问题）",
+                "collocations": [
+                  "a significant problem",
+                  "significant difference",
+                  "statistically significant"
+                ],
+                "examples": [
+                  "There was a significant drop in cases. 病例显著下降。"
+                ],
+                "isCet4HighFreq": true,
+                "more": {
+                  "roots": "signify（表示）+ -cant",
+                  "synonyms": [
+                    "considerable",
+                    "notable",
+                    "substantial"
+                  ],
+                  "confusables": [
+                    "significance（n. 意义、重要性）",
+                    "significantly（adv.）"
+                  ]
+                }
+              }
             },
             {
               "start": 19,
@@ -2082,7 +2619,33 @@
               "end": 75,
               "surface": "widespread",
               "normalized": "widespread",
-              "isWord": true
+              "isWord": true,
+              "analysis": {
+                "phonetic": "/ˈwaɪdspred/",
+                "pos": "adj.",
+                "senseInContext": "普遍的、广泛存在的（普遍的公共卫生问题）",
+                "collocations": [
+                  "widespread support",
+                  "widespread use",
+                  "become widespread"
+                ],
+                "examples": [
+                  "The practice is widespread in Asia. 这种做法在亚洲很普遍。"
+                ],
+                "isCet4HighFreq": true,
+                "more": {
+                  "roots": "wide（宽）+ spread（散布）",
+                  "synonyms": [
+                    "common",
+                    "prevalent",
+                    "extensive"
+                  ],
+                  "confusables": [
+                    "wide-spreading（较少用）",
+                    "widespread 不用于人"
+                  ]
+                }
+              }
             },
             {
               "start": 76,
@@ -2133,7 +2696,61 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "这是一个相当严重的问题，（35）因为孤独在许多国家正成为普遍性的公共卫生问题。",
+            "translationNatural": "这个问题相当严重，（35 尤其）因为孤独在很多国家正变成一个普遍性的公共卫生问题。",
+            "structMarkup": "【It】 _is_ ~a significant problem~, (_35_ since loneliness is emerging as a widespread public health problem in many countries).",
+            "structureSummary": "主系表 + 原因状语从句（35 填 especially 修饰 since 引导的原因）",
+            "components": [
+              {
+                "part": "It",
+                "role": "主语",
+                "note": "指上句所述问题"
+              },
+              {
+                "part": "is a significant problem",
+                "role": "主系表",
+                "note": "isn't 的肯定形式"
+              },
+              {
+                "part": "35 since loneliness is emerging as a widespread public health problem in many countries",
+                "role": "原因状语从句",
+                "note": "35 填 especially（尤其因为）"
+              }
+            ],
+            "clauses": [
+              "since 引导原因状语从句，意为「因为」。",
+              "35 空填 especially，与 since 连用构成 especially since（尤其因为）。",
+              "emerge as：逐渐成为、显现为（强调过程）。"
+            ],
+            "phrases": [
+              {
+                "text": "especially since",
+                "meaning": "尤其因为",
+                "usage": "35 空答案；especially 修饰 since 从句，强调原因。",
+                "example": "The risk is high, especially since cases are rising. 风险很高，尤其因为病例在增加。"
+              },
+              {
+                "text": "emerge as",
+                "meaning": "逐渐成为、显现为",
+                "usage": "emerge 表「出现、显露」，as 引出身份。",
+                "example": "The city emerged as a tech hub. 这座城市逐渐成为科技中心。"
+              },
+              {
+                "text": "public health problem",
+                "meaning": "公共卫生问题",
+                "usage": "public health 为固定搭配。",
+                "example": "Obesity is a public health problem. 肥胖是一个公共卫生问题。"
+              }
+            ],
+            "pitfalls": [
+              "35 空填副词 especially（尤其），不能填 especial。",
+              "since 在此是「因为」，不是「自从」。",
+              "is emerging as：as 后接名词，表「作为……出现」。"
+            ],
+            "paragraphRole": "收束全文：把孤立的危害上升到公共卫生层面，强调问题的严重性。"
+          }
         }
       ]
     }
@@ -2884,5 +3501,107 @@
     34,
     35
   ],
+  "blanks": {
+    "26": {
+      "answerKey": "D",
+      "answerWord": "focus",
+      "reason": "空后紧跟介词 on，且主语 they（这些健康行为）需要一个表示「集中于」的动词原形。focus on physical health＝把重点放在身体健康上，与后文「社交健康同等重要」形成对照。",
+      "distractors": [
+        "A base：base on 也有「以……为基础」之意，但 base 通常用于被动（be based on）或带宾语（base A on B），此处 all ... on 结构不成立。",
+        "I prompt：prompt 后接 sb to do，不与 on 搭配。",
+        "J puzzle：puzzle on 不成立；puzzle 常作名词「谜」。"
+      ]
+    },
+    "27": {
+      "answerKey": "F",
+      "answerWord": "overall",
+      "reason": "此处修饰 well-being，需要一个形容词，表示「整体的」幸福感。overall well-being 是health语境中的固定搭配，与后文强调「整体而非单一指标」呼应。",
+      "distractors": [
+        "B eagerly：副词，不能修饰名词 well-being。",
+        "C especially：副词，虽也可修饰，但 especially well-being 与前文 just as important to 语义不搭。",
+        "E indicator：名词，不能作前置定语修饰 well-being。"
+      ]
+    },
+    "28": {
+      "answerKey": "E",
+      "answerWord": "indicator",
+      "reason": "句式为 a better __ of self-reported stress...，需一个名词，与 of 搭配表示「……的指标」。indicator of 是学术语境惯用搭配，说明社交圈强度可作为压力与幸福感的预测指标。",
+      "distractors": [
+        "H prior：形容词，不能作名词中心词。",
+        "L recovery：名词但语义不符（recovery of stress 不成立）。",
+        "M reflected：过去分词，不能直接作 a better __ of 的中心词。"
+      ]
+    },
+    "29": {
+      "answerKey": "K",
+      "answerWord": "quantified",
+      "reason": "the __ self 指「被数据衡量的自我」，与后文 qualified self 形成对照。quantified 意为「量化的」，是「quantified self（量化自我）」这一固定概念，且与 represented by endless amounts of health data 精确对应。",
+      "distractors": [
+        "M reflected：the reflected self 不构成固定概念，且与后文 qualified self 不形成对照。",
+        "O strongly：副词不能作前置定语。",
+        "I prompt：语义不符。"
+      ]
+    },
+    "30": {
+      "answerKey": "N",
+      "answerWord": "story",
+      "reason": "tell the whole __ 是固定习语，意为「说明全部实情」。doesn't tell the whole story 表示数据无法反映全貌，与下文 There's also a qualified self 自然衔接。",
+      "distractors": [
+        "J puzzle：tell the whole puzzle 不成搭配。",
+        "L recovery：语义不符。",
+        "A base：tell the whole base 不成搭配。"
+      ]
+    },
+    "31": {
+      "answerKey": "M",
+      "answerWord": "reflected",
+      "reason": "are not __ in any of these measurements 为被动结构，需过去分词，表示「未被反映」。be reflected in 是固定搭配，指这些方面未在测量中体现。",
+      "distractors": [
+        "K quantified：语义重复（前文已用 quantified self），且 be quantified in 与「未被包含」的语义不符。",
+        "I prompt：prompt 不作此被动搭配。",
+        "G preached：语义与搭配均不符。"
+      ]
+    },
+    "32": {
+      "answerKey": "H",
+      "answerWord": "prior",
+      "reason": "修饰 research 需要一个形容词，表示「此前的」研究。prior research 是学术写作常见搭配，说明这一观点已有既有研究支撑。",
+      "distractors": [
+        "A base：base research 不成立（应为 basic research 基础研究）。",
+        "F overall：overall research 语义不符。",
+        "C especially：副词不能修饰名词 research。"
+      ]
+    },
+    "33": {
+      "answerKey": "O",
+      "answerWord": "strongly",
+      "reason": "is __ associated with 中间需副词修饰过去分词 associated，表示关联强度。strongly associated with 是固定搭配，意为「与……密切相关」。",
+      "distractors": [
+        "B eagerly：语义不符（eagerly 表「急切地」，用于人）。",
+        "C especially：especially associated with 表「尤其与……相关」，与语境（一般性关联）不符。",
+        "F overall：副词但语义不符。"
+      ]
+    },
+    "34": {
+      "answerKey": "L",
+      "answerWord": "recovery",
+      "reason": "illness __ rates 需一个名词作前置定语，表示疾病的「康复率」。recovery rates 是医学统计固定说法，与 improve 搭配表示提高康复率。",
+      "distractors": [
+        "M reflected：过去分词不能作 rates 的前置名词定语。",
+        "A base：illness base rates 指「基础发病率」，与 improve 搭配不当。",
+        "K quantified：语义不符。"
+      ]
+    },
+    "35": {
+      "answerKey": "C",
+      "answerWord": "especially",
+      "reason": "It's a significant problem, __ since... 需一个副词修饰 since 从句，加强原因，构成 especially since（尤其因为）。后文「孤独正成为普遍公共卫生问题」正是加强理由的关键。",
+      "distractors": [
+        "B eagerly：语义不符，不能修饰 since 从句。",
+        "O strongly：strongly since 不成立。",
+        "F overall：overall since 不成立。"
+      ]
+    }
+  },
   "lexicon": {}
 }

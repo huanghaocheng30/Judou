@@ -1,0 +1,460 @@
+{
+  "sentences": {
+    "3-0": {
+      "translationLiteral": "「红朗姆」真正的天赋在障碍赛马中显现出来。",
+      "translationNatural": "「红朗姆」的真本事，是在障碍赛里显出来的。",
+      "structMarkup": "【Red Rum's true talent】 _came out_ (in steeplechases).",
+      "structureSummary": "主谓 + 范围状语（短语动词）",
+      "components": [
+        { "part": "Red Rum's true talent", "role": "主语", "note": "真正的天赋" },
+        { "part": "came out", "role": "谓语", "note": "短语动词，意为「显露、显现」" },
+        { "part": "in steeplechases", "role": "范围状语", "note": "在障碍赛马中" }
+      ],
+      "clauses": [
+        "come out 在此不是「出来」，而是「显露、为人所知」。",
+        "steeplechase 指障碍赛马（越野障碍赛），与平地赛（flat racing）相对。",
+        "in + 赛事名表范围，用复数 steeplechases 泛指这类比赛。"
+      ],
+      "phrases": [
+        { "text": "come out", "meaning": "显露、显现；也指出版、结果是", "usage": "短语动词，含义随语境变化；此处为「天赋显现」。", "example": "Her talent came out in the final round. 她的天赋在最后一轮显露出来。" },
+        { "text": "true talent", "meaning": "真正的天赋、真本事", "usage": "true 在此表「名副其实的」，非「真实的」。", "example": "The race showed his true talent. 这场比赛显露了他的真本事。" }
+      ],
+      "pitfalls": [
+        "come out 不能按字面理解为「走出来」。",
+        "steeplechase 是「障碍赛马」，不是「跨栏赛跑」（hurdles）。",
+        "talent 在此可数（指某种才能），也可不可数（泛指天赋）。"
+      ],
+      "paragraphRole": "转折推进——病弱之躯在障碍赛中显露天赋，回应前段「待克服的障碍」。"
+    },
+    "3-1": {
+      "translationLiteral": "他的力量、速度与跳跃能力把他在 1973 年带向第一个全国大赛冠军。紧接着的第二年，「红朗姆」又回来拿下第二个冠军。",
+      "translationNatural": "凭力量、速度和跳跃能力，它在 1973 年拿下第一个全国大赛冠军；到了第二年，它又回来把第二个冠军也拿走了。",
+      "structMarkup": "【His power, speed and jumping ability】 _carried_ ~him~ (to his first Grand National title) (in 1973). | (The very next year), 【Red Rum】 _returned_ (to take his second title).",
+      "structureSummary": "第一句：主谓宾 + 结果状语 + 时间状语；第二句：时间状语 + 主谓 + 目的状语",
+      "components": [
+        { "part": "His power, speed and jumping ability", "role": "并列主语", "note": "三项能力并列" },
+        { "part": "carried", "role": "谓语", "note": "carry sb to sth「把某人带向」" },
+        { "part": "him", "role": "宾语", "note": "指 Red Rum" },
+        { "part": "to his first Grand National title", "role": "结果状语", "note": "带向第一个全国大赛冠军" },
+        { "part": "in 1973", "role": "时间状语", "note": "1973 年" },
+        { "part": "The very next year", "role": "时间状语", "note": "very 强调「就在紧接着的」" },
+        { "part": "returned", "role": "谓语", "note": "再度参赛" },
+        { "part": "to take his second title", "role": "目的状语", "note": "不定式表目的" }
+      ],
+      "clauses": [
+        "carry sb to sth：把某人带向（成功），此处为比喻用法。",
+        "The very next year：very 修饰 next，强调「就在紧接着的下一年」。",
+        "to take his second title：不定式作目的状语，说明回来的目的。",
+        "Grand National 是英国全国越野障碍赛马大赛的专有名称，首字母大写。"
+      ],
+      "phrases": [
+        { "text": "carry sb to sth", "meaning": "把某人带向（胜利、成功）", "usage": "比喻用法，主语常是能力、努力等抽象名词。", "example": "Her determination carried her to the top. 决心把她带到了顶峰。" },
+        { "text": "the very next year", "meaning": "就在紧接着的第二年", "usage": "very 加在 next/last 前表强调。", "example": "The very next day he called again. 就在第二天他又打来了电话。" },
+        { "text": "take a title", "meaning": "夺得冠军", "usage": "title 在体育中指冠军头衔；也可说 win a title。", "example": "They took the title for the third time. 他们第三次夺冠。" }
+      ],
+      "pitfalls": [
+        "carried him to his first title：to 表结果，不表示方向移动。",
+        "the very next year 中 very 不能省，省了就失去强调。",
+        "Grand National 是专有名词，不能写成 grand national。"
+      ],
+      "paragraphRole": "用连续夺冠的事实兑现前文的「天赋」，是段落的高光时刻。"
+    },
+    "3-2": {
+      "translationLiteral": "自 1935—1936 年的雷诺兹敦以来，他是第一匹连续夺冠的马。「红朗姆」的精神与优雅已经开始迷住大批全国大赛的粉丝。",
+      "translationNatural": "自从 1935—36 年的雷诺兹敦之后，就没有马能连着两年夺冠——它是第一匹。「红朗姆」那股劲头和优雅，已经开始让一大群全国大赛的粉丝着迷。",
+      "structMarkup": "【He】 _was_ ~the first horse to take successive firsts~ (since Reynoldstown in 1935-1936). | 【Red Rum's spirit and grace】 _had already begun_ (to charm the leagues of Grand National fans).",
+      "structureSummary": "第一句：主系表 + 后置定语 + 时间状语；第二句：主谓 + 宾语（不定式）",
+      "components": [
+        { "part": "He", "role": "主语", "note": "指 Red Rum" },
+        { "part": "was", "role": "系动词", "note": "过去时" },
+        { "part": "the first horse to take successive firsts", "role": "表语", "note": "the first + 名词 + 不定式" },
+        { "part": "since Reynoldstown in 1935-1936", "role": "时间状语", "note": "自 1935—1936 年的雷诺兹敦以来" },
+        { "part": "Red Rum's spirit and grace", "role": "第二句主语", "note": "精神与优雅（并列）" },
+        { "part": "had already begun to charm", "role": "谓语", "note": "过去完成时 + begin to do" },
+        { "part": "the leagues of Grand National fans", "role": "宾语", "note": "leagues of 表「大批的」" }
+      ],
+      "clauses": [
+        "the first horse to do sth：不定式作后置定语，修饰序数词限定的名词。",
+        "successive firsts 意为「连续的第一名（冠军）」，firsts 在此名词化。",
+        "had already begun：过去完成时，表「在那之前就已开始」，比一般过去时更早一步。",
+        "leagues of：比喻性量词，等于 a large number of。"
+      ],
+      "phrases": [
+        { "text": "successive firsts", "meaning": "连续夺冠、连年第一", "usage": "successive 表「连续的」；first 在此名词化为「第一名」。", "example": "He scored successive firsts in three events. 他在三个项目上连续夺冠。" },
+        { "text": "the first ... to do sth", "meaning": "第一个做某事的……", "usage": "序数词后接不定式作定语。", "example": "She was the first woman to win the prize. 她是第一位获此奖的女性。" },
+        { "text": "charm sb", "meaning": "使某人着迷、吸引某人", "usage": "及物动词；形容词 charming（迷人的）。", "example": "The village charmed every visitor. 这个村庄让每位访客着迷。" }
+      ],
+      "pitfalls": [
+        "successive firsts 不是「接连的第一次」，而是「连续的第一名」。",
+        "had already begun 是过去完成时，不能换成 has begun。",
+        "leagues of 是比喻量词，不指「联盟」。"
+      ],
+      "paragraphRole": "加码历史地位（自 1935 年以来首例），并把视角从成绩转向「人气」。"
+    },
+    "4-0": {
+      "translationLiteral": "在接下来的两年里，「红朗姆」与冠军失之交臂，两次都屈居第二。",
+      "translationNatural": "之后两年它都没拿到冠军，两次都只跑了第二名。",
+      "structMarkup": "(In the following two years), 【Red Rum】 _lost out on_ ~the title~, (coming in second both times).",
+      "structureSummary": "时间状语 + 主谓宾 + 现在分词伴随状语",
+      "components": [
+        { "part": "In the following two years", "role": "时间状语", "note": "接下来两年" },
+        { "part": "Red Rum", "role": "主语", "note": "马名" },
+        { "part": "lost out on", "role": "谓语", "note": "短语动词，失利、错过" },
+        { "part": "the title", "role": "宾语", "note": "冠军头衔" },
+        { "part": "coming in second both times", "role": "伴随/结果状语", "note": "现在分词短语" }
+      ],
+      "clauses": [
+        "lose out on sth：在……上失利（固定短语，介词为 on）。",
+        "coming in second：come in + 序数词表「获得第几名」，现在分词作伴随状语。",
+        "both times：两次都，作时间状语嵌入分词短语。"
+      ],
+      "phrases": [
+        { "text": "lose out on", "meaning": "在……上失利、错失", "usage": "固定短语，介词为 on；同义 miss out on。", "example": "We lost out on the contract. 我们丢了那份合同。" },
+        { "text": "come in second", "meaning": "获得第二名", "usage": "come in + 序数词，用于比赛名次；也可说 finish second。", "example": "She came in third in the final. 她在决赛中拿了第三。" }
+      ],
+      "pitfalls": [
+        "lose out on 的介词是 on，不是 in。",
+        "coming in second 不是「进来第二」，而是「取得第二名」。",
+        "the title 用 the 特指全国大赛冠军。"
+      ],
+      "paragraphRole": "制造低谷，为 1977 年复出夺冠蓄势。"
+    },
+    "4-1": {
+      "translationLiteral": "当他在 1977 年再次回来尝试时，他被普遍认为已经过了巅峰期。",
+      "translationNatural": "1977 年它再来试一次，可大多数人认为它早就过了黄金期。",
+      "structMarkup": "{When he returned in 1977 to try again}, 【he】 _was largely regarded_ ~as past his prime~.",
+      "structureSummary": "时间状语从句 + 主谓（被动）+ 主语补足语",
+      "components": [
+        { "part": "When he returned in 1977 to try again", "role": "时间状语从句", "note": "returned 后接目的不定式" },
+        { "part": "he", "role": "主句主语", "note": "指 Red Rum" },
+        { "part": "was largely regarded", "role": "谓语", "note": "被动语态，largely 表「普遍地」" },
+        { "part": "as past his prime", "role": "主语补足语", "note": "regard sb as... 的被动式" }
+      ],
+      "clauses": [
+        "when 引导时间状语从句，从句内 to try again 表目的。",
+        "be regarded as：被视为，as 后接名词或形容词短语。",
+        "past one's prime：过了巅峰期，prime 指「体力/事业的全盛期」。"
+      ],
+      "phrases": [
+        { "text": "be regarded as", "meaning": "被视为……", "usage": "as 后接名词、形容词，不接 to do。", "example": "He is regarded as the best in the field. 他被视为该领域最优秀的人。" },
+        { "text": "past one's prime", "meaning": "已过巅峰期", "usage": "prime 指全盛期；反义 in one's prime。", "example": "The singer is past her prime. 这位歌手已过了巅峰期。" }
+      ],
+      "pitfalls": [
+        "be regarded as 后不接动词原形（不是 regarded as to be past）。",
+        "largely 在此是「普遍地、大体上」，不是「大量地」。",
+        "past 在此是介词，不是形容词。"
+      ],
+      "paragraphRole": "引入外界质疑，强化后文复出夺冠的戏剧性。"
+    },
+    "4-2": {
+      "translationLiteral": "他 12 岁，不被期待取得高名次。",
+      "translationNatural": "它已经 12 岁了，没人指望它能跑出好名次。",
+      "structMarkup": "【He】 _was_ ~12 years old~ {and} (_not expected to place highly).",
+      "structureSummary": "主系表 + and 并列（后项省略 was）",
+      "components": [
+        { "part": "He", "role": "主语", "note": "指 Red Rum" },
+        { "part": "was 12 years old", "role": "主系表", "note": "年龄表达" },
+        { "part": "and", "role": "并列连词", "note": "连接两个表语/谓语部分" },
+        { "part": "not expected to place highly", "role": "过去分词短语", "note": "省略了 he was" }
+      ],
+      "clauses": [
+        "12 years old：年龄作表语，也可说 aged 12。",
+        "not expected to do：expect sb to do 的被动，表「不被期待」。",
+        "place 在此是动词，意为「获得名次」，不是名词「地方」。"
+      ],
+      "phrases": [
+        { "text": "be expected to do sth", "meaning": "被期待做某事", "usage": "expect sb to do 的被动式。", "example": "Prices are expected to rise. 预计价格会上涨。" },
+        { "text": "place highly", "meaning": "取得高名次", "usage": "place 作动词，体育报道常用；place third 得第三名。", "example": "She placed highly in the trials. 她在预赛中名次靠前。" }
+      ],
+      "pitfalls": [
+        "place 作动词是「取得名次」，不是「放置」。",
+        "and 后省略了 he was，补全后为 and was not expected...。",
+        "highly 修饰 place，不能换成 high（high 指物理高度）。"
+      ],
+      "paragraphRole": "补出具体年龄，把「不被看好」量化。"
+    },
+    "4-3": {
+      "translationLiteral": "他让全世界的体育迷震惊——他以领先最近对手 25 个马身的惊人优势冲线，拿下第三个全国大赛冠军。",
+      "translationNatural": "全世界的赛马迷都被它惊到了：冲线时它领先最近的对手整整 25 个马身，把第三个全国大赛冠军拿到手。",
+      "structMarkup": "【He】 _surprised_ ~sporting fans around the world~ {when he came in a remarkable 25 lengths ahead of the nearest horse}, (taking his third Grand National win).",
+      "structureSummary": "主谓宾 + 时间状语从句 + 现在分词结果状语",
+      "components": [
+        { "part": "He", "role": "主语", "note": "指 Red Rum" },
+        { "part": "surprised", "role": "谓语", "note": "使……惊讶" },
+        { "part": "sporting fans around the world", "role": "宾语", "note": "世界各地的体育迷" },
+        { "part": "when he came in a remarkable 25 lengths ahead of the nearest horse", "role": "时间状语从句", "note": "内含程度状语" },
+        { "part": "a remarkable 25 lengths ahead of the nearest horse", "role": "程度/方式状语", "note": "a remarkable + 数量，表「多达」" },
+        { "part": "taking his third Grand National win", "role": "结果状语", "note": "现在分词表自然结果" }
+      ],
+      "clauses": [
+        "a remarkable 25 lengths：a remarkable + 数词，表「多达……（令人惊讶）」。",
+        "lengths ahead of：赛马术语，「领先……个马身」。",
+        "taking...：现在分词作结果状语，说明冲线的结果。",
+        "surprise sb：及物动词，用主动表「使某人惊讶」。"
+      ],
+      "phrases": [
+        { "text": "lengths ahead of", "meaning": "领先……个马身", "usage": "赛马专用表达；引申为「远远领先」。", "example": "He finished ten lengths ahead of the field. 他领先其余马匹十个马身冲线。" },
+        { "text": "come in", "meaning": "（比赛中）获得（某名次）、到达终点", "usage": "come in first/second 表名次。", "example": "Our team came in first. 我们队拿了第一。" }
+      ],
+      "pitfalls": [
+        "25 lengths 是「25 个马身」，不是长度单位。",
+        "a remarkable 25 lengths 中 a 不能省，是「多达」的固定表达。",
+        "taking 是结果状语，不是伴随动作（夺冠是冲线带来的结果）。"
+      ],
+      "paragraphRole": "全篇高潮——用具体差距量化「逆龄夺冠」的震撼。"
+    },
+    "4-4": {
+      "translationLiteral": "直到今天，「红朗姆」的第三次夺冠仍被认为是赛马史上最伟大的时刻之一。",
+      "translationNatural": "直到现在，人们仍把「红朗姆」的第三次夺冠算作赛马史上最伟大的时刻之一。",
+      "structMarkup": "(To this day), 【Red Rum's third win】 _is known_ ~as one of the greatest moments in horse racing history~.",
+      "structureSummary": "时间状语 + 主谓（被动）+ 主语补足语",
+      "components": [
+        { "part": "To this day", "role": "时间状语", "note": "直到今天" },
+        { "part": "Red Rum's third win", "role": "主语", "note": "第三次夺冠" },
+        { "part": "is known", "role": "谓语", "note": "被动，一般现在时表至今" },
+        { "part": "as one of the greatest moments in horse racing history", "role": "主语补足语", "note": "be known as 结构" }
+      ],
+      "clauses": [
+        "be known as：作为……而闻名（区别于 be known for 因……而闻名）。",
+        "one of the greatest moments：最高级 + 复数名词，谓语用单数 is。",
+        "to this day：固定短语，等于 up to now。"
+      ],
+      "phrases": [
+        { "text": "to this day", "meaning": "直到今天", "usage": "常与现在完成时或一般现在时连用，强调延续性。", "example": "To this day, nobody knows the truth. 直到今天也没人知道真相。" },
+        { "text": "be known as", "meaning": "作为……而闻名/被称为", "usage": "as 后接身份；be known for 后接特征或原因。", "example": "She is known as a fair judge. 她以公正著称。" }
+      ],
+      "pitfalls": [
+        "be known as（身份）与 be known for（原因）不能混用。",
+        "one of the greatest moments：moments 复数，谓语 is。",
+        "to this day 不加 the。"
+      ],
+      "paragraphRole": "用「至今仍被铭记」收束，把单场胜利升格为历史时刻。"
+    },
+    "5-0": {
+      "translationLiteral": "1978 年「红朗姆」再次瞄准全国大赛，但在赛前不久一只蹄踵受了伤。",
+      "translationNatural": "1978 年它又一次冲着全国大赛去，可就在比赛前不久，一只蹄子伤了。",
+      "structMarkup": "【Red Rum】 _was headed for_ ~the Grand National~ (once again) (in 1978) {but} _suffered_ ~an injury~ (in one of his heels) (shortly before the race).",
+      "structureSummary": "主谓宾 + but 并列第二谓语 + 两个状语",
+      "components": [
+        { "part": "Red Rum", "role": "主语", "note": "马名" },
+        { "part": "was headed for", "role": "谓语1", "note": "朝……去、瞄准" },
+        { "part": "the Grand National", "role": "宾语1", "note": "全国大赛" },
+        { "part": "once again / in 1978", "role": "状语", "note": "又一次 / 在 1978 年" },
+        { "part": "suffered", "role": "谓语2", "note": "遭受" },
+        { "part": "an injury", "role": "宾语2", "note": "受伤" },
+        { "part": "in one of his heels", "role": "位置状语", "note": "在一只蹄踵" },
+        { "part": "shortly before the race", "role": "时间状语", "note": "赛前不久" }
+      ],
+      "clauses": [
+        "be headed for：朝……方向去，引申为「瞄准、准备参加」。",
+        "suffer an injury：受伤的固定搭配（suffer 直接接 injury）。",
+        "shortly before：就在……之前不久，shortly 修饰 before。",
+        "one of his heels：heel 指蹄后部/蹄踵。"
+      ],
+      "phrases": [
+        { "text": "be headed for", "meaning": "朝……去、正走向", "usage": "引申为「瞄准、即将参加」；也可说 be heading for。", "example": "The team is headed for the finals. 这支队伍正朝着决赛前进。" },
+        { "text": "suffer an injury", "meaning": "受伤", "usage": "固定搭配，injury 可数；被动为 be injured。", "example": "He suffered a knee injury last season. 他上赛季膝部受伤。" },
+        { "text": "shortly before", "meaning": "在……之前不久", "usage": "shortly 修饰 before，强调时间之近。", "example": "The letter arrived shortly before the meeting. 信在会议前不久到了。" }
+      ],
+      "pitfalls": [
+        "suffer an injury 不用 get an injury（口语可说 get injured）。",
+        "heel 指蹄踵，不是人的脚后跟。",
+        "be headed for 是「瞄准」，不是「被带领」。"
+      ],
+      "paragraphRole": "转折——从巅峰转向伤病，引出退役结局。"
+    },
+    "5-1": {
+      "translationLiteral": "他不久后便退役了，但他的公共生活与名气并未因职业生涯的结束而有丝毫减少。",
+      "translationNatural": "没多久它就退役了，可退役并没让它的公众生活和名气有半点减少。",
+      "structMarkup": "【He】 _was retired_ (soon after), {but} 【his public life and fame】 _by no means decreased_ (with the end of his career).",
+      "structureSummary": "主谓 + but 并列转折分句（内含 by no means 状语）",
+      "components": [
+        { "part": "He", "role": "主语", "note": "指 Red Rum" },
+        { "part": "was retired", "role": "谓语", "note": "被动，表「被安排退役」" },
+        { "part": "soon after", "role": "时间状语", "note": "不久之后" },
+        { "part": "his public life and fame", "role": "第二分句主语", "note": "并列主语" },
+        { "part": "by no means decreased", "role": "谓语", "note": "by no means 表强烈否定" },
+        { "part": "with the end of his career", "role": "伴随状语", "note": "随着职业生涯的结束" }
+      ],
+      "clauses": [
+        "be retired：被动表「被安排退役」（马由主人决定），也可理解为状态。",
+        "by no means：绝非、决不，加强否定；置于句首时句子部分倒装。",
+        "decrease with：随……而减少。"
+      ],
+      "phrases": [
+        { "text": "by no means", "meaning": "绝不、一点也不", "usage": "加强否定；置句首须部分倒装（By no means did he...）。", "example": "This is by no means the end. 这绝不是结束。" },
+        { "text": "with the end of", "meaning": "随着……的结束", "usage": "with + 名词短语表伴随变化。", "example": "Interest faded with the end of the season. 随着赛季结束，兴趣消退了。" }
+      ],
+      "pitfalls": [
+        "by no means 置句首要倒装，本句在句中则不倒装。",
+        "was retired 是「被安排退役」，别读成「退休了」（马不退休）。",
+        "public life 指「公众生活、社会活动」，不是「公共生活区」。"
+      ],
+      "paragraphRole": "承上启下——退役而人气不减，为「明星马」的退役生活铺垫。"
+    },
+    "5-2": {
+      "translationLiteral": "「红朗姆」为各种邀约走遍全国。",
+      "translationNatural": "它为了各种活动跑遍了全国。",
+      "structMarkup": "【Red Rum】 _traveled_ (all over the country) (for various engagements).",
+      "structureSummary": "主谓 + 地点状语 + 目的状语",
+      "components": [
+        { "part": "Red Rum", "role": "主语", "note": "马名" },
+        { "part": "traveled", "role": "谓语", "note": "旅行、奔走" },
+        { "part": "all over the country", "role": "地点状语", "note": "遍及全国" },
+        { "part": "for various engagements", "role": "目的状语", "note": "为了各种活动邀约" }
+      ],
+      "clauses": [
+        "travel 在此为不及物动词，后可接地点状语。",
+        "all over：遍及，比 everywhere 更强调范围。",
+        "engagement 在此指「活动邀约、出席安排」，不是「订婚」。"
+      ],
+      "phrases": [
+        { "text": "all over the country", "meaning": "全国各地、遍及全国", "usage": "all over + 地点，表范围遍布。", "example": "Fans came from all over the country. 粉丝从全国各地赶来。" },
+        { "text": "for various engagements", "meaning": "为了各种活动邀约", "usage": "engagement 表「约定、活动安排」，属正式用法。", "example": "She cancelled all her engagements. 她取消了所有活动安排。" }
+      ],
+      "pitfalls": [
+        "engagement 在此不是「订婚」（订婚是 be engaged to sb）。",
+        "traveled 是美式拼写，英式作 travelled。",
+        "all over 后必须接地名，不能单用。"
+      ],
+      "paragraphRole": "说明退役后的忙碌行程，佐证「名气不减」。"
+    },
+    "5-3": {
+      "translationLiteral": "他常在安特里赛马场领衔赛前巡游，也是慈善活动与公共场合上受欢迎的嘉宾。",
+      "translationNatural": "它经常在安特里赛马场带头走赛前巡游，去慈善活动和公开场合也总是很受欢迎。",
+      "structMarkup": "【He】 _often led_ ~pre-race parades~ (at Aintree Racecourse) {and} _was_ ~a popular guest~ (at charity benefits and public events).",
+      "structureSummary": "主谓宾 + and 并列主系表 + 两个地点状语",
+      "components": [
+        { "part": "He", "role": "主语", "note": "指 Red Rum" },
+        { "part": "often led", "role": "谓语1", "note": "经常领衔" },
+        { "part": "pre-race parades", "role": "宾语1", "note": "赛前巡游" },
+        { "part": "at Aintree Racecourse", "role": "地点状语", "note": "安特里赛马场" },
+        { "part": "was a popular guest", "role": "谓语2 + 表语", "note": "是受欢迎的嘉宾" },
+        { "part": "at charity benefits and public events", "role": "地点/场合状语", "note": "在慈善活动与公共活动上" }
+      ],
+      "clauses": [
+        "lead a parade：领衔巡游，lead 表「带头」。",
+        "pre-race 是复合形容词，作前置定语。",
+        "a popular guest at：在……场合受欢迎的嘉宾。",
+        "benefit 在此指「慈善活动、义演」，不是「好处」。"
+      ],
+      "phrases": [
+        { "text": "lead a parade", "meaning": "领衔巡游", "usage": "lead 表「带头、领先」；名词 leader 指领先者。", "example": "The champion led the opening parade. 冠军领衔开场巡游。" },
+        { "text": "charity benefits", "meaning": "慈善活动（义演、募捐会）", "usage": "benefit 作名词可指「慈善演出」，与「利益」义区分。", "example": "She sang at a charity benefit. 她在一场慈善义演上演唱。" },
+        { "text": "public events", "meaning": "公共活动、公开场合", "usage": "public 作定语表「公开的、公众的」。", "example": "He rarely appears at public events. 他很少出席公开活动。" }
+      ],
+      "pitfalls": [
+        "benefit 在此不是「好处、益处」，而是「慈善活动」。",
+        "pre-race 带连字符，作定语修饰 parades。",
+        "at charity benefits and public events：两个并列场合共用 at。"
+      ],
+      "paragraphRole": "用具体场景收束退役生活，完成「从赛马到公众偶像」的转变。"
+    }
+  },
+  "tokens": {
+    "talent": {
+      "phonetic": "/ˈtælənt/",
+      "pos": "n.",
+      "senseInContext": "天赋、才能（在障碍赛中显露的真本事）",
+      "collocations": ["have a talent for", "show talent", "a talented player"],
+      "examples": ["She has a talent for languages. 她有语言天赋。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "拉丁 talentum（重量单位→才能）",
+        "synonyms": ["gift", "aptitude", "flair"],
+        "confusables": ["talented（adj. 有天赋的）", "talent 指天赋可数/不可数皆可"]
+      }
+    },
+    "successive": {
+      "phonetic": "/səkˈsesɪv/",
+      "pos": "adj.",
+      "senseInContext": "连续的、接连的（连续两年夺冠）",
+      "collocations": ["successive years", "on successive days", "three successive wins"],
+      "examples": ["It rained for three successive days. 连续下了三天雨。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "succeed（接续）+ -ive",
+        "synonyms": ["consecutive", "running", "back-to-back"],
+        "confusables": ["successful（adj. 成功的）", "successively（adv. 接连地）"]
+      }
+    },
+    "charm": {
+      "phonetic": "/tʃɑːm/",
+      "pos": "v.",
+      "senseInContext": "使着迷、吸引（开始迷住大批粉丝）",
+      "collocations": ["charm sb", "be charmed by", "a charming smile"],
+      "examples": ["The old town charmed the visitors. 这座老城让游客着迷。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "carmen（歌→咒语→魅力）",
+        "synonyms": ["delight", "captivate", "win over"],
+        "confusables": ["charming（adj. 迷人的）", "charm 作名词指「魅力；护身符」"]
+      }
+    },
+    "prime": {
+      "phonetic": "/praɪm/",
+      "pos": "n.",
+      "senseInContext": "全盛期、巅峰期（被认为已过巅峰）",
+      "collocations": ["in one's prime", "past one's prime", "the prime of life"],
+      "examples": ["He was in his prime at 28. 他 28 岁时正值巅峰。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "primus（第一的）",
+        "synonyms": ["peak", "height", "heyday"],
+        "confusables": ["primary（adj. 主要的）", "prime 作形容词指「首要的；优质的」"]
+      }
+    },
+    "remarkable": {
+      "phonetic": "/rɪˈmɑːkəbl/",
+      "pos": "adj.",
+      "senseInContext": "惊人的、非凡的（领先 25 个马身这一惊人差距）",
+      "collocations": ["a remarkable achievement", "remarkably well", "it is remarkable that"],
+      "examples": ["She made a remarkable recovery. 她恢复得非常好。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "re-（再）+ mark（标记）→ 值得标记的",
+        "synonyms": ["extraordinary", "notable", "striking"],
+        "confusables": ["remark（n./v. 评论）", "remarkably（adv. 显著地）"]
+      }
+    },
+    "injury": {
+      "phonetic": "/ˈɪndʒəri/",
+      "pos": "n.",
+      "senseInContext": "伤、损伤（赛前蹄部受伤）",
+      "collocations": ["suffer an injury", "a serious injury", "injury time"],
+      "examples": ["He missed the season through injury. 他因伤缺席了整个赛季。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "in-（非）+ jus（法）→ 不公正 → 伤害",
+        "synonyms": ["wound", "hurt", "damage"],
+        "confusables": ["injure（v. 伤害）", "injured（adj. 受伤的）", "injury 可数"]
+      }
+    },
+    "charity": {
+      "phonetic": "/ˈtʃærəti/",
+      "pos": "n.",
+      "senseInContext": "慈善（活动、机构）",
+      "collocations": ["charity event", "give to charity", "a charity concert"],
+      "examples": ["The concert raised money for charity. 音乐会为慈善募款。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "caritas（仁爱）",
+        "synonyms": ["philanthropy", "good works", "aid"],
+        "confusables": ["charitable（adj. 慈善的；宽容的）", "charity 表「慈善机构」时可数"]
+      }
+    },
+    "parade": {
+      "phonetic": "/pəˈreɪd/",
+      "pos": "n.",
+      "senseInContext": "巡游、列队行进（赛前巡游）",
+      "collocations": ["a parade of", "hold a parade", "on parade"],
+      "examples": ["The team held a victory parade. 球队举行了胜利巡游。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "parare（准备→展示）",
+        "synonyms": ["procession", "march", "display"],
+        "confusables": ["parade 作动词指「游行；炫耀」", "paradise（n. 天堂）"]
+      }
+    }
+  }
+}

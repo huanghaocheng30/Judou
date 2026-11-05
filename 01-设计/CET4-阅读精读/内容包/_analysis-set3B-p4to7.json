@@ -1,0 +1,417 @@
+{
+  "sentences": {
+    "4-0": {
+      "translationLiteral": "这个看似简单的问题，正是驱动人们去理解决策过程中直觉与数据之间关系之必要性的原因。",
+      "translationNatural": "这个问题看着简单，可正因为它，我们才非得搞明白：做决定的时候，直觉和数据到底是什么关系。",
+      "structMarkup": "【This seemingly easy question】 _is_ ~what drives the need to understand the relationship between instincts and data in the decision-making process~.",
+      "structureSummary": "主系表（表语为 what 引导的名词性从句）",
+      "components": [
+        { "part": "This seemingly easy question", "role": "主语", "note": "seemingly 表「看似」" },
+        { "part": "is", "role": "系动词", "note": "单数，与 question 一致" },
+        { "part": "what drives the need to understand the relationship...", "role": "表语从句", "note": "what 在从句中作主语" },
+        { "part": "the need to understand the relationship between instincts and data", "role": "drive 的宾语", "note": "不定式作后置定语" }
+      ],
+      "clauses": [
+        "what 引导表语从句，what 在从句中充当主语（不能换成 that）。",
+        "drive the need to do sth：催生做某事的必要性。",
+        "the relationship between A and B：A 与 B 之间的关系。"
+      ],
+      "phrases": [
+        { "text": "drive the need to do sth", "meaning": "催生做某事的需要", "usage": "drive 表「推动、促使」，宾语常为抽象名词。", "example": "Growth drives the need for new staff. 增长带来了新员工的需求。" },
+        { "text": "the relationship between A and B", "meaning": "A 与 B 之间的关系", "usage": "between 后接两者；三者以上用 among。", "example": "Study the relationship between diet and health. 研究饮食与健康的关系。" }
+      ],
+      "pitfalls": [
+        "seemingly（看似）是副词，seeming（表面上的）是形容词，此处修饰 easy 要用 seemingly。",
+        "what 引导表语从句，不能换成 that（that 从句不缺成分）。",
+        "the need to understand 中的 to 是不定式标志，不是介词。"
+      ],
+      "paragraphRole": "承接上段的矛盾提问，说明这个问题为何值得深究。"
+    },
+    "4-1": {
+      "translationLiteral": "不把事情弄复杂的话，这一困境的解决办法就是把数据与直觉结合使用，从而得出尽可能最好的决定。",
+      "translationNatural": "不用把事情搞复杂——出路就是把数据和直觉放一块儿用，尽量做出最好的决定。",
+      "structMarkup": "(Without making things complicated), 【the solution to this dilemma】 _is_ ~using data and instincts in conjunction~ (to arrive at the best possible decisions).",
+      "structureSummary": "条件状语 + 主系表（动名词作表语）+ 目的状语",
+      "components": [
+        { "part": "Without making things complicated", "role": "条件状语", "note": "without + 动名词" },
+        { "part": "the solution to this dilemma", "role": "主语", "note": "solution to 固定搭配" },
+        { "part": "is", "role": "系动词", "note": "单数，与 solution 一致" },
+        { "part": "using data and instincts in conjunction", "role": "表语", "note": "动名词短语" },
+        { "part": "to arrive at the best possible decisions", "role": "目的状语", "note": "不定式表目的" }
+      ],
+      "clauses": [
+        "without + 动名词：表条件/方式，「不……的话」。",
+        "the solution to sth：解决办法，介词用 to。",
+        "in conjunction：结合、连同，常与 with 连用。",
+        "arrive at a decision：做出决定（固定搭配）。"
+      ],
+      "phrases": [
+        { "text": "the solution to sth", "meaning": "……的解决办法", "usage": "介词用 to；同义 the answer to。", "example": "We found a solution to the problem. 我们找到了问题的解决办法。" },
+        { "text": "in conjunction with", "meaning": "与……结合、连同", "usage": "介词短语，正式文体常用。", "example": "The drug is used in conjunction with exercise. 该药配合运动使用。" },
+        { "text": "arrive at", "meaning": "达成（决定、结论）", "usage": "固定搭配：arrive at a decision/conclusion。", "example": "They arrived at a compromise. 他们达成了妥协。" }
+      ],
+      "pitfalls": [
+        "solution to 不是 solution of（of 不表「针对」）。",
+        "arrive at a decision 不用 arrive to。",
+        "without making：介词后必须动名词，不能写 without make。"
+      ],
+      "paragraphRole": "提出全文解决方案——直觉与数据结合使用。"
+    },
+    "5-0": {
+      "translationLiteral": "直觉性决定总是有先前的经验或信息作为支撑，这也承认了直觉决定在过去是奏效的。",
+      "translationNatural": "凭直觉做的决定，背后都有过往经验或信息撑着；这本身也说明，靠直觉过去是管用的。",
+      "structMarkup": "【Instinctive decisions】 _are always backed_ (by previous experiences or information), {which acknowledges that instinctive decisions have worked in the past}.",
+      "structureSummary": "主谓（被动）+ 状语 + which 非限制性定语从句",
+      "components": [
+        { "part": "Instinctive decisions", "role": "主语", "note": "直觉性决定" },
+        { "part": "are always backed", "role": "谓语", "note": "be backed by 的被动" },
+        { "part": "by previous experiences or information", "role": "状语", "note": "由先前的经验或信息支撑" },
+        { "part": "which acknowledges that...", "role": "非限制性定语从句", "note": "which 指代前面整句所述事实" }
+      ],
+      "clauses": [
+        "be backed by：有……作为后盾/支持。",
+        "which 引导非限制性定语从句，先行词是前面整个主句的内容。",
+        "have worked：现在完成时，表「过去一直有效、至今仍成立」。"
+      ],
+      "phrases": [
+        { "text": "be backed by", "meaning": "有……支持、以……为后盾", "usage": "back 作动词表「支持」；被动常用。", "example": "The plan is backed by solid evidence. 该方案有扎实证据支持。" },
+        { "text": "work in the past", "meaning": "过去（的做法）是奏效的", "usage": "work 作不及物动词表「奏效」。", "example": "The old method worked in the past. 老办法过去管用。" }
+      ],
+      "pitfalls": [
+        "which 指代整句事实，不是某个名词。",
+        "backed 是 back 的过去分词（支持），不是「背部」。",
+        "experiences 用复数表具体经历；information 不可数。"
+      ],
+      "paragraphRole": "为直觉一方提供辩护：直觉有经验来源，并非无凭据。"
+    },
+    "5-1": {
+      "translationLiteral": "做决定并不是做选择、然后硬扛后果，只因为你想盲目相信自己的直觉。",
+      "translationNatural": "做决定不是凭着一股盲信，把选项一挑、后果一扛就算完。",
+      "structMarkup": "【Decisions】 _are not about_ ~making the choice and braving the consequences~ (because you want to blindly trust your instincts).",
+      "structureSummary": "主系表（be about doing）+ 原因状语从句",
+      "components": [
+        { "part": "Decisions", "role": "主语", "note": "决定" },
+        { "part": "are not about", "role": "系表结构", "note": "不是关于……，表否定定义" },
+        { "part": "making the choice and braving the consequences", "role": "表语", "note": "两个并列动名词短语" },
+        { "part": "because you want to blindly trust your instincts", "role": "原因状语从句", "note": "解释为何这样说" }
+      ],
+      "clauses": [
+        "be about doing sth：关于做某事、其实质是……；否定形式用于排除误解。",
+        "brave 作动词，意为「勇敢面对、硬扛」。",
+        "want to do sth：want 后接不定式。"
+      ],
+      "phrases": [
+        { "text": "be about doing sth", "meaning": "实质是、意味着", "usage": "用于界定事物本质；否定式 be not about 常用于纠正误解。", "example": "Leadership is about listening. 领导力在于倾听。" },
+        { "text": "brave the consequences", "meaning": "承担后果、硬扛后果", "usage": "brave 作动词表「勇敢面对」；同义 face the consequences。", "example": "She chose to speak out and brave the consequences. 她选择发声并承担后果。" },
+        { "text": "blindly trust", "meaning": "盲目相信", "usage": "blindly 修饰动词，含贬义。", "example": "Don't blindly trust the numbers. 别盲目相信数字。" }
+      ],
+      "pitfalls": [
+        "brave 在此是动词（勇敢面对），不是形容词「勇敢的」。",
+        "be about 后接动名词，不接 to do。",
+        "blindly 是副词，修饰 trust，不是 blind。"
+      ],
+      "paragraphRole": "从反面界定：做决定不是盲目信任直觉的鲁莽行为。"
+    },
+    "5-2": {
+      "translationLiteral": "它们是把你的内在智慧与系统化数据的知识结合起来，以做出最好的决定。",
+      "translationNatural": "做决定是把你心里那点判断力和系统数据结合起来，做出最好的选择。",
+      "structMarkup": "【They】 _are about_ ~combining your inner wisdom with the knowledge of systematic data~ (to make the best decisions).",
+      "structureSummary": "主系表（动名词短语）+ 目的状语",
+      "components": [
+        { "part": "They", "role": "主语", "note": "指 decisions" },
+        { "part": "are about", "role": "系表结构", "note": "实质在于" },
+        { "part": "combining your inner wisdom with the knowledge of systematic data", "role": "表语", "note": "动名词 + combine A with B" },
+        { "part": "to make the best decisions", "role": "目的状语", "note": "不定式表目的" }
+      ],
+      "clauses": [
+        "combine A with B：把 A 与 B 结合起来，介词用 with，不用 and。",
+        "be about doing：实质在于做某事（与上句否定式呼应）。",
+        "the knowledge of systematic data：关于系统化数据的知识。"
+      ],
+      "phrases": [
+        { "text": "combine A with B", "meaning": "把 A 与 B 结合", "usage": "介词必须用 with；名词形式 combination of A and B。", "example": "Combine theory with practice. 把理论与实践结合起来。" },
+        { "text": "inner wisdom", "meaning": "内在智慧、心里的判断力", "usage": "inner 表「内在的」，与 outer（外在）相对。", "example": "She trusted her inner wisdom. 她相信自己的内在判断。" }
+      ],
+      "pitfalls": [
+        "combine A with B 不能写成 combine A and B（口语偶见但不规范）。",
+        "inner（内在的）与 internal（内部的、体制内的）不同。",
+        "the knowledge of 后接名词，不接 that 从句。"
+      ],
+      "paragraphRole": "正面立论：做决定的实质是内在判断与系统数据的结合。"
+    },
+    "6-0": {
+      "translationLiteral": "有时，理性分析与数据在某些情形下无法实际运用。",
+      "translationNatural": "有些时候、某些场合，理性分析和数据根本用不上。",
+      "structMarkup": "(Sometimes), 【rational analysis and data】 _are_ ~impractical~ (to be employed in certain situations).",
+      "structureSummary": "时间状语 + 主系表 + 不定式补足（被动）",
+      "components": [
+        { "part": "Sometimes", "role": "时间状语", "note": "有时" },
+        { "part": "rational analysis and data", "role": "并列主语", "note": "理性分析与数据" },
+        { "part": "are", "role": "系动词", "note": "复数，与并列主语一致" },
+        { "part": "impractical", "role": "表语", "note": "不现实的、行不通的" },
+        { "part": "to be employed in certain situations", "role": "不定式补足", "note": "被动不定式，说明在哪些情形" }
+      ],
+      "clauses": [
+        "be impractical to do：做起来不现实（不定式说明具体动作）。",
+        "be employed in：被应用于、被使用于。",
+        "certain situations：某些情形，certain 表「某些」而非「确定的」。"
+      ],
+      "phrases": [
+        { "text": "be impractical to do sth", "meaning": "做某事不现实", "usage": "impractical 表「不切实际的」；反义 practical。", "example": "It is impractical to test every case. 测试每个用例并不现实。" },
+        { "text": "be employed in", "meaning": "被用于、被应用于", "usage": "employ 除「雇用」外还表「使用」。", "example": "The method is employed in hospitals. 该方法被用于医院。" }
+      ],
+      "pitfalls": [
+        "impractical（不切实际的）与 unpractical 同义但后者罕用，考试常用 impractical。",
+        "be employed in 在此是「被用于」，不是「被雇用」。",
+        "data 与 analysis 并列作主语，谓语用 are。"
+      ],
+      "paragraphRole": "承认数据的局限，为直觉留出合理空间。"
+    },
+    "6-1": {
+      "translationLiteral": "缺乏明确的标准、时间与资源的限制、以及全新的情境，都是限制数据实用性的情形。",
+      "translationNatural": "没有明确标准、时间和资源都紧、又碰上从没见过的新情况——这些都会让数据不好使。",
+      "structMarkup": "【Absence of definitive criteria, and time and resource constraints, and novel situations】 _are_ ~instances~ {which limit the practicality of data}.",
+      "structureSummary": "三项并列主语 + 主系表 + which 定语从句",
+      "components": [
+        { "part": "Absence of definitive criteria", "role": "并列主语1", "note": "缺乏明确标准" },
+        { "part": "time and resource constraints", "role": "并列主语2", "note": "时间与资源限制" },
+        { "part": "novel situations", "role": "并列主语3", "note": "全新情境" },
+        { "part": "are", "role": "系动词", "note": "复数，与三项并列一致" },
+        { "part": "instances", "role": "表语", "note": "情形、实例" },
+        { "part": "which limit the practicality of data", "role": "定语从句", "note": "修饰 instances" }
+      ],
+      "clauses": [
+        "三项并列主语由 and 连接（原文用了两次 and），谓语用复数 are。",
+        "absence of：缺乏……（抽象名词）。",
+        "which 引导定语从句，先行词是 instances（不是 data）。",
+        "novel 在此是「全新的」，不是「小说」。"
+      ],
+      "phrases": [
+        { "text": "absence of", "meaning": "缺乏……", "usage": "后接抽象名词；反义 presence of。", "example": "The absence of evidence is not proof. 缺乏证据不等于证明。" },
+        { "text": "time and resource constraints", "meaning": "时间与资源限制", "usage": "constraint 可数，常用复数表多重限制。", "example": "Budget constraints delayed the project. 预算限制拖慢了项目。" },
+        { "text": "novel situations", "meaning": "全新的情境", "usage": "novel 作形容词表「新颖的、前所未有的」。", "example": "AI must handle novel situations. 人工智能必须应对全新情境。" }
+      ],
+      "pitfalls": [
+        "novel 在此是形容词「全新的」，不是名词「小说」。",
+        "which 的先行词是 instances，不是 data。",
+        "absence of definitive criteria：criteria 是 criterion 的复数。"
+      ],
+      "paragraphRole": "用三项具体情形支撑上句「数据有时不可用」的判断。"
+    },
+    "6-2": {
+      "translationLiteral": "唯一可行的选择就是依靠你的直觉告诉你的东西。",
+      "translationNatural": "那就只剩一条路：听直觉的。",
+      "structMarkup": "【The only feasible option】 _is_ ~to rely on what your instincts tell you~.",
+      "structureSummary": "主系表（不定式作表语，内含宾语从句）",
+      "components": [
+        { "part": "The only feasible option", "role": "主语", "note": "唯一可行的选择" },
+        { "part": "is", "role": "系动词", "note": "单数" },
+        { "part": "to rely on what your instincts tell you", "role": "表语", "note": "不定式短语" },
+        { "part": "what your instincts tell you", "role": "宾语从句", "note": "作 rely on 的宾语" }
+      ],
+      "clauses": [
+        "不定式作表语，说明主语的内容。",
+        "what 引导宾语从句，作介词 on 的宾语（介词后接从句用 what/which 等）。",
+        "rely on：依赖，此处宾语是从句。"
+      ],
+      "phrases": [
+        { "text": "the only feasible option", "meaning": "唯一可行的选择", "usage": "feasible 表「可行的」；反义 unworkable。", "example": "Waiting is the only feasible option. 等待是唯一可行的选择。" },
+        { "text": "rely on what...", "meaning": "依靠……所说的", "usage": "介词 on 后可接 what 从句作宾语。", "example": "Rely on what the data shows. 依靠数据所显示的。" }
+      ],
+      "pitfalls": [
+        "feasible（可行的）与 possible（可能的）不同：前者强调可实施。",
+        "on 后接 what 从句，不能用 that 从句（that 从句不能作介词宾语）。",
+        "tell you 后省略了内容，指 instincts 给出的判断。"
+      ],
+      "paragraphRole": "给出结论——数据不可用时，直觉是唯一退路。"
+    },
+    "6-3": {
+      "translationLiteral": "在这些情形下，直觉能帮你做出有效而迅速的决定。",
+      "translationNatural": "这种时候，直觉能让你又快又准地拿主意。",
+      "structMarkup": "(In these situations), 【instincts】 _can help_ ~you~ (make effective and quick decisions).",
+      "structureSummary": "状语 + 主谓宾 + 不定式补足（省略 to）",
+      "components": [
+        { "part": "In these situations", "role": "状语", "note": "在这些情形下" },
+        { "part": "instincts", "role": "主语", "note": "直觉（复数泛指）" },
+        { "part": "can help", "role": "谓语", "note": "can 表能力" },
+        { "part": "you", "role": "宾语", "note": "帮助你" },
+        { "part": "make effective and quick decisions", "role": "宾语补足语", "note": "help sb (to) do，to 省略" }
+      ],
+      "clauses": [
+        "help sb (to) do sth：help 后的不定式可省略 to。",
+        "effective and quick：两个形容词并列修饰 decisions。",
+        "can help：情态动词表能力/可能性。"
+      ],
+      "phrases": [
+        { "text": "help sb do sth", "meaning": "帮助某人做某事", "usage": "help 后可带或不带 to；美式常省略 to。", "example": "Music helps me focus. 音乐帮我集中注意力。" },
+        { "text": "effective and quick", "meaning": "有效且迅速的", "usage": "两个形容词并列作前置定语，顺序上评价词在前。", "example": "They need an effective and quick fix. 他们需要一个有效又快速的补救。" }
+      ],
+      "pitfalls": [
+        "help 后的 to 可省，但 help 后不能接 doing（help doing 错）。",
+        "effective（有效的）与 efficient（高效的）不同。",
+        "decisions 用复数，因指多个决定。"
+      ],
+      "paragraphRole": "点明直觉的价值场景，与「数据有限」形成互补。"
+    },
+    "7-0": {
+      "translationLiteral": "把直觉与理性分析结合起来，能产生周全的决定。",
+      "translationNatural": "把直觉和理性分析合在一起，做出来的决定才够全面。",
+      "structMarkup": "【Combining instinctive and rational analysis】 _produces_ ~well-rounded decisions~.",
+      "structureSummary": "动名词短语作主语 + 主谓宾",
+      "components": [
+        { "part": "Combining instinctive and rational analysis", "role": "主语", "note": "动名词短语，谓语用单数" },
+        { "part": "produces", "role": "谓语", "note": "产生" },
+        { "part": "well-rounded decisions", "role": "宾语", "note": "周全的决定" }
+      ],
+      "clauses": [
+        "动名词短语作主语，谓语用单数 produces。",
+        "combine 的动名词形式 combining 后接宾语，不需介词。",
+        "well-rounded：复合形容词，意为「全面的、周全的」。"
+      ],
+      "phrases": [
+        { "text": "produce decisions", "meaning": "产生决定、做出决定", "usage": "produce 表「产生（结果）」，比 make 更强调结果。", "example": "Good data produces better decisions. 好的数据带来更好的决策。" },
+        { "text": "well-rounded", "meaning": "全面的、周全的", "usage": "复合形容词，常修饰 person（全面发展的人）或 decision。", "example": "She had a well-rounded education. 她受过全面的教育。" }
+      ],
+      "pitfalls": [
+        "combining 作主语，谓语不能写 produce（须 produces）。",
+        "well-rounded 必须带连字符，作前置定语。",
+        "instinctive（直觉的）与 instinct（名词）词性不同。"
+      ],
+      "paragraphRole": "总结全文论点：两者结合才能产生周全决策。"
+    },
+    "7-1": {
+      "translationLiteral": "它降低了犯错的几率，并且越来越成为当今领导者青睐的决策方式。",
+      "translationNatural": "这法子能少犯错，如今也越来越受领导者青睐。",
+      "structMarkup": "【It】 _reduces_ ~the chances of making mistakes~, {and} _has increasingly become_ ~a favorite approach to decision-making among leaders of today~.",
+      "structureSummary": "主语 + 两个并列谓语（一般现在时 / 现在完成时）",
+      "components": [
+        { "part": "It", "role": "主语", "note": "指上句的「结合法」" },
+        { "part": "reduces", "role": "谓语1", "note": "一般现在时" },
+        { "part": "the chances of making mistakes", "role": "宾语1", "note": "犯错几率" },
+        { "part": "has increasingly become", "role": "谓语2", "note": "现在完成时 + increasingly" },
+        { "part": "a favorite approach to decision-making among leaders of today", "role": "表语2", "note": "among 表范围" }
+      ],
+      "clauses": [
+        "两个谓语时态不同：reduces（一般现在陈述事实）+ has become（现在完成表趋势）。",
+        "a favorite approach to doing sth：to 是介词。",
+        "among leaders of today：在当今领导者之中，among 后接复数范围。"
+      ],
+      "phrases": [
+        { "text": "a favorite approach to", "meaning": "……青睐的方法", "usage": "favorite 前用 a；to 为介词，后接名词或动名词。", "example": "This is a favorite approach to teaching. 这是很受欢迎的教学法。" },
+        { "text": "among leaders", "meaning": "在领导者之中", "usage": "among 表群体范围，后接复数名词。", "example": "The idea is popular among managers. 这个想法在管理者中很受欢迎。" }
+      ],
+      "pitfalls": [
+        "a favorite approach：favorite 前加 a，不用 the（除非特指）。",
+        "make mistakes 用复数，不说 make a mistake 的泛指义。",
+        "has increasingly become：increasingly 插在 has 与 become 之间。"
+      ],
+      "paragraphRole": "以趋势收尾，强调「结合法」已成为主流做法，回应开篇的质疑。"
+    }
+  },
+  "tokens": {
+    "seemingly": {
+      "phonetic": "/ˈsiːmɪŋli/",
+      "pos": "adv.",
+      "senseInContext": "看似、表面上（看似简单的问题）",
+      "collocations": ["seemingly impossible", "seemingly simple", "a seemingly endless wait"],
+      "examples": ["The task was seemingly easy. 这项任务看似容易。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "seem（似乎）+ -ing + -ly",
+        "synonyms": ["apparently", "on the surface", "ostensibly"],
+        "confusables": ["seeming（adj. 表面上的）", "seemly（adj. 得体的）"]
+      }
+    },
+    "dilemma": {
+      "phonetic": "/dɪˈlemə/",
+      "pos": "n.",
+      "senseInContext": "两难困境（直觉与数据冲突时的处境）",
+      "collocations": ["face a dilemma", "a moral dilemma", "in a dilemma"],
+      "examples": ["She faced a dilemma between work and family. 她在工作与家庭间两难。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "di-（二）+ lemma（前提）→ 两个前提",
+        "synonyms": ["predicament", "quandary", "catch-22"],
+        "confusables": ["dilettante（n. 业余爱好者）", "dilemma 常与 on the horns of 搭配"]
+      }
+    },
+    "conjunction": {
+      "phonetic": "/kənˈdʒʌŋkʃn/",
+      "pos": "n.",
+      "senseInContext": "结合、连同（in conjunction＝结合起来）",
+      "collocations": ["in conjunction with", "a conjunction of factors", "coordinating conjunction"],
+      "examples": ["The two drugs are used in conjunction. 这两种药配合使用。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（一起）+ jungere（连接）",
+        "synonyms": ["combination", "together with", "alongside"],
+        "confusables": ["conjunction 语法义为「连词」", "conjuncture（n. 紧要关头）"]
+      }
+    },
+    "acknowledge": {
+      "phonetic": "/əkˈnɒlɪdʒ/",
+      "pos": "v.",
+      "senseInContext": "承认、认可（这本身就承认了直觉过去有效）",
+      "collocations": ["acknowledge that...", "acknowledge receipt", "widely acknowledged"],
+      "examples": ["He acknowledged his mistake. 他承认了错误。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ac-（to）+ knowledge（知晓）→ 认可知晓",
+        "synonyms": ["admit", "recognize", "concede"],
+        "confusables": ["acknowledgement（n. 承认；致谢）", "knowledge（n. 知识）"]
+      }
+    },
+    "constraint": {
+      "phonetic": "/kənˈstreɪnt/",
+      "pos": "n.",
+      "senseInContext": "限制、约束（时间与资源的限制）",
+      "collocations": ["time constraints", "budget constraints", "under constraint"],
+      "examples": ["We work under tight time constraints. 我们在时间很紧的情况下工作。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（一起）+ stringere（拉紧）",
+        "synonyms": ["restriction", "limitation", "restraint"],
+        "confusables": ["constrain（v. 限制）", "restraint（n. 克制；约束）"]
+      }
+    },
+    "feasible": {
+      "phonetic": "/ˈfiːzəbl/",
+      "pos": "adj.",
+      "senseInContext": "可行的、行得通的（唯一可行的选择）",
+      "collocations": ["a feasible option", "technically feasible", "feasibility study"],
+      "examples": ["Is the plan feasible within a month? 这个方案一个月内可行吗？"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "faire（做）+ -ible → 可做的",
+        "synonyms": ["viable", "practicable", "workable"],
+        "confusables": ["feasibility（n. 可行性）", "feasible 与 possible 不同：强调可实施"]
+      }
+    },
+    "well-rounded": {
+      "phonetic": "/ˌwel ˈraʊndɪd/",
+      "pos": "adj.",
+      "senseInContext": "全面的、周全的（周全的决定）",
+      "collocations": ["a well-rounded person", "well-rounded education", "well-rounded decision"],
+      "examples": ["They want a well-rounded candidate. 他们要全面发展的候选人。"],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "well（好）+ rounded（圆润的）→ 各方面都饱满",
+        "synonyms": ["balanced", "comprehensive", "all-round"],
+        "confusables": ["well-grounded（adj. 有根据的）", "rounded 单独用指「圆形的」"]
+      }
+    },
+    "brave": {
+      "phonetic": "/breɪv/",
+      "pos": "v.",
+      "senseInContext": "勇敢面对、硬扛（硬扛后果）",
+      "collocations": ["brave the consequences", "brave the cold", "brave the storm"],
+      "examples": ["Hundreds braved the rain to attend. 数百人冒雨前来。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "barbarus（外族的→勇敢的）",
+        "synonyms": ["face", "endure", "confront"],
+        "confusables": ["bravery（n. 勇敢）", "brave 作形容词是「勇敢的」"]
+      }
+    }
+  }
+}
