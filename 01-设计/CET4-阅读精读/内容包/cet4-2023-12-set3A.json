@@ -4899,6 +4899,37 @@
         "confusables": "several（数个，后接复数）/ some（一些）"
       }
     },
+    "le": {
+      "phonetic": "/lə/",
+      "pos": "冠词（法语）",
+      "sense": "法语定冠词（用于人名前的 Le Mar 等）",
+      "collocations": [
+        "Noel Le Mar"
+      ],
+      "examples": [
+        "The horse was purchased for Noel Le Mar. 这匹马是为诺埃尔·勒马尔买的。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "le（法语定冠词）/ Le（姓氏前缀）"
+      }
+    },
+    "mar": {
+      "phonetic": "/mɑː(r)/",
+      "pos": "v.",
+      "sense": "损坏、破坏（mar sth）",
+      "collocations": [
+        "mar the effect",
+        "marred by"
+      ],
+      "examples": [
+        "The flaws mar an otherwise strong case. 这些缺陷损害了本来有力的论证。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "mar（破坏）/ mark（标记）"
+      }
+    },
     "agent": {
       "phonetic": "/ˈeɪdʒənt/",
       "pos": "n.",
@@ -5032,6 +5063,22 @@
         "confusables": "disease（疾病）/ illness（生病状态）/ decease（死亡，正式）"
       }
     },
+    "foot": {
+      "phonetic": "/fʊt/",
+      "pos": "n.",
+      "sense": "脚（复数 feet）；底部；英尺",
+      "collocations": [
+        "on foot",
+        "at the foot of"
+      ],
+      "examples": [
+        "The horse had a bone disease in his foot. 这匹马蹄部有骨病。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "foot（单数）/ feet（复数）/ on foot（步行）"
+      }
+    },
     "mean": {
       "phonetic": "/miːn/",
       "pos": "v./adj.",
@@ -5117,6 +5164,22 @@
         "confusables": "though（虽然/不过）/ although（虽然，更正式，不放句末）/ even though（即便，语气更强）"
       }
     },
+    "greatness": {
+      "phonetic": "/ˈɡreɪtnəs/",
+      "pos": "n.",
+      "sense": "伟大（不可数）",
+      "collocations": [
+        "an obstacle to greatness",
+        "achieve greatness"
+      ],
+      "examples": [
+        "It was an obstacle to greatness. 那是通往伟大的一个障碍。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "greatness（伟大）/ great（伟大的）"
+      }
+    },
     "overcome": {
       "phonetic": "/ˌəʊvəˈkʌm/",
       "pos": "v.",
@@ -5200,6 +5263,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "power（权力/力量）/ strength（体力）"
+      }
+    },
+    "jumping": {
+      "phonetic": "/ˈdʒʌmpɪŋ/",
+      "pos": "v./n.",
+      "sense": "jump 的现在分词；跳跃（不可数）",
+      "lemma": "jump",
+      "collocations": [
+        "jumping ability",
+        "jumping to conclusions"
+      ],
+      "examples": [
+        "His jumping ability carried him to the title. 他的跳跃能力把他带向冠军。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "jumping（跳跃）/ jump（跳/猛涨）"
       }
     },
     "ability": {
@@ -5390,6 +5470,23 @@
         "confusables": "second（第二/秒）/ secondly（第二点）/ secondary（次要的）"
       }
     },
+    "firsts": {
+      "phonetic": "/fɜːsts/",
+      "pos": "n.",
+      "sense": "第一名（first 的复数，名词化用法）",
+      "lemma": "first",
+      "collocations": [
+        "successive firsts",
+        "score firsts"
+      ],
+      "examples": [
+        "He took successive firsts. 他连续夺冠。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "firsts（第一名，名词化）/ first（第一）"
+      }
+    },
     "since": {
       "phonetic": "/sɪns/",
       "pos": "conj./prep./adv.",
@@ -5405,6 +5502,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "since（自从/因为）/ for（持续一段时间）/ from（起点）"
+      }
+    },
+    "grace": {
+      "phonetic": "/ɡreɪs/",
+      "pos": "n.",
+      "sense": "优雅（不可数）；恩惠",
+      "collocations": [
+        "with grace",
+        "spirit and grace"
+      ],
+      "examples": [
+        "His spirit and grace charmed fans. 他的精神与优雅迷住了粉丝。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "grace（优雅）/ graceful（优雅的）/ gracious（亲切的）"
       }
     },
     "already": {
@@ -5457,6 +5570,23 @@
         "confusables": "charm（魅力/使着迷）/ charming（迷人的）/ charm 也指护身符"
       }
     },
+    "leagues": {
+      "phonetic": "/liːɡz/",
+      "pos": "n.",
+      "sense": "联盟（league 的复数）；leagues of（大批的）",
+      "lemma": "league",
+      "collocations": [
+        "leagues of fans",
+        "in league with"
+      ],
+      "examples": [
+        "He charmed leagues of Grand National fans. 他迷住了大批全国大赛粉丝。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "leagues（联盟/大批）/ league（联赛/联盟）"
+      }
+    },
     "fans": {
       "phonetic": "/fænz/",
       "pos": "n.",
@@ -5507,6 +5637,24 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "years（复数）/ year（单数）"
+      }
+    },
+    "lost": {
+      "phonetic": "/lɒst/",
+      "pos": "v./adj.",
+      "sense": "lose 的过去式/过去分词；迷失的",
+      "lemma": "lose",
+      "collocations": [
+        "lost out on",
+        "lost sight of",
+        "get lost"
+      ],
+      "examples": [
+        "He lost out on the title twice. 他两次与冠军失之交臂。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lose out on（在……上失利）/ lost（失去的）"
       }
     },
     "coming": {
@@ -5680,6 +5828,23 @@
         "confusables": "remarkable（非凡的）/ remarkably（显著地）/ remark（评论）"
       }
     },
+    "lengths": {
+      "phonetic": "/leŋθs/",
+      "pos": "n.",
+      "sense": "长度（length 的复数）；马身（赛马术语）",
+      "lemma": "length",
+      "collocations": [
+        "25 lengths ahead",
+        "at length"
+      ],
+      "examples": [
+        "He came in 25 lengths ahead. 他领先 25 个马身冲线。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lengths（长度/马身）/ length（长度）"
+      }
+    },
     "ahead": {
       "phonetic": "/əˈhed/",
       "pos": "adv.",
@@ -5765,6 +5930,58 @@
         "confusables": "every day（每天，状语）/ everyday（日常的，形容词）"
       }
     },
+    "known": {
+      "phonetic": "/nəʊn/",
+      "pos": "v./adj.",
+      "sense": "know 的过去分词；已知的、知名的",
+      "lemma": "know",
+      "collocations": [
+        "be known as",
+        "well known",
+        "known to"
+      ],
+      "examples": [
+        "His third win is known as one of the greatest moments. 他的第三次夺冠被认为是最伟大时刻之一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be known as（被称为）/ be known for（因……闻名）"
+      }
+    },
+    "greatest": {
+      "phonetic": "/ˈɡreɪtɪst/",
+      "pos": "adj.",
+      "sense": "最伟大的（great 的最高级）",
+      "lemma": "great",
+      "collocations": [
+        "one of the greatest",
+        "the greatest moment"
+      ],
+      "examples": [
+        "It is one of the greatest moments in racing history. 这是赛马史上最伟大的时刻之一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "greatest（最伟大）/ great（伟大的）/ the greatest（加 the）"
+      }
+    },
+    "headed": {
+      "phonetic": "/ˈhedɪd/",
+      "pos": "v./adj.",
+      "sense": "head 的过去式/过去分词；（be headed for）前往、走向",
+      "lemma": "head",
+      "collocations": [
+        "be headed for",
+        "headed by"
+      ],
+      "examples": [
+        "He was headed for the big race. 他正朝着那场大赛去。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be headed for（朝……去）/ headed by（由……领导）"
+      }
+    },
     "once": {
       "phonetic": "/wʌns/",
       "pos": "adv./conj.",
@@ -5780,6 +5997,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "at once（立即/一次性）/ once（一次/一旦）"
+      }
+    },
+    "injury": {
+      "phonetic": "/ˈɪndʒəri/",
+      "pos": "n.",
+      "sense": "伤、损伤（可数）",
+      "collocations": [
+        "suffer an injury",
+        "a serious injury"
+      ],
+      "examples": [
+        "He suffered an injury before the race. 赛前他受了伤。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "injury（伤）/ injure（伤害）/ injured（受伤的）"
+      }
+    },
+    "heels": {
+      "phonetic": "/hiːlz/",
+      "pos": "n.",
+      "sense": "脚后跟、蹄踵（heel 的复数）",
+      "lemma": "heel",
+      "collocations": [
+        "injury in his heels",
+        "high heels"
+      ],
+      "examples": [
+        "He injured one of his heels. 他伤了一只蹄踵。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "heels（蹄踵/脚后跟）/ heal（治愈）同音"
       }
     },
     "soon": {
@@ -5814,6 +6064,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "life（单数）/ lives（复数，注意拼写）"
+      }
+    },
+    "fame": {
+      "phonetic": "/feɪm/",
+      "pos": "n.",
+      "sense": "名声（不可数）",
+      "collocations": [
+        "rise to fame",
+        "fame and fortune"
+      ],
+      "examples": [
+        "His fame did not decrease after retirement. 退役后他的名气并未减少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fame（名声）/ famous（著名的）/ reputation（声誉）"
       }
     },
     "means": {
@@ -5902,6 +6168,24 @@
         "confusables": "often（经常）/ always（总是）/ usually（通常）"
       }
     },
+    "led": {
+      "phonetic": "/led/",
+      "pos": "v.",
+      "sense": "lead 的过去式与过去分词（带领、导致）",
+      "lemma": "lead",
+      "collocations": [
+        "led to",
+        "led a parade",
+        "was led by"
+      ],
+      "examples": [
+        "He often led pre-race parades. 他常领衔赛前巡游。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "led（过去式）/ lead（原形；也指铅）"
+      }
+    },
     "aintree": {
       "phonetic": "/ˈeɪntriː/",
       "pos": "n.（专有名词）",
@@ -5915,6 +6199,22 @@
       "isCet4HighFreq": false,
       "more": {
         "confusables": "专有名词，首字母大写"
+      }
+    },
+    "guest": {
+      "phonetic": "/ɡest/",
+      "pos": "n.",
+      "sense": "客人、嘉宾（可数）",
+      "collocations": [
+        "a popular guest",
+        "guest speaker"
+      ],
+      "examples": [
+        "He was a popular guest at charity events. 他是慈善活动上受欢迎的嘉宾。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "guest（客人）/ host（主人）/ visitor（访客）"
       }
     },
     "charity": {

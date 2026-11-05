@@ -4425,6 +4425,22 @@
         "confusables": "system（系统）/ systematic（系统的）/ systemic（全身的/体制性的）"
       }
     },
+    "execute": {
+      "phonetic": "/ˈeksɪkjuːt/",
+      "pos": "v.",
+      "sense": "执行、实施；处决",
+      "collocations": [
+        "execute a plan",
+        "execute orders"
+      ],
+      "examples": [
+        "They executed the plan carefully. 他们谨慎执行了计划。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "execute（执行）/ execution（执行）/ executive（高管）"
+      }
+    },
     "however": {
       "phonetic": "/haʊˈevə(r)/",
       "pos": "adv./conj.",
@@ -4543,6 +4559,23 @@
         "confusables": "according to（根据，后接来源）/ because of（因为）"
       }
     },
+    "experts": {
+      "phonetic": "/ˈekspɜːts/",
+      "pos": "n.",
+      "sense": "专家（expert 的复数）",
+      "lemma": "expert",
+      "collocations": [
+        "experts say",
+        "a panel of experts"
+      ],
+      "examples": [
+        "Experts disagree about the cause. 专家对成因看法不一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "experts（专家）/ expertise（专业知识）"
+      }
+    },
     "brains": {
       "phonetic": "/breɪnz/",
       "pos": "n.",
@@ -4558,6 +4591,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "brains（大脑）/ brain（单数）"
+      }
+    },
+    "handle": {
+      "phonetic": "/ˈhændl/",
+      "pos": "v./n.",
+      "sense": "处理（及物）；把手（名词）",
+      "collocations": [
+        "handle a problem",
+        "handle stress"
+      ],
+      "examples": [
+        "Kids must learn to handle online conflict. 孩子必须学会处理网上冲突。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "handle（处理）/ deal with（应对）/ cope with（应付）"
       }
     },
     "multitasking": {
@@ -5103,6 +5152,23 @@
         "confusables": "actually（实际上）/ currently（目前）/ in fact（事实上）"
       }
     },
+    "handling": {
+      "phonetic": "/ˈhændlɪŋ/",
+      "pos": "n./v.",
+      "sense": "处理（不可数）；handle 的现在分词",
+      "lemma": "handle",
+      "collocations": [
+        "handling conflict",
+        "handling of"
+      ],
+      "examples": [
+        "Handling social media well is a skill. 善用社交媒体是一种技能。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "handling（处理）/ handle（处理）"
+      }
+    },
     "several": {
       "phonetic": "/ˈsevrəl/",
       "pos": "adj./pron.",
@@ -5394,6 +5460,22 @@
         "confusables": "set up（建立）/ set off（出发/引发）/ set out（着手）"
       }
     },
+    "frame": {
+      "phonetic": "/freɪm/",
+      "pos": "n./v.",
+      "sense": "框架（可数）；构架 / 表达、构建（动词）",
+      "collocations": [
+        "frame a question",
+        "a frame of reference"
+      ],
+      "examples": [
+        "How we frame the issue matters. 我们如何界定这个问题很重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "frame（框架/构建）/ framework（框架体系）"
+      }
+    },
     "companies": {
       "phonetic": "/ˈkʌmpəniz/",
       "pos": "n.",
@@ -5479,6 +5561,22 @@
         "confusables": "easier（更容易）/ easiest（最容易）"
       }
     },
+    "fluid": {
+      "phonetic": "/ˈfluːɪd/",
+      "pos": "adj./n.",
+      "sense": "流动的、不固定的；流体（可数/不可数）",
+      "collocations": [
+        "fluid situation",
+        "body fluids"
+      ],
+      "examples": [
+        "The situation is still fluid. 局势仍在变化中。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fluid（流动的）/ fluent（流利的）"
+      }
+    },
     "organisations": {
       "phonetic": "/ˌɔːɡənaɪˈzeɪʃnz/",
       "pos": "n.",
@@ -5494,6 +5592,38 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "organisation（英式）/ organization（美式）/ organise（组织）"
+      }
+    },
+    "favour": {
+      "phonetic": "/ˈfeɪvə(r)/",
+      "pos": "n./v.",
+      "sense": "恩惠、支持（英式拼写）；偏袒",
+      "collocations": [
+        "in favour of",
+        "do sb a favour"
+      ],
+      "examples": [
+        "Most voters are in favour of the change. 多数选民支持这一改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "favour（英式）/ favor（美式）/ in favour of（支持）"
+      }
+    },
+    "flexibility": {
+      "phonetic": "/ˌfleksəˈbɪləti/",
+      "pos": "n.",
+      "sense": "灵活性（不可数）",
+      "collocations": [
+        "flexibility in",
+        "job flexibility"
+      ],
+      "examples": [
+        "Flexibility at work helps parents. 工作中的灵活性对父母有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "flexibility（灵活性）/ flexible（灵活的）"
       }
     },
     "working": {
@@ -5563,6 +5693,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "efficient（高效的）/ effective（有效的）/ efficiency（效率）"
+      }
+    },
+    "increases": {
+      "phonetic": "/ɪnˈkriːsɪz/",
+      "pos": "v./n.",
+      "sense": "increase 的第三人称单数（增加）；增加（复数）",
+      "lemma": "increase",
+      "collocations": [
+        "increases with",
+        "sharp increases"
+      ],
+      "examples": [
+        "Satisfaction increases with flexibility. 满意度随弹性而提高。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increases（三单/复数）/ increase（原形/单数）"
       }
     },
     "number": {

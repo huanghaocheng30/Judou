@@ -1,0 +1,587 @@
+{
+  "geographic": {
+    "phonetic": "/ˌdʒiːəˈɡræfɪk/", "pos": "adj.", "sense": "地理的、地理上的",
+    "collocations": ["geographic area", "geographic distribution"],
+    "examples": ["The shift is geographic as well as social. 这一转变既是社会的也是地理的。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "geographic（地理的）/ geographical（同义，更常用）/ geography（地理学）" }
+  },
+  "georgetown": {
+    "phonetic": "/ˈdʒɔːdʒtaʊn/", "pos": "n.（专有名词）", "sense": "乔治敦（Georgetown University 乔治敦大学）",
+    "collocations": ["Georgetown University"],
+    "examples": ["Researchers at Georgetown studied the trend. 乔治敦大学的研究者研究了这一趋势。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "gets": {
+    "phonetic": "/ɡets/", "pos": "v.", "sense": "get 的第三人称单数（得到、变得）",
+    "lemma": "get",
+    "collocations": ["gets older", "gets better"],
+    "examples": ["As the child gets older, reading changes. 孩子越大，阅读情况会变。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "gets（三单）/ get（原形）/ got（过去式）" }
+  },
+  "glacial": {
+    "phonetic": "/ˈɡleɪʃl/", "pos": "adj.", "sense": "冰川的；极慢的",
+    "collocations": ["glacial period", "glacial pace"],
+    "examples": ["Change has been glacial. 变化极其缓慢。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "glacial（冰川的/极慢的）/ glacier（冰川）" }
+  },
+  "global": {
+    "phonetic": "/ˈɡləʊbl/", "pos": "adj.", "sense": "全球的、全世界的；整体的",
+    "collocations": ["global warming", "global market"],
+    "examples": ["Food is a global commodity. 粮食是全球性商品。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "global（全球的）/ worldwide（世界范围的）/ globe（地球）" }
+  },
+  "globally": {
+    "phonetic": "/ˈɡləʊbli/", "pos": "adv.", "sense": "全球地、在世界范围内",
+    "collocations": ["globally, ...", "compete globally"],
+    "examples": ["Prices are set globally. 价格在全球范围内确定。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "globally（全球地）/ global（全球的）" }
+  },
+  "golden": {
+    "phonetic": "/ˈɡəʊldən/", "pos": "adj.", "sense": "金色的；黄金般的、极好的",
+    "collocations": ["golden age", "golden opportunity"],
+    "examples": ["The golden age of print is over. 印刷的黄金时代已过。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "golden（金色的/极好的）/ gold（金子）" }
+  },
+  "government": {
+    "phonetic": "/ˈɡʌvənmənt/", "pos": "n.", "sense": "政府（可数/不可数）",
+    "collocations": ["the government", "government policy"],
+    "examples": ["Government policy shapes childcare costs. 政府政策影响育儿成本。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "government（政府）/ govern（治理）/ governance（治理）" }
+  },
+  "grace": {
+    "phonetic": "/ɡreɪs/", "pos": "n.", "sense": "优雅（不可数）；恩惠",
+    "collocations": ["with grace", "spirit and grace"],
+    "examples": ["His spirit and grace charmed fans. 他的精神与优雅迷住了粉丝。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "grace（优雅）/ graceful（优雅的）/ gracious（亲切的）" }
+  },
+  "grammatical": {
+    "phonetic": "/ɡrəˈmætɪkl/", "pos": "adj.", "sense": "语法的；合乎语法的",
+    "collocations": ["grammatical sentences", "grammatical error"],
+    "examples": ["They wrote more grammatical sentences. 他们写出更合语法的句子。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "grammatical（合乎语法的）/ grammar（语法）/ ungrammatical（不合语法的）" }
+  },
+  "greatest": {
+    "phonetic": "/ˈɡreɪtɪst/", "pos": "adj.", "sense": "最伟大的（great 的最高级）",
+    "lemma": "great",
+    "collocations": ["one of the greatest", "the greatest moment"],
+    "examples": ["It is one of the greatest moments in racing history. 这是赛马史上最伟大的时刻之一。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "greatest（最伟大）/ great（伟大的）/ the greatest（加 the）" }
+  },
+  "greatness": {
+    "phonetic": "/ˈɡreɪtnəs/", "pos": "n.", "sense": "伟大（不可数）",
+    "collocations": ["an obstacle to greatness", "achieve greatness"],
+    "examples": ["It was an obstacle to greatness. 那是通往伟大的一个障碍。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "greatness（伟大）/ great（伟大的）" }
+  },
+  "grow": {
+    "phonetic": "/ɡrəʊ/", "pos": "v.", "sense": "生长、增长（不及物）；种植（及物）；变得",
+    "collocations": ["grow crops", "grow up", "grow older"],
+    "examples": ["They grow crops for export. 他们种植出口作物。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "grow（生长/种植）/ grow up（长大）/ increase（增加）" }
+  },
+  "growing": {
+    "phonetic": "/ˈɡrəʊɪŋ/", "pos": "adj./v.", "sense": "增长的、日益增长的；grow 的现在分词",
+    "lemma": "grow",
+    "collocations": ["a growing body of research", "growing concern"],
+    "examples": ["A growing body of research supports this. 越来越多的研究支持这一点。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "growing（增长的）/ grown（长大的）" }
+  },
+  "grown": {
+    "phonetic": "/ɡrəʊn/", "pos": "v./adj.", "sense": "grow 的过去分词；成年的",
+    "lemma": "grow",
+    "collocations": ["have grown", "a grown man"],
+    "examples": ["Essays have grown longer. 文章变长了。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "grown（过去分词）/ grew（过去式）/ grown-up（成年人）" }
+  },
+  "growth": {
+    "phonetic": "/ɡrəʊθ/", "pos": "n.", "sense": "增长、生长（不可数）",
+    "collocations": ["economic growth", "growth in"],
+    "examples": ["Growth in screen use is clear. 屏幕使用的增长很明显。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "growth（增长）/ grow（生长）/ grow up（长大）" }
+  },
+  "guest": {
+    "phonetic": "/ɡest/", "pos": "n.", "sense": "客人、嘉宾（可数）",
+    "collocations": ["a popular guest", "guest speaker"],
+    "examples": ["He was a popular guest at charity events. 他是慈善活动上受欢迎的嘉宾。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "guest（客人）/ host（主人）/ visitor（访客）" }
+  },
+  "guided": {
+    "phonetic": "/ˈɡaɪdɪd/", "pos": "v./adj.", "sense": "guide 的过去式/过去分词（引导）；有引导的",
+    "lemma": "guide",
+    "collocations": ["be guided by", "guided tour"],
+    "examples": ["They are guided by an unknown force. 他们被未知力量引导。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "guided by（受……引导）/ guide（指南/引导）" }
+  },
+  "guidelines": {
+    "phonetic": "/ˈɡaɪdlaɪnz/", "pos": "n.", "sense": "准则、指导原则（guideline 的复数）",
+    "lemma": "guideline",
+    "collocations": ["follow guidelines", "issue guidelines"],
+    "examples": ["New guidelines were issued last month. 上个月发布了新准则。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "guidelines（准则）/ rules（规则）" }
+  },
+  "habit": {
+    "phonetic": "/ˈhæbɪt/", "pos": "n.", "sense": "习惯（可数）",
+    "collocations": ["form a habit", "break the habit", "out of habit"],
+    "examples": ["Reading habits change with age. 阅读习惯随年龄改变。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "habit（习惯）/ hobby（爱好）/ custom（习俗）" }
+  },
+  "handful": {
+    "phonetic": "/ˈhændfʊl/", "pos": "n.", "sense": "少数、一把（a handful of）",
+    "collocations": ["a handful of", "only a handful"],
+    "examples": ["Only a handful of firms changed policy. 只有少数公司改变了政策。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "a handful of（少数/一把）/ a few（几个）" }
+  },
+  "handle": {
+    "phonetic": "/ˈhændl/", "pos": "v./n.", "sense": "处理（及物）；把手（名词）",
+    "collocations": ["handle a problem", "handle stress"],
+    "examples": ["Kids must learn to handle online conflict. 孩子必须学会处理网上冲突。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "handle（处理）/ deal with（应对）/ cope with（应付）" }
+  },
+  "handling": {
+    "phonetic": "/ˈhændlɪŋ/", "pos": "n./v.", "sense": "处理（不可数）；handle 的现在分词",
+    "lemma": "handle",
+    "collocations": ["handling conflict", "handling of"],
+    "examples": ["Handling social media well is a skill. 善用社交媒体是一种技能。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "handling（处理）/ handle（处理）" }
+  },
+  "happen": {
+    "phonetic": "/ˈhæpən/", "pos": "v.", "sense": "发生（不及物）；碰巧（happen to do）",
+    "collocations": ["happen to", "what happened", "happen to do"],
+    "examples": ["Could the same thing happen to crops? 同样的事会发生在农作物上吗？"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "happen to sb（发生在某人身上）/ happen to do（碰巧）/ take place（发生，正式）" }
+  },
+  "happiness": {
+    "phonetic": "/ˈhæpinəs/", "pos": "n.", "sense": "幸福、快乐（不可数）",
+    "collocations": ["self-reported happiness", "a sense of happiness"],
+    "examples": ["Social ties predict happiness. 社会联系能预测幸福感。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "happiness（幸福）/ happy（快乐的）/ unhappiness（不快乐）" }
+  },
+  "harmful": {
+    "phonetic": "/ˈhɑːmfl/", "pos": "adj.", "sense": "有害的（be harmful to）",
+    "collocations": ["be harmful to", "harmful effects"],
+    "examples": ["Too much time online can be harmful. 上网时间过长可能有害。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "harmful（有害的）/ harmless（无害的）/ harm（损害）" }
+  },
+  "harvard": {
+    "phonetic": "/ˈhɑːvəd/", "pos": "n.（专有名词）", "sense": "哈佛（Harvard University 哈佛大学）",
+    "collocations": ["Harvard University"],
+    "examples": ["A Harvard study reached a similar conclusion. 一项哈佛研究得出类似结论。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "hasn't": {
+    "phonetic": "/ˈhæznt/", "pos": "缩略", "sense": "has not 的缩写",
+    "collocations": ["hasn't applied", "hasn't changed"],
+    "examples": ["That standard hasn't applied for a long time. 那套标准很久不适用了。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "hasn't（has not）/ haven't（have not）" }
+  },
+  "haunt": {
+    "phonetic": "/hɔːnt/", "pos": "v.", "sense": "（往事）困扰（及物）；常去（某地）",
+    "collocations": ["haunt them later", "be haunted by"],
+    "examples": ["Online posts may haunt them later. 网上帖子可能日后困扰他们。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "haunt（困扰/闹鬼）/ haunted（闹鬼的）" }
+  },
+  "headed": {
+    "phonetic": "/ˈhedɪd/", "pos": "v./adj.", "sense": "head 的过去式/过去分词；（be headed for）前往、走向",
+    "lemma": "head",
+    "collocations": ["be headed for", "headed by"],
+    "examples": ["He was headed for the big race. 他正朝着那场大赛去。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "be headed for（朝……去）/ headed by（由……领导）" }
+  },
+  "headlines": {
+    "phonetic": "/ˈhedlaɪnz/", "pos": "n.", "sense": "新闻标题（headline 的复数）",
+    "lemma": "headline",
+    "collocations": ["front-page headlines", "make headlines"],
+    "examples": ["The story made headlines. 这事上了头条。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "headlines（标题）/ headings（小标题）/ headline news（头条新闻）" }
+  },
+  "heat": {
+    "phonetic": "/hiːt/", "pos": "n./v.", "sense": "热、高温（不可数）/ 加热",
+    "collocations": ["heat waves", "in the heat of"],
+    "examples": ["Crops suffer in extreme heat. 作物在极端高温下受损。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "heat（热）/ hot（热的，形容词）/ heated（加热的/热烈的）" }
+  },
+  "heat-sensitive": {
+    "phonetic": "/ˌhiːt ˈsensətɪv/", "pos": "adj.", "sense": "对热敏感的",
+    "collocations": ["heat-sensitive crops"],
+    "examples": ["Heat-sensitive crops fail in droughts. 对热敏感的作物在干旱中歉收。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "heat-sensitive（对热敏感）/ sensitive to heat" }
+  },
+  "heat-tolerant": {
+    "phonetic": "/ˌhiːt ˈtɒlərənt/", "pos": "adj.", "sense": "耐热的",
+    "collocations": ["heat-tolerant varieties"],
+    "examples": ["Heat-tolerant varieties may help farmers. 耐热品种可能帮到农民。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "heat-tolerant（耐热的）/ heat-sensitive（对热敏感的）" }
+  },
+  "heavily": {
+    "phonetic": "/ˈhevɪli/", "pos": "adv.", "sense": "严重地；大量地；沉重地",
+    "collocations": ["heavily dependent", "rain heavily"],
+    "examples": ["Agriculture is heavily dependent on water. 农业严重依赖水。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "heavily（严重地/大量地）/ heavy（重的）" }
+  },
+  "heels": {
+    "phonetic": "/hiːlz/", "pos": "n.", "sense": "脚后跟、蹄踵（heel 的复数）",
+    "lemma": "heel",
+    "collocations": ["injury in his heels", "high heels"],
+    "examples": ["He injured one of his heels. 他伤了一只蹄踵。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "heels（蹄踵/脚后跟）/ heal（治愈）同音" }
+  },
+  "held": {
+    "phonetic": "/held/", "pos": "v.", "sense": "hold 的过去式与过去分词（握住、举行）",
+    "lemma": "hold",
+    "collocations": ["held a view", "held back"],
+    "examples": ["Long-held beliefs are changing. 长期持有的信念在改变。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "held（hold 的过去式）/ hold（原形）" }
+  },
+  "helped": {
+    "phonetic": "/helpt/", "pos": "v.", "sense": "help 的过去式/过去分词（帮助）",
+    "lemma": "help",
+    "collocations": ["helped put pressure on", "helped to"],
+    "examples": ["Legal cases helped put pressure on companies. 法律诉讼帮助向公司施压。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "helped（过去式）/ help（原形）" }
+  },
+  "highest": {
+    "phonetic": "/ˈhaɪɪst/", "pos": "adj.", "sense": "最高的（high 的最高级）",
+    "lemma": "high",
+    "collocations": ["the highest positions", "at the highest level"],
+    "examples": ["Women struggle to reach the highest positions. 女性难以进入最高职位。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "highest（最高）/ highest 前缀加 the" }
+  },
+  "hinder": {
+    "phonetic": "/ˈhɪndə(r)/", "pos": "v.", "sense": "阻碍、妨碍（及物）",
+    "collocations": ["hinder progress", "hinder sb from doing"],
+    "examples": ["Bias can hinder women's advancement. 偏见会阻碍女性晋升。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "hinder（阻碍）/ prevent（阻止）/ promote（促进）" }
+  },
+  "historic": {
+    "phonetic": "/hɪˈstɒrɪk/", "pos": "adj.", "sense": "历史性的、有重大意义的",
+    "collocations": ["a historic settlement", "a historic moment"],
+    "examples": ["They announced a historic settlement. 他们宣布了一项历史性和解。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "historic（历史性的）/ historical（与历史有关的）" }
+  },
+  "hits": {
+    "phonetic": "/hɪts/", "pos": "v./n.", "sense": "hit 的第三人称单数（打击）；热门（复数）",
+    "lemma": "hit",
+    "collocations": ["hits the target", "a hit"],
+    "examples": ["The drop in yields hits farmers hardest. 产量下降对农民打击最大。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "hits（三单）/ hit（原形，三态同形）" }
+  },
+  "hobbies": {
+    "phonetic": "/ˈhɒbiz/", "pos": "n.", "sense": "爱好（hobby 的复数）",
+    "lemma": "hobby",
+    "collocations": ["hobbies and interests", "take up hobbies"],
+    "examples": ["Hobbies vary by generation. 爱好因世代而异。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "hobbies（爱好）/ habits（习惯）" }
+  },
+  "hobbyists": {
+    "phonetic": "/ˈhɒbiɪsts/", "pos": "n.", "sense": "业余爱好者（hobbyist 的复数）",
+    "lemma": "hobbyist",
+    "collocations": ["amateur hobbyists", "tech hobbyists"],
+    "examples": ["Hobbyists share their work online. 业余爱好者在线分享作品。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "hobby（爱好）+ -ist（人）", "confusables": "hobbyists（爱好者）/ professionals（专业人士）" }
+  },
+  "hold": {
+    "phonetic": "/həʊld/", "pos": "v./n.", "sense": "握住、举行（三态：hold-held-held）；掌握（不可数）",
+    "collocations": ["hold a view", "get a hold of", "hold back"],
+    "examples": ["Radio gained an irresistible hold on children. 收音机不可抗拒地抓住了孩子。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "hold（握住/举行）/ catch（抓住）/ grasp（抓紧）" }
+  },
+  "homework": {
+    "phonetic": "/ˈhəʊmwɜːk/", "pos": "n.", "sense": "家庭作业（不可数）",
+    "collocations": ["do homework", "homework time"],
+    "examples": ["Switching tasks hurts homework quality. 来回切换损害作业质量。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "homework（不可数）/ housework（家务）" }
+  },
+  "homogeneity": {
+    "phonetic": "/ˌhəʊmədʒəˈniːəti/", "pos": "n.", "sense": "同质性、一致性（不可数）",
+    "collocations": ["social homogeneity", "cultural homogeneity"],
+    "examples": ["The group's homogeneity reduced debate. 该群体的同质性减少了争论。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "homo-（同）+ gene（种）+ -ity", "confusables": "homogeneity（同质性）/ homogeneous（同质的）/ heterogeneity（异质性）" }
+  },
+  "horrifying": {
+    "phonetic": "/ˈhɒrɪfaɪɪŋ/", "pos": "adj.", "sense": "令人惊恐的",
+    "collocations": ["horrifying to see", "a horrifying trend"],
+    "examples": ["It is quite horrifying to watch. 看着相当可怕。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "horrifying（令人惊恐的）/ horrified（感到惊恐的）" }
+  },
+  "horticulture": {
+    "phonetic": "/ˈhɔːtɪkʌltʃə(r)/", "pos": "n.", "sense": "园艺学（不可数）",
+    "collocations": ["horticulture industry", "study horticulture"],
+    "examples": ["Horticulture is adapting to warmer climates. 园艺正在适应更暖的气候。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "hortus（花园）+ culture（耕作）", "confusables": "horticulture（园艺）/ agriculture（农业）" }
+  },
+  "hot": {
+    "phonetic": "/hɒt/", "pos": "adj.", "sense": "热的；热门的",
+    "collocations": ["hot weather", "a hot topic"],
+    "examples": ["Hot weather reduces yields. 炎热天气降低产量。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "hot（热的）/ heat（热，名词）/ warm（温暖的）" }
+  },
+  "household": {
+    "phonetic": "/ˈhaʊshəʊld/", "pos": "n./adj.", "sense": "家庭（可数）；家用的（形容词）",
+    "collocations": ["household tasks", "household income"],
+    "examples": ["Household tasks are divided unevenly. 家务分配不均。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "household（家庭/家用的）/ housework（家务劳动）" }
+  },
+  "hr": {
+    "phonetic": "/ˌeɪtʃ ˈɑː(r)/", "pos": "n.（缩写）", "sense": "人力资源（Human Resources）；小时（hour 的缩写）",
+    "collocations": ["HR department", "2 hr"],
+    "examples": ["His HR department gave the answer. 他的人事部门给了答复。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "HR（人力资源）/ hr（小时）" }
+  },
+  "humanity": {
+    "phonetic": "/hjuːˈmænəti/", "pos": "n.", "sense": "人类（不可数）；人性",
+    "collocations": ["all of humanity", "a crime against humanity"],
+    "examples": ["Climate change affects all of humanity. 气候变化影响全人类。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "humanity（人类/人性）/ human（人/人类的）/ humanitarian（人道主义的）" }
+  },
+  "i'll": {
+    "phonetic": "/aɪl/", "pos": "缩略", "sense": "I will 的缩写",
+    "collocations": ["I'll try", "I'll be"],
+    "examples": ["I'll explain why in a moment. 我稍后解释原因。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "I'll（I will）/ I'd（I would/had）" }
+  },
+  "ideas": {
+    "phonetic": "/aɪˈdɪəz/", "pos": "n.", "sense": "想法（idea 的复数）",
+    "lemma": "idea",
+    "collocations": ["publish ideas", "share ideas"],
+    "examples": ["They publish ideas to the world. 他们向世界发布想法。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "ideas（想法）/ ideals（理想）" }
+  },
+  "identical": {
+    "phonetic": "/aɪˈdentɪkl/", "pos": "adj.", "sense": "完全相同的（be identical to/with）",
+    "collocations": ["virtually identical", "identical to"],
+    "examples": ["Error rates were virtually identical to today's. 错误率与今天几乎完全相同。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "identical to（与……相同）/ similar to（相似）" }
+  },
+  "identity": {
+    "phonetic": "/aɪˈdentəti/", "pos": "n.", "sense": "身份、认同（可数/不可数）",
+    "collocations": ["a key part of their identity", "identity crisis"],
+    "examples": ["Work is a key part of their identity. 工作是自我认同的关键部分。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "identity（身份）/ identification（识别）/ identify（识别）" }
+  },
+  "ignore": {
+    "phonetic": "/ɪɡˈnɔː(r)/", "pos": "v.", "sense": "忽视、不理（及物）",
+    "collocations": ["ignore the warning", "ignore advice"],
+    "examples": ["Ignoring instinct can also be costly. 忽视直觉也可能代价很高。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "ignore（忽视）/ neglect（疏忽）/ disregard（漠视）" }
+  },
+  "illegally": {
+    "phonetic": "/ɪˈliːɡəli/", "pos": "adv.", "sense": "非法地",
+    "collocations": ["illegally denied", "act illegally"],
+    "examples": ["They claim they were illegally denied leave. 他们称被非法拒绝休假。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "illegally（非法地）/ illegal（非法的）/ legally（合法地）" }
+  },
+  "illness": {
+    "phonetic": "/ˈɪlnəs/", "pos": "n.", "sense": "疾病、生病（可数/不可数）",
+    "collocations": ["illness recovery rates", "mental illness"],
+    "examples": ["Social ties improve illness recovery rates. 社会联系提高疾病康复率。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "illness（生病）/ disease（疾病）/ sick（生病的，形容词）" }
+  },
+  "impact": {
+    "phonetic": "/ˈɪmpækt/", "pos": "n./v.", "sense": "影响（可数）；冲击 / 影响（及物）",
+    "collocations": ["have an impact on", "environmental impact"],
+    "examples": ["Leave could have an impact on progress. 休假可能影响发展。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "have an impact on（对……有影响）/ affect（及物，不加 on）" }
+  },
+  "impacts": {
+    "phonetic": "/ˈɪmpækts/", "pos": "n./v.", "sense": "影响（impact 的复数）；影响（动词三单）",
+    "lemma": "impact",
+    "collocations": ["the impacts of", "it impacts"],
+    "examples": ["The impacts vary by region. 影响因地区而异。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "impacts（复数/三单）/ impact（单数/原形）" }
+  },
+  "implementing": {
+    "phonetic": "/ˈɪmplɪmentɪŋ/", "pos": "v.", "sense": "implement 的现在分词（实施、执行）",
+    "lemma": "implement",
+    "collocations": ["implementing a policy", "implementing change"],
+    "examples": ["Firms are implementing new leave policies. 公司正在实施新的休假政策。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "implementing（实施）/ implementation（实施，名词）/ implement（工具/实施）" }
+  },
+  "impractical": {
+    "phonetic": "/ɪmˈpræktɪkl/", "pos": "adj.", "sense": "不切实际的、行不通的",
+    "collocations": ["impractical to do", "highly impractical"],
+    "examples": ["Data is impractical in certain situations. 数据在某些情形下行不通。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "impractical（不切实际的）/ unpractical（罕用）/ practical（实用的）" }
+  },
+  "impulsive": {
+    "phonetic": "/ɪmˈpʌlsɪv/", "pos": "adj.", "sense": "冲动的",
+    "collocations": ["impulsive decisions", "an impulsive buy"],
+    "examples": ["Impulsive decisions often rely on instinct alone. 冲动决定往往只凭直觉。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "impulsive（冲动的）/ impetuous（鲁莽的）/ impulse（冲动）" }
+  },
+  "inclined": {
+    "phonetic": "/ɪnˈklaɪnd/", "pos": "adj./v.", "sense": "倾向于的（be inclined to do）；incline 的过去分词",
+    "lemma": "incline",
+    "collocations": ["be inclined to do", "feel inclined"],
+    "examples": ["They are inclined to trust data. 他们倾向于相信数据。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "be inclined to do（倾向于）/ tendency（倾向，名词）" }
+  },
+  "increases": {
+    "phonetic": "/ɪnˈkriːsɪz/", "pos": "v./n.", "sense": "increase 的第三人称单数（增加）；增加（复数）",
+    "lemma": "increase",
+    "collocations": ["increases with", "sharp increases"],
+    "examples": ["Satisfaction increases with flexibility. 满意度随弹性而提高。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "increases（三单/复数）/ increase（原形/单数）" }
+  },
+  "increasing": {
+    "phonetic": "/ɪnˈkriːsɪŋ/", "pos": "adj./v.", "sense": "不断增加的；increase 的现在分词",
+    "lemma": "increase",
+    "collocations": ["increasing numbers", "increasingly（注意区分）"],
+    "examples": ["An increasing number of firms offer leave. 越来越多的公司提供休假。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "increasing（不断增加的）/ increased（增加了的）/ increasingly（越来越）" }
+  },
+  "independence": {
+    "phonetic": "/ˌɪndɪˈpendəns/", "pos": "n.", "sense": "独立（不可数）",
+    "collocations": ["greater independence", "independence from"],
+    "examples": ["Greater independence reduces social media use. 更强的独立性会减少社交媒体使用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "independence（独立）/ independent（独立的）/ dependent（依赖的）" }
+  },
+  "india": {
+    "phonetic": "/ˈɪndiə/", "pos": "n.（专有名词）", "sense": "印度（南亚国家；Indian 印度的、印度人）",
+    "collocations": ["in India", "Indian"],
+    "examples": ["Crop losses are severe in India. 印度的作物损失严重。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "India（印度）/ Indian（印度的/印度人）" }
+  },
+  "indicate": {
+    "phonetic": "/ˈɪndɪkeɪt/", "pos": "v.", "sense": "表明、显示（indicate that）",
+    "collocations": ["indicate that", "results indicate"],
+    "examples": ["The data indicate a clear trend. 数据显示出明确趋势。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "indicate（表明）/ show（显示）/ indication（迹象）" }
+  },
+  "indication": {
+    "phonetic": "/ˌɪndɪˈkeɪʃn/", "pos": "n.", "sense": "迹象、指示（可数/不可数）",
+    "collocations": ["an indication of", "give an indication"],
+    "examples": ["There is no indication of decline. 没有下降的迹象。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "indication（迹象）/ indicator（指标）/ indicate（表明）" }
+  },
+  "indirectly": {
+    "phonetic": "/ˌɪndəˈrektli/", "pos": "adv.", "sense": "间接地",
+    "collocations": ["indirectly linked", "affect indirectly"],
+    "examples": ["Sleep is indirectly affected by screen use. 睡眠受屏幕使用的间接影响。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "indirectly（间接地）/ directly（直接地）" }
+  },
+  "influence": {
+    "phonetic": "/ˈɪnfluəns/", "pos": "n./v.", "sense": "影响（可数/不可数）/ 影响（及物）",
+    "collocations": ["have an influence on", "under the influence of"],
+    "examples": ["Peers influence behaviour strongly. 同伴对行为影响很大。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "influence（影响，较中性）/ affect（影响，动词）/ impact（冲击）" }
+  },
+  "influenced": {
+    "phonetic": "/ˈɪnfluənst/", "pos": "v.", "sense": "influence 的过去式/过去分词（影响）",
+    "lemma": "influence",
+    "collocations": ["be influenced by", "heavily influenced"],
+    "examples": ["Their choices are influenced by adults. 他们的选择受成年人影响。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "influenced（受影响）/ influencing（正在影响）" }
+  },
+  "informed": {
+    "phonetic": "/ɪnˈfɔːmd/", "pos": "adj./v.", "sense": "有依据的、知情的；inform 的过去式/过去分词",
+    "lemma": "inform",
+    "collocations": ["informed decisions", "keep sb informed"],
+    "examples": ["Data has long been linked to informed decisions. 数据长期与知情决策相关。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "informed（有依据的）/ informative（信息量大的）" }
+  },
+  "injury": {
+    "phonetic": "/ˈɪndʒəri/", "pos": "n.", "sense": "伤、损伤（可数）",
+    "collocations": ["suffer an injury", "a serious injury"],
+    "examples": ["He suffered an injury before the race. 赛前他受了伤。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "injury（伤）/ injure（伤害）/ injured（受伤的）" }
+  },
+  "inner": {
+    "phonetic": "/ˈɪnə(r)/", "pos": "adj.", "sense": "内在的、内心的；内部的",
+    "collocations": ["inner wisdom", "inner circle"],
+    "examples": ["Combine inner wisdom with data. 把内在判断与数据结合。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "inner（内在的）/ internal（内部的/体制内的）/ outer（外在的）" }
+  },
+  "insensible": {
+    "phonetic": "/ɪnˈsensəbl/", "pos": "adj.", "sense": "无感觉的；不明智的（罕用）",
+    "collocations": ["insensible to", "insensible loss"],
+    "examples": ["They seemed insensible to the risk. 他们似乎对风险无感。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "insensible（无感觉的）/ insensitive（不敏感的）/ sensible（明智的）" }
+  },
+  "insists": {
+    "phonetic": "/ɪnˈsɪsts/", "pos": "v.", "sense": "insist 的第三人称单数（坚持认为、坚决要求）",
+    "lemma": "insist",
+    "collocations": ["insists that", "insists on doing"],
+    "examples": ["The data insists that it should be done. 数据坚持认为应该做。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "insists on（坚持做）/ insists that（主张）" }
+  }
+}

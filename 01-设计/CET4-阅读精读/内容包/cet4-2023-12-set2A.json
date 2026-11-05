@@ -4149,6 +4149,23 @@
         "confusables": "rival（对手）/ rivalry（竞争关系）"
       }
     },
+    "keep": {
+      "phonetic": "/kiːp/",
+      "pos": "v.",
+      "sense": "保持（keep + adj./doing）；保留",
+      "collocations": [
+        "keep doing",
+        "keep up with",
+        "keep in mind"
+      ],
+      "examples": [
+        "They keep changing their settings. 他们不断修改自己的设置。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "keep doing（一直做）/ keep on doing（同义）/ keep up with（跟上）"
+      }
+    },
     "committed": {
       "phonetic": "/kəˈmɪtɪd/",
       "pos": "v./adj.",
@@ -4435,6 +4452,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "competitive（有竞争力的）/ competitor（竞争者）"
+      }
+    },
+    "hinder": {
+      "phonetic": "/ˈhɪndə(r)/",
+      "pos": "v.",
+      "sense": "阻碍、妨碍（及物）",
+      "collocations": [
+        "hinder progress",
+        "hinder sb from doing"
+      ],
+      "examples": [
+        "Bias can hinder women's advancement. 偏见会阻碍女性晋升。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "hinder（阻碍）/ prevent（阻止）/ promote（促进）"
       }
     },
     "effective": {
@@ -4758,6 +4791,22 @@
         "confusables": "level（水平/层次）/ standard（标准）/ degree（程度）"
       }
     },
+    "intently": {
+      "phonetic": "/ɪnˈtentli/",
+      "pos": "adv.",
+      "sense": "专注地、目不转睛地",
+      "collocations": [
+        "listen intently",
+        "stare intently"
+      ],
+      "examples": [
+        "They listened intently to the lecture. 他们专注地听讲座。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "intently（专注地）/ intent（意图/专注的）/ intense（强烈的）"
+      }
+    },
     "outperforming": {
       "phonetic": "/ˌaʊtpəˈfɔːmɪŋ/",
       "pos": "v.",
@@ -4844,6 +4893,22 @@
         "confusables": "cause（原因/导致）/ reason（理由）/ lead to（导致）"
       }
     },
+    "ignore": {
+      "phonetic": "/ɪɡˈnɔː(r)/",
+      "pos": "v.",
+      "sense": "忽视、不理（及物）",
+      "collocations": [
+        "ignore the warning",
+        "ignore advice"
+      ],
+      "examples": [
+        "Ignoring instinct can also be costly. 忽视直觉也可能代价很高。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "ignore（忽视）/ neglect（疏忽）/ disregard（漠视）"
+      }
+    },
     "achieve": {
       "phonetic": "/əˈtʃiːv/",
       "pos": "v.",
@@ -4910,6 +4975,40 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "for example（插入语，缩写 e.g.）/ such as（后接名词）"
+      }
+    },
+    "examined": {
+      "phonetic": "/ɪɡˈzæmɪnd/",
+      "pos": "v.",
+      "sense": "examine 的过去式/过去分词（检查、研究）",
+      "lemma": "examine",
+      "collocations": [
+        "examined the data",
+        "be examined"
+      ],
+      "examples": [
+        "Researchers examined hundreds of papers. 研究者检查了数百篇论文。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "examined（检查）/ examine（原形）/ examination（考试/检查）"
+      }
+    },
+    "link": {
+      "phonetic": "/lɪŋk/",
+      "pos": "n./v.",
+      "sense": "联系（可数）；链接 / 连接（link A to B）",
+      "collocations": [
+        "a link between",
+        "be linked to",
+        "link up"
+      ],
+      "examples": [
+        "There is a link between social ties and health. 社会联系与健康之间存在关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "link（联系/连接）/ connect（连接）/ connection（联系）"
       }
     },
     "behavior": {
@@ -5117,6 +5216,39 @@
         "confusables": "benefits（好处/福利）/ benefit（单数或动词）"
       }
     },
+    "loss": {
+      "phonetic": "/lɒs/",
+      "pos": "n.",
+      "sense": "损失、丧失（可数/不可数）",
+      "collocations": [
+        "loss of",
+        "at a loss",
+        "job losses"
+      ],
+      "examples": [
+        "Memory loss worried them. 记忆衰退让他们担心。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "loss（损失）/ lose（失去）/ lost（失去的）"
+      }
+    },
+    "integrity": {
+      "phonetic": "/ɪnˈteɡrəti/",
+      "pos": "n.",
+      "sense": "正直（不可数）；完整性",
+      "collocations": [
+        "personal integrity",
+        "data integrity"
+      ],
+      "examples": [
+        "Data integrity matters in research. 数据完整性在研究中很重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "integrity（正直/完整性）/ integrate（整合）/ integral（不可或缺的）"
+      }
+    },
     "long-term": {
       "phonetic": "/ˌlɒŋ ˈtɜːm/",
       "pos": "adj./adv.",
@@ -5166,6 +5298,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "creates（三单）/ create（原形）"
+      }
+    },
+    "excitement": {
+      "phonetic": "/ɪkˈsaɪtmənt/",
+      "pos": "n.",
+      "sense": "兴奋（不可数）",
+      "collocations": [
+        "in excitement",
+        "a sense of excitement"
+      ],
+      "examples": [
+        "The news caused great excitement. 这消息引起极大兴奋。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "excitement（兴奋）/ excited（兴奋的）/ exciting（令人兴奋的）"
       }
     },
     "drives": {
@@ -5254,6 +5402,38 @@
         "confusables": "make（制造/使）/ do（做，多指活动）"
       }
     },
+    "impulsive": {
+      "phonetic": "/ɪmˈpʌlsɪv/",
+      "pos": "adj.",
+      "sense": "冲动的",
+      "collocations": [
+        "impulsive decisions",
+        "an impulsive buy"
+      ],
+      "examples": [
+        "Impulsive decisions often rely on instinct alone. 冲动决定往往只凭直觉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "impulsive（冲动的）/ impetuous（鲁莽的）/ impulse（冲动）"
+      }
+    },
+    "insensible": {
+      "phonetic": "/ɪnˈsensəbl/",
+      "pos": "adj.",
+      "sense": "无感觉的；不明智的（罕用）",
+      "collocations": [
+        "insensible to",
+        "insensible loss"
+      ],
+      "examples": [
+        "They seemed insensible to the risk. 他们似乎对风险无感。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "insensible（无感觉的）/ insensitive（不敏感的）/ sensible（明智的）"
+      }
+    },
     "decisions": {
       "phonetic": "/dɪˈsɪʒnz/",
       "pos": "n.",
@@ -5339,6 +5519,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "making（现在分词）/ made（过去分词）"
+      }
+    },
+    "habit": {
+      "phonetic": "/ˈhæbɪt/",
+      "pos": "n.",
+      "sense": "习惯（可数）",
+      "collocations": [
+        "form a habit",
+        "break the habit",
+        "out of habit"
+      ],
+      "examples": [
+        "Reading habits change with age. 阅读习惯随年龄改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "habit（习惯）/ hobby（爱好）/ custom（习俗）"
       }
     },
     "engaging": {

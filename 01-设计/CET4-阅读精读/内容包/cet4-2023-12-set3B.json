@@ -4779,6 +4779,22 @@
         "confusables": "quite（相当）/ quiet（安静的）/ quit（退出）"
       }
     },
+    "horrifying": {
+      "phonetic": "/ˈhɒrɪfaɪɪŋ/",
+      "pos": "adj.",
+      "sense": "令人惊恐的",
+      "collocations": [
+        "horrifying to see",
+        "a horrifying trend"
+      ],
+      "examples": [
+        "It is quite horrifying to watch. 看着相当可怕。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "horrifying（令人惊恐的）/ horrified（感到惊恐的）"
+      }
+    },
     "see": {
       "phonetic": "/siː/",
       "pos": "v.",
@@ -4796,6 +4812,40 @@
         "confusables": "see（看见，无意）/ look at（看，有意）/ watch（观看，持续）"
       }
     },
+    "guided": {
+      "phonetic": "/ˈɡaɪdɪd/",
+      "pos": "v./adj.",
+      "sense": "guide 的过去式/过去分词（引导）；有引导的",
+      "lemma": "guide",
+      "collocations": [
+        "be guided by",
+        "guided tour"
+      ],
+      "examples": [
+        "They are guided by an unknown force. 他们被未知力量引导。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "guided by（受……引导）/ guide（指南/引导）"
+      }
+    },
+    "force": {
+      "phonetic": "/fɔːs/",
+      "pos": "n./v.",
+      "sense": "力量（不可数/可数）；强迫（force sb to do）",
+      "collocations": [
+        "force sb to do",
+        "a force for change",
+        "in force"
+      ],
+      "examples": [
+        "An unknown force seems to guide them. 似乎有未知力量在引导他们。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "force sb to do（强迫）/ make sb do（使）/ oblige（迫使，正式）"
+      }
+    },
     "really": {
       "phonetic": "/ˈrɪəli/",
       "pos": "adv.",
@@ -4811,6 +4861,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "really（真正地）/ real（形容词）/ actually（实际上）"
+      }
+    },
+    "let": {
+      "phonetic": "/let/",
+      "pos": "v.",
+      "sense": "让、允许（let sb do，不带 to）；出租",
+      "collocations": [
+        "let sb do",
+        "let alone",
+        "let go"
+      ],
+      "examples": [
+        "Let your instincts drive your decisions? 让直觉驱动你的决定吗？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "let sb do（不带 to）/ allow sb to do（带 to）"
       }
     },
     "drive": {
@@ -4964,6 +5031,24 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "simply（仅仅/简单地）/ simple（简单的）/ simplistic（过于简化的）"
+      }
+    },
+    "feeling": {
+      "phonetic": "/ˈfiːlɪŋ/",
+      "pos": "n./v.",
+      "sense": "感觉、感受（可数/不可数）；feel 的现在分词",
+      "lemma": "feel",
+      "collocations": [
+        "a feeling that",
+        "simply feeling",
+        "gut feeling"
+      ],
+      "examples": [
+        "Simply feeling that something is right is subjective. 仅凭感觉某事对，是主观的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "feeling（感受）/ feel（感觉）/ feel like（想要）"
       }
     },
     "something": {
@@ -5170,6 +5255,23 @@
         "confusables": "be associated with（相关）/ be caused by（因果）"
       }
     },
+    "informed": {
+      "phonetic": "/ɪnˈfɔːmd/",
+      "pos": "adj./v.",
+      "sense": "有依据的、知情的；inform 的过去式/过去分词",
+      "lemma": "inform",
+      "collocations": [
+        "informed decisions",
+        "keep sb informed"
+      ],
+      "examples": [
+        "Data has long been linked to informed decisions. 数据长期与知情决策相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "informed（有依据的）/ informative（信息量大的）"
+      }
+    },
     "reduce": {
       "phonetic": "/rɪˈdjuːs/",
       "pos": "v.",
@@ -5185,6 +5287,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "reduce（及物，减少某物）/ decrease（不及物，自身减少）/ lower（降低）"
+      }
+    },
+    "likelihood": {
+      "phonetic": "/ˈlaɪklihʊd/",
+      "pos": "n.",
+      "sense": "可能性（不可数）",
+      "collocations": [
+        "reduce the likelihood of",
+        "in all likelihood"
+      ],
+      "examples": [
+        "Data reduces the likelihood of errors. 数据降低出错的可能性。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "likelihood（可能性）/ likely（可能的）/ probability（概率）"
       }
     },
     "errors": {
@@ -5291,6 +5409,22 @@
         "confusables": "systematic（系统的）/ systemic（体制性的/全身的）"
       }
     },
+    "foundation": {
+      "phonetic": "/faʊnˈdeɪʃn/",
+      "pos": "n.",
+      "sense": "基础（不可数/可数）；基金会",
+      "collocations": [
+        "the foundation of",
+        "lay the foundation"
+      ],
+      "examples": [
+        "Data is the foundation of most decisions. 数据是多数决策的基础。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "foundation（基础/基金会）/ found（建立）"
+      }
+    },
     "alike": {
       "phonetic": "/əˈlaɪk/",
       "pos": "adj./adv.",
@@ -5373,6 +5507,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "feel like doing（想做）/ feel free to（随意做）"
+      }
+    },
+    "insists": {
+      "phonetic": "/ɪnˈsɪsts/",
+      "pos": "v.",
+      "sense": "insist 的第三人称单数（坚持认为、坚决要求）",
+      "lemma": "insist",
+      "collocations": [
+        "insists that",
+        "insists on doing"
+      ],
+      "examples": [
+        "The data insists that it should be done. 数据坚持认为应该做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "insists on（坚持做）/ insists that（主张）"
       }
     },
     "easy": {
@@ -5848,6 +5999,22 @@
         "confusables": "combining（现在分词，作主语时谓语用单数）/ combined（过去分词）"
       }
     },
+    "inner": {
+      "phonetic": "/ˈɪnə(r)/",
+      "pos": "adj.",
+      "sense": "内在的、内心的；内部的",
+      "collocations": [
+        "inner wisdom",
+        "inner circle"
+      ],
+      "examples": [
+        "Combine inner wisdom with data. 把内在判断与数据结合。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "inner（内在的）/ internal（内部的/体制内的）/ outer（外在的）"
+      }
+    },
     "knowledge": {
       "phonetic": "/ˈnɒlɪdʒ/",
       "pos": "n.",
@@ -5879,6 +6046,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "sometimes（有时）/ sometime（某个时候）/ some time（一段时间）"
+      }
+    },
+    "impractical": {
+      "phonetic": "/ɪmˈpræktɪkl/",
+      "pos": "adj.",
+      "sense": "不切实际的、行不通的",
+      "collocations": [
+        "impractical to do",
+        "highly impractical"
+      ],
+      "examples": [
+        "Data is impractical in certain situations. 数据在某些情形下行不通。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "impractical（不切实际的）/ unpractical（罕用）/ practical（实用的）"
       }
     },
     "employed": {
@@ -6034,6 +6217,23 @@
         "confusables": "novel（新颖的/小说）/ novelty（新奇）/ new（新的）"
       }
     },
+    "instances": {
+      "phonetic": "/ˈɪnstənsɪz/",
+      "pos": "n.",
+      "sense": "实例、情形（instance 的复数）",
+      "lemma": "instance",
+      "collocations": [
+        "are instances which",
+        "for instance"
+      ],
+      "examples": [
+        "These are instances which limit data use. 这些就是限制数据使用的情形。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "for instance（例如）/ instances（实例）"
+      }
+    },
     "limit": {
       "phonetic": "/ˈlɪmɪt/",
       "pos": "v./n.",
@@ -6049,6 +6249,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "limit（限制/限度）/ limited（有限的）/ limitation（局限）"
+      }
+    },
+    "feasible": {
+      "phonetic": "/ˈfiːzəbl/",
+      "pos": "adj.",
+      "sense": "可行的",
+      "collocations": [
+        "the only feasible option",
+        "technically feasible"
+      ],
+      "examples": [
+        "The only feasible option is to rely on instinct. 唯一可行的选择是依靠直觉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "feasible（可行的）/ possible（可能的）/ feasibility（可行性）"
       }
     },
     "tell": {
@@ -6151,6 +6367,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "become（变得/成为）/ get（变得，口语）/ turn（变成，强调转变结果）"
+      }
+    },
+    "favorite": {
+      "phonetic": "/ˈfeɪvərɪt/",
+      "pos": "adj./n.",
+      "sense": "最喜爱的（美式拼写）；最爱的人或物",
+      "collocations": [
+        "a favorite approach",
+        "my favorite"
+      ],
+      "examples": [
+        "It has become a favorite approach among leaders. 它已成为领导者青睐的方法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "favorite（美式）/ favourite（英式）"
       }
     },
     "leaders": {

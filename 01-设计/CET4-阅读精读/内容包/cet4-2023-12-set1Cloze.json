@@ -3832,6 +3832,22 @@
         "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
       }
     },
+    "low-intensity": {
+      "phonetic": "/ˌləʊ ɪnˈtensəti/",
+      "pos": "adj.",
+      "sense": "低强度的",
+      "collocations": [
+        "low-intensity exercise",
+        "low-intensity conflict"
+      ],
+      "examples": [
+        "Low-intensity exercise still helps. 低强度运动仍然有益。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "low-intensity（低强度）/ high-intensity（高强度）"
+      }
+    },
     "exercise": {
       "phonetic": "/ˈeksəsaɪz/",
       "pos": "n./v.",
@@ -4106,6 +4122,23 @@
         "confusables": "activity（活动）/ action（行动）/ act（行为）"
       }
     },
+    "guidelines": {
+      "phonetic": "/ˈɡaɪdlaɪnz/",
+      "pos": "n.",
+      "sense": "准则、指导原则（guideline 的复数）",
+      "lemma": "guideline",
+      "collocations": [
+        "follow guidelines",
+        "issue guidelines"
+      ],
+      "examples": [
+        "New guidelines were issued last month. 上个月发布了新准则。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "guidelines（准则）/ rules（规则）"
+      }
+    },
     "getting": {
       "phonetic": "/ˈɡetɪŋ/",
       "pos": "v.",
@@ -4224,6 +4257,22 @@
         "confusables": "national（国家的）/ native（本地的）"
       }
     },
+    "interview": {
+      "phonetic": "/ˈɪntəvjuː/",
+      "pos": "n./v.",
+      "sense": "访谈、面试（可数）/ 采访",
+      "collocations": [
+        "an interview with",
+        "job interview"
+      ],
+      "examples": [
+        "She conducted interviews with 200 teenagers. 她访谈了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "interview（访谈/面试）/ interviewer（采访者）/ interviewee（受访者）"
+      }
+    },
     "contrary": {
       "phonetic": "/ˈkɒntrəri/",
       "pos": "adj./n.",
@@ -4307,6 +4356,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "researcher（研究者）/ research（研究）"
+      }
+    },
+    "longevity": {
+      "phonetic": "/lɒnˈdʒevəti/",
+      "pos": "n.",
+      "sense": "长寿（不可数）；寿命",
+      "collocations": [
+        "human longevity",
+        "longevity research"
+      ],
+      "examples": [
+        "Social ties are linked to longevity. 社会联系与长寿相关。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "longus（长）+ aevum（时间）",
+        "confusables": "longevity（长寿）/ lifespan（寿命）"
       }
     },
     "benefits": {
@@ -4412,6 +4478,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "times（次数/时代）/ time（时间）"
+      }
+    },
+    "government": {
+      "phonetic": "/ˈɡʌvənmənt/",
+      "pos": "n.",
+      "sense": "政府（可数/不可数）",
+      "collocations": [
+        "the government",
+        "government policy"
+      ],
+      "examples": [
+        "Government policy shapes childcare costs. 政府政策影响育儿成本。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "government（政府）/ govern（治理）/ governance（治理）"
       }
     },
     "lower": {
@@ -4583,6 +4665,22 @@
         "confusables": "certain（某些/确定的）/ some（一些）/ sure（确信的，多作表语）"
       }
     },
+    "lifestyle": {
+      "phonetic": "/ˈlaɪfstaɪl/",
+      "pos": "n.",
+      "sense": "生活方式（可数）",
+      "collocations": [
+        "a healthy lifestyle",
+        "lifestyle change"
+      ],
+      "examples": [
+        "Small lifestyle changes matter. 生活方式的微小改变也很重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lifestyle（生活方式）/ life（生活）"
+      }
+    },
     "factors": {
       "phonetic": "/ˈfæktəz/",
       "pos": "n.",
@@ -4735,6 +4833,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "yet（尚/然而）/ already（已经）/ but（但是）"
+      }
+    },
+    "indication": {
+      "phonetic": "/ˌɪndɪˈkeɪʃn/",
+      "pos": "n.",
+      "sense": "迹象、指示（可数/不可数）",
+      "collocations": [
+        "an indication of",
+        "give an indication"
+      ],
+      "examples": [
+        "There is no indication of decline. 没有下降的迹象。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "indication（迹象）/ indicator（指标）/ indicate（表明）"
       }
     },
     "power": {

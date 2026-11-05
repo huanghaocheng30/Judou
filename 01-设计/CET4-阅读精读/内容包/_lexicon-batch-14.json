@@ -1,0 +1,665 @@
+{
+  "eventually": {
+    "phonetic": "/ɪˈventʃuəli/", "pos": "adv.", "sense": "最终、终于（强调结果）",
+    "collocations": ["eventually become", "eventually happen"],
+    "examples": ["Attitudes eventually shifted. 态度最终转变了。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "eventually（最终）/ finally（最后，强调顺序）/ in the end（最终）" }
+  },
+  "ever": {
+    "phonetic": "/ˈevə(r)/", "pos": "adv.", "sense": "曾经；在任何时候；究竟（疑问句）",
+    "collocations": ["ever since", "hardly ever", "the best ever"],
+    "examples": ["As ever, be careful about your own behaviour. 一如既往，注意自己的行为。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "ever（曾经）/ never（从不）/ ever since（自从）" }
+  },
+  "everyday": {
+    "phonetic": "/ˈevrideɪ/", "pos": "adj.", "sense": "日常的、平日的（作定语）",
+    "collocations": ["everyday life", "everyday behaviour"],
+    "examples": ["Everyday teenage behaviour is mostly ordinary. 青少年日常行为大多平常。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "everyday（日常的，形容词）/ every day（每天，状语）" }
+  },
+  "exact": {
+    "phonetic": "/ɪɡˈzækt/", "pos": "adj.", "sense": "精确的、确切的",
+    "collocations": ["the exact number", "to be exact"],
+    "examples": ["The exact figure is unknown. 确切数字未知。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "exact（精确的）/ exactly（恰好/完全）/ precise（精密的）" }
+  },
+  "examined": {
+    "phonetic": "/ɪɡˈzæmɪnd/", "pos": "v.", "sense": "examine 的过去式/过去分词（检查、研究）",
+    "lemma": "examine",
+    "collocations": ["examined the data", "be examined"],
+    "examples": ["Researchers examined hundreds of papers. 研究者检查了数百篇论文。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "examined（检查）/ examine（原形）/ examination（考试/检查）" }
+  },
+  "excitement": {
+    "phonetic": "/ɪkˈsaɪtmənt/", "pos": "n.", "sense": "兴奋（不可数）",
+    "collocations": ["in excitement", "a sense of excitement"],
+    "examples": ["The news caused great excitement. 这消息引起极大兴奋。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "excitement（兴奋）/ excited（兴奋的）/ exciting（令人兴奋的）" }
+  },
+  "execute": {
+    "phonetic": "/ˈeksɪkjuːt/", "pos": "v.", "sense": "执行、实施；处决",
+    "collocations": ["execute a plan", "execute orders"],
+    "examples": ["They executed the plan carefully. 他们谨慎执行了计划。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "execute（执行）/ execution（执行）/ executive（高管）" }
+  },
+  "executive": {
+    "phonetic": "/ɪɡˈzekjətɪv/", "pos": "n./adj.", "sense": "高管（可数）；行政的",
+    "collocations": ["chief executive", "executive decisions"],
+    "examples": ["She became a chief executive at 40. 她 40 岁成为首席执行官。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "executive（高管/行政的）/ execute（执行）" }
+  },
+  "exhibit": {
+    "phonetic": "/ɪɡˈzɪbɪt/", "pos": "v./n.", "sense": "表现出（及物）；展出 / 展品",
+    "collocations": ["exhibit behaviour", "an exhibit"],
+    "examples": ["Men tend to exhibit more of these behaviours. 男性往往表现出更多这类行为。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "exhibit（表现/展出）/ display（展示）/ show（显示）" }
+  },
+  "expands": {
+    "phonetic": "/ɪkˈspændz/", "pos": "v.", "sense": "expand 的第三人称单数（扩大）",
+    "lemma": "expand",
+    "collocations": ["expands the circle", "expands rapidly"],
+    "examples": ["Online chat expands their social circle. 网上聊天扩大了他们的社交圈。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "expands（三单）/ expand（原形）/ expend（花费）" }
+  },
+  "expansion": {
+    "phonetic": "/ɪkˈspænʃn/", "pos": "n.", "sense": "扩张、扩大（可数/不可数）",
+    "collocations": ["rapid expansion", "the expansion of"],
+    "examples": ["The expansion of digital media changed reading. 数字媒体的扩张改变了阅读。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "expansion（扩张）/ expand（扩大）/ expenditure（支出）" }
+  },
+  "expectation": {
+    "phonetic": "/ˌekspekˈteɪʃn/", "pos": "n.", "sense": "期待、期望（可数/不可数）",
+    "collocations": ["the unstated expectation", "meet expectations", "expectations for"],
+    "examples": ["There is an unstated expectation to return to work. 存在一种「马上返岗」的隐性期待。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "expectation（期望）/ expect（期待）/ expectancy（预期，如 life expectancy）" }
+  },
+  "expectations": {
+    "phonetic": "/ˌekspekˈteɪʃnz/", "pos": "n.", "sense": "期望（expectation 的复数）；管理者期待",
+    "lemma": "expectation",
+    "collocations": ["manager expectations", "high expectations"],
+    "examples": ["Manager expectations increased after childbirth. 生育后管理者期待增加。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "expectations（复数）/ expectation（单数）" }
+  },
+  "experts": {
+    "phonetic": "/ˈekspɜːts/", "pos": "n.", "sense": "专家（expert 的复数）",
+    "lemma": "expert",
+    "collocations": ["experts say", "a panel of experts"],
+    "examples": ["Experts disagree about the cause. 专家对成因看法不一。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "experts（专家）/ expertise（专业知识）" }
+  },
+  "explains": {
+    "phonetic": "/ɪkˈspleɪnz/", "pos": "v.", "sense": "explain 的第三人称单数（解释）",
+    "lemma": "explain",
+    "collocations": ["explains why", "explains that"],
+    "examples": ["The researcher explains why the gap persists. 研究者解释了差距为何持续。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "explains（三单）/ explain sth to sb（不是 explain sb sth）" }
+  },
+  "explanations": {
+    "phonetic": "/ˌekspləˈneɪʃnz/", "pos": "n.", "sense": "解释（explanation 的复数）",
+    "lemma": "explanation",
+    "collocations": ["possible explanations", "an explanation for"],
+    "examples": ["There are several explanations for the gap. 这一差距有几种解释。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "explanations（解释）/ explanation for（对……的解释）" }
+  },
+  "explored": {
+    "phonetic": "/ɪkˈsplɔːd/", "pos": "v.", "sense": "explore 的过去式/过去分词（探索、研究）",
+    "lemma": "explore",
+    "collocations": ["explored the issue", "explore options"],
+    "examples": ["The study explored how teens use media. 该研究探究了青少年如何使用媒介。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "explored（探索）/ explore（原形）/ exploration（探索）" }
+  },
+  "exploring": {
+    "phonetic": "/ɪkˈsplɔːrɪŋ/", "pos": "v.", "sense": "explore 的现在分词（探索）",
+    "lemma": "explore",
+    "collocations": ["exploring new ideas", "exploring how"],
+    "examples": ["They are exploring new ways to write. 他们正在探索新的写作方式。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "exploring（现在分词）/ explored（过去式）" }
+  },
+  "express": {
+    "phonetic": "/ɪkˈspres/", "pos": "v./adj.", "sense": "表达（及物）；快速的（express train）",
+    "collocations": ["express an opinion", "express oneself"],
+    "examples": ["They express ideas to the world. 他们向世界表达想法。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "express（表达）/ expression（表达/表情）/ expressive（有表现力的）" }
+  },
+  "extended": {
+    "phonetic": "/ɪkˈstendɪd/", "pos": "v./adj.", "sense": "extend 的过去式/过去分词（延长、扩展）；延长的",
+    "lemma": "extend",
+    "collocations": ["extended leave", "extended period"],
+    "examples": ["He was given extended leave. 他获得了延长的假期。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "extended（延长的）/ extensive（广泛的）" }
+  },
+  "extras": {
+    "phonetic": "/ˈekstrəz/", "pos": "n.", "sense": "额外的东西、附加项（extra 的复数）",
+    "lemma": "extra",
+    "collocations": ["pay for extras", "hidden extras"],
+    "examples": ["Flight extras add to the cost. 航班的附加项增加了成本。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "extras（附加项）/ extra（额外的）" }
+  },
+  "face-to-face": {
+    "phonetic": "/ˌfeɪs tə ˈfeɪs/", "pos": "adj./adv.", "sense": "面对面的；面对面地",
+    "collocations": ["face-to-face contact", "talk face to face"],
+    "examples": ["They still want face-to-face contact. 他们仍然需要面对面接触。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "face-to-face（定语，带连字符）/ face to face（状语，不带）" }
+  },
+  "facilities": {
+    "phonetic": "/fəˈsɪlətiz/", "pos": "n.", "sense": "设施（facility 的复数）",
+    "collocations": ["sports facilities", "public facilities"],
+    "examples": ["The school lacks facilities. 这所学校缺乏设施。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "facilities（设施）/ facility（设施；才能）" }
+  },
+  "fact-check": {
+    "phonetic": "/ˈfækt tʃek/", "pos": "v./n.", "sense": "核实事实（动词）；事实核查（名词）",
+    "collocations": ["fact-check information", "a fact-check"],
+    "examples": ["Pupils don't fact-check information online. 学生不在网上核实信息。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "fact-check（核实事实）/ cross-check（交叉核对）" }
+  },
+  "facts": {
+    "phonetic": "/fækts/", "pos": "n.", "sense": "事实（fact 的复数）",
+    "lemma": "fact",
+    "collocations": ["the facts are", "facts and figures"],
+    "examples": ["The facts are more positive than you might expect. 事实比你预想的更积极。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "facts（事实）/ fact（单数）" }
+  },
+  "fame": {
+    "phonetic": "/feɪm/", "pos": "n.", "sense": "名声（不可数）",
+    "collocations": ["rise to fame", "fame and fortune"],
+    "examples": ["His fame did not decrease after retirement. 退役后他的名气并未减少。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "fame（名声）/ famous（著名的）/ reputation（声誉）" }
+  },
+  "familiar": {
+    "phonetic": "/fəˈmɪliə(r)/", "pos": "adj.", "sense": "熟悉的（be familiar with）；常见的",
+    "collocations": ["be familiar with", "a familiar path", "familiar to"],
+    "examples": ["They take a familiar path. 他们走一条熟悉的路。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "be familiar with（某人熟悉某物）/ be familiar to（某物为某人所熟悉）" }
+  },
+  "farm": {
+    "phonetic": "/fɑːm/", "pos": "n./v.", "sense": "农场（可数）/ 务农",
+    "collocations": ["on a farm", "farm management", "farm work"],
+    "examples": ["General farm management can ease changes. 总体农场管理能缓解变化冲击。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "farm（农场）/ farmland（农田）/ farmer（农民）" }
+  },
+  "farms": {
+    "phonetic": "/fɑːmz/", "pos": "n./v.", "sense": "农场（farm 的复数）；务农（动词三单）",
+    "lemma": "farm",
+    "collocations": ["small farms", "family farms"],
+    "examples": ["Small farms are most vulnerable. 小农场最脆弱。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "farms（复数）/ farm（单数）" }
+  },
+  "farrant": {
+    "phonetic": "/ˈfærənt/", "pos": "n.（专有名词）", "sense": "法伦特（文中受访者/研究者姓氏）",
+    "collocations": ["Farrant says"],
+    "examples": ["Farrant describes the shift. 法伦特描述了这一转变。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "farrant's": {
+    "phonetic": "/ˈfærənts/", "pos": "n.（所有格）", "sense": "法伦特的（Farrant 的所有格）",
+    "lemma": "farrant",
+    "collocations": ["Farrant's study"],
+    "examples": ["Farrant's study found a clear pattern. 法伦特的研究发现了明确规律。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "所有格 's" }
+  },
+  "faster": {
+    "phonetic": "/ˈfɑːstə(r)/", "pos": "adj./adv.", "sense": "更快的（fast 的比较级）；更快地",
+    "lemma": "fast",
+    "collocations": ["faster than", "grow faster"],
+    "examples": ["Digital text travels faster. 数字文本传播更快。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "faster（更快）/ fastest（最快）" }
+  },
+  "fat": {
+    "phonetic": "/fæt/", "pos": "adj./n.", "sense": "胖的；脂肪（不可数）",
+    "collocations": ["low in fat", "body fat"],
+    "examples": ["Diets low in fat are not always healthier. 低脂饮食不一定更健康。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "fat（脂肪/胖）/ fatty（含脂肪的）" }
+  },
+  "father": {
+    "phonetic": "/ˈfɑːðə(r)/", "pos": "n.", "sense": "父亲（可数）",
+    "collocations": ["a father of two", "father and mother"],
+    "examples": ["He is the father of two. 他是两个孩子的父亲。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "father（父亲）/ further（更远的）" }
+  },
+  "favorite": {
+    "phonetic": "/ˈfeɪvərɪt/", "pos": "adj./n.", "sense": "最喜爱的（美式拼写）；最爱的人或物",
+    "collocations": ["a favorite approach", "my favorite"],
+    "examples": ["It has become a favorite approach among leaders. 它已成为领导者青睐的方法。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "favorite（美式）/ favourite（英式）" }
+  },
+  "favour": {
+    "phonetic": "/ˈfeɪvə(r)/", "pos": "n./v.", "sense": "恩惠、支持（英式拼写）；偏袒",
+    "collocations": ["in favour of", "do sb a favour"],
+    "examples": ["Most voters are in favour of the change. 多数选民支持这一改变。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "favour（英式）/ favor（美式）/ in favour of（支持）" }
+  },
+  "feared": {
+    "phonetic": "/fɪəd/", "pos": "v.", "sense": "fear 的过去式/过去分词（担心、害怕）",
+    "lemma": "fear",
+    "collocations": ["feared that", "feared it would"],
+    "examples": ["Both genders said they feared an impact. 两性都说担心受到影响。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "feared（过去式）/ fear（恐惧）" }
+  },
+  "fears": {
+    "phonetic": "/fɪəz/", "pos": "n./v.", "sense": "恐惧（fear 的复数）；担心（动词三单）",
+    "lemma": "fear",
+    "collocations": ["adult fears", "fears about"],
+    "examples": ["Panic has more to do with adult fears. 恐慌与成年人的恐惧关系更大。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "fears（恐惧）/ fear（单数/动词）" }
+  },
+  "feasible": {
+    "phonetic": "/ˈfiːzəbl/", "pos": "adj.", "sense": "可行的",
+    "collocations": ["the only feasible option", "technically feasible"],
+    "examples": ["The only feasible option is to rely on instinct. 唯一可行的选择是依靠直觉。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "feasible（可行的）/ possible（可能的）/ feasibility（可行性）" }
+  },
+  "featured": {
+    "phonetic": "/ˈfiːtʃəd/", "pos": "v.", "sense": "feature 的过去式/过去分词（以……为特色、包含）",
+    "lemma": "feature",
+    "collocations": ["featured a record number", "be featured in"],
+    "examples": ["The list featured a record 33 female CEOs. 榜单上创纪录地有 33 位女性 CEO。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "featured（以……为特色）/ feature（特征/专题）" }
+  },
+  "feeling": {
+    "phonetic": "/ˈfiːlɪŋ/", "pos": "n./v.", "sense": "感觉、感受（可数/不可数）；feel 的现在分词",
+    "lemma": "feel",
+    "collocations": ["a feeling that", "simply feeling", "gut feeling"],
+    "examples": ["Simply feeling that something is right is subjective. 仅凭感觉某事对，是主观的。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "feeling（感受）/ feel（感觉）/ feel like（想要）" }
+  },
+  "fellow": {
+    "phonetic": "/ˈfeləʊ/", "pos": "n./adj.", "sense": "同伴、研究员（可数）；同类的（形容词）",
+    "collocations": ["a research fellow", "fellow workers"],
+    "examples": ["She is a research fellow at Oxford. 她是牛津的研究员。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "fellow（同伴/研究员）/ follow（跟随）" }
+  },
+  "felt": {
+    "phonetic": "/felt/", "pos": "v.", "sense": "feel 的过去式与过去分词（感觉）",
+    "lemma": "feel",
+    "collocations": ["felt that", "felt like"],
+    "examples": ["They felt the policy had helped. 他们觉得政策起了作用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "felt（feel 的过去式）/ felt（毛毡）" }
+  },
+  "fertiliser": {
+    "phonetic": "/ˈfɜːtəlaɪzə(r)/", "pos": "n.", "sense": "肥料（英式拼写）",
+    "collocations": ["chemical fertiliser", "use fertiliser"],
+    "examples": ["Fertiliser use increased yields. 化肥使用提高了产量。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "fertiliser（英式）/ fertilizer（美式）/ fertile（肥沃的）" }
+  },
+  "fewer": {
+    "phonetic": "/ˈfjuːə(r)/", "pos": "adj./det.", "sense": "更少的（修饰可数名词复数）",
+    "lemma": "few",
+    "collocations": ["fewer than", "fewer people"],
+    "examples": ["Fewer kids are heavy readers. 更少的孩子是重度读者。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "fewer（更少，可数）/ less（更少，不可数）" }
+  },
+  "field": {
+    "phonetic": "/fiːld/", "pos": "n.", "sense": "领域；田野；场地（可数）",
+    "collocations": ["in the field of", "a field of study"],
+    "examples": ["She works in the field of education. 她在教育领域工作。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "field（领域/田野）/ area（地区/领域）" }
+  },
+  "figure": {
+    "phonetic": "/ˈfɪɡə(r)/", "pos": "n./v.", "sense": "数字（可数）；人物；体形 / 认为（figure that）",
+    "collocations": ["figures show", "a public figure", "figure out"],
+    "examples": ["The figures suggest a real change. 数字表明有真实变化。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "figure（数字/人物）/ number（数字）/ figure out（弄明白）" }
+  },
+  "filed": {
+    "phonetic": "/faɪld/", "pos": "v.", "sense": "file 的过去式/过去分词（提交、归档）",
+    "lemma": "file",
+    "collocations": ["filed a charge", "filed a lawsuit"],
+    "examples": ["He filed a discrimination charge. 他提起了歧视指控。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "file a charge（提起诉讼）/ file（文件）" }
+  },
+  "filled": {
+    "phonetic": "/fɪld/", "pos": "v.", "sense": "fill 的过去式/过去分词（充满、填写）",
+    "lemma": "fill",
+    "collocations": ["be filled with", "fill in"],
+    "examples": ["Newspapers are filled with such stories. 报纸充斥着这类报道。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "be filled with（充满）/ fill in（填写）" }
+  },
+  "finally": {
+    "phonetic": "/ˈfaɪnəli/", "pos": "adv.", "sense": "最后、终于（强调次序或结果）",
+    "collocations": ["finally, ...", "finally arrived"],
+    "examples": ["The law was finally passed. 法律终于通过。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "finally（最后）/ eventually（最终，强调结果）/ at last（终于）" }
+  },
+  "finds": {
+    "phonetic": "/faɪndz/", "pos": "v./n.", "sense": "find 的第三人称单数（发现）；发现（复数）",
+    "lemma": "find",
+    "collocations": ["research finds", "finds that"],
+    "examples": ["The research finds that kids behave better than feared. 研究发现孩子的表现比担心的更好。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "finds（三单/复数）/ find（原形/单数）" }
+  },
+  "firm": {
+    "phonetic": "/fɜːm/", "pos": "n./adj.", "sense": "公司（可数）；坚定的、牢固的（形容词）",
+    "collocations": ["set firm boundaries", "a law firm"],
+    "examples": ["Parents need to set firm boundaries. 家长需要设定明确的界限。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "firm（公司/坚定的）/ firmly（坚定地）" }
+  },
+  "firms": {
+    "phonetic": "/fɜːmz/", "pos": "n.", "sense": "公司（firm 的复数）",
+    "lemma": "firm",
+    "collocations": ["tech firms", "internet firms"],
+    "examples": ["Internet firms must erase the data. 互联网公司必须删除数据。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "firms（公司）/ companies（公司）" }
+  },
+  "first-year": {
+    "phonetic": "/ˌfɜːst ˈjɪə(r)/", "pos": "adj.", "sense": "第一年的（first-year students 大一学生）",
+    "collocations": ["first-year college papers", "first-year students"],
+    "examples": ["Studies of first-year college papers suggest nostalgia. 对大一论文的研究表明是怀旧。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "first-year（第一年的，定语）/ freshman（大一学生）" }
+  },
+  "firsts": {
+    "phonetic": "/fɜːsts/", "pos": "n.", "sense": "第一名（first 的复数，名词化用法）",
+    "lemma": "first",
+    "collocations": ["successive firsts", "score firsts"],
+    "examples": ["He took successive firsts. 他连续夺冠。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "firsts（第一名，名词化）/ first（第一）" }
+  },
+  "fitness": {
+    "phonetic": "/ˈfɪtnəs/", "pos": "n.", "sense": "健康、体能（不可数）；适合",
+    "collocations": ["fitness tracker", "physical fitness"],
+    "examples": ["Fitness tracker data was less predictive. 健身追踪器数据的预测力更弱。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "fitness（健康/适合）/ fit（适合/健康的）" }
+  },
+  "flexibility": {
+    "phonetic": "/ˌfleksəˈbɪləti/", "pos": "n.", "sense": "灵活性（不可数）",
+    "collocations": ["flexibility in", "job flexibility"],
+    "examples": ["Flexibility at work helps parents. 工作中的灵活性对父母有帮助。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "flexibility（灵活性）/ flexible（灵活的）" }
+  },
+  "flexible": {
+    "phonetic": "/ˈfleksəbl/", "pos": "adj.", "sense": "灵活的、弹性的",
+    "collocations": ["flexible arrangements", "flexible hours"],
+    "examples": ["They used flexible work arrangements. 他们使用了弹性工作安排。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "flexible（灵活的）/ rigid（僵化的）" }
+  },
+  "flights": {
+    "phonetic": "/flaɪts/", "pos": "n.", "sense": "航班（flight 的复数）",
+    "lemma": "flight",
+    "collocations": ["book flights", "domestic flights"],
+    "examples": ["Flight prices vary by passenger. 航班价格因乘客而异。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "flights（航班）/ flights of stairs（一段楼梯）" }
+  },
+  "fluid": {
+    "phonetic": "/ˈfluːɪd/", "pos": "adj./n.", "sense": "流动的、不固定的；流体（可数/不可数）",
+    "collocations": ["fluid situation", "body fluids"],
+    "examples": ["The situation is still fluid. 局势仍在变化中。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "fluid（流动的）/ fluent（流利的）" }
+  },
+  "fluidly": {
+    "phonetic": "/ˈfluːɪdli/", "pos": "adv.", "sense": "流畅地",
+    "collocations": ["write more fluidly", "move fluidly"],
+    "examples": ["Computers help students write more fluidly. 电脑帮学生写得更流畅。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "fluidly（流畅地）/ fluently（流利地，多指语言）" }
+  },
+  "focus": {
+    "phonetic": "/ˈfəʊkəs/", "pos": "v./n.", "sense": "聚焦于（focus on）；焦点（不可数/单数）",
+    "collocations": ["focus on", "the focus of", "shift focus"],
+    "examples": ["These behaviours focus on physical health. 这些行为聚焦于身体健康。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "focus on（聚焦）/ focus（焦点）/ focused（专注的）" }
+  },
+  "foodstuffs": {
+    "phonetic": "/ˈfuːdstʌfs/", "pos": "n.", "sense": "食品、食料（foodstuff 的复数）",
+    "lemma": "foodstuff",
+    "collocations": ["basic foodstuffs", "foodstuffs and crops"],
+    "examples": ["Crops and other foodstuffs may suffer. 农作物和其他食品可能受损。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "food（食物）+ stuff（材料）", "confusables": "foodstuffs（食品原料）/ foods（食品种类）" }
+  },
+  "foot": {
+    "phonetic": "/fʊt/", "pos": "n.", "sense": "脚（复数 feet）；底部；英尺",
+    "collocations": ["on foot", "at the foot of"],
+    "examples": ["The horse had a bone disease in his foot. 这匹马蹄部有骨病。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "foot（单数）/ feet（复数）/ on foot（步行）" }
+  },
+  "force": {
+    "phonetic": "/fɔːs/", "pos": "n./v.", "sense": "力量（不可数/可数）；强迫（force sb to do）",
+    "collocations": ["force sb to do", "a force for change", "in force"],
+    "examples": ["An unknown force seems to guide them. 似乎有未知力量在引导他们。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "force sb to do（强迫）/ make sb do（使）/ oblige（迫使，正式）" }
+  },
+  "forecasted": {
+    "phonetic": "/ˈfɔːkɑːstɪd/", "pos": "v.", "sense": "forecast 的过去式/过去分词（预测）",
+    "lemma": "forecast",
+    "collocations": ["forecasted losses", "be forecasted to"],
+    "examples": ["Losses were forecasted early. 损失很早被预测到。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "forecasted（预测，规则变形）/ forecast（不规则，三态同形也可）" }
+  },
+  "form": {
+    "phonetic": "/fɔːm/", "pos": "n./v.", "sense": "形式、种类（可数）；表格 / 形成",
+    "collocations": ["a form of", "in the form of", "fill in a form"],
+    "examples": ["Short forms such as \"u\" are rare. 像「u」这样的缩写很少见。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "form（形式/表格）/ shape（形状）" }
+  },
+  "formal": {
+    "phonetic": "/ˈfɔːml/", "pos": "adj.", "sense": "正式的；正规的",
+    "collocations": ["formal writing", "formal education"],
+    "examples": ["Teaching formal writing is still crucial. 教正式写作仍然关键。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "formal（正式的）/ informal（非正式的）/ formally（正式地）" }
+  },
+  "fortunately": {
+    "phonetic": "/ˈfɔːtʃənətli/", "pos": "adv.", "sense": "幸运的是",
+    "collocations": ["fortunately, ...", "fortunately for sb"],
+    "examples": ["Fortunately, there is some good news. 幸运的是，有好消息。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "fortunately（幸运的是）/ unfortunately（不幸的是）" }
+  },
+  "fortune": {
+    "phonetic": "/ˈfɔːtʃuːn/", "pos": "n.", "sense": "财富（可数/不可数）；运气",
+    "collocations": ["make a fortune", "good fortune"],
+    "examples": ["She made a fortune in tech. 她在科技业赚了大钱。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "fortune（财富/运气）/ fortunate（幸运的）" }
+  },
+  "foundation": {
+    "phonetic": "/faʊnˈdeɪʃn/", "pos": "n.", "sense": "基础（不可数/可数）；基金会",
+    "collocations": ["the foundation of", "lay the foundation"],
+    "examples": ["Data is the foundation of most decisions. 数据是多数决策的基础。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "foundation（基础/基金会）/ found（建立）" }
+  },
+  "frame": {
+    "phonetic": "/freɪm/", "pos": "n./v.", "sense": "框架（可数）；构架 / 表达、构建（动词）",
+    "collocations": ["frame a question", "a frame of reference"],
+    "examples": ["How we frame the issue matters. 我们如何界定这个问题很重要。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "frame（框架/构建）/ framework（框架体系）" }
+  },
+  "free": {
+    "phonetic": "/friː/", "pos": "adj./v.", "sense": "免费的；自由的；空闲的 / 释放",
+    "collocations": ["free time", "free of charge", "set free"],
+    "examples": ["The tool is currently free. 该工具目前免费。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "free（免费/自由）/ freely（自由地）/ freedom（自由）" }
+  },
+  "freedom": {
+    "phonetic": "/ˈfriːdəm/", "pos": "n.", "sense": "自由（可数/不可数）",
+    "collocations": ["freedom of speech", "give more freedom", "freedom from"],
+    "examples": ["As they get more freedom, they ease up on social media. 获得更多自由后，他们减少使用社交媒体。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "freedom（自由）/ free（自由的）/ liberty（自由，正式）" }
+  },
+  "frequent": {
+    "phonetic": "/ˈfriːkwənt/", "pos": "adj./v.", "sense": "频繁的（形容词）；常去（动词）",
+    "collocations": ["frequent use", "a frequent visitor"],
+    "examples": ["Frequent switching reduces accuracy. 频繁切换会降低准确性。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "frequent（频繁的）/ frequently（频繁地）/ frequency（频率）" }
+  },
+  "freshman": {
+    "phonetic": "/ˈfreʃmən/", "pos": "n./adj.", "sense": "大一新生（美式）；一年级的",
+    "collocations": ["freshman composition", "freshman year"],
+    "examples": ["Error rates in freshman composition papers are stable. 大一写作课论文错误率稳定。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "freshman（美式大一）/ first-year（英式同义）/ sophomore（大二）" }
+  },
+  "frightening": {
+    "phonetic": "/ˈfraɪtnɪŋ/", "pos": "adj.", "sense": "令人害怕的、吓人的",
+    "collocations": ["frightening accounts", "a frightening trend"],
+    "examples": ["Newspapers carry frightening accounts of addiction. 报纸刊登吓人的成瘾报道。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "frightening（令人害怕的，修饰物）/ frightened（感到害怕的，修饰人）" }
+  },
+  "front": {
+    "phonetic": "/frʌnt/", "pos": "n./adj.", "sense": "前面、前线（可数）；前面的 / 面向",
+    "collocations": ["in front of", "on this front", "front page"],
+    "examples": ["There is good news on this front. 这方面有好消息。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "in front of（在……前面）/ on this front（在这方面）" }
+  },
+  "fruition": {
+    "phonetic": "/fruˈɪʃn/", "pos": "n.", "sense": "（come to fruition）实现、结果实",
+    "collocations": ["come to fruition", "bring to fruition"],
+    "examples": ["Their efforts came to fruition. 他们的努力结出果实。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "come to fruition（实现）/ fruit（水果/成果）" }
+  },
+  "gain": {
+    "phonetic": "/ɡeɪn/", "pos": "v./n.", "sense": "获得、增加（及物）；增长（可数/不可数）",
+    "collocations": ["gain experience", "gain access", "a gain in"],
+    "examples": ["They gain experience with living online. 他们在网络生活中积累经验。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "gain（获得/增加）/ obtain（获得，正式）/ earn（挣得）" }
+  },
+  "gaining": {
+    "phonetic": "/ˈɡeɪnɪŋ/", "pos": "v.", "sense": "gain 的现在分词（获得、增长）",
+    "lemma": "gain",
+    "collocations": ["gaining a hold", "gaining access"],
+    "examples": ["Radio was gaining a hold on children. 收音机当时正抓住孩子。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "gaining（现在分词）/ gained（过去式）" }
+  },
+  "game": {
+    "phonetic": "/ɡeɪm/", "pos": "n.", "sense": "游戏、比赛（可数）",
+    "collocations": ["game playing", "video games"],
+    "examples": ["Too much game playing cuts into sleep. 游戏过多挤占睡眠。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "game（游戏）/ sport（体育运动）/ match（一场比赛）" }
+  },
+  "gather": {
+    "phonetic": "/ˈɡæðə(r)/", "pos": "v.", "sense": "收集、聚集（及物与不及物）",
+    "collocations": ["gather information", "gather data", "gather together"],
+    "examples": ["Computers help students gather information. 电脑帮学生收集信息。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "gather（收集/聚集）/ collect（收集）/ together（一起）" }
+  },
+  "gathered": {
+    "phonetic": "/ˈɡæðəd/", "pos": "v.", "sense": "gather 的过去式/过去分词（收集）",
+    "lemma": "gather",
+    "collocations": ["gathered data", "gathered together"],
+    "examples": ["She gathered data on error rates. 她收集了错误率数据。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "gathered（收集）/ gather（原形）" }
+  },
+  "gave": {
+    "phonetic": "/ɡeɪv/", "pos": "v.", "sense": "give 的过去式（给）",
+    "lemma": "give",
+    "collocations": ["gave rise to", "gave up"],
+    "examples": ["Work gave them a sense of achievement. 工作给他们成就感。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "gave（过去式）/ given（过去分词）/ give（原形）" }
+  },
+  "generally": {
+    "phonetic": "/ˈdʒenrəli/", "pos": "adv.", "sense": "通常、一般地；普遍地",
+    "collocations": ["generally speaking", "generally accepted"],
+    "examples": ["General management generally helps. 总体管理通常有帮助。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "generally（通常）/ in general（总的来说）/ general（总体的）" }
+  },
+  "generational": {
+    "phonetic": "/ˌdʒenəˈreɪʃənl/", "pos": "adj.", "sense": "代际的、一代人的",
+    "collocations": ["generational panic", "generational divide"],
+    "examples": ["New technologies always provoke generational panic. 新技术总是引发代际恐慌。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "generation（世代）+ -al", "confusables": "generational（代际的）/ generation（一代）" }
+  },
+  "generations": {
+    "phonetic": "/ˌdʒenəˈreɪʃnz/", "pos": "n.", "sense": "世代（generation 的复数）；一代人",
+    "lemma": "generation",
+    "collocations": ["two generations ago", "for generations"],
+    "examples": ["Compared with two generations ago, fewer kids read heavily. 与两代人前相比，重度阅读的孩子更少。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "generations（世代）/ generation（一代）" }
+  },
+  "generator": {
+    "phonetic": "/ˈdʒenəreɪtə(r)/", "pos": "n.", "sense": "发电机；产生者",
+    "collocations": ["power generator", "a generator of ideas"],
+    "examples": ["The backup generator started at once. 备用发电机立刻启动。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "generator（发电机/产生者）/ generate（产生）" }
+  },
+  "genes": {
+    "phonetic": "/dʒiːnz/", "pos": "n.", "sense": "基因（gene 的复数）",
+    "lemma": "gene",
+    "collocations": ["genes and environment", "gene editing"],
+    "examples": ["Genes alone do not decide behaviour. 基因本身不决定行为。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "genes（基因）/ jeans（牛仔裤）同音" }
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "instagram": {
+    "phonetic": "/ˈɪnstəɡræm/", "pos": "n.（专有名词）", "sense": "Instagram（照片社交平台）",
+    "collocations": ["on Instagram", "post on Instagram"],
+    "examples": ["They post a photo on Instagram, then delete it. 他们在 Instagram 发照片然后删掉。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "installing": {
+    "phonetic": "/ɪnˈstɔːlɪŋ/", "pos": "v.", "sense": "install 的现在分词（安装）",
+    "lemma": "install",
+    "collocations": ["installing software", "installing a system"],
+    "examples": ["They are installing new tracking tools. 他们正在安装新的追踪工具。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "installing（现在分词）/ installation（安装，名词）" }
+  },
+  "instances": {
+    "phonetic": "/ˈɪnstənsɪz/", "pos": "n.", "sense": "实例、情形（instance 的复数）",
+    "lemma": "instance",
+    "collocations": ["are instances which", "for instance"],
+    "examples": ["These are instances which limit data use. 这些就是限制数据使用的情形。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "for instance（例如）/ instances（实例）" }
+  },
+  "instant": {
+    "phonetic": "/ˈɪnstənt/", "pos": "adj./n.", "sense": "立即的、速溶的；瞬间（可数）",
+    "collocations": ["instant messaging", "in an instant"],
+    "examples": ["Instant messaging changed teen talk. 即时通讯改变了青少年说话方式。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "instant（立即的/瞬间）/ instantly（立即，副词）/ constant（不断的）" }
+  },
+  "instead": {
+    "phonetic": "/ɪnˈsted/", "pos": "adv.", "sense": "代替、反而（instead of 后接名词）",
+    "collocations": ["instead of", "instead, ..."],
+    "examples": ["Instead, they often ease up on social networking. 相反，他们常常减少使用社交网络。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "instead of（代替，介词短语）/ instead（反而，副词）" }
+  },
+  "institute": {
+    "phonetic": "/ˈɪnstɪtjuːt/", "pos": "n./v.", "sense": "研究所、学会（可数）/ 设立（动词）",
+    "collocations": ["research institute", "institute a policy"],
+    "examples": ["She works at the Oxford Internet Institute. 她在牛津互联网研究所工作。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "institute（研究所）/ institution（制度/机构）" }
+  },
+  "integrity": {
+    "phonetic": "/ɪnˈteɡrəti/", "pos": "n.", "sense": "正直（不可数）；完整性",
+    "collocations": ["personal integrity", "data integrity"],
+    "examples": ["Data integrity matters in research. 数据完整性在研究中很重要。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "integrity（正直/完整性）/ integrate（整合）/ integral（不可或缺的）" }
+  },
+  "intently": {
+    "phonetic": "/ɪnˈtentli/", "pos": "adv.", "sense": "专注地、目不转睛地",
+    "collocations": ["listen intently", "stare intently"],
+    "examples": ["They listened intently to the lecture. 他们专注地听讲座。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "intently（专注地）/ intent（意图/专注的）/ intense（强烈的）" }
+  },
+  "interestingly": {
+    "phonetic": "/ˈɪntrəstɪŋli/", "pos": "adv.", "sense": "有趣的是（引出值得注意之点）",
+    "collocations": ["interestingly, ...", "interestingly enough"],
+    "examples": ["Interestingly, error rates have not changed. 有趣的是，错误率并未改变。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "interestingly（有趣的是）/ interested（感兴趣的）/ interesting（有趣的）" }
+  },
+  "interview": {
+    "phonetic": "/ˈɪntəvjuː/", "pos": "n./v.", "sense": "访谈、面试（可数）/ 采访",
+    "collocations": ["an interview with", "job interview"],
+    "examples": ["She conducted interviews with 200 teenagers. 她访谈了 200 名青少年。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "interview（访谈/面试）/ interviewer（采访者）/ interviewee（受访者）" }
+  },
+  "interviewed": {
+    "phonetic": "/ˈɪntəvjuːd/", "pos": "v.", "sense": "interview 的过去式/过去分词（访谈、采访）",
+    "lemma": "interview",
+    "collocations": ["interviewed about 200 teenagers", "be interviewed"],
+    "examples": ["She interviewed about 200 British teenagers. 她访谈了约 200 名英国青少年。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "interviewed（被访谈）/ interviewing（正在访谈）" }
+  },
+  "inventive": {
+    "phonetic": "/ɪnˈventɪv/", "pos": "adj.", "sense": "有创造力的、善于发明的",
+    "collocations": ["inventive use", "an inventive mind"],
+    "examples": ["Their digital use can be inventive. 他们的数字使用可以很有创意。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "inventive（有创造力的）/ inventive 与 creative 近义 / invention（发明）" }
+  },
+  "invest": {
+    "phonetic": "/ɪnˈvest/", "pos": "v.", "sense": "投资（invest in）；投入（时间、精力）",
+    "collocations": ["invest in", "invest time in"],
+    "examples": ["Firms should invest in support. 公司应投资于支持措施。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "invest in（投资于）/ investment（投资）" }
+  },
+  "investigation": {
+    "phonetic": "/ɪnˌvestɪˈɡeɪʃn/", "pos": "n.", "sense": "调查（可数/不可数）",
+    "collocations": ["under investigation", "a police investigation"],
+    "examples": ["The case is under investigation. 案件正在调查中。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "investigation（调查）/ investigate（调查，动词）" }
+  },
+  "investigator": {
+    "phonetic": "/ɪnˈvestɪɡeɪtə(r)/", "pos": "n.", "sense": "调查员（可数）",
+    "collocations": ["an associate and investigator", "chief investigator"],
+    "examples": ["He works as an associate and investigator. 他担任副理兼调查员。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "investigator（调查员）/ researcher（研究者）/ investigate（调查）" }
+  },
+  "involving": {
+    "phonetic": "/ɪnˈvɒlvɪŋ/", "pos": "v.", "sense": "involve 的现在分词（涉及、包含）",
+    "lemma": "involve",
+    "collocations": ["cases involving", "involving paternity leave"],
+    "examples": ["Legal cases involving paternity leave increased. 涉及陪产假的法律案件增多。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "involving（涉及）/ involve（包含）/ involved（参与的）" }
+  },
+  "iowa": {
+    "phonetic": "/ˈaɪəwə/", "pos": "n.（专有名词）", "sense": "艾奥瓦州（美国；Iowa State University 艾奥瓦州立大学）",
+    "collocations": ["Iowa State University", "in Iowa"],
+    "examples": ["A researcher at Iowa State led the work. 艾奥瓦州立大学的一位研究者主持了这项工作。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "irresistible": {
+    "phonetic": "/ˌɪrɪˈzɪstəbl/", "pos": "adj.", "sense": "不可抗拒的、极诱人的",
+    "collocations": ["an irresistible hold", "irresistible temptation"],
+    "examples": ["Radio gained an irresistible hold on children. 收音机不可抗拒地抓住了孩子。"],
+    "isCet4HighFreq": true,
+    "more": { "roots": "ir-（否）+ resist（抵抗）+ -ible", "confusables": "irresistible（不可抗拒的）/ resistible（可抵抗的）" }
+  },
+  "irrigation": {
+    "phonetic": "/ˌɪrɪˈɡeɪʃn/", "pos": "n.", "sense": "灌溉（不可数）",
+    "collocations": ["irrigation systems", "irrigation water"],
+    "examples": ["Irrigation keeps crops alive in droughts. 灌溉让作物在干旱中存活。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "irrigation（灌溉）/ irrigate（灌溉，动词）" }
+  },
+  "isolation": {
+    "phonetic": "/ˌaɪsəˈleɪʃn/", "pos": "n.", "sense": "孤立、隔绝（不可数）",
+    "collocations": ["social isolation", "in isolation"],
+    "examples": ["Social isolation is linked to higher disease rates. 社会孤立与更高发病率相关。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "isolation（孤立）/ isolated（孤立的）/ in isolation（孤立地）" }
+  },
+  "issues": {
+    "phonetic": "/ˈɪʃuːz/", "pos": "n./v.", "sense": "问题、议题（issue 的复数）；发布（动词三单）",
+    "lemma": "issue",
+    "collocations": ["the issues associated with", "raise issues"],
+    "examples": ["I worry about the issues associated with social media. 我担心与社交媒体相关的那些问题。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "issues（问题）/ problems（难题）" }
+  },
+  "jill": {
+    "phonetic": "/dʒɪl/", "pos": "n.（专有名词）", "sense": "吉尔（人名 Jill；文中受访者）",
+    "collocations": ["Jill"],
+    "examples": ["Jill described her experience. 吉尔描述了她的经历。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "judgment": {
+    "phonetic": "/ˈdʒʌdʒmənt/", "pos": "n.", "sense": "判断力（不可数）；判决（可数）",
+    "collocations": ["good judgment", "in my judgment"],
+    "examples": ["This is not to say kids always use good judgment. 这并不是说孩子总能做出好判断。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "judgment（美式）/ judgement（英式）/ judge（判断）" }
+  },
+  "jumping": {
+    "phonetic": "/ˈdʒʌmpɪŋ/", "pos": "v./n.", "sense": "jump 的现在分词；跳跃（不可数）",
+    "lemma": "jump",
+    "collocations": ["jumping ability", "jumping to conclusions"],
+    "examples": ["His jumping ability carried him to the title. 他的跳跃能力把他带向冠军。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "jumping（跳跃）/ jump（跳/猛涨）" }
+  },
+  "jumps": {
+    "phonetic": "/dʒʌmps/", "pos": "v./n.", "sense": "jump 的第三人称单数（跳跃、猛涨）；跳跃（复数）",
+    "lemma": "jump",
+    "collocations": ["price jumps", "jumps sharply"],
+    "examples": ["The price jumps when supply falls. 供应下降时价格猛涨。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "jumps（三单/复数）/ jump（原形/单数）" }
+  },
+  "jury": {
+    "phonetic": "/ˈdʒʊəri/", "pos": "n.", "sense": "陪审团（可数）",
+    "collocations": ["the jury found", "jury duty"],
+    "examples": ["The jury reached a verdict. 陪审团作出裁决。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "jury（陪审团）/ judge（法官）/ juror（陪审员）" }
+  },
+  "keen": {
+    "phonetic": "/kiːn/", "pos": "adj.", "sense": "热衷的（be keen on）；敏锐的、强烈的",
+    "collocations": ["be keen on", "keen interest", "keen to do"],
+    "examples": ["They are keen to appear adult. 他们急于显得成熟。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "keen on（热衷于）/ keen to do（渴望做）/ keen interest（浓厚兴趣）" }
+  },
+  "keep": {
+    "phonetic": "/kiːp/", "pos": "v.", "sense": "保持（keep + adj./doing）；保留",
+    "collocations": ["keep doing", "keep up with", "keep in mind"],
+    "examples": ["They keep changing their settings. 他们不断修改自己的设置。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "keep doing（一直做）/ keep on doing（同义）/ keep up with（跟上）" }
+  },
+  "kinds": {
+    "phonetic": "/kaɪndz/", "pos": "n.", "sense": "种类（kind 的复数）；kind of（有点儿）",
+    "lemma": "kind",
+    "collocations": ["all kinds of", "different kinds"],
+    "examples": ["All kinds of digital writing exist. 存在各种形式的数字写作。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "kinds of（种类）/ kind of（有点儿，口语）" }
+  },
+  "knee-deep": {
+    "phonetic": "/ˌniː ˈdiːp/", "pos": "adj.", "sense": "齐膝深的；深陷于（knee-deep in）",
+    "collocations": ["knee-deep in water", "knee-deep in work"],
+    "examples": ["They were knee-deep in debt. 他们深陷债务。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "knee-deep（齐膝深/深陷）/ deep（深的）" }
+  },
+  "known": {
+    "phonetic": "/nəʊn/", "pos": "v./adj.", "sense": "know 的过去分词；已知的、知名的",
+    "lemma": "know",
+    "collocations": ["be known as", "well known", "known to"],
+    "examples": ["His third win is known as one of the greatest moments. 他的第三次夺冠被认为是最伟大时刻之一。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "be known as（被称为）/ be known for（因……闻名）" }
+  },
+  "language": {
+    "phonetic": "/ˈlæŋɡwɪdʒ/", "pos": "n.", "sense": "语言（可数/不可数）",
+    "collocations": ["casual language", "first language"],
+    "examples": ["Kids use overly casual language in writing. 孩子写作时用语过于随意。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "language（语言）/ speech（言语）/ tongue（语言，文学用法）" }
+  },
+  "largest": {
+    "phonetic": "/ˈlɑːdʒɪst/", "pos": "adj.", "sense": "最大的（large 的最高级）",
+    "lemma": "large",
+    "collocations": ["the largest", "one of the largest"],
+    "examples": ["It is one of the largest studies so far. 这是迄今为止最大的研究之一。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "largest（最大）/ larger（更大）" }
+  },
+  "later": {
+    "phonetic": "/ˈleɪtə(r)/", "pos": "adv./adj.", "sense": "后来、以后；较晚的（late 的比较级）",
+    "lemma": "late",
+    "collocations": ["later on", "sooner or later", "see you later"],
+    "examples": ["Online posts may haunt them later on. 网上帖子可能日后困扰他们。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "later（后来）/ latter（后者）/ latest（最新的）" }
+  },
+  "lauder": {
+    "phonetic": "/ˈlɔːdə(r)/", "pos": "n.（专有名词）", "sense": "雅诗兰黛（Estée Lauder，化妆品公司）",
+    "collocations": ["Estée Lauder"],
+    "examples": ["Cases were filed against Estée Lauder too. 雅诗兰黛也被起诉。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "launched": {
+    "phonetic": "/lɔːntʃt/", "pos": "v.", "sense": "launch 的过去式/过去分词（发起、推出）",
+    "lemma": "launch",
+    "collocations": ["launched a study", "launched a product"],
+    "examples": ["They launched a nationwide survey. 他们发起了一项全国调查。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "launched（发起）/ launch（发起/发射）" }
+  },
+  "law": {
+    "phonetic": "/lɔː/", "pos": "n.", "sense": "法律（不可数/可数）；定律",
+    "collocations": ["pass a law", "against the law", "law and order"],
+    "examples": ["California passed a law allowing minors to delete data. 加州通过法律允许未成年人删除数据。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "law（法律）/ rule（规则）/ legislation（立法）" }
+  },
+  "laws": {
+    "phonetic": "/lɔːz/", "pos": "n.", "sense": "法律（law 的复数）",
+    "lemma": "law",
+    "collocations": ["new laws", "labour laws"],
+    "examples": ["Several states passed similar laws. 数个州通过了类似法律。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "laws（法律）/ rules（规则）" }
+  },
+  "le": {
+    "phonetic": "/lə/", "pos": "冠词（法语）", "sense": "法语定冠词（用于人名前的 Le Mar 等）",
+    "collocations": ["Noel Le Mar"],
+    "examples": ["The horse was purchased for Noel Le Mar. 这匹马是为诺埃尔·勒马尔买的。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "le（法语定冠词）/ Le（姓氏前缀）" }
+  },
+  "leagues": {
+    "phonetic": "/liːɡz/", "pos": "n.", "sense": "联盟（league 的复数）；leagues of（大批的）",
+    "lemma": "league",
+    "collocations": ["leagues of fans", "in league with"],
+    "examples": ["He charmed leagues of Grand National fans. 他迷住了大批全国大赛粉丝。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "leagues（联盟/大批）/ league（联赛/联盟）" }
+  },
+  "learn": {
+    "phonetic": "/lɜːn/", "pos": "v.", "sense": "学习、得知（learn to do / learn that）",
+    "collocations": ["learn to do", "learn from", "learn that"],
+    "examples": ["Kids learn how to behave online. 孩子学习网上如何举止。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "learn（学习/得知）/ study（研究/学习）/ teach（教）" }
+  },
+  "leaves": {
+    "phonetic": "/liːvz/", "pos": "n./v.", "sense": "叶子（leaf 的复数）；离开（leave 的三单）",
+    "lemma": "leave",
+    "collocations": ["autumn leaves", "leaves him cold"],
+    "examples": ["The tree leaves turn brown. 树叶变褐。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "leaves（叶子/三单）/ leaf（单数）" }
+  },
+  "led": {
+    "phonetic": "/led/", "pos": "v.", "sense": "lead 的过去式与过去分词（带领、导致）",
+    "lemma": "lead",
+    "collocations": ["led to", "led a parade", "was led by"],
+    "examples": ["He often led pre-race parades. 他常领衔赛前巡游。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "led（过去式）/ lead（原形；也指铅）" }
+  },
+  "left": {
+    "phonetic": "/left/", "pos": "v./adj./n.", "sense": "leave 的过去式/过去分词；左边的；剩下",
+    "lemma": "leave",
+    "collocations": ["be left with", "on the left", "left over"],
+    "examples": ["Few options are left. 剩下的选择不多。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "left（离开/左边）/ leave（原形）" }
+  },
+  "legacy": {
+    "phonetic": "/ˈleɡəsi/", "pos": "n.", "sense": "遗产、遗留影响（可数）",
+    "collocations": ["a lasting legacy", "leave a legacy"],
+    "examples": ["The policy left a lasting legacy. 这项政策留下持久影响。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "legacy（遗产/遗留）/ legend（传说）" }
+  },
+  "legislation": {
+    "phonetic": "/ˌledʒɪsˈleɪʃn/", "pos": "n.", "sense": "立法、法规（不可数）",
+    "collocations": ["pass legislation", "similar legislation"],
+    "examples": ["The EU has considered similar legislation. 欧盟考虑过类似立法。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "legislation（立法，不可数）/ legislature（立法机关）" }
+  },
+  "lengths": {
+    "phonetic": "/leŋθs/", "pos": "n.", "sense": "长度（length 的复数）；马身（赛马术语）",
+    "lemma": "length",
+    "collocations": ["25 lengths ahead", "at length"],
+    "examples": ["He came in 25 lengths ahead. 他领先 25 个马身冲线。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "lengths（长度/马身）/ length（长度）" }
+  },
+  "let": {
+    "phonetic": "/let/", "pos": "v.", "sense": "让、允许（let sb do，不带 to）；出租",
+    "collocations": ["let sb do", "let alone", "let go"],
+    "examples": ["Let your instincts drive your decisions? 让直觉驱动你的决定吗？"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "let sb do（不带 to）/ allow sb to do（带 to）" }
+  },
+  "liberties": {
+    "phonetic": "/ˈlɪbətiz/", "pos": "n.", "sense": "自由（liberty 的复数）；the ACLU 中的 Civil Liberties 公民自由",
+    "lemma": "liberty",
+    "collocations": ["civil liberties", "take liberties"],
+    "examples": ["The American Civil Liberties Union filed the case. 美国公民自由联盟提起了诉讼。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "liberties（自由）/ liberty（自由）/ liberal（自由的）" }
+  },
+  "life-enhancing": {
+    "phonetic": "/ˈlaɪf ɪnˌhɑːnsɪŋ/", "pos": "adj.", "sense": "提升生活质量的",
+    "collocations": ["life-enhancing technology", "life-enhancing effects"],
+    "examples": ["Some technology is genuinely life-enhancing. 有些技术确实提升生活质量。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "life-enhancing（提升生活的）/ life-changing（改变人生的）" }
+  },
+  "lifelong": {
+    "phonetic": "/ˈlaɪflɒŋ/", "pos": "adj.", "sense": "终身的、一辈子的",
+    "collocations": ["lifelong heavy readers", "lifelong learning"],
+    "examples": ["A minority were lifelong heavy readers. 少数人是终身的重度读者。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "lifelong（终身的）/ lifetime（一生，名词）" }
+  },
+  "lifestyle": {
+    "phonetic": "/ˈlaɪfstaɪl/", "pos": "n.", "sense": "生活方式（可数）",
+    "collocations": ["a healthy lifestyle", "lifestyle change"],
+    "examples": ["Small lifestyle changes matter. 生活方式的微小改变也很重要。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "lifestyle（生活方式）/ life（生活）" }
+  },
+  "likelihood": {
+    "phonetic": "/ˈlaɪklihʊd/", "pos": "n.", "sense": "可能性（不可数）",
+    "collocations": ["reduce the likelihood of", "in all likelihood"],
+    "examples": ["Data reduces the likelihood of errors. 数据降低出错的可能性。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "likelihood（可能性）/ likely（可能的）/ probability（概率）" }
+  },
+  "limited": {
+    "phonetic": "/ˈlɪmɪtɪd/", "pos": "adj./v.", "sense": "有限的；limit 的过去式/过去分词",
+    "lemma": "limit",
+    "collocations": ["limited time", "limited to"],
+    "examples": ["Data is limited in novel situations. 数据在全新情境中作用有限。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "limited（有限的）/ limit（限制）/ unlimited（无限的）" }
+  },
+  "limiting": {
+    "phonetic": "/ˈlɪmɪtɪŋ/", "pos": "adj./v.", "sense": "有限的、起限制作用的；limit 的现在分词",
+    "lemma": "limit",
+    "collocations": ["leave could be limiting", "limiting factors"],
+    "examples": ["They said leave could be limiting. 他们说休假可能起限制作用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "limiting（起限制作用的）/ limited（有限的）" }
+  },
+  "linguist": {
+    "phonetic": "/ˈlɪŋɡwɪst/", "pos": "n.", "sense": "语言学家（可数）",
+    "collocations": ["a linguist studied", "computational linguist"],
+    "examples": ["A linguist studied instant messaging. 一位语言学家研究了即时通讯。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "linguist（语言学家）/ linguistics（语言学）/ language（语言）" }
+  },
+  "link": {
+    "phonetic": "/lɪŋk/", "pos": "n./v.", "sense": "联系（可数）；链接 / 连接（link A to B）",
+    "collocations": ["a link between", "be linked to", "link up"],
+    "examples": ["There is a link between social ties and health. 社会联系与健康之间存在关联。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "link（联系/连接）/ connect（连接）/ connection（联系）" }
+  },
+  "list": {
+    "phonetic": "/lɪst/", "pos": "n./v.", "sense": "清单（可数）/ 列出",
+    "collocations": ["make a list", "on the list", "a shopping list"],
+    "examples": ["The Fortune 500 list featured 33 female CEOs. 《财富》500 强榜单有 33 位女性 CEO。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "list（清单）/ listing（列表/上市）" }
+  },
+  "literacy": {
+    "phonetic": "/ˈlɪtərəsi/", "pos": "n.", "sense": "读写能力（不可数）；素养",
+    "collocations": ["digital literacy", "affect literacy"],
+    "examples": ["Short-form writing may be affecting literacy. 短文本写作可能影响读写能力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "literacy（读写能力）/ literature（文学）/ literate（识字的）" }
+  },
+  "literate": {
+    "phonetic": "/ˈlɪtərət/", "pos": "adj.", "sense": "有读写能力的；有素养的",
+    "collocations": ["become literate", "digitally literate"],
+    "examples": ["The online world helps kids become literate. 网络世界帮助孩子习得读写能力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "literate（识字的）/ literacy（读写能力）/ literal（字面的）" }
+  },
+  "little": {
+    "phonetic": "/ˈlɪtl/", "pos": "adj./adv./det.", "sense": "少的（不可数）；小的；几乎没有（a little 表「一些」）",
+    "collocations": ["a little", "little time", "little by little"],
+    "examples": ["There is little evidence of harm. 伤害的证据很少。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "little（少，不可数）/ few（少，可数）/ a little（一些）" }
+  },
+  "living": {
+    "phonetic": "/ˈlɪvɪŋ/", "pos": "n./adj.", "sense": "生活（不可数）；活着的（形容词）；live 的现在分词",
+    "lemma": "live",
+    "collocations": ["living online", "cost of living", "living standards"],
+    "examples": ["They gain experience with living online. 他们在网络生活中积累经验。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "living（生活/活着的）/ live（居住/现场直播）/ alive（活着的，表语）" }
+  },
+  "llp": {
+    "phonetic": "/ˌel el ˈpiː/", "pos": "n.（缩写）", "sense": "有限责任合伙（Limited Liability Partnership，律所常见后缀）",
+    "collocations": ["Outten & Golden LLP"],
+    "examples": ["The firm Outten & Golden LLP filed the case. 该律所提起了诉讼。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "LLP（有限责任合伙）/ LLC（有限责任公司）" }
+  },
+  "local": {
+    "phonetic": "/ˈləʊkl/", "pos": "adj./n.", "sense": "本地的、当地的 / 当地人",
+    "collocations": ["local farmers", "local government"],
+    "examples": ["Local farmers will suffer. 当地农民会受损。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "local（本地的）/ regional（区域的）/ global（全球的）" }
+  },
+  "loneliness": {
+    "phonetic": "/ˈləʊnlinəs/", "pos": "n.", "sense": "孤独（不可数）",
+    "collocations": ["loneliness is rising", "a sense of loneliness"],
+    "examples": ["Loneliness is a widespread public health problem. 孤独是普遍的公共卫生问题。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "loneliness（孤独）/ lonely（孤独的）/ alone（独自的）" }
+  },
+  "longevity": {
+    "phonetic": "/lɒnˈdʒevəti/", "pos": "n.", "sense": "长寿（不可数）；寿命",
+    "collocations": ["human longevity", "longevity research"],
+    "examples": ["Social ties are linked to longevity. 社会联系与长寿相关。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "longus（长）+ aevum（时间）", "confusables": "longevity（长寿）/ lifespan（寿命）" }
+  },
+  "looked": {
+    "phonetic": "/lʊkt/", "pos": "v.", "sense": "look 的过去式/过去分词（看、显得）",
+    "lemma": "look",
+    "collocations": ["looked at", "looked like"],
+    "examples": ["Researchers looked at 200 papers. 研究者查看了 200 篇论文。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "looked at（看）/ looked like（看起来像）" }
+  },
+  "loss": {
+    "phonetic": "/lɒs/", "pos": "n.", "sense": "损失、丧失（可数/不可数）",
+    "collocations": ["loss of", "at a loss", "job losses"],
+    "examples": ["Memory loss worried them. 记忆衰退让他们担心。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "loss（损失）/ lose（失去）/ lost（失去的）" }
+  },
+  "lost": {
+    "phonetic": "/lɒst/", "pos": "v./adj.", "sense": "lose 的过去式/过去分词；迷失的",
+    "lemma": "lose",
+    "collocations": ["lost out on", "lost sight of", "get lost"],
+    "examples": ["He lost out on the title twice. 他两次与冠军失之交臂。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "lose out on（在……上失利）/ lost（失去的）" }
+  },
+  "loud": {
+    "phonetic": "/laʊd/", "pos": "adj./adv.", "sense": "响亮的；大声地",
+    "collocations": ["aloud", "out loud", "a loud voice"],
+    "examples": ["They read out loud together. 他们一起朗读。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "loud（响亮的）/ loudly（大声地）/ aloud（出声地）" }
+  },
+  "low-intensity": {
+    "phonetic": "/ˌləʊ ɪnˈtensəti/", "pos": "adj.", "sense": "低强度的",
+    "collocations": ["low-intensity exercise", "low-intensity conflict"],
+    "examples": ["Low-intensity exercise still helps. 低强度运动仍然有益。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "low-intensity（低强度）/ high-intensity（高强度）" }
+  },
+  "lucky": {
+    "phonetic": "/ˈlʌki/", "pos": "adj.", "sense": "幸运的（if we're lucky）",
+    "collocations": ["if we're lucky", "lucky enough to"],
+    "examples": ["If we're lucky, the law will change. 运气好的话，法律会变。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "lucky（幸运的）/ luck（运气）/ fortunately（幸运的是）" }
+  },
+  "lunsford": {
+    "phonetic": "/ˈlʌnsfəd/", "pos": "n.（专有名词）", "sense": "伦斯福德（Andrea Lunsford，斯坦福大学学者）",
+    "collocations": ["Andrea Lunsford"],
+    "examples": ["Lunsford gathered data going back to 1917. 伦斯福德收集了可追溯到 1917 年的数据。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "machinery": {
+    "phonetic": "/məˈʃiːnəri/", "pos": "n.", "sense": "机械（不可数）；机制",
+    "collocations": ["farm machinery", "the machinery of"],
+    "examples": ["Farm machinery reduced labour needs. 农业机械减少了对劳动力的需求。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "machinery（机械，不可数）/ machine（机器，可数）" }
+  },
+  "major": {
+    "phonetic": "/ˈmeɪdʒə(r)/", "pos": "adj./n./v.", "sense": "主要的（形容词）；专业（名词）；主修（动词）",
+    "collocations": ["a major change", "major in", "the majority"],
+    "examples": ["A major shift is under way. 一场重大转变正在发生。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "major（主要的/主修）/ majority（多数）/ minor（次要的）" }
+  },
+  "management": {
+    "phonetic": "/ˈmænɪdʒmənt/", "pos": "n.", "sense": "管理（不可数）；管理层",
+    "collocations": ["farm management", "senior management"],
+    "examples": ["General farm management can ease changes. 总体农场管理能缓解变化冲击。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "management（管理）/ manager（经理）/ manage（管理）" }
+  },
+  "manager": {
+    "phonetic": "/ˈmænɪdʒə(r)/", "pos": "n.", "sense": "经理、管理者（可数）",
+    "collocations": ["manager expectations", "a project manager"],
+    "examples": ["Manager expectations increased after childbirth. 生育后管理者期待增加。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "manager（经理）/ management（管理层）/ supervisor（主管）" }
+  },
+  "managers": {
+    "phonetic": "/ˈmænɪdʒəz/", "pos": "n.", "sense": "管理者（manager 的复数）",
+    "lemma": "manager",
+    "collocations": ["managers and staff", "senior managers"],
+    "examples": ["Managers should model good behaviour. 管理者应以身作则。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "managers（管理者）/ management（管理层）" }
+  },
+  "manifest": {
+    "phonetic": "/ˈmænɪfest/", "pos": "v./adj.", "sense": "显现、表明（及物）；明显的",
+    "collocations": ["manifest itself", "manifest in"],
+    "examples": ["Bias manifests in small decisions. 偏见体现在细微决定中。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "manifest（显现/明显的）/ manifestation（表现）" }
+  },
+  "mar": {
+    "phonetic": "/mɑː(r)/", "pos": "v.", "sense": "损坏、破坏（mar sth）",
+    "collocations": ["mar the effect", "marred by"],
+    "examples": ["The flaws mar an otherwise strong case. 这些缺陷损害了本来有力的论证。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "mar（破坏）/ mark（标记）" }
+  }
+}

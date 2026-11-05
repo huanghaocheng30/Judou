@@ -5448,6 +5448,36 @@
         "confusables": "Columbia（哥伦比亚，专名）/ Colombia（哥伦比亚国家）"
       }
     },
+    "harvard": {
+      "phonetic": "/ˈhɑːvəd/",
+      "pos": "n.（专有名词）",
+      "sense": "哈佛（Harvard University 哈佛大学）",
+      "collocations": [
+        "Harvard University"
+      ],
+      "examples": [
+        "A Harvard study reached a similar conclusion. 一项哈佛研究得出类似结论。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
+    "georgetown": {
+      "phonetic": "/ˈdʒɔːdʒtaʊn/",
+      "pos": "n.（专有名词）",
+      "sense": "乔治敦（Georgetown University 乔治敦大学）",
+      "collocations": [
+        "Georgetown University"
+      ],
+      "examples": [
+        "Researchers at Georgetown studied the trend. 乔治敦大学的研究者研究了这一趋势。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
     "conducted": {
       "phonetic": "/kənˈdʌktɪd/",
       "pos": "v.",
@@ -5480,6 +5510,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "figure": {
+      "phonetic": "/ˈfɪɡə(r)/",
+      "pos": "n./v.",
+      "sense": "数字（可数）；人物；体形 / 认为（figure that）",
+      "collocations": [
+        "figures show",
+        "a public figure",
+        "figure out"
+      ],
+      "examples": [
+        "The figures suggest a real change. 数字表明有真实变化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "figure（数字/人物）/ number（数字）/ figure out（弄明白）"
       }
     },
     "found": {
@@ -5551,6 +5598,22 @@
         "confusables": "status（地位/状态）/ statue（雕像）/ state（状态）"
       }
     },
+    "interestingly": {
+      "phonetic": "/ˈɪntrəstɪŋli/",
+      "pos": "adv.",
+      "sense": "有趣的是（引出值得注意之点）",
+      "collocations": [
+        "interestingly, ...",
+        "interestingly enough"
+      ],
+      "examples": [
+        "Interestingly, error rates have not changed. 有趣的是，错误率并未改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "interestingly（有趣的是）/ interested（感兴趣的）/ interesting（有趣的）"
+      }
+    },
     "attributions": {
       "phonetic": "/ˌætrɪˈbjuːʃnz/",
       "pos": "n.",
@@ -5567,6 +5630,39 @@
       "more": {
         "roots": "attribute（归因于）+ -ion",
         "confusables": "attribution（归因）/ attribute（属性/归因）"
+      }
+    },
+    "heavily": {
+      "phonetic": "/ˈhevɪli/",
+      "pos": "adv.",
+      "sense": "严重地；大量地；沉重地",
+      "collocations": [
+        "heavily dependent",
+        "rain heavily"
+      ],
+      "examples": [
+        "Agriculture is heavily dependent on water. 农业严重依赖水。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "heavily（严重地/大量地）/ heavy（重的）"
+      }
+    },
+    "influenced": {
+      "phonetic": "/ˈɪnfluənst/",
+      "pos": "v.",
+      "sense": "influence 的过去式/过去分词（影响）",
+      "lemma": "influence",
+      "collocations": [
+        "be influenced by",
+        "heavily influenced"
+      ],
+      "examples": [
+        "Their choices are influenced by adults. 他们的选择受成年人影响。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "influenced（受影响）/ influencing（正在影响）"
       }
     },
     "own": {
@@ -5893,6 +5989,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "someone（某人，单数）/ somebody（同义，更口语）"
+      }
+    },
+    "knee-deep": {
+      "phonetic": "/ˌniː ˈdiːp/",
+      "pos": "adj.",
+      "sense": "齐膝深的；深陷于（knee-deep in）",
+      "collocations": [
+        "knee-deep in water",
+        "knee-deep in work"
+      ],
+      "examples": [
+        "They were knee-deep in debt. 他们深陷债务。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "knee-deep（齐膝深/深陷）/ deep（深的）"
       }
     },
     "emails": {
@@ -6250,6 +6362,23 @@
         "confusables": "be wrong to do（做某事是错的）/ be wrong about（对某事判断错）"
       }
     },
+    "limited": {
+      "phonetic": "/ˈlɪmɪtɪd/",
+      "pos": "adj./v.",
+      "sense": "有限的；limit 的过去式/过去分词",
+      "lemma": "limit",
+      "collocations": [
+        "limited time",
+        "limited to"
+      ],
+      "examples": [
+        "Data is limited in novel situations. 数据在全新情境中作用有限。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "limited（有限的）/ limit（限制）/ unlimited（无限的）"
+      }
+    },
     "access": {
       "phonetic": "/ˈækses/",
       "pos": "n./v.",
@@ -6282,6 +6411,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "email（邮件）/ mail（邮政）；e-mail 为旧写法"
+      }
+    },
+    "i'll": {
+      "phonetic": "/aɪl/",
+      "pos": "缩略",
+      "sense": "I will 的缩写",
+      "collocations": [
+        "I'll try",
+        "I'll be"
+      ],
+      "examples": [
+        "I'll explain why in a moment. 我稍后解释原因。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "I'll（I will）/ I'd（I would/had）"
       }
     },
     "soon": {
@@ -6334,6 +6479,23 @@
         "confusables": "you're（you are）/ your（你的）"
       }
     },
+    "held": {
+      "phonetic": "/held/",
+      "pos": "v.",
+      "sense": "hold 的过去式与过去分词（握住、举行）",
+      "lemma": "hold",
+      "collocations": [
+        "held a view",
+        "held back"
+      ],
+      "examples": [
+        "Long-held beliefs are changing. 长期持有的信念在改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "held（hold 的过去式）/ hold（原形）"
+      }
+    },
     "against": {
       "phonetic": "/əˈɡenst/",
       "pos": "prep.",
@@ -6351,6 +6513,23 @@
         "confusables": "against（反对）/ for（支持）/ versus（对，多用于比较与对抗）"
       }
     },
+    "launched": {
+      "phonetic": "/lɔːntʃt/",
+      "pos": "v.",
+      "sense": "launch 的过去式/过去分词（发起、推出）",
+      "lemma": "launch",
+      "collocations": [
+        "launched a study",
+        "launched a product"
+      ],
+      "examples": [
+        "They launched a nationwide survey. 他们发起了一项全国调查。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "launched（发起）/ launch（发起/发射）"
+      }
+    },
     "office": {
       "phonetic": "/ˈɒfɪs/",
       "pos": "n.",
@@ -6366,6 +6545,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "office（办公室）/ officer（官员）/ official（官方的）"
+      }
+    },
+    "generator": {
+      "phonetic": "/ˈdʒenəreɪtə(r)/",
+      "pos": "n.",
+      "sense": "发电机；产生者",
+      "collocations": [
+        "power generator",
+        "a generator of ideas"
+      ],
+      "examples": [
+        "The backup generator started at once. 备用发电机立刻启动。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "generator（发电机/产生者）/ generate（产生）"
+      }
+    },
+    "free": {
+      "phonetic": "/friː/",
+      "pos": "adj./v.",
+      "sense": "免费的；自由的；空闲的 / 释放",
+      "collocations": [
+        "free time",
+        "free of charge",
+        "set free"
+      ],
+      "examples": [
+        "The tool is currently free. 该工具目前免费。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "free（免费/自由）/ freely（自由地）/ freedom（自由）"
       }
     },
     "use": {
@@ -6436,6 +6648,23 @@
         "confusables": "share（分享/分担）/ split（拆分）/ divide（划分）"
       }
     },
+    "loud": {
+      "phonetic": "/laʊd/",
+      "pos": "adj./adv.",
+      "sense": "响亮的；大声地",
+      "collocations": [
+        "aloud",
+        "out loud",
+        "a loud voice"
+      ],
+      "examples": [
+        "They read out loud together. 他们一起朗读。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "loud（响亮的）/ loudly（大声地）/ aloud（出声地）"
+      }
+    },
     "checking": {
       "phonetic": "/ˈtʃekɪŋ/",
       "pos": "v.",
@@ -6468,6 +6697,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "until（直到）/ till（同义，口语）/ not ... until（直到……才）"
+      }
+    },
+    "managers": {
+      "phonetic": "/ˈmænɪdʒəz/",
+      "pos": "n.",
+      "sense": "管理者（manager 的复数）",
+      "lemma": "manager",
+      "collocations": [
+        "managers and staff",
+        "senior managers"
+      ],
+      "examples": [
+        "Managers should model good behaviour. 管理者应以身作则。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "managers（管理者）/ management（管理层）"
       }
     },
     "need": {

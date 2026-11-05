@@ -12066,6 +12066,23 @@
         "confusables": "change（改变）/ exchange（交换）/ alter（改动，更正式）"
       }
     },
+    "happen": {
+      "phonetic": "/ˈhæpən/",
+      "pos": "v.",
+      "sense": "发生（不及物）；碰巧（happen to do）",
+      "collocations": [
+        "happen to",
+        "what happened",
+        "happen to do"
+      ],
+      "examples": [
+        "Could the same thing happen to crops? 同样的事会发生在农作物上吗？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "happen to sb（发生在某人身上）/ happen to do（碰巧）/ take place（发生，正式）"
+      }
+    },
     "crops": {
       "phonetic": "/krɒps/",
       "pos": "n.",
@@ -12081,6 +12098,24 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "crop（农作物）/ corps（军团）"
+      }
+    },
+    "foodstuffs": {
+      "phonetic": "/ˈfuːdstʌfs/",
+      "pos": "n.",
+      "sense": "食品、食料（foodstuff 的复数）",
+      "lemma": "foodstuff",
+      "collocations": [
+        "basic foodstuffs",
+        "foodstuffs and crops"
+      ],
+      "examples": [
+        "Crops and other foodstuffs may suffer. 农作物和其他食品可能受损。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "food（食物）+ stuff（材料）",
+        "confusables": "foodstuffs（食品原料）/ foods（食品种类）"
       }
     },
     "it's": {
@@ -12341,6 +12376,23 @@
         "confusables": "in the future（将来）/ in future（英式：从今往后）"
       }
     },
+    "explored": {
+      "phonetic": "/ɪkˈsplɔːd/",
+      "pos": "v.",
+      "sense": "explore 的过去式/过去分词（探索、研究）",
+      "lemma": "explore",
+      "collocations": [
+        "explored the issue",
+        "explore options"
+      ],
+      "examples": [
+        "The study explored how teens use media. 该研究探究了青少年如何使用媒介。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "explored（探索）/ explore（原形）/ exploration（探索）"
+      }
+    },
     "efforts": {
       "phonetic": "/ˈefəts/",
       "pos": "n.",
@@ -12443,6 +12495,23 @@
         "confusables": "using（现在分词）/ used（过去式/过去分词）"
       }
     },
+    "genes": {
+      "phonetic": "/dʒiːnz/",
+      "pos": "n.",
+      "sense": "基因（gene 的复数）",
+      "lemma": "gene",
+      "collocations": [
+        "genes and environment",
+        "gene editing"
+      ],
+      "examples": [
+        "Genes alone do not decide behaviour. 基因本身不决定行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "genes（基因）/ jeans（牛仔裤）同音"
+      }
+    },
     "resurrection": {
       "phonetic": "/ˌrezəˈrekʃn/",
       "pos": "n.",
@@ -12458,6 +12527,36 @@
       "more": {
         "roots": "re-（再）+ surrect（升起）",
         "confusables": "resurrection（复活）/ resurrection 与 renaissance（复兴）近义"
+      }
+    },
+    "jill": {
+      "phonetic": "/dʒɪl/",
+      "pos": "n.（专有名词）",
+      "sense": "吉尔（人名 Jill；文中受访者）",
+      "collocations": [
+        "Jill"
+      ],
+      "examples": [
+        "Jill described her experience. 吉尔描述了她的经历。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
+    "farrant": {
+      "phonetic": "/ˈfærənt/",
+      "pos": "n.（专有名词）",
+      "sense": "法伦特（文中受访者/研究者姓氏）",
+      "collocations": [
+        "Farrant says"
+      ],
+      "examples": [
+        "Farrant describes the shift. 法伦特描述了这一转变。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
       }
     },
     "university": {
@@ -12491,6 +12590,23 @@
       "isCet4HighFreq": false,
       "more": {
         "confusables": "cape（海角/披肩）/ cap（帽子）"
+      }
+    },
+    "exploring": {
+      "phonetic": "/ɪkˈsplɔːrɪŋ/",
+      "pos": "v.",
+      "sense": "explore 的现在分词（探索）",
+      "lemma": "explore",
+      "collocations": [
+        "exploring new ideas",
+        "exploring how"
+      ],
+      "examples": [
+        "They are exploring new ways to write. 他们正在探索新的写作方式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "exploring（现在分词）/ explored（过去式）"
       }
     },
     "whether": {
@@ -12630,6 +12746,22 @@
         "confusables": "foods（多种食品）/ food（泛指食物）"
       }
     },
+    "fortunately": {
+      "phonetic": "/ˈfɔːtʃənətli/",
+      "pos": "adv.",
+      "sense": "幸运的是",
+      "collocations": [
+        "fortunately, ...",
+        "fortunately for sb"
+      ],
+      "examples": [
+        "Fortunately, there is some good news. 幸运的是，有好消息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fortunately（幸运的是）/ unfortunately（不幸的是）"
+      }
+    },
     "good": {
       "phonetic": "/ɡʊd/",
       "pos": "adj./n.",
@@ -12662,6 +12794,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "news（不可数，谓语单数）/ a news（错误）/ a piece of news（正确）"
+      }
+    },
+    "front": {
+      "phonetic": "/frʌnt/",
+      "pos": "n./adj.",
+      "sense": "前面、前线（可数）；前面的 / 面向",
+      "collocations": [
+        "in front of",
+        "on this front",
+        "front page"
+      ],
+      "examples": [
+        "There is good news on this front. 这方面有好消息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in front of（在……前面）/ on this front（在这方面）"
       }
     },
     "despite": {
@@ -12698,6 +12847,23 @@
         "confusables": "alarmist（危言耸听的）/ alarming（令人担忧的）"
       }
     },
+    "headlines": {
+      "phonetic": "/ˈhedlaɪnz/",
+      "pos": "n.",
+      "sense": "新闻标题（headline 的复数）",
+      "lemma": "headline",
+      "collocations": [
+        "front-page headlines",
+        "make headlines"
+      ],
+      "examples": [
+        "The story made headlines. 这事上了头条。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "headlines（标题）/ headings（小标题）/ headline news（头条新闻）"
+      }
+    },
     "evidence": {
       "phonetic": "/ˈevɪdəns/",
       "pos": "n.",
@@ -12713,6 +12879,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "evidence（不可数，不加 -s）/ evident（形容词，明显的）"
+      }
+    },
+    "major": {
+      "phonetic": "/ˈmeɪdʒə(r)/",
+      "pos": "adj./n./v.",
+      "sense": "主要的（形容词）；专业（名词）；主修（动词）",
+      "collocations": [
+        "a major change",
+        "major in",
+        "the majority"
+      ],
+      "examples": [
+        "A major shift is under way. 一场重大转变正在发生。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "major（主要的/主修）/ majority（多数）/ minor（次要的）"
       }
     },
     "food": {
@@ -12914,6 +13097,23 @@
         "confusables": "probably（很可能）/ perhaps（也许）/ possibly（或许，可能性更低）"
       }
     },
+    "grow": {
+      "phonetic": "/ɡrəʊ/",
+      "pos": "v.",
+      "sense": "生长、增长（不及物）；种植（及物）；变得",
+      "collocations": [
+        "grow crops",
+        "grow up",
+        "grow older"
+      ],
+      "examples": [
+        "They grow crops for export. 他们种植出口作物。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "grow（生长/种植）/ grow up（长大）/ increase（增加）"
+      }
+    },
     "certain": {
       "phonetic": "/ˈsɜːtn/",
       "pos": "adj.",
@@ -12948,6 +13148,22 @@
         "confusables": "get（变得/得到，口语）/ become（变得，正式）/ obtain（获得，正式）"
       }
     },
+    "hot": {
+      "phonetic": "/hɒt/",
+      "pos": "adj.",
+      "sense": "热的；热门的",
+      "collocations": [
+        "hot weather",
+        "a hot topic"
+      ],
+      "examples": [
+        "Hot weather reduces yields. 炎热天气降低产量。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "hot（热的）/ heat（热，名词）/ warm（温暖的）"
+      }
+    },
     "disadvantage": {
       "phonetic": "/ˌdɪsədˈvɑːntɪdʒ/",
       "pos": "n.",
@@ -12963,6 +13179,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "disadvantage（劣势）/ drawback（缺点）/ advantage（优势）"
+      }
+    },
+    "local": {
+      "phonetic": "/ˈləʊkl/",
+      "pos": "adj./n.",
+      "sense": "本地的、当地的 / 当地人",
+      "collocations": [
+        "local farmers",
+        "local government"
+      ],
+      "examples": [
+        "Local farmers will suffer. 当地农民会受损。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "local（本地的）/ regional（区域的）/ global（全球的）"
       }
     },
     "suffer": {
@@ -13217,6 +13449,23 @@
         "confusables": "in other words（换句话说）/ in a word（简言之）/ word（单词）"
       }
     },
+    "grown": {
+      "phonetic": "/ɡrəʊn/",
+      "pos": "v./adj.",
+      "sense": "grow 的过去分词；成年的",
+      "lemma": "grow",
+      "collocations": [
+        "have grown",
+        "a grown man"
+      ],
+      "examples": [
+        "Essays have grown longer. 文章变长了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "grown（过去分词）/ grew（过去式）/ grown-up（成年人）"
+      }
+    },
     "corner": {
       "phonetic": "/ˈkɔːnə(r)/",
       "pos": "n./v.",
@@ -13350,6 +13599,39 @@
         "confusables": "staple（主食/主要产品）/ staples（订书钉）"
       }
     },
+    "life-enhancing": {
+      "phonetic": "/ˈlaɪf ɪnˌhɑːnsɪŋ/",
+      "pos": "adj.",
+      "sense": "提升生活质量的",
+      "collocations": [
+        "life-enhancing technology",
+        "life-enhancing effects"
+      ],
+      "examples": [
+        "Some technology is genuinely life-enhancing. 有些技术确实提升生活质量。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "life-enhancing（提升生活的）/ life-changing（改变人生的）"
+      }
+    },
+    "extras": {
+      "phonetic": "/ˈekstrəz/",
+      "pos": "n.",
+      "sense": "额外的东西、附加项（extra 的复数）",
+      "lemma": "extra",
+      "collocations": [
+        "pay for extras",
+        "hidden extras"
+      ],
+      "examples": [
+        "Flight extras add to the cost. 航班的附加项增加了成本。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "extras（附加项）/ extra（额外的）"
+      }
+    },
     "coffee": {
       "phonetic": "/ˈkɒfi/",
       "pos": "n.",
@@ -13399,6 +13681,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "decreases（三单/复数）/ decrease（原形/单数）"
+      }
+    },
+    "felt": {
+      "phonetic": "/felt/",
+      "pos": "v.",
+      "sense": "feel 的过去式与过去分词（感觉）",
+      "lemma": "feel",
+      "collocations": [
+        "felt that",
+        "felt like"
+      ],
+      "examples": [
+        "They felt the policy had helped. 他们觉得政策起了作用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "felt（feel 的过去式）/ felt（毛毡）"
       }
     },
     "depend": {
@@ -13788,6 +14087,23 @@
         "confusables": "world's（世界的）/ worlds（多个世界）"
       }
     },
+    "largest": {
+      "phonetic": "/ˈlɑːdʒɪst/",
+      "pos": "adj.",
+      "sense": "最大的（large 的最高级）",
+      "lemma": "large",
+      "collocations": [
+        "the largest",
+        "one of the largest"
+      ],
+      "examples": [
+        "It is one of the largest studies so far. 这是迄今为止最大的研究之一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "largest（最大）/ larger（更大）"
+      }
+    },
     "soybeans": {
       "phonetic": "/ˈsɔɪbiːnz/",
       "pos": "n.",
@@ -13804,6 +14120,23 @@
       "more": {
         "roots": "soy（大豆）+ bean（豆）",
         "confusables": "soybean（大豆）/ soya（英式）"
+      }
+    },
+    "farms": {
+      "phonetic": "/fɑːmz/",
+      "pos": "n./v.",
+      "sense": "农场（farm 的复数）；务农（动词三单）",
+      "lemma": "farm",
+      "collocations": [
+        "small farms",
+        "family farms"
+      ],
+      "examples": [
+        "Small farms are most vulnerable. 小农场最脆弱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "farms（复数）/ farm（单数）"
       }
     },
     "move": {
@@ -13837,6 +14170,38 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "north（北）/ northern（北方的，形容词）"
+      }
+    },
+    "eventually": {
+      "phonetic": "/ɪˈventʃuəli/",
+      "pos": "adv.",
+      "sense": "最终、终于（强调结果）",
+      "collocations": [
+        "eventually become",
+        "eventually happen"
+      ],
+      "examples": [
+        "Attitudes eventually shifted. 态度最终转变了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "eventually（最终）/ finally（最后，强调顺序）/ in the end（最终）"
+      }
+    },
+    "iowa": {
+      "phonetic": "/ˈaɪəwə/",
+      "pos": "n.（专有名词）",
+      "sense": "艾奥瓦州（美国；Iowa State University 艾奥瓦州立大学）",
+      "collocations": [
+        "Iowa State University",
+        "in Iowa"
+      ],
+      "examples": [
+        "A researcher at Iowa State led the work. 艾奥瓦州立大学的一位研究者主持了这项工作。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
       }
     },
     "declines": {
@@ -13873,6 +14238,54 @@
         "confusables": "quality（质量/品质）/ quantity（数量）/ qualitative（定性的）"
       }
     },
+    "legacy": {
+      "phonetic": "/ˈleɡəsi/",
+      "pos": "n.",
+      "sense": "遗产、遗留影响（可数）",
+      "collocations": [
+        "a lasting legacy",
+        "leave a legacy"
+      ],
+      "examples": [
+        "The policy left a lasting legacy. 这项政策留下持久影响。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "legacy（遗产/遗留）/ legend（传说）"
+      }
+    },
+    "glacial": {
+      "phonetic": "/ˈɡleɪʃl/",
+      "pos": "adj.",
+      "sense": "冰川的；极慢的",
+      "collocations": [
+        "glacial period",
+        "glacial pace"
+      ],
+      "examples": [
+        "Change has been glacial. 变化极其缓慢。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "glacial（冰川的/极慢的）/ glacier（冰川）"
+      }
+    },
+    "expansion": {
+      "phonetic": "/ɪkˈspænʃn/",
+      "pos": "n.",
+      "sense": "扩张、扩大（可数/不可数）",
+      "collocations": [
+        "rapid expansion",
+        "the expansion of"
+      ],
+      "examples": [
+        "The expansion of digital media changed reading. 数字媒体的扩张改变了阅读。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "expansion（扩张）/ expand（扩大）/ expenditure（支出）"
+      }
+    },
     "including": {
       "phonetic": "/ɪnˈkluːdɪŋ/",
       "pos": "prep.",
@@ -13887,6 +14300,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "including（包括，后接名词）/ included（被包括，置于名词后）"
+      }
+    },
+    "india": {
+      "phonetic": "/ˈɪndiə/",
+      "pos": "n.（专有名词）",
+      "sense": "印度（南亚国家；Indian 印度的、印度人）",
+      "collocations": [
+        "in India",
+        "Indian"
+      ],
+      "examples": [
+        "Crop losses are severe in India. 印度的作物损失严重。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "India（印度）/ Indian（印度的/印度人）"
       }
     },
     "africa": {
@@ -14007,6 +14436,22 @@
         "confusables": "extreme（极端的）/ extremely（极其，副词）"
       }
     },
+    "heat": {
+      "phonetic": "/hiːt/",
+      "pos": "n./v.",
+      "sense": "热、高温（不可数）/ 加热",
+      "collocations": [
+        "heat waves",
+        "in the heat of"
+      ],
+      "examples": [
+        "Crops suffer in extreme heat. 作物在极端高温下受损。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "heat（热）/ hot（热的，形容词）/ heated（加热的/热烈的）"
+      }
+    },
     "damaging": {
       "phonetic": "/ˈdæmɪdʒɪŋ/",
       "pos": "adj./v.",
@@ -14024,6 +14469,22 @@
         "confusables": "damaging（有害的）/ damaged（受损的）"
       }
     },
+    "growth": {
+      "phonetic": "/ɡrəʊθ/",
+      "pos": "n.",
+      "sense": "增长、生长（不可数）",
+      "collocations": [
+        "economic growth",
+        "growth in"
+      ],
+      "examples": [
+        "Growth in screen use is clear. 屏幕使用的增长很明显。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "growth（增长）/ grow（生长）/ grow up（长大）"
+      }
+    },
     "although": {
       "phonetic": "/ɔːlˈðəʊ/",
       "pos": "conj.",
@@ -14038,6 +14499,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "although + 从句 / despite + 名词"
+      }
+    },
+    "exact": {
+      "phonetic": "/ɪɡˈzækt/",
+      "pos": "adj.",
+      "sense": "精确的、确切的",
+      "collocations": [
+        "the exact number",
+        "to be exact"
+      ],
+      "examples": [
+        "The exact figure is unknown. 确切数字未知。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "exact（精确的）/ exactly（恰好/完全）/ precise（精密的）"
       }
     },
     "cutoffs": {
@@ -14229,6 +14706,23 @@
         "confusables": "significant（显著的）/ significance（意义）"
       }
     },
+    "hits": {
+      "phonetic": "/hɪts/",
+      "pos": "v./n.",
+      "sense": "hit 的第三人称单数（打击）；热门（复数）",
+      "lemma": "hit",
+      "collocations": [
+        "hits the target",
+        "a hit"
+      ],
+      "examples": [
+        "The drop in yields hits farmers hardest. 产量下降对农民打击最大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "hits（三单）/ hit（原形，三态同形）"
+      }
+    },
     "current": {
       "phonetic": "/ˈkʌrənt/",
       "pos": "adj./n.",
@@ -14333,6 +14827,23 @@
         "confusables": "given that（考虑到，连词）/ given（给定的，形容词）"
       }
     },
+    "forecasted": {
+      "phonetic": "/ˈfɔːkɑːstɪd/",
+      "pos": "v.",
+      "sense": "forecast 的过去式/过去分词（预测）",
+      "lemma": "forecast",
+      "collocations": [
+        "forecasted losses",
+        "be forecasted to"
+      ],
+      "examples": [
+        "Losses were forecasted early. 损失很早被预测到。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "forecasted（预测，规则变形）/ forecast（不规则，三态同形也可）"
+      }
+    },
     "jump": {
       "phonetic": "/dʒʌmp/",
       "pos": "v./n.",
@@ -14365,6 +14876,55 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "per cent（百分比，英式分写）/ percent（美式连写）"
+      }
+    },
+    "indicate": {
+      "phonetic": "/ˈɪndɪkeɪt/",
+      "pos": "v.",
+      "sense": "表明、显示（indicate that）",
+      "collocations": [
+        "indicate that",
+        "results indicate"
+      ],
+      "examples": [
+        "The data indicate a clear trend. 数据显示出明确趋势。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "indicate（表明）/ show（显示）/ indication（迹象）"
+      }
+    },
+    "horticulture": {
+      "phonetic": "/ˈhɔːtɪkʌltʃə(r)/",
+      "pos": "n.",
+      "sense": "园艺学（不可数）",
+      "collocations": [
+        "horticulture industry",
+        "study horticulture"
+      ],
+      "examples": [
+        "Horticulture is adapting to warmer climates. 园艺正在适应更暖的气候。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "hortus（花园）+ culture（耕作）",
+        "confusables": "horticulture（园艺）/ agriculture（农业）"
+      }
+    },
+    "generally": {
+      "phonetic": "/ˈdʒenrəli/",
+      "pos": "adv.",
+      "sense": "通常、一般地；普遍地",
+      "collocations": [
+        "generally speaking",
+        "generally accepted"
+      ],
+      "examples": [
+        "General management generally helps. 总体管理通常有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "generally（通常）/ in general（总的来说）/ general（总体的）"
       }
     },
     "everything": {
@@ -14447,6 +15007,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "be confined to（仅限于）/ limit（限制）"
+      }
+    },
+    "geographic": {
+      "phonetic": "/ˌdʒiːəˈɡræfɪk/",
+      "pos": "adj.",
+      "sense": "地理的、地理上的",
+      "collocations": [
+        "geographic area",
+        "geographic distribution"
+      ],
+      "examples": [
+        "The shift is geographic as well as social. 这一转变既是社会的也是地理的。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "geographic（地理的）/ geographical（同义，更常用）/ geography（地理学）"
       }
     },
     "area": {
@@ -14610,6 +15186,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "great（巨大/很棒）/ big（大，物理）/ large（大，数量）"
+      }
+    },
+    "impacts": {
+      "phonetic": "/ˈɪmpækts/",
+      "pos": "n./v.",
+      "sense": "影响（impact 的复数）；影响（动词三单）",
+      "lemma": "impact",
+      "collocations": [
+        "the impacts of",
+        "it impacts"
+      ],
+      "examples": [
+        "The impacts vary by region. 影响因地区而异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "impacts（复数/三单）/ impact（单数/原形）"
       }
     },
     "cocoa": {
@@ -14796,6 +15389,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "price（价格）/ cost（成本）/ prize（奖品）"
+      }
+    },
+    "jumps": {
+      "phonetic": "/dʒʌmps/",
+      "pos": "v./n.",
+      "sense": "jump 的第三人称单数（跳跃、猛涨）；跳跃（复数）",
+      "lemma": "jump",
+      "collocations": [
+        "price jumps",
+        "jumps sharply"
+      ],
+      "examples": [
+        "The price jumps when supply falls. 供应下降时价格猛涨。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "jumps（三单/复数）/ jump（原形/单数）"
       }
     },
     "cause": {
@@ -15016,6 +15626,22 @@
         "confusables": "provide sb with sth / provide sth for sb（两种搭配）/ offer"
       }
     },
+    "humanity": {
+      "phonetic": "/hjuːˈmænəti/",
+      "pos": "n.",
+      "sense": "人类（不可数）；人性",
+      "collocations": [
+        "all of humanity",
+        "a crime against humanity"
+      ],
+      "examples": [
+        "Climate change affects all of humanity. 气候变化影响全人类。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "humanity（人类/人性）/ human（人/人类的）/ humanitarian（人道主义的）"
+      }
+    },
     "calories": {
       "phonetic": "/ˈkæləriz/",
       "pos": "n.",
@@ -15064,6 +15690,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "directly（直接地）/ directly 反义 indirectly"
+      }
+    },
+    "indirectly": {
+      "phonetic": "/ˌɪndəˈrektli/",
+      "pos": "adv.",
+      "sense": "间接地",
+      "collocations": [
+        "indirectly linked",
+        "affect indirectly"
+      ],
+      "examples": [
+        "Sleep is indirectly affected by screen use. 睡眠受屏幕使用的间接影响。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "indirectly（间接地）/ directly（直接地）"
       }
     },
     "animals": {
@@ -15134,6 +15776,23 @@
         "confusables": "seen（过去分词）/ saw（过去式）/ scene（场景）"
       }
     },
+    "increasing": {
+      "phonetic": "/ɪnˈkriːsɪŋ/",
+      "pos": "adj./v.",
+      "sense": "不断增加的；increase 的现在分词",
+      "lemma": "increase",
+      "collocations": [
+        "increasing numbers",
+        "increasingly（注意区分）"
+      ],
+      "examples": [
+        "An increasing number of firms offer leave. 越来越多的公司提供休假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increasing（不断增加的）/ increased（增加了的）/ increasingly（越来越）"
+      }
+    },
     "eat": {
       "phonetic": "/iːt/",
       "pos": "v.",
@@ -15149,6 +15808,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "eat（吃）/ ate（过去式）/ eaten（过去分词）"
+      }
+    },
+    "globally": {
+      "phonetic": "/ˈɡləʊbli/",
+      "pos": "adv.",
+      "sense": "全球地、在世界范围内",
+      "collocations": [
+        "globally, ...",
+        "compete globally"
+      ],
+      "examples": [
+        "Prices are set globally. 价格在全球范围内确定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "globally（全球地）/ global（全球的）"
       }
     },
     "similar": {
@@ -15199,6 +15874,72 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "consume（消耗）/ consumer（消费者）/ consumption（消费）"
+      }
+    },
+    "fat": {
+      "phonetic": "/fæt/",
+      "pos": "adj./n.",
+      "sense": "胖的；脂肪（不可数）",
+      "collocations": [
+        "low in fat",
+        "body fat"
+      ],
+      "examples": [
+        "Diets low in fat are not always healthier. 低脂饮食不一定更健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fat（脂肪/胖）/ fatty（含脂肪的）"
+      }
+    },
+    "homogeneity": {
+      "phonetic": "/ˌhəʊmədʒəˈniːəti/",
+      "pos": "n.",
+      "sense": "同质性、一致性（不可数）",
+      "collocations": [
+        "social homogeneity",
+        "cultural homogeneity"
+      ],
+      "examples": [
+        "The group's homogeneity reduced debate. 该群体的同质性减少了争论。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "homo-（同）+ gene（种）+ -ity",
+        "confusables": "homogeneity（同质性）/ homogeneous（同质的）/ heterogeneity（异质性）"
+      }
+    },
+    "handful": {
+      "phonetic": "/ˈhændfʊl/",
+      "pos": "n.",
+      "sense": "少数、一把（a handful of）",
+      "collocations": [
+        "a handful of",
+        "only a handful"
+      ],
+      "examples": [
+        "Only a handful of firms changed policy. 只有少数公司改变了政策。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "a handful of（少数/一把）/ a few（几个）"
+      }
+    },
+    "leaves": {
+      "phonetic": "/liːvz/",
+      "pos": "n./v.",
+      "sense": "叶子（leaf 的复数）；离开（leave 的三单）",
+      "lemma": "leave",
+      "collocations": [
+        "autumn leaves",
+        "leaves him cold"
+      ],
+      "examples": [
+        "The tree leaves turn brown. 树叶变褐。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "leaves（叶子/三单）/ leaf（单数）"
       }
     },
     "disease": {
@@ -15253,6 +15994,22 @@
         "confusables": "strike a blow at（打击）/ blow up（爆炸/放大）"
       }
     },
+    "global": {
+      "phonetic": "/ˈɡləʊbl/",
+      "pos": "adj.",
+      "sense": "全球的、全世界的；整体的",
+      "collocations": [
+        "global warming",
+        "global market"
+      ],
+      "examples": [
+        "Food is a global commodity. 粮食是全球性商品。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "global（全球的）/ worldwide（世界范围的）/ globe（地球）"
+      }
+    },
     "however": {
       "phonetic": "/haʊˈevə(r)/",
       "pos": "adv./conj.",
@@ -15267,6 +16024,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "however（副词，不能像 but 那样直接连两个分句）/ but（连词）"
+      }
+    },
+    "farrant's": {
+      "phonetic": "/ˈfærənts/",
+      "pos": "n.（所有格）",
+      "sense": "法伦特的（Farrant 的所有格）",
+      "lemma": "farrant",
+      "collocations": [
+        "Farrant's study"
+      ],
+      "examples": [
+        "Farrant's study found a clear pattern. 法伦特的研究发现了明确规律。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "所有格 's"
       }
     },
     "work": {
@@ -15453,6 +16226,22 @@
         "confusables": "breeding（饲养/繁殖）/ breeding ground（温床）"
       }
     },
+    "jury": {
+      "phonetic": "/ˈdʒʊəri/",
+      "pos": "n.",
+      "sense": "陪审团（可数）",
+      "collocations": [
+        "the jury found",
+        "jury duty"
+      ],
+      "examples": [
+        "The jury reached a verdict. 陪审团作出裁决。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "jury（陪审团）/ judge（法官）/ juror（陪审员）"
+      }
+    },
     "endeavours": {
       "phonetic": "/ɪnˈdevəz/",
       "pos": "n./v.",
@@ -15516,6 +16305,21 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "engineer（工程师）/ engineering（工程学）"
+      }
+    },
+    "heat-tolerant": {
+      "phonetic": "/ˌhiːt ˈtɒlərənt/",
+      "pos": "adj.",
+      "sense": "耐热的",
+      "collocations": [
+        "heat-tolerant varieties"
+      ],
+      "examples": [
+        "Heat-tolerant varieties may help farmers. 耐热品种可能帮到农民。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "heat-tolerant（耐热的）/ heat-sensitive（对热敏感的）"
       }
     },
     "hand": {
@@ -15586,6 +16390,22 @@
         "confusables": "comes（三单）/ come（原形）"
       }
     },
+    "fruition": {
+      "phonetic": "/fruˈɪʃn/",
+      "pos": "n.",
+      "sense": "（come to fruition）实现、结果实",
+      "collocations": [
+        "come to fruition",
+        "bring to fruition"
+      ],
+      "examples": [
+        "Their efforts came to fruition. 他们的努力结出果实。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "come to fruition（实现）/ fruit（水果/成果）"
+      }
+    },
     "places": {
       "phonetic": "/ˈpleɪsɪz/",
       "pos": "n./v.",
@@ -15621,6 +16441,39 @@
         "confusables": "applying（现在分词）/ applied（过去式/应用的）"
       }
     },
+    "fertiliser": {
+      "phonetic": "/ˈfɜːtəlaɪzə(r)/",
+      "pos": "n.",
+      "sense": "肥料（英式拼写）",
+      "collocations": [
+        "chemical fertiliser",
+        "use fertiliser"
+      ],
+      "examples": [
+        "Fertiliser use increased yields. 化肥使用提高了产量。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "fertiliser（英式）/ fertilizer（美式）/ fertile（肥沃的）"
+      }
+    },
+    "implementing": {
+      "phonetic": "/ˈɪmplɪmentɪŋ/",
+      "pos": "v.",
+      "sense": "implement 的现在分词（实施、执行）",
+      "lemma": "implement",
+      "collocations": [
+        "implementing a policy",
+        "implementing change"
+      ],
+      "examples": [
+        "Firms are implementing new leave policies. 公司正在实施新的休假政策。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "implementing（实施）/ implementation（实施，名词）/ implement（工具/实施）"
+      }
+    },
     "better": {
       "phonetic": "/ˈbetə(r)/",
       "pos": "adj./adv.",
@@ -15636,6 +16489,121 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "better（更好）/ had better（最好，后接动词原形）"
+      }
+    },
+    "irrigation": {
+      "phonetic": "/ˌɪrɪˈɡeɪʃn/",
+      "pos": "n.",
+      "sense": "灌溉（不可数）",
+      "collocations": [
+        "irrigation systems",
+        "irrigation water"
+      ],
+      "examples": [
+        "Irrigation keeps crops alive in droughts. 灌溉让作物在干旱中存活。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "irrigation（灌溉）/ irrigate（灌溉，动词）"
+      }
+    },
+    "machinery": {
+      "phonetic": "/məˈʃiːnəri/",
+      "pos": "n.",
+      "sense": "机械（不可数）；机制",
+      "collocations": [
+        "farm machinery",
+        "the machinery of"
+      ],
+      "examples": [
+        "Farm machinery reduced labour needs. 农业机械减少了对劳动力的需求。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "machinery（机械，不可数）/ machine（机器，可数）"
+      }
+    },
+    "gets": {
+      "phonetic": "/ɡets/",
+      "pos": "v.",
+      "sense": "get 的第三人称单数（得到、变得）",
+      "lemma": "get",
+      "collocations": [
+        "gets older",
+        "gets better"
+      ],
+      "examples": [
+        "As the child gets older, reading changes. 孩子越大，阅读情况会变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "gets（三单）/ get（原形）/ got（过去式）"
+      }
+    },
+    "field": {
+      "phonetic": "/fiːld/",
+      "pos": "n.",
+      "sense": "领域；田野；场地（可数）",
+      "collocations": [
+        "in the field of",
+        "a field of study"
+      ],
+      "examples": [
+        "She works in the field of education. 她在教育领域工作。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "field（领域/田野）/ area（地区/领域）"
+      }
+    },
+    "faster": {
+      "phonetic": "/ˈfɑːstə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更快的（fast 的比较级）；更快地",
+      "lemma": "fast",
+      "collocations": [
+        "faster than",
+        "grow faster"
+      ],
+      "examples": [
+        "Digital text travels faster. 数字文本传播更快。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "faster（更快）/ fastest（最快）"
+      }
+    },
+    "installing": {
+      "phonetic": "/ɪnˈstɔːlɪŋ/",
+      "pos": "v.",
+      "sense": "install 的现在分词（安装）",
+      "lemma": "install",
+      "collocations": [
+        "installing software",
+        "installing a system"
+      ],
+      "examples": [
+        "They are installing new tracking tools. 他们正在安装新的追踪工具。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "installing（现在分词）/ installation（安装，名词）"
+      }
+    },
+    "facilities": {
+      "phonetic": "/fəˈsɪlətiz/",
+      "pos": "n.",
+      "sense": "设施（facility 的复数）",
+      "collocations": [
+        "sports facilities",
+        "public facilities"
+      ],
+      "examples": [
+        "The school lacks facilities. 这所学校缺乏设施。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "facilities（设施）/ facility（设施；才能）"
       }
     },
     "delay": {
@@ -15721,6 +16689,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "already（已经）/ yet（尚，否定疑问）/ all ready（全都准备好）"
+      }
+    },
+    "farm": {
+      "phonetic": "/fɑːm/",
+      "pos": "n./v.",
+      "sense": "农场（可数）/ 务农",
+      "collocations": [
+        "on a farm",
+        "farm management",
+        "farm work"
+      ],
+      "examples": [
+        "General farm management can ease changes. 总体农场管理能缓解变化冲击。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "farm（农场）/ farmland（农田）/ farmer（农民）"
+      }
+    },
+    "management": {
+      "phonetic": "/ˈmænɪdʒmənt/",
+      "pos": "n.",
+      "sense": "管理（不可数）；管理层",
+      "collocations": [
+        "farm management",
+        "senior management"
+      ],
+      "examples": [
+        "General farm management can ease changes. 总体农场管理能缓解变化冲击。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "management（管理）/ manager（经理）/ manage（管理）"
       }
     },
     "long": {
@@ -15809,6 +16810,22 @@
         "confusables": "changes（复数/三单）/ change（单数）"
       }
     },
+    "finally": {
+      "phonetic": "/ˈfaɪnəli/",
+      "pos": "adv.",
+      "sense": "最后、终于（强调次序或结果）",
+      "collocations": [
+        "finally, ...",
+        "finally arrived"
+      ],
+      "examples": [
+        "The law was finally passed. 法律终于通过。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "finally（最后）/ eventually（最终，强调结果）/ at last（终于）"
+      }
+    },
     "diversifying": {
       "phonetic": "/daɪˈvɜːsɪfaɪɪŋ/",
       "pos": "v.",
@@ -15858,6 +16875,21 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "away（离开）/ way（路）/ right away（立刻）"
+      }
+    },
+    "heat-sensitive": {
+      "phonetic": "/ˌhiːt ˈsensətɪv/",
+      "pos": "adj.",
+      "sense": "对热敏感的",
+      "collocations": [
+        "heat-sensitive crops"
+      ],
+      "examples": [
+        "Heat-sensitive crops fail in droughts. 对热敏感的作物在干旱中歉收。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "heat-sensitive（对热敏感）/ sensitive to heat"
       }
     },
     "diversification": {

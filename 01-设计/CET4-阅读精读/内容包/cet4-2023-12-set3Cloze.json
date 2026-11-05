@@ -3707,6 +3707,23 @@
         "confusables": "take（拿/花费）/ bring（带来）/ spend（花费，主语须是人）"
       }
     },
+    "familiar": {
+      "phonetic": "/fəˈmɪliə(r)/",
+      "pos": "adj.",
+      "sense": "熟悉的（be familiar with）；常见的",
+      "collocations": [
+        "be familiar with",
+        "a familiar path",
+        "familiar to"
+      ],
+      "examples": [
+        "They take a familiar path. 他们走一条熟悉的路。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be familiar with（某人熟悉某物）/ be familiar to（某物为某人所熟悉）"
+      }
+    },
     "starting": {
       "phonetic": "/ˈstɑːtɪŋ/",
       "pos": "v./adj.",
@@ -3929,6 +3946,23 @@
       "more": {
         "roots": "physica（自然）+ -al",
         "confusables": "physical（身体的/物理的）/ mental（心理的）"
+      }
+    },
+    "growing": {
+      "phonetic": "/ˈɡrəʊɪŋ/",
+      "pos": "adj./v.",
+      "sense": "增长的、日益增长的；grow 的现在分词",
+      "lemma": "grow",
+      "collocations": [
+        "a growing body of research",
+        "growing concern"
+      ],
+      "examples": [
+        "A growing body of research supports this. 越来越多的研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "growing（增长的）/ grown（长大的）"
       }
     },
     "body": {
@@ -4154,6 +4188,22 @@
         "confusables": "stress（压力）/ strain（拉紧/劳损）/ pressure（外部压力）"
       }
     },
+    "happiness": {
+      "phonetic": "/ˈhæpinəs/",
+      "pos": "n.",
+      "sense": "幸福、快乐（不可数）",
+      "collocations": [
+        "self-reported happiness",
+        "a sense of happiness"
+      ],
+      "examples": [
+        "Social ties predict happiness. 社会联系能预测幸福感。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "happiness（幸福）/ happy（快乐的）/ unhappiness（不快乐）"
+      }
+    },
     "levels": {
       "phonetic": "/ˈlevlz/",
       "pos": "n.",
@@ -4169,6 +4219,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "levels（复数）/ level（单数）"
+      }
+    },
+    "fitness": {
+      "phonetic": "/ˈfɪtnəs/",
+      "pos": "n.",
+      "sense": "健康、体能（不可数）；适合",
+      "collocations": [
+        "fitness tracker",
+        "physical fitness"
+      ],
+      "examples": [
+        "Fitness tracker data was less predictive. 健身追踪器数据的预测力更弱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fitness（健康/适合）/ fit（适合/健康的）"
       }
     },
     "data": {
@@ -4733,6 +4799,22 @@
         "confusables": "boost（提升）/ boast（吹嘘）"
       }
     },
+    "illness": {
+      "phonetic": "/ˈɪlnəs/",
+      "pos": "n.",
+      "sense": "疾病、生病（可数/不可数）",
+      "collocations": [
+        "illness recovery rates",
+        "mental illness"
+      ],
+      "examples": [
+        "Social ties improve illness recovery rates. 社会联系提高疾病康复率。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "illness（生病）/ disease（疾病）/ sick（生病的，形容词）"
+      }
+    },
     "rates": {
       "phonetic": "/reɪts/",
       "pos": "n.",
@@ -4749,6 +4831,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "rate（比率）/ ratio（比例关系）/ rating（评级）"
+      }
+    },
+    "isolation": {
+      "phonetic": "/ˌaɪsəˈleɪʃn/",
+      "pos": "n.",
+      "sense": "孤立、隔绝（不可数）",
+      "collocations": [
+        "social isolation",
+        "in isolation"
+      ],
+      "examples": [
+        "Social isolation is linked to higher disease rates. 社会孤立与更高发病率相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "isolation（孤立）/ isolated（孤立的）/ in isolation（孤立地）"
       }
     },
     "meanwhile": {
@@ -4903,6 +5001,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "since（自从/因为）/ for（持续一段时间）/ from（起点）"
+      }
+    },
+    "loneliness": {
+      "phonetic": "/ˈləʊnlinəs/",
+      "pos": "n.",
+      "sense": "孤独（不可数）",
+      "collocations": [
+        "loneliness is rising",
+        "a sense of loneliness"
+      ],
+      "examples": [
+        "Loneliness is a widespread public health problem. 孤独是普遍的公共卫生问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "loneliness（孤独）/ lonely（孤独的）/ alone（独自的）"
       }
     },
     "emerging": {

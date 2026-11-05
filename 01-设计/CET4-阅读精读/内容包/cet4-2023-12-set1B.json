@@ -4413,6 +4413,23 @@
         "confusables": "men（复数）/ man（单数）/ man 也可泛指人类"
       }
     },
+    "flights": {
+      "phonetic": "/flaɪts/",
+      "pos": "n.",
+      "sense": "航班（flight 的复数）",
+      "lemma": "flight",
+      "collocations": [
+        "book flights",
+        "domestic flights"
+      ],
+      "examples": [
+        "Flight prices vary by passenger. 航班价格因乘客而异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "flights（航班）/ flights of stairs（一段楼梯）"
+      }
+    },
     "tend": {
       "phonetic": "/tend/",
       "pos": "v.",
@@ -4839,6 +4856,22 @@
         "confusables": "further（进一步/更远，抽象）/ farther（更远，物理距离）"
       }
     },
+    "investigation": {
+      "phonetic": "/ɪnˌvestɪˈɡeɪʃn/",
+      "pos": "n.",
+      "sense": "调查（可数/不可数）",
+      "collocations": [
+        "under investigation",
+        "a police investigation"
+      ],
+      "examples": [
+        "The case is under investigation. 案件正在调查中。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "investigation（调查）/ investigate（调查，动词）"
+      }
+    },
     "allowed": {
       "phonetic": "/əˈlaʊd/",
       "pos": "v.",
@@ -5060,6 +5093,23 @@
         "confusables": "possible（可能）/ possibly（副词）/ probable（更可能）"
       }
     },
+    "explanations": {
+      "phonetic": "/ˌekspləˈneɪʃnz/",
+      "pos": "n.",
+      "sense": "解释（explanation 的复数）",
+      "lemma": "explanation",
+      "collocations": [
+        "possible explanations",
+        "an explanation for"
+      ],
+      "examples": [
+        "There are several explanations for the gap. 这一差距有几种解释。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "explanations（解释）/ explanation for（对……的解释）"
+      }
+    },
     "choosing": {
       "phonetic": "/ˈtʃuːzɪŋ/",
       "pos": "v.",
@@ -5094,6 +5144,22 @@
         "confusables": "ahead of（在……之前/领先）/ in front of（在……前面，空间）"
       }
     },
+    "frequent": {
+      "phonetic": "/ˈfriːkwənt/",
+      "pos": "adj./v.",
+      "sense": "频繁的（形容词）；常去（动词）",
+      "collocations": [
+        "frequent use",
+        "a frequent visitor"
+      ],
+      "examples": [
+        "Frequent switching reduces accuracy. 频繁切换会降低准确性。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "frequent（频繁的）/ frequently（频繁地）/ frequency（频率）"
+      }
+    },
     "travelers": {
       "phonetic": "/ˈtrævələz/",
       "pos": "n.",
@@ -5109,6 +5175,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "travelers（美式）/ travellers（英式）"
+      }
+    },
+    "inclined": {
+      "phonetic": "/ɪnˈklaɪnd/",
+      "pos": "adj./v.",
+      "sense": "倾向于的（be inclined to do）；incline 的过去分词",
+      "lemma": "incline",
+      "collocations": [
+        "be inclined to do",
+        "feel inclined"
+      ],
+      "examples": [
+        "They are inclined to trust data. 他们倾向于相信数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be inclined to do（倾向于）/ tendency（倾向，名词）"
       }
     },
     "late": {
@@ -5213,6 +5296,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "survey（调查）/ inspect（检查）/ poll（民意调查）"
+      }
+    },
+    "express": {
+      "phonetic": "/ɪkˈspres/",
+      "pos": "v./adj.",
+      "sense": "表达（及物）；快速的（express train）",
+      "collocations": [
+        "express an opinion",
+        "express oneself"
+      ],
+      "examples": [
+        "They express ideas to the world. 他们向世界表达想法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "express（表达）/ expression（表达/表情）/ expressive（有表现力的）"
       }
     },
     "consumer": {
@@ -5522,6 +5621,39 @@
         "confusables": "carefully（仔细地）/ carefully 反义 carelessly"
       }
     },
+    "explains": {
+      "phonetic": "/ɪkˈspleɪnz/",
+      "pos": "v.",
+      "sense": "explain 的第三人称单数（解释）",
+      "lemma": "explain",
+      "collocations": [
+        "explains why",
+        "explains that"
+      ],
+      "examples": [
+        "The researcher explains why the gap persists. 研究者解释了差距为何持续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "explains（三单）/ explain sth to sb（不是 explain sb sth）"
+      }
+    },
+    "exhibit": {
+      "phonetic": "/ɪɡˈzɪbɪt/",
+      "pos": "v./n.",
+      "sense": "表现出（及物）；展出 / 展品",
+      "collocations": [
+        "exhibit behaviour",
+        "an exhibit"
+      ],
+      "examples": [
+        "Men tend to exhibit more of these behaviours. 男性往往表现出更多这类行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "exhibit（表现/展出）/ display（展示）/ show（显示）"
+      }
+    },
     "isn't": {
       "phonetic": "/ˈɪznt/",
       "pos": "缩略",
@@ -5793,6 +5925,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "way（方法）/ road（道路）/ method（方法，正式）"
+      }
+    },
+    "manifest": {
+      "phonetic": "/ˈmænɪfest/",
+      "pos": "v./adj.",
+      "sense": "显现、表明（及物）；明显的",
+      "collocations": [
+        "manifest itself",
+        "manifest in"
+      ],
+      "examples": [
+        "Bias manifests in small decisions. 偏见体现在细微决定中。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "manifest（显现/明显的）/ manifestation（表现）"
       }
     },
     "themselves": {
