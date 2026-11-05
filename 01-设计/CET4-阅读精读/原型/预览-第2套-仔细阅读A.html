@@ -136,6 +136,8 @@ const saved = JSON.parse(localStorage.getItem('juedou.saved') || '[]');
 const notes = JSON.parse(localStorage.getItem('juedou.notes') || '{}');
 
 const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+// 词卡 more.* / 空号 distractors：既可能是字符串，也可能是数组（清单），统一安全渲染
+const escV = v => Array.isArray(v) ? v.map(x => esc(String(x))).join('<br>') : esc(String(v ?? ''));
 const save = () => localStorage.setItem('juedou.saved', JSON.stringify([...new Set(saved)]));
 
 function renderMarkup(s){
@@ -240,7 +242,7 @@ function openBlank(no){
   if (b){
     h += '<div class="sec"><div class="sec-t">正确答案</div><div class="sense">' + esc(b.answerWord) + '　（词库 ' + esc(b.answerKey) + '）</div></div>';
     h += '<div class="sec"><div class="sec-t">为什么是它</div><div class="tr" style="font-size:14.5px">' + esc(b.reason) + '</div></div>';
-    h += '<div class="sec"><div class="sec-t">易错与排除</div><div class="tr" style="font-size:14px;color:var(--muted)">' + esc(b.distractors) + '</div></div>';
+    h += '<div class="sec"><div class="sec-t">易错与排除</div><div class="tr" style="font-size:14px;color:var(--muted)">' + escV(b.distractors) + '</div></div>';
   } else {
     h += '<div class="empty">该空暂无解析</div>';
   }
@@ -343,9 +345,9 @@ function openWord(pIdx, sIdx, tok){
     if (a.more){
       h += '<button class="morebtn" id="moreBtn">更多：词根 / 近义 / 易混 ▾</button>';
       h += '<div id="moreBox" style="display:none" class="sec">' +
-           (a.more.roots ? '<div class="tr"><b>词根</b>' + esc(a.more.roots) + '</div>' : '') +
-           (a.more.synonyms ? '<div class="tr"><b>近义</b>' + esc(a.more.synonyms) + '</div>' : '') +
-           (a.more.confusables ? '<div class="tr"><b>易混</b>' + esc(a.more.confusables) + '</div>' : '') +
+           (a.more.roots ? '<div class="tr"><b>词根</b>' + escV(a.more.roots) + '</div>' : '') +
+           (a.more.synonyms ? '<div class="tr"><b>近义</b>' + escV(a.more.synonyms) + '</div>' : '') +
+           (a.more.confusables ? '<div class="tr"><b>易混</b>' + escV(a.more.confusables) + '</div>' : '') +
            '</div>';
     }
   } else {
