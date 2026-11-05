@@ -109,6 +109,30 @@ for (const [theme, vars] of Object.entries(themes)) {
   }
 }
 
+// 组件配对：「文字色 on 填充色」（R-1：既有 10 项只测「变量色 on --paper」，不覆盖组件填充底）
+// ponytail: 只做「.seg.on 动态解析 + .btn 常量」两条代表配对；全量组件映射待样式拆模块后再上 CSS 解析器。
+const appCss = readFileSync(path.join(root, "src", "styles", "app.css"), "utf8");
+const segOnBody = (appCss.match(/\.seg\.on\s*\{([\s\S]*?)\}/) || [])[1] || "";
+const declOf = (body, prop) => (body.match(new RegExp(`(?:^|[\\s;])${prop}\\s*:\\s*([^;]+);`)) || [])[1]?.trim() || null;
+const resolveColor = (value, vars) => {
+  const ref = value && value.match(/var\(\s*(--[a-z0-9-]+)\s*\)/);
+  return ref ? vars[ref[1]] : value;
+};
+const COMPONENT_PAIRS = [
+  ["选中态 .seg.on（文字 on 自身填充）", declOf(segOnBody, "color"), declOf(segOnBody, "background"), 4.5],
+  ["按钮 .btn（--ink-2 on --paper）", "var(--ink-2)", "var(--paper)", 4.5],
+];
+for (const [theme, vars] of Object.entries(themes)) {
+  for (const [label, fgRaw, bgRaw, threshold] of COMPONENT_PAIRS) {
+    const fg = resolveColor(fgRaw, vars);
+    const bg = resolveColor(bgRaw, vars);
+    if (!fg || !bg) { console.error(`FAIL: [${theme}] 组件配对取色失败：${label}`); failed = true; continue; }
+    const ratio = contrast(fg, bg);
+    rows.push({ theme, pair: label, fg, bg, ratio, threshold, ok: ratio >= threshold });
+    if (ratio < threshold) failed = true;
+  }
+}
+
 console.log("theme | 配对 | 前景 | 背景 | 比值 | 门槛 | 判定");
 console.log("---|---|---|---|---|---|---");
 for (const r of rows) {
