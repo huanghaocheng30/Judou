@@ -1,0 +1,284 @@
+/* 视觉沿用原型（01-设计/CET4-阅读精读/原型/预览-总目录.html 的色系与卡片样式）。
+   交互可访问性：所有可交互元素 keyboard 可达，:focus-visible 有可见轮廓；颜色不作为唯一信息通道。 */
+
+:root {
+  --bg: #f7f8fa;
+  --card: #ffffff;
+  --ink: #1f2329;
+  --ink-2: #5b6472;
+  --ink-3: #8b949e;
+  --line: #e6e8eb;
+  --brand: #2f6fed;
+  --brand-soft: #eef3fe;
+  --ok: #1a9c5b;
+  --ok-soft: #e8f6ee;
+  --warn: #a15c00;
+  --warn-soft: #fdf3e2;
+  --focus: #2f6fed;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181d;
+    --card: #1e2128;
+    --ink: #e8eaed;
+    --ink-2: #a8b0bd;
+    --ink-3: #78818e;
+    --line: #2c3038;
+    --brand: #6b9bff;
+    --brand-soft: #1d2740;
+    --ok: #4ec98a;
+    --ok-soft: #16301f;
+    --warn: #e0a44a;
+    --warn-soft: #2c2417;
+    --focus: #6b9bff;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 15px/1.7 -apple-system, "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+/* 焦点可见：键盘用户始终能看到位置 */
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 6px;
+  letter-spacing: -0.3px;
+}
+
+.sub {
+  color: var(--ink-2);
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.page-head {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.head-main {
+  min-width: 0;
+}
+
+/* 返回箭头：32×32 可点区域 */
+a.back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--ink-2);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1;
+}
+
+a.back:hover {
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.banner {
+  background: var(--warn-soft);
+  color: var(--warn);
+  border: 1px solid var(--warn);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+
+/* 三套分组 */
+.set-group {
+  margin: 26px 0 0;
+}
+
+.set-group h2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-3);
+  letter-spacing: 0.5px;
+  margin: 0 0 12px;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+a.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px 18px;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+
+a.card:hover {
+  border-color: var(--brand);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(47, 111, 237, 0.1);
+}
+
+.card .name {
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.card .meta {
+  font-size: 13px;
+  color: var(--ink-2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--ok-soft);
+  color: var(--ok);
+  font-weight: 600;
+}
+
+.tag.type {
+  background: var(--brand-soft);
+  color: var(--brand);
+}
+
+/* 阅读页正文 */
+.article-body {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 20px 22px;
+}
+
+.para {
+  margin: 0 0 1.1em;
+  font-size: 17px;
+  line-height: 1.95;
+  letter-spacing: 0.1px;
+}
+
+.para:last-child {
+  margin-bottom: 0;
+}
+
+.w {
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.w:hover {
+  background: var(--brand-soft);
+  color: var(--brand);
+}
+
+.w:focus-visible,
+.blank:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
+
+/* 空格节点：颜色 + 边框 + 编号三重通道，不只靠颜色 */
+.blank {
+  display: inline-block;
+  min-width: 1.6em;
+  padding: 0 4px;
+  margin: 0 1px;
+  border: 1px dashed var(--brand);
+  border-radius: 4px;
+  background: var(--brand-soft);
+  color: var(--brand);
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* 句末「析」触点：12×12 视觉、32×32 可点区域 */
+.analysis {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-left: 2px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink-3);
+  font-size: 11px;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.analysis:hover {
+  background: var(--brand-soft);
+  color: var(--brand);
+}
+
+/* 错误页 */
+.error-page {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--warn);
+  border-radius: 12px;
+  padding: 28px 30px;
+}
+
+.error-page h1 {
+  color: var(--warn);
+}
+
+.error-page .detail {
+  font-size: 16px;
+  margin: 12px 0 8px;
+}
+
+.error-page .hint {
+  color: var(--ink-2);
+  font-size: 14px;
+  margin: 0;
+}

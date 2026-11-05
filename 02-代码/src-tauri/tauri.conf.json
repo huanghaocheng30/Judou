@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "CET4 精读",
+  "version": "0.1.0",
+  "identifier": "com.judou.cet4",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "CET4 精读",
+        "width": 1200,
+        "height": 800,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["msi", "nsis"],
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/icon.ico"],
+    "resources": {
+      "../content-pack/": "content-pack/"
+    },
+    "shortDescription": "CET4 阅读精读",
+    "longDescription": "CET4 阅读精读：12 篇真题、逐句解析、词卡与空格解析。全程离线。"
+  }
+}

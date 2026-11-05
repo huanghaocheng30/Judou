@@ -1,0 +1,19 @@
+[package]
+name = "cet4-reading"
+version = "0.1.0"
+description = "CET4 阅读精读桌面应用"
+edition = "2021"
+rust-version = "1.77"
+
+[lib]
+name = "cet4_reading_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[dependencies]
+rusqlite = { version = "0.40.2", features = ["bundled"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+tauri = { version = "2", features = [] }
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }

@@ -1,0 +1,24 @@
+{
+  "name": "cet4-reading",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CET4 阅读精读 · Tauri v2 桌面应用",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "gen:manifest": "node scripts/gen-manifest.mjs",
+    "gen:icons": "node scripts/gen-icons.mjs",
+    "verify:render": "node scripts/verify-render.mjs --all"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "typescript": "^5.9.0",
+    "vite": "^6.3.0"
+  }
+}

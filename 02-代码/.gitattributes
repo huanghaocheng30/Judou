@@ -1,0 +1,3 @@
+# 内容包是逐字节分发数据：禁止 git 行尾转换，否则仓库 blob 与工作区字节不一致，
+# manifest.json 里的 contentHash（对工作区文件字节取 sha256）将无法复核。
+content-pack/** -text
