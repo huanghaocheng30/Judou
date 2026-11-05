@@ -1,5 +1,5 @@
 {
-  "packVersion": "2023-12-set1-v0.1",
+  "packVersion": "2023-12-set1-v0.9",
   "articleId": "set2Cloze",
   "sourceKey": "cet4-2023-12-set2Cloze",
   "meta": {
@@ -155,7 +155,58 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "许多研究考察了家庭生活如何影响职场中的生产力和满意度。",
+            "translationNatural": "已有不少研究看过：家庭生活会怎样影响人在工作中的效率和满意度。",
+            "structMarkup": "【A number of studies】 _have looked at_ ~{how family life can affect productivity and satisfaction in the workplace}~.",
+            "structureSummary": "主谓 + 宾语从句（how 引导）",
+            "components": [
+              {
+                "part": "A number of studies",
+                "role": "主语",
+                "note": "a number of + 复数，谓语用复数"
+              },
+              {
+                "part": "have looked at",
+                "role": "谓语",
+                "note": "look at 此处意为“研究、考察”"
+              },
+              {
+                "part": "how family life can affect productivity and satisfaction",
+                "role": "宾语从句",
+                "note": "how 引导，作 look at 的宾语"
+              },
+              {
+                "part": "in the workplace",
+                "role": "状语",
+                "note": "在职场中"
+              }
+            ],
+            "clauses": [
+              "how 引导宾语从句，用陈述语序（how family life can affect）。",
+              "a number of + 复数名词作主语，谓语用复数 have。"
+            ],
+            "phrases": [
+              {
+                "text": "a number of",
+                "meaning": "许多、若干",
+                "usage": "谓语用复数；与 the number of（……的数量，谓语单数）不同。",
+                "example": "A number of students were absent. 好些学生缺席。"
+              },
+              {
+                "text": "look at",
+                "meaning": "研究、审视（此处）",
+                "usage": "本义“看”，学术语境常引申为“考察”。",
+                "example": "The study looks at how people spend money. 该研究考察人们如何花钱。"
+              }
+            ],
+            "pitfalls": [
+              "a number of 作主语，谓语用复数。",
+              "how 从句用陈述语序，不能用疑问语序。"
+            ],
+            "paragraphRole": "交代已有研究关注点（家庭生活），为下文“ leisure 研究不足”做铺垫。"
+          }
         },
         {
           "idx": 1,
@@ -270,7 +321,58 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "然而，关于休闲活动影响的研究出人意料地少。",
+            "translationNatural": "但令人意外的是，关于“休闲活动影响”的研究少得可怜。",
+            "structMarkup": "{However}, 【there】 _has been_ ~26 little research~ (on the influence of leisure activities).",
+            "structureSummary": "there be 存在句（现在完成时）+ 介词短语作后置定语",
+            "components": [
+              {
+                "part": "However",
+                "role": "连接副词",
+                "note": "转折"
+              },
+              {
+                "part": "there",
+                "role": "引导词",
+                "note": "there be 句型"
+              },
+              {
+                "part": "has been 26 little research",
+                "role": "谓语 + 主语",
+                "note": "第 26 空填副词修饰 little；research 不可数"
+              },
+              {
+                "part": "on the influence of leisure activities",
+                "role": "后置定语",
+                "note": "修饰 research"
+              }
+            ],
+            "clauses": [
+              "there has been 是现在完成时的存在句。",
+              "第 26 空修饰 little，需要一个副词，且与“研究很少”这一反常现象呼应。"
+            ],
+            "phrases": [
+              {
+                "text": "little research",
+                "meaning": "很少的研究",
+                "usage": "little 修饰不可数名词表“几乎没有”；research 不可数。",
+                "example": "There is little research on this topic. 关于这个话题的研究很少。"
+              },
+              {
+                "text": "the influence of A on B",
+                "meaning": "A 对 B 的影响",
+                "usage": "influence 后接 on；同义 the effect of A on B。",
+                "example": "The influence of music on mood is strong. 音乐对情绪的影响很大。"
+              }
+            ],
+            "pitfalls": [
+              "research 不可数，不能写 a research 或 researches（表“研究项目”时偶用复数）。",
+              "第 26 空是副词，修饰 little（surprisingly little = 少得令人意外）。"
+            ],
+            "paragraphRole": "指出研究空白：休闲活动的影响被忽视，引出本研究。"
+          }
         },
         {
           "idx": 2,
@@ -441,7 +543,65 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "因此 Ciara Kelly 和同事招募了 129 名爱好者，考察他们花在爱好上的时间如何影响了工作生活。",
+            "translationNatural": "于是 Ciara Kelly 团队招了 129 位“有爱好的人”，看他们投入爱好的时间怎样影响了自己的工作。",
+            "structMarkup": "{So} 【Ciara Kelly and colleagues】 _recruited_ ~129 hobbyists~ (to look at how the time (spent on their hobbies) 27 their work life).",
+            "structureSummary": "主谓宾 + 目的状语（内含宾语从句 + 后置定语）",
+            "components": [
+              {
+                "part": "So",
+                "role": "连词",
+                "note": "因此"
+              },
+              {
+                "part": "Ciara Kelly and colleagues",
+                "role": "主语",
+                "note": "研究者"
+              },
+              {
+                "part": "recruited",
+                "role": "谓语",
+                "note": "招募"
+              },
+              {
+                "part": "129 hobbyists",
+                "role": "宾语",
+                "note": "129 名爱好者"
+              },
+              {
+                "part": "to look at how the time ... 27 their work life",
+                "role": "目的状语",
+                "note": "不定式；内含 how 宾语从句"
+              }
+            ],
+            "clauses": [
+              "how the time spent on their hobbies 27 their work life 是 how 引导的宾语从句。",
+              "spent on their hobbies 是过去分词短语作后置定语，修饰 the time。",
+              "第 27 空是宾语从句的谓语动词，需过去式（与全文过去时一致）。"
+            ],
+            "phrases": [
+              {
+                "text": "recruit",
+                "meaning": "招募、征募",
+                "usage": "研究语境指“招募被试”；名词 recruitment。",
+                "example": "They recruited 200 volunteers. 他们招募了 200 名志愿者。"
+              },
+              {
+                "text": "hobbyist",
+                "meaning": "有某种爱好的人",
+                "usage": "hobby + -ist；指业余爱好者。",
+                "example": "Photography hobbyists gathered in the park. 摄影爱好者聚集在公园。"
+              }
+            ],
+            "pitfalls": [
+              "the time spent on their hobbies：过去分词作后置定语。",
+              "第 27 空需要过去式动词（全文叙述研究用过去时）。",
+              "look at 后接 how 从句，用陈述语序。"
+            ],
+            "paragraphRole": "介绍研究方法：招募爱好者，观察爱好投入对工作的影响。"
+          }
         }
       ]
     },
@@ -646,7 +806,60 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "研究者发现，当参与者花在休闲活动上的时间超过平时时，他们对自己完成工作能力的信念得到了增强。",
+            "translationNatural": "研究发现：当参与者投入爱好的时间比平时更多时，他们对自己“能干好工作”的信心反而增强了。",
+            "structMarkup": "【The researchers】 _found_ ~{that when participants spent longer than 28 on their leisure activity, their belief (in their ability to perform their job) was strengthened}~.",
+            "structureSummary": "主谓 + 宾语从句（从句内含时间状语从句）",
+            "components": [
+              {
+                "part": "The researchers",
+                "role": "主语",
+                "note": "研究者"
+              },
+              {
+                "part": "found",
+                "role": "谓语",
+                "note": "后接 that 从句"
+              },
+              {
+                "part": "when participants spent longer than 28 on their leisure activity",
+                "role": "时间状语从句",
+                "note": "第 28 空填与“平时”有关的形容词"
+              },
+              {
+                "part": "their belief ... was strengthened",
+                "role": "从句主句",
+                "note": "被动结构"
+              }
+            ],
+            "clauses": [
+              "that 引导宾语从句，作 found 的宾语。",
+              "从句内部 when 引导时间状语从句。",
+              "in their ability to perform their job 是介词短语作后置定语，修饰 belief。"
+            ],
+            "phrases": [
+              {
+                "text": "longer than normal",
+                "meaning": "比平时更久",
+                "usage": "第 28 空填 normal，构成 longer than normal。",
+                "example": "The meeting ran longer than normal. 会议开得比平时久。"
+              },
+              {
+                "text": "belief in one's ability",
+                "meaning": "对自己能力的信心",
+                "usage": "belief in + 名词，表“对……的信任”。",
+                "example": "Belief in your ability matters. 对自己能力的信心很重要。"
+              }
+            ],
+            "pitfalls": [
+              "第 28 空要与 longer than 搭配，表示“比平常更久”。",
+              "belief 后接 in，表“对……的信心”。",
+              "was strengthened 是被动语态。"
+            ],
+            "paragraphRole": "给出研究的第一个正面发现：多投入爱好会增强工作信心。"
+          }
         },
         {
           "idx": 1,
@@ -759,7 +972,26 @@
               "end": 74,
               "surface": "dissimilar",
               "normalized": "dissimilar",
-              "isWord": true
+              "isWord": true,
+              "analysis": {
+                "phonetic": "/dɪˈsɪmələ(r)/",
+                "pos": "adj.",
+                "senseInContext": "不相似的（a serious hobby that was dissimilar to their job 与工作不相似的认真爱好）",
+                "collocations": [
+                  "be dissimilar to",
+                  "dissimilar in",
+                  "similarity（名词）"
+                ],
+                "examples": [
+                  "The two cases are not dissimilar. 这两个案例并非不相似。"
+                ],
+                "isCet4HighFreq": false,
+                "more": {
+                  "roots": "dis-（否定）+ similar（相似的）",
+                  "synonyms": "different / unlike",
+                  "confusables": "dissimilar to/from；反义 similar to"
+                }
+              }
             },
             {
               "start": 75,
@@ -1073,7 +1305,81 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "但这只是当他们的爱好认真且与其工作不相同时的情况，或者当他们的爱好与工作相似但他们只是随意做做时的情况。当他们的爱好既认真又与工作相似时，那么花更多时间在它上面实际上降低了他们的工作效率。",
+            "translationNatural": "但这只发生在两种情形：爱好很“正式”且跟工作不相似；或爱好虽像工作，但他们只是随便玩玩。可如果爱好既正式又像工作，那投入越多，工作效率反而越低。",
+            "structMarkup": "{But} 【this】 _was_ ~only the 29~ {when they had a serious hobby that was dissimilar to their job}, or {when their hobby was similar to their work but they only did it 30}. {When their hobby was both serious and similar to their job}, {then} 【spending more time on it】 _actually decreased_ ~their work 31~.",
+            "structureSummary": "主系表 + 两个并列时间状语从句；第二句为时间从句 + 主谓宾",
+            "components": [
+              {
+                "part": "this",
+                "role": "主语",
+                "note": "指上一句的“信心增强”"
+              },
+              {
+                "part": "was only the 29",
+                "role": "系表",
+                "note": "第 29 空填名词（case = 情况）"
+              },
+              {
+                "part": "when they had a serious hobby that was dissimilar to their job",
+                "role": "时间状语从句1",
+                "note": "情形一"
+              },
+              {
+                "part": "when their hobby was similar to their work but they only did it 30",
+                "role": "时间状语从句2",
+                "note": "情形二；第 30 空填副词"
+              },
+              {
+                "part": "spending more time on it",
+                "role": "第二句主语",
+                "note": "动名词短语作主语"
+              },
+              {
+                "part": "decreased",
+                "role": "第二句谓语",
+                "note": "降低"
+              },
+              {
+                "part": "their work 31",
+                "role": "第二句宾语",
+                "note": "第 31 空填名词（efficiency）"
+              }
+            ],
+            "clauses": [
+              "两个 when 从句由 or 并列，说明“信心增强”只在这两种情形下成立。",
+              "that was dissimilar to their job 是定语从句，修饰 a serious hobby。",
+              "第二句 when 引导时间状语从句，主句是 spending more time on it actually decreased their work efficiency。"
+            ],
+            "phrases": [
+              {
+                "text": "be dissimilar to",
+                "meaning": "与……不同",
+                "usage": "dis-（否定）+ similar；后接 to。",
+                "example": "His approach is dissimilar to ours. 他的方法与我们不同。"
+              },
+              {
+                "text": "do sth. casually",
+                "meaning": "随便做、不当真地做",
+                "usage": "第 30 空填 casually，与 serious 形成对照。",
+                "example": "He plays tennis casually. 他打网球只是玩玩。"
+              },
+              {
+                "text": "work efficiency",
+                "meaning": "工作效率",
+                "usage": "第 31 空填 efficiency。",
+                "example": "Noise reduces work efficiency. 噪音降低工作效率。"
+              }
+            ],
+            "pitfalls": [
+              "这句实际含两个句子（分号处可断开），解析要分别看。",
+              "第 29 空填 case（情况），only the case when... 是固定说法。",
+              "第 30 空是副词，与 serious 形成对照；第 31 空是名词作 decreased 的宾语。"
+            ],
+            "paragraphRole": "给出关键限定条件：只有当爱好“正式但不相似”或“相似但随意”时才有益。"
+          }
         }
       ]
     },
@@ -1122,7 +1428,50 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "那可能是什么原因呢？",
+            "translationNatural": "为什么会这样？",
+            "structMarkup": "_Why_ _might_ 【that】 _be_?",
+            "structureSummary": "特殊疑问句（疑问词 + 情态动词 + 主语 + 动词）",
+            "components": [
+              {
+                "part": "Why",
+                "role": "疑问副词",
+                "note": "问原因"
+              },
+              {
+                "part": "might",
+                "role": "情态动词",
+                "note": "表推测"
+              },
+              {
+                "part": "that",
+                "role": "主语",
+                "note": "指上一段的现象"
+              },
+              {
+                "part": "be",
+                "role": "系动词",
+                "note": "系动词原形"
+              }
+            ],
+            "clauses": [
+              "本句是特殊疑问句，疑问词 Why 置于句首，助动词 might 提前。"
+            ],
+            "phrases": [
+              {
+                "text": "Why might that be?",
+                "meaning": "为什么会这样呢？",
+                "usage": "用于引出对前一现象的追问。",
+                "example": "Why might that be? Let's look at the data. 为什么会这样？看看数据。"
+              }
+            ],
+            "pitfalls": [
+              "疑问句中 might 提前，主语 that 在后。"
+            ],
+            "paragraphRole": "承上启下，引出对现象的原因解释。"
+          }
         },
         {
           "idx": 1,
@@ -1142,7 +1491,26 @@
               "end": 11,
               "surface": "maintain",
               "normalized": "maintain",
-              "isWord": true
+              "isWord": true,
+              "analysis": {
+                "phonetic": "/meɪnˈteɪn/",
+                "pos": "v.",
+                "senseInContext": "维持、保持（To maintain a serious hobby 为了维持一项认真的爱好）",
+                "collocations": [
+                  "maintain a habit",
+                  "maintain quality",
+                  "maintenance（名词）"
+                ],
+                "examples": [
+                  "It's hard to maintain a hobby with a full-time job. 全职工作下很难坚持爱好。"
+                ],
+                "isCet4HighFreq": true,
+                "more": {
+                  "roots": "main（手）+ tain（握）→ 持续握住",
+                  "synonyms": "keep up / sustain / preserve",
+                  "confusables": "maintain 还有“坚持认为”义（上一篇文章出现过）"
+                }
+              }
             },
             {
               "start": 12,
@@ -1454,7 +1822,81 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "作者们说，为了维持一项认真的爱好，人们需要投入大量心理资源——所以如果这项活动与工作有同样类型的要求，他们可能会精疲力尽，无法在工作中表现良好。",
+            "translationNatural": "作者解释说：要把一项“正经爱好”维持下去，人得投入不少心理资源；所以如果这份爱好的要求和你的工作一样，你可能就被耗干了，工作上自然表现不好。",
+            "structMarkup": "(To maintain a serious hobby), 【people】 _need to invest_ ~significant psychological resources~, _say the authors_—{so if the activity has the same kinds of demands as their work}, 【they】 _may be left_ ~32~ (and unable to perform well at their job).",
+            "structureSummary": "引述插入 + 主谓宾 + so 结果分句（内含 if 条件从句）",
+            "components": [
+              {
+                "part": "To maintain a serious hobby",
+                "role": "目的状语",
+                "note": "不定式"
+              },
+              {
+                "part": "people",
+                "role": "主语",
+                "note": "人们"
+              },
+              {
+                "part": "need to invest",
+                "role": "谓语",
+                "note": "需要投入"
+              },
+              {
+                "part": "significant psychological resources",
+                "role": "宾语",
+                "note": "大量心理资源"
+              },
+              {
+                "part": "say the authors",
+                "role": "引述插入",
+                "note": "作者说（倒装）"
+              },
+              {
+                "part": "if the activity has the same kinds of demands as their work",
+                "role": "条件状语从句",
+                "note": "if 引导"
+              },
+              {
+                "part": "they may be left 32",
+                "role": "结果分句",
+                "note": "第 32 空填过去分词作主语补足语"
+              }
+            ],
+            "clauses": [
+              "so 连接结果分句，内含 if 条件状语从句。",
+              "the same...as... 是同级比较结构。",
+              "be left exhausted 中 exhausted 是过去分词作主语补足语。"
+            ],
+            "phrases": [
+              {
+                "text": "invest resources",
+                "meaning": "投入资源",
+                "usage": "invest 可指投入金钱/时间/精力。",
+                "example": "They invested time in training. 他们投入时间做培训。"
+              },
+              {
+                "text": "the same ... as ...",
+                "meaning": "与……相同的……",
+                "usage": "比较用 as，不用 like。",
+                "example": "It has the same weight as before. 它的重量和以前一样。"
+              },
+              {
+                "text": "be left exhausted",
+                "meaning": "被弄得筋疲力尽",
+                "usage": "leave + 宾语 + 形容词/过去分词 的被动形式。",
+                "example": "We were left exhausted after the hike. 徒步后我们筋疲力尽。"
+              }
+            ],
+            "pitfalls": [
+              "say the authors 是插入的引述，位置在句中（倒装）。",
+              "第 32 空填过去分词（exhausted），作 they 的补足语。",
+              "the same kinds of demands as：比较用 as。"
+            ],
+            "paragraphRole": "解释原因：爱好与工作争夺同一份心理资源，导致耗竭。"
+          }
         },
         {
           "idx": 2,
@@ -1718,7 +2160,71 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "但如果他们的爱好与职业截然不同，它可能不会以同样的方式干扰，反而会帮助他们发展其他知识和技能，这些知识和技能可以提升他们在工作中的信心。",
+            "translationNatural": "但如果爱好和职业差得远，它就不会以同样方式干扰你，反而能帮你长别的知识和本事——这些能提升你在工作中的自信。",
+            "structMarkup": "{But if their hobby is quite different from their career}, 【it】 _may not_ ~33~ (in the same way) {but instead help them develop other knowledge and skills} {that can 34 their confidence at work}.",
+            "structureSummary": "条件状语从句 + 主谓（两个并列谓语）+ 定语从句",
+            "components": [
+              {
+                "part": "if their hobby is quite different from their career",
+                "role": "条件状语从句",
+                "note": "if 引导"
+              },
+              {
+                "part": "it",
+                "role": "主语",
+                "note": "指爱好"
+              },
+              {
+                "part": "may not 33 in the same way",
+                "role": "谓语1",
+                "note": "第 33 空填动词原形（interfere）"
+              },
+              {
+                "part": "but instead help them develop other knowledge and skills",
+                "role": "谓语2",
+                "note": "与前面并列"
+              },
+              {
+                "part": "that can 34 their confidence at work",
+                "role": "定语从句",
+                "note": "修饰 knowledge and skills；第 34 空填动词（boost）"
+              }
+            ],
+            "clauses": [
+              "if 引导条件状语从句。",
+              "not...but instead... 构成“不是……而是……”的对比。",
+              "that can boost their confidence at work 是定语从句，修饰 knowledge and skills。"
+            ],
+            "phrases": [
+              {
+                "text": "be different from",
+                "meaning": "与……不同",
+                "usage": "different 后用 from（美式）；英式也用 to。",
+                "example": "Her job is different from mine. 她的工作和我的不同。"
+              },
+              {
+                "text": "interfere",
+                "meaning": "干扰、妨碍",
+                "usage": "不及物动词，常用 interfere with；第 33 空填该词。",
+                "example": "Noise interferes with sleep. 噪音干扰睡眠。"
+              },
+              {
+                "text": "boost one's confidence",
+                "meaning": "提升某人的信心",
+                "usage": "第 34 空填 boost。",
+                "example": "Small wins boost confidence. 小胜利能增强信心。"
+              }
+            ],
+            "pitfalls": [
+              "第 33 空填动词原形（may 后接原形）；第 34 空填动词原形（can 后）。",
+              "not...but instead... 表对比，翻译成“不是……而是……”。",
+              "help them develop：help 后的不定式省略 to。"
+            ],
+            "paragraphRole": "给出相反情形：爱好与工作差异大时，反而能补充资源、提升自信。"
+          }
         },
         {
           "idx": 3,
@@ -1831,7 +2337,52 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "“想想一位热衷攀岩的科学家，”Kelly 说。",
+            "translationNatural": "“你想想一位爱攀岩的科学家，”Kelly 说。",
+            "structMarkup": "\"_Consider_ 【a scientist {who is a keen rock climber},\" _says_ 【Kelly】.",
+            "structureSummary": "祈使句 + 定语从句 + 引述倒装",
+            "components": [
+              {
+                "part": "Consider",
+                "role": "祈使句谓语",
+                "note": "祈使句，主语 you 省略"
+              },
+              {
+                "part": "a scientist who is a keen rock climber",
+                "role": "宾语",
+                "note": "内含定语从句"
+              },
+              {
+                "part": "says Kelly",
+                "role": "引述倒装",
+                "note": "主语在后"
+              }
+            ],
+            "clauses": [
+              "who is a keen rock climber 是定语从句，修饰 a scientist。"
+            ],
+            "phrases": [
+              {
+                "text": "a keen rock climber",
+                "meaning": "热衷攀岩的人",
+                "usage": "keen 表“热衷的”，a keen + 名词（爱好者）。",
+                "example": "She's a keen photographer. 她是个摄影爱好者。"
+              },
+              {
+                "text": "rock climbing",
+                "meaning": "攀岩",
+                "usage": "复合名词，指运动项目。",
+                "example": "Rock climbing builds strength. 攀岩能增强力量。"
+              }
+            ],
+            "pitfalls": [
+              "祈使句 Consider 省略主语 you。",
+              "a keen rock climber 中 keen 修饰“人”，表“热衷的”。"
+            ],
+            "paragraphRole": "用具体人物案例把抽象结论落地，便于理解。"
+          }
         },
         {
           "idx": 4,
@@ -1958,7 +2509,26 @@
               "end": 90,
               "surface": "recover",
               "normalized": "recover",
-              "isWord": true
+              "isWord": true,
+              "analysis": {
+                "phonetic": "/rɪˈkʌvə(r)/",
+                "pos": "v.",
+                "senseInContext": "恢复（recover from the demands of their job 从工作要求中恢复过来）",
+                "collocations": [
+                  "recover from",
+                  "recover resources",
+                  "recovery（名词）"
+                ],
+                "examples": [
+                  "She recovered from the illness in a week. 她一周内康复了。"
+                ],
+                "isCet4HighFreq": true,
+                "more": {
+                  "roots": "re-（回）+ cover（覆盖/取得）→ 重新获得",
+                  "synonyms": "recuperate / bounce back",
+                  "confusables": "recover from（从……恢复）；recover sth.（找回某物）"
+                }
+              }
             },
             {
               "start": 91,
@@ -2044,7 +2614,65 @@
               "normalized": null,
               "isWord": false
             }
-          ]
+          ],
+          "analysis": {
+            "translationLiteral": "“由于攀岩与他们的日常工作相距如此之远，他们仍能带着充足的资源从工作的要求中恢复过来。”",
+            "translationNatural": "“正因为攀岩离日常工作那么远，他们反而能靠它把消耗的心理资源补回来，应付工作。”",
+            "structMarkup": "\"{Since climbing is so far 35 from their day-to-day work activities}, 【they】 _can still recover_ (from the demands of their job) (with plenty of resources).\"",
+            "structureSummary": "原因状语从句 + 主谓 + 两个状语",
+            "components": [
+              {
+                "part": "Since climbing is so far 35 from their day-to-day work activities",
+                "role": "原因状语从句",
+                "note": "since 表“因为”；第 35 空填过去分词（removed）"
+              },
+              {
+                "part": "they",
+                "role": "主语",
+                "note": "指这些科学家"
+              },
+              {
+                "part": "can still recover",
+                "role": "谓语",
+                "note": "recover from 从……中恢复"
+              },
+              {
+                "part": "with plenty of resources",
+                "role": "方式状语",
+                "note": "带着充足的资源"
+              }
+            ],
+            "clauses": [
+              "since 引导原因状语从句，意为“因为”（不是“自从”）。",
+              "be far removed from 是固定搭配，意为“与……相去甚远”（第 35 空填 removed）。"
+            ],
+            "phrases": [
+              {
+                "text": "be far removed from",
+                "meaning": "与……相距甚远、大不相同",
+                "usage": "固定搭配；第 35 空填 removed。",
+                "example": "His views are far removed from reality. 他的看法与现实相去甚远。"
+              },
+              {
+                "text": "recover from",
+                "meaning": "从……中恢复",
+                "usage": "后接名词；名词 recovery。",
+                "example": "She recovered from the flu quickly. 她很快从流感中恢复。"
+              },
+              {
+                "text": "day-to-day",
+                "meaning": "日常的",
+                "usage": "复合形容词，带连字符。",
+                "example": "day-to-day work activities 日常工作活动"
+              }
+            ],
+            "pitfalls": [
+              "since 在此表原因，不是“自从”。",
+              "第 35 空与 far...from 搭配，填 removed（far removed from）。",
+              "recover from 中 from 不能省。"
+            ],
+            "paragraphRole": "用案例收尾，正面说明“差异大的爱好”如何帮助恢复。"
+          }
         }
       ]
     }
@@ -2795,5 +3423,67 @@
     34,
     35
   ],
+  "blanks": {
+    "26": {
+      "answerKey": "O",
+      "answerWord": "surprisingly",
+      "reason": "空格位于 has been 与 little research 之间，需要一个副词修饰 little。前句说家庭生活已被大量研究，转折后说休闲活动的研究“少得令人意外”，surprisingly 正好表达这种反差。",
+      "distractors": "C) casually（随意地）语义不合；I) normal、J) prevalent 是形容词，词性不合。"
+    },
+    "27": {
+      "answerKey": "N",
+      "answerWord": "shaped",
+      "reason": "空格是 how 从句的谓语，主语 the time spent on their hobbies 是单数，全文用过去时，因此需过去式动词。shape 意为“塑造、影响”，与“爱好时间如何影响工作生活”完全对应。",
+      "distractors": "H) interfere（干扰）需接 with 且语义过窄；A) boost（提升）与后文“可能降低效率”的复杂性不符；M) scratch 语义不合。"
+    },
+    "28": {
+      "answerKey": "I",
+      "answerWord": "normal",
+      "reason": "longer than ___ 需要一个形容词构成“比平时更久”。normal 表示“正常的、通常的”，与后文“投入更多时间”形成对比。",
+      "distractors": "J) prevalent（普遍的）不能修饰时间长度；K) relative（相对的）语义不合；C) casually 是副词。"
+    },
+    "29": {
+      "answerKey": "B",
+      "answerWord": "case",
+      "reason": "this was only the ___ when... 是固定说法“这只在……情况下成立”，case 意为“情况、情形”，与后面两个 when 从句呼应。",
+      "distractors": "E) estate（地产）、G) faculty（院系/能力）语义不合；F) exhausted 是形容词。"
+    },
+    "30": {
+      "answerKey": "C",
+      "answerWord": "casually",
+      "reason": "only did it ___：空格修饰 did，需要副词，且要与前面 serious hobby 形成对照——即“只是随便做做”。casually（随意地）正好对应。",
+      "distractors": "O) surprisingly 语义不合；I) normal 是形容词；A) boost 是动词。"
+    },
+    "31": {
+      "answerKey": "D",
+      "answerWord": "efficiency",
+      "reason": "decreased their work ___：需要一个名词作宾语，且与 work 搭配。“降低工作效率”是逻辑结果——爱好既正式又像工作，会挤占资源。efficiency 正好构成 work efficiency。",
+      "distractors": "B) case（情况）语义不合；G) faculty（能力/院系）搭配不当；E) estate 不合。"
+    },
+    "32": {
+      "answerKey": "F",
+      "answerWord": "exhausted",
+      "reason": "be left ___ and unable to perform well：需要一个形容词/过去分词作主语补足语，描述被耗尽的状态，并与 unable 并列。exhausted（筋疲力尽）与“心理资源被占用”吻合。",
+      "distractors": "L) removed（被移除）语义不合；N) shaped、A) boost 是动词原形。"
+    },
+    "33": {
+      "answerKey": "H",
+      "answerWord": "interfere",
+      "reason": "it may not ___ in the same way：may 后需要动词原形，且要与后文 but instead help 构成转折。interfere（干扰）表示“不会以同样方式干扰你”，语义与结构都对。",
+      "distractors": "A) boost 与 but instead help 重复且矛盾；M) scratch、N) shaped 语义/形式不合。"
+    },
+    "34": {
+      "answerKey": "A",
+      "answerWord": "boost",
+      "reason": "skills that can ___ their confidence：can 后需动词原形，且要与 confidence 搭配。“提升信心”是 boost confidence 的固定搭配。",
+      "distractors": "H) interfere（干扰信心）语义相反；F) exhausted 是形容词；L) removed 不合。"
+    },
+    "35": {
+      "answerKey": "L",
+      "answerWord": "removed",
+      "reason": "so far ___ from their day-to-day work：be far removed from 是固定搭配，意为“与……相去甚远”。此处指攀岩与日常工作差别极大。",
+      "distractors": "K) relative（相对的）不能构成该搭配；F) exhausted 语义不合；B) case 是名词。"
+    }
+  },
   "lexicon": {}
 }

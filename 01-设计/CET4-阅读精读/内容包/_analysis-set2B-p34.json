@@ -1,0 +1,264 @@
+{
+  "sentences": {
+    "3-0": {
+      "translationLiteral": "商业视角提供了不同的看法：多任务被理解为一种能力——适应公司内各种环境，并在既定时间框架内有效开展不同活动。",
+      "translationNatural": "企业那边看法不一样：他们说的“多任务”是指——能在公司各种环境里适应，并在规定时间内把不同的事都办成。",
+      "structMarkup": "【The business perspective】 _offers_ ~a different view~: 【multitasking】 _is understood as_ ~the ability (to adapt to all types of environment within a company) and (effectively undertake different activities within a set time frame)~.",
+      "structureSummary": "主谓宾 + 冒号后的解释句（主谓 + as 短语，内含两个并列不定式）",
+      "components": [
+        { "part": "The business perspective", "role": "主语", "note": "商业视角" },
+        { "part": "offers", "role": "谓语", "note": "提供" },
+        { "part": "a different view", "role": "宾语", "note": "不同的看法" },
+        { "part": "multitasking is understood as the ability...", "role": "冒号后的解释句", "note": "被动结构 be understood as" },
+        { "part": "to adapt to... and effectively undertake...", "role": "后置定语", "note": "两个并列不定式修饰 ability" }
+      ],
+      "clauses": [
+        "冒号后是完整的解释句，说明商业视角的定义。",
+        "be understood as 意为“被理解为”。",
+        "to adapt to... and (to) undertake... 是并列不定式，共用 ability 的修饰关系。"
+      ],
+      "phrases": [
+        {
+          "text": "be understood as",
+          "meaning": "被理解为",
+          "usage": "被动结构；主动形式 understand A as B。",
+          "example": "Success is often understood as wealth. 成功常被理解为财富。"
+        },
+        {
+          "text": "adapt to",
+          "meaning": "适应",
+          "usage": "to 是介词，后接名词；名词 adaptation。",
+          "example": "Children adapt quickly to new schools. 孩子很快适应新学校。"
+        },
+        {
+          "text": "within a set time frame",
+          "meaning": "在规定的时间范围内",
+          "usage": "time frame 指时间框架；set 意为“既定的”。",
+          "example": "Finish the report within the set time frame. 在规定时间内完成报告。"
+        }
+      ],
+      "pitfalls": [
+        "be understood as 中 as 不能省。",
+        "adapt to 的 to 是介词，后接名词或动名词。",
+        "第二个不定式 undertake 前省略了 to，与 adapt 并列修饰 ability。"
+      ],
+      "paragraphRole": "引入第三种视角：企业界对“多任务”的定义与科学界不同。"
+    },
+    "3-1": {
+      "translationLiteral": "的确，许多公司寻找擅长多任务的人来提升生产力。",
+      "translationNatural": "所以很多公司确实在招“能同时干几摊事”的人，来提高产出。",
+      "structMarkup": "(Indeed), 【many companies】 _look for_ ~people {who are skilled in multitasking}~ (to improve their productivity).",
+      "structureSummary": "主谓宾 + 定语从句 + 目的状语",
+      "components": [
+        { "part": "Indeed", "role": "副词", "note": "确实（加强语气）" },
+        { "part": "many companies", "role": "主语", "note": "许多公司" },
+        { "part": "look for", "role": "谓语", "note": "寻找" },
+        { "part": "people who are skilled in multitasking", "role": "宾语", "note": "内含定语从句" },
+        { "part": "to improve their productivity", "role": "目的状语", "note": "不定式表目的" }
+      ],
+      "clauses": [
+        "who are skilled in multitasking 是定语从句，修饰 people。",
+        "to improve... 是不定式作目的状语。"
+      ],
+      "phrases": [
+        {
+          "text": "be skilled in",
+          "meaning": "擅长",
+          "usage": "也可 be skilled at；skill 是名词。",
+          "example": "She is skilled in negotiation. 她擅长谈判。"
+        },
+        {
+          "text": "look for",
+          "meaning": "寻找",
+          "usage": "后接名词；同义 search for。",
+          "example": "We're looking for a designer. 我们在找一位设计师。"
+        }
+      ],
+      "pitfalls": [
+        "be skilled in 后接名词或动名词。",
+        "to improve 是目的状语，不是定语。"
+      ],
+      "paragraphRole": "用企业招聘实践印证上一句的定义，说明该视角的现实影响。"
+    },
+    "3-2": {
+      "translationLiteral": "从这个不同的角度看，你不仅可以成为多任务处理者，而且这种能力还可以被教授：这在流动性组织中更容易，这些组织倾向于在工作方式上保持灵活性。",
+      "translationNatural": "按这种视角，你不仅能“多任务”，这能力还能被训练出来——在组织结构扁平、工作方式灵活的公司里更容易做到。",
+      "structMarkup": "(From this different perspective), 【you】 _can not only be_ ~multitasking~ {but this ability can also be taught}: ~something {that is easier in fluid organisations, which favour flexibility in their working practices}~.",
+      "structureSummary": "not only...but also... 并列两个分句 + 冒号后同位语（带两层定语从句）",
+      "components": [
+        { "part": "From this different perspective", "role": "状语", "note": "从这个不同角度" },
+        { "part": "you can not only be multitasking", "role": "第一分句", "note": "not only 部分" },
+        { "part": "but this ability can also be taught", "role": "第二分句", "note": "but also 部分" },
+        { "part": "something that is easier in fluid organisations", "role": "同位语", "note": "指代“能被教授”这件事" },
+        { "part": "which favour flexibility in their working practices", "role": "非限制性定语从句", "note": "修饰 fluid organisations" }
+      ],
+      "clauses": [
+        "not only...but also... 连接两个并列分句。",
+        "that is easier in fluid organisations 是定语从句，修饰 something。",
+        "which favour flexibility... 是非限制性定语从句，修饰 organisations。"
+      ],
+      "phrases": [
+        {
+          "text": "fluid organisations",
+          "meaning": "流动性组织（结构灵活、边界模糊）",
+          "usage": "fluid 本义“流动的”，此处指结构灵活。",
+          "example": "Fluid teams adapt faster. 灵活的团队适应更快。"
+        },
+        {
+          "text": "favour flexibility",
+          "meaning": "有利于灵活性、偏好灵活",
+          "usage": "favour 作动词表“有利于、支持”。",
+          "example": "The policy favours small businesses. 该政策有利于小企业。"
+        }
+      ],
+      "pitfalls": [
+        "not only...but also... 两边结构对称（be / can be taught）。",
+        "冒号后的 something 是同位语，不是新分句的主语。",
+        "which 引导非限制性定语从句，指代 organisations（复数），故用 favour。"
+      ],
+      "paragraphRole": "把企业视角推进一步：多任务不仅可行，还可训练，且有组织条件。"
+    },
+    "4-0": {
+      "translationLiteral": "多任务的好处是明显的。",
+      "translationNatural": "多任务的好处很直观。",
+      "structMarkup": "【The benefits of multitasking】 _are_ ~clear~.",
+      "structureSummary": "主系表结构（简单句）",
+      "components": [
+        { "part": "The benefits of multitasking", "role": "主语", "note": "多任务的好处（复数）" },
+        { "part": "are", "role": "系动词", "note": "与复数主语一致" },
+        { "part": "clear", "role": "表语", "note": "明显的" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。"
+      ],
+      "phrases": [
+        {
+          "text": "the benefits of",
+          "meaning": "……的好处",
+          "usage": "benefit 可数，常用复数；反义 drawback。",
+          "example": "The benefits of exercise are well known. 运动的好处众所周知。"
+        }
+      ],
+      "pitfalls": [
+        "benefits 是复数，谓语用 are。"
+      ],
+      "paragraphRole": "转折过渡：承认多任务确有好处，为下一段说代价做铺垫。"
+    },
+    "4-1": {
+      "translationLiteral": "更快、更有效率会提升我们的表现以及完成的任务数量。",
+      "translationNatural": "更快、更高效，确实能提高我们的产出和完成的任务量。",
+      "structMarkup": "【Being quicker and more efficient】 _increases_ ~our performance and the number of tasks completed~.",
+      "structureSummary": "动名词短语作主语 + 谓语 + 并列宾语",
+      "components": [
+        { "part": "Being quicker and more efficient", "role": "主语", "note": "动名词短语作主语，谓语用单数" },
+        { "part": "increases", "role": "谓语", "note": "与动名词主语一致，用单数" },
+        { "part": "our performance and the number of tasks completed", "role": "宾语", "note": "两个并列宾语" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "tasks completed 中 completed 是过去分词作后置定语。"
+      ],
+      "phrases": [
+        {
+          "text": "the number of",
+          "meaning": "……的数量",
+          "usage": "谓语用单数（与 a number of 不同，后者用复数）。",
+          "example": "The number of users is growing. 用户数量在增长。"
+        },
+        {
+          "text": "tasks completed",
+          "meaning": "完成的任务",
+          "usage": "过去分词作后置定语，= tasks that are completed。",
+          "example": "We track the tasks completed each week. 我们每周统计完成的任务。"
+        }
+      ],
+      "pitfalls": [
+        "动名词短语作主语，谓语用单数 increases。",
+        "the number of + 复数名词 作主语时谓语用单数。",
+        "completed 是过去分词作定语，不是谓语。"
+      ],
+      "paragraphRole": "具体说明多任务的正面收益：速度与完成量。"
+    },
+    "4-2": {
+      "translationLiteral": "但同时关注几件事意味着专注力被削弱，而这可能导致更多错误。",
+      "translationNatural": "可一旦要同时盯几件事，专注力就被摊薄，错误也就多了。",
+      "structMarkup": "{But} 【having to pay attention to several things at once】 _means_ ~{that the powers of concentration are reduced}~ {and that can lead to more mistakes}.",
+      "structureSummary": "动名词主语 + 谓语 + 宾语从句，and 连接结果分句",
+      "components": [
+        { "part": "But", "role": "连词", "note": "转折" },
+        { "part": "having to pay attention to several things at once", "role": "主语", "note": "动名词短语作主语" },
+        { "part": "means", "role": "谓语", "note": "意味着（主语为动名词，用单数）" },
+        { "part": "that the powers of concentration are reduced", "role": "宾语从句", "note": "宾语从句1" },
+        { "part": "and that can lead to more mistakes", "role": "结果分句", "note": "that 指代前面整件事" }
+      ],
+      "clauses": [
+        "that the powers of concentration are reduced 是宾语从句，作 means 的宾语。",
+        "and that can lead to more mistakes 中 that 是指示代词“这”，指代前面整个情况。"
+      ],
+      "phrases": [
+        {
+          "text": "pay attention to",
+          "meaning": "注意、关注",
+          "usage": "to 是介词，后接名词或动名词。",
+          "example": "Pay attention to the details. 注意细节。"
+        },
+        {
+          "text": "the powers of concentration",
+          "meaning": "专注力",
+          "usage": "concentration 不可数；powers 表“能力”。",
+          "example": "Noise reduces the power of concentration. 噪音会削弱专注力。"
+        },
+        {
+          "text": "lead to",
+          "meaning": "导致",
+          "usage": "to 是介词，后接名词。",
+          "example": "Rushing leads to mistakes. 赶工导致错误。"
+        }
+      ],
+      "pitfalls": [
+        "第二个 that 是指示代词（这），不是从句引导词——本句只有一个宾语从句。",
+        "动名词短语作主语，谓语用单数 means。",
+        "pay attention to 中 to 是介词。"
+      ],
+      "paragraphRole": "点出多任务的代价：专注力下降、错误增多，完成辩证收尾。"
+    }
+  },
+  "tokens": {
+    "perspective": {
+      "phonetic": "/pəˈspektɪv/",
+      "pos": "n.",
+      "senseInContext": "视角、观点（from this different perspective 从这个不同角度）",
+      "collocations": ["from the perspective of", "a new perspective", "put into perspective"],
+      "examples": ["Try to see it from her perspective. 试着从她的角度看。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "per-（贯穿）+ spect（看）+ -ive → 看过去的角度", "synonyms": "viewpoint / standpoint / angle", "confusables": "perspective 视角；prospect 前景；perception 感知" }
+    },
+    "undertake": {
+      "phonetic": "/ˌʌndəˈteɪk/",
+      "pos": "v.",
+      "senseInContext": "开展、承担（undertake different activities 开展不同活动）",
+      "collocations": ["undertake a task", "undertake research", "undertake to do"],
+      "examples": ["The team undertook a major study. 团队开展了一项重要研究。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "under（在下）+ take（拿）→ 承担下来", "synonyms": "carry out / take on / assume", "confusables": "undertake 过去式 undertook，过去分词 undertaken；undertake to do 意为“承诺做”" }
+    },
+    "flexibility": {
+      "phonetic": "/ˌfleksəˈbɪləti/",
+      "pos": "n.",
+      "senseInContext": "灵活性（favour flexibility 有利于灵活）",
+      "collocations": ["work flexibility", "flexibility in", "flexible（形容词）"],
+      "examples": ["Flexibility helps teams adapt. 灵活性有助于团队适应。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "flex（弯曲）+ -ibility（能力）→ 可弯曲性", "synonyms": "adaptability / elasticity", "confusables": "flexibility 不可数；flexible 形容词" }
+    },
+    "concentration": {
+      "phonetic": "/ˌkɒnsnˈtreɪʃn/",
+      "pos": "n.",
+      "senseInContext": "专注、集中（the powers of concentration 专注力）",
+      "collocations": ["power of concentration", "lose concentration", "concentrate on"],
+      "examples": ["Loud music breaks my concentration. 大声的音乐让我无法集中。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "con-（共同）+ centr（中心）+ -ation → 聚到中心", "synonyms": "focus / attention", "confusables": "concentration 名词；concentrate on 动词短语" }
+    }
+  }
+}
