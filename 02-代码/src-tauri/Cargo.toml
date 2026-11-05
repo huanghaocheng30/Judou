@@ -1,19 +1,21 @@
 [package]
-name = "cet4-reading"
+name = "judou"
 version = "0.1.0"
-description = "CET4 阅读精读桌面应用"
+description = "句读 · CET4/CET6 阅读精读工作台"
 edition = "2021"
-rust-version = "1.77"
 
+# 官方 Tauri v2 模板约定：包名 judou、lib 名 judou_lib（main.rs 调 judou_lib::run()）。
+# 02 计划评审 R5：不加 [lib] name 时默认 lib 名是 judou，judou_lib::run() 会编译失败。
 [lib]
-name = "cet4_reading_lib"
+name = "judou_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
-
-[dependencies]
-rusqlite = { version = "0.40.2", features = ["bundled"] }
-serde = { version = "1.0.229", features = ["derive"] }
-serde_json = "1.0.154"
-tauri = { version = "2", features = [] }
 
 [build-dependencies]
 tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# bundled：随 crate 编译 SQLite C 源码，不依赖系统 sqlite3.lib（计划评审 R1）
+rusqlite = { version = "0.32", features = ["bundled"] }

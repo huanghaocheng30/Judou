@@ -1,7 +1,7 @@
 {
   "$schema": "../gen/schemas/desktop-schema.json",
   "identifier": "default",
-  "description": "主窗口默认能力",
+  "description": "M0 默认能力：只开放核心 API（窗口/事件等），不授予任何插件权限；运行期禁网由 tauri.conf.json 的 CSP 与不引网络插件共同保证。",
   "windows": ["main"],
   "permissions": ["core:default"]
 }

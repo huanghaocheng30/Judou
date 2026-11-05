@@ -1,19 +1,23 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// Tauri 开发服务器：端口固定 1420（tauri.conf.json 的 devUrl 与之对应）。
-// 必须忽略 src-tauri（含 target/）：否则 cargo 编译时 Vite 的 fs watcher 会撞上 .exe 文件锁（EBUSY）并退出。
+// Tauri 约定：dev server 固定在 1420，且不清屏（tauri dev 的 Rust 编译日志要看）
 export default defineConfig({
+  plugins: [react()],
   clearScreen: false,
   server: {
+    host: "127.0.0.1",
     port: 1420,
     strictPort: true,
     watch: {
-      ignored: ['**/src-tauri/**'],
+      // src-tauri 由 cargo 自己 watch，Vite 不用管
+      ignored: ["**/src-tauri/**"],
     },
   },
   build: {
-    target: 'es2022',
-    outDir: 'dist',
-    emptyOutDir: true,
+    // Windows 用 WebView2（Chromium），macOS/Linux 用系统 WebKit
+    target: ["chrome105", "safari13"],
+    minify: "esbuild",
+    sourcemap: false,
   },
 });

@@ -1,0 +1,68 @@
+# 句读 CI 骨架（M0）
+#
+# 位置说明（02 D6 本轮裁定）：GitHub Actions 只认**仓库根** .github/workflows/，
+# 而本任务包的目标代码区是 02-代码/。因此本文件暂放 02-代码/.github/workflows/ci.yml，
+# 由 M7 收尾时移动到仓库根（届时 `defaults.run.working-directory` 与各缓存路径依旧指向 02-代码/，
+# 移动后无需改动文件内容）。
+#
+# 三平台依据：01 §三 第 7 条 + 05 §十六.4；Android job 以 if: false 占位，M7 启用。
+
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: build (${{ matrix.platform }})
+    runs-on: ${{ matrix.platform }}
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [windows-latest, macos-latest, ubuntu-latest]
+    defaults:
+      run:
+        working-directory: 02-代码
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: 02-代码/package-lock.json
+
+      - name: Install Linux dependencies (Tauri 官方清单)
+        if: matrix.platform == 'ubuntu-latest'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf build-essential curl wget file libssl-dev libgtk-3-dev libayatana-appindicator3-dev
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Rust cache
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: 02-代码/src-tauri -> target
+
+      - name: npm ci
+        run: npm ci
+
+      - name: Build frontend (tsc + vite)
+        run: npm run build
+
+      - name: cargo check
+        run: cargo check --manifest-path src-tauri/Cargo.toml
+
+  android:
+    # M7 启用：需 Android SDK/NDK 与签名密钥，M0 只占位不跑
+    name: android (M7 启用)
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Android 打包在 M7 接入（SDK/NDK/签名密钥见 04 §10.5）"

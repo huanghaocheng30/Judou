@@ -1,0 +1,63 @@
+/*
+ * 设计 token（取值自 原型-v2/句读-原型.html 与 设计说明.md §一）
+ * 纸感优先：纸底/墨/靛蓝/玫红/陶土橘；深色不用同一色值硬撑，标注色单独一组（提亮降饱和）。
+ * 只放变量与字体栈——布局与组件样式在 app.css。
+ */
+:root {
+  /* 纸底三层 */
+  --paper: #faf8f4;
+  --paper-2: #f3efe7;
+  --paper-3: #ede7db;
+
+  /* 墨色三层（正文 / 次要 / 弱） */
+  --ink: #1f1d1a;
+  --ink-2: #5c554a;
+  --ink-3: #8c8477;
+
+  /* 线 */
+  --line: #e2dccf;
+  --line-2: #cfc7b6;
+
+  /* 成分标注 */
+  --blue: #2f5d8a;
+  --blue-soft: #e6edf5;
+  --rose: #a63a5b;
+  --rose-soft: #f7e8ec;
+  --green: #3f7a5a;
+  --green-soft: #e6f0e9;
+
+  /* 主按钮与选中词 */
+  --accent: #b4622f;
+  --accent-soft: #f6e9de;
+
+  --shadow: 0 1px 2px rgba(31, 29, 26, 0.05), 0 8px 24px -12px rgba(31, 29, 26, 0.18);
+
+  --serif: "Source Serif 4", Georgia, "Times New Roman", "Songti SC", serif;
+  --sans: -apple-system, "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+  --mono: "Cascadia Code", Consolas, monospace;
+}
+
+[data-theme="dark"] {
+  --paper: #14141a;
+  --paper-2: #1b1b22;
+  --paper-3: #23232c;
+
+  --ink: #e9e4da;
+  --ink-2: #a9a29a;
+  --ink-3: #7a746c;
+
+  --line: #2c2c36;
+  --line-2: #3a3a46;
+
+  --blue: #7fa9d4;
+  --blue-soft: #1c2632;
+  --rose: #d77a94;
+  --rose-soft: #2a1d22;
+  --green: #7fb795;
+  --green-soft: #1b2a22;
+
+  --accent: #d08a5a;
+  --accent-soft: #2a211a;
+
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -12px rgba(0, 0, 0, 0.6);
+}

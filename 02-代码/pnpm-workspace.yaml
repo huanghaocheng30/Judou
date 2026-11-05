@@ -1,6 +1,0 @@
-# pnpm 11 的构建脚本许可表（新字段名 allowBuilds：布尔值）。
-# esbuild 的 postinstall 只做二进制校验，平台二进制由可选的 @esbuild/win32-x64 包提供
-# （实测 Vite 构建通过），因此声明为 false（不执行构建脚本）。
-# npm 用户不受影响（npm install 正常执行 postinstall）。
-allowBuilds:
-  esbuild: false

@@ -1,6 +1,6 @@
-// 桌面端入口：所有逻辑在 lib.rs（便于集成测试直接复用例程）。
+// 发布版不弹控制台窗口；调试版保留 stdout（迁移日志 / db 路径供 AC1~AC4 取证）
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    cet4_reading_lib::run()
+    judou_lib::run()
 }
