@@ -4132,5 +4132,1370 @@
       "answer": "D"
     }
   ],
-  "lexicon": {}
+  "lexicon": {
+    "rival": {
+      "phonetic": "/ˈraɪvl/",
+      "pos": "n./adj.",
+      "sense": "对手、竞争者（可数）；竞争的",
+      "collocations": [
+        "a rival company",
+        "rival teams"
+      ],
+      "examples": [
+        "The two horses were great rivals. 这两匹马是强劲对手。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "rival（对手）/ rivalry（竞争关系）"
+      }
+    },
+    "committed": {
+      "phonetic": "/kəˈmɪtɪd/",
+      "pos": "v./adj.",
+      "sense": "commit 的过去式/过去分词；投入的、尽责的",
+      "lemma": "commit",
+      "collocations": [
+        "be committed to",
+        "committed to doing"
+      ],
+      "examples": [
+        "The company is committed to change. 公司致力于改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be committed to doing（to 是介词）/ commit（犯/承诺）"
+      }
+    },
+    "goals": {
+      "phonetic": "/ɡəʊlz/",
+      "pos": "n.",
+      "sense": "目标（goal 的复数）；进球",
+      "lemma": "goal",
+      "collocations": [
+        "set goals",
+        "achieve a goal",
+        "score a goal"
+      ],
+      "examples": [
+        "They share the same goals. 他们有共同的目标。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "goal（目标/进球）/ aim（目的）/ objective（目标，正式）"
+      }
+    },
+    "enhance": {
+      "phonetic": "/ɪnˈhɑːns/",
+      "pos": "v.",
+      "sense": "提升、增强（质量、能力）；促进",
+      "collocations": [
+        "enhance performance",
+        "enhance the quality of"
+      ],
+      "examples": [
+        "Companies enhance women's advancement. 公司促进女性的职业发展。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "enhance（提升质量/价值）/ increase（增加数量）/ improve（改善）"
+      }
+    },
+    "overall": {
+      "phonetic": "/ˌəʊvərˈɔːl/",
+      "pos": "adj./adv.",
+      "sense": "总体的、全面的 / 总的来说",
+      "collocations": [
+        "overall well-being",
+        "overall, ...",
+        "overall performance"
+      ],
+      "examples": [
+        "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "overall（总体的）/ all over（到处）"
+      }
+    },
+    "performance": {
+      "phonetic": "/pəˈfɔːməns/",
+      "pos": "n.",
+      "sense": "表现、业绩；表演",
+      "collocations": [
+        "job performance",
+        "improve performance",
+        "a performance of"
+      ],
+      "examples": [
+        "Error rates stayed stable in student performance. 学生作文的错误率保持稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "perform（执行）+ -ance",
+        "confusables": "performance（表现）/ perform（动词）"
+      }
+    },
+    "go": {
+      "phonetic": "/ɡəʊ/",
+      "pos": "v.",
+      "sense": "去、走；（go up/down）上升/下降；进行",
+      "collocations": [
+        "go up",
+        "go on",
+        "there is still some way to go"
+      ],
+      "examples": [
+        "Satisfaction went down for many women. 许多女性满意度下降。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "go up/down（上升/下降，口语）/ increase/decrease（正式）"
+      }
+    },
+    "find": {
+      "phonetic": "/faɪnd/",
+      "pos": "v.",
+      "sense": "发现、找到；认为（find sth + adj.）",
+      "collocations": [
+        "find that...",
+        "find it hard to do",
+        "find out"
+      ],
+      "examples": [
+        "They find the rule acceptable. 他们觉得这条规则可以接受。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "find（找到，结果）/ search（搜寻，过程）/ find out（查明）"
+      }
+    },
+    "it's": {
+      "phonetic": "/ɪts/",
+      "pos": "缩略",
+      "sense": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+      "collocations": [
+        "it's important that",
+        "it's likely to"
+      ],
+      "examples": [
+        "It's hard to say. 很难说。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
+      }
+    },
+    "important": {
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "pos": "adj.",
+      "sense": "重要的",
+      "collocations": [
+        "it is important to do",
+        "an important part of",
+        "important for"
+      ],
+      "examples": [
+        "Social health is just as important. 社交健康同样重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "important（重要的）/ importance（名词）/ importantly（副词，多用于句首）"
+      }
+    },
+    "understand": {
+      "phonetic": "/ˌʌndəˈstænd/",
+      "pos": "v.",
+      "sense": "理解、明白",
+      "collocations": [
+        "understand that",
+        "understand why",
+        "make oneself understood"
+      ],
+      "examples": [
+        "The need to understand the relationship grew. 理解这种关系的需要增加了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "understand（理解）/ comprehension（理解力）/ misunderstand（误解）"
+      }
+    },
+    "avoid": {
+      "phonetic": "/əˈvɔɪd/",
+      "pos": "v.",
+      "sense": "避免（后接名词或动名词）",
+      "collocations": [
+        "avoid doing sth",
+        "avoid mistakes",
+        "avoid sth"
+      ],
+      "examples": [
+        "Good data helps avoid mistakes. 好数据有助避免错误。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "avoid doing（不是 avoid to do）/ prevent（阻止）"
+      }
+    },
+    "often": {
+      "phonetic": "/ˈɒfn/",
+      "pos": "adv.",
+      "sense": "经常、往往",
+      "collocations": [
+        "often do",
+        "more often than not",
+        "how often"
+      ],
+      "examples": [
+        "Parents often worry about new media. 家长常常担心新媒介。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "often（经常）/ always（总是）/ usually（通常）"
+      }
+    },
+    "come": {
+      "phonetic": "/kʌm/",
+      "pos": "v.",
+      "sense": "来；出现；come from（来自）",
+      "collocations": [
+        "come from",
+        "come out",
+        "come true"
+      ],
+      "examples": [
+        "Fewer readers come from that background. 来自那种背景的读者更少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "come（来）/ go（去）"
+      }
+    },
+    "rivalry": {
+      "phonetic": "/ˈraɪvlri/",
+      "pos": "n.",
+      "sense": "竞争、对抗关系（可数/不可数）",
+      "collocations": [
+        "rivalry between",
+        "fierce rivalry"
+      ],
+      "examples": [
+        "The rivalry between the two horses was famous. 两匹马之间的竞争很出名。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "rival（对手）+ -ry",
+        "synonyms": "competition, contest",
+        "confusables": "rivalry（竞争）/ rival（对手）"
+      }
+    },
+    "effective": {
+      "phonetic": "/ɪˈfektɪv/",
+      "pos": "adj.",
+      "sense": "有效的；生效的",
+      "collocations": [
+        "effective way",
+        "become effective",
+        "highly effective"
+      ],
+      "examples": [
+        "Instincts help make effective and quick decisions. 直觉有助于做出有效而快速的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "effective（有效的）/ efficient（高效的，省时省力）/ effect（效果）"
+      }
+    },
+    "decision-making": {
+      "phonetic": "/dɪˈsɪʒn ˌmeɪkɪŋ/",
+      "pos": "n.",
+      "sense": "决策、做决定的过程",
+      "collocations": [
+        "the decision-making process",
+        "in decision-making"
+      ],
+      "examples": [
+        "Instincts play a role in decision-making. 直觉在决策中起作用。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "decision-making（名词，带连字符）/ decide（动词）"
+      }
+    },
+    "increase": {
+      "phonetic": "/ɪnˈkriːs/",
+      "pos": "v./n.",
+      "sense": "增加（动词读 /ɪnˈkriːs/）；增加（名词读 /ˈɪnkriːs/）",
+      "collocations": [
+        "increase in sth",
+        "increase the chances of",
+        "a sharp increase"
+      ],
+      "examples": [
+        "More women reported an increase in responsibilities. 更多女性报告责任增加。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increase（动词）/ increase in（名词 + 介词）"
+      }
+    },
+    "take": {
+      "phonetic": "/teɪk/",
+      "pos": "v.",
+      "sense": "拿、取；花费（时间）；采取、休（假）",
+      "collocations": [
+        "take time off",
+        "take steps",
+        "take part in"
+      ],
+      "examples": [
+        "It takes courage to speak up. 站出来说话需要勇气。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "take（拿/花费）/ bring（带来）/ spend（花费，主语须是人）"
+      }
+    },
+    "risks": {
+      "phonetic": "/rɪsks/",
+      "pos": "n./v.",
+      "sense": "风险（risk 的复数）；冒风险（动词三单）",
+      "lemma": "risk",
+      "collocations": [
+        "health risks",
+        "take risks"
+      ],
+      "examples": [
+        "The health risks are real. 健康风险是真实的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "risks（复数/动词三单）/ risk（单数/原形）"
+      }
+    },
+    "behaviors": {
+      "phonetic": "/bɪˈheɪvjəz/",
+      "pos": "n.",
+      "sense": "行为（behavior 的复数，美式拼写）",
+      "lemma": "behavior",
+      "collocations": [
+        "health behaviors",
+        "negative behaviors"
+      ],
+      "examples": [
+        "Social life shapes health behaviors. 社交生活塑造健康行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "behave（举止）+ -ior",
+        "confusables": "behaviour（英式）/ behavior（美式）"
+      }
+    },
+    "hurt": {
+      "phonetic": "/hɜːt/",
+      "pos": "v./adj.",
+      "sense": "伤害、疼痛（原形=过去式=过去分词）；受伤的",
+      "collocations": [
+        "hurt sb",
+        "get hurt",
+        "hurt feelings"
+      ],
+      "examples": [
+        "Hurting someone from a distance is different. 从远处伤人是不一样的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "hurt（不规则动词，三态同形）/ injure（受伤，正式）/ harm（损害）"
+      }
+    },
+    "venture's": {
+      "phonetic": "/ˈventʃəz/",
+      "pos": "n.（所有格）",
+      "sense": "（某）企业的（venture 的所有格形式）",
+      "lemma": "venture",
+      "collocations": [
+        "the venture's growth"
+      ],
+      "examples": [
+        "The venture's growth surprised investors. 这家企业的发展让投资人意外。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "venture（风险项目/企业）/ adventure（冒险）"
+      }
+    },
+    "success": {
+      "phonetic": "/səkˈses/",
+      "pos": "n.",
+      "sense": "成功（不可数）；成功的人或事（可数）",
+      "collocations": [
+        "the chances of success",
+        "achieve success",
+        "a great success"
+      ],
+      "examples": [
+        "Data raises the chances of success. 数据能提高成功的机会。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "succeed（接续→成功）",
+        "confusables": "success（成功）/ succession（连续）"
+      }
+    },
+    "finding": {
+      "phonetic": "/ˈfaɪndɪŋ/",
+      "pos": "n./v.",
+      "sense": "研究发现、结论（可数）；find 的现在分词",
+      "lemma": "find",
+      "collocations": [
+        "the findings suggest",
+        "research findings"
+      ],
+      "examples": [
+        "That finding suggests the quantified self is limited. 这一发现表明量化自我是有限的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "finding（研究发现）/ findings（多项结论）/ find（发现）"
+      }
+    },
+    "someone": {
+      "phonetic": "/ˈsʌmwʌn/",
+      "pos": "pron.",
+      "sense": "某人（单数，回指常用 they）",
+      "collocations": [
+        "someone who",
+        "someone else",
+        "someone had bullied them"
+      ],
+      "examples": [
+        "Only 15% said someone had bullied them. 只有 15% 说有人欺凌过他们。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "someone（某人，单数）/ somebody（同义，更口语）"
+      }
+    },
+    "you're": {
+      "phonetic": "/jɔː(r)/",
+      "pos": "缩略",
+      "sense": "you are 的缩写（注意与 your 区分）",
+      "collocations": [
+        "you're likely to",
+        "you're welcome"
+      ],
+      "examples": [
+        "You're more likely to remember it. 你更有可能记住它。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "you're（you are）/ your（你的）"
+      }
+    },
+    "great": {
+      "phonetic": "/ɡreɪt/",
+      "pos": "adj.",
+      "sense": "巨大的；很棒的；重要的",
+      "collocations": [
+        "a great deal",
+        "great importance",
+        "the great mass of"
+      ],
+      "examples": [
+        "They do not reflect the great mass of behaviour. 它们没有反映行为的主体。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "great（巨大/很棒）/ big（大，物理）/ large（大，数量）"
+      }
+    },
+    "way": {
+      "phonetic": "/weɪ/",
+      "pos": "n.",
+      "sense": "方法、方式；路；程度（in a way）",
+      "collocations": [
+        "the best way to do sth",
+        "in some ways",
+        "by the way"
+      ],
+      "examples": [
+        "There is no simple way to fix it. 没有简单的办法解决它。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "way（方法）/ road（道路）/ method（方法，正式）"
+      }
+    },
+    "focused": {
+      "phonetic": "/ˈfəʊkəst/",
+      "pos": "v./adj.",
+      "sense": "focus 的过去式/过去分词；专注的",
+      "lemma": "focus",
+      "collocations": [
+        "be focused on",
+        "stay focused"
+      ],
+      "examples": [
+        "They stay focused on physical health. 他们把注意力放在身体健康上。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be focused on（专注于）/ focus on（聚焦）"
+      }
+    },
+    "push": {
+      "phonetic": "/pʊʃ/",
+      "pos": "v./n.",
+      "sense": "推、推动（push sb to do）；努力、压力",
+      "collocations": [
+        "push themselves further",
+        "push for",
+        "push back"
+      ],
+      "examples": [
+        "They push themselves further for real readers. 为真实读者他们更努力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "push（推）/ pull（拉）/ push sb to do（促使某人做）"
+      }
+    },
+    "venture": {
+      "phonetic": "/ˈventʃə(r)/",
+      "pos": "n./v.",
+      "sense": "企业、风险项目（可数）/ 冒险、敢于（动词）",
+      "collocations": [
+        "a joint venture",
+        "venture to do"
+      ],
+      "examples": [
+        "The venture grew quickly. 这家企业成长很快。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "venture（企业/冒险）/ adventure（冒险经历）"
+      }
+    },
+    "next": {
+      "phonetic": "/nekst/",
+      "pos": "adj./adv.",
+      "sense": "下一个的；紧邻的 / 接下来",
+      "collocations": [
+        "next year",
+        "the very next year",
+        "next to"
+      ],
+      "examples": [
+        "The very next year he won again. 就在第二年他又赢了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "next year（明年，不加 the）/ the next year（随后那一年）"
+      }
+    },
+    "level": {
+      "phonetic": "/ˈlevl/",
+      "pos": "n./adj.",
+      "sense": "水平、层级（可数）；水平的（形容词）",
+      "collocations": [
+        "at the level of",
+        "high-level",
+        "level off"
+      ],
+      "examples": [
+        "Well-being levels rose with social support. 幸福感水平随社会支持上升。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "level（水平/层次）/ standard（标准）/ degree（程度）"
+      }
+    },
+    "outperforming": {
+      "phonetic": "/ˌaʊtpəˈfɔːmɪŋ/",
+      "pos": "v.",
+      "sense": "outperform 的现在分词（表现优于）",
+      "lemma": "outperform",
+      "collocations": [
+        "outperforming peers",
+        "outperform expectations"
+      ],
+      "examples": [
+        "Firms with equal leave are outperforming peers. 实行平等休假的公司表现优于同行。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "out-（超过）+ perform（表现）",
+        "confusables": "outperform（优于）/ outperform 反义 underperform"
+      }
+    },
+    "rivals": {
+      "phonetic": "/ˈraɪvlz/",
+      "pos": "n.",
+      "sense": "对手（rival 的复数）",
+      "lemma": "rival",
+      "collocations": [
+        "business rivals",
+        "rivals for"
+      ],
+      "examples": [
+        "Rivals copied the policy. 竞争对手照搬了这项政策。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "rivals（复数）/ rival（单数）"
+      }
+    },
+    "begin": {
+      "phonetic": "/bɪˈɡɪn/",
+      "pos": "v.",
+      "sense": "开始（begin to do / begin doing）",
+      "collocations": [
+        "begin to do",
+        "begin with",
+        "to begin with"
+      ],
+      "examples": [
+        "They begin to adjust their behaviour. 他们开始调整自己的行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "begin to do（开始做，强调起点）/ begin doing（开始做，强调持续）"
+      }
+    },
+    "develop": {
+      "phonetic": "/dɪˈveləp/",
+      "pos": "v.",
+      "sense": "发展、培养（develop skills）；开发",
+      "collocations": [
+        "develop skills",
+        "develop a habit",
+        "developing countries"
+      ],
+      "examples": [
+        "Kids develop new communication skills online. 孩子在网上发展新的沟通技能。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "develop（发展）/ development（发展，名词）"
+      }
+    },
+    "causes": {
+      "phonetic": "/ˈkɔːzɪz/",
+      "pos": "v./n.",
+      "sense": "cause 的第三人称单数（导致）；原因（复数）",
+      "lemma": "cause",
+      "collocations": [
+        "causes problems",
+        "the causes of"
+      ],
+      "examples": [
+        "Too much screen time causes sleep problems. 屏幕时间过多导致睡眠问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "cause（原因/导致）/ reason（理由）/ lead to（导致）"
+      }
+    },
+    "group": {
+      "phonetic": "/ɡruːp/",
+      "pos": "n./v.",
+      "sense": "群体、小组（可数）/ 分组（动词）",
+      "collocations": [
+        "a group of",
+        "age group",
+        "group work"
+      ],
+      "examples": [
+        "Studies have shown that social support helps. 研究表明社会支持有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "group（群体）/ team（团队）/ crowd（人群）"
+      }
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "研究者（researcher 的复数）",
+      "lemma": "researcher",
+      "collocations": [
+        "researchers found",
+        "a team of researchers"
+      ],
+      "examples": [
+        "Researchers surveyed 200 teenagers. 研究者调查了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researcher（研究者）/ research（研究）"
+      }
+    },
+    "example": {
+      "phonetic": "/ɪɡˈzɑːmpl/",
+      "pos": "n.",
+      "sense": "例子、实例；榜样",
+      "collocations": [
+        "for example",
+        "an example of",
+        "set an example"
+      ],
+      "examples": [
+        "For example, texting and reading coexist. 例如，发短信和读书并存。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "for example（插入语，缩写 e.g.）/ such as（后接名词）"
+      }
+    },
+    "behavior": {
+      "phonetic": "/bɪˈheɪvjə(r)/",
+      "pos": "n.",
+      "sense": "行为（美式拼写，不可数）",
+      "collocations": [
+        "positive health behaviors",
+        "human behavior",
+        "model good behavior"
+      ],
+      "examples": [
+        "Parents should model good behavior. 家长应以身作则。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "behavior（美式）/ behaviour（英式）"
+      }
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "against": {
+      "phonetic": "/əˈɡenst/",
+      "pos": "prep.",
+      "sense": "反对；针对；靠着；对抗",
+      "collocations": [
+        "cases against sb",
+        "against the law",
+        "protect against"
+      ],
+      "examples": [
+        "Legal cases were filed against several firms. 多起案件针对数家公司提起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "against（反对）/ for（支持）/ versus（对，多用于比较与对抗）"
+      }
+    },
+    "behave": {
+      "phonetic": "/bɪˈheɪv/",
+      "pos": "v.",
+      "sense": "表现、举止（不及物）",
+      "collocations": [
+        "behave well",
+        "behave like",
+        "how to behave"
+      ],
+      "examples": [
+        "Working out how to behave online is a new skill. 弄明白网上如何举止是新技能。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "behave（不及物动词）/ behaviour（名词）/ behave oneself（守规矩）"
+      }
+    },
+    "win": {
+      "phonetic": "/wɪn/",
+      "pos": "v./n.",
+      "sense": "赢、获胜；赢得（奖项）/ 胜利",
+      "collocations": [
+        "win a title",
+        "win against",
+        "a big win"
+      ],
+      "examples": [
+        "He took his third Grand National win. 他拿下第三个全国大赛冠军。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "win（赢，后接比赛或奖项）/ beat（打败某人）/ earn（挣得）"
+      }
+    },
+    "stop": {
+      "phonetic": "/stɒp/",
+      "pos": "v./n.",
+      "sense": "停止（stop doing / stop to do）；站",
+      "collocations": [
+        "stop doing",
+        "stop to do",
+        "come to a stop"
+      ],
+      "examples": [
+        "They stop checking their phones. 他们不再看手机。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "stop doing（停止做）/ stop to do（停下来去做）——含义相反"
+      }
+    },
+    "reflect": {
+      "phonetic": "/rɪˈflekt/",
+      "pos": "v.",
+      "sense": "反映、体现；反思（reflect on）",
+      "collocations": [
+        "reflect a trend",
+        "be reflected in",
+        "reflect on"
+      ],
+      "examples": [
+        "These accounts do not reflect everyday behaviour. 这些报道并未反映日常行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "reflect（反映）/ reflect on（反思）/ reflection（倒影/反思）"
+      }
+    },
+    "what's": {
+      "phonetic": "/wɒts/",
+      "pos": "缩略",
+      "sense": "what is 或 what has 的缩写",
+      "collocations": [
+        "what's going on",
+        "what's more"
+      ],
+      "examples": [
+        "They know what's going on among friends. 他们知道朋友之间在发生什么。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "what's（what is）/ whats（错误写法）"
+      }
+    },
+    "provide": {
+      "phonetic": "/prəˈvaɪd/",
+      "pos": "v.",
+      "sense": "提供（provide sb with sth / provide sth for sb）",
+      "collocations": [
+        "provide sb with sth",
+        "provide sth for sb",
+        "provide that"
+      ],
+      "examples": [
+        "The policy provides fathers with leave. 该政策为父亲提供假期。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "provide sb with sth / provide sth for sb（两种搭配）/ offer"
+      }
+    },
+    "benefits": {
+      "phonetic": "/ˈbenɪfɪts/",
+      "pos": "n.",
+      "sense": "好处、益处（benefit 的复数）；福利待遇",
+      "lemma": "benefit",
+      "collocations": [
+        "the benefits of",
+        "employee benefits",
+        "for the benefit of"
+      ],
+      "examples": [
+        "The benefits of multitasking are clear. 多任务处理的好处很明显。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "benefits（好处/福利）/ benefit（单数或动词）"
+      }
+    },
+    "long-term": {
+      "phonetic": "/ˌlɒŋ ˈtɜːm/",
+      "pos": "adj./adv.",
+      "sense": "长期的；从长远看",
+      "collocations": [
+        "long-term impact",
+        "in the long term"
+      ],
+      "examples": [
+        "Leave could have a long-term impact. 休假可能有长期影响。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "long-term（形容词/副词，带连字符）/ in the long term（短语，长期）"
+      }
+    },
+    "consequences": {
+      "phonetic": "/ˈkɒnsɪkwənsɪz/",
+      "pos": "n.",
+      "sense": "后果、结果（consequence 的复数）",
+      "lemma": "consequence",
+      "collocations": [
+        "as a consequence",
+        "face the consequences",
+        "of consequence"
+      ],
+      "examples": [
+        "Braving the consequences is not the point. 硬扛后果并不是重点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "consequence（后果）/ result（结果）/ as a consequence of（由于）"
+      }
+    },
+    "creates": {
+      "phonetic": "/kriˈeɪts/",
+      "pos": "v.",
+      "sense": "create 的第三人称单数（创造）",
+      "lemma": "create",
+      "collocations": [
+        "it creates",
+        "creates a sense of"
+      ],
+      "examples": [
+        "It creates a sense of achievement. 它带来成就感。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "creates（三单）/ create（原形）"
+      }
+    },
+    "drives": {
+      "phonetic": "/draɪvz/",
+      "pos": "v./n.",
+      "sense": "drive 的第三人称单数（驱动）；drive 的复数（驱动力）",
+      "lemma": "drive",
+      "collocations": [
+        "what drives",
+        "primal drives"
+      ],
+      "examples": [
+        "What drives the need to understand? 什么促成了理解的需要？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "drives（三单/复数）/ drive（原形/单数）"
+      }
+    },
+    "work": {
+      "phonetic": "/wɜːk/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品",
+      "collocations": [
+        "work well",
+        "at work",
+        "work out"
+      ],
+      "examples": [
+        "The approach works in practice. 这个方法在实践中奏效。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）"
+      }
+    },
+    "harder": {
+      "phonetic": "/ˈhɑːdə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更难的；更努力地（hard 的比较级）",
+      "lemma": "hard",
+      "collocations": [
+        "work harder",
+        "try harder",
+        "harder than"
+      ],
+      "examples": [
+        "An authentic audience makes them work harder. 真实读者让他们更努力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "hard（努力/困难，既是形容词又副词）/ hardly（几乎不，含义完全不同）"
+      }
+    },
+    "eagerness": {
+      "phonetic": "/ˈiːɡənəs/",
+      "pos": "n.",
+      "sense": "急切、渴望（不可数）",
+      "collocations": [
+        "eagerness to do",
+        "with eagerness"
+      ],
+      "examples": [
+        "They showed eagerness to learn. 他们表现出强烈的学习意愿。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "eager（渴望的）+ -ness",
+        "confusables": "eagerness（急切）/ eager（形容词）/ eagerly（副词）"
+      }
+    },
+    "make": {
+      "phonetic": "/meɪk/",
+      "pos": "v.",
+      "sense": "做、制造；使（make sb do sth）；构成",
+      "collocations": [
+        "make decisions",
+        "make sense",
+        "make a difference"
+      ],
+      "examples": [
+        "Good data make better decisions possible. 好数据让更好的决策成为可能。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make（制造/使）/ do（做，多指活动）"
+      }
+    },
+    "decisions": {
+      "phonetic": "/dɪˈsɪʒnz/",
+      "pos": "n.",
+      "sense": "决定（decision 的复数）",
+      "lemma": "decision",
+      "collocations": [
+        "make decisions",
+        "decision-making",
+        "reach a decision"
+      ],
+      "examples": [
+        "Data helps us make better decisions. 数据帮我们做更好的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "de-（离）+ caedere（切）→ 切断其他可能",
+        "confusables": "decision（决定）/ decisive（果断的）"
+      }
+    },
+    "possible": {
+      "phonetic": "/ˈpɒsəbl/",
+      "pos": "adj.",
+      "sense": "可能的；可行的",
+      "collocations": [
+        "as soon as possible",
+        "it is possible to",
+        "the best possible"
+      ],
+      "examples": [
+        "They arrive at the best possible decisions. 他们做出尽可能最好的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "possible（可能）/ possibly（副词）/ probable（更可能）"
+      }
+    },
+    "mistakes": {
+      "phonetic": "/mɪˈsteɪks/",
+      "pos": "n.",
+      "sense": "错误（mistake 的复数）",
+      "lemma": "mistake",
+      "collocations": [
+        "make mistakes",
+        "by mistake",
+        "learn from mistakes"
+      ],
+      "examples": [
+        "They make mistakes, sometimes serious ones. 他们会犯错，有时还很严重。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make a mistake（用 make，不用 do）/ by mistake（错误地）"
+      }
+    },
+    "making": {
+      "phonetic": "/ˈmeɪkɪŋ/",
+      "pos": "v./n.",
+      "sense": "make 的现在分词；制造、形成（名词）",
+      "lemma": "make",
+      "collocations": [
+        "decision-making",
+        "making things complicated"
+      ],
+      "examples": [
+        "Decision-making needs both data and instinct. 决策既需要数据也需要直觉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "making（现在分词）/ made（过去分词）"
+      }
+    },
+    "complex": {
+      "phonetic": "/ˈkɒmpleks/",
+      "pos": "adj./n.",
+      "sense": "复杂的（形容词）；综合体、情结（名词）",
+      "collocations": [
+        "complex arguments",
+        "a complex issue",
+        "inferiority complex"
+      ],
+      "examples": [
+        "They lack patience for complex arguments. 他们对复杂论证缺乏耐心。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "complex（复杂的）/ complicated（繁琐的）/ complexity（复杂性）"
+      }
+    },
+    "determine": {
+      "phonetic": "/dɪˈtɜːmɪn/",
+      "pos": "v.",
+      "sense": "决定、确定（determine sth / determine whether）",
+      "collocations": [
+        "determine whether",
+        "be determined to do",
+        "determine the outcome"
+      ],
+      "examples": [
+        "Data can determine the answer. 数据可以确定答案。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "determine（决定/确定）/ be determined to do（下定决心做）/ determined（坚定的）"
+      }
+    },
+    "future": {
+      "phonetic": "/ˈfjuːtʃə(r)/",
+      "pos": "n./adj.",
+      "sense": "未来 / 未来的",
+      "collocations": [
+        "in the future",
+        "future food supply",
+        "near future"
+      ],
+      "examples": [
+        "The future of food is uncertain. 食物的未来不确定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in the future（将来）/ in future（英式：从今往后）"
+      }
+    },
+    "sense": {
+      "phonetic": "/sens/",
+      "pos": "n./v.",
+      "sense": "感觉、意识（a sense of）；意义；感官 / 感觉到",
+      "collocations": [
+        "a sense of achievement",
+        "make sense",
+        "in a sense"
+      ],
+      "examples": [
+        "Work gave them a sense of achievement. 工作给他们成就感。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make sense（讲得通）/ a sense of（……感）/ sense（感官）"
+      }
+    },
+    "comes": {
+      "phonetic": "/kʌmz/",
+      "pos": "v.",
+      "sense": "come 的第三人称单数（来）",
+      "lemma": "come",
+      "collocations": [
+        "comes from",
+        "comes with",
+        "as it comes"
+      ],
+      "examples": [
+        "With success comes new pressure. 成功带来新的压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "comes（三单）/ come（原形）"
+      }
+    },
+    "cause": {
+      "phonetic": "/kɔːz/",
+      "pos": "v./n.",
+      "sense": "导致、引起（动词）；原因、事业（名词）",
+      "collocations": [
+        "cause problems",
+        "the cause of",
+        "a good cause"
+      ],
+      "examples": [
+        "Aggressive behaviour reportedly caused by games. 攻击行为据称由游戏引起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "cause（原因/导致）/ reason（理由）/ lead to（导致）"
+      }
+    },
+    "poorer": {
+      "phonetic": "/ˈpʊərə(r)/",
+      "pos": "adj.",
+      "sense": "更穷的、更差的（poor 的比较级）",
+      "lemma": "poor",
+      "collocations": [
+        "poorer families",
+        "poorer than"
+      ],
+      "examples": [
+        "Poorer countries are hit harder. 更贫穷的国家受冲击更大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "poorer（更差）/ poorest（最差）/ poor（差的，也可指「可怜的」）"
+      }
+    },
+    "lead": {
+      "phonetic": "/liːd/",
+      "pos": "v./n.",
+      "sense": "导致（lead to）；领导、带领 / 领先",
+      "collocations": [
+        "lead to",
+        "lead a parade",
+        "take the lead"
+      ],
+      "examples": [
+        "Isolation can lead to poor health. 孤立可能导致健康不佳。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lead to（导致）/ lead（铅，读 /led/）/ led（过去式）"
+      }
+    },
+    "greater": {
+      "phonetic": "/ˈɡreɪtə(r)/",
+      "pos": "adj.",
+      "sense": "更大的（great 的比较级）；更重大的",
+      "lemma": "great",
+      "collocations": [
+        "greater independence",
+        "greater than"
+      ],
+      "examples": [
+        "The web is replaced in reaction to greater independence. 因为更独立，网络被替换了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "greater（更大，抽象/程度）/ bigger（更大，具体）"
+      }
+    },
+    "put": {
+      "phonetic": "/pʊt/",
+      "pos": "v.",
+      "sense": "放、放置（三态同形）；表达（put it）",
+      "collocations": [
+        "put pressure on",
+        "put into",
+        "put off"
+      ],
+      "examples": [
+        "Cases helped put pressure on companies. 诉讼帮助向公司施压。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "put（不规则动词，三态同形）/ put off（推迟）/ put up with（忍受）"
+      }
+    },
+    "overcome": {
+      "phonetic": "/ˌəʊvəˈkʌm/",
+      "pos": "v.",
+      "sense": "克服、战胜（三态：overcome-overcame-overcome）",
+      "collocations": [
+        "overcome obstacles",
+        "overcome difficulties"
+      ],
+      "examples": [
+        "It was just an obstacle to be overcome. 那只是一个必须克服的障碍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "overcome（克服）/ be overcome with（被……压倒，情绪）"
+      }
+    },
+    "remain": {
+      "phonetic": "/rɪˈmeɪn/",
+      "pos": "v.",
+      "sense": "保持、仍然（remain + adj./n.）；留下",
+      "collocations": [
+        "remain stable",
+        "remain unclear",
+        "remain in"
+      ],
+      "examples": [
+        "Error rates stayed stable—they remained unchanged. 错误率保持稳定，没有变化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "remain（系动词，后接形容词）/ stay（同义，更口语）/ remaining（剩余的）"
+      }
+    },
+    "emotional": {
+      "phonetic": "/ɪˈməʊʃənl/",
+      "pos": "adj.",
+      "sense": "情感的、情绪上的；易动感情的",
+      "collocations": [
+        "emotional harm",
+        "emotional support",
+        "emotional response"
+      ],
+      "examples": [
+        "Some of the dangers are emotional. 有些危险是情感层面的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "emotional（情感的）/ emotive（引起情绪的）/ emotion（情绪）"
+      }
+    },
+    "feelings": {
+      "phonetic": "/ˈfiːlɪŋz/",
+      "pos": "n.",
+      "sense": "感受、感觉（feeling 的复数）",
+      "lemma": "feeling",
+      "collocations": [
+        "personal feelings",
+        "hurt sb's feelings"
+      ],
+      "examples": [
+        "They base decisions on their own feelings. 他们凭自己的感受做决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "feelings（感受，复数）/ feeling（感觉，单数）/ feel（动词）"
+      }
+    },
+    "affecting": {
+      "phonetic": "/əˈfektɪŋ/",
+      "pos": "v.",
+      "sense": "affect 的现在分词（影响）",
+      "lemma": "affect",
+      "collocations": [
+        "affecting health",
+        "factors affecting"
+      ],
+      "examples": [
+        "Short-form writing may be affecting literacy. 短文本写作可能影响读写能力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "affecting（影响，动词形式）/ effective（有效的）"
+      }
+    }
+  }
 }

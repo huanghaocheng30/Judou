@@ -11938,5 +11938,3035 @@
       "answer": "H"
     }
   ],
-  "lexicon": {}
+  "lexicon": {
+    "fathers": {
+      "phonetic": "/ˈfɑːðəz/",
+      "pos": "n.",
+      "sense": "父亲（father 的复数）",
+      "lemma": "father",
+      "collocations": [
+        "new fathers",
+        "fathers and mothers"
+      ],
+      "examples": [
+        "Fathers want to share caregiving. 父亲们想分担照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "father（父亲）/ further（更远的）发音近但不同"
+      }
+    },
+    "taking": {
+      "phonetic": "/ˈteɪkɪŋ/",
+      "pos": "v./adj.",
+      "sense": "take 的现在分词（拿、休、采取）",
+      "lemma": "take",
+      "collocations": [
+        "taking time off",
+        "taking steps"
+      ],
+      "examples": [
+        "More fathers are taking leave. 更多父亲在休假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "taking（现在分词）/ taken（过去分词）"
+      }
+    },
+    "paternity": {
+      "phonetic": "/pəˈtɜːnəti/",
+      "pos": "n.",
+      "sense": "父亲身份；（paternity leave）陪产假",
+      "collocations": [
+        "paternity leave",
+        "paternity test"
+      ],
+      "examples": [
+        "Paternity leave is becoming more common. 陪产假越来越普遍。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "pater（父亲）+ -ity",
+        "confusables": "paternity（父方）/ maternity（母方）/ parental（父母通用）"
+      }
+    },
+    "leave": {
+      "phonetic": "/liːv/",
+      "pos": "v./n.",
+      "sense": "离开；留下 / 假期（尤指产假、病假）",
+      "collocations": [
+        "paternity leave",
+        "take leave",
+        "leave sth behind"
+      ],
+      "examples": [
+        "He took two weeks of leave. 他休了两周假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "leave 的「假期」义来自古英语 lēaf（许可）",
+        "confusables": "leave（离开）/ live（居住）"
+      }
+    },
+    "mothers": {
+      "phonetic": "/ˈmʌðəz/",
+      "pos": "n.",
+      "sense": "母亲（mother 的复数）",
+      "lemma": "mother",
+      "collocations": [
+        "mothers and fathers",
+        "working mothers"
+      ],
+      "examples": [
+        "Mothers took 93% of the maximum leave. 93% 的母亲休满了最长假期。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "mother（母亲）/ maternity（母性，母方）"
+      }
+    },
+    "still": {
+      "phonetic": "/stɪl/",
+      "pos": "adv./adj.",
+      "sense": "仍然、还（副词）；静止的、平静的（形容词）",
+      "collocations": [
+        "still true",
+        "still work",
+        "keep still"
+      ],
+      "examples": [
+        "The gap is still wide. 差距仍然很大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "still（仍然）/ yet（尚，多用于否定疑问）/ already（已经）"
+      }
+    },
+    "doing": {
+      "phonetic": "/ˈduːɪŋ/",
+      "pos": "v.",
+      "sense": "do 的现在分词；所做的事（名词）",
+      "lemma": "do",
+      "collocations": [
+        "by doing sth",
+        "what are you doing",
+        "doing the work"
+      ],
+      "examples": [
+        "Mothers are still doing all the work. 母亲们仍承担全部工作。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "doing（现在分词）/ done（过去分词）"
+      }
+    },
+    "work": {
+      "phonetic": "/wɜːk/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品",
+      "collocations": [
+        "work well",
+        "at work",
+        "work out"
+      ],
+      "examples": [
+        "The approach works in practice. 这个方法在实践中奏效。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）"
+      }
+    },
+    "attitudes": {
+      "phonetic": "/ˈætɪtjuːdz/",
+      "pos": "n.",
+      "sense": "态度（attitude 的复数）",
+      "lemma": "attitude",
+      "collocations": [
+        "attitudes towards",
+        "change attitudes"
+      ],
+      "examples": [
+        "Attitudes towards paternity leave are changing. 对陪产假的态度正在改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "attitude（态度）/ altitude（高度）"
+      }
+    },
+    "towards": {
+      "phonetic": "/təˈwɔːdz/",
+      "pos": "prep.",
+      "sense": "朝向；对于（态度）；接近（时间）",
+      "collocations": [
+        "attitudes towards",
+        "towards the end",
+        "progress towards"
+      ],
+      "examples": [
+        "Attitudes towards paternity leave are shifting. 对陪产假的态度在转变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "towards（英式常用）/ toward（美式常用），词义相同"
+      }
+    },
+    "america": {
+      "phonetic": "/əˈmerɪkə/",
+      "pos": "n.（专有名词）",
+      "sense": "美国；美洲",
+      "collocations": [
+        "in America",
+        "American English"
+      ],
+      "examples": [
+        "The American Civil Liberties Union filed the case. 美国公民自由联盟提起了诉讼。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "America（美国/美洲）/ American（美国的/美国人）"
+      }
+    },
+    "last": {
+      "phonetic": "/lɑːst/",
+      "pos": "adj./v.",
+      "sense": "最后的；上一个的 / 持续",
+      "collocations": [
+        "last week",
+        "at last",
+        "last for"
+      ],
+      "examples": [
+        "In the last 12 months, few were bullied. 过去 12 个月里很少有人被欺凌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "last（最后的/上一个）/ latest（最新的）/ latter（后者）"
+      }
+    },
+    "five": {
+      "phonetic": "/faɪv/",
+      "pos": "num.",
+      "sense": "五（数词）；五个、五岁（作定语或表语）",
+      "collocations": [
+        "five years ago",
+        "five times"
+      ],
+      "examples": [
+        "We did a study five years ago. 我们五年前做过一项研究。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "five（五）/ fifth（第五）"
+      }
+    },
+    "years": {
+      "phonetic": "/jɪəz/",
+      "pos": "n.",
+      "sense": "年（year 的复数）；多年",
+      "lemma": "year",
+      "collocations": [
+        "for years",
+        "in recent years",
+        "over three years"
+      ],
+      "examples": [
+        "She interviewed teenagers over three years. 她用三年时间访谈青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "years（复数）/ year（单数）"
+      }
+    },
+    "feel": {
+      "phonetic": "/fiːl/",
+      "pos": "v.",
+      "sense": "感觉（feel + adj.）；觉得、认为",
+      "collocations": [
+        "feel like doing",
+        "feel that",
+        "feel free to"
+      ],
+      "examples": [
+        "If you strongly feel something should not be done... 如果你强烈觉得某件事不该做……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "feel like doing（想做）/ feel free to（随意做）"
+      }
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "gender": {
+      "phonetic": "/ˈdʒendə(r)/",
+      "pos": "n.",
+      "sense": "性别（社会与文化意义上）",
+      "collocations": [
+        "gender equality",
+        "gender roles",
+        "gender neutral"
+      ],
+      "examples": [
+        "Gender roles endure at home. 性别角色在家庭中延续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "gender（社会性别）/ sex（生理性别）"
+      }
+    },
+    "comes": {
+      "phonetic": "/kʌmz/",
+      "pos": "v.",
+      "sense": "come 的第三人称单数（来）",
+      "lemma": "come",
+      "collocations": [
+        "comes from",
+        "comes with",
+        "as it comes"
+      ],
+      "examples": [
+        "With success comes new pressure. 成功带来新的压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "comes（三单）/ come（原形）"
+      }
+    },
+    "career": {
+      "phonetic": "/kəˈrɪə(r)/",
+      "pos": "n.",
+      "sense": "职业生涯、事业",
+      "collocations": [
+        "career advancement",
+        "a career in sth",
+        "career prospects"
+      ],
+      "examples": [
+        "Leave can affect a career. 休假可能影响职业发展。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "career（职业）/ carrier（承运人）"
+      }
+    },
+    "home": {
+      "phonetic": "/həʊm/",
+      "pos": "n./adv.",
+      "sense": "家；在家、回家（副词，不加 to）",
+      "collocations": [
+        "at home",
+        "go home",
+        "work from home"
+      ],
+      "examples": [
+        "Traditional gender roles endure at home too. 传统性别角色在家庭中也延续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "go home（不加 to）/ go to his home（需带限定词）"
+      }
+    },
+    "according": {
+      "phonetic": "/əˈkɔːdɪŋ/",
+      "pos": "prep.（用于 according to）",
+      "sense": "根据、按照（according to）",
+      "collocations": [
+        "according to the study",
+        "according to sb"
+      ],
+      "examples": [
+        "According to the study, rates are stable. 根据这项研究，比率稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "according to（根据，后接来源）/ because of（因为）"
+      }
+    },
+    "new": {
+      "phonetic": "/njuː/",
+      "pos": "adj.",
+      "sense": "新的；新近的",
+      "collocations": [
+        "new technologies",
+        "brand new",
+        "new to sth"
+      ],
+      "examples": [
+        "New tools always provoke worry. 新工具总会引发担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "working": {
+      "phonetic": "/ˈwɜːkɪŋ/",
+      "pos": "adj./v.",
+      "sense": "工作的（形容词）；work 的现在分词",
+      "lemma": "work",
+      "collocations": [
+        "working parents",
+        "flexible working",
+        "working hours"
+      ],
+      "examples": [
+        "Working parents need flexible hours. 职场父母需要弹性工时。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "working（工作的）/ work（工作）"
+      }
+    },
+    "parents": {
+      "phonetic": "/ˈpeərənts/",
+      "pos": "n.",
+      "sense": "父母（parent 的复数）",
+      "lemma": "parent",
+      "collocations": [
+        "parents and children",
+        "new parents"
+      ],
+      "examples": [
+        "Parents worry about screen time. 家长担心屏幕时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "parents（父母）/ relatives（亲戚）"
+      }
+    },
+    "research": {
+      "phonetic": "/rɪˈsɜːtʃ/",
+      "pos": "n./v.",
+      "sense": "研究（不可数）；调查 / 研究",
+      "collocations": [
+        "a body of research",
+        "research on sth",
+        "research shows"
+      ],
+      "examples": [
+        "A growing body of research supports this. 越来越多的研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "research（不可数）/ study（可数，一项研究）/ researches（罕用）"
+      }
+    },
+    "college": {
+      "phonetic": "/ˈkɒlɪdʒ/",
+      "pos": "n.",
+      "sense": "学院、大学（可数）",
+      "collocations": [
+        "at college",
+        "college students",
+        "a college of"
+      ],
+      "examples": [
+        "Studies of first-year college papers suggest nostalgia. 对大学一年级论文的研究显示是怀旧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "college（学院）/ colleague（同事）/ university（大学）"
+      }
+    },
+    "center": {
+      "phonetic": "/ˈsentə(r)/",
+      "pos": "n./v.",
+      "sense": "中心、机构（美式拼写）；集中（动词）",
+      "collocations": [
+        "research center",
+        "in the center of",
+        "center on"
+      ],
+      "examples": [
+        "The Pew Research Center published the study. 皮尤研究中心发表了这项研究。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "center（美式）/ centre（英式）/ central（中心的，形容词）"
+      }
+    },
+    "family": {
+      "phonetic": "/ˈfæməli/",
+      "pos": "n.",
+      "sense": "家庭、家人（集合名词，谓语可单可复）",
+      "collocations": [
+        "family members",
+        "family life",
+        "start a family"
+      ],
+      "examples": [
+        "Social support comes from family too. 社会支持也来自家庭。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "family（家庭，整体可单）/ families（多个家庭）"
+      }
+    },
+    "surveyed": {
+      "phonetic": "/səˈveɪd/",
+      "pos": "v./adj.",
+      "sense": "survey 的过去式/过去分词（调查）；被调查的",
+      "lemma": "survey",
+      "collocations": [
+        "of the women surveyed",
+        "surveyed employees"
+      ],
+      "examples": [
+        "Of the women surveyed, 32% reported a downturn. 受访女性中 32% 报告下降。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "surveyed（被调查的，作后置定语）/ survey（调查）"
+      }
+    },
+    "four": {
+      "phonetic": "/fɔː(r)/",
+      "pos": "num.",
+      "sense": "四（数词）",
+      "collocations": [
+        "two to four weeks",
+        "four times"
+      ],
+      "examples": [
+        "They saw two to four weeks as appropriate. 他们认为两到四周比较合适。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "four（四）/ fourth（第四）/ for（为了）同音"
+      }
+    },
+    "large": {
+      "phonetic": "/lɑːdʒ/",
+      "pos": "adj.",
+      "sense": "大的（数量/规模）；大范围的",
+      "collocations": [
+        "a large number of",
+        "large amounts of",
+        "at large"
+      ],
+      "examples": [
+        "A large number of studies support this. 大量研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "large（大，数量/规模）/ big（大，具体）/ at large（整体的/在逃的）"
+      }
+    },
+    "companies": {
+      "phonetic": "/ˈkʌmpəniz/",
+      "pos": "n.",
+      "sense": "公司（company 的复数）",
+      "lemma": "company",
+      "collocations": [
+        "tech companies",
+        "work for a company"
+      ],
+      "examples": [
+        "Companies are changing their policies. 公司正在改变政策。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "company（公司；陪伴，不可数）/ companion（同伴）"
+      }
+    },
+    "qualified": {
+      "phonetic": "/ˈkwɒlɪfaɪd/",
+      "pos": "adj./v.",
+      "sense": "合格的、有资格的；qualify 的过去式/过去分词",
+      "lemma": "qualify",
+      "collocations": [
+        "a qualified teacher",
+        "be qualified for",
+        "qualified self（有资格的自我）"
+      ],
+      "examples": [
+        "There's also a qualified self. 还有一个「有资格的自我」。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "qualified（合格的）/ qualification（资格）/ qualify（取得资格）"
+      }
+    },
+    "six": {
+      "phonetic": "/sɪks/",
+      "pos": "num.",
+      "sense": "六（数词）",
+      "collocations": [
+        "six times longer",
+        "six weeks"
+      ],
+      "examples": [
+        "Essays are now six times longer. 现在文章长了六倍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "six（六）/ sixth（第六）"
+      }
+    },
+    "weeks": {
+      "phonetic": "/wiːks/",
+      "pos": "n.",
+      "sense": "周（week 的复数）",
+      "lemma": "week",
+      "collocations": [
+        "two to four weeks",
+        "16 weeks of leave"
+      ],
+      "examples": [
+        "Fathers could take just two weeks. 父亲只能休两周。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "weeks（复数）/ week（单数）"
+      }
+    },
+    "paid": {
+      "phonetic": "/peɪd/",
+      "pos": "adj./v.",
+      "sense": "带薪的（形容词）；pay 的过去式与过去分词",
+      "lemma": "pay",
+      "collocations": [
+        "paid leave",
+        "well paid",
+        "get paid"
+      ],
+      "examples": [
+        "They offer 16 weeks of paid leave. 他们提供 16 周带薪假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "paid（pay 的过去式）/ payed（航海用语，罕用）"
+      }
+    },
+    "parental": {
+      "phonetic": "/pəˈrentl/",
+      "pos": "adj.",
+      "sense": "父母的、育儿相关的",
+      "collocations": [
+        "parental leave",
+        "parental support"
+      ],
+      "examples": [
+        "Parental leave policies are changing. 育儿假政策在变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "parent（父母）+ -al",
+        "confusables": "parental（父母的）/ paternal（父亲的）/ maternal（母亲的）"
+      }
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "employees": {
+      "phonetic": "/ɪmˈplɔɪiːz/",
+      "pos": "n.",
+      "sense": "员工（employee 的复数）",
+      "lemma": "employee",
+      "collocations": [
+        "full-time employees",
+        "employee benefits"
+      ],
+      "examples": [
+        "Employees reported higher satisfaction. 员工报告了更高的满意度。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "employ（雇用）+ -ee（被……者）",
+        "confusables": "employee（雇员）/ employer（雇主）"
+      }
+    },
+    "said": {
+      "phonetic": "/sed/",
+      "pos": "v.",
+      "sense": "say 的过去式与过去分词（说）",
+      "lemma": "say",
+      "collocations": [
+        "said that...",
+        "it is said that",
+        "as I said"
+      ],
+      "examples": [
+        "She said the policy had changed. 她说政策已经变了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "said（say 的过去式）/ sad（难过的）"
+      }
+    },
+    "become": {
+      "phonetic": "/bɪˈkʌm/",
+      "pos": "v.",
+      "sense": "变得（系动词）；成为",
+      "collocations": [
+        "become clear",
+        "become a parent",
+        "become aware of"
+      ],
+      "examples": [
+        "It has become a public health problem. 它已成为公共卫生问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "become（变得/成为）/ get（变得，口语）/ turn（变成，强调转变结果）"
+      }
+    },
+    "acceptable": {
+      "phonetic": "/əkˈseptəbl/",
+      "pos": "adj.",
+      "sense": "可接受的、过得去的",
+      "collocations": [
+        "find sth acceptable",
+        "socially acceptable",
+        "acceptable to sb"
+      ],
+      "examples": [
+        "80% said the organisation finds it acceptable. 80% 说公司认为这可以接受。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "acceptable（可接受的）/ accepted（被普遍接受的）/ accept（动词）"
+      }
+    },
+    "amount": {
+      "phonetic": "/əˈmaʊnt/",
+      "pos": "n./v.",
+      "sense": "数量（不可数）；总额 / 合计为",
+      "collocations": [
+        "a large amount of",
+        "the amount of",
+        "amount to"
+      ],
+      "examples": [
+        "They share the same amount of care. 他们承担同等数量的照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "amount of（接不可数）/ number of（接可数）"
+      }
+    },
+    "compared": {
+      "phonetic": "/kəmˈpeəd/",
+      "pos": "v./prep.",
+      "sense": "compare 的过去式/过去分词；（compared with）与……相比",
+      "lemma": "compare",
+      "collocations": [
+        "compared with/to",
+        "be compared to",
+        "compared to last year"
+      ],
+      "examples": [
+        "Compared with five years ago, numbers are higher. 与五年前相比，数字更高。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "compare A with B（比较差异）/ compare A to B（比作）"
+      }
+    },
+    "around": {
+      "phonetic": "/əˈraʊnd/",
+      "pos": "prep./adv.",
+      "sense": "大约；在……周围；到处",
+      "collocations": [
+        "around the world",
+        "around 75%",
+        "look around"
+      ],
+      "examples": [
+        "Around three-quarters of workers agreed. 约四分之三的员工表示同意。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "around（大约/周围，美式常用）/ round（英式同义）/ about（大约）"
+      }
+    },
+    "three-quarters": {
+      "phonetic": "/ˌθriː ˈkwɔːtəz/",
+      "pos": "n.",
+      "sense": "四分之三（分数表达，谓语视所修饰名词）",
+      "collocations": [
+        "three-quarters of",
+        "around three-quarters"
+      ],
+      "examples": [
+        "Around three-quarters of workers said support was equal. 约四分之三员工说支持是同等的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "three-quarters（四分之三，带连字符）/ three quarters（三个四分之一/三个季度）"
+      }
+    },
+    "workers": {
+      "phonetic": "/ˈwɜːkəz/",
+      "pos": "n.",
+      "sense": "工人、员工（worker 的复数）",
+      "lemma": "worker",
+      "collocations": [
+        "workers said",
+        "office workers",
+        "blue-collar workers"
+      ],
+      "examples": [
+        "Around three-quarters of workers agreed. 约四分之三的员工同意。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "worker（工人）/ employee（雇员，相对雇主）/ staff（员工集体）"
+      }
+    },
+    "equally": {
+      "phonetic": "/ˈiːkwəli/",
+      "pos": "adv.",
+      "sense": "同等程度地；同样地",
+      "collocations": [
+        "equally important",
+        "equally supportive"
+      ],
+      "examples": [
+        "The employer was equally supportive of mothers and fathers. 雇主对父母双方的支持是同等的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "equally（同样地）/ equal（相等的）/ equally 修饰形容词时不加 more"
+      }
+    },
+    "supportive": {
+      "phonetic": "/səˈpɔːtɪv/",
+      "pos": "adj.",
+      "sense": "支持的、给予支持的（be supportive of）",
+      "collocations": [
+        "be supportive of",
+        "a supportive employer"
+      ],
+      "examples": [
+        "The employer was equally supportive of mothers and fathers. 雇主对父母双方支持同等。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "supportive of（支持……的）/ support（支持，动词/名词）"
+      }
+    },
+    "half": {
+      "phonetic": "/hɑːf/",
+      "pos": "n./adj./adv.",
+      "sense": "一半；半数",
+      "collocations": [
+        "half of",
+        "nearly half",
+        "half an hour"
+      ],
+      "examples": [
+        "Nearly half of women admitted the female did most. 近半数女性承认主要是女性在做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "half of（接名词，谓语视名词）/ a half（半个）"
+      }
+    },
+    "policies": {
+      "phonetic": "/ˈpɒləsiz/",
+      "pos": "n.",
+      "sense": "政策（policy 的复数）",
+      "lemma": "policy",
+      "collocations": [
+        "leave policies",
+        "public policy",
+        "policy makers"
+      ],
+      "examples": [
+        "Leave policies made workplace culture better. 休假政策改善了职场文化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "policy（政策）/ politics（政治）/ police（警察）"
+      }
+    },
+    "made": {
+      "phonetic": "/meɪd/",
+      "pos": "v.",
+      "sense": "make 的过去式与过去分词（做、使）",
+      "lemma": "make",
+      "collocations": [
+        "made a decision",
+        "be made of/from",
+        "made in"
+      ],
+      "examples": [
+        "Agents made the purchase. 经纪人完成了这笔购买。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be made of（材质可见）/ be made from（材质改变）"
+      }
+    },
+    "workplace": {
+      "phonetic": "/ˈwɜːkpleɪs/",
+      "pos": "n.",
+      "sense": "工作场所、职场",
+      "collocations": [
+        "workplace culture",
+        "in the workplace"
+      ],
+      "examples": [
+        "Leave policies improved workplace culture. 休假政策改善了职场文化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "workplace（一个词，工作场所）/ work place（分写，罕用）"
+      }
+    },
+    "culture": {
+      "phonetic": "/ˈkʌltʃə(r)/",
+      "pos": "n.",
+      "sense": "文化；企业文化；培养",
+      "collocations": [
+        "workplace culture",
+        "culture change",
+        "company culture"
+      ],
+      "examples": [
+        "Leave policies improved workplace culture. 休假政策改善了职场文化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "culture（文化）/ cultural（文化的）/ cultivate（培养）"
+      }
+    },
+    "better": {
+      "phonetic": "/ˈbetə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更好的；更好地（good/well 的比较级）",
+      "collocations": [
+        "better than",
+        "a better understanding",
+        "get better"
+      ],
+      "examples": [
+        "Sleep is better than more coffee. 睡眠比多喝咖啡更管用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "better（更好）/ had better（最好，后接动词原形）"
+      }
+    },
+    "countries": {
+      "phonetic": "/ˈkʌntriz/",
+      "pos": "n.",
+      "sense": "国家（country 的复数）",
+      "lemma": "country",
+      "collocations": [
+        "in many countries",
+        "developing countries"
+      ],
+      "examples": [
+        "Loneliness is rising in many countries. 孤独在许多国家加剧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "countries（国家）/ countryside（乡村）"
+      }
+    },
+    "world": {
+      "phonetic": "/wɜːld/",
+      "pos": "n.",
+      "sense": "世界；领域；世人",
+      "collocations": [
+        "around the world",
+        "the world of work",
+        "real world"
+      ],
+      "examples": [
+        "The idea spread around the world. 这个想法传遍世界。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "world（世界）/ word（单词）读音与拼写易混"
+      }
+    },
+    "offer": {
+      "phonetic": "/ˈɒfə(r)/",
+      "pos": "v./n.",
+      "sense": "提供（offer sb sth）；提议 / 提议、录用通知",
+      "collocations": [
+        "offer sb sth",
+        "offer to do",
+        "an offer of"
+      ],
+      "examples": [
+        "The online world offers kids opportunities. 网络世界给孩子提供机会。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "offer sb sth / offer sth to sb（两种都行）/ provide sb with sth"
+      }
+    },
+    "increasingly": {
+      "phonetic": "/ɪnˈkriːsɪŋli/",
+      "pos": "adv.",
+      "sense": "越来越、日益",
+      "collocations": [
+        "increasingly common",
+        "increasingly difficult"
+      ],
+      "examples": [
+        "It has increasingly become a favorite approach. 它越来越成为受欢迎的方法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increasingly（越来越）/ more and more（同义，更口语）"
+      }
+    },
+    "states": {
+      "phonetic": "/steɪts/",
+      "pos": "n./v.",
+      "sense": "州、国家（state 的复数）；声明（动词三单）",
+      "lemma": "state",
+      "collocations": [
+        "the States",
+        "research states that",
+        "in a state of"
+      ],
+      "examples": [
+        "Several states passed similar laws. 数个州通过了类似法律。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "states（州/声明）/ state（状态/国家）/ statement（声明）"
+      }
+    },
+    "starting": {
+      "phonetic": "/ˈstɑːtɪŋ/",
+      "pos": "v./adj.",
+      "sense": "start 的现在分词；起始的",
+      "lemma": "start",
+      "collocations": [
+        "starting a diet",
+        "starting point"
+      ],
+      "examples": [
+        "They take a familiar path: starting a healthy diet. 他们走老路：开始健康饮食。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "starting（现在分词）/ started（过去式）"
+      }
+    },
+    "take": {
+      "phonetic": "/teɪk/",
+      "pos": "v.",
+      "sense": "拿、取；花费（时间）；采取、休（假）",
+      "collocations": [
+        "take time off",
+        "take steps",
+        "take part in"
+      ],
+      "examples": [
+        "It takes courage to speak up. 站出来说话需要勇气。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "take（拿/花费）/ bring（带来）/ spend（花费，主语须是人）"
+      }
+    },
+    "issue": {
+      "phonetic": "/ˈɪʃuː/",
+      "pos": "n./v.",
+      "sense": "问题、议题（可数）；期号 / 发布、发放",
+      "collocations": [
+        "a serious issue",
+        "the issue of",
+        "issue a statement"
+      ],
+      "examples": [
+        "Distraction is a serious issue. 分心是个严重问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "issue（议题/问题，中性）/ problem（难题）/ question（疑问）"
+      }
+    },
+    "far": {
+      "phonetic": "/fɑː(r)/",
+      "pos": "adv./adj.",
+      "sense": "远；（far from）远非；（far more）远比",
+      "collocations": [
+        "far from",
+        "far more",
+        "so far"
+      ],
+      "examples": [
+        "The facts are far more positive. 事实要正面得多。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "far from（远非）/ far more（远比）/ so far（到目前为止）"
+      }
+    },
+    "columbia": {
+      "phonetic": "/kəˈlʌmbiə/",
+      "pos": "n.（专有名词）",
+      "sense": "哥伦比亚（美国哥伦比亚大学 Columbia University；也指哥伦比亚市/省）",
+      "collocations": [
+        "Columbia University",
+        "British Columbia"
+      ],
+      "examples": [
+        "The study was led by a Columbia economist. 这项研究由哥伦比亚大学的一位经济学家主持。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "Columbia（哥伦比亚，专名）/ Colombia（哥伦比亚国家）"
+      }
+    },
+    "own": {
+      "phonetic": "/əʊn/",
+      "pos": "adj./v.",
+      "sense": "自己的（形容词）；拥有（动词）",
+      "collocations": [
+        "one's own",
+        "on one's own",
+        "own sth"
+      ],
+      "examples": [
+        "They base decisions on their own feelings. 他们凭自己的感觉做决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "own（自己的/拥有）/ owner（所有者）"
+      }
+    },
+    "harrington": {
+      "phonetic": "/ˈhærɪŋtən/",
+      "pos": "n.（专有名词）",
+      "sense": "哈林顿（本文受访研究者姓氏）",
+      "collocations": [
+        "Harrington said"
+      ],
+      "examples": [
+        "Harrington said culture change depends on companies. 哈林顿说文化变革取决于公司。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
+    "lead": {
+      "phonetic": "/liːd/",
+      "pos": "v./n.",
+      "sense": "导致（lead to）；领导、带领 / 领先",
+      "collocations": [
+        "lead to",
+        "lead a parade",
+        "take the lead"
+      ],
+      "examples": [
+        "Isolation can lead to poor health. 孤立可能导致健康不佳。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lead to（导致）/ lead（铅，读 /led/）/ led（过去式）"
+      }
+    },
+    "feels": {
+      "phonetic": "/fiːlz/",
+      "pos": "v.",
+      "sense": "feel 的第三人称单数（感觉）",
+      "lemma": "feel",
+      "collocations": [
+        "it feels like",
+        "feels that"
+      ],
+      "examples": [
+        "It feels risky to ignore data. 忽视数据感觉有风险。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "feels（三单）/ feel（原形）"
+      }
+    },
+    "findings": {
+      "phonetic": "/ˈfaɪndɪŋz/",
+      "pos": "n.",
+      "sense": "研究发现、结论（finding 的复数）",
+      "lemma": "finding",
+      "collocations": [
+        "the findings suggest",
+        "key findings"
+      ],
+      "examples": [
+        "These findings were shocking to me. 这些发现让我震惊。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "findings（研究结论，复数）/ findings（也可指裁决）"
+      }
+    },
+    "reflect": {
+      "phonetic": "/rɪˈflekt/",
+      "pos": "v.",
+      "sense": "反映、体现；反思（reflect on）",
+      "collocations": [
+        "reflect a trend",
+        "be reflected in",
+        "reflect on"
+      ],
+      "examples": [
+        "These accounts do not reflect everyday behaviour. 这些报道并未反映日常行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "reflect（反映）/ reflect on（反思）/ reflection（倒影/反思）"
+      }
+    },
+    "obvious": {
+      "phonetic": "/ˈɒbviəs/",
+      "pos": "adj.",
+      "sense": "明显的、显然的",
+      "collocations": [
+        "it is obvious that",
+        "for obvious reasons",
+        "the obvious choice"
+      ],
+      "examples": [
+        "The disadvantage, obviously, is that farmers suffer. 明显的劣势是农民受损。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "obvious（明显的）/ obviously（显然）/ apparent（表面上的）"
+      }
+    },
+    "change": {
+      "phonetic": "/tʃeɪndʒ/",
+      "pos": "v./n.",
+      "sense": "改变、变化 / 变化、零钱",
+      "collocations": [
+        "change behaviour",
+        "climate change",
+        "make a change"
+      ],
+      "examples": [
+        "Attitudes are changing slowly. 态度正在缓慢改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "change（改变）/ exchange（交换）/ alter（改动，更正式）"
+      }
+    },
+    "ago": {
+      "phonetic": "/əˈɡəʊ/",
+      "pos": "adv.",
+      "sense": "……以前（与一般过去时连用，置于时间量之后）",
+      "collocations": [
+        "five years ago",
+        "long ago",
+        "two decades ago"
+      ],
+      "examples": [
+        "We did a study five years ago. 我们五年前做过研究。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "ago（以前，过去时）/ before（以前，完成时/泛指）"
+      }
+    },
+    "expect": {
+      "phonetic": "/ɪkˈspekt/",
+      "pos": "v.",
+      "sense": "期望、预料（expect sb to do / expect that）",
+      "collocations": [
+        "expect sb to do",
+        "as expected",
+        "be expected to"
+      ],
+      "examples": [
+        "The facts are more positive than you might expect. 事实比你预想的更积极。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "expect（预料/期待）/ hope（希望）/ look forward to（期待，带愉悦）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "say": {
+      "phonetic": "/seɪ/",
+      "pos": "v.",
+      "sense": "说、讲；表明（告示、数据等）",
+      "collocations": [
+        "say that...",
+        "say no to",
+        "needless to say"
+      ],
+      "examples": [
+        "The figures say otherwise. 数据说明的却是另一回事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "say（说，后接内容）/ tell（告诉，须有对象 tell sb sth）/ speak（说某种语言）"
+      }
+    },
+    "dads": {
+      "phonetic": "/dædz/",
+      "pos": "n.",
+      "sense": "爸爸（dad 的复数，口语）",
+      "lemma": "dad",
+      "collocations": [
+        "new dads",
+        "dads taking leave"
+      ],
+      "examples": [
+        "New dads feel unstated pressure. 新爸爸感受到无形的压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "dad（爸爸，口语）/ father（父亲，正式）"
+      }
+    },
+    "it's": {
+      "phonetic": "/ɪts/",
+      "pos": "缩略",
+      "sense": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+      "collocations": [
+        "it's important that",
+        "it's likely to"
+      ],
+      "examples": [
+        "It's hard to say. 很难说。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
+      }
+    },
+    "women": {
+      "phonetic": "/ˈwɪmɪn/",
+      "pos": "n.",
+      "sense": "女人（woman 的复数）",
+      "lemma": "woman",
+      "collocations": [
+        "women and men",
+        "working women"
+      ],
+      "examples": [
+        "Women still do most of the caregiving. 女性仍承担大部分照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "women /ˈwɪmɪn/（复数）与 woman /ˈwʊmən/（单数）发音不同"
+      }
+    },
+    "men": {
+      "phonetic": "/men/",
+      "pos": "n.",
+      "sense": "男人（man 的复数）",
+      "lemma": "man",
+      "collocations": [
+        "men and women",
+        "young men"
+      ],
+      "examples": [
+        "Men are taking more parental leave. 男性在休更多育儿假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "men（复数）/ man（单数）/ man 也可泛指人类"
+      }
+    },
+    "previous": {
+      "phonetic": "/ˈpriːviəs/",
+      "pos": "adj.",
+      "sense": "先前的、上一次的",
+      "collocations": [
+        "the previous study",
+        "previous experience",
+        "previous to"
+      ],
+      "examples": [
+        "The previous study found similar preferences. 先前的研究发现了类似偏好。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "previous（先前的）/ prior（在前的，更正式）/ former（前一个/前任）"
+      }
+    },
+    "nearly": {
+      "phonetic": "/ˈnɪəli/",
+      "pos": "adv.",
+      "sense": "几乎、将近",
+      "collocations": [
+        "nearly half",
+        "nearly all",
+        "not nearly"
+      ],
+      "examples": [
+        "Nearly half of women admitted the female did most. 近半数女性承认主要是女性在做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "nearly（几乎）/ almost（几乎，可修饰 more/less）/ near（靠近）"
+      }
+    },
+    "once": {
+      "phonetic": "/wʌns/",
+      "pos": "adv./conj.",
+      "sense": "一次；曾经 / 一旦（连词）",
+      "collocations": [
+        "at once",
+        "once again",
+        "once you start"
+      ],
+      "examples": [
+        "The web is headed for change once again. 网络再次走向变革。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "at once（立即/一次性）/ once（一次/一旦）"
+      }
+    },
+    "since": {
+      "phonetic": "/sɪns/",
+      "pos": "conj./prep./adv.",
+      "sense": "自从（时间）；因为（原因）",
+      "collocations": [
+        "since then",
+        "ever since",
+        "especially since"
+      ],
+      "examples": [
+        "Since then, many cases have been filed. 自那以后，许多案件被提起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "since（自从/因为）/ for（持续一段时间）/ from（起点）"
+      }
+    },
+    "number": {
+      "phonetic": "/ˈnʌmbə(r)/",
+      "pos": "n.",
+      "sense": "数字、数量；号码",
+      "collocations": [
+        "a number of（许多）",
+        "the number of（……的数量）",
+        "in large numbers"
+      ],
+      "examples": [
+        "A number of studies agree. 许多研究结论一致。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "a number of（许多，谓语复数）/ the number of（数量，谓语单数）"
+      }
+    },
+    "legal": {
+      "phonetic": "/ˈliːɡl/",
+      "pos": "adj.",
+      "sense": "法律的、合法的",
+      "collocations": [
+        "legal cases",
+        "legal system",
+        "take legal action"
+      ],
+      "examples": [
+        "Legal cases helped put pressure on companies. 法律诉讼帮助向公司施压。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "legal（法律的）/ lawful（合法的）/ illegal（非法的）"
+      }
+    },
+    "cases": {
+      "phonetic": "/ˈkeɪsɪz/",
+      "pos": "n.",
+      "sense": "案件、病例、情况（case 的复数）；箱子",
+      "lemma": "case",
+      "collocations": [
+        "legal cases",
+        "in some cases",
+        "in case of"
+      ],
+      "examples": [
+        "Cases were filed against several companies. 多起案件针对数家公司提起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in case of（万一，后接名词）/ in case（以防，后接从句）"
+      }
+    },
+    "against": {
+      "phonetic": "/əˈɡenst/",
+      "pos": "prep.",
+      "sense": "反对；针对；靠着；对抗",
+      "collocations": [
+        "cases against sb",
+        "against the law",
+        "protect against"
+      ],
+      "examples": [
+        "Legal cases were filed against several firms. 多起案件针对数家公司提起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "against（反对）/ for（支持）/ versus（对，多用于比较与对抗）"
+      }
+    },
+    "including": {
+      "phonetic": "/ɪnˈkluːdɪŋ/",
+      "pos": "prep.",
+      "sense": "包括（介词性分词，后接名词）",
+      "collocations": [
+        "including cases against",
+        "including me"
+      ],
+      "examples": [
+        "Several firms faced cases, including JPMorgan Chase. 多家公司被起诉，包括摩根大通。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "including（包括，后接名词）/ included（被包括，置于名词后）"
+      }
+    },
+    "jpmorgan": {
+      "phonetic": "/ˌdʒeɪˈpiː ˈmɔːɡən/",
+      "pos": "n.（专有名词）",
+      "sense": "摩根大通（JPMorgan Chase，美国大型银行）",
+      "collocations": [
+        "JPMorgan Chase",
+        "a case against JPMorgan Chase"
+      ],
+      "examples": [
+        "A settlement was reached with JPMorgan Chase. 与摩根大通达成了和解。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "JPMorgan Chase（银行全称），专有名词"
+      }
+    },
+    "chase": {
+      "phonetic": "/tʃeɪs/",
+      "pos": "v./n.",
+      "sense": "追赶（动词）；追逐（名词）；（Chase）摩根大通 JPMorgan Chase",
+      "collocations": [
+        "JPMorgan Chase",
+        "chase after"
+      ],
+      "examples": [
+        "Cases were filed against JPMorgan Chase. 多起案件针对摩根大通提起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "chase（追逐）/ purchase（购买）"
+      }
+    },
+    "put": {
+      "phonetic": "/pʊt/",
+      "pos": "v.",
+      "sense": "放、放置（三态同形）；表达（put it）",
+      "collocations": [
+        "put pressure on",
+        "put into",
+        "put off"
+      ],
+      "examples": [
+        "Cases helped put pressure on companies. 诉讼帮助向公司施压。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "put（不规则动词，三态同形）/ put off（推迟）/ put up with（忍受）"
+      }
+    },
+    "make": {
+      "phonetic": "/meɪk/",
+      "pos": "v.",
+      "sense": "做、制造；使（make sb do sth）；构成",
+      "collocations": [
+        "make decisions",
+        "make sense",
+        "make a difference"
+      ],
+      "examples": [
+        "Good data make better decisions possible. 好数据让更好的决策成为可能。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make（制造/使）/ do（做，多指活动）"
+      }
+    },
+    "however": {
+      "phonetic": "/haʊˈevə(r)/",
+      "pos": "adv./conj.",
+      "sense": "然而（副词，须用分号或句号连接）；无论怎样",
+      "collocations": [
+        "however, ...",
+        "however much"
+      ],
+      "examples": [
+        "However, the study also shows a gap. 然而，研究也显示出一道差距。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "however（副词，不能像 but 那样直接连两个分句）/ but（连词）"
+      }
+    },
+    "reported": {
+      "phonetic": "/rɪˈpɔːtɪd/",
+      "pos": "v./adj.",
+      "sense": "report 的过去式/过去分词（报告）；据报告的",
+      "lemma": "report",
+      "collocations": [
+        "be reported to",
+        "self-reported",
+        "reported cases"
+      ],
+      "examples": [
+        "32% reported a downturn. 32% 报告了下降。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "reported（报告）/ self-reported（自我报告的）"
+      }
+    },
+    "changes": {
+      "phonetic": "/ˈtʃeɪndʒɪz/",
+      "pos": "n./v.",
+      "sense": "变化（change 的复数）；change 的第三人称单数",
+      "lemma": "change",
+      "collocations": [
+        "make changes",
+        "changes in sth",
+        "climate changes"
+      ],
+      "examples": [
+        "Women reported more changes in career potential. 女性报告了更多职业潜力的变化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "changes（复数/三单）/ change（单数）"
+      }
+    },
+    "perceived": {
+      "phonetic": "/pəˈsiːvd/",
+      "pos": "v./adj.",
+      "sense": "perceive 的过去式/过去分词；感知到的",
+      "lemma": "perceive",
+      "collocations": [
+        "perceived career potential",
+        "perceived risk"
+      ],
+      "examples": [
+        "More women reported changes in their perceived career potential. 更多女性报告其自感职业潜力的变化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "perceived（自感的/被感知的）/ perception（看法，名词）"
+      }
+    },
+    "potential": {
+      "phonetic": "/pəˈtenʃl/",
+      "pos": "adj./n.",
+      "sense": "潜在的（形容词）；潜力（不可数）",
+      "collocations": [
+        "career potential",
+        "potential customers",
+        "reach one's potential"
+      ],
+      "examples": [
+        "Perceived career potential changed for women. 女性自感的职业潜力发生了变化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "potential（潜在的/潜力）/ possible（可能的）/ potentially（可能地）"
+      }
+    },
+    "claim": {
+      "phonetic": "/kleɪm/",
+      "pos": "v./n.",
+      "sense": "声称（claim that / claim to do）；索赔、主张（名词）",
+      "collocations": [
+        "claim that",
+        "claim to do",
+        "a claim for"
+      ],
+      "examples": [
+        "They claim they were denied leave. 他们声称被拒绝休假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "claim to do（声称）/ claim doing（不常用）"
+      }
+    },
+    "equality": {
+      "phonetic": "/iˈkwɒləti/",
+      "pos": "n.",
+      "sense": "平等（不可数）",
+      "collocations": [
+        "gender equality",
+        "a desire for equality",
+        "equality between"
+      ],
+      "examples": [
+        "They claim a strong desire for equality. 他们声称强烈渴望平等。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "equal（相等的）+ -ity",
+        "confusables": "equality（平等）/ equity（公平）/ equation（方程）"
+      }
+    },
+    "vast": {
+      "phonetic": "/vɑːst/",
+      "pos": "adj.",
+      "sense": "巨大的、广阔的；（the vast majority）绝大多数",
+      "collocations": [
+        "the vast majority",
+        "vast amounts of",
+        "a vast range"
+      ],
+      "examples": [
+        "The vast majority of men said sharing care was a top reason. 绝大多数男性说分担照护是首要理由。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "vast（巨大的）/ large（大的）/ huge（巨大的，口语）"
+      }
+    },
+    "majority": {
+      "phonetic": "/məˈdʒɒrəti/",
+      "pos": "n.",
+      "sense": "多数、大多数（the majority of）",
+      "collocations": [
+        "the majority of",
+        "a majority of",
+        "the vast majority"
+      ],
+      "examples": [
+        "The majority of men admitted the female did most. 多数男性承认主要是女性在做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "majority（多数）/ most（大多数，更通用）/ minority（少数）"
+      }
+    },
+    "share": {
+      "phonetic": "/ʃeə(r)/",
+      "pos": "v./n.",
+      "sense": "分享、分担（share sth with sb）；份额",
+      "collocations": [
+        "share sth with sb",
+        "a share of",
+        "market share"
+      ],
+      "examples": [
+        "They want to share caregiving with their partner. 他们想与伴侣分担照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "share（分享/分担）/ split（拆分）/ divide（划分）"
+      }
+    },
+    "caregiving": {
+      "phonetic": "/ˈkeəɡɪvɪŋ/",
+      "pos": "n.",
+      "sense": "照护（对儿童、老人等的照料，不可数）",
+      "collocations": [
+        "share caregiving",
+        "caregiving duties"
+      ],
+      "examples": [
+        "They want to share caregiving with their partner. 他们想与伴侣分担照护。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "care（照料）+ give（给）+ -ing",
+        "confusables": "caregiving（一个词）/ care giving（分写，较少见）"
+      }
+    },
+    "tasks": {
+      "phonetic": "/tɑːsks/",
+      "pos": "n.",
+      "sense": "任务（task 的复数）",
+      "lemma": "task",
+      "collocations": [
+        "household tasks",
+        "complete a task"
+      ],
+      "examples": [
+        "Splitting tasks fairly matters. 公平分担任务很重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "task（任务）/ work（工作）/ chore（家务杂事）"
+      }
+    },
+    "different": {
+      "phonetic": "/ˈdɪfrənt/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的",
+      "collocations": [
+        "different from",
+        "a different picture",
+        "different points of view"
+      ],
+      "examples": [
+        "Their experiences were considerably different. 他们的经历相当不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "genders": {
+      "phonetic": "/ˈdʒendəz/",
+      "pos": "n.",
+      "sense": "性别（gender 的复数）",
+      "lemma": "gender",
+      "collocations": [
+        "both genders",
+        "genders differ"
+      ],
+      "examples": [
+        "Both genders feared an impact on progress. 两性都担心影响发展。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "genders（性别，复数）/ gender（单数）"
+      }
+    },
+    "give": {
+      "phonetic": "/ɡɪv/",
+      "pos": "v.",
+      "sense": "给、提供（give sb sth）；给予",
+      "collocations": [
+        "give sb sth",
+        "give up",
+        "give rise to"
+      ],
+      "examples": [
+        "Companies need to give men paternity leave. 公司需要给男性陪产假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "give sb sth / give sth to sb（双宾语两种形式）/ give up（放弃）"
+      }
+    },
+    "care": {
+      "phonetic": "/keə(r)/",
+      "pos": "n./v.",
+      "sense": "照护、关心（不可数）；在乎（care about）、照顾（care for）",
+      "collocations": [
+        "care about",
+        "care for",
+        "take care of"
+      ],
+      "examples": [
+        "Both genders should give the same amount of care. 两性应承担同等照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "care about（在乎）/ care for（照顾/喜欢）/ take care of（照料）"
+      }
+    },
+    "reality": {
+      "phonetic": "/riˈæləti/",
+      "pos": "n.",
+      "sense": "现实、实际情况（可数/不可数）",
+      "collocations": [
+        "in reality",
+        "the reality is",
+        "face reality"
+      ],
+      "examples": [
+        "In reality, the female did most of the care. 现实中主要是女性在做照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in reality（实际上）/ reality（现实）/ real（真实的）"
+      }
+    },
+    "female": {
+      "phonetic": "/ˈfiːmeɪl/",
+      "pos": "adj./n.",
+      "sense": "女性的、雌性的 / 女性（可数）",
+      "collocations": [
+        "female employees",
+        "female CEOs",
+        "the female（女性一方）"
+      ],
+      "examples": [
+        "In reality the female actually did most of it. 现实主要还是女性在做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "female（女性，生物属性）/ woman（女人，社会属性）；反义 male"
+      }
+    },
+    "actually": {
+      "phonetic": "/ˈæktʃuəli/",
+      "pos": "adv.",
+      "sense": "实际上、事实上；居然（表出乎意料）",
+      "collocations": [
+        "actually, ...",
+        "not actually"
+      ],
+      "examples": [
+        "In reality the female actually did most of it. 现实中主要还是女性在做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "actually（实际上）/ currently（目前）/ in fact（事实上）"
+      }
+    },
+    "tiny": {
+      "phonetic": "/ˈtaɪni/",
+      "pos": "adj.",
+      "sense": "极小的、微小的",
+      "collocations": [
+        "a tiny fraction",
+        "a tiny amount",
+        "tiny changes"
+      ],
+      "examples": [
+        "Only a tiny fraction of men did more childcare. 只有极小一部分男性承担更多育儿。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tiny（极小的）/ small（小的）/ little（少/小）"
+      }
+    },
+    "fraction": {
+      "phonetic": "/ˈfrækʃn/",
+      "pos": "n.",
+      "sense": "一小部分、分数（可数）",
+      "collocations": [
+        "a tiny fraction of",
+        "only a fraction"
+      ],
+      "examples": [
+        "Only 2% of men did more childcare—a tiny fraction. 只有 2% 的男性承担更多育儿。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fraction（部分/分数）/ fracture（断裂）/ faction（派系）"
+      }
+    },
+    "women's": {
+      "phonetic": "/ˈwɪmɪnz/",
+      "pos": "n.（所有格）",
+      "sense": "女性的（women 的所有格）",
+      "lemma": "woman",
+      "collocations": [
+        "women's advancement",
+        "women's lives"
+      ],
+      "examples": [
+        "Companies enhance women's advancement. 公司促进女性的职业发展。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "women's（复数所有格，撇号在 s 后）/ woman's（单数所有格）"
+      }
+    },
+    "experiences": {
+      "phonetic": "/ɪkˈspɪəriənsɪz/",
+      "pos": "n.",
+      "sense": "经历（experience 的复数）",
+      "lemma": "experience",
+      "collocations": [
+        "their experiences of",
+        "personal experiences"
+      ],
+      "examples": [
+        "Men and women's experiences differ. 男女的经历不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "experiences（经历，可数）/ experience（经验，不可数）"
+      }
+    },
+    "following": {
+      "phonetic": "/ˈfɒləʊɪŋ/",
+      "pos": "adj./prep.",
+      "sense": "接下来的；在……之后（介词）；跟随（分词）",
+      "collocations": [
+        "the following year",
+        "following parental leave",
+        "the following"
+      ],
+      "examples": [
+        "In the following two years he lost the title. 接下来两年他失去了冠军。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "following（接下来的/在……之后）/ follow（跟随）"
+      }
+    },
+    "job": {
+      "phonetic": "/dʒɒb/",
+      "pos": "n.",
+      "sense": "工作、职位（可数）；任务",
+      "collocations": [
+        "job satisfaction",
+        "get a job",
+        "do a good job"
+      ],
+      "examples": [
+        "Job satisfaction dropped for many women. 许多女性的工作满意度下降了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "job（职位，可数）/ work（工作，不可数）/ career（职业生涯）"
+      }
+    },
+    "satisfaction": {
+      "phonetic": "/ˌsætɪsˈfækʃn/",
+      "pos": "n.",
+      "sense": "满意、满足（不可数）",
+      "collocations": [
+        "job satisfaction",
+        "customer satisfaction",
+        "with satisfaction"
+      ],
+      "examples": [
+        "Job satisfaction fell for many women. 许多女性的工作满意度下降。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "satis（足够）+ facere（做）",
+        "confusables": "satisfaction（满意）/ satisfactory（令人满意的）/ satisfied（感到满意的）"
+      }
+    },
+    "increased": {
+      "phonetic": "/ɪnˈkriːst/",
+      "pos": "v./adj.",
+      "sense": "increase 的过去式/过去分词（增加）；增加的",
+      "lemma": "increase",
+      "collocations": [
+        "increased responsibilities",
+        "increased risk"
+      ],
+      "examples": [
+        "14% said job satisfaction increased. 14% 说工作满意度上升了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increased（增加的，作定语）/ increasing（不断增加的）"
+      }
+    },
+    "went": {
+      "phonetic": "/went/",
+      "pos": "v.",
+      "sense": "go 的过去式（去、变得）",
+      "lemma": "go",
+      "collocations": [
+        "went down",
+        "went up",
+        "went on"
+      ],
+      "examples": [
+        "Job satisfaction went down for 32% of women. 32% 的女性工作满意度下降。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "went（go 的过去式）/ gone（过去分词）"
+      }
+    },
+    "meanwhile": {
+      "phonetic": "/ˈmiːnwaɪl/",
+      "pos": "adv.",
+      "sense": "与此同时、同时",
+      "collocations": [
+        "meanwhile, ...",
+        "in the meanwhile"
+      ],
+      "examples": [
+        "Meanwhile, more women reported an increase in responsibilities. 同时，更多女性报告责任增加。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "meanwhile（同时，连接副词）/ while（当……时/然而）"
+      }
+    },
+    "increase": {
+      "phonetic": "/ɪnˈkriːs/",
+      "pos": "v./n.",
+      "sense": "增加（动词读 /ɪnˈkriːs/）；增加（名词读 /ˈɪnkriːs/）",
+      "collocations": [
+        "increase in sth",
+        "increase the chances of",
+        "a sharp increase"
+      ],
+      "examples": [
+        "More women reported an increase in responsibilities. 更多女性报告责任增加。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increase（动词）/ increase in（名词 + 介词）"
+      }
+    },
+    "responsibilities": {
+      "phonetic": "/rɪˌspɒnsəˈbɪlətiz/",
+      "pos": "n.",
+      "sense": "责任、职责（responsibility 的复数）",
+      "lemma": "responsibility",
+      "collocations": [
+        "take responsibility",
+        "an increase in responsibilities",
+        "responsibility for"
+      ],
+      "examples": [
+        "More women reported an increase in responsibilities. 更多女性报告职责增加。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "responsibility（责任）/ responsible（负责的）/ response（回应）"
+      }
+    },
+    "used": {
+      "phonetic": "/juːzd/",
+      "pos": "v./adj.",
+      "sense": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+      "lemma": "use",
+      "collocations": [
+        "used to do",
+        "be used to doing",
+        "be used for"
+      ],
+      "examples": [
+        "They used flexible work arrangements. 他们使用了弹性工作安排。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）"
+      }
+    },
+    "becoming": {
+      "phonetic": "/bɪˈkʌmɪŋ/",
+      "pos": "v./adj.",
+      "sense": "become 的现在分词（变得、成为）；合适的（形容词）",
+      "lemma": "become",
+      "collocations": [
+        "is becoming",
+        "after becoming a parent"
+      ],
+      "examples": [
+        "After becoming a parent, they used flexible work. 成为父母后，他们使用弹性工作。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "becoming（现在分词/合适的）/ become（变成）"
+      }
+    },
+    "parent": {
+      "phonetic": "/ˈpeərənt/",
+      "pos": "n.",
+      "sense": "父亲或母亲（可数）；母公司（作定语）",
+      "collocations": [
+        "a single parent",
+        "become a parent",
+        "parent company"
+      ],
+      "examples": [
+        "They used flexible arrangements after becoming a parent. 他们成为父母后使用弹性安排。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "parent（父母任一方）/ parents（父母双方）"
+      }
+    },
+    "similar": {
+      "phonetic": "/ˈsɪmələ(r)/",
+      "pos": "adj.",
+      "sense": "相似的、类似的",
+      "collocations": [
+        "be similar to",
+        "similar percentages",
+        "in a similar way"
+      ],
+      "examples": [
+        "Men reported similar levels of enjoyment. 男性报告的享受程度相近。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "similar to（与……相似）/ the same as（与……相同）"
+      }
+    },
+    "sense": {
+      "phonetic": "/sens/",
+      "pos": "n./v.",
+      "sense": "感觉、意识（a sense of）；意义；感官 / 感觉到",
+      "collocations": [
+        "a sense of achievement",
+        "make sense",
+        "in a sense"
+      ],
+      "examples": [
+        "Work gave them a sense of achievement. 工作给他们成就感。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make sense（讲得通）/ a sense of（……感）/ sense（感官）"
+      }
+    },
+    "key": {
+      "phonetic": "/kiː/",
+      "pos": "adj./n.",
+      "sense": "关键的；钥匙、答案（to）",
+      "collocations": [
+        "key to",
+        "a key factor",
+        "the key question"
+      ],
+      "examples": [
+        "It is key to model good behavior. 以身作则很关键。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "key to（……的关键，to 为介词）/ key（钥匙）"
+      }
+    },
+    "advancement": {
+      "phonetic": "/ədˈvɑːnsmənt/",
+      "pos": "n.",
+      "sense": "晋升、发展（不可数）",
+      "collocations": [
+        "career advancement",
+        "opportunities for advancement"
+      ],
+      "examples": [
+        "On the subject of career advancement, 59% worried. 谈到职业晋升，59% 表示担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "advancement（晋升/发展）/ advance（前进/提前）/ advanced（高级的）"
+      }
+    },
+    "progress": {
+      "phonetic": "/ˈprəʊɡres/",
+      "pos": "n./v.",
+      "sense": "进步、进展（不可数）/ 前进、进展",
+      "collocations": [
+        "make progress",
+        "progress towards",
+        "in progress"
+      ],
+      "examples": [
+        "There is still progress to be made. 仍有进展要做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "progress（不可数，不说 a progress）/ progress 作动词读 /prəˈɡres/"
+      }
+    },
+    "long-term": {
+      "phonetic": "/ˌlɒŋ ˈtɜːm/",
+      "pos": "adj./adv.",
+      "sense": "长期的；从长远看",
+      "collocations": [
+        "long-term impact",
+        "in the long term"
+      ],
+      "examples": [
+        "Leave could have a long-term impact. 休假可能有长期影响。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "long-term（形容词/副词，带连字符）/ in the long term（短语，长期）"
+      }
+    },
+    "opportunity": {
+      "phonetic": "/ˌɒpəˈtjuːnəti/",
+      "pos": "n.",
+      "sense": "机会（可数）",
+      "collocations": [
+        "an opportunity to do",
+        "opportunity for",
+        "take the opportunity"
+      ],
+      "examples": [
+        "The online world offers remarkable opportunities. 网络世界提供难得机会。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "opportunity（良机，正面）/ chance（机会/可能性，中性）"
+      }
+    },
+    "promotion": {
+      "phonetic": "/prəˈməʊʃn/",
+      "pos": "n.",
+      "sense": "晋升（不可数/可数）；促销、推广",
+      "collocations": [
+        "chances of promotion",
+        "get a promotion",
+        "sales promotion"
+      ],
+      "examples": [
+        "Women believed their chances of promotion were lower. 女性认为自己的晋升机会更低。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "promotion（晋升/推广）/ promote（提升/推广）/ promotional（促销的）"
+      }
+    },
+    "chances": {
+      "phonetic": "/ˈtʃɑːnsɪz/",
+      "pos": "n.",
+      "sense": "机会、可能性（chance 的复数）",
+      "lemma": "chance",
+      "collocations": [
+        "the chances of",
+        "increase the chances",
+        "by chance"
+      ],
+      "examples": [
+        "Data increases the chances of success. 数据能提高成功的机会。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "chance（机会）/ opportunity（良机，偏正面）/ by chance（偶然）"
+      }
+    },
+    "lower": {
+      "phonetic": "/ˈləʊə(r)/",
+      "pos": "v./adj.",
+      "sense": "降低（动词）；更低的（low 的比较级）",
+      "collocations": [
+        "lower stress",
+        "lower than",
+        "lower the risk"
+      ],
+      "examples": [
+        "Social life can lower stress levels. 社交生活能降低压力水平。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lower（降低/更低）/ low（低的）/ lose（失去）"
+      }
+    },
+    "despite": {
+      "phonetic": "/dɪˈspaɪt/",
+      "pos": "prep.",
+      "sense": "尽管、虽然（后接名词或动名词，不接从句）",
+      "collocations": [
+        "despite the fact that",
+        "despite progress",
+        "despite doing"
+      ],
+      "examples": [
+        "Despite progress, women still struggle. 尽管有进步，女性仍在艰难争取。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "despite + 名词（不是从句）/ although + 从句"
+      }
+    },
+    "struggle": {
+      "phonetic": "/ˈstrʌɡl/",
+      "pos": "v./n.",
+      "sense": "挣扎、努力（struggle to do / struggle with）；斗争",
+      "collocations": [
+        "struggle to do",
+        "struggle with",
+        "the struggle for"
+      ],
+      "examples": [
+        "They struggle with new communication skills. 他们在新沟通技能上挣扎。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "struggle to do（努力做，含困难）/ try to do（尝试）/ struggle with（应对困难）"
+      }
+    },
+    "power": {
+      "phonetic": "/ˈpaʊə(r)/",
+      "pos": "n./v.",
+      "sense": "力量、权力（不可数）；动力 / 驱动",
+      "collocations": [
+        "positions of power",
+        "the power to do",
+        "in power"
+      ],
+      "examples": [
+        "Women struggle to reach positions of power. 女性难以进入权力高位。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "power（权力/力量）/ strength（体力）"
+      }
+    },
+    "mean": {
+      "phonetic": "/miːn/",
+      "pos": "v./adj.",
+      "sense": "意味着、意思是；打算 / 吝啬的、刻薄的",
+      "collocations": [
+        "mean that",
+        "mean to do",
+        "by no means"
+      ],
+      "examples": [
+        "This would mean the end of a career. 这就意味着职业生涯的终结。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "mean to do（打算做）/ mean doing（意味着）"
+      }
+    },
+    "need": {
+      "phonetic": "/niːd/",
+      "pos": "v./n.",
+      "sense": "需要（情态/实义动词）；需要、需求（名词）",
+      "collocations": [
+        "need to do",
+        "in need of",
+        "no need to"
+      ],
+      "examples": [
+        "Parents need to set boundaries. 家长需要划定界限。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "need to do（实义动词）/ need do（情态动词，多用于否定疑问）"
+      }
+    },
+    "encourage": {
+      "phonetic": "/ɪnˈkʌrɪdʒ/",
+      "pos": "v.",
+      "sense": "鼓励、促进（encourage sb to do）；助长",
+      "collocations": [
+        "encourage sb to do",
+        "encourage positive behaviour"
+      ],
+      "examples": [
+        "Social life encourages positive health behaviours. 社交生活促进积极健康行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "en-（使）+ courage（勇气）",
+        "confusables": "encourage sb to do（不是 doing）/ discourage（反义）"
+      }
+    },
+    "kids": {
+      "phonetic": "/kɪdz/",
+      "pos": "n.",
+      "sense": "孩子（kid 的复数，口语）",
+      "lemma": "kid",
+      "collocations": [
+        "kids and parents",
+        "school kids"
+      ],
+      "examples": [
+        "Kids adapt quickly to new tools. 孩子对新工具适应很快。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "kid（口语：孩子）/ child（正式：孩子）"
+      }
+    },
+    "early": {
+      "phonetic": "/ˈɜːli/",
+      "pos": "adj./adv.",
+      "sense": "早的、早期的 / 早地",
+      "collocations": [
+        "early on",
+        "in the early stages",
+        "early retirement"
+      ],
+      "examples": [
+        "Companies must support men early on. 公司必须在早期就支持男性。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "early（早）/ soon（不久）/ earlier（更早）"
+      }
+    },
+    "life": {
+      "phonetic": "/laɪf/",
+      "pos": "n.",
+      "sense": "生活；生命（复数 lives）",
+      "collocations": [
+        "everyday life",
+        "public life",
+        "quality of life"
+      ],
+      "examples": [
+        "A rich social life improves health. 丰富的社交生活能改善健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "life（单数）/ lives（复数，注意拼写）"
+      }
+    },
+    "significant": {
+      "phonetic": "/sɪɡˈnɪfɪkənt/",
+      "pos": "adj.",
+      "sense": "显著的、重要的；统计上显著的",
+      "collocations": [
+        "a significant problem",
+        "significant difference",
+        "statistically significant"
+      ],
+      "examples": [
+        "Loneliness is a significant problem. 孤独是个重要问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "signify（表示）+ -cant",
+        "confusables": "significant（显著的）/ significance（意义）"
+      }
+    },
+    "cannot": {
+      "phonetic": "/ˈkænɒt/",
+      "pos": "v.",
+      "sense": "不能（can 的否定形式，写成一个词）",
+      "collocations": [
+        "cannot do",
+        "cannot be",
+        "cannot help doing"
+      ],
+      "examples": [
+        "Companies cannot do all these things and then turn around. 公司不能做了这些又反过来改口。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "cannot（一个词，正式）/ can not（分写，多用于强调 not）/ can't（口语缩写）"
+      }
+    },
+    "things": {
+      "phonetic": "/θɪŋz/",
+      "pos": "n.",
+      "sense": "事情、东西（thing 的复数）",
+      "lemma": "thing",
+      "collocations": [
+        "all things considered",
+        "the thing is",
+        "things like that"
+      ],
+      "examples": [
+        "They have to do all these things first. 他们必须先做所有这些事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "things（事情/东西）/ stuff（东西，不可数，口语）"
+      }
+    },
+    "enhance": {
+      "phonetic": "/ɪnˈhɑːns/",
+      "pos": "v.",
+      "sense": "提升、增强（质量、能力）；促进",
+      "collocations": [
+        "enhance performance",
+        "enhance the quality of"
+      ],
+      "examples": [
+        "Companies enhance women's advancement. 公司促进女性的职业发展。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "enhance（提升质量/价值）/ increase（增加数量）/ improve（改善）"
+      }
+    },
+    "don't": {
+      "phonetic": "/dəʊnt/",
+      "pos": "缩略",
+      "sense": "do not 的缩写",
+      "collocations": [
+        "don't have to",
+        "don't worry",
+        "don't apply"
+      ],
+      "examples": [
+        "Kids don't lack patience. 孩子并不缺耐心。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "don't（do not）/ doesn't（does not）/ didn't（did not）"
+      }
+    },
+    "settlement": {
+      "phonetic": "/ˈsetlmənt/",
+      "pos": "n.",
+      "sense": "和解（法律）；定居点",
+      "collocations": [
+        "reach a settlement",
+        "a settlement with sb",
+        "out-of-court settlement"
+      ],
+      "examples": [
+        "They announced a $5m settlement. 他们宣布了 500 万美元和解。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "settlement（和解/定居点）/ settle（解决/定居）"
+      }
+    },
+    "male": {
+      "phonetic": "/meɪl/",
+      "pos": "adj./n.",
+      "sense": "男性的、雄性的 / 男性",
+      "collocations": [
+        "male employees",
+        "the male（男性一方）"
+      ],
+      "examples": [
+        "Male employees claimed they were denied leave. 男员工称他们被拒绝休假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "male（男性）/ man（男人）；反义 female"
+      }
+    },
+    "access": {
+      "phonetic": "/ˈækses/",
+      "pos": "n./v.",
+      "sense": "接触机会、使用权（不可数）/ 访问、获取",
+      "collocations": [
+        "access to sth",
+        "be denied access to",
+        "gain access"
+      ],
+      "examples": [
+        "They were denied access to paid leave. 他们被拒绝享有带薪假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "access（接触/访问）/ excess（过度）"
+      }
+    },
+    "company": {
+      "phonetic": "/ˈkʌmpəni/",
+      "pos": "n.",
+      "sense": "公司（可数）；陪伴（不可数）",
+      "collocations": [
+        "a tech company",
+        "in the company of",
+        "keep sb company"
+      ],
+      "examples": [
+        "The company changed its leave policy. 该公司修改了休假政策。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "company（公司/陪伴）/ companion（同伴）"
+      }
+    },
+    "department": {
+      "phonetic": "/dɪˈpɑːtmənt/",
+      "pos": "n.",
+      "sense": "部门、系（可数）",
+      "collocations": [
+        "HR department",
+        "the English department"
+      ],
+      "examples": [
+        "His HR department told him mothers came first. 他的人事部门告诉他母亲优先。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "department（部门）/ division（分部）/ section（科/部分）"
+      }
+    },
+    "considered": {
+      "phonetic": "/kənˈsɪdəd/",
+      "pos": "v.",
+      "sense": "consider 的过去式/过去分词（认为、考虑）",
+      "lemma": "consider",
+      "collocations": [
+        "be considered as",
+        "consider doing",
+        "considered to be"
+      ],
+      "examples": [
+        "Mothers were considered primary caregivers. 母亲被视为主要照护者。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "consider doing（考虑做）/ consider sb to be（认为某人是）"
+      }
+    },
+    "primary": {
+      "phonetic": "/ˈpraɪməri/",
+      "pos": "adj.",
+      "sense": "主要的；初级的；初等教育的",
+      "collocations": [
+        "primary caregivers",
+        "primary school",
+        "the primary reason"
+      ],
+      "examples": [
+        "Mothers were considered primary caregivers. 母亲被视为主要照护者。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "primary（首要的/初级的）/ prime（首要的/全盛期）/ secondary（次要的）"
+      }
+    },
+    "allowed": {
+      "phonetic": "/əˈlaʊd/",
+      "pos": "v.",
+      "sense": "allow 的过去式/过去分词（允许）",
+      "lemma": "allow",
+      "collocations": [
+        "be allowed to do",
+        "allow sb to do",
+        "allow for"
+      ],
+      "examples": [
+        "Mothers were allowed 16 weeks of leave. 母亲被允许休 16 周假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be allowed to do（被允许）/ be allowed doing（错误）/ allow for（考虑到）"
+      }
+    },
+    "associate": {
+      "phonetic": "/əˈsəʊʃieɪt/",
+      "pos": "n./v.",
+      "sense": "同事、副职（名词）；联系（动词，be associated with）",
+      "collocations": [
+        "be associated with",
+        "a business associate",
+        "associate A with B"
+      ],
+      "examples": [
+        "He works as an associate and investigator. 他担任副理兼调查员。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "associate（同事/联系）/ association（协会/关联）"
+      }
+    },
+    "effect": {
+      "phonetic": "/ɪˈfekt/",
+      "pos": "n.",
+      "sense": "效果、影响（名词）；作用",
+      "collocations": [
+        "have an effect on",
+        "side effect",
+        "in effect"
+      ],
+      "examples": [
+        "The settlement had a domino effect. 和解产生了连锁效应。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "effect（名词）/ affect（动词）/ take effect（生效）"
+      }
+    },
+    "changing": {
+      "phonetic": "/ˈtʃeɪndʒɪŋ/",
+      "pos": "v./adj.",
+      "sense": "change 的现在分词；不断变化的",
+      "lemma": "change",
+      "collocations": [
+        "changing attitudes",
+        "a changing world"
+      ],
+      "examples": [
+        "They spend hours changing Facebook settings. 他们花数小时修改 Facebook 设置。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "changing（正在变的）/ changed（已变的）"
+      }
+    },
+    "think": {
+      "phonetic": "/θɪŋk/",
+      "pos": "v.",
+      "sense": "想、认为；思考",
+      "collocations": [
+        "think about",
+        "think of",
+        "I think that"
+      ],
+      "examples": [
+        "Many think the risk is small. 很多人认为风险很小。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "think about（考虑）/ think of（想起）/ think over（仔细考虑）"
+      }
+    },
+    "there's": {
+      "phonetic": "/ðeəz/",
+      "pos": "缩略",
+      "sense": "there is 或 there has 的缩写",
+      "collocations": [
+        "there's still time",
+        "there's no doubt"
+      ],
+      "examples": [
+        "There's still some way to go. 还有一段路要走。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "there's（there is）/ theirs（他们的）"
+      }
+    },
+    "way": {
+      "phonetic": "/weɪ/",
+      "pos": "n.",
+      "sense": "方法、方式；路；程度（in a way）",
+      "collocations": [
+        "the best way to do sth",
+        "in some ways",
+        "by the way"
+      ],
+      "examples": [
+        "There is no simple way to fix it. 没有简单的办法解决它。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "way（方法）/ road（道路）/ method（方法，正式）"
+      }
+    },
+    "go": {
+      "phonetic": "/ɡəʊ/",
+      "pos": "v.",
+      "sense": "去、走；（go up/down）上升/下降；进行",
+      "collocations": [
+        "go up",
+        "go on",
+        "there is still some way to go"
+      ],
+      "examples": [
+        "Satisfaction went down for many women. 许多女性满意度下降。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "go up/down（上升/下降，口语）/ increase/decrease（正式）"
+      }
+    },
+    "going": {
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "pos": "v.",
+      "sense": "go 的现在分词；（be going to）将要",
+      "lemma": "go",
+      "collocations": [
+        "be going to",
+        "what's going on",
+        "keep going"
+      ],
+      "examples": [
+        "Attitudes are going to change. 态度将会改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be going to（计划/预测）/ will（临时决定或预测）"
+      }
+    },
+    "come": {
+      "phonetic": "/kʌm/",
+      "pos": "v.",
+      "sense": "来；出现；come from（来自）",
+      "collocations": [
+        "come from",
+        "come out",
+        "come true"
+      ],
+      "examples": [
+        "Fewer readers come from that background. 来自那种背景的读者更少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "come（来）/ go（去）"
+      }
+    },
+    "right": {
+      "phonetic": "/raɪt/",
+      "pos": "adj./adv./n.",
+      "sense": "正确的；右边的；恰恰（副词）/ 权利",
+      "collocations": [
+        "you're right",
+        "right now",
+        "the right to do"
+      ],
+      "examples": [
+        "They come right back to work. 他们马上回去上班。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "right（正确/右/权利）/ write（写）/ rite（仪式）"
+      }
+    },
+    "back": {
+      "phonetic": "/bæk/",
+      "pos": "adv./n./adj.",
+      "sense": "回、向后（副词）；背部；后面的 / 支持（动词）",
+      "collocations": [
+        "go back to",
+        "look back",
+        "back up"
+      ],
+      "examples": [
+        "Fewer kids come right back to reading. 更少孩子会马上回到阅读。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "back（回/背部）/ backward（向后的）"
+      }
+    },
+    "that's": {
+      "phonetic": "/ðæts/",
+      "pos": "缩略",
+      "sense": "that is 的缩写",
+      "collocations": [
+        "that's because",
+        "that's why",
+        "that's what"
+      ],
+      "examples": [
+        "That's what I think I'm supposed to say. 我以为自己「应该」这么说。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "that's why（所以）/ that's because（那是因为）"
+      }
+    },
+    "essential": {
+      "phonetic": "/ɪˈsenʃl/",
+      "pos": "adj./n.",
+      "sense": "必不可少的、本质的；要素（复数）",
+      "collocations": [
+        "be essential to",
+        "an essential part of",
+        "essentials"
+      ],
+      "examples": [
+        "Equal leave is an essential component. 平等休假是不可或缺的一环。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "essential to（对……必不可少）/ essential（本质的）/ necessary（必要的）"
+      }
+    },
+    "old": {
+      "phonetic": "/əʊld/",
+      "pos": "adj.",
+      "sense": "老的、旧的；……岁的",
+      "collocations": [
+        "how old",
+        "old habits",
+        "years old"
+      ],
+      "examples": [
+        "The old standard no longer applies. 旧标准不再适用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "old（老/旧）/ older（更老）/ elder（年长的，仅指人）"
+      }
+    },
+    "doesn't": {
+      "phonetic": "/ˈdʌznt/",
+      "pos": "缩略",
+      "sense": "does not 的缩写（第三人称单数否定）",
+      "collocations": [
+        "doesn't mean",
+        "doesn't apply"
+      ],
+      "examples": [
+        "That doesn't mean it's all good news. 这并不意味着全是好消息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "doesn't（does not）/ don't（do not，复数或第一二人称）"
+      }
+    },
+    "applied": {
+      "phonetic": "/əˈplaɪd/",
+      "pos": "v./adj.",
+      "sense": "apply 的过去式/过去分词（应用、申请）；应用的",
+      "lemma": "apply",
+      "collocations": [
+        "applied research",
+        "be applied to",
+        "apply for"
+      ],
+      "examples": [
+        "The method can be applied to teaching. 这个方法可应用于教学。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "apply to（适用于）/ apply for（申请）/ applied（应用的）"
+      }
+    },
+    "long": {
+      "phonetic": "/lɒŋ/",
+      "pos": "adj./adv.",
+      "sense": "长的、长期的 / 长久地",
+      "collocations": [
+        "long-term",
+        "as long as",
+        "no longer"
+      ],
+      "examples": [
+        "The impact is long-term. 影响是长期的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "long（长）/ lengthy（冗长的）/ as long as（只要）"
+      }
+    }
+  }
 }

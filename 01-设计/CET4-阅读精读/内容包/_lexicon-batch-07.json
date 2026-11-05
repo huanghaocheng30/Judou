@@ -1,0 +1,512 @@
+{
+  "forms": {
+    "phonetic": "/fɔːmz/", "pos": "n./v.", "sense": "形式、种类（form 的复数）；表格；形成（动词三单）",
+    "lemma": "form",
+    "collocations": ["new forms of", "in the form of", "fill in a form"],
+    "examples": ["Texting creates new communicative forms. 发短信创造新的沟通形式。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "forms（形式/表格）/ formation（形成）" }
+  },
+  "four": {
+    "phonetic": "/fɔː(r)/", "pos": "num.", "sense": "四（数词）",
+    "collocations": ["two to four weeks", "four times"],
+    "examples": ["They saw two to four weeks as appropriate. 他们认为两到四周比较合适。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "four（四）/ fourth（第四）/ for（为了）同音" }
+  },
+  "fraction": {
+    "phonetic": "/ˈfrækʃn/", "pos": "n.", "sense": "一小部分、分数（可数）",
+    "collocations": ["a tiny fraction of", "only a fraction"],
+    "examples": ["Only 2% of men did more childcare—a tiny fraction. 只有 2% 的男性承担更多育儿。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "fraction（部分/分数）/ fracture（断裂）/ faction（派系）" }
+  },
+  "further": {
+    "phonetic": "/ˈfɜːðə(r)/", "pos": "adj./adv./v.", "sense": "进一步的；更远地 / 促进（动词）",
+    "collocations": ["further research", "further than", "push further"],
+    "examples": ["They push themselves further. 他们逼自己更进一步。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "further（进一步/更远，抽象）/ farther（更远，物理距离）" }
+  },
+  "genders": {
+    "phonetic": "/ˈdʒendəz/", "pos": "n.", "sense": "性别（gender 的复数）",
+    "lemma": "gender",
+    "collocations": ["both genders", "genders differ"],
+    "examples": ["Both genders feared an impact on progress. 两性都担心影响发展。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "genders（性别，复数）/ gender（单数）" }
+  },
+  "general": {
+    "phonetic": "/ˈdʒenrəl/", "pos": "adj./n.", "sense": "总体的、普遍的；一般的 / 将军",
+    "collocations": ["in general", "general farm management", "the general public"],
+    "examples": ["General management can ease changes. 总体管理能缓解变化冲击。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "in general（总的来说）/ generally（通常）/ generic（通用的）" }
+  },
+  "genetic": {
+    "phonetic": "/dʒəˈnetɪk/", "pos": "adj.", "sense": "遗传的、基因的",
+    "collocations": ["genetic engineering", "genetic factors"],
+    "examples": ["Genetic engineering raises new questions. 基因工程带来新问题。"],
+    "isCet4HighFreq": true,
+    "more": { "roots": "gene（基因）+ -tic", "confusables": "genetic（遗传的）/ generic（通用的）" }
+  },
+  "getting": {
+    "phonetic": "/ˈɡetɪŋ/", "pos": "v.", "sense": "get 的现在分词（得到、变得）",
+    "lemma": "get",
+    "collocations": ["getting better sleep", "getting older"],
+    "examples": ["They start getting better sleep. 他们开始改善睡眠。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "getting（现在分词）/ got（过去式）/ gotten（美式过去分词）" }
+  },
+  "ginger": {
+    "phonetic": "/ˈdʒɪndʒə(r)/", "pos": "n.（专有名词）", "sense": "金杰（Donald \"Ginger\" McCain 的绰号）；姜（植物）",
+    "collocations": ["Ginger McCain", "ginger tea"],
+    "examples": ["Ginger McCain trained Red Rum. 金杰·麦凯恩训练了「红朗姆」。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "ginger（绰号/姜）/ ginseng（人参）" }
+  },
+  "give": {
+    "phonetic": "/ɡɪv/", "pos": "v.", "sense": "给、提供（give sb sth）；给予",
+    "collocations": ["give sb sth", "give up", "give rise to"],
+    "examples": ["Companies need to give men paternity leave. 公司需要给男性陪产假。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "give sb sth / give sth to sb（双宾语两种形式）/ give up（放弃）" }
+  },
+  "given": {
+    "phonetic": "/ˈɡɪvn/", "pos": "v./prep./adj.", "sense": "give 的过去分词；考虑到（介词）；既定的",
+    "lemma": "give",
+    "collocations": ["given that", "given the fact", "be given more freedom"],
+    "examples": ["Given that data is limited, instinct helps. 考虑到数据有限，直觉有帮助。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "given that（考虑到，连词）/ given（给定的，形容词）" }
+  },
+  "goals": {
+    "phonetic": "/ɡəʊlz/", "pos": "n.", "sense": "目标（goal 的复数）；进球",
+    "lemma": "goal",
+    "collocations": ["set goals", "achieve a goal", "score a goal"],
+    "examples": ["They share the same goals. 他们有共同的目标。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "goal（目标/进球）/ aim（目的）/ objective（目标，正式）" }
+  },
+  "got": {
+    "phonetic": "/ɡɒt/", "pos": "v.", "sense": "get 的过去式与过去分词（得到、变得）；have got（有）",
+    "lemma": "get",
+    "collocations": ["got promoted", "have got", "got to"],
+    "examples": ["As students got older, they wrote better. 学生越大写得越好。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "got（过去式/过去分词）/ gotten（美式过去分词）/ have got（英式：有）" }
+  },
+  "habits": {
+    "phonetic": "/ˈhæbɪts/", "pos": "n.", "sense": "习惯（habit 的复数）",
+    "lemma": "habit",
+    "collocations": ["good habits", "break a habit", "eating habits"],
+    "examples": ["Healthy habits start early. 健康习惯从小养成。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "habit（习惯）/ hobby（爱好）" }
+  },
+  "hand": {
+    "phonetic": "/hænd/", "pos": "n./v.", "sense": "手；帮助（give sb a hand）/ 递（动词）",
+    "collocations": ["on the other hand", "give a hand", "hand in"],
+    "examples": ["On the other hand, there is a rational approach. 另一方面，也有理性的方法。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "on the one hand ... on the other hand（一方面……另一方面）/ hand in（上交）" }
+  },
+  "hard": {
+    "phonetic": "/hɑːd/", "pos": "adj./adv.", "sense": "困难的；硬的；努力的（副词，同形）",
+    "collocations": ["work hard", "hard to say", "a hard time"],
+    "examples": ["It is hard to change attitudes. 改变态度很难。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "hard（努力/困难）/ hardly（几乎不）——含义相反" }
+  },
+  "healthy": {
+    "phonetic": "/ˈhelθi/", "pos": "adj.", "sense": "健康的；有益健康的",
+    "collocations": ["a healthy diet", "healthy habits", "stay healthy"],
+    "examples": ["They start a healthy diet. 他们开始健康饮食。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "healthy（健康的）/ healthful（有益健康的）/ health（健康，名词）" }
+  },
+  "heart": {
+    "phonetic": "/hɑːt/", "pos": "n.", "sense": "心脏；核心；内心",
+    "collocations": ["heart health", "by heart", "the heart of"],
+    "examples": ["Social life can boost heart health. 社交生活能促进心脏健康。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "heart（心/核心）/ hearth（壁炉地面）" }
+  },
+  "heavy": {
+    "phonetic": "/ˈhevi/", "pos": "adj.", "sense": "重的；大量的（heavy reader/smoker）；繁重的",
+    "collocations": ["heavy reader", "heavy rain", "heavy workload"],
+    "examples": ["Fewer kids are heavy readers. 痴迷读书的孩子少了。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "heavy（重的/大量的）/ heavily（严重地，副词）" }
+  },
+  "high": {
+    "phonetic": "/haɪ/", "pos": "adj./adv.", "sense": "高的；高度的 / 高高地",
+    "collocations": ["high school", "high rates", "highly（注意区分）"],
+    "examples": ["Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "high（具体高）/ highly（抽象程度高，如 highly likely）" }
+  },
+  "history": {
+    "phonetic": "/ˈhɪstri/", "pos": "n.", "sense": "历史（可数/不可数）；来历",
+    "collocations": ["in history", "the history of", "make history"],
+    "examples": ["Few horses captured the public like Red Rum in racing history. 赛马史上很少有马如此受喜爱。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "history（历史）/ historic（历史性的，重要的）/ historical（与历史有关的）" }
+  },
+  "horses": {
+    "phonetic": "/ˈhɔːsɪz/", "pos": "n.", "sense": "马（horse 的复数）",
+    "lemma": "horse",
+    "collocations": ["racehorses", "few horses"],
+    "examples": ["Few horses have been so loved. 很少有马如此受喜爱。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "horses（复数）/ horse（单数）" }
+  },
+  "hours": {
+    "phonetic": "/ˈaʊəz/", "pos": "n.", "sense": "小时（hour 的复数）；工作时间",
+    "lemma": "hour",
+    "collocations": ["spend hours doing", "working hours", "office hours"],
+    "examples": ["They spend hours changing settings. 他们花数小时修改设置。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "hours（小时）/ ours（我们的）同音" }
+  },
+  "hurt": {
+    "phonetic": "/hɜːt/", "pos": "v./adj.", "sense": "伤害、疼痛（原形=过去式=过去分词）；受伤的",
+    "collocations": ["hurt sb", "get hurt", "hurt feelings"],
+    "examples": ["Hurting someone from a distance is different. 从远处伤人是不一样的。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "hurt（不规则动词，三态同形）/ injure（受伤，正式）/ harm（损害）" }
+  },
+  "hurting": {
+    "phonetic": "/ˈhɜːtɪŋ/", "pos": "v.", "sense": "hurt 的现在分词（伤害）；伤害行为（动名词）",
+    "lemma": "hurt",
+    "collocations": ["hurting someone", "without hurting"],
+    "examples": ["Hurting someone at a distance is not the same. 隔着距离伤人不一样。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "hurting（现在分词/动名词）/ hurt（原形）" }
+  },
+  "i've": {
+    "phonetic": "/aɪv/", "pos": "缩略", "sense": "I have 的缩写",
+    "collocations": ["I've seen", "I've been"],
+    "examples": ["I've witnessed a domino effect. 我目睹了连锁反应。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "I've（I have）/ I'd（I would/had）/ I'm（I am）" }
+  },
+  "idea": {
+    "phonetic": "/aɪˈdɪə/", "pos": "n.", "sense": "想法、主意（可数）；概念",
+    "collocations": ["have an idea", "the idea that", "no idea"],
+    "examples": ["This idea is supported by prior research. 这一想法有先前研究支持。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "idea（想法）/ ideal（理想的）/ concept（概念）" }
+  },
+  "increasingly": {
+    "phonetic": "/ɪnˈkriːsɪŋli/", "pos": "adv.", "sense": "越来越、日益",
+    "collocations": ["increasingly common", "increasingly difficult"],
+    "examples": ["It has increasingly become a favorite approach. 它越来越成为受欢迎的方法。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "increasingly（越来越）/ more and more（同义，更口语）" }
+  },
+  "international": {
+    "phonetic": "/ˌɪntəˈnæʃnəl/", "pos": "adj.", "sense": "国际的",
+    "collocations": ["international law", "international students"],
+    "examples": ["International studies reach similar conclusions. 国际研究得出类似结论。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "international（国际的）/ national（国家的）/ multinational（跨国的）" }
+  },
+  "isn't": {
+    "phonetic": "/ˈɪznt/", "pos": "缩略", "sense": "is not 的缩写",
+    "collocations": ["isn't it", "isn't the same as"],
+    "examples": ["Texting probably isn't destroying their ability. 发短信大概没有毁掉他们的能力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "isn't（is not）/ aren't（are not）/ wasn't（was not）" }
+  },
+  "issue": {
+    "phonetic": "/ˈɪʃuː/", "pos": "n./v.", "sense": "问题、议题（可数）；期号 / 发布、发放",
+    "collocations": ["a serious issue", "the issue of", "issue a statement"],
+    "examples": ["Distraction is a serious issue. 分心是个严重问题。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "issue（议题/问题，中性）/ problem（难题）/ question（疑问）" }
+  },
+  "journal": {
+    "phonetic": "/ˈdʒɜːnl/", "pos": "n.", "sense": "期刊、学报（可数）；日志",
+    "collocations": ["published in the journal", "an academic journal"],
+    "examples": ["The study appeared in the journal PLOS ONE. 该研究发表在《PLOS ONE》期刊上。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "journal（期刊/日志）/ journey（旅程）/ journalism（新闻业）" }
+  },
+  "jpmorgan": {
+    "phonetic": "/ˌdʒeɪˈpiː ˈmɔːɡən/", "pos": "n.（专有名词）", "sense": "摩根大通（JPMorgan Chase，美国大型银行）",
+    "collocations": ["JPMorgan Chase", "a case against JPMorgan Chase"],
+    "examples": ["A settlement was reached with JPMorgan Chase. 与摩根大通达成了和解。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "JPMorgan Chase（银行全称），专有名词" }
+  },
+  "jump": {
+    "phonetic": "/dʒʌmp/", "pos": "v./n.", "sense": "跳；（价格）猛涨；跳过 / 跳跃、猛增",
+    "collocations": ["prices jump", "jump up", "a sharp jump"],
+    "examples": ["The higher the price will jump. 价格会涨得越高。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "jump（猛涨，口语）/ rise（上升，中性）/ soar（剧增）" }
+  },
+  "kelly": {
+    "phonetic": "/ˈkeli/", "pos": "n.（专有名词）", "sense": "凯利（本文提到的公司名 Kelly Services；也常作人名）",
+    "collocations": ["Kelly Services"],
+    "examples": ["Kelly Services published the survey. 凯利服务公司发布了这项调查。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "key": {
+    "phonetic": "/kiː/", "pos": "adj./n.", "sense": "关键的；钥匙、答案（to）",
+    "collocations": ["key to", "a key factor", "the key question"],
+    "examples": ["It is key to model good behavior. 以身作则很关键。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "key to（……的关键，to 为介词）/ key（钥匙）" }
+  },
+  "know": {
+    "phonetic": "/nəʊ/", "pos": "v.", "sense": "知道、了解（know that / know how to）",
+    "collocations": ["know that", "know how to", "be known for"],
+    "examples": ["They know how adults are expected to write. 他们知道大人该怎么写。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "know（知道）/ know how to do（会做）/ know of（听说过）" }
+  },
+  "knowledge": {
+    "phonetic": "/ˈnɒlɪdʒ/", "pos": "n.", "sense": "知识（不可数）；了解",
+    "collocations": ["knowledge of", "to my knowledge", "gain knowledge"],
+    "examples": ["Combine inner wisdom with the knowledge of data. 把内在判断与数据知识结合。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "knowledge（不可数，不加 -s）/ knowledge of（关于……的知识）" }
+  },
+  "large": {
+    "phonetic": "/lɑːdʒ/", "pos": "adj.", "sense": "大的（数量/规模）；大范围的",
+    "collocations": ["a large number of", "large amounts of", "at large"],
+    "examples": ["A large number of studies support this. 大量研究支持这一点。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "large（大，数量/规模）/ big（大，具体）/ at large（整体的/在逃的）" }
+  },
+  "leaders": {
+    "phonetic": "/ˈliːdəz/", "pos": "n.", "sense": "领导者（leader 的复数）",
+    "lemma": "leader",
+    "collocations": ["business leaders", "leaders of today"],
+    "examples": ["It is popular among leaders of today. 它在当今领导者中很受欢迎。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "leader（领导者）/ leadership（领导力）/ lead（带领）" }
+  },
+  "legal": {
+    "phonetic": "/ˈliːɡl/", "pos": "adj.", "sense": "法律的、合法的",
+    "collocations": ["legal cases", "legal system", "take legal action"],
+    "examples": ["Legal cases helped put pressure on companies. 法律诉讼帮助向公司施压。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "legal（法律的）/ lawful（合法的）/ illegal（非法的）" }
+  },
+  "lenhart": {
+    "phonetic": "/ˈlenhɑːt/", "pos": "n.（专有名词）", "sense": "伦哈特（Amanda Lenhart，皮尤研究中心研究者）",
+    "collocations": ["Lenhart says"],
+    "examples": ["Lenhart found that texters also socialise in person. 伦哈特发现爱发短信的人也线下社交。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "level": {
+    "phonetic": "/ˈlevl/", "pos": "n./adj.", "sense": "水平、层级（可数）；水平的（形容词）",
+    "collocations": ["at the level of", "high-level", "level off"],
+    "examples": ["Well-being levels rose with social support. 幸福感水平随社会支持上升。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "level（水平/层次）/ standard（标准）/ degree（程度）" }
+  },
+  "levels": {
+    "phonetic": "/ˈlevlz/", "pos": "n.", "sense": "水平（level 的复数）",
+    "lemma": "level",
+    "collocations": ["stress levels", "well-being levels"],
+    "examples": ["Stress levels fell. 压力水平下降了。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "levels（复数）/ level（单数）" }
+  },
+  "lifespan": {
+    "phonetic": "/ˈlaɪfspæn/", "pos": "n.", "sense": "寿命、使用期限（可数）",
+    "collocations": ["human lifespan", "the lifespan of"],
+    "examples": ["Social ties can affect lifespan. 社会联系会影响寿命。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "life（生命）+ span（跨度）", "confusables": "lifespan（寿命）/ life span（分写也可）" }
+  },
+  "linked": {
+    "phonetic": "/lɪŋkt/", "pos": "v.", "sense": "link 的过去式/过去分词；（be linked to）与……相关",
+    "lemma": "link",
+    "collocations": ["be linked to", "closely linked"],
+    "examples": ["Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "be linked to（相关）/ link A to B（连接）" }
+  },
+  "long-term": {
+    "phonetic": "/ˌlɒŋ ˈtɜːm/", "pos": "adj./adv.", "sense": "长期的；从长远看",
+    "collocations": ["long-term impact", "in the long term"],
+    "examples": ["Leave could have a long-term impact. 休假可能有长期影响。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "long-term（形容词/副词，带连字符）/ in the long term（短语，长期）" }
+  },
+  "lot": {
+    "phonetic": "/lɒt/", "pos": "n.", "sense": "大量（a lot of）；许多",
+    "collocations": ["a lot of", "lots of", "a lot"],
+    "examples": ["A lot of kids still read for pleasure. 很多孩子仍为乐趣读书。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "a lot of（可数/不可数都行）/ a lot（副词，很）/ a lot of 为口语" }
+  },
+  "maintain": {
+    "phonetic": "/meɪnˈteɪn/", "pos": "v.", "sense": "维持、保持；坚持认为（maintain that）",
+    "collocations": ["maintain that", "maintain contact", "maintain balance"],
+    "examples": ["Some maintain that multitasking is possible. 有人坚持认为多任务处理是可能的。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "maintain（维持/主张）/ maintenance（维护，名词）" }
+  },
+  "majority": {
+    "phonetic": "/məˈdʒɒrəti/", "pos": "n.", "sense": "多数、大多数（the majority of）",
+    "collocations": ["the majority of", "a majority of", "the vast majority"],
+    "examples": ["The majority of men admitted the female did most. 多数男性承认主要是女性在做。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "majority（多数）/ most（大多数，更通用）/ minority（少数）" }
+  },
+  "makes": {
+    "phonetic": "/meɪks/", "pos": "v.", "sense": "make 的第三人称单数（做、使）",
+    "lemma": "make",
+    "collocations": ["makes sense", "makes it possible", "makes them work"],
+    "examples": ["It makes them work harder. 这让他们更努力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "makes（三单）/ make（原形）/ make sb do（不带 to）" }
+  },
+  "meanwhile": {
+    "phonetic": "/ˈmiːnwaɪl/", "pos": "adv.", "sense": "与此同时、同时",
+    "collocations": ["meanwhile, ...", "in the meanwhile"],
+    "examples": ["Meanwhile, more women reported an increase in responsibilities. 同时，更多女性报告责任增加。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "meanwhile（同时，连接副词）/ while（当……时/然而）" }
+  },
+  "media": {
+    "phonetic": "/ˈmiːdiə/", "pos": "n.", "sense": "媒体（medium 的复数，常作不可数集合名词）",
+    "collocations": ["social media", "the media", "media coverage"],
+    "examples": ["Teenagers and social media. 青少年与社交媒体。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "media（媒体，复数）/ medium（媒介，单数）/ mass media（大众传媒）" }
+  },
+  "money": {
+    "phonetic": "/ˈmʌni/", "pos": "n.", "sense": "钱（不可数）",
+    "collocations": ["make money", "spend money on", "a sum of money"],
+    "examples": ["Companies care about money too. 公司也关心钱。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "money（不可数）/ monies（法律用语复数）/ currency（货币）" }
+  },
+  "multitasker": {
+    "phonetic": "/ˌmʌltiˈtɑːskə(r)/", "pos": "n.", "sense": "能同时处理多任务的人",
+    "collocations": ["a true multitasker", "be a multitasker"],
+    "examples": ["Can a person really be a multitasker? 一个人真的能一心多用吗？"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "multi-（多）+ task（任务）+ -er（人）", "confusables": "multitasker（人）/ multitasking（行为）/ multitask（动词）" }
+  },
+  "nearly": {
+    "phonetic": "/ˈnɪəli/", "pos": "adv.", "sense": "几乎、将近",
+    "collocations": ["nearly half", "nearly all", "not nearly"],
+    "examples": ["Nearly half of women admitted the female did most. 近半数女性承认主要是女性在做。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "nearly（几乎）/ almost（几乎，可修饰 more/less）/ near（靠近）" }
+  },
+  "non-stop": {
+    "phonetic": "/ˌnɒn ˈstɒp/", "pos": "adj./adv.", "sense": "不停歇的；不停地",
+    "collocations": ["non-stop abuse", "stare non-stop"],
+    "examples": ["It is not a cycle of non-stop abuse. 它并不是无休止的侵害循环。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "non-stop（带连字符）/ nonstop（美式连写）" }
+  },
+  "north": {
+    "phonetic": "/nɔːθ/", "pos": "n./adj./adv.", "sense": "北方；北方的；向北",
+    "collocations": ["in the north", "North America"],
+    "examples": ["Crop losses are worst in the north. 北部作物损失最重。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "north（北）/ northern（北方的，形容词）" }
+  },
+  "novel": {
+    "phonetic": "/ˈnɒvl/", "pos": "adj./n.", "sense": "新颖的、新奇的（形容词）；小说（名词）",
+    "collocations": ["novel situations", "a novel idea", "read a novel"],
+    "examples": ["Novel situations limit the practicality of data. 全新情境会限制数据的实用性。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "novel（新颖的/小说）/ novelty（新奇）/ new（新的）" }
+  },
+  "obvious": {
+    "phonetic": "/ˈɒbviəs/", "pos": "adj.", "sense": "明显的、显然的",
+    "collocations": ["it is obvious that", "for obvious reasons", "the obvious choice"],
+    "examples": ["The disadvantage, obviously, is that farmers suffer. 明显的劣势是农民受损。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "obvious（明显的）/ obviously（显然）/ apparent（表面上的）" }
+  },
+  "offers": {
+    "phonetic": "/ˈɒfəz/", "pos": "v./n.", "sense": "offer 的第三人称单数（提供）；提议（复数）",
+    "lemma": "offer",
+    "collocations": ["offers sb sth", "job offers"],
+    "examples": ["The online world offers kids opportunities. 网络世界给孩子提供机会。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "offers（三单/复数）/ offer（原形/单数）" }
+  },
+  "office": {
+    "phonetic": "/ˈɒfɪs/", "pos": "n.", "sense": "办公室；职务；办事处",
+    "collocations": ["at the office", "take office", "office hours"],
+    "examples": ["She works in a small office. 她在一间小办公室工作。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "office（办公室）/ officer（官员）/ official（官方的）" }
+  },
+  "ones": {
+    "phonetic": "/wʌnz/", "pos": "pron.", "sense": "那些（one 的复数，替代已提到的可数名词）",
+    "collocations": ["the ones who", "serious ones", "the ones that"],
+    "examples": ["They make mistakes—sometimes serious ones. 他们会犯错，有时还很严重。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "ones（替代复数名词）/ one's（某人的所有格）" }
+  },
+  "opportunity": {
+    "phonetic": "/ˌɒpəˈtjuːnəti/", "pos": "n.", "sense": "机会（可数）",
+    "collocations": ["an opportunity to do", "opportunity for", "take the opportunity"],
+    "examples": ["The online world offers remarkable opportunities. 网络世界提供难得机会。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "opportunity（良机，正面）/ chance（机会/可能性，中性）" }
+  },
+  "organisations": {
+    "phonetic": "/ˌɔːɡənaɪˈzeɪʃnz/", "pos": "n.", "sense": "组织、机构（organisation 的复数，英式拼写）",
+    "lemma": "organisation",
+    "collocations": ["large organisations", "non-profit organisations"],
+    "examples": ["The organisation finds it acceptable. 该机构认为这可以接受。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "organisation（英式）/ organization（美式）/ organise（组织）" }
+  },
+  "outperforming": {
+    "phonetic": "/ˌaʊtpəˈfɔːmɪŋ/", "pos": "v.", "sense": "outperform 的现在分词（表现优于）",
+    "lemma": "outperform",
+    "collocations": ["outperforming peers", "outperform expectations"],
+    "examples": ["Firms with equal leave are outperforming peers. 实行平等休假的公司表现优于同行。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "out-（超过）+ perform（表现）", "confusables": "outperform（优于）/ outperform 反义 underperform" }
+  },
+  "overcome": {
+    "phonetic": "/ˌəʊvəˈkʌm/", "pos": "v.", "sense": "克服、战胜（三态：overcome-overcame-overcome）",
+    "collocations": ["overcome obstacles", "overcome difficulties"],
+    "examples": ["It was just an obstacle to be overcome. 那只是一个必须克服的障碍。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "overcome（克服）/ be overcome with（被……压倒，情绪）" }
+  },
+  "papers": {
+    "phonetic": "/ˈpeɪpəz/", "pos": "n.", "sense": "论文、试卷、报纸（paper 的复数）",
+    "lemma": "paper",
+    "collocations": ["college papers", "research papers", "newspapers"],
+    "examples": ["Studies of first-year college papers suggest nostalgia. 对大学一年级论文的研究表明是怀旧。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "paper（论文/试卷/纸）/ paper 作「报纸」可数" }
+  },
+  "parts": {
+    "phonetic": "/pɑːts/", "pos": "n.", "sense": "部分（part 的复数）；零件",
+    "lemma": "part",
+    "collocations": ["parts of", "play a part in", "spare parts"],
+    "examples": ["It is not, for most teens, a cycle of abuse in most parts. 对多数青少年而言并非如此。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "part（部分）/ portion（一份）/ play a part in（起作用）" }
+  },
+  "passed": {
+    "phonetic": "/pɑːst/", "pos": "v.", "sense": "pass 的过去式/过去分词（通过、传递）",
+    "lemma": "pass",
+    "collocations": ["passed a law", "passed around", "pass on"],
+    "examples": ["California passed a law allowing minors to delete data. 加州通过法律允许未成年人删除数据。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "passed（pass 的过去式）/ past（过去的/经过）——同音异形" }
+  }
+}

@@ -3603,5 +3603,1209 @@
       ]
     }
   },
-  "lexicon": {}
+  "lexicon": {
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "set": {
+      "phonetic": "/set/",
+      "pos": "v./n./adj.",
+      "sense": "设置、放（动词）；一套（名词）；固定的（形容词）",
+      "collocations": [
+        "set boundaries",
+        "a set of",
+        "set up"
+      ],
+      "examples": [
+        "Parents need to set firm boundaries. 家长需要设定明确界限。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "set up（建立）/ set off（出发/引发）/ set out（着手）"
+      }
+    },
+    "improve": {
+      "phonetic": "/ɪmˈpruːv/",
+      "pos": "v.",
+      "sense": "改善、提高（及物与不及物皆可）",
+      "collocations": [
+        "improve health",
+        "improve mood",
+        "improve on sth"
+      ],
+      "examples": [
+        "Social life can improve mood. 社交生活能改善情绪。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "improve（改善本身）/ improve on（在……基础上做得更好）"
+      }
+    },
+    "health": {
+      "phonetic": "/helθ/",
+      "pos": "n.",
+      "sense": "健康；医疗、卫生",
+      "collocations": [
+        "mental health",
+        "public health",
+        "health care"
+      ],
+      "examples": [
+        "Social ties affect health. 社会联系影响健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "whole（完整）+ -th → 身心完整",
+        "confusables": "health（名词）/ healthy（形容词）"
+      }
+    },
+    "usually": {
+      "phonetic": "/ˈjuːʒuəli/",
+      "pos": "adv.",
+      "sense": "通常、一般",
+      "collocations": [
+        "usually do",
+        "more usually",
+        "as is usually the case"
+      ],
+      "examples": [
+        "They usually take a familiar path. 他们通常走熟悉的路。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "usually（通常）/ often（经常）/ normally（正常情况下）"
+      }
+    },
+    "take": {
+      "phonetic": "/teɪk/",
+      "pos": "v.",
+      "sense": "拿、取；花费（时间）；采取、休（假）",
+      "collocations": [
+        "take time off",
+        "take steps",
+        "take part in"
+      ],
+      "examples": [
+        "It takes courage to speak up. 站出来说话需要勇气。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "take（拿/花费）/ bring（带来）/ spend（花费，主语须是人）"
+      }
+    },
+    "starting": {
+      "phonetic": "/ˈstɑːtɪŋ/",
+      "pos": "v./adj.",
+      "sense": "start 的现在分词；起始的",
+      "lemma": "start",
+      "collocations": [
+        "starting a diet",
+        "starting point"
+      ],
+      "examples": [
+        "They take a familiar path: starting a healthy diet. 他们走老路：开始健康饮食。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "starting（现在分词）/ started（过去式）"
+      }
+    },
+    "healthy": {
+      "phonetic": "/ˈhelθi/",
+      "pos": "adj.",
+      "sense": "健康的；有益健康的",
+      "collocations": [
+        "a healthy diet",
+        "healthy habits",
+        "stay healthy"
+      ],
+      "examples": [
+        "They start a healthy diet. 他们开始健康饮食。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "healthy（健康的）/ healthful（有益健康的）/ health（健康，名词）"
+      }
+    },
+    "diet": {
+      "phonetic": "/ˈdaɪət/",
+      "pos": "n./v.",
+      "sense": "饮食（可数）；节食",
+      "collocations": [
+        "a healthy diet",
+        "go on a diet",
+        "diet and exercise"
+      ],
+      "examples": [
+        "They start a healthy diet. 他们开始健康饮食。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "diet（日常饮食/节食）/ food（食物）"
+      }
+    },
+    "getting": {
+      "phonetic": "/ˈɡetɪŋ/",
+      "pos": "v.",
+      "sense": "get 的现在分词（得到、变得）",
+      "lemma": "get",
+      "collocations": [
+        "getting better sleep",
+        "getting older"
+      ],
+      "examples": [
+        "They start getting better sleep. 他们开始改善睡眠。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "getting（现在分词）/ got（过去式）/ gotten（美式过去分词）"
+      }
+    },
+    "better": {
+      "phonetic": "/ˈbetə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更好的；更好地（good/well 的比较级）",
+      "collocations": [
+        "better than",
+        "a better understanding",
+        "get better"
+      ],
+      "examples": [
+        "Sleep is better than more coffee. 睡眠比多喝咖啡更管用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "better（更好）/ had better（最好，后接动词原形）"
+      }
+    },
+    "sleep": {
+      "phonetic": "/sliːp/",
+      "pos": "n./v.",
+      "sense": "睡眠（不可数）/ 睡觉",
+      "collocations": [
+        "better sleep",
+        "lack of sleep",
+        "go to sleep"
+      ],
+      "examples": [
+        "Gaming can cut into sleep. 游戏会挤占睡眠。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sleep（睡眠）/ asleep（睡着的，表语）/ sleepy（困倦的）"
+      }
+    },
+    "doing": {
+      "phonetic": "/ˈduːɪŋ/",
+      "pos": "v.",
+      "sense": "do 的现在分词；所做的事（名词）",
+      "lemma": "do",
+      "collocations": [
+        "by doing sth",
+        "what are you doing",
+        "doing the work"
+      ],
+      "examples": [
+        "Mothers are still doing all the work. 母亲们仍承担全部工作。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "doing（现在分词）/ done（过去分词）"
+      }
+    },
+    "regular": {
+      "phonetic": "/ˈreɡjələ(r)/",
+      "pos": "adj.",
+      "sense": "规律的、定期的；普通的",
+      "collocations": [
+        "regular exercise",
+        "regular readers",
+        "on a regular basis"
+      ],
+      "examples": [
+        "They do regular exercise. 他们规律锻炼。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "regular（规律的）/ regularly（定期地）/ irregular（不规律的）"
+      }
+    },
+    "exercise": {
+      "phonetic": "/ˈeksəsaɪz/",
+      "pos": "n./v.",
+      "sense": "锻炼（不可数）；练习、习题（可数）/ 锻炼",
+      "collocations": [
+        "do exercise",
+        "regular exercise",
+        "an exercise in sth"
+      ],
+      "examples": [
+        "Regular exercise improves sleep. 规律锻炼能改善睡眠。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "exercise（锻炼，不可数）/ exercises（练习题，可数）"
+      }
+    },
+    "behaviors": {
+      "phonetic": "/bɪˈheɪvjəz/",
+      "pos": "n.",
+      "sense": "行为（behavior 的复数，美式拼写）",
+      "lemma": "behavior",
+      "collocations": [
+        "health behaviors",
+        "negative behaviors"
+      ],
+      "examples": [
+        "Social life shapes health behaviors. 社交生活塑造健康行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "behave（举止）+ -ior",
+        "confusables": "behaviour（英式）/ behavior（美式）"
+      }
+    },
+    "important": {
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "pos": "adj.",
+      "sense": "重要的",
+      "collocations": [
+        "it is important to do",
+        "an important part of",
+        "important for"
+      ],
+      "examples": [
+        "Social health is just as important. 社交健康同样重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "important（重要的）/ importance（名词）/ importantly（副词，多用于句首）"
+      }
+    },
+    "physical": {
+      "phonetic": "/ˈfɪzɪkl/",
+      "pos": "adj.",
+      "sense": "身体的；物理的；实物的",
+      "collocations": [
+        "physical health",
+        "physical activity",
+        "physical presence"
+      ],
+      "examples": [
+        "Mental and physical health are linked. 心理与身体健康相互关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "physica（自然）+ -al",
+        "confusables": "physical（身体的/物理的）/ mental（心理的）"
+      }
+    },
+    "research": {
+      "phonetic": "/rɪˈsɜːtʃ/",
+      "pos": "n./v.",
+      "sense": "研究（不可数）；调查 / 研究",
+      "collocations": [
+        "a body of research",
+        "research on sth",
+        "research shows"
+      ],
+      "examples": [
+        "A growing body of research supports this. 越来越多的研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "research（不可数）/ study（可数，一项研究）/ researches（罕用）"
+      }
+    },
+    "suggests": {
+      "phonetic": "/səˈdʒests/",
+      "pos": "v.",
+      "sense": "suggest 的第三人称单数（表明、建议）",
+      "lemma": "suggest",
+      "collocations": [
+        "the evidence suggests",
+        "suggest doing",
+        "suggest that"
+      ],
+      "examples": [
+        "The evidence suggests not. 证据表明并非如此。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "suggest doing（不是 suggest to do）/ suggest that（从句多用陈述或虚拟）"
+      }
+    },
+    "social": {
+      "phonetic": "/ˈsəʊʃl/",
+      "pos": "adj.",
+      "sense": "社会的；社交的",
+      "collocations": [
+        "social media",
+        "social networking",
+        "social skills"
+      ],
+      "examples": [
+        "Social contact matters for health. 社交接触对健康很重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "socius（同伴）+ -al",
+        "confusables": "social（社会的）/ sociable（好交际的）"
+      }
+    },
+    "well-being": {
+      "phonetic": "/ˌwel ˈbiːɪŋ/",
+      "pos": "n.",
+      "sense": "幸福、健康（不可数）",
+      "collocations": [
+        "overall well-being",
+        "sense of well-being",
+        "mental well-being"
+      ],
+      "examples": [
+        "Social health is important to overall well-being. 社交健康对整体幸福很重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "well（好）+ being（存在）",
+        "confusables": "well-being（带连字符，英式）/ wellbeing（连写）/ well being（分写较少见）"
+      }
+    },
+    "recent": {
+      "phonetic": "/ˈriːsnt/",
+      "pos": "adj.",
+      "sense": "最近的、近来的",
+      "collocations": [
+        "recent study",
+        "in recent years",
+        "a recent report"
+      ],
+      "examples": [
+        "One recent study found a surprising result. 最近一项研究发现了意外的结果。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "recent（最近的）/ recently（副词）/ resent（怨恨）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "published": {
+      "phonetic": "/ˈpʌblɪʃt/",
+      "pos": "v.",
+      "sense": "publish 的过去式/过去分词（发表、出版）",
+      "lemma": "publish",
+      "collocations": [
+        "published in the journal",
+        "be published",
+        "publish a study"
+      ],
+      "examples": [
+        "One recent study published in PLOS ONE found... 最近发表在《PLOS ONE》上的一项研究……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "published（发表）/ publication（发表，名词）/ publish"
+      }
+    },
+    "journal": {
+      "phonetic": "/ˈdʒɜːnl/",
+      "pos": "n.",
+      "sense": "期刊、学报（可数）；日志",
+      "collocations": [
+        "published in the journal",
+        "an academic journal"
+      ],
+      "examples": [
+        "The study appeared in the journal PLOS ONE. 该研究发表在《PLOS ONE》期刊上。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "journal（期刊/日志）/ journey（旅程）/ journalism（新闻业）"
+      }
+    },
+    "example": {
+      "phonetic": "/ɪɡˈzɑːmpl/",
+      "pos": "n.",
+      "sense": "例子、实例；榜样",
+      "collocations": [
+        "for example",
+        "an example of",
+        "set an example"
+      ],
+      "examples": [
+        "For example, texting and reading coexist. 例如，发短信和读书并存。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "for example（插入语，缩写 e.g.）/ such as（后接名词）"
+      }
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "stress": {
+      "phonetic": "/stres/",
+      "pos": "n./v.",
+      "sense": "压力（可数/不可数）；重音 / 强调、使紧张",
+      "collocations": [
+        "stress levels",
+        "under stress",
+        "stress the importance"
+      ],
+      "examples": [
+        "Social life can lower stress levels. 社交生活能降低压力水平。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "stress（压力）/ strain（拉紧/劳损）/ pressure（外部压力）"
+      }
+    },
+    "levels": {
+      "phonetic": "/ˈlevlz/",
+      "pos": "n.",
+      "sense": "水平（level 的复数）",
+      "lemma": "level",
+      "collocations": [
+        "stress levels",
+        "well-being levels"
+      ],
+      "examples": [
+        "Stress levels fell. 压力水平下降了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "levels（复数）/ level（单数）"
+      }
+    },
+    "data": {
+      "phonetic": "/ˈdeɪtə/",
+      "pos": "n.",
+      "sense": "数据（datum 的复数，现代英语也常作不可数，谓语单复皆可但须一致）",
+      "collocations": [
+        "data on sth",
+        "collect data",
+        "data analysis"
+      ],
+      "examples": [
+        "The data show a clear trend. 数据显示出明确的趋势。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "datum（给定之物）",
+        "confusables": "data（数据）/ date（日期）"
+      }
+    },
+    "activity": {
+      "phonetic": "/ækˈtɪvəti/",
+      "pos": "n.",
+      "sense": "活动（可数）；活跃（不可数）",
+      "collocations": [
+        "physical activity",
+        "digital activity",
+        "a range of activities"
+      ],
+      "examples": [
+        "Physical activity improves mood. 身体活动能改善情绪。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "act（行动）+ -ivity",
+        "confusables": "activity（活动）/ action（行动）/ act（行为）"
+      }
+    },
+    "heart": {
+      "phonetic": "/hɑːt/",
+      "pos": "n.",
+      "sense": "心脏；核心；内心",
+      "collocations": [
+        "heart health",
+        "by heart",
+        "the heart of"
+      ],
+      "examples": [
+        "Social life can boost heart health. 社交生活能促进心脏健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "heart（心/核心）/ hearth（壁炉地面）"
+      }
+    },
+    "finding": {
+      "phonetic": "/ˈfaɪndɪŋ/",
+      "pos": "n./v.",
+      "sense": "研究发现、结论（可数）；find 的现在分词",
+      "lemma": "find",
+      "collocations": [
+        "the findings suggest",
+        "research findings"
+      ],
+      "examples": [
+        "That finding suggests the quantified self is limited. 这一发现表明量化自我是有限的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "finding（研究发现）/ findings（多项结论）/ find（发现）"
+      }
+    },
+    "self": {
+      "phonetic": "/self/",
+      "pos": "n.",
+      "sense": "自我（复数 selves）；自己",
+      "collocations": [
+        "the quantified self",
+        "self-esteem",
+        "sense of self"
+      ],
+      "examples": [
+        "The quantified self doesn't tell the whole story. 「量化自我」讲不出全部实情。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "self（自我，名词）/ selves（复数）/ self- 前缀表「自我」"
+      }
+    },
+    "amounts": {
+      "phonetic": "/əˈmaʊnts/",
+      "pos": "n./v.",
+      "sense": "数量（amount 的复数）；amount to（合计为）",
+      "lemma": "amount",
+      "collocations": [
+        "amounts of",
+        "endless amounts of"
+      ],
+      "examples": [
+        "Endless amounts of health data don't tell the whole story. 无穷的健康数据讲不出全部实情。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "amounts of（接不可数）/ numbers of（接可数）"
+      }
+    },
+    "doesn't": {
+      "phonetic": "/ˈdʌznt/",
+      "pos": "缩略",
+      "sense": "does not 的缩写（第三人称单数否定）",
+      "collocations": [
+        "doesn't mean",
+        "doesn't apply"
+      ],
+      "examples": [
+        "That doesn't mean it's all good news. 这并不意味着全是好消息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "doesn't（does not）/ don't（do not，复数或第一二人称）"
+      }
+    },
+    "tell": {
+      "phonetic": "/tel/",
+      "pos": "v.",
+      "sense": "告诉（tell sb sth）；判断（tell the difference）",
+      "collocations": [
+        "tell sb sth",
+        "tell the difference",
+        "tell the truth"
+      ],
+      "examples": [
+        "Data doesn't tell the whole story. 数据讲不出全部实情。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tell sb sth（双宾语，必须有对象）/ say sth（后接内容）/ speak（说语言）"
+      }
+    },
+    "there's": {
+      "phonetic": "/ðeəz/",
+      "pos": "缩略",
+      "sense": "there is 或 there has 的缩写",
+      "collocations": [
+        "there's still time",
+        "there's no doubt"
+      ],
+      "examples": [
+        "There's still some way to go. 还有一段路要走。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "there's（there is）/ theirs（他们的）"
+      }
+    },
+    "qualified": {
+      "phonetic": "/ˈkwɒlɪfaɪd/",
+      "pos": "adj./v.",
+      "sense": "合格的、有资格的；qualify 的过去式/过去分词",
+      "lemma": "qualify",
+      "collocations": [
+        "a qualified teacher",
+        "be qualified for",
+        "qualified self（有资格的自我）"
+      ],
+      "examples": [
+        "There's also a qualified self. 还有一个「有资格的自我」。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "qualified（合格的）/ qualification（资格）/ qualify（取得资格）"
+      }
+    },
+    "activities": {
+      "phonetic": "/ækˈtɪvətiz/",
+      "pos": "n.",
+      "sense": "活动（activity 的复数）",
+      "lemma": "activity",
+      "collocations": [
+        "daily activities",
+        "extracurricular activities"
+      ],
+      "examples": [
+        "What are my activities and my social network? 我有哪些活动、我的社交圈是什么？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "activities（复数）/ activity（单数）"
+      }
+    },
+    "idea": {
+      "phonetic": "/aɪˈdɪə/",
+      "pos": "n.",
+      "sense": "想法、主意（可数）；概念",
+      "collocations": [
+        "have an idea",
+        "the idea that",
+        "no idea"
+      ],
+      "examples": [
+        "This idea is supported by prior research. 这一想法有先前研究支持。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "idea（想法）/ ideal（理想的）/ concept（概念）"
+      }
+    },
+    "supported": {
+      "phonetic": "/səˈpɔːtɪd/",
+      "pos": "v.",
+      "sense": "support 的过去式/过去分词（支持）；有支撑的",
+      "lemma": "support",
+      "collocations": [
+        "be supported by",
+        "supported by evidence",
+        "well supported"
+      ],
+      "examples": [
+        "Arguments supported by evidence are stronger. 有证据支撑的论点更有力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "supported by（由……支持）/ supportive（支持的，形容词）"
+      }
+    },
+    "plenty": {
+      "phonetic": "/ˈplenti/",
+      "pos": "n./adv.",
+      "sense": "大量、充足（plenty of）；很、非常（口语）",
+      "collocations": [
+        "plenty of",
+        "plenty to do"
+      ],
+      "examples": [
+        "There's plenty of drama online. 网上有大量戏码。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "plenty of（接不可数或复数）/ a lot of（同义）"
+      }
+    },
+    "studies": {
+      "phonetic": "/ˈstʌdiz/",
+      "pos": "n./v.",
+      "sense": "研究（study 的复数）；study 的第三人称单数",
+      "lemma": "study",
+      "collocations": [
+        "studies show that",
+        "recent studies"
+      ],
+      "examples": [
+        "Studies suggest a strong link. 研究表明存在强关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "studies（复数/三单）/ study（单数）"
+      }
+    },
+    "support": {
+      "phonetic": "/səˈpɔːt/",
+      "pos": "v./n.",
+      "sense": "支持（support sb / support doing）；支撑；支持（不可数）",
+      "collocations": [
+        "social support",
+        "support sb in doing",
+        "in support of"
+      ],
+      "examples": [
+        "Social support is associated with better health. 社会支持与更好的健康相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "support（支持，不可数作名词）/ support sb to do（也可 support sb in doing）"
+      }
+    },
+    "whether": {
+      "phonetic": "/ˈweðə(r)/",
+      "pos": "conj.",
+      "sense": "是否；无论（whether ... or ...）",
+      "collocations": [
+        "whether or not",
+        "whether to do",
+        "whether it comes from"
+      ],
+      "examples": [
+        "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）"
+      }
+    },
+    "comes": {
+      "phonetic": "/kʌmz/",
+      "pos": "v.",
+      "sense": "come 的第三人称单数（来）",
+      "lemma": "come",
+      "collocations": [
+        "comes from",
+        "comes with",
+        "as it comes"
+      ],
+      "examples": [
+        "With success comes new pressure. 成功带来新的压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "comes（三单）/ come（原形）"
+      }
+    },
+    "friends": {
+      "phonetic": "/frendz/",
+      "pos": "n.",
+      "sense": "朋友（friend 的复数）",
+      "lemma": "friend",
+      "collocations": [
+        "spend time with friends",
+        "close friends",
+        "make friends"
+      ],
+      "examples": [
+        "They chat with friends online. 他们在网上和朋友聊天。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make friends with（与……交朋友，friends 用复数）"
+      }
+    },
+    "family": {
+      "phonetic": "/ˈfæməli/",
+      "pos": "n.",
+      "sense": "家庭、家人（集合名词，谓语可单可复）",
+      "collocations": [
+        "family members",
+        "family life",
+        "start a family"
+      ],
+      "examples": [
+        "Social support comes from family too. 社会支持也来自家庭。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "family（家庭，整体可单）/ families（多个家庭）"
+      }
+    },
+    "associated": {
+      "phonetic": "/əˈsəʊʃieɪtɪd/",
+      "pos": "v./adj.",
+      "sense": "associate 的过去分词；（be associated with）与……相关联",
+      "lemma": "associate",
+      "collocations": [
+        "be associated with",
+        "problems associated with"
+      ],
+      "examples": [
+        "Data has long been associated with informed decisions. 数据长期与知情决策相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be associated with（相关）/ be caused by（因果）"
+      }
+    },
+    "mental": {
+      "phonetic": "/ˈmentl/",
+      "pos": "adj.",
+      "sense": "心理的、精神的；脑力的",
+      "collocations": [
+        "mental health",
+        "mental illness",
+        "mental effort"
+      ],
+      "examples": [
+        "Social support improves mental health. 社会支持改善心理健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "mental（心理的）/ physical（身体的）"
+      }
+    },
+    "life": {
+      "phonetic": "/laɪf/",
+      "pos": "n.",
+      "sense": "生活；生命（复数 lives）",
+      "collocations": [
+        "everyday life",
+        "public life",
+        "quality of life"
+      ],
+      "examples": [
+        "A rich social life improves health. 丰富的社交生活能改善健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "life（单数）/ lives（复数，注意拼写）"
+      }
+    },
+    "suggest": {
+      "phonetic": "/səˈdʒest/",
+      "pos": "v.",
+      "sense": "表明（数据/研究表明）；建议（suggest doing）",
+      "collocations": [
+        "suggest that",
+        "suggest doing",
+        "the evidence suggests"
+      ],
+      "examples": [
+        "Studies suggest these anxieties are misplaced. 研究表明这些焦虑是没有根据的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "suggest doing（不是 to do）/ suggest that（从句可用虚拟）/ 表「表明」时不用虚拟"
+      }
+    },
+    "lower": {
+      "phonetic": "/ˈləʊə(r)/",
+      "pos": "v./adj.",
+      "sense": "降低（动词）；更低的（low 的比较级）",
+      "collocations": [
+        "lower stress",
+        "lower than",
+        "lower the risk"
+      ],
+      "examples": [
+        "Social life can lower stress levels. 社交生活能降低压力水平。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lower（降低/更低）/ low（低的）/ lose（失去）"
+      }
+    },
+    "encourage": {
+      "phonetic": "/ɪnˈkʌrɪdʒ/",
+      "pos": "v.",
+      "sense": "鼓励、促进（encourage sb to do）；助长",
+      "collocations": [
+        "encourage sb to do",
+        "encourage positive behaviour"
+      ],
+      "examples": [
+        "Social life encourages positive health behaviours. 社交生活促进积极健康行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "en-（使）+ courage（勇气）",
+        "confusables": "encourage sb to do（不是 doing）/ discourage（反义）"
+      }
+    },
+    "positive": {
+      "phonetic": "/ˈpɒzətɪv/",
+      "pos": "adj.",
+      "sense": "积极的、正面的；确定的；阳性的",
+      "collocations": [
+        "positive behaviors",
+        "positive impact",
+        "test positive"
+      ],
+      "examples": [
+        "The facts are much more positive. 事实要正面得多。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "positive（积极的）/ negative（消极的）"
+      }
+    },
+    "damaging": {
+      "phonetic": "/ˈdæmɪdʒɪŋ/",
+      "pos": "adj./v.",
+      "sense": "有害的、破坏性的（形容词）；damage 的现在分词",
+      "lemma": "damage",
+      "collocations": [
+        "damaging behaviors",
+        "damaging effects"
+      ],
+      "examples": [
+        "Social life discourages damaging behaviours. 社交生活抑制有害行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "damaging（有害的）/ damaged（受损的）"
+      }
+    },
+    "ones": {
+      "phonetic": "/wʌnz/",
+      "pos": "pron.",
+      "sense": "那些（one 的复数，替代已提到的可数名词）",
+      "collocations": [
+        "the ones who",
+        "serious ones",
+        "the ones that"
+      ],
+      "examples": [
+        "They make mistakes—sometimes serious ones. 他们会犯错，有时还很严重。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "ones（替代复数名词）/ one's（某人的所有格）"
+      }
+    },
+    "rates": {
+      "phonetic": "/reɪts/",
+      "pos": "n.",
+      "sense": "比率、费率（rate 的复数）",
+      "lemma": "rate",
+      "collocations": [
+        "error rates",
+        "recovery rates",
+        "at a rate of"
+      ],
+      "examples": [
+        "Higher rates of disease were reported. 报告了更高的患病率。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "rate（比率）/ ratio（比例关系）/ rating（评级）"
+      }
+    },
+    "meanwhile": {
+      "phonetic": "/ˈmiːnwaɪl/",
+      "pos": "adv.",
+      "sense": "与此同时、同时",
+      "collocations": [
+        "meanwhile, ...",
+        "in the meanwhile"
+      ],
+      "examples": [
+        "Meanwhile, more women reported an increase in responsibilities. 同时，更多女性报告责任增加。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "meanwhile（同时，连接副词）/ while（当……时/然而）"
+      }
+    },
+    "linked": {
+      "phonetic": "/lɪŋkt/",
+      "pos": "v.",
+      "sense": "link 的过去式/过去分词；（be linked to）与……相关",
+      "lemma": "link",
+      "collocations": [
+        "be linked to",
+        "closely linked"
+      ],
+      "examples": [
+        "Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be linked to（相关）/ link A to B（连接）"
+      }
+    },
+    "higher": {
+      "phonetic": "/ˈhaɪə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更高的（high 的比较级）；更高地",
+      "lemma": "high",
+      "collocations": [
+        "higher rates",
+        "higher than",
+        "higher education"
+      ],
+      "examples": [
+        "Isolation is linked to higher rates of disease. 孤立与更高的发病率相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "higher（更高）/ hire（雇用）同音"
+      }
+    },
+    "conditions": {
+      "phonetic": "/kənˈdɪʃnz/",
+      "pos": "n.",
+      "sense": "条件；状况、病症（condition 的复数）",
+      "lemma": "condition",
+      "collocations": [
+        "mental health conditions",
+        "living conditions",
+        "under certain conditions"
+      ],
+      "examples": [
+        "Isolation is linked to mental health conditions. 孤立与心理健康问题相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "condition（状况/病症）/ situation（情形）/ state（状态）"
+      }
+    },
+    "it's": {
+      "phonetic": "/ɪts/",
+      "pos": "缩略",
+      "sense": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+      "collocations": [
+        "it's important that",
+        "it's likely to"
+      ],
+      "examples": [
+        "It's hard to say. 很难说。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
+      }
+    },
+    "significant": {
+      "phonetic": "/sɪɡˈnɪfɪkənt/",
+      "pos": "adj.",
+      "sense": "显著的、重要的；统计上显著的",
+      "collocations": [
+        "a significant problem",
+        "significant difference",
+        "statistically significant"
+      ],
+      "examples": [
+        "Loneliness is a significant problem. 孤独是个重要问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "signify（表示）+ -cant",
+        "confusables": "significant（显著的）/ significance（意义）"
+      }
+    },
+    "problem": {
+      "phonetic": "/ˈprɒbləm/",
+      "pos": "n.",
+      "sense": "问题、难题（可数）",
+      "collocations": [
+        "a serious problem",
+        "solve a problem",
+        "no problem"
+      ],
+      "examples": [
+        "Loneliness is a significant problem. 孤独是个重要问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "problem（问题，需解决）/ question（疑问，需回答）"
+      }
+    },
+    "since": {
+      "phonetic": "/sɪns/",
+      "pos": "conj./prep./adv.",
+      "sense": "自从（时间）；因为（原因）",
+      "collocations": [
+        "since then",
+        "ever since",
+        "especially since"
+      ],
+      "examples": [
+        "Since then, many cases have been filed. 自那以后，许多案件被提起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "since（自从/因为）/ for（持续一段时间）/ from（起点）"
+      }
+    },
+    "public": {
+      "phonetic": "/ˈpʌblɪk/",
+      "pos": "adj./n.",
+      "sense": "公共的、公众的 / 公众（the public）",
+      "collocations": [
+        "public health",
+        "the British public",
+        "in public"
+      ],
+      "examples": [
+        "Loneliness is a public health problem. 孤独是公共卫生问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "public（公共的）/ pubic（阴部的，拼写易错）"
+      }
+    },
+    "countries": {
+      "phonetic": "/ˈkʌntriz/",
+      "pos": "n.",
+      "sense": "国家（country 的复数）",
+      "lemma": "country",
+      "collocations": [
+        "in many countries",
+        "developing countries"
+      ],
+      "examples": [
+        "Loneliness is rising in many countries. 孤独在许多国家加剧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "countries（国家）/ countryside（乡村）"
+      }
+    }
+  }
 }

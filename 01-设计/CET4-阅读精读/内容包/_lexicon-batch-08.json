@@ -1,0 +1,513 @@
+{
+  "patience": {
+    "phonetic": "/ˈpeɪʃns/", "pos": "n.", "sense": "耐心（不可数）",
+    "collocations": ["have patience for", "lose patience", "with patience"],
+    "examples": ["They lack patience for long reading. 他们对长篇阅读缺乏耐心。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "patience（耐心，名词）/ patient（病人/耐心的）" }
+  },
+  "perceived": {
+    "phonetic": "/pəˈsiːvd/", "pos": "v./adj.", "sense": "perceive 的过去式/过去分词；感知到的",
+    "lemma": "perceive",
+    "collocations": ["perceived career potential", "perceived risk"],
+    "examples": ["More women reported changes in their perceived career potential. 更多女性报告其自感职业潜力的变化。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "perceived（自感的/被感知的）/ perception（看法，名词）" }
+  },
+  "person": {
+    "phonetic": "/ˈpɜːsn/", "pos": "n.", "sense": "人（可数，复数 people/persons）",
+    "collocations": ["a person who", "in person", "per person"],
+    "examples": ["Can a person really be a multitasker? 一个人真的能一心多用吗？"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "person（单数）/ people（复数）/ persons（法律用语复数）" }
+  },
+  "personal": {
+    "phonetic": "/ˈpɜːsənl/", "pos": "adj.", "sense": "个人的、私人的",
+    "collocations": ["personal feelings", "personal data", "in person"],
+    "examples": ["They base decisions on personal feelings. 他们凭个人感受做决定。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "personal（个人的）/ personnel（全体员工）/ person（人）" }
+  },
+  "perspective": {
+    "phonetic": "/pəˈspektɪv/", "pos": "n.", "sense": "视角、观点（可数）；透视法",
+    "collocations": ["from a perspective", "put sth into perspective", "a new perspective"],
+    "examples": ["Adults' perspective shapes the panic. 成年人的视角塑造了这种恐慌。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "perspective（视角）/ prospect（前景）/ perception（看法）" }
+  },
+  "pew": {
+    "phonetic": "/pjuː/", "pos": "n.（专有名词）", "sense": "皮尤（Pew Research Center，美国研究机构）；教堂长椅",
+    "collocations": ["Pew Research Center", "a Pew study"],
+    "examples": ["A Pew study found only 15% were bullied. 皮尤研究显示只有 15% 被欺凌。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "Pew（机构名，专有）/ pew（长椅）" }
+  },
+  "places": {
+    "phonetic": "/ˈpleɪsɪz/", "pos": "n./v.", "sense": "地方（place 的复数）；放置（动词三单）",
+    "lemma": "place",
+    "collocations": ["in many places", "take place", "in place"],
+    "examples": ["Many places could benefit from existing technology. 许多地方能受益于现有技术。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "take place（发生）/ take the place of（取代）/ in place（到位）" }
+  },
+  "policies": {
+    "phonetic": "/ˈpɒləsiz/", "pos": "n.", "sense": "政策（policy 的复数）",
+    "lemma": "policy",
+    "collocations": ["leave policies", "public policy", "policy makers"],
+    "examples": ["Leave policies made workplace culture better. 休假政策改善了职场文化。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "policy（政策）/ politics（政治）/ police（警察）" }
+  },
+  "poorer": {
+    "phonetic": "/ˈpʊərə(r)/", "pos": "adj.", "sense": "更穷的、更差的（poor 的比较级）",
+    "lemma": "poor",
+    "collocations": ["poorer families", "poorer than"],
+    "examples": ["Poorer countries are hit harder. 更贫穷的国家受冲击更大。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "poorer（更差）/ poorest（最差）/ poor（差的，也可指「可怜的」）" }
+  },
+  "potential": {
+    "phonetic": "/pəˈtenʃl/", "pos": "adj./n.", "sense": "潜在的（形容词）；潜力（不可数）",
+    "collocations": ["career potential", "potential customers", "reach one's potential"],
+    "examples": ["Perceived career potential changed for women. 女性自感的职业潜力发生了变化。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "potential（潜在的/潜力）/ possible（可能的）/ potentially（可能地）" }
+  },
+  "previous": {
+    "phonetic": "/ˈpriːviəs/", "pos": "adj.", "sense": "先前的、上一次的",
+    "collocations": ["the previous study", "previous experience", "previous to"],
+    "examples": ["The previous study found similar preferences. 先前的研究发现了类似偏好。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "previous（先前的）/ prior（在前的，更正式）/ former（前一个/前任）" }
+  },
+  "price": {
+    "phonetic": "/praɪs/", "pos": "n./v.", "sense": "价格（可数）/ 定价",
+    "collocations": ["the price of", "at a price", "price rise"],
+    "examples": ["The higher the price will jump. 价格会涨得越高。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "price（价格）/ cost（成本）/ prize（奖品）" }
+  },
+  "primary": {
+    "phonetic": "/ˈpraɪməri/", "pos": "adj.", "sense": "主要的；初级的；初等教育的",
+    "collocations": ["primary caregivers", "primary school", "the primary reason"],
+    "examples": ["Mothers were considered primary caregivers. 母亲被视为主要照护者。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "primary（首要的/初级的）/ prime（首要的/全盛期）/ secondary（次要的）" }
+  },
+  "process": {
+    "phonetic": "/ˈprəʊses/", "pos": "n./v.", "sense": "过程（可数）/ 加工、处理",
+    "collocations": ["the decision-making process", "in the process of", "process data"],
+    "examples": ["Instincts matter in the decision-making process. 直觉在决策过程中起作用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "process（过程）/ procedure（程序）/ procession（队伍）" }
+  },
+  "promotion": {
+    "phonetic": "/prəˈməʊʃn/", "pos": "n.", "sense": "晋升（不可数/可数）；促销、推广",
+    "collocations": ["chances of promotion", "get a promotion", "sales promotion"],
+    "examples": ["Women believed their chances of promotion were lower. 女性认为自己的晋升机会更低。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "promotion（晋升/推广）/ promote（提升/推广）/ promotional（促销的）" }
+  },
+  "proud": {
+    "phonetic": "/praʊd/", "pos": "adj.", "sense": "骄傲的、自豪的（be proud of）",
+    "collocations": ["be proud of", "proud to do", "a proud moment"],
+    "examples": ["We are so proud to say we're busy. 我们如此自豪地说自己很忙。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "proud of（为……自豪）/ pride（名词）/ proud 作定语表「自豪的」" }
+  },
+  "provide": {
+    "phonetic": "/prəˈvaɪd/", "pos": "v.", "sense": "提供（provide sb with sth / provide sth for sb）",
+    "collocations": ["provide sb with sth", "provide sth for sb", "provide that"],
+    "examples": ["The policy provides fathers with leave. 该政策为父亲提供假期。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "provide sb with sth / provide sth for sb（两种搭配）/ offer" }
+  },
+  "published": {
+    "phonetic": "/ˈpʌblɪʃt/", "pos": "v.", "sense": "publish 的过去式/过去分词（发表、出版）",
+    "lemma": "publish",
+    "collocations": ["published in the journal", "be published", "publish a study"],
+    "examples": ["One recent study published in PLOS ONE found... 最近发表在《PLOS ONE》上的一项研究……"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "published（发表）/ publication（发表，名词）/ publish" }
+  },
+  "push": {
+    "phonetic": "/pʊʃ/", "pos": "v./n.", "sense": "推、推动（push sb to do）；努力、压力",
+    "collocations": ["push themselves further", "push for", "push back"],
+    "examples": ["They push themselves further for real readers. 为真实读者他们更努力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "push（推）/ pull（拉）/ push sb to do（促使某人做）" }
+  },
+  "put": {
+    "phonetic": "/pʊt/", "pos": "v.", "sense": "放、放置（三态同形）；表达（put it）",
+    "collocations": ["put pressure on", "put into", "put off"],
+    "examples": ["Cases helped put pressure on companies. 诉讼帮助向公司施压。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "put（不规则动词，三态同形）/ put off（推迟）/ put up with（忍受）" }
+  },
+  "qualified": {
+    "phonetic": "/ˈkwɒlɪfaɪd/", "pos": "adj./v.", "sense": "合格的、有资格的；qualify 的过去式/过去分词",
+    "lemma": "qualify",
+    "collocations": ["a qualified teacher", "be qualified for", "qualified self（有资格的自我）"],
+    "examples": ["There's also a qualified self. 还有一个「有资格的自我」。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "qualified（合格的）/ qualification（资格）/ qualify（取得资格）" }
+  },
+  "quality": {
+    "phonetic": "/ˈkwɒləti/", "pos": "n./adj.", "sense": "质量（不可数）；品质、特质（可数）；优质的",
+    "collocations": ["quality of life", "high quality", "quality time"],
+    "examples": ["The quality of writing has improved. 写作质量提高了。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "quality（质量/品质）/ quantity（数量）/ qualitative（定性的）" }
+  },
+  "quite": {
+    "phonetic": "/kwaɪt/", "pos": "adv.", "sense": "相当（英式）；完全（美式常在否定与强调中用）",
+    "collocations": ["quite good", "not quite", "quite a few"],
+    "examples": ["It is quite horrifying to see people guided by instinct. 看人被直觉牵着走相当可怕。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "quite（相当）/ quiet（安静的）/ quit（退出）" }
+  },
+  "readers": {
+    "phonetic": "/ˈriːdəz/", "pos": "n.", "sense": "读者（reader 的复数）",
+    "lemma": "reader",
+    "collocations": ["heavy readers", "regular readers"],
+    "examples": ["Fewer kids are heavy readers. 痴迷读书的孩子变少了。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "reader（读者）/ reading（阅读）" }
+  },
+  "reading": {
+    "phonetic": "/ˈriːdɪŋ/", "pos": "n./v.", "sense": "阅读（不可数）；read 的现在分词",
+    "lemma": "read",
+    "collocations": ["reading rates", "reading habits", "for reading"],
+    "examples": ["Kids lack patience for long reading. 孩子对长篇阅读缺乏耐心。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "reading（阅读）/ read（读，过去式同形读 /red/）" }
+  },
+  "reality": {
+    "phonetic": "/riˈæləti/", "pos": "n.", "sense": "现实、实际情况（可数/不可数）",
+    "collocations": ["in reality", "the reality is", "face reality"],
+    "examples": ["In reality, the female did most of the care. 现实中主要是女性在做照护。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "in reality（实际上）/ reality（现实）/ real（真实的）" }
+  },
+  "rebecca": {
+    "phonetic": "/rəˈbekə/", "pos": "n.（专有名词）", "sense": "丽贝卡（Rebecca Eynon，研究者姓名）",
+    "collocations": ["Rebecca Eynon"],
+    "examples": ["Rebecca Eynon interviewed 200 teenagers. 丽贝卡·艾农访谈了 200 名青少年。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "reduce": {
+    "phonetic": "/rɪˈdjuːs/", "pos": "v.", "sense": "减少、降低（及物）；使沦为（reduce to）",
+    "collocations": ["reduce the likelihood", "reduce stress", "reduce to"],
+    "examples": ["Data reduces the likelihood of errors. 数据能降低出错的可能性。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "reduce（及物，减少某物）/ decrease（不及物，自身减少）/ lower（降低）" }
+  },
+  "regular": {
+    "phonetic": "/ˈreɡjələ(r)/", "pos": "adj.", "sense": "规律的、定期的；普通的",
+    "collocations": ["regular exercise", "regular readers", "on a regular basis"],
+    "examples": ["They do regular exercise. 他们规律锻炼。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "regular（规律的）/ regularly（定期地）/ irregular（不规律的）" }
+  },
+  "remain": {
+    "phonetic": "/rɪˈmeɪn/", "pos": "v.", "sense": "保持、仍然（remain + adj./n.）；留下",
+    "collocations": ["remain stable", "remain unclear", "remain in"],
+    "examples": ["Error rates stayed stable—they remained unchanged. 错误率保持稳定，没有变化。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "remain（系动词，后接形容词）/ stay（同义，更口语）/ remaining（剩余的）" }
+  },
+  "remarkable": {
+    "phonetic": "/rɪˈmɑːkəbl/", "pos": "adj.", "sense": "显著的、非凡的；（数量）惊人的",
+    "collocations": ["a remarkable 25 lengths", "remarkable progress", "remarkably"],
+    "examples": ["He came in a remarkable 25 lengths ahead. 他以惊人的 25 个马身优势冲线。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "remarkable（非凡的）/ remarkably（显著地）/ remark（评论）" }
+  },
+  "resources": {
+    "phonetic": "/rɪˈsɔːsɪz/", "pos": "n.", "sense": "资源（resource 的复数）",
+    "lemma": "resource",
+    "collocations": ["resource constraints", "natural resources", "time and resources"],
+    "examples": ["Time and resource constraints limit data use. 时间与资源限制会限制数据使用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "resources（资源）/ source（来源）/ resourceful（足智多谋的）" }
+  },
+  "responsibilities": {
+    "phonetic": "/rɪˌspɒnsəˈbɪlətiz/", "pos": "n.", "sense": "责任、职责（responsibility 的复数）",
+    "lemma": "responsibility",
+    "collocations": ["take responsibility", "an increase in responsibilities", "responsibility for"],
+    "examples": ["More women reported an increase in responsibilities. 更多女性报告职责增加。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "responsibility（责任）/ responsible（负责的）/ response（回应）" }
+  },
+  "resurrection": {
+    "phonetic": "/ˌrezəˈrekʃn/", "pos": "n.", "sense": "复活、复苏（可数/不可数）",
+    "collocations": ["a resurrection of", "the resurrection of the brand"],
+    "examples": ["The brand's resurrection surprised rivals. 该品牌的复兴让对手意外。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "re-（再）+ surrect（升起）", "confusables": "resurrection（复活）/ resurrection 与 renaissance（复兴）近义" }
+  },
+  "returned": {
+    "phonetic": "/rɪˈtɜːnd/", "pos": "v.", "sense": "return 的过去式/过去分词（返回、归还）",
+    "lemma": "return",
+    "collocations": ["returned to", "return to work", "returned home"],
+    "examples": ["Red Rum returned to take his second title. 「红朗姆」再次回来拿下第二冠。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "return（返回，不及物；归还，及物）/ return to work（返岗）" }
+  },
+  "rice": {
+    "phonetic": "/raɪs/", "pos": "n.", "sense": "大米、水稻（不可数）",
+    "collocations": ["rice production", "a bowl of rice"],
+    "examples": ["Rice yields are sensitive to climate. 水稻产量对气候敏感。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "rice（大米）/ rise（上升）" }
+  },
+  "right": {
+    "phonetic": "/raɪt/", "pos": "adj./adv./n.", "sense": "正确的；右边的；恰恰（副词）/ 权利",
+    "collocations": ["you're right", "right now", "the right to do"],
+    "examples": ["They come right back to work. 他们马上回去上班。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "right（正确/右/权利）/ write（写）/ rite（仪式）" }
+  },
+  "risk": {
+    "phonetic": "/rɪsk/", "pos": "n./v.", "sense": "风险（可数/不可数）/ 冒……的风险",
+    "collocations": ["the risk of", "at risk", "risk doing"],
+    "examples": ["Overuse carries a risk of harm. 过度使用存在伤害风险。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "risk（风险）/ danger（危险）/ risk doing（冒险做）" }
+  },
+  "risks": {
+    "phonetic": "/rɪsks/", "pos": "n./v.", "sense": "风险（risk 的复数）；冒风险（动词三单）",
+    "lemma": "risk",
+    "collocations": ["health risks", "take risks"],
+    "examples": ["The health risks are real. 健康风险是真实的。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "risks（复数/动词三单）/ risk（单数/原形）" }
+  },
+  "saying": {
+    "phonetic": "/ˈseɪɪŋ/", "pos": "n./v.", "sense": "谚语、说法（可数）；say 的现在分词",
+    "lemma": "say",
+    "collocations": ["there is a saying", "as the saying goes"],
+    "examples": ["As the saying goes, everything in moderation. 俗话说，凡事适度。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "saying（谚语）/ say（说）" }
+  },
+  "scientist": {
+    "phonetic": "/ˈsaɪəntɪst/", "pos": "n.", "sense": "科学家（可数）",
+    "collocations": ["a social scientist", "research scientists"],
+    "examples": ["A social scientist found the behaviour shifting. 一位社会科学家发现行为在改变。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "scientist（科学家）/ science（科学）/ scientific（科学的）" }
+  },
+  "second": {
+    "phonetic": "/ˈsekənd/", "pos": "num./n./v.", "sense": "第二；秒；附议（动词）",
+    "collocations": ["come in second", "for the second time", "seconds later"],
+    "examples": ["He came in second both times. 他两次都屈居第二。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "second（第二/秒）/ secondly（第二点）/ secondary（次要的）" }
+  },
+  "see": {
+    "phonetic": "/siː/", "pos": "v.", "sense": "看见；明白（I see）；见证",
+    "collocations": ["see that", "as we can see", "see sb do/doing"],
+    "examples": ["We see the same pattern again. 我们又看到了同样的模式。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "see（看见，无意）/ look at（看，有意）/ watch（观看，持续）" }
+  },
+  "seem": {
+    "phonetic": "/siːm/", "pos": "v.", "sense": "似乎、好像（seem + adj. / seem to do）",
+    "collocations": ["seem to be", "it seems that", "seemingly"],
+    "examples": ["People who skip leisure seem higher in status. 跳过休闲的人似乎地位更高。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "seem（似乎）/ appear（显得，更正式）/ look（看起来）" }
+  },
+  "seen": {
+    "phonetic": "/siːn/", "pos": "v.", "sense": "see 的过去分词（被看见）",
+    "lemma": "see",
+    "collocations": ["have seen", "be seen as", "as seen in"],
+    "examples": ["This has long been seen as normal. 这长期被视为正常。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "seen（过去分词）/ saw（过去式）/ scene（场景）" }
+  },
+  "self": {
+    "phonetic": "/self/", "pos": "n.", "sense": "自我（复数 selves）；自己",
+    "collocations": ["the quantified self", "self-esteem", "sense of self"],
+    "examples": ["The quantified self doesn't tell the whole story. 「量化自我」讲不出全部实情。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "self（自我，名词）/ selves（复数）/ self- 前缀表「自我」" }
+  },
+  "settlement": {
+    "phonetic": "/ˈsetlmənt/", "pos": "n.", "sense": "和解（法律）；定居点",
+    "collocations": ["reach a settlement", "a settlement with sb", "out-of-court settlement"],
+    "examples": ["They announced a $5m settlement. 他们宣布了 500 万美元和解。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "settlement（和解/定居点）/ settle（解决/定居）" }
+  },
+  "share": {
+    "phonetic": "/ʃeə(r)/", "pos": "v./n.", "sense": "分享、分担（share sth with sb）；份额",
+    "collocations": ["share sth with sb", "a share of", "market share"],
+    "examples": ["They want to share caregiving with their partner. 他们想与伴侣分担照护。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "share（分享/分担）/ split（拆分）/ divide（划分）" }
+  },
+  "short": {
+    "phonetic": "/ʃɔːt/", "pos": "adj.", "sense": "短的、矮的；不足的（be short of）",
+    "collocations": ["short-form writing", "in short", "be short of"],
+    "examples": ["Short-form writing dominates social media. 短文本写作主导社交媒体。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "short（短的）/ shortly（不久）/ in short（简言之）" }
+  },
+  "simply": {
+    "phonetic": "/ˈsɪmpli/", "pos": "adv.", "sense": "仅仅、只不过；简单地",
+    "collocations": ["simply because", "quite simply", "simply put"],
+    "examples": ["Simply feeling something is right is subjective. 仅仅感觉某事对，是主观的。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "simply（仅仅/简单地）/ simple（简单的）/ simplistic（过于简化的）" }
+  },
+  "skill": {
+    "phonetic": "/skɪl/", "pos": "n.", "sense": "技能、技巧（可数/不可数）",
+    "collocations": ["a new social skill", "communication skills", "develop a skill"],
+    "examples": ["Working out how to behave online is a new social skill. 弄清网上举止是新社交技能。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "skill（技能）/ skilled（熟练的）/ skillful（娴熟的）" }
+  },
+  "skills": {
+    "phonetic": "/skɪlz/", "pos": "n.", "sense": "技能（skill 的复数）",
+    "lemma": "skill",
+    "collocations": ["communication skills", "new skills", "social skills"],
+    "examples": ["They struggle with new communication skills. 他们在新的沟通技能上吃力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "skills（复数）/ skill（单数）" }
+  },
+  "soybeans": {
+    "phonetic": "/ˈsɔɪbiːnz/", "pos": "n.", "sense": "大豆（soybean 的复数）",
+    "lemma": "soybean",
+    "collocations": ["soybean production", "soybean prices"],
+    "examples": ["Soybeans are sensitive to drought. 大豆对干旱敏感。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "soy（大豆）+ bean（豆）", "confusables": "soybean（大豆）/ soya（英式）" }
+  },
+  "species": {
+    "phonetic": "/ˈspiːʃiːz/", "pos": "n.", "sense": "物种（单复同形）",
+    "collocations": ["a species of", "endangered species", "species diversity"],
+    "examples": ["Many species face extinction. 许多物种面临灭绝。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "species（单复同形）/ specie（硬币，罕用）/ spice（香料）" }
+  },
+  "spending": {
+    "phonetic": "/ˈspendɪŋ/", "pos": "n./v.", "sense": "支出（不可数）；spend 的现在分词",
+    "lemma": "spend",
+    "collocations": ["government spending", "spending time"],
+    "examples": ["Spending time with friends improves mood. 与朋友相处能改善情绪。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "spending（支出）/ spend（花费）" }
+  },
+  "spent": {
+    "phonetic": "/spent/", "pos": "v.", "sense": "spend 的过去式与过去分词（花费）",
+    "lemma": "spend",
+    "collocations": ["spent time doing", "well spent"],
+    "examples": ["He spent hours changing settings. 他花数小时修改设置。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "spent（过去式/过去分词）/ spend（原形）" }
+  },
+  "states": {
+    "phonetic": "/steɪts/", "pos": "n./v.", "sense": "州、国家（state 的复数）；声明（动词三单）",
+    "lemma": "state",
+    "collocations": ["the States", "research states that", "in a state of"],
+    "examples": ["Several states passed similar laws. 数个州通过了类似法律。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "states（州/声明）/ state（状态/国家）/ statement（声明）" }
+  },
+  "statistical": {
+    "phonetic": "/stəˈtɪstɪkl/", "pos": "adj.", "sense": "统计的、统计学的",
+    "collocations": ["statistical analysis", "statistically significant"],
+    "examples": ["The difference is statistically significant. 这一差异在统计上显著。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "statistical（统计的）/ statistics（统计学/数据）/ statistic（统计量）" }
+  },
+  "status": {
+    "phonetic": "/ˈsteɪtəs/", "pos": "n.", "sense": "地位、身份（不可数）；状态",
+    "collocations": ["social status", "marital status", "high status"],
+    "examples": ["They seem to be of higher standing and status. 他们似乎地位更高。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "status（地位/状态）/ statue（雕像）/ state（状态）" }
+  },
+  "stop": {
+    "phonetic": "/stɒp/", "pos": "v./n.", "sense": "停止（stop doing / stop to do）；站",
+    "collocations": ["stop doing", "stop to do", "come to a stop"],
+    "examples": ["They stop checking their phones. 他们不再看手机。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "stop doing（停止做）/ stop to do（停下来去做）——含义相反" }
+  },
+  "struggle": {
+    "phonetic": "/ˈstrʌɡl/", "pos": "v./n.", "sense": "挣扎、努力（struggle to do / struggle with）；斗争",
+    "collocations": ["struggle to do", "struggle with", "the struggle for"],
+    "examples": ["They struggle with new communication skills. 他们在新沟通技能上挣扎。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "struggle to do（努力做，含困难）/ try to do（尝试）/ struggle with（应对困难）" }
+  },
+  "suffer": {
+    "phonetic": "/ˈsʌfə(r)/", "pos": "v.", "sense": "遭受（suffer sth）；受苦（suffer from）",
+    "collocations": ["suffer an injury", "suffer from", "suffer losses"],
+    "examples": ["Local farmers will suffer under this situation. 当地农民会在此情形下受损。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "suffer sth（遭受，及物）/ suffer from（患……病）" }
+  },
+  "suggest": {
+    "phonetic": "/səˈdʒest/", "pos": "v.", "sense": "表明（数据/研究表明）；建议（suggest doing）",
+    "collocations": ["suggest that", "suggest doing", "the evidence suggests"],
+    "examples": ["Studies suggest these anxieties are misplaced. 研究表明这些焦虑是没有根据的。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "suggest doing（不是 to do）/ suggest that（从句可用虚拟）/ 表「表明」时不用虚拟" }
+  },
+  "supply": {
+    "phonetic": "/səˈplaɪ/", "pos": "n./v.", "sense": "供应（可数/不可数）；供应（动词）",
+    "collocations": ["food supply", "supply and demand", "supply sb with sth"],
+    "examples": ["The shorter the supply, the higher the price. 供应越短，价格越高。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "supply（供应）/ provide（提供）/ demand（需求）" }
+  },
+  "support": {
+    "phonetic": "/səˈpɔːt/", "pos": "v./n.", "sense": "支持（support sb / support doing）；支撑；支持（不可数）",
+    "collocations": ["social support", "support sb in doing", "in support of"],
+    "examples": ["Social support is associated with better health. 社会支持与更好的健康相关。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "support（支持，不可数作名词）/ support sb to do（也可 support sb in doing）" }
+  },
+  "supported": {
+    "phonetic": "/səˈpɔːtɪd/", "pos": "v.", "sense": "support 的过去式/过去分词（支持）；有支撑的",
+    "lemma": "support",
+    "collocations": ["be supported by", "supported by evidence", "well supported"],
+    "examples": ["Arguments supported by evidence are stronger. 有证据支撑的论点更有力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "supported by（由……支持）/ supportive（支持的，形容词）" }
+  },
+  "supportive": {
+    "phonetic": "/səˈpɔːtɪv/", "pos": "adj.", "sense": "支持的、给予支持的（be supportive of）",
+    "collocations": ["be supportive of", "a supportive employer"],
+    "examples": ["The employer was equally supportive of mothers and fathers. 雇主对父母双方支持同等。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "supportive of（支持……的）/ support（支持，动词/名词）" }
+  },
+  "surveys": {
+    "phonetic": "/ˈsɜːveɪz/", "pos": "n./v.", "sense": "调查（survey 的复数）；survey 的第三人称单数",
+    "lemma": "survey",
+    "collocations": ["the surveys showed", "conduct a survey"],
+    "examples": ["The surveys showed men exhibit more of these behaviours. 调查显示男性表现出更多这类行为。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "survey（调查）/ inspect（检查）/ poll（民意调查）" }
+  },
+  "survive": {
+    "phonetic": "/səˈvaɪv/", "pos": "v.", "sense": "幸存、存活（及物与不及物皆可）",
+    "collocations": ["survive sth", "survive on", "the will to survive"],
+    "examples": ["Few firms survive such a shift. 很少有公司能挺过这样的转变。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "survive（幸存，及物时不加 from）/ survivor（幸存者）" }
+  },
+  "system": {
+    "phonetic": "/ˈsɪstəm/", "pos": "n.", "sense": "系统、体系（可数）",
+    "collocations": ["education system", "a system of", "systematic"],
+    "examples": ["The legal system is changing. 法律体系在改变。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "system（系统）/ systematic（系统的）/ systemic（全身的/体制性的）" }
+  }
+}

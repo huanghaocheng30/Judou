@@ -4588,5 +4588,1306 @@
       "answer": "A"
     }
   ],
-  "lexicon": {}
+  "lexicon": {
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "business": {
+      "phonetic": "/ˈbɪznəs/",
+      "pos": "n.",
+      "sense": "生意、商业（不可数）；公司（可数）；事、分内事",
+      "collocations": [
+        "in business",
+        "business decisions",
+        "mind your own business"
+      ],
+      "examples": [
+        "People in business rely on instincts. 商界人士依赖直觉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "business（生意）/ busy（忙的）"
+      }
+    },
+    "often": {
+      "phonetic": "/ˈɒfn/",
+      "pos": "adv.",
+      "sense": "经常、往往",
+      "collocations": [
+        "often do",
+        "more often than not",
+        "how often"
+      ],
+      "examples": [
+        "Parents often worry about new media. 家长常常担心新媒介。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "often（经常）/ always（总是）/ usually（通常）"
+      }
+    },
+    "make": {
+      "phonetic": "/meɪk/",
+      "pos": "v.",
+      "sense": "做、制造；使（make sb do sth）；构成",
+      "collocations": [
+        "make decisions",
+        "make sense",
+        "make a difference"
+      ],
+      "examples": [
+        "Good data make better decisions possible. 好数据让更好的决策成为可能。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make（制造/使）/ do（做，多指活动）"
+      }
+    },
+    "decisions": {
+      "phonetic": "/dɪˈsɪʒnz/",
+      "pos": "n.",
+      "sense": "决定（decision 的复数）",
+      "lemma": "decision",
+      "collocations": [
+        "make decisions",
+        "decision-making",
+        "reach a decision"
+      ],
+      "examples": [
+        "Data helps us make better decisions. 数据帮我们做更好的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "de-（离）+ caedere（切）→ 切断其他可能",
+        "confusables": "decision（决定）/ decisive（果断的）"
+      }
+    },
+    "based": {
+      "phonetic": "/beɪst/",
+      "pos": "v./adj.",
+      "sense": "base 的过去式/过去分词；（be based on）基于",
+      "lemma": "base",
+      "collocations": [
+        "be based on",
+        "based on evidence"
+      ],
+      "examples": [
+        "Decisions based on data are not always right. 基于数据的决定并不总对。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "based on（基于，被动/状语）/ basing on（主动，主语须是人）"
+      }
+    },
+    "own": {
+      "phonetic": "/əʊn/",
+      "pos": "adj./v.",
+      "sense": "自己的（形容词）；拥有（动词）",
+      "collocations": [
+        "one's own",
+        "on one's own",
+        "own sth"
+      ],
+      "examples": [
+        "They base decisions on their own feelings. 他们凭自己的感觉做决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "own（自己的/拥有）/ owner（所有者）"
+      }
+    },
+    "personal": {
+      "phonetic": "/ˈpɜːsənl/",
+      "pos": "adj.",
+      "sense": "个人的、私人的",
+      "collocations": [
+        "personal feelings",
+        "personal data",
+        "in person"
+      ],
+      "examples": [
+        "They base decisions on personal feelings. 他们凭个人感受做决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "personal（个人的）/ personnel（全体员工）/ person（人）"
+      }
+    },
+    "feelings": {
+      "phonetic": "/ˈfiːlɪŋz/",
+      "pos": "n.",
+      "sense": "感受、感觉（feeling 的复数）",
+      "lemma": "feeling",
+      "collocations": [
+        "personal feelings",
+        "hurt sb's feelings"
+      ],
+      "examples": [
+        "They base decisions on their own feelings. 他们凭自己的感受做决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "feelings（感受，复数）/ feeling（感觉，单数）/ feel（动词）"
+      }
+    },
+    "instincts": {
+      "phonetic": "/ˈɪnstɪŋkts/",
+      "pos": "n.",
+      "sense": "直觉、本能（instinct 的复数）",
+      "lemma": "instinct",
+      "collocations": [
+        "trust your instincts",
+        "by instinct"
+      ],
+      "examples": [
+        "Relying on instincts needs experience. 依靠直觉需要经验。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "in-（内）+ stinguere（刺激）",
+        "synonyms": "intuition, gut feeling, hunch"
+      }
+    },
+    "quite": {
+      "phonetic": "/kwaɪt/",
+      "pos": "adv.",
+      "sense": "相当（英式）；完全（美式常在否定与强调中用）",
+      "collocations": [
+        "quite good",
+        "not quite",
+        "quite a few"
+      ],
+      "examples": [
+        "It is quite horrifying to see people guided by instinct. 看人被直觉牵着走相当可怕。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "quite（相当）/ quiet（安静的）/ quit（退出）"
+      }
+    },
+    "see": {
+      "phonetic": "/siː/",
+      "pos": "v.",
+      "sense": "看见；明白（I see）；见证",
+      "collocations": [
+        "see that",
+        "as we can see",
+        "see sb do/doing"
+      ],
+      "examples": [
+        "We see the same pattern again. 我们又看到了同样的模式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "see（看见，无意）/ look at（看，有意）/ watch（观看，持续）"
+      }
+    },
+    "really": {
+      "phonetic": "/ˈrɪəli/",
+      "pos": "adv.",
+      "sense": "真正地、确实；非常（口语）",
+      "collocations": [
+        "really important",
+        "not really",
+        "really?"
+      ],
+      "examples": [
+        "They do not really reflect everyday behaviour. 它们并没有真正反映日常行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "really（真正地）/ real（形容词）/ actually（实际上）"
+      }
+    },
+    "drive": {
+      "phonetic": "/draɪv/",
+      "pos": "v./n.",
+      "sense": "驱使、驱动（drive sb to do）；开车 / 动力、车道",
+      "collocations": [
+        "drive decisions",
+        "drive sb crazy",
+        "a drive to do"
+      ],
+      "examples": [
+        "Let your instincts drive your decisions? 让直觉驱动你的决定？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "drive（驱使/开车）/ ride（骑/乘）/ motivate（激励）"
+      }
+    },
+    "decision-making": {
+      "phonetic": "/dɪˈsɪʒn ˌmeɪkɪŋ/",
+      "pos": "n.",
+      "sense": "决策、做决定的过程",
+      "collocations": [
+        "the decision-making process",
+        "in decision-making"
+      ],
+      "examples": [
+        "Instincts play a role in decision-making. 直觉在决策中起作用。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "decision-making（名词，带连字符）/ decide（动词）"
+      }
+    },
+    "process": {
+      "phonetic": "/ˈprəʊses/",
+      "pos": "n./v.",
+      "sense": "过程（可数）/ 加工、处理",
+      "collocations": [
+        "the decision-making process",
+        "in the process of",
+        "process data"
+      ],
+      "examples": [
+        "Instincts matter in the decision-making process. 直觉在决策过程中起作用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "process（过程）/ procedure（程序）/ procession（队伍）"
+      }
+    },
+    "makes": {
+      "phonetic": "/meɪks/",
+      "pos": "v.",
+      "sense": "make 的第三人称单数（做、使）",
+      "lemma": "make",
+      "collocations": [
+        "makes sense",
+        "makes it possible",
+        "makes them work"
+      ],
+      "examples": [
+        "It makes them work harder. 这让他们更努力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "makes（三单）/ make（原形）/ make sb do（不带 to）"
+      }
+    },
+    "sense": {
+      "phonetic": "/sens/",
+      "pos": "n./v.",
+      "sense": "感觉、意识（a sense of）；意义；感官 / 感觉到",
+      "collocations": [
+        "a sense of achievement",
+        "make sense",
+        "in a sense"
+      ],
+      "examples": [
+        "Work gave them a sense of achievement. 工作给他们成就感。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make sense（讲得通）/ a sense of（……感）/ sense（感官）"
+      }
+    },
+    "vast": {
+      "phonetic": "/vɑːst/",
+      "pos": "adj.",
+      "sense": "巨大的、广阔的；（the vast majority）绝大多数",
+      "collocations": [
+        "the vast majority",
+        "vast amounts of",
+        "a vast range"
+      ],
+      "examples": [
+        "The vast majority of men said sharing care was a top reason. 绝大多数男性说分担照护是首要理由。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "vast（巨大的）/ large（大的）/ huge（巨大的，口语）"
+      }
+    },
+    "experience": {
+      "phonetic": "/ɪkˈspɪəriəns/",
+      "pos": "n./v.",
+      "sense": "经验（不可数）；经历（可数）/ 经历、体验",
+      "collocations": [
+        "work experience",
+        "a lot of experience",
+        "experience sth"
+      ],
+      "examples": [
+        "Relying on instincts needs vast experience. 依靠直觉需要大量经验。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "experience（经验，不可数）/ experiences（经历，可数）"
+      }
+    },
+    "support": {
+      "phonetic": "/səˈpɔːt/",
+      "pos": "v./n.",
+      "sense": "支持（support sb / support doing）；支撑；支持（不可数）",
+      "collocations": [
+        "social support",
+        "support sb in doing",
+        "in support of"
+      ],
+      "examples": [
+        "Social support is associated with better health. 社会支持与更好的健康相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "support（支持，不可数作名词）/ support sb to do（也可 support sb in doing）"
+      }
+    },
+    "simply": {
+      "phonetic": "/ˈsɪmpli/",
+      "pos": "adv.",
+      "sense": "仅仅、只不过；简单地",
+      "collocations": [
+        "simply because",
+        "quite simply",
+        "simply put"
+      ],
+      "examples": [
+        "Simply feeling something is right is subjective. 仅仅感觉某事对，是主观的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "simply（仅仅/简单地）/ simple（简单的）/ simplistic（过于简化的）"
+      }
+    },
+    "something": {
+      "phonetic": "/ˈsʌmθɪŋ/",
+      "pos": "pron.",
+      "sense": "某事、某物（不定代词）",
+      "collocations": [
+        "something like",
+        "something to do with",
+        "or something"
+      ],
+      "examples": [
+        "If you feel something should not be done... 如果你觉得某事不该做……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）"
+      }
+    },
+    "right": {
+      "phonetic": "/raɪt/",
+      "pos": "adj./adv./n.",
+      "sense": "正确的；右边的；恰恰（副词）/ 权利",
+      "collocations": [
+        "you're right",
+        "right now",
+        "the right to do"
+      ],
+      "examples": [
+        "They come right back to work. 他们马上回去上班。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "right（正确/右/权利）/ write（写）/ rite（仪式）"
+      }
+    },
+    "highly": {
+      "phonetic": "/ˈhaɪli/",
+      "pos": "adv.",
+      "sense": "高度地、非常（修饰形容词）；高度评价地",
+      "collocations": [
+        "highly subjective",
+        "highly likely",
+        "speak highly of"
+      ],
+      "examples": [
+        "Simply feeling something is right is highly subjective. 仅凭感觉是对的，高度主观。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "highly（抽象程度高）/ high（物理高）"
+      }
+    },
+    "hand": {
+      "phonetic": "/hænd/",
+      "pos": "n./v.",
+      "sense": "手；帮助（give sb a hand）/ 递（动词）",
+      "collocations": [
+        "on the other hand",
+        "give a hand",
+        "hand in"
+      ],
+      "examples": [
+        "On the other hand, there is a rational approach. 另一方面，也有理性的方法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "on the one hand ... on the other hand（一方面……另一方面）/ hand in（上交）"
+      }
+    },
+    "rational": {
+      "phonetic": "/ˈræʃnəl/",
+      "pos": "adj.",
+      "sense": "理性的、合理的",
+      "collocations": [
+        "rational analysis",
+        "rational decision",
+        "rational thinking"
+      ],
+      "examples": [
+        "There is a more rational approach. 还有更理性的方法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "rational（理性的）/ rationale（理由）/ rationalise（使合理化）"
+      }
+    },
+    "approach": {
+      "phonetic": "/əˈprəʊtʃ/",
+      "pos": "n./v.",
+      "sense": "方法、途径（可数，approach to）；接近（动词）",
+      "collocations": [
+        "an approach to sth",
+        "a new approach",
+        "approach a problem"
+      ],
+      "examples": [
+        "There is a more rational approach. 还有更理性的方法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "approach to doing（不是 to do）/ method（方法）/ way（方式）"
+      }
+    },
+    "making": {
+      "phonetic": "/ˈmeɪkɪŋ/",
+      "pos": "v./n.",
+      "sense": "make 的现在分词；制造、形成（名词）",
+      "lemma": "make",
+      "collocations": [
+        "decision-making",
+        "making things complicated"
+      ],
+      "examples": [
+        "Decision-making needs both data and instinct. 决策既需要数据也需要直觉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "making（现在分词）/ made（过去分词）"
+      }
+    },
+    "data": {
+      "phonetic": "/ˈdeɪtə/",
+      "pos": "n.",
+      "sense": "数据（datum 的复数，现代英语也常作不可数，谓语单复皆可但须一致）",
+      "collocations": [
+        "data on sth",
+        "collect data",
+        "data analysis"
+      ],
+      "examples": [
+        "The data show a clear trend. 数据显示出明确的趋势。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "datum（给定之物）",
+        "confusables": "data（数据）/ date（日期）"
+      }
+    },
+    "analysis": {
+      "phonetic": "/əˈnæləsɪs/",
+      "pos": "n.",
+      "sense": "分析（复数 analyses）",
+      "collocations": [
+        "data analysis",
+        "rational analysis",
+        "in the final analysis"
+      ],
+      "examples": [
+        "Combining instinct and analysis works best. 直觉与分析结合效果最好。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "analysis（单数）/ analyses（复数，拼写与发音都变）"
+      }
+    },
+    "long": {
+      "phonetic": "/lɒŋ/",
+      "pos": "adj./adv.",
+      "sense": "长的、长期的 / 长久地",
+      "collocations": [
+        "long-term",
+        "as long as",
+        "no longer"
+      ],
+      "examples": [
+        "The impact is long-term. 影响是长期的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "long（长）/ lengthy（冗长的）/ as long as（只要）"
+      }
+    },
+    "associated": {
+      "phonetic": "/əˈsəʊʃieɪtɪd/",
+      "pos": "v./adj.",
+      "sense": "associate 的过去分词；（be associated with）与……相关联",
+      "lemma": "associate",
+      "collocations": [
+        "be associated with",
+        "problems associated with"
+      ],
+      "examples": [
+        "Data has long been associated with informed decisions. 数据长期与知情决策相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be associated with（相关）/ be caused by（因果）"
+      }
+    },
+    "reduce": {
+      "phonetic": "/rɪˈdjuːs/",
+      "pos": "v.",
+      "sense": "减少、降低（及物）；使沦为（reduce to）",
+      "collocations": [
+        "reduce the likelihood",
+        "reduce stress",
+        "reduce to"
+      ],
+      "examples": [
+        "Data reduces the likelihood of errors. 数据能降低出错的可能性。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "reduce（及物，减少某物）/ decrease（不及物，自身减少）/ lower（降低）"
+      }
+    },
+    "errors": {
+      "phonetic": "/ˈerəz/",
+      "pos": "n.",
+      "sense": "错误（error 的复数）",
+      "lemma": "error",
+      "collocations": [
+        "error rates",
+        "make an error"
+      ],
+      "examples": [
+        "Error rates have stayed stable. 错误率保持稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "error（错误，正式）/ mistake（错误，通用）/ in error（错误地）"
+      }
+    },
+    "increase": {
+      "phonetic": "/ɪnˈkriːs/",
+      "pos": "v./n.",
+      "sense": "增加（动词读 /ɪnˈkriːs/）；增加（名词读 /ˈɪnkriːs/）",
+      "collocations": [
+        "increase in sth",
+        "increase the chances of",
+        "a sharp increase"
+      ],
+      "examples": [
+        "More women reported an increase in responsibilities. 更多女性报告责任增加。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increase（动词）/ increase in（名词 + 介词）"
+      }
+    },
+    "chances": {
+      "phonetic": "/ˈtʃɑːnsɪz/",
+      "pos": "n.",
+      "sense": "机会、可能性（chance 的复数）",
+      "lemma": "chance",
+      "collocations": [
+        "the chances of",
+        "increase the chances",
+        "by chance"
+      ],
+      "examples": [
+        "Data increases the chances of success. 数据能提高成功的机会。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "chance（机会）/ opportunity（良机，偏正面）/ by chance（偶然）"
+      }
+    },
+    "success": {
+      "phonetic": "/səkˈses/",
+      "pos": "n.",
+      "sense": "成功（不可数）；成功的人或事（可数）",
+      "collocations": [
+        "the chances of success",
+        "achieve success",
+        "a great success"
+      ],
+      "examples": [
+        "Data raises the chances of success. 数据能提高成功的机会。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "succeed（接续→成功）",
+        "confusables": "success（成功）/ succession（连续）"
+      }
+    },
+    "big": {
+      "phonetic": "/bɪɡ/",
+      "pos": "adj.",
+      "sense": "大的（尺寸/规模）；重要的",
+      "collocations": [
+        "big data",
+        "a big deal",
+        "big enough"
+      ],
+      "examples": [
+        "Big, systematic data is the foundation. 大规模系统化数据是基础。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "big（大，具体）/ large（大，数量）/ great（巨大，抽象）"
+      }
+    },
+    "systematic": {
+      "phonetic": "/ˌsɪstəˈmætɪk/",
+      "pos": "adj.",
+      "sense": "系统化的、有条理的",
+      "collocations": [
+        "systematic data",
+        "a systematic approach",
+        "systematic review"
+      ],
+      "examples": [
+        "Big, systematic data is mostly the foundation. 大规模系统化数据大多是基础。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "systematic（系统的）/ systemic（体制性的/全身的）"
+      }
+    },
+    "extreme": {
+      "phonetic": "/ɪkˈstriːm/",
+      "pos": "adj./n.",
+      "sense": "极端的、极大的；极端（名词）",
+      "collocations": [
+        "with its extreme usability",
+        "extreme weather",
+        "go to extremes"
+      ],
+      "examples": [
+        "With its extreme usability comes a complication. 伴随其极高可用性而来的是麻烦。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "extreme（极端的）/ extremely（极其，副词）"
+      }
+    },
+    "comes": {
+      "phonetic": "/kʌmz/",
+      "pos": "v.",
+      "sense": "come 的第三人称单数（来）",
+      "lemma": "come",
+      "collocations": [
+        "comes from",
+        "comes with",
+        "as it comes"
+      ],
+      "examples": [
+        "With success comes new pressure. 成功带来新的压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "comes（三单）/ come（原形）"
+      }
+    },
+    "feel": {
+      "phonetic": "/fiːl/",
+      "pos": "v.",
+      "sense": "感觉（feel + adj.）；觉得、认为",
+      "collocations": [
+        "feel like doing",
+        "feel that",
+        "feel free to"
+      ],
+      "examples": [
+        "If you strongly feel something should not be done... 如果你强烈觉得某件事不该做……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "feel like doing（想做）/ feel free to（随意做）"
+      }
+    },
+    "question": {
+      "phonetic": "/ˈkwestʃən/",
+      "pos": "n./v.",
+      "sense": "问题（需回答）；疑问 / 质疑",
+      "collocations": [
+        "ask a question",
+        "the question is",
+        "out of the question"
+      ],
+      "examples": [
+        "This seemingly easy question drives the need to understand. 这个看似简单的问题催生了理解的需要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "question（疑问）/ problem（难题）/ out of the question（不可能）"
+      }
+    },
+    "drives": {
+      "phonetic": "/draɪvz/",
+      "pos": "v./n.",
+      "sense": "drive 的第三人称单数（驱动）；drive 的复数（驱动力）",
+      "lemma": "drive",
+      "collocations": [
+        "what drives",
+        "primal drives"
+      ],
+      "examples": [
+        "What drives the need to understand? 什么促成了理解的需要？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "drives（三单/复数）/ drive（原形/单数）"
+      }
+    },
+    "need": {
+      "phonetic": "/niːd/",
+      "pos": "v./n.",
+      "sense": "需要（情态/实义动词）；需要、需求（名词）",
+      "collocations": [
+        "need to do",
+        "in need of",
+        "no need to"
+      ],
+      "examples": [
+        "Parents need to set boundaries. 家长需要划定界限。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "need to do（实义动词）/ need do（情态动词，多用于否定疑问）"
+      }
+    },
+    "understand": {
+      "phonetic": "/ˌʌndəˈstænd/",
+      "pos": "v.",
+      "sense": "理解、明白",
+      "collocations": [
+        "understand that",
+        "understand why",
+        "make oneself understood"
+      ],
+      "examples": [
+        "The need to understand the relationship grew. 理解这种关系的需要增加了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "understand（理解）/ comprehension（理解力）/ misunderstand（误解）"
+      }
+    },
+    "without": {
+      "phonetic": "/wɪˈðaʊt/",
+      "pos": "prep.",
+      "sense": "没有、不带（后接名词或动名词）",
+      "collocations": [
+        "without doing",
+        "without doubt",
+        "go without"
+      ],
+      "examples": [
+        "Without making things complicated, the answer is simple. 不把事情弄复杂的话，答案很简单。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "without doing（介词 + 动名词）/ without 不接从句（除非 without that，罕见）"
+      }
+    },
+    "things": {
+      "phonetic": "/θɪŋz/",
+      "pos": "n.",
+      "sense": "事情、东西（thing 的复数）",
+      "lemma": "thing",
+      "collocations": [
+        "all things considered",
+        "the thing is",
+        "things like that"
+      ],
+      "examples": [
+        "They have to do all these things first. 他们必须先做所有这些事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "things（事情/东西）/ stuff（东西，不可数，口语）"
+      }
+    },
+    "using": {
+      "phonetic": "/ˈjuːzɪŋ/",
+      "pos": "v.",
+      "sense": "use 的现在分词（使用）",
+      "lemma": "use",
+      "collocations": [
+        "by using sth",
+        "using data"
+      ],
+      "examples": [
+        "Results improve by using existing technology. 使用现有技术就能改善结果。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "using（现在分词）/ used（过去式/过去分词）"
+      }
+    },
+    "best": {
+      "phonetic": "/best/",
+      "pos": "adj./adv./n.",
+      "sense": "最好的；最好地 / 最佳",
+      "collocations": [
+        "the best way to",
+        "do one's best",
+        "at best"
+      ],
+      "examples": [
+        "What's the best way to cope? 最好的应对方式是什么？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "best（good/well 的最高级）/ better（比较级）/ at best（充其量）"
+      }
+    },
+    "possible": {
+      "phonetic": "/ˈpɒsəbl/",
+      "pos": "adj.",
+      "sense": "可能的；可行的",
+      "collocations": [
+        "as soon as possible",
+        "it is possible to",
+        "the best possible"
+      ],
+      "examples": [
+        "They arrive at the best possible decisions. 他们做出尽可能最好的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "possible（可能）/ possibly（副词）/ probable（更可能）"
+      }
+    },
+    "instinctive": {
+      "phonetic": "/ɪnˈstɪŋktɪv/",
+      "pos": "adj.",
+      "sense": "本能的、直觉的",
+      "collocations": [
+        "instinctive decisions",
+        "instinctive reaction"
+      ],
+      "examples": [
+        "Instinctive decisions are backed by experience. 直觉决定有经验支撑。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "instinctive（本能的，形容词）/ instinct（名词）/ instinctively（副词）"
+      }
+    },
+    "always": {
+      "phonetic": "/ˈɔːlweɪz/",
+      "pos": "adv.",
+      "sense": "总是、一直",
+      "collocations": [
+        "always do",
+        "as always",
+        "not always"
+      ],
+      "examples": [
+        "Instinctive decisions are always backed by experience. 直觉决定总有经验支撑。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "always（总是）/ all ways（所有方式）"
+      }
+    },
+    "previous": {
+      "phonetic": "/ˈpriːviəs/",
+      "pos": "adj.",
+      "sense": "先前的、上一次的",
+      "collocations": [
+        "the previous study",
+        "previous experience",
+        "previous to"
+      ],
+      "examples": [
+        "The previous study found similar preferences. 先前的研究发现了类似偏好。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "previous（先前的）/ prior（在前的，更正式）/ former（前一个/前任）"
+      }
+    },
+    "experiences": {
+      "phonetic": "/ɪkˈspɪəriənsɪz/",
+      "pos": "n.",
+      "sense": "经历（experience 的复数）",
+      "lemma": "experience",
+      "collocations": [
+        "their experiences of",
+        "personal experiences"
+      ],
+      "examples": [
+        "Men and women's experiences differ. 男女的经历不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "experiences（经历，可数）/ experience（经验，不可数）"
+      }
+    },
+    "information": {
+      "phonetic": "/ˌɪnfəˈmeɪʃn/",
+      "pos": "n.",
+      "sense": "信息、资料（不可数）",
+      "collocations": [
+        "a piece of information",
+        "gather information",
+        "information about"
+      ],
+      "examples": [
+        "Computers help students gather information. 电脑帮学生收集信息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "information（不可数，不加 -s）/ informations（错误）"
+      }
+    },
+    "past": {
+      "phonetic": "/pɑːst/",
+      "pos": "prep./adj./n.",
+      "sense": "过（时间）；过去的；过去",
+      "collocations": [
+        "past one's prime",
+        "in the past",
+        "over the past decade"
+      ],
+      "examples": [
+        "He was regarded as past his prime. 他被认为已过巅峰期。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "past（过去的/经过）/ passed（pass 的过去式）"
+      }
+    },
+    "consequences": {
+      "phonetic": "/ˈkɒnsɪkwənsɪz/",
+      "pos": "n.",
+      "sense": "后果、结果（consequence 的复数）",
+      "lemma": "consequence",
+      "collocations": [
+        "as a consequence",
+        "face the consequences",
+        "of consequence"
+      ],
+      "examples": [
+        "Braving the consequences is not the point. 硬扛后果并不是重点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "consequence（后果）/ result（结果）/ as a consequence of（由于）"
+      }
+    },
+    "want": {
+      "phonetic": "/wɒnt/",
+      "pos": "v.",
+      "sense": "想要（want to do / want sb to do）；需要",
+      "collocations": [
+        "want to do",
+        "want sb to do",
+        "for want of"
+      ],
+      "examples": [
+        "They want to appear more adult. 他们想显得更成熟。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "want to do（想要）/ need to do（需要）/ would like to do（更礼貌）"
+      }
+    },
+    "combining": {
+      "phonetic": "/kəmˈbaɪnɪŋ/",
+      "pos": "v.",
+      "sense": "combine 的现在分词（结合）",
+      "lemma": "combine",
+      "collocations": [
+        "combining A with B",
+        "combining data and instinct"
+      ],
+      "examples": [
+        "Combining instinct and analysis produces better decisions. 结合直觉与分析能产生更好的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "combining（现在分词，作主语时谓语用单数）/ combined（过去分词）"
+      }
+    },
+    "knowledge": {
+      "phonetic": "/ˈnɒlɪdʒ/",
+      "pos": "n.",
+      "sense": "知识（不可数）；了解",
+      "collocations": [
+        "knowledge of",
+        "to my knowledge",
+        "gain knowledge"
+      ],
+      "examples": [
+        "Combine inner wisdom with the knowledge of data. 把内在判断与数据知识结合。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "knowledge（不可数，不加 -s）/ knowledge of（关于……的知识）"
+      }
+    },
+    "sometimes": {
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "pos": "adv.",
+      "sense": "有时、间或",
+      "collocations": [
+        "sometimes ... sometimes",
+        "only sometimes"
+      ],
+      "examples": [
+        "Sometimes it's because I actually am busy. 有时是因为我真的忙。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sometimes（有时）/ sometime（某个时候）/ some time（一段时间）"
+      }
+    },
+    "certain": {
+      "phonetic": "/ˈsɜːtn/",
+      "pos": "adj.",
+      "sense": "某些（不指明）；确定的、有把握的",
+      "collocations": [
+        "certain situations",
+        "be certain of",
+        "to a certain extent"
+      ],
+      "examples": [
+        "In certain situations data is useless. 在某些情况下数据没用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "certain（某些/确定的）/ some（一些）/ sure（确信的，多作表语）"
+      }
+    },
+    "situations": {
+      "phonetic": "/ˌsɪtʃuˈeɪʃnz/",
+      "pos": "n.",
+      "sense": "情形、处境（situation 的复数）",
+      "lemma": "situation",
+      "collocations": [
+        "in certain situations",
+        "a difficult situation"
+      ],
+      "examples": [
+        "Data is impractical in certain situations. 数据在某些情形下不实用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "situation（情形）/ condition（条件/状况）/ circumstance（环境，常用复数）"
+      }
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "novel": {
+      "phonetic": "/ˈnɒvl/",
+      "pos": "adj./n.",
+      "sense": "新颖的、新奇的（形容词）；小说（名词）",
+      "collocations": [
+        "novel situations",
+        "a novel idea",
+        "read a novel"
+      ],
+      "examples": [
+        "Novel situations limit the practicality of data. 全新情境会限制数据的实用性。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "novel（新颖的/小说）/ novelty（新奇）/ new（新的）"
+      }
+    },
+    "limit": {
+      "phonetic": "/ˈlɪmɪt/",
+      "pos": "v./n.",
+      "sense": "限制（动词）；限度、界限（名词）",
+      "collocations": [
+        "limit the practicality",
+        "time limits",
+        "a limit to"
+      ],
+      "examples": [
+        "These factors limit the practicality of data. 这些因素限制了数据的实用性。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "limit（限制/限度）/ limited（有限的）/ limitation（局限）"
+      }
+    },
+    "tell": {
+      "phonetic": "/tel/",
+      "pos": "v.",
+      "sense": "告诉（tell sb sth）；判断（tell the difference）",
+      "collocations": [
+        "tell sb sth",
+        "tell the difference",
+        "tell the truth"
+      ],
+      "examples": [
+        "Data doesn't tell the whole story. 数据讲不出全部实情。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tell sb sth（双宾语，必须有对象）/ say sth（后接内容）/ speak（说语言）"
+      }
+    },
+    "help": {
+      "phonetic": "/help/",
+      "pos": "v./n.",
+      "sense": "帮助（help sb do sth / help with）；帮助（不可数）",
+      "collocations": [
+        "help sb do sth",
+        "help with",
+        "can't help doing"
+      ],
+      "examples": [
+        "Instincts can help you decide fast. 直觉能帮你快速决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "help sb do/to do（不带 doing）/ can't help doing（忍不住）"
+      }
+    },
+    "effective": {
+      "phonetic": "/ɪˈfektɪv/",
+      "pos": "adj.",
+      "sense": "有效的；生效的",
+      "collocations": [
+        "effective way",
+        "become effective",
+        "highly effective"
+      ],
+      "examples": [
+        "Instincts help make effective and quick decisions. 直觉有助于做出有效而快速的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "effective（有效的）/ efficient（高效的，省时省力）/ effect（效果）"
+      }
+    },
+    "mistakes": {
+      "phonetic": "/mɪˈsteɪks/",
+      "pos": "n.",
+      "sense": "错误（mistake 的复数）",
+      "lemma": "mistake",
+      "collocations": [
+        "make mistakes",
+        "by mistake",
+        "learn from mistakes"
+      ],
+      "examples": [
+        "They make mistakes, sometimes serious ones. 他们会犯错，有时还很严重。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make a mistake（用 make，不用 do）/ by mistake（错误地）"
+      }
+    },
+    "increasingly": {
+      "phonetic": "/ɪnˈkriːsɪŋli/",
+      "pos": "adv.",
+      "sense": "越来越、日益",
+      "collocations": [
+        "increasingly common",
+        "increasingly difficult"
+      ],
+      "examples": [
+        "It has increasingly become a favorite approach. 它越来越成为受欢迎的方法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increasingly（越来越）/ more and more（同义，更口语）"
+      }
+    },
+    "become": {
+      "phonetic": "/bɪˈkʌm/",
+      "pos": "v.",
+      "sense": "变得（系动词）；成为",
+      "collocations": [
+        "become clear",
+        "become a parent",
+        "become aware of"
+      ],
+      "examples": [
+        "It has become a public health problem. 它已成为公共卫生问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "become（变得/成为）/ get（变得，口语）/ turn（变成，强调转变结果）"
+      }
+    },
+    "leaders": {
+      "phonetic": "/ˈliːdəz/",
+      "pos": "n.",
+      "sense": "领导者（leader 的复数）",
+      "lemma": "leader",
+      "collocations": [
+        "business leaders",
+        "leaders of today"
+      ],
+      "examples": [
+        "It is popular among leaders of today. 它在当今领导者中很受欢迎。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "leader（领导者）/ leadership（领导力）/ lead（带领）"
+      }
+    },
+    "today": {
+      "phonetic": "/təˈdeɪ/",
+      "pos": "adv./n.",
+      "sense": "今天；当今",
+      "collocations": [
+        "today's digital activity",
+        "in today's world",
+        "leaders of today"
+      ],
+      "examples": [
+        "Today he is still the best-known racehorse. 今天他仍是最知名的赛马。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "today（今天/当今）/ nowadays（如今，副词）"
+      }
+    }
+  }
 }
