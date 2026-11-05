@@ -9,6 +9,9 @@
  *   ⑤ 固有数字零误判：150 / 1997 / 88,000 不得成为空格节点
  *   ⑥ 长文（set3Long，58 句 / 1208 token）纯函数重复 100 次取中位数 < 50ms
  *   ⑦ 拼回原文：所有节点 text 顺序拼接 === 句原文（不漏字、不重复）
+ *   ⑧ 段落级还原：`renderParagraph(paragraph.text, sentences)` 拼出的段落文本 === `paragraph.text`
+ *      （90 段逐一，句间/句末空隙不得丢；修复前「句子 text 直接拼接」有 75 段不等）
+ *   ⑨ 结构：句段数 === 句子总数，空隙段只出现在句间/首尾
  *
  * 为什么跑纯函数而不是 DOM：`render.ts` 不依赖 DOM（05 §四 规则 7），
  * node 里直接 import 同一份实现即可；DOM 层面的题目折叠/选项不可点由 CDP 断言（AC6 后半）。
@@ -34,16 +37,20 @@ if (!existsSync(renderPath)) {
 }
 
 // Node 24 可直接 import .ts（要求 erasable 语法，见 02 D6 R8）
-const { renderTokens } = await import(`file://${renderPath.replace(/\\/g, "/")}`);
+const { renderTokens, renderParagraph } = await import(`file://${renderPath.replace(/\\/g, "/")}`);
 
 const db = new DatabaseSync(dbPath, { readOnly: true });
 
 const sentences = db
   .prepare(
-    `SELECT s.id, s.article_id, s.idx, s.text, p.idx AS paragraph_idx
+    `SELECT s.id, s.article_id, s.paragraph_id, s.idx, s.text, s.start_offset, s.end_offset,
+            p.idx AS paragraph_idx
      FROM sentence s JOIN paragraph p ON p.id = s.paragraph_id
      ORDER BY s.article_id, p.idx, s.idx`,
   )
+  .all();
+const paragraphs = db
+  .prepare("SELECT id, article_id, idx, text FROM paragraph ORDER BY article_id, idx")
   .all();
 const tokenRows = db
   .prepare(
@@ -144,6 +151,53 @@ if (slicedBad) fail(`有 ${slicedBad} 个 token 的切片段与 surface 不等`)
 if (tailBad) fail(`有 ${tailBad} 句末 token 的 end !== 句长`);
 if (joinBad) fail(`有 ${joinBad} 句节点拼回后与原文不等`);
 
+// ── ⑧ 段落级还原：段落 DOM 文本 === paragraph.text ──
+// 渲染路径（`Reader.tsx`）= `renderParagraph(paragraph.text, sentences)` 逐段拼出「空隙 + 句子」，
+// 因此这里直接调同一份纯函数：段落文本必须能**无损还原**（红段判据见修复前的「句子 text 直接拼接」，
+// 90 段中 75 段不等 → 句间空格丢失）。⑨ 另外核「句段文本 = 该句 text」且空隙只出现在句与句/首尾之间。
+console.log(`\n── ⑧ 段落级还原（段落 DOM 文本 === paragraph.text）──`);
+const sentencesByParagraph = new Map();
+for (const sentence of sentences) {
+  const list = sentencesByParagraph.get(sentence.paragraph_id) ?? [];
+  list.push(sentence);
+  sentencesByParagraph.set(sentence.paragraph_id, list);
+}
+let paraOk = 0;
+let paraBad = 0;
+let gapParts = 0;
+let gapNonEmpty = 0;
+let sentenceParts = 0;
+const paraSamples = [];
+for (const paragraph of paragraphs) {
+  const rows = sentencesByParagraph.get(paragraph.id) ?? [];
+  const parts = renderParagraph(
+    paragraph.text,
+    rows.map((row) => ({ start: row.start_offset, end: row.end_offset, text: row.text })),
+  );
+  const rendered = parts.map((part) => part.text).join("");
+  for (const part of parts) {
+    if (part.kind === "gap") {
+      gapParts += 1;
+      if (part.text) gapNonEmpty += 1;
+    } else {
+      sentenceParts += 1;
+    }
+  }
+  if (rendered === paragraph.text) paraOk += 1;
+  else {
+    paraBad += 1;
+    if (paraSamples.length < 3) {
+      paraSamples.push({ paragraph: paragraph.id, lenPara: paragraph.text.length, lenRendered: rendered.length });
+    }
+  }
+}
+console.log(`  ⑧ 段落还原        ${paraOk}/${paraOk + paraBad}（库内共 ${paragraphs.length} 段）`);
+console.log(`  ⑨ 句段 / 空隙段   ${sentenceParts} 句段 / ${gapParts} 空隙段（其中非空 ${gapNonEmpty}）`);
+if (paraSamples.length) console.log(`  样例（最多 3 条）：${JSON.stringify(paraSamples)}`);
+if (paragraphs.length !== 90) fail(`段落应为 90，实测 ${paragraphs.length}`);
+if (sentenceParts !== sentences.length) fail(`句段应 ${sentences.length} 个，实测 ${sentenceParts}`);
+if (paraBad) fail(`有 ${paraBad} 段渲染后与 paragraph.text 不等（句间空隙丢失 → 句子粘连）`);
+
 // ── ④ 空格分母：92 个非词纯数字 → 30 出空格 / 62 不出 ──
 console.log(`\n── 空格分母（isWord===false ∧ /^\\d+$/ ∧ ∈ blankNos）──`);
 let nonWordNumeric = 0;
@@ -224,4 +278,4 @@ if (failed) {
   console.error("\nFAIL: renderTokens 未通过 AC6 判据");
   process.exit(1);
 }
-console.log("\nPASS: 6699 token 切片零例外 / 空格 30·62 / 固有数字零误判 / 长文中位数 < 50ms / 拼回原文");
+console.log("\nPASS: 6699 token 切片零例外 / 空格 30·62 / 固有数字零误判 / 长文中位数 < 50ms / 拼回原文 / 段落 90/90 无损还原");

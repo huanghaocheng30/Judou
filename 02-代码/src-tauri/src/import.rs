@@ -271,6 +271,8 @@ fn affected_articles(db: &Db, manifest: &Manifest) -> Result<Vec<usize>, Startup
 
 // ───────────────────────── 单事务写入 ─────────────────────────
 
+/// ponytail: 每篇现 prepare 9 条语句（12 篇 = 108 次 prepare，全量导入实测 252ms），不引语句缓存；
+/// 天花板 = prepare 次数与篇数成正比，等单篇上万 token 或内容包翻几倍，再改成全局 prepare 复用（节点口径不变）。
 fn write_all(tx: &Transaction<'_>, manifest: &Manifest, loaded: &[(usize, ArticlePack)]) -> Result<i64, CommandError> {
     for (index, article_pack) in loaded {
         let meta = &manifest.articles[*index];
@@ -755,6 +757,59 @@ mod tests {
         assert_eq!(article, 12);
         assert_eq!(sentence, 274);
         assert_eq!(token, 6699);
+
+        std::fs::remove_dir_all(path.parent().expect("有父目录")).ok();
+    }
+
+    /// D3 第三态（篇都在、子表缺行）：定位受影响篇 → **整篇重导**，不是跳过、也不是全量。
+    /// 造场：删 set2A 的 2 行 `question`（不删篇，且不碰 `sentence_analysis` / `token_analysis` /
+    /// `lexicon`——这三张表无法归属到篇，一旦缺失只能回退全量重导，见第二段）。
+    #[test]
+    fn missing_child_rows_are_restored_by_reimporting_that_article() {
+        let path = temp_db("child-rows");
+        let db = Db::open(path.clone()).expect("建库失败");
+        let dir = pack_dir();
+        let manifest = pack::load_manifest(&dir).expect("manifest 应能解析");
+        run(&db, &dir, &manifest).expect("首启导入应成功");
+
+        // 第一段：子表缺行 + 分析表完整 → 能归属到篇 → 只重导这 1 篇
+        db.write(|tx| {
+            tx.execute(
+                "DELETE FROM question WHERE id IN (
+                   SELECT q.id FROM question q JOIN article a ON a.id = q.article_id
+                   WHERE a.source_key = ?1 ORDER BY q.idx LIMIT 2)",
+                ["cet4-2023-12-set2A"],
+            )
+            .map_err(|err| CommandError::db("删测试题目", err))?;
+            Ok(())
+        })
+        .expect("删测试题目失败");
+        assert_eq!(count_rows(&db, "question").expect("计数失败"), 88, "删 2 行后应剩 88 行");
+
+        let report = run(&db, &dir, &manifest).expect("整篇重导应成功");
+        assert_eq!(report.imported, 1, "应只重导受影响的 1 篇（第三态而非全量/跳过）");
+        assert_eq!(report.skipped, 11);
+        assert_eq!(count_rows(&db, "question").expect("计数失败"), 90, "该篇题目应回全量");
+
+        // 第二段：删 sentence 行会级联带走 sentence_analysis / token_analysis（无法归属到篇）
+        // → 回退全量重导（D3 的安全兜底），九表计数同样必须回全量
+        db.write(|tx| {
+            tx.execute(
+                "DELETE FROM sentence WHERE id IN (
+                   SELECT s.id FROM sentence s JOIN article a ON a.id = s.article_id
+                   WHERE a.source_key = ?1 ORDER BY s.idx LIMIT 2)",
+                ["cet4-2023-12-set2A"],
+            )
+            .map_err(|err| CommandError::db("删测试句子", err))?;
+            Ok(())
+        })
+        .expect("删测试句子失败");
+        assert_eq!(count_rows(&db, "sentence").expect("计数失败"), 272);
+
+        let fallback = run(&db, &dir, &manifest).expect("全量重导应成功");
+        assert_eq!(fallback.imported, 12, "分析表缺行无法归属 → 回退全量重导");
+        assert_eq!(count_rows(&db, "sentence").expect("计数失败"), 274);
+        assert_eq!(count_rows(&db, "token").expect("计数失败"), 6699);
 
         std::fs::remove_dir_all(path.parent().expect("有父目录")).ok();
     }

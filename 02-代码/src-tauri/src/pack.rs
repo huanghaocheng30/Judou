@@ -288,6 +288,7 @@ pub struct QuestionPack {
 }
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
 pub struct QuestionOption {
     pub key: String,
     pub text: String,
@@ -455,6 +456,9 @@ pub fn basename(file: &str) -> String {
 ///
 /// 三层防护：① 组件必须是 `Normal`（拒绝对路径、`..`、根前缀）；② `canonicalize` 后再比父目录
 /// （拒符号链逃逸）；③ 失败时只回 basename。
+///
+/// ponytail: 限域用 `std::path::Component` + `canonicalize`（标准库够用），未引 `path-clean`；
+/// 天花板 = 只接受「包目录下的一层普通文件名」，内容包若真要嵌套子目录，再改成逐段校验的实现。
 fn safe_join(pack_dir: &Path, file: &str) -> Result<PathBuf, StartupError> {
     let name = basename(file);
     let rel = Path::new(file);

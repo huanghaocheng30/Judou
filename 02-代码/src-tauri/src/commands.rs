@@ -305,6 +305,7 @@ pub struct QuestionNode {
 }
 
 #[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct QuestionOptionNode {
     pub key: String,
     pub text: String,
@@ -354,7 +355,8 @@ pub fn list_articles(
             args.push(Value::Text(escape_like(trimmed)));
         }
     }
-    sql.push_str(" ORDER BY a.exam_year DESC, a.exam_set, a.section_type, a.title");
+    // `exam_set` 是 TEXT 列（R12）：不 CAST 会按字符串排，「10」排在「2」前面
+    sql.push_str(" ORDER BY a.exam_year DESC, CAST(a.exam_set AS INTEGER), a.section_type, a.title");
 
     struct Row {
         id: i64,

@@ -12,7 +12,7 @@
  */
 import { useEffect, useState } from "react";
 import { getArticleContent } from "../lib/api";
-import { renderTokens } from "../lib/render";
+import { renderParagraph, renderTokens } from "../lib/render";
 import type { ApiSentence, ArticleContent } from "../lib/types";
 import { useReturn, useRoute } from "../shell/routes";
 
@@ -137,9 +137,14 @@ export function Reader() {
       <article className="reader-body" data-testid="reader-body">
         {content.paragraphs.map((paragraph) => (
           <p className="para" key={paragraph.idx} data-paragraph-idx={paragraph.idx}>
-            {paragraph.sentences.map((sentence) => (
-              <Sentence key={sentence.idx} sentence={sentence} />
-            ))}
+            {/* 段落级忠实切片：句间/句末空隙取 `paragraph.text`，否则英文正文会句子粘连 */}
+            {renderParagraph(paragraph.text, paragraph.sentences).map((part) =>
+              part.kind === "sentence" ? (
+                <Sentence key={part.sentenceIndex} sentence={paragraph.sentences[part.sentenceIndex]} />
+              ) : (
+                part.text
+              ),
+            )}
           </p>
         ))}
       </article>

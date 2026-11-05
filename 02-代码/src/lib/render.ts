@@ -1,5 +1,6 @@
 /**
  * 精读渲染纯函数：把一句原文 + 该句 token 切成 text / word / blank 三类节点。
+ * 另有段落级切片 `renderParagraph`：段落原文 + 句偏移 → 「空隙 + 句子」序列（句间空格不丢）。
  *
  * 三条纪律（05 §四 / 02 D6）：
  * 1. **不依赖 DOM**：node 断言（`scripts/verify-render.mjs`）与 React 组件共用同一份实现。
@@ -73,4 +74,43 @@ export function renderTokens(text: string, tokens: ApiToken[], blankNos: number[
   }
 
   return nodes;
+}
+
+/** 段落级切片的一段：句子，或句间/首尾空隙（空隙文本原样保留） */
+export type ParagraphPart =
+  | { kind: "sentence"; text: string; sentenceIndex: number }
+  | { kind: "gap"; text: string };
+
+/** `renderParagraph` 需要的最小句子形状（`ApiSentence` 结构兼容，node 断言可直接传库行） */
+export interface ParagraphSentence {
+  start: number;
+  end: number;
+  text: string;
+}
+
+/**
+ * 切开一段：`paragraph.text` + 每句 `start`/`end` → 交替的「空隙 + 句子」序列。
+ *
+ * 为什么不能只拼句子：句子切片不含**句间/句末空隙**（当前内容包 184 处都是单空格），
+ * 只拼 `sentence.text` 会让英文正文句间粘连（90 段中 75 段）。这里用段落原文补空隙，
+ * 不假设空隙形态（空串 / 单空格 / 双空格都可），因此段落文本可**无损还原**。
+ * 句段仍取 `sentence.text`（token 偏移相对它，保证 `renderTokens` 不错位）。
+ */
+export function renderParagraph(text: string, sentences: ParagraphSentence[]): ParagraphPart[] {
+  const parts: ParagraphPart[] = [];
+  let prev = 0;
+
+  sentences.forEach((sentence, index) => {
+    if (sentence.start > prev) {
+      parts.push({ kind: "gap", text: text.slice(prev, sentence.start) });
+    }
+    parts.push({ kind: "sentence", text: sentence.text, sentenceIndex: index });
+    prev = sentence.end;
+  });
+
+  if (prev < text.length) {
+    parts.push({ kind: "gap", text: text.slice(prev) });
+  }
+
+  return parts;
 }

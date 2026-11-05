@@ -39,7 +39,8 @@ function fromQuery(query: URLSearchParams): LibraryState {
   return {
     vis: query.get("vis") === "user" ? "user" : "system",
     exams: query.getAll("exam"),
-    years: query.getAll("year"),
+    // 手改 URL 时 `?year=abc` 不能静默变成「选中的筛选不生效」：非数字年份直接丢弃
+    years: query.getAll("year").filter((value) => /^\d+$/.test(value)),
     sections: query.getAll("sec"),
     sources: query.getAll("src"),
     q: query.get("q") ?? "",
@@ -172,6 +173,11 @@ export function Library() {
   );
 
   const clearFilters = useCallback(() => {
+    // 先撤掉在途的搜索防抖：否则 250ms 后它会把旧关键词写回 state.q，让「清除筛选」看起来失效
+    if (debounceRef.current !== null) {
+      window.clearTimeout(debounceRef.current);
+      debounceRef.current = null;
+    }
     setKeywordInput("");
     setState({ vis: state.vis, exams: [], years: [], sections: [], sources: [], q: "" });
   }, [state.vis]);

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 /**
  * AC2 运行期断言：只读打开 Tauri 生成的本地库，核查 19 张物理表 / schema_meta.version（002 后应为 2） /
  * 6 条显式索引 / app_setting 实际值。与 verify-sql.mjs 的区别：

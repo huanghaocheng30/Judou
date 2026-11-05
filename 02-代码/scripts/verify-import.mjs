@@ -4,7 +4,8 @@
  *
  * 判据（02 §四 AC4）：
  *   九表行数 12 / 90 / 274 / 6699 / 274 / 213 / 1561 / 30 / 90（顺序见 TABLE_KEYS）
- *   四项非空：question.answer 90/90、question.explanation 30/30、
+ *   四项非空：question.answer 89/90 + 白名单 1 条（`KNOWN_EMPTY_ANSWERS`：set2Long/no=38，包内本身为 null）、
+ *             question.explanation 30/30、
  *             lexicon.word 1561/1561、article.source 12/12 且唯一值 = CET-4 2023年12月真题
  *   article.pack_version 全等 manifest.packVersion；**篇内残留版本（2023-12-set1-v0.9）不得入库**
  *   MAX(id)/COUNT(*) 供幂等复查（删篇补回后 id 会变、count 不变）
