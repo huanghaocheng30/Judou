@@ -1,0 +1,205 @@
+{
+  "sentences": {
+    "4-0": {
+      "translationLiteral": "那就是为什么我们最近推出了“不在办公室邮件生成器”，一个你可以在下一个长周末或旅行前使用的免费工具。",
+      "translationNatural": "所以我们最近做了个“休假自动回复生成器”——免费工具，下次小长假或出门旅行前就能用。",
+      "structMarkup": "【That】 _'s_ ~why we recently launched the Out of Office Email Generator~, ~a free tool (you can use) (before your next long weekend or trip)~.",
+      "structureSummary": "主系表结构 + 同位语（解释前文名词）+ 省略关系词的定语从句",
+      "components": [
+        { "part": "That", "role": "主语", "note": "指代上一段的困境" },
+        { "part": "'s (= is)", "role": "系动词", "note": "主系结构" },
+        { "part": "why we recently launched the Out of Office Email Generator", "role": "表语从句", "note": "That's why... 引出结果" },
+        { "part": "a free tool", "role": "同位语", "note": "解释前面的 Generator 是什么" },
+        { "part": "you can use", "role": "定语从句（省略 that/which）", "note": "修饰 tool" },
+        { "part": "before your next long weekend or trip", "role": "时间状语", "note": "说明使用时机" }
+      ],
+      "clauses": [
+        "why we recently launched... 是 why 引导的表语从句，作 is 的表语。",
+        "you can use 是省略了关系词 that/which 的定语从句，修饰 a free tool。",
+        "a free tool... 是同位语，与 the Out of Office Email Generator 指同一事物。"
+      ],
+      "phrases": [
+        {
+          "text": "launch a tool / product",
+          "meaning": "推出、发布（工具/产品）",
+          "usage": "launch 用于产品、活动、网站的发布；也可作名词“发布”。",
+          "example": "They launched a new app last month. 他们上个月发布了一款新应用。"
+        },
+        {
+          "text": "out of office",
+          "meaning": "不在办公室、休假中",
+          "usage": "邮箱自动回复里常见：I'm out of office until Monday.（我休假到下周一）",
+          "example": "Set an out of office reply before you leave. 走之前设一个休假自动回复。"
+        },
+        {
+          "text": "long weekend",
+          "meaning": "长周末（含额外休息日，如小长假）",
+          "usage": "英式说法，指周五或周一连着休的三天假期。",
+          "example": "We're going hiking over the long weekend. 小长假我们打算去徒步。"
+        }
+      ],
+      "pitfalls": [
+        "a free tool... 是同位语，不是宾语补足语，它与前面的名词指同一件事。",
+        "you can use 前省略了 that/which，不要误认为是另一个分句。",
+        "Out of Office 是固定表达，指“休假中”，不是“离开办公室”这个动作。"
+      ],
+      "paragraphRole": "从批评转向建设：给出作者团队的实际解决方案，为结尾的倡议做铺垫。"
+    },
+    "4-1": {
+      "translationLiteral": "你可以响亮而自豪地分享：直到你回来之前，你不会查看邮件。",
+      "translationNatural": "你可以理直气壮地宣布：假期结束前不查邮箱。",
+      "structMarkup": "【You】 _can share_ ~loud and proud~ ~{that you won't be checking email until you're back}~.",
+      "structureSummary": "主谓宾结构：主语 + 情态动词 + 谓语 + 方式状语 + 宾语从句",
+      "components": [
+        { "part": "You", "role": "主语", "note": "泛指使用者" },
+        { "part": "can share", "role": "谓语", "note": "share 此处指“公开说、分享”" },
+        { "part": "loud and proud", "role": "方式状语", "note": "两个形容词并列作状语，意为“大声而自豪地”" },
+        { "part": "that you won't be checking email until you're back", "role": "宾语从句", "note": "说明分享的内容" }
+      ],
+      "clauses": [
+        "that 引导宾语从句，作 share 的宾语。",
+        "until you're back 是 until 引导的时间状语从句。",
+        "won't be checking 是将来进行时的否定，强调“那段时间都不会在查”。"
+      ],
+      "phrases": [
+        {
+          "text": "loud and proud",
+          "meaning": "大声而自豪地、理直气壮地",
+          "usage": "口语表达，两个形容词并列作状语，修饰动词。",
+          "example": "She said it loud and proud. 她理直气壮地说了出来。"
+        },
+        {
+          "text": "not... until...",
+          "meaning": "直到……才……",
+          "usage": "否定词 + until，译成中文时把“才”放在 until 之后。",
+          "example": "I won't leave until you come back. 你不回来我就不走。"
+        }
+      ],
+      "pitfalls": [
+        "loud and proud 是形容词短语作状语，不要改成 loudly and proudly（虽可懂但不地道）。",
+        "not...until 不能直译成“不……直到……”，中文习惯说“直到……才……”。",
+        "until 从句用一般现在时表将来（you're back），不用 will be。"
+      ],
+      "paragraphRole": "说明工具的实际用法：把“我在休假”明白说出来，不留愧疚感。"
+    },
+    "4-2": {
+      "translationLiteral": "管理者在周末给团队发邮件以及谈论他们有多忙这件事上需要三思。",
+      "translationNatural": "管理者得掂量掂量：周末要不要给团队发邮件，要不要聊自己有多忙。",
+      "structMarkup": "【Managers】 _need to think twice_ (about emailing their teams on the weekend and talking about how busy they are).",
+      "structureSummary": "主谓结构 + 介词宾语（两个并列动名词短语）",
+      "components": [
+        { "part": "Managers", "role": "主语", "note": "复数泛指管理者" },
+        { "part": "need to think twice", "role": "谓语", "note": "need to do 表必要性；think twice 意为“三思”" },
+        { "part": "about emailing their teams on the weekend", "role": "介词宾语", "note": "第一个动名词短语" },
+        { "part": "and talking about how busy they are", "role": "介词宾语", "note": "第二个动名词短语，与前面并列" }
+      ],
+      "clauses": [
+        "about 后面接两个并列的动名词短语，共同作 think twice about 的宾语。",
+        "how busy they are 是 how 引导的宾语从句，作 talking about 的宾语，用陈述语序。"
+      ],
+      "phrases": [
+        {
+          "text": "think twice about sth./doing",
+          "meaning": "对……三思、慎重考虑",
+          "usage": "后接名词或动名词；语气上带有提醒意味。",
+          "example": "Think twice before you quit your job. 辞职前要三思。"
+        },
+        {
+          "text": "email sb.",
+          "meaning": "给某人发邮件",
+          "usage": "email 可直接作动词，email sb. about sth.；名词为 an email。",
+          "example": "I'll email you the file tonight. 今晚我把文件发邮件给你。"
+        }
+      ],
+      "pitfalls": [
+        "think twice about 后接动名词，不能接动词原形。",
+        "how busy they are 用陈述语序，不是 how busy are they。",
+        "themselves（第 4-3 句）与 their 的用法别混：their teams 指“他们的团队”。"
+      ],
+      "paragraphRole": "把责任指向管理者：周末发邮件、聊忙碌，本身就是再生产的“忙文化”。"
+    },
+    "4-3": {
+      "translationLiteral": "领导者应该自己休假，并鼓励员工也这样做。",
+      "translationNatural": "领导该自己带头休假，也鼓励员工跟着休。",
+      "structMarkup": "【Leaders】 _should take_ ~time off~ (themselves) and _encourage_ ~employees~ (to do the same).",
+      "structureSummary": "并列谓语：主语 + 情态动词 + 谓语 + 宾语（+ 同位语）+ and + 谓语 + 宾语 + 宾补",
+      "components": [
+        { "part": "Leaders", "role": "主语", "note": "复数泛指领导者" },
+        { "part": "should take", "role": "谓语", "note": "情态动词 should 表建议" },
+        { "part": "time off", "role": "宾语", "note": "take time off 是固定搭配“休假”" },
+        { "part": "themselves", "role": "同位语", "note": "强调“亲自、带头”" },
+        { "part": "encourage", "role": "谓语", "note": "与 take 并列的第二个谓语" },
+        { "part": "employees", "role": "宾语", "note": "鼓励的对象" },
+        { "part": "to do the same", "role": "宾语补足语", "note": "不定式说明鼓励他们做什么" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句；and 连接两个并列谓语（should take... 和 encourage...）。",
+        "encourage sb. to do sth. 是不带 to 的宾语补足语？注意：这里 to do 是不定式作宾补，必须带 to。"
+      ],
+      "phrases": [
+        {
+          "text": "take time off",
+          "meaning": "休假、抽时间休息",
+          "usage": "off 是副词；也可说 take a day off（请一天假）。",
+          "example": "You need to take some time off. 你需要休息一段时间。"
+        },
+        {
+          "text": "encourage sb. to do sth.",
+          "meaning": "鼓励某人做某事",
+          "usage": "后接带 to 的不定式；反义 discourage sb. from doing。",
+          "example": "Teachers should encourage students to ask questions. 老师应鼓励学生提问。"
+        },
+        {
+          "text": "do the same",
+          "meaning": "照做、也这样做",
+          "usage": "避免重复前面的动词短语时使用。",
+          "example": "He bought a bike, and I did the same. 他买了辆自行车，我也买了一辆。"
+        }
+      ],
+      "pitfalls": [
+        "encourage 后必须带 to：encourage sb. to do，不能省略 to。",
+        "themselves 是同位语，用来强调主语“领导自己”，不是宾语。",
+        "time off 中 off 是副词，不能写成 time of。"
+      ],
+      "paragraphRole": "结尾倡议：要求领导者以身作则、让休假成为被鼓励的行为，收束全文。"
+    }
+  },
+  "tokens": {
+    "launch": {
+      "phonetic": "/lɔːntʃ/",
+      "pos": "v.",
+      "senseInContext": "推出、发布（launched the Email Generator 推出了邮件生成器）",
+      "collocations": ["launch a product", "launch a campaign", "product launch"],
+      "examples": ["The company launched a new service in May. 公司五月推出了一项新服务。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "源自古法语 lancher（投掷）→ 发射 → 推出", "synonyms": "release / roll out / introduce", "confusables": "launch 还指“发射（火箭）、发起（活动）”；名词也可指“发布会”" }
+    },
+    "encourage": {
+      "phonetic": "/ɪnˈkʌrɪdʒ/",
+      "pos": "v.",
+      "senseInContext": "鼓励、支持（encourage employees to do the same 鼓励员工照做）",
+      "collocations": ["encourage sb. to do sth.", "encourage doing", "be encouraged by"],
+      "examples": ["My parents encouraged me to read widely. 父母鼓励我广泛阅读。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "en-（使）+ courage（勇气）→ 给人勇气", "synonyms": "motivate / inspire / support", "confusables": "encourage sb. to do（带 to）；反义 discourage sb. from doing" }
+    },
+    "employees": {
+      "phonetic": "/ɪmˈplɔɪiːz/",
+      "pos": "n.",
+      "senseInContext": "员工、雇员（复数）",
+      "collocations": ["full-time employee", "employee benefits", "employer vs employee"],
+      "examples": ["The company has 300 employees. 这家公司有 300 名员工。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "em-（使进入）+ ploy（卷入）→ 被雇佣", "synonyms": "staff / worker / workforce", "confusables": "employee 员工 / employer 雇主，拼写只差一位" }
+    },
+    "managers": {
+      "phonetic": "/ˈmænɪdʒəz/",
+      "pos": "n.",
+      "senseInContext": "管理者、经理（复数）",
+      "collocations": ["senior manager", "project manager", "line manager"],
+      "examples": ["Managers should listen to their teams. 管理者应当倾听团队的声音。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "man（手）+ age → 用手处理 → 管理", "synonyms": "supervisor / director", "confusables": "manager 侧重管理岗；leader 侧重带领方向" }
+    }
+  }
+}

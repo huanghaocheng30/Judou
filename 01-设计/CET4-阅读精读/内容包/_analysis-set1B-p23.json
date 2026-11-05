@@ -1,0 +1,294 @@
+{
+  "sentences": {
+    "2-0": {
+      "translationLiteral": "我们想确定是什么导致了在预订商务旅行方面的这些性别差异，所以我们测试了各种可能的解释，比如女性选择提前计划，或者男性常旅客倾向于晚订。",
+      "translationNatural": "我们想弄清这种订票上的性别差异到底从哪来，于是把各种可能的原因都试了一遍——比如女性更爱提前规划，或者常出差的男性更爱拖到最后订。",
+      "structMarkup": "【We】 _wanted to determine_ ~{what was causing these gender differences in booking business trips}~ {so we tested a variety of possible explanations}, (such as women choosing to plan ahead or male frequent travelers being inclined to book late).",
+      "structureSummary": "主谓宾从句 + 结果状语从句；such as 后接动名词复合结构",
+      "components": [
+        { "part": "We", "role": "主语", "note": "研究团队" },
+        { "part": "wanted to determine", "role": "谓语", "note": "want to do 表意愿" },
+        { "part": "what was causing these gender differences", "role": "宾语从句", "note": "what 作从句主语" },
+        { "part": "so we tested a variety of possible explanations", "role": "结果状语从句", "note": "so 连接结果" },
+        { "part": "such as women choosing to plan ahead...", "role": "举例", "note": "such as 后是动名词复合结构：women + choosing" }
+      ],
+      "clauses": [
+        "what was causing... 是 what 引导的宾语从句，作 determine 的宾语，用陈述语序。",
+        "so we tested... 是 so 引导的结果状语从句。",
+        "such as 后面并列两个结构：women choosing to plan ahead 与 male frequent travelers being inclined to book late，都是“名词 + 动名词”的复合结构。"
+      ],
+      "phrases": [
+        {
+          "text": "a variety of",
+          "meaning": "各种各样的",
+          "usage": "后接可数名词复数；同义 various。",
+          "example": "We tested a variety of options. 我们测试了各种方案。"
+        },
+        {
+          "text": "plan ahead",
+          "meaning": "提前计划、未雨绸缪",
+          "usage": "动词短语，ahead 表示“在前面”。",
+          "example": "She always plans ahead for exams. 她考试总是提前准备。"
+        },
+        {
+          "text": "be inclined to do sth.",
+          "meaning": "倾向于做某事",
+          "usage": "比 tend to 略正式；incline 作动词表示“倾向”。",
+          "example": "He is inclined to agree. 他倾向于同意。"
+        }
+      ],
+      "pitfalls": [
+        "what was causing 用陈述语序，不能写成 what was it causing。",
+        "such as 后面的 women choosing 是“名词 + 动名词”，women 不是主句主语。",
+        "so 在这里是“因此”，连接两个句子，不是“所以这么”。"
+      ],
+      "paragraphRole": "交代研究第二步：先排查各种表面解释，为后面的真正变量做铺垫。"
+    },
+    "2-1": {
+      "translationLiteral": "这些都没有把性别差距解释掉，所以我们采用了从调查中收集的数据，这些调查表达了在经济决策中起核心作用的消费者偏好，比如耐心和规避风险。",
+      "translationNatural": "这些原因都没能解释掉这个差距，于是我们改用问卷数据——这些问卷测的是对经济决策很关键的偏好，比如耐心程度和风险回避倾向。",
+      "structMarkup": "【None of these】 _explained away_ ~the gender gap~, {so we applied} ~data (collected from surveys) {that express consumer preferences} {that play a central role in economic decisions}, (such as patience and risk avoidance).",
+      "structureSummary": "两个并列分句（so 连接结果）+ 两个定语从句 + 举例",
+      "components": [
+        { "part": "None of these", "role": "主语", "note": "指上一句列举的各种解释" },
+        { "part": "explained away", "role": "谓语", "note": "explain away 意为“把……解释掉（使之不成立）”" },
+        { "part": "the gender gap", "role": "宾语", "note": "性别差距" },
+        { "part": "so we applied data", "role": "第二分句", "note": "so 表结果" },
+        { "part": "collected from surveys", "role": "过去分词短语作定语", "note": "修饰 data" },
+        { "part": "that express consumer preferences", "role": "定语从句", "note": "修饰 surveys" },
+        { "part": "that play a central role in economic decisions", "role": "定语从句", "note": "修饰 preferences" }
+      ],
+      "clauses": [
+        "so 引导结果，连接两个并列分句。",
+        "that express consumer preferences 是定语从句，先行词是 surveys。",
+        "that play a central role in economic decisions 是定语从句，先行词是 preferences——注意两个 that 修饰的不是同一个词。",
+        "collected from surveys 是过去分词短语作后置定语，不是谓语。"
+      ],
+      "phrases": [
+        {
+          "text": "explain away",
+          "meaning": "把……解释掉、搪塞过去",
+          "usage": "带贬义色彩，指用解释把问题淡化或消除。",
+          "example": "He tried to explain away his mistake. 他试图为自己的错误辩解。"
+        },
+        {
+          "text": "play a central role in",
+          "meaning": "在……中起核心作用",
+          "usage": "role 前可换 key/important/vital；也可 play a part in。",
+          "example": "Sleep plays a central role in memory. 睡眠对记忆起核心作用。"
+        },
+        {
+          "text": "risk avoidance",
+          "meaning": "风险回避",
+          "usage": "经济学/心理学常用术语；同族 avoid risk。",
+          "example": "Risk avoidance shapes many financial choices. 风险回避影响许多财务选择。"
+        }
+      ],
+      "pitfalls": [
+        "explain away 不是“解释”，而是“把……解释掉”，语气不同。",
+        "两个 that 从句修饰不同先行词（先 surveys，后 preferences），要顺着读。",
+        "None of these 作主语，现代英语谓语可用复数 explained。"
+      ],
+      "paragraphRole": "排除表面解释，转而引入偏好数据，把分析推向更深的心理变量。"
+    },
+    "3-0": {
+      "translationLiteral": "我们发现只有“负互惠”这一概念——即一个感到被不公平对待的员工会采取负面行为，比如不那么小心地花公司的钱——能解释这些差异。",
+      "translationNatural": "我们发现只有一个概念能解释这种差异：“负向互惠”——员工觉得自己被亏待了，就会用消极行为回敬，比如花公司的钱不那么心疼。",
+      "structMarkup": "【We】 _found_ ~{that only the concept of \"negative reciprocity\"—in which an employee who feels unfairly treated engages in negative behaviors, such as spending their company's money less carefully—explains these differences}~.",
+      "structureSummary": "主谓 + 宾语从句（从句主语带定语从句，谓语 explains）",
+      "components": [
+        { "part": "We", "role": "主语", "note": "研究者" },
+        { "part": "found", "role": "谓语", "note": "后接 that 宾语从句" },
+        { "part": "only the concept of \"negative reciprocity\"", "role": "从句主语", "note": "only 强调“唯一”" },
+        { "part": "in which an employee ... engages in negative behaviors", "role": "定语从句", "note": "修饰 concept，说明这个概念是什么" },
+        { "part": "explains", "role": "从句谓语", "note": "主语是 the concept，故用单数" },
+        { "part": "these differences", "role": "从句宾语", "note": "指前面的票价差异" }
+      ],
+      "clauses": [
+        "that 引导宾语从句，作 found 的宾语。",
+        "in which 引导定语从句，修饰 negative reciprocity（= in the concept）。",
+        "定语从句内部 who feels unfairly treated 是定语从句，修饰 an employee。",
+        "破折号中间整体是插入成分，把主谓分开，阅读时先跳过它能更快抓住主干。"
+      ],
+      "phrases": [
+        {
+          "text": "engage in",
+          "meaning": "从事、参与（某种行为）",
+          "usage": "后接名词或动名词：engage in business / engage in discussions。",
+          "example": "They engaged in a long debate. 他们进行了长时间辩论。"
+        },
+        {
+          "text": "negative reciprocity",
+          "meaning": "负向互惠（以怨报怨）",
+          "usage": "社会学/经济学概念，与 positive reciprocity（以德报德）相对。",
+          "example": "Negative reciprocity can damage teamwork. 负向互惠会损害团队合作。"
+        },
+        {
+          "text": "spend money less carefully",
+          "meaning": "花钱不那么仔细、大手大脚",
+          "usage": "carefully 修饰 spending；less carefully 表示程度降低。",
+          "example": "When rushed, people spend money less carefully. 赶时间时人们花钱更随意。"
+        }
+      ],
+      "pitfalls": [
+        "in which 中的 in 与 concept 搭配（in the concept），不是随意的介词。",
+        "engages 的主语是 an employee（单数），explains 的主语是 the concept（单数）——两处都要用单数。",
+        "破折号中间很长，先跳过读主干：only the concept ... explains these differences。"
+      ],
+      "paragraphRole": "给出真正的解释变量“负向互惠”，并给出定义，是全文论证的核心。"
+    },
+    "3-1": {
+      "translationLiteral": "调查显示男性比女性更倾向于表现出更多这些负面行为。",
+      "translationNatural": "问卷结果显示，男性比女性更容易出现这类消极行为。",
+      "structMarkup": "【The surveys】 _showed_ ~{men tend to exhibit more of these negative behaviors than women}~.",
+      "structureSummary": "主谓 + 省略 that 的宾语从句（从句内含比较）",
+      "components": [
+        { "part": "The surveys", "role": "主语", "note": "问卷数据" },
+        { "part": "showed", "role": "谓语", "note": "后接省略 that 的宾语从句" },
+        { "part": "men", "role": "从句主语", "note": "男性（泛指）" },
+        { "part": "tend to exhibit", "role": "从句谓语", "note": "倾向于表现出" },
+        { "part": "more of these negative behaviors", "role": "从句宾语", "note": "more 是代词，指更多这类行为" },
+        { "part": "than women", "role": "比较状语", "note": "与女性相比" }
+      ],
+      "clauses": [
+        "showed 后面省略了连接词 that，引导宾语从句。",
+        "than women 是比较结构，与 more 呼应。"
+      ],
+      "phrases": [
+        {
+          "text": "exhibit behavior",
+          "meaning": "表现出某种行为",
+          "usage": "exhibit 较正式，指“展示、表现出”；同义 show / display。",
+          "example": "Children exhibit similar patterns of play. 孩子表现出相似的玩耍模式。"
+        }
+      ],
+      "pitfalls": [
+        "showed 后省略 that，不要把 men 当成主句主语。",
+        "more of these behaviors 中 more 是代词，不是形容词。",
+        "tend to 后接动词原形 exhibit。"
+      ],
+      "paragraphRole": "用数据支撑上句的概念：男性负向行为更多。"
+    },
+    "3-2": {
+      "translationLiteral": "这并不是说所有男性都有这些行为——或者说相对较晚订票是异常行为的标志。",
+      "translationNatural": "这并不是说所有男性都会这样，也不是说订得晚就是“不正常”。",
+      "structMarkup": "【This】 _isn't_ ~to say {that all men engage in these behaviors}~—or ~{that booking relatively late is a sign of abnormal behavior}~.",
+      "structureSummary": "主系表结构，表语为不定式；两个 that 从句并列作 say 的宾语",
+      "components": [
+        { "part": "This", "role": "主语", "note": "指上一句的结论" },
+        { "part": "isn't", "role": "系动词", "note": "否定" },
+        { "part": "to say", "role": "表语", "note": "不定式作表语" },
+        { "part": "that all men engage in these behaviors", "role": "宾语从句", "note": "say 的第一个宾语" },
+        { "part": "that booking relatively late is a sign of abnormal behavior", "role": "宾语从句", "note": "say 的第二个宾语，由 or 并列" }
+      ],
+      "clauses": [
+        "This isn't to say that... 是固定句式：“这并不是说……”。",
+        "or 连接两个 that 从句，都作 say 的宾语。",
+        "booking relatively late 是动名词短语作第二个从句的主语，谓语用单数 is。"
+      ],
+      "phrases": [
+        {
+          "text": "that is to say",
+          "meaning": "也就是说（此处为否定式 this isn't to say）",
+          "usage": "用于澄清或限定前面的话。",
+          "example": "I'm not saying it's easy — that is to say, it takes time. 我不是说这容易，也就是说，它需要时间。"
+        },
+        {
+          "text": "a sign of",
+          "meaning": "……的标志、迹象",
+          "usage": "后接名词；同义 a signal of / an indication of。",
+          "example": "Fatigue is a sign of overwork. 疲劳是过度工作的迹象。"
+        }
+      ],
+      "pitfalls": [
+        "This isn't to say that... 意为“这并不是说”，不是“这不能说”。",
+        "or 后的 that 从句同样作 say 的宾语，要一起读。",
+        "booking 是动名词作主语，谓语用单数 is。"
+      ],
+      "paragraphRole": "限定结论边界，避免把统计结论说成对所有人的断言——学术写作的常见严谨表达。"
+    },
+    "3-3": {
+      "translationLiteral": "它只意味着当我们代入负互惠变量时，性别差距就消失了。",
+      "translationNatural": "它只是说：一旦把“负向互惠”这个变量放进去，性别差异就不见了。",
+      "structMarkup": "【It】 _only means_ ~{that the gender gap disappears when we plug in the negative reciprocity variable}~.",
+      "structureSummary": "主谓 + 宾语从句（从句内含时间状语从句）",
+      "components": [
+        { "part": "It", "role": "主语", "note": "指上一句的说明" },
+        { "part": "only means", "role": "谓语", "note": "only 强调“仅仅是”" },
+        { "part": "that the gender gap disappears...", "role": "宾语从句", "note": "means 的内容" },
+        { "part": "when we plug in the negative reciprocity variable", "role": "时间/条件状语从句", "note": "说明在什么条件下差距消失" }
+      ],
+      "clauses": [
+        "that 引导宾语从句，作 means 的宾语。",
+        "when 引导时间状语从句，在此也带条件意味（一旦……就）。"
+      ],
+      "phrases": [
+        {
+          "text": "plug in",
+          "meaning": "插入、代入（变量/数据）",
+          "usage": "本义“插电源”，统计语境指“把变量纳入模型”。",
+          "example": "Plug in the new figures and see what happens. 把新数据代进去看看结果。"
+        },
+        {
+          "text": "gender gap",
+          "meaning": "性别差距",
+          "usage": "常搭 narrow / close / widen the gap。",
+          "example": "The gender gap in pay has narrowed. 薪酬上的性别差距已经缩小。"
+        }
+      ],
+      "pitfalls": [
+        "plug in 在此是“代入变量”，不是“插电”。",
+        "disappears 的主语是 the gender gap（单数）。",
+        "only means 语气上是在收窄结论范围，不要读成“仅仅意味着不重要”。"
+      ],
+      "paragraphRole": "点明解释力：控制该变量后差异消失，正是“负向互惠”起作用的有力证据。"
+    }
+  },
+  "tokens": {
+    "determine": {
+      "phonetic": "/dɪˈtɜːmɪn/",
+      "pos": "v.",
+      "senseInContext": "确定、查明（determine what was causing... 查明原因）",
+      "collocations": ["determine whether/what", "be determined to do", "determine the cause"],
+      "examples": ["We need to determine the cause of the error. 我们需要查明错误原因。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "de-（完全）+ termin（界限）→ 划定界限 → 确定", "synonyms": "find out / identify / decide", "confusables": "be determined to do 是“决心做”，与 determine（确定）不同" }
+    },
+    "exhibit": {
+      "phonetic": "/ɪɡˈzɪbɪt/",
+      "pos": "v.",
+      "senseInContext": "表现出、显示出（exhibit behaviors 表现出行为）",
+      "collocations": ["exhibit behavior", "exhibit signs of", "an exhibit（展品）"],
+      "examples": ["Some patients exhibit no symptoms. 有些病人没有表现出症状。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "ex-（向外）+ hibit（持有）→ 拿出来 → 展示", "synonyms": "show / display / demonstrate", "confusables": "exhibit 较正式；show 最通用；名词 exhibit 指“展品”" }
+    },
+    "abnormal": {
+      "phonetic": "/æbˈnɔːml/",
+      "pos": "adj.",
+      "senseInContext": "不正常的、反常的（abnormal behavior 异常行为）",
+      "collocations": ["abnormal behavior", "abnormal level", "mentally abnormal"],
+      "examples": ["The test showed abnormal results. 检查显示了异常结果。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "ab-（偏离）+ normal（正常）→ 偏离正常", "synonyms": "unusual / irregular", "confusables": "abnormal 偏医学/统计“异常”；unusual 更中性“不寻常”" }
+    },
+    "disappear": {
+      "phonetic": "/ˌdɪsəˈpɪə(r)/",
+      "pos": "v.",
+      "senseInContext": "消失（the gap disappears 差距消失）",
+      "collocations": ["disappear from", "disappear completely", "disappearance（名词）"],
+      "examples": ["The pain disappeared after a week. 一周后疼痛消失了。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "dis-（否定）+ appear（出现）→ 不出现", "synonyms": "vanish / fade away", "confusables": "disappear 不及物；不要写成 be disappeared" }
+    },
+    "variable": {
+      "phonetic": "/ˈveəriəbl/",
+      "pos": "n./adj.",
+      "senseInContext": "变量（the negative reciprocity variable 负向互惠变量）",
+      "collocations": ["independent variable", "control a variable", "highly variable"],
+      "examples": ["Age is an important variable in the study. 年龄是这项研究中的一个重要变量。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "vari（变化）+ -able（可……的）→ 可变的", "synonyms": "factor / element", "confusables": "variable 名词“变量”；various 形容词“各种各样的”" }
+    }
+  }
+}

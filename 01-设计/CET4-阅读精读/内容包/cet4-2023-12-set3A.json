@@ -1,0 +1,3108 @@
+{
+  "packVersion": "2023-12-set1-v0.1",
+  "articleId": "set3A",
+  "sourceKey": "cet4-2023-12-set3A",
+  "meta": {
+    "examYear": 2023,
+    "examMonth": 12,
+    "setNo": 3,
+    "section": "仔细阅读",
+    "passageLabel": "Passage One",
+    "title": "第3套 · 仔细阅读 A",
+    "wordCount": 345
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "In the history of horse racing, few horses have captured the affection of the British public like Red Rum. Today, three decades after his retirement, he is still one of the best-known and most beloved racehorses of all time.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 106,
+          "text": "In the history of horse racing, few horses have captured the affection of the British public like Red Rum.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "surface": "history",
+              "normalized": "history",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 17,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 23,
+              "surface": "horse",
+              "normalized": "horse",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 30,
+              "surface": "racing",
+              "normalized": "racing",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "few",
+              "normalized": "few",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 42,
+              "surface": "horses",
+              "normalized": "horses",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 56,
+              "surface": "captured",
+              "normalized": "captured",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 70,
+              "surface": "affection",
+              "normalized": "affection",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 85,
+              "surface": "British",
+              "normalized": "british",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 92,
+              "surface": "public",
+              "normalized": "public",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 97,
+              "surface": "like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 101,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 105,
+              "surface": "Rum",
+              "normalized": "rum",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 106,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "start": 107,
+          "end": 224,
+          "text": "Today, three decades after his retirement, he is still one of the best-known and most beloved racehorses of all time.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Today",
+              "normalized": "today",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "surface": "three",
+              "normalized": "three",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 20,
+              "surface": "decades",
+              "normalized": "decades",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "after",
+              "normalized": "after",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 41,
+              "surface": "retirement",
+              "normalized": "retirement",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "he",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 54,
+              "surface": "still",
+              "normalized": "still",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "one",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 61,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 65,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 76,
+              "surface": "best-known",
+              "normalized": "best-known",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 80,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 85,
+              "surface": "most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 93,
+              "surface": "beloved",
+              "normalized": "beloved",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 104,
+              "surface": "racehorses",
+              "normalized": "racehorses",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 107,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 111,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 116,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 117,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Red Rum was passed around to several owners before being purchased for Noel Le Mar. The agent who made the purchase was the now-legendary horse trainer Donald \"Ginger\" McCain.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 83,
+          "text": "Red Rum was passed around to several owners before being purchased for Noel Le Mar.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "surface": "Rum",
+              "normalized": "rum",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "surface": "passed",
+              "normalized": "passed",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 28,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "several",
+              "normalized": "several",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 43,
+              "surface": "owners",
+              "normalized": "owners",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 50,
+              "surface": "before",
+              "normalized": "before",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 56,
+              "surface": "being",
+              "normalized": "being",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 66,
+              "surface": "purchased",
+              "normalized": "purchased",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "Noel",
+              "normalized": "noel",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "Le",
+              "normalized": "le",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 82,
+              "surface": "Mar",
+              "normalized": "mar",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 83,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "start": 84,
+          "end": 175,
+          "text": "The agent who made the purchase was the now-legendary horse trainer Donald \"Ginger\" McCain.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "agent",
+              "normalized": "agent",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "made",
+              "normalized": "made",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 31,
+              "surface": "purchase",
+              "normalized": "purchase",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 39,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 53,
+              "surface": "now-legendary",
+              "normalized": "now-legendary",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 59,
+              "surface": "horse",
+              "normalized": "horse",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 67,
+              "surface": "trainer",
+              "normalized": "trainer",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 74,
+              "surface": "Donald",
+              "normalized": "donald",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 76,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 76,
+              "end": 82,
+              "surface": "Ginger",
+              "normalized": "ginger",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 83,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 84,
+              "end": 90,
+              "surface": "McCain",
+              "normalized": "mccain",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 91,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "It wasn't apparent at the time, but Red Rum had a serious bone disease in his foot. For many horses (and many trainers) this would mean the end of a racing career before it even began. For Ginger and Red Rum, though, it was just an obstacle to greatness that had to be overcome.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 83,
+          "text": "It wasn't apparent at the time, but Red Rum had a serious bone disease in his foot.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 9,
+              "surface": "wasn't",
+              "normalized": "wasn't",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 18,
+              "surface": "apparent",
+              "normalized": "apparent",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 39,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 43,
+              "surface": "Rum",
+              "normalized": "rum",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 47,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 49,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 57,
+              "surface": "serious",
+              "normalized": "serious",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "bone",
+              "normalized": "bone",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 70,
+              "surface": "disease",
+              "normalized": "disease",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "foot",
+              "normalized": "foot",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 83,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "start": 84,
+          "end": 184,
+          "text": "For many horses (and many trainers) this would mean the end of a racing career before it even began.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "For",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 15,
+              "surface": "horses",
+              "normalized": "horses",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "surface": "(",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 34,
+              "surface": "trainers",
+              "normalized": "trainers",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 35,
+              "surface": ")",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 46,
+              "surface": "would",
+              "normalized": "would",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 51,
+              "surface": "mean",
+              "normalized": "mean",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 55,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 59,
+              "surface": "end",
+              "normalized": "end",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 64,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 71,
+              "surface": "racing",
+              "normalized": "racing",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 78,
+              "surface": "career",
+              "normalized": "career",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 85,
+              "surface": "before",
+              "normalized": "before",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 88,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 93,
+              "surface": "even",
+              "normalized": "even",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 99,
+              "surface": "began",
+              "normalized": "began",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 100,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "start": 185,
+          "end": 278,
+          "text": "For Ginger and Red Rum, though, it was just an obstacle to greatness that had to be overcome.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "For",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "surface": "Ginger",
+              "normalized": "ginger",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "Rum",
+              "normalized": "rum",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 23,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 24,
+              "end": 30,
+              "surface": "though",
+              "normalized": "though",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 38,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 46,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 55,
+              "surface": "obstacle",
+              "normalized": "obstacle",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 58,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 68,
+              "surface": "greatness",
+              "normalized": "greatness",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 73,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 83,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 92,
+              "surface": "overcome",
+              "normalized": "overcome",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 93,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "Red Rum's true talent came out in steeplechases (障碍赛马). His power, speed and jumping ability carried him to his first Grand National title in 1973. The very next year, Red Rum returned to take his second title. He was the first horse to take successive firsts since Reynoldstown in 1935-1936. Red Rum's spirit and grace had already begun to charm the leagues of Grand National fans.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 55,
+          "text": "Red Rum's true talent came out in steeplechases (障碍赛马).",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "Rum's",
+              "normalized": "rum's",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "true",
+              "normalized": "true",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 21,
+              "surface": "talent",
+              "normalized": "talent",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "came",
+              "normalized": "came",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 47,
+              "surface": "steeplechases",
+              "normalized": "steeplechases",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 49,
+              "surface": "(",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "surface": "障",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 50,
+              "end": 51,
+              "surface": "碍",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 51,
+              "end": 52,
+              "surface": "赛",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": "马",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 53,
+              "end": 54,
+              "surface": ")",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 54,
+              "end": 55,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "start": 56,
+          "end": 210,
+          "text": "His power, speed and jumping ability carried him to his first Grand National title in 1973. The very next year, Red Rum returned to take his second title.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "His",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "power",
+              "normalized": "power",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "speed",
+              "normalized": "speed",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 28,
+              "surface": "jumping",
+              "normalized": "jumping",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 44,
+              "surface": "carried",
+              "normalized": "carried",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "him",
+              "normalized": "him",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 51,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 55,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 61,
+              "surface": "first",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 67,
+              "surface": "Grand",
+              "normalized": "grand",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 76,
+              "surface": "National",
+              "normalized": "national",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 82,
+              "surface": "title",
+              "normalized": "title",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 85,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 90,
+              "surface": "1973",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 90,
+              "end": 91,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 92,
+              "end": 95,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 100,
+              "surface": "very",
+              "normalized": "very",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 105,
+              "surface": "next",
+              "normalized": "next",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 110,
+              "surface": "year",
+              "normalized": "year",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 111,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 112,
+              "end": 115,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 119,
+              "surface": "Rum",
+              "normalized": "rum",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 128,
+              "surface": "returned",
+              "normalized": "returned",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 131,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 136,
+              "surface": "take",
+              "normalized": "take",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 140,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 147,
+              "surface": "second",
+              "normalized": "second",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 153,
+              "surface": "title",
+              "normalized": "title",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 154,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "start": 211,
+          "end": 382,
+          "text": "He was the first horse to take successive firsts since Reynoldstown in 1935-1936. Red Rum's spirit and grace had already begun to charm the leagues of Grand National fans.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "first",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "horse",
+              "normalized": "horse",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "take",
+              "normalized": "take",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 41,
+              "surface": "successive",
+              "normalized": "successive",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 48,
+              "surface": "firsts",
+              "normalized": "firsts",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 54,
+              "surface": "since",
+              "normalized": "since",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 67,
+              "surface": "Reynoldstown",
+              "normalized": "reynoldstown",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "1935",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 75,
+              "end": 76,
+              "surface": "-",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 76,
+              "end": 80,
+              "surface": "1936",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 80,
+              "end": 81,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 82,
+              "end": 85,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 91,
+              "surface": "Rum's",
+              "normalized": "rum's",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 98,
+              "surface": "spirit",
+              "normalized": "spirit",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 102,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 108,
+              "surface": "grace",
+              "normalized": "grace",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 112,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 120,
+              "surface": "already",
+              "normalized": "already",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 126,
+              "surface": "begun",
+              "normalized": "begun",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 129,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 135,
+              "surface": "charm",
+              "normalized": "charm",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 139,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 147,
+              "surface": "leagues",
+              "normalized": "leagues",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 150,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 156,
+              "surface": "Grand",
+              "normalized": "grand",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 165,
+              "surface": "National",
+              "normalized": "national",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 170,
+              "surface": "fans",
+              "normalized": "fans",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 171,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "In the following two years, Red Rum lost out on the title, coming in second both times. When he returned in 1977 to try again, he was largely regarded as past his prime. He was 12 years old and not expected to place highly. He surprised sporting fans around the world when he came in a remarkable 25 lengths ahead of the nearest horse, taking his third Grand National win. To this day, Red Rum's third win is known as one of the greatest moments in horse racing history.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 87,
+          "text": "In the following two years, Red Rum lost out on the title, coming in second both times.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 16,
+              "surface": "following",
+              "normalized": "following",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "two",
+              "normalized": "two",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 27,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 28,
+              "end": 31,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "Rum",
+              "normalized": "rum",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "lost",
+              "normalized": "lost",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 47,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 57,
+              "surface": "title",
+              "normalized": "title",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 58,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 59,
+              "end": 65,
+              "surface": "coming",
+              "normalized": "coming",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 75,
+              "surface": "second",
+              "normalized": "second",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 80,
+              "surface": "both",
+              "normalized": "both",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 86,
+              "surface": "times",
+              "normalized": "times",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 87,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "start": 88,
+          "end": 169,
+          "text": "When he returned in 1977 to try again, he was largely regarded as past his prime.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "When",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "he",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 16,
+              "surface": "returned",
+              "normalized": "returned",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "1977",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 31,
+              "surface": "try",
+              "normalized": "try",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 37,
+              "surface": "again",
+              "normalized": "again",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 38,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "he",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 53,
+              "surface": "largely",
+              "normalized": "largely",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 62,
+              "surface": "regarded",
+              "normalized": "regarded",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 70,
+              "surface": "past",
+              "normalized": "past",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 74,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 80,
+              "surface": "prime",
+              "normalized": "prime",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 81,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "start": 170,
+          "end": 223,
+          "text": "He was 12 years old and not expected to place highly.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "surface": "12",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "old",
+              "normalized": "old",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 23,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 36,
+              "surface": "expected",
+              "normalized": "expected",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 39,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 45,
+              "surface": "place",
+              "normalized": "place",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 52,
+              "surface": "highly",
+              "normalized": "highly",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "start": 224,
+          "end": 372,
+          "text": "He surprised sporting fans around the world when he came in a remarkable 25 lengths ahead of the nearest horse, taking his third Grand National win.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 12,
+              "surface": "surprised",
+              "normalized": "surprised",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 21,
+              "surface": "sporting",
+              "normalized": "sporting",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "fans",
+              "normalized": "fans",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 33,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 37,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 43,
+              "surface": "world",
+              "normalized": "world",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 51,
+              "surface": "he",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 56,
+              "surface": "came",
+              "normalized": "came",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 59,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 61,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 72,
+              "surface": "remarkable",
+              "normalized": "remarkable",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 75,
+              "surface": "25",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 76,
+              "end": 83,
+              "surface": "lengths",
+              "normalized": "lengths",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 89,
+              "surface": "ahead",
+              "normalized": "ahead",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 96,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 104,
+              "surface": "nearest",
+              "normalized": "nearest",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 110,
+              "surface": "horse",
+              "normalized": "horse",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 111,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 112,
+              "end": 118,
+              "surface": "taking",
+              "normalized": "taking",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 122,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 128,
+              "surface": "third",
+              "normalized": "third",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 134,
+              "surface": "Grand",
+              "normalized": "grand",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 143,
+              "surface": "National",
+              "normalized": "national",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 147,
+              "surface": "win",
+              "normalized": "win",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 148,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "start": 373,
+          "end": 470,
+          "text": "To this day, Red Rum's third win is known as one of the greatest moments in horse racing history.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "To",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 7,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "Rum's",
+              "normalized": "rum's",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 28,
+              "surface": "third",
+              "normalized": "third",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "win",
+              "normalized": "win",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 35,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "known",
+              "normalized": "known",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 44,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "one",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 51,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 55,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 64,
+              "surface": "greatest",
+              "normalized": "greatest",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 72,
+              "surface": "moments",
+              "normalized": "moments",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 75,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 81,
+              "surface": "horse",
+              "normalized": "horse",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 88,
+              "surface": "racing",
+              "normalized": "racing",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 96,
+              "surface": "history",
+              "normalized": "history",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 97,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "Red Rum was headed for the Grand National once again in 1978 but suffered an injury in one of his heels shortly before the race. He was retired soon after, but his public life and fame by no means decreased with the end of his career. Red Rum traveled all over the country for various engagements. He often led pre-race parades at Aintree Racecourse and was a popular guest at charity benefits and public events.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 128,
+          "text": "Red Rum was headed for the Grand National once again in 1978 but suffered an injury in one of his heels shortly before the race.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "surface": "Rum",
+              "normalized": "rum",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "surface": "headed",
+              "normalized": "headed",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 26,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "Grand",
+              "normalized": "grand",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 41,
+              "surface": "National",
+              "normalized": "national",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "once",
+              "normalized": "once",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "again",
+              "normalized": "again",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 55,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 60,
+              "surface": "1978",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 61,
+              "end": 64,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 73,
+              "surface": "suffered",
+              "normalized": "suffered",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 83,
+              "surface": "injury",
+              "normalized": "injury",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 86,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "one",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 97,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 103,
+              "surface": "heels",
+              "normalized": "heels",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 111,
+              "surface": "shortly",
+              "normalized": "shortly",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 118,
+              "surface": "before",
+              "normalized": "before",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 122,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 127,
+              "surface": "race",
+              "normalized": "race",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 128,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "start": 129,
+          "end": 234,
+          "text": "He was retired soon after, but his public life and fame by no means decreased with the end of his career.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "surface": "retired",
+              "normalized": "retired",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "soon",
+              "normalized": "soon",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 25,
+              "surface": "after",
+              "normalized": "after",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 26,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 34,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 41,
+              "surface": "public",
+              "normalized": "public",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "life",
+              "normalized": "life",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 50,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 55,
+              "surface": "fame",
+              "normalized": "fame",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 58,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 61,
+              "surface": "no",
+              "normalized": "no",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 67,
+              "surface": "means",
+              "normalized": "means",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 77,
+              "surface": "decreased",
+              "normalized": "decreased",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 86,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "end",
+              "normalized": "end",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 97,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 104,
+              "surface": "career",
+              "normalized": "career",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 105,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "start": 235,
+          "end": 297,
+          "text": "Red Rum traveled all over the country for various engagements.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Red",
+              "normalized": "red",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "surface": "Rum",
+              "normalized": "rum",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 16,
+              "surface": "traveled",
+              "normalized": "traveled",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 37,
+              "surface": "country",
+              "normalized": "country",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 41,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 49,
+              "surface": "various",
+              "normalized": "various",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 61,
+              "surface": "engagements",
+              "normalized": "engagements",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "start": 298,
+          "end": 412,
+          "text": "He often led pre-race parades at Aintree Racecourse and was a popular guest at charity benefits and public events.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "often",
+              "normalized": "often",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "surface": "led",
+              "normalized": "led",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 21,
+              "surface": "pre-race",
+              "normalized": "pre-race",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 29,
+              "surface": "parades",
+              "normalized": "parades",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 40,
+              "surface": "Aintree",
+              "normalized": "aintree",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 51,
+              "surface": "Racecourse",
+              "normalized": "racecourse",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 55,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 59,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 61,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 69,
+              "surface": "popular",
+              "normalized": "popular",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "surface": "guest",
+              "normalized": "guest",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 86,
+              "surface": "charity",
+              "normalized": "charity",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 95,
+              "surface": "benefits",
+              "normalized": "benefits",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 99,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 106,
+              "surface": "public",
+              "normalized": "public",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 113,
+              "surface": "events",
+              "normalized": "events",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 114,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 46,
+      "stem": "What do we learn from the passage about Red Rum the racehorse?",
+      "options": [
+        {
+          "key": "A",
+          "text": "He captured public affection long before he won national titles."
+        },
+        {
+          "key": "B",
+          "text": "He won enormous fame and love from British people."
+        },
+        {
+          "key": "C",
+          "text": "He became a myth three decades after his retirement."
+        },
+        {
+          "key": "D",
+          "text": "He owed his great success to several well-known horse trainers."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 47,
+      "stem": "What did the serious bone disease in Red Rum's foot mean to himself and his trainer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It was simply a hindrance they had to get over to excel."
+        },
+        {
+          "key": "B",
+          "text": "It was surely a disadvantage though not considered fatal."
+        },
+        {
+          "key": "C",
+          "text": "It was actually the end of a racing career that had just begun."
+        },
+        {
+          "key": "D",
+          "text": "It was really a major obstacle hard to overcome on their own."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 48,
+      "stem": "What does the author say Red Rum did with his power, speed and jumping ability?",
+      "options": [
+        {
+          "key": "A",
+          "text": "He won his first Grand National title at 12."
+        },
+        {
+          "key": "B",
+          "text": "He took two firsts successively in 1935-1936."
+        },
+        {
+          "key": "C",
+          "text": "He surprised sporting fans worldwide in 1973."
+        },
+        {
+          "key": "D",
+          "text": "He took three Grand National wins in the 1970s."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 49,
+      "stem": "What did people generally think of Red Rum when he returned to the racecourse in 1977?",
+      "options": [
+        {
+          "key": "A",
+          "text": "He had already passed the peak of his racing life."
+        },
+        {
+          "key": "B",
+          "text": "He would have no rival in Grand National steeplechases."
+        },
+        {
+          "key": "C",
+          "text": "He had lost his charm with the leagues of Grand National fans."
+        },
+        {
+          "key": "D",
+          "text": "He could be expected to repeat his glory in the prime of his career."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 50,
+      "stem": "What became of Red Rum after his career ended?",
+      "options": [
+        {
+          "key": "A",
+          "text": "He suffered from severe pain in a heel."
+        },
+        {
+          "key": "B",
+          "text": "He spent almost all his time traveling."
+        },
+        {
+          "key": "C",
+          "text": "He lived on various charity benefits."
+        },
+        {
+          "key": "D",
+          "text": "He remained famous and popular."
+        }
+      ],
+      "answer": "D"
+    }
+  ],
+  "lexicon": {}
+}

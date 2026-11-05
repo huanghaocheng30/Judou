@@ -1,0 +1,183 @@
+{
+  "sentences": {
+    "3-0": {
+      "translationLiteral": "就我个人而言，我打算停止在人们问我怎么样时说“忙”。",
+      "translationNatural": "就我自己来说，别人问我近况，我不打算再答“忙”了。",
+      "structMarkup": "(Personally), 【I】 _'m going to stop saying_ ~\"busy\"~ {when people ask me how I am}.",
+      "structureSummary": "主谓宾结构 + 时间状语从句（be going to 表打算）",
+      "components": [
+        { "part": "Personally", "role": "插入语", "note": "表示“就我个人而言”，修饰整句" },
+        { "part": "I", "role": "主语", "note": "作者自己" },
+        { "part": "'m going to stop saying", "role": "谓语", "note": "be going to 表主观打算；stop doing 表“停止做”" },
+        { "part": "\"busy\"", "role": "宾语", "note": "saying 的宾语，指说“忙”这个词" },
+        { "part": "when people ask me how I am", "role": "时间状语从句", "note": "交代说这句话的场合" }
+      ],
+      "clauses": [
+        "when people ask me how I am 是 when 引导的时间状语从句。",
+        "从句内部 how I am 是 how 引导的宾语从句，作 ask 的直接宾语，用陈述语序（不是 how am I）。",
+        "stop saying 中 saying 是动名词，作 stop 的宾语。"
+      ],
+      "phrases": [
+        {
+          "text": "be going to do sth.",
+          "meaning": "打算、将要（做某事）",
+          "usage": "表主观计划或已有迹象的预测，比 will 更能体现“决定”。",
+          "example": "I'm going to start running next week. 我打算下周开始跑步。"
+        },
+        {
+          "text": "stop doing sth.",
+          "meaning": "停止做某事（不再做）",
+          "usage": "对比 stop to do sth.＝停下来去做另一件事，两者意思差别很大。",
+          "example": "He stopped smoking last year. 他去年戒烟了。"
+        }
+      ],
+      "pitfalls": [
+        "stop saying 是“不再说”；stop to say 是“停下来去说”，别混。",
+        "how I am 是宾语从句，必须用陈述语序。",
+        "saying 后接的是词本身（\"busy\"），带引号，不要理解成形容词 busy。"
+      ],
+      "paragraphRole": "从议论转向行动：作者宣布自己不再用“忙”作答，开启下文的做法与呼吁。"
+    },
+    "3-1": {
+      "translationLiteral": "它听起来自以为是，并且设定了错误的语气。",
+      "translationNatural": "这话听起来自以为是，也把气氛带偏了。",
+      "structMarkup": "【It】 _sounds_ ~self-righteous~ and _sets_ ~the wrong tone~.",
+      "structureSummary": "并列谓语：主语 + 系动词 + 表语，and + 谓语 + 宾语",
+      "components": [
+        { "part": "It", "role": "主语", "note": "指上一句说的“我很忙”这句话" },
+        { "part": "sounds", "role": "系动词", "note": "感官动词作系动词，后接形容词" },
+        { "part": "self-righteous", "role": "表语", "note": "形容词“自以为是的、自以为正确的”" },
+        { "part": "sets", "role": "谓语", "note": "与 sounds 并列的第二个谓语" },
+        { "part": "the wrong tone", "role": "宾语", "note": "set the tone 意为“定调”" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句；and 连接两个并列谓语，共用主语 It。",
+        "sounds 是系动词，所以后面接形容词 self-righteous 而不是副词。"
+      ],
+      "phrases": [
+        {
+          "text": "sound + 形容词",
+          "meaning": "听起来……",
+          "usage": "sound / taste / smell / feel / look 都可作系动词，后接形容词。",
+          "example": "That sounds great. 听起来不错。"
+        },
+        {
+          "text": "set the tone",
+          "meaning": "定调、奠定基调",
+          "usage": "常用搭配：set the tone for sth.（为某事定调）。",
+          "example": "The first meeting sets the tone for the project. 第一次会议为项目定下基调。"
+        }
+      ],
+      "pitfalls": [
+        "sound 作系动词时接形容词，不能说 sounds self-righteously。",
+        "self-righteous 带连字符，意思是“自认为永远正确的”，比 confident 带贬义。",
+        "sets 的主语仍是 It，不要误以为换了主语。"
+      ],
+      "paragraphRole": "给出作者不再说“忙”的第一条理由：这话在道德姿态和语气上都不得体。"
+    },
+    "3-2": {
+      "translationLiteral": "像“我查看邮件的机会有限”和“我一回来就回复”这样的说法，听起来像是你被违背意愿地拦着不能工作，而不是在充分利用你的休假时间。",
+      "translationNatural": "“我不太方便查邮件”“我回来就回复”这类话，听起来像是你被强迫不能工作，而不是在好好享受假期。",
+      "structMarkup": "【Phrases like \"I have limited access to email\" and \"I'll respond as soon as I get back\"】 _sound like_ ~{you're being held against your will from working}~ (as opposed to making the most of your time off).",
+      "structureSummary": "主系表结构：主语（较长的名词短语）+ sound like + 从句 + 对比状语",
+      "components": [
+        { "part": "Phrases like ... and ...", "role": "主语", "note": "中心词是 Phrases，like 后是两个引号举例" },
+        { "part": "sound like", "role": "系动词短语", "note": "口语中 like 后可接句子，相当于“听起来像……”" },
+        { "part": "you're being held against your will from working", "role": "表语从句", "note": "现在进行时被动，说明“被拦住、不能工作”" },
+        { "part": "as opposed to making the most of your time off", "role": "对比状语", "note": "引出被对比的另一种解读" }
+      ],
+      "clauses": [
+        "sound like 在口语中可后接完整从句，相当于 it sounds as if...。",
+        "you're being held against your will from working 是现在进行时的被动语态（are being held）。",
+        "引号内 I'll respond as soon as I get back 含 as soon as 引导的时间状语从句。",
+        "as opposed to 是介词性短语，后接名词或动名词，不接句子。"
+      ],
+      "phrases": [
+        {
+          "text": "have limited access to",
+          "meaning": "接触/使用……的机会有限",
+          "usage": "access 是不可数名词，常搭 have access to（能接触到）。",
+          "example": "Students have free access to the library. 学生可以免费使用图书馆。"
+        },
+        {
+          "text": "as soon as",
+          "meaning": "一……就……",
+          "usage": "引导时间状语从句，主句常用将来时，从句用一般现在时表将来。",
+          "example": "I'll call you as soon as I arrive. 我一到就给你打电话。"
+        },
+        {
+          "text": "against one's will",
+          "meaning": "违背某人的意愿",
+          "usage": "固定搭配；will 在此是名词“意愿”，不是助动词。",
+          "example": "He signed the paper against his will. 他违背意愿签了那份文件。"
+        },
+        {
+          "text": "as opposed to",
+          "meaning": "而不是、与……相对",
+          "usage": "用于对比两种说法或做法，后接名词/动名词。",
+          "example": "We should listen, as opposed to arguing. 我们该倾听，而不是争辩。"
+        },
+        {
+          "text": "make the most of",
+          "meaning": "充分利用",
+          "usage": "the most of 后接名词；同义 make full use of。",
+          "example": "Make the most of your summer break. 好好利用你的暑假。"
+        }
+      ],
+      "pitfalls": [
+        "sound like 后面可以直接跟从句（口语），不要写成 sound as。",
+        "as opposed to 意为“而不是”，容易误读成“反对”。",
+        "being held 是进行时被动；漏掉 being 就变成一般现在时被动，时间感不同。",
+        "against one's will 中的 will 是名词“意愿”，别当成将来时的 will。"
+      ],
+      "paragraphRole": "用三个具体说法作例子，说明“措辞”如何暴露我们对工作的真实态度——像是被迫，而不是享受假期。"
+    }
+  },
+  "tokens": {
+    "respond": {
+      "phonetic": "/rɪˈspɒnd/",
+      "pos": "v.",
+      "senseInContext": "回复、回应（I'll respond 我会回复）",
+      "collocations": ["respond to sth.", "respond promptly", "in response to"],
+      "examples": ["Please respond to the email by Friday. 请在周五前回复邮件。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "re-（回）+ spond（承诺）→ 回话 → 回应", "synonyms": "reply / answer / react", "confusables": "respond 是不及物动词，接宾语要加 to；reply 可直接接 that 从句" }
+    },
+    "access": {
+      "phonetic": "/ˈækses/",
+      "pos": "n.",
+      "senseInContext": "接触、使用的机会（limited access to email 不太方便查邮件）",
+      "collocations": ["have access to", "gain access to", "internet access"],
+      "examples": ["Everyone has access to the online library. 每个人都能使用在线图书馆。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "ac-（向）+ cess（走）→ 走近 → 接近、通道", "synonyms": "entry / availability", "confusables": "access 是不可数名词，不能说 an access；动词用法 access sth. 较正式" }
+    },
+    "opposed": {
+      "phonetic": "/əˈpəʊzd/",
+      "pos": "adj./v.（过去分词）",
+      "senseInContext": "（as opposed to）而不是，与……相对",
+      "collocations": ["as opposed to", "be opposed to", "oppose doing sth."],
+      "examples": ["I prefer tea, as opposed to coffee. 比起咖啡，我更喜欢茶。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "op-（相对）+ pose（放）→ 放在对面 → 反对", "synonyms": "rather than / instead of", "confusables": "be opposed to 是“反对”；as opposed to 是“而不是”，两者不同" }
+    },
+    "tone": {
+      "phonetic": "/təʊn/",
+      "pos": "n.",
+      "senseInContext": "语气、基调（set the wrong tone 定错了调子）",
+      "collocations": ["set the tone", "tone of voice", "in a ... tone"],
+      "examples": ["Her tone suggested she was annoyed. 她的语气表明她有点恼火。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "ton（音调）→ 语气、色调", "synonyms": "manner / mood / pitch", "confusables": "tone 指语气/色调；tune 指曲调，别混" }
+    },
+    "righteous": {
+      "phonetic": "/ˈraɪtʃəs/",
+      "pos": "adj.",
+      "senseInContext": "（self-righteous）自以为是的、自认道德的",
+      "collocations": ["self-righteous", "righteous anger"],
+      "examples": ["He got self-righteous about other people's habits. 他对别人的习惯摆出一副道德优越感。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "right（正当）+ -eous（形容词）→ 正当的", "synonyms": "smug / self-satisfied", "confusables": "righteous 单用偏“正义的”；self-righteous 才是贬义“自以为是”" }
+    }
+  }
+}

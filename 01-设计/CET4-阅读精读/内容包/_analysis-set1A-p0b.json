@@ -1,0 +1,161 @@
+{
+  "sentences": {
+    "4": {
+      "translationLiteral": "但是长时间工作不会驱动更好的结果。",
+      "translationNatural": "可加班加点并不会带来更好的业绩。",
+      "structMarkup": "【But】【Working long hours】 _doesn't drive_ ~better results~.",
+      "structureSummary": "主谓宾结构（动名词短语作主语，简单句）",
+      "components": [
+        { "part": "But", "role": "并列连词", "note": "承接上文，引出转折" },
+        { "part": "Working long hours", "role": "主语", "note": "动名词短语作主语，视为单数" },
+        { "part": "doesn't drive", "role": "谓语", "note": "drive 此处意为“带来、促成”，不是“驾驶”" },
+        { "part": "better results", "role": "宾语", "note": "复数泛指“更好的成果”" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句；主语由动名词短语 working long hours 充当。",
+        "否定用助动词 doesn't，因为动名词短语作主语时谓语按第三人称单数处理。"
+      ],
+      "phrases": [
+        {
+          "text": "work long hours",
+          "meaning": "长时间工作、加班",
+          "usage": "hours 用复数，指工作时长；同类表达还有 work overtime（加班）。",
+          "example": "She often works long hours before exams. 考试前她常常长时间工作。"
+        },
+        {
+          "text": "drive results",
+          "meaning": "带来成果、推动结果",
+          "usage": "drive 在此为“驱动、促成”，商业语境常见：drive growth（拉动增长）、drive sales（带动销量）。",
+          "example": "Clear goals drive better results. 明确的目标会带来更好的结果。"
+        }
+      ],
+      "pitfalls": [
+        "主语是动名词短语，谓语用单数 doesn't，不能写 don't drive。",
+        "drive 在这里不是“驾驶”；看到 drive + results/growth/sales 要译成“带来、拉动”。",
+        "不要漏译 better：它体现“更”的比较意味，与上文“工作时间越长越好”的假设形成对照。"
+      ],
+      "paragraphRole": "第一次转折：用事实反驳“忙就有价值”的暗示，把论点从“身份象征”推进到“实际效果”。"
+    },
+    "5": {
+      "translationLiteral": "从不度假不会导致晋升。",
+      "translationNatural": "一直不歇假，也换不来升职。",
+      "structMarkup": "【Never taking a vacation】 _won't lead to_ ~a promotion~.",
+      "structureSummary": "主谓宾结构（否定词前置的动名词短语作主语）",
+      "components": [
+        { "part": "Never taking a vacation", "role": "主语", "note": "动名词短语作主语，never 放在句首否定整句" },
+        { "part": "won't lead to", "role": "谓语", "note": "will not lead to，表推断的否定" },
+        { "part": "a promotion", "role": "宾语", "note": "promotion 名词“晋升”，单数指一次升职机会" }
+      ],
+      "clauses": [
+        "本句是简单句，无从句。",
+        "never 置于句首但不引起倒装，因为它修饰的是动名词短语（主语的一部分），而非整个句子。"
+      ],
+      "phrases": [
+        {
+          "text": "take a vacation",
+          "meaning": "休假、去度假",
+          "usage": "vacation 前用 take a；英式英语更常说 take a holiday；on vacation 表示“在休假中”。",
+          "example": "You should take a vacation after the project. 项目结束后你该休个假。"
+        },
+        {
+          "text": "lead to",
+          "meaning": "导致、通向",
+          "usage": "to 是介词，后接名词或动名词：lead to success / lead to failing the exam。",
+          "example": "Hard work leads to success. 努力带来成功。"
+        }
+      ],
+      "pitfalls": [
+        "never 与 won't 同时出现，形成双重否定，语气很强：“再怎么不休假，也绝不会换来升职”。",
+        "lead to 的 to 是介词，不能接动词原形；错写 lead to promote 是常见错误。",
+        "promotion 是名词；动词形式是 promote（上一句刚出现过 get promoted）。"
+      ],
+      "paragraphRole": "与上一句并列，第二个反例：不休假同样不等于升职，进一步拆掉“忙=上进”的等式。"
+    },
+    "6": {
+      "translationLiteral": "所以我们为什么如此自豪地谈论我们一直有多么忙？",
+      "translationNatural": "那我们为什么还总爱把“忙”挂在嘴边、说得那么自豪呢？",
+      "structMarkup": "{So} _why are_ 【we】 ~so proud to talk about~ {how busy we are all the time}?",
+      "structureSummary": "why 引导的特殊疑问句：疑问词 + 系动词 + 主语 + 表语（形容词短语 + 宾语从句）",
+      "components": [
+        { "part": "So", "role": "连词", "note": "承上启下，引出结论式反问" },
+        { "part": "why", "role": "疑问副词", "note": "引导特殊疑问句，问原因" },
+        { "part": "are", "role": "系动词", "note": "疑问语序中提前到主语前" },
+        { "part": "we", "role": "主语", "note": "泛指“我们”" },
+        { "part": "so proud to talk about...", "role": "表语", "note": "形容词 proud + 不定式，说明“自豪到什么程度”" },
+        { "part": "how busy we are all the time", "role": "宾语从句", "note": "作介词 about 的宾语，用陈述语序" }
+      ],
+      "clauses": [
+        "整句是 why 引导的特殊疑问句，采用疑问语序：why + are + we。",
+        "how busy we are all the time 是 how 引导的宾语从句，作介词 about 的宾语；从句内部用陈述语序 we are，不是 are we。",
+        "该从句带感叹意味（how + 形容词），但整体仍是宾语从句，句末问号属于主句。"
+      ],
+      "phrases": [
+        {
+          "text": "be proud to do sth.",
+          "meaning": "为做某事感到自豪／骄傲",
+          "usage": "proud 后接 of + 名词（be proud of sb.）或 to do（be proud to do）；此处指“自豪地去做某事”。",
+          "example": "I'm proud to be part of this team. 我为能成为这个团队的一员而自豪。"
+        },
+        {
+          "text": "all the time",
+          "meaning": "一直、始终、总是",
+          "usage": "时间状语，常置于句末；语气比 always 更口语、更强。",
+          "example": "He is on his phone all the time. 他总是在看手机。"
+        }
+      ],
+      "pitfalls": [
+        "主句用疑问语序 are we，宾语从句必须用陈述语序 we are——这是本句最容易写错的地方。",
+        "so proud to talk about 中，about 的宾语是整个从句，不要只把 how busy 当宾语。",
+        "how busy we are 不是感叹句（感叹句应为 How busy we are!），这里被 about 引导成宾语从句。"
+      ],
+      "paragraphRole": "段末反问，把话题从“个人习惯”推向“社会现象”，为下一段引入研究做铺垫。"
+    }
+  },
+  "tokens": {
+    "drive": {
+      "phonetic": "/draɪv/",
+      "pos": "v.",
+      "senseInContext": "带来、促成（本句 drive better results = 带来更好的结果，不是“驾驶”）",
+      "collocations": ["drive results", "drive growth", "drive sales", "drive sb. to do sth."],
+      "examples": ["Innovation drives growth. 创新推动增长。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "无常见词根拆分；drive 本义“驱动”", "synonyms": "lead to / bring about / produce", "confusables": "drive 还有“驱使某人做某事”（drive sb. mad 把某人逼疯）" }
+    },
+    "lead": {
+      "phonetic": "/liːd/",
+      "pos": "v.",
+      "senseInContext": "（lead to）导致、通向——本句说“不休假并不会带来晋升”",
+      "collocations": ["lead to sth./doing", "lead sb. to do sth.", "lead a...life"],
+      "examples": ["Poor sleep can lead to poor memory. 睡眠不足会导致记忆力下降。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "lead 本义“带领”→ 引申“导致”", "synonyms": "result in / cause / bring about", "confusables": "lead to 后接名词/动名词；lead sb. to do 是“使某人做”" }
+    },
+    "vacation": {
+      "phonetic": "/vəˈkeɪʃn/",
+      "pos": "n.",
+      "senseInContext": "假期、休假（take a vacation 去度假）",
+      "collocations": ["take a vacation", "on vacation", "summer vacation", "paid vacation"],
+      "examples": ["We're on vacation next week. 我们下周休假。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "vac-（空）→ 空出来的时间 → 假期；同族：vacant 空的、vacuum 真空", "synonyms": "holiday（英）/ break / leave", "confusables": "vacation 偏美式长假期；holiday 偏英式；leave 多指因事请假" }
+    },
+    "promotion": {
+      "phonetic": "/prəˈməʊʃn/",
+      "pos": "n.",
+      "senseInContext": "晋升、提拔（本句指升职机会）",
+      "collocations": ["get/win a promotion", "promotion opportunity", "sales promotion"],
+      "examples": ["She got a promotion after two years. 两年后她升职了。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "pro-（向前）+ mot（移动）+ -ion（名词）", "synonyms": "advancement / elevation", "confusables": "promotion 还有“促销、宣传”义：sales promotion 促销活动" }
+    },
+    "proud": {
+      "phonetic": "/praʊd/",
+      "pos": "adj.",
+      "senseInContext": "自豪的、骄傲的（be proud to do 为做某事感到自豪）",
+      "collocations": ["be proud of sb./sth.", "be proud to do sth.", "a proud moment"],
+      "examples": ["I'm proud of what we achieved. 我为我们取得的成果感到骄傲。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "源自古法语 prud（勇敢、可敬）", "synonyms": "pleased / honoured", "confusables": "proud 可褒可贬；贬义时指“傲慢的”（a proud man）" }
+    }
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "sentences": {
+    "0": {
+      "translationLiteral": "每周只锻炼 10 分钟与更长的寿命有关，根据一项发表在《英国运动医学杂志》上的新研究。",
+      "translationNatural": "一项发表在《英国运动医学杂志》上的新研究显示：每周只运动 10 分钟，也和更长寿相关。",
+      "structMarkup": "【Exercising (for just 10 minutes a week)】 _is linked to_ ~a longer life~, (according to a new study) (published in The British Journal of Sports Medicine).",
+      "structureSummary": "主谓宾结构：动名词短语作主语 + 被动谓语 + 宾语 + 状语",
+      "components": [
+        { "part": "Exercising for just 10 minutes a week", "role": "主语", "note": "动名词短语作主语，谓语用单数" },
+        { "part": "is linked to", "role": "谓语", "note": "be linked to 表“与……有关联”" },
+        { "part": "a longer life", "role": "宾语", "note": "更长的寿命" },
+        { "part": "according to a new study", "role": "状语", "note": "说明信息来源" },
+        { "part": "published in The British Journal of Sports Medicine", "role": "后置定语", "note": "过去分词短语修饰 study" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "Exercising... 是动名词短语作主语，谓语用单数 is。",
+        "published in... 是过去分词短语作后置定语，修饰 a new study（= which was published in...）。"
+      ],
+      "phrases": [
+        {
+          "text": "be linked to",
+          "meaning": "与……有关联",
+          "usage": "表相关性而非因果；同义 be related to / be associated with。",
+          "example": "Regular exercise is linked to better sleep. 规律运动与更好的睡眠相关。"
+        },
+        {
+          "text": "according to",
+          "meaning": "根据、据……所说",
+          "usage": "后接名词，不能接 that 从句。",
+          "example": "According to the report, sales doubled. 据报道，销量翻了一倍。"
+        }
+      ],
+      "pitfalls": [
+        "动名词短语作主语，谓语用单数 is，不能用 are。",
+        "be linked to 表相关，不表因果，翻译时别说成“导致”。",
+        "published 是过去分词作定语，不是谓语。"
+      ],
+      "paragraphRole": "开篇给出研究结论，点明主题：少量运动也与长寿相关。"
+    },
+    "1-0": {
+      "translationLiteral": "若干近期研究发现，即使低强度运动，只做很短时间，也能对健康产生有意义的影响。",
+      "translationNatural": "多项近期研究发现：哪怕是低强度运动、时间很短，对健康也有实实在在的好处。",
+      "structMarkup": "【Several recent studies】 _have found_ ~{that even low-intensity exercise, (done for a short amount of time), can have a meaningful 26 on health}~.",
+      "structureSummary": "主谓 + 宾语从句（从句内含插入的过去分词短语）",
+      "components": [
+        { "part": "Several recent studies", "role": "主语", "note": "多项近期研究" },
+        { "part": "have found", "role": "谓语", "note": "现在完成时，强调已有积累" },
+        { "part": "that even low-intensity exercise ... can have a meaningful 26 on health", "role": "宾语从句", "note": "研究结论" },
+        { "part": "done for a short amount of time", "role": "插入定语", "note": "过去分词短语修饰 exercise" }
+      ],
+      "clauses": [
+        "that 引导宾语从句，作 have found 的宾语。",
+        "done for a short amount of time 是过去分词短语作后置定语，插在主语和谓语之间（= which is done...）。",
+        "have an impact on 是固定搭配，第 26 空填名词 impact。"
+      ],
+      "phrases": [
+        {
+          "text": "have an impact on",
+          "meaning": "对……有影响",
+          "usage": "impact 可数，常用 a/an + 形容词 + impact；同义 have an effect/influence on。",
+          "example": "Sleep has a direct impact on mood. 睡眠直接影响情绪。"
+        },
+        {
+          "text": "amount of time",
+          "meaning": "时间量",
+          "usage": "a short amount of time = 很短的时间；amount 修饰不可数。",
+          "example": "It takes a large amount of time. 这需要大量时间。"
+        }
+      ],
+      "pitfalls": [
+        "done for... 是插入的定语，阅读时先跳过，抓住 exercise can have... 的主干。",
+        "第 26 空必须填名词，因为前面有 a meaningful 修饰、后面有 on health。",
+        "low-intensity 是复合形容词，带连字符。"
+      ],
+      "paragraphRole": "用多项研究支撑开篇结论，并引出“影响”这一核心概念。"
+    },
+    "1-1": {
+      "translationLiteral": "不过，每周只锻炼 10 分钟就可能足以延长寿命这一想法是新颖的。",
+      "translationNatural": "不过，“每周只练 10 分钟也许就能延寿”这个说法确实很新鲜。",
+      "structMarkup": "【Still】, 【the idea {that exercising for just 10 minutes a week may be enough to increase your lifespan}】 _is_ ~novel~.",
+      "structureSummary": "主系表结构；主语后接同位语从句，主谓被隔开",
+      "components": [
+        { "part": "Still", "role": "连接副词", "note": "表转折“不过”" },
+        { "part": "the idea", "role": "主语", "note": "中心词是 idea" },
+        { "part": "that exercising ... may be enough to increase your lifespan", "role": "同位语从句", "note": "说明 idea 的具体内容" },
+        { "part": "is", "role": "系动词", "note": "与 the idea 一致" },
+        { "part": "novel", "role": "表语", "note": "形容词“新颖的”，不是名词“小说”" }
+      ],
+      "clauses": [
+        "that exercising for just 10 minutes a week may be enough to increase your lifespan 是同位语从句，解释 the idea 是什么。",
+        "同位语从句内部 exercising... 是动名词短语作主语，谓语用单数 may be。",
+        "be enough to do sth. 表示“足以做某事”。"
+      ],
+      "phrases": [
+        {
+          "text": "be enough to do sth.",
+          "meaning": "足以做某事",
+          "usage": "enough 后接不定式；位置在形容词/副词之后。",
+          "example": "Ten minutes is enough to warm up. 十分钟足够热身。"
+        },
+        {
+          "text": "increase one's lifespan",
+          "meaning": "延长寿命",
+          "usage": "lifespan 可数；同义 extend life expectancy。",
+          "example": "Healthy habits can increase lifespan. 健康习惯能延长寿命。"
+        }
+      ],
+      "pitfalls": [
+        "主语 the idea 与谓语 is 被同位语从句隔开，找主干时先跳过 that 从句。",
+        "novel 在此是形容词“新颖的”，不是名词“小说”。",
+        "同位语从句用 that 引导，不能用 which。"
+      ],
+      "paragraphRole": "转折指出该结论的新颖性，为下一句的“争议”埋伏笔。"
+    },
+    "1-2": {
+      "translationLiteral": "它也有点有争议，因为联邦体育活动指南建议每周至少进行 75 分钟剧烈运动或 150 分钟中等强度运动。",
+      "translationNatural": "这说法也有点争议，因为美国联邦运动指南建议每周至少 75 分钟剧烈运动，或 150 分钟中等强度运动。",
+      "structMarkup": "【It】 _'s_ ~also somewhat 27~, {since the federal physical activity guidelines recommend getting at least 75 minutes of vigorous exercise or 150 minutes of 28 exercise each week}.",
+      "structureSummary": "主系表 + since 原因状语从句；从句内 recommend doing",
+      "components": [
+        { "part": "It", "role": "主语", "note": "指上一句“只练 10 分钟就够”的说法" },
+        { "part": "'s (= is)", "role": "系动词", "note": "主系结构" },
+        { "part": "also somewhat 27", "role": "表语", "note": "somewhat 修饰表语形容词；第 27 空填形容词" },
+        { "part": "since the federal physical activity guidelines recommend...", "role": "原因状语从句", "note": "since 表“因为”" },
+        { "part": "getting at least 75 minutes of vigorous exercise or 150 minutes of 28 exercise", "role": "动名词短语作宾语", "note": "recommend 后接动名词" }
+      ],
+      "clauses": [
+        "since 引导原因状语从句，意为“因为”（不是“自从”）。",
+        "recommend 后接动名词 getting，不接不定式（recommend doing / recommend sb. to do 均可，但此处是 doing）。",
+        "or 连接两个并列的锻炼时长方案。"
+      ],
+      "phrases": [
+        {
+          "text": "recommend doing sth.",
+          "meaning": "建议做某事",
+          "usage": "recommend 后接动名词或 that 从句（用 should）；不接 to do 作宾语。",
+          "example": "Doctors recommend walking 30 minutes a day. 医生建议每天走 30 分钟。"
+        },
+        {
+          "text": "vigorous exercise",
+          "meaning": "剧烈运动",
+          "usage": "vigorous 指强度大、喘得厉害的运动；对应 moderate exercise（中等强度）。",
+          "example": "Vigorous exercise makes you sweat. 剧烈运动会让你出汗。"
+        },
+        {
+          "text": "physical activity guidelines",
+          "meaning": "体育活动指南",
+          "usage": "guideline 常用复数，指指导原则。",
+          "example": "The guidelines recommend two workouts a week. 指南建议每周锻炼两次。"
+        }
+      ],
+      "pitfalls": [
+        "since 在此表原因，不是“自从”。",
+        "recommend 后面用 getting（动名词），不能写 recommend to get。",
+        "第 27 空填形容词，与 somewhat 搭配，且要与后面的“指南建议更多运动”形成反差。"
+      ],
+      "paragraphRole": "指出结论与官方指南的冲突，制造“争议”这一悬念。"
+    },
+    "2-0": {
+      "translationLiteral": "这项研究基于 1997 年至 2008 年间参与全国健康访谈调查的 88,000 多名美国成年人的数据。",
+      "translationNatural": "研究数据来自 1997 到 2008 年间参加“全国健康访谈调查”的 8.8 万多名美国成年人。",
+      "structMarkup": "【The study】 _was based on_ ~data (from more than 88,000 U.S. adults) {who 29 in the National Health Interview Survey} (between 1997 and 2008)~.",
+      "structureSummary": "主谓宾结构：被动谓语 + 宾语 + 定语从句",
+      "components": [
+        { "part": "The study", "role": "主语", "note": "这项研究" },
+        { "part": "was based on", "role": "谓语", "note": "be based on 表“基于”" },
+        { "part": "data", "role": "宾语", "note": "数据" },
+        { "part": "from more than 88,000 U.S. adults", "role": "后置定语", "note": "修饰 data" },
+        { "part": "who 29 in the National Health Interview Survey", "role": "定语从句", "note": "修饰 adults；第 29 空填过去式动词" },
+        { "part": "between 1997 and 2008", "role": "时间状语", "note": "限定调查年份" }
+      ],
+      "clauses": [
+        "who 引导定语从句，修饰 U.S. adults。",
+        "第 29 空位于 who 从句的谓语位置，且时间范围是 1997—2008（过去），所以必须用过去式 participated。",
+        "from more than 88,000 U.S. adults 是介词短语作后置定语，修饰 data。"
+      ],
+      "phrases": [
+        {
+          "text": "be based on",
+          "meaning": "以……为基础、基于",
+          "usage": "常见于研究描述；同义 be built on / rest on。",
+          "example": "The film is based on a true story. 这部电影根据真实故事改编。"
+        },
+        {
+          "text": "participate in",
+          "meaning": "参加、参与",
+          "usage": "不及物动词，必须带介词 in；同义 take part in。",
+          "example": "Over 500 students participated in the survey. 500 多名学生参与了调查。"
+        }
+      ],
+      "pitfalls": [
+        "participate 是不及物动词，后面必须跟 in。",
+        "第 29 空在 who 从句中作谓语，要根据 1997—2008 判断时态为过去式。",
+        "data 是复数形式但常作不可数，谓语用单数也可接受。"
+      ],
+      "paragraphRole": "交代数据来源与样本规模，建立研究的可信度。"
+    }
+  },
+  "blanks": {
+    "26": {
+      "answerKey": "F",
+      "answerWord": "impact",
+      "reason": "空格前有 a meaningful 修饰、后面接 on health，需要一个能与 on 搭配的名词。impact 构成固定搭配 have an impact on（对……有影响），且词库中只有 F) impact 是这个意思。",
+      "distractors": "A) adjust（动词，调整）、L) risk（风险）语义不合；H) moderate（形容词）词性不合。"
+    },
+    "27": {
+      "answerKey": "D",
+      "answerWord": "controversial",
+      "reason": "空格前是 somewhat（有点），需要形容词作表语；后文 since 从句说官方指南建议每周 75 分钟以上，与“10 分钟就够”的说法冲突，因此这个观点是“有争议的”——controversial。",
+      "distractors": "M) seemingly（副词，表面上看）词性不合；H) moderate（形容词但意为“适度的”）语义不合逻辑。"
+    },
+    "28": {
+      "answerKey": "H",
+      "answerWord": "moderate",
+      "reason": "空格修饰 exercise，与前面的 vigorous exercise（剧烈运动）形成强度上的对照：75 分钟剧烈运动 或 150 分钟“中等强度”运动。moderate 意为“中等的、适度的”。",
+      "distractors": "O) upper（上部的）、E) coordinates（坐标/协调）语义不合；C) approximately（副词）词性不合。"
+    },
+    "29": {
+      "answerKey": "I",
+      "answerWord": "participated",
+      "reason": "who 从句缺谓语，且主语是 adults（复数）、时间是 1997—2008（过去），需要过去式动词；participate in 意为“参与”，与 the National Health Interview Survey（调查）搭配。",
+      "distractors": "K) populated（居住于）、J) patterns（名词）都不合；B) alter（改变）语义不合且不能接 in the survey。"
+    }
+  },
+  "tokens": {
+    "intensity": {
+      "phonetic": "/ɪnˈtensəti/",
+      "pos": "n.",
+      "senseInContext": "强度（low-intensity exercise 低强度运动）",
+      "collocations": ["high/low intensity", "with intensity", "intensive（形容词）"],
+      "examples": ["High-intensity training burns more calories. 高强度训练消耗更多热量。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "in-（向内）+ tens（拉紧）+ -ity → 紧张程度 → 强度", "synonyms": "strength / force", "confusables": "intense 形容词“强烈的”；intensive 形容词“密集的”；intensity 是名词" }
+    },
+    "lifespan": {
+      "phonetic": "/ˈlaɪfspæn/",
+      "pos": "n.",
+      "senseInContext": "寿命（increase your lifespan 延长寿命）",
+      "collocations": ["average lifespan", "extend/increase lifespan", "life expectancy"],
+      "examples": ["The average lifespan has increased. 平均寿命提高了。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "life（生命）+ span（跨度）", "synonyms": "life expectancy / lifetime", "confusables": "lifespan 指个体寿命；life expectancy 多指统计上的预期寿命" }
+    },
+    "guideline": {
+      "phonetic": "/ˈɡaɪdlaɪn/",
+      "pos": "n.",
+      "senseInContext": "指南、指导原则（physical activity guidelines 运动指南）",
+      "collocations": ["follow guidelines", "safety guidelines", "guidelines on sth."],
+      "examples": ["Follow the safety guidelines. 遵守安全指南。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "guide（引导）+ line（线）→ 引导的线 → 方针", "synonyms": "standard / regulation / principle", "confusables": "guideline 常复数；rule 是硬性规则" }
+    },
+    "vigorous": {
+      "phonetic": "/ˈvɪɡərəs/",
+      "pos": "adj.",
+      "senseInContext": "剧烈的、有力的（vigorous exercise 剧烈运动）",
+      "collocations": ["vigorous exercise", "vigorous debate", "vigorously（副词）"],
+      "examples": ["Vigorous exercise raises your heart rate. 剧烈运动会让心率上升。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "vigor（活力）+ -ous", "synonyms": "energetic / intense / strenuous", "confusables": "vigorous 强调整体有力量；intense 强调强度高" }
+    }
+  }
+}

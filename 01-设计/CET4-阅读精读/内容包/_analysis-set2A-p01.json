@@ -1,0 +1,440 @@
+{
+  "sentences": {
+    "0": {
+      "translationLiteral": "有一个竞争对手能让你致力于实现目标，并提升你的整体表现。",
+      "translationNatural": "有个竞争对手，能让你更专注于目标，整体表现也会更好。",
+      "structMarkup": "【Having a rival】 _can keep_ ~you~ ~committed to achieving your goals~ and _enhance_ ~your overall performance~.",
+      "structureSummary": "动名词短语作主语 + 两个并列谓语（keep sb. + 过去分词 / enhance + 宾语）",
+      "components": [
+        { "part": "Having a rival", "role": "主语", "note": "动名词短语作主语，谓语用单数" },
+        { "part": "can keep", "role": "谓语1", "note": "keep sb. + 形容词/过去分词，表“使某人保持某状态”" },
+        { "part": "you committed to achieving your goals", "role": "宾语 + 宾补", "note": "committed to 中 to 是介词，后接动名词" },
+        { "part": "and enhance", "role": "谓语2", "note": "与 keep 并列" },
+        { "part": "your overall performance", "role": "宾语", "note": "整体表现" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "and 连接两个并列谓语：can keep 和 (can) enhance。",
+        "be committed to doing sth. 中 to 是介词，后接动名词 achieving。"
+      ],
+      "phrases": [
+        {
+          "text": "be committed to doing sth.",
+          "meaning": "致力于做某事、坚持做",
+          "usage": "to 是介词，后接名词或动名词；不要误用动词原形。",
+          "example": "She is committed to improving her English. 她致力于提高英语水平。"
+        },
+        {
+          "text": "keep sb. + 形容词/过去分词",
+          "meaning": "使某人保持某种状态",
+          "usage": "keep sb. motivated / keep sb. informed。",
+          "example": "Goals keep us focused. 目标让我们保持专注。"
+        }
+      ],
+      "pitfalls": [
+        "be committed to doing：to 是介词，不能接动词原形。",
+        "动名词短语作主语，谓语用单数 can keep。",
+        "enhance 前省略了 can，与 keep 并列。"
+      ],
+      "paragraphRole": "开篇给出正面观点：竞争对手有益，为下文转折（也有代价）做铺垫。"
+    },
+    "1": {
+      "translationLiteral": "但在你出去找一个创业者去超越之前，理解并避免竞争中常见的陷阱很重要。",
+      "translationNatural": "但在你急着找个同行去超越之前，先弄清“竞争”常带来的坑、并避开它们，才是要紧事。",
+      "structMarkup": "{But before you go out and find an entrepreneur (to outcompete)}, 【it】 _'s_ ~important (to understand and avoid the traps {that often come with rivalry})~.",
+      "structureSummary": "时间状语从句 + 形式主语句（it is important to do）",
+      "components": [
+        { "part": "But", "role": "连词", "note": "转折" },
+        { "part": "before you go out and find an entrepreneur to outcompete", "role": "时间状语从句", "note": "before 引导" },
+        { "part": "it", "role": "形式主语", "note": "真正主语是后面的不定式" },
+        { "part": "'s (= is)", "role": "系动词", "note": "主系结构" },
+        { "part": "important", "role": "表语", "note": "形容词" },
+        { "part": "to understand and avoid the traps that often come with rivalry", "role": "真正主语", "note": "不定式短语，内含定语从句" }
+      ],
+      "clauses": [
+        "before 引导时间状语从句，“在……之前”。",
+        "that often come with rivalry 是定语从句，修饰 the traps。",
+        "it is important to do sth. 是形式主语句型。"
+      ],
+      "phrases": [
+        {
+          "text": "go out and find",
+          "meaning": "出去找（口语化连动）",
+          "usage": "go out 在此不表“外出娱乐”，而是“行动起来”。",
+          "example": "Go out and find customers. 出去找客户。"
+        },
+        {
+          "text": "come with",
+          "meaning": "伴随而来、随之而来",
+          "usage": "指出某事物的附带问题或特点。",
+          "example": "Fame comes with pressure. 名气伴随压力而来。"
+        }
+      ],
+      "pitfalls": [
+        "before 从句用一般现在时表将来（go, find）。",
+        "it 是形式主语，真正主语是不定式 to understand and avoid。",
+        "to outcompete 是不定式作后置定语，修饰 entrepreneur。"
+      ],
+      "paragraphRole": "转折提醒：竞争有陷阱，引出全文要讲的“坑”。"
+    },
+    "2": {
+      "translationLiteral": "毕竟，竞争性对抗也可能妨碍有效决策，并增加你承担风险的意愿，这些行为最终可能损害你的事业成功。",
+      "translationNatural": "毕竟，竞争关系也会干扰你做出有效决策，还会让你更愿意冒风险——而这些最终都可能伤害你的事业。",
+      "structMarkup": "(After all), 【competitive rivalry】 _can also hinder_ ~effective decision-making~ and _increase_ ~your willingness to take risks~, ~behaviors {that can ultimately hurt your venture's success}~.",
+      "structureSummary": "主谓宾并列（两个谓语）+ 逗号后的同位语（带定语从句）",
+      "components": [
+        { "part": "After all", "role": "插入语", "note": "毕竟、要知道" },
+        { "part": "competitive rivalry", "role": "主语", "note": "竞争性对抗" },
+        { "part": "can also hinder", "role": "谓语1", "note": "hinder 妨碍" },
+        { "part": "effective decision-making", "role": "宾语1", "note": "有效决策（动名词复合名词）" },
+        { "part": "and increase", "role": "谓语2", "note": "与 hinder 并列" },
+        { "part": "your willingness to take risks", "role": "宾语2", "note": "willingness to do 表“……的意愿”" },
+        { "part": "behaviors that can ultimately hurt your venture's success", "role": "同位语 + 定语从句", "note": "概括前面的两种表现" }
+      ],
+      "clauses": [
+        "两个并列谓语：can hinder 与 (can) increase，共用主语 competitive rivalry。",
+        "behaviors 是同位语，概括前面提到的两种行为。",
+        "that can ultimately hurt your venture's success 是定语从句，修饰 behaviors。"
+      ],
+      "phrases": [
+        {
+          "text": "hinder",
+          "meaning": "妨碍、阻碍",
+          "usage": "及物动词，直接接宾语；同义 block / hamper。",
+          "example": "Noise hinders concentration. 噪音妨碍集中注意力。"
+        },
+        {
+          "text": "willingness to do sth.",
+          "meaning": "做某事的意愿",
+          "usage": "形容词 willing + 名词后缀 -ness；反义 unwillingness。",
+          "example": "His willingness to learn impressed us. 他愿意学习，给我们留下深刻印象。"
+        },
+        {
+          "text": "decision-making",
+          "meaning": "决策（过程）",
+          "usage": "复合名词，中间带连字符。",
+          "example": "Data improves decision-making. 数据能改善决策。"
+        }
+      ],
+      "pitfalls": [
+        "两个谓语并列，increase 前省略了 can。",
+        "behaviors 是同位语（复数），指代前两种行为，不是新句子主语。",
+        "venture's success 中 venture 指“创业项目/事业”。"
+      ],
+      "paragraphRole": "点出竞争的两个负面作用：妨碍决策、放大冒险倾向。"
+    },
+    "1-0": {
+      "translationLiteral": "找到一个你决心要超越的人，可以成为保持专注于目标并把事业推向新高度的好方法。",
+      "translationNatural": "找一个你下决心要超越的人，是让自己专注目标、把事业推上一个台阶的好办法。",
+      "structMarkup": "【Finding someone (you're committed to outcompeting)】 _can be_ ~a great way (to stay focused on your goals) and (to push your venture to the next level)~.",
+      "structureSummary": "动名词短语作主语 + 主系表 + 两个并列不定式作后置定语",
+      "components": [
+        { "part": "Finding someone you're committed to outcompeting", "role": "主语", "note": "动名词短语作主语，内含省略关系词的定语从句" },
+        { "part": "can be", "role": "系动词", "note": "情态动词 + be" },
+        { "part": "a great way", "role": "表语", "note": "好方法" },
+        { "part": "to stay focused on your goals and to push your venture to the next level", "role": "后置定语", "note": "两个并列不定式，说明 way 的内容" }
+      ],
+      "clauses": [
+        "you're committed to outcompeting 是省略关系词的定语从句，修饰 someone。",
+        "be committed to doing 的 to 是介词，故用 outcompeting。"
+      ],
+      "phrases": [
+        {
+          "text": "stay focused on",
+          "meaning": "保持专注于",
+          "usage": "stay + 过去分词作表语；也可 remain focused on。",
+          "example": "Stay focused on one task at a time. 一次专注一件事。"
+        },
+        {
+          "text": "take/push sth. to the next level",
+          "meaning": "把……提升到新水平",
+          "usage": "口语高频搭配。",
+          "example": "Practice can take your skills to the next level. 练习能让你的技能更上一层。"
+        }
+      ],
+      "pitfalls": [
+        "you're committed to outcompeting：to 是介词，用动名词。",
+        "不定式并列时第二个 to 可省略，但保留更清楚。",
+        "动名词短语作主语，谓语用单数 can be。"
+      ],
+      "paragraphRole": "重申竞争的正面价值，与上一段“陷阱”形成对照，推动辩证论述。"
+    },
+    "1-1": {
+      "translationLiteral": "但当你专注地想要胜出对手时，你可能开始形成一种“不惜一切代价求胜”的心态，这种心态让你忽略自己是如何取得成功的。",
+      "translationNatural": "可当你一门心思想赢过对手时，可能就会生出“不择手段也要赢”的心态，从而不再在意成功是怎么来的。",
+      "structMarkup": "{But when you're intently focused on outperforming your rivals}, 【you】 _may begin to develop_ ~a \"win-at-all-costs\" mentality~ {that causes you to ignore how you achieve success}.",
+      "structureSummary": "时间状语从句 + 主谓宾 + 定语从句（内含宾语从句）",
+      "components": [
+        { "part": "when you're intently focused on outperforming your rivals", "role": "时间状语从句", "note": "when 引导" },
+        { "part": "you", "role": "主语", "note": "读者/创业者" },
+        { "part": "may begin to develop", "role": "谓语", "note": "begin to do 表开始" },
+        { "part": "a \"win-at-all-costs\" mentality", "role": "宾语", "note": "复合形容词修饰 mentality" },
+        { "part": "that causes you to ignore how you achieve success", "role": "定语从句", "note": "修饰 mentality" }
+      ],
+      "clauses": [
+        "when 引导时间状语从句。",
+        "that causes you to ignore... 是定语从句，修饰 mentality。",
+        "how you achieve success 是 how 引导的宾语从句，作 ignore 的宾语。"
+      ],
+      "phrases": [
+        {
+          "text": "be focused on doing sth.",
+          "meaning": "专注于做某事",
+          "usage": "focus on 后接名词/动名词；intently 修饰程度。",
+          "example": "She is focused on finishing the report. 她专注于完成报告。"
+        },
+        {
+          "text": "at all costs",
+          "meaning": "不惜一切代价",
+          "usage": "固定短语；win-at-all-costs 作复合形容词。",
+          "example": "He wanted to win at all costs. 他想不惜一切代价赢。"
+        }
+      ],
+      "pitfalls": [
+        "win-at-all-costs 是复合形容词，整体修饰 mentality。",
+        "ignore 后接 how 从句，用陈述语序。",
+        "outperform = out-（超过）+ perform。"
+      ],
+      "paragraphRole": "指出竞争的风险一：为了赢而失去底线，引出下文的“不道德行为”。"
+    },
+    "1-2": {
+      "translationLiteral": "例如，一组研究人员考察了竞争对抗与不道德行为之间的联系。",
+      "translationNatural": "比如，有一组研究者就研究了“竞争关系”与“不道德行为”之间的关联。",
+      "structMarkup": "(One group of researchers), (for example), _examined_ 【the link (between rivalry and unethical behavior)】.",
+      "structureSummary": "主谓宾结构 + 插入语 + 后置定语",
+      "components": [
+        { "part": "One group of researchers", "role": "主语", "note": "一组研究者" },
+        { "part": "for example", "role": "插入语", "note": "举例" },
+        { "part": "examined", "role": "谓语", "note": "考察、研究" },
+        { "part": "the link between rivalry and unethical behavior", "role": "宾语", "note": "between...and... 作后置定语修饰 link" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "between rivalry and unethical behavior 是介词短语作后置定语，修饰 the link。"
+      ],
+      "phrases": [
+        {
+          "text": "the link between A and B",
+          "meaning": "A 与 B 之间的联系",
+          "usage": "link 常与 between...and... 搭配；同义 the connection between。",
+          "example": "Studies show a link between sleep and memory. 研究显示睡眠与记忆有关联。"
+        },
+        {
+          "text": "unethical behavior",
+          "meaning": "不道德的行为",
+          "usage": "un-（否定）+ ethical（道德的）；名词 ethics 伦理学。",
+          "example": "The company punished unethical behavior. 公司惩处了不道德行为。"
+        }
+      ],
+      "pitfalls": [
+        "link 与 between...and... 固定搭配，不用 link of。",
+        "unethical 是“不道德的”，不是“不伦理的学科”。"
+      ],
+      "paragraphRole": "引入研究证据，把“不择手段”的心态落到实证上。"
+    },
+    "1-3": {
+      "translationLiteral": "他们发现，当人们与竞争对手竞争时，他们更愿意为了获胜而做出不道德的行为。",
+      "translationNatural": "他们发现：人和对手竞争时，为了赢，会更愿意做不道德的事。",
+      "structMarkup": "【They】 _found_ ~{that when people compete against their rivals, they are more willing to behave unethically to win}~.",
+      "structureSummary": "主谓 + 宾语从句（从句内含时间状语从句）",
+      "components": [
+        { "part": "They", "role": "主语", "note": "研究者" },
+        { "part": "found", "role": "谓语", "note": "后接 that 从句" },
+        { "part": "when people compete against their rivals", "role": "时间状语从句", "note": "when 引导" },
+        { "part": "they are more willing to behave unethically to win", "role": "从句主句", "note": "be willing to do 表意愿" }
+      ],
+      "clauses": [
+        "that 引导宾语从句，作 found 的宾语。",
+        "从句内部 when 引导时间状语从句。",
+        "be willing to do sth. 表示“愿意做某事”。"
+      ],
+      "phrases": [
+        {
+          "text": "compete against",
+          "meaning": "与……竞争、对抗",
+          "usage": "也可 compete with（竞争/抗衡）；against 更强调对抗。",
+          "example": "They compete against each other for the prize. 他们为奖品互相竞争。"
+        },
+        {
+          "text": "be willing to do",
+          "meaning": "愿意做某事",
+          "usage": "反义 be unwilling/reluctant to do。",
+          "example": "He is willing to help. 他愿意帮忙。"
+        }
+      ],
+      "pitfalls": [
+        "compete against/with：against 强调对抗关系。",
+        "behave unethically 中 unethically 是副词修饰 behave。",
+        "to win 是不定式作目的状语。"
+      ],
+      "paragraphRole": "给出研究结论：竞争会降低道德底线。"
+    },
+    "1-4": {
+      "translationLiteral": "但这种行为可能玷污你的名声，并让你成功所必需的关系变得紧张。",
+      "translationNatural": "可这种行为会弄脏你的名声，也会让对你成功很关键的人际关系变得紧张。",
+      "structMarkup": "{But} 【such behavior】 _may stain_ ~your reputation~ and _strain_ ~relationships (important to your success)~.",
+      "structureSummary": "主谓宾并列（两个谓语）+ 后置定语",
+      "components": [
+        { "part": "But", "role": "连词", "note": "转折" },
+        { "part": "such behavior", "role": "主语", "note": "指上句的不道德行为" },
+        { "part": "may stain", "role": "谓语1", "note": "stain 玷污" },
+        { "part": "your reputation", "role": "宾语1", "note": "名声" },
+        { "part": "and strain", "role": "谓语2", "note": "strain 使紧张" },
+        { "part": "relationships important to your success", "role": "宾语2", "note": "important to... 是后置定语" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "and 连接两个并列谓语：may stain 与 (may) strain。",
+        "important to your success 是形容词短语作后置定语，修饰 relationships。"
+      ],
+      "phrases": [
+        {
+          "text": "stain one's reputation",
+          "meaning": "玷污名声",
+          "usage": "stain 本义“弄脏”，引申为“玷污”；同义 damage one's reputation。",
+          "example": "The scandal stained his reputation. 丑闻玷污了他的名声。"
+        },
+        {
+          "text": "strain relationships",
+          "meaning": "使人际关系紧张",
+          "usage": "strain 作动词表“使紧张、拉紧”。",
+          "example": "Long hours can strain family relationships. 长时间工作会让家庭关系紧张。"
+        }
+      ],
+      "pitfalls": [
+        "strain 在此是动词“使紧张”，不是名词“压力”。",
+        "important to your success 后置修饰 relationships，不是表语。",
+        "第二个谓语 strain 前省略了 may。"
+      ],
+      "paragraphRole": "说明不道德行为的代价：名声与人脉双损。"
+    },
+    "1-5": {
+      "translationLiteral": "避免这个陷阱的一个方法是停下来反思什么才是重要的。",
+      "translationNatural": "想避开这个坑，一个办法是先停下来，想清楚什么才是真正重要的。",
+      "structMarkup": "【One way (to avoid this trap)】 _is_ ~to stop and reflect on what's important~.",
+      "structureSummary": "主系表结构：主语带不定式后置定语，表语是不定式短语",
+      "components": [
+        { "part": "One way", "role": "主语", "note": "一个方法" },
+        { "part": "to avoid this trap", "role": "后置定语", "note": "不定式修饰 way" },
+        { "part": "is", "role": "系动词", "note": "主系结构" },
+        { "part": "to stop and reflect on what's important", "role": "表语", "note": "不定式作表语，内含宾语从句" }
+      ],
+      "clauses": [
+        "what's important 是 what 引导的宾语从句，作 reflect on 的宾语。",
+        "不定式 to stop and reflect 作表语，说明“方法是什么”。"
+      ],
+      "phrases": [
+        {
+          "text": "reflect on",
+          "meaning": "反思、思考",
+          "usage": "后接名词或从句；同义 think about carefully。",
+          "example": "Take time to reflect on your progress. 花点时间反思你的进展。"
+        },
+        {
+          "text": "avoid a trap",
+          "meaning": "避开陷阱",
+          "usage": "trap 隐喻“圈套、误区”。",
+          "example": "Many young writers fall into this trap. 许多年轻作者掉进这个陷阱。"
+        }
+      ],
+      "pitfalls": [
+        "what's important 是宾语从句，不能换成 that's important。",
+        "one way to do sth. 中 to do 作后置定语。",
+        "stop and reflect：两个动词并列，and 不能省。"
+      ],
+      "paragraphRole": "给出第一条对策：先停下来反思。"
+    },
+    "1-6": {
+      "translationLiteral": "尽管胜出对手可能带来短期好处，但失去诚信会有长期后果。",
+      "translationNatural": "赢过对手可能带来短期好处，可一旦丢了诚信，代价是长期的。",
+      "structMarkup": "{While outperforming your rivals may provide short-term benefits}, 【the loss of your integrity】 _will have_ ~long-term consequences~.",
+      "structureSummary": "让步状语从句 + 主谓宾",
+      "components": [
+        { "part": "While outperforming your rivals may provide short-term benefits", "role": "让步状语从句", "note": "while 表“虽然”" },
+        { "part": "the loss of your integrity", "role": "主语", "note": "诚信的丧失" },
+        { "part": "will have", "role": "谓语", "note": "将有" },
+        { "part": "long-term consequences", "role": "宾语", "note": "长期后果" }
+      ],
+      "clauses": [
+        "while 引导让步状语从句，意为“虽然、尽管”。",
+        "从句主语是动名词短语 outperforming your rivals。"
+      ],
+      "phrases": [
+        {
+          "text": "integrity",
+          "meaning": "诚信、正直",
+          "usage": "不可数名词；常搭 personal/professional integrity。",
+          "example": "She is known for her integrity. 她以正直著称。"
+        },
+        {
+          "text": "long-term consequences",
+          "meaning": "长期后果",
+          "usage": "反义 short-term benefits（短期好处），常成对出现。",
+          "example": "Short-term gains can bring long-term consequences. 短期收益可能带来长期后果。"
+        }
+      ],
+      "pitfalls": [
+        "while 在此是“虽然”（让步），不是“当……时”。",
+        "integrity 不可数，不说 an integrity。",
+        "short-term / long-term 作定语时带连字符。"
+      ],
+      "paragraphRole": "总结本段：短期收益 vs 长期代价，给出价值判断。"
+    }
+  },
+  "tokens": {
+    "rival": {
+      "phonetic": "/ˈraɪvl/",
+      "pos": "n./adj./v.",
+      "senseInContext": "竞争对手（having a rival 有对手）",
+      "collocations": ["a rival company", "rival to sb./sth.", "rivalry（名词）"],
+      "examples": ["The company is a rival to ours. 这家公司是我们的竞争对手。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "源自拉丁 rivus（河）→ 共用一条河的人 → 竞争者", "synonyms": "competitor / opponent", "confusables": "rival 名词/动词“与……匹敌”；rivalry 名词“竞争关系”" }
+    },
+    "enhance": {
+      "phonetic": "/ɪnˈhɑːns/",
+      "pos": "v.",
+      "senseInContext": "提升、增强（enhance your overall performance 提升整体表现）",
+      "collocations": ["enhance performance", "enhance the quality", "enhancement（名词）"],
+      "examples": ["Practice enhances confidence. 练习能增强自信。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "en-（使）+ hance（高）→ 使更高", "synonyms": "improve / boost / strengthen", "confusables": "enhance 偏“提升品质/价值”；increase 偏“数量增加”" }
+    },
+    "hinder": {
+      "phonetic": "/ˈhɪndə(r)/",
+      "pos": "v.",
+      "senseInContext": "妨碍、阻碍（hinder effective decision-making 妨碍有效决策）",
+      "collocations": ["hinder progress", "hinder sb. from doing", "hindrance（名词）"],
+      "examples": ["Bad weather hindered the rescue. 恶劣天气妨碍了救援。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "古英语 hindrian（阻碍）", "synonyms": "block / hamper / impede", "confusables": "hinder 后可直接接宾语，也可 hinder sb. from doing" }
+    },
+    "venture": {
+      "phonetic": "/ˈventʃə(r)/",
+      "pos": "n./v.",
+      "senseInContext": "创业项目、事业（hurt your venture's success 损害你的事业）",
+      "collocations": ["business venture", "joint venture", "venture capital"],
+      "examples": ["The venture failed within a year. 这个创业项目一年内就失败了。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "源自 adventure（冒险）", "synonyms": "enterprise / project / startup", "confusables": "venture 名词“事业/风险项目”；动词“冒险做”（venture to do）" }
+    },
+    "mentality": {
+      "phonetic": "/menˈtæləti/",
+      "pos": "n.",
+      "senseInContext": "心态、思维方式（a \"win-at-all-costs\" mentality 不惜代价求胜的心态）",
+      "collocations": ["a competitive mentality", "herd mentality", "mental（形容词）"],
+      "examples": ["He has a winner's mentality. 他有赢家的心态。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "ment（心智）+ -ality（性质）", "synonyms": "mindset / attitude", "confusables": "mentality 偏“群体/固定心态”；mindset 更中性" }
+    },
+    "integrity": {
+      "phonetic": "/ɪnˈteɡrəti/",
+      "pos": "n.",
+      "senseInContext": "诚信、正直（the loss of your integrity 失去诚信）",
+      "collocations": ["personal integrity", "academic integrity", "a person of integrity"],
+      "examples": ["Academic integrity matters more than grades. 学术诚信比成绩更重要。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "in-（不）+ teg（触碰）+ -rity → 未被触碰 → 完整、正直", "synonyms": "honesty / principle", "confusables": "integrity 不可数，表“诚信/完整性”；integrate 是动词“整合”" }
+    }
+  }
+}

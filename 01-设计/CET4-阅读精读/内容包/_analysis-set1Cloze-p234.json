@@ -1,0 +1,266 @@
+{
+  "sentences": {
+    "3-0": {
+      "translationLiteral": "与一些发现健康运动量存在上限的研究相反，研究人员发现运动的长寿益处似乎没有上限。",
+      "translationNatural": "有些研究认为运动对健康的好处有“上限”，但这次的研究者发现：论延寿，运动量似乎根本没有上限。",
+      "structMarkup": "(Contrary to some research {that has found an 30 limit (to the amount of exercise) {that is healthy}}), 【the researchers】 _found_ ~{that there was 31 no limit to the longevity benefits of exercise}~.",
+      "structureSummary": "介词短语作状语（内含两层定语从句）+ 主谓 + 宾语从句",
+      "components": [
+        { "part": "Contrary to some research...", "role": "状语", "note": "contrary to 意为“与……相反”" },
+        { "part": "that has found an 30 limit", "role": "定语从句", "note": "修饰 research；第 30 空填形容词，构成 upper limit" },
+        { "part": "that is healthy", "role": "定语从句", "note": "修饰 the amount of exercise" },
+        { "part": "the researchers", "role": "主句主语", "note": "研究者" },
+        { "part": "found", "role": "主句谓语", "note": "后接 that 宾语从句" },
+        { "part": "that there was 31 no limit to the longevity benefits of exercise", "role": "宾语从句", "note": "there be 存在句；第 31 空填副词修饰 no limit" }
+      ],
+      "clauses": [
+        "contrary to 是介词短语，后接名词，不接句子。",
+        "that has found an upper limit... 是定语从句，修饰 some research。",
+        "that is healthy 是定语从句，修饰 the amount of exercise。",
+        "that there was no limit... 是宾语从句，作 found 的宾语。",
+        "第 31 空在 there was 与 no limit 之间，需填副词（seemingly）修饰整个否定判断。"
+      ],
+      "phrases": [
+        {
+          "text": "contrary to",
+          "meaning": "与……相反",
+          "usage": "介词短语，后接名词；同义 unlike / in contrast to。",
+          "example": "Contrary to expectations, sales fell. 与预期相反，销量下降了。"
+        },
+        {
+          "text": "an upper limit to sth.",
+          "meaning": "某事物的上限",
+          "usage": "limit 常搭 to：a limit to growth（增长的上限）。",
+          "example": "There is an upper limit to screen time. 屏幕时间是有上限的。"
+        },
+        {
+          "text": "longevity benefits",
+          "meaning": "长寿方面的益处",
+          "usage": "longevity 名词“长寿”；benefit 可数，常用复数。",
+          "example": "The longevity benefits of walking are well known. 走路对长寿的好处广为人知。"
+        }
+      ],
+      "pitfalls": [
+        "开头 contrary to... 很长，主句 the researchers found 在后面，阅读时先找主句。",
+        "第 30 空要填能与 limit 搭配的形容词（upper），且与“上限”语义一致。",
+        "第 31 空是副词，修饰“没有上限”这一判断，表示“看似”。"
+      ],
+      "paragraphRole": "通过与既有研究对比，凸显本研究的反直觉发现：运动益处没有上限。"
+    },
+    "3-1": {
+      "translationLiteral": "即使那一小群获得联邦政府推荐运动量 10 倍的人，其死亡风险也比最不活跃的群体低 46%。",
+      "translationNatural": "就连运动量达到联邦推荐标准 10 倍的那一小部分人，死亡风险也比最不爱动的群体低 46%。",
+      "structMarkup": "【Even the small group of people {who got 10 times the amount of exercise (recommended by the federal government)}】 _had_ ~a 46% lower 32 (of death)~ (than the least active group).",
+      "structureSummary": "主谓宾 + 定语从句 + 比较状语",
+      "components": [
+        { "part": "Even the small group of people", "role": "主语", "note": "even 强调“就连……也”" },
+        { "part": "who got 10 times the amount of exercise", "role": "定语从句", "note": "修饰 people；第 32 空不在此从句内" },
+        { "part": "recommended by the federal government", "role": "后置定语", "note": "过去分词短语修饰 exercise" },
+        { "part": "had", "role": "谓语", "note": "had a ... risk" },
+        { "part": "a 46% lower 32 of death", "role": "宾语", "note": "第 32 空填名词，与 lower ... of death 搭配" },
+        { "part": "than the least active group", "role": "比较状语", "note": "与最不活跃组比" }
+      ],
+      "clauses": [
+        "who got 10 times the amount of exercise 是定语从句，修饰 people。",
+        "recommended by the federal government 是过去分词短语作后置定语，修饰 exercise（= which was recommended...）。",
+        "than the least active group 是比较状语，与 lower 呼应。"
+      ],
+      "phrases": [
+        {
+          "text": "10 times the amount",
+          "meaning": "10 倍的量",
+          "usage": "times 表倍数：three times the price（三倍的价格）。",
+          "example": "He earns twice the amount she does. 他的收入是她的两倍。"
+        },
+        {
+          "text": "a lower risk of death",
+          "meaning": "更低的死亡风险",
+          "usage": "risk of + 名词，表“某事的风险”；第 32 空填 risk。",
+          "example": "Exercise lowers the risk of heart disease. 运动降低心脏病风险。"
+        },
+        {
+          "text": "the least active",
+          "meaning": "最不活跃的（人）",
+          "usage": "least 是 little 的最高级，修饰形容词构成最低程度。",
+          "example": "The least active students exercised once a month. 最不爱运动的学生每月才锻炼一次。"
+        }
+      ],
+      "pitfalls": [
+        "10 times the amount 中 times 后直接接名词，不加 of。",
+        "recommended by... 是定语，不是谓语。",
+        "第 32 空需要能与 lower ... of death 搭配的名词（risk）。"
+      ],
+      "paragraphRole": "用反差数据（运动量最大的一组风险最低）支撑“没有上限”的结论。"
+    },
+    "4-0": {
+      "translationLiteral": "不过，像这样的观察性研究无法证明因果关系；它们只能发现规律。研究人员也无法针对某些可能影响寿命的生活方式因素进行调整，包括饮食习惯和随时间变化的体育活动变化。",
+      "translationNatural": "不过，这类观察性研究证明不了因果，只能发现规律。研究者也无法排除某些会影响寿命的生活因素，比如饮食习惯和运动量的长期变化。",
+      "structMarkup": "【Still】, 【observational studies (like this one)】 _cannot prove_ ~cause and effect~; 【they】 _can only find_ ~33~. 【The researchers】 _also were not able to_ ~34 (for certain lifestyle factors) {that could affect lifespan}, (including dietary habits and changes in physical activity over time)~.",
+      "structureSummary": "三个分句：①主谓宾；②主谓宾；③主系表/被动 + 定语从句",
+      "components": [
+        { "part": "observational studies like this one", "role": "第一分句主语", "note": "观察性研究" },
+        { "part": "cannot prove", "role": "第一分句谓语", "note": "不能证明" },
+        { "part": "cause and effect", "role": "宾语", "note": "因果关系（固定搭配）" },
+        { "part": "they", "role": "第二分句主语", "note": "指这些研究" },
+        { "part": "can only find 33", "role": "第二分句谓语+宾语", "note": "第 33 空填名词（复数）" },
+        { "part": "The researchers", "role": "第三分句主语", "note": "研究者" },
+        { "part": "were not able to 34 for certain lifestyle factors", "role": "第三分句谓语", "note": "第 34 空填动词原形，与 for 搭配" },
+        { "part": "that could affect lifespan", "role": "定语从句", "note": "修饰 factors" }
+      ],
+      "clauses": [
+        "分号连接两个独立分句，形成对比：不能证因果，只能找规律。",
+        "be not able to do 表示“无法做”。",
+        "第 34 空后紧跟介词 for，说明要填一个能与 for 搭配的动词（adjust）。",
+        "that could affect lifespan 是定语从句，修饰 lifestyle factors。",
+        "including dietary habits and changes... 是举例说明 factors。"
+      ],
+      "phrases": [
+        {
+          "text": "cause and effect",
+          "meaning": "因果关系",
+          "usage": "固定搭配，prove cause and effect 证明因果；同族 causal（因果的）。",
+          "example": "Coincidence does not prove cause and effect. 巧合不能证明因果关系。"
+        },
+        {
+          "text": "adjust for",
+          "meaning": "对……作出校正（统计上排除某因素的影响）",
+          "usage": "统计学术语；同义 control for / account for。",
+          "example": "The analysis adjusted for age and sex. 分析对年龄和性别作了校正。"
+        },
+        {
+          "text": "dietary habits",
+          "meaning": "饮食习惯",
+          "usage": "dietary 形容词“饮食的”；diet 是名词“饮食”。",
+          "example": "Dietary habits vary across regions. 饮食习惯因地区而异。"
+        }
+      ],
+      "pitfalls": [
+        "cannot prove cause and effect：观察性研究只能说明相关，不能说明因果。",
+        "第 34 空必须与 for 搭配，且用动词原形（were not able to do）。",
+        "observational studies 与 experimental studies（实验研究）相对，笔记中可对照记忆。"
+      ],
+      "paragraphRole": "承认研究局限，是科学写作的诚实表达，也为结尾“尽管如此仍有意义”的转折做铺垫。"
+    },
+    "4-1": {
+      "translationLiteral": "尽管有这些局限性，该研究的结果仍然是体力活动力量的又一个迹象，即使量很小。",
+      "translationNatural": "尽管有这些局限，这项研究的结果依然再一次说明：运动是有力量的——哪怕量很小。",
+      "structMarkup": "(Despite these 35), 【the study's results】 _are_ ~yet another indication (of the power of physical activity), (even in small amounts)~.",
+      "structureSummary": "让步状语 + 主系表结构",
+      "components": [
+        { "part": "Despite these 35", "role": "让步状语", "note": "第 35 空填名词复数，指前文提到的局限" },
+        { "part": "the study's results", "role": "主语", "note": "研究结果" },
+        { "part": "are", "role": "系动词", "note": "主系结构" },
+        { "part": "yet another indication", "role": "表语", "note": "yet another 意为“又一个”" },
+        { "part": "of the power of physical activity", "role": "后置定语", "note": "修饰 indication" },
+        { "part": "even in small amounts", "role": "状语", "note": "强调“即使量很小”" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "despite 是介词，后接名词（these limitations），不接句子。",
+        "yet another + 名词 表示“又一个（含强调）”。"
+      ],
+      "phrases": [
+        {
+          "text": "despite",
+          "meaning": "尽管、虽然",
+          "usage": "介词，后接名词或动名词；不能接句子（接句子要用 although）。",
+          "example": "Despite the rain, they went out. 尽管下雨，他们还是出门了。"
+        },
+        {
+          "text": "yet another",
+          "meaning": "又一个（强调数量已不少）",
+          "usage": "带有“再一次”的语气；同义 one more。",
+          "example": "That's yet another reason to start early. 这又是一个尽早开始的理由。"
+        },
+        {
+          "text": "an indication of",
+          "meaning": "……的一个迹象/表明",
+          "usage": "后接名词；动词形式 indicate。",
+          "example": "This is an indication of progress. 这表明有进展。"
+        }
+      ],
+      "pitfalls": [
+        "despite 是介词，后面只能接名词，不能写成 despite there were limitations。",
+        "第 35 空要用名词复数，概括前文说到的研究局限。",
+        "yet another 不是“另一个（已经有两个以上）”的简单计数，而是强调语气。"
+      ],
+      "paragraphRole": "收尾转折：承认局限，但强调结论仍有价值，把语气落回积极面。"
+    }
+  },
+  "blanks": {
+    "30": {
+      "answerKey": "O",
+      "answerWord": "upper",
+      "reason": "空格修饰 limit，构成固定说法 upper limit（上限）。前半句说“有些研究认为健康运动量存在上限”，与后半句“没有上限”正好对立，语义闭合。",
+      "distractors": "M) seemingly（副词）词性不合；H) moderate（形容词但意为“适度的”）不能修饰 limit 表示“上限”。"
+    },
+    "31": {
+      "answerKey": "M",
+      "answerWord": "seemingly",
+      "reason": "空格位于 there was 与 no limit 之间，作副词修饰整个否定判断，意为“看上去（没有上限）”。这是科学写作里常见的谨慎措辞。",
+      "distractors": "O) upper（形容词）、D) controversial（形容词）词性不合；K) populated（动词）不合。"
+    },
+    "32": {
+      "answerKey": "L",
+      "answerWord": "risk",
+      "reason": "lower ___ of death 需要一个能与 of death 搭配的名词，表示“死亡风险更低”。risk 构成固定搭配 a lower risk of death。",
+      "distractors": "F) impact（影响）不与 of death 搭配；J) patterns（模式）、G) limitations（局限）语义不合。"
+    },
+    "33": {
+      "answerKey": "J",
+      "answerWord": "patterns",
+      "reason": "they can only find ___：观察性研究不能证明因果，只能发现“规律/模式”。find patterns 是常见搭配，且 patterns 为复数，符合泛指。",
+      "distractors": "H) moderate（形容词）词性不合；A) adjust（动词）不能直接作 find 的宾语。"
+    },
+    "34": {
+      "answerKey": "A",
+      "answerWord": "adjust",
+      "reason": "空格前是 were not able to（无法），后面紧跟介词 for，需要动词原形且能与 for 搭配；adjust for 在统计语境中意为“对……作校正、排除其影响”，与“生活方式因素可能影响寿命”这一语境吻合。",
+      "distractors": "I) participated（participate for 搭配错误，应为 participate in）；K) populated、B) alter 都不能与 for 搭配表达“校正”。"
+    },
+    "35": {
+      "answerKey": "G",
+      "answerWord": "limitations",
+      "reason": "Despite these ___ 需要一个名词复数，概括上文提到的研究局限（不能证明因果、无法校正生活方式因素）。limitations 意为“局限性”，与 despite 的让步语气一致。",
+      "distractors": "E) coordinates（坐标）、J) patterns（模式）语义不合；C) approximately（副词）词性不合。"
+    }
+  },
+  "tokens": {
+    "observational": {
+      "phonetic": "/ˌɒbzəˈveɪʃənl/",
+      "pos": "adj.",
+      "senseInContext": "观察性的（observational studies 观察性研究）",
+      "collocations": ["observational study", "observational data", "observational learning"],
+      "examples": ["Observational studies cannot prove causality. 观察性研究无法证明因果。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "ob-（朝向）+ serv（注视）+ -ation + -al → 观察的", "synonyms": "descriptive / non-experimental", "confusables": "observational 与 experimental（实验的）相对" }
+    },
+    "longevity": {
+      "phonetic": "/lɒnˈdʒevəti/",
+      "pos": "n.",
+      "senseInContext": "长寿（longevity benefits 长寿益处）",
+      "collocations": ["longevity benefits", "increase longevity", "longevity research"],
+      "examples": ["Diet affects longevity. 饮食影响寿命。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "long（长）+ aev（年龄）+ -ity → 长寿命", "synonyms": "long life / lifespan", "confusables": "longevity 不可数；lifespan 指个体寿命长度" }
+    },
+    "dietary": {
+      "phonetic": "/ˈdaɪətəri/",
+      "pos": "adj.",
+      "senseInContext": "饮食的（dietary habits 饮食习惯）",
+      "collocations": ["dietary habits", "dietary fiber", "dietary restrictions"],
+      "examples": ["Dietary fiber helps digestion. 膳食纤维有助于消化。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "diet（饮食）+ -ary（形容词）", "synonyms": "nutritional / eating", "confusables": "dietary 形容词；diet 名词/动词" }
+    },
+    "indication": {
+      "phonetic": "/ˌɪndɪˈkeɪʃn/",
+      "pos": "n.",
+      "senseInContext": "迹象、表明（an indication of the power of physical activity 运动力量的一个迹象）",
+      "collocations": ["an indication of/that", "give an indication", "indicate（动词）"],
+      "examples": ["There is no indication that prices will fall. 没有迹象表明价格会下跌。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "in-（向）+ dic（说）+ -ation → 指出 → 表明", "synonyms": "sign / signal / evidence", "confusables": "indication 名词；indicator 是指标（人/物）" }
+    }
+  }
+}

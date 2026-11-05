@@ -1,0 +1,405 @@
+{
+  "sentences": {
+    "5-0": {
+      "translationLiteral": "在美国——世界最大的玉米和大豆生产国——农场可以在一定程度上向北迁移，Schlenker 说。",
+      "translationNatural": "美国是全球最大的玉米和大豆产地，Schlenker 说，那里的农场多少能往北挪一点。",
+      "structMarkup": "(In the US)—(the world's largest producer of corn and soybeans)—【farms】 _can move_ ~north~ (to some degree), _says_ 【Schlenker】.",
+      "structureSummary": "地点状语 + 插入语 + 主谓 + 引述倒装",
+      "components": [
+        { "part": "In the US", "role": "地点状语", "note": "交代地点" },
+        { "part": "the world's largest producer of corn and soybeans", "role": "插入同位语", "note": "补充说明美国" },
+        { "part": "farms", "role": "主语", "note": "农场" },
+        { "part": "can move north", "role": "谓语", "note": "move north 中 north 是副词" },
+        { "part": "to some degree", "role": "程度状语", "note": "在一定程度上" },
+        { "part": "says Schlenker", "role": "引述倒装", "note": "主语 Schlenker 在后" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "the world's largest producer of corn and soybeans 是同位语，解释 the US。",
+        "to some degree 是程度状语，表示“有限度地”。"
+      ],
+      "phrases": [
+        {
+          "text": "to some degree",
+          "meaning": "在一定程度上",
+          "usage": "程度状语；同义 to a certain extent。",
+          "example": "I agree to some degree. 我在一定程度上同意。"
+        },
+        {
+          "text": "the world's largest producer of...",
+          "meaning": "世界最大的……生产国/生产者",
+          "usage": "producer 后可接 of 表产品。",
+          "example": "Brazil is a major producer of coffee. 巴西是咖啡的主要生产国。"
+        }
+      ],
+      "pitfalls": [
+        "破折号中间是插入同位语，找主干时先跳过：farms can move north。",
+        "move north 中 north 是副词，前面不加 to。",
+        "引述倒装 says Schlenker：主语在动词之后。"
+      ],
+      "paragraphRole": "给出一种“应对方式”：农场可以北移，但为下一句的“可是”留扣。"
+    },
+    "5-1": {
+      "translationLiteral": "但最终，产量很可能会受损，因为爱荷华以北的土壤质量下降——这是冰川扩张的遗留。",
+      "translationNatural": "但最终产量还是会下降，因为爱荷华以北的土壤质量更差——那是冰川扩张留下的结果。",
+      "structMarkup": "{But eventually}, 【yields】 _will likely suffer_ {because the soil (north of Iowa) declines in quality}—~a legacy of glacial expansion~.",
+      "structureSummary": "主谓 + 原因状语从句 + 破折号补充说明",
+      "components": [
+        { "part": "But eventually", "role": "连接词 + 副词", "note": "转折 + 时间" },
+        { "part": "yields", "role": "主语", "note": "产量（复数）" },
+        { "part": "will likely suffer", "role": "谓语", "note": "suffer 此处不及物，意为“受损”" },
+        { "part": "because the soil north of Iowa declines in quality", "role": "原因状语从句", "note": "decline in quality 质量下降" },
+        { "part": "a legacy of glacial expansion", "role": "补充说明", "note": "同位语性质，解释土壤质量差的原因" }
+      ],
+      "clauses": [
+        "because 引导原因状语从句。",
+        "north of Iowa 是介词短语作后置定语，修饰 the soil。",
+        "a legacy of glacial expansion 是名词短语作补充说明（可视为省略 which is 的定语/同位语）。"
+      ],
+      "phrases": [
+        {
+          "text": "decline in quality",
+          "meaning": "质量下降",
+          "usage": "decline in + 名词，表示在某方面下降。",
+          "example": "The product declined in quality. 产品质量下降了。"
+        },
+        {
+          "text": "a legacy of",
+          "meaning": "……的遗留（物/影响）",
+          "usage": "legacy 可指遗产，也可指历史遗留的后果。",
+          "example": "The wall is a legacy of the Cold War. 这堵墙是冷战的遗留。"
+        }
+      ],
+      "pitfalls": [
+        "suffer 在此不及物，意为“受损”，不是“遭受（某物）”。",
+        "north of Iowa 中 north 是名词/副词 + of 结构，表示“爱荷华以北”。",
+        "破折号后的名词短语补充说明前面整件事的原因。"
+      ],
+      "paragraphRole": "转折：北移有极限，土壤条件是硬约束。"
+    },
+    "5-2": {
+      "translationLiteral": "其他研究，包括对印度小麦和非洲玉米的研究，也发现存在一个阈值，超过它产量就急剧下降：作物可以适应和迁移，但只能到某个程度。",
+      "translationNatural": "其他研究也得出同样结论——印度的小麦、非洲的玉米都是如此：存在一个临界点，过了它产量就猛跌；作物能适应、能搬家，但终究有限。",
+      "structMarkup": "【Other studies, (including studies of wheat in India and corn in Africa),】 _also found_ ~{that there is a threshold above which yields sharply decline}~: 【crops】 _can adapt and move_, {but only to a point}.",
+      "structureSummary": "主谓 + 宾语从句（内含定语从句）+ 冒号后的解释句",
+      "components": [
+        { "part": "Other studies", "role": "主语", "note": "其他研究" },
+        { "part": "including studies of wheat in India and corn in Africa", "role": "插入举例", "note": "including 是介词" },
+        { "part": "also found", "role": "谓语", "note": "也发现" },
+        { "part": "that there is a threshold", "role": "宾语从句", "note": "there be 结构" },
+        { "part": "above which yields sharply decline", "role": "定语从句", "note": "修饰 threshold" },
+        { "part": "crops can adapt and move", "role": "冒号后分句", "note": "解释前述结论" },
+        { "part": "but only to a point", "role": "转折补充", "note": "只能到某个程度" }
+      ],
+      "clauses": [
+        "that there is a threshold... 是宾语从句，作 found 的宾语。",
+        "above which yields sharply decline 是“介词 + which”引导的定语从句，修饰 threshold。",
+        "冒号后的 crops can adapt and move, but only to a point 是对前面结论的同义解释。"
+      ],
+      "phrases": [
+        {
+          "text": "above which",
+          "meaning": "在其之上（引导定语从句）",
+          "usage": "介词 + which 结构：a threshold above which...（超过它就……）。",
+          "example": "They set a limit above which no extra fee applies. 他们设了一个额度，超过就不再收费。"
+        },
+        {
+          "text": "only to a point",
+          "meaning": "只到某个程度、有限度",
+          "usage": "点明“有上限”的委婉说法。",
+          "example": "You can negotiate, but only to a point. 你可以谈，但也有个限度。"
+        }
+      ],
+      "pitfalls": [
+        "above which 引导定语从句，不能拆成两个句子理解。",
+        "sharply decline：副词修饰动词，语序可前可后。",
+        "冒号后不是引语，而是对前面的解释，阅读时按“也就是说”处理。"
+      ],
+      "paragraphRole": "用多项研究支撑“存在临界点”的普遍性，强化论点。"
+    },
+    "5-3": {
+      "translationLiteral": "“所有研究的共同点是这一发现：极端高温对作物生长有破坏性，尽管确切的临界点因作物而异，”Schlenker 说。",
+      "translationNatural": "“所有研究都指向同一点：极端高温对作物生长有害，只是具体临界值因作物不同而不同，”Schlenker 说。",
+      "structMarkup": "\"{What's common to all studies} _is_ ~the finding {that extreme heat is damaging to crop growth}~, {although exact cutoffs vary by crop},\" _says_ 【Schlenker】.",
+      "structureSummary": "主语从句 + 系表结构 + 同位语从句 + 让步状语从句",
+      "components": [
+        { "part": "What's common to all studies", "role": "主语从句", "note": "what 引导，作整个引语的主语" },
+        { "part": "is", "role": "系动词", "note": "主系结构" },
+        { "part": "the finding", "role": "表语", "note": "发现" },
+        { "part": "that extreme heat is damaging to crop growth", "role": "同位语从句", "note": "说明 finding 的内容" },
+        { "part": "although exact cutoffs vary by crop", "role": "让步状语从句", "note": "虽然具体临界值不同" },
+        { "part": "says Schlenker", "role": "引述倒装", "note": "主语在后" }
+      ],
+      "clauses": [
+        "What's common to all studies 是 what 引导的主语从句，谓语用单数 is。",
+        "that extreme heat is damaging to crop growth 是同位语从句，解释 the finding。",
+        "although 引导让步状语从句，插在引语内部。"
+      ],
+      "phrases": [
+        {
+          "text": "be common to",
+          "meaning": "为……所共有",
+          "usage": "common to all studies（所有研究共有的）。",
+          "example": "This feature is common to all models. 这一特点所有型号都有。"
+        },
+        {
+          "text": "be damaging to",
+          "meaning": "对……有破坏性",
+          "usage": "damaging 形容词；同义 be harmful to。",
+          "example": "Excessive heat is damaging to crops. 过热对作物有害。"
+        },
+        {
+          "text": "vary by",
+          "meaning": "因……而异",
+          "usage": "vary by crop/region/season；同族 various、variety。",
+          "example": "Prices vary by region. 价格因地区而异。"
+        }
+      ],
+      "pitfalls": [
+        "What's common to all studies 是主语从句，谓语用单数 is。",
+        "the finding that... 中 that 引导同位语从句，不能换成 which。",
+        "cutoff 是“临界值”，与 cut off（切断）含义不同。"
+      ],
+      "paragraphRole": "用专家的总结句提炼共同结论：高温有害，只是阈值不同。"
+    },
+    "5-4": {
+      "translationLiteral": "“不过，如果对本世纪末的预测是真的，我认为美国很多农业区将遭受重大打击。”",
+      "translationNatural": "“但如果对本世纪末的预测成真，我认为美国很多农区都会受到重创。”",
+      "structMarkup": "\"{If predictions for the end of the century are true}, (though), 【I】 _think_ ~{a lot of agricultural areas in the US will see significant hits}~.\"",
+      "structureSummary": "条件状语从句 + 插入副词 + 主谓 + 宾语从句",
+      "components": [
+        { "part": "If predictions for the end of the century are true", "role": "条件状语从句", "note": "if 引导假设条件" },
+        { "part": "though", "role": "插入副词", "note": "不过（口语化，置于句中）" },
+        { "part": "I", "role": "主句主语", "note": "说话人" },
+        { "part": "think", "role": "谓语", "note": "后接省略 that 的宾语从句" },
+        { "part": "a lot of agricultural areas in the US will see significant hits", "role": "宾语从句", "note": "see hits = 遭受打击" }
+      ],
+      "clauses": [
+        "If 引导条件状语从句，主句用一般现在时 think（表主观判断）。",
+        "a lot of agricultural areas... 是省略 that 的宾语从句。",
+        "see significant hits 中 see 表示“经历、遭受”。"
+      ],
+      "phrases": [
+        {
+          "text": "see significant hits",
+          "meaning": "遭受重大打击",
+          "usage": "see 在此不是“看见”，而是“经历”（see a decline / see growth）。",
+          "example": "The industry saw a sharp decline. 该行业经历了急剧下滑。"
+        },
+        {
+          "text": "for the end of the century",
+          "meaning": "对本世纪末的（预测）",
+          "usage": "predictions for... 表示“关于……的预测”。",
+          "example": "Predictions for next year are optimistic. 对明年的预测比较乐观。"
+        }
+      ],
+      "pitfalls": [
+        "I think 后的 that 省略，别把 a lot of areas 当主句主语。",
+        "see 在此是“经历”，不是“看见”。",
+        "though 放在句中作插入语，意为“不过”。"
+      ],
+      "paragraphRole": "用最悲观的一句收束 F 段，为 G 段的量化数据做情绪铺垫。"
+    },
+    "6-0": {
+      "translationLiteral": "在目前条件下，世界上约 4% 的农田在任何给定年份经历干旱，但到本世纪末，这些情况预计会跃升至每年约 18%。",
+      "translationNatural": "现在每年全球约有 4% 的农田遭遇干旱，但到本世纪末，这个比例预计会跳到 18% 左右。",
+      "structMarkup": "(Under current conditions), 【about 4% of the world's croplands】 _experience_ ~drought~ (in any given year), {but by the end of the century} 【those conditions】 _are forecasted to jump_ (to about 18% per year).",
+      "structureSummary": "两个并列分句（but 转折）：①主谓宾；②主谓（被动）+ 状语",
+      "components": [
+        { "part": "Under current conditions", "role": "状语", "note": "在目前条件下" },
+        { "part": "about 4% of the world's croplands", "role": "主语", "note": "核心词是 4%，谓语用复数" },
+        { "part": "experience", "role": "谓语", "note": "经历、遭遇" },
+        { "part": "drought", "role": "宾语", "note": "干旱" },
+        { "part": "in any given year", "role": "时间状语", "note": "在任意给定年份" },
+        { "part": "those conditions", "role": "第二分句主语", "note": "指干旱情况" },
+        { "part": "are forecasted to jump to about 18% per year", "role": "谓语", "note": "被动 + 不定式" }
+      ],
+      "clauses": [
+        "but 连接两个并列分句，形成对比。",
+        "be forecasted to do 是“预计将……”的被动结构。"
+      ],
+      "phrases": [
+        {
+          "text": "in any given year",
+          "meaning": "在任意一年、随便哪一年",
+          "usage": "given 表“给定的”；常用于统计描述。",
+          "example": "About 10% of students fail in any given year. 每年约有 10% 的学生不及格。"
+        },
+        {
+          "text": "be forecasted to do",
+          "meaning": "预计将……",
+          "usage": "被动结构；同义 be expected/predicted to do。",
+          "example": "Sales are forecasted to double. 预计销量将翻倍。"
+        }
+      ],
+      "pitfalls": [
+        "about 4% of the world's croplands 作主语，谓语用复数 experience。",
+        "in any given year 不是“某一年”，而是“任意一年”。",
+        "jump to 表示“跃升至”，to 后接目标值。"
+      ],
+      "paragraphRole": "用两个百分比形成强对比（4% → 18%），把风险量化。"
+    },
+    "6-1": {
+      "translationLiteral": "一些研究表明，园艺作物——通常指除主食之外的一切——可能受到最严重的影响，很大程度上因为它们往往被限制在较小的地理区域内。",
+      "translationNatural": "一些研究指出，受影响最重的可能是园艺类作物（笼统说，就是除主粮以外的东西），主要是因为它们往往只种在很小的地理范围内。",
+      "structMarkup": "【Some studies】 _indicate_ ~{that horticulture crops—(generally, everything besides staples)—may be impacted most severely}, (largely because they tend to be confined to a smaller geographic area).",
+      "structureSummary": "主谓 + 宾语从句 + 原因状语从句",
+      "components": [
+        { "part": "Some studies", "role": "主语", "note": "一些研究" },
+        { "part": "indicate", "role": "谓语", "note": "表明" },
+        { "part": "that horticulture crops ... may be impacted most severely", "role": "宾语从句", "note": "从句主体" },
+        { "part": "generally, everything besides staples", "role": "插入解释", "note": "解释 horticulture crops" },
+        { "part": "largely because they tend to be confined to a smaller geographic area", "role": "原因状语从句", "note": "说明原因" }
+      ],
+      "clauses": [
+        "that 引导宾语从句，作 indicate 的宾语。",
+        "破折号中间 generally, everything besides staples 是对 horticulture crops 的解释。",
+        "because 引导原因状语从句，largely 修饰 because（“很大程度上因为”）。"
+      ],
+      "phrases": [
+        {
+          "text": "be confined to",
+          "meaning": "被限制在……范围内",
+          "usage": "confine 动词“限制”；被动形式常见。",
+          "example": "The disease is confined to the region. 这种病仅限该地区。"
+        },
+        {
+          "text": "everything besides",
+          "meaning": "除……之外的一切",
+          "usage": "besides 表“除……之外（还有）”；beside 是“在旁边”。",
+          "example": "Everything besides water was removed. 除水以外的东西都被搬走了。"
+        }
+      ],
+      "pitfalls": [
+        "horticulture crops 后破折号中间是解释，主谓在破折号两侧：crops ... may be impacted。",
+        "be confined to 中 to 是介词，后接名词。",
+        "besides（除……之外）与 beside（在旁边）拼写差一个 s。"
+      ],
+      "paragraphRole": "解释为什么园艺类作物最脆弱：种植区域集中，替代性差。"
+    },
+    "6-2": {
+      "translationLiteral": "研究人员 Andrew Jarvis 和他的同事发现，例如到 2050 年中美洲和巴西 80% 的咖啡种植区可能变得不适宜，而气候变化可能对西非的可可生产产生“重大影响”。",
+      "translationNatural": "研究者 Andrew Jarvis 和同事发现：到 2050 年，中美洲和巴西可能有 80% 的咖啡产区不再适合种植；同时气候变化可能对西非的 cocoa（可可）生产造成“巨大冲击”。",
+      "structMarkup": "【Researcher Andrew Jarvis and his colleagues】 _found_ ~{that 80% of coffee-growing zones (in Central America and Brazil) could become unsuitable by 2050}, (for example), {while climate change will likely have \"great impacts\" on cocoa production in West Africa}.",
+      "structureSummary": "主谓 + 宾语从句，while 连接对比分句",
+      "components": [
+        { "part": "Researcher Andrew Jarvis and his colleagues", "role": "主语", "note": "研究者及其同事" },
+        { "part": "found", "role": "谓语", "note": "后接 that 从句" },
+        { "part": "that 80% of coffee-growing zones could become unsuitable by 2050", "role": "宾语从句", "note": "80% 作从句主语" },
+        { "part": "for example", "role": "插入语", "note": "举例" },
+        { "part": "while climate change will likely have \"great impacts\" on cocoa production in West Africa", "role": "对比状语从句", "note": "while 表对比" }
+      ],
+      "clauses": [
+        "that 引导宾语从句，作 found 的宾语。",
+        "while 在此引导对比状语从句，意为“而、同时”。",
+        "80% of coffee-growing zones 作从句主语，谓语用 could become（情态动词形式不变）。"
+      ],
+      "phrases": [
+        {
+          "text": "become unsuitable",
+          "meaning": "变得不适宜",
+          "usage": "become + 形容词表状态变化；unsuitable for + 用途。",
+          "example": "The land became unsuitable for farming. 这片土地不再适合耕种。"
+        },
+        {
+          "text": "have great impacts on",
+          "meaning": "对……产生巨大影响",
+          "usage": "impact 可数，常用复数；同义 have a great effect on。",
+          "example": "Tourism has great impacts on local culture. 旅游业对当地文化影响巨大。"
+        }
+      ],
+      "pitfalls": [
+        "while 在此表对比（而），不是“当……时”。",
+        "80% of ... zones 作主语，谓语形式取决于 zones（复数），但情态动词无变化。",
+        "by 2050 表示“到 2050 年为止”，常与完成或将来搭配。"
+      ],
+      "paragraphRole": "用咖啡与可可两个具体案例，把“园艺作物最脆弱”落到可感的商品上。"
+    },
+    "6-3": {
+      "translationLiteral": "“高品质巧克力在未来会更难买到，如果你想要它，就得为它多付很多钱，”Jarvis 说。",
+      "translationNatural": "“以后高品质巧克力会越来越难买；想要，就得多花不少钱，”Jarvis 说。",
+      "structMarkup": "\"【High quality chocolate】 _will be less available_ (in the future), and {if you want it}, 【you】 _'ll have to pay_ ~a lot more for it~,\" _says_ 【Jarvis】.",
+      "structureSummary": "引语含两个并列分句（第二个带条件从句）+ 引述倒装",
+      "components": [
+        { "part": "High quality chocolate", "role": "第一分句主语", "note": "高品质巧克力" },
+        { "part": "will be less available", "role": "第一分句谓语", "note": "less available 更难得" },
+        { "part": "in the future", "role": "时间状语", "note": "将来" },
+        { "part": "if you want it", "role": "条件状语从句", "note": "如果你想要" },
+        { "part": "you'll have to pay a lot more for it", "role": "第二分句", "note": "主句" },
+        { "part": "says Jarvis", "role": "引述倒装", "note": "主语在后" }
+      ],
+      "clauses": [
+        "and 连接两个并列分句。",
+        "if 引导条件状语从句，主句用 will have to。",
+        "pay a lot more for it：pay money for sth. 结构，more 修饰省略的 money。"
+      ],
+      "phrases": [
+        {
+          "text": "be less available",
+          "meaning": "更难得、更难买到",
+          "usage": "available 形容词“可获得的”；less 修饰程度。",
+          "example": "Fresh fruit is less available in winter. 冬天新鲜水果更少见。"
+        },
+        {
+          "text": "pay more for sth.",
+          "meaning": "为某物多付钱",
+          "usage": "pay (money) for sth.；a lot more 表“多得多”。",
+          "example": "People pay more for organic food. 人们为有机食品付更多钱。"
+        }
+      ],
+      "pitfalls": [
+        "be less available 不是“更不可用”，而是“更难获得”。",
+        "pay a lot more for it 中 more 后省略了 money。",
+        "引述倒装 says Jarvis：主语在动词后。"
+      ],
+      "paragraphRole": "把气候变化落到消费端：爱吃的巧克力会变贵、变少，增强读者切身感。"
+    }
+  },
+  "tokens": {
+    "producer": {
+      "phonetic": "/prəˈdjuːsə(r)/",
+      "pos": "n.",
+      "senseInContext": "生产国、生产者（the largest producer of corn 最大的玉米生产国）",
+      "collocations": ["a major producer of", "oil producer", "produce（动词）"],
+      "examples": ["The country is a major producer of rice. 该国是大米主要生产国。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "pro-（向前）+ duc（引导）+ -er（者）→ 引出产物的人", "synonyms": "maker / manufacturer", "confusables": "producer 生产者；product 产品；produce 动词“生产”/名词“农产品”" }
+    },
+    "legacy": {
+      "phonetic": "/ˈleɡəsi/",
+      "pos": "n.",
+      "senseInContext": "遗留、遗迹（a legacy of glacial expansion 冰川扩张的遗留）",
+      "collocations": ["a legacy of", "leave a legacy", "legacy system"],
+      "examples": ["The conflict left a legacy of distrust. 冲突留下了不信任的后遗症。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "leg（派遣/遗赠）+ -acy → 遗赠之物", "synonyms": "heritage / aftermath / remnant", "confusables": "legacy 可指遗产，也常指“遗留问题/后果”" }
+    },
+    "cutoff": {
+      "phonetic": "/ˈkʌtɒf/",
+      "pos": "n.",
+      "senseInContext": "临界值、界限（exact cutoffs vary by crop 具体临界值因作物而异）",
+      "collocations": ["temperature cutoff", "cutoff point", "cut off（动词）"],
+      "examples": ["Each crop has its own heat cutoff. 每种作物都有自己的高温临界值。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "cut（切）+ off（断）→ 切断点", "synonyms": "threshold / limit", "confusables": "cutoff 名词“界限”；cut off 动词短语“切断、中断”" }
+    },
+    "confined": {
+      "phonetic": "/kənˈfaɪnd/",
+      "pos": "v.（过去分词）/ adj.",
+      "senseInContext": "被限制（be confined to a smaller area 被限制在较小区域）",
+      "collocations": ["be confined to", "confine oneself to", "confined space"],
+      "examples": ["The fire was confined to one room. 火势被限制在一个房间里。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "con-（共同）+ fin（界限）→ 划定边界 → 限制", "synonyms": "limited / restricted", "confusables": "confine 动词“限制”；define 是“定义”，拼写相近" }
+    },
+    "cocoa": {
+      "phonetic": "/ˈkəʊkəʊ/",
+      "pos": "n.",
+      "senseInContext": "可可（cocoa production 可可生产）",
+      "collocations": ["cocoa beans", "cocoa production", "cocoa butter"],
+      "examples": ["West Africa supplies most of the world's cocoa. 世界大部分可可来自西非。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "源自西班牙语 cacao", "synonyms": "cacao", "confusables": "cocoa 是可可粉/可可饮料；cacao 指可可树与生豆" }
+    }
+  }
+}

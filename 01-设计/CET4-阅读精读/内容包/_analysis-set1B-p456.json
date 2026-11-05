@@ -1,0 +1,267 @@
+{
+  "sentences": {
+    "4-0": {
+      "translationLiteral": "关于员工中负互惠的先前研究发现，它可能导致更低的员工动机、业务绩效以及工作场所的士气和文化的降低。",
+      "translationNatural": "此前关于员工“负向互惠”的研究发现，它会拉低员工积极性、公司业绩，也会损害职场士气与文化。",
+      "structMarkup": "【Prior research (on negative reciprocity among workers)】 _found_ ~{that it can result in lower employee motivation, business performance and workplace morale and culture}~.",
+      "structureSummary": "主谓 + 宾语从句（从句为 result in + 并列名词短语）",
+      "components": [
+        { "part": "Prior research", "role": "主语", "note": "先前研究" },
+        { "part": "on negative reciprocity among workers", "role": "定语", "note": "介词短语修饰 research" },
+        { "part": "found", "role": "谓语", "note": "后接 that 从句" },
+        { "part": "that it can result in...", "role": "宾语从句", "note": "研究结论" },
+        { "part": "it", "role": "从句主语", "note": "指 negative reciprocity" },
+        { "part": "lower employee motivation, business performance and workplace morale and culture", "role": "从句宾语", "note": "lower 同时修饰后面四个并列名词" }
+      ],
+      "clauses": [
+        "that it can result in... 是 that 引导的宾语从句，作 found 的宾语。",
+        "on negative reciprocity among workers 是介词短语作后置定语，修饰 prior research。"
+      ],
+      "phrases": [
+        {
+          "text": "prior research",
+          "meaning": "先前研究、既有研究",
+          "usage": "学术写作高频；同义 previous research / earlier studies。",
+          "example": "Prior research supports this view. 先前研究支持这一观点。"
+        },
+        {
+          "text": "result in",
+          "meaning": "导致、造成",
+          "usage": "result in + 结果；result from + 原因，方向相反。",
+          "example": "Carelessness results in errors. 粗心导致错误。"
+        },
+        {
+          "text": "workplace morale",
+          "meaning": "职场士气、员工精神面貌",
+          "usage": "morale 是不可数名词，指群体士气（与 moral“道德的”拼写不同）。",
+          "example": "Low morale hurts productivity. 士气低落损害生产力。"
+        }
+      ],
+      "pitfalls": [
+        "lower 一个词管住后面四个名词（motivation / performance / morale / culture），翻译时都要体现“下降”。",
+        "result in（导致）与 result from（起因于）方向相反，别混。",
+        "morale（士气）与 moral（道德的）拼写只差一个字母。"
+      ],
+      "paragraphRole": "引入前人研究，把“负向互惠”的危害从个案提升到已知结论，增强论证分量。"
+    },
+    "5-0": {
+      "translationLiteral": "我们的结果显示了这些负面行为可以自我表现的另一种方式，比如在机票预订中，并补充了女性不太可能参与这些行为的证据。",
+      "translationNatural": "我们的结果发现，这类消极行为还有另一种表现途径——订机票；这也为“女性更少这样做”增添了证据。",
+      "structMarkup": "【Our results】 _show_ ~another way (these negative behaviors can manifest themselves)~, (like in airline bookings), and _add to_ ~evidence {that women are less likely to engage in them}~.",
+      "structureSummary": "并列谓语：show + 宾语（带定语从句）；add to + 宾语（带同位语从句）",
+      "components": [
+        { "part": "Our results", "role": "主语", "note": "本研究的发现" },
+        { "part": "show", "role": "谓语", "note": "第一个谓语" },
+        { "part": "another way", "role": "宾语", "note": "另一种方式" },
+        { "part": "these negative behaviors can manifest themselves", "role": "定语从句", "note": "修饰 way，省略了 that/in which" },
+        { "part": "like in airline bookings", "role": "举例", "note": "具体化“另一种方式”" },
+        { "part": "and add to", "role": "谓语", "note": "第二个谓语，与 show 并列" },
+        { "part": "evidence", "role": "宾语", "note": "证据" },
+        { "part": "that women are less likely to engage in them", "role": "同位语从句", "note": "说明 evidence 的内容" }
+      ],
+      "clauses": [
+        "these negative behaviors can manifest themselves 是定语从句，先行词是 way（way 后常省略 that 或 in which）。",
+        "that women are less likely to engage in them 是同位语从句，解释 evidence 的具体内容。",
+        "and 连接两个并列谓语 show 和 add to，共用主语 Our results。"
+      ],
+      "phrases": [
+        {
+          "text": "manifest oneself",
+          "meaning": "（症状、倾向）表现出来",
+          "usage": "反身用法；也可说 manifest itself/themselves。",
+          "example": "Stress can manifest itself as headaches. 压力可能表现为头痛。"
+        },
+        {
+          "text": "add to evidence",
+          "meaning": "为（已有证据）增添内容",
+          "usage": "add to 后接名词，表示“增加、补充”。",
+          "example": "This adds to evidence that sleep matters. 这为“睡眠重要”增添了证据。"
+        },
+        {
+          "text": "be likely to do",
+          "meaning": "可能做、倾向于做",
+          "usage": "less likely to do 表示“不太可能做”。",
+          "example": "Women are less likely to take risks. 女性较少冒险。"
+        }
+      ],
+      "pitfalls": [
+        "way 后面的定语从句省略了 that/in which，别误以为 these behaviors 是主句主语。",
+        "add to 是“增加到/增添”，不是“加起来”。",
+        "them 指代 these negative behaviors（复数）。"
+      ],
+      "paragraphRole": "说明本研究的新贡献：把负向互惠的表现延伸到订票这种日常行为，并补充性别差异证据。"
+    },
+    "6-0": {
+      "translationLiteral": "公司在商务旅行上花费大量金钱。",
+      "translationNatural": "公司每年在出差上花的钱不是小数目。",
+      "structMarkup": "【Companies】 _spend_ ~significant sums of money~ (on business travel).",
+      "structureSummary": "主谓宾结构 + on 短语作状语（spend money on sth.）",
+      "components": [
+        { "part": "Companies", "role": "主语", "note": "公司（复数泛指）" },
+        { "part": "spend", "role": "谓语", "note": "花费" },
+        { "part": "significant sums of money", "role": "宾语", "note": "significant 修饰 sums，表示金额可观" },
+        { "part": "on business travel", "role": "状语", "note": "spend money on sth. 的固定搭配" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。"
+      ],
+      "phrases": [
+        {
+          "text": "spend money on sth.",
+          "meaning": "在……上花钱",
+          "usage": "介词用 on；也可 spend money (in) doing sth.。",
+          "example": "They spend a lot on travel. 他们在差旅上花很多钱。"
+        },
+        {
+          "text": "sums of money",
+          "meaning": "金额、款项",
+          "usage": "sum 指一笔钱；significant sums 表示数额巨大。",
+          "example": "Large sums of money were invested. 投入了大笔资金。"
+        }
+      ],
+      "pitfalls": [
+        "spend 的搭配是 spend money on sth.，不要用 spend money in sth.。",
+        "sums 用复数，因为说的是多笔支出。"
+      ],
+      "paragraphRole": "把讨论从“行为差异”引向“经济意义”，为结尾的金额估算铺垫。"
+    },
+    "6-1": {
+      "translationLiteral": "虽然每张票 18 美元的差异看起来很小，但它会累积起来。",
+      "translationNatural": "单张票差 18 美元看着不多，可架不住量大，累积起来很可观。",
+      "structMarkup": "{While that $18 difference (per ticket) may seem small}, 【it】 _adds up_.",
+      "structureSummary": "让步状语从句 + 主句",
+      "components": [
+        { "part": "While that $18 difference per ticket may seem small", "role": "让步状语从句", "note": "while 在此表“虽然”" },
+        { "part": "that $18 difference", "role": "从句主语", "note": "指前文的价差" },
+        { "part": "may seem small", "role": "从句谓语", "note": "seem 是系动词，后接形容词" },
+        { "part": "it", "role": "主句主语", "note": "指这 18 美元的差额" },
+        { "part": "adds up", "role": "主句谓语", "note": "add up 意为“累积起来”" }
+      ],
+      "clauses": [
+        "while 引导让步状语从句，意为“虽然、尽管”（不是“当……时”）。",
+        "主句 it adds up 与从句形成转折关系。"
+      ],
+      "phrases": [
+        {
+          "text": "add up",
+          "meaning": "累积、加总起来（数目可观）",
+          "usage": "不及物用法：small savings add up（小钱攒起来很可观）。",
+          "example": "Small daily costs add up quickly. 每天的小额开支很快累积起来。"
+        },
+        {
+          "text": "seem + 形容词",
+          "meaning": "看起来……",
+          "usage": "seem 是系动词，后接形容词或 to be。",
+          "example": "The task seems easy at first. 这任务一开始看起来很容易。"
+        }
+      ],
+      "pitfalls": [
+        "while 有两个常用义（虽然／当……时），此处是“虽然”。",
+        "adds up 是不及物短语，后面不接宾语。",
+        "it 指代的是“差额”这一概念，不是 companies。"
+      ],
+      "paragraphRole": "转折强调：单笔差额虽小，但乘以规模后意义重大。"
+    },
+    "6-2": {
+      "translationLiteral": "我们的分析表明，女性的提前预订可以为一家拥有 2 万名常旅客的大型跨国公司转化为每年 100 万美元的节省。",
+      "translationNatural": "我们的分析显示：对一家有两万名常出差员工的大型跨国企业来说，女性这种提前订票的习惯一年能省下 100 万美元。",
+      "structMarkup": "【Our analysis】 _suggests_ ~{early booking by women can translate into savings of $1 million a year for a large multinational company (with 20,000 regular travelers)}~.",
+      "structureSummary": "主谓 + 省略 that 的宾语从句（从句为主谓宾 + for 状语）",
+      "components": [
+        { "part": "Our analysis", "role": "主语", "note": "本研究的分析" },
+        { "part": "suggests", "role": "谓语", "note": "后接省略 that 的宾语从句" },
+        { "part": "early booking by women", "role": "从句主语", "note": "动名词短语作主语" },
+        { "part": "can translate into", "role": "从句谓语", "note": "translate into 意为“转化为”" },
+        { "part": "savings of $1 million a year", "role": "从句宾语", "note": "每年 100 万美元的节省" },
+        { "part": "for a large multinational company with 20,000 regular travelers", "role": "状语", "note": "说明对谁而言；with 短语作定语修饰 company" }
+      ],
+      "clauses": [
+        "suggests 后省略了连接词 that，引导宾语从句。",
+        "with 20,000 regular travelers 是介词短语作后置定语，修饰 a large multinational company。",
+        "early booking by women 是动名词短语作从句主语，谓语用单数 can translate。"
+      ],
+      "phrases": [
+        {
+          "text": "translate into",
+          "meaning": "转化为、变成（结果）",
+          "usage": "此处不是“翻译”；常指投入转化为产出。",
+          "example": "Hard work translates into results. 努力会转化为成果。"
+        },
+        {
+          "text": "savings of",
+          "meaning": "……的节省（金额）",
+          "usage": "savings 用复数，指节省下来的钱。",
+          "example": "The change led to savings of $500. 这项改变节省了 500 美元。"
+        },
+        {
+          "text": "multinational company",
+          "meaning": "跨国公司",
+          "usage": "multinational 可作形容词或名词；常缩略为 MNC。",
+          "example": "She works for a multinational company. 她在一家跨国公司工作。"
+        }
+      ],
+      "pitfalls": [
+        "translate into 在此是“转化为”，不能译成“翻译成”。",
+        "savings 必须用复数；saving 单数是“节约（行为）”。",
+        "early booking by women 作主语，谓语不能用复数。"
+      ],
+      "paragraphRole": "给出经济价值估算，为全文收尾，把行为差异提升到企业成本层面。"
+    }
+  },
+  "tokens": {
+    "prior": {
+      "phonetic": "/ˈpraɪə(r)/",
+      "pos": "adj.",
+      "senseInContext": "先前的、在前的（prior research 先前研究）",
+      "collocations": ["prior to", "prior experience", "prior research"],
+      "examples": ["Prior to 2020, few people worked from home. 2020 年之前，很少有人在家办公。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "pri（在前）+ -or → 更前的", "synonyms": "previous / earlier / preceding", "confusables": "prior to = before（介词）；prior 作形容词“先前的”" }
+    },
+    "manifest": {
+      "phonetic": "/ˈmænɪfest/",
+      "pos": "v./adj.",
+      "senseInContext": "显现、表现出来（manifest themselves 表现出来）",
+      "collocations": ["manifest itself/themselves", "manifest as", "be manifest in"],
+      "examples": ["The disease manifests itself in early childhood. 这种病在幼儿期显现。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "mani（手）+ fest（抓）→ 用手能抓住 → 明显", "synonyms": "show / reveal / display", "confusables": "manifest 较正式；作形容词意为“明显的”（manifest error）" }
+    },
+    "evidence": {
+      "phonetic": "/ˈevɪdəns/",
+      "pos": "n.",
+      "senseInContext": "证据（add to evidence that... 为……增添证据）",
+      "collocations": ["evidence that...", "provide evidence", "evidence of/for"],
+      "examples": ["There is evidence that exercise improves mood. 有证据表明运动能改善情绪。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "e-（向外）+ vid（看）→ 看得见的东西 → 证据", "synonyms": "proof / data", "confusables": "evidence 不可数，不能说 an evidence；proof 可数" }
+    },
+    "significant": {
+      "phonetic": "/sɪɡˈnɪfɪkənt/",
+      "pos": "adj.",
+      "senseInContext": "可观的、显著的（significant sums of money 大量金钱）",
+      "collocations": ["significant difference", "statistically significant", "significant amount"],
+      "examples": ["There was a significant improvement in scores. 分数有显著提高。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "sign（标记）+ i + fic（做）+ -ant → 有意义的", "synonyms": "considerable / notable / substantial", "confusables": "significant 在统计语境指“显著的”，不等于“重要的”" }
+    },
+    "translate": {
+      "phonetic": "/trænzˈleɪt/",
+      "pos": "v.",
+      "senseInContext": "（translate into）转化为、变成",
+      "collocations": ["translate into", "translate from A into B", "translation（名词）"],
+      "examples": ["Good planning translates into better results. 好的规划会转化为更好的结果。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "trans-（跨越）+ lat（搬运）→ 搬过去 → 翻译/转化", "synonyms": "convert into / turn into", "confusables": "translate into 既可是“翻译成”，也可是“转化为”，看语境" }
+    },
+    "multinational": {
+      "phonetic": "/ˌmʌltiˈnæʃnəl/",
+      "pos": "adj./n.",
+      "senseInContext": "跨国的（a large multinational company 大型跨国公司）",
+      "collocations": ["multinational company/corporation", "multinational corporation (MNC)"],
+      "examples": ["Multinational firms face complex tax rules. 跨国企业面临复杂的税务规则。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "multi-（多）+ national（国家的）", "synonyms": "global / international", "confusables": "multinational 强调在多国经营；international 泛指国际的" }
+    }
+  }
+}

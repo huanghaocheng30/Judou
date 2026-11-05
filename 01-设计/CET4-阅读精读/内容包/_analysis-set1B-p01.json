@@ -1,0 +1,238 @@
+{
+  "sentences": {
+    "0": {
+      "translationLiteral": "女性员工在同样的航班上始终比男性支付更低的机票，因为她们倾向于更早订票。",
+      "translationNatural": "同一条航线，女员工买的机票总是比男同事便宜——因为她们订得更早。",
+      "structMarkup": "【Female employees】 _consistently pay_ ~lower airfares~ (than men do) (for the same flights) {because they tend to book earlier}.",
+      "structureSummary": "主谓宾结构 + 比较状语从句 + 原因状语从句",
+      "components": [
+        { "part": "Female employees", "role": "主语", "note": "复数泛指女性员工" },
+        { "part": "consistently pay", "role": "谓语", "note": "consistently 是频率副词，说明“一贯如此”" },
+        { "part": "lower airfares", "role": "宾语", "note": "lower 是比较级形容词修饰 airfares" },
+        { "part": "than men do", "role": "比较状语从句", "note": "do 替代 pay lower airfares，避免重复" },
+        { "part": "for the same flights", "role": "状语", "note": "限定比较范围：同样的航班" },
+        { "part": "because they tend to book earlier", "role": "原因状语从句", "note": "解释为什么更便宜" }
+      ],
+      "clauses": [
+        "than men do 是比较状语从句，do 是代动词，替代前文的 pay lower airfares。",
+        "because they tend to book earlier 是 because 引导的原因状语从句。",
+        "tend to do 表示习惯性倾向，比 will 更客观。"
+      ],
+      "phrases": [
+        {
+          "text": "pay airfares",
+          "meaning": "支付机票钱",
+          "usage": "airfare 可数，常用复数；同义：pay for tickets。",
+          "example": "Travellers pay higher airfares during holidays. 假期期间旅客支付的机票更贵。"
+        },
+        {
+          "text": "tend to do sth.",
+          "meaning": "倾向于、往往会做某事",
+          "usage": "表示统计意义上的普遍倾向，不表示绝对。",
+          "example": "Women tend to book earlier than men. 女性往往比男性订得早。"
+        },
+        {
+          "text": "book a flight",
+          "meaning": "订航班、订机票",
+          "usage": "book 作动词意为“预订”；同族 booking 是名词“预订”。",
+          "example": "I booked a flight for Monday. 我订了周一的航班。"
+        }
+      ],
+      "pitfalls": [
+        "than men do 中的 do 不能省，省掉后容易读成“than men”直接跟名词。",
+        "airfare 是可数名词，指“机票钱”，不要写成 airfare 单数形式去泛指。",
+        "book 在这里是动词“预订”，不是名词“书”。"
+      ],
+      "paragraphRole": "开篇直接抛出核心发现：女员工机票更便宜，原因在于订得更早。"
+    },
+    "1-0": {
+      "translationLiteral": "我们比较了同一公司内同一职位的员工为同一舱位旅行支付的机票，并使用了一种常见的统计技术来解释可能影响机票差异的其他因素。",
+      "translationNatural": "我们比较了同一公司、同一职位、同一舱位下员工实际支付的票价，又用常见的统计方法把其他可能影响票价的因素排除掉。",
+      "structMarkup": "【We】 _compared_ ~the airfare (paid by employees) (in the same position) (within a company) (for the same class of travel)~ and _used_ ~a common statistical technique~ (to account for other factors {that might affect differences in airfares}).",
+      "structureSummary": "并列谓语：主语 + 谓语1 + 宾语1 + and + 谓语2 + 宾语2 + 目的状语",
+      "components": [
+        { "part": "We", "role": "主语", "note": "研究者" },
+        { "part": "compared", "role": "谓语", "note": "第一个并列谓语" },
+        { "part": "the airfare paid by employees...", "role": "宾语", "note": "中心词 airfare，后面四个介词/分词短语层层限定" },
+        { "part": "and used", "role": "谓语", "note": "与 compared 并列的第二个谓语" },
+        { "part": "a common statistical technique", "role": "宾语", "note": "常见统计技术" },
+        { "part": "to account for other factors", "role": "目的状语", "note": "不定式说明用这个技术做什么" },
+        { "part": "that might affect differences in airfares", "role": "定语从句", "note": "修饰 factors" }
+      ],
+      "clauses": [
+        "主句有两个并列谓语：compared 和 used，共用主语 We。",
+        "paid by employees in the same position within a company for the same class of travel 是过去分词短语 + 介词短语作后置定语，修饰 airfare。",
+        "that might affect differences in airfares 是 that 引导的定语从句，修饰 other factors。",
+        "to account for other factors 是不定式作目的状语，不是从句。"
+      ],
+      "phrases": [
+        {
+          "text": "account for",
+          "meaning": "解释、说明（原因）；占（比例）",
+          "usage": "两个高频义项：account for the difference（解释差异）／account for 30%（占 30%）。",
+          "example": "How do you account for the change? 你怎么解释这个变化？"
+        },
+        {
+          "text": "class of travel",
+          "meaning": "舱位等级（经济舱、商务舱等）",
+          "usage": "航空语境固定说法；同义：cabin class。",
+          "example": "They flew in the same class of travel. 他们乘坐同一舱位。"
+        },
+        {
+          "text": "in the same position",
+          "meaning": "处于同一职位",
+          "usage": "position 指职位、岗位；同义：at the same level。",
+          "example": "Two people in the same position may earn differently. 同一职位的两个人收入可能不同。"
+        }
+      ],
+      "pitfalls": [
+        "account for 有两个常用义（解释／占比例），要按语境判断。",
+        "paid by employees 是过去分词短语作定语，不是谓语动词。",
+        "定语从句 that might affect... 修饰紧挨着的 other factors，不是 factors 前面的 technique。"
+      ],
+      "paragraphRole": "交代研究方法与控制变量的做法，为结论的可信度做铺垫。"
+    },
+    "1-1": {
+      "translationLiteral": "我们发现女性每张票平均比她们的男同事少付 18 美元。",
+      "translationNatural": "结果发现，女员工平均每张票比男同事少花 18 美元。",
+      "structMarkup": "【We】 _found_ ~{that women paid (on average) $18 less (per ticket) (than their male colleagues)}~.",
+      "structureSummary": "主谓 + 宾语从句（从句内部含比较结构）",
+      "components": [
+        { "part": "We", "role": "主语", "note": "研究者" },
+        { "part": "found", "role": "谓语", "note": "后接 that 宾语从句" },
+        { "part": "that women paid ... less than their male colleagues", "role": "宾语从句", "note": "从句主干是 women paid $18" },
+        { "part": "on average", "role": "状语", "note": "平均而言" },
+        { "part": "$18 less", "role": "程度状语", "note": "less 表示差额" },
+        { "part": "per ticket", "role": "状语", "note": "每张票" },
+        { "part": "than their male colleagues", "role": "比较状语", "note": "与男同事相比" }
+      ],
+      "clauses": [
+        "that women paid... 是 that 引导的宾语从句，作 found 的宾语。",
+        "从句内部 than their male colleagues 是比较结构，与 $18 less 呼应。",
+        "paid 的宾语是省略的 money，$18 less 是程度修饰。"
+      ],
+      "phrases": [
+        {
+          "text": "on average",
+          "meaning": "平均而言",
+          "usage": "作状语，位置灵活；形容词形式 average（平均的）。",
+          "example": "On average, students sleep seven hours. 学生平均睡七小时。"
+        },
+        {
+          "text": "per ticket",
+          "meaning": "每张票",
+          "usage": "per 表示“每”，后接单数名词：per person / per day。",
+          "example": "The fee is $5 per person. 费用是每人 5 美元。"
+        }
+      ],
+      "pitfalls": [
+        "$18 less 是“少 18 美元”，不要理解成“18 美元以下”。",
+        "比较对象要一致：than their male colleagues（与男同事的票价相比），不要写成 than men's。",
+        "per ticket 后面不加复数。"
+      ],
+      "paragraphRole": "给出量化差额，把前面的方法落到具体数字上。"
+    },
+    "1-2": {
+      "translationLiteral": "进一步调查让我们得出结论：这一差距很大程度上可以用女性比男性更早订票这一事实来解释，平均早 1.8 天。",
+      "translationNatural": "进一步分析后我们判断：这个差价主要是“女性订得更早”造成的，平均早 1.8 天。",
+      "structMarkup": "【Further investigation】 _allowed_ ~us~ (to conclude {that this gap is largely explained by the fact that women tended to book earlier than men, 1.8 days on average}).",
+      "structureSummary": "主谓宾补（allow sb. to do）+ 宾语从句 + 同位语从句",
+      "components": [
+        { "part": "Further investigation", "role": "主语", "note": "更深入的调查" },
+        { "part": "allowed", "role": "谓语", "note": "allow sb. to do 结构" },
+        { "part": "us", "role": "宾语", "note": "研究团队" },
+        { "part": "to conclude", "role": "宾语补足语", "note": "不定式说明“允许我们做什么”" },
+        { "part": "that this gap is largely explained by the fact", "role": "宾语从句", "note": "conclude 的内容" },
+        { "part": "that women tended to book earlier than men", "role": "同位语从句", "note": "解释 the fact 的具体内容" }
+      ],
+      "clauses": [
+        "allow sb. to do sth. 是固定结构：allowed us to conclude（使我们得以得出结论）。",
+        "that this gap is largely explained by the fact... 是 that 引导的宾语从句。",
+        "that women tended to book earlier than men 是同位语从句，说明 the fact 是什么，不能用 which 替换。",
+        "than men 是比较结构，与 earlier 呼应。"
+      ],
+      "phrases": [
+        {
+          "text": "allow sb. to do sth.",
+          "meaning": "使某人能够做某事、允许某人做",
+          "usage": "宾语后必须带 to；同类结构 encourage/force/ask sb. to do。",
+          "example": "The data allowed us to draw a conclusion. 这些数据使我们得以得出结论。"
+        },
+        {
+          "text": "be explained by",
+          "meaning": "由……来解释、原因在于",
+          "usage": "被动结构；主动形式 explain sth. by sth.。",
+          "example": "The difference can be explained by age. 这种差异可以用年龄来解释。"
+        },
+        {
+          "text": "the fact that...",
+          "meaning": "……这一事实",
+          "usage": "that 引导同位语从句，说明 fact 的内容；口语中也可省略。",
+          "example": "We ignored the fact that prices were rising. 我们忽略了价格在上涨这一事实。"
+        }
+      ],
+      "pitfalls": [
+        "allow sb. to do，不能说 allow sb. do。",
+        "the fact that 中的 that 引导同位语从句，不能换成 which。",
+        "1.8 days on average 是补充说明“早多少”，不要误当成时间状语修饰整句。"
+      ],
+      "paragraphRole": "给出关键归因：价差主要来自订票时间的先后，为下文探究“为什么女性订得早”铺路。"
+    }
+  },
+  "tokens": {
+    "airfare": {
+      "phonetic": "/ˈeəfeə(r)/",
+      "pos": "n.",
+      "senseInContext": "机票钱、票价（airfares 复数泛指机票价格）",
+      "collocations": ["pay an airfare", "cheap/expensive airfare", "airfare difference"],
+      "examples": ["Airfares rise before holidays. 节假日前机票涨价。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "air（航空）+ fare（费用）", "synonyms": "ticket price / fare", "confusables": "fare 泛指车费/票价；fee 指服务费；price 是价格总称" }
+    },
+    "consistently": {
+      "phonetic": "/kənˈsɪstəntli/",
+      "pos": "adv.",
+      "senseInContext": "一贯地、始终如一地（说明不是偶然一次）",
+      "collocations": ["consistently high/low", "consistently perform well"],
+      "examples": ["She has consistently scored above 90. 她一直考 90 分以上。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "con-（共同）+ sist（站立）→ 始终站在一处 → 一致", "synonyms": "steadily / always", "confusables": "consistent 形容词“一致的”；be consistent with 与……一致" }
+    },
+    "account": {
+      "phonetic": "/əˈkaʊnt/",
+      "pos": "v./n.",
+      "senseInContext": "（account for）解释、说明；也可表“占（比例）”",
+      "collocations": ["account for sth.", "take sth. into account", "on account of"],
+      "examples": ["This accounts for the difference. 这解释了差异。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "ac-（向）+ count（计算）→ 算清楚 → 账目、说明", "synonyms": "explain / make up", "confusables": "account for 解释/占；take into account 考虑；on account of 因为" }
+    },
+    "conclude": {
+      "phonetic": "/kənˈkluːd/",
+      "pos": "v.",
+      "senseInContext": "得出结论、断定（conclude that...）",
+      "collocations": ["conclude that...", "draw a conclusion", "in conclusion"],
+      "examples": ["Researchers concluded that sleep affects memory. 研究者得出结论：睡眠影响记忆。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "con-（完全）+ clud（关闭）→ 关起来 → 结束、得出结论", "synonyms": "determine / infer / decide", "confusables": "conclude 还有“结束”义：conclude a speech 结束演讲" }
+    },
+    "gap": {
+      "phonetic": "/ɡæp/",
+      "pos": "n.",
+      "senseInContext": "差距、差额（this gap 指票价差距）",
+      "collocations": ["gender gap", "narrow/bridge the gap", "a gap between A and B"],
+      "examples": ["The wage gap remains wide. 工资差距依然很大。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "本义“缺口、缝隙”", "synonyms": "difference / disparity", "confusables": "gap 偏“差距/空白”；distance 偏“距离”" }
+    },
+    "colleagues": {
+      "phonetic": "/ˈkɒliːɡz/",
+      "pos": "n.",
+      "senseInContext": "同事（male colleagues 男同事）",
+      "collocations": ["a colleague of mine", "work with colleagues", "senior colleague"],
+      "examples": ["She discussed the plan with her colleagues. 她和同事讨论了计划。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "col-（共同）+ leg（选派）→ 共同被选派 → 同僚", "synonyms": "coworker / workmate", "confusables": "colleague 正式；coworker 更口语；partner 指合伙人" }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "sentences": {
+    "2-0": {
+      "translationLiteral": "那就是为什么我们觉得我们必须显得忙，而且确实存在一种看法：如果某人深陷于会议、邮件和压力之中，那他可能是个大人物。",
+      "translationNatural": "所以我们才觉得自己必须显得很忙；而且大家真的相信：一个人要是被会议、邮件和压力缠得脱不开身，那他多半是个人物。",
+      "structMarkup": "【That】 _'s_ ~why we feel like we have to appear busy~, and 【there】 _'s_ ~a real perception that if someone is knee-deep in meetings, emails, and stress, then they're probably a big deal~.",
+      "structureSummary": "两个并列分句：①主系表（表语为 why 从句）；②there be 存在句 + 同位语从句",
+      "components": [
+        { "part": "That", "role": "主语", "note": "指代上一段的结论" },
+        { "part": "'s (= is)", "role": "系动词", "note": "主系结构" },
+        { "part": "why we feel like we have to appear busy", "role": "表语从句", "note": "That's why... 是“这就是为什么……”" },
+        { "part": "there", "role": "引导词", "note": "第二分句的 there be 存在句" },
+        { "part": "a real perception", "role": "主语（实义主语）", "note": "真正被陈述的对象：一种真实的看法" },
+        { "part": "that if someone is..., then they're probably a big deal", "role": "同位语从句", "note": "说明 perception 的具体内容" }
+      ],
+      "clauses": [
+        "why we feel like we have to appear busy 是 why 引导的表语从句（That's why + 结果）。",
+        "feel like 在口语中可直接接句子，表示“感觉好像……”。",
+        "that if someone is..., then they're... 是 that 引导的同位语从句，解释 perception 的内容，不是定语从句。",
+        "同位语从句内部又套了一层 if 引导的条件状语从句 + then 引导的主句。"
+      ],
+      "phrases": [
+        {
+          "text": "feel like + 句子",
+          "meaning": "感觉好像……",
+          "usage": "口语结构；也可接名词/动名词（feel like a coffee 想喝杯咖啡）。",
+          "example": "I feel like I've been running all day. 我感觉自己一整天都在跑。"
+        },
+        {
+          "text": "knee-deep in",
+          "meaning": "深陷于、忙于（字面：深到膝盖）",
+          "usage": "形象化表达，常搭工作/麻烦：knee-deep in debt 债台高筑。",
+          "example": "She's knee-deep in paperwork. 她深陷文书工作之中。"
+        },
+        {
+          "text": "a big deal",
+          "meaning": "大人物；了不起的事（口语）",
+          "usage": "否定式 no big deal 意为“没什么大不了”；形容人是“人物、大咖”。",
+          "example": "He acts like he's a big deal. 他表现得自己是个大人物似的。"
+        }
+      ],
+      "pitfalls": [
+        "That's why... 表结果，That's because... 表原因，两者常被混用。",
+        "there's a perception that... 里 that 引导同位语从句，不能用 which 替换。",
+        "a big deal 是口语习语，不能按字面译成“一笔大交易”。"
+      ],
+      "paragraphRole": "把研究结论落到日常行为：解释我们为什么要“装忙”，并点出这种看法是被普遍相信的。"
+    },
+    "2-1": {
+      "translationLiteral": "这种忙碌文化正在使员工难以找到工作与生活的平衡。",
+      "translationNatural": "这种“忙文化”让员工越来越难在工作与生活之间找到平衡。",
+      "structMarkup": "【This culture of busyness】 _is making_ ~it~ ~hard~ (for employees) (to find work-life balance).",
+      "structureSummary": "主谓宾补结构：make it + 形容词 + for sb. + to do（it 为形式宾语）",
+      "components": [
+        { "part": "This culture of busyness", "role": "主语", "note": "busyness 是 busy 的名词形式，意为“忙碌的状态”" },
+        { "part": "is making", "role": "谓语", "note": "现在进行时，强调正在发生" },
+        { "part": "it", "role": "形式宾语", "note": "占位，真正的宾语是后面的不定式" },
+        { "part": "hard", "role": "宾语补足语", "note": "说明 it 的状态：难" },
+        { "part": "for employees", "role": "不定式的逻辑主语", "note": "说明“对谁来说难”" },
+        { "part": "to find work-life balance", "role": "真正宾语", "note": "被 it 替代的后置宾语" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "make it hard for sb. to do sth. 是固定句型：it 作形式宾语，形容词作宾补，不定式作真正宾语。"
+      ],
+      "phrases": [
+        {
+          "text": "make it hard for sb. to do sth.",
+          "meaning": "使某人难以做某事",
+          "usage": "同族句型：make it easy/possible/necessary for sb. to do。",
+          "example": "Noise makes it hard for me to focus. 噪音让我很难集中注意力。"
+        },
+        {
+          "text": "work-life balance",
+          "meaning": "工作与生活的平衡",
+          "usage": "固定复合名词，中间用连字符；常搭 find / maintain / achieve。",
+          "example": "Remote work can improve work-life balance. 远程办公能改善工作与生活的平衡。"
+        }
+      ],
+      "pitfalls": [
+        "it 是形式宾语，不能换成 this 或 that。",
+        "hard 是宾语补足语，不要写成 hardly（几乎不），意思完全不同。",
+        "busyness 与 business 拼写接近但意思不同：前者“忙碌”，后者“生意”。"
+      ],
+      "paragraphRole": "指出忙碌文化的第一个后果：挤压工作与生活的平衡。"
+    },
+    "2-2": {
+      "translationLiteral": "根据最近一项研究，五个高度投入的员工中有一个面临倦怠的风险。",
+      "translationNatural": "最近一项研究显示，每五个高度投入的员工里，就有一个面临职业倦怠的风险。",
+      "structMarkup": "(According to a recent study), 【one in five highly engaged employees】 _is_ (at risk of burnout).",
+      "structureSummary": "主系表结构：主语 + 系动词 + 介词短语作表语",
+      "components": [
+        { "part": "According to a recent study", "role": "状语", "note": "表示信息来源" },
+        { "part": "one in five highly engaged employees", "role": "主语", "note": "核心词是 one，故谓语用单数" },
+        { "part": "is", "role": "系动词", "note": "与 one 保持一致" },
+        { "part": "at risk of burnout", "role": "表语", "note": "介词短语作表语，说明状态" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句；According to 是介词短语作状语，后面只能接名词，不能接句子。"
+      ],
+      "phrases": [
+        {
+          "text": "according to",
+          "meaning": "根据、按照",
+          "usage": "后接名词或名词短语（according to the report）；不能接 that 从句。",
+          "example": "According to the survey, most students sleep late. 调查显示，多数学生睡得晚。"
+        },
+        {
+          "text": "one in five",
+          "meaning": "五分之一",
+          "usage": "作主语时谓语用单数；同义：one out of five。",
+          "example": "One in five adults has tried it. 五分之一的成年人试过。"
+        },
+        {
+          "text": "at risk of",
+          "meaning": "有……的风险",
+          "usage": "后接名词或动名词：at risk of failing；也可说 be at risk（处于危险中）。",
+          "example": "Smokers are at risk of lung cancer. 吸烟者有患肺癌的风险。"
+        }
+      ],
+      "pitfalls": [
+        "one in five... 作主语时谓语用单数 is，不能用 are。",
+        "according to 后面不能接 that 从句，这是常见错误。",
+        "burnout 是“职业倦怠”，burn out 是动词短语“烧尽、耗尽”。"
+      ],
+      "paragraphRole": "用一项研究数据坐实“忙碌文化有害”，把议论从现象推进到代价。"
+    }
+  },
+  "tokens": {
+    "appear": {
+      "phonetic": "/əˈpɪə(r)/",
+      "pos": "v.",
+      "senseInContext": "显得、看起来（appear busy 显得忙，不是“出现”）",
+      "collocations": ["appear to be", "appear + 形容词", "it appears that"],
+      "examples": ["He appears calm, but he isn't. 他看起来平静，其实不是。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "ap-（向）+ pear（显露）→ 显现", "synonyms": "seem / look", "confusables": "appear 还有“出现、到场”义：He appeared at the door." }
+    },
+    "perception": {
+      "phonetic": "/pəˈsepʃn/",
+      "pos": "n.",
+      "senseInContext": "看法、认知（a real perception 一种真实的看法）",
+      "collocations": ["public perception", "a perception that...", "perception of"],
+      "examples": ["Public perception of the brand changed quickly. 公众对该品牌的看法很快改变了。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "per-（贯穿）+ cept（抓取）+ -ion → 抓取到的印象", "synonyms": "view / belief / impression", "confusables": "perception 偏“认知、印象”；opinion 偏“个人意见”" }
+    },
+    "burnout": {
+      "phonetic": "/ˈbɜːnaʊt/",
+      "pos": "n.",
+      "senseInContext": "职业倦怠、身心耗尽（at risk of burnout）",
+      "collocations": ["suffer from burnout", "employee burnout", "burn out（动词）"],
+      "examples": ["Long hours often lead to burnout. 长时间工作常导致身心耗尽。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "burn（烧）+ out（尽）→ 烧尽 → 耗尽", "synonyms": "exhaustion / fatigue", "confusables": "burnout 名词连写；burn out 是动词短语；burned out 是形容词" }
+    },
+    "engaged": {
+      "phonetic": "/ɪnˈɡeɪdʒd/",
+      "pos": "adj.",
+      "senseInContext": "投入的、敬业的（highly engaged employees 高度投入的员工）",
+      "collocations": ["be engaged in", "highly engaged", "be engaged to sb."],
+      "examples": ["Engaged employees stay longer. 投入度高的员工留得更久。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "en-（使）+ gage（抵押/承诺）→ 作出承诺 → 投入", "synonyms": "committed / involved", "confusables": "be engaged to sb. 是“与某人订婚”；be engaged in 是“从事/投入”" }
+    },
+    "balance": {
+      "phonetic": "/ˈbæləns/",
+      "pos": "n.",
+      "senseInContext": "平衡（work-life balance 工作与生活的平衡）",
+      "collocations": ["work-life balance", "keep/lose one's balance", "strike a balance"],
+      "examples": ["She tries to keep a balance between study and rest. 她努力在学习和休息之间保持平衡。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "bi-（二）+ lanx（盘）→ 天平两盘 → 平衡", "synonyms": "equilibrium / stability", "confusables": "balance 也可作动词“使平衡”；on balance 意为“总的来说”" }
+    },
+    "culture": {
+      "phonetic": "/ˈkʌltʃə(r)/",
+      "pos": "n.",
+      "senseInContext": "文化、风气（this culture of busyness 这种忙碌文化）",
+      "collocations": ["company culture", "a culture of...", "cultural difference"],
+      "examples": ["The company has a culture of long hours. 这家公司有加班文化。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "cult（耕作）+ -ure → 培育出来的东西 → 文化", "synonyms": "custom / climate / ethos", "confusables": "culture 指群体风气；habit 指个人习惯" }
+    }
+  }
+}

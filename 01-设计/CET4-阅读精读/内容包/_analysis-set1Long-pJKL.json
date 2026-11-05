@@ -1,0 +1,433 @@
+{
+  "sentences": {
+    "9-0": {
+      "translationLiteral": "不过，有一些方法可以减轻即将到来的对全球粮食供应的打击。",
+      "translationNatural": "不过，我们也不是没办法缓冲即将到来的粮食供应冲击。",
+      "structMarkup": "【There are ways】 ~(we could soften the coming blow to the global food supply)~, (however).",
+      "structureSummary": "there be 存在句 + 省略关系词的定语从句",
+      "components": [
+        { "part": "There are", "role": "存在句", "note": "there be 结构" },
+        { "part": "ways", "role": "主语", "note": "方法" },
+        { "part": "we could soften the coming blow to the global food supply", "role": "定语从句", "note": "省略了 that/in which，修饰 ways" },
+        { "part": "however", "role": "连接副词", "note": "然而，表转折" }
+      ],
+      "clauses": [
+        "we could soften... 是省略关系词的定语从句，修饰 ways（= ways in which we could...）。",
+        "本句 however 置于句末，表转折。"
+      ],
+      "phrases": [
+        {
+          "text": "soften the blow",
+          "meaning": "减轻打击",
+          "usage": "固定搭配，blow 指“打击、冲击”。",
+          "example": "Savings can soften the blow of losing a job. 储蓄能缓冲失业的冲击。"
+        },
+        {
+          "text": "the coming blow",
+          "meaning": "即将到来的打击",
+          "usage": "coming 表“即将到来的”。",
+          "example": "They prepared for the coming storm. 他们为即将到来的风暴做准备。"
+        }
+      ],
+      "pitfalls": [
+        "ways 后的定语从句省略了 that/in which，不要误读成两个分句。",
+        "blow 在此是名词“打击”，不是动词“吹”。"
+      ],
+      "paragraphRole": "语气转折：从问题转向解决方案，开启全文后半部分。"
+    },
+    "9-1": {
+      "translationLiteral": "像 Farrant 对复苏植物的研究一样，许多公司、组织和研究人员正致力于通过基因工程和常规育种创造出抗旱和耐温的作物。",
+      "translationNatural": "和 Farrant 研究复苏植物类似，不少公司、组织和研究者都在尝试用基因工程和常规育种，造出既抗旱又耐高温的作物。",
+      "structMarkup": "(Like Farrant's work with resurrection crops), 【a number of companies, organisations and researchers】 _are aiming_ ~to create drought- and temperature-resistant crops~ (through genetic engineering and conventional breeding).",
+      "structureSummary": "方式状语 + 主谓 + 目的（不定式）+ 手段状语",
+      "components": [
+        { "part": "Like Farrant's work with resurrection crops", "role": "状语", "note": "like 是介词“像……一样”" },
+        { "part": "a number of companies, organisations and researchers", "role": "主语", "note": "a number of + 复数，谓语用复数" },
+        { "part": "are aiming", "role": "谓语", "note": "aim to do 表“致力于”" },
+        { "part": "to create drought- and temperature-resistant crops", "role": "宾语", "note": "不定式作宾语" },
+        { "part": "through genetic engineering and conventional breeding", "role": "方式状语", "note": "两种手段" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "a number of + 复数名词作主语时，谓语用复数（are aiming）。",
+        "drought- and temperature-resistant 是并列复合形容词，共用 resistant。"
+      ],
+      "phrases": [
+        {
+          "text": "aim to do sth.",
+          "meaning": "致力于、旨在做某事",
+          "usage": "aim at doing 亦可；名词 aim 表目标。",
+          "example": "The project aims to cut costs. 该项目旨在降低成本。"
+        },
+        {
+          "text": "genetic engineering",
+          "meaning": "基因工程",
+          "usage": "genetically modified（转基因的）是同族表达。",
+          "example": "Genetic engineering may boost yields. 基因工程可能提高产量。"
+        }
+      ],
+      "pitfalls": [
+        "a number of... 谓语用复数；the number of... 谓语用单数。",
+        "drought-resistant / temperature-resistant 是“抗旱/耐温”的复合形容词。",
+        "Like 在此是介词，不是动词“喜欢”。"
+      ],
+      "paragraphRole": "介绍第一条解决路径：育种与基因工程。"
+    },
+    "9-2": {
+      "translationLiteral": "目前，这些努力会有多成功还没有定论。",
+      "translationNatural": "这些尝试究竟能成多大事，现在还说不准。",
+      "structMarkup": "(For now), 【the jury】 _is still out_ (as to how successful those endeavours will be).",
+      "structureSummary": "主系表 + 介词短语（含宾语从句）",
+      "components": [
+        { "part": "For now", "role": "时间状语", "note": "目前" },
+        { "part": "the jury", "role": "主语", "note": "陪审团（习语用法）" },
+        { "part": "is still out", "role": "谓语", "note": "固定习语，意为“尚未定论”" },
+        { "part": "as to how successful those endeavours will be", "role": "介词短语", "note": "as to = 关于；内含 how 从句" }
+      ],
+      "clauses": [
+        "how successful those endeavours will be 是 how 引导的从句，作介词 as to 的宾语。",
+        "the jury is still out 是习语，字面“陪审团仍在商议”，实际表示“尚无定论”。"
+      ],
+      "phrases": [
+        {
+          "text": "the jury is still out",
+          "meaning": "尚无定论、还不好说",
+          "usage": "习语，常用于评价结果未明的事物。",
+          "example": "The jury is still out on remote work. 远程办公到底好不好还没有定论。"
+        },
+        {
+          "text": "as to",
+          "meaning": "关于、就……而言",
+          "usage": "介词短语，后接名词或从句。",
+          "example": "There is doubt as to whether it works. 它是否有效还有疑问。"
+        }
+      ],
+      "pitfalls": [
+        "the jury is still out 不能直译为“陪审团还在外面”。",
+        "as to 后接从句时用陈述语序。"
+      ],
+      "paragraphRole": "给出谨慎判断：技术路线是否成功尚无定论，为下文两种不同态度做铺垫。"
+    },
+    "9-3": {
+      "translationLiteral": "“我交谈过的孟山都公司的人要乐观得多，他们相信自己能够设计出耐热作物，”Schlenker 说。",
+      "translationNatural": "“我聊过的孟山都那批人乐观得多，认为他们能培育出耐高温作物，”Schlenker 说。",
+      "structMarkup": "\"【The people at Monsanto {who I've talked to}】 _are much more optimistic_ ~{that they'll be able to engineer heat-tolerant crops}~,\" _says_ 【Schlenker】.",
+      "structureSummary": "主系表（比较）+ 同位语从句（说明乐观的内容）+ 引述倒装",
+      "components": [
+        { "part": "The people at Monsanto", "role": "主语", "note": "孟山都公司的人" },
+        { "part": "who I've talked to", "role": "定语从句", "note": "修饰 people" },
+        { "part": "are much more optimistic", "role": "谓语", "note": "比较级 + much 修饰" },
+        { "part": "that they'll be able to engineer heat-tolerant crops", "role": "同位语从句", "note": "说明乐观的内容" },
+        { "part": "says Schlenker", "role": "引述倒装", "note": "主语在后" }
+      ],
+      "clauses": [
+        "who I've talked to 是定语从句，修饰 the people。",
+        "that they'll be able to... 是同位语从句，说明 optimistic 的具体内容（也可视为形容词后的宾语从句）。"
+      ],
+      "phrases": [
+        {
+          "text": "be optimistic that...",
+          "meaning": "对……感到乐观",
+          "usage": "后可接 that 从句或 about sth.。",
+          "example": "She is optimistic that sales will rise. 她对销量上升持乐观态度。"
+        },
+        {
+          "text": "be able to do",
+          "meaning": "能够做",
+          "usage": "强调能力，可用于各种时态（can 不能）。",
+          "example": "They will be able to finish by Friday. 他们能在周五前完成。"
+        }
+      ],
+      "pitfalls": [
+        "much 修饰比较级 more optimistic（不能用 very）。",
+        "optimistic that... 中 that 从句说明“对什么乐观”。",
+        "engineer 在此是动词“设计、改造”。"
+      ],
+      "paragraphRole": "呈现企业方的乐观态度，与下一句科学界的谨慎形成对照。"
+    },
+    "9-4": {
+      "translationLiteral": "“另一方面，与我交谈过的美国农业部的科学家则谨慎得多。”",
+      "translationNatural": "“而美国农业部那边我接触的科学家，态度就谨慎得多。”",
+      "structMarkup": "\"(On the other hand), 【scientists at the USDA {who I've spoken with}】 _are much more cautious_.\"",
+      "structureSummary": "主系表（比较）+ 定语从句",
+      "components": [
+        { "part": "On the other hand", "role": "插入语", "note": "另一方面" },
+        { "part": "scientists at the USDA", "role": "主语", "note": "美国农业部的科学家" },
+        { "part": "who I've spoken with", "role": "定语从句", "note": "修饰 scientists" },
+        { "part": "are much more cautious", "role": "谓语", "note": "比较级 + much" }
+      ],
+      "clauses": [
+        "who I've spoken with 是定语从句，修饰 scientists。",
+        "本句省略了与上一句重复的谓语部分以外的内容，构成对照。"
+      ],
+      "phrases": [
+        {
+          "text": "on the other hand",
+          "meaning": "另一方面",
+          "usage": "用于引出对比观点；常与 on the one hand 呼应。",
+          "example": "On the other hand, costs could rise. 另一方面，成本可能上升。"
+        },
+        {
+          "text": "speak with sb.",
+          "meaning": "与某人交谈",
+          "usage": "美式常用；英式多用 speak to。",
+          "example": "I spoke with the manager yesterday. 我昨天和经理谈过。"
+        }
+      ],
+      "pitfalls": [
+        "cautious（谨慎的）与上一句 optimistic 形成对照。",
+        "who I've spoken with 中 with 不能省略。"
+      ],
+      "paragraphRole": "给出与产业界相反的态度，体现技术争议，避免一边倒。"
+    },
+    "10-0": {
+      "translationLiteral": "在基因工程取得成果之前，其他策略也可能在一些地方有所帮助，包括施用更多肥料、实施更好的灌溉、使用能更快把作物运出田地的机械，或安装储存设施以延缓腐败。",
+      "translationNatural": "在基因工程真正落地之前，还有一些办法能在不少地方帮上忙：多施肥、改善灌溉、用机械更快把庄稼收出田、建仓储设施减少腐坏。",
+      "structMarkup": "{Until genetic engineering comes to fruition}, 【other strategies】 _might also help_ (in some places), (including applying more fertiliser, implementing better irrigation, using machinery {that gets crops out of the field faster} or installing storage facilities {to delay spoilage}).",
+      "structureSummary": "时间状语从句 + 主谓 + 介词短语（including 后接四个并列动名词）",
+      "components": [
+        { "part": "Until genetic engineering comes to fruition", "role": "时间状语从句", "note": "until 表“直到”" },
+        { "part": "other strategies", "role": "主语", "note": "其他策略" },
+        { "part": "might also help", "role": "谓语", "note": "might 表可能" },
+        { "part": "including applying..., implementing..., using..., or installing...", "role": "介词短语", "note": "including 后接四个并列动名词短语" }
+      ],
+      "clauses": [
+        "Until 引导时间状语从句，“直到……为止”。",
+        "that gets crops out of the field faster 是定语从句，修饰 machinery。",
+        "to delay spoilage 是不定式作目的状语。"
+      ],
+      "phrases": [
+        {
+          "text": "come to fruition",
+          "meaning": "实现、取得成果",
+          "usage": "较书面；fruition 本义“结果实”。",
+          "example": "The plan finally came to fruition. 计划终于实现了。"
+        },
+        {
+          "text": "delay spoilage",
+          "meaning": "延缓腐败变质",
+          "usage": "spoilage 不可数名词；同族 spoil（变坏）。",
+          "example": "Cold storage delays spoilage. 冷藏能延缓腐坏。"
+        }
+      ],
+      "pitfalls": [
+        "Until 从句用一般现在时表将来（comes）。",
+        "including 后是四个并列动名词，注意 parallel 结构。",
+        "fertiliser（肥料）英式拼写；美式 fertilizer。"
+      ],
+      "paragraphRole": "给出更现实的短期方案：用现有农艺手段减少损失。"
+    },
+    "10-1": {
+      "translationLiteral": "“许多地方仅仅通过使用已经存在的技术就能获益良多，”Walsh 说。",
+      "translationNatural": "“很多地方只要用上现成的技术，就能改善很多，”Walsh 说。",
+      "structMarkup": "\"【Many places】 _could benefit_ ~a great deal~ (just by using technologies {that already exist}),\" _says_ 【Walsh】.",
+      "structureSummary": "主谓 + 程度状语 + 方式状语（含定语从句）+ 引述倒装",
+      "components": [
+        { "part": "Many places", "role": "主语", "note": "许多地方" },
+        { "part": "could benefit", "role": "谓语", "note": "benefit 可及物或不及物" },
+        { "part": "a great deal", "role": "程度状语", "note": "大量地" },
+        { "part": "just by using technologies that already exist", "role": "方式状语", "note": "by + 动名词" }
+      ],
+      "clauses": [
+        "that already exist 是定语从句，修饰 technologies。",
+        "by + 动名词表手段。"
+      ],
+      "phrases": [
+        {
+          "text": "benefit a great deal",
+          "meaning": "获益良多",
+          "usage": "benefit 可作不及物（benefit from）或及物（benefit sb.）。",
+          "example": "Students benefit a great deal from feedback. 学生从反馈中获益良多。"
+        }
+      ],
+      "pitfalls": [
+        "a great deal 作状语修饰动词，不是宾语。",
+        "technologies that already exist：定语从句，exist 不及物。"
+      ],
+      "paragraphRole": "强调不必等新技术，现有手段即可见效。"
+    },
+    "10-2": {
+      "translationLiteral": "“一般的农场管理可以在缓解变化方面走得很远。”",
+      "translationNatural": "“把日常农场管理做好，对缓解这些变化能起很大作用。”",
+      "structMarkup": "\"【General farm management】 _can go_ ~a long way~ (toward easing changes).\"",
+      "structureSummary": "主谓 + 程度状语 + 方向状语",
+      "components": [
+        { "part": "General farm management", "role": "主语", "note": "一般性的农场管理" },
+        { "part": "can go", "role": "谓语", "note": "can 表能力/可能" },
+        { "part": "a long way", "role": "程度状语", "note": "起很大作用" },
+        { "part": "toward easing changes", "role": "方向状语", "note": "toward + 动名词，表“朝向……”" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "go a long way toward doing sth. 是习语，意为“对……大有帮助”。"
+      ],
+      "phrases": [
+        {
+          "text": "go a long way toward(s) doing sth.",
+          "meaning": "对做某事大有帮助",
+          "usage": "固定习语，toward 后接动名词。",
+          "example": "A good diet goes a long way toward staying healthy. 良好的饮食对保持健康大有帮助。"
+        }
+      ],
+      "pitfalls": [
+        "a long way 在此不表距离，而是“很大作用”。",
+        "toward 后接动名词 easing，不是原形。"
+      ],
+      "paragraphRole": "收束 K 段：把重点放在“管理”这种低成本手段上。"
+    },
+    "11-0": {
+      "translationLiteral": "最后，让我们的饮食多样化，摆脱对热敏感的小麦、玉米、大米和其他作物的依赖，也可能有所帮助。",
+      "translationNatural": "最后，把饮食结构多样化、少依赖怕热的小麦、玉米、大米等作物，也会有用。",
+      "structMarkup": "(Finally), 【diversifying our diet away from heat-sensitive wheat, corn, rice and other crops】 _could also help_.",
+      "structureSummary": "动名词短语作主语 + 谓语",
+      "components": [
+        { "part": "Finally", "role": "副词", "note": "最后（列举收尾）" },
+        { "part": "diversifying our diet away from heat-sensitive wheat, corn, rice and other crops", "role": "主语", "note": "动名词短语作主语，谓语用单数" },
+        { "part": "could also help", "role": "谓语", "note": "情态动词" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "diversify A away from B 意为“使 A 摆脱对 B 的依赖、多样化”。"
+      ],
+      "phrases": [
+        {
+          "text": "diversify away from",
+          "meaning": "使多样化、摆脱对……的依赖",
+          "usage": "diversify 动词“使多样化”；名词 diversification。",
+          "example": "Farmers diversified away from a single crop. 农民摆脱了对单一作物的依赖。"
+        },
+        {
+          "text": "heat-sensitive",
+          "meaning": "对热敏感的、怕热的",
+          "usage": "复合形容词，sensitive to heat 的同义表达。",
+          "example": "Heat-sensitive crops suffer in hot summers. 怕热的作物在盛夏受害。"
+        }
+      ],
+      "pitfalls": [
+        "动名词短语作主语，谓语用单数 could help。",
+        "away from 在此表“摆脱”，不是“远离（地点）”。"
+      ],
+      "paragraphRole": "提出第三条路径：饮食多样化，与 I 段“饮食趋同”形成呼应。"
+    },
+    "11-1": {
+      "translationLiteral": "“过去几十年我们在吃什么上发生了深刻变化，很大程度上是国际贸易的结果，我认为这种多样化趋势会继续，”Jarvis 说。",
+      "translationNatural": "“过去几十年我们的饮食变化很大，很大程度上是国际贸易带来的；我认为这种多样化趋势还会继续，”Jarvis 说。",
+      "structMarkup": "\"【We】 _'ve seen_ ~profound changes (in the last decades) (in what we eat)~ (largely as a result of international trade), and 【I】 _think_ ~{that trend toward more diversification will continue}~,\" _says_ 【Jarvis】.",
+      "structureSummary": "两个并列分句：①主谓宾 + 状语；②主谓 + 宾语从句（省略 that）",
+      "components": [
+        { "part": "We", "role": "第一分句主语", "note": "人们" },
+        { "part": "'ve seen", "role": "第一分句谓语", "note": "see 表“经历”" },
+        { "part": "profound changes in what we eat", "role": "宾语", "note": "in what we eat 是介词 + 宾语从句" },
+        { "part": "largely as a result of international trade", "role": "原因状语", "note": "很大程度上因为国际贸易" },
+        { "part": "I think that trend toward more diversification will continue", "role": "第二分句", "note": "think 后省略 that" }
+      ],
+      "clauses": [
+        "what we eat 是 what 引导的宾语从句，作介词 in 的宾语。",
+        "I think (that) that trend... 中第一个 that 省略，第二个 that 是指示代词“那种”。",
+        "toward more diversification 是介词短语作后置定语，修饰 trend。"
+      ],
+      "phrases": [
+        {
+          "text": "as a result of",
+          "meaning": "由于、作为……的结果",
+          "usage": "后接名词；同义 because of / due to。",
+          "example": "Prices rose as a result of the shortage. 由于短缺，价格上涨。"
+        },
+        {
+          "text": "profound changes",
+          "meaning": "深刻的变化",
+          "usage": "profound 指深远的、根本性的。",
+          "example": "The internet brought profound changes. 互联网带来了深刻变化。"
+        }
+      ],
+      "pitfalls": [
+        "in what we eat 中 what 引导宾语从句，不能换成 that。",
+        "I think that trend... 中第二个 that 是指示代词，别当成从句引导词。"
+      ],
+      "paragraphRole": "支持多样化方案：历史上饮食已在多样化，趋势可延续。"
+    },
+    "11-2": {
+      "translationLiteral": "“依赖更多种类的植物物种会创造出一个更有活力、风险更低的食物系统——一个能提供更广泛营养需求的系统。”",
+      "translationNatural": "“依靠更多种植物，会造出更有活力、风险更低的食物体系——它还能满足更全面的营养需求。”",
+      "structMarkup": "\"【Depending on a greater number of plant species】 _creates_ ~a more vigorous and less risky food system~—and ~one {that provides a broader range of nutritional requirements}~.\"",
+      "structureSummary": "动名词短语作主语 + 谓语 + 宾语；破折号后同位语 + 定语从句",
+      "components": [
+        { "part": "Depending on a greater number of plant species", "role": "主语", "note": "动名词短语作主语" },
+        { "part": "creates", "role": "谓语", "note": "与动名词主语一致，用单数" },
+        { "part": "a more vigorous and less risky food system", "role": "宾语", "note": "比较级并列" },
+        { "part": "one that provides a broader range of nutritional requirements", "role": "同位语 + 定语从句", "note": "one 指代 food system" }
+      ],
+      "clauses": [
+        "that provides a broader range of nutritional requirements 是定语从句，修饰 one（即 food system）。",
+        "动名词短语 Depending on... 作主语，谓语用单数 creates。"
+      ],
+      "phrases": [
+        {
+          "text": "depend on",
+          "meaning": "依赖、依靠",
+          "usage": "此处是动名词形式作主语。",
+          "example": "The system depends on many species. 该体系依赖多种物种。"
+        },
+        {
+          "text": "a broader range of",
+          "meaning": "更广泛的……范围",
+          "usage": "range of + 复数名词；broader 是 broad 的比较级。",
+          "example": "The store offers a broader range of goods. 这家店提供更丰富的商品。"
+        }
+      ],
+      "pitfalls": [
+        "动名词作主语，谓语用单数 creates。",
+        "破折号后的 one 是代词，指代 food system。",
+        "nutritional requirements 中 requirements 用复数。"
+      ],
+      "paragraphRole": "收尾全文：多样化不仅降低风险，还能改善营养结构，落回积极结论。"
+    }
+  },
+  "tokens": {
+    "fruition": {
+      "phonetic": "/fruˈɪʃn/",
+      "pos": "n.",
+      "senseInContext": "实现、成果（comes to fruition 取得成果）",
+      "collocations": ["come to fruition", "bring to fruition"],
+      "examples": ["Years of work finally came to fruition. 多年的努力终于开花结果。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "fruit（果实）+ -ion → 结果实", "synonyms": "realisation / completion", "confusables": "fruition 几乎只用于 come to fruition 这一搭配" }
+    },
+    "irrigation": {
+      "phonetic": "/ˌɪrɪˈɡeɪʃn/",
+      "pos": "n.",
+      "senseInContext": "灌溉（implementing better irrigation 改善灌溉）",
+      "collocations": ["irrigation system", "drip irrigation", "irrigate（动词）"],
+      "examples": ["Better irrigation raised yields. 改善灌溉提高了产量。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "ir-（进入）+ rig（浇水）+ -ation", "synonyms": "watering", "confusables": "irrigation 农业灌溉；irritation 是“恼怒”，拼写相近" }
+    },
+    "cautious": {
+      "phonetic": "/ˈkɔːʃəs/",
+      "pos": "adj.",
+      "senseInContext": "谨慎的（scientists ... are much more cautious）",
+      "collocations": ["be cautious about", "a cautious approach", "caution（名词）"],
+      "examples": ["Be cautious about sharing personal data. 分享个人数据要谨慎。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "caut（小心）+ -ious", "synonyms": "careful / prudent / wary", "confusables": "cautious 形容词；caution 名词/动词；careless 是反义" }
+    },
+    "diversification": {
+      "phonetic": "/daɪˌvɜːsɪfɪˈkeɪʃn/",
+      "pos": "n.",
+      "senseInContext": "多样化（that trend toward more diversification 更加多样化的趋势）",
+      "collocations": ["diversification of", "economic diversification", "diversify（动词）"],
+      "examples": ["Crop diversification reduces risk. 作物多样化能降低风险。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "di-（分开）+ vers（转）+ -ification → 转向不同方向", "synonyms": "variety / expansion", "confusables": "diversification 名词；diverse 形容词“多样的”；diversify 动词" }
+    },
+    "vigorous": {
+      "phonetic": "/ˈvɪɡərəs/",
+      "pos": "adj.",
+      "senseInContext": "有活力的、强健的（a more vigorous food system 更有活力的食物系统）",
+      "collocations": ["vigorous growth", "vigorous exercise", "vigor（名词）"],
+      "examples": ["The economy showed vigorous growth. 经济呈现强劲增长。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "vigor（活力）+ -ous", "synonyms": "energetic / robust / dynamic", "confusables": "vigorous 强调有力；vital 强调“至关重要”" }
+    }
+  }
+}

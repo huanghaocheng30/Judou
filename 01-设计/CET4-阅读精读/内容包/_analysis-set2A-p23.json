@@ -1,0 +1,256 @@
+{
+  "sentences": {
+    "2-0": {
+      "translationLiteral": "拥有对手能提升你事业表现的一个原因是，它会制造一种兴奋感，驱使你更努力地工作。",
+      "translationNatural": "有对手能让你事业更好的原因之一是：它会激起一股兴奋劲，逼着你更拼。",
+      "structMarkup": "【One reason (having a rival can enhance your venture's performance)】 _is_ ~{that it creates a level of excitement (that drives you to work harder)}~.",
+      "structureSummary": "主系表结构：主语带定语从句，表语是 that 从句（内含第二层定语从句）",
+      "components": [
+        { "part": "One reason", "role": "主语", "note": "一个原因" },
+        { "part": "having a rival can enhance your venture's performance", "role": "定语从句", "note": "省略 why/that，修饰 reason" },
+        { "part": "is", "role": "系动词", "note": "主系结构" },
+        { "part": "that it creates a level of excitement", "role": "表语从句", "note": "说明原因是什么" },
+        { "part": "that drives you to work harder", "role": "定语从句", "note": "修饰 excitement" }
+      ],
+      "clauses": [
+        "having a rival can enhance... 是省略关系词的定语从句，修饰 one reason（= the reason why...）。",
+        "that it creates a level of excitement 是表语从句。",
+        "that drives you to work harder 是定语从句，修饰 excitement。"
+      ],
+      "phrases": [
+        {
+          "text": "drive sb. to do sth.",
+          "meaning": "驱使某人做某事",
+          "usage": "drive 在此为“驱使”；drive sb. crazy 是“把某人逼疯”。",
+          "example": "Curiosity drives scientists to explore. 好奇心驱使科学家探索。"
+        },
+        {
+          "text": "a level of excitement",
+          "meaning": "一定程度的兴奋感",
+          "usage": "a level of + 名词 表示“某种程度的”。",
+          "example": "The race creates a level of excitement. 比赛带来一种兴奋感。"
+        }
+      ],
+      "pitfalls": [
+        "one reason 后的定语从句常省略关系词，别把 having 当主句主语。",
+        "两个 that：第一个引导表语从句，第二个引导定语从句。",
+        "drive sb. to do 中 to 不能省。"
+      ],
+      "paragraphRole": "解释竞争的正面机制：兴奋感驱动更努力。"
+    },
+    "2-1": {
+      "translationLiteral": "但这种想赢的急切也可能损害你的事业成功，特别是当它导致你做出冲动的、不明智的决定时。",
+      "translationNatural": "可这种急于求胜，也可能反噬你的事业，尤其是当你因此做出冲动、欠考虑的决定时。",
+      "structMarkup": "{But} 【this eagerness to win】 _may also hurt_ ~your venture's success~, (particularly when it causes you to make impulsive, insensible decisions).",
+      "structureSummary": "主谓宾 + 时间状语从句（when 引导）",
+      "components": [
+        { "part": "But", "role": "连词", "note": "转折" },
+        { "part": "this eagerness to win", "role": "主语", "note": "eagerness to do 表“……的急切”" },
+        { "part": "may also hurt", "role": "谓语", "note": "也可能伤害" },
+        { "part": "your venture's success", "role": "宾语", "note": "你事业的成功" },
+        { "part": "particularly when it causes you to make impulsive, insensible decisions", "role": "时间状语从句", "note": "when 引导，particularly 加强语气" }
+      ],
+      "clauses": [
+        "when 引导时间状语从句。",
+        "cause sb. to do sth. 是使役结构。"
+      ],
+      "phrases": [
+        {
+          "text": "eagerness to do sth.",
+          "meaning": "做某事的急切",
+          "usage": "eager（形容词）+ -ness；be eager to do。",
+          "example": "His eagerness to please surprised us. 他那种急于讨好的样子让我们意外。"
+        },
+        {
+          "text": "impulsive decisions",
+          "meaning": "冲动的决定",
+          "usage": "impulsive 带贬义；impulse 是名词“冲动”。",
+          "example": "Avoid impulsive purchases. 避免冲动消费。"
+        }
+      ],
+      "pitfalls": [
+        "insensible 在此意为“不明智的、无感觉的”，与 insensible to（对……无感觉）不同。",
+        "when 从句用一般现在时表将来。",
+        "cause sb. to make：to 不能省。"
+      ],
+      "paragraphRole": "指出竞争风险的第二种表现：冲动决策。"
+    },
+    "2-2": {
+      "translationLiteral": "但通过养成批判性思考的习惯——例如考虑对立观点、进行成本收益分析——是有可能避免这类代价高昂的错误的，尤其是对那些复杂且能决定你事业未来的决策。",
+      "translationNatural": "但只要养成批判性思考的习惯，这类代价惨重的错误是可以避免的——比如主动考虑反面观点、做成本收益分析，尤其是对那些复杂且关乎事业前途的决定。",
+      "structMarkup": "{But} 【it】 _'s_ ~possible (to avoid such costly mistakes)~ (by making a habit of engaging in critical thinking), (such as considering opposing viewpoints and conducting cost-benefit analyses), (especially for those decisions {that are complex and can determine the future of your venture}).",
+      "structureSummary": "形式主语句 + 方式状语 + 举例 + 范围状语（内含定语从句）",
+      "components": [
+        { "part": "it", "role": "形式主语", "note": "真正主语是不定式" },
+        { "part": "'s (= is) possible", "role": "系表", "note": "it is possible to do" },
+        { "part": "to avoid such costly mistakes", "role": "真正主语", "note": "不定式短语" },
+        { "part": "by making a habit of engaging in critical thinking", "role": "方式状语", "note": "by + 动名词" },
+        { "part": "such as considering opposing viewpoints and conducting cost-benefit analyses", "role": "举例", "note": "such as 后接两个并列动名词" },
+        { "part": "especially for those decisions that are complex and can determine the future of your venture", "role": "范围状语", "note": "含定语从句" }
+      ],
+      "clauses": [
+        "it is possible to do sth. 是形式主语句型。",
+        "by making a habit of doing sth. 表示手段。",
+        "that are complex and can determine the future of your venture 是定语从句，修饰 those decisions。"
+      ],
+      "phrases": [
+        {
+          "text": "make a habit of doing sth.",
+          "meaning": "养成做某事的习惯",
+          "usage": "habit 前用 a；也可 get into the habit of。",
+          "example": "Make a habit of reviewing notes daily. 养成每天复习笔记的习惯。"
+        },
+        {
+          "text": "engage in critical thinking",
+          "meaning": "进行批判性思考",
+          "usage": "engage in 后接名词/动名词。",
+          "example": "Students should engage in critical thinking. 学生应进行批判性思考。"
+        },
+        {
+          "text": "cost-benefit analyses",
+          "meaning": "成本收益分析",
+          "usage": "复合名词，复数 analyses（analysis 的复数）。",
+          "example": "Run a cost-benefit analysis before investing. 投资前做成本收益分析。"
+        }
+      ],
+      "pitfalls": [
+        "by making 中 by + 动名词表手段，不能用 to make。",
+        "such as 后接动名词，与前面 make a habit of 的结构保持一致。",
+        "analyses 是 analysis 的复数，注意拼写。"
+      ],
+      "paragraphRole": "给出第一条实质对策：用批判性思考对冲冲动决策。"
+    },
+    "3-0": {
+      "translationLiteral": "拥有对手所带来的急切感不仅可能让你做出更差的决策，还可能让你承担更大风险，从而使你的事业陷入危险。",
+      "translationNatural": "有对手带来的那股急切，不光会让你决策变差，还会推着你冒更大的险，把你的事业置于险境。",
+      "structMarkup": "【The sense of eagerness (that comes with having a rival)】 _can not only cause_ ~you to make poorer decisions~, {but it can also lead you to take greater risks (that put your venture in peril)}.",
+      "structureSummary": "not only...but also... 并列两个分句；主语带定语从句，第二分句宾补带定语从句",
+      "components": [
+        { "part": "The sense of eagerness", "role": "主语", "note": "急切感" },
+        { "part": "that comes with having a rival", "role": "定语从句", "note": "修饰 eagerness" },
+        { "part": "can not only cause you to make poorer decisions", "role": "第一分句谓语", "note": "not only 部分" },
+        { "part": "but it can also lead you to take greater risks", "role": "第二分句", "note": "but also 部分" },
+        { "part": "that put your venture in peril", "role": "定语从句", "note": "修饰 risks" }
+      ],
+      "clauses": [
+        "not only...but also... 连接两个并列分句，not only 置于句首时第一分句可部分倒装，此处未倒装。",
+        "that comes with having a rival 是定语从句，修饰 eagerness。",
+        "that put your venture in peril 是定语从句，修饰 risks。",
+        "lead sb. to do sth. 表示“导致某人做某事”。"
+      ],
+      "phrases": [
+        {
+          "text": "not only... but also...",
+          "meaning": "不仅……而且……",
+          "usage": "连接并列成分；连接分句时注意结构对称。",
+          "example": "It not only saves time but also cuts costs. 它不仅省时还降成本。"
+        },
+        {
+          "text": "put sth. in peril",
+          "meaning": "使……陷入危险",
+          "usage": "peril 比 danger 更书面；同义 endanger。",
+          "example": "Reckless spending put the firm in peril. 挥霍无度让公司陷入危险。"
+        }
+      ],
+      "pitfalls": [
+        "not only...but also... 两边结构要对称（cause to do / lead to do）。",
+        "that put（复数 risks）不是 that puts。",
+        "in peril = 处于危险中。"
+      ],
+      "paragraphRole": "把风险的后果升级：从“决策差”到“危及事业”。"
+    },
+    "3-1": {
+      "translationLiteral": "你可以克服竞争那种可能危及你事业成功的（诱使冒险的）影响的一种方法，是留意自己的情绪状态，并主动监控这些感受如何影响你的决策。",
+      "translationNatural": "竞争会诱使你冒险、甚至危及事业；要克服这种影响，一个办法是留意自己的情绪，主动观察这些情绪怎样左右你的判断。",
+      "structMarkup": "【One way (you can overcome the risk-inducing effects of rivalry {that stand to endanger your venture's success})】 _is_ ~to remain attentive to your emotional state and actively monitor how such feelings are affecting your decision-making~.",
+      "structureSummary": "主系表结构：主语带定语从句与第二层定语从句，表语为两个并列不定式",
+      "components": [
+        { "part": "One way", "role": "主语", "note": "一个方法" },
+        { "part": "you can overcome the risk-inducing effects of rivalry", "role": "定语从句", "note": "省略 that/in which，修饰 way" },
+        { "part": "that stand to endanger your venture's success", "role": "定语从句", "note": "修饰 effects" },
+        { "part": "is", "role": "系动词", "note": "主系结构" },
+        { "part": "to remain attentive to your emotional state", "role": "表语1", "note": "不定式" },
+        { "part": "and actively monitor how such feelings are affecting your decision-making", "role": "表语2", "note": "不定式并列，内含宾语从句" }
+      ],
+      "clauses": [
+        "you can overcome... 是省略关系词的定语从句，修饰 one way（= the way in which you can...）。",
+        "that stand to endanger your venture's success 是定语从句，修饰 effects。",
+        "how such feelings are affecting your decision-making 是 how 引导的宾语从句，作 monitor 的宾语。",
+        "stand to do sth. 表示“很可能导致”。"
+      ],
+      "phrases": [
+        {
+          "text": "risk-inducing",
+          "meaning": "诱发风险的",
+          "usage": "复合形容词：名词 + 现在分词。",
+          "example": "Risk-inducing habits are hard to notice. 诱发风险的习气很难察觉。"
+        },
+        {
+          "text": "stand to do sth.",
+          "meaning": "很可能做/遭受",
+          "usage": "常搭 stand to lose/gain/endanger。",
+          "example": "The company stands to lose millions. 公司可能损失数百万。"
+        },
+        {
+          "text": "remain attentive to",
+          "meaning": "对……保持关注/警觉",
+          "usage": "attentive to + 名词；同义 pay attention to。",
+          "example": "Remain attentive to changes in the market. 要留意市场变化。"
+        }
+      ],
+      "pitfalls": [
+        "one way 后定语从句省略 in which/that，阅读时先跳过定位 is。",
+        "两个定语从句接连（effects → that stand to...），辨清修饰对象。",
+        "monitor 后接 how 从句，用陈述语序。"
+      ],
+      "paragraphRole": "给出第二条对策：情绪觉察与自我监控，收束全文。"
+    }
+  },
+  "tokens": {
+    "eagerness": {
+      "phonetic": "/ˈiːɡənəs/",
+      "pos": "n.",
+      "senseInContext": "急切、渴望（this eagerness to win 这种求胜的急切）",
+      "collocations": ["eagerness to do", "with eagerness", "eager（形容词）"],
+      "examples": ["Her eagerness to learn impressed us. 她求学的热切让我们印象深刻。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "eager（渴望的）+ -ness", "synonyms": "keenness / enthusiasm", "confusables": "eager to do（形容词）；eagerness to do（名词）" }
+    },
+    "impulsive": {
+      "phonetic": "/ɪmˈpʌlsɪv/",
+      "pos": "adj.",
+      "senseInContext": "冲动的（impulsive decisions 冲动的决定）",
+      "collocations": ["impulsive behavior", "impulsive decision", "impulse（名词）"],
+      "examples": ["He is impulsive and often regrets it. 他很冲动，常常后悔。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "im-（向内）+ puls（推）+ -ive → 被推着走", "synonyms": "rash / hasty", "confusables": "impulsive 带贬义；spontaneous 表“自发的”（中性）" }
+    },
+    "peril": {
+      "phonetic": "/ˈperəl/",
+      "pos": "n.",
+      "senseInContext": "危险（put your venture in peril 置你的事业于险境）",
+      "collocations": ["in peril", "at one's peril", "perilous（形容词）"],
+      "examples": ["The species is in peril. 该物种处于危险中。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "源自拉丁 periculum（危险）", "synonyms": "danger / risk / hazard", "confusables": "in peril = in danger；peril 更书面、语气更重" }
+    },
+    "attentive": {
+      "phonetic": "/əˈtentɪv/",
+      "pos": "adj.",
+      "senseInContext": "留意的、关注的（remain attentive to your emotional state 留意自己的情绪）",
+      "collocations": ["be attentive to", "an attentive listener", "attention（名词）"],
+      "examples": ["Be attentive to your body's signals. 留意身体的信号。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "at-（向）+ tent（伸展）+ -ive → 注意力伸向", "synonyms": "watchful / mindful", "confusables": "attentive 后接 to；attention 是名词" }
+    },
+    "monitor": {
+      "phonetic": "/ˈmɒnɪtə(r)/",
+      "pos": "v./n.",
+      "senseInContext": "监控、观察（actively monitor how such feelings are affecting 主动观察这些情绪如何影响）",
+      "collocations": ["monitor progress", "monitor closely", "monitoring（名词）"],
+      "examples": ["Doctors monitor the patient's heart rate. 医生监测病人的心率。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "mon（警告）+ -itor（者）→ 提醒者", "synonyms": "track / observe / check", "confusables": "monitor 动词“监测”；名词指“显示器/监控器”" }
+    }
+  }
+}

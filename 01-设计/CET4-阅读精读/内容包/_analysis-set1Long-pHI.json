@@ -1,0 +1,254 @@
+{
+  "sentences": {
+    "7-0": {
+      "translationLiteral": "这意味着，对于负担得起的人来说，某些食物在未来只会让他们花更多钱。",
+      "translationNatural": "也就是说，对买得起的人而言，某些食物将来只是变贵而已。",
+      "structMarkup": "【This】 _means_ ~{that, (for those {who can afford it}), some foods will simply cost them more in the future}~.",
+      "structureSummary": "主谓 + 宾语从句（从句内含插入的条件说明与定语从句）",
+      "components": [
+        { "part": "This", "role": "主语", "note": "指上一段的价格上涨" },
+        { "part": "means", "role": "谓语", "note": "后接 that 宾语从句" },
+        { "part": "that some foods will simply cost them more", "role": "宾语从句", "note": "从句主干" },
+        { "part": "for those who can afford it", "role": "插入状语", "note": "说明“对谁而言”，内含定语从句" },
+        { "part": "in the future", "role": "时间状语", "note": "将来" }
+      ],
+      "clauses": [
+        "that 引导宾语从句，作 means 的宾语。",
+        "who can afford it 是定语从句，修饰 those。",
+        "cost sb. more 是双宾结构：cost 后接“人 + 金钱”。"
+      ],
+      "phrases": [
+        {
+          "text": "afford",
+          "meaning": "负担得起（费用）",
+          "usage": "常与 can/cannot 搭配；afford to do sth. 也常见。",
+          "example": "Many students cannot afford a car. 许多学生买不起车。"
+        },
+        {
+          "text": "cost sb. money",
+          "meaning": "花费某人多少钱",
+          "usage": "cost 的过去式仍是 cost；主语通常是物。",
+          "example": "The trip cost us 200 dollars. 这趟旅行花了我们 200 美元。"
+        }
+      ],
+      "pitfalls": [
+        "for those who... 是插入成分，插在 that 与从句主干之间，阅读时先跳过。",
+        "cost 的主语是物（食物），不是人；人作主语要用 spend。",
+        "simply 在此意为“只不过是”，弱化语气。"
+      ],
+      "paragraphRole": "把上一段的价格问题分层：对有钱人只是贵一点，引出下一句“对穷人则更严重”。"
+    },
+    "7-1": {
+      "translationLiteral": "但对较贫穷的人来说，同样的价格跳涨很可能会使某些食物从他们的饮食中消失。",
+      "translationNatural": "但对收入较低的人，同样这波涨价很可能让某些食物直接从餐桌上消失。",
+      "structMarkup": "{But} (for poorer people), 【those same price jumps】 _will likely cause_ ~certain foods~ (to go extinct from their diets).",
+      "structureSummary": "主谓宾补（cause sb./sth. to do）+ 状语",
+      "components": [
+        { "part": "But", "role": "连词", "note": "转折，与上一句形成对照" },
+        { "part": "for poorer people", "role": "状语", "note": "对较贫穷的人来说" },
+        { "part": "those same price jumps", "role": "主语", "note": "同样的涨价" },
+        { "part": "will likely cause", "role": "谓语", "note": "cause sb. to do 结构" },
+        { "part": "certain foods", "role": "宾语", "note": "某些食物" },
+        { "part": "to go extinct from their diets", "role": "宾语补足语", "note": "说明食物发生的动作" }
+      ],
+      "clauses": [
+        "本句是简单句，没有从句。",
+        "cause sth. to do sth. 是“导致某物做某事/发生某种变化”的使役结构。"
+      ],
+      "phrases": [
+        {
+          "text": "cause sb./sth. to do sth.",
+          "meaning": "导致、使……做某事",
+          "usage": "后接带 to 的不定式作宾补，不能省 to。",
+          "example": "The noise caused him to wake up. 噪音把他吵醒了。"
+        },
+        {
+          "text": "go extinct from one's diet",
+          "meaning": "从某人的饮食中消失",
+          "usage": "借用“灭绝”一词做夸张表达，语气强烈。",
+          "example": "Meat has gone extinct from some diets. 肉类已从一些人的饮食中消失。"
+        }
+      ],
+      "pitfalls": [
+        "cause 后必须带 to：cause foods go extinct 是错的。",
+        "go extinct 在此是比喻用法（食物“从餐桌灭绝”），不是真的物种灭绝。",
+        "price jumps 中 jump 是名词。"
+      ],
+      "paragraphRole": "点明分配不平等：同样的涨价，对不同收入的人后果完全不同。"
+    },
+    "7-2": {
+      "translationLiteral": "“你减少得越多，供应就越短缺，价格就跳得越高，”Schlenker 说。",
+      "translationNatural": "“你减得越多，供应越紧，价格蹿得越高，”Schlenker 说。",
+      "structMarkup": "\"{The more you reduce}, {the shorter the supply}, and {the higher the price will jump},\" _says_ 【Schlenker】.",
+      "structureSummary": "三个 the + 比较级 结构并联（越……越……）+ 引述倒装",
+      "components": [
+        { "part": "The more you reduce", "role": "比较状语从句", "note": "第一个“越……”" },
+        { "part": "the shorter the supply", "role": "结果分句", "note": "第二个“越……”" },
+        { "part": "and", "role": "连词", "note": "连接并列结果" },
+        { "part": "the higher the price will jump", "role": "结果分句", "note": "第三个“越……”" },
+        { "part": "says Schlenker", "role": "引述倒装", "note": "主语在后" }
+      ],
+      "clauses": [
+        "the + 比较级..., the + 比较级... 表示“越……越……”。",
+        "本句有三个这样的分句并联：reduce 越多 → supply 越短 → price 越高。"
+      ],
+      "phrases": [
+        {
+          "text": "the more..., the more...",
+          "meaning": "越……越……",
+          "usage": "前后呼应，前者是从句，后者是主句；多个可并联表连锁反应。",
+          "example": "The more you practise, the better you get. 练得越多，进步越大。"
+        }
+      ],
+      "pitfalls": [
+        "三个 the + 比较级并联，形成因果链，翻译时注意次序。",
+        "the shorter the supply 中 supply 是名词“供应”。",
+        "引述倒装 says Schlenker 的语序。"
+      ],
+      "paragraphRole": "用一句话概括供需螺旋：减供 → 涨价，强化前一句的分配不平等。"
+    },
+    "8-0": {
+      "translationLiteral": "另一个可能由气候变化引起的问题是我们对商品作物的依赖——小麦、大豆、玉米和大米——它们目前为人类提供 75% 的热量，无论是直接地还是通过我们饲养的动物间接提供。",
+      "translationNatural": "气候变化还带来另一个隐患：我们对大宗作物的依赖。小麦、大豆、玉米、大米现在提供了人类 75% 的热量——要么直接吃，要么经由用这些作物喂养的牲畜间接获得。",
+      "structMarkup": "【Another potential climate change-induced problem】 _is_ ~our dependence on commodity crops~—(wheat, soybeans, corn and rice)—{which currently provide humanity with 75% of its calories}, (either directly or indirectly) (through the animals {we raise on those crops}).",
+      "structureSummary": "主系表结构 + 插入举例 + 定语从句 + 方式状语（内含第二层定语从句）",
+      "components": [
+        { "part": "Another potential climate change-induced problem", "role": "主语", "note": "复合形容词 climate change-induced 修饰 problem" },
+        { "part": "is", "role": "系动词", "note": "主系结构" },
+        { "part": "our dependence on commodity crops", "role": "表语", "note": "dependence on 固定搭配" },
+        { "part": "wheat, soybeans, corn and rice", "role": "插入同位语", "note": "解释 commodity crops" },
+        { "part": "which currently provide humanity with 75% of its calories", "role": "定语从句", "note": "修饰 crops" },
+        { "part": "either directly or indirectly", "role": "方式状语", "note": "提供方式的两种" },
+        { "part": "through the animals we raise on those crops", "role": "方式状语", "note": "内含定语从句 we raise" }
+      ],
+      "clauses": [
+        "which 引导定语从句，修饰 commodity crops。",
+        "we raise on those crops 是省略关系词的定语从句，修饰 the animals。",
+        "either...or... 连接两种方式：直接吃、或经由动物间接获得。"
+      ],
+      "phrases": [
+        {
+          "text": "dependence on",
+          "meaning": "对……的依赖",
+          "usage": "名词 + on；动词形式 depend on。",
+          "example": "Our dependence on oil is falling. 我们对石油的依赖正在下降。"
+        },
+        {
+          "text": "provide sb. with sth.",
+          "meaning": "为某人提供某物",
+          "usage": "也可 provide sth. for sb.；注意介词不同。",
+          "example": "The school provides students with free lunch. 学校为学生提供免费午餐。"
+        },
+        {
+          "text": "commodity crops",
+          "meaning": "大宗作物、商品作物",
+          "usage": "指大规模交易的主粮类作物（小麦、玉米、大豆、水稻）。",
+          "example": "Commodity crops dominate global trade. 大宗作物主导全球贸易。"
+        }
+      ],
+      "pitfalls": [
+        "climate change-induced 是复合形容词，induced 意为“引起的”。",
+        "provide sb. with sth.（不是 provide sb. sth.）。",
+        "the animals we raise 中省略了 which/that，别把 we 当主句主语。"
+      ],
+      "paragraphRole": "指出更深层的风险来源：人类饮食过度依赖少数几种作物。"
+    },
+    "8-1": {
+      "translationLiteral": "Jarvis 和他的同事还发现，在过去五十年里，世界饮食日益标准化；我们今天在全球吃的食物比 1961 年相似 36%。虽然这对世界上最贫穷的人可能是好消息，他们现在比过去摄入更多卡路里、蛋白质和脂肪，但同质化和对少数主食的过度依赖使我们容易受到干旱、疾病和害虫等威胁——据预测，由于气候变化，这些威胁在世界许多地方都将加剧。",
+      "translationNatural": "Jarvis 团队还发现：过去五十年世界饮食越来越趋同，今天全球人吃的东西比 1961 年相似度高 36%。这对最贫困的人群也许是好事（热量、蛋白质和脂肪摄入都更多），但饮食趋同、过度依赖少数主粮，会让我们在干旱、病害、虫害面前更脆弱——而这些威胁预计都会因气候变化在很多地区加剧。",
+      "structMarkup": "【Jarvis and his colleagues】 _also found_ ~{that, (over the past five decades), the world has seen an increasing standardisation of diets}; 【the foods (we eat globally today)】 _are_ ~36% more similar (than they were in 1961)~. {While this can be good news for the world's poorest people (who now consume more calories, protein and fat than in the past)}, 【homogeneity and over-dependence on a handful of staples】 _leaves_ ~us vulnerable to threats (such as drought, disease and pests)—all of which are predicted to worsen in many parts of the world as a result of climate change~.",
+      "structureSummary": "三个分句：①主谓+宾语从句；②主系表（比较）；③让步从句 + 主谓宾补 + 定语从句",
+      "components": [
+        { "part": "Jarvis and his colleagues", "role": "第一分句主语", "note": "研究者" },
+        { "part": "found that the world has seen an increasing standardisation of diets", "role": "第一分句谓语+宾语从句", "note": "see = 经历" },
+        { "part": "the foods we eat globally today", "role": "第二分句主语", "note": "内含省略关系词的定语从句" },
+        { "part": "are 36% more similar than they were in 1961", "role": "第二分句谓语", "note": "比较结构" },
+        { "part": "While this can be good news for the world's poorest people who now consume more...", "role": "让步状语从句", "note": "while 表“虽然”" },
+        { "part": "homogeneity and over-dependence on a handful of staples", "role": "第三分句主语", "note": "两个并列名词" },
+        { "part": "leaves us vulnerable to threats", "role": "第三分句谓语+宾补", "note": "leave sb. vulnerable to sth." },
+        { "part": "all of which are predicted to worsen", "role": "定语从句", "note": "修饰 threats" }
+      ],
+      "clauses": [
+        "that... 引导宾语从句，作 found 的宾语。",
+        "the foods we eat globally today 中 we eat globally today 是省略关系词的定语从句。",
+        "while 引导让步状语从句，意为“虽然”。",
+        "who now consume more calories... 是定语从句，修饰 the world's poorest people。",
+        "all of which are predicted to worsen 是非限制性定语从句，修饰 threats。"
+      ],
+      "phrases": [
+        {
+          "text": "see an increasing standardisation",
+          "meaning": "经历日益标准化",
+          "usage": "see 表示“经历、见证”，主语常是时间或地点。",
+          "example": "The city has seen rapid growth. 这座城市经历了快速发展。"
+        },
+        {
+          "text": "a handful of",
+          "meaning": "少量的、少数几个",
+          "usage": "后接可数名词复数。",
+          "example": "A handful of students passed. 少数学生通过了。"
+        },
+        {
+          "text": "be vulnerable to",
+          "meaning": "易受……伤害的",
+          "usage": "vulnerable to + 名词；反义 be resistant to。",
+          "example": "Young trees are vulnerable to frost. 幼树易受霜冻伤害。"
+        }
+      ],
+      "pitfalls": [
+        "分号连接两个独立分句，第三句用句点开头；长句要按分句断开读。",
+        "while 在此是“虽然”（让步），不是“当……时”。",
+        "leaves 的主语是并列名词短语（homogeneity and over-dependence），视为整体用单数。",
+        "all of which 引导非限制性定语从句，指前面整串 threats。"
+      ],
+      "paragraphRole": "本段核心：饮食趋同 → 抗风险能力下降，为后文“多样化”方案做伏笔。"
+    }
+  },
+  "tokens": {
+    "dependence": {
+      "phonetic": "/dɪˈpendəns/",
+      "pos": "n.",
+      "senseInContext": "依赖（our dependence on commodity crops 对大宗作物的依赖）",
+      "collocations": ["dependence on", "drug dependence", "independent（形容词）"],
+      "examples": ["The country's dependence on imports is growing. 该国对进口的依赖在加深。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "de-（向下）+ pend（悬挂）+ -ence → 悬挂其上 → 依赖", "synonyms": "reliance", "confusables": "dependence 名词；dependent 形容词；depend 动词（depend on）" }
+    },
+    "commodity": {
+      "phonetic": "/kəˈmɒdəti/",
+      "pos": "n.",
+      "senseInContext": "大宗商品、商品（commodity crops 大宗作物）",
+      "collocations": ["commodity prices", "commodity crops", "basic commodities"],
+      "examples": ["Commodity prices rose sharply. 大宗商品价格大幅上涨。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "com-（共同）+ mod（量度）→ 有共同标准的物品 → 商品", "synonyms": "goods / product", "confusables": "commodity 指可交易的大宗商品；product 泛指产品" }
+    },
+    "homogeneity": {
+      "phonetic": "/ˌhɒmədʒəˈniːəti/",
+      "pos": "n.",
+      "senseInContext": "同质性、趋同（homogeneity of diets 饮食趋同）",
+      "collocations": ["cultural homogeneity", "homogeneous（形容词）"],
+      "examples": ["Global diets show increasing homogeneity. 全球饮食日益趋同。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "homo-（相同）+ gene（种类）+ -ity → 同种", "synonyms": "uniformity / sameness", "confusables": "homogeneous 形容词“同质的”；反义 heterogeneous" }
+    },
+    "vulnerable": {
+      "phonetic": "/ˈvʌlnərəbl/",
+      "pos": "adj.",
+      "senseInContext": "易受伤害的、脆弱的（leaves us vulnerable to threats）",
+      "collocations": ["be vulnerable to", "vulnerable groups", "vulnerability（名词）"],
+      "examples": ["Children are vulnerable to infections. 儿童易受感染。"],
+      "isCet4HighFreq": true,
+      "more": { "roots": "vulner（伤口）+ -able（可……的）→ 易受伤的", "synonyms": "exposed / weak", "confusables": "vulnerable to + 名词；名词形式 vulnerability" }
+    },
+    "pests": {
+      "phonetic": "/pests/",
+      "pos": "n.",
+      "senseInContext": "害虫（drought, disease and pests 干旱、病害与虫害）",
+      "collocations": ["pest control", "crop pests", "pesticide"],
+      "examples": ["Pests destroyed half the crop. 害虫毁掉了一半收成。"],
+      "isCet4HighFreq": false,
+      "more": { "roots": "源自拉丁 pestis（瘟疫）", "synonyms": "insects / vermin", "confusables": "pest 害虫；pesticide 杀虫剂；pet 宠物（拼写相近）" }
+    }
+  }
+}
