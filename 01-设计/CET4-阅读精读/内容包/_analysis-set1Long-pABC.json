@@ -6,11 +6,31 @@
       "structMarkup": "(Earlier this year), 【scientists】 _warned_ ~{that one in six animal species could go extinct due to climate change}~.",
       "structureSummary": "主谓 + 宾语从句（从句为主谓 + 原因状语）",
       "components": [
-        { "part": "Earlier this year", "role": "时间状语", "note": "交代时间" },
-        { "part": "scientists", "role": "主语", "note": "科学家（复数）" },
-        { "part": "warned", "role": "谓语", "note": "warn 后接 that 从句说明警告内容" },
-        { "part": "that one in six animal species could go extinct", "role": "宾语从句", "note": "从句主语是 one in six animal species" },
-        { "part": "due to climate change", "role": "原因状语", "note": "due to 后接名词" }
+        {
+          "part": "Earlier this year",
+          "role": "时间状语",
+          "note": "交代时间"
+        },
+        {
+          "part": "scientists",
+          "role": "主语",
+          "note": "科学家（复数）"
+        },
+        {
+          "part": "warned",
+          "role": "谓语",
+          "note": "warn 后接 that 从句说明警告内容"
+        },
+        {
+          "part": "that one in six animal species could go extinct",
+          "role": "宾语从句",
+          "note": "从句主语是 one in six animal species"
+        },
+        {
+          "part": "due to climate change",
+          "role": "原因状语",
+          "note": "due to 后接名词"
+        }
       ],
       "clauses": [
         "that 引导宾语从句，作 warned 的宾语。",
@@ -50,11 +70,31 @@
       "structMarkup": "_Could_ 【the same thing】 _happen_ (to our crops and other foodstuffs) (too)?",
       "structureSummary": "一般疑问句：情态动词 + 主语 + 谓语 + 状语",
       "components": [
-        { "part": "Could", "role": "情态动词", "note": "提到句首构成疑问" },
-        { "part": "the same thing", "role": "主语", "note": "指上一句的“灭绝”" },
-        { "part": "happen", "role": "谓语", "note": "happen to sb./sth. 表示“发生在……身上”" },
-        { "part": "to our crops and other foodstuffs", "role": "状语", "note": "happen to 的固定搭配" },
-        { "part": "too", "role": "副词", "note": "“也”，放句末" }
+        {
+          "part": "Could",
+          "role": "情态动词",
+          "note": "提到句首构成疑问"
+        },
+        {
+          "part": "the same thing",
+          "role": "主语",
+          "note": "指上一句的“灭绝”"
+        },
+        {
+          "part": "happen",
+          "role": "谓语",
+          "note": "happen to sb./sth. 表示“发生在……身上”"
+        },
+        {
+          "part": "to our crops and other foodstuffs",
+          "role": "状语",
+          "note": "happen to 的固定搭配"
+        },
+        {
+          "part": "too",
+          "role": "副词",
+          "note": "“也”，放句末"
+        }
       ],
       "clauses": [
         "本句是简单句，一般疑问句语序（情态动词提前）。",
@@ -66,6 +106,12 @@
           "meaning": "发生在……身上",
           "usage": "注意区分 happen to do（碰巧做某事）。",
           "example": "What happened to your phone? 你的手机怎么了？"
+        },
+        {
+          "text": "the same thing",
+          "meaning": "同样的事",
+          "usage": "回指前文提到的事件，避免重复。",
+          "example": "The same thing happened last year. 去年也发生了同样的事。"
         }
       ],
       "pitfalls": [
@@ -80,11 +126,31 @@
       "structMarkup": "【It】 _'s_ ~clear~ {that farmers (in many parts of the world) are going to find things harder in the coming decades}.",
       "structureSummary": "主系表 + that 主语从句（it 为形式主语）",
       "components": [
-        { "part": "It", "role": "形式主语", "note": "真正主语是后面的 that 从句" },
-        { "part": "'s (= is)", "role": "系动词", "note": "主系结构" },
-        { "part": "clear", "role": "表语", "note": "形容词" },
-        { "part": "that farmers ... are going to find things harder", "role": "主语从句", "note": "真正的主语" },
-        { "part": "in the coming decades", "role": "时间状语", "note": "在未来几十年" }
+        {
+          "part": "It",
+          "role": "形式主语",
+          "note": "真正主语是后面的 that 从句"
+        },
+        {
+          "part": "'s (= is)",
+          "role": "系动词",
+          "note": "主系结构"
+        },
+        {
+          "part": "clear",
+          "role": "表语",
+          "note": "形容词"
+        },
+        {
+          "part": "that farmers ... are going to find things harder",
+          "role": "主语从句",
+          "note": "真正的主语"
+        },
+        {
+          "part": "in the coming decades",
+          "role": "时间状语",
+          "note": "在未来几十年"
+        }
       ],
       "clauses": [
         "It is clear that... 是形式主语句型，it 无实义。",
@@ -118,11 +184,31 @@
       "structMarkup": "(Last week), 【BBC Future】 _explored_ ~one scientist's efforts (to help crops cope with the increased probability of droughts)~.",
       "structureSummary": "主谓宾结构 + 不定式作后置定语",
       "components": [
-        { "part": "Last week", "role": "时间状语", "note": "交代时间" },
-        { "part": "BBC Future", "role": "主语", "note": "栏目名" },
-        { "part": "explored", "role": "谓语", "note": "此处意为“探讨、报道”" },
-        { "part": "one scientist's efforts", "role": "宾语", "note": "中心词是 efforts" },
-        { "part": "to help crops cope with the increased probability of droughts", "role": "后置定语", "note": "不定式说明 efforts 的内容" }
+        {
+          "part": "Last week",
+          "role": "时间状语",
+          "note": "交代时间"
+        },
+        {
+          "part": "BBC Future",
+          "role": "主语",
+          "note": "栏目名"
+        },
+        {
+          "part": "explored",
+          "role": "谓语",
+          "note": "此处意为“探讨、报道”"
+        },
+        {
+          "part": "one scientist's efforts",
+          "role": "宾语",
+          "note": "中心词是 efforts"
+        },
+        {
+          "part": "to help crops cope with the increased probability of droughts",
+          "role": "后置定语",
+          "note": "不定式说明 efforts 的内容"
+        }
       ],
       "clauses": [
         "本句是简单句，没有从句。",
@@ -155,11 +241,31 @@
       "structMarkup": "(By using the genes from resurrection plants), 【Jill Farrant (of the University of Cape Town)】 _is exploring_ ~{whether she can design crops to survive for much longer periods without water}~.",
       "structureSummary": "方式状语 + 主谓 + 宾语从句",
       "components": [
-        { "part": "By using the genes from resurrection plants", "role": "方式状语", "note": "by + 动名词表手段" },
-        { "part": "Jill Farrant of the University of Cape Town", "role": "主语", "note": "of 短语作后置定语" },
-        { "part": "is exploring", "role": "谓语", "note": "现在进行时，表示正在研究" },
-        { "part": "whether she can design crops to survive", "role": "宾语从句", "note": "whether 引导，表“是否”" },
-        { "part": "for much longer periods without water", "role": "状语", "note": "说明存活时长与条件" }
+        {
+          "part": "By using the genes from resurrection plants",
+          "role": "方式状语",
+          "note": "by + 动名词表手段"
+        },
+        {
+          "part": "Jill Farrant of the University of Cape Town",
+          "role": "主语",
+          "note": "of 短语作后置定语"
+        },
+        {
+          "part": "is exploring",
+          "role": "谓语",
+          "note": "现在进行时，表示正在研究"
+        },
+        {
+          "part": "whether she can design crops to survive",
+          "role": "宾语从句",
+          "note": "whether 引导，表“是否”"
+        },
+        {
+          "part": "for much longer periods without water",
+          "role": "状语",
+          "note": "说明存活时长与条件"
+        }
       ],
       "clauses": [
         "whether 引导宾语从句，作 is exploring 的宾语（不能用 if 引导这种较正式的宾语从句更佳用 whether）。",
@@ -193,11 +299,31 @@
       "structMarkup": "{But if we can't find ways (to protect other foods)}, _will_ 【they】 _survive_ ~climate change~?",
       "structureSummary": "条件状语从句 + 一般疑问句主句",
       "components": [
-        { "part": "But", "role": "连词", "note": "转折" },
-        { "part": "if we can't find ways to protect other foods", "role": "条件状语从句", "note": "if 引导条件" },
-        { "part": "will", "role": "情态动词", "note": "提到主语前构成疑问" },
-        { "part": "they", "role": "主语", "note": "指其他食物" },
-        { "part": "survive climate change", "role": "谓语 + 宾语", "note": "survive 及物，直接接宾语" }
+        {
+          "part": "But",
+          "role": "连词",
+          "note": "转折"
+        },
+        {
+          "part": "if we can't find ways to protect other foods",
+          "role": "条件状语从句",
+          "note": "if 引导条件"
+        },
+        {
+          "part": "will",
+          "role": "情态动词",
+          "note": "提到主语前构成疑问"
+        },
+        {
+          "part": "they",
+          "role": "主语",
+          "note": "指其他食物"
+        },
+        {
+          "part": "survive climate change",
+          "role": "谓语 + 宾语",
+          "note": "survive 及物，直接接宾语"
+        }
       ],
       "clauses": [
         "if 引导条件状语从句，主句用将来时（will survive）。",
@@ -229,11 +355,31 @@
       "structMarkup": "(Fortunately), 【there】 _is_ ~some good news~ (on this front).",
       "structureSummary": "there be 存在句",
       "components": [
-        { "part": "Fortunately", "role": "副词", "note": "修饰整句，表“幸运的是”" },
-        { "part": "there", "role": "引导词", "note": "there be 句型" },
-        { "part": "is", "role": "系动词", "note": "与不可数主语 news 一致" },
-        { "part": "some good news", "role": "主语", "note": "news 不可数，用 is" },
-        { "part": "on this front", "role": "状语", "note": "在这一方面" }
+        {
+          "part": "Fortunately",
+          "role": "副词",
+          "note": "修饰整句，表“幸运的是”"
+        },
+        {
+          "part": "there",
+          "role": "引导词",
+          "note": "there be 句型"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "与不可数主语 news 一致"
+        },
+        {
+          "part": "some good news",
+          "role": "主语",
+          "note": "news 不可数，用 is"
+        },
+        {
+          "part": "on this front",
+          "role": "状语",
+          "note": "在这一方面"
+        }
       ],
       "clauses": [
         "本句是简单句，there be 存在句。"
@@ -244,6 +390,12 @@
           "meaning": "在这一方面、在这个领域上",
           "usage": "front 此处指“领域、战线”；同义 in this area。",
           "example": "There has been little progress on this front. 这方面进展甚微。"
+        },
+        {
+          "text": "good news",
+          "meaning": "好消息",
+          "usage": "news 不可数，不说 a good news；要说 a piece of good news。",
+          "example": "There's good news and bad news. 有好消息也有坏消息。"
         }
       ],
       "pitfalls": [
@@ -258,12 +410,36 @@
       "structMarkup": "(Despite alarmist headlines about \"foods that are going extinct\"), 【there】 _is_ ~no evidence {that major food types (like beans, chocolate, wine, corn or wheat) will cease to exist}~.",
       "structureSummary": "让步状语 + there be 存在句 + 同位语从句",
       "components": [
-        { "part": "Despite alarmist headlines about \"foods that are going extinct\"", "role": "让步状语", "note": "despite 是介词，后接名词短语" },
-        { "part": "there", "role": "引导词", "note": "there be 句型" },
-        { "part": "is", "role": "系动词", "note": "主语 evidence 不可数" },
-        { "part": "no evidence", "role": "主语", "note": "没有任何证据" },
-        { "part": "that major food types ... will cease to exist", "role": "同位语从句", "note": "说明 evidence 的内容" },
-        { "part": "like beans, chocolate, wine, corn or wheat", "role": "插入举例", "note": "举例说明 major food types" }
+        {
+          "part": "Despite alarmist headlines about \"foods that are going extinct\"",
+          "role": "让步状语",
+          "note": "despite 是介词，后接名词短语"
+        },
+        {
+          "part": "there",
+          "role": "引导词",
+          "note": "there be 句型"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "主语 evidence 不可数"
+        },
+        {
+          "part": "no evidence",
+          "role": "主语",
+          "note": "没有任何证据"
+        },
+        {
+          "part": "that major food types ... will cease to exist",
+          "role": "同位语从句",
+          "note": "说明 evidence 的内容"
+        },
+        {
+          "part": "like beans, chocolate, wine, corn or wheat",
+          "role": "插入举例",
+          "note": "举例说明 major food types"
+        }
       ],
       "clauses": [
         "that major food types ... will cease to exist 是同位语从句，解释 evidence 的具体内容。",
@@ -297,55 +473,115 @@
       "phonetic": "/ˈspiːʃiːz/",
       "pos": "n.",
       "senseInContext": "物种（animal species 动物物种）",
-      "collocations": ["endangered species", "a species of", "species diversity"],
-      "examples": ["This species lives only in this lake. 这个物种只生活在这个湖里。"],
+      "collocations": [
+        "endangered species",
+        "a species of",
+        "species diversity"
+      ],
+      "examples": [
+        "This species lives only in this lake. 这个物种只生活在这个湖里。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "spec（看）→ 外观相同的一类 → 物种", "synonyms": "kind / type", "confusables": "species 单复数同形（one species, two species），不要写 specieses" }
+      "more": {
+        "roots": "spec（看）→ 外观相同的一类 → 物种",
+        "synonyms": "kind / type",
+        "confusables": "species 单复数同形（one species, two species），不要写 specieses"
+      }
     },
     "extinct": {
       "phonetic": "/ɪkˈstɪŋkt/",
       "pos": "adj.",
       "senseInContext": "灭绝的（go extinct 灭绝）",
-      "collocations": ["go extinct", "become extinct", "extinction（名词）"],
-      "examples": ["Dinosaurs went extinct long ago. 恐龙很久以前就灭绝了。"],
+      "collocations": [
+        "go extinct",
+        "become extinct",
+        "extinction（名词）"
+      ],
+      "examples": [
+        "Dinosaurs went extinct long ago. 恐龙很久以前就灭绝了。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "ex-（出去）+ stinct（扑灭）→ 被扑灭", "synonyms": "died out / vanished", "confusables": "extinct 形容词；extinction 名词；extinguish 是“扑灭（火）”" }
+      "more": {
+        "roots": "ex-（出去）+ stinct（扑灭）→ 被扑灭",
+        "synonyms": "died out / vanished",
+        "confusables": "extinct 形容词；extinction 名词；extinguish 是“扑灭（火）”"
+      }
     },
     "cope": {
       "phonetic": "/kəʊp/",
       "pos": "v.",
       "senseInContext": "应对、应付（cope with droughts 应对干旱）",
-      "collocations": ["cope with sth.", "cope with stress", "coping strategy"],
-      "examples": ["She copes well with pressure. 她抗压能力很强。"],
+      "collocations": [
+        "cope with sth.",
+        "cope with stress",
+        "coping strategy"
+      ],
+      "examples": [
+        "She copes well with pressure. 她抗压能力很强。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "源自古法语 coper（打击、对抗）", "synonyms": "deal with / handle / manage", "confusables": "cope 是不及物动词，必须带 with" }
+      "more": {
+        "roots": "源自古法语 coper（打击、对抗）",
+        "synonyms": "deal with / handle / manage",
+        "confusables": "cope 是不及物动词，必须带 with"
+      }
     },
     "drought": {
       "phonetic": "/draʊt/",
       "pos": "n.",
       "senseInContext": "干旱（the increased probability of droughts 干旱概率上升）",
-      "collocations": ["severe drought", "drought-resistant", "in drought"],
-      "examples": ["The region suffered a long drought. 该地区遭受长期干旱。"],
+      "collocations": [
+        "severe drought",
+        "drought-resistant",
+        "in drought"
+      ],
+      "examples": [
+        "The region suffered a long drought. 该地区遭受长期干旱。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "与 dry 同源", "synonyms": "dry spell / water shortage", "confusables": "drought 名词“干旱”；draught 是“穿堂风/一饮”" }
+      "more": {
+        "roots": "与 dry 同源",
+        "synonyms": "dry spell / water shortage",
+        "confusables": "drought 名词“干旱”；draught 是“穿堂风/一饮”"
+      }
     },
     "cease": {
       "phonetic": "/siːs/",
       "pos": "v.",
       "senseInContext": "停止、终止（cease to exist 不再存在）",
-      "collocations": ["cease to do", "cease doing", "ceasefire"],
-      "examples": ["The company ceased operations in 2020. 公司 2020 年停止运营。"],
+      "collocations": [
+        "cease to do",
+        "cease doing",
+        "ceasefire"
+      ],
+      "examples": [
+        "The company ceased operations in 2020. 公司 2020 年停止运营。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "源自拉丁 cessare（停止）", "synonyms": "stop / end / discontinue", "confusables": "cease 较正式；cease to exist 是固定说法" }
+      "more": {
+        "roots": "源自拉丁 cessare（停止）",
+        "synonyms": "stop / end / discontinue",
+        "confusables": "cease 较正式；cease to exist 是固定说法"
+      }
     },
     "alarmist": {
       "phonetic": "/əˈlɑːmɪst/",
       "pos": "adj./n.",
       "senseInContext": "危言耸听的（alarmist headlines 耸动的标题）",
-      "collocations": ["alarmist headlines", "alarmist claims", "doom-mongering"],
-      "examples": ["He dismissed the report as alarmist. 他称该报道是在制造恐慌。"],
+      "collocations": [
+        "alarmist headlines",
+        "alarmist claims",
+        "doom-mongering"
+      ],
+      "examples": [
+        "He dismissed the report as alarmist. 他称该报道是在制造恐慌。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "alarm（警报）+ -ist（人/倾向）", "synonyms": "exaggerated / sensational", "confusables": "alarmist 带贬义；alarming 是“令人担忧的”（中性）" }
+      "more": {
+        "roots": "alarm（警报）+ -ist（人/倾向）",
+        "synonyms": "exaggerated / sensational",
+        "confusables": "alarmist 带贬义；alarming 是“令人担忧的”（中性）"
+      }
     }
   }
 }

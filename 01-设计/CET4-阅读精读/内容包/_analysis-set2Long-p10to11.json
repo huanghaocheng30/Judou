@@ -1,0 +1,404 @@
+{
+  "sentences": {
+    "10-0": {
+      "translationLiteral": "绝大多数男性，97%，说休假的头号理由之一是与伴侣分担照护工作。",
+      "translationNatural": "97% 的男性——绝大多数——说他们休假最主要的原因之一，是想帮伴侣分担带孩子的活儿。",
+      "structMarkup": "【The vast majority of men】, (97%), _said_ ~{one of the top reasons to take leave was to share caregiving with their partner}~.",
+      "structureSummary": "主谓 + 宾语从句（从句为主系表结构）",
+      "components": [
+        { "part": "The vast majority of men", "role": "主语", "note": "绝大多数男性，the majority of + 复数名词" },
+        { "part": "97%", "role": "同位语", "note": "插入补充说明 majority 的具体比例" },
+        { "part": "said", "role": "谓语", "note": "过去时，转述调查结果" },
+        { "part": "one of the top reasons to take leave", "role": "从句主语", "note": "one of + 复数名词，谓语仍用单数" },
+        { "part": "was", "role": "从句系动词", "note": "与 one 一致，用单数" },
+        { "part": "to share caregiving with their partner", "role": "表语", "note": "不定式作表语，说明理由内容" }
+      ],
+      "clauses": [
+        "one of the top reasons 作主语时，中心词是 one，谓语用单数 was（不是 were）。",
+        "不定式 to share... 作表语，解释 reasons 的具体内容。",
+        "97% 作同位语，前后用逗号隔开，不改变句子结构。"
+      ],
+      "phrases": [
+        { "text": "the vast majority of", "meaning": "绝大多数……", "usage": "后接可数名词复数或不可数名词；程度比 most 更强。", "example": "The vast majority of workers support the plan. 绝大多数员工支持这个方案。" },
+        { "text": "one of the top reasons", "meaning": "首要原因之一", "usage": "top 表「最重要的」；后接 to do 或 for + 名词。", "example": "Cost is one of the top reasons for quitting. 成本是放弃的首要原因之一。" },
+        { "text": "share sth with sb", "meaning": "与某人分担/分享某物", "usage": "share 可指分担（责任、家务）也可指共享（信息）。", "example": "He shares housework with his wife. 他和妻子分担家务。" }
+      ],
+      "pitfalls": [
+        "one of the top reasons ... was：谓语跟 one 走，用单数——本句最易错处。",
+        "caregiving 是不可数名词，不能加 -s。",
+        "share ... with 不能用 share ... to。"
+      ],
+      "paragraphRole": "先摆出男性休假的正面动机（分担照护），为下一句的「行为落差」制造反差。"
+    },
+    "10-1": {
+      "translationLiteral": "但当他们被问到照护与家务是如何分配时，他们的回答呈现出另一番图景。",
+      "translationNatural": "可一问到带孩子和家务具体怎么分，他们的回答就完全是另一幅画面了。",
+      "structMarkup": "(But) (when they were asked about how caregiving and household tasks were divided), 【their answers】 _painted_ ~a different picture~.",
+      "structureSummary": "时间状语从句（内含宾语从句）+ 主谓宾",
+      "components": [
+        { "part": "But", "role": "转折连词", "note": "与上一句形成转折" },
+        { "part": "when they were asked about...", "role": "时间状语从句", "note": "被动语态" },
+        { "part": "how caregiving and household tasks were divided", "role": "介词 about 的宾语从句", "note": "how 引导" },
+        { "part": "their answers", "role": "主句主语", "note": "男性的回答" },
+        { "part": "painted", "role": "主句谓语", "note": "paint a picture 的比喻用法" },
+        { "part": "a different picture", "role": "宾语", "note": "另一番图景、另一种情况" }
+      ],
+      "clauses": [
+        "when 引导时间状语从句，从句用被动 were asked，强调受访者是被问的一方。",
+        "how 引导的从句作介词 about 的宾语；介词后接从句时用 how/why/whether，不用 that。",
+        "主句用 paint a picture 的隐喻，比 show 更形象。"
+      ],
+      "phrases": [
+        { "text": "paint a picture", "meaning": "描绘出一幅图景、呈现出……的景象", "usage": "常搭 a different / a clear / a bleak picture；也可说 paint a picture of sth。", "example": "The data paints a worrying picture. 数据呈现出令人担忧的景象。" },
+        { "text": "be asked about sth", "meaning": "被问到某事", "usage": "ask sb about sth 的被动形式；about 后可接名词或从句。", "example": "They were asked about their working hours. 他们被问及工作时长。" },
+        { "text": "household tasks", "meaning": "家务", "usage": "household 作定语表「家庭的」；同义 housework（不可数）。", "example": "Household tasks are still unevenly shared. 家务仍然分配不均。" }
+      ],
+      "pitfalls": [
+        "about how... 是「介词 + 从句」，不能换成 about that...。",
+        "household 是形容词，task 要加 -s；housework 不可数不加 -s。",
+        "were divided 是被动（家务被分配），不是主动。"
+      ],
+      "paragraphRole": "转折句——把「想法」切换到「实际做法」，引出后文的数据落差。"
+    },
+    "10-2": {
+      "translationLiteral": "虽然约 75% 的员工说男女应当承担同等照护，但多数男性和近半数女性承认，现实中主要是女性在做。",
+      "translationNatural": "虽说大约 75% 的员工都认为男女该一样带孩子，可多数男的和近一半女性都承认：实际上主要还是女的在做。",
+      "structMarkup": "{While about 75% of employees said both genders should give the same amount of care}, 【the majority of men and nearly half of women】 _admitted_ ~{that in reality the female actually did most of it}~.",
+      "structureSummary": "让步状语从句 + 主谓 + that 宾语从句",
+      "components": [
+        { "part": "While about 75% of employees said...", "role": "让步状语从句", "note": "while 表「虽然」，与主句形成对照" },
+        { "part": "both genders should give the same amount of care", "role": "said 的宾语从句", "note": "should 表应然" },
+        { "part": "the majority of men and nearly half of women", "role": "主句主语", "note": "并列主语，谓语用复数" },
+        { "part": "admitted", "role": "主句谓语", "note": "承认（多指不情愿地承认）" },
+        { "part": "that in reality the female actually did most of it", "role": "宾语从句", "note": "admit 后的 that 从句" }
+      ],
+      "clauses": [
+        "while 在句首表对比/让步（「虽然」），不是「当……时」。",
+        "the majority of men and nearly half of women 是并列主语，故谓语用 admitted。",
+        "admit 后接 that 从句，that 可省略；admit doing 也可，但不说 admit to do。",
+        "the female 在此作名词，指「女性（一方）」，与 the male 相对。"
+      ],
+      "phrases": [
+        { "text": "the same amount of", "meaning": "同等数量的", "usage": "amount 修饰不可数名词；可数用 the same number of。", "example": "They do the same amount of work. 他们做同样多的工作。" },
+        { "text": "in reality", "meaning": "实际上、现实中", "usage": "作插入语，常用来把「想法」与「事实」对置。", "example": "In reality, few people finish on time. 实际上很少有人按时完成。" },
+        { "text": "admit that...", "meaning": "承认……", "usage": "后接从句或动名词；比 acknowledge 更口语。", "example": "He admitted that he was wrong. 他承认自己错了。" }
+      ],
+      "pitfalls": [
+        "while 此处是「虽然」而不是「当……时」——判断依据是主从句语义对立。",
+        "the female 作名词可指「女性」，但现代英语更常用 women；此处为原文用法。",
+        "did most of it 中的 did 是代动词，替代前文的 caregiving，不是「做」的实义重复。"
+      ],
+      "paragraphRole": "全篇最尖锐的落差句——「观念上认同平等，行为上仍是女性承担」。"
+    },
+    "10-3": {
+      "translationLiteral": "极小一部分男性，2%，说他们承担了更多的育儿工作。",
+      "translationNatural": "只有 2% 的男性——极少数——说自己带孩子带得更多。",
+      "structMarkup": "【A tiny fraction, (2%), of men】 _said_ ~{they did more of the childcare}~.",
+      "structureSummary": "主谓 + 宾语从句",
+      "components": [
+        { "part": "A tiny fraction of men", "role": "主语", "note": "极小一部分男性" },
+        { "part": "2%", "role": "同位语", "note": "插入说明 fraction 的具体数值" },
+        { "part": "said", "role": "谓语", "note": "过去时" },
+        { "part": "they did more of the childcare", "role": "宾语从句", "note": "省略 that" }
+      ],
+      "clauses": [
+        "a fraction of + 复数名词作主语，谓语用单数（中心词是 a fraction）；此处 said 与 2% 的复数含义一致，原文取复数。",
+        "did more of the childcare：more 是代词性比较，of 后接范围。",
+        "childcare 不可数，前面用 the 表特指。"
+      ],
+      "phrases": [
+        { "text": "a tiny fraction of", "meaning": "极小一部分的", "usage": "常用来强调比例之低；反义 a large proportion of。", "example": "Only a tiny fraction of applicants succeed. 只有极小一部分申请者成功。" },
+        { "text": "do more of sth", "meaning": "承担更多某方面的事", "usage": "more of + 名词，表「更大份额的」。", "example": "She does more of the talking. 说话更多的是她。" }
+      ],
+      "pitfalls": [
+        "fraction 是可数名词，a tiny fraction 前要有 a。",
+        "childcare 是一个词，不写成 child care（英式常写 child care，但此处原文连写）。",
+        "不要误读成「2% 的男性做了更多儿童照护工作」而忽略这是自我报告。"
+      ],
+      "paragraphRole": "用 2% 这个极端数字收束家庭分工的讨论，把落差量化到刺眼。"
+    },
+    "11-0": {
+      "translationLiteral": "男性与女性在育儿假之后重返工作的经历也相当不同。",
+      "translationNatural": "男女休完育儿假回去上班的感受，差别也相当大。",
+      "structMarkup": "【Men and women's experiences of the return to work following parental leave】 _were_ ~also considerably different~.",
+      "structureSummary": "主系表（主语带多层后置修饰）",
+      "components": [
+        { "part": "Men and women's experiences", "role": "主语", "note": "男女双方的经历（所有格只挂在 women 上，语义涵盖两者）" },
+        { "part": "of the return to work", "role": "后置定语", "note": "修饰 experiences" },
+        { "part": "following parental leave", "role": "后置定语", "note": "following 是介词性分词，表「在……之后」" },
+        { "part": "were", "role": "系动词", "note": "复数，与 experiences 一致" },
+        { "part": "also considerably different", "role": "表语", "note": "considerably 修饰 different" }
+      ],
+      "clauses": [
+        "Men and women's experiences：所有格 's 只加在最后一个名词上，但语义包含 both。",
+        "following 此处是介词用法（= after），后接名词 parental leave。",
+        "considerably 是副词，修饰形容词 different；不能换成 considerable。"
+      ],
+      "phrases": [
+        { "text": "the return to work", "meaning": "重返工作岗位", "usage": "return 作名词，后接 to + 地点/活动。", "example": "Her return to work went smoothly. 她重返职场很顺利。" },
+        { "text": "following sth", "meaning": "在……之后", "usage": "介词性分词，比 after 正式，多用于书面。", "example": "Following the meeting, they issued a statement. 会议之后他们发表了声明。" },
+        { "text": "considerably different", "meaning": "相当不同", "usage": "considerably 修饰比较级或形容词，表程度大。", "example": "Costs are considerably higher this year. 今年成本高得多。" }
+      ],
+      "pitfalls": [
+        "considerably（副词）与 considerable（形容词）不能混：此处修饰 different 必须用副词。",
+        "Men and women's 是「男女双方的」，不是「男性和女性的（各自的）」——语义要读准。",
+        "following 在此不是「跟随」的动词分词，而是介词。"
+      ],
+      "paragraphRole": "段落主题句——宣告「重返职场」这一新维度，后文用数据展开男女差异。"
+    },
+    "11-1": {
+      "translationLiteral": "在受访女性中，32% 报告工作满意度下降，而 14% 说上升了。",
+      "translationNatural": "受访女性里，32% 说自己的工作满意度下降了，14% 说反而上升了。",
+      "structMarkup": "(Of the women surveyed), 【32%】 _reported_ ~a downturn in their job satisfaction~, {while} 【14%】 _said_ {it increased}.",
+      "structureSummary": "状语 + 主谓宾 + while 并列对照分句",
+      "components": [
+        { "part": "Of the women surveyed", "role": "范围状语", "note": "surveyed 是过去分词后置定语，修饰 women" },
+        { "part": "32%", "role": "主语1", "note": "32% 的受访女性" },
+        { "part": "reported", "role": "谓语1", "note": "报告、称" },
+        { "part": "a downturn in their job satisfaction", "role": "宾语1", "note": "满意度下滑" },
+        { "part": "while", "role": "对比连词", "note": "表前后对照" },
+        { "part": "14% said it increased", "role": "分句2", "note": "it 指 job satisfaction" }
+      ],
+      "clauses": [
+        "Of the women surveyed 置于句首作范围限定，相当于「在……之中」。",
+        "while 连接两个对照分句，表「而、然而」。",
+        "it increased 中的 it 指前文的 job satisfaction，避免重复。"
+      ],
+      "phrases": [
+        { "text": "a downturn in sth", "meaning": "……的下滑、衰退", "usage": "常搭 economic downturn（经济衰退）；反义 an upturn。", "example": "There was a sharp downturn in sales. 销量急剧下滑。" },
+        { "text": "job satisfaction", "meaning": "工作满意度", "usage": "不可数名词短语，常与 report/show/improve 搭配。", "example": "Flexible hours raise job satisfaction. 弹性工时会提高工作满意度。" }
+      ],
+      "pitfalls": [
+        "32% reported：百分比作主语视为复数，谓语不加 -s。",
+        "downturn 后接 in，不接 of 更常见。",
+        "while 在此不是「当……时」，而是对比连词。"
+      ],
+      "paragraphRole": "用第一组男女对照数据（女性满意度下滑更多）支撑段首论断。"
+    },
+    "11-2": {
+      "translationLiteral": "相比之下，17% 的男性说工作满意度下降了，20% 说上升了。",
+      "translationNatural": "相比之下，17% 的男性说自己满意度下降，20% 说上升了。",
+      "structMarkup": "(In comparison), 【17% of men】 _said_ ~{their job satisfaction went down}~ {and} 【20%】 _said_ {it went up}.",
+      "structureSummary": "状语 + 两个并列主谓宾结构",
+      "components": [
+        { "part": "In comparison", "role": "比较状语", "note": "与前一句的女性数据对照" },
+        { "part": "17% of men", "role": "主语1", "note": "17% 的男性" },
+        { "part": "said", "role": "谓语1", "note": "过去时" },
+        { "part": "their job satisfaction went down", "role": "宾语从句1", "note": "省略 that" },
+        { "part": "20%", "role": "主语2", "note": "承前指 20% 的男性" },
+        { "part": "it went up", "role": "宾语从句2", "note": "it 指 job satisfaction" }
+      ],
+      "clauses": [
+        "两个分句由 and 连接，第二个分句的 said 后同样省略 that。",
+        "go down / go up 是系表性动词短语，表变化方向，比 decrease/increase 更口语。",
+        "20% 后承前省略 of men，避免重复。"
+      ],
+      "phrases": [
+        { "text": "in comparison", "meaning": "相比之下", "usage": "独立使用作状语；后接 with/to 时表「与……相比」。", "example": "In comparison, men reported fewer problems. 相比之下，男性报告的问题更少。" },
+        { "text": "go down / go up", "meaning": "下降 / 上升", "usage": "口语化表达，可指数值、价格、情绪；正式文体多用 decrease/increase。", "example": "Prices went up again. 价格又涨了。" }
+      ],
+      "pitfalls": [
+        "in comparison 单独使用，不接宾语；in comparison with 才接。",
+        "went down 与 went up 都是不及物用法。",
+        "20% 后省略 of men，不要误以为指全部员工。"
+      ],
+      "paragraphRole": "紧跟上句给出男性对照数据，凸显「女性下滑更明显」。"
+    },
+    "11-3": {
+      "translationLiteral": "同时，更多女性报告在生育后职责与管理者期望有所增加。",
+      "translationNatural": "与此同时，更多女性说自己生完孩子后，责任和领导对她的期待都变高了。",
+      "structMarkup": "(Meanwhile), 【more women】 _reported_ ~an increase in their responsibilities and manager expectations~ (after childbirth).",
+      "structureSummary": "状语 + 主谓宾 + 时间状语",
+      "components": [
+        { "part": "Meanwhile", "role": "连接副词", "note": "表「同时、另一方面」" },
+        { "part": "more women", "role": "主语", "note": "更多女性（与前文男性数据相对）" },
+        { "part": "reported", "role": "谓语", "note": "报告、称" },
+        { "part": "an increase in their responsibilities and manager expectations", "role": "宾语", "note": "in 后接两个并列名词" },
+        { "part": "after childbirth", "role": "时间状语", "note": "生育之后" }
+      ],
+      "clauses": [
+        "more women 是比较级主语，谓语用复数 reported。",
+        "an increase in A and B：介词 in 同时支配两个并列宾语。",
+        "manager expectations 指「管理者（对她）的期望」，所有格省略。"
+      ],
+      "phrases": [
+        { "text": "an increase in sth", "meaning": "……的增加", "usage": "increase 作名词时接 in；作动词时 increase 可直接及物。", "example": "There was an increase in demand. 需求有所增加。" },
+        { "text": "after childbirth", "meaning": "分娩之后、生育之后", "usage": "childbirth 不可数；同义 after giving birth。", "example": "Many women return to work soon after childbirth. 许多女性生育后不久就返岗。" }
+      ],
+      "pitfalls": [
+        "increase in（名词）与 increase（动词）后接方式不同，别写成 an increase of responsibilities（of 常用于具体数值）。",
+        "responsibilities 用复数，指具体职责。",
+        "manager expectations 中间没有 's，是「管理者期望」的复合名词用法。"
+      ],
+      "paragraphRole": "补充女性返岗后的额外压力来源（责任与期待上升），解释满意度下滑的原因。"
+    },
+    "11-4": {
+      "translationLiteral": "半数女性说她们在成为父母后使用过弹性工作安排，而男性仅 27%。",
+      "translationNatural": "一半的女性说自己当妈以后用过弹性工作安排，男性只有 27% 这么做。",
+      "structMarkup": "【Half of the women】 _said_ ~{they used flexible work arrangements after becoming a parent}~, {while} 【just 27% of men】 _did_.",
+      "structureSummary": "主谓宾从句 + while 对照分句（用代动词 did）",
+      "components": [
+        { "part": "Half of the women", "role": "主语1", "note": "半数女性" },
+        { "part": "said", "role": "谓语1", "note": "过去时" },
+        { "part": "they used flexible work arrangements after becoming a parent", "role": "宾语从句", "note": "省略 that" },
+        { "part": "after becoming a parent", "role": "时间状语", "note": "介词 after + 动名词" },
+        { "part": "while", "role": "对比连词", "note": "表对照" },
+        { "part": "just 27% of men did", "role": "分句2", "note": "did 替代 used flexible work arrangements" }
+      ],
+      "clauses": [
+        "Half of the women 作主语时谓语用单数或复数均可，此处原文用复数 said。",
+        "after 是介词，后接动名词 becoming；不接从句。",
+        "did 是代动词，替代前面的 used flexible work arrangements，避免重复。",
+        "just 修饰 27%，强调比例之低。"
+      ],
+      "phrases": [
+        { "text": "flexible work arrangements", "meaning": "弹性工作安排", "usage": "包括弹性工时、远程办公等；也可说 flexible working。", "example": "Flexible work arrangements help parents. 弹性工作安排对父母有帮助。" },
+        { "text": "become a parent", "meaning": "成为父母、有了孩子", "usage": "中性表达，涵盖父母双方；比 become a mother/father 更概括。", "example": "Your priorities change when you become a parent. 有了孩子后你的优先级会变。" }
+      ],
+      "pitfalls": [
+        "after becoming 是介词 + 动名词；误写 after become 就错了。",
+        "did 是代动词，不能换成 made 或 took。",
+        "just 27% 的 just 表「仅仅」，不是「刚刚」。"
+      ],
+      "paragraphRole": "用弹性工作的使用率差异，量化「育儿负担仍主要落在女性身上」。"
+    },
+    "11-5": {
+      "translationLiteral": "相近比例的男性和女性说他们喜欢自己的职业，且职业给了他们成就感；而约半数女性和 44% 的男性说职业是自我认同的关键部分。",
+      "translationNatural": "男女中都有相近比例的人说自己喜欢这份职业、职业带来成就感；约一半女性和 44% 的男性说，职业是「自己是谁」的重要部分。",
+      "structMarkup": "【Similar percentages of men and women】 _said_ ~{they enjoyed their careers}~ {and} ~that {it gave them a sense of achievement}~, {while} 【around half of women and 44% of men】 _said_ {it was a key part of their identity}.",
+      "structureSummary": "主谓 + 两个并列宾语从句 + while 对照分句（内含宾语从句）",
+      "components": [
+        { "part": "Similar percentages of men and women", "role": "主语1", "note": "男女中相近比例的人" },
+        { "part": "said", "role": "谓语1", "note": "支配两个 that 从句" },
+        { "part": "they enjoyed their careers", "role": "宾语从句1", "note": "省略 that" },
+        { "part": "that it gave them a sense of achievement", "role": "宾语从句2", "note": "保留 that，与从句1 并列" },
+        { "part": "while", "role": "对比连词", "note": "引出后半对照" },
+        { "part": "around half of women and 44% of men", "role": "主语2", "note": "并列主语" },
+        { "part": "it was a key part of their identity", "role": "宾语从句3", "note": "it 指 career" }
+      ],
+      "clauses": [
+        "两个宾语从句并列：第一个省略 that，第二个保留 that，这是正式文体的常见写法。",
+        "while 引导对照分句，表「而」。",
+        "it 两次出现都指 career（职业），不是公司或工作单位。",
+        "a sense of achievement：of + 抽象名词，表「……感」。"
+      ],
+      "phrases": [
+        { "text": "a sense of achievement", "meaning": "成就感", "usage": "sense of + 抽象名词：a sense of responsibility/pride/belonging。", "example": "Finishing the project gave her a sense of achievement. 完成项目让她很有成就感。" },
+        { "text": "a key part of sth", "meaning": "……的关键部分", "usage": "key 作形容词表「关键的」；同义 an essential part of。", "example": "Trust is a key part of teamwork. 信任是团队合作的关键。" },
+        { "text": "similar percentages of", "meaning": "相近比例的……", "usage": "percentage 与具体数字连用时谓语单复数看 of 后的名词。", "example": "Similar percentages of both groups agreed. 两组中同比例的人表示同意。" }
+      ],
+      "pitfalls": [
+        "第二个宾语从句保留 that，是为避免与第一个从句混淆——写作时不要随意省略。",
+        "identity 在此指「自我认同、身份感」，不是「身份证」。",
+        "around half of women and 44% of men 是并列主语，谓语用 said（复数）。"
+      ],
+      "paragraphRole": "指出男女在「职业认同」上差别不大，反衬真正差异在「机会与家庭分工」，避免读者误读为全面对立。"
+    }
+  },
+  "tokens": {
+    "majority": {
+      "phonetic": "/məˈdʒɒrəti/",
+      "pos": "n.",
+      "senseInContext": "大多数（the vast majority of＝绝大多数）",
+      "collocations": ["the majority of", "a majority vote", "the vast majority"],
+      "examples": ["The majority of staff work remotely. 大多数员工远程办公。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "major（较大的）+ -ity",
+        "synonyms": ["most", "the bulk of", "the greater part"],
+        "confusables": ["major（adj. 主要的）", "minority（n. 少数）"]
+      }
+    },
+    "admit": {
+      "phonetic": "/ədˈmɪt/",
+      "pos": "v.",
+      "senseInContext": "（不情愿地）承认（多数男性承认实际主要是女性在照护）",
+      "collocations": ["admit that...", "admit doing sth", "admit to sth"],
+      "examples": ["He admitted making a mistake. 他承认犯了错。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ad-（to）+ mittere（送）→ 让进来 → 承认",
+        "synonyms": ["acknowledge", "concede", "confess"],
+        "confusables": ["admittance（n. 进入权）", "admission（n. 承认；入场）", "admit to do（错，应为 admit doing）"]
+      }
+    },
+    "fraction": {
+      "phonetic": "/ˈfrækʃn/",
+      "pos": "n.",
+      "senseInContext": "一小部分（2% 的男性，极小比例）",
+      "collocations": ["a fraction of", "a tiny/small fraction", "only a fraction"],
+      "examples": ["Only a fraction of the budget was used. 只用了预算的一小部分。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "fract（打碎）+ -ion → 碎片 → 分数",
+        "synonyms": ["portion", "share", "sliver"],
+        "confusables": ["fracture（n./v. 骨折、断裂）", "faction（n. 派系）"]
+      }
+    },
+    "considerably": {
+      "phonetic": "/kənˈsɪdərəbli/",
+      "pos": "adv.",
+      "senseInContext": "相当地、很大程度上（男女体验差别相当大）",
+      "collocations": ["considerably higher/better", "vary considerably"],
+      "examples": ["Costs vary considerably by region. 成本因地区差异很大。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "consider + -able + -ly",
+        "synonyms": ["significantly", "substantially", "greatly"],
+        "confusables": ["considerable（adj. 相当大的）", "considerate（adj. 体贴的）"]
+      }
+    },
+    "downturn": {
+      "phonetic": "/ˈdaʊntɜːn/",
+      "pos": "n.",
+      "senseInContext": "下滑、下降（工作满意度下降）",
+      "collocations": ["a downturn in sth", "economic downturn", "a sharp downturn"],
+      "examples": ["The industry faces a serious downturn. 这个行业面临严重下滑。"],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "down（向下）+ turn（转）",
+        "synonyms": ["decline", "slump", "drop"],
+        "confusables": ["upturn（n. 好转）", "turn down（拒绝）"]
+      }
+    },
+    "flexible": {
+      "phonetic": "/ˈfleksəbl/",
+      "pos": "adj.",
+      "senseInContext": "灵活的、弹性的（弹性工作安排）",
+      "collocations": ["flexible working hours", "flexible arrangements", "be flexible about sth"],
+      "examples": ["We offer flexible hours to parents. 我们为父母提供弹性工时。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "flex（弯曲）+ -ible",
+        "synonyms": ["adaptable", "adjustable", "versatile"],
+        "confusables": ["flexibility（n. 灵活性）", "flexible 反义 rigid（僵化的）"]
+      }
+    },
+    "achievement": {
+      "phonetic": "/əˈtʃiːvmənt/",
+      "pos": "n.",
+      "senseInContext": "成就、成绩（职业带来的成就感）",
+      "collocations": ["a sense of achievement", "academic achievement", "a major achievement"],
+      "examples": ["Winning the award was a huge achievement. 获奖是巨大的成就。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "achieve（实现）+ -ment",
+        "synonyms": ["accomplishment", "attainment", "success"],
+        "confusables": ["achieve（v. 实现）", "achievable（adj. 可实现的）"]
+      }
+    },
+    "identity": {
+      "phonetic": "/aɪˈdentəti/",
+      "pos": "n.",
+      "senseInContext": "自我认同、身份感（职业是「我是谁」的重要部分）",
+      "collocations": ["a sense of identity", "national identity", "identity crisis"],
+      "examples": ["Work is central to his identity. 工作是他自我认同的核心。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "idem（同一）+ -ity → 同一性",
+        "synonyms": ["self-image", "selfhood", "character"],
+        "confusables": ["identification（n. 识别、身份证件）", "identical（adj. 完全相同的）"]
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "sentences": {
+    "15-0": {
+      "translationLiteral": "这位来自俄亥俄州哥伦布市、育有两个孩子、至今仍在该公司担任副理与调查员的父亲说，自和解以来他目睹了各公司之间的「多米诺效应」，但在改变人们对陪产假的态度上仍有大量进展要做。",
+      "translationNatural": "这位住在俄亥俄州哥伦布、有两个孩子、现在还在这家公司做副理兼调查员的父亲说，和解之后他看到各家公司像推倒多米诺骨牌一样接连改变；不过他也说，要真正改变人们对陪产假的看法，还有很长的路要走。",
+      "structMarkup": "【The father of two from Columbus, Ohio】, {who still works at the company as an associate and investigator}, _said_ ~{he has witnessed a \"domino effect\" across companies since the settlement}~, {but} ~that {there is still substantial progress to be made towards changing attitudes towards paternity leave}~.",
+      "structureSummary": "主语（带定语从句）+ 谓语 + 两个并列宾语从句（第二个由 but 转折并保留 that）",
+      "components": [
+        { "part": "The father of two from Columbus, Ohio", "role": "主语", "note": "中心词 father of two，后接籍贯" },
+        { "part": "who still works at the company as an associate and investigator", "role": "非限制性定语从句", "note": "补充身份" },
+        { "part": "said", "role": "谓语", "note": "支配两个宾语从句" },
+        { "part": "he has witnessed a \"domino effect\" across companies since the settlement", "role": "宾语从句1", "note": "现在完成时，since 为标志" },
+        { "part": "but that there is still substantial progress to be made...", "role": "宾语从句2", "note": "but 转折 + 保留 that" },
+        { "part": "towards changing attitudes towards paternity leave", "role": "后置定语", "note": "修饰 progress，towards + 动名词" }
+      ],
+      "clauses": [
+        "两个宾语从句由 but 连接：第一个省略 that，第二个保留 that，避免歧义。",
+        "has witnessed：since the settlement 是现在完成时标志。",
+        "progress to be made：不定式被动作后置定语，表「尚待取得的」。",
+        "attitudes towards sth：对……的态度，towards 也可用 to。"
+      ],
+      "phrases": [
+        { "text": "a domino effect", "meaning": "多米诺效应、连锁反应", "usage": "常搭 have/create a domino effect on sth。", "example": "The ruling had a domino effect on other firms. 该裁决对其他公司产生了连锁效应。" },
+        { "text": "progress to be made", "meaning": "尚待取得的进展", "usage": "make progress 的被动不定式形式，常与 there is still 连用。", "example": "There is still progress to be made on safety. 安全方面仍有待改进。" },
+        { "text": "attitudes towards sth", "meaning": "对……的态度", "usage": "attitude 可数，常用复数表泛指；后接 to/towards。", "example": "Attitudes towards remote work are shifting. 人们对远程办公的态度在变。" }
+      ],
+      "pitfalls": [
+        "第二个宾语从句保留 that：因为前面有 but，不保留会读成两个独立分句。",
+        "has witnessed 是现在完成时，不能改成一般过去时（since 标志）。",
+        "progress 不可数，不说 a progress / progresses。"
+      ],
+      "paragraphRole": "借当事人之口做阶段性总结：制度层面已有连锁反应，观念层面仍待推进。"
+    },
+    "16-0": {
+      "translationLiteral": "「我确实认为还有一段路要走……对新爸爸来说，那种未明说的期待基本上还是会存在——即马上回去上班；但我认为研究显示这种情况正在开始改变。」",
+      "translationNatural": "「我确实觉得还有一段路要走……对新爸爸的那种『没说出口的期待』依然在——基本上就是赶紧回来上班；不过我觉得研究显示，这情况已经开始变了。」",
+      "structMarkup": "\"【I】 _do think_ ~{there's still some way to go}~... {there's still going to be sort of the unstated expectation for new dads to essentially come right back to work}, {but} 【I】 _think_ {the research is showing that's starting to change}.\"",
+      "structureSummary": "主谓 + 宾语从句 + 存在句并列 + but 转折主谓宾从句",
+      "components": [
+        { "part": "I do think", "role": "主句1", "note": "do 表强调" },
+        { "part": "there's still some way to go", "role": "宾语从句1", "note": "省略 that" },
+        { "part": "there's still going to be sort of the unstated expectation for new dads to come right back to work", "role": "并列存在句", "note": "there is going to be 表将来存在" },
+        { "part": "but", "role": "转折连词", "note": "语气转折" },
+        { "part": "I think the research is showing that's starting to change", "role": "主句2 + 宾语从句", "note": "从句内再套宾语从句" }
+      ],
+      "clauses": [
+        "do think：助动词 do 表强调，口语常见（I do believe / I do agree）。",
+        "there's still some way to go：固定表达，意为「还有一段路要走」。",
+        "there's going to be ... expectation for sb to do sth：将来存在句 + 不定式作后置定语。",
+        "the research is showing (that) that's starting to change：两个 that，前者连词可省，后者是代词作主语。"
+      ],
+      "phrases": [
+        { "text": "have some way to go", "meaning": "还有一段路要走、尚需努力", "usage": "常用 there is still some way to go；也可说 a long way to go。", "example": "We still have some way to go on equality. 平等这件事我们还有很长的路要走。" },
+        { "text": "the unstated expectation", "meaning": "未明说的期待、潜规则式期待", "usage": "unstated 表「未言明的」；常用来指无形的社会压力。", "example": "There is an unstated expectation to work late. 存在一种不加班的隐性期待。" },
+        { "text": "come right back to work", "meaning": "马上回来上班", "usage": "right 在此是副词，表「立即、马上」。", "example": "She came right back to work after the weekend. 周末一过她马上回来上班。" }
+      ],
+      "pitfalls": [
+        "I do think 的 do 是强调用法，不是「做」。",
+        "that's starting to change：that 是代词（指前述情况），不是连词。",
+        "sort of 是口语模糊语（「有点儿」），不表分类。"
+      ],
+      "paragraphRole": "用受访者原话呈现「双重现实」——隐性期待未消，但趋势已变，为结论铺路。"
+    },
+    "16-1": {
+      "translationLiteral": "他说，平等的育儿假是在职场创造性别平等的必要组成部分。",
+      "translationNatural": "他说，想在职场实现性别平等，男女一样的育儿假是必不可少的一环。",
+      "structMarkup": "【He】 _said_ ~{equal parental leave is an essential component to creating gender equality in the workplace}~.",
+      "structureSummary": "主谓 + 宾语从句（从句为主系表）",
+      "components": [
+        { "part": "He", "role": "主语", "note": "指上文的父亲（Rotondo）" },
+        { "part": "said", "role": "谓语", "note": "过去时转述" },
+        { "part": "equal parental leave", "role": "从句主语", "note": "平等的育儿假" },
+        { "part": "is", "role": "从句系动词", "note": "单数，与主语一致" },
+        { "part": "an essential component to creating gender equality in the workplace", "role": "表语", "note": "component to + 动名词" }
+      ],
+      "clauses": [
+        "an essential component to doing sth：to 是介词，后接动名词。",
+        "equal parental leave 作主语视为不可数概念，谓语用 is。",
+        "in the workplace 限定 gender equality 的范围。"
+      ],
+      "phrases": [
+        { "text": "an essential component", "meaning": "必要组成部分、不可或缺的一环", "usage": "后接 of 或 to + 名词/动名词。", "example": "Trust is an essential component of teamwork. 信任是团队合作不可或缺的一环。" },
+        { "text": "gender equality", "meaning": "性别平等", "usage": "固定搭配；相关词 gender gap（性别差距）。", "example": "The firm publishes a gender equality report. 公司发布性别平等报告。" }
+      ],
+      "pitfalls": [
+        "component to creating 中的 to 是介词，不能接动词原形。",
+        "essential 表「必不可少的」，比 important 语气强。",
+        "workplace 是一个词（工作场所），不写成 work place。"
+      ],
+      "paragraphRole": "把前文的经验上升为原则性判断：育儿假平等是职场性别平等的前提。"
+    },
+    "16-2": {
+      "translationLiteral": "「女性留在家里、生孩子、做饭的旧标准不适用了，而且已经很久不适用了。」",
+      "translationNatural": "「『女的就该待在家里、生孩子、做饭』那套老规矩早就不成立了，而且已经很久不成立了。」",
+      "structMarkup": "\"【The old standard of women staying home, having babies and cooking】 _doesn't apply_ {and} _hasn't applied_ (for a long time).\"",
+      "structureSummary": "主谓（两个并列谓语）+ 时间状语",
+      "components": [
+        { "part": "The old standard of women staying home, having babies and cooking", "role": "主语", "note": "of + 动名词复合结构作后置定语" },
+        { "part": "doesn't apply", "role": "谓语1", "note": "一般现在时，表当前不成立" },
+        { "part": "hasn't applied", "role": "谓语2", "note": "现在完成时，表持续状态" },
+        { "part": "for a long time", "role": "时间状语", "note": "与完成时搭配" }
+      ],
+      "clauses": [
+        "of women staying home, having babies and cooking：of + 动名词复合结构，women 是三个动名词的逻辑主语。",
+        "两个谓语时态不同：doesn't apply（现在不适用）+ hasn't applied（已经很久不适用），形成递进。",
+        "for a long time 与现在完成时搭配，不能用一般现在时。"
+      ],
+      "phrases": [
+        { "text": "apply to sb/sth", "meaning": "适用于……", "usage": "此处 apply 不及物，表「适用」；表「申请」时用 apply for。", "example": "The rule applies to all staff. 这条规定适用于全体员工。" },
+        { "text": "for a long time", "meaning": "很长时间以来", "usage": "常与现在完成时连用；否定句中可表「很久没有」。", "example": "It hasn't rained for a long time. 很久没下雨了。" }
+      ],
+      "pitfalls": [
+        "apply 在此是「适用」，不是「申请」（apply for）。",
+        "hasn't applied 不能换成 doesn't apply——后者无法表达「已经很久」。",
+        "staying home / having babies / cooking 三个动名词并列，逻辑主语都是 women。"
+      ],
+      "paragraphRole": "以否定旧规范作结，与开篇的「忙碌炫耀」呼应，完成从现象到观念的闭环。"
+    }
+  },
+  "tokens": {
+    "witness": {
+      "phonetic": "/ˈwɪtnəs/",
+      "pos": "v.",
+      "senseInContext": "目睹、亲历（他目睹了各公司间的连锁反应）",
+      "collocations": ["witness a change", "witness to sth", "eyewitness"],
+      "examples": ["We witnessed a dramatic shift in attitudes. 我们目睹了态度的急剧转变。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "wit（知道）+ -ness → 知情者 → 见证",
+        "synonyms": ["observe", "see", "experience"],
+        "confusables": ["witness（n. 证人）", "witless（adj. 愚蠢的）"]
+      }
+    },
+    "substantial": {
+      "phonetic": "/səbˈstænʃl/",
+      "pos": "adj.",
+      "senseInContext": "大量的、实质性的（仍有大量进展要做）",
+      "collocations": ["substantial progress", "a substantial amount", "substantial evidence"],
+      "examples": ["There has been substantial improvement. 已有实质性改善。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "substance（实质）+ -ial",
+        "synonyms": ["considerable", "significant", "sizeable"],
+        "confusables": ["substantive（adj. 实质性的，偏内容）", "substantially（adv. 大幅地）"]
+      }
+    },
+    "essential": {
+      "phonetic": "/ɪˈsenʃl/",
+      "pos": "adj.",
+      "senseInContext": "必不可少的、本质的（育儿假平等是必要一环）",
+      "collocations": ["be essential to/for", "an essential part of", "it is essential that..."],
+      "examples": ["Sleep is essential for health. 睡眠对健康必不可少。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "essence（本质）+ -ial",
+        "synonyms": ["vital", "crucial", "indispensable"],
+        "confusables": ["essentially（adv. 本质上）", "essential 后接 that 从句常用虚拟语气"]
+      }
+    },
+    "component": {
+      "phonetic": "/kəmˈpəʊnənt/",
+      "pos": "n.",
+      "senseInContext": "组成部分、要素（职场性别平等的必要一环）",
+      "collocations": ["a component of", "a key component", "components of a system"],
+      "examples": ["Feedback is a key component of learning. 反馈是学习的关键环节。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "com-（一起）+ ponere（放置）→ 放在一起的部分",
+        "synonyms": ["element", "part", "ingredient"],
+        "confusables": ["compose（v. 组成）", "compound（n. 化合物）"]
+      }
+    },
+    "attitude": {
+      "phonetic": "/ˈætɪtjuːd/",
+      "pos": "n.",
+      "senseInContext": "态度、看法（人们对陪产假的态度）",
+      "collocations": ["attitudes towards/to", "change attitudes", "a positive attitude"],
+      "examples": ["Attitudes towards paternity leave are changing. 人们对陪产假的态度正在改变。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "apt（适合）+ -itude → 姿态 → 态度",
+        "synonyms": ["outlook", "stance", "view"],
+        "confusables": ["altitude（n. 高度）", "aptitude（n. 天资）"]
+      }
+    },
+    "expectation": {
+      "phonetic": "/ˌekspekˈteɪʃn/",
+      "pos": "n.",
+      "senseInContext": "期待、期望（对新爸爸的隐性期待）",
+      "collocations": ["expectation of/for", "meet expectations", "against expectations"],
+      "examples": ["Expectations for new fathers have barely changed. 对新爸爸的期待几乎没有改变。"],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "expect + -ation",
+        "synonyms": ["assumption", "anticipation", "presumption"],
+        "confusables": ["expectancy（n. 期待，多用于 life expectancy）", "expected（adj. 预期的）"]
+      }
+    }
+  }
+}

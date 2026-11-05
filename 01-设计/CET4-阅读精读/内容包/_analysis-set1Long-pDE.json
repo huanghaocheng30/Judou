@@ -6,10 +6,26 @@
       "structMarkup": "{But} 【that】 _doesn't mean_ ~{it's all good news for future food}~.",
       "structureSummary": "主谓 + 宾语从句（that doesn't mean + 从句）",
       "components": [
-        { "part": "But", "role": "连词", "note": "转折，承接上一段的“好消息”" },
-        { "part": "that", "role": "主语", "note": "指上一段说的情况" },
-        { "part": "doesn't mean", "role": "谓语", "note": "否定谓语" },
-        { "part": "it's all good news for future food", "role": "宾语从句", "note": "省略 that 的宾语从句" }
+        {
+          "part": "But",
+          "role": "连词",
+          "note": "转折，承接上一段的“好消息”"
+        },
+        {
+          "part": "that",
+          "role": "主语",
+          "note": "指上一段说的情况"
+        },
+        {
+          "part": "doesn't mean",
+          "role": "谓语",
+          "note": "否定谓语"
+        },
+        {
+          "part": "it's all good news for future food",
+          "role": "宾语从句",
+          "note": "省略 that 的宾语从句"
+        }
       ],
       "clauses": [
         "it's all good news... 是省略连接词 that 的宾语从句，作 mean 的宾语。",
@@ -21,6 +37,12 @@
           "meaning": "这并不意味着……",
           "usage": "用于限定前文结论，避免绝对化。",
           "example": "That doesn't mean the plan will fail. 这并不意味着计划会失败。"
+        },
+        {
+          "text": "mean sth. for sb./sth.",
+          "meaning": "对……意味着……",
+          "usage": "mean 后接 for 短语说明影响对象；此处 mean it's... 中的 it 指代前文内容。",
+          "example": "This means a lot for our team. 这对我们团队意义重大。"
         }
       ],
       "pitfalls": [
@@ -35,10 +57,26 @@
       "structMarkup": "【We】 _will probably have to change_ ~{where we grow certain crops}~, {as some regions get too hot}.",
       "structureSummary": "主谓宾（宾语为 where 从句）+ as 原因状语从句",
       "components": [
-        { "part": "We", "role": "主语", "note": "人类" },
-        { "part": "will probably have to change", "role": "谓语", "note": "have to 表客观必要，probably 表推测" },
-        { "part": "where we grow certain crops", "role": "宾语从句", "note": "where 引导的名词性从句作 change 的宾语" },
-        { "part": "as some regions get too hot", "role": "原因状语从句", "note": "as 表“因为”" }
+        {
+          "part": "We",
+          "role": "主语",
+          "note": "人类"
+        },
+        {
+          "part": "will probably have to change",
+          "role": "谓语",
+          "note": "have to 表客观必要，probably 表推测"
+        },
+        {
+          "part": "where we grow certain crops",
+          "role": "宾语从句",
+          "note": "where 引导的名词性从句作 change 的宾语"
+        },
+        {
+          "part": "as some regions get too hot",
+          "role": "原因状语从句",
+          "note": "as 表“因为”"
+        }
       ],
       "clauses": [
         "where we grow certain crops 是 where 引导的宾语从句（不是定语从句），作 change 的宾语。",
@@ -72,10 +110,26 @@
       "structMarkup": "(Obviously), 【The disadvantage】 _is_ ~{that local farmers will suffer under this situation}~.",
       "structureSummary": "主系表 + that 表语从句",
       "components": [
-        { "part": "Obviously", "role": "插入语", "note": "修饰整句" },
-        { "part": "The disadvantage", "role": "主语", "note": "缺点" },
-        { "part": "is", "role": "系动词", "note": "主系结构" },
-        { "part": "that local farmers will suffer under this situation", "role": "表语从句", "note": "说明缺点是什么" }
+        {
+          "part": "Obviously",
+          "role": "插入语",
+          "note": "修饰整句"
+        },
+        {
+          "part": "The disadvantage",
+          "role": "主语",
+          "note": "缺点"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "主系结构"
+        },
+        {
+          "part": "that local farmers will suffer under this situation",
+          "role": "表语从句",
+          "note": "说明缺点是什么"
+        }
       ],
       "clauses": [
         "that 引导表语从句，作 is 的表语。",
@@ -87,6 +141,12 @@
           "meaning": "在……之下遭受损失、受损",
           "usage": "suffer 可及物（suffer pain）或不及物（suffer from）。",
           "example": "Small businesses suffered under the new rules. 小企业在新规下受损。"
+        },
+        {
+          "text": "under this situation",
+          "meaning": "在这种情况下",
+          "usage": "也可说 in this situation；under 强调「处于……之下」。",
+          "example": "Under the circumstances, we should wait. 在这种情况下，我们该等一等。"
         }
       ],
       "pitfalls": [
@@ -101,10 +161,26 @@
       "structMarkup": "{And} 【some people】 _may struggle to get_ ~the same access to certain foods~.",
       "structureSummary": "主谓宾结构（struggle to do）",
       "components": [
-        { "part": "And", "role": "连词", "note": "并列递进" },
-        { "part": "some people", "role": "主语", "note": "一些人" },
-        { "part": "may struggle to get", "role": "谓语", "note": "struggle to do 表“艰难地做”" },
-        { "part": "the same access to certain foods", "role": "宾语", "note": "access to 固定搭配" }
+        {
+          "part": "And",
+          "role": "连词",
+          "note": "并列递进"
+        },
+        {
+          "part": "some people",
+          "role": "主语",
+          "note": "一些人"
+        },
+        {
+          "part": "may struggle to get",
+          "role": "谓语",
+          "note": "struggle to do 表“艰难地做”"
+        },
+        {
+          "part": "the same access to certain foods",
+          "role": "宾语",
+          "note": "access to 固定搭配"
+        }
       ],
       "clauses": [
         "本句是简单句，没有从句。",
@@ -136,12 +212,36 @@
       "structMarkup": "\"{Even if overall food production may be unaffected}, 【food security】 _can still be impacted_,\" _says_ 【Margaret Walsh】, ~a scientist (at the US Department of Agriculture's Climate Change Program Office)~.",
       "structureSummary": "引语（让步状语从句 + 主句）+ 主谓 + 同位语",
       "components": [
-        { "part": "Even if overall food production may be unaffected", "role": "让步状语从句", "note": "even if 表“即使”" },
-        { "part": "food security", "role": "引语主句主语", "note": "粮食安全" },
-        { "part": "can still be impacted", "role": "引语主句谓语", "note": "被动，still 表“仍然”" },
-        { "part": "says", "role": "谓语", "note": "引述动词，倒装置于引语后" },
-        { "part": "Margaret Walsh", "role": "主语", "note": "说话人" },
-        { "part": "a scientist at the US Department of Agriculture's Climate Change Program Office", "role": "同位语", "note": "补充说明说话人身份" }
+        {
+          "part": "Even if overall food production may be unaffected",
+          "role": "让步状语从句",
+          "note": "even if 表“即使”"
+        },
+        {
+          "part": "food security",
+          "role": "引语主句主语",
+          "note": "粮食安全"
+        },
+        {
+          "part": "can still be impacted",
+          "role": "引语主句谓语",
+          "note": "被动，still 表“仍然”"
+        },
+        {
+          "part": "says",
+          "role": "谓语",
+          "note": "引述动词，倒装置于引语后"
+        },
+        {
+          "part": "Margaret Walsh",
+          "role": "主语",
+          "note": "说话人"
+        },
+        {
+          "part": "a scientist at the US Department of Agriculture's Climate Change Program Office",
+          "role": "同位语",
+          "note": "补充说明说话人身份"
+        }
       ],
       "clauses": [
         "Even if 引导让步状语从句，意为“即使”。",
@@ -175,11 +275,31 @@
       "structMarkup": "(In other words), {even if a certain food is still grown on some corner of the Earth}, 【it】 _doesn't mean_ ~{that everyone will continue to have the same degree of access as today}~.",
       "structureSummary": "让步状语从句 + 主谓 + 宾语从句",
       "components": [
-        { "part": "In other words", "role": "插入语", "note": "换句话说" },
-        { "part": "even if a certain food is still grown on some corner of the Earth", "role": "让步状语从句", "note": "is grown 是被动" },
-        { "part": "it", "role": "主句主语", "note": "形式主语性质的 it，指代后面的从句内容" },
-        { "part": "doesn't mean", "role": "谓语", "note": "否定谓语" },
-        { "part": "that everyone will continue to have the same degree of access as today", "role": "宾语从句", "note": "mean 的宾语" }
+        {
+          "part": "In other words",
+          "role": "插入语",
+          "note": "换句话说"
+        },
+        {
+          "part": "even if a certain food is still grown on some corner of the Earth",
+          "role": "让步状语从句",
+          "note": "is grown 是被动"
+        },
+        {
+          "part": "it",
+          "role": "主句主语",
+          "note": "形式主语性质的 it，指代后面的从句内容"
+        },
+        {
+          "part": "doesn't mean",
+          "role": "谓语",
+          "note": "否定谓语"
+        },
+        {
+          "part": "that everyone will continue to have the same degree of access as today",
+          "role": "宾语从句",
+          "note": "mean 的宾语"
+        }
       ],
       "clauses": [
         "even if 引导让步状语从句。",
@@ -213,11 +333,31 @@
       "structMarkup": "(Overall), 【the yields of many foods, (from staples to life-enhancing extras such as coffee and chocolate)】 _will likely be impacted_ (by climate change) (too).",
       "structureSummary": "主谓（被动）+ by 短语；主语后带插入的范围说明",
       "components": [
-        { "part": "Overall", "role": "副词", "note": "总的说来" },
-        { "part": "the yields of many foods", "role": "主语", "note": "核心词 yields（产量）" },
-        { "part": "from staples to life-enhancing extras such as coffee and chocolate", "role": "插入范围说明", "note": "from A to B 表示范围" },
-        { "part": "will likely be impacted", "role": "谓语", "note": "被动 + likely 表推测" },
-        { "part": "by climate change", "role": "状语", "note": "被动句的施动者" }
+        {
+          "part": "Overall",
+          "role": "副词",
+          "note": "总的说来"
+        },
+        {
+          "part": "the yields of many foods",
+          "role": "主语",
+          "note": "核心词 yields（产量）"
+        },
+        {
+          "part": "from staples to life-enhancing extras such as coffee and chocolate",
+          "role": "插入范围说明",
+          "note": "from A to B 表示范围"
+        },
+        {
+          "part": "will likely be impacted",
+          "role": "谓语",
+          "note": "被动 + likely 表推测"
+        },
+        {
+          "part": "by climate change",
+          "role": "状语",
+          "note": "被动句的施动者"
+        }
       ],
       "clauses": [
         "本句是简单句，没有从句。",
@@ -249,13 +389,41 @@
       "structMarkup": "【How those decreases will be felt】 _will depend on_ ~the degree of warming and the crop in question~, {but in general}, \"anything over about 30C is very bad for crops,\" _says_ 【Wolfram Schlenker】, ~an associate professor (of international and public affairs) (at Columbia University)~.",
       "structureSummary": "主语从句 + 主谓宾 + 转折 + 引语 + 引述倒装 + 同位语",
       "components": [
-        { "part": "How those decreases will be felt", "role": "主语从句", "note": "how 引导的主语从句作整句主语" },
-        { "part": "will depend on", "role": "谓语", "note": "depend on 后接名词" },
-        { "part": "the degree of warming and the crop in question", "role": "宾语", "note": "两个并列因素；in question 意为“所涉及的”" },
-        { "part": "anything over about 30C", "role": "引语主语", "note": "超过约 30℃ 的气温" },
-        { "part": "is very bad for crops", "role": "引语谓语+表语", "note": "系表结构" },
-        { "part": "says Wolfram Schlenker", "role": "引述倒装", "note": "主语在后" },
-        { "part": "an associate professor of international and public affairs at Columbia University", "role": "同位语", "note": "说明身份" }
+        {
+          "part": "How those decreases will be felt",
+          "role": "主语从句",
+          "note": "how 引导的主语从句作整句主语"
+        },
+        {
+          "part": "will depend on",
+          "role": "谓语",
+          "note": "depend on 后接名词"
+        },
+        {
+          "part": "the degree of warming and the crop in question",
+          "role": "宾语",
+          "note": "两个并列因素；in question 意为“所涉及的”"
+        },
+        {
+          "part": "anything over about 30C",
+          "role": "引语主语",
+          "note": "超过约 30℃ 的气温"
+        },
+        {
+          "part": "is very bad for crops",
+          "role": "引语谓语+表语",
+          "note": "系表结构"
+        },
+        {
+          "part": "says Wolfram Schlenker",
+          "role": "引述倒装",
+          "note": "主语在后"
+        },
+        {
+          "part": "an associate professor of international and public affairs at Columbia University",
+          "role": "同位语",
+          "note": "说明身份"
+        }
       ],
       "clauses": [
         "How those decreases will be felt 是 how 引导的主语从句，谓语用单数 will depend on。",
@@ -296,13 +464,41 @@
       "structMarkup": "(For example), 【statistical studies {that he and a colleague built} (of corn and soybean production in the US)】 _show_ ~a steep decline (after crossing the 30℃ temperature threshold)~.",
       "structureSummary": "主谓宾 + 定语从句 + 后置定语",
       "components": [
-        { "part": "For example", "role": "插入语", "note": "举例" },
-        { "part": "statistical studies", "role": "主语", "note": "统计研究（复数）" },
-        { "part": "that he and a colleague built", "role": "定语从句", "note": "修饰 studies" },
-        { "part": "of corn and soybean production in the US", "role": "后置定语", "note": "说明研究内容" },
-        { "part": "show", "role": "谓语", "note": "与复数主语一致" },
-        { "part": "a steep decline", "role": "宾语", "note": "急剧下降" },
-        { "part": "after crossing the 30℃ temperature threshold", "role": "时间状语", "note": "crossing 是动名词" }
+        {
+          "part": "For example",
+          "role": "插入语",
+          "note": "举例"
+        },
+        {
+          "part": "statistical studies",
+          "role": "主语",
+          "note": "统计研究（复数）"
+        },
+        {
+          "part": "that he and a colleague built",
+          "role": "定语从句",
+          "note": "修饰 studies"
+        },
+        {
+          "part": "of corn and soybean production in the US",
+          "role": "后置定语",
+          "note": "说明研究内容"
+        },
+        {
+          "part": "show",
+          "role": "谓语",
+          "note": "与复数主语一致"
+        },
+        {
+          "part": "a steep decline",
+          "role": "宾语",
+          "note": "急剧下降"
+        },
+        {
+          "part": "after crossing the 30℃ temperature threshold",
+          "role": "时间状语",
+          "note": "crossing 是动名词"
+        }
       ],
       "clauses": [
         "that he and a colleague built 是定语从句，修饰 statistical studies。",
@@ -336,46 +532,96 @@
       "phonetic": "/jiːld/",
       "pos": "n./v.",
       "senseInContext": "产量（the yields of many foods 许多食物的产量）",
-      "collocations": ["crop yields", "high/low yield", "yield results"],
-      "examples": ["Crop yields fell after the drought. 干旱后作物产量下降。"],
+      "collocations": [
+        "crop yields",
+        "high/low yield",
+        "yield results"
+      ],
+      "examples": [
+        "Crop yields fell after the drought. 干旱后作物产量下降。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "古英语 gieldan（支付）→ 产出", "synonyms": "output / production / harvest", "confusables": "yield 名词“产量”；动词“产出、屈服（yield to）”" }
+      "more": {
+        "roots": "古英语 gieldan（支付）→ 产出",
+        "synonyms": "output / production / harvest",
+        "confusables": "yield 名词“产量”；动词“产出、屈服（yield to）”"
+      }
     },
     "staple": {
       "phonetic": "/ˈsteɪpl/",
       "pos": "n./adj.",
       "senseInContext": "主食、主要产品（staples 主食）",
-      "collocations": ["staple food", "staple crop", "a staple of"],
-      "examples": ["Rice is a staple in many Asian countries. 大米是许多亚洲国家的主食。"],
+      "collocations": [
+        "staple food",
+        "staple crop",
+        "a staple of"
+      ],
+      "examples": [
+        "Rice is a staple in many Asian countries. 大米是许多亚洲国家的主食。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "本义“主要商品”", "synonyms": "main food / basic food", "confusables": "staple 名词“主食”；也指“订书钉”" }
+      "more": {
+        "roots": "本义“主要商品”",
+        "synonyms": "main food / basic food",
+        "confusables": "staple 名词“主食”；也指“订书钉”"
+      }
     },
     "threshold": {
       "phonetic": "/ˈθreʃhəʊld/",
       "pos": "n.",
       "senseInContext": "阈值、临界点（temperature threshold 温度阈值）",
-      "collocations": ["cross the threshold", "threshold level", "pain threshold"],
-      "examples": ["Beyond this threshold, the effect reverses. 超过这个阈值，效果就反过来了。"],
+      "collocations": [
+        "cross the threshold",
+        "threshold level",
+        "pain threshold"
+      ],
+      "examples": [
+        "Beyond this threshold, the effect reverses. 超过这个阈值，效果就反过来了。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "thresh（打谷）+ hold（门槛）→ 门槛", "synonyms": "limit / cutoff / benchmark", "confusables": "threshold 指临界值；limit 泛指极限" }
+      "more": {
+        "roots": "thresh（打谷）+ hold（门槛）→ 门槛",
+        "synonyms": "limit / cutoff / benchmark",
+        "confusables": "threshold 指临界值；limit 泛指极限"
+      }
     },
     "decline": {
       "phonetic": "/dɪˈklaɪn/",
       "pos": "n./v.",
       "senseInContext": "下降、减少（a steep decline 急剧下降）",
-      "collocations": ["a sharp/steep decline", "decline in sth.", "decline to do（拒绝）"],
-      "examples": ["There was a decline in attendance. 出席人数下降了。"],
+      "collocations": [
+        "a sharp/steep decline",
+        "decline in sth.",
+        "decline to do（拒绝）"
+      ],
+      "examples": [
+        "There was a decline in attendance. 出席人数下降了。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "de-（向下）+ clin（倾斜）→ 向下倾斜", "synonyms": "decrease / drop / fall", "confusables": "decline to do 是“礼貌拒绝”，与“下降”无关" }
+      "more": {
+        "roots": "de-（向下）+ clin（倾斜）→ 向下倾斜",
+        "synonyms": "decrease / drop / fall",
+        "confusables": "decline to do 是“礼貌拒绝”，与“下降”无关"
+      }
     },
     "security": {
       "phonetic": "/sɪˈkjʊərəti/",
       "pos": "n.",
       "senseInContext": "保障、安全（food security 粮食安全）",
-      "collocations": ["food security", "national security", "job security"],
-      "examples": ["Food security means reliable access to enough food. 粮食安全指稳定获得足够食物。"],
+      "collocations": [
+        "food security",
+        "national security",
+        "job security"
+      ],
+      "examples": [
+        "Food security means reliable access to enough food. 粮食安全指稳定获得足够食物。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "se-（无）+ cur（关心）→ 无忧 → 安全", "synonyms": "safety / protection", "confusables": "food security（供应保障）≠ food safety（食品卫生安全）" }
+      "more": {
+        "roots": "se-（无）+ cur（关心）→ 无忧 → 安全",
+        "synonyms": "safety / protection",
+        "confusables": "food security（供应保障）≠ food safety（食品卫生安全）"
+      }
     }
   }
 }

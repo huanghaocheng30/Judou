@@ -6,11 +6,31 @@
       "structMarkup": "【This】 _means_ ~{that, (for those {who can afford it}), some foods will simply cost them more in the future}~.",
       "structureSummary": "主谓 + 宾语从句（从句内含插入的条件说明与定语从句）",
       "components": [
-        { "part": "This", "role": "主语", "note": "指上一段的价格上涨" },
-        { "part": "means", "role": "谓语", "note": "后接 that 宾语从句" },
-        { "part": "that some foods will simply cost them more", "role": "宾语从句", "note": "从句主干" },
-        { "part": "for those who can afford it", "role": "插入状语", "note": "说明“对谁而言”，内含定语从句" },
-        { "part": "in the future", "role": "时间状语", "note": "将来" }
+        {
+          "part": "This",
+          "role": "主语",
+          "note": "指上一段的价格上涨"
+        },
+        {
+          "part": "means",
+          "role": "谓语",
+          "note": "后接 that 宾语从句"
+        },
+        {
+          "part": "that some foods will simply cost them more",
+          "role": "宾语从句",
+          "note": "从句主干"
+        },
+        {
+          "part": "for those who can afford it",
+          "role": "插入状语",
+          "note": "说明“对谁而言”，内含定语从句"
+        },
+        {
+          "part": "in the future",
+          "role": "时间状语",
+          "note": "将来"
+        }
       ],
       "clauses": [
         "that 引导宾语从句，作 means 的宾语。",
@@ -44,12 +64,36 @@
       "structMarkup": "{But} (for poorer people), 【those same price jumps】 _will likely cause_ ~certain foods~ (to go extinct from their diets).",
       "structureSummary": "主谓宾补（cause sb./sth. to do）+ 状语",
       "components": [
-        { "part": "But", "role": "连词", "note": "转折，与上一句形成对照" },
-        { "part": "for poorer people", "role": "状语", "note": "对较贫穷的人来说" },
-        { "part": "those same price jumps", "role": "主语", "note": "同样的涨价" },
-        { "part": "will likely cause", "role": "谓语", "note": "cause sb. to do 结构" },
-        { "part": "certain foods", "role": "宾语", "note": "某些食物" },
-        { "part": "to go extinct from their diets", "role": "宾语补足语", "note": "说明食物发生的动作" }
+        {
+          "part": "But",
+          "role": "连词",
+          "note": "转折，与上一句形成对照"
+        },
+        {
+          "part": "for poorer people",
+          "role": "状语",
+          "note": "对较贫穷的人来说"
+        },
+        {
+          "part": "those same price jumps",
+          "role": "主语",
+          "note": "同样的涨价"
+        },
+        {
+          "part": "will likely cause",
+          "role": "谓语",
+          "note": "cause sb. to do 结构"
+        },
+        {
+          "part": "certain foods",
+          "role": "宾语",
+          "note": "某些食物"
+        },
+        {
+          "part": "to go extinct from their diets",
+          "role": "宾语补足语",
+          "note": "说明食物发生的动作"
+        }
       ],
       "clauses": [
         "本句是简单句，没有从句。",
@@ -82,11 +126,31 @@
       "structMarkup": "\"{The more you reduce}, {the shorter the supply}, and {the higher the price will jump},\" _says_ 【Schlenker】.",
       "structureSummary": "三个 the + 比较级 结构并联（越……越……）+ 引述倒装",
       "components": [
-        { "part": "The more you reduce", "role": "比较状语从句", "note": "第一个“越……”" },
-        { "part": "the shorter the supply", "role": "结果分句", "note": "第二个“越……”" },
-        { "part": "and", "role": "连词", "note": "连接并列结果" },
-        { "part": "the higher the price will jump", "role": "结果分句", "note": "第三个“越……”" },
-        { "part": "says Schlenker", "role": "引述倒装", "note": "主语在后" }
+        {
+          "part": "The more you reduce",
+          "role": "比较状语从句",
+          "note": "第一个“越……”"
+        },
+        {
+          "part": "the shorter the supply",
+          "role": "结果分句",
+          "note": "第二个“越……”"
+        },
+        {
+          "part": "and",
+          "role": "连词",
+          "note": "连接并列结果"
+        },
+        {
+          "part": "the higher the price will jump",
+          "role": "结果分句",
+          "note": "第三个“越……”"
+        },
+        {
+          "part": "says Schlenker",
+          "role": "引述倒装",
+          "note": "主语在后"
+        }
       ],
       "clauses": [
         "the + 比较级..., the + 比较级... 表示“越……越……”。",
@@ -98,6 +162,12 @@
           "meaning": "越……越……",
           "usage": "前后呼应，前者是从句，后者是主句；多个可并联表连锁反应。",
           "example": "The more you practise, the better you get. 练得越多，进步越大。"
+        },
+        {
+          "text": "price jump",
+          "meaning": "价格跳涨、价格猛涨",
+          "usage": "jump 作动词表「猛涨」；同义 surge / soar。",
+          "example": "Prices jumped 30% overnight. 价格一夜之间涨了 30%。"
         }
       ],
       "pitfalls": [
@@ -113,13 +183,41 @@
       "structMarkup": "【Another potential climate change-induced problem】 _is_ ~our dependence on commodity crops~—(wheat, soybeans, corn and rice)—{which currently provide humanity with 75% of its calories}, (either directly or indirectly) (through the animals {we raise on those crops}).",
       "structureSummary": "主系表结构 + 插入举例 + 定语从句 + 方式状语（内含第二层定语从句）",
       "components": [
-        { "part": "Another potential climate change-induced problem", "role": "主语", "note": "复合形容词 climate change-induced 修饰 problem" },
-        { "part": "is", "role": "系动词", "note": "主系结构" },
-        { "part": "our dependence on commodity crops", "role": "表语", "note": "dependence on 固定搭配" },
-        { "part": "wheat, soybeans, corn and rice", "role": "插入同位语", "note": "解释 commodity crops" },
-        { "part": "which currently provide humanity with 75% of its calories", "role": "定语从句", "note": "修饰 crops" },
-        { "part": "either directly or indirectly", "role": "方式状语", "note": "提供方式的两种" },
-        { "part": "through the animals we raise on those crops", "role": "方式状语", "note": "内含定语从句 we raise" }
+        {
+          "part": "Another potential climate change-induced problem",
+          "role": "主语",
+          "note": "复合形容词 climate change-induced 修饰 problem"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "主系结构"
+        },
+        {
+          "part": "our dependence on commodity crops",
+          "role": "表语",
+          "note": "dependence on 固定搭配"
+        },
+        {
+          "part": "wheat, soybeans, corn and rice",
+          "role": "插入同位语",
+          "note": "解释 commodity crops"
+        },
+        {
+          "part": "which currently provide humanity with 75% of its calories",
+          "role": "定语从句",
+          "note": "修饰 crops"
+        },
+        {
+          "part": "either directly or indirectly",
+          "role": "方式状语",
+          "note": "提供方式的两种"
+        },
+        {
+          "part": "through the animals we raise on those crops",
+          "role": "方式状语",
+          "note": "内含定语从句 we raise"
+        }
       ],
       "clauses": [
         "which 引导定语从句，修饰 commodity crops。",
@@ -159,14 +257,46 @@
       "structMarkup": "【Jarvis and his colleagues】 _also found_ ~{that, (over the past five decades), the world has seen an increasing standardisation of diets}; 【the foods (we eat globally today)】 _are_ ~36% more similar (than they were in 1961)~. {While this can be good news for the world's poorest people (who now consume more calories, protein and fat than in the past)}, 【homogeneity and over-dependence on a handful of staples】 _leaves_ ~us vulnerable to threats (such as drought, disease and pests)—all of which are predicted to worsen in many parts of the world as a result of climate change~.",
       "structureSummary": "三个分句：①主谓+宾语从句；②主系表（比较）；③让步从句 + 主谓宾补 + 定语从句",
       "components": [
-        { "part": "Jarvis and his colleagues", "role": "第一分句主语", "note": "研究者" },
-        { "part": "found that the world has seen an increasing standardisation of diets", "role": "第一分句谓语+宾语从句", "note": "see = 经历" },
-        { "part": "the foods we eat globally today", "role": "第二分句主语", "note": "内含省略关系词的定语从句" },
-        { "part": "are 36% more similar than they were in 1961", "role": "第二分句谓语", "note": "比较结构" },
-        { "part": "While this can be good news for the world's poorest people who now consume more...", "role": "让步状语从句", "note": "while 表“虽然”" },
-        { "part": "homogeneity and over-dependence on a handful of staples", "role": "第三分句主语", "note": "两个并列名词" },
-        { "part": "leaves us vulnerable to threats", "role": "第三分句谓语+宾补", "note": "leave sb. vulnerable to sth." },
-        { "part": "all of which are predicted to worsen", "role": "定语从句", "note": "修饰 threats" }
+        {
+          "part": "Jarvis and his colleagues",
+          "role": "第一分句主语",
+          "note": "研究者"
+        },
+        {
+          "part": "found that the world has seen an increasing standardisation of diets",
+          "role": "第一分句谓语+宾语从句",
+          "note": "see = 经历"
+        },
+        {
+          "part": "the foods we eat globally today",
+          "role": "第二分句主语",
+          "note": "内含省略关系词的定语从句"
+        },
+        {
+          "part": "are 36% more similar than they were in 1961",
+          "role": "第二分句谓语",
+          "note": "比较结构"
+        },
+        {
+          "part": "While this can be good news for the world's poorest people who now consume more...",
+          "role": "让步状语从句",
+          "note": "while 表“虽然”"
+        },
+        {
+          "part": "homogeneity and over-dependence on a handful of staples",
+          "role": "第三分句主语",
+          "note": "两个并列名词"
+        },
+        {
+          "part": "leaves us vulnerable to threats",
+          "role": "第三分句谓语+宾补",
+          "note": "leave sb. vulnerable to sth."
+        },
+        {
+          "part": "all of which are predicted to worsen",
+          "role": "定语从句",
+          "note": "修饰 threats"
+        }
       ],
       "clauses": [
         "that... 引导宾语从句，作 found 的宾语。",
@@ -209,46 +339,95 @@
       "phonetic": "/dɪˈpendəns/",
       "pos": "n.",
       "senseInContext": "依赖（our dependence on commodity crops 对大宗作物的依赖）",
-      "collocations": ["dependence on", "drug dependence", "independent（形容词）"],
-      "examples": ["The country's dependence on imports is growing. 该国对进口的依赖在加深。"],
+      "collocations": [
+        "dependence on",
+        "drug dependence",
+        "independent（形容词）"
+      ],
+      "examples": [
+        "The country's dependence on imports is growing. 该国对进口的依赖在加深。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "de-（向下）+ pend（悬挂）+ -ence → 悬挂其上 → 依赖", "synonyms": "reliance", "confusables": "dependence 名词；dependent 形容词；depend 动词（depend on）" }
+      "more": {
+        "roots": "de-（向下）+ pend（悬挂）+ -ence → 悬挂其上 → 依赖",
+        "synonyms": "reliance",
+        "confusables": "dependence 名词；dependent 形容词；depend 动词（depend on）"
+      }
     },
     "commodity": {
       "phonetic": "/kəˈmɒdəti/",
       "pos": "n.",
       "senseInContext": "大宗商品、商品（commodity crops 大宗作物）",
-      "collocations": ["commodity prices", "commodity crops", "basic commodities"],
-      "examples": ["Commodity prices rose sharply. 大宗商品价格大幅上涨。"],
+      "collocations": [
+        "commodity prices",
+        "commodity crops",
+        "basic commodities"
+      ],
+      "examples": [
+        "Commodity prices rose sharply. 大宗商品价格大幅上涨。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "com-（共同）+ mod（量度）→ 有共同标准的物品 → 商品", "synonyms": "goods / product", "confusables": "commodity 指可交易的大宗商品；product 泛指产品" }
+      "more": {
+        "roots": "com-（共同）+ mod（量度）→ 有共同标准的物品 → 商品",
+        "synonyms": "goods / product",
+        "confusables": "commodity 指可交易的大宗商品；product 泛指产品"
+      }
     },
     "homogeneity": {
       "phonetic": "/ˌhɒmədʒəˈniːəti/",
       "pos": "n.",
       "senseInContext": "同质性、趋同（homogeneity of diets 饮食趋同）",
-      "collocations": ["cultural homogeneity", "homogeneous（形容词）"],
-      "examples": ["Global diets show increasing homogeneity. 全球饮食日益趋同。"],
+      "collocations": [
+        "cultural homogeneity",
+        "homogeneous（形容词）"
+      ],
+      "examples": [
+        "Global diets show increasing homogeneity. 全球饮食日益趋同。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "homo-（相同）+ gene（种类）+ -ity → 同种", "synonyms": "uniformity / sameness", "confusables": "homogeneous 形容词“同质的”；反义 heterogeneous" }
+      "more": {
+        "roots": "homo-（相同）+ gene（种类）+ -ity → 同种",
+        "synonyms": "uniformity / sameness",
+        "confusables": "homogeneous 形容词“同质的”；反义 heterogeneous"
+      }
     },
     "vulnerable": {
       "phonetic": "/ˈvʌlnərəbl/",
       "pos": "adj.",
       "senseInContext": "易受伤害的、脆弱的（leaves us vulnerable to threats）",
-      "collocations": ["be vulnerable to", "vulnerable groups", "vulnerability（名词）"],
-      "examples": ["Children are vulnerable to infections. 儿童易受感染。"],
+      "collocations": [
+        "be vulnerable to",
+        "vulnerable groups",
+        "vulnerability（名词）"
+      ],
+      "examples": [
+        "Children are vulnerable to infections. 儿童易受感染。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "vulner（伤口）+ -able（可……的）→ 易受伤的", "synonyms": "exposed / weak", "confusables": "vulnerable to + 名词；名词形式 vulnerability" }
+      "more": {
+        "roots": "vulner（伤口）+ -able（可……的）→ 易受伤的",
+        "synonyms": "exposed / weak",
+        "confusables": "vulnerable to + 名词；名词形式 vulnerability"
+      }
     },
     "pests": {
       "phonetic": "/pests/",
       "pos": "n.",
       "senseInContext": "害虫（drought, disease and pests 干旱、病害与虫害）",
-      "collocations": ["pest control", "crop pests", "pesticide"],
-      "examples": ["Pests destroyed half the crop. 害虫毁掉了一半收成。"],
+      "collocations": [
+        "pest control",
+        "crop pests",
+        "pesticide"
+      ],
+      "examples": [
+        "Pests destroyed half the crop. 害虫毁掉了一半收成。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "源自拉丁 pestis（瘟疫）", "synonyms": "insects / vermin", "confusables": "pest 害虫；pesticide 杀虫剂；pet 宠物（拼写相近）" }
+      "more": {
+        "roots": "源自拉丁 pestis（瘟疫）",
+        "synonyms": "insects / vermin",
+        "confusables": "pest 害虫；pesticide 杀虫剂；pet 宠物（拼写相近）"
+      }
     }
   }
 }

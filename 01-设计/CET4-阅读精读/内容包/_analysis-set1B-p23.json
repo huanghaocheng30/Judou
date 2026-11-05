@@ -6,11 +6,31 @@
       "structMarkup": "【We】 _wanted to determine_ ~{what was causing these gender differences in booking business trips}~ {so we tested a variety of possible explanations}, (such as women choosing to plan ahead or male frequent travelers being inclined to book late).",
       "structureSummary": "主谓宾从句 + 结果状语从句；such as 后接动名词复合结构",
       "components": [
-        { "part": "We", "role": "主语", "note": "研究团队" },
-        { "part": "wanted to determine", "role": "谓语", "note": "want to do 表意愿" },
-        { "part": "what was causing these gender differences", "role": "宾语从句", "note": "what 作从句主语" },
-        { "part": "so we tested a variety of possible explanations", "role": "结果状语从句", "note": "so 连接结果" },
-        { "part": "such as women choosing to plan ahead...", "role": "举例", "note": "such as 后是动名词复合结构：women + choosing" }
+        {
+          "part": "We",
+          "role": "主语",
+          "note": "研究团队"
+        },
+        {
+          "part": "wanted to determine",
+          "role": "谓语",
+          "note": "want to do 表意愿"
+        },
+        {
+          "part": "what was causing these gender differences",
+          "role": "宾语从句",
+          "note": "what 作从句主语"
+        },
+        {
+          "part": "so we tested a variety of possible explanations",
+          "role": "结果状语从句",
+          "note": "so 连接结果"
+        },
+        {
+          "part": "such as women choosing to plan ahead...",
+          "role": "举例",
+          "note": "such as 后是动名词复合结构：women + choosing"
+        }
       ],
       "clauses": [
         "what was causing... 是 what 引导的宾语从句，作 determine 的宾语，用陈述语序。",
@@ -50,13 +70,41 @@
       "structMarkup": "【None of these】 _explained away_ ~the gender gap~, {so we applied} ~data (collected from surveys) {that express consumer preferences} {that play a central role in economic decisions}, (such as patience and risk avoidance).",
       "structureSummary": "两个并列分句（so 连接结果）+ 两个定语从句 + 举例",
       "components": [
-        { "part": "None of these", "role": "主语", "note": "指上一句列举的各种解释" },
-        { "part": "explained away", "role": "谓语", "note": "explain away 意为“把……解释掉（使之不成立）”" },
-        { "part": "the gender gap", "role": "宾语", "note": "性别差距" },
-        { "part": "so we applied data", "role": "第二分句", "note": "so 表结果" },
-        { "part": "collected from surveys", "role": "过去分词短语作定语", "note": "修饰 data" },
-        { "part": "that express consumer preferences", "role": "定语从句", "note": "修饰 surveys" },
-        { "part": "that play a central role in economic decisions", "role": "定语从句", "note": "修饰 preferences" }
+        {
+          "part": "None of these",
+          "role": "主语",
+          "note": "指上一句列举的各种解释"
+        },
+        {
+          "part": "explained away",
+          "role": "谓语",
+          "note": "explain away 意为“把……解释掉（使之不成立）”"
+        },
+        {
+          "part": "the gender gap",
+          "role": "宾语",
+          "note": "性别差距"
+        },
+        {
+          "part": "so we applied data",
+          "role": "第二分句",
+          "note": "so 表结果"
+        },
+        {
+          "part": "collected from surveys",
+          "role": "过去分词短语作定语",
+          "note": "修饰 data"
+        },
+        {
+          "part": "that express consumer preferences",
+          "role": "定语从句",
+          "note": "修饰 surveys"
+        },
+        {
+          "part": "that play a central role in economic decisions",
+          "role": "定语从句",
+          "note": "修饰 preferences"
+        }
       ],
       "clauses": [
         "so 引导结果，连接两个并列分句。",
@@ -97,12 +145,36 @@
       "structMarkup": "【We】 _found_ ~{that only the concept of \"negative reciprocity\"—in which an employee who feels unfairly treated engages in negative behaviors, such as spending their company's money less carefully—explains these differences}~.",
       "structureSummary": "主谓 + 宾语从句（从句主语带定语从句，谓语 explains）",
       "components": [
-        { "part": "We", "role": "主语", "note": "研究者" },
-        { "part": "found", "role": "谓语", "note": "后接 that 宾语从句" },
-        { "part": "only the concept of \"negative reciprocity\"", "role": "从句主语", "note": "only 强调“唯一”" },
-        { "part": "in which an employee ... engages in negative behaviors", "role": "定语从句", "note": "修饰 concept，说明这个概念是什么" },
-        { "part": "explains", "role": "从句谓语", "note": "主语是 the concept，故用单数" },
-        { "part": "these differences", "role": "从句宾语", "note": "指前面的票价差异" }
+        {
+          "part": "We",
+          "role": "主语",
+          "note": "研究者"
+        },
+        {
+          "part": "found",
+          "role": "谓语",
+          "note": "后接 that 宾语从句"
+        },
+        {
+          "part": "only the concept of \"negative reciprocity\"",
+          "role": "从句主语",
+          "note": "only 强调“唯一”"
+        },
+        {
+          "part": "in which an employee ... engages in negative behaviors",
+          "role": "定语从句",
+          "note": "修饰 concept，说明这个概念是什么"
+        },
+        {
+          "part": "explains",
+          "role": "从句谓语",
+          "note": "主语是 the concept，故用单数"
+        },
+        {
+          "part": "these differences",
+          "role": "从句宾语",
+          "note": "指前面的票价差异"
+        }
       ],
       "clauses": [
         "that 引导宾语从句，作 found 的宾语。",
@@ -143,12 +215,36 @@
       "structMarkup": "【The surveys】 _showed_ ~{men tend to exhibit more of these negative behaviors than women}~.",
       "structureSummary": "主谓 + 省略 that 的宾语从句（从句内含比较）",
       "components": [
-        { "part": "The surveys", "role": "主语", "note": "问卷数据" },
-        { "part": "showed", "role": "谓语", "note": "后接省略 that 的宾语从句" },
-        { "part": "men", "role": "从句主语", "note": "男性（泛指）" },
-        { "part": "tend to exhibit", "role": "从句谓语", "note": "倾向于表现出" },
-        { "part": "more of these negative behaviors", "role": "从句宾语", "note": "more 是代词，指更多这类行为" },
-        { "part": "than women", "role": "比较状语", "note": "与女性相比" }
+        {
+          "part": "The surveys",
+          "role": "主语",
+          "note": "问卷数据"
+        },
+        {
+          "part": "showed",
+          "role": "谓语",
+          "note": "后接省略 that 的宾语从句"
+        },
+        {
+          "part": "men",
+          "role": "从句主语",
+          "note": "男性（泛指）"
+        },
+        {
+          "part": "tend to exhibit",
+          "role": "从句谓语",
+          "note": "倾向于表现出"
+        },
+        {
+          "part": "more of these negative behaviors",
+          "role": "从句宾语",
+          "note": "more 是代词，指更多这类行为"
+        },
+        {
+          "part": "than women",
+          "role": "比较状语",
+          "note": "与女性相比"
+        }
       ],
       "clauses": [
         "showed 后面省略了连接词 that，引导宾语从句。",
@@ -160,6 +256,12 @@
           "meaning": "表现出某种行为",
           "usage": "exhibit 较正式，指“展示、表现出”；同义 show / display。",
           "example": "Children exhibit similar patterns of play. 孩子表现出相似的玩耍模式。"
+        },
+        {
+          "text": "tend to do sth.",
+          "meaning": "倾向于做某事、往往会做某事",
+          "usage": "后接动词原形；名词形式为 tendency to do sth.。",
+          "example": "People tend to overestimate themselves. 人往往高估自己。"
         }
       ],
       "pitfalls": [
@@ -175,11 +277,31 @@
       "structMarkup": "【This】 _isn't_ ~to say {that all men engage in these behaviors}~—or ~{that booking relatively late is a sign of abnormal behavior}~.",
       "structureSummary": "主系表结构，表语为不定式；两个 that 从句并列作 say 的宾语",
       "components": [
-        { "part": "This", "role": "主语", "note": "指上一句的结论" },
-        { "part": "isn't", "role": "系动词", "note": "否定" },
-        { "part": "to say", "role": "表语", "note": "不定式作表语" },
-        { "part": "that all men engage in these behaviors", "role": "宾语从句", "note": "say 的第一个宾语" },
-        { "part": "that booking relatively late is a sign of abnormal behavior", "role": "宾语从句", "note": "say 的第二个宾语，由 or 并列" }
+        {
+          "part": "This",
+          "role": "主语",
+          "note": "指上一句的结论"
+        },
+        {
+          "part": "isn't",
+          "role": "系动词",
+          "note": "否定"
+        },
+        {
+          "part": "to say",
+          "role": "表语",
+          "note": "不定式作表语"
+        },
+        {
+          "part": "that all men engage in these behaviors",
+          "role": "宾语从句",
+          "note": "say 的第一个宾语"
+        },
+        {
+          "part": "that booking relatively late is a sign of abnormal behavior",
+          "role": "宾语从句",
+          "note": "say 的第二个宾语，由 or 并列"
+        }
       ],
       "clauses": [
         "This isn't to say that... 是固定句式：“这并不是说……”。",
@@ -213,10 +335,26 @@
       "structMarkup": "【It】 _only means_ ~{that the gender gap disappears when we plug in the negative reciprocity variable}~.",
       "structureSummary": "主谓 + 宾语从句（从句内含时间状语从句）",
       "components": [
-        { "part": "It", "role": "主语", "note": "指上一句的说明" },
-        { "part": "only means", "role": "谓语", "note": "only 强调“仅仅是”" },
-        { "part": "that the gender gap disappears...", "role": "宾语从句", "note": "means 的内容" },
-        { "part": "when we plug in the negative reciprocity variable", "role": "时间/条件状语从句", "note": "说明在什么条件下差距消失" }
+        {
+          "part": "It",
+          "role": "主语",
+          "note": "指上一句的说明"
+        },
+        {
+          "part": "only means",
+          "role": "谓语",
+          "note": "only 强调“仅仅是”"
+        },
+        {
+          "part": "that the gender gap disappears...",
+          "role": "宾语从句",
+          "note": "means 的内容"
+        },
+        {
+          "part": "when we plug in the negative reciprocity variable",
+          "role": "时间/条件状语从句",
+          "note": "说明在什么条件下差距消失"
+        }
       ],
       "clauses": [
         "that 引导宾语从句，作 means 的宾语。",
@@ -249,46 +387,96 @@
       "phonetic": "/dɪˈtɜːmɪn/",
       "pos": "v.",
       "senseInContext": "确定、查明（determine what was causing... 查明原因）",
-      "collocations": ["determine whether/what", "be determined to do", "determine the cause"],
-      "examples": ["We need to determine the cause of the error. 我们需要查明错误原因。"],
+      "collocations": [
+        "determine whether/what",
+        "be determined to do",
+        "determine the cause"
+      ],
+      "examples": [
+        "We need to determine the cause of the error. 我们需要查明错误原因。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "de-（完全）+ termin（界限）→ 划定界限 → 确定", "synonyms": "find out / identify / decide", "confusables": "be determined to do 是“决心做”，与 determine（确定）不同" }
+      "more": {
+        "roots": "de-（完全）+ termin（界限）→ 划定界限 → 确定",
+        "synonyms": "find out / identify / decide",
+        "confusables": "be determined to do 是“决心做”，与 determine（确定）不同"
+      }
     },
     "exhibit": {
       "phonetic": "/ɪɡˈzɪbɪt/",
       "pos": "v.",
       "senseInContext": "表现出、显示出（exhibit behaviors 表现出行为）",
-      "collocations": ["exhibit behavior", "exhibit signs of", "an exhibit（展品）"],
-      "examples": ["Some patients exhibit no symptoms. 有些病人没有表现出症状。"],
+      "collocations": [
+        "exhibit behavior",
+        "exhibit signs of",
+        "an exhibit（展品）"
+      ],
+      "examples": [
+        "Some patients exhibit no symptoms. 有些病人没有表现出症状。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "ex-（向外）+ hibit（持有）→ 拿出来 → 展示", "synonyms": "show / display / demonstrate", "confusables": "exhibit 较正式；show 最通用；名词 exhibit 指“展品”" }
+      "more": {
+        "roots": "ex-（向外）+ hibit（持有）→ 拿出来 → 展示",
+        "synonyms": "show / display / demonstrate",
+        "confusables": "exhibit 较正式；show 最通用；名词 exhibit 指“展品”"
+      }
     },
     "abnormal": {
       "phonetic": "/æbˈnɔːml/",
       "pos": "adj.",
       "senseInContext": "不正常的、反常的（abnormal behavior 异常行为）",
-      "collocations": ["abnormal behavior", "abnormal level", "mentally abnormal"],
-      "examples": ["The test showed abnormal results. 检查显示了异常结果。"],
+      "collocations": [
+        "abnormal behavior",
+        "abnormal level",
+        "mentally abnormal"
+      ],
+      "examples": [
+        "The test showed abnormal results. 检查显示了异常结果。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "ab-（偏离）+ normal（正常）→ 偏离正常", "synonyms": "unusual / irregular", "confusables": "abnormal 偏医学/统计“异常”；unusual 更中性“不寻常”" }
+      "more": {
+        "roots": "ab-（偏离）+ normal（正常）→ 偏离正常",
+        "synonyms": "unusual / irregular",
+        "confusables": "abnormal 偏医学/统计“异常”；unusual 更中性“不寻常”"
+      }
     },
     "disappear": {
       "phonetic": "/ˌdɪsəˈpɪə(r)/",
       "pos": "v.",
       "senseInContext": "消失（the gap disappears 差距消失）",
-      "collocations": ["disappear from", "disappear completely", "disappearance（名词）"],
-      "examples": ["The pain disappeared after a week. 一周后疼痛消失了。"],
+      "collocations": [
+        "disappear from",
+        "disappear completely",
+        "disappearance（名词）"
+      ],
+      "examples": [
+        "The pain disappeared after a week. 一周后疼痛消失了。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "dis-（否定）+ appear（出现）→ 不出现", "synonyms": "vanish / fade away", "confusables": "disappear 不及物；不要写成 be disappeared" }
+      "more": {
+        "roots": "dis-（否定）+ appear（出现）→ 不出现",
+        "synonyms": "vanish / fade away",
+        "confusables": "disappear 不及物；不要写成 be disappeared"
+      }
     },
     "variable": {
       "phonetic": "/ˈveəriəbl/",
       "pos": "n./adj.",
       "senseInContext": "变量（the negative reciprocity variable 负向互惠变量）",
-      "collocations": ["independent variable", "control a variable", "highly variable"],
-      "examples": ["Age is an important variable in the study. 年龄是这项研究中的一个重要变量。"],
+      "collocations": [
+        "independent variable",
+        "control a variable",
+        "highly variable"
+      ],
+      "examples": [
+        "Age is an important variable in the study. 年龄是这项研究中的一个重要变量。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "vari（变化）+ -able（可……的）→ 可变的", "synonyms": "factor / element", "confusables": "variable 名词“变量”；various 形容词“各种各样的”" }
+      "more": {
+        "roots": "vari（变化）+ -able（可……的）→ 可变的",
+        "synonyms": "factor / element",
+        "confusables": "variable 名词“变量”；various 形容词“各种各样的”"
+      }
     }
   }
 }

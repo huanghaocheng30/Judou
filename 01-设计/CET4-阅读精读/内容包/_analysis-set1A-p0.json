@@ -16,10 +16,26 @@
       "structMarkup": "【One of my bad habits】 _is_ ~saying \"busy\"~ {when people ask me how I'm doing}.",
       "structureSummary": "主语 + 系动词 + 动名词表语 + 时间状语从句（主系表结构）",
       "components": [
-        { "part": "One of my bad habits", "role": "主语", "note": "one of + 复数名词作主语，谓语用单数" },
-        { "part": "is", "role": "系动词", "note": "与主语保持单数一致" },
-        { "part": "saying \"busy\"", "role": "表语", "note": "动名词短语作表语，说明主语的具体内容" },
-        { "part": "when people ask me how I'm doing", "role": "时间状语从句", "note": "修饰整个主句，交代说“忙”的场合" }
+        {
+          "part": "One of my bad habits",
+          "role": "主语",
+          "note": "one of + 复数名词作主语，谓语用单数"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "与主语保持单数一致"
+        },
+        {
+          "part": "saying \"busy\"",
+          "role": "表语",
+          "note": "动名词短语作表语，说明主语的具体内容"
+        },
+        {
+          "part": "when people ask me how I'm doing",
+          "role": "时间状语从句",
+          "note": "修饰整个主句，交代说“忙”的场合"
+        }
       ],
       "clauses": [
         "when people ask me how I'm doing 是 when 引导的时间状语从句。",
@@ -52,11 +68,31 @@
       "structMarkup": "【Sometimes】 _it's_ ~because I actually am busy~, but 【other times】 _it's_ ~because that's what I think I'm supposed to say~.",
       "structureSummary": "it is because..., but it is because...（两个并列分句，各自主系表结构，表语都是 because 从句）",
       "components": [
-        { "part": "Sometimes / other times", "role": "状语", "note": "时间状语，分别修饰前后两个分句，形成对比" },
-        { "part": "it", "role": "主语", "note": "指代上一句提到的“说忙”这件事" },
-        { "part": "'s (= is)", "role": "系动词", "note": "主系结构，后接表语" },
-        { "part": "because I actually am busy", "role": "表语从句", "note": "because 引导，作 is 的表语" },
-        { "part": "but", "role": "并列连词", "note": "连接两个分句，构成转折对比" }
+        {
+          "part": "Sometimes / other times",
+          "role": "状语",
+          "note": "时间状语，分别修饰前后两个分句，形成对比"
+        },
+        {
+          "part": "it",
+          "role": "主语",
+          "note": "指代上一句提到的“说忙”这件事"
+        },
+        {
+          "part": "'s (= is)",
+          "role": "系动词",
+          "note": "主系结构，后接表语"
+        },
+        {
+          "part": "because I actually am busy",
+          "role": "表语从句",
+          "note": "because 引导，作 is 的表语"
+        },
+        {
+          "part": "but",
+          "role": "并列连词",
+          "note": "连接两个分句，构成转折对比"
+        }
       ],
       "clauses": [
         "because I actually am busy 是 because 引导的表语从句，作 is 的表语。",
@@ -70,6 +106,12 @@
           "meaning": "应该做某事；被期望做某事",
           "usage": "后接动词原形，常表示按规定、惯例或义务应当做的事；口语中也常带“据说、按理说”的意味。",
           "example": "You are supposed to arrive on time. 你应该准时到。"
+        },
+        {
+          "text": "that's because...",
+          "meaning": "那是因为……",
+          "usage": "用来解释原因，后接从句；注意与 that's why（所以）方向相反。",
+          "example": "That's because he was late. 那是因为他迟到了。"
         }
       ],
       "pitfalls": [
@@ -86,9 +128,21 @@
       "structMarkup": "~That~ _'s_ ~what important people say~.",
       "structureSummary": "主系表结构，表语是 what 引导的名词性从句",
       "components": [
-        { "part": "That", "role": "主语", "note": "指代上一句说的“我很忙”这句话" },
-        { "part": "'s (= is)", "role": "系动词", "note": "主系结构" },
-        { "part": "what important people say", "role": "表语从句", "note": "what 引导，相当于 the thing that important people say" }
+        {
+          "part": "That",
+          "role": "主语",
+          "note": "指代上一句说的“我很忙”这句话"
+        },
+        {
+          "part": "'s (= is)",
+          "role": "系动词",
+          "note": "主系结构"
+        },
+        {
+          "part": "what important people say",
+          "role": "表语从句",
+          "note": "what 引导，相当于 the thing that important people say"
+        }
       ],
       "clauses": [
         "what important people say 是 what 引导的表语从句；what 在从句中作 say 的宾语。",
@@ -100,6 +154,12 @@
           "meaning": "某人说的话",
           "usage": "what 引导名词性从句时，本身兼作从句中的成分（主语/宾语/表语），不能再用 that 替代。",
           "example": "What he said surprised everyone. 他说的话让所有人吃惊。"
+        },
+        {
+          "text": "important people",
+          "meaning": "重要人物、大人物",
+          "usage": "口语中可指「有头有脸的人」，此处带轻讽意味。",
+          "example": "All the important people were there. 所有大人物都到场了。"
         }
       ],
       "pitfalls": [
@@ -114,10 +174,26 @@
       "structMarkup": "~That~ _'s_ ~what people {who get promoted} say~.",
       "structureSummary": "主系表结构，表语从句中嵌一个定语从句",
       "components": [
-        { "part": "That", "role": "主语", "note": "同上，指代“我很忙”" },
-        { "part": "'s (= is)", "role": "系动词", "note": "主系结构" },
-        { "part": "what people ... say", "role": "表语从句", "note": "what 作 say 的宾语" },
-        { "part": "who get promoted", "role": "定语从句", "note": "修饰 people，说明是哪一类人" }
+        {
+          "part": "That",
+          "role": "主语",
+          "note": "同上，指代“我很忙”"
+        },
+        {
+          "part": "'s (= is)",
+          "role": "系动词",
+          "note": "主系结构"
+        },
+        {
+          "part": "what people ... say",
+          "role": "表语从句",
+          "note": "what 作 say 的宾语"
+        },
+        {
+          "part": "who get promoted",
+          "role": "定语从句",
+          "note": "修饰 people，说明是哪一类人"
+        }
       ],
       "clauses": [
         "what people who get promoted say 是 what 引导的表语从句。",
@@ -130,6 +206,12 @@
           "meaning": "得到晋升",
           "usage": "get + 过去分词表示被动，多用于口语；比 be promoted 更自然。同类：get fired（被解雇）、get paid（得到报酬）。",
           "example": "She got promoted last month. 她上个月升职了。"
+        },
+        {
+          "text": "people who...",
+          "meaning": "……的那类人",
+          "usage": "定语从句限定 people，指某一类人；口语中常用这种结构下定义。",
+          "example": "People who read widely think better. 阅读面广的人思考更好。"
         }
       ],
       "pitfalls": [
@@ -144,46 +226,93 @@
       "phonetic": "/ˈhæbɪt/",
       "pos": "n.",
       "senseInContext": "习惯（本句指“张口就说忙”这个惯性做法）",
-      "collocations": ["a bad/good habit", "be in the habit of doing sth.", "break/develop a habit"],
-      "examples": ["He is in the habit of checking his phone at midnight. 他有半夜看手机的习惯。"],
+      "collocations": [
+        "a bad/good habit",
+        "be in the habit of doing sth.",
+        "break/develop a habit"
+      ],
+      "examples": [
+        "He is in the habit of checking his phone at midnight. 他有半夜看手机的习惯。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "habit-（拥有、持有）→ habitual 习惯性的", "synonyms": "custom / practice / routine", "confusables": "habit 偏个人惯性；custom 偏群体风俗" }
+      "more": {
+        "roots": "habit-（拥有、持有）→ habitual 习惯性的",
+        "synonyms": "custom / practice / routine",
+        "confusables": "habit 偏个人惯性；custom 偏群体风俗"
+      }
     },
     "actually": {
       "phonetic": "/ˈæktʃuəli/",
       "pos": "adv.",
       "senseInContext": "实际上、确实（本句用来强调“是真的忙”，与后面的借口形成对照）",
-      "collocations": ["actually do sth.", "not actually"],
-      "examples": ["I actually enjoy working on weekends. 我其实很享受周末工作。"],
+      "collocations": [
+        "actually do sth.",
+        "not actually"
+      ],
+      "examples": [
+        "I actually enjoy working on weekends. 我其实很享受周末工作。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "actual + -ly", "synonyms": "really / in fact / as a matter of fact", "confusables": "actually 常被误读为“目前”（应为 currently）" }
+      "more": {
+        "roots": "actual + -ly",
+        "synonyms": "really / in fact / as a matter of fact",
+        "confusables": "actually 常被误读为“目前”（应为 currently）"
+      }
     },
     "supposed": {
       "phonetic": "/səˈpəʊzd/",
       "pos": "adj.",
       "senseInContext": "（be supposed to）应该、被期望——本句指“社会认为我应该这么说”",
-      "collocations": ["be supposed to do sth.", "be supposed to be"],
-      "examples": ["We are supposed to hand in the report by Friday. 我们应该周五前交报告。"],
+      "collocations": [
+        "be supposed to do sth.",
+        "be supposed to be"
+      ],
+      "examples": [
+        "We are supposed to hand in the report by Friday. 我们应该周五前交报告。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "sup-（下）+ pose（放）→ 放在下面作为依据 → 认为、假定", "synonyms": "be expected to / should", "confusables": "be supposed to 表示“按理应该”；be supposed to have done 表示“本应该做却没做”" }
+      "more": {
+        "roots": "sup-（下）+ pose（放）→ 放在下面作为依据 → 认为、假定",
+        "synonyms": "be expected to / should",
+        "confusables": "be supposed to 表示“按理应该”；be supposed to have done 表示“本应该做却没做”"
+      }
     },
     "important": {
       "phonetic": "/ɪmˈpɔːtnt/",
       "pos": "adj.",
       "senseInContext": "重要的、有分量的（本句指“有身份的人”）",
-      "collocations": ["an important role", "it is important that...(should) do", "important to sb."],
-      "examples": ["Sleep is important to memory. 睡眠对记忆很重要。"],
+      "collocations": [
+        "an important role",
+        "it is important that...(should) do",
+        "important to sb."
+      ],
+      "examples": [
+        "Sleep is important to memory. 睡眠对记忆很重要。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "im-（入）+ port（搬运）→ 带进来说明的 → 重要的", "synonyms": "significant / vital / crucial", "confusables": "important 修饰人时指“有地位的”，不等于“好人”" }
+      "more": {
+        "roots": "im-（入）+ port（搬运）→ 带进来说明的 → 重要的",
+        "synonyms": "significant / vital / crucial",
+        "confusables": "important 修饰人时指“有地位的”，不等于“好人”"
+      }
     },
     "promoted": {
       "phonetic": "/prəˈməʊtɪd/",
       "pos": "v.（过去分词）",
       "senseInContext": "被提拔、被晋升",
-      "collocations": ["be/get promoted to + 职位", "promote sb. to sth."],
-      "examples": ["He was promoted to manager last year. 他去年被提升为经理。"],
+      "collocations": [
+        "be/get promoted to + 职位",
+        "promote sb. to sth."
+      ],
+      "examples": [
+        "He was promoted to manager last year. 他去年被提升为经理。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "pro-（向前）+ mot（移动）→ 往前推 → 促进、提拔", "synonyms": "be upgraded / be elevated", "confusables": "promote 还有“推销、促进”义：promote a product 推销产品" }
+      "more": {
+        "roots": "pro-（向前）+ mot（移动）→ 往前推 → 促进、提拔",
+        "synonyms": "be upgraded / be elevated",
+        "confusables": "promote 还有“推销、促进”义：promote a product 推销产品"
+      }
     }
   }
 }

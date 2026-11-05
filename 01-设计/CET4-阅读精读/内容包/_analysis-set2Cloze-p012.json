@@ -6,10 +6,26 @@
       "structMarkup": "【A number of studies】 _have looked at_ ~{how family life can affect productivity and satisfaction in the workplace}~.",
       "structureSummary": "主谓 + 宾语从句（how 引导）",
       "components": [
-        { "part": "A number of studies", "role": "主语", "note": "a number of + 复数，谓语用复数" },
-        { "part": "have looked at", "role": "谓语", "note": "look at 此处意为“研究、考察”" },
-        { "part": "how family life can affect productivity and satisfaction", "role": "宾语从句", "note": "how 引导，作 look at 的宾语" },
-        { "part": "in the workplace", "role": "状语", "note": "在职场中" }
+        {
+          "part": "A number of studies",
+          "role": "主语",
+          "note": "a number of + 复数，谓语用复数"
+        },
+        {
+          "part": "have looked at",
+          "role": "谓语",
+          "note": "look at 此处意为“研究、考察”"
+        },
+        {
+          "part": "how family life can affect productivity and satisfaction",
+          "role": "宾语从句",
+          "note": "how 引导，作 look at 的宾语"
+        },
+        {
+          "part": "in the workplace",
+          "role": "状语",
+          "note": "在职场中"
+        }
       ],
       "clauses": [
         "how 引导宾语从句，用陈述语序（how family life can affect）。",
@@ -41,10 +57,26 @@
       "structMarkup": "{However}, 【there】 _has been_ ~26 little research~ (on the influence of leisure activities).",
       "structureSummary": "there be 存在句（现在完成时）+ 介词短语作后置定语",
       "components": [
-        { "part": "However", "role": "连接副词", "note": "转折" },
-        { "part": "there", "role": "引导词", "note": "there be 句型" },
-        { "part": "has been 26 little research", "role": "谓语 + 主语", "note": "第 26 空填副词修饰 little；research 不可数" },
-        { "part": "on the influence of leisure activities", "role": "后置定语", "note": "修饰 research" }
+        {
+          "part": "However",
+          "role": "连接副词",
+          "note": "转折"
+        },
+        {
+          "part": "there",
+          "role": "引导词",
+          "note": "there be 句型"
+        },
+        {
+          "part": "has been 26 little research",
+          "role": "谓语 + 主语",
+          "note": "第 26 空填副词修饰 little；research 不可数"
+        },
+        {
+          "part": "on the influence of leisure activities",
+          "role": "后置定语",
+          "note": "修饰 research"
+        }
       ],
       "clauses": [
         "there has been 是现在完成时的存在句。",
@@ -76,11 +108,31 @@
       "structMarkup": "{So} 【Ciara Kelly and colleagues】 _recruited_ ~129 hobbyists~ (to look at how the time (spent on their hobbies) 27 their work life).",
       "structureSummary": "主谓宾 + 目的状语（内含宾语从句 + 后置定语）",
       "components": [
-        { "part": "So", "role": "连词", "note": "因此" },
-        { "part": "Ciara Kelly and colleagues", "role": "主语", "note": "研究者" },
-        { "part": "recruited", "role": "谓语", "note": "招募" },
-        { "part": "129 hobbyists", "role": "宾语", "note": "129 名爱好者" },
-        { "part": "to look at how the time ... 27 their work life", "role": "目的状语", "note": "不定式；内含 how 宾语从句" }
+        {
+          "part": "So",
+          "role": "连词",
+          "note": "因此"
+        },
+        {
+          "part": "Ciara Kelly and colleagues",
+          "role": "主语",
+          "note": "研究者"
+        },
+        {
+          "part": "recruited",
+          "role": "谓语",
+          "note": "招募"
+        },
+        {
+          "part": "129 hobbyists",
+          "role": "宾语",
+          "note": "129 名爱好者"
+        },
+        {
+          "part": "to look at how the time ... 27 their work life",
+          "role": "目的状语",
+          "note": "不定式；内含 how 宾语从句"
+        }
       ],
       "clauses": [
         "how the time spent on their hobbies 27 their work life 是 how 引导的宾语从句。",
@@ -114,10 +166,26 @@
       "structMarkup": "【The researchers】 _found_ ~{that when participants spent longer than 28 on their leisure activity, their belief (in their ability to perform their job) was strengthened}~.",
       "structureSummary": "主谓 + 宾语从句（从句内含时间状语从句）",
       "components": [
-        { "part": "The researchers", "role": "主语", "note": "研究者" },
-        { "part": "found", "role": "谓语", "note": "后接 that 从句" },
-        { "part": "when participants spent longer than 28 on their leisure activity", "role": "时间状语从句", "note": "第 28 空填与“平时”有关的形容词" },
-        { "part": "their belief ... was strengthened", "role": "从句主句", "note": "被动结构" }
+        {
+          "part": "The researchers",
+          "role": "主语",
+          "note": "研究者"
+        },
+        {
+          "part": "found",
+          "role": "谓语",
+          "note": "后接 that 从句"
+        },
+        {
+          "part": "when participants spent longer than 28 on their leisure activity",
+          "role": "时间状语从句",
+          "note": "第 28 空填与“平时”有关的形容词"
+        },
+        {
+          "part": "their belief ... was strengthened",
+          "role": "从句主句",
+          "note": "被动结构"
+        }
       ],
       "clauses": [
         "that 引导宾语从句，作 found 的宾语。",
@@ -151,13 +219,41 @@
       "structMarkup": "{But} 【this】 _was_ ~only the 29~ {when they had a serious hobby that was dissimilar to their job}, or {when their hobby was similar to their work but they only did it 30}. {When their hobby was both serious and similar to their job}, {then} 【spending more time on it】 _actually decreased_ ~their work 31~.",
       "structureSummary": "主系表 + 两个并列时间状语从句；第二句为时间从句 + 主谓宾",
       "components": [
-        { "part": "this", "role": "主语", "note": "指上一句的“信心增强”" },
-        { "part": "was only the 29", "role": "系表", "note": "第 29 空填名词（case = 情况）" },
-        { "part": "when they had a serious hobby that was dissimilar to their job", "role": "时间状语从句1", "note": "情形一" },
-        { "part": "when their hobby was similar to their work but they only did it 30", "role": "时间状语从句2", "note": "情形二；第 30 空填副词" },
-        { "part": "spending more time on it", "role": "第二句主语", "note": "动名词短语作主语" },
-        { "part": "decreased", "role": "第二句谓语", "note": "降低" },
-        { "part": "their work 31", "role": "第二句宾语", "note": "第 31 空填名词（efficiency）" }
+        {
+          "part": "this",
+          "role": "主语",
+          "note": "指上一句的“信心增强”"
+        },
+        {
+          "part": "was only the 29",
+          "role": "系表",
+          "note": "第 29 空填名词（case = 情况）"
+        },
+        {
+          "part": "when they had a serious hobby that was dissimilar to their job",
+          "role": "时间状语从句1",
+          "note": "情形一"
+        },
+        {
+          "part": "when their hobby was similar to their work but they only did it 30",
+          "role": "时间状语从句2",
+          "note": "情形二；第 30 空填副词"
+        },
+        {
+          "part": "spending more time on it",
+          "role": "第二句主语",
+          "note": "动名词短语作主语"
+        },
+        {
+          "part": "decreased",
+          "role": "第二句谓语",
+          "note": "降低"
+        },
+        {
+          "part": "their work 31",
+          "role": "第二句宾语",
+          "note": "第 31 空填名词（efficiency）"
+        }
       ],
       "clauses": [
         "两个 when 从句由 or 并列，说明“信心增强”只在这两种情形下成立。",
@@ -197,10 +293,26 @@
       "structMarkup": "_Why_ _might_ 【that】 _be_?",
       "structureSummary": "特殊疑问句（疑问词 + 情态动词 + 主语 + 动词）",
       "components": [
-        { "part": "Why", "role": "疑问副词", "note": "问原因" },
-        { "part": "might", "role": "情态动词", "note": "表推测" },
-        { "part": "that", "role": "主语", "note": "指上一段的现象" },
-        { "part": "be", "role": "系动词", "note": "系动词原形" }
+        {
+          "part": "Why",
+          "role": "疑问副词",
+          "note": "问原因"
+        },
+        {
+          "part": "might",
+          "role": "情态动词",
+          "note": "表推测"
+        },
+        {
+          "part": "that",
+          "role": "主语",
+          "note": "指上一段的现象"
+        },
+        {
+          "part": "be",
+          "role": "系动词",
+          "note": "系动词原形"
+        }
       ],
       "clauses": [
         "本句是特殊疑问句，疑问词 Why 置于句首，助动词 might 提前。"
@@ -211,6 +323,12 @@
           "meaning": "为什么会这样呢？",
           "usage": "用于引出对前一现象的追问。",
           "example": "Why might that be? Let's look at the data. 为什么会这样？看看数据。"
+        },
+        {
+          "text": "might",
+          "meaning": "可能、也许（表推测）",
+          "usage": "情态动词表不确定推测，比 may 更委婉；Why might that be? 是常见追问句式。",
+          "example": "Why might that be the case? 为什么可能如此？"
         }
       ],
       "pitfalls": [
@@ -224,13 +342,41 @@
       "structMarkup": "(To maintain a serious hobby), 【people】 _need to invest_ ~significant psychological resources~, _say the authors_—{so if the activity has the same kinds of demands as their work}, 【they】 _may be left_ ~32~ (and unable to perform well at their job).",
       "structureSummary": "引述插入 + 主谓宾 + so 结果分句（内含 if 条件从句）",
       "components": [
-        { "part": "To maintain a serious hobby", "role": "目的状语", "note": "不定式" },
-        { "part": "people", "role": "主语", "note": "人们" },
-        { "part": "need to invest", "role": "谓语", "note": "需要投入" },
-        { "part": "significant psychological resources", "role": "宾语", "note": "大量心理资源" },
-        { "part": "say the authors", "role": "引述插入", "note": "作者说（倒装）" },
-        { "part": "if the activity has the same kinds of demands as their work", "role": "条件状语从句", "note": "if 引导" },
-        { "part": "they may be left 32", "role": "结果分句", "note": "第 32 空填过去分词作主语补足语" }
+        {
+          "part": "To maintain a serious hobby",
+          "role": "目的状语",
+          "note": "不定式"
+        },
+        {
+          "part": "people",
+          "role": "主语",
+          "note": "人们"
+        },
+        {
+          "part": "need to invest",
+          "role": "谓语",
+          "note": "需要投入"
+        },
+        {
+          "part": "significant psychological resources",
+          "role": "宾语",
+          "note": "大量心理资源"
+        },
+        {
+          "part": "say the authors",
+          "role": "引述插入",
+          "note": "作者说（倒装）"
+        },
+        {
+          "part": "if the activity has the same kinds of demands as their work",
+          "role": "条件状语从句",
+          "note": "if 引导"
+        },
+        {
+          "part": "they may be left 32",
+          "role": "结果分句",
+          "note": "第 32 空填过去分词作主语补足语"
+        }
       ],
       "clauses": [
         "so 连接结果分句，内含 if 条件状语从句。",
@@ -270,11 +416,31 @@
       "structMarkup": "{But if their hobby is quite different from their career}, 【it】 _may not_ ~33~ (in the same way) {but instead help them develop other knowledge and skills} {that can 34 their confidence at work}.",
       "structureSummary": "条件状语从句 + 主谓（两个并列谓语）+ 定语从句",
       "components": [
-        { "part": "if their hobby is quite different from their career", "role": "条件状语从句", "note": "if 引导" },
-        { "part": "it", "role": "主语", "note": "指爱好" },
-        { "part": "may not 33 in the same way", "role": "谓语1", "note": "第 33 空填动词原形（interfere）" },
-        { "part": "but instead help them develop other knowledge and skills", "role": "谓语2", "note": "与前面并列" },
-        { "part": "that can 34 their confidence at work", "role": "定语从句", "note": "修饰 knowledge and skills；第 34 空填动词（boost）" }
+        {
+          "part": "if their hobby is quite different from their career",
+          "role": "条件状语从句",
+          "note": "if 引导"
+        },
+        {
+          "part": "it",
+          "role": "主语",
+          "note": "指爱好"
+        },
+        {
+          "part": "may not 33 in the same way",
+          "role": "谓语1",
+          "note": "第 33 空填动词原形（interfere）"
+        },
+        {
+          "part": "but instead help them develop other knowledge and skills",
+          "role": "谓语2",
+          "note": "与前面并列"
+        },
+        {
+          "part": "that can 34 their confidence at work",
+          "role": "定语从句",
+          "note": "修饰 knowledge and skills；第 34 空填动词（boost）"
+        }
       ],
       "clauses": [
         "if 引导条件状语从句。",
@@ -314,9 +480,21 @@
       "structMarkup": "\"_Consider_ 【a scientist {who is a keen rock climber},\" _says_ 【Kelly】.",
       "structureSummary": "祈使句 + 定语从句 + 引述倒装",
       "components": [
-        { "part": "Consider", "role": "祈使句谓语", "note": "祈使句，主语 you 省略" },
-        { "part": "a scientist who is a keen rock climber", "role": "宾语", "note": "内含定语从句" },
-        { "part": "says Kelly", "role": "引述倒装", "note": "主语在后" }
+        {
+          "part": "Consider",
+          "role": "祈使句谓语",
+          "note": "祈使句，主语 you 省略"
+        },
+        {
+          "part": "a scientist who is a keen rock climber",
+          "role": "宾语",
+          "note": "内含定语从句"
+        },
+        {
+          "part": "says Kelly",
+          "role": "引述倒装",
+          "note": "主语在后"
+        }
       ],
       "clauses": [
         "who is a keen rock climber 是定语从句，修饰 a scientist。"
@@ -347,10 +525,26 @@
       "structMarkup": "\"{Since climbing is so far 35 from their day-to-day work activities}, 【they】 _can still recover_ (from the demands of their job) (with plenty of resources).\"",
       "structureSummary": "原因状语从句 + 主谓 + 两个状语",
       "components": [
-        { "part": "Since climbing is so far 35 from their day-to-day work activities", "role": "原因状语从句", "note": "since 表“因为”；第 35 空填过去分词（removed）" },
-        { "part": "they", "role": "主语", "note": "指这些科学家" },
-        { "part": "can still recover", "role": "谓语", "note": "recover from 从……中恢复" },
-        { "part": "with plenty of resources", "role": "方式状语", "note": "带着充足的资源" }
+        {
+          "part": "Since climbing is so far 35 from their day-to-day work activities",
+          "role": "原因状语从句",
+          "note": "since 表“因为”；第 35 空填过去分词（removed）"
+        },
+        {
+          "part": "they",
+          "role": "主语",
+          "note": "指这些科学家"
+        },
+        {
+          "part": "can still recover",
+          "role": "谓语",
+          "note": "recover from 从……中恢复"
+        },
+        {
+          "part": "with plenty of resources",
+          "role": "方式状语",
+          "note": "带着充足的资源"
+        }
       ],
       "clauses": [
         "since 引导原因状语从句，意为“因为”（不是“自从”）。",
@@ -451,46 +645,96 @@
       "phonetic": "/rɪˈkruːt/",
       "pos": "v./n.",
       "senseInContext": "招募（recruited 129 hobbyists 招募了 129 名爱好者）",
-      "collocations": ["recruit staff", "recruit volunteers", "recruitment（名词）"],
-      "examples": ["They recruited 50 participants. 他们招募了 50 名参与者。"],
+      "collocations": [
+        "recruit staff",
+        "recruit volunteers",
+        "recruitment（名词）"
+      ],
+      "examples": [
+        "They recruited 50 participants. 他们招募了 50 名参与者。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "re-（再）+ cru（生长）→ 使再生长 → 补充人员", "synonyms": "enlist / hire / sign up", "confusables": "recruit 可作名词“新成员”；hire 偏雇佣" }
+      "more": {
+        "roots": "re-（再）+ cru（生长）→ 使再生长 → 补充人员",
+        "synonyms": "enlist / hire / sign up",
+        "confusables": "recruit 可作名词“新成员”；hire 偏雇佣"
+      }
     },
     "dissimilar": {
       "phonetic": "/dɪˈsɪmələ(r)/",
       "pos": "adj.",
       "senseInContext": "不相似的（a serious hobby that was dissimilar to their job 与工作不相似的认真爱好）",
-      "collocations": ["be dissimilar to", "dissimilar in", "similarity（名词）"],
-      "examples": ["The two cases are not dissimilar. 这两个案例并非不相似。"],
+      "collocations": [
+        "be dissimilar to",
+        "dissimilar in",
+        "similarity（名词）"
+      ],
+      "examples": [
+        "The two cases are not dissimilar. 这两个案例并非不相似。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "dis-（否定）+ similar（相似的）", "synonyms": "different / unlike", "confusables": "dissimilar to/from；反义 similar to" }
+      "more": {
+        "roots": "dis-（否定）+ similar（相似的）",
+        "synonyms": "different / unlike",
+        "confusables": "dissimilar to/from；反义 similar to"
+      }
     },
     "maintain": {
       "phonetic": "/meɪnˈteɪn/",
       "pos": "v.",
       "senseInContext": "维持、保持（To maintain a serious hobby 为了维持一项认真的爱好）",
-      "collocations": ["maintain a habit", "maintain quality", "maintenance（名词）"],
-      "examples": ["It's hard to maintain a hobby with a full-time job. 全职工作下很难坚持爱好。"],
+      "collocations": [
+        "maintain a habit",
+        "maintain quality",
+        "maintenance（名词）"
+      ],
+      "examples": [
+        "It's hard to maintain a hobby with a full-time job. 全职工作下很难坚持爱好。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "main（手）+ tain（握）→ 持续握住", "synonyms": "keep up / sustain / preserve", "confusables": "maintain 还有“坚持认为”义（上一篇文章出现过）" }
+      "more": {
+        "roots": "main（手）+ tain（握）→ 持续握住",
+        "synonyms": "keep up / sustain / preserve",
+        "confusables": "maintain 还有“坚持认为”义（上一篇文章出现过）"
+      }
     },
     "interfere": {
       "phonetic": "/ˌɪntəˈfɪə(r)/",
       "pos": "v.",
       "senseInContext": "干扰、妨碍（it may not interfere in the same way 它可能不会以同样方式干扰）",
-      "collocations": ["interfere with", "interfere in", "interference（名词）"],
-      "examples": ["Don't let work interfere with family time. 别让工作干扰家庭时间。"],
+      "collocations": [
+        "interfere with",
+        "interfere in",
+        "interference（名词）"
+      ],
+      "examples": [
+        "Don't let work interfere with family time. 别让工作干扰家庭时间。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "inter-（之间）+ fer（带来）→ 插到中间 → 干扰", "synonyms": "disturb / disrupt / hinder", "confusables": "interfere with（妨碍某事）／interfere in（干涉他人事务）" }
+      "more": {
+        "roots": "inter-（之间）+ fer（带来）→ 插到中间 → 干扰",
+        "synonyms": "disturb / disrupt / hinder",
+        "confusables": "interfere with（妨碍某事）／interfere in（干涉他人事务）"
+      }
     },
     "recover": {
       "phonetic": "/rɪˈkʌvə(r)/",
       "pos": "v.",
       "senseInContext": "恢复（recover from the demands of their job 从工作要求中恢复过来）",
-      "collocations": ["recover from", "recover resources", "recovery（名词）"],
-      "examples": ["She recovered from the illness in a week. 她一周内康复了。"],
+      "collocations": [
+        "recover from",
+        "recover resources",
+        "recovery（名词）"
+      ],
+      "examples": [
+        "She recovered from the illness in a week. 她一周内康复了。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "re-（回）+ cover（覆盖/取得）→ 重新获得", "synonyms": "recuperate / bounce back", "confusables": "recover from（从……恢复）；recover sth.（找回某物）" }
+      "more": {
+        "roots": "re-（回）+ cover（覆盖/取得）→ 重新获得",
+        "synonyms": "recuperate / bounce back",
+        "confusables": "recover from（从……恢复）；recover sth.（找回某物）"
+      }
     }
   }
 }

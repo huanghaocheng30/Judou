@@ -6,11 +6,31 @@
       "structMarkup": "【A multitasker】 _is_ ~one {who can perform two or more tasks effectively at the same time}~, {which—(apart from the obvious differences)—is similar to what a computer does}.",
       "structureSummary": "主系表 + 定语从句（修饰 one）+ 非限制性定语从句（修饰整件事）",
       "components": [
-        { "part": "A multitasker", "role": "主语", "note": "多任务处理者" },
-        { "part": "is", "role": "系动词", "note": "主系结构" },
-        { "part": "one who can perform two or more tasks effectively at the same time", "role": "表语", "note": "one 指“一个人”，后接定语从句；one 在此是代词" },
-        { "part": "which ... is similar to what a computer does", "role": "非限制性定语从句", "note": "which 指代前面整件事" },
-        { "part": "apart from the obvious differences", "role": "插入语", "note": "撇开明显差异不谈" }
+        {
+          "part": "A multitasker",
+          "role": "主语",
+          "note": "多任务处理者"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "主系结构"
+        },
+        {
+          "part": "one who can perform two or more tasks effectively at the same time",
+          "role": "表语",
+          "note": "one 指“一个人”，后接定语从句；one 在此是代词"
+        },
+        {
+          "part": "which ... is similar to what a computer does",
+          "role": "非限制性定语从句",
+          "note": "which 指代前面整件事"
+        },
+        {
+          "part": "apart from the obvious differences",
+          "role": "插入语",
+          "note": "撇开明显差异不谈"
+        }
       ],
       "clauses": [
         "who can perform... 是定语从句，修饰 one。",
@@ -50,11 +70,31 @@
       "structMarkup": "【The concept】 _does indeed come from_ ~the realms of technology~, {where it is used to refer to an operating system (that can execute multiple tasks at the same time)}.",
       "structureSummary": "主谓宾 + 非限制性定语从句（内含第二层定语从句）",
       "components": [
-        { "part": "The concept", "role": "主语", "note": "多任务处理这个概念" },
-        { "part": "does indeed come from", "role": "谓语", "note": "does 表强调，indeed 加强语气" },
-        { "part": "the realms of technology", "role": "宾语", "note": "技术领域" },
-        { "part": "where it is used to refer to an operating system", "role": "非限制性定语从句", "note": "where 指 in the realms of technology" },
-        { "part": "that can execute multiple tasks at the same time", "role": "定语从句", "note": "修饰 operating system" }
+        {
+          "part": "The concept",
+          "role": "主语",
+          "note": "多任务处理这个概念"
+        },
+        {
+          "part": "does indeed come from",
+          "role": "谓语",
+          "note": "does 表强调，indeed 加强语气"
+        },
+        {
+          "part": "the realms of technology",
+          "role": "宾语",
+          "note": "技术领域"
+        },
+        {
+          "part": "where it is used to refer to an operating system",
+          "role": "非限制性定语从句",
+          "note": "where 指 in the realms of technology"
+        },
+        {
+          "part": "that can execute multiple tasks at the same time",
+          "role": "定语从句",
+          "note": "修饰 operating system"
+        }
       ],
       "clauses": [
         "where 引导非限制性定语从句，先行词是 the realms of technology。",
@@ -94,10 +134,26 @@
       "structMarkup": "(However), 【the question】 _is_: _can_ 【a person】 _really be_ ~a multitasker~?",
       "structureSummary": "主系表结构 + 冒号后引出疑问句",
       "components": [
-        { "part": "However", "role": "连接副词", "note": "转折" },
-        { "part": "the question", "role": "主语", "note": "问题" },
-        { "part": "is", "role": "系动词", "note": "主系结构" },
-        { "part": "can a person really be a multitasker?", "role": "表语（疑问句）", "note": "冒号后是具体问题" }
+        {
+          "part": "However",
+          "role": "连接副词",
+          "note": "转折"
+        },
+        {
+          "part": "the question",
+          "role": "主语",
+          "note": "问题"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "主系结构"
+        },
+        {
+          "part": "can a person really be a multitasker?",
+          "role": "表语（疑问句）",
+          "note": "冒号后是具体问题"
+        }
       ],
       "clauses": [
         "冒号后是一个独立的疑问句，作 is 的表语内容。",
@@ -109,6 +165,12 @@
           "meaning": "问题是……",
           "usage": "后接从句或引语，用于引出核心疑问。",
           "example": "The question is whether we can afford it. 问题是我们是否负担得起。"
+        },
+        {
+          "text": "multitasker",
+          "meaning": "能一心多用的人",
+          "usage": "multi-（多）+ task（任务）+ -er；动词 multitask。",
+          "example": "She's a natural multitasker. 她天生擅长同时处理多件事。"
         }
       ],
       "pitfalls": [
@@ -123,10 +185,26 @@
       "structMarkup": "(For most scientists), 【the answer】 _is_ ~no~.",
       "structureSummary": "主系表结构（简单句）",
       "components": [
-        { "part": "For most scientists", "role": "状语", "note": "对多数科学家而言" },
-        { "part": "the answer", "role": "主语", "note": "答案" },
-        { "part": "is", "role": "系动词", "note": "主系结构" },
-        { "part": "no", "role": "表语", "note": "否定回答" }
+        {
+          "part": "For most scientists",
+          "role": "状语",
+          "note": "对多数科学家而言"
+        },
+        {
+          "part": "the answer",
+          "role": "主语",
+          "note": "答案"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "主系结构"
+        },
+        {
+          "part": "no",
+          "role": "表语",
+          "note": "否定回答"
+        }
       ],
       "clauses": [
         "本句是简单句，没有从句。"
@@ -137,6 +215,12 @@
           "meaning": "对某人来说",
           "usage": "表观点的视角；常置于句首。",
           "example": "For me, this is a big deal. 对我来说这是大事。"
+        },
+        {
+          "text": "the answer is no",
+          "meaning": "答案是否定的",
+          "usage": "简洁表态句式；反义 the answer is yes。",
+          "example": "For most doctors, the answer is no. 多数医生给出的答案是否定的。"
         }
       ],
       "pitfalls": [
@@ -150,12 +234,36 @@
       "structMarkup": "{So much so that}, (according to experts in neuroscience), 【our brains】 _do not handle_ ~multitasking situations~ (well).",
       "structureSummary": "程度/结果状语从句 + 主谓宾",
       "components": [
-        { "part": "So much so that", "role": "结果状语从句引导", "note": "固定说法“以至于”，承接上句的 no" },
-        { "part": "according to experts in neuroscience", "role": "状语", "note": "说明信息来源" },
-        { "part": "our brains", "role": "主语", "note": "我们的大脑" },
-        { "part": "do not handle", "role": "谓语", "note": "否定谓语" },
-        { "part": "multitasking situations", "role": "宾语", "note": "多任务情境" },
-        { "part": "well", "role": "副词", "note": "修饰 handle" }
+        {
+          "part": "So much so that",
+          "role": "结果状语从句引导",
+          "note": "固定说法“以至于”，承接上句的 no"
+        },
+        {
+          "part": "according to experts in neuroscience",
+          "role": "状语",
+          "note": "说明信息来源"
+        },
+        {
+          "part": "our brains",
+          "role": "主语",
+          "note": "我们的大脑"
+        },
+        {
+          "part": "do not handle",
+          "role": "谓语",
+          "note": "否定谓语"
+        },
+        {
+          "part": "multitasking situations",
+          "role": "宾语",
+          "note": "多任务情境"
+        },
+        {
+          "part": "well",
+          "role": "副词",
+          "note": "修饰 handle"
+        }
       ],
       "clauses": [
         "so much so that... 是固定结构，表示“到了如此程度以至于……”，承接上一句的 no。"
@@ -187,9 +295,21 @@
       "structMarkup": "{As soon as two tasks require our attention}, 【productivity】 _suffers_.",
       "structureSummary": "时间状语从句 + 主句（主谓）",
       "components": [
-        { "part": "As soon as two tasks require our attention", "role": "时间状语从句", "note": "as soon as 一……就" },
-        { "part": "productivity", "role": "主语", "note": "生产力、效率（不可数）" },
-        { "part": "suffers", "role": "谓语", "note": "受损（不及物）" }
+        {
+          "part": "As soon as two tasks require our attention",
+          "role": "时间状语从句",
+          "note": "as soon as 一……就"
+        },
+        {
+          "part": "productivity",
+          "role": "主语",
+          "note": "生产力、效率（不可数）"
+        },
+        {
+          "part": "suffers",
+          "role": "谓语",
+          "note": "受损（不及物）"
+        }
       ],
       "clauses": [
         "as soon as 引导时间状语从句，“一……就……”。",
@@ -221,11 +341,31 @@
       "structMarkup": "【What we call multitasking】, (therefore), _is_ ~in reality the ability (to move more or less quickly from one task to another)~.",
       "structureSummary": "主语从句 + 系表结构 + 不定式作后置定语",
       "components": [
-        { "part": "What we call multitasking", "role": "主语从句", "note": "what 引导，作整句主语" },
-        { "part": "therefore", "role": "插入语", "note": "因此" },
-        { "part": "is", "role": "系动词", "note": "主系结构" },
-        { "part": "in reality the ability to move...", "role": "表语", "note": "in reality 意为“实际上”" },
-        { "part": "to move more or less quickly from one task to another", "role": "后置定语", "note": "不定式修饰 ability" }
+        {
+          "part": "What we call multitasking",
+          "role": "主语从句",
+          "note": "what 引导，作整句主语"
+        },
+        {
+          "part": "therefore",
+          "role": "插入语",
+          "note": "因此"
+        },
+        {
+          "part": "is",
+          "role": "系动词",
+          "note": "主系结构"
+        },
+        {
+          "part": "in reality the ability to move...",
+          "role": "表语",
+          "note": "in reality 意为“实际上”"
+        },
+        {
+          "part": "to move more or less quickly from one task to another",
+          "role": "后置定语",
+          "note": "不定式修饰 ability"
+        }
       ],
       "clauses": [
         "What we call multitasking 是 what 引导的主语从句，谓语用单数 is。",
@@ -258,11 +398,31 @@
       "structMarkup": "【This】 _requires_ ~two essential conditions~: {that one of the tasks needs to be automatic, like walking or eating}, and {that they both need different mental processes}.",
       "structureSummary": "主谓宾 + 冒号后两个并列的同位语从句",
       "components": [
-        { "part": "This", "role": "主语", "note": "指上一句的“快速切换”" },
-        { "part": "requires", "role": "谓语", "note": "需要" },
-        { "part": "two essential conditions", "role": "宾语", "note": "两个必要条件" },
-        { "part": "that one of the tasks needs to be automatic", "role": "同位语从句1", "note": "解释条件一" },
-        { "part": "that they both need different mental processes", "role": "同位语从句2", "note": "解释条件二" }
+        {
+          "part": "This",
+          "role": "主语",
+          "note": "指上一句的“快速切换”"
+        },
+        {
+          "part": "requires",
+          "role": "谓语",
+          "note": "需要"
+        },
+        {
+          "part": "two essential conditions",
+          "role": "宾语",
+          "note": "两个必要条件"
+        },
+        {
+          "part": "that one of the tasks needs to be automatic",
+          "role": "同位语从句1",
+          "note": "解释条件一"
+        },
+        {
+          "part": "that they both need different mental processes",
+          "role": "同位语从句2",
+          "note": "解释条件二"
+        }
       ],
       "clauses": [
         "两个 that 从句并列，都是 conditions 的同位语从句，解释具体条件。",
@@ -295,9 +455,21 @@
       "structMarkup": "~Answering the phone and writing at the same time~, (for example).",
       "structureSummary": "名词性短语（动名词并列）+ 插入语（省略句）",
       "components": [
-        { "part": "Answering the phone and writing", "role": "动名词并列短语", "note": "两个动名词并列，作前一句的例证" },
-        { "part": "at the same time", "role": "状语", "note": "同时" },
-        { "part": "for example", "role": "插入语", "note": "举例" }
+        {
+          "part": "Answering the phone and writing",
+          "role": "动名词并列短语",
+          "note": "两个动名词并列，作前一句的例证"
+        },
+        {
+          "part": "at the same time",
+          "role": "状语",
+          "note": "同时"
+        },
+        {
+          "part": "for example",
+          "role": "插入语",
+          "note": "举例"
+        }
       ],
       "clauses": [
         "本句是省略句，没有完整主谓，作为上一句的举例（= This is an example of ...）。"
@@ -308,6 +480,12 @@
           "meaning": "同时",
           "usage": "时间状语；也可表“然而”（转折）。",
           "example": "He was reading and eating at the same time. 他一边看书一边吃东西。"
+        },
+        {
+          "text": "for example",
+          "meaning": "例如",
+          "usage": "可置于句首、句中或句末，需用逗号隔开；书面缩写 e.g.。",
+          "example": "Some tasks, for example driving, need full attention. 有些任务，比如开车，需要全神贯注。"
         }
       ],
       "pitfalls": [
@@ -322,10 +500,26 @@
       "structMarkup": "(However), (on the other side of the coin) 【there are people {who maintain that it is possible to be, or at least seem to be, multitasking}】.",
       "structureSummary": "there be 存在句 + 定语从句（内含宾语从句）",
       "components": [
-        { "part": "However", "role": "连接副词", "note": "转折" },
-        { "part": "on the other side of the coin", "role": "插入语", "note": "硬币的另一面（习语）" },
-        { "part": "there are people", "role": "存在句", "note": "有人" },
-        { "part": "who maintain that it is possible to be, or at least seem to be, multitasking", "role": "定语从句", "note": "修饰 people" }
+        {
+          "part": "However",
+          "role": "连接副词",
+          "note": "转折"
+        },
+        {
+          "part": "on the other side of the coin",
+          "role": "插入语",
+          "note": "硬币的另一面（习语）"
+        },
+        {
+          "part": "there are people",
+          "role": "存在句",
+          "note": "有人"
+        },
+        {
+          "part": "who maintain that it is possible to be, or at least seem to be, multitasking",
+          "role": "定语从句",
+          "note": "修饰 people"
+        }
       ],
       "clauses": [
         "who maintain that... 是定语从句，修饰 people。",
@@ -359,11 +553,31 @@
       "structMarkup": "【A recent study】 _concluded_ ~{that regardless of whether people are actually handling several tasks or not, the mere fact that they perceive this activity as multitasking has a positive effect on their performance}~.",
       "structureSummary": "主谓 + 宾语从句（从句内含让步状语 + 主语带同位语从句）",
       "components": [
-        { "part": "A recent study", "role": "主语", "note": "最近一项研究" },
-        { "part": "concluded", "role": "谓语", "note": "得出结论" },
-        { "part": "that ... has a positive effect on their performance", "role": "宾语从句", "note": "研究结论" },
-        { "part": "regardless of whether people are actually handling several tasks or not", "role": "让步状语", "note": "无论是否真的在处理多任务" },
-        { "part": "the mere fact that they perceive this activity as multitasking", "role": "从句主语", "note": "核心词 the mere fact，后接同位语从句" }
+        {
+          "part": "A recent study",
+          "role": "主语",
+          "note": "最近一项研究"
+        },
+        {
+          "part": "concluded",
+          "role": "谓语",
+          "note": "得出结论"
+        },
+        {
+          "part": "that ... has a positive effect on their performance",
+          "role": "宾语从句",
+          "note": "研究结论"
+        },
+        {
+          "part": "regardless of whether people are actually handling several tasks or not",
+          "role": "让步状语",
+          "note": "无论是否真的在处理多任务"
+        },
+        {
+          "part": "the mere fact that they perceive this activity as multitasking",
+          "role": "从句主语",
+          "note": "核心词 the mere fact，后接同位语从句"
+        }
       ],
       "clauses": [
         "that 引导宾语从句，作 concluded 的宾语。",
@@ -403,55 +617,115 @@
       "phonetic": "/ˈeksɪkjuːt/",
       "pos": "v.",
       "senseInContext": "执行（execute multiple tasks 执行多个任务）",
-      "collocations": ["execute a plan", "execute an order", "execution（名词）"],
-      "examples": ["The system executes commands instantly. 系统立即执行命令。"],
+      "collocations": [
+        "execute a plan",
+        "execute an order",
+        "execution（名词）"
+      ],
+      "examples": [
+        "The system executes commands instantly. 系统立即执行命令。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "ex-（向外）+ secut（跟随）→ 跟着做完", "synonyms": "carry out / perform / implement", "confusables": "execute 偏“执行计划/命令/程序”；execution 也可指“处决”" }
+      "more": {
+        "roots": "ex-（向外）+ secut（跟随）→ 跟着做完",
+        "synonyms": "carry out / perform / implement",
+        "confusables": "execute 偏“执行计划/命令/程序”；execution 也可指“处决”"
+      }
     },
     "neuroscience": {
       "phonetic": "/ˈnjʊərəʊsaɪəns/",
       "pos": "n.",
       "senseInContext": "神经科学（experts in neuroscience 神经科学专家）",
-      "collocations": ["cognitive neuroscience", "neuroscience research", "neuron（神经元）"],
-      "examples": ["Neuroscience studies how the brain works. 神经科学研究大脑如何运作。"],
+      "collocations": [
+        "cognitive neuroscience",
+        "neuroscience research",
+        "neuron（神经元）"
+      ],
+      "examples": [
+        "Neuroscience studies how the brain works. 神经科学研究大脑如何运作。"
+      ],
       "isCet4HighFreq": false,
-      "more": { "roots": "neuro-（神经）+ science（科学）", "synonyms": "brain science", "confusables": "neuroscience 神经科学；psychology 心理学" }
+      "more": {
+        "roots": "neuro-（神经）+ science（科学）",
+        "synonyms": "brain science",
+        "confusables": "neuroscience 神经科学；psychology 心理学"
+      }
     },
     "productivity": {
       "phonetic": "/ˌprɒdʌkˈtɪvəti/",
       "pos": "n.",
       "senseInContext": "生产力、效率（productivity suffers 效率受损）",
-      "collocations": ["increase productivity", "productivity growth", "productive（形容词）"],
-      "examples": ["Remote work can boost productivity. 远程办公能提升效率。"],
+      "collocations": [
+        "increase productivity",
+        "productivity growth",
+        "productive（形容词）"
+      ],
+      "examples": [
+        "Remote work can boost productivity. 远程办公能提升效率。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "product（产物）+ -ive + -ity", "synonyms": "efficiency / output", "confusables": "productivity 不可数；product 是产品" }
+      "more": {
+        "roots": "product（产物）+ -ive + -ity",
+        "synonyms": "efficiency / output",
+        "confusables": "productivity 不可数；product 是产品"
+      }
     },
     "automatic": {
       "phonetic": "/ˌɔːtəˈmætɪk/",
       "pos": "adj.",
       "senseInContext": "自动的（needs to be automatic 必须是自动的）",
-      "collocations": ["automatic process", "fully automatic", "automatically（副词）"],
-      "examples": ["Breathing is automatic. 呼吸是自动的。"],
+      "collocations": [
+        "automatic process",
+        "fully automatic",
+        "automatically（副词）"
+      ],
+      "examples": [
+        "Breathing is automatic. 呼吸是自动的。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "auto-（自己）+ mat（动）→ 自己会动", "synonyms": "mechanical / instinctive", "confusables": "automatic 自动的；automated 被自动化的" }
+      "more": {
+        "roots": "auto-（自己）+ mat（动）→ 自己会动",
+        "synonyms": "mechanical / instinctive",
+        "confusables": "automatic 自动的；automated 被自动化的"
+      }
     },
     "perceive": {
       "phonetic": "/pəˈsiːv/",
       "pos": "v.",
       "senseInContext": "视为、认为（perceive this activity as multitasking 把这项活动视为多任务）",
-      "collocations": ["perceive A as B", "be perceived to be", "perception（名词）"],
-      "examples": ["People perceive him as honest. 人们认为他诚实。"],
+      "collocations": [
+        "perceive A as B",
+        "be perceived to be",
+        "perception（名词）"
+      ],
+      "examples": [
+        "People perceive him as honest. 人们认为他诚实。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "per-（贯穿）+ ceive（抓取）→ 抓住 → 感知", "synonyms": "regard / view / see", "confusables": "perceive 强调主观认知；notice 是“注意到”" }
+      "more": {
+        "roots": "per-（贯穿）+ ceive（抓取）→ 抓住 → 感知",
+        "synonyms": "regard / view / see",
+        "confusables": "perceive 强调主观认知；notice 是“注意到”"
+      }
     },
     "maintain": {
       "phonetic": "/meɪnˈteɪn/",
       "pos": "v.",
       "senseInContext": "坚持认为（maintain that... 坚持主张）",
-      "collocations": ["maintain that...", "maintain quality", "maintenance（名词）"],
-      "examples": ["She maintains that the rule is unfair. 她坚持认为这条规定不公平。"],
+      "collocations": [
+        "maintain that...",
+        "maintain quality",
+        "maintenance（名词）"
+      ],
+      "examples": [
+        "She maintains that the rule is unfair. 她坚持认为这条规定不公平。"
+      ],
       "isCet4HighFreq": true,
-      "more": { "roots": "main（手）+ tain（握持）→ 手持 → 维持", "synonyms": "insist / claim / keep", "confusables": "maintain 三义：维持、保养、坚持认为" }
+      "more": {
+        "roots": "main（手）+ tain（握持）→ 手持 → 维持",
+        "synonyms": "insist / claim / keep",
+        "confusables": "maintain 三义：维持、保养、坚持认为"
+      }
     }
   }
 }
