@@ -29,6 +29,10 @@
   .an:active{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
   .blank{display:inline-block;min-width:46px;border-bottom:2px solid var(--accent);color:var(--accent);font-weight:700;text-align:center;cursor:pointer;padding:0 5px;border-radius:3px;font-family:Georgia,serif;line-height:1.3}
   .blank:active{background:var(--accent-soft)}
+  /* 笔记标记：写过笔记的词 = 荧光黄底；写过笔记的句子 = 「析」变橙并带小点 */
+  .w.noted{background:#fff3c4;box-shadow:inset 0 -2px 0 #f0d97a;border-radius:3px}
+  .an.has-note{background:var(--accent);color:#fff;border-color:var(--accent);position:relative}
+  .an.has-note::after{content:"";position:absolute;top:-3px;right:-3px;width:6px;height:6px;border-radius:50%;background:#e11d48;border:1px solid #fff}
   .gone{color:transparent!important;text-decoration:none!important}
   section.q{border-top:1px solid var(--line);margin-top:8px;padding-top:12px}
   section.q h3{margin:0;font-size:15px;color:var(--accent);font-weight:700;display:flex;justify-content:space-between;cursor:pointer;background:var(--accent-soft);border-radius:9px;padding:10px 12px}
@@ -107,6 +111,7 @@
   </header>
   <div class="legend">
     <span><i style="background:#c2410c"></i>已收藏</span>
+    <span><i style="background:#fff3c4;border:1px solid #f0d97a"></i>写过笔记</span>
     <span>点词看词卡 · 点「析」看整句解析</span>
   </div>
   <article id="article"></article>
@@ -154,10 +159,11 @@ for (const p of PACK.paragraphs){
       if (t.start > cursor) sent.appendChild(document.createTextNode(s.text.slice(cursor, t.start)));
       if (t.isWord){
         const w = document.createElement('span');
-        w.className = 'w' + (saved.includes(t.normalized) ? ' saved' : '');
+        w.className = 'w' + (saved.includes(t.normalized) ? ' saved' : '') + (notes['w:' + p.idx + ':' + s.idx + ':' + t.start] ? ' noted' : '');
         w.textContent = t.surface;
         w.dataset.n = t.normalized;
         w.dataset.p = p.idx; w.dataset.s = s.idx;
+        w.dataset.k = p.idx + ':' + s.idx + ':' + t.start;
         w.onclick = e => { e.stopPropagation(); openWord(p.idx, s.idx, t); };
         sent.appendChild(w);
       } else if (t.isBlank){
@@ -174,7 +180,9 @@ for (const p of PACK.paragraphs){
     if (cursor < s.text.length) sent.appendChild(document.createTextNode(s.text.slice(cursor)));
     if (s.analysis){
       const b = document.createElement('button');
-      b.className = 'an'; b.textContent = '析';
+      b.className = 'an' + (notes['s:' + p.idx + ':' + s.idx] ? ' has-note' : '');
+      b.textContent = '析';
+      b.dataset.p = p.idx; b.dataset.s = s.idx;
       b.onclick = e => { e.stopPropagation(); openSentence(p.idx, s.idx); };
       sent.appendChild(b);
     }
@@ -304,9 +312,20 @@ function bindNote(key){
     noteTimer = setTimeout(() => {
       notes[key] = box.value;
       localStorage.setItem('juedou.notes', JSON.stringify(notes));
+      refreshNoteMarks();
       toast('笔记已保存');
     }, 600);
   };
+}
+
+// 笔记保存后立刻把标记刷到正文上，让用户当场看见“这句/这个词记过”
+function refreshNoteMarks(){
+  document.querySelectorAll('.w').forEach(w => {
+    w.classList.toggle('noted', !!notes['w:' + w.dataset.k]);
+  });
+  document.querySelectorAll('article .an').forEach(b => {
+    b.classList.toggle('has-note', !!notes['s:' + b.dataset.p + ':' + b.dataset.s]);
+  });
 }
 
 function openWord(pIdx, sIdx, tok){
@@ -333,7 +352,7 @@ function openWord(pIdx, sIdx, tok){
     h += '<div class="empty">本词暂无预置解析<br><span style="font-size:12px">仍可加入生词本，稍后补解析</span></div>';
   }
   h += '<button class="btn ' + (isSaved ? 'ghost' : '') + '" id="saveBtn">' + (isSaved ? '已收藏 ✓' : '加入生词本') + '</button>';
-  const nk = 'w:' + tok.normalized;
+  const nk = 'w:' + pIdx + ':' + sIdx + ':' + tok.start;
   h += '<div class="sec" style="margin-top:14px"><div class="sec-t">我的笔记</div>' +
        '<textarea id="noteBox" placeholder="记一句你自己的理解…">' + esc(notes[nk] || '') + '</textarea></div>';
   sbody.innerHTML = h;
