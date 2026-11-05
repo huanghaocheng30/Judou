@@ -4328,6 +4328,22 @@
         "confusables": "employee（雇员）/ employer（雇主）"
       }
     },
+    "consistently": {
+      "phonetic": "/kənˈsɪstəntli/",
+      "pos": "adv.",
+      "sense": "一贯地、始终一致地",
+      "collocations": [
+        "consistently higher",
+        "consistently found"
+      ],
+      "examples": [
+        "Studies consistently find the same pattern. 研究一致发现同样的模式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "consistently（一贯地）/ consistent（一致的）/ consistency（一致性）"
+      }
+    },
     "pay": {
       "phonetic": "/peɪ/",
       "pos": "v./n.",
@@ -4465,6 +4481,23 @@
         "confusables": "compare A with B（比较差异）/ compare A to B（比作）"
       }
     },
+    "airfare": {
+      "phonetic": "/ˈeəfeə(r)/",
+      "pos": "n.",
+      "sense": "机票钱（可数/不可数）",
+      "collocations": [
+        "cheaper airfares",
+        "airfare differences"
+      ],
+      "examples": [
+        "Airfares differ between men and women. 男女机票价格不同。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "air（航空）+ fare（费用）",
+        "confusables": "airfare（机票）/ fare（车费/票价）"
+      }
+    },
     "paid": {
       "phonetic": "/peɪd/",
       "pos": "adj./v.",
@@ -4515,6 +4548,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "company（公司/陪伴）/ companion（同伴）"
+      }
+    },
+    "class": {
+      "phonetic": "/klɑːs/",
+      "pos": "n.",
+      "sense": "班级、阶级、课程（可数）；等级",
+      "collocations": [
+        "middle class",
+        "in class",
+        "a class of"
+      ],
+      "examples": [
+        "Class background affects opportunity. 阶级背景影响机会。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "class（班级/阶级）/ course（课程）/ lesson（一节课）"
       }
     },
     "travel": {
@@ -4582,6 +4632,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "statistical（统计的）/ statistics（统计学/数据）/ statistic（统计量）"
+      }
+    },
+    "account": {
+      "phonetic": "/əˈkaʊnt/",
+      "pos": "n.",
+      "sense": "叙述、报道；账户；账目",
+      "collocations": [
+        "an account of",
+        "account for",
+        "on account of"
+      ],
+      "examples": [
+        "Newspapers carry frightening accounts of addiction. 报纸刊登了吓人的成瘾报道。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "account（叙述/账户）/ account for（解释/占）"
       }
     },
     "factors": {
@@ -4790,6 +4857,22 @@
         "confusables": "be allowed to do（被允许）/ be allowed doing（错误）/ allow for（考虑到）"
       }
     },
+    "conclude": {
+      "phonetic": "/kənˈkluːd/",
+      "pos": "v.",
+      "sense": "得出结论（conclude that）；结束",
+      "collocations": [
+        "conclude that",
+        "conclude from"
+      ],
+      "examples": [
+        "Researchers conclude that the fears are misplaced. 研究者得出结论：这些恐惧没有根据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "conclude（得出结论）/ conclusion（结论）/ include（包括）"
+      }
+    },
     "gap": {
       "phonetic": "/ɡæp/",
       "pos": "n.",
@@ -4858,6 +4941,23 @@
         "confusables": "in fact（事实上）/ as a matter of fact（同义，更口语）/ the fact that（同位语从句）"
       }
     },
+    "days": {
+      "phonetic": "/deɪz/",
+      "pos": "n.",
+      "sense": "天（day 的复数）；时期",
+      "lemma": "day",
+      "collocations": [
+        "these days",
+        "in those days"
+      ],
+      "examples": [
+        "These days, reading competes with screens. 如今阅读要与屏幕竞争。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "days（复数）/ day's（一天的）"
+      }
+    },
     "determine": {
       "phonetic": "/dɪˈtɜːmɪn/",
       "pos": "v.",
@@ -4873,6 +4973,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "determine（决定/确定）/ be determined to do（下定决心做）/ determined（坚定的）"
+      }
+    },
+    "causing": {
+      "phonetic": "/ˈkɔːzɪŋ/",
+      "pos": "v.",
+      "sense": "cause 的现在分词（导致）",
+      "lemma": "cause",
+      "collocations": [
+        "causing problems",
+        "causing stress"
+      ],
+      "examples": [
+        "Switching tasks is causing distraction. 来回切换任务正在造成分心。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "causing（现在分词）/ caused（过去分词）"
       }
     },
     "gender": {
@@ -4941,6 +5058,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "possible（可能）/ possibly（副词）/ probable（更可能）"
+      }
+    },
+    "choosing": {
+      "phonetic": "/ˈtʃuːzɪŋ/",
+      "pos": "v.",
+      "sense": "choose 的现在分词（选择）",
+      "lemma": "choose",
+      "collocations": [
+        "choosing between",
+        "choosing to do"
+      ],
+      "examples": [
+        "Choosing well requires both instinct and data. 选得好既需要直觉也需要数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "choosing（现在分词）/ chosen（过去分词）"
       }
     },
     "ahead": {
@@ -5047,6 +5181,23 @@
         "confusables": "data（数据）/ date（日期）"
       }
     },
+    "collected": {
+      "phonetic": "/kəˈlektɪd/",
+      "pos": "v./adj.",
+      "sense": "collect 的过去式/过去分词（收集）；镇定的",
+      "lemma": "collect",
+      "collocations": [
+        "collected data",
+        "stay collected"
+      ],
+      "examples": [
+        "She collected data over three years. 她用三年时间收集数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "collected（收集）/ collect（原形）/ collection（收藏）"
+      }
+    },
     "surveys": {
       "phonetic": "/ˈsɜːveɪz/",
       "pos": "n./v.",
@@ -5064,6 +5215,22 @@
         "confusables": "survey（调查）/ inspect（检查）/ poll（民意调查）"
       }
     },
+    "consumer": {
+      "phonetic": "/kənˈsjuːmə(r)/",
+      "pos": "n.",
+      "sense": "消费者（可数）",
+      "collocations": [
+        "consumer behaviour",
+        "consumer goods"
+      ],
+      "examples": [
+        "Consumer habits are shifting. 消费习惯正在改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "consumer（消费者）/ customer（顾客）/ client（客户）"
+      }
+    },
     "central": {
       "phonetic": "/ˈsentrəl/",
       "pos": "adj.",
@@ -5079,6 +5246,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "central（中心的，形容词）/ center（中心，名词）"
+      }
+    },
+    "economic": {
+      "phonetic": "/ˌiːkəˈnɒmɪk/",
+      "pos": "adj.",
+      "sense": "经济的；经济上的",
+      "collocations": [
+        "economic growth",
+        "economic crisis"
+      ],
+      "examples": [
+        "Economic pressure affects leave-taking. 经济压力影响休假选择。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "economic（经济的）/ economical（节约的）/ economy（经济）"
       }
     },
     "decisions": {
@@ -5132,6 +5315,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "risk（风险）/ danger（危险）/ risk doing（冒险做）"
+      }
+    },
+    "avoidance": {
+      "phonetic": "/əˈvɔɪdəns/",
+      "pos": "n.",
+      "sense": "避免、回避（不可数）",
+      "collocations": [
+        "avoidance of",
+        "conflict avoidance"
+      ],
+      "examples": [
+        "Avoidance of risk can cost opportunities. 回避风险可能失去机会。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "avoid（避免）+ -ance",
+        "confusables": "avoidance（回避）/ avoid（避免）"
       }
     },
     "concept": {
@@ -5221,6 +5421,23 @@
         "confusables": "feels（三单）/ feel（原形）"
       }
     },
+    "engages": {
+      "phonetic": "/ɪnˈɡeɪdʒɪz/",
+      "pos": "v.",
+      "sense": "engage 的第三人称单数（参与、吸引）",
+      "lemma": "engage",
+      "collocations": [
+        "engages in",
+        "engages with"
+      ],
+      "examples": [
+        "She engages with readers online. 她在网上与读者互动。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "engages in（从事）/ engages with（与……互动）"
+      }
+    },
     "behaviors": {
       "phonetic": "/bɪˈheɪvjəz/",
       "pos": "n.",
@@ -5256,6 +5473,22 @@
         "confusables": "spending（支出）/ spend（花费）"
       }
     },
+    "company's": {
+      "phonetic": "/ˈkʌmpəniz/",
+      "pos": "n.（所有格）",
+      "sense": "公司的（company 的所有格）",
+      "lemma": "company",
+      "collocations": [
+        "the company's policy"
+      ],
+      "examples": [
+        "The company's policy changed. 公司的政策变了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "company's（单数所有格）/ companies'（复数所有格）"
+      }
+    },
     "money": {
       "phonetic": "/ˈmʌni/",
       "pos": "n.",
@@ -5271,6 +5504,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "money（不可数）/ monies（法律用语复数）/ currency（货币）"
+      }
+    },
+    "carefully": {
+      "phonetic": "/ˈkeəfəli/",
+      "pos": "adv.",
+      "sense": "小心地、仔细地",
+      "collocations": [
+        "carefully consider",
+        "drive carefully"
+      ],
+      "examples": [
+        "They carefully adjust their behaviour. 他们仔细调整自己的行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "carefully（仔细地）/ carefully 反义 carelessly"
       }
     },
     "isn't": {
@@ -5323,6 +5572,23 @@
         "confusables": "engage in（从事）/ engage with（与……互动）/ be engaged to（与……订婚）"
       }
     },
+    "abnormal": {
+      "phonetic": "/æbˈnɔːml/",
+      "pos": "adj.",
+      "sense": "异常的、不正常的",
+      "collocations": [
+        "abnormal behaviour",
+        "abnormal levels"
+      ],
+      "examples": [
+        "The test showed abnormal results. 检测显示结果异常。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "ab-（偏离）+ normal（正常）",
+        "confusables": "abnormal（异常的）/ normal（正常的）"
+      }
+    },
     "behavior": {
       "phonetic": "/bɪˈheɪvjə(r)/",
       "pos": "n.",
@@ -5356,6 +5622,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "by no means（绝不）/ by all means（当然可以）/ means（单复同形）"
+      }
+    },
+    "disappears": {
+      "phonetic": "/ˌdɪsəˈpɪəz/",
+      "pos": "v.",
+      "sense": "disappear 的第三人称单数（消失）",
+      "lemma": "disappear",
+      "collocations": [
+        "disappears quickly",
+        "disappear from"
+      ],
+      "examples": [
+        "The effect disappears over time. 影响随时间消失。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "disappears（三单）/ disappear（原形）/ vanish（消失）"
       }
     },
     "research": {
@@ -5546,6 +5829,56 @@
         "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
       }
     },
+    "airline": {
+      "phonetic": "/ˈeəlaɪn/",
+      "pos": "n.",
+      "sense": "航空公司（可数）",
+      "collocations": [
+        "an airline company",
+        "budget airlines"
+      ],
+      "examples": [
+        "Airlines charge different fares. 航空公司收费不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "airline（航空公司）/ airport（机场）"
+      }
+    },
+    "bookings": {
+      "phonetic": "/ˈbʊkɪŋz/",
+      "pos": "n.",
+      "sense": "预订（booking 的复数）",
+      "lemma": "booking",
+      "collocations": [
+        "advance bookings",
+        "cancel bookings"
+      ],
+      "examples": [
+        "Advance bookings rose sharply. 提前预订大幅上升。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "bookings（预订）/ books（书）"
+      }
+    },
+    "add": {
+      "phonetic": "/æd/",
+      "pos": "v.",
+      "sense": "增加、添加；补充说（add that）",
+      "collocations": [
+        "add to",
+        "add up",
+        "add that"
+      ],
+      "examples": [
+        "Add exercise to the list. 把锻炼加进清单。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "add（添加）/ plus（加上）"
+      }
+    },
     "evidence": {
       "phonetic": "/ˈevɪdəns/",
       "pos": "n.",
@@ -5632,6 +5965,23 @@
         "confusables": "significant（显著的）/ significance（意义）"
       }
     },
+    "difference": {
+      "phonetic": "/ˈdɪfrəns/",
+      "pos": "n.",
+      "sense": "差异（可数/不可数）；区别",
+      "collocations": [
+        "make a difference",
+        "the difference between",
+        "a big difference"
+      ],
+      "examples": [
+        "The difference between the groups was clear. 两组之间的差异很明显。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make a difference（有影响）/ tell the difference（分辨）"
+      }
+    },
     "seem": {
       "phonetic": "/siːm/",
       "pos": "v.",
@@ -5664,6 +6014,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "small（小，尺寸）/ little（少，不可数）/ minor（次要的）"
+      }
+    },
+    "adds": {
+      "phonetic": "/ædz/",
+      "pos": "v.",
+      "sense": "add 的第三人称单数（增加；补充说）",
+      "lemma": "add",
+      "collocations": [
+        "adds that",
+        "adds up"
+      ],
+      "examples": [
+        "She adds that the trend is real. 她补充说这一趋势是真实的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "adds（三单）/ add（原形）"
       }
     },
     "analysis": {

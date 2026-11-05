@@ -4631,6 +4631,39 @@
         "confusables": "horses（复数）/ horse（单数）"
       }
     },
+    "captured": {
+      "phonetic": "/ˈkæptʃəd/",
+      "pos": "v.",
+      "sense": "capture 的过去式/过去分词（抓住、赢得）",
+      "lemma": "capture",
+      "collocations": [
+        "captured the affection of",
+        "captured attention"
+      ],
+      "examples": [
+        "Few horses captured the public like Red Rum. 很少有马像「红朗姆」那样赢得公众喜爱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "captured（过去式）/ capture（原形）"
+      }
+    },
+    "affection": {
+      "phonetic": "/əˈfekʃn/",
+      "pos": "n.",
+      "sense": "喜爱（不可数）",
+      "collocations": [
+        "capture the affection of",
+        "show affection"
+      ],
+      "examples": [
+        "Few horses captured the affection of the British public. 很少有马赢得英国公众的喜爱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "affection（喜爱）/ affect（影响）"
+      }
+    },
     "british": {
       "phonetic": "/ˈbrɪtɪʃ/",
       "pos": "adj.",
@@ -4765,6 +4798,38 @@
         "confusables": "still（仍然）/ yet（尚，多用于否定疑问）/ already（已经）"
       }
     },
+    "best-known": {
+      "phonetic": "/ˌbest ˈnəʊn/",
+      "pos": "adj.",
+      "sense": "最知名的（well-known 的最高级）",
+      "collocations": [
+        "one of the best-known",
+        "the best-known example"
+      ],
+      "examples": [
+        "He is one of the best-known racehorses. 他是最知名的赛马之一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "best-known（最知名）/ well-known（知名的）/ best known（副词用法，不加连字符）"
+      }
+    },
+    "beloved": {
+      "phonetic": "/bɪˈlʌvɪd/",
+      "pos": "adj.",
+      "sense": "深受喜爱的（作定语）",
+      "collocations": [
+        "a beloved figure",
+        "most beloved"
+      ],
+      "examples": [
+        "He is one of the most beloved racehorses. 他是最受喜爱的赛马之一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "beloved（受喜爱的）/ loving（充满爱的）/ loved（被爱的）"
+      }
+    },
     "time": {
       "phonetic": "/taɪm/",
       "pos": "n./v.",
@@ -4834,6 +4899,22 @@
         "confusables": "several（数个，后接复数）/ some（一些）"
       }
     },
+    "agent": {
+      "phonetic": "/ˈeɪdʒənt/",
+      "pos": "n.",
+      "sense": "代理人、经纪人；因素",
+      "collocations": [
+        "the agent who made the purchase",
+        "a travel agent"
+      ],
+      "examples": [
+        "The agent made the purchase. 经纪人完成了这笔购买。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "agent（代理人）/ agency（机构）"
+      }
+    },
     "made": {
       "phonetic": "/meɪd/",
       "pos": "v.",
@@ -4852,6 +4933,21 @@
         "confusables": "be made of（材质可见）/ be made from（材质改变）"
       }
     },
+    "donald": {
+      "phonetic": "/ˈdɒnəld/",
+      "pos": "n.（专有名词）",
+      "sense": "唐纳德（Donald \"Ginger\" McCain，驯马师）",
+      "collocations": [
+        "Donald McCain"
+      ],
+      "examples": [
+        "Donald McCain trained the horse. 唐纳德·麦凯恩训练了这匹马。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
     "ginger": {
       "phonetic": "/ˈdʒɪndʒə(r)/",
       "pos": "n.（专有名词）",
@@ -4866,6 +4962,23 @@
       "isCet4HighFreq": false,
       "more": {
         "confusables": "ginger（绰号/姜）/ ginseng（人参）"
+      }
+    },
+    "apparent": {
+      "phonetic": "/əˈpærənt/",
+      "pos": "adj.",
+      "sense": "明显的；表面上的",
+      "collocations": [
+        "it was apparent that",
+        "become apparent",
+        "for no apparent reason"
+      ],
+      "examples": [
+        "It wasn't apparent at the time. 当时并不明显。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "apparent（明显的）/ apparently（显然）/ appear（出现）"
       }
     },
     "serious": {
@@ -4883,6 +4996,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "serious（严重的/认真的）/ seriously（副词）/ series（系列）"
+      }
+    },
+    "bone": {
+      "phonetic": "/bəʊn/",
+      "pos": "n.",
+      "sense": "骨头（可数）",
+      "collocations": [
+        "bone disease",
+        "a bone in"
+      ],
+      "examples": [
+        "Red Rum had a serious bone disease. 「红朗姆」患有严重骨病。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "bone（骨头）/ born（出生）"
       }
     },
     "disease": {
@@ -5091,6 +5220,23 @@
         "confusables": "ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）"
       }
     },
+    "carried": {
+      "phonetic": "/ˈkærid/",
+      "pos": "v.",
+      "sense": "carry 的过去式/过去分词（携带、带向）",
+      "lemma": "carry",
+      "collocations": [
+        "carried him to",
+        "carried out"
+      ],
+      "examples": [
+        "His power carried him to his first title. 他的力量把他带向第一个冠军。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "carried out（执行）/ carried（携带）"
+      }
+    },
     "first": {
       "phonetic": "/fɜːst/",
       "pos": "adj./adv./n.",
@@ -5276,6 +5422,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "already（已经）/ yet（尚，否定疑问）/ all ready（全都准备好）"
+      }
+    },
+    "begun": {
+      "phonetic": "/bɪˈɡʌn/",
+      "pos": "v.",
+      "sense": "begin 的过去分词（已经开始）",
+      "lemma": "begin",
+      "collocations": [
+        "has begun",
+        "had begun to"
+      ],
+      "examples": [
+        "A shift has already begun. 转变已经开始。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "begun（过去分词）/ began（过去式）/ begin（原形）"
+      }
+    },
+    "charm": {
+      "phonetic": "/tʃɑːm/",
+      "pos": "v./n.",
+      "sense": "使着迷（及物）；魅力（不可数）",
+      "collocations": [
+        "charm the fans",
+        "a charm"
+      ],
+      "examples": [
+        "His spirit and grace began to charm fans. 他的精神与优雅开始迷住粉丝。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "charm（魅力/使着迷）/ charming（迷人的）/ charm 也指护身符"
       }
     },
     "fans": {
@@ -5569,6 +5748,23 @@
         "confusables": "win（赢，后接比赛或奖项）/ beat（打败某人）/ earn（挣得）"
       }
     },
+    "day": {
+      "phonetic": "/deɪ/",
+      "pos": "n.",
+      "sense": "天、日；白天",
+      "collocations": [
+        "every day",
+        "these days",
+        "day by day"
+      ],
+      "examples": [
+        "To this day, his third win is famous. 直到今天，他的第三次夺冠仍很出名。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "every day（每天，状语）/ everyday（日常的，形容词）"
+      }
+    },
     "once": {
       "phonetic": "/wʌns/",
       "pos": "adv./conj.",
@@ -5655,6 +5851,40 @@
         "confusables": "decrease（减少）/ increase（增加）/ reduce（及物，减少某物）"
       }
     },
+    "country": {
+      "phonetic": "/ˈkʌntri/",
+      "pos": "n.",
+      "sense": "国家（可数）；乡村（the country）",
+      "collocations": [
+        "all over the country",
+        "in the country",
+        "developing country"
+      ],
+      "examples": [
+        "He travelled all over the country. 他走遍全国。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "country（国家/乡村）/ countryside（乡村地区）"
+      }
+    },
+    "engagements": {
+      "phonetic": "/ɪnˈɡeɪdʒmənts/",
+      "pos": "n.",
+      "sense": "活动安排（engagement 的复数）；约定",
+      "lemma": "engagement",
+      "collocations": [
+        "various engagements",
+        "public engagements"
+      ],
+      "examples": [
+        "He travelled for various engagements. 他为各种活动奔走。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "engagements（活动/约定）/ engagement（订婚）"
+      }
+    },
     "often": {
       "phonetic": "/ˈɒfn/",
       "pos": "adv.",
@@ -5670,6 +5900,37 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "often（经常）/ always（总是）/ usually（通常）"
+      }
+    },
+    "aintree": {
+      "phonetic": "/ˈeɪntriː/",
+      "pos": "n.（专有名词）",
+      "sense": "安特里（Aintree Racecourse，英国全国大赛马举办地）",
+      "collocations": [
+        "Aintree Racecourse"
+      ],
+      "examples": [
+        "He led parades at Aintree. 他在安特里领衔巡游。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
+    "charity": {
+      "phonetic": "/ˈtʃærəti/",
+      "pos": "n.",
+      "sense": "慈善（活动）；慈善机构（可数）",
+      "collocations": [
+        "charity events",
+        "give to charity"
+      ],
+      "examples": [
+        "He was a guest at charity events. 他是慈善活动的嘉宾。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "charity（慈善）/ charitable（慈善的）/ clarity（清晰）"
       }
     },
     "benefits": {
@@ -5688,6 +5949,24 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "benefits（好处/福利）/ benefit（单数或动词）"
+      }
+    },
+    "events": {
+      "phonetic": "/ɪˈvents/",
+      "pos": "n.",
+      "sense": "事件、活动（event 的复数）",
+      "lemma": "event",
+      "collocations": [
+        "public events",
+        "in the event of",
+        "current events"
+      ],
+      "examples": [
+        "He was a popular guest at public events. 他是公开活动上受欢迎的嘉宾。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "events（事件/活动）/ in the event of（万一）"
       }
     }
   }

@@ -1,0 +1,584 @@
+{
+  "clearly": {
+    "phonetic": "/ˈklɪəli/", "pos": "adv.", "sense": "清楚地；显然",
+    "collocations": ["clearly stated", "clearly not"],
+    "examples": ["Clearly, teaching formal writing is still crucial. 显然，教正式写作仍然关键。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "clearly（显然/清楚地）/ clear（清楚的）" }
+  },
+  "climber": {
+    "phonetic": "/ˈklaɪmə(r)/", "pos": "n.", "sense": "攀登者；爬山植物",
+    "collocations": ["a mountain climber", "social climber"],
+    "examples": ["The climber reached the top at dawn. 攀登者在黎明到达顶峰。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "climber（攀登者）/ climber 也指「向上爬的人」" }
+  },
+  "climbing": {
+    "phonetic": "/ˈklaɪmɪŋ/", "pos": "n./v.", "sense": "攀登（不可数）；climb 的现在分词",
+    "lemma": "climb",
+    "collocations": ["rock climbing", "climbing prices"],
+    "examples": ["Climbing is a popular weekend activity. 攀岩是受欢迎的周末活动。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "climbing（攀登）/ climb（攀爬）" }
+  },
+  "cocoa": {
+    "phonetic": "/ˈkəʊkəʊ/", "pos": "n.", "sense": "可可（粉/豆，不可数）",
+    "collocations": ["cocoa production", "cocoa prices"],
+    "examples": ["Cocoa farmers face rising costs. 可可种植者面临成本上升。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "cocoa（可可）/ cacao（可可树/豆）" }
+  },
+  "coffee": {
+    "phonetic": "/ˈkɒfi/", "pos": "n.", "sense": "咖啡（不可数；一杯咖啡可数）",
+    "collocations": ["a cup of coffee", "coffee beans", "coffee prices"],
+    "examples": ["Coffee prices have risen sharply. 咖啡价格大幅上涨。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "coffee（不可数）/ a coffee（一杯咖啡）" }
+  },
+  "coffee-growing": {
+    "phonetic": "/ˈkɒfi ˌɡrəʊɪŋ/", "pos": "adj.", "sense": "种植咖啡的（复合形容词）",
+    "collocations": ["coffee-growing regions", "coffee-growing countries"],
+    "examples": ["Coffee-growing regions face drought. 咖啡种植区面临干旱。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "coffee-growing（种咖啡的）/ coffee grower（咖啡种植者）" }
+  },
+  "coin": {
+    "phonetic": "/kɔɪn/", "pos": "n./v.", "sense": "硬币（可数）/ 创造（新词）",
+    "collocations": ["coin a term", "a coin"],
+    "examples": ["Scholars coined the term in the 1990s. 学者在 1990 年代创造了这个术语。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "coin（硬币/创造）/ cone（圆锥）" }
+  },
+  "colleague": {
+    "phonetic": "/ˈkɒliːɡ/", "pos": "n.", "sense": "同事（可数）",
+    "collocations": ["a colleague of mine", "work colleagues"],
+    "examples": ["She discussed it with a colleague. 她和一位同事讨论了这件事。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "colleague（同事）/ college（学院）" }
+  },
+  "collected": {
+    "phonetic": "/kəˈlektɪd/", "pos": "v./adj.", "sense": "collect 的过去式/过去分词（收集）；镇定的",
+    "lemma": "collect",
+    "collocations": ["collected data", "stay collected"],
+    "examples": ["She collected data over three years. 她用三年时间收集数据。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "collected（收集）/ collect（原形）/ collection（收藏）" }
+  },
+  "columbus": {
+    "phonetic": "/kəˈlʌmbəs/", "pos": "n.（专有名词）", "sense": "哥伦布（美国俄亥俄州首府；也指航海家哥伦布）",
+    "collocations": ["Columbus, Ohio"],
+    "examples": ["He is from Columbus, Ohio. 他来自俄亥俄州哥伦布市。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "Columbus（城市/人名）/ Colombia（国家）" }
+  },
+  "comfortable": {
+    "phonetic": "/ˈkʌmftəbl/", "pos": "adj.", "sense": "舒适的；自在的",
+    "collocations": ["feel comfortable", "comfortable with", "a comfortable life"],
+    "examples": ["They feel comfortable sharing online. 他们乐于在网上分享。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "comfortable（舒适的）/ comfort（舒适，名词）" }
+  },
+  "commodity": {
+    "phonetic": "/kəˈmɒdəti/", "pos": "n.", "sense": "商品、大宗商品（可数）",
+    "collocations": ["commodity prices", "a valuable commodity"],
+    "examples": ["Food is a global commodity. 粮食是全球性商品。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "commodity（商品）/ goods（货物）/ product（产品）" }
+  },
+  "communication": {
+    "phonetic": "/kəˌmjuːnɪˈkeɪʃn/", "pos": "n.", "sense": "沟通、交流（不可数）；信息（可数）",
+    "collocations": ["communication skills", "in communication with"],
+    "examples": ["They learn new communication skills online. 他们在网上学习新的沟通技能。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "communication（沟通）/ communications（通讯系统）/ communicate（动词）" }
+  },
+  "communicative": {
+    "phonetic": "/kəˈmjuːnɪkətɪv/", "pos": "adj.", "sense": "交流的、交际的；健谈的",
+    "collocations": ["communicative forms", "communicative skills"],
+    "examples": ["They create new communicative forms. 他们创造新的交流形式。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "communicative（交流的）/ communication（沟通）" }
+  },
+  "company's": {
+    "phonetic": "/ˈkʌmpəniz/", "pos": "n.（所有格）", "sense": "公司的（company 的所有格）",
+    "lemma": "company",
+    "collocations": ["the company's policy"],
+    "examples": ["The company's policy changed. 公司的政策变了。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "company's（单数所有格）/ companies'（复数所有格）" }
+  },
+  "comparison": {
+    "phonetic": "/kəmˈpærɪsn/", "pos": "n.", "sense": "比较（可数/不可数）；对比",
+    "collocations": ["in comparison", "by comparison", "a comparison of"],
+    "examples": ["In comparison, 17% of men said satisfaction fell. 相比之下，17% 的男性说满意度下降。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "in comparison（相比之下）/ compare（比较，动词）" }
+  },
+  "compete": {
+    "phonetic": "/kəmˈpiːt/", "pos": "v.", "sense": "竞争（compete with/for）",
+    "collocations": ["compete with", "compete for", "compete against"],
+    "examples": ["Firms compete for talent. 公司争夺人才。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "compete（竞争）/ competition（竞争，名词）/ competitive（有竞争力的）" }
+  },
+  "competitive": {
+    "phonetic": "/kəmˈpetətɪv/", "pos": "adj.", "sense": "有竞争力的；竞争激烈的",
+    "collocations": ["competitive advantage", "highly competitive"],
+    "examples": ["Equal leave gives a competitive advantage. 平等休假带来竞争优势。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "competitive（有竞争力的）/ competitor（竞争者）" }
+  },
+  "completed": {
+    "phonetic": "/kəmˈpliːtɪd/", "pos": "v./adj.", "sense": "complete 的过去式/过去分词（完成）；已完成的",
+    "lemma": "complete",
+    "collocations": ["completed the survey", "a completed task"],
+    "examples": ["Two hundred teenagers completed the survey. 两百名青少年完成了调查。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "completed（已完成）/ complete（完整的/完成）" }
+  },
+  "complexity": {
+    "phonetic": "/kəmˈpleksəti/", "pos": "n.", "sense": "复杂性（不可数）",
+    "collocations": ["in size and complexity", "the complexity of"],
+    "examples": ["Essays grew in size and complexity. 文章在篇幅和复杂度上都增长了。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "complexity（复杂性）/ complex（复杂的）/ completion（完成）" }
+  },
+  "complicated": {
+    "phonetic": "/ˈkɒmplɪkeɪtɪd/", "pos": "adj.", "sense": "复杂难懂的、繁琐的",
+    "collocations": ["make things complicated", "a complicated issue"],
+    "examples": ["Without making things complicated, the answer is simple. 不把事情弄复杂，答案很简单。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "complicated（繁琐的）/ complex（复杂的，中性）" }
+  },
+  "complication": {
+    "phonetic": "/ˌkɒmplɪˈkeɪʃn/", "pos": "n.", "sense": "麻烦、复杂问题；并发症（可数）",
+    "collocations": ["a complication arises", "cause complications"],
+    "examples": ["With usability comes a complication. 伴随易用性而来的是一个麻烦。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "complication（麻烦）/ complicated（复杂的）" }
+  },
+  "component": {
+    "phonetic": "/kəmˈpəʊnənt/", "pos": "n.", "sense": "组成部分、要素（可数）",
+    "collocations": ["an essential component", "a key component of"],
+    "examples": ["Equal leave is an essential component. 平等休假是必不可少的一环。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "component（部分）/ compose（组成）" }
+  },
+  "composition": {
+    "phonetic": "/ˌkɒmpəˈzɪʃn/", "pos": "n.", "sense": "作文、作品（可数）；构成（不可数）",
+    "collocations": ["freshman composition", "the composition of"],
+    "examples": ["Error rates in freshman composition papers are stable. 大一写作课论文的错误率稳定。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "composition（作文/构成）/ compose（组成）" }
+  },
+  "computer": {
+    "phonetic": "/kəmˈpjuːtə(r)/", "pos": "n.", "sense": "电脑（可数）",
+    "collocations": ["on a computer", "computer skills"],
+    "examples": ["Computers increased students' ability to gather information. 电脑提高了学生收集信息的能力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "computer（电脑）/ calculator（计算器）" }
+  },
+  "computers": {
+    "phonetic": "/kəmˈpjuːtəz/", "pos": "n.", "sense": "电脑（computer 的复数）",
+    "lemma": "computer",
+    "collocations": ["computers help", "personal computers"],
+    "examples": ["Computers help students write more fluidly. 电脑帮学生写得更流畅。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "computers（复数）/ computer（单数）" }
+  },
+  "concentration": {
+    "phonetic": "/ˌkɒnsnˈtreɪʃn/", "pos": "n.", "sense": "专注（不可数）；浓度",
+    "collocations": ["lose concentration", "concentration on"],
+    "examples": ["Switching tasks breaks concentration. 切换任务会打断专注。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "concentration（专注）/ concentrate（集中）" }
+  },
+  "concerns": {
+    "phonetic": "/kənˈsɜːnz/", "pos": "n./v.", "sense": "担忧、关切（concern 的复数）；涉及（动词三单）",
+    "lemma": "concern",
+    "collocations": ["real concerns", "concerns about", "as far as ... is concerned"],
+    "examples": ["These accounts touch on real concerns. 这些报道触及了真实的担忧。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "concerns（担忧）/ concerning（关于，介词）" }
+  },
+  "conclude": {
+    "phonetic": "/kənˈkluːd/", "pos": "v.", "sense": "得出结论（conclude that）；结束",
+    "collocations": ["conclude that", "conclude from"],
+    "examples": ["Researchers conclude that the fears are misplaced. 研究者得出结论：这些恐惧没有根据。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "conclude（得出结论）/ conclusion（结论）/ include（包括）" }
+  },
+  "concluded": {
+    "phonetic": "/kənˈkluːdɪd/", "pos": "v.", "sense": "conclude 的过去式/过去分词（得出结论）",
+    "lemma": "conclude",
+    "collocations": ["concluded that", "it was concluded"],
+    "examples": ["They concluded that the effect was small. 他们得出结论：影响很小。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "concluded（过去式）/ conclusion（结论，名词）" }
+  },
+  "conducting": {
+    "phonetic": "/kənˈdʌktɪŋ/", "pos": "v.", "sense": "conduct 的现在分词（进行、实施）；指挥",
+    "lemma": "conduct",
+    "collocations": ["conducting research", "conducting a survey"],
+    "examples": ["Researchers are conducting a long-term study. 研究者正在进行一项长期研究。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "conducting（进行）/ conduct（行为/进行）" }
+  },
+  "confidence": {
+    "phonetic": "/ˈkɒnfɪdəns/", "pos": "n.", "sense": "信心（不可数）；信任",
+    "collocations": ["confidence in", "build confidence", "with confidence"],
+    "examples": ["Data can build confidence in a decision. 数据能增强对决定的信心。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "confidence（信心）/ confident（自信的）/ confidential（机密的）" }
+  },
+  "confined": {
+    "phonetic": "/kənˈfaɪnd/", "pos": "v./adj.", "sense": "confine 的过去式/过去分词（限制）；受限制的",
+    "lemma": "confine",
+    "collocations": ["be confined to", "confined spaces"],
+    "examples": ["The effects are not confined to work. 影响不限于工作。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "be confined to（仅限于）/ limit（限制）" }
+  },
+  "conjunction": {
+    "phonetic": "/kənˈdʒʌŋkʃn/", "pos": "n.", "sense": "结合（in conjunction with）；连词",
+    "collocations": ["in conjunction with", "a conjunction of"],
+    "examples": ["Use data in conjunction with instincts. 把数据与直觉结合使用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "in conjunction with（与……结合）/ conjunction（连词）" }
+  },
+  "consider": {
+    "phonetic": "/kənˈsɪdə(r)/", "pos": "v.", "sense": "考虑（consider doing）；认为（consider sb to be）",
+    "collocations": ["consider doing", "consider sb as", "all things considered"],
+    "examples": ["They consider mothers primary caregivers. 他们认为母亲是主要照护者。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "consider doing（考虑做）/ consider sb to be（认为是）" }
+  },
+  "considerably": {
+    "phonetic": "/kənˈsɪdərəbli/", "pos": "adv.", "sense": "相当地、很大程度上",
+    "collocations": ["considerably different", "considerably higher"],
+    "examples": ["Their experiences were considerably different. 他们的经历相当不同。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "considerably（相当地）/ considerable（相当大的）" }
+  },
+  "considering": {
+    "phonetic": "/kənˈsɪdərɪŋ/", "pos": "prep./v.", "sense": "考虑到（介词）；consider 的现在分词",
+    "lemma": "consider",
+    "collocations": ["considering that", "considering the cost"],
+    "examples": ["Considering the limits, the result is good. 考虑到种种限制，结果不错。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "considering（考虑到）/ considering that（考虑到……）" }
+  },
+  "consistently": {
+    "phonetic": "/kənˈsɪstəntli/", "pos": "adv.", "sense": "一贯地、始终一致地",
+    "collocations": ["consistently higher", "consistently found"],
+    "examples": ["Studies consistently find the same pattern. 研究一致发现同样的模式。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "consistently（一贯地）/ consistent（一致的）/ consistency（一致性）" }
+  },
+  "constantly": {
+    "phonetic": "/ˈkɒnstəntli/", "pos": "adv.", "sense": "不断地、经常地",
+    "collocations": ["constantly changing", "constantly filled"],
+    "examples": ["Newspapers are constantly filled with such stories. 报纸不断充斥着这类报道。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "constantly（不断地）/ constant（不断的，形容词）" }
+  },
+  "constraints": {
+    "phonetic": "/kənˈstreɪnts/", "pos": "n.", "sense": "限制、约束（constraint 的复数）",
+    "lemma": "constraint",
+    "collocations": ["time and resource constraints", "budget constraints"],
+    "examples": ["Time and resource constraints limit data use. 时间与资源限制限制了数据使用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "constraints（限制）/ limits（界限）" }
+  },
+  "consume": {
+    "phonetic": "/kənˈsjuːm/", "pos": "v.", "sense": "消耗、消费（及物）",
+    "collocations": ["consume energy", "consume resources"],
+    "examples": ["Video streaming consumes bandwidth. 视频流媒体消耗带宽。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "consume（消耗）/ consumer（消费者）/ consumption（消费）" }
+  },
+  "consumer": {
+    "phonetic": "/kənˈsjuːmə(r)/", "pos": "n.", "sense": "消费者（可数）",
+    "collocations": ["consumer behaviour", "consumer goods"],
+    "examples": ["Consumer habits are shifting. 消费习惯正在改变。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "consumer（消费者）/ customer（顾客）/ client（客户）" }
+  },
+  "contact": {
+    "phonetic": "/ˈkɒntækt/", "pos": "n./v.", "sense": "接触、联系（不可数/可数）/ 联系（动词）",
+    "collocations": ["face-to-face contact", "in contact with", "contact sb"],
+    "examples": ["Online chat does not replace face-to-face contact. 网聊并不取代面对面接触。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "contact（联系）/ contract（合同）" }
+  },
+  "contrary": {
+    "phonetic": "/ˈkɒntrəri/", "pos": "adj./n.", "sense": "相反的；相反（on the contrary）",
+    "collocations": ["on the contrary", "contrary to", "the contrary"],
+    "examples": ["Contrary to popular belief, teens do read. 与流行看法相反，青少年确实会读书。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "on the contrary（相反）/ on the other hand（另一方面）" }
+  },
+  "conventional": {
+    "phonetic": "/kənˈvenʃənl/", "pos": "adj.", "sense": "常规的、传统的",
+    "collocations": ["conventional wisdom", "conventional approach"],
+    "examples": ["Conventional wisdom says screens harm reading. 传统看法认为屏幕损害阅读。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "conventional（常规的）/ traditional（传统的）" }
+  },
+  "conversation": {
+    "phonetic": "/ˌkɒnvəˈseɪʃn/", "pos": "n.", "sense": "谈话、对话（可数/不可数）",
+    "collocations": ["have a conversation with", "in conversation"],
+    "examples": ["They have pleasant conversations online. 他们在网上愉快交谈。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "conversation（对话）/ talk（谈话）/ chat（闲聊）" }
+  },
+  "cooking": {
+    "phonetic": "/ˈkʊkɪŋ/", "pos": "n./v.", "sense": "烹饪（不可数）；cook 的现在分词",
+    "lemma": "cook",
+    "collocations": ["cooking and cleaning", "home cooking"],
+    "examples": ["The old standard of women cooking no longer applies. 「女性做饭」的旧标准不再适用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "cooking（烹饪）/ cook（厨师/烹饪）" }
+  },
+  "corner": {
+    "phonetic": "/ˈkɔːnə(r)/", "pos": "n./v.", "sense": "角落（可数）；转弯；垄断（动词）",
+    "collocations": ["around the corner", "in the corner"],
+    "examples": ["A change may be around the corner. 变化可能即将到来。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "around the corner（即将来临）/ in the corner（在角落）" }
+  },
+  "corporate": {
+    "phonetic": "/ˈkɔːpərət/", "pos": "adj.", "sense": "公司的、企业的",
+    "collocations": ["corporate culture", "corporate policy"],
+    "examples": ["Corporate culture shapes leave-taking. 企业文化影响休假选择。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "corporate（公司的）/ corporation（公司）/ cooperate（合作）" }
+  },
+  "cost": {
+    "phonetic": "/kɒst/", "pos": "n./v.", "sense": "成本、代价（可数/不可数）/ 花费（物作主语）",
+    "collocations": ["the cost of", "at the cost of", "cost sb sth"],
+    "examples": ["The cost of childcare is high. 育儿成本很高。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "cost（物作主语花费）/ spend（人作主语）/ take（it 作形式主语）" }
+  },
+  "cost-benefit": {
+    "phonetic": "/ˌkɒst ˈbenɪfɪt/", "pos": "adj./n.", "sense": "成本效益（的）",
+    "collocations": ["cost-benefit analysis", "a cost-benefit trade-off"],
+    "examples": ["They ran a cost-benefit analysis. 他们做了成本效益分析。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "cost-benefit（带连字符作定语）/ cost and benefit（分开说）" }
+  },
+  "costly": {
+    "phonetic": "/ˈkɒstli/", "pos": "adj.", "sense": "昂贵的；代价大的",
+    "collocations": ["a costly mistake", "costly to do"],
+    "examples": ["Ignoring data can be costly. 忽视数据可能代价高昂。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "costly（昂贵的）/ expensive（贵的）/ cost（成本）" }
+  },
+  "country": {
+    "phonetic": "/ˈkʌntri/", "pos": "n.", "sense": "国家（可数）；乡村（the country）",
+    "collocations": ["all over the country", "in the country", "developing country"],
+    "examples": ["He travelled all over the country. 他走遍全国。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "country（国家/乡村）/ countryside（乡村地区）" }
+  },
+  "course": {
+    "phonetic": "/kɔːs/", "pos": "n.", "sense": "课程（可数）；过程（in the course of）；当然（of course）",
+    "collocations": ["of course", "in the course of", "a course in sth"],
+    "examples": ["Of course, each behaviour matters. 当然，每个行为都重要。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "of course（当然）/ in the course of（在……过程中）" }
+  },
+  "creating": {
+    "phonetic": "/kriˈeɪtɪŋ/", "pos": "v.", "sense": "create 的现在分词（创造）",
+    "lemma": "create",
+    "collocations": ["creating opportunities", "creating a sense of"],
+    "examples": ["They are creating new forms of writing. 他们正在创造新的写作形式。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "creating（现在分词）/ created（过去分词）" }
+  },
+  "creative": {
+    "phonetic": "/kriˈeɪtɪv/", "pos": "adj.", "sense": "有创造力的、创意的",
+    "collocations": ["creative work", "creative thinking", "become creative"],
+    "examples": ["Digital tools can make kids more creative. 数字工具能让孩子更有创造力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "creative（有创造力的）/ creativity（创造力）" }
+  },
+  "criteria": {
+    "phonetic": "/kraɪˈtɪəriə/", "pos": "n.", "sense": "标准、准则（criterion 的复数）",
+    "lemma": "criterion",
+    "collocations": ["definitive criteria", "meet the criteria"],
+    "examples": ["Absence of definitive criteria limits data use. 缺乏明确标准会限制数据使用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "criteria（复数）/ criterion（单数）/ criterias（错误）" }
+  },
+  "critical": {
+    "phonetic": "/ˈkrɪtɪkl/", "pos": "adj.", "sense": "关键的；批评的；危急的",
+    "collocations": ["critical thinking", "be critical of", "in critical condition"],
+    "examples": ["Critical thinking matters more than ever. 批判性思维比以往更重要。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "critical（关键的/批评的）/ criticism（批评）/ criticize（批评）" }
+  },
+  "croplands": {
+    "phonetic": "/ˈkrɒplændz/", "pos": "n.", "sense": "耕地（cropland 的复数）",
+    "lemma": "cropland",
+    "collocations": ["croplands and pastures", "fertile croplands"],
+    "examples": ["Croplands cover much of the region. 耕地覆盖该地区大部分。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "crop（作物）+ land（土地）", "confusables": "croplands（耕地）/ farmland（农田）" }
+  },
+  "crossing": {
+    "phonetic": "/ˈkrɒsɪŋ/", "pos": "n./v.", "sense": "穿越、十字路口（可数）；cross 的现在分词",
+    "lemma": "cross",
+    "collocations": ["border crossing", "crossing the road"],
+    "examples": ["Border crossings increased last year. 去年边境通关量增加。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "crossing（穿越）/ cross（穿过）" }
+  },
+  "crucial": {
+    "phonetic": "/ˈkruːʃl/", "pos": "adj.", "sense": "至关重要的（be crucial to/for）",
+    "collocations": ["be crucial to", "play a crucial role", "crucial for"],
+    "examples": ["Teaching formal writing is still crucial. 教正式写作仍然至关重要。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "crucial（关键的）/ critical（关键的/批评的）/ crucially（关键地）" }
+  },
+  "current": {
+    "phonetic": "/ˈkʌrənt/", "pos": "adj./n.", "sense": "当前的（形容词）；水流、电流（名词）",
+    "collocations": ["current situation", "at current rates", "electric current"],
+    "examples": ["At current rates, change will be slow. 以目前的速度，改变会很慢。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "current（当前的）/ currently（目前）/ currant（醋栗）" }
+  },
+  "currently": {
+    "phonetic": "/ˈkʌrəntli/", "pos": "adv.", "sense": "目前、当前",
+    "collocations": ["currently available", "currently working"],
+    "examples": ["The tool is currently free. 该工具目前免费。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "currently（目前）/ actually（实际上）/ presently（不久/目前）" }
+  },
+  "cut": {
+    "phonetic": "/kʌt/", "pos": "v./n.", "sense": "切、削减（三态同形）；削减（名词）",
+    "collocations": ["cut into", "cut down on", "cut costs"],
+    "examples": ["Gaming can cut into schoolwork and sleep. 游戏会挤占功课和睡眠。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "cut into（挤占）/ cut down on（减少）/ cut off（切断）" }
+  },
+  "cutoffs": {
+    "phonetic": "/ˈkʌtɒfs/", "pos": "n.", "sense": "截止点、分界线（cutoff 的复数）",
+    "lemma": "cutoff",
+    "collocations": ["income cutoffs", "cutoff points"],
+    "examples": ["Income cutoffs determine eligibility. 收入门槛决定资格。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "cut（切）+ off（断）", "confusables": "cutoffs（分界点）/ cut off（切断，动词）" }
+  },
+  "cycle": {
+    "phonetic": "/ˈsaɪkl/", "pos": "n./v.", "sense": "循环（可数）；周期 / 骑自行车",
+    "collocations": ["a cycle of", "vicious cycle", "life cycle"],
+    "examples": ["It is not a cycle of non-stop abuse. 这不是无休止的侵害循环。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "cycle（循环/自行车）/ recycle（回收）/ circle（圆圈）" }
+  },
+  "danger": {
+    "phonetic": "/ˈdeɪndʒə(r)/", "pos": "n.", "sense": "危险（不可数）；危险事物（可数）",
+    "collocations": ["in danger", "the danger of", "a danger to"],
+    "examples": ["The great danger was the Sony Walkman. 当年的「巨大危险」是索尼随身听。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "danger（危险）/ dangerous（危险的）/ risk（风险）" }
+  },
+  "dangers": {
+    "phonetic": "/ˈdeɪndʒəz/", "pos": "n.", "sense": "危险（danger 的复数）",
+    "lemma": "danger",
+    "collocations": ["the dangers of", "hidden dangers"],
+    "examples": ["Some of the dangers are emotional. 有些危险是情感层面的。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "dangers（复数）/ danger（单数）" }
+  },
+  "day": {
+    "phonetic": "/deɪ/", "pos": "n.", "sense": "天、日；白天",
+    "collocations": ["every day", "these days", "day by day"],
+    "examples": ["To this day, his third win is famous. 直到今天，他的第三次夺冠仍很出名。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "every day（每天，状语）/ everyday（日常的，形容词）" }
+  },
+  "day-to-day": {
+    "phonetic": "/ˌdeɪ tə ˈdeɪ/", "pos": "adj.", "sense": "日常的、每天的",
+    "collocations": ["day-to-day life", "day-to-day work"],
+    "examples": ["Day-to-day tasks are still unevenly shared. 日常事务仍然分配不均。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "day-to-day（日常的，定语）/ every day（每天）" }
+  },
+  "days": {
+    "phonetic": "/deɪz/", "pos": "n.", "sense": "天（day 的复数）；时期",
+    "lemma": "day",
+    "collocations": ["these days", "in those days"],
+    "examples": ["These days, reading competes with screens. 如今阅读要与屏幕竞争。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "days（复数）/ day's（一天的）" }
+  },
+  "death": {
+    "phonetic": "/deθ/", "pos": "n.", "sense": "死亡（可数/不可数）；终止",
+    "collocations": ["the death of", "to death", "life and death"],
+    "examples": ["The death of the high street is often predicted. 人们常预言商业街的衰亡。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "death（死亡）/ dead（死的）/ die（死，动词）" }
+  },
+  "declines": {
+    "phonetic": "/dɪˈklaɪnz/", "pos": "v./n.", "sense": "decline 的第三人称单数（下降、拒绝）；下降（复数）",
+    "lemma": "decline",
+    "collocations": ["rates decline", "sharp declines"],
+    "examples": ["Reading rates decline slowly. 阅读率缓慢下降。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "declines（三单/复数）/ decline（原形/单数）" }
+  },
+  "decreases": {
+    "phonetic": "/dɪˈkriːsɪz/", "pos": "v./n.", "sense": "decrease 的第三人称单数（减少）；减少（复数）",
+    "lemma": "decrease",
+    "collocations": ["decreases with", "sharp decreases"],
+    "examples": ["Stress decreases with social support. 压力随社会支持而减少。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "decreases（三单/复数）/ decrease（原形/单数）" }
+  },
+  "deeply": {
+    "phonetic": "/ˈdiːpli/", "pos": "adv.", "sense": "深深地、非常",
+    "collocations": ["deeply bookish", "deeply concerned", "deeply rooted"],
+    "examples": ["Some kids are deeply bookish. 有些孩子非常爱读书。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "deeply（深深地）/ deep（深的）" }
+  },
+  "definitive": {
+    "phonetic": "/dɪˈfɪnətɪv/", "pos": "adj.", "sense": "明确的、决定性的；最权威的",
+    "collocations": ["definitive criteria", "a definitive answer"],
+    "examples": ["There are no definitive criteria here. 这里没有明确标准。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "definitive（决定性的）/ definite（明确的）/ definition（定义）" }
+  },
+  "delay": {
+    "phonetic": "/dɪˈleɪ/", "pos": "v./n.", "sense": "延迟（及物）；延误（可数/不可数）",
+    "collocations": ["delay doing", "without delay", "a long delay"],
+    "examples": ["Delay in taking leave may reduce its benefits. 推迟休假可能降低其益处。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "delay doing（延迟做）/ delay（延误）" }
+  },
+  "delete": {
+    "phonetic": "/dɪˈliːt/", "pos": "v.", "sense": "删除（及物）",
+    "collocations": ["delete data", "delete a post"],
+    "examples": ["They delete the photo so no traces remain. 他们删掉照片以免留下痕迹。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "delete（删除）/ remove（移除）/ erase（擦除）" }
+  },
+  "demand": {
+    "phonetic": "/dɪˈmɑːnd/", "pos": "n./v.", "sense": "需求（不可数）；要求（可数）/ 要求（demand that）",
+    "collocations": ["in demand", "supply and demand", "demand that"],
+    "examples": ["Demand for flexible work is rising. 对弹性工作的需求在上升。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "demand that（从句用虚拟 (should) do）/ require（要求）" }
+  },
+  "demonstrated": {
+    "phonetic": "/ˈdemənstreɪtɪd/", "pos": "v.", "sense": "demonstrate 的过去式/过去分词（显示、证明）",
+    "lemma": "demonstrate",
+    "collocations": ["be demonstrated in", "demonstrated that"],
+    "examples": ["The struggle is demonstrated in this year's list. 这一艰难在今年的榜单中得到体现。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "demonstrated（过去式）/ demonstration（演示/游行）" }
+  }
+}

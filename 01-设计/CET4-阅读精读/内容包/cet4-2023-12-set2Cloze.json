@@ -3694,6 +3694,21 @@
         "confusables": "activities（复数）/ activity（单数）"
       }
     },
+    "ciara": {
+      "phonetic": "/ˈkiːrə/",
+      "pos": "n.（专有名词）",
+      "sense": "基拉（人名 Ciara；文中提及的受访者）",
+      "collocations": [
+        "Ciara"
+      ],
+      "examples": [
+        "Ciara described her experience. 基拉描述了她的经历。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
+      }
+    },
     "kelly": {
       "phonetic": "/ˈkeli/",
       "pos": "n.（专有名词）",
@@ -3866,6 +3881,23 @@
         "confusables": "activity（活动）/ action（行动）/ act（行为）"
       }
     },
+    "belief": {
+      "phonetic": "/bɪˈliːf/",
+      "pos": "n.",
+      "sense": "信念、相信（可数/不可数）",
+      "collocations": [
+        "belief in",
+        "a strong belief",
+        "beyond belief"
+      ],
+      "examples": [
+        "The belief that hard work brings success is common. 「努力带来成功」的信念很普遍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "belief（信念，名词）/ believe（相信，动词）/ believer（信徒）"
+      }
+    },
     "ability": {
       "phonetic": "/əˈbɪləti/",
       "pos": "n.",
@@ -3949,6 +3981,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "hobby（爱好）/ habit（习惯）"
+      }
+    },
+    "dissimilar": {
+      "phonetic": "/dɪˈsɪmələ(r)/",
+      "pos": "adj.",
+      "sense": "不同的、不相像的（be dissimilar to）",
+      "collocations": [
+        "dissimilar to",
+        "dissimilar views"
+      ],
+      "examples": [
+        "The two groups are not dissimilar. 这两组并无不同。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "dissimilar（不同的）/ similar（相似的）"
       }
     },
     "similar": {
@@ -4120,6 +4168,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "say（说，后接内容）/ tell（告诉，须有对象 tell sb sth）/ speak（说某种语言）"
+      }
+    },
+    "authors": {
+      "phonetic": "/ˈɔːθəz/",
+      "pos": "n.",
+      "sense": "作者（author 的复数）",
+      "lemma": "author",
+      "collocations": [
+        "the authors note",
+        "co-authors"
+      ],
+      "examples": [
+        "The authors note several limits. 作者指出了若干局限。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "authors（作者，复数）/ author（单数）"
       }
     },
     "demands": {
@@ -4310,6 +4375,40 @@
         "confusables": "skills（复数）/ skill（单数）"
       }
     },
+    "confidence": {
+      "phonetic": "/ˈkɒnfɪdəns/",
+      "pos": "n.",
+      "sense": "信心（不可数）；信任",
+      "collocations": [
+        "confidence in",
+        "build confidence",
+        "with confidence"
+      ],
+      "examples": [
+        "Data can build confidence in a decision. 数据能增强对决定的信心。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "confidence（信心）/ confident（自信的）/ confidential（机密的）"
+      }
+    },
+    "consider": {
+      "phonetic": "/kənˈsɪdə(r)/",
+      "pos": "v.",
+      "sense": "考虑（consider doing）；认为（consider sb to be）",
+      "collocations": [
+        "consider doing",
+        "consider sb as",
+        "all things considered"
+      ],
+      "examples": [
+        "They consider mothers primary caregivers. 他们认为母亲是主要照护者。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "consider doing（考虑做）/ consider sb to be（认为是）"
+      }
+    },
     "scientist": {
       "phonetic": "/ˈsaɪəntɪst/",
       "pos": "n.",
@@ -4324,6 +4423,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "scientist（科学家）/ science（科学）/ scientific（科学的）"
+      }
+    },
+    "climber": {
+      "phonetic": "/ˈklaɪmə(r)/",
+      "pos": "n.",
+      "sense": "攀登者；爬山植物",
+      "collocations": [
+        "a mountain climber",
+        "social climber"
+      ],
+      "examples": [
+        "The climber reached the top at dawn. 攀登者在黎明到达顶峰。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "climber（攀登者）/ climber 也指「向上爬的人」"
       }
     },
     "says": {
@@ -4360,6 +4475,23 @@
         "confusables": "since（自从/因为）/ for（持续一段时间）/ from（起点）"
       }
     },
+    "climbing": {
+      "phonetic": "/ˈklaɪmɪŋ/",
+      "pos": "n./v.",
+      "sense": "攀登（不可数）；climb 的现在分词",
+      "lemma": "climb",
+      "collocations": [
+        "rock climbing",
+        "climbing prices"
+      ],
+      "examples": [
+        "Climbing is a popular weekend activity. 攀岩是受欢迎的周末活动。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "climbing（攀登）/ climb（攀爬）"
+      }
+    },
     "far": {
       "phonetic": "/fɑː(r)/",
       "pos": "adv./adj.",
@@ -4375,6 +4507,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "far from（远非）/ far more（远比）/ so far（到目前为止）"
+      }
+    },
+    "day-to-day": {
+      "phonetic": "/ˌdeɪ tə ˈdeɪ/",
+      "pos": "adj.",
+      "sense": "日常的、每天的",
+      "collocations": [
+        "day-to-day life",
+        "day-to-day work"
+      ],
+      "examples": [
+        "Day-to-day tasks are still unevenly shared. 日常事务仍然分配不均。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "day-to-day（日常的，定语）/ every day（每天）"
       }
     },
     "still": {

@@ -5017,6 +5017,22 @@
         "confusables": "highly（抽象程度高）/ high（物理高）"
       }
     },
+    "drown": {
+      "phonetic": "/draʊn/",
+      "pos": "v.",
+      "sense": "淹没、溺水；压垮（比喻）",
+      "collocations": [
+        "drown you",
+        "be drowned out"
+      ],
+      "examples": [
+        "Feeling alone can drown you. 只凭感觉可能把你压垮。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "drown（淹没）/ drown out（盖过声音）"
+      }
+    },
     "hand": {
       "phonetic": "/hænd/",
       "pos": "n./v.",
@@ -5275,6 +5291,22 @@
         "confusables": "systematic（系统的）/ systemic（体制性的/全身的）"
       }
     },
+    "alike": {
+      "phonetic": "/əˈlaɪk/",
+      "pos": "adj./adv.",
+      "sense": "相似的；同样地（置于名词后）",
+      "collocations": [
+        "personal and business alike",
+        "young and old alike"
+      ],
+      "examples": [
+        "The rule applies to students and teachers alike. 这条规定对师生同样适用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "alike（后置）/ like（像，介词）/ similar（相似的，前置）"
+      }
+    },
     "extreme": {
       "phonetic": "/ɪkˈstriːm/",
       "pos": "adj./n.",
@@ -5310,6 +5342,22 @@
         "confusables": "comes（三单）/ come（原形）"
       }
     },
+    "complication": {
+      "phonetic": "/ˌkɒmplɪˈkeɪʃn/",
+      "pos": "n.",
+      "sense": "麻烦、复杂问题；并发症（可数）",
+      "collocations": [
+        "a complication arises",
+        "cause complications"
+      ],
+      "examples": [
+        "With usability comes a complication. 伴随易用性而来的是一个麻烦。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "complication（麻烦）/ complicated（复杂的）"
+      }
+    },
     "feel": {
       "phonetic": "/fiːl/",
       "pos": "v.",
@@ -5325,6 +5373,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "feel like doing（想做）/ feel free to（随意做）"
+      }
+    },
+    "easy": {
+      "phonetic": "/ˈiːzi/",
+      "pos": "adj.",
+      "sense": "容易的；轻松的",
+      "collocations": [
+        "easy to do",
+        "take it easy",
+        "an easy question"
+      ],
+      "examples": [
+        "This seemingly easy question is hard to answer. 这个看似简单的问题很难回答。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "easy（容易的）/ easily（容易地）"
       }
     },
     "question": {
@@ -5430,6 +5495,38 @@
         "confusables": "things（事情/东西）/ stuff（东西，不可数，口语）"
       }
     },
+    "complicated": {
+      "phonetic": "/ˈkɒmplɪkeɪtɪd/",
+      "pos": "adj.",
+      "sense": "复杂难懂的、繁琐的",
+      "collocations": [
+        "make things complicated",
+        "a complicated issue"
+      ],
+      "examples": [
+        "Without making things complicated, the answer is simple. 不把事情弄复杂，答案很简单。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "complicated（繁琐的）/ complex（复杂的，中性）"
+      }
+    },
+    "dilemma": {
+      "phonetic": "/dɪˈlemə/",
+      "pos": "n.",
+      "sense": "两难困境（可数）",
+      "collocations": [
+        "a moral dilemma",
+        "face a dilemma"
+      ],
+      "examples": [
+        "The solution to this dilemma is using both. 这个两难的解法是把两者都用上。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "dilemma（两难）/ difficulty（困难）"
+      }
+    },
     "using": {
       "phonetic": "/ˈjuːzɪŋ/",
       "pos": "v.",
@@ -5445,6 +5542,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "using（现在分词）/ used（过去式/过去分词）"
+      }
+    },
+    "conjunction": {
+      "phonetic": "/kənˈdʒʌŋkʃn/",
+      "pos": "n.",
+      "sense": "结合（in conjunction with）；连词",
+      "collocations": [
+        "in conjunction with",
+        "a conjunction of"
+      ],
+      "examples": [
+        "Use data in conjunction with instincts. 把数据与直觉结合使用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in conjunction with（与……结合）/ conjunction（连词）"
+      }
+    },
+    "arrive": {
+      "phonetic": "/əˈraɪv/",
+      "pos": "v.",
+      "sense": "到达（arrive at/in）；达成（arrive at a decision）",
+      "collocations": [
+        "arrive at",
+        "arrive in",
+        "arrive at a conclusion"
+      ],
+      "examples": [
+        "They arrive at the best possible decisions. 他们做出尽可能最好的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "arrive at（小地点/结论）/ arrive in（大地点）/ reach（及物，直接接宾语）"
       }
     },
     "best": {
@@ -5514,6 +5644,23 @@
         "confusables": "always（总是）/ all ways（所有方式）"
       }
     },
+    "backed": {
+      "phonetic": "/bækt/",
+      "pos": "v./adj.",
+      "sense": "back 的过去式/过去分词（支持）；有支持的",
+      "lemma": "back",
+      "collocations": [
+        "be backed by",
+        "government-backed"
+      ],
+      "examples": [
+        "Instinctive decisions are backed by experience. 直觉决定有经验支撑。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be backed by（有……支持）/ back up（支持/备份）"
+      }
+    },
     "previous": {
       "phonetic": "/ˈpriːviəs/",
       "pos": "adj.",
@@ -5565,6 +5712,23 @@
         "confusables": "information（不可数，不加 -s）/ informations（错误）"
       }
     },
+    "acknowledges": {
+      "phonetic": "/əkˈnɒlɪdʒɪz/",
+      "pos": "v.",
+      "sense": "acknowledge 的第三人称单数（承认、认可）",
+      "lemma": "acknowledge",
+      "collocations": [
+        "acknowledges that",
+        "acknowledges the role of"
+      ],
+      "examples": [
+        "This acknowledges that instinctive decisions have worked. 这承认了直觉决定曾经奏效。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "acknowledges（三单）/ acknowledge（原形）"
+      }
+    },
     "past": {
       "phonetic": "/pɑːst/",
       "pos": "prep./adj./n.",
@@ -5580,6 +5744,40 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "past（过去的/经过）/ passed（pass 的过去式）"
+      }
+    },
+    "choice": {
+      "phonetic": "/tʃɔɪs/",
+      "pos": "n.",
+      "sense": "选择（可数/不可数）；选项",
+      "collocations": [
+        "make a choice",
+        "the right choice",
+        "have no choice"
+      ],
+      "examples": [
+        "Decisions are not about making the choice alone. 做决定不是单纯做选择。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "choice（选择）/ choose（动词）/ selection（挑选）"
+      }
+    },
+    "braving": {
+      "phonetic": "/ˈbreɪvɪŋ/",
+      "pos": "v.",
+      "sense": "brave 的现在分词（勇敢面对、硬扛）",
+      "lemma": "brave",
+      "collocations": [
+        "braving the consequences",
+        "braving the cold"
+      ],
+      "examples": [
+        "Decisions are not about braving the consequences alone. 做决定不是光硬扛后果。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "braving（现在分词，动词）/ brave（勇敢的，形容词）"
       }
     },
     "consequences": {
@@ -5615,6 +5813,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "want to do（想要）/ need to do（需要）/ would like to do（更礼貌）"
+      }
+    },
+    "blindly": {
+      "phonetic": "/ˈblaɪndli/",
+      "pos": "adv.",
+      "sense": "盲目地、未加思考地",
+      "collocations": [
+        "blindly trust",
+        "blindly follow"
+      ],
+      "examples": [
+        "You should not blindly trust your instincts. 你不该盲目相信直觉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "blindly（盲目地）/ blindly follow（盲从）"
       }
     },
     "combining": {
@@ -5667,6 +5881,23 @@
         "confusables": "sometimes（有时）/ sometime（某个时候）/ some time（一段时间）"
       }
     },
+    "employed": {
+      "phonetic": "/ɪmˈplɔɪd/",
+      "pos": "v./adj.",
+      "sense": "employ 的过去式/过去分词（雇用；使用）；有工作的",
+      "lemma": "employ",
+      "collocations": [
+        "be employed in",
+        "employed workers"
+      ],
+      "examples": [
+        "Data can be employed in this situation. 在这种情况下可以使用数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be employed in（被用于/从事）/ employed（被雇用的）"
+      }
+    },
     "certain": {
       "phonetic": "/ˈsɜːtn/",
       "pos": "adj.",
@@ -5701,6 +5932,56 @@
         "confusables": "situation（情形）/ condition（条件/状况）/ circumstance（环境，常用复数）"
       }
     },
+    "absence": {
+      "phonetic": "/ˈæbsəns/",
+      "pos": "n.",
+      "sense": "缺乏、缺席（不可数）",
+      "collocations": [
+        "absence of",
+        "in the absence of",
+        "absence from"
+      ],
+      "examples": [
+        "The absence of clear rules causes problems. 缺乏明确规则会带来问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "absence（缺席/缺乏）/ absent（缺席的，形容词）"
+      }
+    },
+    "definitive": {
+      "phonetic": "/dɪˈfɪnətɪv/",
+      "pos": "adj.",
+      "sense": "明确的、决定性的；最权威的",
+      "collocations": [
+        "definitive criteria",
+        "a definitive answer"
+      ],
+      "examples": [
+        "There are no definitive criteria here. 这里没有明确标准。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "definitive（决定性的）/ definite（明确的）/ definition（定义）"
+      }
+    },
+    "criteria": {
+      "phonetic": "/kraɪˈtɪəriə/",
+      "pos": "n.",
+      "sense": "标准、准则（criterion 的复数）",
+      "lemma": "criterion",
+      "collocations": [
+        "definitive criteria",
+        "meet the criteria"
+      ],
+      "examples": [
+        "Absence of definitive criteria limits data use. 缺乏明确标准会限制数据使用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "criteria（复数）/ criterion（单数）/ criterias（错误）"
+      }
+    },
     "time": {
       "phonetic": "/taɪm/",
       "pos": "n./v.",
@@ -5717,6 +5998,23 @@
       "more": {
         "synonyms": "period, moment, occasion",
         "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "constraints": {
+      "phonetic": "/kənˈstreɪnts/",
+      "pos": "n.",
+      "sense": "限制、约束（constraint 的复数）",
+      "lemma": "constraint",
+      "collocations": [
+        "time and resource constraints",
+        "budget constraints"
+      ],
+      "examples": [
+        "Time and resource constraints limit data use. 时间与资源限制限制了数据使用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "constraints（限制）/ limits（界限）"
       }
     },
     "novel": {

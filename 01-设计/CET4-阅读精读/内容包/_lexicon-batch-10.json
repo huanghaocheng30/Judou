@@ -1,0 +1,553 @@
+{
+  "abnormal": {
+    "phonetic": "/æbˈnɔːml/", "pos": "adj.", "sense": "异常的、不正常的",
+    "collocations": ["abnormal behaviour", "abnormal levels"],
+    "examples": ["The test showed abnormal results. 检测显示结果异常。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "ab-（偏离）+ normal（正常）", "confusables": "abnormal（异常的）/ normal（正常的）" }
+  },
+  "absence": {
+    "phonetic": "/ˈæbsəns/", "pos": "n.", "sense": "缺乏、缺席（不可数）",
+    "collocations": ["absence of", "in the absence of", "absence from"],
+    "examples": ["The absence of clear rules causes problems. 缺乏明确规则会带来问题。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "absence（缺席/缺乏）/ absent（缺席的，形容词）" }
+  },
+  "abuse": {
+    "phonetic": "/əˈbjuːs/", "pos": "n./v.", "sense": "滥用；虐待（名词读 /əˈbjuːs/，动词读 /əˈbjuːz/）",
+    "collocations": ["non-stop abuse", "drug abuse", "abuse of power"],
+    "examples": ["It is not a cycle of non-stop abuse. 这不是无休止的侵害循环。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "abuse（滥用/虐待）/ use（使用）" }
+  },
+  "account": {
+    "phonetic": "/əˈkaʊnt/", "pos": "n.", "sense": "叙述、报道；账户；账目",
+    "collocations": ["an account of", "account for", "on account of"],
+    "examples": ["Newspapers carry frightening accounts of addiction. 报纸刊登了吓人的成瘾报道。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "account（叙述/账户）/ account for（解释/占）" }
+  },
+  "achieve": {
+    "phonetic": "/əˈtʃiːv/", "pos": "v.", "sense": "实现、达到（目标、结果）",
+    "collocations": ["achieve a goal", "achieve success", "achieve results"],
+    "examples": ["They achieve better results together. 他们一起取得更好的结果。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "achieve（实现）/ arrive（到达）/ achievement（成就，名词）" }
+  },
+  "achievement": {
+    "phonetic": "/əˈtʃiːvmənt/", "pos": "n.", "sense": "成就（可数）；达成（不可数）",
+    "collocations": ["a sense of achievement", "academic achievement"],
+    "examples": ["Work gave them a sense of achievement. 工作给他们成就感。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "achievement（成就）/ achieve（实现）" }
+  },
+  "achieving": {
+    "phonetic": "/əˈtʃiːvɪŋ/", "pos": "v.", "sense": "achieve 的现在分词（实现、达到）",
+    "lemma": "achieve",
+    "collocations": ["achieving goals", "ways of achieving"],
+    "examples": ["Achieving equality takes time. 实现平等需要时间。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "achieving（现在分词）/ achieved（过去分词）" }
+  },
+  "acknowledges": {
+    "phonetic": "/əkˈnɒlɪdʒɪz/", "pos": "v.", "sense": "acknowledge 的第三人称单数（承认、认可）",
+    "lemma": "acknowledge",
+    "collocations": ["acknowledges that", "acknowledges the role of"],
+    "examples": ["This acknowledges that instinctive decisions have worked. 这承认了直觉决定曾经奏效。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "acknowledges（三单）/ acknowledge（原形）" }
+  },
+  "aclu": {
+    "phonetic": "/ˌeɪ siː el ˈjuː/", "pos": "n.（专有名词）", "sense": "美国公民自由联盟（American Civil Liberties Union 的缩写）",
+    "collocations": ["the ACLU", "ACLU and Outten & Golden"],
+    "examples": ["The ACLU announced a settlement. 美国公民自由联盟宣布了一项和解。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "缩写词，字母全部大写" }
+  },
+  "across": {
+    "phonetic": "/əˈkrɒs/", "pos": "prep./adv.", "sense": "穿过；遍及；在……对面",
+    "collocations": ["across the country", "across the world", "come across"],
+    "examples": ["He witnessed a domino effect across companies. 他目睹了各家公司的连锁反应。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "across（穿过/遍及）/ cross（穿过，动词）" }
+  },
+  "active": {
+    "phonetic": "/ˈæktɪv/", "pos": "adj.", "sense": "积极的、活跃的；主动的",
+    "collocations": ["physically active", "active role", "active member"],
+    "examples": ["Being active improves mood. 保持活跃能改善情绪。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "active（活跃的）/ passive（被动的）" }
+  },
+  "actively": {
+    "phonetic": "/ˈæktɪvli/", "pos": "adv.", "sense": "积极地、主动地",
+    "collocations": ["actively involved", "actively seek"],
+    "examples": ["They actively seek different views. 他们主动寻找不同观点。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "actively（积极地）/ actively 反义 passively" }
+  },
+  "add": {
+    "phonetic": "/æd/", "pos": "v.", "sense": "增加、添加；补充说（add that）",
+    "collocations": ["add to", "add up", "add that"],
+    "examples": ["Add exercise to the list. 把锻炼加进清单。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "add（添加）/ plus（加上）" }
+  },
+  "addiction": {
+    "phonetic": "/əˈdɪkʃn/", "pos": "n.", "sense": "上瘾、成瘾（可数/不可数）",
+    "collocations": ["drug addiction", "addiction to sth"],
+    "examples": ["Newspapers report drug addiction among teens. 报纸报道青少年吸毒成瘾。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "addiction（成瘾）/ addicted（上瘾的）/ addict（成瘾者）" }
+  },
+  "adds": {
+    "phonetic": "/ædz/", "pos": "v.", "sense": "add 的第三人称单数（增加；补充说）",
+    "lemma": "add",
+    "collocations": ["adds that", "adds up"],
+    "examples": ["She adds that the trend is real. 她补充说这一趋势是真实的。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "adds（三单）/ add（原形）" }
+  },
+  "adjust": {
+    "phonetic": "/əˈdʒʌst/", "pos": "v.", "sense": "调整、适应（adjust to）",
+    "collocations": ["adjust to", "adjust behaviour", "adjust for"],
+    "examples": ["They adjust their behaviour online. 他们在网上调整自己的行为。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "adjust（调整）/ adapt（适应/改编）/ adjustment（调整，名词）" }
+  },
+  "adjustments": {
+    "phonetic": "/əˈdʒʌstmənts/", "pos": "n.", "sense": "调整（adjustment 的复数）",
+    "lemma": "adjustment",
+    "collocations": ["make adjustments", "significant adjustments"],
+    "examples": ["Men must make significant adjustments. 男性必须做出重大调整。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "make adjustments（用 make）/ adjustment（调整）" }
+  },
+  "admitted": {
+    "phonetic": "/ədˈmɪtɪd/", "pos": "v.", "sense": "admit 的过去式/过去分词（承认；准许进入）",
+    "lemma": "admit",
+    "collocations": ["admitted that", "admitted doing", "be admitted to"],
+    "examples": ["Most men admitted the female did most of the work. 多数男性承认主要是女性在做。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "admitted（承认）/ be admitted to（被录取）" }
+  },
+  "advice": {
+    "phonetic": "/ədˈvaɪs/", "pos": "n.", "sense": "建议、忠告（不可数）",
+    "collocations": ["a piece of advice", "give advice", "take advice"],
+    "examples": ["The advice is the same: moderation. 建议还是那句：适度。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "advice（名词，不可数）/ advise（动词）" }
+  },
+  "affairs": {
+    "phonetic": "/əˈfeəz/", "pos": "n.", "sense": "事务、事件（affair 的复数）",
+    "lemma": "affair",
+    "collocations": ["current affairs", "public affairs", "a matter of affairs"],
+    "examples": ["She follows current affairs closely. 她密切关注时事。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "affairs（事务）/ affair（事件/婚外情）" }
+  },
+  "affection": {
+    "phonetic": "/əˈfekʃn/", "pos": "n.", "sense": "喜爱（不可数）",
+    "collocations": ["capture the affection of", "show affection"],
+    "examples": ["Few horses captured the affection of the British public. 很少有马赢得英国公众的喜爱。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "affection（喜爱）/ affect（影响）" }
+  },
+  "afford": {
+    "phonetic": "/əˈfɔːd/", "pos": "v.", "sense": "负担得起（afford to do / afford sth）",
+    "collocations": ["can afford to", "afford the cost"],
+    "examples": ["Few families can afford full-time care. 很少有家庭负担得起全职照护。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "afford（负担得起）/ effort（努力）" }
+  },
+  "agent": {
+    "phonetic": "/ˈeɪdʒənt/", "pos": "n.", "sense": "代理人、经纪人；因素",
+    "collocations": ["the agent who made the purchase", "a travel agent"],
+    "examples": ["The agent made the purchase. 经纪人完成了这笔购买。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "agent（代理人）/ agency（机构）" }
+  },
+  "aggressive": {
+    "phonetic": "/əˈɡresɪv/", "pos": "adj.", "sense": "攻击性的、好斗的；（商业）积极进取的",
+    "collocations": ["aggressive behaviour", "aggressive marketing"],
+    "examples": ["Newspapers report aggressive behaviour in teens. 报纸报道青少年的攻击行为。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "aggressive（攻击性的）/ assertive（坚定自信的，褒义）" }
+  },
+  "agricultural": {
+    "phonetic": "/ˌæɡrɪˈkʌltʃərəl/", "pos": "adj.", "sense": "农业的",
+    "collocations": ["agricultural land", "agricultural production"],
+    "examples": ["Agricultural output depends on climate. 农业产量取决于气候。"],
+    "isCet4HighFreq": true,
+    "more": { "roots": "agriculture（农业）+ -al", "confusables": "agricultural（农业的）/ agriculture（农业）" }
+  },
+  "agriculture's": {
+    "phonetic": "/ˈæɡrɪkʌltʃəz/", "pos": "n.（所有格）", "sense": "农业的（agriculture 的所有格）",
+    "lemma": "agriculture",
+    "collocations": ["agriculture's future"],
+    "examples": ["Agriculture's future depends on water. 农业的未来取决于水。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "所有格 's 加在词尾" }
+  },
+  "aiming": {
+    "phonetic": "/ˈeɪmɪŋ/", "pos": "v.", "sense": "aim 的现在分词（瞄准、旨在）",
+    "lemma": "aim",
+    "collocations": ["aiming to do", "aiming at"],
+    "examples": ["A policy aiming to help fathers. 一项旨在帮助父亲的政策。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "aim at（瞄准）/ aim to do（旨在）" }
+  },
+  "aintree": {
+    "phonetic": "/ˈeɪntriː/", "pos": "n.（专有名词）", "sense": "安特里（Aintree Racecourse，英国全国大赛马举办地）",
+    "collocations": ["Aintree Racecourse"],
+    "examples": ["He led parades at Aintree. 他在安特里领衔巡游。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "airfare": {
+    "phonetic": "/ˈeəfeə(r)/", "pos": "n.", "sense": "机票钱（可数/不可数）",
+    "collocations": ["cheaper airfares", "airfare differences"],
+    "examples": ["Airfares differ between men and women. 男女机票价格不同。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "air（航空）+ fare（费用）", "confusables": "airfare（机票）/ fare（车费/票价）" }
+  },
+  "airline": {
+    "phonetic": "/ˈeəlaɪn/", "pos": "n.", "sense": "航空公司（可数）",
+    "collocations": ["an airline company", "budget airlines"],
+    "examples": ["Airlines charge different fares. 航空公司收费不同。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "airline（航空公司）/ airport（机场）" }
+  },
+  "alarmist": {
+    "phonetic": "/əˈlɑːmɪst/", "pos": "adj./n.", "sense": "危言耸听的（形容词）；危言耸听者",
+    "collocations": ["alarmist claims", "alarmist language"],
+    "examples": ["The headlines were alarmist. 那些标题危言耸听。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "alarm（警报）+ -ist", "confusables": "alarmist（危言耸听的）/ alarming（令人担忧的）" }
+  },
+  "alike": {
+    "phonetic": "/əˈlaɪk/", "pos": "adj./adv.", "sense": "相似的；同样地（置于名词后）",
+    "collocations": ["personal and business alike", "young and old alike"],
+    "examples": ["The rule applies to students and teachers alike. 这条规定对师生同样适用。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "alike（后置）/ like（像，介词）/ similar（相似的，前置）" }
+  },
+  "allegedly": {
+    "phonetic": "/əˈledʒɪdli/", "pos": "adv.", "sense": "据称、据说（未经证实）",
+    "collocations": ["allegedly told", "allegedly denied"],
+    "examples": ["He was allegedly told mothers came first. 据称他被告知母亲优先。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "allege（声称）+ -ed + -ly", "confusables": "allegedly（据称）/ reportedly（据报道）" }
+  },
+  "allowing": {
+    "phonetic": "/əˈlaʊɪŋ/", "pos": "v.", "sense": "allow 的现在分词（允许）",
+    "lemma": "allow",
+    "collocations": ["allowing sb to do", "allowing for"],
+    "examples": ["A law allowing minors to delete data. 一项允许未成年人删除数据的法律。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "allowing（现在分词）/ allow sb to do（不是 doing）" }
+  },
+  "although": {
+    "phonetic": "/ɔːlˈðəʊ/", "pos": "conj.", "sense": "虽然、尽管（后接从句）",
+    "collocations": ["although it is", "although not"],
+    "examples": ["Although these accounts touch on real concerns, they miss the whole. 尽管这些报道触及真实担忧，却忽略了全貌。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "although + 从句 / despite + 名词" }
+  },
+  "amanda": {
+    "phonetic": "/əˈmændə/", "pos": "n.（专有名词）", "sense": "阿曼达（Amanda Lenhart，皮尤研究中心研究者）",
+    "collocations": ["Amanda Lenhart"],
+    "examples": ["Amanda Lenhart studied texting habits. 阿曼达·伦哈特研究了发短信习惯。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "ambivalent": {
+    "phonetic": "/æmˈbɪvələnt/", "pos": "adj.", "sense": "矛盾的、心情复杂的（be ambivalent about）",
+    "collocations": ["be ambivalent about", "ambivalent feelings"],
+    "examples": ["They are ambivalent about social media. 他们对社交媒体心情矛盾。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "ambivalent（矛盾的）/ ambiguous（含糊的）" }
+  },
+  "american": {
+    "phonetic": "/əˈmerɪkən/", "pos": "adj./n.", "sense": "美国的；美国人",
+    "collocations": ["American English", "the American Civil Liberties Union"],
+    "examples": ["An American study reached the same conclusion. 一项美国研究得出同样结论。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "American（美国的）/ America（美国）" }
+  },
+  "analyses": {
+    "phonetic": "/əˈnæləsiːz/", "pos": "n./v.", "sense": "analysis 的复数（分析）；analyse 的第三人称单数",
+    "lemma": "analysis",
+    "collocations": ["several analyses", "data analyses"],
+    "examples": ["Their analyses reached similar conclusions. 他们的分析得出类似结论。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "analyses（复数）/ analysis（单数）/ analyse（英式动词）" }
+  },
+  "andrea": {
+    "phonetic": "/ˈændriə/", "pos": "n.（专有名词）", "sense": "安德里亚（Andrea Lunsford，斯坦福大学学者）",
+    "collocations": ["Andrea Lunsford"],
+    "examples": ["Andrea Lunsford studied error rates. 安德里亚·伦斯福德研究了错误率。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "andrew": {
+    "phonetic": "/ˈændruː/", "pos": "n.（专有名词）", "sense": "安德鲁（本文提及的研究者名）",
+    "collocations": ["Andrew"],
+    "examples": ["Andrew led the research. 安德鲁主持了这项研究。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "专有名词，首字母大写" }
+  },
+  "animal": {
+    "phonetic": "/ˈænɪml/", "pos": "n./adj.", "sense": "动物（可数）/ 动物的",
+    "collocations": ["animal welfare", "animal products"],
+    "examples": ["Animal farming uses much land. 畜牧业占用大量土地。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "animal（动物）/ creature（生物）" }
+  },
+  "animals": {
+    "phonetic": "/ˈænɪmlz/", "pos": "n.", "sense": "动物（animal 的复数）",
+    "lemma": "animal",
+    "collocations": ["farm animals", "wild animals"],
+    "examples": ["Farm animals need space. 农场动物需要空间。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "animals（复数）/ animal（单数）" }
+  },
+  "announced": {
+    "phonetic": "/əˈnaʊnst/", "pos": "v.", "sense": "announce 的过去式/过去分词（宣布）",
+    "lemma": "announce",
+    "collocations": ["announced that", "announced a settlement"],
+    "examples": ["They announced a historic settlement. 他们宣布了一项历史性的和解。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "announce（宣布）/ announcement（公告）" }
+  },
+  "answer": {
+    "phonetic": "/ˈɑːnsə(r)/", "pos": "n./v.", "sense": "答案、回答（可数）/ 回答；解决",
+    "collocations": ["the answer to", "answer a question", "answer for"],
+    "examples": ["For most scientists, the answer is no. 对多数科学家来说，答案是否定的。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "answer to（……的答案，用 to）/ reply to（回复）" }
+  },
+  "answering": {
+    "phonetic": "/ˈɑːnsərɪŋ/", "pos": "v.", "sense": "answer 的现在分词（回答、接听）",
+    "lemma": "answer",
+    "collocations": ["answering the phone", "answering questions"],
+    "examples": ["Answering the phone and writing at once. 一边接电话一边写东西。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "answering（现在分词）/ answered（过去式）" }
+  },
+  "answers": {
+    "phonetic": "/ˈɑːnsəz/", "pos": "n./v.", "sense": "答案（answer 的复数）；回答（动词三单）",
+    "lemma": "answer",
+    "collocations": ["their answers", "answering questions"],
+    "examples": ["Their answers painted a different picture. 他们的回答呈现出另一番图景。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "answers（复数/三单）/ answer（单数/原形）" }
+  },
+  "anxieties": {
+    "phonetic": "/æŋˈzaɪətiz/", "pos": "n.", "sense": "焦虑（anxiety 的复数）",
+    "lemma": "anxiety",
+    "collocations": ["anxieties about", "ease anxieties"],
+    "examples": ["These anxieties may be based on nostalgia. 这些焦虑可能源于怀旧。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "anxieties（焦虑，复数）/ anxiety（单数/不可数）/ anxious（焦虑的）" }
+  },
+  "anything": {
+    "phonetic": "/ˈeniθɪŋ/", "pos": "pron.", "sense": "任何事物（否定/疑问句常用）",
+    "collocations": ["anything else", "not anything", "anything but"],
+    "examples": ["They rarely share anything personal. 他们很少分享私事。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "anything（任何事）/ something（某事）/ nothing（没有）" }
+  },
+  "apart": {
+    "phonetic": "/əˈpɑːt/", "pos": "adv.", "sense": "分开地；除……之外（apart from）",
+    "collocations": ["apart from", "fall apart", "tell apart"],
+    "examples": ["Apart from cost, there are other issues. 除了成本，还有其他问题。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "apart from（除……之外）/ besides（此外）" }
+  },
+  "apparent": {
+    "phonetic": "/əˈpærənt/", "pos": "adj.", "sense": "明显的；表面上的",
+    "collocations": ["it was apparent that", "become apparent", "for no apparent reason"],
+    "examples": ["It wasn't apparent at the time. 当时并不明显。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "apparent（明显的）/ apparently（显然）/ appear（出现）" }
+  },
+  "applies": {
+    "phonetic": "/əˈplaɪz/", "pos": "v.", "sense": "apply 的第三人称单数（适用；申请）",
+    "lemma": "apply",
+    "collocations": ["applies to", "applies for"],
+    "examples": ["The advice applies to everything in parenting. 这条建议适用于育儿中的一切。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "applies to（适用于）/ applies for（申请）" }
+  },
+  "apply": {
+    "phonetic": "/əˈplaɪ/", "pos": "v.", "sense": "适用（apply to）；申请（apply for）；应用",
+    "collocations": ["apply to", "apply for", "apply pressure"],
+    "examples": ["The rule applies to everyone. 这条规则适用于所有人。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "apply to（适用）/ apply for（申请）/ apply sth to（把……用于）" }
+  },
+  "applying": {
+    "phonetic": "/əˈplaɪɪŋ/", "pos": "v.", "sense": "apply 的现在分词（应用、申请）",
+    "lemma": "apply",
+    "collocations": ["applying for", "applying the rule"],
+    "examples": ["They are applying the same logic. 他们正在套用同样的逻辑。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "applying（现在分词）/ applied（过去式/应用的）" }
+  },
+  "appropriate": {
+    "phonetic": "/əˈprəʊpriət/", "pos": "adj.", "sense": "合适的、恰当的",
+    "collocations": ["an appropriate duration", "appropriate for", "age-appropriate"],
+    "examples": ["Two to four weeks was seen as appropriate. 两到四周被视为合适。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "appropriate（合适的，形容词）/ appropriate（拨款，动词，重音后移）" }
+  },
+  "area": {
+    "phonetic": "/ˈeəriə/", "pos": "n.", "sense": "地区；领域、方面（可数）",
+    "collocations": ["in the area of", "a research area", "rural areas"],
+    "examples": ["This is a growing research area. 这是一个不断发展的研究领域。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "area（地区/领域）/ region（区域）" }
+  },
+  "areas": {
+    "phonetic": "/ˈeəriəz/", "pos": "n.", "sense": "地区、领域（area 的复数）",
+    "lemma": "area",
+    "collocations": ["rural areas", "key areas"],
+    "examples": ["Progress varies across areas. 不同领域的进展不一。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "areas（复数）/ area（单数）" }
+  },
+  "argues": {
+    "phonetic": "/ˈɑːɡjuːz/", "pos": "v.", "sense": "argue 的第三人称单数（主张、论证；争吵）",
+    "lemma": "argue",
+    "collocations": ["argues that", "argues for"],
+    "examples": ["Eynon argues that modelling behaviour is key. 艾农认为以身作则很关键。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "argues that（主张）/ argues with（与……争吵）" }
+  },
+  "arrangements": {
+    "phonetic": "/əˈreɪndʒmənts/", "pos": "n.", "sense": "安排、布置（arrangement 的复数）",
+    "lemma": "arrangement",
+    "collocations": ["flexible work arrangements", "make arrangements"],
+    "examples": ["Half the women used flexible arrangements. 半数女性使用弹性安排。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "arrangements（安排）/ arrangement（单数）" }
+  },
+  "arrive": {
+    "phonetic": "/əˈraɪv/", "pos": "v.", "sense": "到达（arrive at/in）；达成（arrive at a decision）",
+    "collocations": ["arrive at", "arrive in", "arrive at a conclusion"],
+    "examples": ["They arrive at the best possible decisions. 他们做出尽可能最好的决定。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "arrive at（小地点/结论）/ arrive in（大地点）/ reach（及物，直接接宾语）" }
+  },
+  "asked": {
+    "phonetic": "/ɑːskt/", "pos": "v.", "sense": "ask 的过去式/过去分词（问、要求）",
+    "lemma": "ask",
+    "collocations": ["asked about", "was asked to"],
+    "examples": ["They were asked about how tasks were divided. 他们被问到任务如何分工。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "asked（过去式）/ ask（原形）" }
+  },
+  "aspects": {
+    "phonetic": "/ˈæspekts/", "pos": "n.", "sense": "方面（aspect 的复数）",
+    "lemma": "aspect",
+    "collocations": ["all of these aspects", "in some aspects"],
+    "examples": ["These aspects are not reflected in the data. 这些方面没有反映在数据中。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "aspects（方面）/ respects（方面，in some respects 同义）" }
+  },
+  "attentive": {
+    "phonetic": "/əˈtentɪv/", "pos": "adj.", "sense": "专注的、留意的；体贴的",
+    "collocations": ["attentive to", "an attentive audience"],
+    "examples": ["Good listeners are attentive. 好的倾听者很专注。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "at-（to）+ tendere（伸）→ 注意力伸向", "confusables": "attentive（专注的）/ attention（注意力）" }
+  },
+  "attributions": {
+    "phonetic": "/ˌætrɪˈbjuːʃnz/", "pos": "n.", "sense": "归因、归咎（attribution 的复数）",
+    "lemma": "attribution",
+    "collocations": ["attributions of blame", "causal attributions"],
+    "examples": ["Our attributions shape how we feel. 我们的归因影响我们的感受。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "attribute（归因于）+ -ion", "confusables": "attribution（归因）/ attribute（属性/归因）" }
+  },
+  "audience": {
+    "phonetic": "/ˈɔːdiəns/", "pos": "n.", "sense": "观众、听众、读者群（可数）",
+    "collocations": ["authentic audience", "a wide audience", "target audience"],
+    "examples": ["An authentic audience makes them work harder. 真实读者让他们更努力。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "audience（受众）/ spectator（观众，现场）" }
+  },
+  "authentic": {
+    "phonetic": "/ɔːˈθentɪk/", "pos": "adj.", "sense": "真实的、真正的；可信的",
+    "collocations": ["authentic audience", "authentic experience"],
+    "examples": ["They write for an authentic audience. 他们为真实读者写作。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "authentic（真实可信的）/ genuine（真正的，非伪造）" }
+  },
+  "author": {
+    "phonetic": "/ˈɔːθə(r)/", "pos": "n./v.", "sense": "作者（可数）/ 创作",
+    "collocations": ["the author of", "best-selling author"],
+    "examples": ["The author of the study explains the gap. 该研究的作者解释了这一差距。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "author（作者）/ writer（写作者）/ authority（权威）" }
+  },
+  "authors": {
+    "phonetic": "/ˈɔːθəz/", "pos": "n.", "sense": "作者（author 的复数）",
+    "lemma": "author",
+    "collocations": ["the authors note", "co-authors"],
+    "examples": ["The authors note several limits. 作者指出了若干局限。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "authors（作者，复数）/ author（单数）" }
+  },
+  "automatic": {
+    "phonetic": "/ˌɔːtəˈmætɪk/", "pos": "adj.", "sense": "自动的；无意识的",
+    "collocations": ["automatic process", "automatic response"],
+    "examples": ["Saving is automatic in this app. 这个应用会自动保存。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "automatic（自动的）/ automated（被自动化的）/ automatically（自动地）" }
+  },
+  "available": {
+    "phonetic": "/əˈveɪləbl/", "pos": "adj.", "sense": "可获得的、可用的；有空的",
+    "collocations": ["be available to", "readily available", "make sth available"],
+    "examples": ["The data is available online. 这些数据可以在线获取。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "available（可用的）/ accessible（可接近的）" }
+  },
+  "avoidance": {
+    "phonetic": "/əˈvɔɪdəns/", "pos": "n.", "sense": "避免、回避（不可数）",
+    "collocations": ["avoidance of", "conflict avoidance"],
+    "examples": ["Avoidance of risk can cost opportunities. 回避风险可能失去机会。"],
+    "isCet4HighFreq": false,
+    "more": { "roots": "avoid（避免）+ -ance", "confusables": "avoidance（回避）/ avoid（避免）" }
+  },
+  "babies": {
+    "phonetic": "/ˈbeɪbiz/", "pos": "n.", "sense": "婴儿（baby 的复数）",
+    "lemma": "baby",
+    "collocations": ["having babies", "babies and parents"],
+    "examples": ["Women staying home having babies is an old standard. 「女性在家带孩子」是旧标准。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "babies（复数）/ baby（单数）" }
+  },
+  "backed": {
+    "phonetic": "/bækt/", "pos": "v./adj.", "sense": "back 的过去式/过去分词（支持）；有支持的",
+    "lemma": "back",
+    "collocations": ["be backed by", "government-backed"],
+    "examples": ["Instinctive decisions are backed by experience. 直觉决定有经验支撑。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "be backed by（有……支持）/ back up（支持/备份）" }
+  },
+  "balance": {
+    "phonetic": "/ˈbæləns/", "pos": "n./v.", "sense": "平衡（不可数/可数）；结余 / 使平衡",
+    "collocations": ["work-life balance", "keep a balance", "balance A against B"],
+    "examples": ["They seek a better work-life balance. 他们追求更好的工作与生活平衡。"],
+    "isCet4HighFreq": true,
+    "more": { "confusables": "balance（平衡）/ balanced（均衡的）" }
+  },
+  "baron": {
+    "phonetic": "/ˈbærən/", "pos": "n.", "sense": "男爵；大亨、巨头（business baron）",
+    "collocations": ["a press baron", "a business baron"],
+    "examples": ["The press baron controlled several papers. 这位报业大亨控制着数家报纸。"],
+    "isCet4HighFreq": false,
+    "more": { "confusables": "baron（男爵/巨头）/ barren（贫瘠的）" }
+  }
+}

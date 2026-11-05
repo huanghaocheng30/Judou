@@ -11949,6 +11949,22 @@
         "confusables": "six（六）/ sixth（第六）"
       }
     },
+    "animal": {
+      "phonetic": "/ˈænɪml/",
+      "pos": "n./adj.",
+      "sense": "动物（可数）/ 动物的",
+      "collocations": [
+        "animal welfare",
+        "animal products"
+      ],
+      "examples": [
+        "Animal farming uses much land. 畜牧业占用大量土地。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "animal（动物）/ creature（生物）"
+      }
+    },
     "species": {
       "phonetic": "/ˈspiːʃiːz/",
       "pos": "n.",
@@ -11998,6 +12014,23 @@
       "more": {
         "roots": "ex-（出）+ stinguere（熄灭）",
         "confusables": "extinct（灭绝的）/ extinction（灭绝，名词）"
+      }
+    },
+    "due": {
+      "phonetic": "/djuː/",
+      "pos": "adj./prep.",
+      "sense": "预期的、到期的；（due to）由于",
+      "collocations": [
+        "due to",
+        "be due to do",
+        "due date"
+      ],
+      "examples": [
+        "The change is due to new law. 这一变化源于新法律。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "due to（由于，介词短语）/ because of（同义）/ be due to do（预计做）"
       }
     },
     "climate": {
@@ -12275,6 +12308,22 @@
         "confusables": "week（星期）/ weak（虚弱的）"
       }
     },
+    "bbc": {
+      "phonetic": "/ˌbiː biː ˈsiː/",
+      "pos": "n.（专有名词）",
+      "sense": "英国广播公司（British Broadcasting Corporation）",
+      "collocations": [
+        "the BBC",
+        "BBC News"
+      ],
+      "examples": [
+        "The BBC reported the findings. 英国广播公司报道了这些发现。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "缩写词，字母大写"
+      }
+    },
     "future": {
       "phonetic": "/ˈfjuːtʃə(r)/",
       "pos": "n./adj.",
@@ -12290,6 +12339,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "in the future（将来）/ in future（英式：从今往后）"
+      }
+    },
+    "efforts": {
+      "phonetic": "/ˈefəts/",
+      "pos": "n.",
+      "sense": "努力（effort 的复数）",
+      "lemma": "effort",
+      "collocations": [
+        "make efforts",
+        "efforts to do"
+      ],
+      "examples": [
+        "Their efforts to change the culture continue. 他们改变文化的努力仍在继续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make an effort（努力）/ take effort（费力）/ effortless（不费力的）"
       }
     },
     "help": {
@@ -12343,6 +12409,23 @@
         "confusables": "increased（增加的，作定语）/ increasing（不断增加的）"
       }
     },
+    "droughts": {
+      "phonetic": "/draʊts/",
+      "pos": "n.",
+      "sense": "干旱（drought 的复数）",
+      "lemma": "drought",
+      "collocations": [
+        "severe droughts",
+        "droughts and floods"
+      ],
+      "examples": [
+        "Droughts are becoming more frequent. 干旱越来越频繁。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "droughts（干旱）/ draughts（穿堂风）"
+      }
+    },
     "using": {
       "phonetic": "/ˈjuːzɪŋ/",
       "pos": "v.",
@@ -12394,6 +12477,22 @@
         "confusables": "university（大学）/ college（学院）/ at university（在读大学，不加 the）"
       }
     },
+    "cape": {
+      "phonetic": "/keɪp/",
+      "pos": "n.",
+      "sense": "海角；披肩",
+      "collocations": [
+        "Cape Town",
+        "a cape of"
+      ],
+      "examples": [
+        "They met in Cape Town. 他们在开普敦见面。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "cape（海角/披肩）/ cap（帽子）"
+      }
+    },
     "whether": {
       "phonetic": "/ˈweðə(r)/",
       "pos": "conj.",
@@ -12409,6 +12508,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）"
+      }
+    },
+    "design": {
+      "phonetic": "/dɪˈzaɪn/",
+      "pos": "n./v.",
+      "sense": "设计（不可数/可数）；计划 / 设计",
+      "collocations": [
+        "by design",
+        "design a study",
+        "product design"
+      ],
+      "examples": [
+        "The study design had limitations. 研究设计存在局限。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "by design（故意地）/ by chance（偶然）"
       }
     },
     "survive": {
@@ -12461,6 +12577,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "without doing（介词 + 动名词）/ without 不接从句（除非 without that，罕见）"
+      }
+    },
+    "can't": {
+      "phonetic": "/kɑːnt/",
+      "pos": "缩略",
+      "sense": "cannot 的缩写（不能）",
+      "collocations": [
+        "can't help doing",
+        "can't afford to"
+      ],
+      "examples": [
+        "Companies can't do all these things and then turn around. 公司不能做了这些又反口。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "can't（cannot）/ can not（分写用于强调）"
       }
     },
     "ways": {
@@ -12549,6 +12681,23 @@
         "confusables": "despite + 名词（不是从句）/ although + 从句"
       }
     },
+    "alarmist": {
+      "phonetic": "/əˈlɑːmɪst/",
+      "pos": "adj./n.",
+      "sense": "危言耸听的（形容词）；危言耸听者",
+      "collocations": [
+        "alarmist claims",
+        "alarmist language"
+      ],
+      "examples": [
+        "The headlines were alarmist. 那些标题危言耸听。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "alarm（警报）+ -ist",
+        "confusables": "alarmist（危言耸听的）/ alarming（令人担忧的）"
+      }
+    },
     "evidence": {
       "phonetic": "/ˈevɪdəns/",
       "pos": "n.",
@@ -12618,6 +12767,23 @@
         "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
       }
     },
+    "beans": {
+      "phonetic": "/biːnz/",
+      "pos": "n.",
+      "sense": "豆类（bean 的复数）",
+      "lemma": "bean",
+      "collocations": [
+        "soy beans",
+        "coffee beans"
+      ],
+      "examples": [
+        "Beans are a source of protein. 豆类是蛋白质来源。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "beans（豆类）/ bins（垃圾桶）"
+      }
+    },
     "chocolate": {
       "phonetic": "/ˈtʃɒklət/",
       "pos": "n.",
@@ -12664,6 +12830,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "wheat（小麦）/ wheat 与 weed（杂草）拼写易混"
+      }
+    },
+    "cease": {
+      "phonetic": "/siːs/",
+      "pos": "v.",
+      "sense": "停止、终止（cease to do / cease doing）",
+      "collocations": [
+        "cease to exist",
+        "cease doing"
+      ],
+      "examples": [
+        "The practice has not ceased. 这种做法并未停止。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "cease（停止，正式）/ stop（停止，通用）/ seize（抓住）"
       }
     },
     "exist": {
@@ -12764,6 +12946,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "get（变得/得到，口语）/ become（变得，正式）/ obtain（获得，正式）"
+      }
+    },
+    "disadvantage": {
+      "phonetic": "/ˌdɪsədˈvɑːntɪdʒ/",
+      "pos": "n.",
+      "sense": "劣势、不利条件（可数）",
+      "collocations": [
+        "the disadvantage of",
+        "at a disadvantage",
+        "to sb's disadvantage"
+      ],
+      "examples": [
+        "The disadvantage is that local farmers suffer. 劣势是当地农民受损。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "disadvantage（劣势）/ drawback（缺点）/ advantage（优势）"
       }
     },
     "suffer": {
@@ -12967,6 +13166,22 @@
         "confusables": "department（部门）/ division（分部）/ section（科/部分）"
       }
     },
+    "agriculture's": {
+      "phonetic": "/ˈæɡrɪkʌltʃəz/",
+      "pos": "n.（所有格）",
+      "sense": "农业的（agriculture 的所有格）",
+      "lemma": "agriculture",
+      "collocations": [
+        "agriculture's future"
+      ],
+      "examples": [
+        "Agriculture's future depends on water. 农业的未来取决于水。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "所有格 's 加在词尾"
+      }
+    },
     "office": {
       "phonetic": "/ˈɒfɪs/",
       "pos": "n.",
@@ -13000,6 +13215,38 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "in other words（换句话说）/ in a word（简言之）/ word（单词）"
+      }
+    },
+    "corner": {
+      "phonetic": "/ˈkɔːnə(r)/",
+      "pos": "n./v.",
+      "sense": "角落（可数）；转弯；垄断（动词）",
+      "collocations": [
+        "around the corner",
+        "in the corner"
+      ],
+      "examples": [
+        "A change may be around the corner. 变化可能即将到来。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "around the corner（即将来临）/ in the corner（在角落）"
+      }
+    },
+    "earth": {
+      "phonetic": "/ɜːθ/",
+      "pos": "n.",
+      "sense": "地球（the earth）；泥土；究竟（on earth）",
+      "collocations": [
+        "on earth",
+        "the earth's climate"
+      ],
+      "examples": [
+        "The earth's climate is changing. 地球气候正在改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "earth（地球/泥土）/ world（世界）"
       }
     },
     "everyone": {
@@ -13103,6 +13350,23 @@
         "confusables": "staple（主食/主要产品）/ staples（订书钉）"
       }
     },
+    "coffee": {
+      "phonetic": "/ˈkɒfi/",
+      "pos": "n.",
+      "sense": "咖啡（不可数；一杯咖啡可数）",
+      "collocations": [
+        "a cup of coffee",
+        "coffee beans",
+        "coffee prices"
+      ],
+      "examples": [
+        "Coffee prices have risen sharply. 咖啡价格大幅上涨。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "coffee（不可数）/ a coffee（一杯咖啡）"
+      }
+    },
     "likely": {
       "phonetic": "/ˈlaɪkli/",
       "pos": "adj./adv.",
@@ -13118,6 +13382,40 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "likely（可作 adj./adv.）/ probable/possible（只作形容词）"
+      }
+    },
+    "decreases": {
+      "phonetic": "/dɪˈkriːsɪz/",
+      "pos": "v./n.",
+      "sense": "decrease 的第三人称单数（减少）；减少（复数）",
+      "lemma": "decrease",
+      "collocations": [
+        "decreases with",
+        "sharp decreases"
+      ],
+      "examples": [
+        "Stress decreases with social support. 压力随社会支持而减少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "decreases（三单/复数）/ decrease（原形/单数）"
+      }
+    },
+    "depend": {
+      "phonetic": "/dɪˈpend/",
+      "pos": "v.",
+      "sense": "取决于（depend on）；依靠",
+      "collocations": [
+        "depend on",
+        "it depends",
+        "depending on"
+      ],
+      "examples": [
+        "Culture change depends on companies. 文化变革取决于公司。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "depend on（依赖/取决于）/ depend on it that（后接从句）"
       }
     },
     "crop": {
@@ -13169,6 +13467,39 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "in general（总的来说）/ generally（通常）/ generic（通用的）"
+      }
+    },
+    "anything": {
+      "phonetic": "/ˈeniθɪŋ/",
+      "pos": "pron.",
+      "sense": "任何事物（否定/疑问句常用）",
+      "collocations": [
+        "anything else",
+        "not anything",
+        "anything but"
+      ],
+      "examples": [
+        "They rarely share anything personal. 他们很少分享私事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "anything（任何事）/ something（某事）/ nothing（没有）"
+      }
+    },
+    "c": {
+      "phonetic": "/siː/",
+      "pos": "n.（字母/缩写）",
+      "sense": "字母 C；文中作摄氏度（℃）或词库选项编号",
+      "collocations": [
+        "degrees C",
+        "option C"
+      ],
+      "examples": [
+        "Water boils at 100 degrees C. 水在 100 摄氏度沸腾。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "C（字母/摄氏）/ see（看见）同音"
       }
     },
     "bad": {
@@ -13254,6 +13585,24 @@
         "confusables": "public（公共的）/ pubic（阴部的，拼写易错）"
       }
     },
+    "affairs": {
+      "phonetic": "/əˈfeəz/",
+      "pos": "n.",
+      "sense": "事务、事件（affair 的复数）",
+      "lemma": "affair",
+      "collocations": [
+        "current affairs",
+        "public affairs",
+        "a matter of affairs"
+      ],
+      "examples": [
+        "She follows current affairs closely. 她密切关注时事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "affairs（事务）/ affair（事件/婚外情）"
+      }
+    },
     "columbia": {
       "phonetic": "/kəˈlʌmbiə/",
       "pos": "n.（专有名词）",
@@ -13320,6 +13669,40 @@
         "confusables": "studies（复数/三单）/ study（单数）"
       }
     },
+    "colleague": {
+      "phonetic": "/ˈkɒliːɡ/",
+      "pos": "n.",
+      "sense": "同事（可数）",
+      "collocations": [
+        "a colleague of mine",
+        "work colleagues"
+      ],
+      "examples": [
+        "She discussed it with a colleague. 她和一位同事讨论了这件事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "colleague（同事）/ college（学院）"
+      }
+    },
+    "built": {
+      "phonetic": "/bɪlt/",
+      "pos": "v.",
+      "sense": "build 的过去式/过去分词（建造）；构成的",
+      "lemma": "build",
+      "collocations": [
+        "be built on",
+        "built-in",
+        "well built"
+      ],
+      "examples": [
+        "The argument is built on weak evidence. 这个论证建立在薄弱证据上。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "built（build 的过去式）/ build（原形）"
+      }
+    },
     "show": {
       "phonetic": "/ʃəʊ/",
       "pos": "v./n.",
@@ -13352,6 +13735,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "decline（下降，不及物）/ refuse（拒绝）/ decline to do（婉拒）"
+      }
+    },
+    "crossing": {
+      "phonetic": "/ˈkrɒsɪŋ/",
+      "pos": "n./v.",
+      "sense": "穿越、十字路口（可数）；cross 的现在分词",
+      "lemma": "cross",
+      "collocations": [
+        "border crossing",
+        "crossing the road"
+      ],
+      "examples": [
+        "Border crossings increased last year. 去年边境通关量增加。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "crossing（穿越）/ cross（穿过）"
       }
     },
     "threshold": {
@@ -13437,6 +13837,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "north（北）/ northern（北方的，形容词）"
+      }
+    },
+    "declines": {
+      "phonetic": "/dɪˈklaɪnz/",
+      "pos": "v./n.",
+      "sense": "decline 的第三人称单数（下降、拒绝）；下降（复数）",
+      "lemma": "decline",
+      "collocations": [
+        "rates decline",
+        "sharp declines"
+      ],
+      "examples": [
+        "Reading rates decline slowly. 阅读率缓慢下降。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "declines（三单/复数）/ decline（原形/单数）"
       }
     },
     "quality": {
@@ -13607,6 +14024,40 @@
         "confusables": "damaging（有害的）/ damaged（受损的）"
       }
     },
+    "although": {
+      "phonetic": "/ɔːlˈðəʊ/",
+      "pos": "conj.",
+      "sense": "虽然、尽管（后接从句）",
+      "collocations": [
+        "although it is",
+        "although not"
+      ],
+      "examples": [
+        "Although these accounts touch on real concerns, they miss the whole. 尽管这些报道触及真实担忧，却忽略了全貌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "although + 从句 / despite + 名词"
+      }
+    },
+    "cutoffs": {
+      "phonetic": "/ˈkʌtɒfs/",
+      "pos": "n.",
+      "sense": "截止点、分界线（cutoff 的复数）",
+      "lemma": "cutoff",
+      "collocations": [
+        "income cutoffs",
+        "cutoff points"
+      ],
+      "examples": [
+        "Income cutoffs determine eligibility. 收入门槛决定资格。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "cut（切）+ off（断）",
+        "confusables": "cutoffs（分界点）/ cut off（切断，动词）"
+      }
+    },
     "end": {
       "phonetic": "/end/",
       "pos": "n./v.",
@@ -13709,6 +14160,40 @@
         "confusables": "a lot of（可数/不可数都行）/ a lot（副词，很）/ a lot of 为口语"
       }
     },
+    "agricultural": {
+      "phonetic": "/ˌæɡrɪˈkʌltʃərəl/",
+      "pos": "adj.",
+      "sense": "农业的",
+      "collocations": [
+        "agricultural land",
+        "agricultural production"
+      ],
+      "examples": [
+        "Agricultural output depends on climate. 农业产量取决于气候。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "agriculture（农业）+ -al",
+        "confusables": "agricultural（农业的）/ agriculture（农业）"
+      }
+    },
+    "areas": {
+      "phonetic": "/ˈeəriəz/",
+      "pos": "n.",
+      "sense": "地区、领域（area 的复数）",
+      "lemma": "area",
+      "collocations": [
+        "rural areas",
+        "key areas"
+      ],
+      "examples": [
+        "Progress varies across areas. 不同领域的进展不一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "areas（复数）/ area（单数）"
+      }
+    },
     "see": {
       "phonetic": "/siː/",
       "pos": "v.",
@@ -13744,6 +14229,23 @@
         "confusables": "significant（显著的）/ significance（意义）"
       }
     },
+    "current": {
+      "phonetic": "/ˈkʌrənt/",
+      "pos": "adj./n.",
+      "sense": "当前的（形容词）；水流、电流（名词）",
+      "collocations": [
+        "current situation",
+        "at current rates",
+        "electric current"
+      ],
+      "examples": [
+        "At current rates, change will be slow. 以目前的速度，改变会很慢。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "current（当前的）/ currently（目前）/ currant（醋栗）"
+      }
+    },
     "conditions": {
       "phonetic": "/kənˈdɪʃnz/",
       "pos": "n.",
@@ -13760,6 +14262,24 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "condition（状况/病症）/ situation（情形）/ state（状态）"
+      }
+    },
+    "croplands": {
+      "phonetic": "/ˈkrɒplændz/",
+      "pos": "n.",
+      "sense": "耕地（cropland 的复数）",
+      "lemma": "cropland",
+      "collocations": [
+        "croplands and pastures",
+        "fertile croplands"
+      ],
+      "examples": [
+        "Croplands cover much of the region. 耕地覆盖该地区大部分。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "crop（作物）+ land（土地）",
+        "confusables": "croplands（耕地）/ farmland（农田）"
       }
     },
     "experience": {
@@ -13863,6 +14383,22 @@
         "confusables": "everything（一切）/ every thing（每件物品）"
       }
     },
+    "besides": {
+      "phonetic": "/bɪˈsaɪdz/",
+      "pos": "prep./adv.",
+      "sense": "除……之外（还有）；此外",
+      "collocations": [
+        "besides that",
+        "besides doing"
+      ],
+      "examples": [
+        "Besides cost, there is also a time issue. 除了成本，还有时间问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "besides（除……之外还有）/ except（除……之外没有）/ beside（在……旁边）"
+      }
+    },
     "largely": {
       "phonetic": "/ˈlɑːdʒli/",
       "pos": "adv.",
@@ -13894,6 +14430,55 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "tend to do（倾向于）/ tend to sb（照料某人）"
+      }
+    },
+    "confined": {
+      "phonetic": "/kənˈfaɪnd/",
+      "pos": "v./adj.",
+      "sense": "confine 的过去式/过去分词（限制）；受限制的",
+      "lemma": "confine",
+      "collocations": [
+        "be confined to",
+        "confined spaces"
+      ],
+      "examples": [
+        "The effects are not confined to work. 影响不限于工作。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be confined to（仅限于）/ limit（限制）"
+      }
+    },
+    "area": {
+      "phonetic": "/ˈeəriə/",
+      "pos": "n.",
+      "sense": "地区；领域、方面（可数）",
+      "collocations": [
+        "in the area of",
+        "a research area",
+        "rural areas"
+      ],
+      "examples": [
+        "This is a growing research area. 这是一个不断发展的研究领域。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "area（地区/领域）/ region（区域）"
+      }
+    },
+    "andrew": {
+      "phonetic": "/ˈændruː/",
+      "pos": "n.（专有名词）",
+      "sense": "安德鲁（本文提及的研究者名）",
+      "collocations": [
+        "Andrew"
+      ],
+      "examples": [
+        "Andrew led the research. 安德鲁主持了这项研究。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "专有名词，首字母大写"
       }
     },
     "jarvis": {
@@ -13928,6 +14513,22 @@
         "confusables": "colleague（同事）/ college（学院）"
       }
     },
+    "coffee-growing": {
+      "phonetic": "/ˈkɒfi ˌɡrəʊɪŋ/",
+      "pos": "adj.",
+      "sense": "种植咖啡的（复合形容词）",
+      "collocations": [
+        "coffee-growing regions",
+        "coffee-growing countries"
+      ],
+      "examples": [
+        "Coffee-growing regions face drought. 咖啡种植区面临干旱。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "coffee-growing（种咖啡的）/ coffee grower（咖啡种植者）"
+      }
+    },
     "central": {
       "phonetic": "/ˈsentrəl/",
       "pos": "adj.",
@@ -13959,6 +14560,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "America（美国/美洲）/ American（美国的/美国人）"
+      }
+    },
+    "brazil": {
+      "phonetic": "/brəˈzɪl/",
+      "pos": "n.（专有名词）",
+      "sense": "巴西（南美洲国家；Brazilian 巴西的、巴西人）",
+      "collocations": [
+        "in Brazil",
+        "Brazilian"
+      ],
+      "examples": [
+        "Brazil is a major soybean producer. 巴西是大豆主要生产国。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "Brazil（巴西）/ Brazilian（巴西的）"
       }
     },
     "become": {
@@ -13995,6 +14612,22 @@
         "confusables": "great（巨大/很棒）/ big（大，物理）/ large（大，数量）"
       }
     },
+    "cocoa": {
+      "phonetic": "/ˈkəʊkəʊ/",
+      "pos": "n.",
+      "sense": "可可（粉/豆，不可数）",
+      "collocations": [
+        "cocoa production",
+        "cocoa prices"
+      ],
+      "examples": [
+        "Cocoa farmers face rising costs. 可可种植者面临成本上升。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "cocoa（可可）/ cacao（可可树/豆）"
+      }
+    },
     "high": {
       "phonetic": "/haɪ/",
       "pos": "adj./adv.",
@@ -14010,6 +14643,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "high（具体高）/ highly（抽象程度高，如 highly likely）"
+      }
+    },
+    "available": {
+      "phonetic": "/əˈveɪləbl/",
+      "pos": "adj.",
+      "sense": "可获得的、可用的；有空的",
+      "collocations": [
+        "be available to",
+        "readily available",
+        "make sth available"
+      ],
+      "examples": [
+        "The data is available online. 这些数据可以在线获取。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "available（可用的）/ accessible（可接近的）"
       }
     },
     "want": {
@@ -14064,6 +14714,22 @@
         "confusables": "by no means（绝不）/ by all means（当然可以）/ means（单复同形）"
       }
     },
+    "afford": {
+      "phonetic": "/əˈfɔːd/",
+      "pos": "v.",
+      "sense": "负担得起（afford to do / afford sth）",
+      "collocations": [
+        "can afford to",
+        "afford the cost"
+      ],
+      "examples": [
+        "Few families can afford full-time care. 很少有家庭负担得起全职照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "afford（负担得起）/ effort（努力）"
+      }
+    },
     "simply": {
       "phonetic": "/ˈsɪmpli/",
       "pos": "adv.",
@@ -14079,6 +14745,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "simply（仅仅/简单地）/ simple（简单的）/ simplistic（过于简化的）"
+      }
+    },
+    "cost": {
+      "phonetic": "/kɒst/",
+      "pos": "n./v.",
+      "sense": "成本、代价（可数/不可数）/ 花费（物作主语）",
+      "collocations": [
+        "the cost of",
+        "at the cost of",
+        "cost sb sth"
+      ],
+      "examples": [
+        "The cost of childcare is high. 育儿成本很高。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "cost（物作主语花费）/ spend（人作主语）/ take（it 作形式主语）"
       }
     },
     "poorer": {
@@ -14218,6 +14901,23 @@
         "confusables": "potential（潜在的/潜力）/ possible（可能的）/ potentially（可能地）"
       }
     },
+    "change-induced": {
+      "phonetic": "/ˈtʃeɪndʒ ɪnˌdjuːst/",
+      "pos": "adj.",
+      "sense": "由变化引起的（复合形容词）",
+      "collocations": [
+        "change-induced stress",
+        "change-induced anxiety"
+      ],
+      "examples": [
+        "Change-induced stress is common. 由变化引起的压力很常见。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "change（变化）+ induced（被引起的）",
+        "confusables": "change-induced（变化引起的）/ induced（诱导的）"
+      }
+    },
     "problem": {
       "phonetic": "/ˈprɒbləm/",
       "pos": "n.",
@@ -14235,6 +14935,38 @@
         "confusables": "problem（问题，需解决）/ question（疑问，需回答）"
       }
     },
+    "dependence": {
+      "phonetic": "/dɪˈpendəns/",
+      "pos": "n.",
+      "sense": "依赖（不可数）；依赖性",
+      "collocations": [
+        "dependence on",
+        "drug dependence"
+      ],
+      "examples": [
+        "Dependence on phones is growing. 对手机的依赖在增长。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "dependence（依赖）/ dependency（附属国/依赖）/ independent（独立的）"
+      }
+    },
+    "commodity": {
+      "phonetic": "/kəˈmɒdəti/",
+      "pos": "n.",
+      "sense": "商品、大宗商品（可数）",
+      "collocations": [
+        "commodity prices",
+        "a valuable commodity"
+      ],
+      "examples": [
+        "Food is a global commodity. 粮食是全球性商品。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "commodity（商品）/ goods（货物）/ product（产品）"
+      }
+    },
     "rice": {
       "phonetic": "/raɪs/",
       "pos": "n.",
@@ -14249,6 +14981,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "rice（大米）/ rise（上升）"
+      }
+    },
+    "currently": {
+      "phonetic": "/ˈkʌrəntli/",
+      "pos": "adv.",
+      "sense": "目前、当前",
+      "collocations": [
+        "currently available",
+        "currently working"
+      ],
+      "examples": [
+        "The tool is currently free. 该工具目前免费。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "currently（目前）/ actually（实际上）/ presently（不久/目前）"
       }
     },
     "provide": {
@@ -14283,6 +15031,56 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "calorie（卡路里）/ calory（错误拼写）"
+      }
+    },
+    "either": {
+      "phonetic": "/ˈaɪðə(r)/",
+      "pos": "conj./adv./det.",
+      "sense": "两者之一（either...or）；也不（否定句末）",
+      "collocations": [
+        "either ... or",
+        "not ... either",
+        "either of"
+      ],
+      "examples": [
+        "Either way, the result is the same. 无论哪种方式，结果一样。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "either...or（两者之一）/ neither...nor（两者都不）/ either（也，否定句末）"
+      }
+    },
+    "directly": {
+      "phonetic": "/dəˈrektli/",
+      "pos": "adv.",
+      "sense": "直接地；立即",
+      "collocations": [
+        "directly related",
+        "directly to"
+      ],
+      "examples": [
+        "Screen time is not directly linked to poor grades. 屏幕时间并不直接导致成绩差。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "directly（直接地）/ directly 反义 indirectly"
+      }
+    },
+    "animals": {
+      "phonetic": "/ˈænɪmlz/",
+      "pos": "n.",
+      "sense": "动物（animal 的复数）",
+      "lemma": "animal",
+      "collocations": [
+        "farm animals",
+        "wild animals"
+      ],
+      "examples": [
+        "Farm animals need space. 农场动物需要空间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "animals（复数）/ animal（单数）"
       }
     },
     "past": {
@@ -14385,6 +15183,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "now（现在）/ now that（既然，连词）"
+      }
+    },
+    "consume": {
+      "phonetic": "/kənˈsjuːm/",
+      "pos": "v.",
+      "sense": "消耗、消费（及物）",
+      "collocations": [
+        "consume energy",
+        "consume resources"
+      ],
+      "examples": [
+        "Video streaming consumes bandwidth. 视频流媒体消耗带宽。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "consume（消耗）/ consumer（消费者）/ consumption（消费）"
       }
     },
     "disease": {
@@ -14540,6 +15354,23 @@
         "confusables": "researcher（研究者）/ research（研究）"
       }
     },
+    "aiming": {
+      "phonetic": "/ˈeɪmɪŋ/",
+      "pos": "v.",
+      "sense": "aim 的现在分词（瞄准、旨在）",
+      "lemma": "aim",
+      "collocations": [
+        "aiming to do",
+        "aiming at"
+      ],
+      "examples": [
+        "A policy aiming to help fathers. 一项旨在帮助父亲的政策。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "aim at（瞄准）/ aim to do（旨在）"
+      }
+    },
     "create": {
       "phonetic": "/kriˈeɪt/",
       "pos": "v.",
@@ -14589,6 +15420,56 @@
         "confusables": "engineering（工程学）/ engineer（工程师）"
       }
     },
+    "conventional": {
+      "phonetic": "/kənˈvenʃənl/",
+      "pos": "adj.",
+      "sense": "常规的、传统的",
+      "collocations": [
+        "conventional wisdom",
+        "conventional approach"
+      ],
+      "examples": [
+        "Conventional wisdom says screens harm reading. 传统看法认为屏幕损害阅读。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "conventional（常规的）/ traditional（传统的）"
+      }
+    },
+    "breeding": {
+      "phonetic": "/ˈbriːdɪŋ/",
+      "pos": "n./v.",
+      "sense": "饲养、繁殖（不可数）；breed 的现在分词",
+      "lemma": "breed",
+      "collocations": [
+        "animal breeding",
+        "breeding grounds"
+      ],
+      "examples": [
+        "Animal breeding uses large amounts of land. 畜牧占用大量土地。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "breeding（饲养/繁殖）/ breeding ground（温床）"
+      }
+    },
+    "endeavours": {
+      "phonetic": "/ɪnˈdevəz/",
+      "pos": "n./v.",
+      "sense": "努力、尝试（endeavour 的复数，英式拼写）",
+      "lemma": "endeavour",
+      "collocations": [
+        "in all endeavours",
+        "human endeavours"
+      ],
+      "examples": [
+        "Their endeavours finally paid off. 他们的努力终于有了回报。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "endeavours（英式）/ endeavors（美式）/ effort（努力）"
+      }
+    },
     "i've": {
       "phonetic": "/aɪv/",
       "pos": "缩略",
@@ -14621,6 +15502,22 @@
         "confusables": "be able to（能够）/ can（情态动词，不能与 will 连用）/ ability（名词）"
       }
     },
+    "engineer": {
+      "phonetic": "/ˌendʒɪˈnɪə(r)/",
+      "pos": "n./v.",
+      "sense": "工程师（可数）/ 设计、策划（动词）",
+      "collocations": [
+        "a software engineer",
+        "engineer a solution"
+      ],
+      "examples": [
+        "She works as an engineer. 她做工程师。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "engineer（工程师）/ engineering（工程学）"
+      }
+    },
     "hand": {
       "phonetic": "/hænd/",
       "pos": "n./v.",
@@ -14636,6 +15533,22 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "on the one hand ... on the other hand（一方面……另一方面）/ hand in（上交）"
+      }
+    },
+    "cautious": {
+      "phonetic": "/ˈkɔːʃəs/",
+      "pos": "adj.",
+      "sense": "谨慎的、小心的",
+      "collocations": [
+        "cautious about",
+        "a cautious approach"
+      ],
+      "examples": [
+        "Researchers are cautious about causal claims. 研究者对因果结论持谨慎态度。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "cautious（谨慎的）/ careful（小心的）/ cautious about（对……谨慎）"
       }
     },
     "until": {
@@ -14691,6 +15604,23 @@
         "confusables": "take place（发生）/ take the place of（取代）/ in place（到位）"
       }
     },
+    "applying": {
+      "phonetic": "/əˈplaɪɪŋ/",
+      "pos": "v.",
+      "sense": "apply 的现在分词（应用、申请）",
+      "lemma": "apply",
+      "collocations": [
+        "applying for",
+        "applying the rule"
+      ],
+      "examples": [
+        "They are applying the same logic. 他们正在套用同样的逻辑。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "applying（现在分词）/ applied（过去式/应用的）"
+      }
+    },
     "better": {
       "phonetic": "/ˈbetə(r)/",
       "pos": "adj./adv.",
@@ -14706,6 +15636,40 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "better（更好）/ had better（最好，后接动词原形）"
+      }
+    },
+    "delay": {
+      "phonetic": "/dɪˈleɪ/",
+      "pos": "v./n.",
+      "sense": "延迟（及物）；延误（可数/不可数）",
+      "collocations": [
+        "delay doing",
+        "without delay",
+        "a long delay"
+      ],
+      "examples": [
+        "Delay in taking leave may reduce its benefits. 推迟休假可能降低其益处。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "delay doing（延迟做）/ delay（延误）"
+      }
+    },
+    "benefit": {
+      "phonetic": "/ˈbenɪfɪt/",
+      "pos": "n./v.",
+      "sense": "好处、福利（可数）/ 使受益（benefit from）",
+      "collocations": [
+        "benefit from",
+        "for the benefit of",
+        "employee benefits"
+      ],
+      "examples": [
+        "Many places could benefit a great deal. 许多地方能大大受益。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "benefit from（受益于）/ benefit sb（使某人受益）"
       }
     },
     "deal": {
@@ -14810,6 +15774,23 @@
         "confusables": "toward（美式）/ towards（英式），词义相同"
       }
     },
+    "easing": {
+      "phonetic": "/ˈiːzɪŋ/",
+      "pos": "v.",
+      "sense": "ease 的现在分词（缓解）",
+      "lemma": "ease",
+      "collocations": [
+        "easing changes",
+        "easing pressure"
+      ],
+      "examples": [
+        "Policy tools help in easing change. 政策工具有助于缓解变化。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "easing（正在缓解）/ eased（已缓解）"
+      }
+    },
     "changes": {
       "phonetic": "/ˈtʃeɪndʒɪz/",
       "pos": "n./v.",
@@ -14826,6 +15807,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "changes（复数/三单）/ change（单数）"
+      }
+    },
+    "diversifying": {
+      "phonetic": "/daɪˈvɜːsɪfaɪɪŋ/",
+      "pos": "v.",
+      "sense": "diversify 的现在分词（使多样化）",
+      "lemma": "diversify",
+      "collocations": [
+        "diversifying crops",
+        "diversifying the economy"
+      ],
+      "examples": [
+        "Farmers are diversifying their crops. 农民正在使作物多样化。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "diversifying（正在多样化）/ diversified（已多样化）"
       }
     },
     "diet": {
@@ -14860,6 +15858,40 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "away（离开）/ way（路）/ right away（立刻）"
+      }
+    },
+    "diversification": {
+      "phonetic": "/daɪˌvɜːsɪfɪˈkeɪʃn/",
+      "pos": "n.",
+      "sense": "多样化、多元化（不可数）",
+      "collocations": [
+        "crop diversification",
+        "economic diversification"
+      ],
+      "examples": [
+        "Crop diversification reduces risk. 作物多样化能降低风险。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "diverse（多样的）+ -ify + -cation",
+        "confusables": "diversification（多样化）/ diversify（使多样化）"
+      }
+    },
+    "depending": {
+      "phonetic": "/dɪˈpendɪŋ/",
+      "pos": "v./prep.",
+      "sense": "depend 的现在分词；（depending on）取决于",
+      "lemma": "depend",
+      "collocations": [
+        "depending on",
+        "depending on whether"
+      ],
+      "examples": [
+        "Results vary depending on the group. 结果因群体而异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "depending on（取决于）/ depend on（依赖）"
       }
     },
     "greater": {
@@ -14927,6 +15959,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "system（系统）/ systematic（系统的）/ systemic（全身的/体制性的）"
+      }
+    },
+    "broader": {
+      "phonetic": "/ˈbrɔːdə(r)/",
+      "pos": "adj.",
+      "sense": "更广泛的（broad 的比较级）",
+      "lemma": "broad",
+      "collocations": [
+        "a broader view",
+        "broader than"
+      ],
+      "examples": [
+        "A broader view of health includes social ties. 更广的健康观包含社会联系。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "broader（更广）/ broader than（比……更广）"
       }
     }
   }

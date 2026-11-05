@@ -5551,6 +5551,24 @@
         "confusables": "status（地位/状态）/ statue（雕像）/ state（状态）"
       }
     },
+    "attributions": {
+      "phonetic": "/ˌætrɪˈbjuːʃnz/",
+      "pos": "n.",
+      "sense": "归因、归咎（attribution 的复数）",
+      "lemma": "attribution",
+      "collocations": [
+        "attributions of blame",
+        "causal attributions"
+      ],
+      "examples": [
+        "Our attributions shape how we feel. 我们的归因影响我们的感受。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "attribute（归因于）+ -ion",
+        "confusables": "attribution（归因）/ attribute（属性/归因）"
+      }
+    },
     "own": {
       "phonetic": "/əʊn/",
       "pos": "adj./v.",
@@ -5566,6 +5584,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "own（自己的/拥有）/ owner（所有者）"
+      }
+    },
+    "beliefs": {
+      "phonetic": "/bɪˈliːfs/",
+      "pos": "n.",
+      "sense": "信念（belief 的复数）",
+      "lemma": "belief",
+      "collocations": [
+        "core beliefs",
+        "share beliefs"
+      ],
+      "examples": [
+        "Their beliefs shape their choices. 他们的信念塑造选择。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "beliefs（复数）/ believes（believe 的三单）"
       }
     },
     "social": {
@@ -5602,6 +5637,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "in other words（换句话说）/ in a word（简言之）/ word（单词）"
+      }
+    },
+    "believe": {
+      "phonetic": "/bɪˈliːv/",
+      "pos": "v.",
+      "sense": "相信、认为（believe that / believe in）",
+      "collocations": [
+        "believe that",
+        "believe in",
+        "hard to believe"
+      ],
+      "examples": [
+        "The more we believe effort decides success, the more we judge. 我们越相信努力决定成功，就越爱评判。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "believe in（信任/信仰）/ believe that（认为）/ belief（名词）"
       }
     },
     "opportunity": {
@@ -5843,6 +5895,23 @@
         "confusables": "someone（某人，单数）/ somebody（同义，更口语）"
       }
     },
+    "emails": {
+      "phonetic": "/ˈiːmeɪlz/",
+      "pos": "n./v.",
+      "sense": "电子邮件（email 的复数）；发邮件（动词三单）",
+      "lemma": "email",
+      "collocations": [
+        "send emails",
+        "reply to emails"
+      ],
+      "examples": [
+        "She sends dozens of emails daily. 她每天发几十封邮件。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "emails（邮件）/ mails（邮政）"
+      }
+    },
     "stress": {
       "phonetic": "/stres/",
       "pos": "n./v.",
@@ -5927,6 +5996,22 @@
         "confusables": "culture（文化）/ cultural（文化的）/ cultivate（培养）"
       }
     },
+    "busyness": {
+      "phonetic": "/ˈbɪzinəs/",
+      "pos": "n.",
+      "sense": "忙碌状态（不可数，用于区别于 business）",
+      "collocations": [
+        "the cult of busyness",
+        "busyness as a status symbol"
+      ],
+      "examples": [
+        "Busyness has become a status symbol. 忙碌已成为身份象征。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "busyness（忙碌）/ business（生意）——拼写与含义都不同"
+      }
+    },
     "making": {
       "phonetic": "/ˈmeɪkɪŋ/",
       "pos": "v./n.",
@@ -5977,6 +6062,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "find（找到，结果）/ search（搜寻，过程）/ find out（查明）"
+      }
+    },
+    "balance": {
+      "phonetic": "/ˈbæləns/",
+      "pos": "n./v.",
+      "sense": "平衡（不可数/可数）；结余 / 使平衡",
+      "collocations": [
+        "work-life balance",
+        "keep a balance",
+        "balance A against B"
+      ],
+      "examples": [
+        "They seek a better work-life balance. 他们追求更好的工作与生活平衡。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "balance（平衡）/ balanced（均衡的）"
       }
     },
     "according": {
@@ -6045,6 +6147,23 @@
         "confusables": "highly（抽象程度高）/ high（物理高）"
       }
     },
+    "engaged": {
+      "phonetic": "/ɪnˈɡeɪdʒd/",
+      "pos": "v./adj.",
+      "sense": "engage 的过去式/过去分词（参与）；忙碌的、订婚的",
+      "lemma": "engage",
+      "collocations": [
+        "be engaged in",
+        "be engaged to"
+      ],
+      "examples": [
+        "They are engaged in online chat. 他们正在进行网上聊天。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be engaged in（从事）/ be engaged to（与……订婚）"
+      }
+    },
     "risk": {
       "phonetic": "/rɪsk/",
       "pos": "n./v.",
@@ -6060,6 +6179,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "risk（风险）/ danger（危险）/ risk doing（冒险做）"
+      }
+    },
+    "burnout": {
+      "phonetic": "/ˈbɜːnaʊt/",
+      "pos": "n.",
+      "sense": "职业倦怠、精疲力竭（不可数）",
+      "collocations": [
+        "parental burnout",
+        "suffer burnout"
+      ],
+      "examples": [
+        "Burnout is rising among working parents. 职场父母的倦怠在上升。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "burn（烧）+ out（尽）",
+        "confusables": "burnout（倦怠）/ burn out（烧尽，动词）"
       }
     },
     "going": {
@@ -6300,6 +6436,23 @@
         "confusables": "share（分享/分担）/ split（拆分）/ divide（划分）"
       }
     },
+    "checking": {
+      "phonetic": "/ˈtʃekɪŋ/",
+      "pos": "v.",
+      "sense": "check 的现在分词（检查、核对）",
+      "lemma": "check",
+      "collocations": [
+        "checking information",
+        "checking facts"
+      ],
+      "examples": [
+        "They are not checking information online. 他们不在网上核实信息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "checking（现在分词）/ check（原形）/ cheque（支票）"
+      }
+    },
     "until": {
       "phonetic": "/ənˈtɪl/",
       "pos": "prep./conj.",
@@ -6332,6 +6485,23 @@
       "isCet4HighFreq": true,
       "more": {
         "confusables": "need to do（实义动词）/ need do（情态动词，多用于否定疑问）"
+      }
+    },
+    "emailing": {
+      "phonetic": "/ˈiːmeɪlɪŋ/",
+      "pos": "v./n.",
+      "sense": "email 的现在分词（发邮件）；发邮件行为",
+      "lemma": "email",
+      "collocations": [
+        "emailing colleagues",
+        "emailing back and forth"
+      ],
+      "examples": [
+        "They spend hours emailing each other. 他们花数小时互相发邮件。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "confusables": "emailing（发邮件）/ email（邮件）"
       }
     },
     "leaders": {
