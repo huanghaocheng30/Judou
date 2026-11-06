@@ -804,12 +804,10 @@ button {
 /* 宽屏双列：正文列 + 320~380px 右栏（grid，**不用 position: fixed 覆盖正文**） */
 .reader-split {
   display: grid;
-  /* TP-修复2 F1：左列上限锁 66ch（= 正文设计行长），容器更宽时整组居中。
-     不改这里的后果：.content 放宽到 1240 后 1fr 会分到 792px，而正文只有 688.65px（66ch），
-     正文与右栏之间白出约 103px —— F0 定值，见 TP-修复2 自测。
-     `justify-content: center` 让「正文列 + 右栏」作为一个整体居中，而不是左列吃掉全部余量。 */
-  grid-template-columns: minmax(0, 66ch) 360px;
-  justify-content: center;
+  /* TP-修复2 BL-2：左列回到 1fr——正文列随内容区宽伸缩，不吃 66ch 上限。
+     曾试过 minmax(0,66ch)+justify-content:center，实测 center 未生效（整组已撑满内容区、余量≈0），
+     唯一效果是把正文从 652px 收窄到 498px（−154px）；用户诉求是居中而非变窄，故撤回。 */
+  grid-template-columns: minmax(0, 1fr) 360px;
   gap: 24px;
   align-items: start;
 }
