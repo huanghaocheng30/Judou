@@ -10,6 +10,7 @@
  * - 符号句走 `parseMarkup` → `<mark class="mk-*" data-mark-kind="*">`；`【】{}()` 原样保留；
  * - 该段对应字段为空 → 「本段暂无解析」，不空白、不报错。
  */
+import { useEffect, useState } from "react";
 import { SENTENCE_SEGMENT_ORDER, parseMarkup } from "../lib/analysis";
 import type { SentenceCardModel, SentenceSegmentKey } from "../lib/analysis";
 
@@ -130,20 +131,36 @@ function SegmentBody({ segment, card }: { segment: SentenceSegmentKey; card: Sen
 export function SentenceCard({ card, text }: SentenceCardProps) {
   // 整篇无预置解析：卡头给一句明确的降级，而不是露出六个「本段暂无解析」
   const noAnalysis = SENTENCE_SEGMENT_ORDER.every((segment) => card.emptyFlags[segment]);
+  // 原句是否展开（TP-修复2 F2）：只存组件内、不持久化（02 §F2「不持久化，换句即复位」）；短句恒 false
+  const [expanded, setExpanded] = useState(false);
+  const long = (text?.length ?? 0) > QUOTE_LIMIT;
+
+  // 换句必须复位：本组件在 AnalysisPanel 里不随句子重挂载（同一实例换 props），
+  // 只靠 key 复位不可靠，所以在原句变化时显式收起。
+  // ponytail: 只依赖 text。同一句重复点选（text 不变）保留展开态——那是同一句，保留才不突兀；
+  // 若日后要「点同一句也回折叠」，升级路径是把复位键换成 card 身份或句子 idx 依赖。
+  useEffect(() => {
+    setExpanded(false);
+  }, [text]);
 
   return (
     <article className="analysis-card sentence-card" data-sentence-card data-card-empty={noAnalysis ? "true" : "false"}>
       {text ? (
         <header className="card-quote">
           <span className="card-quote-label">原句</span>
-          {text.length > QUOTE_LIMIT ? (
-            <details>
-              <summary className="card-quote-summary">{text.slice(0, QUOTE_LIMIT)}…</summary>
-              <p className="card-quote-full">{text}</p>
-            </details>
-          ) : (
-            <p className="card-quote-text">{text}</p>
-          )}
+          {/* TP-修复2 F2（M3-U2）：原句**只渲染一份**（`[data-quote-text]`）。
+              折叠语义是「同一段文字的高度收放」，不是「截断预览 + 全文并列」——
+              旧的 details/summary 拿截断版当标题、展开后追加完整版，同一句出现两份 DOM。 */}
+          <div className="card-quote-body" data-quote-clamped={long && !expanded ? "true" : "false"}>
+            <p className="card-quote-text" data-quote-text>
+              {text}
+            </p>
+          </div>
+          {long ? (
+            <button type="button" className="card-quote-toggle" data-quote-toggle onClick={() => setExpanded((v) => !v)}>
+              {expanded ? "收起" : "展开全文"}
+            </button>
+          ) : null}
         </header>
       ) : null}
 

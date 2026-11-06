@@ -196,6 +196,17 @@ button {
   flex: 1;
   padding: 26px 32px 40px;
   max-width: 1100px;
+  /* TP-修复2 F1（M3-U1）：原来有上限但不居中 → 宽屏下留白全堆右侧（F0 实测 2560 档右侧空 1250px）。
+     `.main` 是 flex column，cross 轴 auto margin 吸收剩余空间，等价水平居中。 */
+  margin-inline: auto;
+}
+
+/* TP-修复2 F1 / AC-R2：超宽屏（≥1440）内容区放宽到 1240px（契约区间 1200~1280）。
+   正文行长不受影响——`.reader-body` 的 66ch 与 `.reader-split` 左列上限都不动。 */
+@media (min-width: 1440px) {
+  .content {
+    max-width: 1240px;
+  }
 }
 
 /* ── 占位页 ───────────────────────────────────────── */
@@ -793,7 +804,12 @@ button {
 /* 宽屏双列：正文列 + 320~380px 右栏（grid，**不用 position: fixed 覆盖正文**） */
 .reader-split {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 360px;
+  /* TP-修复2 F1：左列上限锁 66ch（= 正文设计行长），容器更宽时整组居中。
+     不改这里的后果：.content 放宽到 1240 后 1fr 会分到 792px，而正文只有 688.65px（66ch），
+     正文与右栏之间白出约 103px —— F0 定值，见 TP-修复2 自测。
+     `justify-content: center` 让「正文列 + 右栏」作为一个整体居中，而不是左列吃掉全部余量。 */
+  grid-template-columns: minmax(0, 66ch) 360px;
+  justify-content: center;
   gap: 24px;
   align-items: start;
 }
@@ -920,8 +936,7 @@ button {
   color: var(--ink-3);
 }
 
-.card-quote-text,
-.card-quote-full {
+.card-quote-text {
   margin: 2px 0 0;
   font-family: var(--serif);
   font-size: 15px;
@@ -929,12 +944,31 @@ button {
   color: var(--ink);
 }
 
-.card-quote-summary {
+/* TP-修复2 F2（M3-U2）：折叠＝同一段文字收成 3 行，展开＝放开 clamp。
+   用属性选择器而不是两个 class 切换，既便于 CDP 断言折叠/展开状态，
+   也保证 DOM 里只有一份原文（旧的 .card-quote-full / .card-quote-summary 已随双份 DOM 一并删除）。 */
+.card-quote-body[data-quote-clamped="true"] .card-quote-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-quote-toggle {
+  margin: 4px 0 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: 12px;
+  color: var(--ink-3);
   cursor: pointer;
-  font-family: var(--serif);
-  font-size: 15px;
-  line-height: 1.6;
-  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.card-quote-toggle:hover {
+  color: var(--ink-2);
 }
 
 .card-no-analysis {
