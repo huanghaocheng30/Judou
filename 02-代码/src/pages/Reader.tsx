@@ -434,7 +434,7 @@ export function Reader() {
     <section
       className={wide ? "reader reader-split" : "reader"}
       data-reader-layout={wide ? "wide" : "narrow"}
-      /* 复习模式标记（D4 / 决策 #10）：挂**成功态主容器**，不挂错误态（327/338）与题目区（412） */
+      /* 复习模式标记（D4 / 决策 #10）：挂**成功态主容器**，不挂错误态（395/406，均为失败分支的 reader 容器）与题目区（485） */
       data-review-mode={reviewMode ? "1" : undefined}
     >
       <div className="reader-main">
