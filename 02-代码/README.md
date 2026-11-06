@@ -28,6 +28,7 @@ npm run verify:render      # renderTokens 纯函数：6699 token 切片零例外
 npm run verify:analysis    # parseMarkup 守恒 274/274 + fail-closed 恰 7 句 + 六段序 + 词卡三态 + 30 空两形态
 npm run verify:note        # 001+002 建临时库：updated_at NOT NULL 无 DEFAULT + upsert/读回/刷新/清空删行
 npm run verify:vocab       # 001+002 建临时库：同词聚合只一条 + 首次来源不变 + 标签全量替换 + 删词连带 + 分组排序（180 判据）
+npm run verify:review      # 001+002 建临时库：7 命令 + 首调建计划/幂等 + 到期过滤排序 + 四档顺延/终态 + need_more + restart 两分支 + log 记完成前 index + 三表零外写（128 判据）
 npm run verify:pending     # 未落库草稿的两条判定：条件删除（D-M2-11）/ 200 上限与活跃 key 保护（D-M2-12）
 npm run verify:invoke      # 除 src/lib/api.ts 外不许出现 invoke(
 npm run verify:contrast    # tokens.css/app.css 的 WCAG 对比度（38 项，含 5 种符号标记、掌握状态三档、回原句高亮）
@@ -97,6 +98,22 @@ cmd /c "call ""C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC
   ① 未落库草稿的成功回调改**条件删除**（同 key 已有新草稿时旧回调不删，D-M2-11）；
   ② 模块级草稿 Map 加 **200 条上限**，超出淘汰最旧且**活跃 key 不淘汰**（D-M2-12）。两条都有先红后绿。
 
+## 复习（M4）
+
+篇级复习按 **1 / 3 / 7 / 14 天** 四档排队（eview_plan.interval_index 0→3，四档走完置 status='done' 不再提醒）。
+
+- **完成本篇**：精读页正文末尾（题目区之后）的「完成本篇」按钮 → mark_article_completed(articleId, today)。
+  **必须显式点**（不滚动到底就完成）；**幂等**——已有计划时原样返回，文案变成「已在复习计划中（X 到期）」。
+  成功同时写 eading_record.completed=1（只写这一列 + last_read_at，last_position/duration_sec 归 M6）。
+- **复习页**（`#/review`）四态：无到期（`data-review-empty="none"`）/ 有到期（`data-review-row`，按到期日升序）/
+  今日已完成（`data-review-empty="done"`）/ 读取中。另有「已完成」区列出 `status='done'` 的文章，可「重新加入复习」。
+  页面自报的 today 在 `data-review-today` 上——**跨午夜断言一律读它**，不做时钟假设。
+- **复习模式**（`#/article/<id>?mode=review`）：复用精读页，**只隐藏**笔记提示（句「析」角标 / 词圆点 / 生词收藏按钮），
+  不删 DOM（`data-review-mode="1"` + 三条 CSS）。底部换成「完成复习 / 还需再看」；
+  复习模式下 `?sentence=` / `?token=` 高亮照常生效。
+- **侧边栏角标**：「复习」项显示今日到期数（`data-review-badge` + `aria-label`），为 0 不显示；启动与路由变化时刷新，不轮询。
+- **日期口径**：一切 `today` 都是**本地日期 `YYYY-MM-DD` 字符串**，由前端算好传给命令；
+  命令层**不用** `date('now')` 推日期（`datetime('now')` 只用于记录时刻列）。
 ## 内容包与导入（M1）
 
 - **内容包位置**：`content-pack/`（12 篇 `cet4-2023-12-*.json` + `manifest.json`，合计 3,529,547 B）。

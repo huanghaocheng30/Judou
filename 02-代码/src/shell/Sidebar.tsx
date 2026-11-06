@@ -1,8 +1,15 @@
 /**
  * 侧边栏：品牌标识（四线 + 高亮行 + 句点，取自原型 v2 内联 SVG）+ 7 项导航。
  * 路由用原生 `<a href="#/xxx">` —— 自写 hash 路由（见 routes.tsx）不需要 Link 组件。
+ *
+ * M4 D6：复习项带「今日待复习」角标（`data-review-badge`）。
+ * - 取数走 `api.ts` 的 `getDueReviews`（**禁裸 invoke**，否则破 `verify:invoke` 例外 0）；
+ * - 与复习页**各自独立取数、不共享缓存**（02 N8）；
+ * - 启动 + 路由变化时刷新，**不做轮询/定时器**。
  */
-import type { ReactElement } from "react";
+import { useEffect, useState, type ReactElement } from "react";
+import { getDueReviews } from "../lib/api";
+import { localToday } from "../pages/Review";
 
 export interface NavItem {
   path: string;
@@ -97,6 +104,30 @@ export interface SidebarProps {
 }
 
 export function Sidebar({ active }: SidebarProps) {
+  /**
+   * 今日待复习篇数（D6）。`0` 与取数失败都**不显示角标**——不显示比显示错的数字好。
+   * 依赖 `active`：路由一变就重新取（完成复习/重新加入后回到列表，角标立刻跟上）。
+   */
+  const [dueCount, setDueCount] = useState(0);
+
+  useEffect(() => {
+    let cancelled = false;
+    getDueReviews(localToday())
+      .then((rows) => {
+        if (!cancelled) setDueCount(rows.length);
+      })
+      .catch((err: unknown) => {
+        // 角标是辅助信息：失败只降级为「不显示」，不弹错、不阻塞导航
+        if (!cancelled) {
+          console.warn("[judou] 读取今日待复习数失败，角标降级隐藏：", err);
+          setDueCount(0);
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [active]);
+
   return (
     <aside className="sidebar">
       <div className="brand">
@@ -116,6 +147,7 @@ export function Sidebar({ active }: SidebarProps) {
       <nav className="nav-list" aria-label="主导航">
         {NAV_ITEMS.map((item) => {
           const isActive = item.path === active;
+          const isReview = item.path === "#/review";
           return (
             <a
               key={item.path}
@@ -125,6 +157,12 @@ export function Sidebar({ active }: SidebarProps) {
             >
               {item.icon}
               <span>{item.label}</span>
+              {/* 角标：**文字可读**（数字），不是纯色块；`aria-label` 给屏幕阅读器完整语义（AC8） */}
+              {isReview && dueCount > 0 && (
+                <span className="nav-badge" data-review-badge={dueCount} aria-label={`今日待复习 ${dueCount} 篇`}>
+                  {dueCount}
+                </span>
+              )}
             </a>
           );
         })}

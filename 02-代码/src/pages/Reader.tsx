@@ -23,10 +23,11 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import { AnalysisPanel, useWideLayout } from "../components/AnalysisPanel";
 import type { AnalysisSelection } from "../components/AnalysisPanel";
-import { getArticleContent, getArticleNoteMarks } from "../lib/api";
+import { completeReview, getArticleContent, getArticleNoteMarks, getReviewPlan, markArticleCompleted } from "../lib/api";
 import { renderParagraph, renderTokens } from "../lib/render";
 import type { TokenNode } from "../lib/render";
-import type { ApiSentence, ArticleContent, NoteMarks } from "../lib/types";
+import type { ApiSentence, ArticleContent, NoteMarks, ReviewPlan, ReviewResult } from "../lib/types";
+import { localToday } from "./Review";
 import { useReturn, useRoute } from "../shell/routes";
 
 /** 点回原句的高亮停留时长（AC5：2 秒后自动消退） */
@@ -171,6 +172,13 @@ export function Reader() {
   // 点回原句参数（D6）：从 hash 的 query 取；**消费时机见下方的定位 effect**（必须等 content 就绪）
   const sentenceParam = route.query.get("sentence");
   const tokenParam = route.query.get("token");
+  /**
+   * 复习模式（M4 D4 / 决策 #6、#10 裁定 10）：`#/article/<id>?mode=review`。
+   * **只影响呈现**（隐藏笔记提示与生词收藏按钮、底部换成复习按钮），**不影响** `?sentence=`/`?token=` 高亮（N7）。
+   */
+  const reviewMode = route.query.get("mode") === "review";
+  /** 本地 today（复习写路径的日期由前端传，02 日期来源禁令） */
+  const today = useRef(localToday());
   const [content, setContent] = useState<ArticleContent | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [selection, setSelection] = useState<AnalysisSelection>({ kind: "none" });
@@ -263,6 +271,66 @@ export function Reader() {
    * 放到早退之后就变成条件调用，两次渲染的 hook 数量不同，React 会直接抛
    * 「Rendered more hooks than during the previous render」并崩白页（本次实测过一次，见自测）。
    */
+  /** 非复习模式的「完成本篇」按钮反馈（D5）：null = 还没点过 */
+  const [completedHint, setCompletedHint] = useState<string | null>(null);
+  /** 复习模式的写操作状态（D4） */
+  const [reviewSaving, setReviewSaving] = useState<ReviewResult | null>(null);
+  const [reviewError, setReviewError] = useState<string | null>(null);
+  const [savedPlan, setSavedPlan] = useState<ReviewPlan | null>(null);
+
+  /** 进复习模式时先读一次计划：给底部条一个「当前第几档」的上下文，失败不阻塞复习 */
+  useEffect(() => {
+    if (!reviewMode || !articleId) {
+      setSavedPlan(null);
+      return;
+    }
+    let cancelled = false;
+    getReviewPlan(articleId)
+      .then((plan) => {
+        if (!cancelled) setSavedPlan(plan);
+      })
+      .catch(() => {
+        if (!cancelled) setSavedPlan(null);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [reviewMode, articleId]);
+
+  /** AC7：复习完回列表（列表页自己重新取数，角标也会随路由刷新） */
+  const backToReviewList = useCallback((): void => {
+    window.location.hash = "#/review";
+  }, []);
+
+  const handleCompleteArticle = useCallback((): void => {
+    if (!articleId) return;
+    setCompletedHint("正在加入…");
+    markArticleCompleted(articleId, today.current)
+      .then((plan) => {
+        // 幂等：已有计划时 `nextReviewAt` 不是明天（说明早就排过），文案据实说
+        setCompletedHint(
+          plan.intervalIndex === 0 ? "已加入复习计划（明天到期）" : `已在复习计划中（${plan.nextReviewAt} 到期）`,
+        );
+      })
+      .catch((err: unknown) => setCompletedHint(err instanceof Error ? err.message : String(err)));
+  }, [articleId]);
+
+  const handleReviewResult = useCallback(
+    (result: ReviewResult): void => {
+      if (!articleId) return;
+      setReviewSaving(result);
+      setReviewError(null);
+      completeReview(articleId, result, today.current)
+        .then((plan) => {
+          setSavedPlan(plan);
+          backToReviewList();
+        })
+        .catch((err: unknown) => setReviewError(err instanceof Error ? err.message : String(err)))
+        .finally(() => setReviewSaving(null));
+    },
+    [articleId, backToReviewList],
+  );
+
   const closePanel = useCallback((): void => {
     const sentenceId = selection.kind === "sentence" ? selection.id : null;
     setSelection({ kind: "none" });
@@ -363,7 +431,12 @@ export function Reader() {
   };
 
   return (
-    <section className={wide ? "reader reader-split" : "reader"} data-reader-layout={wide ? "wide" : "narrow"}>
+    <section
+      className={wide ? "reader reader-split" : "reader"}
+      data-reader-layout={wide ? "wide" : "narrow"}
+      /* 复习模式标记（D4 / 决策 #10）：挂**成功态主容器**，不挂错误态（327/338）与题目区（412） */
+      data-review-mode={reviewMode ? "1" : undefined}
+    >
       <div className="reader-main">
         <header className="reader-head">
           {backButton}
@@ -457,6 +530,55 @@ export function Reader() {
               </ol>
             </details>
           </section>
+        )}
+
+        {/* 底部动作区（D4/D5）：**同一位置二选一，不并存**——复习模式给「完成复习 / 还需再看」，
+            普通模式给「完成本篇」。不自动触发（必须显式点击，避免滚动到底就误判完成）。 */}
+        {reviewMode ? (
+          <div className="review-actions" data-review-actions>
+            <p className="review-actions-hint">复习模式已隐藏笔记标记与生词收藏按钮。</p>
+            {savedPlan && (
+              <p className="review-actions-step">
+                当前档位：第 {Math.min(savedPlan.intervalIndex + 1, 4)}/4 次
+              </p>
+            )}
+            <div className="review-actions-buttons">
+              <button
+                type="button"
+                className="btn btn-primary"
+                data-review-action="done"
+                disabled={reviewSaving !== null}
+                onClick={() => handleReviewResult("done")}
+              >
+                {reviewSaving === "done" ? "记录中…" : "完成复习"}
+              </button>
+              <button
+                type="button"
+                className="btn"
+                data-review-action="need_more"
+                disabled={reviewSaving !== null}
+                onClick={() => handleReviewResult("need_more")}
+              >
+                {reviewSaving === "need_more" ? "记录中…" : "还需再看"}
+              </button>
+            </div>
+            {reviewError && (
+              <p className="review-actions-error" role="alert">
+                {reviewError}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="mark-complete" data-mark-complete-area>
+            <button type="button" className="btn btn-primary" data-mark-complete onClick={handleCompleteArticle}>
+              完成本篇
+            </button>
+            {completedHint && (
+              <p className="mark-complete-hint" data-mark-complete-hint>
+                {completedHint}
+              </p>
+            )}
+          </div>
         )}
       </div>
 
