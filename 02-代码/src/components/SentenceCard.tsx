@@ -164,7 +164,7 @@ export function SentenceCard({ card, text }: SentenceCardProps) {
         </header>
       ) : null}
 
-      {noAnalysis ? <p className="card-no-analysis">该篇无预置解析</p> : null}
+      {noAnalysis ? <p className="card-no-analysis">该篇无预置解析，可写笔记</p> : null}
 
       {SENTENCE_SEGMENT_ORDER.map((segment) => (
         <details

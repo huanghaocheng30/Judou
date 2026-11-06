@@ -24,6 +24,12 @@ fn main() {
     let report = match case.as_str() {
         "debug" => debug_cases(),
         "all" => all(db_path),
+        // ── CDP 取证支持（M5 第 2 批）：把**真 Rust** 的解析/入库结果吐成一行 JSON，
+        //    供浏览器侧 IPC 模拟层逐字复用（本机无 MSVC/WebView2，起不了 `tauri dev`）。
+        //    **不改 `all` / `debug` 的既有输出**，verify-import-user.mjs 走的是 `all`。
+        //    用法：`preview <textFile>` / `commit <dbPath> <previewJsonFile> [<metaJsonFile>]`
+        "preview" => preview_case(db_path),
+        "commit" => commit_case(db_path, args.next(), args.next()),
         other => json!({ "fatal": format!("未知 case：{other}") }),
     };
     println!("{}", serde_json::to_string(&report).expect("序列化报告失败"));
@@ -34,6 +40,56 @@ const UTF16_SAMPLES: [(&str, &str); 2] = [
     ("emoji", "I love 😀 fun. Next one."),
     ("cjk_punct", "他说：“好。” She smiled. Done."),
 ];
+
+/// CDP 取证：读一个文本文件 → 真 Rust 的 `parse_import_preview` → 一行 JSON
+/// （成功 `{ok:true, preview}`；失败 `{ok:false, code, message}`，如 `IMPORT_TOO_LARGE`）
+fn preview_case(text_path: Option<String>) -> Value {
+    let Some(path) = text_path else {
+        return json!({ "fatal": "preview 用法：preview <textFile>" });
+    };
+    let raw = match std::fs::read_to_string(&path) {
+        Ok(text) => text,
+        Err(err) => return json!({ "fatal": format!("读文本失败：{err}") }),
+    };
+    match parse_import_preview(&raw, None) {
+        Ok(preview) => json!({ "ok": true, "preview": preview }),
+        Err(err) => json!({ "ok": false, "code": err.code, "message": err.message }),
+    }
+}
+
+/// CDP 取证：用一个**真库**跑真 `commit_import`（预览 JSON 由前端回传后的形态）
+/// 成功 `{ok:true, result}`；失败 `{ok:false, code, message}`
+fn commit_case(db_path: Option<String>, preview_path: Option<String>, meta_path: Option<String>) -> Value {
+    let (Some(db_path), Some(preview_path)) = (db_path, preview_path) else {
+        return json!({ "fatal": "commit 用法：commit <dbPath> <previewJsonFile> [<metaJsonFile>]" });
+    };
+    let preview_raw = match std::fs::read_to_string(&preview_path) {
+        Ok(text) => text,
+        Err(err) => return json!({ "fatal": format!("读预览失败：{err}") }),
+    };
+    let preview: ImportPreview = match serde_json::from_str(&preview_raw) {
+        Ok(value) => value,
+        Err(err) => return json!({ "fatal": format!("预览 JSON 解析失败：{err}") }),
+    };
+    let meta: ImportMeta = match meta_path {
+        Some(path) => match std::fs::read_to_string(&path).ok().and_then(|raw| serde_json::from_str(&raw).ok()) {
+            Some(value) => value,
+            None => return json!({ "fatal": "meta JSON 解析失败" }),
+        },
+        None => ImportMeta {
+            exam_type: None,
+            exam_year: None,
+        },
+    };
+    let db = match judou_lib::db::Db::open(PathBuf::from(db_path)) {
+        Ok(db) => db,
+        Err(err) => return json!({ "fatal": format!("建库失败：{}", err.code) }),
+    };
+    match commit_import(&db, &preview, &meta) {
+        Ok(result) => json!({ "ok": true, "result": result }),
+        Err(err) => json!({ "ok": false, "code": err.code, "message": err.message }),
+    }
+}
 
 fn all(db_path: Option<String>) -> Value {
     json!({

@@ -316,9 +316,11 @@ pub struct ArticleContent {
     pub article: ArticleDetail,
     pub paragraphs: Vec<ParagraphNode>,
     pub questions: Vec<QuestionNode>,
-    /// M1 恒 `true`：内置 12 篇全有 `sentence_analysis`。
-    /// ponytail: 分叉逻辑（用户导入篇无预置解析）属 M5，此处只留字段不实现——
-    /// 等 M5 真的能导入无解析篇时，这里改成 `COUNT(sentence_analysis) > 0` 的一条查询即可。
+    /// 本篇是否有预置解析（B-4 / AC9）：M5 起**真实查询**
+    /// `EXISTS(sentence_analysis JOIN sentence WHERE article_id=?)`。
+    ///
+    /// 曾经硬编码 `true`——内置 12 篇全有解析时看不出问题，但用户导入的篇目零解析行，
+    /// 硬编码会让「该篇无预置解析，可写笔记」在真机永不出现（AC9 直接失效）。
     pub has_analysis: bool,
 }
 
@@ -584,13 +586,14 @@ pub fn get_article_content(
         is_word: bool,
     }
 
-    let (detail, paragraph_rows, sentence_rows, token_rows, blank_nos, questions, options_warned): (
+    let (detail, paragraph_rows, sentence_rows, token_rows, blank_nos, questions, options_warned, has_analysis): (
         DetailRow,
         Vec<ParagraphRow>,
         Vec<SentenceRow>,
         Vec<TokenRow>,
         Vec<i64>,
         Vec<QuestionNode>,
+        bool,
         bool,
     ) = db.read(|conn| {
         let detail = conn
@@ -750,7 +753,9 @@ pub fn get_article_content(
             out
         };
 
-        Ok((detail, paragraph_rows, sentence_rows, token_rows, blank_nos, questions, options_warned))
+        let has_analysis = article_has_analysis(conn, article_id)?;
+
+        Ok((detail, paragraph_rows, sentence_rows, token_rows, blank_nos, questions, options_warned, has_analysis))
     })?;
 
     if options_warned {
@@ -818,7 +823,7 @@ pub fn get_article_content(
         },
         paragraphs,
         questions,
-        has_analysis: true,
+        has_analysis,
     })
 }
 
@@ -840,6 +845,22 @@ pub fn get_startup_error(state: State<'_, StartupState>) -> Option<StartupErrorI
 fn push_in_clause(sql: &mut String, column: &str, len: usize) {
     let placeholders = std::iter::repeat("?").take(len).collect::<Vec<_>>().join(",");
     sql.push_str(&format!(" AND {column} IN ({placeholders})"));
+}
+
+/// 本篇是否有预置解析（**B-4 / AC9**）：真实查询「该篇是否至少有一行 `sentence_analysis`」。
+///
+/// 修复前这里是 `has_analysis: true` 的硬编码——内置 12 篇都有解析，所以看不出来；
+/// 用户导入的篇目零解析行，硬编码会让精读页永远不显示「该篇无预置解析，可写笔记」。
+fn article_has_analysis(conn: &rusqlite::Connection, article_id: i64) -> Result<bool, CommandError> {
+    let found: i64 = conn
+        .query_row(
+            "SELECT EXISTS(SELECT 1 FROM sentence_analysis sa JOIN sentence s ON s.id = sa.sentence_id
+                           WHERE s.article_id = ?1)",
+            [article_id],
+            |row| row.get(0),
+        )
+        .map_err(|err| CommandError::db("查询解析存在性", err))?;
+    Ok(found != 0)
 }
 
 /// LIKE 通配符转义：用户输入的 `%` / `_` 必须当前缀字面量（AC5 断言 `%_` 不产生全表）
@@ -1142,6 +1163,73 @@ mod tests {
     fn unknown_key_is_rejected_with_contract_code() {
         let err = validate_setting("nope", "1").unwrap_err();
         assert_eq!(err.code, "invalid_setting_key");
+    }
+
+    /// **B-4 / AC9（红→绿）**：`has_analysis` 必须是**真实查询**，不是硬编码 `true`。
+    ///
+    /// 断两向：① 用户导入篇（有句无解析行）→ `false`（硬编码 true 时这条必红）；
+    /// ② 写入一条 `sentence_analysis` 后 → `true`（不能反向恒 false）。
+    #[test]
+    fn article_has_analysis_reflects_real_rows() {
+        let nanos = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .expect("系统时间异常")
+            .as_nanos();
+        let dir = std::env::temp_dir().join(format!("judou-has-analysis-{nanos}"));
+        std::fs::create_dir_all(&dir).expect("建临时目录失败");
+        let path = dir.join("judou.db");
+        let db = crate::db::Db::open(path.clone()).expect("迁移应成功");
+
+        let (imported_id, builtin_id) = db
+            .write(|conn| {
+                let mut insert_article = |key: &str, visibility: &str| -> i64 {
+                    conn.execute(
+                        "INSERT INTO article (source_key, title, visibility, created_at, updated_at)
+                         VALUES (?1, ?2, ?3, '2026-11-07T00:00:00Z', '2026-11-07T00:00:00Z')",
+                        rusqlite::params![key, format!("title-{key}"), visibility],
+                    )
+                    .expect("插文章失败");
+                    conn.last_insert_rowid()
+                };
+                let imported = insert_article("user-red-green", "user");
+                let builtin = insert_article("2019-06-cet4-careful-1", "system");
+                for (article_id, tag) in [(imported, "u"), (builtin, "s")] {
+                    conn.execute(
+                        "INSERT INTO paragraph (article_id, idx, text) VALUES (?1, 0, 'Hello world.')",
+                        rusqlite::params![article_id],
+                    )
+                    .expect("插段落失败");
+                    let paragraph_id = conn.last_insert_rowid();
+                    conn.execute(
+                        "INSERT INTO sentence (article_id, paragraph_id, idx, text, text_hash, start_offset, end_offset)
+                         VALUES (?1, ?2, 0, 'Hello world.', ?3, 0, 12)",
+                        rusqlite::params![article_id, paragraph_id, format!("hash-{tag}")],
+                    )
+                    .expect("插句子失败");
+                }
+                // 只有「内置篇」有一条解析行；导入篇零解析行
+                conn.execute(
+                    "INSERT INTO sentence_analysis (sentence_id, translation_literal)
+                     SELECT id, '你好世界。' FROM sentence WHERE article_id = ?1",
+                    rusqlite::params![builtin],
+                )
+                .expect("插解析失败");
+                Ok::<_, CommandError>((imported, builtin))
+            })
+            .expect("造数失败");
+
+        let (imported_has, builtin_has) = db
+            .read(|conn| {
+                Ok((
+                    article_has_analysis(conn, imported_id)?,
+                    article_has_analysis(conn, builtin_id)?,
+                ))
+            })
+            .expect("查询失败");
+
+        assert!(!imported_has, "导入篇零解析行，has_analysis 必须为 false");
+        assert!(builtin_has, "内置篇有解析行，has_analysis 必须为 true");
+        std::fs::remove_dir_all(&dir).ok();
     }
 
     #[test]

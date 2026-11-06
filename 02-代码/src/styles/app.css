@@ -2079,3 +2079,182 @@ button {
   font-size: 12.5px;
   color: var(--ink-3);
 }
+/* ── 导入页（M5 D7 / AC10）：粘贴 → 预览 → 剔段改标题 → 提交 ──
+   只用既有 token，不新增色值；正文用 --serif 与精读页同族，强调「这是在读英文」。 */
+.import-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 78ch;
+}
+
+.import-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12.5px;
+  color: var(--ink-3);
+}
+
+.import-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  border: 1px solid var(--line-2);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.7;
+  resize: vertical;
+}
+
+.import-textarea::placeholder {
+  color: var(--ink-3);
+}
+
+.import-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.import-row-end {
+  justify-content: flex-end;
+  margin-top: 14px;
+}
+
+.import-counter {
+  font-size: 12.5px;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 超限提示不用红色块，只把数字标红（--rose 是既有「错误文字」色，与生词本同一口径） */
+.import-counter.over {
+  color: var(--rose);
+}
+
+.import-error {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid var(--rose);
+  border-radius: 10px;
+  background: var(--rose-soft);
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.import-error-code {
+  flex: none;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--rose);
+}
+
+.import-error-hint {
+  color: var(--ink-2);
+}
+
+.import-stats {
+  margin: 0 0 14px;
+  font-size: 13px;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.import-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.import-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 260px;
+  font-size: 12.5px;
+  color: var(--ink-3);
+}
+
+.import-field-narrow {
+  flex: 0 0 120px;
+}
+
+.import-field input,
+.import-field select {
+  padding: 7px 10px;
+  border: 1px solid var(--line-2);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13.5px;
+}
+
+.import-paragraphs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 46vh;
+  overflow: auto;
+}
+
+.import-paragraph {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+}
+
+/* 剔除态：降饱和 + 虚线边框，不隐藏——用户还要能看到自己剔了哪段 */
+.import-paragraph.removed {
+  border-style: dashed;
+  background: var(--paper-3);
+}
+
+.import-paragraph-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 12.5px;
+  color: var(--ink-3);
+  cursor: pointer;
+}
+
+.import-paragraph-idx {
+  color: var(--ink-2);
+}
+
+.import-paragraph-meta {
+  font-variant-numeric: tabular-nums;
+}
+
+.import-paragraph-hint {
+  margin-left: auto;
+  color: var(--ink-3);
+}
+
+.import-paragraph-text {
+  margin: 8px 0 0;
+  font-family: var(--serif);
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.import-paragraph.removed .import-paragraph-text {
+  color: var(--ink-3);
+}

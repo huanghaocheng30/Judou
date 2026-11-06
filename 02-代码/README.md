@@ -1,4 +1,4 @@
-# 句读 Judou · M3 生词本
+# 句读 Judou · M5 用户导入
 
 CET4/CET6 阅读精读工作台（Tauri v2 + React 18 + Vite 6 + TypeScript + Rust/rusqlite）。
 
@@ -10,7 +10,10 @@ CET4/CET6 阅读精读工作台（Tauri v2 + React 18 + Vite 6 + TypeScript + Ru
 **M3 让学到的东西留得住**：词卡「加入生词本」（同词不同句只一条、保留首次来源）、
 生词本三轴（文章/标签/掌握状态）分组 + 筛选搜索、条目编辑 4 字段与标签增删、
 「回原句」跳回那一句并高亮 2 秒、文章删了生词还在。
-**仍不做**复习（M4）、导出（M6）、用户导入（M5）。
+**M4 让学过的东西回得来**：篇级复习 1/3/7/14 天四档、今日到期、完成/还需再看、复习模式。
+**M5 让自己找的文章也能读进来**：粘贴纯文本 → 预览（段/句/词数、可剔段、可改标题）→ 四层校验入库；
+导入篇没有预置解析，精读页走「该篇无预置解析，可写笔记」的降级形态。
+**仍不做**导出（M6）、PDF/DOCX/文件选择器。
 
 ## 常用命令
 
@@ -24,6 +27,7 @@ npm run tauri dev          # 起 Vite(1420) + Rust，弹「句读」窗口
 npm run verify:sql         # 空库全链 001→002：19 表 / version=2 / 三列类型与默认值 / 6 索引
 npm run verify:pack        # 内容包 13 文件 SHA-256 与设计区逐字节一致 + 3,529,547 B
 npm run verify:import      # 运行期库：九表 12/90/274/6699/274/213/1561/30/90 + 四项非空 + pack_version
+npm run verify:import-user # 用户导入：清洗/分段/切句/分词 + parse 零写入 + 四层校验六错误码 + commit 两篇/剔段
 npm run verify:render      # renderTokens 纯函数：6699 token 切片零例外 + 空格 30·62 + 长文 < 50ms（M2 回归基线）
 npm run verify:analysis    # parseMarkup 守恒 274/274 + fail-closed 恰 7 句 + 六段序 + 词卡三态 + 30 空两形态
 npm run verify:note        # 001+002 建临时库：updated_at NOT NULL 无 DEFAULT + upsert/读回/刷新/清空删行
@@ -130,6 +134,32 @@ cmd /c "call ""C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC
   - `token.is_word` 落**内容包权威 `isWord`**（不推导）：推导会把选词填空的空格 token（`surface="26"`）判成词。
 - **内容包坏了**：进程不崩、窗口照开，整页错误页（原因 + 文件名 basename + 「请重新安装」），
   不进入空文章库。错误只带 basename，不泄漏本地路径。
+
+## 用户导入（M5）
+
+`#/import`：**粘贴纯文本 → 解析预览 → 剔段/改标题/选题型年份 → 确认导入**，成功后跳 `#/article/<id>`。
+
+- **两阶段**：`parse_import_preview(text, title?)` **只算不写库**（AC1 用 `db.total_changes()` 前后差值 = 0 验），
+  `commit_import(preview, meta)` 是**单事务**入库；frontend 把 preview 整对象回传，
+  **不在前端重算偏移或 stats**（唯一例外见下条「剔段」）。
+- **预览页**（`src/pages/Import.tsx`）：`data-import-preview` / `data-import-stats`（`data-paragraph-count` /
+  `data-sentence-count` / `data-word-count`）/ `data-import-paragraph`（每段一个勾选框 `data-import-paragraph-toggle`）/
+  `data-import-commit`。剔段用「段落 idx 集合」而不是从数组里删，取消勾选天然可逆。
+- **剔段后必须重算 stats**：`commit_import` 直接拿 `preview.stats` 写 `article.sentence_count/word_count`
+  （AC7/B-3'，文章库卡片读它），L4 也用它判「句数 ≥1、词数 ≥10」——回传旧 stats 会把剔除前的数字记进库。
+- **四层校验**（任一失败整体回滚、库中零写入）：L1 结构 / L2 偏移 / L3 覆盖 / L4 业务。
+  六个错误码：`IMPORT_L1_STRUCTURE`、`IMPORT_L2_OFFSET`、`IMPORT_L3_COVERAGE`、`IMPORT_L4_BUSINESS`、
+  `IMPORT_TOO_LARGE`（> 20,000 字符）、`IMPORT_DUPLICATE_SOURCE`。
+- **错误交互**（AC11）：解析或提交失败时**预览与用户编辑全部保留**（标题、剔除选择、粘贴原文），
+  错误条给**错误码 + 可操作提示**（如 `IMPORT_L2_OFFSET` → 「文本含不可见字符，请重新粘贴」；
+  `IMPORT_TOO_LARGE` → 「正文超过 2 万字符，请分段导入」）。
+- **入库口径**：`visibility='user'`、`source_key='user-<hex>'`（每次提交新生成 → **同一篇再导一次是两篇**）、
+  `exam_type` 默认 `other`、`exam_year` 默认空。文章库「我导入的」Tab 直接可见（`list_articles` 早已带 visibility 筛选）。
+- **降级精读**（AC9）：导入篇零 `sentence_analysis` 行 → `has_analysis=false` → 句子卡显
+  「**该篇无预置解析，可写笔记**」，词卡显「暂无预置解析」且「加入生词本」按钮在（可收藏、可写笔记）。
+  **`commands.rs` 里这个字段是真实查询**（`EXISTS(sentence_analysis JOIN sentence WHERE article_id=?)`），
+  不是硬编码 `true`（硬编码会让上面那句降级文案在真机永不出现）。
+- **门禁**：`npm run verify:import-user`（`scripts/verify-import-user.mjs` + `src-tauri/src/bin/import_user_cli.rs` 契约）。
 
 ## 本地库位置
 
