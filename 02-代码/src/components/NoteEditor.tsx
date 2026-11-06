@@ -64,6 +64,10 @@ export function NoteEditor({ targetKind, targetId }: NoteEditorProps) {
 
   const { values, status, cleared, change, reset, retry } = useDebouncedSave({ targetKey, save });
 
+  // **error 归属**（审查 B-1 / R-1）：hook 的 `status` 已按 targetKey 过滤——别的目标写失败不会显示在
+  // 这里；本卡片上的「保存失败，点此重试」永远指向**本目标**的草稿，`retry()` 也只重试本目标的 pending。
+  // 换目标时旧的未落库草稿由 hook 的 per-key pending 保留，切回本目标时 `reset()` 会优先用它恢复。
+
   useEffect(() => {
     let cancelled = false;
     setLoaded(false);

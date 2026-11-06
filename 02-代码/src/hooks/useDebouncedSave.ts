@@ -11,8 +11,17 @@
  * 状态机：`idle → saving → saved`（2s 后回 `idle`，成功不打扰）/ `saving → error`（草稿保留）。
  * 三栏 TRIM 后全空 → 后端走 DELETE，返回 `deleted=true` → UI 显示「已清空」。
  *
- * ponytail: 自己写 ~90 行而不是引 `use-debounce`/`react-query`（02 禁止引入状态库）；
- * 草稿用 ref + state 双份（ref 给 flush 用最新值，state 驱动输入框），不引外部 store。
+ * **按目标保存的草稿（per-key pending，2026-11-06 审查 B-1 / R-1 收口）**：
+ * 未落库的草稿存在 `pendingRef: Map<targetKey, string[]>` 里，**只有保存成功才删除**。
+ * 因此：
+ * - 换目标时**不清旧目标的 pending**——旧目标写失败后草稿仍可在切回时恢复并由「点此重试」重试；
+ * - `status` / `cleared` 都带 `key`，**错误只归属它所属的目标**（不会显示在新目标上）；
+ * - `reset()`（从库读回笔记载入时调用）**优先用 pending 草稿**——库里的值可能是保存失败前的旧值；
+ *   若该目标有 pending，`reset` 同时把状态置回 `error`（让「点此重试」可见）。
+ *
+ * ponytail: 自己写 ~120 行而不是引 `use-debounce`/`react-query`（02 禁止引入状态库）；
+ * 草稿用 ref（flush 读最新值）+ state（驱动输入框）双份，pending 用一张 Map，不引外部 store。
+ * 天花板：单进程内存态，切换/关闭标签页后 pending 丢失（已由 `pagehide` flush 兜住）。
  */
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { NoteUpsertResult } from "../lib/types";
@@ -41,14 +50,15 @@ export interface UseDebouncedSaveOptions {
 export interface DebouncedSaveController {
   /** 当前草稿（受控输入值） */
   values: string[];
+  /** 当前目标的状态（别的目标的 error 不会显示在这里） */
   status: NoteSaveStatus;
-  /** 最近一次保存是否触发了「三栏全空 → 删行」 */
+  /** 当前目标最近一次保存是否触发了「三栏全空 → 删行」 */
   cleared: boolean;
   /** 编辑某一栏：写入草稿并安排 800ms 后保存 */
   change: (index: number, value: string) => void;
-  /** 覆盖草稿（从库读出的笔记载入时用；不触发保存） */
+  /** 覆盖草稿（从库读出的笔记载入时用；**若该目标有未落库草稿则优先用草稿**） */
   reset: (values: string[]) => void;
-  /** 立即保存当前草稿（自动重试 / 手动重试共用） */
+  /** 立即保存当前目标的未落库草稿（自动重试 / 手动重试共用） */
   flushNow: () => void;
   /** 手动重试（等价 flushNow，供「保存失败，点此重试」用） */
   retry: () => void;
@@ -61,6 +71,14 @@ function fitSlots(values: string[], slots: number): string[] {
   return next;
 }
 
+/**
+ * **模块级未落库草稿**：`targetKey → 草稿`。放模块作用域而不是组件 ref ——
+ * 关闭解析面板 / 切换卡片会让 `NoteEditor` **卸载**，若 pending 跟着组件销毁，
+ * 「写失败后关面板再打开」的草稿就丢了（2026-11-06 审查 B-1 / R-1 的延伸场景）。
+ * 只有保存成功才删；不同目标用 key 区分，互不覆盖。
+ */
+const PENDING_DRAFTS = new Map<string, string[]>();
+
 export function useDebouncedSave({
   targetKey,
   save,
@@ -68,15 +86,17 @@ export function useDebouncedSave({
   slots = 3,
 }: UseDebouncedSaveOptions): DebouncedSaveController {
   const [values, setValues] = useState<string[]>(() => new Array(slots).fill("") as string[]);
-  const [status, setStatus] = useState<NoteSaveStatus>("idle");
-  const [cleared, setCleared] = useState(false);
+  /** 状态带 key：只显示「属于当前目标」的状态 */
+  const [statusState, setStatusState] = useState<{ key: string; status: NoteSaveStatus }>({
+    key: targetKey,
+    status: "idle",
+  });
+  const [clearedState, setClearedState] = useState<{ key: string; value: boolean }>({ key: targetKey, value: false });
 
   /** 最新草稿（flush 时读它，避免闭包旧值） */
   const draftRef = useRef<string[]>(values);
   /** 草稿所属目标（换目标时先用旧 key 保存旧草稿） */
   const keyRef = useRef<string>(targetKey);
-  /** 是否有未落库的编辑 */
-  const dirtyRef = useRef(false);
   const timerRef = useRef<number | null>(null);
   const saveRef = useRef(save);
   const slotsRef = useRef(slots);
@@ -95,20 +115,24 @@ export function useDebouncedSave({
     (key: string, draft: string[]) => {
       if (!key) return;
       clearTimer();
-      setStatus("saving");
+      setStatusState({ key, status: "saving" });
       void (async () => {
         try {
           const result = await saveRef.current(draft, key);
-          dirtyRef.current = false;
-          setStatus("saved");
-          setCleared(Boolean(result?.deleted));
+          // **只有成功才清 pending**：失败时草稿必须留给「切回旧目标 / 点此重试」
+          PENDING_DRAFTS.delete(key);
+          if (keyRef.current !== key) return; // 已切走：不改当前目标的状态
+          setStatusState({ key, status: "saved" });
+          setClearedState({ key, value: Boolean(result?.deleted) });
           // 成功不打扰：2s 后回 idle（「已保存」不弹提示）
           window.setTimeout(() => {
-            setStatus((current) => (current === "saved" ? "idle" : current));
+            setStatusState((current) =>
+              current.key === key && current.status === "saved" ? { key, status: "idle" } : current,
+            );
           }, 2000);
         } catch {
-          // 失败保留草稿（values 不动）→ 输入框里的字不丢
-          setStatus("error");
+          // 失败：pending 保留（草稿绝不丢），错误归属这个 key
+          setStatusState({ key, status: "error" });
         }
       })();
     },
@@ -117,17 +141,20 @@ export function useDebouncedSave({
 
   const change = useCallback(
     (index: number, value: string) => {
+      const key = keyRef.current;
       const next = draftRef.current.slice();
       while (next.length <= index) next.push("");
       next[index] = value;
       draftRef.current = next;
       setValues(next);
-      setCleared(false);
-      dirtyRef.current = true;
+      PENDING_DRAFTS.set(key, next); // 编辑即 pending，直到保存成功
+      setClearedState({ key, value: false });
+      setStatusState({ key, status: "idle" }); // 新输入 → 清掉旧的 error 展示（即将重试）
       clearTimer();
       timerRef.current = window.setTimeout(() => {
         timerRef.current = null;
-        if (dirtyRef.current) saveNow(keyRef.current, draftRef.current);
+        const pendingDraft = PENDING_DRAFTS.get(key);
+        if (pendingDraft) saveNow(key, pendingDraft);
       }, delayMs);
     },
     [clearTimer, delayMs, saveNow],
@@ -136,44 +163,51 @@ export function useDebouncedSave({
   const reset = useCallback(
     (next: string[]) => {
       clearTimer();
-      const fitted = fitSlots(next, slotsRef.current);
+      const key = keyRef.current;
+      const pendingDraft = PENDING_DRAFTS.get(key);
+      // **pending 优先**：库里的值可能是保存失败前的旧值，不能让 reset 把草稿覆盖掉
+      const fitted = fitSlots(pendingDraft ?? next, slotsRef.current);
       draftRef.current = fitted;
       setValues(fitted);
-      setStatus("idle");
-      setCleared(false);
-      dirtyRef.current = false;
+      setClearedState({ key, value: false });
+      // 有未落库草稿 → 保留 error（让「点此重试」可见）；否则回到 idle
+      setStatusState({ key, status: pendingDraft ? "error" : "idle" });
     },
     [clearTimer],
   );
 
   const flushNow = useCallback(() => {
-    if (!dirtyRef.current) return;
-    saveNow(keyRef.current, draftRef.current);
+    const key = keyRef.current;
+    const draft = PENDING_DRAFTS.get(key);
+    if (!draft) return;
+    saveNow(key, draft);
   }, [saveNow]);
 
-  // 换目标：**先 flush 旧 key 的草稿再切**（useLayoutEffect 早于父组件的 useEffect 载入新值）
+  // 换目标：**只 flush 旧 key，绝不清它的 pending**（旧草稿要能在切回时恢复/重试）
+  // useLayoutEffect 早于父组件的 useEffect（载入新目标笔记）执行，保证「先 flush 旧值再切」。
   useLayoutEffect(() => {
     if (keyRef.current === targetKey) return;
     const previousKey = keyRef.current;
-    const previousDraft = draftRef.current;
-    const previousDirty = dirtyRef.current;
     keyRef.current = targetKey;
-    // 新目标的草稿由调用方 reset() 载入；这里只负责把旧目标未落库的编辑送出去
-    dirtyRef.current = false;
-    if (previousDirty && previousKey) saveNow(previousKey, previousDraft);
+    const previousPending = PENDING_DRAFTS.get(previousKey);
+    if (previousPending) saveNow(previousKey, previousPending);
   }, [targetKey, saveNow]);
 
-  // 卸载 / pagehide：同一个 flush（决策 N2-7：只有一条路径）
+  // 卸载 / pagehide：把**所有**未落库草稿送出去（同一份逻辑，不分叉）
   useEffect(() => {
-    const onPageHide = (): void => {
-      if (dirtyRef.current) saveNow(keyRef.current, draftRef.current);
+    const flushAll = (): void => {
+      for (const [key, draft] of PENDING_DRAFTS) saveNow(key, draft);
     };
+    const onPageHide = (): void => flushAll();
     window.addEventListener("pagehide", onPageHide);
     return () => {
       window.removeEventListener("pagehide", onPageHide);
-      if (dirtyRef.current) saveNow(keyRef.current, draftRef.current);
+      flushAll();
     };
   }, [saveNow]);
+
+  const status: NoteSaveStatus = statusState.key === targetKey ? statusState.status : "idle";
+  const cleared = clearedState.key === targetKey ? clearedState.value : false;
 
   return { values, status, cleared, change, reset, flushNow, retry: flushNow };
 }
