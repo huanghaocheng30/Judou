@@ -196,13 +196,20 @@ button {
   flex: 1;
   padding: 26px 32px 40px;
   max-width: 1100px;
-  /* TP-修复2 F1（M3-U1）：原来有上限但不居中 → 宽屏下留白全堆右侧（F0 实测 2560 档右侧空 1250px）。
-     `.main` 是 flex column，cross 轴 auto margin 吸收剩余空间，等价水平居中。 */
+  /* TP-修复3 F1（M3-U3）：`.content` 是**全局**容器，左右 auto 会让**所有**页面居中——
+     列表页（文章库/生词本/复习/记录/导入/设置）被压成中间一条窄带（红端实测：文章库卡片区 403px、1 列；
+     生词本列表 484px），比居中之前更差。故全局回到左对齐，居中只给精读页（见下方 `.content:has(.reader)`）。 */
+}
+
+/* 精读页保留居中（用户 2026-11-06 复测认可）：`.reader` 仅由 Reader.tsx 的 <section> 使用，
+   故 `:has(.reader)` 精确命中精读页，列表页不受影响。WebView2 v156 实测支持 :has()（CSS.supports 与 DOM 探针均 true）。 */
+.content:has(.reader) {
   margin-inline: auto;
 }
 
 /* TP-修复2 F1 / AC-R2：超宽屏（≥1440）内容区放宽到 1240px（契约区间 1200~1280）。
-   正文行长不受影响——`.reader-body` 的 66ch 与 `.reader-split` 左列上限都不动。 */
+   正文行长不受影响——`.reader-body` 的 66ch 与 `.reader-split` 左列上限都不动。
+   TP-修复3 保留：列表页在此档能排更多列，精读页也受益。 */
 @media (min-width: 1440px) {
   .content {
     max-width: 1240px;
