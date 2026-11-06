@@ -11,6 +11,7 @@ mod commands;
 mod db;
 mod import;
 mod pack;
+mod vocab;
 
 use tauri::{AppHandle, Manager};
 
@@ -55,7 +56,16 @@ pub fn run() {
             commands::upsert_sentence_note,
             commands::upsert_word_note,
             // M2 · TP-修复1 F4：本篇笔记标记（一次 IPC，正文层句角标/词节点用）
-            commands::get_article_note_marks
+            commands::get_article_note_marks,
+            // M3 · 生词本（8 个；实现见 vocab.rs，薄包装在 commands.rs）
+            commands::list_vocab,
+            commands::add_vocab_from_token,
+            commands::update_vocab,
+            commands::delete_vocab,
+            commands::get_vocab_by_normalized,
+            commands::list_tags,
+            commands::set_vocab_tags,
+            commands::delete_tag
         ])
         .run(tauri::generate_context!())
         .expect("启动句读失败");

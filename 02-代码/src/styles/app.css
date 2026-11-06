@@ -1360,3 +1360,139 @@ button {
   font-size: 13px;
   color: var(--ink-2);
 }
+
+/* ── 生词本（M3 D3）：三轴分组列表 + 掌握状态文字优先 ── */
+
+/* 工具栏与文章库同构（tabs + search），直接复用 .tabs/.tab/.search，这里只补页内间距 */
+.vocab {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vocab-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.vocab-group-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 4px 0 0;
+  font-family: var(--serif);
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+.vocab-group-size {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 400;
+  color: var(--ink-3);
+}
+
+.vocab-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vocab-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 14px;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.vocab-row-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.vocab-word {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.vocab-phonetic,
+.vocab-pos {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+/* 掌握状态三档：**文字始终是标签本身**（新词/模糊/已掌握），颜色与边框只是辅助——
+   色觉障碍用户与灰度截图都能分辨（AC7 / 决策 #5）。文字统一 --ink，避开 D-M0-6 的对比度坑。 */
+.vocab-mastery {
+  margin-left: auto;
+  padding: 1px 8px;
+  border: 1px solid var(--line-2);
+  border-radius: 99px;
+  background: var(--paper);
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.mastery-new {
+  border-color: var(--line-2);
+  background: var(--paper);
+}
+
+.mastery-fuzzy {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.mastery-known {
+  border-color: var(--green);
+  background: var(--paper-2);
+}
+
+.vocab-sense {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+.vocab-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0;
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.vocab-tags {
+  display: inline-flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.vocab-source {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.filter-hint {
+  align-self: center;
+  font-size: 11.5px;
+  color: var(--ink-3);
+}

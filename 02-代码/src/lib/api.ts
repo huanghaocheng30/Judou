@@ -25,8 +25,14 @@ import type {
   SentenceNote,
   StartupErrorInfo,
   TokenAnalysis,
+  VocabAddResult,
+  VocabEntry,
+  VocabList,
+  VocabPatch,
+  Tag,
   WordNote,
 } from "./types";
+import type { VocabFilter, VocabGroupBy } from "./vocab";
 
 /** 连通性探针：返回 pong 与 Cargo 包版本 */
 export function ping(): Promise<PingResult> {
@@ -129,4 +135,50 @@ export function upsertWordNote(
   example: string,
 ): Promise<NoteUpsertResult> {
   return invoke<NoteUpsertResult>("upsert_word_note", { tokenId, contextMeaning, collocation, example });
+}
+
+// ───────────────── M3 · 生词本（8 个命令各一层） ─────────────────
+
+/**
+ * 生词列表：**平铺行 + tagNames**（一次 IPC 取全，不逐条查）。
+ * `groupBy` / `filter` 只是契约占位——三轴分组与筛选的唯一实现在 `lib/vocab.ts`（AC3 的断言在那里），
+ * 传了也不会在 Rust 侧再筛一遍（避免两处规则漂移）。
+ */
+export function listVocab(groupBy?: VocabGroupBy, filter?: VocabFilter): Promise<VocabList> {
+  return invoke<VocabList>("list_vocab", { groupBy: groupBy ?? null, filter: filter ?? null });
+}
+
+/** 从词节点收藏：同词已在生词本时 `created=false` 且**不改任何列**（保留首次来源与语境义） */
+export function addVocabFromToken(tokenId: number): Promise<VocabAddResult> {
+  return invoke<VocabAddResult>("add_vocab_from_token", { tokenId });
+}
+
+/** 编辑生词：只能改语境义/音标/词性/掌握状态四列；`null` = 清空该字段 */
+export function updateVocab(vocabId: number, patch: VocabPatch): Promise<VocabEntry> {
+  return invoke<VocabEntry>("update_vocab", { vocabId, patch });
+}
+
+/** 移出生词本（标签关联连带清，标签本身保留）；返回是否真的删掉了 */
+export function deleteVocab(vocabId: number): Promise<boolean> {
+  return invoke<boolean>("delete_vocab", { vocabId });
+}
+
+/** 按 `normalized` 查词（词卡判断「已在生词本」；查不到返回 null） */
+export function getVocabByNormalized(normalized: string): Promise<VocabEntry | null> {
+  return invoke<VocabEntry | null>("get_vocab_by_normalized", { normalized });
+}
+
+/** 全部标签（按名升序） */
+export function listTags(): Promise<Tag[]> {
+  return invoke<Tag[]>("list_tags");
+}
+
+/** 全量替换某词的标签（传进来的名单就是最终名单），返回替换后的标签 */
+export function setVocabTags(vocabId: number, tagNames: string[]): Promise<Tag[]> {
+  return invoke<Tag[]>("set_vocab_tags", { vocabId, tagNames });
+}
+
+/** 删标签（连带解除关联，生词条目保留）；返回是否真的删掉了 */
+export function deleteTag(tagId: number): Promise<boolean> {
+  return invoke<boolean>("delete_tag", { tagId });
 }

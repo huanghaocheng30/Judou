@@ -14,6 +14,7 @@ use crate::analysis;
 use crate::db::Db;
 use crate::import::{self, ImportReport};
 use crate::pack::{self, PackLabels, PackPath, StartupErrorInfo, StartupState};
+use crate::vocab;
 
 /// 统一错误结构（docs D1 §7.2）：`code` / `message` / `path`，camelCase 边界。
 #[derive(Debug, Serialize)]
@@ -98,6 +99,53 @@ impl CommandError {
         Self {
             code: "article_not_found".to_string(),
             message: format!("找不到编号为 {article_id} 的文章。"),
+            path: None,
+        }
+    }
+
+    /// 不变量被破坏（本不该发生，例如「刚 `INSERT` 成功的行回读不到」）：
+    /// 与 `db` 同样的对用户口径（重试/备份），细节仍只打 stderr。
+    pub fn db_invariant(context: &str) -> Self {
+        eprintln!("[judou][db] {context}: 不变量被破坏（写入后回读不到）");
+        Self {
+            code: "db_error".to_string(),
+            message: format!("本地库{context}失败，请重试；若持续失败请备份后重启应用。"),
+            path: None,
+        }
+    }
+
+    /// 找不到词节点（M3 收藏：词卡持有的 tokenId 已随文章更新消失）
+    pub fn token_not_found(token_id: i64) -> Self {
+        Self {
+            code: "token_not_found".to_string(),
+            message: format!("找不到编号为 {token_id} 的词，可能所属文章已被替换，请重新打开该篇。"),
+            path: None,
+        }
+    }
+
+    /// 找不到生词条目（M3 编辑/改标签/删除：列表已过期或另一窗口已移出）
+    pub fn vocab_not_found(vocab_id: i64) -> Self {
+        Self {
+            code: "vocab_not_found".to_string(),
+            message: format!("生词本里已找不到编号为 {vocab_id} 的词，可能已被移出，请刷新后重试。"),
+            path: None,
+        }
+    }
+
+    /// 掌握状态非法（DB 还有 `CHECK` 兜底，这里先给可读提示：`new`/`fuzzy`/`known` 三档）
+    pub fn invalid_mastery(value: &str) -> Self {
+        Self {
+            code: "invalid_mastery".to_string(),
+            message: format!("掌握状态只能是 new、fuzzy、known 三档，收到「{value}」。"),
+            path: None,
+        }
+    }
+
+    /// 空补丁（四个可编辑字段一个都没给）：属于调用方 bug，不静默当成功
+    pub fn invalid_vocab_patch() -> Self {
+        Self {
+            code: "invalid_vocab_patch".to_string(),
+            message: "没有可更新的字段（只能改语境义/音标/词性/掌握状态）。".to_string(),
             path: None,
         }
     }
@@ -860,6 +908,77 @@ pub fn upsert_word_note(
         collocation.as_deref(),
         example.as_deref(),
     )
+}
+
+// ───────────────────────── M3 生词本（8 个薄包装；实现在 vocab.rs，注册在 lib.rs） ─────────────────────────
+//
+// ponytail: 每个包装只做「参数 → 实现」一层转手，不在这里写 SQL、不在这里做校验——
+// 校验与 SQL 在 `vocab.rs`（可单测）；注册点只在 `lib.rs`（02 D1）。
+
+/// 生词列表：平铺行 + tagNames（分组在纯函数层 `src/lib/vocab.ts`）
+#[tauri::command]
+pub fn list_vocab(
+    db: State<'_, Db>,
+    group_by: Option<String>,
+    filter: Option<vocab::VocabFilter>,
+) -> Result<vocab::VocabList, CommandError> {
+    vocab::list_vocab(&db, group_by, filter)
+}
+
+/// 从词节点收藏（重复收藏不改任何列，返回 `created=false`）
+#[tauri::command]
+pub fn add_vocab_from_token(
+    db: State<'_, Db>,
+    token_id: i64,
+) -> Result<vocab::VocabAddResult, CommandError> {
+    vocab::add_vocab_from_token(&db, token_id)
+}
+
+/// 编辑生词（只允许语境义/音标/词性/掌握状态四列）
+#[tauri::command]
+pub fn update_vocab(
+    db: State<'_, Db>,
+    vocab_id: i64,
+    patch: vocab::VocabPatch,
+) -> Result<vocab::VocabEntry, CommandError> {
+    vocab::update_vocab(&db, vocab_id, patch)
+}
+
+/// 移出生词本（连带清标签关联）
+#[tauri::command]
+pub fn delete_vocab(db: State<'_, Db>, vocab_id: i64) -> Result<bool, CommandError> {
+    vocab::delete_vocab(&db, vocab_id)
+}
+
+/// 按 normalized 查词（词卡判断「已在生词本」）
+#[tauri::command]
+pub fn get_vocab_by_normalized(
+    db: State<'_, Db>,
+    normalized: String,
+) -> Result<Option<vocab::VocabEntry>, CommandError> {
+    vocab::get_vocab_by_normalized(&db, &normalized)
+}
+
+/// 全部标签（按名升序）
+#[tauri::command]
+pub fn list_tags(db: State<'_, Db>) -> Result<Vec<vocab::Tag>, CommandError> {
+    vocab::list_tags(&db)
+}
+
+/// 全量替换某词的标签，返回替换后的标签
+#[tauri::command]
+pub fn set_vocab_tags(
+    db: State<'_, Db>,
+    vocab_id: i64,
+    tag_names: Vec<String>,
+) -> Result<Vec<vocab::Tag>, CommandError> {
+    vocab::set_vocab_tags(&db, vocab_id, tag_names)
+}
+
+/// 删标签（连带解除关联，生词条目保留）
+#[tauri::command]
+pub fn delete_tag(db: State<'_, Db>, tag_id: i64) -> Result<bool, CommandError> {
+    vocab::delete_tag(&db, tag_id)
 }
 
 #[cfg(test)]

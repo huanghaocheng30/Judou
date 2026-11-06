@@ -245,3 +245,63 @@ export interface NoteMarks {
   sentenceIds: number[];
   tokenIds: number[];
 }
+
+// ───────────────── M3 · 生词本（5 个接口；VocabGroup / VocabFilter / VocabCardModel 在 lib/vocab.ts） ─────────────────
+
+/**
+ * 生词条目：`vocab_entry` 全列 + 来源文章标题 + 标签名。
+ * `tagNames` 与条目同批返回（Rust 侧两次查询、不 N+1）；分组/筛选在 `lib/vocab.ts` 纯函数层做。
+ */
+export interface VocabEntry {
+  id: number;
+  /** 聚合键（UNIQUE）：同词不同句只有一条 */
+  normalized: string;
+  /** 首次加入形态（重复收藏不改它） */
+  surface: string;
+  phonetic: string | null;
+  pos: string | null;
+  /** 语境义：收藏瞬间的快照，内容包升级也不回溯 */
+  contextMeaning: string | null;
+  sourceSentenceId: number | null;
+  sourceArticleId: number | null;
+  /** 三档：`new` / `fuzzy` / `known`（DB CHECK 约束）；展示与顺序见 lib/vocab.ts 的 `Mastery` */
+  mastery: string;
+  /** M4 写、M3 只读 */
+  reviewCount: number;
+  /** M4 写、M3 只读 */
+  lastReviewedAt: string | null;
+  createdAt: string;
+  updatedAt: string;
+  tagNames: string[];
+  /** 来源已删（`source_article_id` 被 SET NULL）时为 null */
+  articleTitle: string | null;
+}
+
+/** `list_vocab` 返回体：包一层而不是裸数组，将来加分页/统计字段不必改命令契约 */
+export interface VocabList {
+  entries: VocabEntry[];
+}
+
+/**
+ * `update_vocab` 的补丁：**只这四个字段**（表里没有搭配/例句列，也不许加列）。
+ * 字段缺省 = 不改；显式 `null` = 清空；`mastery` 不接受 null（列 NOT NULL + CHECK）。
+ */
+export interface VocabPatch {
+  contextMeaning?: string | null;
+  phonetic?: string | null;
+  pos?: string | null;
+  mastery?: string;
+}
+
+/** 标签 */
+export interface Tag {
+  id: number;
+  name: string;
+  color: string | null;
+}
+
+/** `add_vocab_from_token` 返回体：`created=false` 表示已在生词本（按钮文案用） */
+export interface VocabAddResult {
+  entry: VocabEntry;
+  created: boolean;
+}
