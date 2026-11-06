@@ -294,6 +294,11 @@ try {
        JOIN article a ON a.id = p.article_id
       WHERE p.status = 'active' AND p.next_review_at <= ?
    ORDER BY p.next_review_at ASC, p.article_id ASC`;
+  // concern 7：`list_review_plans` 的 SQL（与 review.rs `LIST_SELECT` 逐字同源）
+  const LIST_PLANS_SQL = `SELECT p.article_id, p.next_review_at, p.interval_index, p.status, p.updated_at, a.title
+       FROM review_plan p
+       JOIN article a ON a.id = p.article_id
+   ORDER BY p.next_review_at ASC, p.article_id ASC`;
   const UPDATE_PLAN = `UPDATE review_plan
         SET next_review_at = ?, interval_index = ?, status = ?, updated_at = datetime('now')
       WHERE article_id = ?`;
@@ -524,6 +529,7 @@ try {
   db.prepare(DUE_SQL).all(TODAY);
   db.prepare("SELECT * FROM review_log ORDER BY reviewed_at DESC").all();
   db.prepare("SELECT * FROM review_plan ORDER BY next_review_at ASC, article_id ASC").all();
+  db.prepare(LIST_PLANS_SQL).all();
   const afterSnap = snapshot();
   const drifted = WATCHED.filter((t) => beforeSnap[t] !== afterSnap[t]);
   console.log(`⑨ 写白名单外逐行比对：${WATCHED.length} 张表，漂移 ${drifted.length} 张`);
@@ -548,6 +554,46 @@ try {
   );
   const tables = db.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%' ORDER BY name").all().map((r) => r.name);
   eq("⑨-d 表数仍为 19（零 schema 改动）", tables.length, 19);
+
+  // ── ⑩ concern 7：list_review_plans 带文章标题（JOIN article，标题不靠前端拼「文章 #id」） ──
+  const listed = db.prepare(LIST_PLANS_SQL).all();
+  const titleOf = new Map(
+    db.prepare("SELECT id, title FROM article").all().map((r) => [num(r.id), r.title]),
+  );
+  ok("⑩-a list_review_plans 返回的计划非空（有可比对的行）", listed.length > 0, `行数 ${listed.length}`);
+  eq(
+    "⑩-b list_review_plans 每行 title 非空",
+    listed.filter((r) => typeof r.title !== "string" || r.title.trim() === "").map((r) => num(r.article_id)),
+    [],
+  );
+  eq(
+    "⑩-c list_review_plans 每行 title 等于对应文章标题",
+    listed.filter((r) => r.title !== titleOf.get(num(r.article_id))).map((r) => num(r.article_id)),
+    [],
+  );
+  // 与 review.rs 的 SQL 同源：静态比对两份 SELECT 的列名（SQL 漂移会被这里拦住）
+  //
+  // Rust 里 SQL 是「双引号串 + 行尾 `\` 续行」，先取串内容（不含结束引号），再拼成一行。
+  // **只比 SELECT 主体**（不含 ORDER BY）：Rust 的排序子句在 `list_review_plans` 里用
+  // `format!` 拼在外面，两边的排序写法本来就不在一处。
+  const sqlConstOf = (name) => {
+    // 宽松匹配：`= "…";` 允许换行（PLAN_SELECT 写成 `= \n    "…";`）
+    const hit = new RegExp(`const ${name}: &str =\\s*"([^;]*)";`).exec(src.review);
+    return hit ? hit[1] : "";
+  };
+  const stripClause = (sql) => sql.replace(/\s+ORDER\s+BY\b[\s\S]*$/i, "").replace(/\\/g, " ").replace(/\s+/g, " ").trim();
+  const rsListSelect = stripClause(sqlConstOf("LIST_SELECT"));
+  const gateListSelect = stripClause(LIST_PLANS_SQL);
+  ok("⑩-d0 review.rs 确有 LIST_SELECT 常量（JOIN 形态）", rsListSelect !== "");
+  eq("⑩-d review.rs LIST_SELECT 与门禁 SQL 同源（去掉 ORDER BY、归一化后逐字相等）", rsListSelect, gateListSelect);
+  // 除 list_review_plans 外其余命令不带 title（PLAN_SELECT 无 join）：READER 的 plan 恒空串。
+  // 用「不含 a.title / JOIN」判断而不是「不存在」——PLAN_SELECT 是必须存在的常量。
+  const rsPlanSelect = stripClause(sqlConstOf("PLAN_SELECT"));
+  ok("⑩-e0 review.rs 确有 PLAN_SELECT 常量", rsPlanSelect !== "");
+  ok(
+    "⑩-e 其余命令走的 PLAN_SELECT 不含 join / a.title（title 只在 list 路径）",
+    !/JOIN/i.test(rsPlanSelect) && !/a\.title/i.test(rsPlanSelect),
+  );
 } catch (err) {
   ok(`D 段执行（${err.code ?? ""} ${err.message}）`, false, err.stack ?? "");
 } finally {

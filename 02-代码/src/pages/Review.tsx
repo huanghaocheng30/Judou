@@ -190,12 +190,12 @@ export function Review() {
 }
 
 /**
- * `done` 计划的标题：`list_review_plans()` 只返回计划列（不含标题），
- * 而 `get_due_reviews` 只带**到期**行——`done` 永远不在 `due` 里，所以这里查不到标题。
+ * `done` 计划的标题：`list_review_plans()` 已 JOIN `article` 带上 `title`（concern 7 修复），
+ * 这里直接用；`title` 为空（老数据 / 序列化丢字段）才回退「文章 #id」，不让行变空白。
  *
- * ponytail: 本包不为了标题加第 8 个命令、也不改 `list_review_plans` 的返回体（AC1 已冻结 7 命令），
- * 退化显示「文章 #id」；天花板：M6 做统计页时把 title 并进 plan 返回体（一次 JOIN，命令签名不变）。
+ * 仍是**第 7 个命令**、签名不变（`() -> ReviewPlan[]`），只是返回体多一个字段。
  */
 function doneTitle(plan: ReviewPlan): string {
-  return `文章 #${plan.articleId}`;
+  const title = plan.title?.trim();
+  return title ? title : `文章 #${plan.articleId}`;
 }

@@ -41,6 +41,9 @@ pub const MAX_INTERVAL_INDEX: i64 = 3;
 // ───────────────────────────── 返回体（camelCase 边界，02 §二） ─────────────────────────────
 
 /// `review_plan` 一行（`updatedAt` 是记录时刻，不参与到期判定）。
+///
+/// `title` 只在 `list_review_plans` 里带上（JOIN `article`）——另外 5 个返回计划的命令用
+/// `PLAN_SELECT`（不带 title）并置空串；见 `LIST_SELECT` / `to_list_plan`。
 #[derive(Debug, Serialize, Clone, PartialEq)]
 #[serde(rename_all = "camelCase")]
 pub struct ReviewPlan {
@@ -50,6 +53,8 @@ pub struct ReviewPlan {
     /// `active` / `paused` / `done`（DB CHECK 约束）
     pub status: String,
     pub updated_at: String,
+    /// 文章标题。**只有 `list_review_plans` 会填**，其余命令恒为 `""`（consumers 只有复习页「已完成」区）。
+    pub title: String,
 }
 
 /// `get_due_reviews` 的一行：计划 + 文章标题（复习页列表要显示标题）。
@@ -79,6 +84,11 @@ pub struct ReviewLog {
 const PLAN_SELECT: &str =
     "SELECT article_id, next_review_at, interval_index, status, updated_at FROM review_plan";
 
+/// `list_review_plans` 专用：计划列 + 文章标题（`get_due_reviews` 的 join 口径照搬）。
+const LIST_SELECT: &str = "SELECT p.article_id, p.next_review_at, p.interval_index, p.status, p.updated_at, a.title \
+                             FROM review_plan p \
+                             JOIN article a ON a.id = p.article_id";
+
 fn map_plan(row: &rusqlite::Row<'_>) -> rusqlite::Result<ReviewPlan> {
     Ok(ReviewPlan {
         article_id: row.get(0)?,
@@ -86,7 +96,13 @@ fn map_plan(row: &rusqlite::Row<'_>) -> rusqlite::Result<ReviewPlan> {
         interval_index: row.get(2)?,
         status: row.get(3)?,
         updated_at: row.get(4)?,
+        title: String::new(),
     })
+}
+
+/// `LIST_SELECT` 的行 → `ReviewPlan`（第 6 列是 `article.title`）。
+fn to_list_plan(plan: ReviewPlan, title: String) -> ReviewPlan {
+    ReviewPlan { title, ..plan }
 }
 
 /// 校验前端传来的 `today`：**必须是定长 `YYYY-MM-DD`**。
@@ -385,15 +401,18 @@ pub fn list_review_logs(db: &Db, article_id: Option<i64>) -> Result<Vec<ReviewLo
 ///
 /// 02 B4 的实现路径：复习页自己从这份清单里筛出 `done` 的文章（AC5「已完成今日」）
 /// 并提供「重新加入复习」（AC7）——**不依赖** `Library.tsx`（不在本包范围）。
+///
+/// Concern 7 修复：JOIN `article` 带上 `title`，让「已完成」区显示文章标题而不是「文章 #id」。
+/// 仍是第 7 个命令、签名不变（`() -> Vec<ReviewPlan>`），只是返回体多一个字段。
 pub fn list_review_plans(db: &Db) -> Result<Vec<ReviewPlan>, CommandError> {
     db.read(|conn| {
         let mut stmt = conn
             .prepare(&format!(
-                "{PLAN_SELECT} ORDER BY next_review_at ASC, article_id ASC"
+                "{LIST_SELECT} ORDER BY p.next_review_at ASC, p.article_id ASC"
             ))
             .map_err(|err| CommandError::db("准备复习计划查询", err))?;
         let rows = stmt
-            .query_map([], map_plan)
+            .query_map([], |row| Ok(to_list_plan(map_plan(row)?, row.get(5)?)))
             .map_err(|err| CommandError::db("查询复习计划", err))?;
         rows.collect::<rusqlite::Result<Vec<ReviewPlan>>>()
             .map_err(|err| CommandError::db("读取复习计划", err))
@@ -631,6 +650,12 @@ mod tests {
         // list_review_plans 要拿到**全部**计划（含 done 过的 A 重启后仍 active；B 也在）
         let all = list_review_plans(&db).expect("全部计划");
         assert_eq!(all.len(), 2);
+        // concern 7：计划清单带文章标题（不是「文章 #id」）
+        let titles: Vec<&str> = all.iter().map(|plan| plan.title.as_str()).collect();
+        assert_eq!(titles, vec!["A 篇", "B 篇"], "list_review_plans 每行 title 非空且等于文章标题");
+        // 其余返回计划的命令不带 title（PLAN_SELECT 无 join），恒为空串——不是猜测的标题
+        assert_eq!(restarted.title, "", "restart_review_plan 不带 title");
+        assert_eq!(created.title, "", "restart 的 INSERT 分支不带 title");
 
         std::fs::remove_dir_all(&dir).ok();
     }

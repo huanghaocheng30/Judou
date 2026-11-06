@@ -327,6 +327,16 @@ export interface ReviewPlan {
   status: ReviewPlanStatus;
   /** 记录时刻（\datetime('now')\），不参与到期判定 */
   updatedAt: string;
+  /**
+   * 文章标题 —— **只有 `list_review_plans()` 会填**（JOIN `article`），
+   * 其余 5 个返回计划的命令恒为空串 `""`（Rust `PLAN_SELECT` 不带 join）。
+   *
+   * concern 7 修复：复习页「已完成」区要显示标题而不是「文章 #id」。用**可选字段**而不是新类型
+   * `ReviewPlanWithTitle`——`listReviewPlans()` 与其余 5 个命令共用 `ReviewPlan`，拆类型会让
+   * api.ts 的 4 处既有用法跟着分叉；差异只在「有没有 title」这一处，留在类型上即可，
+   * 消费方（Review.tsx）自己回退。
+   */
+  title?: string;
 }
 
 /** 今日到期的一行：计划 + 文章标题（复习页列表标题来源） */
