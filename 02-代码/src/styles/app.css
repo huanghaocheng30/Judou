@@ -1496,3 +1496,194 @@ button {
   font-size: 11.5px;
   color: var(--ink-3);
 }
+
+/* ── 生词本（M3 D4/D5/D6）：编辑面板 / 标签编辑 / 收藏按钮 / 点回原句高亮 ── */
+
+/* 主操作按钮（保存）：加边框与浅底，**文字仍用 --ink**——
+   `--accent` 作前景在浅色只有 4.19:1（低于正文 4.5），作底色配 --ink 才有 14:1 级。 */
+.btn-primary {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* 行内操作（编辑 / 移出 / 确认）与「回原句」同为链接式文字按钮（.link-btn） */
+.vocab-actions {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.vocab-confirm {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.vocab-remove-error {
+  font-size: 12px;
+  color: var(--rose);
+}
+
+/* 编辑面板：整块替换行内容（不做「显示 + 展开」双份，同一字段只有一处渲染） */
+.vocab-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vocab-editor-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.vocab-editor-hint {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 400;
+  color: var(--ink-3);
+}
+
+.vocab-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vocab-field-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.vocab-field-half {
+  flex: 1 1 160px;
+}
+
+.vocab-field-label {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.vocab-field-input {
+  width: 100%;
+}
+
+/* 掌握状态三档按钮：**文字就是标签本身**（新词/模糊/已掌握），选中态只加边框与浅底 */
+.mastery-pick {
+  display: inline-flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.mastery-option {
+  padding: 3px 12px;
+  border: 1px solid var(--line-2);
+  border-radius: 99px;
+  background: var(--paper);
+  color: var(--ink-2);
+  font-size: 12.5px;
+}
+
+.mastery-option.on {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* 标签编辑：chip 上的 × 是独立按钮（Tab 可达），不是整块可点的伪元素 */
+.tag-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 4px 1px 8px;
+  border-radius: 99px;
+  background: var(--accent-soft);
+  color: var(--ink-2);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.tag-remove {
+  padding: 0 4px;
+  border-radius: 99px;
+  color: var(--ink-2);
+  line-height: 1.2;
+}
+
+.tag-empty {
+  font-size: 11.5px;
+  color: var(--ink-3);
+}
+
+.tag-input {
+  max-width: 280px;
+}
+
+.vocab-editor-error {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--rose);
+}
+
+.vocab-editor-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* 词卡收藏区（D5）：未收藏＝主按钮，已收藏＝「已在生词本 + 移出」文字链——**没有灰色禁用态** */
+.word-vocab {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+}
+
+.word-vocab-flag {
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+
+.word-vocab-error {
+  font-size: 12px;
+  color: var(--rose);
+}
+
+/* 点回原句高亮（D6 / AC5）：2 秒后由 React 摘掉 class 与 data-highlight。
+   用 `background-color` 而不是 `background` 简写——后者会清掉 `.tok[data-has-note="1"]` 的笔记圆点。
+   `box-decoration-break: clone` 让跨行的句子每行都有完整圆角底（否则只有首尾行有）。 */
+.sentence-flash {
+  background-color: var(--accent-soft);
+  box-shadow: 0 0 0 2px var(--accent);
+  border-radius: 3px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.tok-flash {
+  background-color: var(--accent-soft);
+  border-radius: 3px;
+}
+

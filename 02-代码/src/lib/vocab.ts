@@ -241,3 +241,18 @@ export function toCardModel(row: VocabEntry): VocabCardModel {
     sourceHref: vocabSourceHref(row),
   };
 }
+
+/**
+ * 错误对象 → 一句话文案。**Tauri 的拒绝值是 `CommandError {code,message,path}` 对象，不是 `Error` 实例**
+ * （M2 起全项目都靠 `err instanceof Error` 取 message，那是拿不到 Tauri 错误文案的）。
+ * 生词本页与编辑面板共用这一份，避免两处文案/取值口径漂移。
+ */
+export function describeCommandError(err: unknown): string {
+  if (typeof err === "object" && err !== null && "message" in err) {
+    const message = (err as { message?: unknown }).message;
+    if (typeof message === "string" && message.trim() !== "") {
+      return message;
+    }
+  }
+  return err instanceof Error ? err.message : String(err);
+}

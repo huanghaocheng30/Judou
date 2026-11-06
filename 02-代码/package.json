@@ -20,6 +20,7 @@
     "verify:note": "node scripts/verify-note.mjs",
     "verify:note-marks": "node scripts/verify-note-marks.mjs",
     "verify:vocab": "node scripts/verify-vocab.mjs",
+    "verify:pending": "node --test scripts/pending.test.mjs",
     "test:theme": "node --test scripts/theme.test.mjs"
   },
   "dependencies": {

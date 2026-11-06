@@ -231,6 +231,58 @@ for (const [theme, vars] of Object.entries(themes)) {
   }
 }
 
+// ── M3 D8（AC7）：生词本掌握状态三档 + 点回原句高亮态。每主题 4 项 → 判据项 30 + 8 = 38 ──
+// 取色口径：
+// - `.mastery-new/fuzzy/known` 只改边框与底色，文字**继承** `.vocab-mastery` 的 `color`；
+//   所以前景优先读规则自身的 color，没有再回落 `.vocab-mastery` 的 color 与 `var(--ink)`
+//   （样式将来改了色值也会被这条如实测到，不是抄一份期望值）。
+// - `.sentence-flash` 是「正文色 on 高亮底」，门槛按正文 ≥4.5:1；
+//   底色只写 `background-color`（`background` 简写会清掉既有背景），两种写法都取。
+const MASTERY_BASE_BODY = blockBody(".vocab-mastery");
+const MASTERY_BODIES = {
+  new: blockBody(".mastery-new"),
+  fuzzy: blockBody(".mastery-fuzzy"),
+  known: blockBody(".mastery-known"),
+};
+const SENTENCE_FLASH_BODY = blockBody(".sentence-flash");
+if (!MASTERY_BASE_BODY) {
+  console.error("FAIL: app.css 缺少 .vocab-mastery 规则（掌握状态徽标，AC7）");
+  failed = true;
+}
+for (const [key, body] of Object.entries(MASTERY_BODIES)) {
+  if (!body) {
+    console.error(`FAIL: app.css 缺少 .mastery-${key} 规则（掌握状态三档之一，AC7）`);
+    failed = true;
+  }
+}
+if (!SENTENCE_FLASH_BODY) {
+  console.error("FAIL: app.css 缺少 .sentence-flash 规则（点回原句高亮，AC5）");
+  failed = true;
+}
+const masteryForeground = (body) =>
+  declOf(body, "color") ?? declOf(MASTERY_BASE_BODY, "color") ?? "var(--ink)";
+const MASTERY_PAIRS = [
+  ["掌握状态·新词 .mastery-new（文字 on 自身填充）", masteryForeground(MASTERY_BODIES.new), declOf(MASTERY_BODIES.new, "background"), 4.5],
+  ["掌握状态·模糊 .mastery-fuzzy（文字 on 自身填充）", masteryForeground(MASTERY_BODIES.fuzzy), declOf(MASTERY_BODIES.fuzzy, "background"), 4.5],
+  ["掌握状态·已掌握 .mastery-known（文字 on 自身填充）", masteryForeground(MASTERY_BODIES.known), declOf(MASTERY_BODIES.known, "background"), 4.5],
+  [
+    "点回原句高亮 .sentence-flash（正文色 on 高亮底）",
+    "var(--ink)",
+    declOf(SENTENCE_FLASH_BODY, "background-color") ?? declOf(SENTENCE_FLASH_BODY, "background"),
+    4.5,
+  ],
+];
+for (const [theme, vars] of Object.entries(themes)) {
+  for (const [label, fgRaw, bgRaw, threshold] of MASTERY_PAIRS) {
+    const fg = resolveColor(fgRaw, vars);
+    const bg = resolveColor(bgRaw, vars);
+    if (!fg || !bg) { console.error(`FAIL: [${theme}] 生词本配对取色失败：${label}`); failed = true; continue; }
+    const ratio = contrast(fg, bg);
+    rows.push({ theme, pair: label, fg, bg, ratio, threshold, ok: ratio >= threshold });
+    if (ratio < threshold) failed = true;
+  }
+}
+
 console.log("theme | 配对 | 前景 | 背景 | 比值 | 门槛 | 判定");
 console.log("---|---|---|---|---|---|---");
 for (const r of rows) {

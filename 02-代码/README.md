@@ -1,4 +1,4 @@
-# 句读 Judou · M2 精读闭环
+# 句读 Judou · M3 生词本
 
 CET4/CET6 阅读精读工作台（Tauri v2 + React 18 + Vite 6 + TypeScript + Rust/rusqlite）。
 
@@ -7,7 +7,10 @@ CET4/CET6 阅读精读工作台（Tauri v2 + React 18 + Vite 6 + TypeScript + Ru
 `struct_markup` 符号渲染）、点词出**三态词卡**（语境义 / 词义（通用）/ 暂无预置解析）、
 点空格出**三段式**（答案 / 为什么 / 易错排除）、题目「显示答案」（只显字母 + 选项文字，**不判对错**）、
 句子与词各 **3 栏笔记**（800ms 防抖自动保存、换句先 flush、三栏清空即删行）。
-**仍不做**生词本/复习/用户导入（M3~M5）。
+**M3 让学到的东西留得住**：词卡「加入生词本」（同词不同句只一条、保留首次来源）、
+生词本三轴（文章/标签/掌握状态）分组 + 筛选搜索、条目编辑 4 字段与标签增删、
+「回原句」跳回那一句并高亮 2 秒、文章删了生词还在。
+**仍不做**复习（M4）、导出（M6）、用户导入（M5）。
 
 ## 常用命令
 
@@ -24,8 +27,10 @@ npm run verify:import      # 运行期库：九表 12/90/274/6699/274/213/1561/3
 npm run verify:render      # renderTokens 纯函数：6699 token 切片零例外 + 空格 30·62 + 长文 < 50ms（M2 回归基线）
 npm run verify:analysis    # parseMarkup 守恒 274/274 + fail-closed 恰 7 句 + 六段序 + 词卡三态 + 30 空两形态
 npm run verify:note        # 001+002 建临时库：updated_at NOT NULL 无 DEFAULT + upsert/读回/刷新/清空删行
+npm run verify:vocab       # 001+002 建临时库：同词聚合只一条 + 首次来源不变 + 标签全量替换 + 删词连带 + 分组排序（180 判据）
+npm run verify:pending     # 未落库草稿的两条判定：条件删除（D-M2-11）/ 200 上限与活跃 key 保护（D-M2-12）
 npm run verify:invoke      # 除 src/lib/api.ts 外不许出现 invoke(
-npm run verify:contrast    # tokens.css/app.css 的 WCAG 对比度（26 项，含 5 种符号标记 ×2 主题）
+npm run verify:contrast    # tokens.css/app.css 的 WCAG 对比度（38 项，含 5 种符号标记、掌握状态三档、回原句高亮）
 npm run verify:ci          # ci.yml 结构 + 三平台 matrix
 npm run test:theme         # 主题解析/应用逻辑（node --test）
 
@@ -61,6 +66,37 @@ cmd /c "call ""C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC
   `answer IS NULL` → 「本题无预置答案」；选项是纯文本 `<li>`，**不可点选**。
 - **键盘**：词/句/空节点 `tabIndex=0` + `role="button"` + `Enter`/`Space` 等价点击；`:focus-visible` 全局 2px 轮廓。
 
+## 生词本（M3）
+
+- **收藏（词卡）**：词卡底部「加入生词本」→ `add_vocab_from_token`；已收藏显示「已在生词本 + 移出」。
+  数据流**必经 `AnalysisPanel`**（`src/components/AnalysisPanel.tsx`）：`selection.normalized` 只有它持有
+  （`WordCardModel` 没有该字段），它查 `get_vocab_by_normalized` 后把 `{normalized, vocabState, onAdd, onRemove}`
+  经 props 下发给 `WordCard`——**`WordCard` 不自取数**。收藏态**一律 `data-vocab-state="none|added"`**，
+  **不复用 `data-has-note`**（那是 M2 的笔记标记）。`created=false`（词已在库）同样置 `added`，**不重查全量**。
+- **聚合口径**：`vocab_entry.normalized` UNIQUE → 同词不同句**只一条**；重复收藏**不改**首次来源三列
+  （`surface` / `source_sentence_id` / `source_article_id`），`context_meaning` 是收藏瞬间的快照，
+  内容包升级不回溯。`token_analysis` 没有的词**也能收藏**（语境义为 NULL）。文章删了生词还在（`ON DELETE SET NULL`）。
+- **生词本页**（`#/vocab`，`src/pages/Vocab.tsx`）：三轴切换（按文章/按标签/按掌握状态）+ 掌握状态单选 +
+  标签多选（**AND**：都要有）+ 关键词搜（`normalized`/`surface` 不区分大小写）；分组与排序全在纯函数层
+  `src/lib/vocab.ts`（文章轴「来源已删除」排最后、掌握轴固定 `new→fuzzy→known`、标签轴一词可属多组）。
+  两种空态：`data-vocab-empty="all"`（还没有生词 + 「去文章库」）/ `"filtered"`（有但没命中 + 「清除筛选」）。
+- **编辑**（`src/components/VocabEditor.tsx`）：**只改表结构里有的 4 列**——语境义 / 音标 / 词性 / 掌握状态，
+  加标签增删（**全量替换**：传进去的名单就是最终名单）。标签输入 **Enter 添加、chip 上 × 删除、Esc 取消当前输入**；
+  保存 = `update_vocab` + `set_vocab_tags` 两步幂等写，**失败保留输入并提示重试**（不静默丢）。
+  保存成功后 `Vocab.tsx` **就地替换该行 + 重拉 `list_vocab`/`list_tags`**（标签变化会改分组归属）。
+- **移出**：行内轻量二次确认（不弹原生 `confirm`），删条目连带清 `vocab_tag`，标签本身保留。
+- **点回原句**（`src/pages/Reader.tsx`）：条目链接形态 `#/article/<articleId>?sentence=<sentenceId>`
+  （**路径段给文章、query 给句子**；`#/article?id=…` 会解析出 `articleId=undefined`）。
+  Reader **在 `content` 就绪之后**才消费 query → `scrollIntoView({block:'center'})` + 高亮 2 秒
+  （`data-highlight="1"` + `.sentence-flash`，卸载/再跳转清定时器）。**fail-safe**：句子不属于本篇 / 节点找不到
+  → **不滚动、不报错、停留原位**（`scrollTop` 前后不变）。来源已删（`sourceArticleId=null`）时按钮**不显示**（不是禁用）。
+- **无障碍**（AC7）：掌握状态三档**文字就是标签**（新词/模糊/已掌握），颜色只作强化；
+  列表项与按钮可 Tab、`:focus-visible` 2px 轮廓；点收藏按钮**不关面板、不触发句子卡**（`stopPropagation`）；
+  **不放灰色禁用态**——「加入生词本」与「移出」都可点。
+- **顺带收 M2 两债务**（`src/lib/pending.ts` + `scripts/pending.test.mjs`）：
+  ① 未落库草稿的成功回调改**条件删除**（同 key 已有新草稿时旧回调不删，D-M2-11）；
+  ② 模块级草稿 Map 加 **200 条上限**，超出淘汰最旧且**活跃 key 不淘汰**（D-M2-12）。两条都有先红后绿。
+
 ## 内容包与导入（M1）
 
 - **内容包位置**：`content-pack/`（12 篇 `cet4-2023-12-*.json` + `manifest.json`，合计 3,529,547 B）。
@@ -95,10 +131,11 @@ cmd /c "call ""C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC
 
 ```
 content-pack/   内置内容包 13 文件（只读数据，SHA-256 由 verify:pack 守）
-src/            React 壳（shell = 侧栏/顶栏/主题/路由；pages = 8 页；lib = api/render/theme/types）
-src-tauri/      Rust 侧（commands.rs 命令、db.rs 连接与迁移、pack.rs 内容包、import.rs 导入）
+src/            React 壳（shell = 侧栏/顶栏/主题/路由；pages = 8 页；lib = api/render/theme/types/vocab/pending）
+src/components/ 解析面板与卡片（AnalysisPanel/SentenceCard/WordCard/BlankCard/NoteEditor/VocabEditor）
+src-tauri/      Rust 侧（commands.rs 命令、vocab.rs 生词本 8 命令、db.rs 连接与迁移、pack.rs 内容包、import.rs 导入）
                 migrations/001_init.sql（冻结）、002_add_import_columns.sql
-scripts/        可复跑的断言（verify-* / check-* / theme.test）
+scripts/        可复跑的断言（verify-* / check-* / theme.test / pending.test）
 .github/        CI 骨架（**M7 收尾时移动到仓库根 .github/**）
 ```
 

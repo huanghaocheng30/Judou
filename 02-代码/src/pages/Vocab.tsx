@@ -1,30 +1,33 @@
 /**
- * 生词本（M3 第 1 批 D3 · **骨架版**）：三轴切换 / 筛选 / 搜索 / 分组列表 / 两种空态。
+ * 生词本（M3 D3 骨架 + D4 编辑/移出接线）：三轴切换 / 筛选 / 搜索 / 分组列表 / 两种空态 / 行内编辑与移出。
  *
- * 本批**已做**（D3）：
+ * 已做：
  * - 三轴切换（按文章 / 按标签 / 按掌握状态），分组与排序全在纯函数层 `lib/vocab.ts`（AC3）；
  * - 筛选：掌握状态单选、标签多选（AND）、关键词（不区分大小写，匹配 `normalized` 与 `surface`）；
  * - 条目渲染：原词 + 音标 + 词性 + 语境义 + **文字优先**的掌握状态 + 标签 chips + 来源文章标题 +「回原句」；
- * - 两种空态：一篇生词都没有（`data-vocab-empty="all"`）/ 有但筛选没命中（`"filtered"`）+ 一键清除筛选。
+ * - 两种空态：一篇生词都没有（`data-vocab-empty="all"`）/ 有但筛选没命中（`"filtered"`）+ 一键清除筛选；
+ * - **D4 编辑**：`VocabEditor` 展开编辑 4 字段 + 标签；**D4 移出**：行内轻量二次确认（不弹原生 `confirm`）。
  *
- * 本批**不做**（第 2 批 D4/D5，接线点已留好）：
- * - 编辑面板（改语境义/音标/词性/掌握状态、增删标签）→ `updateVocab` / `setVocabTags`；
- * - 行内「移出」按钮 → `deleteVocab`；
- * - 标签管理（`deleteTag`）与 Reader 侧的「加入生词本 / 已在生词本」按钮。
+ * 保存/删除后的刷新路径（评审 N-6，写死两条一起走）：
+ * `onSaved(updated)` → **就地替换该行**（立刻看到新值，不等重拉）+ **重拉 `list_vocab` 与 `list_tags`**
+ * ——标签变化会改变「按标签」轴的归属、也可能新增全库标签，只替换行会让分组与筛选 chips 失真。
  *
- * 属性契约（02 §三 D3，**已冻结**）：`data-vocab-count` / `data-vocab-group` / `data-vocab-row` /
- * `data-vocab-empty`；掌握状态另有 `data-vocab-mastery`（值即 `new`/`fuzzy`/`known`）。
+ * 属性契约（02 §三 D3/D4，**已冻结**）：`data-vocab-count` / `data-vocab-group` / `data-vocab-row` /
+ * `data-vocab-empty`；掌握状态另有 `data-vocab-mastery`（值即 `new`/`fuzzy`/`known`）；
+ * 编辑入口 `data-vocab-edit`、移出 `data-vocab-remove`、编辑器容器 `data-vocab-editor`。
  * **不得**用 `data-has-note` 表达收藏态（那是 M2 笔记态，TP-修复1 §S-R1-1）。
  *
  * ponytail: 不引路由/状态库、不做虚拟滚动——生词量级「百~千」，直接全量渲染分组列表；
  * 上千后再按 `groupVocab` 的组边界做 `content-visibility` 或分页（命令已包一层 `entries`，加分页字段不改契约）。
  */
-import { useEffect, useMemo, useState } from "react";
-import { listTags, listVocab } from "../lib/api";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { VocabEditor } from "../components/VocabEditor";
+import { deleteVocab, listTags, listVocab } from "../lib/api";
 import type { Tag, VocabEntry } from "../lib/types";
 import {
   MASTERY_LABELS,
   MASTERY_ORDER,
+  describeCommandError,
   emptyFilter,
   filterVocab,
   groupVocab,
@@ -42,17 +45,6 @@ const AXES: { key: VocabGroupBy; label: string }[] = [
   { key: "mastery", label: "按掌握状态" },
 ];
 
-/** Tauri 的拒绝值是 `CommandError` 对象（`{code,message,path}`），不是 `Error` 实例 */
-function describeError(err: unknown): string {
-  if (typeof err === "object" && err !== null && "message" in err) {
-    const message = (err as { message?: unknown }).message;
-    if (typeof message === "string" && message.trim() !== "") {
-      return message;
-    }
-  }
-  return err instanceof Error ? err.message : String(err);
-}
-
 export function Vocab() {
   const [rows, setRows] = useState<VocabEntry[]>([]);
   const [tags, setTags] = useState<Tag[]>([]);
@@ -60,20 +52,24 @@ export function Vocab() {
   const [filter, setFilter] = useState<VocabFilter>(emptyFilter);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  /** 正在编辑的条目 id（同一时刻只开一个编辑面板——多个编辑器会让「保存哪个」变歧义） */
+  const [editingId, setEditingId] = useState<number | null>(null);
 
   // 列表与标签各一次 IPC（并发）：标签 chips 要的是全库标签，不是本页出现过的标签
+  const reload = useCallback(async (): Promise<void> => {
+    const [list, tagList] = await Promise.all([listVocab(), listTags()]);
+    setRows(list.entries);
+    setTags(tagList);
+  }, []);
+
   useEffect(() => {
     let cancelled = false;
-    Promise.all([listVocab(), listTags()])
-      .then(([list, tagList]) => {
-        if (cancelled) return;
-        setRows(list.entries);
-        setTags(tagList);
-        setError(null);
+    reload()
+      .then(() => {
+        if (!cancelled) setError(null);
       })
       .catch((err: unknown) => {
-        if (cancelled) return;
-        setError(describeError(err));
+        if (!cancelled) setError(describeCommandError(err));
       })
       .finally(() => {
         if (!cancelled) setLoading(false);
@@ -81,7 +77,7 @@ export function Vocab() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [reload]);
 
   const visible = useMemo(() => filterVocab(rows, filter), [rows, filter]);
   const groups = useMemo(() => groupVocab(visible, axis), [visible, axis]);
@@ -94,6 +90,19 @@ export function Vocab() {
         ? prev.tagNames.filter((item) => item !== name)
         : [...prev.tagNames, name],
     }));
+  };
+
+  /** 编辑保存成功：先就地替换（立刻看到新值），再重拉（标签变化影响分组与筛选 chips） */
+  const handleSaved = (updated: VocabEntry): void => {
+    setRows((current) => current.map((row) => (row.id === updated.id ? updated : row)));
+    setEditingId(null);
+    reload().catch((err: unknown) => setError(describeCommandError(err)));
+  };
+
+  /** 移出成功：本地先摘掉（立刻消失），再重拉（组内计数与空组过滤跟着变） */
+  const handleRemoved = (id: number): void => {
+    setRows((current) => current.filter((row) => row.id !== id));
+    reload().catch((err: unknown) => setError(describeCommandError(err)));
   };
 
   return (
@@ -215,7 +224,15 @@ export function Vocab() {
           </h2>
           <ul className="vocab-list">
             {group.rows.map((row) => (
-              <VocabRow key={`${group.key}-${row.id}`} row={row} />
+              <VocabRow
+                key={`${group.key}-${row.id}`}
+                row={row}
+                editing={editingId === row.id}
+                onEdit={() => setEditingId(row.id)}
+                onCancelEdit={() => setEditingId(null)}
+                onSaved={handleSaved}
+                onRemoved={handleRemoved}
+              />
             ))}
           </ul>
         </section>
@@ -224,9 +241,44 @@ export function Vocab() {
   );
 }
 
-/** 单条生词：只吃 `toCardModel` 的结果（取字段/拼标签/算链接都在纯函数层，便于直测） */
-function VocabRow({ row }: { row: VocabEntry }) {
+interface VocabRowProps {
+  row: VocabEntry;
+  editing: boolean;
+  onEdit: () => void;
+  onCancelEdit: () => void;
+  onSaved: (updated: VocabEntry) => void;
+  onRemoved: (id: number) => void;
+}
+
+/**
+ * 单条生词：显示态只吃 `toCardModel` 的结果（取字段/拼标签/算链接都在纯函数层，便于直测）；
+ * 编辑态整块换成 `VocabEditor`（不做「显示 + 展开」双份，避免同一字段两处渲染不一致）。
+ */
+function VocabRow({ row, editing, onEdit, onCancelEdit, onSaved, onRemoved }: VocabRowProps) {
   const card = toCardModel(row);
+  /** 轻量二次确认（02 D3：不弹原生 `confirm`——它会阻塞整页且样式不可控） */
+  const [confirming, setConfirming] = useState(false);
+  const [removing, setRemoving] = useState(false);
+  const [removeError, setRemoveError] = useState<string | null>(null);
+
+  const handleRemove = (): void => {
+    if (removing) return;
+    setRemoving(true);
+    setRemoveError(null);
+    void deleteVocab(row.id)
+      .then(() => onRemoved(row.id))
+      .catch((err: unknown) => setRemoveError(describeCommandError(err)))
+      .finally(() => setRemoving(false));
+  };
+
+  if (editing) {
+    return (
+      <li className="vocab-row" data-vocab-row={card.id} data-vocab-mastery={card.mastery}>
+        <VocabEditor entry={row} onCancel={onCancelEdit} onSaved={onSaved} />
+      </li>
+    );
+  }
+
   return (
     <li className="vocab-row" data-vocab-row={card.id} data-vocab-mastery={card.mastery}>
       <div className="vocab-row-head">
@@ -258,6 +310,37 @@ function VocabRow({ row }: { row: VocabEntry }) {
           </a>
         )}
       </p>
+
+      <div className="vocab-actions">
+        <button type="button" className="link-btn" onClick={onEdit} data-vocab-edit={card.id}>
+          编辑
+        </button>
+        {confirming ? (
+          <>
+            <span className="vocab-confirm">移出后不可恢复（标签会保留）</span>
+            <button type="button" className="link-btn" onClick={handleRemove} data-vocab-remove-confirm={card.id}>
+              {removing ? "移出中…" : "确定移出"}
+            </button>
+            <button
+              type="button"
+              className="link-btn"
+              onClick={() => setConfirming(false)}
+              data-vocab-remove-cancel={card.id}
+            >
+              取消
+            </button>
+          </>
+        ) : (
+          <button type="button" className="link-btn" onClick={() => setConfirming(true)} data-vocab-remove={card.id}>
+            移出
+          </button>
+        )}
+        {removeError !== null && (
+          <span className="vocab-remove-error" role="alert">
+            移出失败：{removeError}
+          </span>
+        )}
+      </div>
     </li>
   );
 }

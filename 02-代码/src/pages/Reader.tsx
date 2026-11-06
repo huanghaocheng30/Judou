@@ -3,7 +3,8 @@
  *
  * 硬要求（AC6 / AC7 / AC9 / AC10）：
  * - 词节点 `data-token-id` / `data-n` / `data-start`，空格节点 `data-blank-no`，句节点 `data-sentence-idx`
- *   ——M1 冻结的属性名**只加不改**（本包新增 `data-sentence-id` 与 `data-question-answer`）。
+ *   ——M1 冻结的属性名**只加不改**（M2 新增 `data-sentence-id` 与 `data-question-answer`；
+ *   M3 D6 新增只读消费的 `data-highlight="1"`，只在 2s 高亮期间出现）。
  * - **选中态三者互斥**：点词 → `word`（带 `normalized`，决策 #26）+ `stopPropagation`；点句 → `sentence`
  *   （带 `text`，决策 #23）；点空格 → `blank`（也 `stopPropagation`）。点「词之间的空白/句尾」落在句节点上
  *   → 句子卡出现、词卡不出现。
@@ -18,7 +19,7 @@
  * ponytail: 整篇一次渲染（274 句上限，长文 1208 token 纯函数 < 50ms 已实测），不做虚拟滚动；
  * 等真的出现「万字级用户导入篇 + 卡顿」再上分段渲染（renderTokens 的节点契约不变）。
  */
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import { AnalysisPanel, useWideLayout } from "../components/AnalysisPanel";
 import type { AnalysisSelection } from "../components/AnalysisPanel";
@@ -27,6 +28,21 @@ import { renderParagraph, renderTokens } from "../lib/render";
 import type { TokenNode } from "../lib/render";
 import type { ApiSentence, ArticleContent, NoteMarks } from "../lib/types";
 import { useReturn, useRoute } from "../shell/routes";
+
+/** 点回原句的高亮停留时长（AC5：2 秒后自动消退） */
+const HIGHLIGHT_MS = 2000;
+
+/**
+ * 点回原句的高亮状态（D6）。
+ * `seq` 是自增序号：**同一句被连点两次时 state 值不变**，React 不会重渲染，
+ * 2s 定时器也就不会重置；带上序号每次都是新对象，计时重新开始。
+ */
+interface HighlightState {
+  sentenceId: number;
+  /** `?token=` 指定的词（可选；生产路径目前只带 `sentence`，见 `lib/vocab.ts` 的 `vocabSourceHref`） */
+  tokenId: number | null;
+  seq: number;
+}
 
 /** 触发键：Enter 与 Space（AC10「Enter/Space 能触发同一卡片」） */
 function isActivationKey(event: ReactKeyboardEvent<HTMLElement>): boolean {
@@ -39,20 +55,34 @@ interface SentenceProps {
   hasNote: boolean;
   /** 本篇有词笔记的 tokenId 集合（F4 的 `tokenIds`）→ 词节点 `data-has-note="1"` */
   noteTokenIds: ReadonlySet<number>;
+  /** 本句是否处于「点回原句」的 2s 高亮（AC5）→ `data-highlight="1"` + `.sentence-flash` */
+  highlighted: boolean;
+  /** 要高亮的词 id（`?token=`，可选；null = 只高亮整句） */
+  highlightTokenId: number | null;
   onSelectSentence: (sentence: ApiSentence) => void;
   onSelectWord: (node: TokenNode) => void;
   onSelectBlank: (blankNo: number) => void;
 }
 
 /** 一句：纯函数切分成 text / word / blank 三类节点，按原顺序摊平（间隙文本原样保留空格） */
-function Sentence({ sentence, hasNote, noteTokenIds, onSelectSentence, onSelectWord, onSelectBlank }: SentenceProps) {
+function Sentence({
+  sentence,
+  hasNote,
+  noteTokenIds,
+  highlighted,
+  highlightTokenId,
+  onSelectSentence,
+  onSelectWord,
+  onSelectBlank,
+}: SentenceProps) {
   const nodes = renderTokens(sentence.text, sentence.tokens, sentence.blankNos);
 
   return (
     <span
-      className="sentence"
+      className={highlighted ? "sentence sentence-flash" : "sentence"}
       data-sentence-idx={sentence.idx}
       data-sentence-id={sentence.id}
+      data-highlight={highlighted ? "1" : undefined}
       role="button"
       tabIndex={0}
       aria-label="查看本句解析"
@@ -65,13 +95,15 @@ function Sentence({ sentence, hasNote, noteTokenIds, onSelectSentence, onSelectW
     >
       {nodes.map((node, index) => {
         if (node.kind === "word") {
+          const tokenHighlighted = highlightTokenId !== null && node.tokenId === highlightTokenId;
           return (
             <span
               key={index}
-              className="tok"
+              className={tokenHighlighted ? "tok tok-flash" : "tok"}
               data-token-id={node.tokenId}
               data-n={node.normalized}
               data-start={node.start}
+              data-highlight={tokenHighlighted ? "1" : undefined}
               data-has-note={node.tokenId !== undefined && noteTokenIds.has(node.tokenId) ? "1" : undefined}
               role="button"
               tabIndex={0}
@@ -136,6 +168,9 @@ export function Reader() {
   const [route] = useRoute();
   const goBack = useReturn();
   const articleId = route.articleId;
+  // 点回原句参数（D6）：从 hash 的 query 取；**消费时机见下方的定位 effect**（必须等 content 就绪）
+  const sentenceParam = route.query.get("sentence");
+  const tokenParam = route.query.get("token");
   const [content, setContent] = useState<ArticleContent | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [selection, setSelection] = useState<AnalysisSelection>({ kind: "none" });
@@ -238,6 +273,49 @@ export function Reader() {
     }
   }, [selection]);
 
+  /** 点回原句的 2s 高亮（D6）：null = 无高亮 */
+  const [highlight, setHighlight] = useState<HighlightState | null>(null);
+  const highlightSeq = useRef(0);
+
+  /**
+   * 消费 `?sentence=` / `?token=`：滚动到该句并高亮（D6 / AC5）。
+   *
+   * **必须在 `content` 就绪之后消费**（02 评审 N-7）：内容还没加载时正文节点根本不存在，
+   * 早读 query 会 `querySelector` 到 null 并静默失效——本文件 227-229 行已为同类问题留过警告。
+   *
+   * **fail-safe（AC5 断言 `scrollTop` 前后不变）**：参数不是正整数 / 该句不属于本篇 / 找不到节点
+   * → **不滚动、不报错、停留原位**，绝不 `scrollTo(0)` 或跳到顶部。
+   */
+  useEffect(() => {
+    if (!content) return;
+    if (sentenceParam === null) return;
+    const sentenceId = Number(sentenceParam);
+    if (!Number.isInteger(sentenceId) || sentenceId <= 0) return;
+    // 「属于本篇」按内容数据判定（DOM 里没有就等于不属于，不必再猜）
+    const owned = content.paragraphs.some((paragraph) =>
+      paragraph.sentences.some((sentence) => sentence.id === sentenceId),
+    );
+    if (!owned) return;
+    const node = document.querySelector<HTMLElement>(`[data-sentence-id="${sentenceId}"]`);
+    if (!node) return;
+    node.scrollIntoView({ block: "center" });
+    const parsedTokenId = tokenParam === null ? null : Number(tokenParam);
+    highlightSeq.current += 1;
+    setHighlight({
+      sentenceId,
+      // `Number.isInteger` 不是 TS 的类型守卫，这里先判 null 再判正整数（`?token=` 只是可选加强）
+      tokenId: parsedTokenId !== null && Number.isInteger(parsedTokenId) && parsedTokenId > 0 ? parsedTokenId : null,
+      seq: highlightSeq.current,
+    });
+  }, [content, sentenceParam, tokenParam]);
+
+  // 高亮 2s 后自动消退；卸载或再次跳转时清定时器（不泄漏——切页后不留 setTimeout）
+  useEffect(() => {
+    if (highlight === null) return undefined;
+    const timer = window.setTimeout(() => setHighlight(null), HIGHLIGHT_MS);
+    return () => window.clearTimeout(timer);
+  }, [highlight]);
+
   const backButton = (
     <button type="button" className="btn reader-back" onClick={goBack} data-testid="reader-back">
       ‹ 返回文章库
@@ -310,6 +388,10 @@ export function Reader() {
                     sentence={paragraph.sentences[part.sentenceIndex]}
                     hasNote={noteMarks.sentenceIds.includes(paragraph.sentences[part.sentenceIndex].id)}
                     noteTokenIds={noteTokenIdSet}
+                    highlighted={
+                      highlight !== null && highlight.sentenceId === paragraph.sentences[part.sentenceIndex].id
+                    }
+                    highlightTokenId={highlight === null ? null : highlight.tokenId}
                     onSelectSentence={(sentence) =>
                       setSelection({ kind: "sentence", id: sentence.id, text: sentence.text })
                     }

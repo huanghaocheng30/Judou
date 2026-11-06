@@ -12,7 +12,12 @@
  * 三栏 TRIM 后全空 → 后端走 DELETE，返回 `deleted=true` → UI 显示「已清空」。
  *
  * **按目标保存的草稿（per-key pending，2026-11-06 审查 B-1 / R-1 收口）**：
- * 未落库的草稿存在 `pendingRef: Map<targetKey, string[]>` 里，**只有保存成功才删除**。
+ * 未落库的草稿存在 `PENDING_DRAFTS: Map<targetKey, string[]>` 里，**只有保存成功才删除**。
+ * 两条 M2 债务在 M3 D7 收口（判定抽到 `lib/pending.ts`，`scripts/pending.test.mjs` 直测红→绿）：
+ * - **D-M2-11 条件删除**：删之前比「手上这份草稿」与 Map 里当前那份是否**同一引用**
+ *   （`shouldDeletePending`）——保存期间用户又敲了一版时，旧回调不许删新草稿；
+ * - **D-M2-12 200 条上限**：编辑写入后按 `PENDING_DRAFT_LIMIT` 淘汰最旧（`evictIfOverLimit`），
+ *   **活跃 key 不淘汰**；被淘汰的草稿打 `console.warn`，不静默丢。
  * 因此：
  * - 换目标时**不清旧目标的 pending**——旧目标写失败后草稿仍可在切回时恢复并由「点此重试」重试；
  * - `status` / `cleared` 都带 `key`，**错误只归属它所属的目标**（不会显示在新目标上）；
@@ -24,6 +29,7 @@
  * 天花板：单进程内存态，切换/关闭标签页后 pending 丢失（已由 `pagehide` flush 兜住）。
  */
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { PENDING_DRAFT_LIMIT, evictIfOverLimit, shouldDeletePending } from "../lib/pending";
 import type { NoteUpsertResult } from "../lib/types";
 
 /** `data-note-status` 四值（AC8 断言口径） */
@@ -75,7 +81,8 @@ function fitSlots(values: string[], slots: number): string[] {
  * **模块级未落库草稿**：`targetKey → 草稿`。放模块作用域而不是组件 ref ——
  * 关闭解析面板 / 切换卡片会让 `NoteEditor` **卸载**，若 pending 跟着组件销毁，
  * 「写失败后关面板再打开」的草稿就丢了（2026-11-06 审查 B-1 / R-1 的延伸场景）。
- * 只有保存成功才删；不同目标用 key 区分，互不覆盖。
+ * 只有保存成功才删（且要 `shouldDeletePending` 判过）；不同目标用 key 区分，互不覆盖。
+ * 条数上限 `PENDING_DRAFT_LIMIT`（D-M2-12），淘汰在 `change` 写入后立刻执行。
  */
 const PENDING_DRAFTS = new Map<string, string[]>();
 
@@ -119,8 +126,12 @@ export function useDebouncedSave({
       void (async () => {
         try {
           const result = await saveRef.current(draft, key);
-          // **只有成功才清 pending**：失败时草稿必须留给「切回旧目标 / 点此重试」
-          PENDING_DRAFTS.delete(key);
+          // **只有成功才清 pending**：失败时草稿必须留给「切回旧目标 / 点此重试」。
+          // 条件删除（D-M2-11）：保存期间用户又敲了一版 → Map 里已换成新数组，
+          // 此时手里的 `draft` 不是最新那份，删除会把新草稿一起丢掉。
+          if (shouldDeletePending(PENDING_DRAFTS, key, draft)) {
+            PENDING_DRAFTS.delete(key);
+          }
           if (keyRef.current !== key) return; // 已切走：不改当前目标的状态
           setStatusState({ key, status: "saved" });
           setClearedState({ key, value: Boolean(result?.deleted) });
@@ -148,6 +159,13 @@ export function useDebouncedSave({
       draftRef.current = next;
       setValues(next);
       PENDING_DRAFTS.set(key, next); // 编辑即 pending，直到保存成功
+      // 上限（D-M2-12）：模块级 Map 跨组件长活，没有上限就随使用无限长大；
+      // 淘汰最旧的，**当前正在编辑的 key 不淘汰**（被自己触发的淘汰挤掉＝当场丢草稿）。
+      const evicted = evictIfOverLimit(PENDING_DRAFTS, PENDING_DRAFT_LIMIT, key);
+      if (evicted.length > 0) {
+        // 淘汰＝这些草稿再也没机会落库，属「丢用户输入」，不能静默（M2 的失败不静默原则）
+        console.warn(`[judou] 未落库草稿超过 ${PENDING_DRAFT_LIMIT} 条上限，淘汰最旧的 ${evicted.length} 条`);
+      }
       setClearedState({ key, value: false });
       setStatusState({ key, status: "idle" }); // 新输入 → 清掉旧的 error 展示（即将重试）
       clearTimer();

@@ -11,15 +11,28 @@
  *   （有结果**或**无结果的降级文案都算）/ `none`（未选中），承接 04 §九 骨架屏（评审 B-5 / N2-6）；
  * - 断点判定用 `matchMedia` + `useSyncExternalStore`，**不手写 resize 节流**；
  * - 三张卡各自由 `lib/analysis.ts` 的纯函数产出模型（一次判定/一次归一），本组件只负责查询与挂载。
+ * - **收藏态（M3 D5）的唯一持有者就是本组件**：`selection.normalized` 只有这里拿得到
+ *   （`WordCardModel` 无该字段、`WordCard` 无查库能力），所以「查是否已收藏」与「收藏/移出回调」
+ *   都在这里做，经 `vocab` prop 下发给 `<WordCard>`；收藏成功用返回值就地改状态，**不重查全量**。
  *
  * 笔记 flush 的唯一路径是 `useDebouncedSave` 的 `targetKey`（换句/换词先 flush 旧值），
  * 本组件不另调 `flushNow()`（评审 N2-7）。
  */
-import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent, PointerEvent as ReactPointerEvent } from "react";
-import { getBlankAnalysis, getSentenceAnalysis, getTokenAnalysis, lookupLexicon } from "../lib/api";
+import {
+  addVocabFromToken,
+  deleteVocab,
+  getBlankAnalysis,
+  getSentenceAnalysis,
+  getTokenAnalysis,
+  getVocabByNormalized,
+  lookupLexicon,
+} from "../lib/api";
 import { pickWordCard, toBlankCard, toSentenceCard } from "../lib/analysis";
 import type { BlankCardModel, SentenceCardModel, WordCardModel } from "../lib/analysis";
+import type { VocabEntry } from "../lib/types";
+import { describeCommandError } from "../lib/vocab";
 import { BlankCard } from "./BlankCard";
 import { NoteEditor } from "./NoteEditor";
 import { SentenceCard } from "./SentenceCard";
@@ -95,6 +108,15 @@ export function AnalysisPanel({ articleId, selection, onClose, onNoteSaved }: An
   const [wordCard, setWordCard] = useState<WordCardModel | null>(null);
   const [blankCard, setBlankCard] = useState<BlankCardModel | null>(null);
   const [error, setError] = useState<string | null>(null);
+  /**
+   * 收藏态（M3 D5）：**唯一持有者是本组件**——`WordCardModel` 没有 `normalized` 字段
+   * （`analysis.ts` 的 `pickWordCard` 不产出它，`none` 态 `headword` 还是 null），
+   * `WordCard` 也没有查库的能力，`selection.normalized` 只有这里拿得到。
+   * `null` = 未收藏；非 null = 已收藏（同时持有 `id` 供「移出」用）。
+   */
+  const [vocabEntry, setVocabEntry] = useState<VocabEntry | null>(null);
+  const [vocabBusy, setVocabBusy] = useState(false);
+  const [vocabError, setVocabError] = useState<string | null>(null);
   const [drawerVh, setDrawerVh] = useState(DRAWER_MAX_VH);
   const dragRef = useRef<{ startY: number; startVh: number } | null>(null);
 
@@ -111,6 +133,8 @@ export function AnalysisPanel({ articleId, selection, onClose, onNoteSaved }: An
       setSentenceCard(null);
       setWordCard(null);
       setBlankCard(null);
+      setVocabEntry(null);
+      setVocabError(null);
       setError(null);
       return;
     }
@@ -121,6 +145,9 @@ export function AnalysisPanel({ articleId, selection, onClose, onNoteSaved }: An
     setSentenceCard(null);
     setWordCard(null);
     setBlankCard(null);
+    // 换选中态即重置收藏态：别把上一个词的「已在生词本」带到新词上
+    setVocabEntry(null);
+    setVocabError(null);
     setError(null);
 
     const load = async (): Promise<void> => {
@@ -134,7 +161,15 @@ export function AnalysisPanel({ articleId, selection, onClose, onNoteSaved }: An
         // 决策 #26：词态可带 normalized（`token_analysis` 表无此列），缺它则词库查不到 → 降级 none
         const lexicon = wordNormalized ? await lookupLexicon(wordNormalized) : null;
         if (cancelled) return;
+        // 收藏态（D5）：只查这一次（主键索引、毫秒级），**收藏后不再全量重查**。
+        // 查询失败**降级成「未收藏」而不是让整张词卡报错**——词卡的主要职责是「读懂这个词」，
+        // 收藏态是附加信息；退化成未收藏也不会写坏库（`add_vocab_from_token` 本身幂等）。
+        const vocab = wordNormalized
+          ? await getVocabByNormalized(wordNormalized).catch(() => null)
+          : null;
+        if (cancelled) return;
         setWordCard(pickWordCard(tokenAnalysis, lexicon));
+        setVocabEntry(vocab);
       } else if (blankNo !== null) {
         const row = await getBlankAnalysis(articleId, blankNo);
         if (cancelled) return;
@@ -175,6 +210,32 @@ export function AnalysisPanel({ articleId, selection, onClose, onNoteSaved }: An
     window.addEventListener("keydown", onKey, true);
     return () => window.removeEventListener("keydown", onKey, true);
   }, [status, onClose]);
+
+  /**
+   * 收藏（M3 D5）：`created` 真假**都置 added**——`created=false` 表示这个词已经在生词本里，
+   * 对用户而言同样是「已在生词本」。**不重查库**（省一次 IPC，状态已由返回值给出，评审 N-6）。
+   */
+  const handleVocabAdd = useCallback((): void => {
+    if (wordId === null || vocabBusy) return;
+    setVocabBusy(true);
+    setVocabError(null);
+    void addVocabFromToken(wordId)
+      .then((result) => setVocabEntry(result.entry))
+      .catch((err: unknown) => setVocabError(describeCommandError(err)))
+      .finally(() => setVocabBusy(false));
+  }, [wordId, vocabBusy]);
+
+  /** 移出（D5）：成功后置回 `none`（按钮变回「加入生词本」），失败保留 `added` 并提示可再试 */
+  const handleVocabRemove = useCallback((): void => {
+    const id = vocabEntry === null ? null : vocabEntry.id;
+    if (id === null || vocabBusy) return;
+    setVocabBusy(true);
+    setVocabError(null);
+    void deleteVocab(id)
+      .then(() => setVocabEntry(null))
+      .catch((err: unknown) => setVocabError(describeCommandError(err)))
+      .finally(() => setVocabBusy(false));
+  }, [vocabEntry, vocabBusy]);
 
   // 窄屏未选中：不渲染抽屉（不占位、不挡正文）
   if (!wide && status === "none") return null;
@@ -278,7 +339,17 @@ export function AnalysisPanel({ articleId, selection, onClose, onNoteSaved }: An
 
           {wordCard ? (
             <>
-              <WordCard card={wordCard} />
+              <WordCard
+                card={wordCard}
+                vocab={{
+                  normalized: wordNormalized,
+                  vocabState: vocabEntry === null ? "none" : "added",
+                  busy: vocabBusy,
+                  error: vocabError,
+                  onAdd: handleVocabAdd,
+                  onRemove: handleVocabRemove,
+                }}
+              />
               {wordId !== null ? (
                 <NoteEditor
                   targetKind="word"
