@@ -1030,3 +1030,281 @@ button {
 .components-note {
   color: var(--ink-2);
 }
+
+/* ── M2 第 2 批：精读交互（正文列 / 抽屉拖动条 / 词卡 / 空格卡 / 笔记 / 题目答案）──
+ * 色值仍一律复用 tokens.css 既有变量（不新增色值、不改 tokens.css）。
+ * 无障碍：可聚焦节点靠全局 `:focus-visible`（2px 实线）+ 形状/底纹区分，颜色不是唯一通道。
+ */
+
+/* 宽屏双列里的左列：保持原阅读节奏（head → body → questions） */
+.reader-main {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* 句节点是「点空白/句尾」的命中区：hover 轻提示可点，但不影响词节点自身底色 */
+.sentence {
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.sentence:hover {
+  background: var(--paper-2);
+}
+
+/* 窄屏抽屉拖动条：指针拖拽 + 键盘 ↑↓/Home/End（D10「拖动条 + 键盘可用」） */
+.drawer-handle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  margin: -8px 0 2px;
+  cursor: ns-resize;
+  touch-action: none;
+}
+
+.drawer-handle-bar {
+  width: 44px;
+  height: 4px;
+  border-radius: 99px;
+  background: var(--line-2);
+}
+
+.drawer-handle:focus-visible .drawer-handle-bar {
+  background: var(--blue);
+}
+
+/* ── 词卡（D6）── */
+.word-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.word-headword {
+  font-family: var(--serif);
+  font-size: 18px;
+  color: var(--ink);
+}
+
+.word-phonetic {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+
+.word-pos {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.word-freq {
+  padding: 1px 8px;
+  border-radius: 99px;
+  background: var(--green-soft);
+  color: var(--ink-2);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.word-mode-label {
+  margin: 8px 0 2px;
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  color: var(--ink-3);
+}
+
+.word-sense {
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+
+.word-row {
+  display: grid;
+  grid-template-columns: 3.5em 1fr;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.word-row-label {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.word-list {
+  margin: 0;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+
+.word-more {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+}
+
+.word-more-summary {
+  cursor: pointer;
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+
+.word-more-body {
+  padding-top: 6px;
+}
+
+/* ── 空格卡（D7）── */
+.blank-head {
+  margin-bottom: 4px;
+}
+
+.blank-title {
+  font-family: var(--serif);
+  font-size: 15px;
+  color: var(--ink);
+}
+
+.blank-section {
+  margin-top: 10px;
+}
+
+.blank-section-title {
+  margin: 0 0 4px;
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+
+.blank-answer {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.blank-key {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  padding: 0 6px;
+  border-radius: 5px;
+  background: var(--accent-soft);
+  color: var(--ink-2);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.blank-word {
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--ink);
+}
+
+.blank-reason {
+  margin: 0;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.blank-distractors {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+
+/* ── 笔记编辑器（D8）：解析区纸色卡 / 笔记区虚线框 + 「我的笔记」标签（05 §八 规则 4）── */
+.note-editor {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px dashed var(--line-2);
+  border-radius: 10px;
+  background: var(--paper);
+}
+
+.note-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.note-label {
+  font-size: 11.5px;
+  letter-spacing: 0.12em;
+  color: var(--ink-3);
+}
+
+.note-status {
+  font-size: 11.5px;
+  color: var(--ink-2);
+}
+
+.note-field {
+  display: block;
+  margin-top: 8px;
+}
+
+.note-field-label {
+  display: block;
+  font-size: 11.5px;
+  color: var(--ink-3);
+}
+
+.note-input {
+  width: 100%;
+  margin-top: 3px;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--paper-2);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+.note-input:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 1px;
+}
+
+.note-input:disabled {
+  opacity: 0.6;
+}
+
+.note-error {
+  margin: 8px 0 0;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--rose);
+}
+
+/* ── 题目「显示答案」（D9）：只显字母 + 选项文字，**不使用对错语义色** ── */
+.question-toggle {
+  margin-top: 8px;
+  padding: 3px 12px;
+  font-size: 12px;
+}
+
+.question-answer {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--ink-2);
+}

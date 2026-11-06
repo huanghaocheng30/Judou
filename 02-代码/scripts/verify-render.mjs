@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * AC6 断言：把运行期库里的 274 句 / 6699 token 灌进纯函数 `renderTokens`，逐条验：
+ * M1 AC6 断言 + **M2 回归基线**：把运行期库里的 274 句 / 6699 token 灌进纯函数 `renderTokens`，逐条验：
  *   ① 每个 token 之前的那段文本（`text.slice(prev, t.start)`）全是空白
  *   ② `text.slice(t.start, t.end) === t.surface`（**0 例外**）
  *   ③ 末 token 的 `end === text.length`
@@ -14,7 +14,10 @@
  *   ⑨ 结构：句段数 === 句子总数，空隙段只出现在句间/首尾
  *
  * 为什么跑纯函数而不是 DOM：`render.ts` 不依赖 DOM（05 §四 规则 7），
- * node 里直接 import 同一份实现即可；DOM 层面的题目折叠/选项不可点由 CDP 断言（AC6 后半）。
+ * node 里直接 import 同一份实现即可；DOM 层面的题目折叠/选项不可点由 CDP 断言（M2 AC6）。
+ *
+ * 口径（D-M1-4 收口）：脚本里的数字（274 句 / 6699 token / 90 段 / 30·62 空格 / 58 句·1208 token）
+ * 都是**内置内容包当前事实**（manifest packVersion 对应值），不是常量契约；内容包升级时同步更新断言。
  *
  * 用法：node scripts/verify-render.mjs [dbPath]
  */

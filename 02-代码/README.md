@@ -1,11 +1,13 @@
-# 句读 Judou · M1 数据层与文章库
+# 句读 Judou · M2 精读闭环
 
 CET4/CET6 阅读精读工作台（Tauri v2 + React 18 + Vite 6 + TypeScript + Rust/rusqlite）。
 
-**本包（M1）把 12 篇 CET4 真题灌进本地库，并让产品第一次「能读」**：
-`002` 三列迁移、内容包落位与校验、幂等导入引擎（9 张内容表）、文章库（两分组 + 四类筛选 + 搜索 + URL 保持）、
-只读精读页（逐段逐句 + 空格位 + 题目折叠 + 返回）、内容包损坏时的整页错误页。
-**仍不做**解析卡/词卡/笔记/生词/复习/用户导入（M2~M5）。
+**M1 把 12 篇 CET4 真题灌进本地库（产品第一次「能读」）；M2 让精读页「能学」**：
+点句出**六段式解析卡**（直译/顺译 → 主干与成分 → 从句语法点 → 重点短语 → 易错点 → 段落作用，
+`struct_markup` 符号渲染）、点词出**三态词卡**（语境义 / 词义（通用）/ 暂无预置解析）、
+点空格出**三段式**（答案 / 为什么 / 易错排除）、题目「显示答案」（只显字母 + 选项文字，**不判对错**）、
+句子与词各 **3 栏笔记**（800ms 防抖自动保存、换句先 flush、三栏清空即删行）。
+**仍不做**生词本/复习/用户导入（M3~M5）。
 
 ## 常用命令
 
@@ -19,9 +21,11 @@ npm run tauri dev          # 起 Vite(1420) + Rust，弹「句读」窗口
 npm run verify:sql         # 空库全链 001→002：19 表 / version=2 / 三列类型与默认值 / 6 索引
 npm run verify:pack        # 内容包 13 文件 SHA-256 与设计区逐字节一致 + 3,529,547 B
 npm run verify:import      # 运行期库：九表 12/90/274/6699/274/213/1561/30/90 + 四项非空 + pack_version
-npm run verify:render      # renderTokens 纯函数：6699 token 切片零例外 + 空格 30·62 + 长文 < 50ms
+npm run verify:render      # renderTokens 纯函数：6699 token 切片零例外 + 空格 30·62 + 长文 < 50ms（M2 回归基线）
+npm run verify:analysis    # parseMarkup 守恒 274/274 + fail-closed 恰 7 句 + 六段序 + 词卡三态 + 30 空两形态
+npm run verify:note        # 001+002 建临时库：updated_at NOT NULL 无 DEFAULT + upsert/读回/刷新/清空删行
 npm run verify:invoke      # 除 src/lib/api.ts 外不许出现 invoke(
-npm run verify:contrast    # tokens.css/app.css 的 WCAG 对比度（16 项，含 .tag 配对）
+npm run verify:contrast    # tokens.css/app.css 的 WCAG 对比度（26 项，含 5 种符号标记 ×2 主题）
 npm run verify:ci          # ci.yml 结构 + 三平台 matrix
 npm run test:theme         # 主题解析/应用逻辑（node --test）
 
@@ -34,6 +38,28 @@ Rust 侧需要 MSVC 环境（`cl.exe` 不在全局 PATH）：
 ```powershell
 cmd /c "call ""C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvars64.bat"" && cargo test --manifest-path src-tauri/Cargo.toml"
 ```
+
+## 精读交互与笔记（M2）
+
+- **选中态三者互斥**（`src/components/AnalysisPanel.tsx`）：点词 → 词卡（带 `normalized` 查全局词库）、
+  点句 → 六段式卡（卡顶重述原句）、点空格 → 三段式卡。词/句/空节点都 `stopPropagation`，
+  点词不会误触句子卡；点「词之间的空白/句尾」落回句节点。
+- **两形态**（AC9）：`≥1100px` → `.reader-split` grid 双列（正文列 + 360px 右栏，点句**原地更换**、不遮正文）；
+  `<1100px` → 底部抽屉（`max-height ≤55vh`、拖动条指针/键盘 ↑↓ 可调、`Esc` 关闭）。
+  断点用 `matchMedia` + `useSyncExternalStore`（`AnalysisPanel` 导出 `useWideLayout`，`Reader` 复用同一份判定）。
+- **面板三态**：`data-panel-status="loading|ready|none"`——**进入查询即 `loading`**（显示骨架），
+  查无结果仍是 `ready`（走「本段暂无解析」降级文案）。
+- **符号渲染**（AC3）：`【主语】` / `_谓语_` / `~宾语表语~` / `{从句}` / `(短语)` →
+  `<mark class="mk-*" data-mark-kind="*">`；颜色**不是唯一通道**（主语轻底、谓语实线下划线、宾语波浪线、
+  从句/短语保留括号）。标记符奇数（标注坏）→ 整串降级为纯文本（`failedClosed`），不抛错、不白卡。
+- **笔记**（`src/components/NoteEditor.tsx` + `src/hooks/useDebouncedSave.ts`）：句子 3 栏（翻译/语法/短语）、
+  词 3 栏（语境义/搭配/例句），与 `sentence_note` / `word_note` 表结构一一对应。
+  停止输入 **800ms** 落库；**换句/换词先 flush 旧目标**（`targetKey` 变化是唯一 flush 入口）；
+  卸载/`pagehide` 同一条 flush；**三栏清空 → DELETE 行**（UI 显「已清空」）；
+  失败 → 草稿留在输入框 + 「保存失败，点此重试」+ `data-note-status="error"`（**不静默丢**）。
+- **题目**：默认折叠；每题「显示答案」→ 只显答案字母 + 选项文字，**不判对错、不计分、不用对错语义色**；
+  `answer IS NULL` → 「本题无预置答案」；选项是纯文本 `<li>`，**不可点选**。
+- **键盘**：词/句/空节点 `tabIndex=0` + `role="button"` + `Enter`/`Space` 等价点击；`:focus-visible` 全局 2px 轮廓。
 
 ## 内容包与导入（M1）
 

@@ -17,6 +17,7 @@
     "verify:import": "node scripts/verify-import.mjs",
     "verify:render": "node scripts/verify-render.mjs",
     "verify:analysis": "node scripts/verify-analysis.mjs",
+    "verify:note": "node scripts/verify-note.mjs",
     "test:theme": "node --test scripts/theme.test.mjs"
   },
   "dependencies": {

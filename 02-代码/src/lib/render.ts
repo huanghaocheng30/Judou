@@ -95,6 +95,10 @@ export interface ParagraphSentence {
  * 只拼 `sentence.text` 会让英文正文句间粘连（90 段中 75 段）。这里用段落原文补空隙，
  * 不假设空隙形态（空串 / 单空格 / 双空格都可），因此段落文本可**无损还原**。
  * 句段仍取 `sentence.text`（token 偏移相对它，保证 `renderTokens` 不错位）。
+ *
+ * **输入前提（D-M1-5）：`sentences` 必须按 `start` 升序**——本函数用单调前进的 `prev` 切空隙，
+ * 乱序输入会让 `prev` 回退，把已切过的区间重复计入（段落还原不等，且句子顺序错乱）。
+ * 调用方 `Reader` 直接用后端 `ORDER BY paragraph_id, idx` 的结果，天然有序。
  */
 export function renderParagraph(text: string, sentences: ParagraphSentence[]): ParagraphPart[] {
   const parts: ParagraphPart[] = [];

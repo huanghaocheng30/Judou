@@ -1,33 +1,31 @@
 /**
- * 解析面板容器（M2 D4 / AC7 / AC9）。
+ * 解析面板容器（M2 D4 / AC7 / AC9；第 2 批补齐 D6~D8 挂载与抽屉拖动）。
  *
  * 硬要求：
  * - **选中态三者互斥**：`none` / `sentence` / `word` / `blank`（点词切换时句子卡必须消失）；
  * - `articleId` 由 `Reader` 经 props 传入（`get_blank_analysis` 需要它，选中态本身不带）；
  * - **宽屏（≥1100px）右栏**：与正文列组成 CSS `grid` 双列（`.reader-split`，见 app.css）。
  *   **不用 `position: fixed` 覆盖正文**（06 #6 边注节奏 / 决策 #17 / 评审 N-9）；
- * - **窄屏（<1100px）底部抽屉**：`max-height: 55vh` + `Esc` 关闭（02 D4）。
- *   本批只落基本形态，拖动条等细节归第 2 批（D9 接线时一并补）；
+ * - **窄屏（<1100px）底部抽屉**：`max-height ≤ 55vh`、拖动条可调（键盘 ↑↓/Home/End 可用）、`Esc` 关闭；
  * - **面板状态 `data-panel-status` 三值**：`loading`（**进入查询即置**，显示骨架占位）/ `ready`
  *   （有结果**或**无结果的降级文案都算）/ `none`（未选中），承接 04 §九 骨架屏（评审 B-5 / N2-6）；
- * - 断点判定用 `matchMedia` + `useSyncExternalStore`，**不手写 resize 节流**。
+ * - 断点判定用 `matchMedia` + `useSyncExternalStore`，**不手写 resize 节流**；
+ * - 三张卡各自由 `lib/analysis.ts` 的纯函数产出模型（一次判定/一次归一），本组件只负责查询与挂载。
  *
- * 分工说明：本批（D0~D5）**不接线 `Reader.tsx`**（D9 归第 2 批），因此本文件只实现容器本体
- * 与断点能力；`useWideLayout` 同时导出给第 2 批的 `Reader` 用，保证两处断点同一来源。
- * 词卡 / 空格卡的完整渲染归 D6 / D7（第 2 批），本批只落「查询 → 状态 → 最小占位 + `data-*` 钩子」。
+ * 笔记 flush 的唯一路径是 `useDebouncedSave` 的 `targetKey`（换句/换词先 flush 旧值），
+ * 本组件不另调 `flushNow()`（评审 N2-7）。
  */
-import { useEffect, useState, useSyncExternalStore } from "react";
-import {
-  getBlankAnalysis,
-  getSentenceAnalysis,
-  getTokenAnalysis,
-  lookupLexicon,
-} from "../lib/api";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import type { KeyboardEvent as ReactKeyboardEvent, PointerEvent as ReactPointerEvent } from "react";
+import { getBlankAnalysis, getSentenceAnalysis, getTokenAnalysis, lookupLexicon } from "../lib/api";
 import { pickWordCard, toBlankCard, toSentenceCard } from "../lib/analysis";
 import type { BlankCardModel, SentenceCardModel, WordCardModel } from "../lib/analysis";
+import { BlankCard } from "./BlankCard";
+import { NoteEditor } from "./NoteEditor";
 import { SentenceCard } from "./SentenceCard";
+import { WordCard } from "./WordCard";
 
-/** 选中态：**三者互斥**（词态可选带 `normalized`——`lookup_lexicon` 按它查全局词库） */
+/** 选中态：**三者互斥**（词态可选带 `normalized`——`lookup_lexicon` 按它查全局词库，决策 #26） */
 export type AnalysisSelection =
   | { kind: "none" }
   | { kind: "sentence"; id: number; text?: string }
@@ -38,6 +36,14 @@ export type AnalysisSelection =
 export type PanelStatus = "none" | "loading" | "ready";
 
 const WIDE_QUERY = "(min-width: 1100px)";
+
+/** 抽屉高度区间（% 视口高）：上限 55vh 是 02 D4 的硬约束 */
+const DRAWER_MIN_VH = 28;
+const DRAWER_MAX_VH = 55;
+
+function clampVh(value: number): number {
+  return Math.min(DRAWER_MAX_VH, Math.max(DRAWER_MIN_VH, value));
+}
 
 function subscribeWide(callback: () => void): () => void {
   if (typeof window === "undefined" || typeof window.matchMedia !== "function") return () => undefined;
@@ -53,7 +59,7 @@ function readWide(): boolean {
 
 /**
  * 断点判定（单一来源）：`matchMedia` + `useSyncExternalStore`。
- * 第 2 批的 `Reader` 用它决定 `.reader-split` 是否双列，避免两处各判一次。
+ * `Reader` 也用它决定 `.reader-split` 是否双列，避免两处各判一次。
  */
 export function useWideLayout(): boolean {
   return useSyncExternalStore(subscribeWide, readWide, () => true);
@@ -84,6 +90,8 @@ export function AnalysisPanel({ articleId, selection, onClose }: AnalysisPanelPr
   const [wordCard, setWordCard] = useState<WordCardModel | null>(null);
   const [blankCard, setBlankCard] = useState<BlankCardModel | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [drawerVh, setDrawerVh] = useState(DRAWER_MAX_VH);
+  const dragRef = useRef<{ startY: number; startVh: number } | null>(null);
 
   // 原始值依赖：避免每次 render 的新对象（selection）把 effect 打成无限循环
   const sentenceId = selection.kind === "sentence" ? selection.id : null;
@@ -118,6 +126,7 @@ export function AnalysisPanel({ articleId, selection, onClose }: AnalysisPanelPr
       } else if (wordId !== null) {
         const tokenAnalysis = await getTokenAnalysis(wordId);
         if (cancelled) return;
+        // 决策 #26：词态可带 normalized（`token_analysis` 表无此列），缺它则词库查不到 → 降级 none
         const lexicon = wordNormalized ? await lookupLexicon(wordNormalized) : null;
         if (cancelled) return;
         setWordCard(pickWordCard(tokenAnalysis, lexicon));
@@ -155,13 +164,69 @@ export function AnalysisPanel({ articleId, selection, onClose }: AnalysisPanelPr
 
   const hasSelection = status !== "none";
 
+  // 拖动条：指针拖拽（±% 视口高）+ 键盘 ↑↓/Home/End（D10「拖动条 + 键盘可用」）
+  const onHandlePointerDown = (event: ReactPointerEvent<HTMLDivElement>): void => {
+    dragRef.current = { startY: event.clientY, startVh: drawerVh };
+    event.currentTarget.setPointerCapture(event.pointerId);
+  };
+  const onHandlePointerMove = (event: ReactPointerEvent<HTMLDivElement>): void => {
+    const drag = dragRef.current;
+    if (!drag || !window.innerHeight) return;
+    const deltaVh = ((drag.startY - event.clientY) / window.innerHeight) * 100;
+    setDrawerVh(clampVh(drag.startVh + deltaVh));
+  };
+  const onHandlePointerUp = (event: ReactPointerEvent<HTMLDivElement>): void => {
+    dragRef.current = null;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
+    }
+  };
+  const onHandleKeyDown = (event: ReactKeyboardEvent<HTMLDivElement>): void => {
+    const step = event.key === "ArrowUp" ? 5 : event.key === "ArrowDown" ? -5 : 0;
+    if (step) {
+      event.preventDefault();
+      setDrawerVh((current) => clampVh(current + step));
+      return;
+    }
+    if (event.key === "Home") {
+      event.preventDefault();
+      setDrawerVh(DRAWER_MAX_VH);
+    } else if (event.key === "End") {
+      event.preventDefault();
+      setDrawerVh(DRAWER_MIN_VH);
+    }
+  };
+
   return (
     <aside
       className={wide ? "analysis-panel analysis-panel-wide" : "analysis-panel analysis-drawer"}
+      style={wide ? undefined : { maxHeight: `${drawerVh}vh` }}
       data-panel-status={status}
+      data-panel-vh={wide ? undefined : drawerVh}
       data-analysis-panel
       aria-label="解析面板"
     >
+      {wide ? null : (
+        <div
+          className="drawer-handle"
+          role="separator"
+          aria-orientation="horizontal"
+          aria-label="调整解析面板高度"
+          aria-valuemin={DRAWER_MIN_VH}
+          aria-valuemax={DRAWER_MAX_VH}
+          aria-valuenow={Math.round(drawerVh)}
+          tabIndex={0}
+          onPointerDown={onHandlePointerDown}
+          onPointerMove={onHandlePointerMove}
+          onPointerUp={onHandlePointerUp}
+          onPointerCancel={onHandlePointerUp}
+          onKeyDown={onHandleKeyDown}
+          data-drawer-handle
+        >
+          <span className="drawer-handle-bar" aria-hidden="true" />
+        </div>
+      )}
+
       <header className="panel-head">
         <span className="panel-title">解析</span>
         {hasSelection ? (
@@ -181,31 +246,21 @@ export function AnalysisPanel({ articleId, selection, onClose }: AnalysisPanelPr
         </p>
       ) : (
         <div className="panel-body">
-          {sentenceCard ? <SentenceCard card={sentenceCard} text={sentenceText ?? undefined} /> : null}
+          {sentenceCard ? (
+            <>
+              <SentenceCard card={sentenceCard} text={sentenceText ?? undefined} />
+              {sentenceId !== null ? <NoteEditor targetKind="sentence" targetId={sentenceId} /> : null}
+            </>
+          ) : null}
+
           {wordCard ? (
-            // 完整词卡（more 折叠 / 三态排版）归 D6（第 2 批）；本批落 mode 钩子与降级文案
-            <div className="analysis-subcard" data-word-mode={wordCard.mode}>
-              <p className="subcard-title">词卡</p>
-              <p className="subcard-text">
-                {wordCard.mode === "context"
-                  ? wordCard.sense
-                  : wordCard.mode === "generic"
-                    ? `词义（通用）：${wordCard.sense ?? ""}`
-                    : "暂无预置解析"}
-              </p>
-            </div>
+            <>
+              <WordCard card={wordCard} />
+              {wordId !== null ? <NoteEditor targetKind="word" targetId={wordId} /> : null}
+            </>
           ) : null}
-          {blankCard ? (
-            // 完整三段式（distractors 逐条）归 D7（第 2 批）；本批落编号与降级文案
-            <div className="analysis-subcard" data-blank-card={blankCard.blankNo}>
-              <p className="subcard-title">第 {blankCard.blankNo} 空</p>
-              <p className="subcard-text">
-                {blankCard.empty
-                  ? "暂无预置解析"
-                  : `${blankCard.answerKey ?? ""} ${blankCard.answerWord ?? ""}`.trim()}
-              </p>
-            </div>
-          ) : null}
+
+          {blankCard ? <BlankCard card={blankCard} /> : null}
         </div>
       )}
     </aside>

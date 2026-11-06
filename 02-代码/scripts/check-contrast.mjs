@@ -141,6 +141,60 @@ for (const [theme, vars] of Object.entries(themes)) {
   }
 }
 
+// ── M2 D10（AC3）：五种符号标记的标注色配对。每主题 5 项 → 判据项 16 + 10 = 26 ──
+// 取色口径：subject 是「文字 on 自身轻底」；其余四种是「装饰线/文字色 on 卡片底 --paper-2」。
+// 门槛按 AC3：主/谓/宾类 ≥3:1（除颜色外还有下划线/波浪线/轻底等形状通道）；从句/短语类 ≥4.5:1（承载正文语义）。
+// 文字色**直接从 app.css 的 .mk-* 解析**（不手抄），改样式色值即反映到判据；
+// 只有下划线/波浪线的颜色藏在 text-decoration 简写里，才用显式期望值 + 包含性断言（见下）。
+const MK_BODIES = {
+  subject: blockBody(".mk-subject"),
+  predicate: blockBody(".mk-predicate"),
+  object: blockBody(".mk-object"),
+  clause: blockBody(".mk-clause"),
+  phrase: blockBody(".mk-phrase"),
+};
+const MK_PAIRS = [
+  ["标记·主语 .mk-subject（文字 on 自身轻底）", declOf(MK_BODIES.subject, "color"), declOf(MK_BODIES.subject, "background"), 3.0],
+  ["标记·谓语下划线 .mk-predicate（下划线色 on 卡片底）", "var(--accent)", "var(--paper-2)", 3.0],
+  ["标记·宾语波浪线 .mk-object（波浪线色 on 卡片底）", "var(--green)", "var(--paper-2)", 3.0],
+  ["标记·从句 .mk-clause（文字 on 卡片底）", declOf(MK_BODIES.clause, "color"), "var(--paper-2)", 4.5],
+  ["标记·短语 .mk-phrase（文字 on 卡片底）", declOf(MK_BODIES.phrase, "color"), "var(--paper-2)", 4.5],
+];
+
+// 形状通道 + 装饰线取色防漂移：
+// predicate = 实线下划线（`text-decoration: underline` + `text-decoration-color: var(--accent)`，
+// 颜色写在独立属性里）；object = 波浪线（`text-decoration: underline wavy var(--green)`，颜色在简写里）。
+const DECORATION = [
+  ["predicate", "text-decoration", "underline"],
+  ["predicate", "text-decoration-color", "var(--accent)"],
+  ["object", "text-decoration", "wavy"],
+  ["object", "text-decoration", "var(--green)"],
+];
+for (const [key, prop, expect] of DECORATION) {
+  const value = declOf(MK_BODIES[key], prop);
+  if (!value || !value.includes(expect)) {
+    console.error(`FAIL: app.css 的 .mk-${key} ${prop} 应含 ${expect}（实际 ${value}）`);
+    failed = true;
+  }
+}
+for (const [key, body] of Object.entries(MK_BODIES)) {
+  if (!body) {
+    console.error(`FAIL: app.css 缺少 .mk-${key} 规则`);
+    failed = true;
+  }
+}
+
+for (const [theme, vars] of Object.entries(themes)) {
+  for (const [label, fgRaw, bgRaw, threshold] of MK_PAIRS) {
+    const fg = resolveColor(fgRaw, vars);
+    const bg = resolveColor(bgRaw, vars);
+    if (!fg || !bg) { console.error(`FAIL: [${theme}] 标记配对取色失败：${label}`); failed = true; continue; }
+    const ratio = contrast(fg, bg);
+    rows.push({ theme, pair: label, fg, bg, ratio, threshold, ok: ratio >= threshold });
+    if (ratio < threshold) failed = true;
+  }
+}
+
 console.log("theme | 配对 | 前景 | 背景 | 比值 | 门槛 | 判定");
 console.log("---|---|---|---|---|---|---");
 for (const r of rows) {
