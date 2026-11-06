@@ -1920,6 +1920,51 @@ button {
   background: var(--paper-2);
 }
 
+/* ── TP-修复4：「接下来」段（未来计划预告，不可开始复习） ── */
+/* 段容器与「已完成」段同款分隔（上线 + 间距），标题同用 .review-section-title */
+.review-upcoming {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+/* 预告行：文字次级色 + 下沉底色，与「今日到期」的可点行区分；
+   颜色**不是**唯一通道——行尾另有「待到期」文字标记（AC-R3 / 无障碍） */
+.review-row-upcoming {
+  background: var(--paper-2);
+  border-color: var(--line-2);
+  color: var(--ink-2);
+}
+
+/* 预告行里没有链接，.review-title 的下划线在这是噪音：覆盖成无下划线，但保留标题字号与字重 */
+.review-row-upcoming .review-title {
+  text-decoration: none;
+  color: var(--ink-2);
+}
+
+.review-when {
+  color: var(--ink-2);
+  font-weight: 600;
+}
+
+.review-date {
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 「待到期」：文字标记（不是色块），与可点的「开始复习」按钮同宽度区但无交互 */
+.review-pending {
+  flex: none;
+  padding: 4px 10px;
+  border: 1px dashed var(--line-2);
+  border-radius: 8px;
+  font-size: 12px;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+
 /* ── D6 侧边栏角标 ── */
 /* 文字可读的数字角标（AC8 明确「不是纯色块」）；颜色对比按 tokens 变量取，深浅主题都不写死色值 */
 .nav-badge {
