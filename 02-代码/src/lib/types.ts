@@ -305,3 +305,43 @@ export interface VocabAddResult {
   entry: VocabEntry;
   created: boolean;
 }
+
+// ──────────────── M4 · 复习（4 个类型；顺延纯函数在 lib/review.ts） ────────────────
+
+/** 复习结果：done = 完成复习（顺延一档）/ 
+eed_more = 还需再看（不前进、明天再看） */
+export type ReviewResult = "done" | "need_more";
+
+/** 计划状态：ctive 参与到期查询 / paused 暂停（本包不做 UI）/ done 四档走完 */
+export type ReviewPlanStatus = "active" | "paused" | "done";
+
+/**
+ * eview_plan 一行。
+extReviewAt 是**本地日期** \YYYY-MM-DD\（不是时间戳、不用 UTC）；
+ * intervalIndex = 已完成次数（0~3，走完四档后为 4 且 \status='done'\）。
+ */
+export interface ReviewPlan {
+  articleId: number;
+  nextReviewAt: string;
+  intervalIndex: number;
+  status: ReviewPlanStatus;
+  /** 记录时刻（\datetime('now')\），不参与到期判定 */
+  updatedAt: string;
+}
+
+/** 今日到期的一行：计划 + 文章标题（复习页列表标题来源） */
+export interface DueReview {
+  articleId: number;
+  title: string;
+  nextReviewAt: string;
+  intervalIndex: number;
+}
+
+/** 复习日志一行；\intervalIndex\ 记的是**这次复习完成前**的档位 */
+export interface ReviewLog {
+  id: number;
+  articleId: number;
+  reviewedAt: string;
+  intervalIndex: number;
+  result: ReviewResult;
+}

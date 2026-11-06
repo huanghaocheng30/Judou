@@ -15,12 +15,16 @@ import type {
   ArticleFilter,
   ArticleSummary,
   BlankAnalysis,
+  DueReview,
   FilterOptions,
   ImportReport,
   LexiconEntry,
   NoteMarks,
   NoteUpsertResult,
   PingResult,
+  ReviewLog,
+  ReviewPlan,
+  ReviewResult,
   SentenceAnalysis,
   SentenceNote,
   StartupErrorInfo,
@@ -181,4 +185,41 @@ export function setVocabTags(vocabId: number, tagNames: string[]): Promise<Tag[]
 /** 删标签（连带解除关联，生词条目保留）；返回是否真的删掉了 */
 export function deleteTag(tagId: number): Promise<boolean> {
   return invoke<boolean>("delete_tag", { tagId });
+}
+
+// ──────────────── M4 · 复习（7 个封装；`today` 一律由调用方按本地日期 YYYY-MM-DD 传入） ────────────────
+
+/** 标记本篇完成：建计划（若无）+ 写 reading_record.completed；**幂等**（已有计划原样返回） */
+export function markArticleCompleted(articleId: number, today: string): Promise<ReviewPlan> {
+  return invoke<ReviewPlan>("mark_article_completed", { articleId, today });
+}
+
+/** 今日到期（active 且 nextReviewAt <= today，按到期日升序）；0 篇返回空数组 */
+export function getDueReviews(today: string): Promise<DueReview[]> {
+  return invoke<DueReview[]>("get_due_reviews", { today });
+}
+
+/** 单篇计划（没建过计划返回 null） */
+export function getReviewPlan(articleId: number): Promise<ReviewPlan | null> {
+  return invoke<ReviewPlan | null>("get_review_plan", { articleId });
+}
+
+/** 完成复习 / 还需再看：顺延计划 + 记一行日志；plan 不存在时 reject code=REVIEW_PLAN_MISSING */
+export function completeReview(articleId: number, result: ReviewResult, today: string): Promise<ReviewPlan> {
+  return invoke<ReviewPlan>("complete_review", { articleId, result, today });
+}
+
+/** 手动重启计划：回到四档起点（active / index 0 / 明天） */
+export function restartReviewPlan(articleId: number, today: string): Promise<ReviewPlan> {
+  return invoke<ReviewPlan>("restart_review_plan", { articleId, today });
+}
+
+/** 复习日志（给 articleId 只看那篇；按 reviewedAt 降序） */
+export function listReviewLogs(articleId?: number): Promise<ReviewLog[]> {
+  return invoke<ReviewLog[]>("list_review_logs", { articleId });
+}
+
+/** **全部**计划（含 status='done'）——「已完成」区与「重新加入复习」的数据源 */
+export function listReviewPlans(): Promise<ReviewPlan[]> {
+  return invoke<ReviewPlan[]>("list_review_plans");
 }

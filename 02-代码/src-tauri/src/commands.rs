@@ -14,6 +14,7 @@ use crate::analysis;
 use crate::db::Db;
 use crate::import::{self, ImportReport};
 use crate::pack::{self, PackLabels, PackPath, StartupErrorInfo, StartupState};
+use crate::review;
 use crate::vocab;
 
 /// 统一错误结构（docs D1 §7.2）：`code` / `message` / `path`，camelCase 边界。
@@ -146,6 +147,36 @@ impl CommandError {
         Self {
             code: "invalid_vocab_patch".to_string(),
             message: "没有可更新的字段（只能改语境义/音标/词性/掌握状态）。".to_string(),
+            path: None,
+        }
+    }
+
+    /// 复习计划不存在（M4 `complete_review` 契约错误码 `REVIEW_PLAN_MISSING`，02 D0 逐字）
+    ///
+    /// ponytail: 这个码是**上游任务包写死的契约**（大写），与既有小写码风格不一致；
+    /// 以后端契约为准，不改大小写——前端按 `code === "REVIEW_PLAN_MISSING"` 分支。
+    pub fn review_plan_missing(article_id: i64) -> Self {
+        Self {
+            code: "REVIEW_PLAN_MISSING".to_string(),
+            message: format!("这篇文章（编号 {article_id}）还没有复习计划，请先在精读页点「完成本篇」。"),
+            path: None,
+        }
+    }
+
+    /// 复习结果非法（只接受 `done` / `need_more`，与 DB CHECK 同口径，但先给可读提示）
+    pub fn invalid_review_result(value: &str) -> Self {
+        Self {
+            code: "invalid_review_result".to_string(),
+            message: format!("复习结果只能是 done（完成复习）或 need_more（还需再看），收到「{value}」。"),
+            path: None,
+        }
+    }
+
+    /// 日期非法（M4：`today` 必须由前端按本地日期 `YYYY-MM-DD` 传，02 D0 日期来源禁令）
+    pub fn invalid_date(value: &str) -> Self {
+        Self {
+            code: "invalid_date".to_string(),
+            message: format!("日期格式应为 YYYY-MM-DD（例如 2026-11-06），收到「{value}」。"),
             path: None,
         }
     }
@@ -979,6 +1010,72 @@ pub fn set_vocab_tags(
 #[tauri::command]
 pub fn delete_tag(db: State<'_, Db>, tag_id: i64) -> Result<bool, CommandError> {
     vocab::delete_tag(&db, tag_id)
+}
+
+// ───────────────────────── M4 复习（7 个薄包装；实现在 review.rs，注册在 lib.rs） ─────────────────────────
+//
+// ponytail: 每个包装只做「参数 → 实现」一层转手，不在这里写 SQL、不在这里做校验——
+// 校验（today 格式 / result 两值）与 SQL 在 `review.rs`（可单测）；注册点只在 `lib.rs`（02 D1）。
+
+/// 标记本篇完成：建计划（若无）+ 写 `reading_record.completed`；**幂等**（已有计划原样返回）
+#[tauri::command]
+pub fn mark_article_completed(
+    db: State<'_, Db>,
+    article_id: i64,
+    today: String,
+) -> Result<review::ReviewPlan, CommandError> {
+    review::mark_article_completed(&db, article_id, &today)
+}
+
+/// 今日到期（`active` 且 `next_review_at <= today`），按到期日升序
+#[tauri::command]
+pub fn get_due_reviews(db: State<'_, Db>, today: String) -> Result<Vec<review::DueReview>, CommandError> {
+    review::get_due_reviews(&db, &today)
+}
+
+/// 单篇计划（无则 null）
+#[tauri::command]
+pub fn get_review_plan(
+    db: State<'_, Db>,
+    article_id: i64,
+) -> Result<Option<review::ReviewPlan>, CommandError> {
+    review::get_review_plan(&db, article_id)
+}
+
+/// 复习结果 → 计划顺延 + 日志一行（`result` ∈ {done, need_more}）
+#[tauri::command]
+pub fn complete_review(
+    db: State<'_, Db>,
+    article_id: i64,
+    result: String,
+    today: String,
+) -> Result<review::ReviewPlan, CommandError> {
+    review::complete_review(&db, article_id, &result, &today)
+}
+
+/// 手动重启计划：回到四档起点（plan 不存在时建行）
+#[tauri::command]
+pub fn restart_review_plan(
+    db: State<'_, Db>,
+    article_id: i64,
+    today: String,
+) -> Result<review::ReviewPlan, CommandError> {
+    review::restart_review_plan(&db, article_id, &today)
+}
+
+/// 复习日志（给 articleId 只看那篇；按 reviewedAt 降序）
+#[tauri::command]
+pub fn list_review_logs(
+    db: State<'_, Db>,
+    article_id: Option<i64>,
+) -> Result<Vec<review::ReviewLog>, CommandError> {
+    review::list_review_logs(&db, article_id)
+}
+
+/// **全部**计划（含 `status='done'`）——复习页「已完成」区与「重新加入复习」的数据源
+#[tauri::command]
+pub fn list_review_plans(db: State<'_, Db>) -> Result<Vec<review::ReviewPlan>, CommandError> {
+    review::list_review_plans(&db)
 }
 
 #[cfg(test)]

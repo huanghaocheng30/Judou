@@ -11,6 +11,7 @@ mod commands;
 mod db;
 mod import;
 mod pack;
+mod review;
 mod vocab;
 
 use tauri::{AppHandle, Manager};
@@ -65,7 +66,15 @@ pub fn run() {
             commands::get_vocab_by_normalized,
             commands::list_tags,
             commands::set_vocab_tags,
-            commands::delete_tag
+            commands::delete_tag,
+            // M4 · 复习（7 个；实现见 review.rs，薄包装在 commands.rs）
+            commands::mark_article_completed,
+            commands::get_due_reviews,
+            commands::get_review_plan,
+            commands::complete_review,
+            commands::restart_review_plan,
+            commands::list_review_logs,
+            commands::list_review_plans
         ])
         .run(tauri::generate_context!())
         .expect("启动句读失败");
