@@ -13,6 +13,7 @@ use tauri::State;
 use crate::analysis;
 use crate::db::Db;
 use crate::import::{self, ImportReport};
+use crate::import_user;
 use crate::pack::{self, PackLabels, PackPath, StartupErrorInfo, StartupState};
 use crate::review;
 use crate::vocab;
@@ -1084,6 +1085,33 @@ pub fn get_last_read_article(
     db: State<'_, Db>,
 ) -> Result<Option<review::LastReadArticle>, CommandError> {
     review::get_last_read_article(&db)
+}
+
+// ───────────────────────── M5 · 用户导入（D1：2 个薄包装） ─────────────────────────
+// 清洗/分段/切句/分词/四层校验全在 `import_user.rs`（纯函数 + 单测），这里只做「参数 → 实现」转手。
+// 两命令都是**同步 fn**：`commit_import` 是本地 SQLite 单事务（毫秒级），
+// `Cargo.toml` 无 tokio/async 运行时，与既有命令同口径。
+
+/// 两阶段①：粘贴文本 → 预览（切段/切句/分词 + stats）。**不写库**（AC1）。
+/// 超过 20000 字符 → `IMPORT_TOO_LARGE`。
+#[tauri::command]
+pub fn parse_import_preview(
+    text: String,
+    title: Option<String>,
+) -> Result<import_user::ImportPreview, CommandError> {
+    import_user::parse_preview(&text, title)
+}
+
+/// 两阶段②：预览（用户可剔段/改标题后回传）→ 四层校验 → 单事务入库 → 新文章 id。
+/// 失败码：`IMPORT_L1_STRUCTURE` / `IMPORT_L2_OFFSET` / `IMPORT_L3_COVERAGE` /
+/// `IMPORT_L4_BUSINESS` / `IMPORT_TOO_LARGE` / `IMPORT_DUPLICATE_SOURCE`，任一失败库中零写入。
+#[tauri::command]
+pub fn commit_import(
+    db: State<'_, Db>,
+    preview: import_user::ImportPreview,
+    meta: import_user::ImportMeta,
+) -> Result<import_user::ImportCommitResult, CommandError> {
+    import_user::commit_import(&db, &preview, &meta)
 }
 
 #[cfg(test)]

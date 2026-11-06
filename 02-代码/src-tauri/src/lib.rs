@@ -7,9 +7,12 @@
 //! 错误页永远显示不出来。正确形态是：捕获 → `manage(StartupState::Failed)` → 正常 `Ok(())`。
 
 mod analysis;
-mod commands;
-mod db;
+pub mod commands;
+// `pub` 是给门禁 bin（`src/bin/import_user_cli.rs`，D8 契约）用的：它要开临时库跑真事务。
+// 默认可见性不变（crate 外只有同仓的这个 bin 引用）。
+pub mod db;
 mod import;
+pub mod import_user;
 mod pack;
 mod review;
 mod vocab;
@@ -76,7 +79,10 @@ pub fn run() {
             commands::list_review_logs,
             commands::list_review_plans,
             // TP-修复5 · M4-U3：今日页「继续精读」栏（只读；reading_record 按 last_read_at DESC 取 1）
-            commands::get_last_read_article
+            commands::get_last_read_article,
+            // M5 · 用户导入（2 个；实现见 import_user.rs，薄包装在 commands.rs）
+            commands::parse_import_preview,
+            commands::commit_import
         ])
         .run(tauri::generate_context!())
         .expect("启动句读失败");

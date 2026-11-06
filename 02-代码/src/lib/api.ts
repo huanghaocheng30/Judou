@@ -17,6 +17,9 @@ import type {
   BlankAnalysis,
   DueReview,
   FilterOptions,
+  ImportCommitResult,
+  ImportMeta,
+  ImportPreview,
   ImportReport,
   LastReadArticle,
   LexiconEntry,
@@ -232,4 +235,27 @@ export function listReviewPlans(): Promise<ReviewPlan[]> {
  */
 export function getLastReadArticle(): Promise<LastReadArticle | null> {
   return invoke<LastReadArticle | null>("get_last_read_article");
+}
+
+// ───────────────── M5 · 用户导入（两阶段：预览 → 提交；D3 只加 2 个封装，不开第三层） ─────────────────
+
+/**
+ * 两阶段①：粘贴文本 → 预览（清洗/分段/切句/分词 + stats）。**不写库**。
+ *
+ * 超 20000 字 → reject `IMPORT_TOO_LARGE`；`title` 空串等价于未给（走后端三级回退）。
+ * 返回的 `ImportPreview` 原样回传给 `commitImport` —— **不要**在前端重算偏移或 stats。
+ */
+export function parseImportPreview(text: string, title?: string): Promise<ImportPreview> {
+  return invoke<ImportPreview>("parse_import_preview", { text, title });
+}
+
+/**
+ * 两阶段②：预览（用户可剔段/改标题后回传）→ 四层校验 → 单事务入库 → 新文章。
+ *
+ * 失败码（任一失败库中零写入、整体回滚）：`IMPORT_L1_STRUCTURE` / `IMPORT_L2_OFFSET` /
+ * `IMPORT_L3_COVERAGE` / `IMPORT_L4_BUSINESS` / `IMPORT_TOO_LARGE` / `IMPORT_DUPLICATE_SOURCE`。
+ * 每次提交都生成新的 `source-<hex>` → 同一篇再导一次是**两篇**，不是覆盖（AC7）。
+ */
+export function commitImport(preview: ImportPreview, meta: ImportMeta = {}): Promise<ImportCommitResult> {
+  return invoke<ImportCommitResult>("commit_import", { preview, meta });
 }

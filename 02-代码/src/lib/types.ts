@@ -367,3 +367,69 @@ export interface LastReadArticle {
   title: string;
   lastReadAt: string;
 }
+
+// ───────────────── M5 · 用户导入（02 v1.1 D2；两阶段：预览不写库 → 提交四层校验后入库） ─────────
+
+/**
+ * 两阶段①：`parse_import_preview` 返回体，也是两阶段② `commit_import` 的**入参**（整对象回传）。
+ *
+ * 偏移口径（001_init.sql ADR-008）：句子的 `start/end` 相对 `paragraph.text`、
+ * token 的 `start/end` 相对 `sentence.text`，单位一律 **UTF-16 code unit**
+ * ——不是 UTF-8 字节（中文 3 字节/1 单位、emoji 4 字节/2 单位），也不是字符下标。
+ * 渲染时按 `text.slice(start, end)` 取不到正确结果，必须走 `lib/render.ts` 的 UTF-16 切法。
+ */
+export interface ImportPreview {
+  title: string;
+  paragraphs: ImportParagraph[];
+  stats: ImportStats;
+}
+
+/** 预览里的一段；`idx` 从 0 连续（用户剔段后重排） */
+export interface ImportParagraph {
+  idx: number;
+  text: string;
+  sentences: ImportSentence[];
+}
+
+/** 一句；`start/end` 相对**所在段落**文本，UTF-16 单位 */
+export interface ImportSentence {
+  idx: number;
+  start: number;
+  end: number;
+  text: string;
+  tokens: ImportToken[];
+}
+
+/** 一个 token；`start/end` 相对**所在句子**文本，UTF-16 单位 */
+export interface ImportToken {
+  start: number;
+  end: number;
+  surface: string;
+  /** 非词（标点/数字）为 `null`；词为小写且去尾部撇号（`students'` → `students`） */
+  normalized: string | null;
+  isWord: boolean;
+}
+
+/** 预览页统计（提交前后端不重算，用它校验） */
+export interface ImportStats {
+  paragraphCount: number;
+  sentenceCount: number;
+  tokenCount: number;
+  wordCount: number;
+}
+
+/**
+ * 预览页可选题材信息；两项都可缺省。
+ * `examType` 只接受 `cet4` / `cet6` / `other`（后端越界即 `IMPORT_L4_BUSINESS`）。
+ */
+export interface ImportMeta {
+  examType?: string | null;
+  examYear?: number | null;
+}
+
+/** 两阶段②返回值：新文章 id + 本次生成的 `user-<hex>` 源键（每次提交都是新文章） */
+export interface ImportCommitResult {
+  articleId: number;
+  sourceKey: string;
+  stats: ImportStats;
+}
