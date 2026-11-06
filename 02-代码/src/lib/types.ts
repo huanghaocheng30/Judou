@@ -70,6 +70,8 @@ export interface ApiToken {
 }
 
 export interface ApiSentence {
+  /** M2 新增下发：`sentence.id`（查解析 / 存笔记的唯一句标识；`idx` 是篇内序号会跨段重复） */
+  id: number;
   idx: number;
   start: number;
   end: number;
@@ -128,4 +130,108 @@ export interface ImportReport {
   imported: number;
   skipped: number;
   elapsedMs: number;
+}
+
+// ───────────────── M2 · 解析 / 词卡 / 空格 / 笔记（§三.0 字段名口径） ─────────────────
+
+/**
+ * 列表类字段的两形态：真实数据里 `more.synonyms`/`more.confusables` 数组与字符串都有
+ * （string 130 / array 83）；`blank.distractors` 也有两形态（string 20 / array 10）。
+ * 归一由纯函数 `normalizeList` 负责（`src/lib/analysis.ts`）。
+ */
+export type ListLike = string[] | string | null;
+
+/** 句子成分（`components_json` 单项） */
+export interface AnalysisComponent {
+  part: string;
+  role: string | null;
+  note: string | null;
+}
+
+/** 重点短语（`phrases_json` 单项） */
+export interface AnalysisPhrase {
+  text: string;
+  meaning: string | null;
+  usage: string | null;
+  example: string | null;
+}
+
+/** `get_sentence_analysis` 返回体：9 个解析字段 + 句标识（查不到返回 null） */
+export interface SentenceAnalysis {
+  sentenceId: number;
+  translationLiteral: string | null;
+  translationNatural: string | null;
+  structMarkup: string | null;
+  structureSummary: string | null;
+  paragraphRole: string | null;
+  components: AnalysisComponent[];
+  clauses: string[];
+  phrases: AnalysisPhrase[];
+  pitfalls: string[];
+}
+
+/** `more` 字段（`more_json`）：值为对象，内部三项可能是数组也可能是字符串 */
+export interface MoreInfo {
+  roots?: ListLike;
+  synonyms?: ListLike;
+  confusables?: ListLike;
+}
+
+/** `get_token_analysis` 返回体（`isCet4HighFreq`——注意是 cet4，表结构如此） */
+export interface TokenAnalysis {
+  tokenId: number;
+  phonetic: string | null;
+  pos: string | null;
+  senseInContext: string | null;
+  collocations: ListLike;
+  examples: ListLike;
+  isCet4HighFreq: boolean;
+  more: MoreInfo | null;
+}
+
+/** `lookup_lexicon` 返回体（`isCetHighFreq`——注意**不是** cet4） */
+export interface LexiconEntry {
+  normalized: string;
+  word: string;
+  phonetic: string | null;
+  pos: string | null;
+  sense: string | null;
+  lemma: string | null;
+  collocations: ListLike;
+  examples: ListLike;
+  isCetHighFreq: boolean;
+  more: MoreInfo | null;
+}
+
+/** `get_blank_analysis` 返回体：字段钉死 5 个（02 D1） */
+export interface BlankAnalysis {
+  blankNo: number;
+  answerKey: string | null;
+  answerWord: string | null;
+  reason: string | null;
+  distractors: ListLike;
+}
+
+/** 句子笔记（3 栏，与表结构一一对应） */
+export interface SentenceNote {
+  sentenceId: number;
+  translation: string | null;
+  grammarNote: string | null;
+  phraseNote: string | null;
+  updatedAt: string;
+}
+
+/** 词笔记（3 栏） */
+export interface WordNote {
+  tokenId: number;
+  contextMeaning: string | null;
+  collocation: string | null;
+  example: string | null;
+  updatedAt: string;
+}
+
+/** `upsert_*_note` 返回体：全空清空 → 删行（deleted=true, updatedAt=null） */
+export interface NoteUpsertResult {
+  deleted: boolean;
+  updatedAt: string | null;
 }

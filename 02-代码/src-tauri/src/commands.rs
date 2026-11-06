@@ -10,6 +10,7 @@ use rusqlite::params_from_iter;
 use serde::{Deserialize, Serialize};
 use tauri::State;
 
+use crate::analysis;
 use crate::db::Db;
 use crate::import::{self, ImportReport};
 use crate::pack::{self, PackLabels, PackPath, StartupErrorInfo, StartupState};
@@ -269,6 +270,9 @@ pub struct ParagraphNode {
 #[derive(Debug, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct SentenceNode {
+    /// **M2 新增**：`sentence.id`——查解析 / 存笔记的唯一句标识。
+    /// M1 只下发 `idx`（篇内序号），但 `idx` 是**段内**序号、跨段会重复（实测篇 1 的 20 句只有 7 个不同 idx）。
+    pub id: i64,
     pub idx: i64,
     /// 相对段落文本（ADR-008：UTF-16 code unit）
     pub start: i64,
@@ -700,6 +704,7 @@ pub fn get_article_content(
                 .unwrap_or_default()
                 .into_iter()
                 .map(|sentence| SentenceNode {
+                    id: sentence.id,
                     idx: sentence.idx,
                     start: sentence.start,
                     end: sentence.end,
@@ -763,6 +768,91 @@ fn escape_like(keyword: &str) -> String {
         .replace('\\', "\\\\")
         .replace('%', "\\%")
         .replace('_', "\\_")
+}
+
+// ─────────────────────── M2 · 解析 / 词卡 / 空格 / 笔记（8 个薄包装） ───────────────────────
+//
+// 分工：查询与写入实现在 `analysis.rs`；这里只做 `#[tauri::command]` 薄包装（02 D1 / 评审 N2-1）。
+// **注册点只在 `lib.rs` 的 `generate_handler!`**——本文件不注册，漏改 lib.rs 则 8 个 invoke 全 command not found。
+// 查不到一律 `Ok(None)`（不报错误码，04 §10.1）。
+
+/// 句子六段式解析
+#[tauri::command]
+pub fn get_sentence_analysis(
+    db: State<'_, Db>,
+    sentence_id: i64,
+) -> Result<Option<analysis::SentenceAnalysis>, CommandError> {
+    analysis::get_sentence_analysis(&db, sentence_id)
+}
+
+/// 词的语境解析（`token_analysis` 1:1 于重点 token）
+#[tauri::command]
+pub fn get_token_analysis(db: State<'_, Db>, token_id: i64) -> Result<Option<analysis::TokenAnalysis>, CommandError> {
+    analysis::get_token_analysis(&db, token_id)
+}
+
+/// 全局词库按 `normalized` 主键查
+#[tauri::command]
+pub fn lookup_lexicon(db: State<'_, Db>, normalized: String) -> Result<Option<analysis::LexiconEntry>, CommandError> {
+    analysis::lookup_lexicon(&db, &normalized)
+}
+
+/// 选词填空逐空解析（返回字段钉死 `{blankNo, answerKey, answerWord, reason, distractors}`）
+#[tauri::command]
+pub fn get_blank_analysis(
+    db: State<'_, Db>,
+    article_id: i64,
+    blank_no: i64,
+) -> Result<Option<analysis::BlankAnalysis>, CommandError> {
+    analysis::get_blank_analysis(&db, article_id, blank_no)
+}
+
+/// 句子笔记（未写过返回 `null`）
+#[tauri::command]
+pub fn get_sentence_note(db: State<'_, Db>, sentence_id: i64) -> Result<Option<analysis::SentenceNote>, CommandError> {
+    analysis::get_sentence_note(&db, sentence_id)
+}
+
+/// 词笔记（未写过返回 `null`）
+#[tauri::command]
+pub fn get_word_note(db: State<'_, Db>, token_id: i64) -> Result<Option<analysis::WordNote>, CommandError> {
+    analysis::get_word_note(&db, token_id)
+}
+
+/// 句子笔记 upsert：三栏 TRIM 后全空 → 删除该行（`deleted=true`）
+#[tauri::command]
+pub fn upsert_sentence_note(
+    db: State<'_, Db>,
+    sentence_id: i64,
+    translation: Option<String>,
+    grammar_note: Option<String>,
+    phrase_note: Option<String>,
+) -> Result<analysis::NoteUpsertResult, CommandError> {
+    analysis::upsert_sentence_note(
+        &db,
+        sentence_id,
+        translation.as_deref(),
+        grammar_note.as_deref(),
+        phrase_note.as_deref(),
+    )
+}
+
+/// 词笔记 upsert：三栏 TRIM 后全空 → 删除该行
+#[tauri::command]
+pub fn upsert_word_note(
+    db: State<'_, Db>,
+    token_id: i64,
+    context_meaning: Option<String>,
+    collocation: Option<String>,
+    example: Option<String>,
+) -> Result<analysis::NoteUpsertResult, CommandError> {
+    analysis::upsert_word_note(
+        &db,
+        token_id,
+        context_meaning.as_deref(),
+        collocation.as_deref(),
+        example.as_deref(),
+    )
 }
 
 #[cfg(test)]

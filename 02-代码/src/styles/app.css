@@ -748,3 +748,285 @@ button {
   padding: 40px;
   color: var(--ink-3);
 }
+
+/* ── M2 解析（符号渲染 / 右栏 / 抽屉 / 卡片 / 骨架）────────────────
+ * 色值口径（02 D10 / 评审 N-9）：**一律复用 tokens.css 既有变量**，不新增色值、不改 tokens.css；
+ * 深浅两主题由既有 [data-theme] 机制自动切换（不写两套硬编码色）。
+ * 无障碍（AC10 颜色非唯一通道）：五种标记除颜色外必须有形状/底纹差异——
+ * subject 轻底 + 下沿实线、predicate 实线下划线、object 波浪线、clause/phrase 保留括号本身。
+ */
+.mk {
+  padding: 0 1px;
+  border-radius: 2px;
+  background: none;
+  color: inherit;
+}
+
+.mk-subject {
+  color: var(--blue);
+  background: var(--blue-soft);
+  box-shadow: inset 0 -1px 0 var(--blue);
+}
+
+.mk-predicate {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+}
+
+.mk-object {
+  text-decoration: underline wavy var(--green);
+  text-underline-offset: 3px;
+}
+
+/* 从句：花括号由 parseMarkup 保形（文本里就有），这里只做轻微区分 */
+.mk-clause {
+  color: var(--ink);
+}
+
+/* 短语：圆括号同上 */
+.mk-phrase {
+  color: var(--ink-2);
+}
+
+/* 宽屏双列：正文列 + 320~380px 右栏（grid，**不用 position: fixed 覆盖正文**） */
+.reader-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 24px;
+  align-items: start;
+}
+
+.analysis-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.analysis-panel-wide {
+  position: sticky;
+  top: 16px;
+  max-height: calc(100vh - 48px);
+  overflow: auto;
+}
+
+/* 窄屏底部抽屉（<1100px）：高度 ≤55% 视口，Esc 关闭（02 D4 / AC9） */
+.analysis-drawer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  max-height: 55vh;
+  overflow: auto;
+  padding: 12px 16px 18px;
+  background: var(--paper);
+  border-top: 1px solid var(--line-2);
+  box-shadow: var(--shadow);
+}
+
+.panel-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.panel-title {
+  font-family: var(--serif);
+  font-size: 14px;
+  color: var(--ink-2);
+}
+
+.panel-close {
+  padding: 2px 10px;
+  font-size: 12px;
+}
+
+.panel-hint,
+.panel-error {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 12.5px;
+}
+
+.panel-hint {
+  color: var(--ink-3);
+}
+
+.panel-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 骨架占位：loading 时可见（承接 04 §九 骨架屏） */
+.panel-skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skeleton-line {
+  height: 10px;
+  border-radius: 4px;
+  background: var(--paper-3);
+}
+
+.skeleton-line-short {
+  width: 60%;
+}
+
+/* 卡片：解析区用纸色卡（笔记区第 2 批用虚线框区分来源） */
+.analysis-card {
+  padding: 12px 14px;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.analysis-subcard {
+  padding: 12px 14px;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.subcard-title {
+  margin: 0 0 4px;
+  font-family: var(--serif);
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.subcard-text {
+  margin: 0;
+  color: var(--ink);
+}
+
+.card-quote {
+  margin: 0 0 10px;
+  padding-left: 10px;
+  border-left: 2px solid var(--line-2);
+  color: var(--ink-2);
+}
+
+.card-quote-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--ink-3);
+}
+
+.card-quote-text,
+.card-quote-full {
+  margin: 2px 0 0;
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.card-quote-summary {
+  cursor: pointer;
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.card-no-analysis {
+  margin: 0 0 8px;
+  color: var(--ink-2);
+}
+
+.segment {
+  padding: 6px 0;
+  border-top: 1px dashed var(--line);
+}
+
+.segment-title {
+  cursor: pointer;
+  padding: 2px 0;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+.segment-body {
+  padding: 6px 0 2px;
+}
+
+.segment-text {
+  margin: 0;
+  color: var(--ink);
+}
+
+/* 直译 / 顺译两行 */
+.segment-lines {
+  white-space: pre-line;
+}
+
+.segment-empty {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 12.5px;
+}
+
+.segment-list {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--ink);
+}
+
+.struct-markup {
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.phrase-text {
+  color: var(--ink);
+}
+
+.phrase-meaning,
+.phrase-usage,
+.phrase-example {
+  display: block;
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+
+.components {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+}
+
+.components th,
+.components td {
+  padding: 4px 6px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid var(--line);
+}
+
+.components th {
+  color: var(--ink-3);
+  font-weight: 600;
+}
+
+.components-part {
+  font-family: var(--mono);
+  color: var(--ink);
+}
+
+.components-role,
+.components-note {
+  color: var(--ink-2);
+}

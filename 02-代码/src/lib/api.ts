@@ -14,10 +14,17 @@ import type {
   ArticleContent,
   ArticleFilter,
   ArticleSummary,
+  BlankAnalysis,
   FilterOptions,
   ImportReport,
+  LexiconEntry,
+  NoteUpsertResult,
   PingResult,
+  SentenceAnalysis,
+  SentenceNote,
   StartupErrorInfo,
+  TokenAnalysis,
+  WordNote,
 } from "./types";
 
 /** 连通性探针：返回 pong 与 Cargo 包版本 */
@@ -61,4 +68,56 @@ export function getArticleContent(articleId: number): Promise<ArticleContent> {
 /** 手动触发一次内置内容包导入（正常路径由启动流程自动跑） */
 export function importContentPack(): Promise<ImportReport> {
   return invoke<ImportReport>("import_content_pack");
+}
+
+// ───────────────── M2 · 解析 / 词卡 / 空格 / 笔记（8 个命令各一层，不造统一包装层） ─────────────────
+
+/** 句子的六段式解析（查不到返回 null → 组件走「本段暂无解析」降级） */
+export function getSentenceAnalysis(sentenceId: number): Promise<SentenceAnalysis | null> {
+  return invoke<SentenceAnalysis | null>("get_sentence_analysis", { sentenceId });
+}
+
+/** 词的语境解析（查不到返回 null） */
+export function getTokenAnalysis(tokenId: number): Promise<TokenAnalysis | null> {
+  return invoke<TokenAnalysis | null>("get_token_analysis", { tokenId });
+}
+
+/** 全局词库按 `normalized` 主键查询（查不到返回 null） */
+export function lookupLexicon(normalized: string): Promise<LexiconEntry | null> {
+  return invoke<LexiconEntry | null>("lookup_lexicon", { normalized });
+}
+
+/** 选词填空逐空解析（查不到返回 null） */
+export function getBlankAnalysis(articleId: number, blankNo: number): Promise<BlankAnalysis | null> {
+  return invoke<BlankAnalysis | null>("get_blank_analysis", { articleId, blankNo });
+}
+
+/** 句子笔记（未写过返回 null） */
+export function getSentenceNote(sentenceId: number): Promise<SentenceNote | null> {
+  return invoke<SentenceNote | null>("get_sentence_note", { sentenceId });
+}
+
+/** 词笔记（未写过返回 null） */
+export function getWordNote(tokenId: number): Promise<WordNote | null> {
+  return invoke<WordNote | null>("get_word_note", { tokenId });
+}
+
+/** 句子笔记 upsert：三栏 TRIM 后全空 → 删除该行（`deleted=true`） */
+export function upsertSentenceNote(
+  sentenceId: number,
+  translation: string,
+  grammarNote: string,
+  phraseNote: string,
+): Promise<NoteUpsertResult> {
+  return invoke<NoteUpsertResult>("upsert_sentence_note", { sentenceId, translation, grammarNote, phraseNote });
+}
+
+/** 词笔记 upsert：三栏 TRIM 后全空 → 删除该行 */
+export function upsertWordNote(
+  tokenId: number,
+  contextMeaning: string,
+  collocation: string,
+  example: string,
+): Promise<NoteUpsertResult> {
+  return invoke<NoteUpsertResult>("upsert_word_note", { tokenId, contextMeaning, collocation, example });
 }

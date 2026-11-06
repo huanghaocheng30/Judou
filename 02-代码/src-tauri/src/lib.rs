@@ -6,6 +6,7 @@
 //! `run().expect("启动句读失败")` 会把任何 `Err` 直接变成进程 panic，窗口都开不出来，
 //! 错误页永远显示不出来。正确形态是：捕获 → `manage(StartupState::Failed)` → 正常 `Ok(())`。
 
+mod analysis;
 mod commands;
 mod db;
 mod import;
@@ -43,7 +44,16 @@ pub fn run() {
             commands::get_article_content,
             commands::list_article_filter_options,
             commands::import_content_pack,
-            commands::get_startup_error
+            commands::get_startup_error,
+            // M2 · 解析 / 词卡 / 空格 / 笔记（8 个；实现见 analysis.rs，薄包装在 commands.rs）
+            commands::get_sentence_analysis,
+            commands::get_token_analysis,
+            commands::lookup_lexicon,
+            commands::get_blank_analysis,
+            commands::get_sentence_note,
+            commands::get_word_note,
+            commands::upsert_sentence_note,
+            commands::upsert_word_note
         ])
         .run(tauri::generate_context!())
         .expect("启动句读失败");
