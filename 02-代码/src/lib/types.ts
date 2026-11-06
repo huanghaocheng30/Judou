@@ -235,3 +235,13 @@ export interface NoteUpsertResult {
   deleted: boolean;
   updatedAt: string | null;
 }
+
+/**
+ * `get_article_note_marks` 返回体（TP-修复1 F4 / AC-R3）：**本篇**有笔记的句 / 词两组 id。
+ * 一次 IPC 取全篇标记，正文层据此给句末角标与词节点打 `data-has-note`；
+ * 空数组＝本篇暂无笔记（正常状态，不是错误）。
+ */
+export interface NoteMarks {
+  sentenceIds: number[];
+  tokenIds: number[];
+}

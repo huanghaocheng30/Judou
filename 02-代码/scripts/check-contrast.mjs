@@ -195,6 +195,42 @@ for (const [theme, vars] of Object.entries(themes)) {
   }
 }
 
+// ── TP-修复1 F2（AC-R2）：句末「析」角标 + 句子 hover 反馈的对比度配对。每主题 2 项 → 判据项 26 + 4 = 30 ──
+// 取色口径：
+// - `.sentence-mark` 是「标注色文字 on 正文底」，门槛按标注色 ≥3:1（角标是提示、非正文语义）；
+// - `.sentence:hover` 只改背景，文字**继承**正文墨色 `--ink`（规则里没有 color 声明），
+//   所以前景显式取 `var(--ink)`、背景取该规则自己的 `background`，门槛按正文 ≥4.5:1。
+const SENTENCE_MARK_BODY = blockBody(".sentence-mark");
+const SENTENCE_HOVER_BODY = blockBody(".sentence:hover");
+if (!SENTENCE_MARK_BODY) {
+  console.error("FAIL: app.css 缺少 .sentence-mark 规则（句末角标，AC-R2）");
+  failed = true;
+}
+if (!SENTENCE_HOVER_BODY) {
+  console.error("FAIL: app.css 缺少 .sentence:hover 规则（句子可点反馈，AC-R2）");
+  failed = true;
+}
+const SENTENCE_PAIRS = [
+  ["句末角标 .sentence-mark（标注色 on 正文底 --paper）", declOf(SENTENCE_MARK_BODY, "color"), "var(--paper)", 3.0],
+  // hover 只改底色：写的是 `background-color`（简写会清掉 `.tok` 的笔记圆点），两种写法都取，防样式写法回退
+  [
+    "句子 hover 反馈 .sentence:hover（正文色 --ink on 悬停底）",
+    "var(--ink)",
+    declOf(SENTENCE_HOVER_BODY, "background-color") ?? declOf(SENTENCE_HOVER_BODY, "background"),
+    4.5,
+  ],
+];
+for (const [theme, vars] of Object.entries(themes)) {
+  for (const [label, fgRaw, bgRaw, threshold] of SENTENCE_PAIRS) {
+    const fg = resolveColor(fgRaw, vars);
+    const bg = resolveColor(bgRaw, vars);
+    if (!fg || !bg) { console.error(`FAIL: [${theme}] 句子标记配对取色失败：${label}`); failed = true; continue; }
+    const ratio = contrast(fg, bg);
+    rows.push({ theme, pair: label, fg, bg, ratio, threshold, ok: ratio >= threshold });
+    if (ratio < threshold) failed = true;
+  }
+}
+
 console.log("theme | 配对 | 前景 | 背景 | 比值 | 门槛 | 判定");
 console.log("---|---|---|---|---|---|---");
 for (const r of rows) {

@@ -53,7 +53,9 @@ pub fn run() {
             commands::get_sentence_note,
             commands::get_word_note,
             commands::upsert_sentence_note,
-            commands::upsert_word_note
+            commands::upsert_word_note,
+            // M2 · TP-修复1 F4：本篇笔记标记（一次 IPC，正文层句角标/词节点用）
+            commands::get_article_note_marks
         ])
         .run(tauri::generate_context!())
         .expect("启动句读失败");

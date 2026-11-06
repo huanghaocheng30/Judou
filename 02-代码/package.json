@@ -18,6 +18,7 @@
     "verify:render": "node scripts/verify-render.mjs",
     "verify:analysis": "node scripts/verify-analysis.mjs",
     "verify:note": "node scripts/verify-note.mjs",
+    "verify:note-marks": "node scripts/verify-note-marks.mjs",
     "test:theme": "node --test scripts/theme.test.mjs"
   },
   "dependencies": {

@@ -11,7 +11,7 @@
  * - **失败不静默丢**：`data-note-status="error"` + 草稿留在输入框 + 「保存失败，点此重试」；
  *   下次输入会自动重试（`change` 重新排计时器）。
  */
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { getSentenceNote, getWordNote, upsertSentenceNote, upsertWordNote } from "../lib/api";
 import { useDebouncedSave } from "../hooks/useDebouncedSave";
 import type { NoteUpsertResult } from "../lib/types";
@@ -40,9 +40,14 @@ export interface NoteEditorProps {
   targetKind: "sentence" | "word";
   /** `sentence.id` 或 `token.id` */
   targetId: number;
+  /**
+   * 保存成功回调（TP-修复1 F3/F4）：`hasContent=false` 表示三栏清空、后端已删行。
+   * 上层据它就地更新「本篇哪些句/词有笔记」的标记——**不再查一遍全篇**（AC-R3 一次 IPC）。
+   */
+  onSaved?: (hasContent: boolean) => void;
 }
 
-export function NoteEditor({ targetKind, targetId }: NoteEditorProps) {
+export function NoteEditor({ targetKind, targetId, onSaved }: NoteEditorProps) {
   const targetKey = `${targetKind}:${targetId}`;
   const config = SLOTS[targetKind];
   const [loaded, setLoaded] = useState(false);
@@ -63,6 +68,19 @@ export function NoteEditor({ targetKind, targetId }: NoteEditorProps) {
   );
 
   const { values, status, cleared, change, reset, retry } = useDebouncedSave({ targetKey, save });
+
+  /**
+   * 保存成功后把「本目标现在有没有内容」上报（TP-修复1 F3/F4）。
+   *
+   * 为什么用 ref 存回调、依赖只写 `[status, cleared]`：`onSaved` 由上层每次 render 新建箭头函数，
+   * 若进依赖数组，在 `saved` 的 2s 窗口内会「重渲染 → 新回调 → effect 再跑 → 再 setState」自我循环。
+   * 上报是无害幂等的（上层对「无变化」返回同一引用、不重渲染），但循环必须从源头掐掉。
+   */
+  const onSavedRef = useRef(onSaved);
+  onSavedRef.current = onSaved;
+  useEffect(() => {
+    if (status === "saved") onSavedRef.current?.(!cleared);
+  }, [status, cleared]);
 
   // **error 归属**（审查 B-1 / R-1）：hook 的 `status` 已按 targetKey 过滤——别的目标写失败不会显示在
   // 这里；本卡片上的「保存失败，点此重试」永远指向**本目标**的草稿，`retry()` 也只重试本目标的 pending。

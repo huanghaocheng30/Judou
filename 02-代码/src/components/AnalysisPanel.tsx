@@ -70,6 +70,11 @@ export interface AnalysisPanelProps {
   articleId: number;
   selection: AnalysisSelection;
   onClose: () => void;
+  /**
+   * 笔记保存成功回调（TP-修复1 F3/F4）：`hasContent=false` 表示三栏已清空（行被删）。
+   * 由 `Reader` 就地增量更新句/词标记，**不为一次标记变化再查一遍全篇**（AC-R3 一次 IPC）。
+   */
+  onNoteSaved?: (kind: "sentence" | "word", id: number, hasContent: boolean) => void;
 }
 
 /** 骨架占位：`loading` 时可见（不空白闪烁） */
@@ -83,7 +88,7 @@ function PanelSkeleton() {
   );
 }
 
-export function AnalysisPanel({ articleId, selection, onClose }: AnalysisPanelProps) {
+export function AnalysisPanel({ articleId, selection, onClose, onNoteSaved }: AnalysisPanelProps) {
   const wide = useWideLayout();
   const [status, setStatus] = useState<PanelStatus>("none");
   const [sentenceCard, setSentenceCard] = useState<SentenceCardModel | null>(null);
@@ -149,15 +154,27 @@ export function AnalysisPanel({ articleId, selection, onClose }: AnalysisPanelPr
     };
   }, [articleId, sentenceId, wordId, wordNormalized, blankNo]);
 
-  // 窄屏抽屉：Esc 关闭（宽屏右栏常驻，不劫持 Esc）
+  /**
+   * Esc 统一出口（TP-修复1 F1 / AC-R1）：**只要面板有选中态就绑**——宽屏也绑。
+   *
+   * F0 实测（真实键 `Input.dispatchKeyEvent`，见 TP-修复1 自测 §一）：原先 `if (wide) return` 在宽屏根本不绑
+   * listener，而宽屏是默认布局 → 用户按 Esc 毫无反应，这正是「Esc 关不掉解析」的根因；
+   * 窄屏（含焦点停在笔记 textarea）真实键可达 window，**不需要** NoteEditor 再兜一层。
+   *
+   * 三个细节：
+   * - `capture`：绕开输入框/弹层可能 `stopPropagation()` 的拦截，保证 Esc 一定能到；
+   * - `isComposing`：中文输入法组合中按 Esc 是「撤销候选」，不该顺手把面板关掉；
+   * - 关前不另写 flush：`onClose()` → `NoteEditor` 卸载 → `useDebouncedSave` 清理时 `flushAll()`（既有链路）。
+   */
   useEffect(() => {
-    if (wide || status === "none") return undefined;
+    if (status === "none") return undefined;
     const onKey = (event: KeyboardEvent): void => {
-      if (event.key === "Escape") onClose();
+      if (event.key !== "Escape" || event.isComposing) return;
+      onClose();
     };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [wide, status, onClose]);
+    window.addEventListener("keydown", onKey, true);
+    return () => window.removeEventListener("keydown", onKey, true);
+  }, [status, onClose]);
 
   // 窄屏未选中：不渲染抽屉（不占位、不挡正文）
   if (!wide && status === "none") return null;
@@ -249,14 +266,26 @@ export function AnalysisPanel({ articleId, selection, onClose }: AnalysisPanelPr
           {sentenceCard ? (
             <>
               <SentenceCard card={sentenceCard} text={sentenceText ?? undefined} />
-              {sentenceId !== null ? <NoteEditor targetKind="sentence" targetId={sentenceId} /> : null}
+              {sentenceId !== null ? (
+                <NoteEditor
+                  targetKind="sentence"
+                  targetId={sentenceId}
+                  onSaved={(hasContent) => onNoteSaved?.("sentence", sentenceId, hasContent)}
+                />
+              ) : null}
             </>
           ) : null}
 
           {wordCard ? (
             <>
               <WordCard card={wordCard} />
-              {wordId !== null ? <NoteEditor targetKind="word" targetId={wordId} /> : null}
+              {wordId !== null ? (
+                <NoteEditor
+                  targetKind="word"
+                  targetId={wordId}
+                  onSaved={(hasContent) => onNoteSaved?.("word", wordId, hasContent)}
+                />
+              ) : null}
             </>
           ) : null}
 

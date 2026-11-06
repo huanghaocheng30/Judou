@@ -18,6 +18,7 @@ import type {
   FilterOptions,
   ImportReport,
   LexiconEntry,
+  NoteMarks,
   NoteUpsertResult,
   PingResult,
   SentenceAnalysis,
@@ -100,6 +101,14 @@ export function getSentenceNote(sentenceId: number): Promise<SentenceNote | null
 /** 词笔记（未写过返回 null） */
 export function getWordNote(tokenId: number): Promise<WordNote | null> {
   return invoke<WordNote | null>("get_word_note", { tokenId });
+}
+
+/**
+ * 本篇笔记标记（TP-修复1 F4 / AC-R3）：一次 IPC 拿到本篇有笔记的 `sentenceIds` / `tokenIds`。
+ * 正文层用它给句角标与词节点打标记；**不要**改成逐句 `getSentenceNote`（274 句 = 数百次 IPC）。
+ */
+export function getArticleNoteMarks(articleId: number): Promise<NoteMarks> {
+  return invoke<NoteMarks>("get_article_note_marks", { articleId });
 }
 
 /** 句子笔记 upsert：三栏 TRIM 后全空 → 删除该行（`deleted=true`） */

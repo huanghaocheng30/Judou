@@ -635,7 +635,8 @@ button {
 }
 
 .tok:hover {
-  background: var(--accent-soft);
+  /* 只改底色：`data-has-note` 的圆点是 background-image，简写会把圆点一并清掉（TP-修复1 F3） */
+  background-color: var(--accent-soft);
 }
 
 .blank {
@@ -1050,8 +1051,59 @@ button {
   border-radius: 4px;
 }
 
+/* 「这句能点」的反馈（TP-修复1 F2 / AC-R2）：**只改底色**，不动字号/行高/字距，正文排版节奏不变。
+   用 `background-color` 而非 `background` 简写——`.tok` 的笔记圆点是 background-image，简写会顺手清掉。 */
 .sentence:hover {
-  background: var(--paper-2);
+  background-color: var(--paper-2);
+}
+
+/* 键盘聚焦同样给底色反馈（全局 :focus-visible 另有 2px 轮廓，颜色不是唯一通道） */
+.sentence:focus-visible {
+  background-color: var(--paper-2);
+}
+
+/* 句末「析」角标（F2）：纯装饰提示「这句可点开解析」，≤2 字、aria-hidden、不接事件（点击冒泡给父节点）。
+   **必须零布局影响**（AC-R2：不重排段落）：
+   - `line-height: 0` 让这个 inline box 对父行盒高度贡献为 0（strut 仍由正文决定）；
+   - 抬高用 `position: relative` + `top`，**不用 `vertical-align: super`**——后者会参与行盒对齐、把行撑高
+     （实测：vertical-align: super 时全篇 reader-body 高 933.07px，摘掉角标后 900.78px，差 32px ≈ 一行）。
+   颜色取 --accent（对比度门禁覆盖 ≥3:1）。
+   ponytail: 刻度感/描边/呼吸动画一律不做——角标只回答「这句可点」，装饰过重会盖过正文；
+   若将来要区分「已写笔记」的第二视觉层级，走 `[data-has-note="1"]` 换填充色即可，不需要新组件。 */
+.sentence-mark {
+  position: relative;
+  top: -0.45em;
+  margin-left: 2px;
+  font-family: var(--sans);
+  font-size: 10px;
+  line-height: 0;
+  color: var(--accent);
+  opacity: 0.7;
+  user-select: none;
+}
+
+/* 悬停/聚焦时角标加重（形状 + 颜色双通道，不只靠颜色深浅） */
+.sentence:hover .sentence-mark,
+.sentence:focus-visible .sentence-mark {
+  opacity: 1;
+}
+
+/* 写过笔记的句：角标实心（F3 / AC-R3 的视觉痕迹） */
+.sentence-mark[data-has-note="1"] {
+  padding: 0 2px;
+  border-radius: 2px;
+  background: var(--accent);
+  color: var(--paper);
+  opacity: 1;
+}
+
+/* 有笔记的词：底缘小圆点（F3）。用 background-image 而不插入 DOM 节点——
+   不打断文本流、不改字号/字距、不新增可聚焦元素；hover 只改 background-color，圆点保留。 */
+.tok[data-has-note="1"] {
+  background-image: radial-gradient(circle 1.6px at center bottom, var(--rose) 99%, transparent 100%);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 3px;
 }
 
 /* 窄屏抽屉拖动条：指针拖拽 + 键盘 ↑↓/Home/End（D10「拖动条 + 键盘可用」） */

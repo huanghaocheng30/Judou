@@ -18,14 +18,14 @@
  * ponytail: 整篇一次渲染（274 句上限，长文 1208 token 纯函数 < 50ms 已实测），不做虚拟滚动；
  * 等真的出现「万字级用户导入篇 + 卡顿」再上分段渲染（renderTokens 的节点契约不变）。
  */
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import { AnalysisPanel, useWideLayout } from "../components/AnalysisPanel";
 import type { AnalysisSelection } from "../components/AnalysisPanel";
-import { getArticleContent } from "../lib/api";
+import { getArticleContent, getArticleNoteMarks } from "../lib/api";
 import { renderParagraph, renderTokens } from "../lib/render";
 import type { TokenNode } from "../lib/render";
-import type { ApiSentence, ArticleContent } from "../lib/types";
+import type { ApiSentence, ArticleContent, NoteMarks } from "../lib/types";
 import { useReturn, useRoute } from "../shell/routes";
 
 /** 触发键：Enter 与 Space（AC10「Enter/Space 能触发同一卡片」） */
@@ -35,13 +35,17 @@ function isActivationKey(event: ReactKeyboardEvent<HTMLElement>): boolean {
 
 interface SentenceProps {
   sentence: ApiSentence;
+  /** 本句是否写过笔记（F4 批次查询的 `sentenceIds`）→ 句末「析」角标实心态 */
+  hasNote: boolean;
+  /** 本篇有词笔记的 tokenId 集合（F4 的 `tokenIds`）→ 词节点 `data-has-note="1"` */
+  noteTokenIds: ReadonlySet<number>;
   onSelectSentence: (sentence: ApiSentence) => void;
   onSelectWord: (node: TokenNode) => void;
   onSelectBlank: (blankNo: number) => void;
 }
 
 /** 一句：纯函数切分成 text / word / blank 三类节点，按原顺序摊平（间隙文本原样保留空格） */
-function Sentence({ sentence, onSelectSentence, onSelectWord, onSelectBlank }: SentenceProps) {
+function Sentence({ sentence, hasNote, noteTokenIds, onSelectSentence, onSelectWord, onSelectBlank }: SentenceProps) {
   const nodes = renderTokens(sentence.text, sentence.tokens, sentence.blankNos);
 
   return (
@@ -68,6 +72,7 @@ function Sentence({ sentence, onSelectSentence, onSelectWord, onSelectBlank }: S
               data-token-id={node.tokenId}
               data-n={node.normalized}
               data-start={node.start}
+              data-has-note={node.tokenId !== undefined && noteTokenIds.has(node.tokenId) ? "1" : undefined}
               role="button"
               tabIndex={0}
               aria-label={`查看「${node.text}」的词卡`}
@@ -116,6 +121,13 @@ function Sentence({ sentence, onSelectSentence, onSelectWord, onSelectBlank }: S
         }
         return node.text;
       })}
+      {/* 句末角标（TP-修复1 F2 / AC-R2）：纯装饰提示「这句能点开解析」。
+          为什么不用 <button>：外层 `.sentence` 已是 role="button" + tabIndex=0，嵌套按钮既制造嵌套交互语义、
+          又会抢走 Tab 焦点；角标不接事件（点击冒泡给父节点），`aria-hidden` 免得屏幕阅读器重复念。
+          `data-has-note="1"` 只在写过笔记时出现（F3/AC-R3 的视觉痕迹）。 */}
+      <span className="sentence-mark" aria-hidden="true" data-sentence-mark data-has-note={hasNote ? "1" : undefined}>
+        析
+      </span>
     </span>
   );
 }
@@ -128,6 +140,8 @@ export function Reader() {
   const [error, setError] = useState<string | null>(null);
   const [selection, setSelection] = useState<AnalysisSelection>({ kind: "none" });
   const [revealed, setRevealed] = useState<number[]>([]);
+  /** 本篇笔记标记（F4/AC-R3）：一次 IPC 全量取，句末角标与词节点据此打 `data-has-note` */
+  const [noteMarks, setNoteMarks] = useState<NoteMarks>({ sentenceIds: [], tokenIds: [] });
   const wide = useWideLayout();
 
   useEffect(() => {
@@ -157,6 +171,73 @@ export function Reader() {
     setRevealed([]);
   }, [articleId]);
 
+  // 本篇笔记标记（TP-修复1 F4 / AC-R3）：**一次** IPC 拿全篇「哪些句 / 哪些词写过笔记」。
+  // 独立于正文加载：标记查询失败只让标记缺失（降级空集合 + 控制台留痕），不能拖垮正文阅读。
+  // 注意**不要**改成逐句 getSentenceNote（274 句 × 2 表 = 数百次 IPC）。
+  useEffect(() => {
+    if (!articleId) {
+      setNoteMarks({ sentenceIds: [], tokenIds: [] });
+      return;
+    }
+    let cancelled = false;
+    getArticleNoteMarks(articleId)
+      .then((marks) => {
+        if (!cancelled) setNoteMarks(marks);
+      })
+      .catch((err: unknown) => {
+        if (!cancelled) {
+          console.warn("[judou] 读本篇笔记标记失败，正文标记降级为空：", err);
+          setNoteMarks({ sentenceIds: [], tokenIds: [] });
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [articleId]);
+
+  // 写/清笔记后就地更新标记（F3/AC-R3「写后出现、清空消失」）：**零额外 IPC**——
+  // 用 NoteEditor 保存成功回调做本地增量，不为一次标记变化再查一遍全篇。
+  // 无变化时返回同一个对象引用，React 不重渲染。
+  const handleNoteSaved = useCallback((kind: "sentence" | "word", id: number, hasContent: boolean): void => {
+    setNoteMarks((current) => {
+      if (kind === "sentence") {
+        if (current.sentenceIds.includes(id) === hasContent) return current;
+        return {
+          ...current,
+          sentenceIds: hasContent
+            ? [...current.sentenceIds, id]
+            : current.sentenceIds.filter((item) => item !== id),
+        };
+      }
+      if (current.tokenIds.includes(id) === hasContent) return current;
+      return {
+        ...current,
+        tokenIds: hasContent ? [...current.tokenIds, id] : current.tokenIds.filter((item) => item !== id),
+      };
+    });
+  }, []);
+
+  /**
+   * 关闭解析面板的**唯一出口**（关闭按钮 / Esc / 宽屏 Esc 共用，TP-修复1 F1）。
+   *
+   * 为什么不需要另写 flush：面板一关 → `NoteEditor` 卸载 → `useDebouncedSave` 的卸载清理会
+   * `flushAll()` 把待落库草稿发出去（M2 已验收路径），所以「关前 flush」走的是既有链路。
+   * 关后把焦点还给刚操作的句子（02 §四 缓解措施）：宽屏右栏收起后键盘用户不至于丢失位置。
+   *
+   * 位置硬约束：本 hook 必须在下面 `if (error)` / `if (!content)` 两个早退**之前**——
+   * 放到早退之后就变成条件调用，两次渲染的 hook 数量不同，React 会直接抛
+   * 「Rendered more hooks than during the previous render」并崩白页（本次实测过一次，见自测）。
+   */
+  const closePanel = useCallback((): void => {
+    const sentenceId = selection.kind === "sentence" ? selection.id : null;
+    setSelection({ kind: "none" });
+    if (sentenceId !== null) {
+      window.requestAnimationFrame(() => {
+        document.querySelector<HTMLElement>(`[data-sentence-id="${sentenceId}"]`)?.focus();
+      });
+    }
+  }, [selection]);
+
   const backButton = (
     <button type="button" className="btn reader-back" onClick={goBack} data-testid="reader-back">
       ‹ 返回文章库
@@ -185,6 +266,8 @@ export function Reader() {
   }
 
   const detail = content.article;
+  // Set 化词标记：正文有 274 句 / 数千词，避免每个词对数组做一次线性 includes（F3）
+  const noteTokenIdSet = new Set(noteMarks.tokenIds);
   const meta = [
     detail.sectionLabel,
     detail.passageLabel,
@@ -225,6 +308,8 @@ export function Reader() {
                   <Sentence
                     key={part.sentenceIndex}
                     sentence={paragraph.sentences[part.sentenceIndex]}
+                    hasNote={noteMarks.sentenceIds.includes(paragraph.sentences[part.sentenceIndex].id)}
+                    noteTokenIds={noteTokenIdSet}
                     onSelectSentence={(sentence) =>
                       setSelection({ kind: "sentence", id: sentence.id, text: sentence.text })
                     }
@@ -293,7 +378,12 @@ export function Reader() {
         )}
       </div>
 
-      <AnalysisPanel articleId={detail.id} selection={selection} onClose={() => setSelection({ kind: "none" })} />
+      <AnalysisPanel
+        articleId={detail.id}
+        selection={selection}
+        onClose={closePanel}
+        onNoteSaved={handleNoteSaved}
+      />
     </section>
   );
 }

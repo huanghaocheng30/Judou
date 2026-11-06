@@ -134,6 +134,21 @@ pub struct NoteUpsertResult {
     pub updated_at: Option<String>,
 }
 
+/// 本篇「有笔记的句 / 词」两组 id（TP-修复1 F4）：**一次 IPC** 供正文层打标记。
+///
+/// 为什么不在 `get_article_content` 里下发：正文载荷属于 M1 已验收契约，加字段会改动它的形状；
+/// 也不逐句 `get_sentence_note`（274 句 × 2 表 = 数百次 IPC）。两条按 `article_id` 过滤的查询即可。
+///
+/// 只读 `sentence_note` / `word_note`——AC-R3 红线：解析四表零写、`001_init.sql` 零改动。
+#[derive(Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct NoteMarks {
+    /// 本篇有句子笔记的 `sentence.id`（升序）
+    pub sentence_ids: Vec<i64>,
+    /// 本篇有词笔记的 `token.id`（升序；经 `token.sentence_id → sentence.article_id` 关联）
+    pub token_ids: Vec<i64>,
+}
+
 // ───────────────────────────── 小工具 ─────────────────────────────
 
 /// JSON 列 → 值：合法 JSON 原样返回；非 JSON 文本降级为字符串值（保内容不丢）。
@@ -419,6 +434,54 @@ pub fn get_word_note(db: &Db, token_id: i64) -> Result<Option<WordNote>, Command
     })
 }
 
+/// 本篇笔记标记：有笔记的 `sentence.id` / `token.id` 两组集合（TP-修复1 F4 / AC-R3）。
+///
+/// 两条查询走 `sentence_note.sentence_id` / `word_note.token_id` 的 UNIQUE 索引 + `token(sentence_id)` 索引；
+/// 空库/无笔记篇返回两空数组（不是 `None`——「没有标记」是正常状态，前端不必区分）。
+///
+/// ponytail: 一次拉全篇两个 id 数组，不返回笔记正文、不分页、不做增量 diff——单篇笔记量级是「几十到几百」，
+/// 一次 IPC 足够（AC-R3 明确要求「一次」）。天花板：某篇笔记上万时这一次响应会变大，届时按 `LIMIT` + 游标拆批，
+/// 而不是现在就上增量协议。
+pub fn get_article_note_marks(db: &Db, article_id: i64) -> Result<NoteMarks, CommandError> {
+    db.read(|conn| {
+        let sentence_ids = {
+            let mut stmt = conn
+                .prepare(
+                    "SELECT sn.sentence_id FROM sentence_note sn
+                       JOIN sentence s ON s.id = sn.sentence_id
+                      WHERE s.article_id = ?1
+                      ORDER BY sn.sentence_id",
+                )
+                .map_err(|err| CommandError::db("准备句子笔记标记查询", err))?;
+            let rows = stmt
+                .query_map([article_id], |row| row.get::<_, i64>(0))
+                .map_err(|err| CommandError::db("查询句子笔记标记", err))?;
+            rows.collect::<Result<Vec<i64>, _>>()
+                .map_err(|err| CommandError::db("收集句子笔记标记", err))?
+        };
+        let token_ids = {
+            let mut stmt = conn
+                .prepare(
+                    "SELECT wn.token_id FROM word_note wn
+                       JOIN token t ON t.id = wn.token_id
+                       JOIN sentence s ON s.id = t.sentence_id
+                      WHERE s.article_id = ?1
+                      ORDER BY wn.token_id",
+                )
+                .map_err(|err| CommandError::db("准备词笔记标记查询", err))?;
+            let rows = stmt
+                .query_map([article_id], |row| row.get::<_, i64>(0))
+                .map_err(|err| CommandError::db("查询词笔记标记", err))?;
+            rows.collect::<Result<Vec<i64>, _>>()
+                .map_err(|err| CommandError::db("收集词笔记标记", err))?
+        };
+        Ok(NoteMarks {
+            sentence_ids,
+            token_ids,
+        })
+    })
+}
+
 // ───────────────────────────── 笔记写入 ─────────────────────────────
 
 /// 句子笔记 upsert：三栏 TRIM 后全空 → `DELETE`；否则 `INSERT … ON CONFLICT DO UPDATE`
@@ -657,6 +720,68 @@ mod tests {
         assert!(get_blank_analysis(&db, 1, 26).expect("查空格").is_none());
         assert!(get_sentence_note(&db, 1).expect("查句笔记").is_none());
         assert!(get_word_note(&db, 1).expect("查词笔记").is_none());
+        std::fs::remove_dir_all(&dir).ok();
+    }
+
+    /// F4（AC-R3）：本篇笔记标记**只**含本篇的句/词（跨篇不串味），清空即消失，空库返回两空数组
+    #[test]
+    fn article_note_marks_list_only_this_articles_notes() {
+        let (db, dir) = temp_db("marks");
+        let (sentence_id, token_id) = seed(&db);
+
+        // 第二篇（同构最小种子）：用来证明按 article_id 过滤，而不是「全表扫」
+        let (other_sentence, other_token) = db
+            .write(|tx| {
+                tx.execute(
+                    "INSERT INTO article (source_key, title, exam_type, visibility) VALUES ('t-2', '第二篇', 'cet4', 'system')",
+                    [],
+                )
+                .map_err(|err| CommandError::db("插 article2", err))?;
+                let article2 = tx.last_insert_rowid();
+                tx.execute(
+                    "INSERT INTO paragraph (article_id, idx, text) VALUES (?1, 0, 'She reads.')",
+                    [article2],
+                )
+                .map_err(|err| CommandError::db("插 paragraph2", err))?;
+                let paragraph2 = tx.last_insert_rowid();
+                tx.execute(
+                    "INSERT INTO sentence (article_id, paragraph_id, idx, text, text_hash, start_offset, end_offset)
+                     VALUES (?1, ?2, 0, 'She reads.', 'hash2', 0, 10)",
+                    params![article2, paragraph2],
+                )
+                .map_err(|err| CommandError::db("插 sentence2", err))?;
+                let sentence2 = tx.last_insert_rowid();
+                tx.execute(
+                    "INSERT INTO token (sentence_id, idx, surface, normalized, start_offset, end_offset, is_word)
+                     VALUES (?1, 0, 'reads', 'read', 4, 9, 1)",
+                    [sentence2],
+                )
+                .map_err(|err| CommandError::db("插 token2", err))?;
+                let token2 = tx.last_insert_rowid();
+                Ok((sentence2, token2))
+            })
+            .expect("第二篇种子失败");
+
+        let empty = get_article_note_marks(&db, 1).expect("查空标记");
+        assert!(empty.sentence_ids.is_empty() && empty.token_ids.is_empty(), "空库应返回两空数组");
+
+        upsert_sentence_note(&db, sentence_id, Some("译"), None, None).expect("写句笔记");
+        upsert_word_note(&db, token_id, Some("语境义"), None, None).expect("写词笔记");
+        upsert_sentence_note(&db, other_sentence, Some("译2"), None, None).expect("写句笔记2");
+        upsert_word_note(&db, other_token, Some("语境义2"), None, None).expect("写词笔记2");
+
+        let marks = get_article_note_marks(&db, 1).expect("查第一篇标记");
+        assert_eq!(marks.sentence_ids, vec![sentence_id], "第一篇句标记应恰为本篇那条");
+        assert_eq!(marks.token_ids, vec![token_id], "第一篇词标记应恰为本篇那条");
+        let other = get_article_note_marks(&db, 2).expect("查第二篇标记");
+        assert_eq!(other.sentence_ids, vec![other_sentence], "第二篇不得混入第一篇");
+        assert_eq!(other.token_ids, vec![other_token]);
+
+        upsert_sentence_note(&db, sentence_id, None, None, None).expect("清句笔记");
+        upsert_word_note(&db, token_id, None, None, None).expect("清词笔记");
+        let cleared = get_article_note_marks(&db, 1).expect("再查标记");
+        assert!(cleared.sentence_ids.is_empty() && cleared.token_ids.is_empty(), "清空笔记后标记应消失");
+
         std::fs::remove_dir_all(&dir).ok();
     }
 

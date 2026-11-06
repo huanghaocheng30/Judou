@@ -819,6 +819,13 @@ pub fn get_word_note(db: State<'_, Db>, token_id: i64) -> Result<Option<analysis
     analysis::get_word_note(&db, token_id)
 }
 
+/// 本篇笔记标记（TP-修复1 F4 / AC-R3）：一次 IPC 返回**本篇**有笔记的 `sentenceId` / `tokenId` 两组 id。
+/// 正文层据此给句角标与词节点打 `data-has-note`；漏在此注册（`lib.rs` `generate_handler!`）会 command not found。
+#[tauri::command]
+pub fn get_article_note_marks(db: State<'_, Db>, article_id: i64) -> Result<analysis::NoteMarks, CommandError> {
+    analysis::get_article_note_marks(&db, article_id)
+}
+
 /// 句子笔记 upsert：三栏 TRIM 后全空 → 删除该行（`deleted=true`）
 #[tauri::command]
 pub fn upsert_sentence_note(
