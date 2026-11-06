@@ -10,3 +10,6 @@ Thumbs.db
 dsh-image-gen/
 02-代码/node_modules/
 02-代码/src-tauri/target/
+
+# 派工锁（运行时文件，不入库）
+03-开发协同/**/.lock
