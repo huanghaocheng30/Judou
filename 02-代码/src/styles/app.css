@@ -1137,12 +1137,15 @@ button {
 }
 
 /* 有笔记的词：底缘小圆点（F3）。用 background-image 而不插入 DOM 节点——
-   不打断文本流、不改字号/字距、不新增可聚焦元素；hover 只改 background-color，圆点保留。 */
+   不打断文本流、不改字号/字距、不新增可聚焦元素；hover 只改 background-color，圆点保留。
+   **圆心必须落在绘制区内**（TP-修复5 / M4-U2）：`at center bottom` 的圆心正好在绘制区底边上，
+   圆的下半在区外被裁 → 只剩 1.33px 高的扁半圆、压在字母脚底板处，用户看到的是「没效果」。
+   抬到 `center 2.4px`、条带加高到 4.5px 后整圆可见（实测 bbox 3.33×3.17 ≈ 半径 1.6 的整圆）。 */
 .tok[data-has-note="1"] {
-  background-image: radial-gradient(circle 1.6px at center bottom, var(--rose) 99%, transparent 100%);
+  background-image: radial-gradient(circle 1.6px at center 2.4px, var(--rose) 99%, transparent 100%);
   background-repeat: no-repeat;
   background-position: 0 100%;
-  background-size: 100% 3px;
+  background-size: 100% 4.5px;
 }
 
 /* 窄屏抽屉拖动条：指针拖拽 + 键盘 ↑↓/Home/End（D10「拖动条 + 键盘可用」） */
@@ -1979,4 +1982,100 @@ button {
   line-height: 18px;
   text-align: center;
   font-variant-numeric: tabular-nums;
+}
+
+/* ═══════════════════════ 今日页（TP-修复5 · M4-U3） ═══════════════════════
+   **全部复用既有 token，不新增色值**（门槛见 scripts/check-contrast.mjs 的 38 项对照）：
+   - 卡片底色 `--paper` / 描边 `--line`，与复习页 `.review-row` 同款，两页视觉同族；
+   - 标题正文色 `--ink`，元信息 `--ink-3`（与 `.review-row-meta` 同层级）；
+   - 卡片是**真 `<a>`**（原生可 Tab、Enter 进入），所以焦点环走 `:focus-visible`，
+     用 `--accent` 描边 + 位移 1px，与全局 `:focus-visible` 的 2px 轮廓叠加时不冲突。 */
+
+.today {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.today-loading {
+  margin: 0;
+  color: var(--ink-3);
+  font-size: 13px;
+}
+
+.today-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.today-section-title {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--ink-2);
+}
+
+.today-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* 卡片本体 = 复习页 .review-row 的观感（同底、同边、同圆角），但整块可点 */
+.today-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  color: inherit;
+  text-decoration: none;
+}
+
+.today-card:hover {
+  /* 只改底色：不写 `background` 简写，避免顺手清掉将来加的装饰背景 */
+  background-color: var(--paper-2);
+  border-color: var(--line-2);
+}
+
+/* 键盘可达（AC-R10）：焦点环必须**看得见**——2px 实线 + 2px 外扩，深浅主题都由 --accent 保证对比 */
+.today-card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.today-card-title {
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.today-card-meta {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+/* 「上次读到 MM-DD」与到期标签都用等宽数字，日期列对得齐 */
+.today-card-meta .today-due,
+.today-card-meta .today-step {
+  font-variant-numeric: tabular-nums;
+}
+
+.today-hint {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--ink-3);
 }

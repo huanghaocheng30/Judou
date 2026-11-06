@@ -1078,6 +1078,14 @@ pub fn list_review_plans(db: State<'_, Db>) -> Result<Vec<review::ReviewPlan>, C
     review::list_review_plans(&db)
 }
 
+/// 最近读过的一篇（今日页「继续精读」栏的数据源；无记录返回 null）。**只读**，不碰 M6 两列。
+#[tauri::command]
+pub fn get_last_read_article(
+    db: State<'_, Db>,
+) -> Result<Option<review::LastReadArticle>, CommandError> {
+    review::get_last_read_article(&db)
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;

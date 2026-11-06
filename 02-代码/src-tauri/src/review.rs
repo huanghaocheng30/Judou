@@ -419,6 +419,52 @@ pub fn list_review_plans(db: &Db) -> Result<Vec<ReviewPlan>, CommandError> {
     })
 }
 
+// ───────────────────── ⑧ get_last_read_article（TP-修复5 · M4-U3） ─────────────────────
+
+/// 「今日」页「继续精读」栏的一行：最近读过的一篇 + 标题。
+///
+/// `lastReadAt` 原样透出 `reading_record.last_read_at`（SQLite `datetime('now')` 的 **UTC** 串，
+/// 形如 `2026-11-06 14:45:28`）。**不在 Rust 侧转本地日期**——本地时区口径由前端
+/// `lib/date.ts::formatReadAt` 统一处理，后端只管如实给值（与 `today` 由前端传同一条纪律）。
+#[derive(Debug, Serialize, Clone, PartialEq)]
+#[serde(rename_all = "camelCase")]
+pub struct LastReadArticle {
+    pub article_id: i64,
+    pub title: String,
+    pub last_read_at: String,
+}
+
+/// 最近读过的一篇（`reading_record` 按 `last_read_at DESC` 取 1 条）；没有任何阅读记录返回 `None`。
+///
+/// 口径三条：
+/// - **只读**：本命令不写任何表（不碰 `last_position` / `duration_sec`，位置恢复仍归 M6）；
+/// - `last_read_at IS NULL` 的行**不参与**排序（SQLite 里 NULL 在 DESC 中排最后，显式过滤更明确）；
+/// - 同刻并列时按 `article_id` 降序，保证结果稳定、可复算（不出现「每次刷不同」）。
+pub fn get_last_read_article(db: &Db) -> Result<Option<LastReadArticle>, CommandError> {
+    db.read(|conn| {
+        let row = conn
+            .query_row(
+                "SELECT r.article_id, a.title, r.last_read_at
+                   FROM reading_record r
+                   JOIN article a ON a.id = r.article_id
+                  WHERE r.last_read_at IS NOT NULL
+               ORDER BY r.last_read_at DESC, r.article_id DESC
+                  LIMIT 1",
+                [],
+                |row| {
+                    Ok(LastReadArticle {
+                        article_id: row.get(0)?,
+                        title: row.get(1)?,
+                        last_read_at: row.get(2)?,
+                    })
+                },
+            )
+            .optional()
+            .map_err(|err| CommandError::db("读取最近阅读记录", err))?;
+        Ok(row)
+    })
+}
+
 /// `complete_review` 只接受这两个结果值（`validate_result` 的唯一真源；与 DB CHECK 同口径）。
 /// `commands.rs` 的包装层不重复写这两个字面量——Rust 校验层一份，TS 侧由 `types.ts` 的 `ReviewResult` 一份。
 pub const REVIEW_RESULTS: [&str; 2] = ["done", "need_more"];
@@ -706,6 +752,89 @@ mod tests {
             })
             .expect("读 reading_record");
         assert_eq!(reading, (1, None, 0), "只写 completed（另两列保持初值）");
+
+        std::fs::remove_dir_all(&dir).ok();
+    }
+
+    /// ⑨ `get_last_read_article`（TP-修复5 / M4-U3）：空库 None / 取最近一条 / NULL 不参与 / 并列稳定 / 只读。
+    #[test]
+    fn last_read_article_takes_most_recent_and_is_read_only() {
+        let (db, dir) = temp_db("lastread");
+        let a = seed_article(&db, "a", "A 篇");
+        let b = seed_article(&db, "b", "B 篇");
+        let c = seed_article(&db, "c", "C 篇");
+
+        // 空库：None（不是空串、不是报错）——今日页据此**不渲染**「继续精读」栏
+        assert_eq!(get_last_read_article(&db).expect("空库查询"), None, "无记录返回 None");
+
+        // last_read_at 为 NULL 的行不参与（003 之前的行 / 只写过 completed 的行）
+        db.write(|tx| {
+            tx.execute(
+                "INSERT INTO reading_record (article_id, completed) VALUES (?1, 1)",
+                [a],
+            )
+            .map_err(|err| CommandError::db("插无时间行", err))?;
+            Ok(())
+        })
+        .expect("摆 NULL 行");
+        assert_eq!(get_last_read_article(&db).expect("NULL 行"), None, "last_read_at IS NULL 不算读过");
+
+        // 三篇按时间写入：c 最新
+        db.write(|tx| {
+            for (id, ts) in [(a, "2026-11-01 08:00:00"), (b, "2026-11-05 09:30:00"), (c, "2026-11-06 07:15:00")] {
+                tx.execute(
+                    "INSERT INTO reading_record (article_id, completed, last_read_at) VALUES (?1, 1, ?2)
+                     ON CONFLICT(article_id) DO UPDATE SET last_read_at = ?2",
+                    params![id, ts],
+                )
+                .map_err(|err| CommandError::db("摆 reading_record", err))?;
+            }
+            Ok(())
+        })
+        .expect("摆三条");
+
+        let top = get_last_read_article(&db).expect("查询").expect("有记录");
+        assert_eq!(top.article_id, c, "取 last_read_at 最大的一条");
+        assert_eq!(top.title, "C 篇", "带文章标题");
+        assert_eq!(top.last_read_at, "2026-11-06 07:15:00", "lastReadAt 原样透出（UTC 串，不在 Rust 侧转本地）");
+
+        // 同刻并列：按 article_id DESC 稳定取一条（可复算，不出现「每次刷不同」）
+        db.write(|tx| {
+            tx.execute("UPDATE reading_record SET last_read_at = '2026-11-06 07:15:00'", [])
+                .map_err(|err| CommandError::db("对齐时间", err))?;
+            Ok(())
+        })
+        .expect("对齐时间");
+        let tie = get_last_read_article(&db).expect("并列查询").expect("有记录");
+        assert_eq!(tie.article_id, c, "并列时按 article_id DESC，c 最大");
+
+        // 只读：本命令不写任何表，也不碰 M6 两列
+        let before: Vec<String> = db
+            .read(|conn| {
+                let mut stmt = conn
+                    .prepare("SELECT article_id || ':' || COALESCE(last_position, '-') || ':' || duration_sec FROM reading_record ORDER BY article_id")
+                    .map_err(|err| CommandError::db("快照", err))?;
+                let rows = stmt
+                    .query_map([], |row| row.get::<_, String>(0))
+                    .map_err(|err| CommandError::db("快照行", err))?;
+                rows.collect::<rusqlite::Result<Vec<String>>>()
+                    .map_err(|err| CommandError::db("收集快照", err))
+            })
+            .expect("快照");
+        let _ = get_last_read_article(&db).expect("再查一次");
+        let after: Vec<String> = db
+            .read(|conn| {
+                let mut stmt = conn
+                    .prepare("SELECT article_id || ':' || COALESCE(last_position, '-') || ':' || duration_sec FROM reading_record ORDER BY article_id")
+                    .map_err(|err| CommandError::db("快照2", err))?;
+                let rows = stmt
+                    .query_map([], |row| row.get::<_, String>(0))
+                    .map_err(|err| CommandError::db("快照行2", err))?;
+                rows.collect::<rusqlite::Result<Vec<String>>>()
+                    .map_err(|err| CommandError::db("收集快照2", err))
+            })
+            .expect("快照2");
+        assert_eq!(before, after, "get_last_read_article 只读：reading_record 一格不动");
 
         std::fs::remove_dir_all(&dir).ok();
     }

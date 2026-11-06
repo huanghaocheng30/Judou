@@ -22,21 +22,16 @@
  */
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { getDueReviews, listReviewPlans, restartReviewPlan } from "../lib/api";
+import { localToday } from "../lib/date";
 import { formatDueLabel, formatStepLabel } from "../lib/review";
 import type { DueReview, ReviewPlan } from "../lib/types";
 
 /**
- * 本地日期 `YYYY-MM-DD`。
- *
- * **为什么不用 `new Date().toISOString().slice(0, 10)`**：那是 UTC，东八区清晨会拿到昨天的日期，
- * 「今天到期」就整体错一天（02 决策 #7）。这里按本地年月日拼串，与 `next_review_at` 同口径。
+ * `localToday` 已上移到 `lib/date.ts`（TP-修复5 / M4-U3）：原先定义在本文件，但 `Reader.tsx`
+ * 与 `shell/Sidebar.tsx` 都要用，形成「页面 ← 页面 / 外壳 ← 页面」的反向依赖。
+ * 这里保留 re-export，既有 import 点不会断。
  */
-export function localToday(now: Date = new Date()): string {
-  const y = String(now.getFullYear()).padStart(4, "0");
-  const m = String(now.getMonth() + 1).padStart(2, "0");
-  const d = String(now.getDate()).padStart(2, "0");
-  return `${y}-${m}-${d}`;
-}
+export { localToday };
 
 interface Data {
   due: DueReview[];

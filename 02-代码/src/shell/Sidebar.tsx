@@ -9,7 +9,7 @@
  */
 import { useEffect, useState, type ReactElement } from "react";
 import { getDueReviews } from "../lib/api";
-import { localToday } from "../pages/Review";
+import { localToday } from "../lib/date";
 
 export interface NavItem {
   path: string;

@@ -354,3 +354,16 @@ export interface ReviewLog {
   intervalIndex: number;
   result: ReviewResult;
 }
+
+/**
+ * `get_last_read_article` 返回体（TP-修复5 / M4-U3）：今日页「继续精读」栏的一行。
+ * 无任何阅读记录时该命令返回 `null`（不是空数组、不是错误）。
+ *
+ * `lastReadAt` 是 `reading_record.last_read_at` 的**原样**值（SQLite `datetime('now')` 的 UTC 串），
+ * 显示成 `MM-DD` 请走 `lib/date.ts::formatReadAt`（它按 UTC 解析再转本地，直接切字符串会差 8 小时）。
+ */
+export interface LastReadArticle {
+  articleId: number;
+  title: string;
+  lastReadAt: string;
+}

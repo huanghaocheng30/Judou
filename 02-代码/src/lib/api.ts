@@ -18,6 +18,7 @@ import type {
   DueReview,
   FilterOptions,
   ImportReport,
+  LastReadArticle,
   LexiconEntry,
   NoteMarks,
   NoteUpsertResult,
@@ -222,4 +223,13 @@ export function listReviewLogs(articleId?: number): Promise<ReviewLog[]> {
 /** **全部**计划（含 status='done'）——「已完成」区与「重新加入复习」的数据源 */
 export function listReviewPlans(): Promise<ReviewPlan[]> {
   return invoke<ReviewPlan[]>("list_review_plans");
+}
+
+/**
+ * 最近读过的一篇（TP-修复5 / M4-U3）：`reading_record` 按 `last_read_at DESC` 取 1 条。
+ * 无记录返回 `null` —— 今日页据此**不渲染**「继续精读」栏（而不是渲染一个空卡片）。
+ * 只读命令，不碰 `last_position` / `duration_sec`（位置恢复归 M6）。
+ */
+export function getLastReadArticle(): Promise<LastReadArticle | null> {
+  return invoke<LastReadArticle | null>("get_last_read_article");
 }

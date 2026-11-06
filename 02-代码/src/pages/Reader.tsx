@@ -27,7 +27,7 @@ import { completeReview, getArticleContent, getArticleNoteMarks, getReviewPlan, 
 import { renderParagraph, renderTokens } from "../lib/render";
 import type { TokenNode } from "../lib/render";
 import type { ApiSentence, ArticleContent, NoteMarks, ReviewPlan, ReviewResult } from "../lib/types";
-import { localToday } from "./Review";
+import { localToday } from "../lib/date";
 import { useReturn, useRoute } from "../shell/routes";
 
 /** 点回原句的高亮停留时长（AC5：2 秒后自动消退） */

@@ -74,7 +74,9 @@ pub fn run() {
             commands::complete_review,
             commands::restart_review_plan,
             commands::list_review_logs,
-            commands::list_review_plans
+            commands::list_review_plans,
+            // TP-修复5 · M4-U3：今日页「继续精读」栏（只读；reading_record 按 last_read_at DESC 取 1）
+            commands::get_last_read_article
         ])
         .run(tauri::generate_context!())
         .expect("启动句读失败");
