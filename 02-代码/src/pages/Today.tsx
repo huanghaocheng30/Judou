@@ -28,6 +28,7 @@ import { getDueReviews, getLastReadArticle } from "../lib/api";
 import { formatReadAt, localToday } from "../lib/date";
 import { formatDueLabel, formatStepLabel } from "../lib/review";
 import type { DueReview, LastReadArticle } from "../lib/types";
+import { Onboarding } from "../components/Onboarding";
 
 interface TodayData {
   lastRead: LastReadArticle | null;
@@ -85,6 +86,8 @@ export function Today() {
   if (lastRead === null && due.length === 0) {
     return (
       <section className="today" data-today-page data-today-today={today}>
+        {/* 第五轮：入门任务清单（未完成时置顶显示；已完成/不再提示则整块不渲染） */}
+        <Onboarding variant="today" />
         <div className="empty" data-today-empty="new">
           <p>还没有开始读。</p>
           <p className="today-hint">
@@ -102,6 +105,8 @@ export function Today() {
 
   return (
     <section className="today" data-today-page data-today-today={today}>
+      {/* 第五轮：入门任务清单（未完成时置顶；可折叠；「不再提示」后不再出现） */}
+      <Onboarding variant="today" />
       {/* ① 继续精读：**无记录时整栏不渲染**（AC-R7 的「不占位」） */}
       {lastRead !== null ? (
         <section

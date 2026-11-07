@@ -256,6 +256,14 @@ fn validate_setting(key: &str, value: &str) -> Result<(), CommandError> {
                 Err(CommandError::invalid_setting_value(key, "只接受 0 / 1"))
             }
         }
+        // 第五轮：入门任务清单的「已读/不再提示」标记（0 = 重新开始，1 = 收起）
+        "onboarding_done" => {
+            if matches!(value, "0" | "1") {
+                Ok(())
+            } else {
+                Err(CommandError::invalid_setting_value(key, "只接受 0 / 1"))
+            }
+        }
         "review_intervals" => {
             let parsed: Vec<i64> = serde_json::from_str(value)
                 .map_err(|_| CommandError::invalid_setting_value(key, "必须是 JSON 整数数组，例如 [1,3,7,14]"))?;

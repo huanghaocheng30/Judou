@@ -2656,3 +2656,105 @@ button {
   margin-bottom: 10px;
   cursor: pointer;
 }
+
+/* ── 入门任务清单（M6 第五轮：替代原三屏说明卡）── */
+.onboarding {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper-2);
+  padding: 12px 14px;
+  margin: 0 0 14px;
+}
+
+.onboarding-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.onboarding-title {
+  margin: 0;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.onboarding-head-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.onboarding-hint {
+  margin: 6px 0 10px;
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.onboarding-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.onboarding-item {
+  display: grid;
+  grid-template-columns: 18px 16px 1fr auto;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  font-size: 13px;
+}
+
+.onboarding-item.done {
+  background: var(--green-soft);
+  border-color: var(--green);
+}
+
+.onboarding-no {
+  color: var(--ink-3);
+  font-size: 12px;
+}
+
+.onboarding-mark {
+  color: var(--ink-3);
+}
+
+.onboarding-item.done .onboarding-mark {
+  color: var(--green);
+}
+
+.onboarding-text {
+  display: grid;
+  gap: 2px;
+}
+
+.onboarding-task {
+  color: var(--ink);
+}
+
+.onboarding-item.done .onboarding-task {
+  text-decoration: line-through;
+  color: var(--ink-2);
+}
+
+.onboarding-task-hint {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.onboarding-status {
+  font-size: 12px;
+  color: var(--green);
+}
+
+.onboarding-loading,
+.onboarding-error {
+  margin: 0;
+  font-size: 12px;
+  color: var(--ink-3);
+}

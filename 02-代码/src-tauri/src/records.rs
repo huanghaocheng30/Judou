@@ -42,6 +42,8 @@ pub struct StatsView {
     pub vocab_count: i64,
     /// `review_log` 条数
     pub review_count: i64,
+    /// **用户自己导入**的篇数（`article.visibility = 'user'`）——入门任务第 ③ 项据此判定
+    pub user_article_count: i64,
     /// 连续阅读天数（AC3）
     pub streak: u32,
 }
@@ -131,6 +133,10 @@ pub fn get_stats(db: &Db, today: &str) -> Result<StatsView, CommandError> {
         let review_count: i64 = conn
             .query_row("SELECT COUNT(*) FROM review_log", [], |row| row.get(0))
             .map_err(|err| CommandError::db("统计复习", err))?;
+        // 第五轮：入门任务第 ③ 项要「导入过自己的文章」——按 visibility 直数，不改表不加命令
+        let user_article_count: i64 = conn
+            .query_row("SELECT COUNT(*) FROM article WHERE visibility = 'user'", [], |row| row.get(0))
+            .map_err(|err| CommandError::db("统计用户导入篇数", err))?;
 
         let mut stmt = conn
             .prepare("SELECT DISTINCT substr(last_read_at, 1, 10) FROM reading_record WHERE last_read_at IS NOT NULL")
@@ -148,6 +154,7 @@ pub fn get_stats(db: &Db, today: &str) -> Result<StatsView, CommandError> {
             note_count,
             vocab_count,
             review_count,
+            user_article_count,
             streak: compute_streak(&dates, today),
         })
     })
@@ -312,5 +319,28 @@ mod tests {
         assert_eq!(list.len(), 1);
         assert_eq!(list[0].title, "T1");
         assert!(list[0].completed);
+    }
+
+    /// 入门任务清单第 ③ 项：`get_stats` 必须给出 `visibility='user'` 的篇数
+    /// （复用既有统计命令，不新增命令、不改表）。
+    #[test]
+    fn stats_count_user_imported_articles_separately() {
+        let db = crate::db::Db::open_in_memory_for_tests().expect("内存库应成功");
+        db.write(|tx| {
+            for (key, visibility) in [("sys-1", "system"), ("usr-1", "user"), ("usr-2", "user")] {
+                tx.execute(
+                    "INSERT INTO article (source_key, title, visibility) VALUES (?1, ?2, ?3)",
+                    rusqlite::params![key, format!("title-{key}"), visibility],
+                )
+                .map_err(|err| CommandError::db("摆 article", err))?;
+            }
+            Ok(())
+        })
+        .expect("摆数据");
+
+        let stats = get_stats(&db, "2026-11-07").expect("统计应成功");
+        assert_eq!(stats.user_article_count, 2, "只数 visibility='user' 的两篇");
+        // 其余六项口径不变（用户导入篇不进「已读篇数」）
+        assert_eq!(stats.article_count, 0, "没有 reading_record 就仍是 0");
     }
 }

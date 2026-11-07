@@ -1,9 +1,10 @@
 /**
- * 设置页（M6 D5 / AC8·AC9·AC10·AC11）：
+ * 设置页（M6 D5 / AC8·AC9·AC10 · 第五轮 ONB）：
  * ① 主题三档（写 app_setting.theme，立即生效）② 复习间隔**只读**展示 `1/3/7/14`
- * ③ 备份 / 恢复（恢复前自动备份，坏文件不破坏现库）④ 重新查看引导 ⑤ 关于四项。
+ * ③ 备份 / 恢复（恢复前自动备份，坏文件不破坏现库）④ 入门任务清单（可重置）⑤ 关于四项。
  *
  * 全部经 src/lib/api.ts；主题状态经 ThemeProvider（不在页面里另存一份）。
+ * 第五轮变更：原「重新查看引导」三屏卡（说明式，无引导作用）删除，改为可勾选的入门任务清单。
  */
 import { useEffect, useState } from "react";
 import {
@@ -12,16 +13,13 @@ import {
   exportVocabSheet,
   ping,
   restoreDb,
-  setSetting,
 } from "../lib/api";
 import { THEME_LABELS, THEME_SETTINGS, type ThemeSetting } from "../lib/theme";
+import { Onboarding } from "../components/Onboarding";
 import { useTheme } from "../shell/ThemeProvider";
 
 /** 复习间隔默认档（docs C2 §4.15 review_intervals 默认 [1,3,7,14]）——本页**只读** */
 const DEFAULT_INTERVALS = [1, 3, 7, 14];
-
-/** 与 Guide.tsx 共用的事件名（设置页只是「重新打开引导」的触发器） */
-const SHOW_GUIDE_EVENT = "judou:show-guide";
 
 /** PDF 词表三模式（互斥单选，对齐后端 `SheetMode`） */
 type SheetMode = "a4" | "zh" | "en";
@@ -131,15 +129,6 @@ export function Settings() {
       })
       .catch((err: unknown) => setNote(`导出失败：${err instanceof Error ? err.message : String(err)}`))
       .finally(() => setBusy("none"));
-  };
-
-  const reopenGuide = () => {
-    setSetting("guide_shown", "0")
-      .then(() => {
-        window.dispatchEvent(new CustomEvent(SHOW_GUIDE_EVENT));
-        setNote("引导已重新打开");
-      })
-      .catch((err: unknown) => setNote(`打开引导失败：${err instanceof Error ? err.message : String(err)}`));
   };
 
   return (
@@ -263,12 +252,12 @@ export function Settings() {
         )}
       </section>
 
-      <section className="card" aria-labelledby="guide-title">
-        <h2 id="guide-title">引导</h2>
-        <p className="card-hint">忘了怎么用？可以再走一遍三屏说明。</p>
-        <button type="button" className="btn" data-reopen-guide onClick={reopenGuide}>
-          重新查看引导
-        </button>
+      <section className="card" aria-labelledby="onboarding-title" data-onboarding-section>
+        <h2 id="onboarding-title">入门任务</h2>
+        <p className="card-hint">
+          三项任务做完全自动打勾（按你的真实使用判定）。想再走一遍就点「重新开始入门任务」。
+        </p>
+        <Onboarding variant="settings" />
       </section>
 
       <section className="card about" aria-labelledby="about-title" data-about>

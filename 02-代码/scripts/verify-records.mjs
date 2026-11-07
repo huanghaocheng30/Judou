@@ -6,7 +6,7 @@
  * 命令注册、SQL 聚合口径、自包含 HTML 的无外链约束、主题持久键、版本一致性。
  * 这是纯 node 脚本：不连库、不起前端、不改任何文件。
  */
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
@@ -39,7 +39,8 @@ const api = read("src/lib/api.ts");
 const types = read("src/lib/types.ts");
 const recordsPage = read("src/pages/Records.tsx");
 const settingsPage = read("src/pages/Settings.tsx");
-const guidePage = read("src/components/Guide.tsx");
+const onboarding = read("src/components/Onboarding.tsx");
+const today = read("src/pages/Today.tsx");
 const app = read("src/App.tsx");
 const reader = read("src/pages/Reader.tsx");
 
@@ -134,7 +135,6 @@ check("AC8 主题三档有 data-theme-option，持久键 theme 走既有命令",
     assert(/THEME_SETTINGS: readonly ThemeSetting\[\] = \["light", "dark", "system"\]/.test(read("src/lib/theme.ts")), "三档定义变了");
     void tier;
   }
-  assert(/setSetting\("guide_shown", "0"\)/.test(settingsPage), "重新查看引导必须写 guide_shown");
   return "三档 + 持久";
 });
 
@@ -158,16 +158,56 @@ check("AC10 关于四项齐全且版本来自 package.json", () => {
   return `三处版本一致 ${pkg.version}`;
 });
 
-check("AC11 引导三屏 + 跳过写 guide_shown=1 + 设置页可重开", () => {
-  assert(/const SCREENS: Screen\[\] = \[/.test(guidePage), "缺三屏定义");
-  const screens = [...guidePage.matchAll(/key: "(sentence|word|import)"/g)].length;
-  assert(screens === 3, `应三屏，实测 ${screens}`);
-  assert(/setSetting\("guide_shown", "1"\)/.test(guidePage), "跳过/完成必须写 guide_shown=1");
-  assert(/data-guide-skip/.test(guidePage), "缺跳过按钮");
-  assert(/<Guide \/>/.test(app), "App 未挂载 Guide");
-  assert(/data-reopen-guide/.test(settingsPage), "设置页缺「重新查看引导」");
-  assert(/judou:show-guide/.test(guidePage) && /judou:show-guide/.test(settingsPage), "重开事件名不一致");
-  return "三屏 + 持久 + 重开";
+// ── 第五轮：入门任务清单（替代原三屏说明卡）─────────────────
+check("ONB-1 三项判定口径：页面读数 = get_stats 字段 = SQL 口径", () => {
+  // ③ 必须有 visibility='user' 的计数（复用既有统计命令，不新增命令）
+  assert(/SELECT COUNT\(\*\) FROM article WHERE visibility = 'user'/.test(records), "get_stats 缺 visibility='user' 计数 SQL");
+  assert(/user_article_count/.test(records), "StatsView 缺 user_article_count 字段");
+  assert(/userArticleCount: number/.test(types), "types.ts 缺 userArticleCount");
+  // ①② 复用既有两项
+  assert(/read: stats\.articleCount >= 1/.test(onboarding), "① 必须按 reading_record 行数判定");
+  assert(/vocab: stats\.vocabCount >= 1/.test(onboarding), "② 必须按 vocab_entry 行数判定");
+  assert(/import: stats\.userArticleCount >= 1/.test(onboarding), "③ 必须按 visibility='user' 篇数判定");
+  assert(/getStats\(localToday\(\)\)/.test(onboarding), "判定必须取真库统计（不得用本地自报字段）");
+  return "三项与 SQL 对齐";
+});
+
+check("ONB-2 钩子齐全：清单根 / 三项 / 状态 / 不再提示 / 重新开始", () => {
+  for (const hook of [
+    "data-onboarding ",
+    "data-onboarding-variant",
+    'data-onboarding-item={task.key}',
+    "data-onboarding-state={state}",
+    "data-onboarding-dismiss",
+    "data-onboarding-reset",
+  ]) {
+    assert(onboarding.includes(hook), `缺挂点 ${hook.trim()}`);
+  }
+  const states = [...onboarding.matchAll(/"todo"|"done"/g)].length;
+  assert(states >= 2, "状态枚举必须含 todo / done");
+  return "6 个挂点 + 两态";
+});
+
+check("ONB-3 onboarding_done 写入 / 重置生效（含后端白名单）", () => {
+  assert(/const ONBOARDING_KEY = "onboarding_done"/.test(onboarding), "缺 onboarding_done 键常量");
+  assert(/setSetting\(ONBOARDING_KEY, "1"\)/.test(onboarding), "全完成/不再提示必须写 onboarding_done=1");
+  assert(/setSetting\(ONBOARDING_KEY, "0"\)/.test(onboarding), "重新开始必须写 onboarding_done=0");
+  assert(/"onboarding_done" =>/.test(commands), "set_setting 白名单缺 onboarding_done");
+  assert(/matches!\(value, "0" \| "1"\)/.test(commands), "onboarding_done 只接受 0 / 1");
+  assert(/stats_count_user_imported_articles_separately/.test(records), "缺 user 篇数单测");
+  return "写 1 / 写 0 / 白名单";
+});
+
+check("ONB-4 旧三屏说明卡已删除，今日页 + 设置页两处挂载", () => {
+  assert(!existsSync(join(root, "src/components/Guide.tsx")), "Guide.tsx 必须删除（三屏卡无引导作用）");
+  assert(!/from "\.\/components\/Guide"/.test(app), "App.tsx 仍 import Guide");
+  assert(!/<Guide \/>/.test(app), "App.tsx 仍挂载 Guide");
+  assert(!/data-reopen-guide/.test(settingsPage), "设置页仍残留「重新查看引导」");
+  assert(!/judou:show-guide/.test(settingsPage), "设置页仍残留引导事件");
+  assert(/<Onboarding variant="today" \/>/.test(today), "今日页顶部未挂入门清单");
+  assert(/<Onboarding variant="settings" \/>/.test(settingsPage), "设置页未挂入门清单");
+  assert(/data-onboarding-section/.test(settingsPage), "设置页缺入门任务分区");
+  return "删除三屏 + 两处挂载";
 });
 
 // ── AC4 / AC13：埋点与命令注册 ────────────────────────────

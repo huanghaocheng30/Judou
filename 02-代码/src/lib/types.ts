@@ -32,6 +32,8 @@ export interface StatsView {
   noteCount: number;
   vocabCount: number;
   reviewCount: number;
+  /** 用户自己导入的篇数（`article.visibility='user'`）——入门任务第 ③ 项据此判定 */
+  userArticleCount: number;
   streak: number;
 }
 
