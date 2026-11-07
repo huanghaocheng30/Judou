@@ -2799,6 +2799,56 @@ mod tests {
         assert!(prompt.text.contains("不需要"), "档 A 必须声明不需要 AI 产出");
     }
 
+    /// AC2：档 A（`mode=plain`）**不要求任何解析** → `matched` 为空也必须能入库
+    #[test]
+    fn plain_mode_commits_with_empty_matched() {
+        let text = "Reading builds a habit over time. Practice makes the habit stronger every single day.";
+        let draft = draft_with(text, AiSection::Careful, ImportMode::Plain, None);
+        let matched = empty_matched_for_test(AiSection::Careful);
+
+        let nanos = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .expect("系统时间异常")
+            .as_nanos();
+        let dir = std::env::temp_dir().join(format!("judou-plain-mode-{nanos}"));
+        std::fs::create_dir_all(&dir).expect("建临时目录失败");
+        let db = Db::open(dir.join("judou.db")).expect("迁移应成功");
+
+        let report = commit_ai_import(&db, &draft, &matched, &AiCommitMeta::default())
+            .expect("档 A 的空 matched 必须能入库（否则「只要原文」这条路径不通）");
+        assert_eq!(report.analysis_written, 0);
+        assert_eq!(report.questions_written, 0);
+        let counts = article_counts(&db, report.article_id).expect("读数应成功");
+        assert_eq!(counts.sentences, 2, "原文结构照常入库（2 句）");
+
+        // 反证：档 B/C 不允许空 matched（同一份空包必须被拒）
+        let strict = draft_with(text, AiSection::Careful, ImportMode::Analysis, None);
+        let err = commit_ai_import(&db, &strict, &matched, &AiCommitMeta::default()).unwrap_err();
+        assert_eq!(err.code, "AI_NO_MATCH", "档 B 空 matched 必须拒收");
+
+        std::fs::remove_dir_all(&dir).ok();
+    }
+
+    fn empty_matched_for_test(section: AiSection) -> AiMatched {
+        AiMatched {
+            section,
+            matched: Vec::new(),
+            unmatched: Vec::new(),
+            unmatched_lexicon: Vec::new(),
+            questions: Vec::new(),
+            blanks: Vec::new(),
+            lexicon: Vec::new(),
+            coverage: AiCoverage {
+                analysis: "-".to_string(),
+                questions: "-".to_string(),
+                blanks: "-".to_string(),
+                lexicon: 0,
+            },
+            sno_fixed: 0,
+            missing_answer: 0,
+        }
+    }
+
     fn full_draft() -> AiDraft {
         let text = "Reading builds a habit over time. Practice makes it stronger every day.";
         let questions = "46. What is the main idea?\nA. Habit\nB. Practice\nC. Reading\nD. Time\n\
