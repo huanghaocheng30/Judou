@@ -2,7 +2,7 @@
 
 > **给内容生成 Agent 的总入口。** 你要产出的是能被「句读」App 直接导入的 JSON 内容包文章文件。
 > 本目录自包含：格式规范 + 质量要求 + 完整示例 + **可运行的自检脚本**。
-> 版本：2026-11-06 ｜ 对应项目 schema `schemaVersion=1`、`001_init.sql`（19 表）
+> 版本：2026-11-07（v2：补齐三种题型范例——新增 `examples/范例-长篇阅读-long.json`；long 型补 5 条专属要求，见 01 §七 / 03 §六）｜ 对应项目 schema `schemaVersion=1`、`001_init.sql`（19 表）
 
 ---
 
@@ -37,7 +37,7 @@
 # 2) 看真实范例（已通过自检的完整文件）
 examples/范例-仔细阅读-careful.json     # 200 KB，5 段 17 句 386 词 5 题 127 词条
 examples/范例-选词填空-cloze.json        # 153 KB，5 段 9 句 271 词 10 题 88 词条
-（长篇阅读 long 型结构 = careful 型 + questions.options 为空 + answer 是段落字母，见 03 §四）
+examples/范例-长篇阅读-long.json         # 557 KB，12 段 42 句 1193 词 10 题 375 词条（信息匹配，无选项）
 
 # 3) 生成你的 JSON
 
@@ -149,7 +149,7 @@ node 04-self-check.mjs ./你的输出目录/     # 也可以整目录检查
 | `cet4-2023-12-set2Long.json` | `questions[2].answer` 为空（这道题没有答案） |
 | `cet4-2023-12-set3Cloze.json` | `blanks.26`~`blanks.35` 全部缺 `distractors`（干扰项分析，选词填空的解析缺一半） |
 
-**本规范的例子只取通过的 9 篇**（`examples/` 下两个文件都来自通过组）。
+**本规范的例子只取通过的 9 篇**——`examples/` 下三个文件（careful / cloze / long 各一份）都来自通过组。
 
 ---
 
