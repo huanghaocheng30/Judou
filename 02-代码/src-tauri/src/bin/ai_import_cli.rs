@@ -221,7 +221,7 @@ fn patch_case(args: &Args) -> Value {
         Ok(matched) => matched,
         Err(err) => return failure(err),
     };
-    match patch_ai_analysis(&db, article_id, &draft, &matched) {
+    match patch_ai_analysis(&db, article_id, Some(&draft), &matched) {
         Ok(report) => json!({
             "ok": true,
             "articleId": report.article_id,

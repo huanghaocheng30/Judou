@@ -1191,14 +1191,17 @@ pub fn commit_ai_import(
 /// ⑤ 后补解析：只写解析四表，不动 `paragraph`/`sentence`/`token`
 /// M5c（05 §十一之三）：签名扩为 `(article_id, draft, matched)`——档 C 的逐字比对与
 /// `answer_source` 判定都在 `match_payload` 里按同一个 `draft` 做完，这里只转手。
+///
+/// M5c 回退兼容：`draft` 改为 **可选**。M5b 版导入页只传 `matched`，此时后端跳过
+/// `answer_source` 写入（列保持默认 `'none'`）与档 C 逐字比对，其余行为不变。
 #[tauri::command]
 pub fn patch_ai_analysis(
     db: State<'_, Db>,
     article_id: i64,
-    draft: ai_import::AiDraft,
+    draft: Option<ai_import::AiDraft>,
     matched: ai_import::AiMatched,
 ) -> Result<ai_import::AiPatchReport, CommandError> {
-    ai_import::patch_ai_analysis(&db, article_id, &draft, &matched)
+    ai_import::patch_ai_analysis(&db, article_id, draft.as_ref(), &matched)
 }
 
 /// ⑥ 覆盖率回读（补解析入口的初值，不是 0）

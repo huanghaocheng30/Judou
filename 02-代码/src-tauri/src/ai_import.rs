@@ -1574,7 +1574,7 @@ pub fn commit_ai_import(
             params![draft.section.as_str(), article_id],
         )
         .map_err(|err| CommandError::db("写题型", err))?;
-        write_analysis_rows(tx, article_id, matched)
+        write_analysis_rows(tx, article_id, matched, true)
     });
 
     let counts = match written {
@@ -1606,36 +1606,45 @@ pub fn commit_ai_import(
 /// 后补解析：**只写** `sentence_analysis`/`question`/`lexicon`/`blank` 四张解析表，
 /// 不动 `paragraph`/`sentence`/`token`（05 约束 6：笔记与生词引用不失效）。
 ///
-/// M5c（05 §十一之三）：签名扩为 `(article_id, draft, matched)`——档 C 的逐字比对与
-/// `answer_source` 判定在 `match_payload` 里已经按同一个 `draft` 做完，这里再用 `draft.section`
-/// 复核题型一致（拿错模板的 matched 写进来会被挡下），并把题型回写到 `article.section_type`。
+/// M5c（05 §十一之三）：`draft` 为 `Some` 时——档 C 的逐字比对与 `answer_source` 判定在
+/// `match_payload` 里已经按同一个 `draft` 做完，这里再用 `draft.section` 复核题型一致
+/// （拿错模板的 matched 写进来会被挡下），并把题型回写到 `article.section_type`。
+///
+/// M5c 回退兼容：`draft` 为 `None`（M5b 版导入页只传 `matched`）时**跳过**题型复核、
+/// 不回写 `article.section_type`、且不写 `question.answer_source`（列保持默认 `'none'`），
+/// 其余行为不变。
 pub fn patch_ai_analysis(
     db: &Db,
     article_id: i64,
-    draft: &AiDraft,
+    draft: Option<&AiDraft>,
     matched: &AiMatched,
 ) -> Result<AiPatchReport, CommandError> {
     ensure_article(db, article_id)?;
-    if matched.section != draft.section {
-        return Err(type_mismatch(
-            format!(
-                "题型不一致：本次模板是「{}」（{}），待写入的解析是「{}」（{}）。请用同一题型重新匹配后再补解析。",
-                draft.section.label(),
-                draft.section.as_str(),
-                matched.section.label(),
-                matched.section.as_str()
-            ),
-            "section",
-        ));
-    }
-    let counts = db.write(|tx| {
-        tx.execute(
-            "UPDATE article SET section_type = ?1, updated_at = datetime('now') WHERE id = ?2",
-            params![draft.section.as_str(), article_id],
-        )
-        .map_err(|err| CommandError::db("写题型", err))?;
-        write_analysis_rows(tx, article_id, matched)
-    })?;
+    let counts = match draft {
+        Some(draft) => {
+            if matched.section != draft.section {
+                return Err(type_mismatch(
+                    format!(
+                        "题型不一致：本次模板是「{}」（{}），待写入的解析是「{}」（{}）。请用同一题型重新匹配后再补解析。",
+                        draft.section.label(),
+                        draft.section.as_str(),
+                        matched.section.label(),
+                        matched.section.as_str()
+                    ),
+                    "section",
+                ));
+            }
+            db.write(|tx| {
+                tx.execute(
+                    "UPDATE article SET section_type = ?1, updated_at = datetime('now') WHERE id = ?2",
+                    params![draft.section.as_str(), article_id],
+                )
+                .map_err(|err| CommandError::db("写题型", err))?;
+                write_analysis_rows(tx, article_id, matched, true)
+            })?
+        }
+        None => db.write(|tx| write_analysis_rows(tx, article_id, matched, false))?,
+    };
     let stats = get_ai_import_stats(db, article_id)?;
     Ok(AiPatchReport {
         article_id,
@@ -1770,10 +1779,14 @@ pub fn replace_article_questions(
 }
 
 /// 四张解析表的唯一写入实现（commit 与 patch 共用；命令层与 bin 都不得复制）
+///
+/// `write_answer_source`：M5c 回退兼容开关。`false` 时 `question.answer_source` 不进 SQL，
+/// 新行取列默认 `'none'`、冲突更新时保留库中原值（对应「调用方没给 draft」的 M5b 路径）。
 fn write_analysis_rows(
     tx: &rusqlite::Transaction<'_>,
     article_id: i64,
     matched: &AiMatched,
+    write_answer_source: bool,
 ) -> Result<WriteCounts, CommandError> {
     // (paragraph.idx, sentence.idx) → sentence.id
     let mut sentence_ids: HashMap<(i64, i64), i64> = HashMap::new();
@@ -1843,8 +1856,9 @@ fn write_analysis_rows(
     // ② question：(article_id, idx) 唯一；`idx` 写**试卷题号**（payload `questions[].no`，
     //    与 `blank.blank_no` 同源，对齐既有 `import.rs` 的 `question.no` 约定），重复补解析按题号修订
     //    M5c AC8：commit 与 patch 共用这一处写入，所以两条路径的 `answer_source` 天然一致。
+    //    M5c 回退兼容：`write_answer_source=false`（调用方未给 draft）时该列不进 SQL。
     let mut questions = 0i64;
-    {
+    if write_answer_source {
         let mut stmt = tx
             .prepare(
                 "INSERT INTO question (article_id, idx, stem, options_json, answer, explanation, answer_source)
@@ -1868,6 +1882,30 @@ fn write_analysis_rows(
                 question.answer_source.as_str(),
             ])
             .map_err(|err| CommandError::db("写入题目", err))?;
+            questions += 1;
+        }
+    } else {
+        let mut stmt = tx
+            .prepare(
+                "INSERT INTO question (article_id, idx, stem, options_json, answer, explanation)
+                 VALUES (?1, ?2, ?3, ?4, ?5, ?6)
+                 ON CONFLICT(article_id, idx) DO UPDATE SET
+                   stem = excluded.stem,
+                   options_json = excluded.options_json,
+                   answer = excluded.answer,
+                   explanation = excluded.explanation",
+            )
+            .map_err(|err| CommandError::db("准备题目写入（无 draft）", err))?;
+        for question in &matched.questions {
+            stmt.execute(params![
+                article_id,
+                question.no,
+                question.stem.as_str(),
+                serde_json::to_string(&question.options).unwrap_or_else(|_| "[]".to_string()),
+                question.answer.as_deref(),
+                question.explanation.as_deref(),
+            ])
+            .map_err(|err| CommandError::db("写入题目（无 draft）", err))?;
             questions += 1;
         }
     }
@@ -2638,7 +2676,7 @@ mod tests {
         assert_eq!(before.sentences, 2);
 
         // 二次提交同一批 → 解析行数不变、词条不新增（INSERT OR IGNORE）
-        let again = patch_ai_analysis(&db, report.article_id, &draft, &matched).expect("补解析应成功");
+        let again = patch_ai_analysis(&db, report.article_id, Some(&draft), &matched).expect("补解析应成功");
         assert_eq!(again.analysis_written, 2);
         assert_eq!(again.lexicon_inserted, 0, "同批词条二次提交不得新增行");
         let after = article_counts(&db, report.article_id).expect("读数应成功");
@@ -2966,12 +3004,80 @@ mod tests {
         };
         assert_eq!(read_sources(report.article_id), vec!["ai", "user"], "commit 路径必须写三值");
 
-        patch_ai_analysis(&db, report.article_id, &draft, &matched).expect("补解析应成功");
+        patch_ai_analysis(&db, report.article_id, Some(&draft), &matched).expect("补解析应成功");
         assert_eq!(
             read_sources(report.article_id),
             vec!["ai", "user"],
             "patch 路径同样必须写 answer_source"
         );
+
+        std::fs::remove_dir_all(&dir).ok();
+    }
+
+    /// M5c 回退兼容：`draft = None`（M5b 版导入页只传 matched）时
+    /// **跳过** `answer_source` 写入（保持列默认 `'none'`）与档 C 逐字比对，
+    /// 且不做题型复核 / 不回写 `article.section_type`，其余行为不变。
+    #[test]
+    fn patch_without_draft_skips_answer_source_and_section_check() {
+        let draft = full_draft();
+        let payload = payload_of(json!({
+            "section": "careful",
+            "sentences": [{"quote": "Reading builds a habit over time.", "analysis": analysis("")}],
+            "questions": [
+                {"no": 46, "stem": "What is the main idea?", "options": four_options(["Habit", "Practice", "Reading", "Time"]), "answer": "B"},
+                {"no": 47, "stem": "Why practice?", "options": four_options(["grows", "stops", "hides", "waits"]), "answer": "B"}
+            ]
+        }));
+        let matched = match_payload(&draft, &payload).expect("匹配应成功");
+
+        let nanos = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .expect("系统时间异常")
+            .as_nanos();
+        let dir = std::env::temp_dir().join(format!("judou-patch-no-draft-{nanos}"));
+        std::fs::create_dir_all(&dir).expect("建临时目录失败");
+        let db = Db::open(dir.join("judou.db")).expect("迁移应成功");
+
+        let report = commit_ai_import(&db, &draft, &matched, &AiCommitMeta::default()).expect("入库应成功");
+        // 把库恢复成「列默认」状态：answer_source 回 'none'，题型改成与本次 matched 不一致
+        db.write(|tx| {
+            tx.execute("UPDATE question SET answer_source = 'none' WHERE article_id = ?1", [report.article_id])
+                .map_err(|err| CommandError::db("重置答案来源", err))?;
+            tx.execute("UPDATE article SET section_type = 'long' WHERE id = ?1", [report.article_id])
+                .map(|_| ())
+                .map_err(|err| CommandError::db("改题型", err))
+        })
+        .expect("重置库状态应成功");
+
+        // 无 draft：不得因 matched.section != article.section_type 而拒收
+        patch_ai_analysis(&db, report.article_id, None, &matched).expect("无 draft 的补解析不得拒收");
+
+        let sources: Vec<String> = db
+            .read(|conn| {
+                let mut stmt = conn
+                    .prepare("SELECT answer_source FROM question WHERE article_id = ?1 ORDER BY idx")
+                    .map_err(|err| CommandError::db("准备答案来源查询", err))?;
+                let rows = stmt
+                    .query_map([report.article_id], |row| row.get::<_, String>(0))
+                    .map_err(|err| CommandError::db("查询答案来源", err))?;
+                let mut out = Vec::new();
+                for row in rows {
+                    out.push(row.map_err(|err| CommandError::db("读取答案来源", err))?);
+                }
+                Ok(out)
+            })
+            .expect("答案来源回读应成功");
+        assert_eq!(sources, vec!["none", "none"], "无 draft 时不得写 answer_source（保持列默认 'none'）");
+
+        let section_type: String = db
+            .read(|conn| {
+                conn.query_row("SELECT section_type FROM article WHERE id = ?1", [report.article_id], |row| {
+                    row.get::<_, String>(0)
+                })
+                .map_err(|err| CommandError::db("读题型", err))
+            })
+            .expect("题型回读应成功");
+        assert_eq!(section_type, "long", "无 draft 时不回写 article.section_type");
 
         std::fs::remove_dir_all(&dir).ok();
     }

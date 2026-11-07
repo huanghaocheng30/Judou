@@ -351,9 +351,20 @@ export function commitAiImport(
   return invoke<AiCommitReport>("commit_ai_import", { draft, matched, meta });
 }
 
-/** ⑤ 后补解析：只写解析四表，**不动** `paragraph`/`sentence`/`token`（笔记与生词引用不失效） */
-export function patchAiAnalysis(articleId: number, draft: AiDraft, matched: AiMatched): Promise<AiPatchReport> {
-  return invoke<AiPatchReport>("patch_ai_analysis", { articleId, draft, matched });
+/**
+ * ⑤ 后补解析：只写解析四表，**不动** `paragraph`/`sentence`/`token`（笔记与生词引用不失效）
+ *
+ * 第三参 `draft` 可选（M5c 回退兼容）：M5b 版导入页只传 `matched`，后端收到 `None`
+ * 时跳过 `answer_source` 写入与档 C 逐字比对（列保持默认 `'none'`），其余行为不变。
+ */
+export function patchAiAnalysis(
+  articleId: number,
+  matched: AiMatched,
+  draft?: AiDraft,
+): Promise<AiPatchReport> {
+  const args: Record<string, unknown> = { articleId, matched };
+  if (draft) args.draft = draft;
+  return invoke<AiPatchReport>("patch_ai_analysis", args);
 }
 
 /** ⑥ 覆盖率回读（补解析入口的初值不是 0） */
