@@ -21,6 +21,8 @@ pub mod export;
 mod pack;
 pub mod records;
 mod review;
+// M7 D0：更新检查（离线优先，不引网络依赖）。单测在文件内，只服务 `check_update` 一个命令。
+mod update;
 mod vocab;
 
 use tauri::{AppHandle, Manager};
@@ -113,7 +115,10 @@ pub fn run() {
             // M6 第四轮：PDF 词表（三模式 + 乱序，返回 HTML 由前端隐藏 iframe 打印）
             commands::export_vocab_sheet,
             commands::backup_db,
-            commands::restore_db
+            commands::restore_db,
+            // M7 · 发布链路（1 个；实现与单测见 update.rs，薄包装在 commands.rs）
+            // 离线优先：读本地 latest.json 比版本，失败降级为 available:false，不抛错
+            commands::check_update
         ])
         .run(tauri::generate_context!())
         .expect("启动句读失败");

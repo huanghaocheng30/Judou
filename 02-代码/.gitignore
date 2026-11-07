@@ -6,3 +6,13 @@ src-tauri/gen/
 .env.*
 *.log
 .DS_Store
+
+# ───── 发布链路（M7 / AC5）：签名私钥与安装包产物一律不入库 ─────
+# tauri 官方 updater 的私钥文件默认名 tauri-signing.key / tauri-signing.pem
+*.key
+*.pem
+tauri-signing*
+.tauri-keys/
+# 本地生成的更新清单与打包产物（每次发版重生成，不是源码）
+latest.json
+src-tauri/target/release/bundle/

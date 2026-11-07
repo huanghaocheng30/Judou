@@ -8,6 +8,7 @@ use std::collections::HashMap;
 use rusqlite::types::Value;
 use rusqlite::params_from_iter;
 use serde::{Deserialize, Serialize};
+use tauri::Manager;
 use tauri::State;
 
 use crate::ai_import;
@@ -19,6 +20,7 @@ use crate::import_user;
 use crate::pack::{self, PackLabels, PackPath, StartupErrorInfo, StartupState};
 use crate::records;
 use crate::review;
+use crate::update::{self, UpdateResult};
 use crate::vocab;
 
 /// 统一错误结构（docs D1 §7.2）：`code` / `message` / `path`，camelCase 边界。
@@ -223,6 +225,20 @@ pub fn ping() -> PingResult {
         pong: true,
         app_version: env!("CARGO_PKG_VERSION").to_string(),
     }
+}
+
+// ─────────────── M7 D1 · 更新检查（1 个薄命令；实现与单测全在 `update.rs`） ───────────────
+
+/// 检查更新（**离线优先**，02 §三.1）：读本地 manifest → 比版本。
+///
+/// 本命令**永不返回 Err**——`UpdateResult` 自带 `available` + `reason` 三态：
+/// 失败只影响设置页那行文案，不得阻塞启动、不得弹技术错误（02 §三.4）。
+/// manifest 路径：`JUDOU_UPDATE_MANIFEST` 环境变量优先，否则应用数据目录下 `latest.json`。
+#[tauri::command]
+pub fn check_update(app: tauri::AppHandle) -> UpdateResult {
+    let data_dir = app.path().app_data_dir().ok();
+    let manifest = update::resolve_manifest_path(data_dir.as_deref());
+    update::check_update(env!("CARGO_PKG_VERSION"), manifest.as_deref())
 }
 
 /// 读 app_setting 全量键值；前端自取 theme，未知键忽略（docs C3 §5.8）

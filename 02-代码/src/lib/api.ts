@@ -49,6 +49,7 @@ import type {
   VocabList,
   VocabPatch,
   Tag,
+  UpdateResult,
   UserInputSplit,
   WordNote,
 } from "./types";
@@ -401,4 +402,16 @@ export function getArticleQuestions(articleId: number): Promise<QuestionView[]> 
 /** ⑩ 整批替换该篇题目（只写 question 表；`answerSource` 原样保留） */
 export function replaceArticleQuestions(articleId: number, questions: QuestionView[]): Promise<QuestionView[]> {
   return invoke<QuestionView[]>("replace_article_questions", { articleId, questions });
+}
+
+// ───────────────── M7 · 发布链路（1 个封装：更新检查，离线优先） ─────────────────
+
+/**
+ * 检查更新：**永不 reject**——后端把一切失败降级成 `available:false` + `reason`
+ * （`up-to-date` / `no-manifest` / `offline`），设置页只按文案降级，不弹技术错误（AC7）。
+ *
+ * 本包为离线优先实现（读应用数据目录下的 `latest.json`）；联网检查归 M7 后续（见 README）。
+ */
+export function checkUpdate(): Promise<UpdateResult> {
+  return invoke<UpdateResult>("check_update");
 }

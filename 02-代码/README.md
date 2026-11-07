@@ -277,3 +277,49 @@ npx tauri icon src-tauri/icon-source-1024.png -o src-tauri/icons
 
 `tauri.conf.json` 的 `bundle.icon` 只列桌面 5 项（32x32 / 128x128 / 128x128@2x / icon.ico / icon.png）；
 `tauri icon` 同时生成的 Android/iOS 目录保留给 M7。
+
+## 发布与更新链路（M7）
+
+### 版本号：三处必须一致
+
+`src-tauri/tauri.conf.json` 的 `version` = `package.json` 的 `version` = `src-tauri/Cargo.toml` 的 `[package].version`。
+门禁 `npm run verify:release` 会断言（同时校验工作流 YAML、无明文密钥、`.gitignore` 覆盖私钥、发布脚本齐备）。
+
+### 命令
+
+```powershell
+npm run verify:release              # 版本一致 + 工作流 + 私钥忽略 + 发布脚本（秒级，纯静态）
+node scripts/make-update-manifest.mjs --url-base https://…/releases/download/v0.2.0
+                                    # 由打包产物 + 签名生成 latest.json（无签名会明确报错退出）
+powershell -ExecutionPolicy Bypass -File scripts\build-installer.ps1
+                                    # 人工打包：npx tauri build --bundles nsis，打印产物路径与大小
+                                    # 只打包，不发布、不生成清单；CI 不自动执行本脚本
+```
+
+### CI 与发布工作流
+
+- `.github/workflows/ci.yml`：`cargo check` / `cargo test` / `npm run build` / 发布与回归门禁；矩阵 `windows-latest` / `macos-latest` / `ubuntu-latest`
+- `.github/workflows/release.yml`：`workflow_dispatch` + tag `v*` 触发，`tauri-action` 产出 Windows NSIS 并上传**草稿** Release
+
+> **位置说明**：GitHub Actions 只认仓库根 `.github/workflows/`，而本任务包的目标代码区是 `02-代码/`。
+> 两个 workflow 暂放在 `02-代码/.github/workflows/`，各步已用 `working-directory` / `projectPath` 指向
+> `02-代码`，整体移动到仓库根时**内容无需改动**。
+
+> **签名私钥**：只引用 `secrets.TAURI_SIGNING_PRIVATE_KEY` / `secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD`
+> 这两个名称，仓库内不留任何密钥文件（`.gitignore` 覆盖 `*.key` / `*.pem` / `tauri-signing*` / `.tauri-keys/`）。
+> Release 里的「生成 / 上传 latest.json」两步由仓库变量 `JUDOU_UPDATER_ENABLED=true` 才启用。
+
+### 检查更新（离线优先）
+
+设置 → 关于 → 「检查更新」调后端 `check_update`，**不引任何 HTTP 依赖**（`Cargo.toml` 里没有
+`reqwest`/`ureq`/`tauri-plugin-http`，本包不新增——为一个可选功能引入 HTTP 栈会显著增大二进制与供应链面）。
+
+行为：
+
+- 读 manifest 文件 → 解析 `{"version","notes","platforms":{"windows-x86_64":{"signature","url"}}}` → 比版本
+- manifest 路径：环境变量 `JUDOU_UPDATE_MANIFEST` 优先，否则应用数据目录下 `latest.json`（与 `judou.db` 同级）
+- 文件不存在 → `reason="no-manifest"`；版本不新 → `reason="up-to-date"`；读不到/读坏了 → `reason="offline"`
+- 任何失败都**不抛错、不阻塞启动**，只影响设置页那行文案（有新版 / 已是最新 / 检查失败，稍后再试）
+
+> **联网检查归 M7 后续**：届时只需把「读本地文件」换成「拉远端 latest.json」，
+> 解析与版本比较（`parse_manifest` / `is_newer`）原样复用。

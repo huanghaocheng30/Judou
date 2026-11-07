@@ -732,3 +732,23 @@ export interface AiPatchReport {
   lexiconInserted: number;
   stats: AiImportStats;
 }
+
+// ───────────────── M7 · 更新检查（离线优先，不引网络依赖；02 §三.1 裁定） ─────────────────
+
+/**
+ * `check_update` 返回体：三态由 `available` + `reason` 表达。
+ *
+ * - `available=true` → `version` 必有；`notes`/`url` 可能为 null（manifest 没给）
+ * - `available=false` → `reason` 说明降级原因：
+ *   `up-to-date` 已是最新 / `no-manifest` 还没发布过 manifest / `offline` 读不到或读坏了
+ *
+ * **该命令永不 reject**（后端把一切失败降级成 `available:false`），前端只按它改按钮旁文案，
+ * 不弹技术错误（AC7）。
+ */
+export interface UpdateResult {
+  available: boolean;
+  version: string | null;
+  notes: string | null;
+  url: string | null;
+  reason: string | null;
+}

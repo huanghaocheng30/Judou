@@ -24,6 +24,7 @@
     "verify:vocab": "node scripts/verify-vocab.mjs",
     "verify:review": "node scripts/verify-review.mjs",
     "verify:records": "node scripts/verify-records.mjs",
+    "verify:release": "node scripts/verify-release.mjs",
     "verify:pending": "node --test scripts/pending.test.mjs",
     "test:theme": "node --test scripts/theme.test.mjs"
   },

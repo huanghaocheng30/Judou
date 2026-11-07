@@ -59,6 +59,18 @@ jobs:
       - name: cargo check
         run: cargo check --manifest-path src-tauri/Cargo.toml
 
+      - name: cargo test
+        run: cargo test --manifest-path src-tauri/Cargo.toml --lib --bins
+
+      # M7 · 发布链路门禁：版本三处一致 + workflow 自检 + .gitignore 覆盖私钥 + 回归
+      # （DB/二进制类门禁 verify:import-user / verify:ai-import 需本机 Rust bin 与临时库，不在 CI 跑）
+      - name: Release and regression gates
+        run: |
+          npm run verify:release
+          npm run verify:ci
+          npm run verify:invoke
+          npm run verify:records
+
   android:
     # M7 启用：需 Android SDK/NDK 与签名密钥，M0 只占位不跑
     name: android (M7 启用)

@@ -9,6 +9,7 @@
 import { useEffect, useState } from "react";
 import {
   backupDb,
+  checkUpdate,
   exportVocabHtml,
   exportVocabSheet,
   ping,
@@ -40,6 +41,13 @@ export function Settings() {
   const [sheetShuffle, setSheetShuffle] = useState(false);
   // 第五轮：A4 默写默认附「答案对照」节（自查用，打印后可折起）；关掉则不出该节
   const [sheetAnswer, setSheetAnswer] = useState(true);
+  // M7 · 检查更新三态（AC7）：有新版 / 已是最新 / 检查失败。失败**不带技术详情**。
+  const [updateBusy, setUpdateBusy] = useState(false);
+  const [updateNote, setUpdateNote] = useState<{
+    kind: "available" | "latest" | "failed";
+    text: string;
+    url?: string;
+  } | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -129,6 +137,30 @@ export function Settings() {
       })
       .catch((err: unknown) => setNote(`导出失败：${err instanceof Error ? err.message : String(err)}`))
       .finally(() => setBusy("none"));
+  };
+
+  /**
+   * 检查更新（M7 · AC7）：`check_update` 本身**永不 reject**（后端降级成 `available:false`），
+   * 所以这里的 catch 只兜 IPC 层异常（命令未注册 / 窗口未就绪）。
+   * 三态文案与 `data-check-update-result` 取值一一对应，CDP 按属性值断言。
+   */
+  const runCheckUpdate = () => {
+    setUpdateBusy(true);
+    setUpdateNote(null);
+    checkUpdate()
+      .then((result) => {
+        if (result.available && result.version) {
+          setUpdateNote({
+            kind: "available",
+            text: `有新版本 v${result.version}`,
+            url: result.url ?? undefined,
+          });
+        } else {
+          setUpdateNote({ kind: "latest", text: "已是最新版本" });
+        }
+      })
+      .catch(() => setUpdateNote({ kind: "failed", text: "检查失败，稍后再试" }))
+      .finally(() => setUpdateBusy(false));
   };
 
   return (
@@ -284,6 +316,31 @@ export function Settings() {
             </dd>
           </div>
         </dl>
+        <div className="btn-row">
+          <button type="button" className="btn" data-check-update disabled={updateBusy} onClick={runCheckUpdate}>
+            {updateBusy ? "检查中…" : "检查更新"}
+          </button>
+          {updateNote && (
+            <span className="card-hint" data-check-update-result={updateNote.kind} role="status">
+              {updateNote.text}
+              {updateNote.url && (
+                <>
+                  {"（"}
+                  <a
+                    href={updateNote.url}
+                    data-check-update-link
+                    title={updateNote.url}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    下载页
+                  </a>
+                  {"）"}
+                </>
+              )}
+            </span>
+          )}
+        </div>
       </section>
     </div>
   );
