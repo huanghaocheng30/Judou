@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import {
   backupDb,
   exportVocabHtml,
+  exportVocabSheet,
   ping,
   restoreDb,
   setSetting,
@@ -22,12 +23,23 @@ const DEFAULT_INTERVALS = [1, 3, 7, 14];
 /** 与 Guide.tsx 共用的事件名（设置页只是「重新打开引导」的触发器） */
 const SHOW_GUIDE_EVENT = "judou:show-guide";
 
+/** PDF 词表三模式（互斥单选，对齐后端 `SheetMode`） */
+type SheetMode = "a4" | "zh" | "en";
+
+const SHEET_MODES: { mode: SheetMode; title: string; hint: string }[] = [
+  { mode: "a4", title: "A4 默写", hint: "左栏单词、右栏释义，各自独立编号；遮一半即可双向默写" },
+  { mode: "zh", title: "中文词表", hint: "Word 列留空、Meaning 填释义；看中文默写单词" },
+  { mode: "en", title: "英文词表", hint: "Word 填单词、Meaning 留空；看单词默写释义" },
+];
+
 export function Settings() {
   const { setting, resolved, setTheme } = useTheme();
   const [appVersion, setAppVersion] = useState<string>("—");
-  const [busy, setBusy] = useState<"none" | "backup" | "restore" | "export">("none");
+  const [busy, setBusy] = useState<"none" | "backup" | "restore" | "export" | "sheet">("none");
   const [note, setNote] = useState<string | null>(null);
   const [restorePath, setRestorePath] = useState("");
+  const [sheetMode, setSheetMode] = useState<SheetMode>("a4");
+  const [sheetShuffle, setSheetShuffle] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -77,6 +89,48 @@ export function Settings() {
       .finally(() => setBusy("none"));
   };
 
+  /**
+   * PDF 词表：后端返回完整 HTML → 隐藏 iframe 写入 → `contentWindow.print()` 调起系统打印。
+   * Tauri webview 会拦 `window.open`，所以走 iframe 这条路；保存 PDF 交给打印对话框。
+   */
+  const runExportSheet = () => {
+    setBusy("sheet");
+    setNote(null);
+    exportVocabSheet(sheetMode, sheetShuffle)
+      .then((html) => {
+        const frame = document.createElement("iframe");
+        frame.setAttribute("aria-hidden", "true");
+        frame.title = "生词词表打印";
+        frame.style.position = "fixed";
+        frame.style.right = "0";
+        frame.style.bottom = "0";
+        frame.style.width = "0";
+        frame.style.height = "0";
+        frame.style.border = "0";
+        document.body.appendChild(frame);
+        const doc = frame.contentDocument;
+        if (!doc) {
+          frame.remove();
+          setNote("打开打印文档失败：取不到 iframe 文档。");
+          return;
+        }
+        doc.open();
+        doc.write(html);
+        doc.close();
+        // 等一帧让排版与字体落定，否则打印预览可能是空白页
+        window.setTimeout(() => {
+          const view = frame.contentWindow;
+          view?.focus();
+          view?.print();
+          // 打印对话框是模态的；关闭后由浏览器异步回收，留足时间再摘掉节点
+          window.setTimeout(() => frame.remove(), 60000);
+        }, 80);
+        setNote("已调起打印对话框：在「打印机」里选「Microsoft Print to PDF」或「另存为 PDF」即可保存。");
+      })
+      .catch((err: unknown) => setNote(`导出失败：${err instanceof Error ? err.message : String(err)}`))
+      .finally(() => setBusy("none"));
+  };
+
   const reopenGuide = () => {
     setSetting("guide_shown", "0")
       .then(() => {
@@ -120,6 +174,46 @@ export function Settings() {
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="card" aria-labelledby="sheet-title">
+        <h2 id="sheet-title">导出 PDF 词表</h2>
+        <p className="card-hint">
+          打印用。选一种模式 → 点「导出 PDF 词表」→ 在打印对话框里选「另存为 PDF」。
+        </p>
+        <div className="export-modes" role="radiogroup" aria-label="词表模式（三选一）">
+          {SHEET_MODES.map((item) => (
+            <button
+              key={item.mode}
+              type="button"
+              role="radio"
+              aria-checked={sheetMode === item.mode}
+              className={sheetMode === item.mode ? "export-mode on" : "export-mode"}
+              data-export-mode={item.mode}
+              onClick={() => setSheetMode(item.mode)}
+            >
+              <span className="export-mode-title">{item.title}</span>
+              <span className="export-mode-hint">{item.hint}</span>
+            </button>
+          ))}
+        </div>
+        <label className="shuffle-line">
+          <input
+            type="checkbox"
+            data-export-shuffle
+            checked={sheetShuffle}
+            onChange={(event) => setSheetShuffle(event.target.checked)}
+          />
+          乱序导出（打乱词序，避免按顺序背）
+        </label>
+        <div className="btn-row">
+          <button type="button" className="btn" data-export-pdf disabled={busy !== "none"} onClick={runExportSheet}>
+            导出 PDF 词表
+          </button>
+        </div>
+        <p className="card-hint">
+          A4 竖版、每页重复表头、行首带勾选框供打印后手打勾；中文/英文词表每页 30 词，A4 默写每页 15 词。
+        </p>
       </section>
 
       <section className="card" aria-labelledby="backup-title">

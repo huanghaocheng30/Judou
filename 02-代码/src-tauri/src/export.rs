@@ -83,9 +83,269 @@ pub fn export_vocab_html(db: &Db, out_path: &Path) -> Result<ExportResult, Comma
     })
 }
 
+// ───────────────────── M6 第四轮 · PDF 词表（三模式 / 乱序 / A4 双栏打印） ─────────────────────
+
+/// PDF 词表三种模式（互斥单选）。
+#[derive(Clone, Copy, PartialEq, Eq)]
+pub enum SheetMode {
+    /// A4 默写：左栏只放 Word、右栏只放 Meaning，**各自独立编号**（遮一半即可双向默写）
+    A4,
+    /// 中文词表：Word 列留空（带勾选框），Meaning 填释义 → 看中文默写单词
+    Zh,
+    /// 英文词表：Word 填单词（带勾选框），Meaning 留空 → 看单词默写释义
+    En,
+}
+
+impl SheetMode {
+    pub fn as_str(self) -> &'static str {
+        match self {
+            SheetMode::A4 => "a4",
+            SheetMode::Zh => "zh",
+            SheetMode::En => "en",
+        }
+    }
+
+    pub fn label(self) -> &'static str {
+        match self {
+            SheetMode::A4 => "A4 默写",
+            SheetMode::Zh => "中文词表",
+            SheetMode::En => "英文词表",
+        }
+    }
+
+    /// 前端 `data-export-mode` 的三值；非法值由调用方拒收。
+    pub fn from_arg(raw: &str) -> Option<Self> {
+        match raw {
+            "a4" => Some(SheetMode::A4),
+            "zh" => Some(SheetMode::Zh),
+            "en" => Some(SheetMode::En),
+            _ => None,
+        }
+    }
+}
+
+/// 每栏行数：A4 竖版 12mm 边距下约 15 行，双栏并排 → 30 行/页（A4 默写每页 15 词）。
+const SHEET_ROWS_PER_COL: usize = 15;
+
+/// 生词导出为 **PDF 词表 HTML**：返回完整 HTML 字符串，由前端用隐藏 iframe 触发系统打印
+/// （Windows 选「Microsoft Print to PDF」/「另存为 PDF」即得真 PDF）。
+///
+/// 为什么返回字符串而不是写文件：Tauri webview 里 `window.open` 会被拦，隐藏 iframe 的
+/// `contentWindow.print()` 是唯一无需新依赖的打印通道；HTML 只在内存里过一次手。
+pub fn export_vocab_sheet(db: &Db, mode: &str, shuffle: bool) -> Result<String, CommandError> {
+    let mode = SheetMode::from_arg(mode).ok_or_else(|| CommandError {
+        code: "EXPORT_MODE_INVALID".to_string(),
+        message: format!("导出模式只能是 a4 / zh / en，当前是「{mode}」。"),
+        path: Some("mode".to_string()),
+    })?;
+    let mut rows = db.read(read_vocab_rows)?;
+    if shuffle {
+        shuffle_rows(&mut rows, seed_now());
+    }
+    Ok(render_vocab_sheet(&rows, mode, shuffle))
+}
+
+/// 乱序：Fisher-Yates + 线性同余伪随机（**不引新 crate**；seed 入参便于单测可复现）。
+fn shuffle_rows(rows: &mut [VocabRow], mut state: u64) {
+    if rows.len() < 2 {
+        return;
+    }
+    for i in (1..rows.len()).rev() {
+        state = state
+            .wrapping_mul(6_364_136_223_846_793_005)
+            .wrapping_add(1_442_695_040_888_963_407);
+        let j = ((state >> 33) as usize) % (i + 1);
+        rows.swap(i, j);
+    }
+}
+
+fn seed_now() -> u64 {
+    std::time::SystemTime::now()
+        .duration_since(std::time::UNIX_EPOCH)
+        .map(|elapsed| elapsed.as_nanos() as u64)
+        .unwrap_or(0x9E37_79B9_7F4A_7C15)
+}
+
+/// 一页里的一个表格：`columns` 决定表头与每行单元格。
+enum SheetColumns {
+    /// `# | □ | Word` 或 `# | □ | Meaning`（A4 默写，左右各一）
+    Single(&'static str),
+    /// `# | □ | Word | Meaning`（中文/英文词表，成对出现）
+    Pair,
+}
+
+/// 渲染一整份词表 HTML（无外链、内联 CSS、每页重复表头）。
+fn render_vocab_sheet(rows: &[VocabRow], mode: SheetMode, shuffle: bool) -> String {
+    let total = rows.len();
+    // A4 默写：左右是同一批词的两种视图 → 每页 15 词；中文/英文：每页双栏共 30 词
+    let words_per_page = match mode {
+        SheetMode::A4 => SHEET_ROWS_PER_COL,
+        SheetMode::Zh | SheetMode::En => SHEET_ROWS_PER_COL * 2,
+    };
+    let page_count = if total == 0 { 1 } else { total.div_ceil(words_per_page) };
+
+    let mut pages = String::new();
+    for page in 0..page_count {
+        let start = page * words_per_page;
+        let end = (start + words_per_page).min(total);
+        let page_rows = rows.get(start..end).unwrap_or(&[]);
+        pages.push_str(&render_sheet_page(page_rows, mode, shuffle, total, page + 1, page_count, page * words_per_page));
+    }
+
+    format!(
+        "<!doctype html>
+<html lang=\"zh-CN\">
+<head>
+<meta charset=\"utf-8\" />
+<title>句读 · 生词{title}（{total} 词）</title>
+<style>{css}</style>
+</head>
+<body>
+{pages}</body>
+</html>
+",
+        title = mode.label(),
+        total = total,
+        css = SHEET_CSS,
+        pages = pages,
+    )
+}
+
+/// 单页：标题行 + 「共 N 词 M 页」+ 双栏（每栏自带 `<thead>` 表头，打印时每页重复）。
+#[allow(clippy::too_many_arguments)]
+fn render_sheet_page(
+    page_rows: &[VocabRow],
+    mode: SheetMode,
+    shuffle: bool,
+    total: usize,
+    page_no: usize,
+    page_count: usize,
+    offset: usize,
+) -> String {
+    let (left, right, left_cols, right_cols) = match mode {
+        // 左右同批词、各自独立编号（都从本页第一个词号起算）
+        SheetMode::A4 => (page_rows, page_rows, SheetColumns::Single("Word"), SheetColumns::Single("Meaning")),
+        // 左右是连续两段词，编号贯穿全表
+        SheetMode::Zh | SheetMode::En => {
+            let split = (page_rows.len().min(SHEET_ROWS_PER_COL)).min(page_rows.len());
+            (&page_rows[..split], &page_rows[split..], SheetColumns::Pair, SheetColumns::Pair)
+        }
+    };
+
+    let mut html = String::new();
+    html.push_str(&format!(
+        "<section class=\"sheet-page\" data-export-mode=\"{mode}\">
+<header class=\"sheet-head\">
+  <h1 class=\"sheet-title\">生词词表 · {label}</h1>
+  <p class=\"sheet-meta\">共 {total} 词 {page_count} 页 · 第 {page_no} 页 / {page_count} 页{shuffled}</p>
+</header>
+<div class=\"sheet-cols\">
+",
+        mode = mode.as_str(),
+        label = mode.label(),
+        total = total,
+        page_count = page_count,
+        page_no = page_no,
+        shuffled = if shuffle { " · 乱序" } else { "" },
+    ));
+    html.push_str(&render_sheet_col(left, mode, &left_cols, "left", offset));
+    // A4 右侧是同一批词的释义视图，各自独立编号 → 也从本页第一个词号起算
+    let right_offset = match mode {
+        SheetMode::A4 => offset,
+        SheetMode::Zh | SheetMode::En => offset + left.len(),
+    };
+    html.push_str(&render_sheet_col(right, mode, &right_cols, "right", right_offset));
+    html.push_str("</div>\n</section>\n");
+    html
+}
+
+fn render_sheet_col(
+    rows: &[VocabRow],
+    mode: SheetMode,
+    columns: &SheetColumns,
+    side: &str,
+    offset: usize,
+) -> String {
+    let data_col = match (mode, columns, side) {
+        (SheetMode::A4, _, "left") => "word",
+        (SheetMode::A4, _, _) => "meaning",
+        (_, _, "left") => "pair-1",
+        (_, _, _) => "pair-2",
+    };
+    let head = match columns {
+        SheetColumns::Single(title) => {
+            format!("<thead><tr><th class=\"no\">#</th><th class=\"tick\"></th><th>{title}</th></tr></thead>")
+        }
+        SheetColumns::Pair => "<thead><tr><th class=\"no\">#</th><th class=\"tick\"></th><th>Word</th><th>Meaning</th></tr></thead>".to_string(),
+    };
+    let mut body = String::new();
+    for (index, row) in rows.iter().enumerate() {
+        let no = offset + index + 1;
+        let meaning = row.context_meaning.as_deref().unwrap_or("");
+        let cells = match mode {
+            // A4 默写：左栏只 Word、右栏只 Meaning（各自独立编号，遮一半即可默写）
+            SheetMode::A4 => match side {
+                "left" => sheet_cell(Some(&row.surface)),
+                _ => sheet_cell(Some(meaning)),
+            },
+            // 中文词表：Word 留空；英文词表：Meaning 留空
+            SheetMode::Zh => format!("{}{}", sheet_cell(None), sheet_cell(Some(meaning))),
+            SheetMode::En => format!("{}{}", sheet_cell(Some(&row.surface)), sheet_cell(None)),
+        };
+        body.push_str(&format!(
+            "<tr data-no=\"{no}\"><td class=\"no\">{no}</td><td class=\"tick\"><span class=\"tick-box\"></span></td>{cells}</tr>\n"
+        ));
+    }
+    format!(
+        "<section class=\"sheet-col\" data-col=\"{data_col}\">
+<table class=\"sheet-table\">
+{head}
+<tbody>
+{body}</tbody>
+</table>
+</section>
+"
+    )
+}
+
+/// 一个内容单元格：无内容时打 `data-empty="1"`（门禁据此断言「该列留空」）。
+fn sheet_cell(text: Option<&str>) -> String {
+    match text.map(str::trim).filter(|value| !value.is_empty()) {
+        Some(value) => format!("<td class=\"cell\">{}</td>", esc(value)),
+        None => "<td class=\"cell\" data-empty=\"1\"></td>".to_string(),
+    }
+}
+
+/// A4 竖版打印样式：内联、无外链、浅色底纹（`print-color-adjust: exact` 保留 Z 字条纹）。
+const SHEET_CSS: &str = r#"
+@page { size: A4; margin: 12mm; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #fff; }
+body { font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif; color: #1f2328; }
+.sheet-page { padding: 4mm 0; }
+.sheet-page + .sheet-page { break-before: page; page-break-before: always; }
+.sheet-head { display: flex; align-items: baseline; justify-content: space-between; gap: 6mm;
+  border-bottom: 1.2pt solid #1f2328; padding-bottom: 2mm; margin-bottom: 3mm; }
+.sheet-title { font-size: 16pt; margin: 0; letter-spacing: 0.4pt; }
+.sheet-meta { font-size: 9pt; color: #57606a; margin: 0; }
+.sheet-cols { display: table; width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 6mm 0; }
+.sheet-col { display: table-cell; width: 50%; vertical-align: top; }
+.sheet-table { width: 100%; border-collapse: collapse; font-size: 10.5pt; }
+.sheet-table th, .sheet-table td { border: 0.6pt solid #c9d1d9; padding: 2.2mm 2mm; text-align: left; }
+.sheet-table thead th { background: #eef1f5; font-weight: 600; font-size: 9.5pt; }
+.sheet-table tbody tr:nth-child(even) td { background: #f7f8fa; }
+.sheet-table td.no, .sheet-table th.no { width: 8mm; text-align: right; color: #57606a; font-size: 9pt; }
+.sheet-table td.tick, .sheet-table th.tick { width: 6mm; text-align: center; }
+.tick-box { display: inline-block; width: 3.6mm; height: 3.6mm; border: 0.8pt solid #8b949e; border-radius: 0.6mm; }
+@media print {
+  .sheet-page { padding: 0; }
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .no-print { display: none; }
+}
+"#;
+
 /// 生词查询：搭配/例句来自 `word_note`（同来源句 + 同 normalized 的最近一条），标签聚合自 `vocab_tag`。
-fn read_vocab_rows(conn: &Connection) -> Result<Vec<VocabRow>, CommandError> {
-    let mut stmt = conn
+fn read_vocab_rows(conn: &Connection) -> Result<Vec<VocabRow>, CommandError> {    let mut stmt = conn
         .prepare(
             "SELECT v.surface, v.phonetic, v.pos, v.context_meaning,
                     (SELECT wn.collocation FROM word_note wn
@@ -562,5 +822,96 @@ mod tests {
             "坏文件被拒后现库表计数不变"
         );
         std::fs::remove_dir_all(&dir).ok();
+    }
+
+    // ───────── M6 第四轮：PDF 词表（三模式 / 乱序 / A4 分页） ─────────
+
+    fn sheet_rows(count: usize) -> Vec<VocabRow> {
+        (1..=count)
+            .map(|i| VocabRow {
+                surface: format!("word{i:02}"),
+                phonetic: None,
+                pos: None,
+                context_meaning: Some(format!("释义{i:02}")),
+                collocation: None,
+                example: None,
+                source_sentence: None,
+                source_title: None,
+                tags: None,
+            })
+            .collect()
+    }
+
+    #[test]
+    fn sheet_three_modes_share_print_skeleton() {
+        let rows = sheet_rows(7);
+        for mode in [SheetMode::A4, SheetMode::Zh, SheetMode::En] {
+            let html = render_vocab_sheet(&rows, mode, false);
+            assert!(html.contains("@page"), "必须声明 @page（A4 打印）");
+            assert!(html.contains("size: A4"), "@page 必须是 A4");
+            assert!(!html.contains("<link"), "不得有外链样式");
+            assert!(!html.contains("http"), "不得有外链地址");
+            assert!(html.contains("sheet-cols"), "必须双栏布局");
+            assert!(html.contains("<thead"), "每页必须重复表头");
+            assert!(html.contains("共 7 词"), "标题行必须写明词数");
+            assert!(html.contains("Word") && html.contains("Meaning"), "表头必须有 Word / Meaning");
+            assert!(html.contains("tick"), "必须有打印用勾选框");
+        }
+    }
+
+    #[test]
+    fn sheet_modes_differ_in_which_column_is_blank() {
+        let rows = sheet_rows(7);
+        let a4 = render_vocab_sheet(&rows, SheetMode::A4, false);
+        let zh = render_vocab_sheet(&rows, SheetMode::Zh, false);
+        let en = render_vocab_sheet(&rows, SheetMode::En, false);
+
+        // A4 默写：左右两组各自独立编号，左只放 Word、右只放 Meaning
+        assert!(a4.contains(r#"data-col="word""#) && a4.contains(r#"data-col="meaning""#), "A4 必须左右分栏");
+        assert!(a4.contains("word01") && a4.contains("释义01"), "A4 两侧都要有内容");
+        assert_eq!(a4.matches(r#"data-empty="1""#).count(), 0, "A4 无空格");
+
+        // 中文词表：Word 列留空（只有勾选框），Meaning 填释义
+        assert!(zh.contains("释义01"), "中文词表必须填释义");
+        assert!(!zh.contains("word01"), "中文词表 Word 列必须留空");
+        assert_eq!(zh.matches(r#"data-empty="1""#).count(), 7, "中文词表 7 个 Word 单元格全空");
+
+        // 英文词表：Word 填单词，Meaning 留空
+        assert!(en.contains("word01"), "英文词表必须填单词");
+        assert!(!en.contains("释义01"), "英文词表 Meaning 列必须留空");
+        assert_eq!(en.matches(r#"data-empty="1""#).count(), 7, "英文词表 7 个 Meaning 单元格全空");
+    }
+
+    #[test]
+    fn sheet_paginates_two_columns_with_repeated_thead() {
+        // 中文/英文：每页 15 行 × 2 栏 = 30 词；31 词 → 2 页
+        let rows = sheet_rows(31);
+        let zh = render_vocab_sheet(&rows, SheetMode::Zh, false);
+        assert!(zh.contains("共 31 词 2 页"), "31 词必须算成 2 页");
+        assert!(zh.contains("第 1 页 / 2 页") && zh.contains("第 2 页 / 2 页"), "每页都要有页码");
+        assert_eq!(zh.matches("<thead>").count(), 4, "2 页 × 2 栏 = 4 个表头");
+
+        // A4 默写：左右是同一批词，每页 15 词；16 词 → 2 页
+        let a4 = render_vocab_sheet(&sheet_rows(16), SheetMode::A4, false);
+        assert!(a4.contains("共 16 词 2 页"), "A4 16 词必须算成 2 页");
+        assert_eq!(a4.matches("<thead>").count(), 4, "A4 2 页 × 2 栏 = 4 个表头");
+    }
+
+    #[test]
+    fn shuffle_keeps_the_set_and_changes_the_order() {
+        let mut rows = sheet_rows(12);
+        let before: Vec<String> = rows.iter().map(|row| row.surface.clone()).collect();
+        shuffle_rows(&mut rows, 0x5EED_1234);
+        let after: Vec<String> = rows.iter().map(|row| row.surface.clone()).collect();
+
+        let mut sorted_before = before.clone();
+        let mut sorted_after = after.clone();
+        sorted_before.sort();
+        sorted_after.sort();
+        assert_eq!(sorted_before, sorted_after, "乱序不得增删词条");
+        assert_ne!(before, after, "乱序后顺序必须与原名不同");
+
+        let html = render_vocab_sheet(&rows, SheetMode::En, true);
+        assert!(html.contains("乱序"), "乱序模式必须在标题行标注");
     }
 }

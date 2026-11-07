@@ -83,6 +83,11 @@ export function exportVocabHtml(outPath?: string): Promise<ExportResult> {
   return invoke<ExportResult>("export_vocab_html", { outPath });
 }
 
+/** M6 第四轮：生词导出为 **PDF 词表 HTML**（返回完整 HTML；前端用隐藏 iframe 触发系统打印） */
+export function exportVocabSheet(mode: "a4" | "zh" | "en", shuffle: boolean): Promise<string> {
+  return invoke<string>("export_vocab_sheet", { mode, shuffle });
+}
+
 /** M6 备份本地库（省略 outDir 时写库同级 exports/backups/） */
 export function backupDb(outDir?: string, stamp?: string): Promise<BackupResult> {
   return invoke<BackupResult>("backup_db", { outDir, stamp });

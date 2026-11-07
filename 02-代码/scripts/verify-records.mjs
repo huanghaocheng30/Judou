@@ -196,6 +196,83 @@ check("AC13 六个命令全部注册且前端有封装", () => {
   return `${handlers.length} 个命令`;
 });
 
+// ── M6 第四轮：PDF 词表（三模式 / 乱序 / A4 双栏打印） ─────────
+const sheetRs = exportRs.slice(exportRs.indexOf("pub enum SheetMode"), exportRs.indexOf("fn read_vocab_rows"));
+const sheetZhLine = sheetRs.split("\n").find((line) => line.includes("SheetMode::Zh =>") && line.includes("sheet_cell")) || "";
+const sheetEnLine = sheetRs.split("\n").find((line) => line.includes("SheetMode::En =>") && line.includes("sheet_cell")) || "";
+
+check("PDF-1 命令 export_vocab_sheet 已注册，前端有封装与三个挂点", () => {
+  assert(/commands::export_vocab_sheet/.test(lib), "lib.rs 未注册 export_vocab_sheet");
+  assert(/"export_vocab_sheet"/.test(api), "api.ts 缺 export_vocab_sheet 封装");
+  assert(/data-export-pdf/.test(settingsPage), "缺导出主按钮 data-export-pdf");
+  assert(/data-export-shuffle/.test(settingsPage), "缺乱序开关 data-export-shuffle");
+  assert(/data-export-mode=\{item\.mode\}/.test(settingsPage), "缺三模式挂点 data-export-mode");
+  return "1 命令 + 3 挂点";
+});
+
+check("PDF-2 A4 打印骨架：@page size A4 + 内联样式 + 零外链 + 中文字体", () => {
+  assert(sheetRs.length > 0, "取不到 PDF 词表实现段");
+  assert(/@page\s*\{\s*size:\s*A4/.test(sheetRs), "@page 必须声明 A4");
+  assert(/print-color-adjust:\s*exact/.test(sheetRs), "必须保留浅色底纹（print-color-adjust: exact）");
+  assert(!/<link/.test(sheetRs), "词表模板不得含 <link>");
+  assert(!/https?:\/\//.test(sheetRs), "词表模板不得含 http(s) 外链");
+  assert(/font-family:\s*"Microsoft YaHei"/.test(sheetRs), "缺中文字体栈");
+  return "A4 + 内联 + 无外链";
+});
+
+check("PDF-3 三模式互斥且结构不同（A4 左右分栏各自编号）", () => {
+  for (const mode of ["A4", "Zh", "En"]) {
+    assert(new RegExp(`SheetMode::${mode}`).test(sheetRs), `缺模式 ${mode}`);
+  }
+  assert(
+    /SheetMode::A4 => \(page_rows, page_rows, SheetColumns::Single\("Word"\), SheetColumns::Single\("Meaning"\)\)/.test(sheetRs),
+    "A4 必须是左右同批词、单列分栏（左 Word / 右 Meaning）",
+  );
+  assert(/"word"/.test(sheetRs) && /"meaning"/.test(sheetRs), "A4 两侧 data-col 必须是 word / meaning");
+  assert(/SheetMode::A4 => SHEET_ROWS_PER_COL/.test(sheetRs), "A4 每页词数口径缺失");
+  return "三模式结构差异";
+});
+
+check("PDF-4 留空列：zh 的 Word 空 / en 的 Meaning 空（data-empty 契约）", () => {
+  assert(/data-empty=/.test(sheetRs), "留空列必须有 data-empty 标记");
+  assert(/fn sheet_cell/.test(sheetRs), "单元格渲染必须集中在一处");
+  assert(
+    sheetZhLine.includes("sheet_cell(None)") && sheetZhLine.includes("sheet_cell(Some(meaning))"),
+    "中文词表必须 Word 留空、Meaning 填释义",
+  );
+  assert(
+    sheetEnLine.includes("sheet_cell(Some(&row.surface))") && sheetEnLine.includes("sheet_cell(None)"),
+    "英文词表必须 Word 填单词、Meaning 留空",
+  );
+  assert((sheetZhLine.match(/sheet_cell\(None\)/g) || []).length === 1, "zh 每行只能一个空单元格");
+  assert((sheetEnLine.match(/sheet_cell\(None\)/g) || []).length === 1, "en 每行只能一个空单元格");
+  return "data-empty 契约";
+});
+
+check("PDF-5 分页与每页重复表头（A4 每页 15 词 / zh·en 每页 30 词）", () => {
+  assert(/const SHEET_ROWS_PER_COL: usize = 15/.test(sheetRs), "每栏行数必须是 15");
+  assert(/SheetMode::Zh \| SheetMode::En => SHEET_ROWS_PER_COL \* 2/.test(sheetRs), "zh/en 每页必须 30 词");
+  assert(/<thead>/.test(sheetRs), "表头必须用 <thead>（打印时每页重复）");
+  assert(/div_ceil\(words_per_page\)/.test(sheetRs), "页数必须向上取整");
+  assert(/第 \{page_no\} 页 \/ \{page_count\} 页/.test(sheetRs), "每页必须标页码");
+  return "15/30 + thead";
+});
+
+check("PDF-6 乱序：Fisher-Yates，不引新依赖", () => {
+  assert(/fn shuffle_rows\(rows: &mut \[VocabRow\], mut state: u64\)/.test(sheetRs), "缺 shuffle_rows");
+  assert(/rows\.swap\(i, j\)/.test(sheetRs), "乱序必须真交换元素");
+  assert(/for i in \(1\.\.rows\.len\(\)\)\.rev\(\)/.test(sheetRs), "必须是 Fisher-Yates 反向遍历");
+  assert(!/use rand::/.test(exportRs), "不得引新 crate（rand）");
+  return "Fisher-Yates";
+});
+
+check("PDF-7 前端走隐藏 iframe 的 contentWindow.print()（不用 window.open）", () => {
+  assert(/document\.createElement\("iframe"\)/.test(settingsPage), "缺隐藏 iframe");
+  assert(/contentWindow/.test(settingsPage) && /\.print\(\)/.test(settingsPage), "必须走 iframe contentWindow.print()");
+  assert(!/window\.open\(/.test(settingsPage), "Tauri webview 会拦 window.open，不得使用");
+  return "iframe print";
+});
+
 console.log(`\nM6 门禁：${passed} 通过 / ${failures.length} 失败`);
 if (failures.length > 0) {
   for (const failure of failures) console.error(`  - ${failure}`);

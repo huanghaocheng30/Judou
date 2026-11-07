@@ -2604,3 +2604,55 @@ button {
   color: #b91c1c;
   font-size: 12px;
 }
+/* ───── M6 第四轮 · 导出 PDF 词表（三模式卡片 + 乱序开关） ───── */
+.export-modes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 10px 0 12px;
+}
+
+@media (max-width: 720px) {
+  .export-modes {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.export-mode {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  text-align: left;
+  border: 1px solid var(--border, #c9d1d9);
+  border-radius: 8px;
+  background: var(--surface, #fff);
+  color: inherit;
+  cursor: pointer;
+}
+
+.export-mode.on {
+  border-width: 2px;
+  border-color: var(--accent, #2563eb);
+  box-shadow: 0 0 0 1px var(--accent, #2563eb) inset;
+}
+
+.export-mode-title {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.export-mode-hint {
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0.78;
+}
+
+.shuffle-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

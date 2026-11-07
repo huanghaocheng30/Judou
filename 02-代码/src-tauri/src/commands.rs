@@ -1289,6 +1289,18 @@ pub fn export_vocab_html(
     export::export_vocab_html(&db, &target)
 }
 
+/// 生词导出为 **PDF 词表 HTML**（M6 第四轮重做）：返回完整 HTML 字符串，前端用隐藏 iframe
+/// 的 `contentWindow.print()` 触发系统打印（Windows 选「另存为 PDF」即得真 PDF）。
+/// `mode` 三值：`a4` 默写（左右各自独立编号）/ `zh` 中文词表（Word 留空）/ `en` 英文词表（Meaning 留空）。
+#[tauri::command]
+pub fn export_vocab_sheet(
+    db: State<'_, Db>,
+    mode: String,
+    shuffle: bool,
+) -> Result<String, CommandError> {
+    export::export_vocab_sheet(&db, &mode, shuffle)
+}
+
 /// 备份库（AC6）：`outDir` 省略时写库同级 `backups/`；`stamp` 省略时用 UTC 当前时刻。
 #[tauri::command]
 pub fn backup_db(

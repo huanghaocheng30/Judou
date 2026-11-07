@@ -110,6 +110,8 @@ pub fn run() {
             commands::touch_reading,
             commands::get_stats,
             commands::export_vocab_html,
+            // M6 第四轮：PDF 词表（三模式 + 乱序，返回 HTML 由前端隐藏 iframe 打印）
+            commands::export_vocab_sheet,
             commands::backup_db,
             commands::restore_db
         ])
