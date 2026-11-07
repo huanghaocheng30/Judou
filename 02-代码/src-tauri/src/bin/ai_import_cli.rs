@@ -19,7 +19,7 @@ use std::path::PathBuf;
 
 use judou_lib::ai_import::{
     article_counts, commit_ai_import, match_payload, parse_payload, patch_ai_analysis, preview_from_article,
-    AiCommitMeta, AiDraft, AiSection,
+    AiCommitMeta, AiDraft, AiSection, ImportMode,
 };
 use judou_lib::db::Db;
 use judou_lib::import_user::parse_preview;
@@ -119,7 +119,15 @@ fn commit_case(args: &Args) -> Value {
         Ok(preview) => preview,
         Err(err) => return failure(err),
     };
-    let draft = AiDraft { preview, section };
+    // M5c：档位与题目区原文（档 C 的逐字比对 / answer_source 判定都要它们）
+    let mode = args.get("mode").and_then(ImportMode::parse).unwrap_or(ImportMode::Full);
+    let question_text = args.get("questions").map(|path| read_text(path).unwrap_or_default());
+    let draft = AiDraft {
+        preview,
+        section,
+        mode,
+        question_text,
+    };
 
     let parsed = match parse_payload(&raw_payload) {
         Ok(parsed) => parsed,
@@ -189,7 +197,14 @@ fn patch_case(args: &Args) -> Value {
             }
         },
     };
-    let draft = AiDraft { preview, section };
+    let mode = args.get("mode").and_then(ImportMode::parse).unwrap_or(ImportMode::Full);
+    let question_text = args.get("questions").map(|path| read_text(path).unwrap_or_default());
+    let draft = AiDraft {
+        preview,
+        section,
+        mode,
+        question_text,
+    };
 
     let parsed = match parse_payload(&raw_payload) {
         Ok(parsed) => parsed,
@@ -199,7 +214,7 @@ fn patch_case(args: &Args) -> Value {
         Ok(matched) => matched,
         Err(err) => return failure(err),
     };
-    match patch_ai_analysis(&db, article_id, &matched) {
+    match patch_ai_analysis(&db, article_id, &draft, &matched) {
         Ok(report) => json!({
             "ok": true,
             "articleId": report.article_id,

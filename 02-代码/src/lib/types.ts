@@ -442,10 +442,56 @@ export interface ImportCommitResult {
 /** 题型（用户在选择器里选，随 `AiDraft` 传给后端；模板按它裁剪片段） */
 export type AiSection = "careful" | "long" | "cloze";
 
-/** AI 模式入参：`ImportPreview`（既有，不动）+ 所选题型 */
+/**
+ * 三档需求（M5c 04 §6.2 第 2 步）：
+ * - `plain`（A）只要原文：不要求 AI 产出，可直接入库
+ * - `analysis`（B）原文 + 解析：提示词带正文全文，不带题目区
+ * - `full`（C，默认）原文 + 题目答案 + 解析：另带题目区原文，档 C 逐字比对
+ */
+export type ImportMode = "plain" | "analysis" | "full";
+
+/** `split_user_input` 返回体：一次粘贴后的正文区 / 题目区（`detected=false` 时题目区为空串，不猜） */
+export interface UserInputSplit {
+  bodyText: string;
+  questionText: string;
+  /** 题目区起点（1-based 行号）；未识别时为 null */
+  questionStartLine: number | null;
+  detected: boolean;
+  reason: string;
+  /** 题目区里命中题号的行数（界面「含 K 道题」） */
+  questionCount: number;
+}
+
+/** 编辑元信息（`update_article_meta`）：缺省字段 = 不改 */
+export interface ArticleMetaPatch {
+  title?: string | null;
+  examType?: string | null;
+  examYear?: number | null;
+  sectionType?: AiSection | null;
+  source?: string | null;
+  difficulty?: string | null;
+}
+
+/** 题目视图（`get_article_questions` 下发 / `replace_article_questions` 入参） */
+export interface QuestionView {
+  /** 试卷题号（写 `question.idx`） */
+  no: number;
+  stem: string;
+  options: AiOption[];
+  answer: string | null;
+  explanation: string | null;
+  /** `user` 用户给的 / `ai` AI 补的 / `none` 都没有（AC8） */
+  answerSource: string;
+}
+
+/** AI 模式入参：`ImportPreview`（既有，不动）+ 所选题型 + 三档需求 + 题目区原文 */
 export interface AiDraft {
   preview: ImportPreview;
   section: AiSection;
+  /** 缺省 = `full`（与后端 `ImportMode::default()` 同口径） */
+  mode?: ImportMode;
+  /** 档 C 的题目区原文（切分产物，原样塞进提示词并用于逐字比对） */
+  questionText?: string | null;
 }
 
 /** `build_ai_prompt` 返回体：整段可复制的提示词 + 分批元信息 */
@@ -563,6 +609,8 @@ export interface AiQuestionOut {
   answer: string | null;
   explanation: string | null;
   missingAnswer: boolean;
+  /** M5c AC8：`user` 用户给的 / `ai` AI 补的 / `none` 都没有（库内 `question.answer_source`） */
+  answerSource: string;
 }
 
 export interface AiBlankOut {

@@ -1178,13 +1178,16 @@ pub fn commit_ai_import(
 }
 
 /// ⑤ 后补解析：只写解析四表，不动 `paragraph`/`sentence`/`token`
+/// M5c（05 §十一之三）：签名扩为 `(article_id, draft, matched)`——档 C 的逐字比对与
+/// `answer_source` 判定都在 `match_payload` 里按同一个 `draft` 做完，这里只转手。
 #[tauri::command]
 pub fn patch_ai_analysis(
     db: State<'_, Db>,
     article_id: i64,
+    draft: ai_import::AiDraft,
     matched: ai_import::AiMatched,
 ) -> Result<ai_import::AiPatchReport, CommandError> {
-    ai_import::patch_ai_analysis(&db, article_id, &matched)
+    ai_import::patch_ai_analysis(&db, article_id, &draft, &matched)
 }
 
 /// ⑥ 覆盖率回读（补解析入口的初值，不是 0）
@@ -1194,6 +1197,43 @@ pub fn get_ai_import_stats(
     article_id: i64,
 ) -> Result<ai_import::AiImportStats, CommandError> {
     ai_import::get_ai_import_stats(&db, article_id)
+}
+
+// ───────────────────── M5c · 导入重做（4 个新命令，薄包装；SQL 仍只在 ai_import.rs） ─────────────────────
+
+/// ⑦ 一次粘贴「原文 + 题目 + 答案」→ 自动切分正文区 / 题目区。**纯函数，不写库**
+#[tauri::command]
+pub fn split_user_input(raw: String) -> Result<ai_import::UserInputSplit, CommandError> {
+    Ok(ai_import::split_user_input(&raw))
+}
+
+/// ⑧ 改元信息（标题 / 考试类型 / 年份 / 题型 / 来源 / 难度）；原文三表不动
+#[tauri::command]
+pub fn update_article_meta(
+    db: State<'_, Db>,
+    article_id: i64,
+    patch: ai_import::ArticleMetaPatch,
+) -> Result<(), CommandError> {
+    ai_import::update_article_meta(&db, article_id, &patch)
+}
+
+/// ⑨ 读该篇题目（编辑面板初值）
+#[tauri::command]
+pub fn get_article_questions(
+    db: State<'_, Db>,
+    article_id: i64,
+) -> Result<Vec<ai_import::QuestionView>, CommandError> {
+    ai_import::get_article_questions(&db, article_id)
+}
+
+/// ⑩ 整批替换该篇题目（只写 `question` 表；`answer_source` 原样保留）
+#[tauri::command]
+pub fn replace_article_questions(
+    db: State<'_, Db>,
+    article_id: i64,
+    questions: Vec<ai_import::QuestionView>,
+) -> Result<Vec<ai_import::QuestionView>, CommandError> {
+    ai_import::replace_article_questions(&db, article_id, &questions)
 }
 
 #[cfg(test)]

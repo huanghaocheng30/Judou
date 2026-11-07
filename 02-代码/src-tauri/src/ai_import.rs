@@ -79,12 +79,59 @@ impl AiSection {
 
 // ───────────────────────── IPC 形状（camelCase） ─────────────────────────
 
+/// 三档需求（M5c 04 §6.2 第 2 步）：
+/// - `plain`（档 A）：只要原文，不要求 AI 产出任何东西，可直接入库；
+/// - `analysis`（档 B）：原文 + 解析（提示词带正文全文，不带题目区）；
+/// - `full`（档 C，默认）：原文 + 题目答案 + 解析（另带题目区原文，档 C 逐字比对）。
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Default, Serialize, Deserialize)]
+#[serde(rename_all = "lowercase")]
+pub enum ImportMode {
+    Plain,
+    Analysis,
+    #[default]
+    Full,
+}
+
+impl ImportMode {
+    pub fn as_str(self) -> &'static str {
+        match self {
+            Self::Plain => "plain",
+            Self::Analysis => "analysis",
+            Self::Full => "full",
+        }
+    }
+
+    pub fn parse(raw: &str) -> Option<Self> {
+        match raw.trim().to_ascii_lowercase().as_str() {
+            "plain" => Some(Self::Plain),
+            "analysis" => Some(Self::Analysis),
+            "full" => Some(Self::Full),
+            _ => None,
+        }
+    }
+}
+
 /// AI 模式入参：既有 `ImportPreview`（不动）+ 用户所选题型（02 §二.1 A4 落地）
+/// + M5c 的三档需求与题目区原文（档 C 用它做逐字比对与 `answer_source` 判定）。
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct AiDraft {
     pub preview: ImportPreview,
     pub section: AiSection,
+    #[serde(default)]
+    pub mode: ImportMode,
+    #[serde(default)]
+    pub question_text: Option<String>,
+}
+
+impl AiDraft {
+    /// 题目区原文（空串 / 全空白 → `None`）
+    pub fn question_area(&self) -> Option<&str> {
+        self.question_text
+            .as_deref()
+            .map(str::trim)
+            .filter(|text| !text.is_empty())
+    }
 }
 
 /// `build_ai_prompt` 的返回：整段可复制的提示词 + 分批元信息
@@ -262,6 +309,8 @@ pub struct AiQuestionOut {
     pub answer: Option<String>,
     pub explanation: Option<String>,
     pub missing_answer: bool,
+    /// M5c AC8：`user` 用户给的 / `ai` AI 补的 / `none` 都没有（写 `question.answer_source`）
+    pub answer_source: String,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -348,6 +397,45 @@ pub struct AiPatchReport {
     pub stats: AiImportStats,
 }
 
+/// 编辑元信息（AC9）：**只改 article 行的元信息列**，不碰 `paragraph`/`sentence`/`token`
+/// （原文是笔记与生词的坐标基准，04 §6.2 第 6 条）。
+#[derive(Debug, Clone, Default, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct ArticleMetaPatch {
+    #[serde(default)]
+    pub title: Option<String>,
+    #[serde(default)]
+    pub exam_type: Option<String>,
+    #[serde(default)]
+    pub exam_year: Option<i64>,
+    #[serde(default)]
+    pub section_type: Option<String>,
+    #[serde(default)]
+    pub source: Option<String>,
+    #[serde(default)]
+    pub difficulty: Option<String>,
+}
+
+/// 题目视图：`get_article_questions` 下发、`replace_article_questions` 入参（同一形状，零转换）
+#[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct QuestionView {
+    pub no: i64,
+    pub stem: String,
+    #[serde(default)]
+    pub options: Vec<AiOption>,
+    #[serde(default)]
+    pub answer: Option<String>,
+    #[serde(default)]
+    pub explanation: Option<String>,
+    #[serde(default = "default_answer_source")]
+    pub answer_source: String,
+}
+
+fn default_answer_source() -> String {
+    "none".to_string()
+}
+
 /// `--dump` 的读数（AC8/AC9/AC12 的机械判据）
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -422,6 +510,22 @@ pub fn build_prompt(draft: &AiDraft, batch_size: u32) -> AiPrompt {
     };
 
     let mut out = String::new();
+    if draft.mode == ImportMode::Plain {
+        // 档 A：只读原文，不需要 AI 产出（AC2/AC6：提示词不要求 sentences[]/analysis）
+        out.push_str("【档 A · 只要原文】\n");
+        out.push_str("这篇只需要原文：不需要句级解析、不需要题目、不需要词条。\n");
+        out.push_str("App 会自己切段、切句、分词并计算偏移；你不需要输出任何内容，也不需要复制这段提示词。\n");
+        out.push_str("直接点「导入这篇文章」即可入库。\n");
+        return AiPrompt {
+            text: out,
+            section: draft.section,
+            sentence_count: total,
+            batch_size: batch as u32,
+            batch_count,
+            batch_hint,
+        };
+    }
+
     out.push_str("你是一位英语四级阅读解析助手。请阅读 App 提供的英文原文，按下面的 JSON 契约输出**一个 JSON 对象**。\n\n");
     out.push_str("【总要求】\n");
     out.push_str("1. 只输出 JSON：不要 ``` 围栏，不要前后解释文字。\n");
@@ -431,15 +535,49 @@ pub fn build_prompt(draft: &AiDraft, batch_size: u32) -> AiPrompt {
         "4. section 必须回填 \"{}\"（与本次题型一致，不一致会被拒收）。\n",
         draft.section.as_str()
     ));
-    out.push_str(&format!("5. packVersion 回填 \"{PACK_VERSION}\"。\n\n"));
+    out.push_str(&format!("5. packVersion 回填 \"{PACK_VERSION}\"。\n"));
+    if draft.mode == ImportMode::Full {
+        out.push_str(
+            "6. 题目与答案**只对齐、不生成**：题干与选项必须逐字照抄用户给的题目区，禁止新增题目、禁止改写题干、禁止另编选项。\n\
+   7. 用户已给答案的题，answer 照抄原值；用户没给答案的题可以补，但必须在该题写 answerSource: \"ai\"；用户给的答案写 answerSource: \"user\"；都没有就写 answerSource: \"none\"。\n",
+        );
+    }
+    out.push('\n');
     out.push_str(&format!("【本次题型】{}（{}）\n", draft.section.label(), draft.section.as_str()));
     out.push_str(&section_notes(draft.section));
     out.push_str("\n【JSON 契约】\n");
     out.push_str(&json_skeleton(draft.section));
     out.push_str("\n\n");
+
+    // M5c D0②（承重 2）：档 B/C 把**全篇正文按段落拼接、原样注入**（位置在句子清单之前）。
+    // 判据（AC5）= 提示词去空白后包含正文全文去空白——不是「含首句」这类可被 24 字符前缀假命中的写法。
+    let body_text: String = draft
+        .preview
+        .paragraphs
+        .iter()
+        .map(|paragraph| paragraph.text.as_str())
+        .collect::<Vec<_>>()
+        .join("\n\n");
+    out.push_str(&format!(
+        "【正文全文】共 {} 段（逐句解析它；quote 必须是这里的逐字符拷贝，不要改写原文）\n",
+        draft.preview.stats.paragraph_count
+    ));
+    out.push_str(&body_text);
+    out.push_str("\n\n");
+
+    // 档 C：题目区原文原样注入（含题干、选项与答案行）。档 B 明确**不带**题目区（AC6）。
+    if draft.mode == ImportMode::Full {
+        if let Some(questions) = draft.question_area() {
+            out.push_str("【用户提供的题目与答案（档 C：逐字对齐，不得改写 / 不得新增）】\n");
+            out.push_str(questions);
+            out.push_str("\n\n");
+        }
+    }
+
     out.push_str(&format!(
         "【句子清单】共 {total} 句（按原文顺序；每行 = S 编号 + 原文前 {SENTENCE_PREVIEW_CHARS} 个字符）\n"
     ));
+
     let mut ordinal = 1usize;
     for paragraph in &draft.preview.paragraphs {
         for sentence in &paragraph.sentences {
@@ -461,7 +599,7 @@ pub fn build_prompt(draft: &AiDraft, batch_size: u32) -> AiPrompt {
     } else {
         out.push_str(&format!("当前 {total} 句 ≤ 每批 {batch} 句，一次可给完。\n"));
     }
-    out.push_str("\n【提醒】正文请把你手上这篇原文整段粘给我（不要只给句子清单里的 24 字符片段），否则 quote 无法逐字对齐。\n");
+    out.push_str("\n【提醒】正文已在上面的【正文全文】里给出，quote 必须是其中的逐字符拷贝；句子清单只是定位辅助。\n");
 
     AiPrompt {
         text: out,
@@ -471,6 +609,209 @@ pub fn build_prompt(draft: &AiDraft, batch_size: u32) -> AiPrompt {
         batch_count,
         batch_hint,
     }
+}
+
+// ───────────────────────── ①-b M5c · 正文区 / 题目区自动切分（04 §6.2.1） ─────────────────────────
+
+/// 一次粘贴「原文 + 题目 + 答案」后的切分结果（02 §三.1 契约 + `question_count` 供界面显示 K 道题）。
+#[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct UserInputSplit {
+    pub body_text: String,
+    pub question_text: String,
+    /// 题目区起点（**1-based 行号**，与界面显示同口径）；`detected=false` 时为 None
+    pub question_start_line: Option<usize>,
+    pub detected: bool,
+    pub reason: String,
+    /// 题目区里命中题号正则的行数（AC3 的 K，N5 口径）
+    pub question_count: i64,
+}
+
+/// 行首题号：`^\s*\d{1,3}\s*[.、．)]\s*\S`（02 §三.2；要求分隔符后**有非空字符**，排除纯数字短行）
+fn question_no_of(line: &str) -> Option<i64> {
+    let trimmed = line.trim_start();
+    let digits: String = trimmed.chars().take_while(char::is_ascii_digit).collect();
+    if digits.is_empty() || digits.len() > 3 {
+        return None;
+    }
+    let rest = &trimmed[digits.len()..];
+    let rest = rest.trim_start();
+    let mut chars = rest.chars();
+    match chars.next() {
+        Some('.') | Some('、') | Some('．') | Some(')') => {}
+        _ => return None,
+    }
+    if chars.as_str().trim_start().is_empty() {
+        return None;
+    }
+    digits.parse::<i64>().ok()
+}
+
+/// 题型标题行（02 §三.2 第二类候选）
+fn is_section_title_line(line: &str) -> bool {
+    let trimmed = line.trim_start();
+    let lower = trimmed.to_ascii_lowercase();
+    for prefix in ["section ", "part ", "passage "] {
+        if lower.starts_with(prefix) {
+            return true;
+        }
+    }
+    for prefix in ["directions:", "directions：", "questions "] {
+        if lower.starts_with(prefix) {
+            return true;
+        }
+    }
+    for prefix in ["选词填空", "长篇阅读", "仔细阅读"] {
+        if trimmed.starts_with(prefix) {
+            return true;
+        }
+    }
+    false
+}
+
+/// 正文区 / 题目区自动切分（02 §三.2 的可执行版）。
+///
+/// 规则：逐行扫描 → 题号行或题型标题行为候选 → 取最靠前候选 `L`；`L` 之后 5 行内题号行 ≥2
+/// 才确认（避免正文里的「2024.」被误判）→ 否则继续找下一候选；全不中 → `detected=false`
+/// 且 `question_text` 为空串（**不猜**）。
+///
+/// ponytail: 确认口���用「原始行」而非「去掉空行的行」——设计写死「其后 5 行」，这里不擅自放宽。
+/// 天花板：题干与选项分行的卷面（题干行后紧跟 4 个选项行）可能通不过 5 行确认，用户可用
+/// 「手动标记题目区起点」纠正（04 §6.2.1 第 4 条给的就是这个逃生口）。
+/// 升级路径：若要把窗口放宽到「其后 5 个非空行」，改这一处循环即可。
+pub fn split_user_input(raw: &str) -> UserInputSplit {
+    let lines: Vec<&str> = raw.lines().collect();
+    let mut index = 0usize;
+    while index < lines.len() {
+        let candidate = question_no_of(lines[index]).is_some() || is_section_title_line(lines[index]);
+        if candidate {
+            let confirm = (1..=5)
+                .filter(|offset| lines.get(index + offset).map(|line| question_no_of(line).is_some()).unwrap_or(false))
+                .count();
+            if confirm >= 2 {
+                let question_count = lines[index..]
+                    .iter()
+                    .filter(|line| question_no_of(line).is_some())
+                    .count() as i64;
+                return UserInputSplit {
+                    body_text: lines[..index].join("\n").trim_end().to_string(),
+                    question_text: lines[index..].join("\n").trim_end().to_string(),
+                    question_start_line: Some(index + 1),
+                    detected: true,
+                    reason: format!("第 {} 行起识别为题目区", index + 1),
+                    question_count,
+                };
+            }
+        }
+        index += 1;
+    }
+    UserInputSplit {
+        body_text: raw.trim_end().to_string(),
+        question_text: String::new(),
+        question_start_line: None,
+        detected: false,
+        reason: "没识别到题目区".to_string(),
+        question_count: 0,
+    }
+}
+
+/// 用户题目区里的一道题（02 §三.4 的宽松解析结果）
+#[derive(Debug, Clone, PartialEq, Eq)]
+struct UserQuestion {
+    no: i64,
+    stem: String,
+    options: Vec<String>,
+    answer: Option<String>,
+}
+
+/// 选项行：`^[A-D][.、)]`
+fn option_of(line: &str) -> Option<String> {
+    let trimmed = line.trim_start();
+    let mut chars = trimmed.chars();
+    let letter = chars.next()?;
+    if !matches!(letter, 'A'..='D') {
+        return None;
+    }
+    let rest = chars.as_str();
+    let mut rest_chars = rest.chars();
+    match rest_chars.next() {
+        Some('.') | Some('、') | Some(')') | Some('．') => {}
+        _ => return None,
+    }
+    Some(rest_chars.as_str().trim().to_string())
+}
+
+/// 答案行：`answer`/`答案` 前缀，或整行就是单个答案字母（02 §三.4）
+fn answer_of(line: &str) -> Option<String> {
+    let trimmed = line.trim();
+    let lower = trimmed.to_ascii_lowercase();
+    for prefix in ["answer:", "answer：", "答案:", "答案：", "答案"] {
+        if lower.starts_with(prefix) || trimmed.starts_with(prefix) {
+            let value = trimmed[prefix.len()..].trim();
+            return normalize_answer(value);
+        }
+    }
+    normalize_answer(trimmed)
+}
+
+/// 答案归一：只保留字母（`B` / `B.` / `b` → `B`）；不是单字母就返回 None
+fn normalize_answer(raw: &str) -> Option<String> {
+    let letters: String = raw.chars().filter(|c| c.is_ascii_alphabetic()).collect();
+    if letters.chars().count() != 1 {
+        return None;
+    }
+    Some(letters.to_ascii_uppercase())
+}
+
+fn parse_user_questions(question_text: &str) -> Vec<UserQuestion> {
+    let mut out: Vec<UserQuestion> = Vec::new();
+    for line in question_text.lines() {
+        if let Some(no) = question_no_of(line) {
+            // 题号行之后的剩余部分即题干首行
+            let rest = line.trim_start();
+            let after_digits = rest.trim_start_matches(|c: char| c.is_ascii_digit()).trim_start();
+            let stem = after_digits
+                .trim_start_matches(['.', '、', '．', ')'])
+                .trim()
+                .to_string();
+            out.push(UserQuestion {
+                no,
+                stem,
+                options: Vec::new(),
+                answer: None,
+            });
+            continue;
+        }
+        let Some(current) = out.last_mut() else {
+            continue;
+        };
+        if let Some(text) = option_of(line) {
+            current.options.push(text);
+            continue;
+        }
+        if let Some(answer) = answer_of(line) {
+            current.answer = Some(answer);
+            continue;
+        }
+        if !line.trim().is_empty() {
+            if current.stem.is_empty() {
+                current.stem = line.trim().to_string();
+            } else {
+                current.stem.push(' ');
+                current.stem.push_str(line.trim());
+            }
+        }
+    }
+    out
+}
+
+fn question_mismatch(message: impl Into<String>, path: &str) -> CommandError {
+    ai_err("AI_QUESTION_MISMATCH", message, path)
+}
+
+/// 去空白（档 C 逐字比对的唯一归一：只去空白，不改大小写、不改标点）
+fn strip_ws(text: &str) -> String {
+    text.chars().filter(|c| !c.is_whitespace()).collect()
 }
 
 fn section_notes(section: AiSection) -> &'static str {
@@ -933,6 +1274,12 @@ pub fn match_payload(draft: &AiDraft, payload: &AiPayload) -> Result<AiMatched, 
     let paragraph_count = draft.preview.stats.paragraph_count;
     let mut questions: Vec<AiQuestionOut> = Vec::new();
     let mut missing_answer = 0i64;
+    // 档 C：用户题目区原文 → 用于逐字比对与 answer_source 判定（02 §三.4 / §三.5）
+    let user_questions: Option<Vec<UserQuestion>> = if draft.mode == ImportMode::Full {
+        draft.question_area().map(parse_user_questions)
+    } else {
+        None
+    };
     for (index, question) in payload.questions.iter().flatten().enumerate() {
         let raw = question
             .answer
@@ -958,14 +1305,78 @@ pub fn match_payload(draft: &AiDraft, payload: &AiPayload) -> Result<AiMatched, 
             missing = true;
             missing_answer += 1;
         }
+
+        // M5c AC7/AC8：档 C 逐字比对（题干 / 选项 / 答案）与 answer_source 三值
+        let mut answer_source = "none".to_string();
+        if let Some(user_list) = &user_questions {
+            let user = user_list.iter().find(|item| item.no == question.no);
+            match user {
+                Some(item) => {
+                    if strip_ws(&item.stem) != strip_ws(&question.stem) {
+                        return Err(question_mismatch(
+                            format!(
+                                "第 {} 题的题干与你给的题目区不一致：题目只能对齐、不能改写。请让 AI 逐字照抄题目区，或修正题目区后重试。",
+                                question.no
+                            ),
+                            &format!("questions[{index}].stem"),
+                        ));
+                    }
+                    let payload_options: Vec<String> =
+                        question.options.iter().map(|option| strip_ws(&option.text)).collect();
+                    let user_options: Vec<String> = item.options.iter().map(|text| strip_ws(text)).collect();
+                    if payload_options != user_options {
+                        return Err(question_mismatch(
+                            format!(
+                                "第 {} 题的选项与你给的题目区不一致：选项必须逐字照抄题目区（不得另编）。",
+                                question.no
+                            ),
+                            &format!("questions[{index}].options"),
+                        ));
+                    }
+                    if let Some(user_answer) = &item.answer {
+                        match answer.as_deref() {
+                            Some(got) if got.eq_ignore_ascii_case(user_answer) => {
+                                answer_source = "user".to_string();
+                            }
+                            _ => {
+                                return Err(question_mismatch(
+                                    format!(
+                                        "第 {} 题的答案与题目区里给的答案不一致：你给的是 {}，题目区写的是 {}。答案只能对齐，不能改写。",
+                                        question.no,
+                                        answer.as_deref().unwrap_or("<无>"),
+                                        user_answer
+                                    ),
+                                    &format!("questions[{index}].answer"),
+                                ));
+                            }
+                        }
+                    } else if answer.is_some() {
+                        answer_source = "ai".to_string();
+                    }
+                }
+                None => {
+                    return Err(question_mismatch(
+                        format!(
+                            "第 {} 题不在你给的题目区里：题目只能对齐、禁止新增。请让 AI 不要输出题目区之外的题。",
+                            question.no
+                        ),
+                        &format!("questions[{index}].stem"),
+                    ));
+                }
+            }
+        } else if answer.is_some() {
+            answer_source = "ai".to_string();
+        }
+
         questions.push(AiQuestionOut {
             idx: index as i64,
             no: question.no,
             stem: question.stem.clone(),
             options: question.options.clone(),
-            answer,
+            answer: answer.clone(),
             explanation: question.explanation.clone(),
             missing_answer: missing,
+            answer_source,
         });
     }
 
@@ -1145,7 +1556,8 @@ pub fn commit_ai_import(
     matched: &AiMatched,
     meta: &AiCommitMeta,
 ) -> Result<AiCommitReport, CommandError> {
-    if matched.matched.is_empty() {
+    // 档 A（plain）：只要原文，不要求任何解析 → `matched` 为空也必须能入库（AC2）。
+    if matched.matched.is_empty() && draft.mode != ImportMode::Plain {
         return Err(no_match());
     }
     let import_meta = ImportMeta {
@@ -1193,9 +1605,37 @@ pub fn commit_ai_import(
 
 /// 后补解析：**只写** `sentence_analysis`/`question`/`lexicon`/`blank` 四张解析表，
 /// 不动 `paragraph`/`sentence`/`token`（05 约束 6：笔记与生词引用不失效）。
-pub fn patch_ai_analysis(db: &Db, article_id: i64, matched: &AiMatched) -> Result<AiPatchReport, CommandError> {
+///
+/// M5c（05 §十一之三）：签名扩为 `(article_id, draft, matched)`——档 C 的逐字比对与
+/// `answer_source` 判定在 `match_payload` 里已经按同一个 `draft` 做完，这里再用 `draft.section`
+/// 复核题型一致（拿错模板的 matched 写进来会被挡下），并把题型回写到 `article.section_type`。
+pub fn patch_ai_analysis(
+    db: &Db,
+    article_id: i64,
+    draft: &AiDraft,
+    matched: &AiMatched,
+) -> Result<AiPatchReport, CommandError> {
     ensure_article(db, article_id)?;
-    let counts = db.write(|tx| write_analysis_rows(tx, article_id, matched))?;
+    if matched.section != draft.section {
+        return Err(type_mismatch(
+            format!(
+                "题型不一致：本次模板是「{}」（{}），待写入的解析是「{}」（{}）。请用同一题型重新匹配后再补解析。",
+                draft.section.label(),
+                draft.section.as_str(),
+                matched.section.label(),
+                matched.section.as_str()
+            ),
+            "section",
+        ));
+    }
+    let counts = db.write(|tx| {
+        tx.execute(
+            "UPDATE article SET section_type = ?1, updated_at = datetime('now') WHERE id = ?2",
+            params![draft.section.as_str(), article_id],
+        )
+        .map_err(|err| CommandError::db("写题型", err))?;
+        write_analysis_rows(tx, article_id, matched)
+    })?;
     let stats = get_ai_import_stats(db, article_id)?;
     Ok(AiPatchReport {
         article_id,
@@ -1212,6 +1652,121 @@ struct WriteCounts {
     questions: i64,
     blanks: i64,
     lexicon: i64,
+}
+
+// ───────────────────────── ⑥ M5c · 编辑元信息 / 题目（AC9/AC10；SQL 只在本文件） ─────────────────────────
+
+/// 改元信息：标题 / 考试类型 / 年份 / 题型 / 来源 / 难度。**只 UPDATE article 一行**。
+pub fn update_article_meta(db: &Db, article_id: i64, patch: &ArticleMetaPatch) -> Result<(), CommandError> {
+    ensure_article(db, article_id)?;
+    if let Some(exam_type) = patch.exam_type.as_deref() {
+        if !matches!(exam_type, "cet4" | "cet6" | "other") {
+            return Err(CommandError {
+                code: "ARTICLE_META_INVALID".to_string(),
+                message: format!("考试类型只能是 cet4 / cet6 / other，当前是「{exam_type}」。"),
+                path: Some("examType".to_string()),
+            });
+        }
+    }
+    if let Some(title) = patch.title.as_deref() {
+        if title.trim().is_empty() {
+            return Err(CommandError {
+                code: "ARTICLE_META_INVALID".to_string(),
+                message: "标题不能为空。".to_string(),
+                path: Some("title".to_string()),
+            });
+        }
+    }
+    db.write(|tx| {
+        tx.execute(
+            "UPDATE article SET
+               title        = COALESCE(?1, title),
+               exam_type    = COALESCE(?2, exam_type),
+               exam_year    = COALESCE(?3, exam_year),
+               section_type = COALESCE(?4, section_type),
+               source       = COALESCE(?5, source),
+               difficulty   = COALESCE(?6, difficulty),
+               updated_at   = datetime('now')
+             WHERE id = ?7",
+            params![
+                patch.title.as_deref().map(str::trim),
+                patch.exam_type.as_deref(),
+                patch.exam_year,
+                patch.section_type.as_deref(),
+                patch.source.as_deref(),
+                patch.difficulty.as_deref(),
+                article_id,
+            ],
+        )
+        .map(|_| ())
+        .map_err(|err| CommandError::db("更新文章元信息", err))
+    })
+}
+
+/// 读该篇题目（编辑面板初值）：`idx` 即试卷题号
+pub fn get_article_questions(db: &Db, article_id: i64) -> Result<Vec<QuestionView>, CommandError> {
+    db.read(|conn| {
+        let mut stmt = conn
+            .prepare(
+                "SELECT idx, stem, options_json, answer, explanation, answer_source
+                 FROM question WHERE article_id = ?1 ORDER BY idx",
+            )
+            .map_err(|err| CommandError::db("准备题目查询", err))?;
+        let rows = stmt
+            .query_map([article_id], |row| {
+                let options_json: Option<String> = row.get(2)?;
+                Ok(QuestionView {
+                    no: row.get(0)?,
+                    stem: row.get(1)?,
+                    options: options_json
+                        .as_deref()
+                        .and_then(|raw| serde_json::from_str::<Vec<AiOption>>(raw).ok())
+                        .unwrap_or_default(),
+                    answer: row.get(3)?,
+                    explanation: row.get(4)?,
+                    answer_source: row.get(5)?,
+                })
+            })
+            .map_err(|err| CommandError::db("查询题目", err))?;
+        let mut out = Vec::new();
+        for row in rows {
+            out.push(row.map_err(|err| CommandError::db("读取题目", err))?);
+        }
+        Ok(out)
+    })
+}
+
+/// 整批替换该篇题目（AC10）：**只写 `question` 表**，原文与笔记不动；`answer_source` 原样保留。
+pub fn replace_article_questions(
+    db: &Db,
+    article_id: i64,
+    questions: &[QuestionView],
+) -> Result<Vec<QuestionView>, CommandError> {
+    ensure_article(db, article_id)?;
+    db.write(|tx| {
+        tx.execute("DELETE FROM question WHERE article_id = ?1", [article_id])
+            .map_err(|err| CommandError::db("清空旧题目", err))?;
+        let mut stmt = tx
+            .prepare(
+                "INSERT INTO question (article_id, idx, stem, options_json, answer, explanation, answer_source)
+                 VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7)",
+            )
+            .map_err(|err| CommandError::db("准备题目写入", err))?;
+        for question in questions {
+            stmt.execute(params![
+                article_id,
+                question.no,
+                question.stem.as_str(),
+                serde_json::to_string(&question.options).unwrap_or_else(|_| "[]".to_string()),
+                question.answer.as_deref(),
+                question.explanation.as_deref(),
+                question.answer_source.as_str(),
+            ])
+            .map_err(|err| CommandError::db("写入题目", err))?;
+        }
+        Ok(())
+    })?;
+    get_article_questions(db, article_id)
 }
 
 /// 四张解析表的唯一写入实现（commit 与 patch 共用；命令层与 bin 都不得复制）
@@ -1287,17 +1842,19 @@ fn write_analysis_rows(
 
     // ② question：(article_id, idx) 唯一；`idx` 写**试卷题号**（payload `questions[].no`，
     //    与 `blank.blank_no` 同源，对齐既有 `import.rs` 的 `question.no` 约定），重复补解析按题号修订
+    //    M5c AC8：commit 与 patch 共用这一处写入，所以两条路径的 `answer_source` 天然一致。
     let mut questions = 0i64;
     {
         let mut stmt = tx
             .prepare(
-                "INSERT INTO question (article_id, idx, stem, options_json, answer, explanation)
-                 VALUES (?1, ?2, ?3, ?4, ?5, ?6)
+                "INSERT INTO question (article_id, idx, stem, options_json, answer, explanation, answer_source)
+                 VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7)
                  ON CONFLICT(article_id, idx) DO UPDATE SET
                    stem = excluded.stem,
                    options_json = excluded.options_json,
                    answer = excluded.answer,
-                   explanation = excluded.explanation",
+                   explanation = excluded.explanation,
+                   answer_source = excluded.answer_source",
             )
             .map_err(|err| CommandError::db("准备题目写入", err))?;
         for question in &matched.questions {
@@ -1308,6 +1865,7 @@ fn write_analysis_rows(
                 serde_json::to_string(&question.options).unwrap_or_else(|_| "[]".to_string()),
                 question.answer.as_deref(),
                 question.explanation.as_deref(),
+                question.answer_source.as_str(),
             ])
             .map_err(|err| CommandError::db("写入题目", err))?;
             questions += 1;
@@ -1716,6 +2274,8 @@ mod tests {
         AiDraft {
             preview: preview_of(text),
             section,
+            mode: ImportMode::Full,
+            question_text: None,
         }
     }
 
@@ -2078,7 +2638,7 @@ mod tests {
         assert_eq!(before.sentences, 2);
 
         // 二次提交同一批 → 解析行数不变、词条不新增（INSERT OR IGNORE）
-        let again = patch_ai_analysis(&db, report.article_id, &matched).expect("补解析应成功");
+        let again = patch_ai_analysis(&db, report.article_id, &draft, &matched).expect("补解析应成功");
         assert_eq!(again.analysis_written, 2);
         assert_eq!(again.lexicon_inserted, 0, "同批词条二次提交不得新增行");
         let after = article_counts(&db, report.article_id).expect("读数应成功");
@@ -2140,6 +2700,229 @@ mod tests {
             vec![46, 47],
             "question.idx 必须是试卷题号（payload questions[].no），不是批内下标 0..N"
         );
+        std::fs::remove_dir_all(&dir).ok();
+    }
+
+    // ──────────── M5c · D0 新增（切分 4 / 三档提示词 3 / 题目一致性 2 / 答案来源 1） ────────────
+
+    fn draft_with(text: &str, section: AiSection, mode: ImportMode, questions: Option<&str>) -> AiDraft {
+        AiDraft {
+            preview: preview_of(text),
+            section,
+            mode,
+            question_text: questions.map(str::to_string),
+        }
+    }
+
+    fn strip_ws(text: &str) -> String {
+        text.chars().filter(|c| !c.is_whitespace()).collect()
+    }
+
+    #[test]
+    fn split_detects_question_area_and_keeps_body_clean() {
+        let raw = "Reading builds a habit.\nPractice helps a lot.\n\n46. What is the main idea?\n47. Why does practice matter?\n48. What does the author suggest?\n";
+        let split = split_user_input(raw);
+        assert!(split.detected, "题目区应被识别：{}", split.reason);
+        assert_eq!(split.question_start_line, Some(4), "1-based 行号（第 3 行是空行，题目区从第 4 行起）");
+        assert!(split.body_text.contains("Reading builds a habit."));
+        assert!(!split.body_text.contains("46."), "正文不得含题目行");
+        assert!(split.question_text.starts_with("46."));
+        assert_eq!(split.question_count, 3);
+    }
+
+    #[test]
+    fn split_without_question_area_does_not_guess() {
+        let raw = "Reading builds a habit. Practice helps a lot.";
+        let split = split_user_input(raw);
+        assert!(!split.detected, "没有题号区时不得瞎猜");
+        assert_eq!(split.question_text, "", "切不中时题目区为空串");
+        assert_eq!(split.question_start_line, None);
+        assert_eq!(split.body_text, raw);
+    }
+
+    #[test]
+    fn split_ignores_lone_numbered_line_in_body() {
+        let raw = "2024. was a hard year.\nStudents complained a lot.\nTeachers agreed.\nNobody smiled.\nIt rained.\nWe left.";
+        let split = split_user_input(raw);
+        assert!(!split.detected, "单个疑似行不得确认：{}", split.reason);
+    }
+
+    #[test]
+    fn split_uses_section_title_as_question_start() {
+        let raw = "Reading builds a habit.\n\nDirections: read the passage.\n46. First?\n47. Second?\n";
+        let split = split_user_input(raw);
+        assert!(split.detected);
+        assert_eq!(split.question_start_line, Some(3));
+        assert_eq!(split.question_count, 2, "题型标题行本身不计题数");
+    }
+
+    #[test]
+    fn prompt_full_embeds_whole_body_and_questions() {
+        let text = "Reading builds a habit over time.\n\nPractice makes the habit stronger every single day.";
+        let questions = "46. What is the main idea?\nA. Habit\nB. Practice\nC. Reading\nD. Time";
+        let draft = draft_with(text, AiSection::Careful, ImportMode::Full, Some(questions));
+        let prompt = build_prompt(&draft, 15);
+        let body: String = draft
+            .preview
+            .paragraphs
+            .iter()
+            .map(|paragraph| paragraph.text.as_str())
+            .collect::<Vec<_>>()
+            .join("");
+        assert!(
+            strip_ws(&prompt.text).contains(&strip_ws(&body)),
+            "档 C 提示词必须内嵌正文全文（判据：去空白后 contains）"
+        );
+        assert!(prompt.text.contains("46. What is the main idea?"), "档 C 必须带题目区原文");
+        assert!(prompt.text.contains("answerSource"), "档 C 必须声明 answerSource 口径");
+        assert!(
+            !prompt.text.contains("正文请把你手上这篇原文整段粘给我"),
+            "L464 的旧文案（让用户自己粘正文）必须消除"
+        );
+    }
+
+    #[test]
+    fn prompt_analysis_has_body_but_no_questions() {
+        let text = "Reading builds a habit over time.";
+        let draft = draft_with(text, AiSection::Careful, ImportMode::Analysis, Some("46. 不应出现"));
+        let prompt = build_prompt(&draft, 15);
+        assert!(strip_ws(&prompt.text).contains("Readingbuildsahabit"));
+        assert!(!prompt.text.contains("46. 不应出现"), "档 B 不得带题目区");
+    }
+
+    #[test]
+    fn prompt_plain_requires_no_analysis() {
+        let draft = draft_with("Reading builds a habit.", AiSection::Careful, ImportMode::Plain, None);
+        let prompt = build_prompt(&draft, 15);
+        assert!(!prompt.text.contains("\"sentences\""), "档 A 不得要求 sentences[]");
+        assert!(!prompt.text.contains("structMarkup"), "档 A 不得要求解析字段");
+        assert!(prompt.text.contains("不需要"), "档 A 必须声明不需要 AI 产出");
+    }
+
+    fn full_draft() -> AiDraft {
+        let text = "Reading builds a habit over time. Practice makes it stronger every day.";
+        let questions = "46. What is the main idea?\nA. Habit\nB. Practice\nC. Reading\nD. Time\n\
+47. Why practice?\nA. grows\nB. stops\nC. hides\nD. waits\n答案 B\n\
+48. What follows?\nA. rest\nB. work\nC. play\nD. sleep";
+        draft_with(text, AiSection::Careful, ImportMode::Full, Some(questions))
+    }
+
+    fn four_options(texts: [&str; 4]) -> Vec<Value> {
+        texts
+            .iter()
+            .enumerate()
+            .map(|(index, text)| json!({"key": ((b'A' + index as u8) as char).to_string(), "text": text}))
+            .collect()
+    }
+
+    #[test]
+    fn question_stem_mismatch_is_rejected() {
+        let draft = full_draft();
+        let payload = payload_of(json!({
+            "section": "careful",
+            "sentences": [{"quote": "Reading builds a habit over time.", "analysis": analysis("")}],
+            "questions": [{
+                "no": 46, "stem": "AI 自己编的题干", "options": four_options(["Habit", "Practice", "Reading", "Time"])
+            }]
+        }));
+        let err = match_payload(&draft, &payload).unwrap_err();
+        assert_eq!(err.code, "AI_QUESTION_MISMATCH");
+        assert_eq!(err.path.as_deref(), Some("questions[0].stem"));
+    }
+
+    #[test]
+    fn question_options_and_answer_mismatch_are_rejected() {
+        let draft = full_draft();
+        let bad_options = payload_of(json!({
+            "section": "careful",
+            "sentences": [{"quote": "Reading builds a habit over time.", "analysis": analysis("")}],
+            "questions": [{
+                "no": 46, "stem": "What is the main idea?", "options": four_options(["习惯", "练习", "阅读", "时间"])
+            }]
+        }));
+        let err = match_payload(&draft, &bad_options).unwrap_err();
+        assert_eq!(err.code, "AI_QUESTION_MISMATCH");
+        assert_eq!(err.path.as_deref(), Some("questions[0].options"));
+
+        let bad_answer = payload_of(json!({
+            "section": "careful",
+            "sentences": [{"quote": "Reading builds a habit over time.", "analysis": analysis("")}],
+            "questions": [{
+                "no": 47, "stem": "Why practice?", "options": four_options(["grows", "stops", "hides", "waits"]),
+                "answer": "A"
+            }]
+        }));
+        let err = match_payload(&draft, &bad_answer).unwrap_err();
+        assert_eq!(err.code, "AI_QUESTION_MISMATCH");
+        assert_eq!(err.path.as_deref(), Some("questions[0].answer"));
+    }
+
+    /// AC8：三值 `user` / `ai` / `none` 由「用户题目区有没有答案 + payload 是否一致」判定
+    #[test]
+    fn answer_source_three_values_from_user_question_area() {
+        let draft = full_draft();
+        let payload = payload_of(json!({
+            "section": "careful",
+            "sentences": [{"quote": "Reading builds a habit over time.", "analysis": analysis("")}],
+            "questions": [
+                {"no": 46, "stem": "What is the main idea?", "options": four_options(["Habit", "Practice", "Reading", "Time"]), "answer": "B"},
+                {"no": 47, "stem": "Why practice?", "options": four_options(["grows", "stops", "hides", "waits"]), "answer": "B"},
+                {"no": 48, "stem": "What follows?", "options": four_options(["rest", "work", "play", "sleep"]), "answer": null}
+            ]
+        }));
+        let matched = match_payload(&draft, &payload).expect("档 C 一致时不得拒收");
+        let sources: Vec<&str> = matched.questions.iter().map(|q| q.answer_source.as_str()).collect();
+        assert_eq!(sources, vec!["ai", "user", "none"], "46 AI 补 / 47 用户给 / 48 都没有");
+    }
+
+    /// AC8：`commit_ai_import` 与 `patch_ai_analysis` 两条路径都写 `question.answer_source`
+    #[test]
+    fn answer_source_written_on_both_commit_and_patch() {
+        let draft = full_draft();
+        let payload = payload_of(json!({
+            "section": "careful",
+            "sentences": [{"quote": "Reading builds a habit over time.", "analysis": analysis("")}],
+            "questions": [
+                {"no": 46, "stem": "What is the main idea?", "options": four_options(["Habit", "Practice", "Reading", "Time"]), "answer": "B"},
+                {"no": 47, "stem": "Why practice?", "options": four_options(["grows", "stops", "hides", "waits"]), "answer": "B"}
+            ]
+        }));
+        let matched = match_payload(&draft, &payload).expect("匹配应成功");
+
+        let nanos = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .expect("系统时间异常")
+            .as_nanos();
+        let dir = std::env::temp_dir().join(format!("judou-answer-source-{nanos}"));
+        std::fs::create_dir_all(&dir).expect("建临时目录失败");
+        let db = Db::open(dir.join("judou.db")).expect("迁移应成功");
+
+        let report = commit_ai_import(&db, &draft, &matched, &AiCommitMeta::default()).expect("入库应成功");
+        let read_sources = |article_id: i64| -> Vec<String> {
+            db.read(|conn| {
+                let mut stmt = conn
+                    .prepare("SELECT answer_source FROM question WHERE article_id = ?1 ORDER BY idx")
+                    .map_err(|err| CommandError::db("准备答案来源查询", err))?;
+                let rows = stmt
+                    .query_map([article_id], |row| row.get::<_, String>(0))
+                    .map_err(|err| CommandError::db("查询答案来源", err))?;
+                let mut out = Vec::new();
+                for row in rows {
+                    out.push(row.map_err(|err| CommandError::db("读取答案来源", err))?);
+                }
+                Ok(out)
+            })
+            .expect("答案来源回读应成功")
+        };
+        assert_eq!(read_sources(report.article_id), vec!["ai", "user"], "commit 路径必须写三值");
+
+        patch_ai_analysis(&db, report.article_id, &draft, &matched).expect("补解析应成功");
+        assert_eq!(
+            read_sources(report.article_id),
+            vec!["ai", "user"],
+            "patch 路径同样必须写 answer_source"
+        );
+
         std::fs::remove_dir_all(&dir).ok();
     }
 }

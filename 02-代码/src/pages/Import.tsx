@@ -1,33 +1,34 @@
 /**
- * 导入页（M5 快速导入 + M5b AI 解析导入，02 v1.2a D3）。
+ * 导入页（M5c：**单一「AI 解析导入」流程**，02 §二 D3）。
  *
- * 双 Tab（`data-import-mode`）：
- *   - **快速导入**（M5，原样不动）：粘文本 → 预览 → 剔段/改标题 → 确认导入 → 跳精读
- *   - **AI 解析导入**（M5b）：选题型 → 粘原文（App 切段/切句/分词）→ 复制提示词给用户自己的 AI
- *     → 粘回 JSON → 覆盖率与未匹配清单 → 确认入库
+ * 页面只有一个流程，进入即见**四步引导条**（不需要先粘完才看到下一步）：
+ *   ① 一次粘贴「原文 + 题目 + 答案」→ App 自动切分正文区 / 题目区
+ *   ② 选三档需求（A 只要原文 / B 原文 + 解析 / C 原文 + 题目答案 + 解析，默认 C）
+ *   ③ 一键复制「提示词 + 我的全部文本」交给自己的 AI
+ *   ④ 粘回 JSON → 对齐校验 → 入库
  *
  * 红线（02 §四）：
- *   1. **校验与写库只有一份实现**（Rust `ai_import.rs`）。本文件不做形态校验、不改偏移、
+ *   1. **校验与写库只有一份实现**（Rust `ai_import.rs`）：本文件不做形态校验、不改偏移、
  *      不猜句对齐——它只渲染和累积状态。
- *   2. App 管结构：段/句/词/偏移由 `parse_import_preview` 算一次；AI payload 里的数字一律不采信。
- *   3. 切 Tab 时 AI 中间态清空（AI 组件卸载即清空）；快速导入的既有 state **不进 `hidden` 之外的重构**。
- *   4. 允许不完整：解析/题目/逐空/词条任一缺失都能入库，覆盖率四类独立显示。
+ *   2. App 管结构：段/句/词/偏移由 `parse_import_preview` 算一次；切分由 `split_user_input` 算一次。
+ *   3. 保留 M5b 的全部 `data-ai-*` 钩子（36 个属性名 / 37 处），M5c 只新增钩子、不删旧钩子。
+ *   4. 允许不完整：解析/题目/逐空/词条任一缺失都能入库；档 A 连解析都不需要。
  *
  * ponytail: 多次粘贴的「累加」在前端按 (段,句) / 题号 / 空号 / 词条 去重合并（后者覆盖前者），
  * 再原样交给后端写库——后端不做跨调用状态（它每次只写传进来的那一份）。
  * 升级路径：若将来要「服务端权威累加」，把 merge 搬到 `match_ai_payload` 里加一个「已入库快照」入参即可。
  */
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   buildAiPrompt,
   commitAiImport,
-  commitImport,
   getAiImportStats,
   getArticleContent,
   matchAiPayload,
   parseAiPayload,
   parseImportPreview,
   patchAiAnalysis,
+  splitUserInput,
 } from "../lib/api";
 import type {
   AiImportStats,
@@ -36,53 +37,34 @@ import type {
   AiSection,
   AiUnmatchedSentence,
   ArticleContent,
+  ImportMode,
   ImportParagraph,
   ImportPreview,
   ImportStats,
+  UserInputSplit,
 } from "../lib/types";
-
-/** 题型选项（`exam_type` 枚举只有这三个，见 001_init.sql 的 CHECK） */
-const EXAM_OPTIONS: Array<{ value: string; label: string }> = [
-  { value: "other", label: "其他" },
-  { value: "cet4", label: "CET-4" },
-  { value: "cet6", label: "CET-6" },
-];
 
 /** 正文上限（与 Rust 侧 `MAX_BODY_CHARS` 一致，仅用于前端提示，真正的闸在后端） */
 const MAX_BODY_CHARS = 20_000;
 
-/**
- * 错误码 → 可操作提示（AC11）。键是 Rust `ImportCode` 的六个码；未登记的错误走后端 message。
- * 提示写「用户下一步做什么」，不写内部原因（L2 的真实成因是偏移错位，但用户能做的只有重新粘贴）。
- */
-const ERROR_HINTS: Record<string, string> = {
-  IMPORT_L1_STRUCTURE: "预览结构不完整（有段落或句子是空的），请把正文整理干净后重新解析。",
-  IMPORT_L2_OFFSET: "文本含不可见字符，请重新粘贴",
-  IMPORT_L3_COVERAGE: "分词没有覆盖全文（可能混入了异常符号），请检查正文后重新粘贴。",
-  IMPORT_L4_BUSINESS: "正文太短或含不可见控制字符：至少 10 个单词，且不含制表符以外的控制字符。",
-  IMPORT_TOO_LARGE: "正文超过 2 万字符，请分段导入",
-  IMPORT_DUPLICATE_SOURCE: "这篇已导入过",
-};
-
-/** AI 解析导入的四个错误码（02 §五）+ 句子级的「跳过该句」提示 */
+/** AI 解析导入的五个错误码（02 §五；M5c 新增 AI_QUESTION_MISMATCH） */
 const AI_ERROR_HINTS: Record<string, string> = {
   AI_PAYLOAD_INVALID: "粘贴内容不是合法 JSON。请确认复制了完整的 { … } 块，且没有漏掉结尾的 }",
   AI_TYPE_MISMATCH: "题型或题目形态对不上：请确认模板选的题型与 AI 产物里的 section 一致，且选项数符合题型要求。",
   AI_MARKUP_UNBALANCED: "某句的结构标记不配平。可以点『跳过该句』继续导入。",
   AI_NO_MATCH: "粘贴的解析与当前文章完全不匹配：请确认复制的是这篇文章的模板产物。",
+  AI_QUESTION_MISMATCH:
+    "题目与你在题目区给的不一致：题目只能对齐、不能生成。请让 AI 逐字照抄题干 / 选项 / 答案（定位见下方 path）。",
 };
 
 interface ImportError {
-  /** 后端错误码；本地预检（如「一段都没留」）没有码，为 null */
   code: string | null;
-  /** 展示文案 = 错误码对应提示；无提示时退回后端 message */
   hint: string;
-  /** 后端给的定位（如 `sentences[11].analysis.structMarkup`） */
   path?: string | null;
 }
 
 /** Tauri 拒绝值是 `CommandError {code,message,path}` 对象，不是 `Error` 实例 */
-function readError(err: unknown, hints: Record<string, string> = ERROR_HINTS): ImportError {
+function readError(err: unknown, hints: Record<string, string> = AI_ERROR_HINTS): ImportError {
   if (typeof err === "object" && err !== null) {
     const code = (err as { code?: unknown }).code;
     const message = (err as { message?: unknown }).message;
@@ -98,14 +80,7 @@ function readError(err: unknown, hints: Record<string, string> = ERROR_HINTS): I
   return { code: null, hint: err instanceof Error ? err.message : String(err) };
 }
 
-/**
- * 剔除若干段后重算统计。
- *
- * 为什么必须重算：`commit_import` 直接拿 `preview.stats` 写 `article.sentence_count/word_count`
- * （AC7/B-3'：文章库卡片读它），而 L4 也用它判「句数 ≥1、词数 ≥10」。
- * 剔段后还回传旧 stats，库里就会记成剔除前的数字——这是数据错误，不是显示问题。
- * 注意这里只做**聚合计数**，不碰任何偏移（偏移由 Rust 产出，前端不得重算）。
- */
+/** 剔除若干段后重算统计（`commit_import` 直接拿 `stats` 写 `article.sentence_count`） */
 function statsOf(paragraphs: ImportParagraph[]): ImportStats {
   let sentenceCount = 0;
   let tokenCount = 0;
@@ -120,18 +95,49 @@ function statsOf(paragraphs: ImportParagraph[]): ImportStats {
   return { paragraphCount: paragraphs.length, sentenceCount, tokenCount, wordCount };
 }
 
-// ───────────────────────── M5b · AI 解析导入 ─────────────────────────
-
-/** 题型三选一（A4：用户明确指定，不自动猜） */
+/** 题型三选一（用户明确指定，不自动猜） */
 const SECTION_OPTIONS: Array<{ value: AiSection; label: string }> = [
   { value: "careful", label: "仔细阅读" },
   { value: "long", label: "长篇阅读" },
   { value: "cloze", label: "选词填空" },
 ];
 
+/** 三档需求（04 §6.2 第 2 步） */
+const MODE_OPTIONS: Array<{ value: ImportMode; key: string; hook: string; label: string; hint: string }> = [
+  {
+    value: "plain",
+    key: "a",
+    hook: "data-import-mode-a",
+    label: "A 只要原文",
+    hint: "不要求 AI 做任何事，直接入库；只想读原文、点词、写笔记时用。",
+  },
+  {
+    value: "analysis",
+    key: "b",
+    hook: "data-import-mode-b",
+    label: "B 原文 + 解析",
+    hint: "只要句级解析与词条；提示词带正文全文，不带题目区。",
+  },
+  {
+    value: "full",
+    key: "c",
+    hook: "data-import-mode-c",
+    label: "C 原文 + 题目答案 + 解析",
+    hint: "真题整篇（最常见）：题目与答案只对齐、不生成。",
+  },
+];
+
+/** 四步引导条文案（未输入时四步全可见，AC1） */
+const STEPS = [
+  "① 粘原文 + 题目 + 答案",
+  "② 选三档需求",
+  "③ 复制给 AI",
+  "④ 粘回 JSON 与入库",
+];
+
 /** 上次选题型的记忆键（A4：「记住上次选择」） */
 const LAST_SECTION_KEY = "judou.aiImport.section";
-/** 模板建议批大小（15 是建议值，不是硬上限，见 02 §三.7） */
+/** 模板建议批大小（15 是建议值，不是硬上限） */
 const AI_BATCH_SIZE = 15;
 
 function isAiSection(value: string | null | undefined): value is AiSection {
@@ -163,10 +169,7 @@ function sentencePreview(text: string): string {
 
 /**
  * 取粘贴内容里最外层 `{ … }`（**只为「跳过该句」做文本外科手术**，不做任何校验）。
- *
- * 校验与解析的唯一实现在后端 `ai_import.rs`：这里拿不到 payload，是因为 markup 错误让后端
- * 整包拒收（AC6），而 AC6 还要求「用户选『跳过该句』后可入库」——所以前端把用户粘贴的那一段里
- * 出问题的句子删掉，再交回后端重跑。括号扫描与后端同口径（跳过字符串字面量里的花括号）。
+ * 校验与解析的唯一实现在后端 `ai_import.rs`。
  */
 function outerJsonObject(text: string): string | null {
   const start = text.indexOf("{");
@@ -198,7 +201,6 @@ function mergeMatched(prev: AiMatched | null, next: AiMatched): AiMatched {
   const sentenceKey = (item: { paragraphIdx: number; sentenceIdx: number }) => `${item.paragraphIdx}:${item.sentenceIdx}`;
   const matched = new Map(prev.matched.map((item) => [sentenceKey(item), item]));
   for (const item of next.matched) matched.set(sentenceKey(item), item);
-  // 题目按**试卷题号** `no` 合并/排序：`idx` 只是批内槽位（后端写库的是 `no`，见 ai_import.rs）
   const questions = new Map(prev.questions.map((item) => [item.no, item]));
   for (const item of next.questions) questions.set(item.no, item);
   const blanks = new Map(prev.blanks.map((item) => [item.no, item]));
@@ -228,12 +230,7 @@ interface AiImportProps {
   onImported: (articleId: number) => void;
 }
 
-/**
- * `get_article_content` → `ImportPreview`（02 §四.3 的 `toImportPreview()`）。
- *
- * **零新增命令**：精读页载荷已经带段/句/词与偏移（UTF-16），这里只换字段名。
- * 偏移与 `idx` 一律原样搬运——前端不得重算（重算就等于第二套切句/分词实现）。
- */
+/** `get_article_content` → `ImportPreview`（偏移与 idx 一律原样搬运，前端不得重算） */
 function toImportPreview(content: ArticleContent): ImportPreview {
   const paragraphs: ImportParagraph[] = content.paragraphs.map((paragraph) => ({
     idx: paragraph.idx,
@@ -255,7 +252,7 @@ function toImportPreview(content: ArticleContent): ImportPreview {
   return { title: content.article.title, paragraphs, stats: statsOf(paragraphs) };
 }
 
-/** 从 `#/import?articleId=<id>` 里取补解析目标（只看查询串，判定口径见 §四.2） */
+/** 从 `#/import?articleId=<id>` 里取补解析目标（只看查询串） */
 function readPatchArticleId(): number | undefined {
   const raw = window.location.hash;
   const mark = raw.indexOf("?");
@@ -264,10 +261,30 @@ function readPatchArticleId(): number | undefined {
   return Number.isInteger(value) && value > 0 ? value : undefined;
 }
 
+/** 档 A 的空匹配包：后端 `commit_ai_import` 对 `mode=plain` 允许 `matched` 为空 */
+function emptyMatched(section: AiSection): AiMatched {
+  return {
+    section,
+    matched: [],
+    unmatched: [],
+    unmatchedLexicon: [],
+    questions: [],
+    blanks: [],
+    lexicon: [],
+    coverage: { analysis: "-", questions: "-", blanks: "-", lexicon: 0 },
+    snoFixed: 0,
+    missingAnswer: 0,
+  };
+}
+
 function AiImport({ articleId, onImported }: AiImportProps) {
   const patchMode = articleId !== undefined;
   const [section, setSection] = useState<AiSection | "">(() => readLastSection());
+  const [mode, setMode] = useState<ImportMode>("full");
+  /** 一次性粘贴的整块文本（原文 + 题目 + 答案） */
   const [text, setText] = useState("");
+  const [split, setSplit] = useState<UserInputSplit | null>(null);
+  const [questionText, setQuestionText] = useState("");
   const [preview, setPreview] = useState<ImportPreview | null>(null);
   const [prompt, setPrompt] = useState<AiPrompt | null>(null);
   const [payloadText, setPayloadText] = useState("");
@@ -277,7 +294,7 @@ function AiImport({ articleId, onImported }: AiImportProps) {
   const [batchHint, setBatchHint] = useState<string | null>(null);
   const [regenText, setRegenText] = useState("");
   const [skipped, setSkipped] = useState<string[]>([]);
-  const [copied, setCopied] = useState<"prompt" | "regen" | null>(null);
+  const [copied, setCopied] = useState<"all" | "prompt" | "regen" | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
   const [error, setError] = useState<ImportError | null>(null);
   const [busy, setBusy] = useState<"parse" | "match" | "commit" | "load" | null>(null);
@@ -285,7 +302,15 @@ function AiImport({ articleId, onImported }: AiImportProps) {
   const chars = text.length;
   const overLimit = chars > MAX_BODY_CHARS;
 
-  /** 句子清单（`S编号` + 原文前 24 字符 + 段/句位置） */
+  /** 当前步（高亮用）：1 未粘 → 2 已切分 → 3 已匹配中/待粘回 → 4 有结果 */
+  const activeStep = merged || (stats && patchMode) ? 4 : payloadText.trim() !== "" ? 3 : preview ? 2 : 1;
+
+  /** AI 模式入参（三档 + 题目区原文都在这里；后端按 mode 决定提示词与校验） */
+  const draft = useMemo(() => {
+    if (!preview || !isAiSection(section)) return null;
+    return { preview, section, mode, questionText: questionText === "" ? null : questionText };
+  }, [preview, section, mode, questionText]);
+
   const sentenceList = useMemo(() => {
     if (!preview) return [];
     const rows: Array<{ ordinal: number; paragraphIdx: number; sentenceIdx: number; text: string }> = [];
@@ -302,7 +327,6 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     return rows;
   }, [preview]);
 
-  /** 选题型 → 记住上次；有预览则顺手重新生成模板（片段随题型变） */
   const chooseSection = (value: string) => {
     if (!isAiSection(value)) {
       setSection("");
@@ -313,24 +337,29 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     setPrompt(null);
   };
 
+  /** 档 B/C 才需要提示词；档 A 不生成（不要求 AI 产出） */
   useEffect(() => {
-    if (!preview || !isAiSection(section)) return;
+    if (!draft || draft.mode === "plain") {
+      setPrompt(null);
+      return;
+    }
     let cancelled = false;
-    buildAiPrompt({ preview, section }, AI_BATCH_SIZE)
+    buildAiPrompt(draft, AI_BATCH_SIZE)
       .then((next) => {
         if (cancelled) return;
         setPrompt(next);
         setBatchHint(next.batchHint);
       })
       .catch((err: unknown) => {
-        if (!cancelled) setError(readError(err, AI_ERROR_HINTS));
+        if (!cancelled) setError(readError(err));
       });
     return () => {
       cancelled = true;
     };
-  }, [preview, section]);
+  }, [draft]);
 
-  async function onParseText() {
+  /** 一次粘贴 → 自动切分（正文区 / 题目区）→ 正文区走既有结构解析 */
+  async function onPasteAndSplit() {
     if (!isAiSection(section)) {
       setError({ code: null, hint: "请先选题型（仔细阅读 / 长篇阅读 / 选词填空）。" });
       return;
@@ -338,13 +367,16 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     setBusy("parse");
     setError(null);
     try {
-      const next = await parseImportPreview(text);
-      setPreview(next);
-      // 新原文 = 新句集合：上一批的匹配结果与跳过清单不再适用
+      const nextSplit = await splitUserInput(text);
+      const nextPreview = await parseImportPreview(nextSplit.bodyText);
+      setSplit(nextSplit);
+      setQuestionText(nextSplit.questionText);
+      setPreview(nextPreview);
       setMerged(null);
       setIgnoredChars(0);
       setSkipped([]);
       setRegenText("");
+      setPayloadText("");
     } catch (err) {
       setError(readError(err));
     } finally {
@@ -352,19 +384,70 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     }
   }
 
-  async function copyPrompt() {
+  /** AC4「整篇都是正文」：清掉题目区（不报错） */
+  function treatAllAsBody() {
+    setQuestionText("");
+    setSplit((prev) =>
+      prev
+        ? { ...prev, questionText: "", questionStartLine: null, detected: false, reason: "整篇都是正文（你指定的）", questionCount: 0 }
+        : prev,
+    );
+    setError(null);
+  }
+
+  /** AC4「手动标记题目区起点」：从第 N 行起算题目区（用户明确指定，不算猜） */
+  function markQuestionStart() {
+    const raw = window.prompt("从第几行开始算题目区？（行号从 1 开始）", "1");
+    if (!raw) return;
+    const startLine = Number(raw);
+    const lines = text.split("\n");
+    if (!Number.isInteger(startLine) || startLine < 1 || startLine > lines.length) {
+      setError({ code: null, hint: "行号超出范围，请重新输入。" });
+      return;
+    }
+    const body = lines.slice(0, startLine - 1).join("\n").trimEnd();
+    const questions = lines.slice(startLine - 1).join("\n").trimEnd();
+    const questionCount = questions.split("\n").filter((line) => /^\s*\d{1,3}\s*[.、．)]\s*\S/.test(line)).length;
+    setQuestionText(questions);
+    setSplit({
+      bodyText: body,
+      questionText: questions,
+      questionStartLine: startLine,
+      detected: true,
+      reason: `第 ${startLine} 行起按你的标记算题目区`,
+      questionCount,
+    });
+    setError(null);
+    void parseImportPreview(body)
+      .then((next) => setPreview(next))
+      .catch((err: unknown) => setError(readError(err)));
+  }
+
+  /** AC5：一键复制「提示词 + 我的全部文本」——用户不需要自己拼 */
+  async function copyAll() {
+    const body = prompt ? prompt.text : "";
+    const mine = patchMode ? "" : text;
+    const payload = mine.trim() === "" ? body : `${body}\n\n【我的文本（原文 + 题目 + 答案，已含在提示词里，此处再附一份原文）】\n${mine}`;
+    try {
+      await navigator.clipboard.writeText(payload);
+      setCopied("all");
+    } catch {
+      setCopied(null);
+    }
+  }
+
+  async function copyPromptOnly() {
     if (!prompt) return;
     try {
       await navigator.clipboard.writeText(prompt.text);
       setCopied("prompt");
     } catch {
-      // 剪贴板被拒（非安全上下文/权限）：prompt 文本已在只读框里，用户可手动复制
       setCopied(null);
     }
   }
 
   async function onMatch() {
-    if (!preview || !isAiSection(section)) {
+    if (!draft) {
       setError({ code: null, hint: "请先选题型并解析原文。" });
       return;
     }
@@ -376,26 +459,21 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     setError(null);
     try {
       const parsed = await parseAiPayload(payloadText);
-      const next = await matchAiPayload({ preview, section }, parsed.payload);
+      const next = await matchAiPayload(draft, parsed.payload);
       setIgnoredChars(parsed.ignoredChars);
       setMerged((prev) => mergeMatched(prev, next));
     } catch (err) {
-      setError(readError(err, AI_ERROR_HINTS));
+      setError(readError(err));
     } finally {
       setBusy(null);
     }
   }
 
-  /** AC5/AC14①：「跳过」只把这条从待处置清单里去掉（该句照常无解析），不影响其余入库 */
   function skipUnmatched(item: AiUnmatchedSentence) {
     setSkipped((prev) => (prev.includes(item.quote) ? prev : [...prev, item.quote]));
     setMerged((prev) => (prev ? { ...prev, unmatched: prev.unmatched.filter((row) => row.quote !== item.quote) } : prev));
   }
 
-  /**
-   * AC14②：「重新生成该句」→ 复制只含该句的单句小模板（含 `S编号` + 原文）。
-   * 原文取**声明编号**对应的 App 侧句子（`sNo` 只是辅助，见 AC18）；声明编号缺失/越界时退回 AI 给的 quote。
-   */
   function regenerate(item: AiUnmatchedSentence) {
     const declared = item.sNo?.match(/\d+/)?.[0];
     const ordinal = declared ? Number(declared) : NaN;
@@ -418,11 +496,7 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     setCopied("regen");
   }
 
-  /**
-   * 补解析：进页面即回读原文与题型（02 §四.3）。
-   * 原文来自库（`get_article_content`）→ `toImportPreview()`；覆盖率初值取 `get_ai_import_stats` 的真读数（不是 0）。
-   * 题型初值取 `article.section_type`；为 NULL 或不在枚举内时**不预选、要求用户选**（不猜）。
-   */
+  /** 补解析：进页面即回读原文与题型；覆盖率初值取库里的真读数（不是 0） */
   useEffect(() => {
     if (articleId === undefined) return;
     let cancelled = false;
@@ -436,7 +510,7 @@ function AiImport({ articleId, onImported }: AiImportProps) {
         setSection(isAiSection(stored) ? stored : "");
       })
       .catch((err: unknown) => {
-        if (!cancelled) setError(readError(err, AI_ERROR_HINTS));
+        if (!cancelled) setError(readError(err));
       })
       .finally(() => {
         if (!cancelled) setBusy(null);
@@ -446,19 +520,12 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     };
   }, [articleId]);
 
-  /** 累计覆盖率读数（提交/补解析前的工作集；补解析另加库里已有的真读数） */
   const baseline = patchMode ? stats : null;
   const covered = (baseline?.analysisCovered ?? 0) + (merged?.matched.length ?? 0);
   const totalSentences = baseline?.sentences ?? preview?.stats.sentenceCount ?? 0;
   const questionCount = (baseline?.questions ?? 0) + (merged?.questions.length ?? 0);
-  // 词条**不加 baseline**：`lexicon` 是全局词库（表里没有 article_id），按篇归因不了；
-  // 补解析时的这个数字只表示「本批要写的词条数」，与 commit 模式同口径。
   const lexiconCount = merged?.lexicon.length ?? 0;
   const blankCount = (baseline?.blanks ?? 0) + (merged?.blanks.length ?? 0);
-  /**
-   * 逐空覆盖率的分母：`coverage.blanks` 为 `k/分母` 时取分母；
-   * 无题号区间（cloze 缺 `questions`）时分母未知——按 02 §三.1 **只显示已解析数 `k`**，不编分母。
-   */
   const blankTotal = useMemo(() => {
     const raw = merged?.coverage.blanks ?? "-";
     const denominator = raw.includes("/") ? raw.split("/")[1] : "";
@@ -467,16 +534,24 @@ function AiImport({ articleId, onImported }: AiImportProps) {
   }, [merged]);
   const pendingCount = merged?.matched.length ?? 0;
 
-  /** markup 不配平时的「跳过该句」入口：从错误 path 里取句序号（AC6 的逃生口） */
+  /** AC8：答案来源三值分布（`user` 用户给的 / `ai` AI 补的 / `none` 都没有） */
+  const answerSources = useMemo(() => {
+    const questions = merged?.questions ?? [];
+    return {
+      user: questions.filter((item) => item.answerSource === "user").length,
+      ai: questions.filter((item) => item.answerSource === "ai").length,
+      none: questions.filter((item) => item.answerSource === "none").length,
+    };
+  }, [merged]);
+
   const markupSkipIndex = useMemo(() => {
     if (error?.code !== "AI_MARKUP_UNBALANCED") return null;
     const matched = error.path?.match(/^sentences\[(\d+)\]/);
     return matched ? Number(matched[1]) : null;
   }, [error]);
 
-  /** AC6：把出问题的那一句从粘贴内容里删掉后重跑（其余句子照常入库） */
   async function skipUnbalancedSentence() {
-    if (markupSkipIndex === null || !preview || !isAiSection(section)) return;
+    if (markupSkipIndex === null || !draft) return;
     const slice = outerJsonObject(payloadText);
     if (!slice) {
       setError({ code: null, hint: "没能从粘贴内容里定位 JSON 块，请手动删掉这一句后再试。" });
@@ -494,22 +569,28 @@ function AiImport({ articleId, onImported }: AiImportProps) {
       setPayloadText(rewritten);
       setError(null);
       const parsed = await parseAiPayload(rewritten);
-      const next = await matchAiPayload({ preview, section }, parsed.payload);
+      const next = await matchAiPayload(draft, parsed.payload);
       setIgnoredChars(parsed.ignoredChars);
       setMerged((prev) => mergeMatched(prev, next));
     } catch (err) {
-      setError(readError(err, AI_ERROR_HINTS));
+      setError(readError(err));
     } finally {
       setBusy(null);
     }
   }
 
+  /** 入库：档 A 不需要匹配结果；档 B/C 至少要有 1 句解析能对上 */
   async function onCommit() {
-    if (!preview || !isAiSection(section)) {
+    if (!draft) {
       setError({ code: null, hint: "请先选题型并解析原文。" });
       return;
     }
-    if (!merged || merged.matched.length === 0) {
+    const matchedToWrite = merged ?? (draft.mode === "plain" ? emptyMatched(draft.section) : null);
+    if (!matchedToWrite) {
+      setError({ code: null, hint: "还没有任何一句解析能对上原文，先粘回 AI 的 JSON 或检查题型。" });
+      return;
+    }
+    if (draft.mode !== "plain" && matchedToWrite.matched.length === 0) {
       setError({ code: null, hint: "还没有任何一句解析能对上原文，先粘回 AI 的 JSON 或检查题型。" });
       return;
     }
@@ -518,8 +599,7 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     setNotice(null);
     try {
       if (articleId !== undefined) {
-        // 补解析：只写解析四表（原文结构不动，笔记/生词引用不失效）
-        const result = await patchAiAnalysis(articleId, merged);
+        const result = await patchAiAnalysis(articleId, draft, matchedToWrite);
         const nextStats = await getAiImportStats(articleId);
         setStats(nextStats);
         setMerged(null);
@@ -529,23 +609,40 @@ function AiImport({ articleId, onImported }: AiImportProps) {
           `已补充解析：本次写入 ${result.analysisWritten} 句解析 / ${result.questionsWritten} 题 / ${result.blanksWritten} 空 / 新增词条 ${result.lexiconInserted}`,
         );
       } else {
-        const result = await commitAiImport({ preview, section }, merged, {});
+        const result = await commitAiImport(draft, matchedToWrite, {});
         onImported(result.articleId);
       }
     } catch (err) {
-      setError(readError(err, AI_ERROR_HINTS));
+      setError(readError(err));
     } finally {
       setBusy(null);
     }
   }
 
+  const plainMode = mode === "plain";
+
   return (
     <div className="ai-import" data-ai-panel>
-      <section className="card" aria-labelledby="ai-section-title">
-        <h2 id="ai-section-title">① 选题型</h2>
+      {/* 四步引导条：进页即见，未粘任何内容时四步全部可见（AC1） */}
+      <ol className="import-steps" data-import-steps data-step-active={activeStep}>
+        {STEPS.map((label, index) => (
+          <li
+            key={label}
+            className={activeStep === index + 1 ? "import-step active" : "import-step"}
+            data-step
+            data-step-index={index + 1}
+            data-step-active={activeStep === index + 1 ? "true" : "false"}
+          >
+            {label}
+          </li>
+        ))}
+      </ol>
+
+      <section className="card" aria-labelledby="import-section-title">
+        <h2 id="import-section-title">题型</h2>
         <p className="card-hint">
           题型决定模板片段与形态校验：仔细阅读每题 4 个选项、长篇阅读每题空选项 + 段落字母、选词填空每题 15 项词库。
-          选错会被拒收（错误码 AI_TYPE_MISMATCH）。App 只算结构与偏移，语义解析由你自己的 AI 生成。
+          App 只算结构与偏移，语义解析由你自己的 AI 生成。
         </p>
         <label className="import-field">
           <span>题型</span>
@@ -560,10 +657,10 @@ function AiImport({ articleId, onImported }: AiImportProps) {
         </label>
       </section>
 
-      <section className="card" aria-labelledby="ai-text-title">
-        <h2 id="ai-text-title">② 原文</h2>
+      {/* 第 1 步：一次粘贴「原文 + 题目 + 答案」 */}
+      <section className="card" aria-labelledby="import-text-title">
+        <h2 id="import-text-title">① 粘贴原文 + 题目 + 答案（一次）</h2>
         {patchMode ? (
-          // 补解析：原文来自文章库，**粘原文这一步锁定**（这是 AC9 的前提：结构不变）
           <p className="import-stats" data-ai-loaded data-article-id={articleId}>
             已从文章库载入：{preview?.title ?? "读取中…"} · 段 {preview?.stats.paragraphCount ?? "—"} / 句{" "}
             {preview?.stats.sentenceCount ?? "—"}
@@ -571,13 +668,16 @@ function AiImport({ articleId, onImported }: AiImportProps) {
           </p>
         ) : (
           <>
-            <p className="card-hint">一段一行、段间空行。解析只做预览，不写库。</p>
+            <p className="card-hint">
+              把真题卷 / 外刊页面的**整块文本**粘一次即可：App 自动切出正文区与题目区（题目区不进正文）。
+              单篇上限 {MAX_BODY_CHARS.toLocaleString("en-US")} 字符（超了按段拆开分次导入）。解析只做预览，不写库。
+            </p>
             <textarea
               className="import-textarea"
               data-ai-text
-              rows={10}
+              rows={12}
               spellCheck={false}
-              placeholder="在这里粘贴英文正文……"
+              placeholder="在这里一次粘贴「英文正文 + 题目 + 答案」……"
               value={text}
               onChange={(event) => setText(event.target.value)}
             />
@@ -591,42 +691,88 @@ function AiImport({ articleId, onImported }: AiImportProps) {
                 className="btn btn-primary"
                 data-ai-parse
                 disabled={busy !== null || text.trim() === "" || !isAiSection(section)}
-                onClick={onParseText}
+                onClick={onPasteAndSplit}
               >
-                {busy === "parse" ? "解析中…" : "解析原文"}
+                {busy === "parse" ? "切分中…" : "切分并解析"}
               </button>
             </div>
-            {preview ? (
-              <p
-                className="import-stats"
-                data-ai-stats
-                data-paragraph-count={preview.stats.paragraphCount}
-                data-sentence-count={preview.stats.sentenceCount}
-              >
-                段 {preview.stats.paragraphCount} / 句 {preview.stats.sentenceCount}
-              </p>
-            ) : null}
           </>
         )}
-        {batchHint ? (
-          <p className="ai-hint ai-hint-batch" data-ai-batch-hint>
-            {batchHint}（不阻断：可以一次粘完，也可以分几次粘回，覆盖率累加）
+
+        {/* 切分可视化（AC3 / AC4） */}
+        {preview ? (
+          <p className="import-stats" data-split-body>
+            正文：{preview.stats.paragraphCount} 段 / {preview.stats.sentenceCount} 句
+            {split ? `（题目区 ${split.questionText === "" ? 0 : split.questionText.split("\n").length} 行不计入正文句数）` : ""}
           </p>
         ) : null}
-        {sentenceList.length > 0 ? (
-          <ol className="ai-sentence-list" data-ai-sentence-list>
-            {sentenceList.map((row) => (
-              <li key={`${row.paragraphIdx}-${row.sentenceIdx}`} data-ai-sentence data-s-no={`S${row.ordinal}`}>
-                <span className="ai-s-no">S{row.ordinal}</span>
-                <span className="ai-s-text">{sentencePreview(row.text)}</span>
-                <span className="ai-s-pos">
-                  第 {row.paragraphIdx + 1} 段第 {row.sentenceIdx + 1} 句
-                </span>
-              </li>
-            ))}
-          </ol>
+        {split ? (
+          split.detected && split.questionText !== "" ? (
+            <details className="split-question" data-split-question>
+              <summary>
+                已识别题目区：{split.questionText.split("\n").length} 行（含 {split.questionCount} 道题）
+              </summary>
+              <pre className="split-question-text">{split.questionText}</pre>
+            </details>
+          ) : (
+            <div className="split-none" data-split-none-state>
+              <p className="ai-hint">没识别到题目区（App 不猜）：可以手动标记起点，或当作整篇正文。</p>
+              <div className="import-row">
+                <button type="button" className="btn" data-split-from onClick={markQuestionStart}>
+                  手动标记题目区起点
+                </button>
+                <button type="button" className="btn" data-split-none onClick={treatAllAsBody}>
+                  这就是整篇正文
+                </button>
+              </div>
+            </div>
+          )
         ) : null}
       </section>
+
+      {/* 第 2 步：三档需求（默认 C） */}
+      <section className="card" aria-labelledby="import-mode-title">
+        <h2 id="import-mode-title">② 选三档需求</h2>
+        <div className="import-modes" role="radiogroup" aria-label="三档需求">
+          {MODE_OPTIONS.map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              role="radio"
+              aria-checked={mode === option.value}
+              className={mode === option.value ? "import-mode active" : "import-mode"}
+              data-import-mode-a={option.value === "plain" ? "true" : undefined}
+              data-import-mode-b={option.value === "analysis" ? "true" : undefined}
+              data-import-mode-c={option.value === "full" ? "true" : undefined}
+              data-import-mode-value={option.value}
+              onClick={() => setMode(option.value)}
+            >
+              <span className="import-mode-label">{option.label}</span>
+              <span className="import-mode-hint">{option.hint}</span>
+            </button>
+          ))}
+        </div>
+      </section>
+
+      {batchHint ? (
+        <p className="ai-hint ai-hint-batch" data-ai-batch-hint>
+          {batchHint}（不阻断：可以一次粘完，也可以分几次粘回，覆盖率累加）
+        </p>
+      ) : null}
+
+      {sentenceList.length > 0 ? (
+        <ol className="ai-sentence-list" data-ai-sentence-list>
+          {sentenceList.map((row) => (
+            <li key={`${row.paragraphIdx}-${row.sentenceIdx}`} data-ai-sentence data-s-no={`S${row.ordinal}`}>
+              <span className="ai-s-no">S{row.ordinal}</span>
+              <span className="ai-s-text">{sentencePreview(row.text)}</span>
+              <span className="ai-s-pos">
+                第 {row.paragraphIdx + 1} 段第 {row.sentenceIdx + 1} 句
+              </span>
+            </li>
+          ))}
+        </ol>
+      ) : null}
 
       {error ? (
         <div className="import-error" role="alert" data-ai-error>
@@ -647,21 +793,20 @@ function AiImport({ articleId, onImported }: AiImportProps) {
         </div>
       ) : null}
 
-      {preview ? (
-        <section className="card" aria-labelledby="ai-prompt-title">
-          <h2 id="ai-prompt-title">③ 复制提示词给 AI</h2>
+      {/* 第 3 步：复制（档 A 不需要 AI，按钮不出现） */}
+      {preview && !plainMode ? (
+        <section className="card" aria-labelledby="import-prompt-title">
+          <h2 id="import-prompt-title">③ 复制给 AI</h2>
           <p className="card-hint">
-            点「复制提示词」把它和自己的原文一起交给你的 AI（模板已含题型片段与句子清单；不用把 key 交给任何人）。
+            一次复制**提示词 + 我的全部文本**（提示词里已内嵌正文全文{mode === "full" ? "与题目区原文" : ""}），
+            整段贴给你的 AI 即可，不用自己拼接。
           </p>
           <div className="import-row">
-            <button
-              type="button"
-              className="btn btn-primary"
-              data-ai-prompt-copy
-              disabled={!prompt}
-              onClick={copyPrompt}
-            >
-              {copied === "prompt" ? "已复制" : "复制提示词 + 句子清单"}
+            <button type="button" className="btn btn-primary" data-copy-all disabled={!prompt} onClick={copyAll}>
+              {copied === "all" ? "已复制（提示词 + 我的文本）" : "一键复制（提示词 + 我的文本）"}
+            </button>
+            <button type="button" className="btn" data-ai-prompt-copy disabled={!prompt} onClick={copyPromptOnly}>
+              {copied === "prompt" ? "已复制" : "只复制提示词"}
             </button>
             {prompt ? (
               <span className="ai-hint" data-ai-prompt-meta>
@@ -675,12 +820,19 @@ function AiImport({ articleId, onImported }: AiImportProps) {
         </section>
       ) : null}
 
-      {preview ? (
-        <section className="card" aria-labelledby="ai-payload-title">
-          <h2 id="ai-payload-title">④ 粘回 AI 的 JSON</h2>
+      {preview && plainMode ? (
+        <p className="ai-hint" data-ai-plain-hint>
+          档 A 只读原文，不需要 AI：无需复制提示词，直接点下面的「导入这篇文章」即可入库。
+        </p>
+      ) : null}
+
+      {/* 第 4 步：粘回 JSON + 入库（档 A 跳过） */}
+      {preview && !plainMode ? (
+        <section className="card" aria-labelledby="import-payload-title">
+          <h2 id="import-payload-title">④ 粘回 AI 的 JSON</h2>
           <p className="card-hint">
             可以直接粘 AI 的整段回复（带 ``` 围栏或前后说明也行，App 只取最外层 {"{ … }"}，其余丢弃并计数）。
-            可以分几次粘，覆盖率累加。
+            可以分几次粘，覆盖率累加。档 C 的题干 / 选项 / 答案必须与你的题目区逐字一致，否则会被拒收。
           </p>
           <textarea
             className="import-textarea"
@@ -711,8 +863,8 @@ function AiImport({ articleId, onImported }: AiImportProps) {
       ) : null}
 
       {merged || baseline ? (
-        <section className="card" aria-labelledby="ai-coverage-title" data-ai-result>
-          <h2 id="ai-coverage-title">⑤ 覆盖率与未匹配清单</h2>
+        <section className="card" aria-labelledby="import-coverage-title" data-ai-result>
+          <h2 id="import-coverage-title">覆盖率与未匹配清单</h2>
           <p className="import-stats" data-ai-coverage>
             解析 {covered}/{totalSentences} · 题目 {questionCount} · 词条 {lexiconCount}
           </p>
@@ -723,6 +875,9 @@ function AiImport({ articleId, onImported }: AiImportProps) {
                 : `逐空 ${blankCount}`
               : "逐空 -（非选词填空）"}
           </p>
+          <p className="ai-hint" data-ai-answer-source>
+            答案来源：用户给的 {answerSources.user} · AI 补的 {answerSources.ai} · 都没有 {answerSources.none}
+          </p>
           <p className="ai-hint" data-ai-missing-answer>
             题目缺答案 {merged?.missingAnswer ?? 0} 题
           </p>
@@ -732,40 +887,40 @@ function AiImport({ articleId, onImported }: AiImportProps) {
 
           {merged ? (
             <div className="ai-unmatched" data-ai-unmatched>
-            <h3 className="ai-subtitle">未匹配（{merged.unmatched.length}）</h3>
-            {merged.unmatched.length === 0 ? (
-              <p className="ai-hint">全部句子都对上了。</p>
-            ) : (
-              <ul className="ai-unmatched-list">
-                {merged.unmatched.map((item) => (
-                  <li key={item.quote} data-ai-unmatched-item data-unmatched-reason={item.reason}>
-                    <p className="ai-unmatched-quote">{sentencePreview(item.quote)}</p>
-                    <p className="ai-unmatched-reason">
-                      {item.sNo ? `${item.sNo} · ` : ""}
-                      {item.reason}
-                    </p>
-                    <div className="import-row">
-                      <button type="button" className="btn" data-ai-skip onClick={() => skipUnmatched(item)}>
-                        跳过该句
-                      </button>
-                      <button type="button" className="btn" data-ai-regen onClick={() => regenerate(item)}>
-                        重新生成该句
-                      </button>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            )}
-            {merged.unmatchedLexicon.length > 0 ? (
-              <ul className="ai-unmatched-list" data-ai-unmatched-lexicon>
-                {merged.unmatchedLexicon.map((item) => (
-                  <li key={item.word} data-ai-unmatched-word data-unmatched-reason={item.reason}>
-                    <p className="ai-unmatched-quote">{item.word}</p>
-                    <p className="ai-unmatched-reason">{item.reason}</p>
-                  </li>
-                ))}
-              </ul>
-            ) : null}
+              <h3 className="ai-subtitle">未匹配（{merged.unmatched.length}）</h3>
+              {merged.unmatched.length === 0 ? (
+                <p className="ai-hint">全部句子都对上了。</p>
+              ) : (
+                <ul className="ai-unmatched-list">
+                  {merged.unmatched.map((item) => (
+                    <li key={item.quote} data-ai-unmatched-item data-unmatched-reason={item.reason}>
+                      <p className="ai-unmatched-quote">{sentencePreview(item.quote)}</p>
+                      <p className="ai-unmatched-reason">
+                        {item.sNo ? `${item.sNo} · ` : ""}
+                        {item.reason}
+                      </p>
+                      <div className="import-row">
+                        <button type="button" className="btn" data-ai-skip onClick={() => skipUnmatched(item)}>
+                          跳过该句
+                        </button>
+                        <button type="button" className="btn" data-ai-regen onClick={() => regenerate(item)}>
+                          重新生成该句
+                        </button>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {merged.unmatchedLexicon.length > 0 ? (
+                <ul className="ai-unmatched-list" data-ai-unmatched-lexicon>
+                  {merged.unmatchedLexicon.map((item) => (
+                    <li key={item.word} data-ai-unmatched-word data-unmatched-reason={item.reason}>
+                      <p className="ai-unmatched-quote">{item.word}</p>
+                      <p className="ai-unmatched-reason">{item.reason}</p>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
             </div>
           ) : (
             <p className="ai-hint" data-ai-patch-baseline>
@@ -787,7 +942,7 @@ function AiImport({ articleId, onImported }: AiImportProps) {
                 type="button"
                 className="btn btn-primary"
                 data-ai-patch-commit
-                disabled={busy !== null || !merged || merged.matched.length === 0}
+                disabled={busy !== null || !merged || (merged.matched.length === 0 && !plainMode)}
                 onClick={onCommit}
               >
                 {busy === "commit" ? "写入中…" : "补充解析"}
@@ -797,7 +952,7 @@ function AiImport({ articleId, onImported }: AiImportProps) {
                 type="button"
                 className="btn btn-primary"
                 data-ai-commit
-                disabled={busy !== null || !merged || merged.matched.length === 0}
+                disabled={busy !== null || (!merged && !plainMode)}
                 onClick={onCommit}
               >
                 {busy === "commit" ? "写入中…" : "导入这篇文章"}
@@ -805,6 +960,15 @@ function AiImport({ articleId, onImported }: AiImportProps) {
             )}
           </div>
         </section>
+      ) : null}
+
+      {/* 档 A：没有覆盖率也可以直接入库（AC2/AC5） */}
+      {preview && plainMode && !merged ? (
+        <div className="import-row import-row-end">
+          <button type="button" className="btn btn-primary" data-ai-commit disabled={busy !== null} onClick={onCommit}>
+            {busy === "commit" ? "写入中…" : "导入这篇文章（档 A 不需要 AI）"}
+          </button>
+        </div>
       ) : null}
 
       {notice ? (
@@ -816,285 +980,31 @@ function AiImport({ articleId, onImported }: AiImportProps) {
   );
 }
 
-// ───────────────────────── 页面（双 Tab） ─────────────────────────
-
-type ImportMode = "quick" | "ai";
+// ───────────────────────── 页面（单一流程，无 Tab） ─────────────────────────
 
 export function Import() {
-  /** 补解析入口（`#/import?articleId=<id>`）→ 直接进 AI 模式（§四.2 只看 articleId 是否存在） */
   const [patchArticleId, setPatchArticleId] = useState<number | undefined>(() => readPatchArticleId());
-  const [mode, setMode] = useState<ImportMode>(patchArticleId !== undefined ? "ai" : "quick");
 
   /**
    * 补解析 URL 变化必须自己跟：`#/import?articleId=N` 与 `#/import` 的 path 都是 `#/import`，
-   * React 会复用同一个 Import 实例（不重挂载）——只听首帧的话，从补解析页点侧栏「导入」会
-   * 永远停在 patch 模式（粘原文框再也不出现）。
+   * React 会复用同一个实例（不重挂载）。
    */
   useEffect(() => {
-    const onHashChange = () => {
-      const next = readPatchArticleId();
-      setPatchArticleId(next);
-      // 有 articleId → 补解析（AI 模式）；没有 → 回到默认的快速导入首屏
-      setMode(next !== undefined ? "ai" : "quick");
-    };
+    const onHashChange = () => setPatchArticleId(readPatchArticleId());
     window.addEventListener("hashchange", onHashChange);
     return () => window.removeEventListener("hashchange", onHashChange);
   }, []);
 
-  /** 粘贴的原文（**失败不丢**：AC11） */
-  const [text, setText] = useState("");
-  /** 预览（null = 还没解析过；解析失败时**保持原值**，不清空） */
-  const [preview, setPreview] = useState<ImportPreview | null>(null);
-  /** 被剔除的段落 idx（勾上 = 剔除） */
-  const [excluded, setExcluded] = useState<number[]>([]);
-  /** 标题（解析成功后回填后端给的默认标题；用户改动后就以用户为准） */
-  const [title, setTitle] = useState("");
-  const [examType, setExamType] = useState("other");
-  const [examYear, setExamYear] = useState("");
-  const [error, setError] = useState<ImportError | null>(null);
-  const [busy, setBusy] = useState<"parse" | "commit" | null>(null);
-
-  const chars = text.length;
-  const overLimit = chars > MAX_BODY_CHARS;
-
-  /** 保留的段落 + 重排 `idx`（L1 要求 idx 从 0 连续） */
-  const kept = useMemo<ImportParagraph[]>(() => {
-    if (!preview) return [];
-    return preview.paragraphs
-      .filter((paragraph) => !excluded.includes(paragraph.idx))
-      .map((paragraph, index) => ({ ...paragraph, idx: index }));
-  }, [preview, excluded]);
-
-  const keptStats = useMemo(() => statsOf(kept), [kept]);
-
-  async function onParse() {
-    setBusy("parse");
-    setError(null);
-    try {
-      const next = await parseImportPreview(text, title.trim() === "" ? undefined : title.trim());
-      setPreview(next);
-      setTitle(next.title);
-      // 新预览 = 新段落集合：旧的剔除选择不再有意义（但**文本不清**，用户可改完再解析）
-      setExcluded([]);
-    } catch (err) {
-      // AC11：只记错误，preview/excluded/title/text 全部保留
-      setError(readError(err));
-    } finally {
-      setBusy(null);
-    }
-  }
-
-  async function onCommit() {
-    if (!preview) return;
-    if (kept.length === 0) {
-      setError({ code: null, hint: "至少要保留一段再导入。" });
-      return;
-    }
-    setBusy("commit");
-    setError(null);
-    try {
-      const payload: ImportPreview = {
-        ...preview,
-        title: title.trim() === "" ? preview.title : title.trim(),
-        paragraphs: kept,
-        stats: keptStats,
-      };
-      const yearText = examYear.trim();
-      const year = yearText === "" ? null : Number(yearText);
-      const result = await commitImport(payload, {
-        examType,
-        examYear: Number.isFinite(year) ? year : null,
-      });
-      window.location.hash = `#/article/${result.articleId}`;
-    } catch (err) {
-      // AC11：提交失败同样保留全部编辑（用户可以改标题/恢复段落后再试）
-      setError(readError(err));
-    } finally {
-      setBusy(null);
-    }
-  }
-
-  const goArticle = useCallback((articleId: number) => {
-    window.location.hash = `#/article/${articleId}`;
-  }, []);
+  const goArticle = useMemo(
+    () => (articleId: number) => {
+      window.location.hash = `#/article/${articleId}`;
+    },
+    [],
+  );
 
   return (
     <div className="import-page">
-      <div className="import-tabs" role="tablist" aria-label="导入方式">
-        <button
-          type="button"
-          role="tab"
-          className={mode === "quick" ? "import-tab active" : "import-tab"}
-          aria-selected={mode === "quick"}
-          data-import-mode="quick"
-          onClick={() => setMode("quick")}
-        >
-          快速导入（只要原文）
-        </button>
-        <button
-          type="button"
-          role="tab"
-          className={mode === "ai" ? "import-tab active" : "import-tab"}
-          aria-selected={mode === "ai"}
-          data-import-mode="ai"
-          onClick={() => setMode("ai")}
-        >
-          AI 解析导入（原文 + 解析）
-        </button>
-      </div>
-
-      {/* 快速导入：M5 六步，**原样保留**（AC1 不回归）。用 hidden 而不是卸载，
-          切回来自动还在原状态（AI 侧反过来：卸载即清空中间态，见 §四.5）。 */}
-      <div hidden={mode !== "quick"} data-quick-panel>
-        <section className="card" aria-labelledby="import-input-title">
-          <h2 id="import-input-title">粘贴正文</h2>
-          <p className="card-hint">
-            纯文本，一段一行、段间空行。英文正文；单篇上限 {MAX_BODY_CHARS.toLocaleString("en-US")} 字符
-            （超了按段拆开分次导入）。解析只做预览，**不写库**。
-          </p>
-          <label className="import-label" htmlFor="import-text">
-            正文
-          </label>
-          <textarea
-            id="import-text"
-            className="import-textarea"
-            data-import-text
-            value={text}
-            rows={12}
-            spellCheck={false}
-            placeholder="在这里粘贴英文正文……"
-            onChange={(event) => setText(event.target.value)}
-          />
-          <div className="import-row">
-            <span className={overLimit ? "import-counter over" : "import-counter"} data-import-counter>
-              {chars.toLocaleString("en-US")} 字符
-              {overLimit ? `（超出 ${(chars - MAX_BODY_CHARS).toLocaleString("en-US")}）` : ""}
-            </span>
-            <button
-              type="button"
-              className="btn btn-primary"
-              data-import-parse
-              disabled={busy !== null || text.trim() === ""}
-              onClick={onParse}
-            >
-              {busy === "parse" ? "解析中…" : "解析预览"}
-            </button>
-          </div>
-        </section>
-
-        {error ? (
-          <div className="import-error" role="alert" data-import-error>
-            <span className="import-error-code" data-import-error-code>
-              {error.code ?? "提示"}
-            </span>
-            <span className="import-error-hint">{error.hint}</span>
-          </div>
-        ) : null}
-
-        {preview ? (
-          <section className="card" aria-labelledby="import-preview-title" data-import-preview>
-            <h2 id="import-preview-title">预览</h2>
-            <p
-              className="import-stats"
-              data-import-stats
-              data-paragraph-count={preview.stats.paragraphCount}
-              data-sentence-count={preview.stats.sentenceCount}
-              data-word-count={preview.stats.wordCount}
-              data-token-count={preview.stats.tokenCount}
-              data-kept-paragraph-count={keptStats.paragraphCount}
-              data-kept-sentence-count={keptStats.sentenceCount}
-              data-kept-word-count={keptStats.wordCount}
-            >
-              段 {preview.stats.paragraphCount} · 句 {preview.stats.sentenceCount} · 词{" "}
-              {preview.stats.wordCount}
-              {excluded.length > 0 ? `（保留 ${keptStats.paragraphCount} 段 / ${keptStats.wordCount} 词）` : ""}
-            </p>
-
-            <div className="import-meta">
-              <label className="import-field">
-                <span>标题</span>
-                <input
-                  type="text"
-                  data-import-title
-                  value={title}
-                  onChange={(event) => setTitle(event.target.value)}
-                />
-              </label>
-              <label className="import-field import-field-narrow">
-                <span>题型</span>
-                <select data-import-exam-type value={examType} onChange={(event) => setExamType(event.target.value)}>
-                  {EXAM_OPTIONS.map((option) => (
-                    <option key={option.value} value={option.value}>
-                      {option.label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <label className="import-field import-field-narrow">
-                <span>年份</span>
-                <input
-                  type="text"
-                  inputMode="numeric"
-                  data-import-exam-year
-                  value={examYear}
-                  placeholder="可留空"
-                  onChange={(event) => setExamYear(event.target.value)}
-                />
-              </label>
-            </div>
-
-            <ol className="import-paragraphs">
-              {preview.paragraphs.map((paragraph) => {
-                const removed = excluded.includes(paragraph.idx);
-                return (
-                  <li
-                    key={paragraph.idx}
-                    className={removed ? "import-paragraph removed" : "import-paragraph"}
-                    data-import-paragraph
-                    data-paragraph-idx={paragraph.idx}
-                    data-paragraph-excluded={removed ? "true" : "false"}
-                  >
-                    <label className="import-paragraph-head">
-                      <input
-                        type="checkbox"
-                        data-import-paragraph-toggle
-                        checked={removed}
-                        onChange={() =>
-                          setExcluded((prev) =>
-                            prev.includes(paragraph.idx)
-                              ? prev.filter((item) => item !== paragraph.idx)
-                              : [...prev, paragraph.idx],
-                          )
-                        }
-                      />
-                      <span className="import-paragraph-idx">第 {paragraph.idx + 1} 段</span>
-                      <span className="import-paragraph-meta">{paragraph.sentences.length} 句</span>
-                      <span className="import-paragraph-hint">{removed ? "已剔除（不导入）" : "勾选可剔除"}</span>
-                    </label>
-                    <p className="import-paragraph-text">{paragraph.text}</p>
-                  </li>
-                );
-              })}
-            </ol>
-
-            <div className="import-row import-row-end">
-              <button
-                type="button"
-                className="btn btn-primary"
-                data-import-commit
-                disabled={busy !== null || kept.length === 0}
-                onClick={onCommit}
-              >
-                {busy === "commit" ? "导入中…" : "确认导入"}
-              </button>
-            </div>
-          </section>
-        ) : null}
-      </div>
-
-      {mode === "ai" ? (
-        <AiImport key={patchArticleId ?? "new"} articleId={patchArticleId} onImported={goArticle} />
-      ) : null}
+      <AiImport key={patchArticleId ?? "new"} articleId={patchArticleId} onImported={goArticle} />
     </div>
   );
 }

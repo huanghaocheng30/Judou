@@ -15,6 +15,7 @@ use crate::commands::CommandError;
 const MIGRATIONS: &[(i64, &str)] = &[
     (1, include_str!("../migrations/001_init.sql")),
     (2, include_str!("../migrations/002_add_import_columns.sql")),
+    (3, include_str!("../migrations/003_answer_source.sql")),
 ];
 
 pub struct Db {
@@ -174,11 +175,11 @@ mod tests {
         dir.join("judou.db")
     }
 
-    /// 首次迁移必须建出 19 张表并写 version=2（001 建表 + 002 加列，两条都跑了）。
+    /// 首次迁移必须建出 19 张表并写 version=3（001 建表 + 002 加 3 列 + 003 加 answer_source）。
     /// 这条用例能证明失败：迁移框架若预建 schema_meta，001 的 CREATE TABLE 会撞
     /// `table schema_meta already exists`（2026-11-05 真机 dev 启动实测该错）。
     #[test]
-    fn open_creates_19_tables_and_version_2() {
+    fn open_creates_19_tables_and_version_3() {
         let path = temp_db_path("migrate");
         let db = Db::open(path.clone()).expect("首次迁移应成功");
         {
@@ -196,7 +197,32 @@ mod tests {
             let version: String = conn
                 .query_row("SELECT value FROM schema_meta WHERE key='version'", [], |row| row.get(0))
                 .expect("读 version 失败");
-            assert_eq!(version, "2");
+            assert_eq!(version, "3");
+        }
+        std::fs::remove_dir_all(path.parent().expect("有父目录")).ok();
+    }
+
+    /// M5c AC12：003 迁移必须真的执行（编号复用 002 会被版本游标跳过，列永远不存在）。
+    /// 这条用例能证明失败：把 MIGRATIONS 里的 3 改回 2 后本用例 FAIL（`question` 缺列）。
+    #[test]
+    fn migration_003_adds_answer_source_with_none_default() {
+        let path = temp_db_path("answer-source");
+        let db = Db::open(path.clone()).expect("迁移应成功");
+        {
+            let conn = db.conn.lock().expect("锁未中毒");
+            let columns: Vec<(String, String, Option<String>)> = conn
+                .prepare("PRAGMA table_info(question)")
+                .expect("PRAGMA 失败")
+                .query_map([], |row| Ok((row.get(1)?, row.get(2)?, row.get(4)?)))
+                .expect("游标失败")
+                .map(|row| row.expect("行读取失败"))
+                .collect();
+            let column = columns
+                .into_iter()
+                .find(|(name, _, _)| name == "answer_source")
+                .unwrap_or_else(|| panic!("question 缺列 answer_source（003 未执行？）"));
+            assert_eq!(column.1, "TEXT");
+            assert_eq!(column.2.as_deref(), Some("'none'"));
         }
         std::fs::remove_dir_all(path.parent().expect("有父目录")).ok();
     }

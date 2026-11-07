@@ -94,7 +94,13 @@ pub fn run() {
             commands::match_ai_payload,
             commands::commit_ai_import,
             commands::patch_ai_analysis,
-            commands::get_ai_import_stats
+            commands::get_ai_import_stats,
+            // M5c · 导入重做（4 个；实现见 ai_import.rs，薄包装在 commands.rs）
+            // split_user_input / update_article_meta / get_article_questions / replace_article_questions
+            commands::split_user_input,
+            commands::update_article_meta,
+            commands::get_article_questions,
+            commands::replace_article_questions
         ])
         .run(tauri::generate_context!())
         .expect("启动句读失败");

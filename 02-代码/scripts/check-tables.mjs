@@ -58,7 +58,15 @@ if (tables.length !== 19) { console.error(`FAIL: 表数应为 19，实测 ${tabl
 
 const version = db.prepare("SELECT value FROM schema_meta WHERE key='version'").get();
 console.log(`schema_meta.version = ${version ? version.value : "<缺失>"}`);
-if (!version || version.value !== "2") { console.error("FAIL: version 应为 2（002 落地后）"); failed = true; }
+if (!version || version.value !== "3") { console.error("FAIL: version 应为 3（003 落地后）"); failed = true; }
+
+// M5c AC12：003 迁移的列必须真在库里（迁移编号复用 002 时会被版本游标跳过 → 这里必红）
+const questionColumns = db.prepare("PRAGMA table_info(question)").all().map((r) => r.name);
+console.log(`question 列: ${questionColumns.join(", ")}`);
+if (!questionColumns.includes("answer_source")) {
+  console.error("FAIL: question 缺列 answer_source（003_answer_source.sql 是否注册进 db.rs MIGRATIONS？）");
+  failed = true;
+}
 
 const indexes = db
   .prepare("SELECT name FROM sqlite_master WHERE type='index' AND name NOT LIKE 'sqlite_%' ORDER BY name")

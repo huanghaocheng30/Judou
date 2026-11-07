@@ -22,6 +22,7 @@ import type {
   AppSettings,
   ArticleContent,
   ArticleFilter,
+  ArticleMetaPatch,
   ArticleSummary,
   BlankAnalysis,
   DueReview,
@@ -35,6 +36,7 @@ import type {
   NoteMarks,
   NoteUpsertResult,
   PingResult,
+  QuestionView,
   ReviewLog,
   ReviewPlan,
   ReviewResult,
@@ -47,6 +49,7 @@ import type {
   VocabList,
   VocabPatch,
   Tag,
+  UserInputSplit,
   WordNote,
 } from "./types";
 import type { VocabFilter, VocabGroupBy } from "./vocab";
@@ -311,11 +314,33 @@ export function commitAiImport(
 }
 
 /** ⑤ 后补解析：只写解析四表，**不动** `paragraph`/`sentence`/`token`（笔记与生词引用不失效） */
-export function patchAiAnalysis(articleId: number, matched: AiMatched): Promise<AiPatchReport> {
-  return invoke<AiPatchReport>("patch_ai_analysis", { articleId, matched });
+export function patchAiAnalysis(articleId: number, draft: AiDraft, matched: AiMatched): Promise<AiPatchReport> {
+  return invoke<AiPatchReport>("patch_ai_analysis", { articleId, draft, matched });
 }
 
 /** ⑥ 覆盖率回读（补解析入口的初值不是 0） */
 export function getAiImportStats(articleId: number): Promise<AiImportStats> {
   return invoke<AiImportStats>("get_ai_import_stats", { articleId });
+}
+
+// ───────── M5c · 导入重做（4 个封装：切分 / 编辑元信息 / 读题目 / 换题目） ─────────
+
+/** ⑦ 一次粘贴「原文 + 题目 + 答案」→ 自动切分（纯函数，不写库；切不中时 `detected=false`） */
+export function splitUserInput(raw: string): Promise<UserInputSplit> {
+  return invoke<UserInputSplit>("split_user_input", { raw });
+}
+
+/** ⑧ 改元信息（只改 article 行；原文三表不动） */
+export function updateArticleMeta(articleId: number, patch: ArticleMetaPatch): Promise<void> {
+  return invoke<void>("update_article_meta", { articleId, patch });
+}
+
+/** ⑨ 读该篇题目（编辑面板初值） */
+export function getArticleQuestions(articleId: number): Promise<QuestionView[]> {
+  return invoke<QuestionView[]>("get_article_questions", { articleId });
+}
+
+/** ⑩ 整批替换该篇题目（只写 question 表；`answerSource` 原样保留） */
+export function replaceArticleQuestions(articleId: number, questions: QuestionView[]): Promise<QuestionView[]> {
+  return invoke<QuestionView[]>("replace_article_questions", { articleId, questions });
 }
