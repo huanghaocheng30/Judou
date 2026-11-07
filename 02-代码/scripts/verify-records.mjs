@@ -273,6 +273,45 @@ check("PDF-7 前端走隐藏 iframe 的 contentWindow.print()（不用 window.op
   return "iframe print";
 });
 
+// ── M6 第五轮：释义回退链（context_meaning → lexicon.sense）+ A4 答案对照 ──
+check("PDF-8 释义回退链：context_meaning 为空时导出改用 lexicon.sense", () => {
+  assert(/LEFT JOIN lexicon lx ON lx\.normalized = v\.normalized/.test(exportRs), "read_vocab_rows 必须按 normalized LEFT JOIN lexicon");
+  assert(/sense: row\.get\(9\)\?/.test(exportRs), "VocabRow 必须接 lexicon.sense");
+  assert(/fn meaning_text\(row: &VocabRow\) -> Option<&str>/.test(exportRs), "缺 meaning_text 回退链");
+  assert(/clean\(row\.context_meaning\.as_deref\(\)\)\.or_else\(\|\| clean\(row\.sense\.as_deref\(\)\)\)/.test(exportRs),
+    "回退顺序必须是「本句意思 → 词典释义」");
+  assert(!/row\.context_meaning\.as_deref\(\)\.unwrap_or\(""\)/.test(exportRs),
+    "不得只取 context_meaning（那样 NULL 词的释义整列会空）");
+  return "lexicon.sense 回退";
+});
+
+check("PDF-9 A4 答案对照节：data-sheet-answer 行数 = 词数，关掉开关不输出", () => {
+  assert(/data-sheet-answer/.test(exportRs), "缺 data-sheet-answer 节");
+  assert(/fn render_sheet_answer\(page_rows: &\[VocabRow\], offset: usize\) -> String/.test(exportRs), "缺答案节渲染函数");
+  assert(/data-answer-no=/.test(exportRs), "答案行必须带 data-answer-no（门禁据此数行）");
+  assert(/if with_answer && mode == SheetMode::A4 \{/.test(exportRs), "只有 A4 + 开关开启才出答案节");
+  assert(/with_answer\.unwrap_or\(true\)/.test(commands), "命令层答案开关缺省必须为 true");
+  assert(/data-export-answer/.test(settingsPage), "前端缺「附答案」开关 data-export-answer");
+  assert(/exportVocabSheet\(sheetMode, sheetShuffle, sheetAnswer\)/.test(settingsPage), "开关必须透传到导出调用");
+  assert(/a4_answer_section_lists_word_and_meaning_per_page/.test(exportRs), "缺答案对照单测");
+  return "答案节 + 开关";
+});
+
+check("PDF-10 A4 右栏 Meaning 在有词典释义时非空（不得打 data-empty）", () => {
+  assert(/"left" => sheet_cell\(Some\(&row\.surface\)\)/.test(exportRs), "A4 左栏必须仍是 Word");
+  assert(/_ => sheet_cell\(Some\(meaning\)\)/.test(exportRs), "A4 右栏必须用回退后的 meaning");
+  assert(/a4_meaning_column_is_never_empty_when_sense_present/.test(exportRs), "缺「右栏非空」单测");
+  return "右栏非空";
+});
+
+check("PDF-11 zh/en 与 A4 共用同一回退链（单元格层不直连 context_meaning）", () => {
+  const meaningCalls = [...sheetRs.matchAll(/sheet_cell\(Some\(meaning\)\)/g)].length;
+  assert(meaningCalls >= 2, `释义单元格必须集中在 meaning 变量上（实测 ${meaningCalls} 处）`);
+  assert(!/sheet_cell\(Some\(&row\.context_meaning/.test(sheetRs), "单元格层不得直连 context_meaning");
+  assert(/meaning_falls_back_to_lexicon_sense_in_all_three_modes/.test(exportRs), "缺三模式回退单测");
+  return `${meaningCalls} 处共用 meaning`;
+});
+
 console.log(`\nM6 门禁：${passed} 通过 / ${failures.length} 失败`);
 if (failures.length > 0) {
   for (const failure of failures) console.error(`  - ${failure}`);

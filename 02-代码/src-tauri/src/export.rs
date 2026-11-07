@@ -58,6 +58,8 @@ struct VocabRow {
     phonetic: Option<String>,
     pos: Option<String>,
     context_meaning: Option<String>,
+    /// 词典释义（`lexicon.sense`，按 `normalized` join）——释义回退链第二档
+    sense: Option<String>,
     collocation: Option<String>,
     example: Option<String>,
     source_sentence: Option<String>,
@@ -86,7 +88,7 @@ pub fn export_vocab_html(db: &Db, out_path: &Path) -> Result<ExportResult, Comma
 // ───────────────────── M6 第四轮 · PDF 词表（三模式 / 乱序 / A4 双栏打印） ─────────────────────
 
 /// PDF 词表三种模式（互斥单选）。
-#[derive(Clone, Copy, PartialEq, Eq)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum SheetMode {
     /// A4 默写：左栏只放 Word、右栏只放 Meaning，**各自独立编号**（遮一半即可双向默写）
     A4,
@@ -132,7 +134,7 @@ const SHEET_ROWS_PER_COL: usize = 15;
 ///
 /// 为什么返回字符串而不是写文件：Tauri webview 里 `window.open` 会被拦，隐藏 iframe 的
 /// `contentWindow.print()` 是唯一无需新依赖的打印通道；HTML 只在内存里过一次手。
-pub fn export_vocab_sheet(db: &Db, mode: &str, shuffle: bool) -> Result<String, CommandError> {
+pub fn export_vocab_sheet(db: &Db, mode: &str, shuffle: bool, with_answer: bool) -> Result<String, CommandError> {
     let mode = SheetMode::from_arg(mode).ok_or_else(|| CommandError {
         code: "EXPORT_MODE_INVALID".to_string(),
         message: format!("导出模式只能是 a4 / zh / en，当前是「{mode}」。"),
@@ -142,7 +144,18 @@ pub fn export_vocab_sheet(db: &Db, mode: &str, shuffle: bool) -> Result<String, 
     if shuffle {
         shuffle_rows(&mut rows, seed_now());
     }
-    Ok(render_vocab_sheet(&rows, mode, shuffle))
+    Ok(render_vocab_sheet(&rows, mode, shuffle, with_answer))
+}
+
+/// 释义回退链（第五轮）：用户手填的「本句意思」优先 → 没有则回退词典释义 `lexicon.sense` → 都没有返回 `None`。
+///
+/// 为什么必须回退：`context_meaning` 是用户手填字段，实测经常为 NULL（9 个词里只有 1 个有值），
+/// 只取它会让导出的词表在「释义」列大片留空，教学上无意义。
+fn meaning_text(row: &VocabRow) -> Option<&str> {
+    fn clean(value: Option<&str>) -> Option<&str> {
+        value.map(str::trim).filter(|text| !text.is_empty())
+    }
+    clean(row.context_meaning.as_deref()).or_else(|| clean(row.sense.as_deref()))
 }
 
 /// 乱序：Fisher-Yates + 线性同余伪随机（**不引新 crate**；seed 入参便于单测可复现）。
@@ -175,7 +188,7 @@ enum SheetColumns {
 }
 
 /// 渲染一整份词表 HTML（无外链、内联 CSS、每页重复表头）。
-fn render_vocab_sheet(rows: &[VocabRow], mode: SheetMode, shuffle: bool) -> String {
+fn render_vocab_sheet(rows: &[VocabRow], mode: SheetMode, shuffle: bool, with_answer: bool) -> String {
     let total = rows.len();
     // A4 默写：左右是同一批词的两种视图 → 每页 15 词；中文/英文：每页双栏共 30 词
     let words_per_page = match mode {
@@ -189,7 +202,16 @@ fn render_vocab_sheet(rows: &[VocabRow], mode: SheetMode, shuffle: bool) -> Stri
         let start = page * words_per_page;
         let end = (start + words_per_page).min(total);
         let page_rows = rows.get(start..end).unwrap_or(&[]);
-        pages.push_str(&render_sheet_page(page_rows, mode, shuffle, total, page + 1, page_count, page * words_per_page));
+        pages.push_str(&render_sheet_page(
+            page_rows,
+            mode,
+            shuffle,
+            total,
+            page + 1,
+            page_count,
+            page * words_per_page,
+            with_answer,
+        ));
     }
 
     format!(
@@ -221,6 +243,7 @@ fn render_sheet_page(
     page_no: usize,
     page_count: usize,
     offset: usize,
+    with_answer: bool,
 ) -> String {
     let (left, right, left_cols, right_cols) = match mode {
         // 左右同批词、各自独立编号（都从本页第一个词号起算）
@@ -255,8 +278,36 @@ fn render_sheet_page(
         SheetMode::Zh | SheetMode::En => offset + left.len(),
     };
     html.push_str(&render_sheet_col(right, mode, &right_cols, "right", right_offset));
-    html.push_str("</div>\n</section>\n");
+    html.push_str("</div>\n");
+    // 第五轮：A4 默写补「答案对照」——左栏只 Word、右栏只 Meaning 时，学生写完要能自查；
+    // 一节一页（行数 = 本页词数），小字号两列对照，可折起。
+    if with_answer && mode == SheetMode::A4 {
+        html.push_str(&render_sheet_answer(page_rows, offset));
+    }
+    html.push_str("</section>\n");
     html
+}
+
+/// A4 附录「答案对照」：`Word —— 释义` 逐行对照，行数 = 本页词数。
+fn render_sheet_answer(page_rows: &[VocabRow], offset: usize) -> String {
+    let mut items = String::new();
+    for (index, row) in page_rows.iter().enumerate() {
+        let no = offset + index + 1;
+        let meaning = meaning_text(row).unwrap_or("");
+        items.push_str(&format!(
+            "<li class=\"answer-row\" data-answer-no=\"{no}\"><span class=\"answer-word\">{}</span><span class=\"answer-sep\"> —— </span><span class=\"answer-sense\">{}</span></li>\n",
+            esc(&row.surface),
+            esc(meaning),
+        ));
+    }
+    format!(
+        "<section class=\"sheet-answer\" data-sheet-answer>
+<h2 class=\"sheet-answer-title\">答案对照（自查用，可折起）</h2>
+<ol class=\"sheet-answer-list\">
+{items}</ol>
+</section>
+"
+    )
 }
 
 fn render_sheet_col(
@@ -281,7 +332,8 @@ fn render_sheet_col(
     let mut body = String::new();
     for (index, row) in rows.iter().enumerate() {
         let no = offset + index + 1;
-        let meaning = row.context_meaning.as_deref().unwrap_or("");
+        // 第五轮：释义走回退链（本句意思 → 词典释义），三种模式共用同一口径
+        let meaning = meaning_text(row).unwrap_or("");
         let cells = match mode {
             // A4 默写：左栏只 Word、右栏只 Meaning（各自独立编号，遮一半即可默写）
             SheetMode::A4 => match side {
@@ -337,6 +389,12 @@ body { font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-s
 .sheet-table td.no, .sheet-table th.no { width: 8mm; text-align: right; color: #57606a; font-size: 9pt; }
 .sheet-table td.tick, .sheet-table th.tick { width: 6mm; text-align: center; }
 .tick-box { display: inline-block; width: 3.6mm; height: 3.6mm; border: 0.8pt solid #8b949e; border-radius: 0.6mm; }
+.sheet-answer { margin-top: 5mm; border-top: 0.8pt dashed #c9d1d9; padding-top: 2mm; }
+.sheet-answer-title { font-size: 9pt; color: #57606a; margin: 0 0 1.5mm; font-weight: 600; }
+.sheet-answer-list { margin: 0; padding: 0; list-style: none; columns: 2; column-gap: 8mm; font-size: 8.5pt; color: #1f2328; }
+.answer-row { padding: 0.6mm 0; break-inside: avoid; }
+.answer-word { font-weight: 600; }
+.answer-sense { color: #3b434c; }
 @media print {
   .sheet-page { padding: 0; }
   body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
@@ -358,10 +416,12 @@ fn read_vocab_rows(conn: &Connection) -> Result<Vec<VocabRow>, CommandError> {  
                       ORDER BY wn.updated_at DESC LIMIT 1),
                     s.text, a.title,
                     (SELECT group_concat(tg.name, ' / ') FROM vocab_tag vt
-                       JOIN tag tg ON tg.id = vt.tag_id WHERE vt.vocab_id = v.id)
+                       JOIN tag tg ON tg.id = vt.tag_id WHERE vt.vocab_id = v.id),
+                    lx.sense
                FROM vocab_entry v
                LEFT JOIN sentence s ON s.id = v.source_sentence_id
                LEFT JOIN article a ON a.id = v.source_article_id
+               LEFT JOIN lexicon lx ON lx.normalized = v.normalized
               ORDER BY v.created_at DESC, v.id DESC",
         )
         .map_err(|err| CommandError::db("准备生词导出查询", err))?;
@@ -372,6 +432,7 @@ fn read_vocab_rows(conn: &Connection) -> Result<Vec<VocabRow>, CommandError> {  
                 phonetic: row.get(1)?,
                 pos: row.get(2)?,
                 context_meaning: row.get(3)?,
+                sense: row.get(9)?,
                 collocation: row.get(4)?,
                 example: row.get(5)?,
                 source_sentence: row.get(6)?,
@@ -427,7 +488,7 @@ fn render_vocab_html(rows: &[VocabRow], stamp: &str) -> String {
                 None => String::new(),
             }
         };
-        body.push_str(&section("释义", row.context_meaning.as_deref()));
+        body.push_str(&section("释义", meaning_text(row)));
         body.push_str(&section("搭配", row.collocation.as_deref()));
         body.push_str(&section("例句", row.example.as_deref()));
         body.push_str(&section("来源句", row.source_sentence.as_deref()));
@@ -733,6 +794,7 @@ mod tests {
                 phonetic: Some("əˈbændən".into()),
                 pos: Some("v.".into()),
                 context_meaning: Some("放弃；抛弃".into()),
+                sense: None,
                 collocation: Some("abandon a plan".into()),
                 example: Some("They abandoned the car.".into()),
                 source_sentence: Some("He had to abandon the plan.".into()),
@@ -762,6 +824,7 @@ mod tests {
                 phonetic: None,
                 pos: None,
                 context_meaning: Some("a & b".into()),
+                sense: None,
                 collocation: None,
                 example: None,
                 source_sentence: None,
@@ -833,6 +896,7 @@ mod tests {
                 phonetic: None,
                 pos: None,
                 context_meaning: Some(format!("释义{i:02}")),
+                sense: None,
                 collocation: None,
                 example: None,
                 source_sentence: None,
@@ -846,7 +910,7 @@ mod tests {
     fn sheet_three_modes_share_print_skeleton() {
         let rows = sheet_rows(7);
         for mode in [SheetMode::A4, SheetMode::Zh, SheetMode::En] {
-            let html = render_vocab_sheet(&rows, mode, false);
+            let html = render_vocab_sheet(&rows, mode, false, false);
             assert!(html.contains("@page"), "必须声明 @page（A4 打印）");
             assert!(html.contains("size: A4"), "@page 必须是 A4");
             assert!(!html.contains("<link"), "不得有外链样式");
@@ -862,9 +926,9 @@ mod tests {
     #[test]
     fn sheet_modes_differ_in_which_column_is_blank() {
         let rows = sheet_rows(7);
-        let a4 = render_vocab_sheet(&rows, SheetMode::A4, false);
-        let zh = render_vocab_sheet(&rows, SheetMode::Zh, false);
-        let en = render_vocab_sheet(&rows, SheetMode::En, false);
+        let a4 = render_vocab_sheet(&rows, SheetMode::A4, false, false);
+        let zh = render_vocab_sheet(&rows, SheetMode::Zh, false, false);
+        let en = render_vocab_sheet(&rows, SheetMode::En, false, false);
 
         // A4 默写：左右两组各自独立编号，左只放 Word、右只放 Meaning
         assert!(a4.contains(r#"data-col="word""#) && a4.contains(r#"data-col="meaning""#), "A4 必须左右分栏");
@@ -886,13 +950,13 @@ mod tests {
     fn sheet_paginates_two_columns_with_repeated_thead() {
         // 中文/英文：每页 15 行 × 2 栏 = 30 词；31 词 → 2 页
         let rows = sheet_rows(31);
-        let zh = render_vocab_sheet(&rows, SheetMode::Zh, false);
+        let zh = render_vocab_sheet(&rows, SheetMode::Zh, false, false);
         assert!(zh.contains("共 31 词 2 页"), "31 词必须算成 2 页");
         assert!(zh.contains("第 1 页 / 2 页") && zh.contains("第 2 页 / 2 页"), "每页都要有页码");
         assert_eq!(zh.matches("<thead>").count(), 4, "2 页 × 2 栏 = 4 个表头");
 
         // A4 默写：左右是同一批词，每页 15 词；16 词 → 2 页
-        let a4 = render_vocab_sheet(&sheet_rows(16), SheetMode::A4, false);
+        let a4 = render_vocab_sheet(&sheet_rows(16), SheetMode::A4, false, false);
         assert!(a4.contains("共 16 词 2 页"), "A4 16 词必须算成 2 页");
         assert_eq!(a4.matches("<thead>").count(), 4, "A4 2 页 × 2 栏 = 4 个表头");
     }
@@ -911,7 +975,122 @@ mod tests {
         assert_eq!(sorted_before, sorted_after, "乱序不得增删词条");
         assert_ne!(before, after, "乱序后顺序必须与原名不同");
 
-        let html = render_vocab_sheet(&rows, SheetMode::En, true);
+        let html = render_vocab_sheet(&rows, SheetMode::En, true, false);
         assert!(html.contains("乱序"), "乱序模式必须在标题行标注");
     }
+
+    // ───────── M6 第五轮：释义回退链（context_meaning → lexicon.sense）+ A4 答案对照 ─────────
+
+    /// 造「用户没填本句意思」的生词行：`context_meaning` 为 `None`，只有词典释义。
+    fn rows_without_context_meaning(count: usize) -> Vec<VocabRow> {
+        (1..=count)
+            .map(|i| VocabRow {
+                surface: format!("word{i:02}"),
+                phonetic: None,
+                pos: None,
+                context_meaning: None,
+                sense: Some(format!("词典释义{i:02}")),
+                collocation: None,
+                example: None,
+                source_sentence: None,
+                source_title: None,
+                tags: None,
+            })
+            .collect()
+    }
+
+    /// PDF-8 / PDF-11：本句意思为空 → A4 与中文词表都必须回退到 `lexicon.sense`；
+    /// 有本句意思时必须优先，不得混入词典释义。
+    ///
+    /// 英文词表（En）的 Meaning 列按设计**留空**（看单词默写释义），所以回退链在这一模式下
+    /// 不可观测——改用 `meaning_text` 的直接断言证明链路本身与模式无关（PDF-11 的口径）。
+    #[test]
+    fn meaning_falls_back_to_lexicon_sense_in_all_three_modes() {
+        let rows = rows_without_context_meaning(3);
+        for mode in [SheetMode::A4, SheetMode::Zh] {
+            let html = render_vocab_sheet(&rows, mode, false, false);
+            assert!(html.contains("词典释义01"), "{mode:?} 模式丢失词典释义回退");
+            assert!(html.contains("词典释义03"), "{mode:?} 模式最后一词也要回退");
+        }
+
+        // En 模式：Meaning 列留空（PDF-4 契约），但回退链对同一行仍成立
+        let en = render_vocab_sheet(&rows, SheetMode::En, false, false);
+        assert!(en.contains("word01"), "英文词表仍必须有单词");
+        assert_eq!(en.matches(r#"data-empty="1""#).count(), 3, "英文词表 3 个 Meaning 单元格按设计留空");
+        assert_eq!(meaning_text(&rows[0]), Some("词典释义01"), "回退链与模式无关");
+
+        let mut rows = rows_without_context_meaning(1);
+        rows[0].context_meaning = Some("本句意思01".into());
+        let html = render_vocab_sheet(&rows, SheetMode::Zh, false, false);
+        assert!(html.contains("本句意思01"), "有本句意思时必须优先用它");
+        assert!(!html.contains("词典释义01"), "有本句意思时不得混入词典释义");
+        assert_eq!(meaning_text(&rows[0]), Some("本句意思01"), "本句意思优先于词典释义");
+    }
+
+    /// PDF-9：A4 词表带答案对照节，行数 = 词数；关掉开关时该节不存在。
+    #[test]
+    fn a4_answer_section_lists_word_and_meaning_per_page() {
+        let rows = rows_without_context_meaning(3);
+        let on = render_vocab_sheet(&rows, SheetMode::A4, false, true);
+        assert!(on.contains("<section class=\"sheet-answer\" data-sheet-answer>"), "开启时必须输出答案对照节");
+        assert_eq!(on.matches("data-answer-no=").count(), 3, "答案行数必须等于词数");
+        assert!(on.contains("答案对照"), "答案节必须自报用途（自查用）");
+        assert!(on.contains("word01") && on.contains("词典释义01"), "答案行必须成对给出 Word —— 释义");
+
+        let off = render_vocab_sheet(&rows, SheetMode::A4, false, false);
+        assert!(!off.contains("data-sheet-answer"), "关闭开关时不得输出答案对照节");
+        assert_eq!(off.matches("data-answer-no=").count(), 0, "关闭时不得残留答案行");
+    }
+
+    /// PDF-10：A4 右栏（Meaning）在「有词典释义」的词上必须非空（不得打 data-empty）。
+    #[test]
+    fn a4_meaning_column_is_never_empty_when_sense_present() {
+        let rows = rows_without_context_meaning(9);
+        let html = render_vocab_sheet(&rows, SheetMode::A4, false, false);
+        assert_eq!(html.matches(r#"data-empty="1""#).count(), 0, "9 个词都有词典释义，A4 两栏不得出现空格");
+    }
+
+    /// PDF-8 端到端：真库 + 真 SQL —— `vocab_entry.context_meaning` 为 NULL 时，
+    /// 导出必须拿到 `lexicon.sense`（用户实测 9 个词只有 1 个填了本句意思）。
+    #[test]
+    fn real_db_null_context_meaning_falls_back_to_lexicon_sense() {
+        let db = Db::open_in_memory_for_tests().expect("内存库");
+        db.write(|tx| {
+            tx.execute(
+                "INSERT INTO lexicon (normalized, word, sense) VALUES ('provoke', 'provoke', '引起；激起')",
+                [],
+            )
+            .map_err(|err| CommandError::db("插入词库", err))?;
+            // 两个生词：一个填了本句意思、一个没填（真实数据形态）
+            tx.execute(
+                "INSERT INTO vocab_entry (normalized, surface, context_meaning) VALUES ('provoke', 'provokes', NULL)",
+                [],
+            )
+            .map_err(|err| CommandError::db("插入生词", err))?;
+            tx.execute(
+                "INSERT INTO vocab_entry (normalized, surface, context_meaning) VALUES ('abandon', 'abandoned', '放弃（本句）')",
+                [],
+            )
+            .map_err(|err| CommandError::db("插入生词", err))?;
+            Ok(())
+        })
+        .expect("建数据");
+
+        let rows = db.read(read_vocab_rows).expect("读生词");
+        let provoke = rows.iter().find(|row| row.surface == "provokes").expect("provokes 行");
+        assert_eq!(provoke.context_meaning, None, "本用例前提：本句意思为空");
+        assert_eq!(provoke.sense.as_deref(), Some("引起；激起"), "SQL 必须 join 出 lexicon.sense");
+        assert_eq!(meaning_text(provoke), Some("引起；激起"), "回退链必须落到词典释义");
+
+        // 真导出（A4 + 答案对照）：两个词都要有释义，答案行数 = 2
+        let html = export_vocab_sheet(&db, "a4", false, true).expect("A4 导出");
+        assert!(html.contains("引起；激起"), "没填本句意思的词必须导出词典释义");
+        assert!(html.contains("放弃（本句）"), "填了本句意思的词必须用本句意思");
+        assert_eq!(html.matches("data-answer-no=").count(), 2, "答案对照行数 = 词数");
+        assert_eq!(html.matches(r#"data-empty="1""#).count(), 0, "两个词都有释义，A4 不得出现空格");
+
+        let zh = export_vocab_sheet(&db, "zh", false, false).expect("中文词表导出");
+        assert!(zh.contains("引起；激起"), "中文词表同样走回退链");
+    }
 }
+

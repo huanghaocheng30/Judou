@@ -40,6 +40,8 @@ export function Settings() {
   const [restorePath, setRestorePath] = useState("");
   const [sheetMode, setSheetMode] = useState<SheetMode>("a4");
   const [sheetShuffle, setSheetShuffle] = useState(false);
+  // 第五轮：A4 默写默认附「答案对照」节（自查用，打印后可折起）；关掉则不出该节
+  const [sheetAnswer, setSheetAnswer] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
@@ -96,7 +98,7 @@ export function Settings() {
   const runExportSheet = () => {
     setBusy("sheet");
     setNote(null);
-    exportVocabSheet(sheetMode, sheetShuffle)
+    exportVocabSheet(sheetMode, sheetShuffle, sheetAnswer)
       .then((html) => {
         const frame = document.createElement("iframe");
         frame.setAttribute("aria-hidden", "true");
@@ -205,6 +207,15 @@ export function Settings() {
             onChange={(event) => setSheetShuffle(event.target.checked)}
           />
           乱序导出（打乱词序，避免按顺序背）
+        </label>
+        <label className="shuffle-line">
+          <input
+            type="checkbox"
+            data-export-answer
+            checked={sheetAnswer}
+            onChange={(event) => setSheetAnswer(event.target.checked)}
+          />
+          附答案对照（A4 默写专用：词表末尾给「Word —— 释义」小字对照，自查后折起或裁掉）
         </label>
         <div className="btn-row">
           <button type="button" className="btn" data-export-pdf disabled={busy !== "none"} onClick={runExportSheet}>

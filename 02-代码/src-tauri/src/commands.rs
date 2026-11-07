@@ -1297,8 +1297,10 @@ pub fn export_vocab_sheet(
     db: State<'_, Db>,
     mode: String,
     shuffle: bool,
+    with_answer: Option<bool>,
 ) -> Result<String, CommandError> {
-    export::export_vocab_sheet(&db, &mode, shuffle)
+    // 第五轮：答案对照开关缺省为 true（不传也给出答案节，前端默认开）
+    export::export_vocab_sheet(&db, &mode, shuffle, with_answer.unwrap_or(true))
 }
 
 /// 备份库（AC6）：`outDir` 省略时写库同级 `backups/`；`stamp` 省略时用 UTC 当前时刻。
