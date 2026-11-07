@@ -12,6 +12,58 @@ export interface PingResult {
 /** `get_settings` 返回体：app_setting 全量表（已知键：theme / guide_shown / review_intervals） */
 export type AppSettings = Record<string, string>;
 
+/** M6 · 记录页时间线一行（`get_reading_records`） */
+export interface ReadingRecordView {
+  articleId: number;
+  title: string;
+  /** 上次阅读位置（scrollTop 像素串；M6 之前的历史行可能为 null） */
+  lastPosition: string | null;
+  durationSec: number;
+  completed: boolean;
+  /** UTC 串（SQLite `datetime('now')`） */
+  lastReadAt: string | null;
+}
+
+/** M6 · 统计卡六项 + 连续天数（`get_stats`） */
+export interface StatsView {
+  articleCount: number;
+  completedCount: number;
+  totalDurationSec: number;
+  noteCount: number;
+  vocabCount: number;
+  reviewCount: number;
+  streak: number;
+}
+
+/** 备份/恢复用的表行数 */
+export interface TableCount {
+  name: string;
+  rows: number;
+}
+
+/** M6 · 生词导出结果（`export_vocab_html`） */
+export interface ExportResult {
+  path: string;
+  count: number;
+  bytes: number;
+}
+
+/** M6 · 备份结果（`backup_db`） */
+export interface BackupResult {
+  dbPath: string;
+  metaPath: string;
+  schemaVersion: number;
+  tables: TableCount[];
+}
+
+/** M6 · 恢复结果（`restore_db`）：`diff` 为空表示与恢复前完全一致 */
+export interface RestoreResult {
+  restoredFrom: string;
+  preBackupPath: string;
+  tables: TableCount[];
+  diff: string[];
+}
+
 /** 启动失败信息（`get_startup_error`）：`file` 只带 basename，成功启动时为 null */
 export interface StartupErrorInfo {
   kind: string;

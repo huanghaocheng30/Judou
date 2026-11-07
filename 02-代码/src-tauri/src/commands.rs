@@ -13,9 +13,11 @@ use tauri::State;
 use crate::ai_import;
 use crate::analysis;
 use crate::db::Db;
+use crate::export;
 use crate::import::{self, ImportReport};
 use crate::import_user;
 use crate::pack::{self, PackLabels, PackPath, StartupErrorInfo, StartupState};
+use crate::records;
 use crate::review;
 use crate::vocab;
 
@@ -179,6 +181,15 @@ impl CommandError {
         Self {
             code: "invalid_date".to_string(),
             message: format!("日期格式应为 YYYY-MM-DD（例如 2026-11-06），收到「{value}」。"),
+            path: None,
+        }
+    }
+
+    /// 恢复被拒（源文件不是合法句读备份）：现库完好，只报这一次的拒绝原因。
+    pub fn restore_invalid(reason: &str) -> Self {
+        Self {
+            code: "restore_invalid".to_string(),
+            message: format!("无法恢复：{reason}。当前库未被改动。"),
             path: None,
         }
     }
@@ -1234,6 +1245,76 @@ pub fn replace_article_questions(
     questions: Vec<ai_import::QuestionView>,
 ) -> Result<Vec<ai_import::QuestionView>, CommandError> {
     ai_import::replace_article_questions(&db, article_id, &questions)
+}
+
+// ─────────────────────────── M6 · 记录 / 统计 / 导出 / 备份 ───────────────────────────
+
+/// 记录页时间线（AC1）：`reading_record JOIN article`，按 `last_read_at DESC`。
+#[tauri::command]
+pub fn get_reading_records(db: State<'_, Db>) -> Result<Vec<records::ReadingRecordView>, CommandError> {
+    records::get_reading_records(&db)
+}
+
+/// 统计卡六项 + 连续天数（AC2/AC3）。`today` 由前端给本地日期（`YYYY-MM-DD`）。
+#[tauri::command]
+pub fn get_stats(db: State<'_, Db>, today: String) -> Result<records::StatsView, CommandError> {
+    records::get_stats(&db, &today)
+}
+
+/// 阅读进度埋点（AC4）：进入 `position="" seconds=0`，离开传当前位置与停留秒数（累加）。
+#[tauri::command]
+pub fn touch_reading(
+    db: State<'_, Db>,
+    article_id: i64,
+    position: String,
+    seconds: i64,
+) -> Result<(), CommandError> {
+    records::touch_reading_record(&db, article_id, &position, seconds)
+}
+
+/// 生词导出为自包含 HTML（AC5）。`outPath` 省略时写库同级 `exports/judou-vocab-YYYYMMDD.html`。
+#[tauri::command]
+pub fn export_vocab_html(
+    db: State<'_, Db>,
+    out_path: Option<String>,
+) -> Result<export::ExportResult, CommandError> {
+    let target = match out_path {
+        Some(path) => std::path::PathBuf::from(path),
+        None => export::default_export_dir(&db)
+            .join(format!("judou-vocab-{}.html", export::date_now())),
+    };
+    export::export_vocab_html(&db, &target)
+}
+
+/// 备份库（AC6）：`outDir` 省略时写库同级 `backups/`；`stamp` 省略时用 UTC 当前时刻。
+#[tauri::command]
+pub fn backup_db(
+    db: State<'_, Db>,
+    out_dir: Option<String>,
+    stamp: Option<String>,
+) -> Result<export::BackupResult, CommandError> {
+    let dir = match out_dir {
+        Some(path) => std::path::PathBuf::from(path),
+        None => export::default_export_dir(&db).join("backups"),
+    };
+    let stamp = stamp.unwrap_or_else(export::stamp_now);
+    export::backup_db(&db, &dir, &stamp)
+}
+
+/// 恢复库（AC7）：先自动备份当前库（`pre-restore`），坏文件不破坏现库。
+#[tauri::command]
+pub fn restore_db(
+    db: State<'_, Db>,
+    src_path: String,
+    pre_dir: Option<String>,
+    stamp: Option<String>,
+) -> Result<export::RestoreResult, CommandError> {
+    let dir = match pre_dir {
+        Some(path) => std::path::PathBuf::from(path),
+        None => export::default_export_dir(&db).join("backups"),
+    };
+    let stamp = stamp.unwrap_or_else(export::stamp_now);
+    export::restore_db(&db, std::path::Path::new(&src_path), &dir, &stamp)
 }
 
 #[cfg(test)]

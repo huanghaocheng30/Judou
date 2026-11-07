@@ -23,6 +23,7 @@
     "verify:note-marks": "node scripts/verify-note-marks.mjs",
     "verify:vocab": "node scripts/verify-vocab.mjs",
     "verify:review": "node scripts/verify-review.mjs",
+    "verify:records": "node scripts/verify-records.mjs",
     "verify:pending": "node --test scripts/pending.test.mjs",
     "test:theme": "node --test scripts/theme.test.mjs"
   },

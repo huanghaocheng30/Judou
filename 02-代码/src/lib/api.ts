@@ -55,6 +55,44 @@ import type {
 import type { VocabFilter, VocabGroupBy } from "./vocab";
 
 /** 连通性探针：返回 pong 与 Cargo 包版本 */
+import type {
+  BackupResult,
+  ExportResult,
+  ReadingRecordView,
+  RestoreResult,
+  StatsView,
+} from "./types";
+
+/** M6 记录页时间线：`reading_record JOIN article`，按 `last_read_at` 倒序 */
+export function getReadingRecords(): Promise<ReadingRecordView[]> {
+  return invoke<ReadingRecordView[]>("get_reading_records");
+}
+
+/** M6 统计卡：六项数字 + 连续天数（`today` 传本地日期 `YYYY-MM-DD`） */
+export function getStats(today: string): Promise<StatsView> {
+  return invoke<StatsView>("get_stats", { today });
+}
+
+/** M6 阅读进度埋点：进入传 `("", 0)`，离开传当前位置与停留秒数（后端累加） */
+export function touchReading(articleId: number, position: string, seconds: number): Promise<void> {
+  return invoke<void>("touch_reading", { articleId, position, seconds });
+}
+
+/** M6 生词导出为自包含 HTML（省略 outPath 时写库同级 exports/） */
+export function exportVocabHtml(outPath?: string): Promise<ExportResult> {
+  return invoke<ExportResult>("export_vocab_html", { outPath });
+}
+
+/** M6 备份本地库（省略 outDir 时写库同级 exports/backups/） */
+export function backupDb(outDir?: string, stamp?: string): Promise<BackupResult> {
+  return invoke<BackupResult>("backup_db", { outDir, stamp });
+}
+
+/** M6 恢复本地库（先自动备份当前库；坏文件不破坏现库） */
+export function restoreDb(srcPath: string, preDir?: string, stamp?: string): Promise<RestoreResult> {
+  return invoke<RestoreResult>("restore_db", { srcPath, preDir, stamp });
+}
+
 export function ping(): Promise<PingResult> {
   return invoke<PingResult>("ping");
 }

@@ -1,4 +1,4 @@
-[package]
+﻿[package]
 name = "judou"
 version = "0.1.0"
 description = "句读 · CET4/CET6 阅读精读工作台"
@@ -21,7 +21,7 @@ tauri = { version = "2", features = [] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 # bundled：随 crate 编译 SQLite C 源码，不依赖系统 sqlite3.lib（计划评审 R1）
-rusqlite = { version = "0.32", features = ["bundled"] }
+rusqlite = { version = "0.32", features = ["bundled", "backup"] }
 # sentence.text_hash = sha256(text) 前 16 位（02 D3）；标准实现，不自己写哈希
 sha2 = "0.10"
 

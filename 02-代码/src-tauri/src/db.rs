@@ -43,6 +43,22 @@ impl Db {
         Ok(db)
     }
 
+    /// 测试专用：内存库（迁移照跑）。
+    ///
+    /// 只在 `cfg(test)` 下存在——门禁 bin / 生产代码拿不到它，避免「内存库」误入真路径。
+    #[cfg(test)]
+    pub fn open_in_memory_for_tests() -> Result<Self, CommandError> {
+        let conn = Connection::open_in_memory().map_err(|err| CommandError::db("打开内存库", err))?;
+        conn.pragma_update(None, "foreign_keys", "ON")
+            .map_err(|err| CommandError::db("开启外键约束", err))?;
+        let db = Self {
+            conn: Mutex::new(conn),
+            path: PathBuf::from(":memory:"),
+        };
+        db.migrate()?;
+        Ok(db)
+    }
+
     pub fn path(&self) -> &Path {
         &self.path
     }
@@ -65,6 +81,18 @@ impl Db {
         let value = f(&tx)?;
         tx.commit().map_err(|err| CommandError::db("提交写事务", err))?;
         Ok(value)
+    }
+
+    /// 可变借用连接（rusqlite `Backup` API 需要 `&mut Connection`）。
+    ///
+    /// 只给 `export::restore_db` 用：调用方必须先写 `pre-restore` 备份（02 §三.3），
+    /// 否则页级覆盖中途失败会留下半状态。
+    pub fn with_conn_mut<T>(
+        &self,
+        f: impl FnOnce(&mut Connection) -> Result<T, CommandError>,
+    ) -> Result<T, CommandError> {
+        let mut conn = self.lock()?;
+        f(&mut conn)
     }
 
     /// 连接累计写入行数（SQLite `total_changes`）。

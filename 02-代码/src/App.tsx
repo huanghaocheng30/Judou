@@ -8,6 +8,7 @@
 import { useEffect, useState } from "react";
 import { getStartupError, ping } from "./lib/api";
 import type { StartupErrorInfo } from "./lib/types";
+import { Guide } from "./components/Guide";
 import { Sidebar } from "./shell/Sidebar";
 import { ThemeProvider } from "./shell/ThemeProvider";
 import { Topbar } from "./shell/Topbar";
@@ -86,6 +87,8 @@ export default function App() {
           <Topbar title={page.title} subtitle={page.subtitle} />
           <main className="content">{page.element}</main>
         </div>
+        {/* M6 · 首次引导（AC11）：挂在壳内，主题生效后才渲染 */}
+        <Guide />
       </div>
     </ThemeProvider>
   );

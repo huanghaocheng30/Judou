@@ -1,0 +1,566 @@
+//! M6 · 导出与备份（D1）——生词自包含 HTML / 库备份 / 库恢复。
+//!
+//! 三条红线（02 契约 §三.2 / §三.3）：
+//! - **HTML 自包含**：全部样式写 `<style>`，不允许 `<link rel="stylesheet">`、`<script src=`、`http(s)://` 外链；
+//! - **恢复先备份**：写 `*-pre-restore-YYYYMMDD-HHmm.db` → 校验源 → 临时副本校验计数 → 覆盖；
+//! - **失败不破坏现库**：覆盖前任何一步失败直接返回错误（现库未动）；覆盖中途失败用 pre-restore 备份回滚。
+
+use std::path::{Path, PathBuf};
+use std::time::{Duration, SystemTime, UNIX_EPOCH};
+
+use rusqlite::backup::Backup;
+use rusqlite::{Connection, OpenFlags};
+use serde::Serialize;
+
+use crate::commands::CommandError;
+use crate::db::Db;
+
+/// `export_vocab_html` 返回体（AC5）。
+#[derive(Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct ExportResult {
+    pub path: String,
+    pub count: i64,
+    pub bytes: u64,
+}
+
+/// `backup_db` 返回体（AC6）。
+#[derive(Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct BackupResult {
+    pub db_path: String,
+    pub meta_path: String,
+    pub schema_version: i64,
+    /// 各表行数（键 = 表名），JSON 元信息里同一份。
+    pub tables: Vec<TableCount>,
+}
+
+/// `restore_db` 返回体（AC7）：恢复后各表计数 + 与恢复前的差异（空 = 完全一致）。
+#[derive(Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct RestoreResult {
+    pub restored_from: String,
+    pub pre_backup_path: String,
+    pub tables: Vec<TableCount>,
+    pub diff: Vec<String>,
+}
+
+#[derive(Debug, Clone, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct TableCount {
+    pub name: String,
+    pub rows: i64,
+}
+
+/// 一条待导出的生词（含搭配/例句/来源句/标签，AC5）。
+struct VocabRow {
+    surface: String,
+    phonetic: Option<String>,
+    pos: Option<String>,
+    context_meaning: Option<String>,
+    collocation: Option<String>,
+    example: Option<String>,
+    source_sentence: Option<String>,
+    source_title: Option<String>,
+    tags: Option<String>,
+}
+
+/// 生词导出为**自包含 HTML**：内联 CSS、无外链、打印一页一卡。
+pub fn export_vocab_html(db: &Db, out_path: &Path) -> Result<ExportResult, CommandError> {
+    let rows = db.read(read_vocab_rows)?;
+    let html = render_vocab_html(&rows, &stamp_now());
+    if let Some(parent) = out_path.parent() {
+        std::fs::create_dir_all(parent).map_err(|err| CommandError::db_io("创建导出目录", err))?;
+    }
+    std::fs::write(out_path, html.as_bytes()).map_err(|err| CommandError::db_io("写入生词导出文件", err))?;
+    let bytes = std::fs::metadata(out_path)
+        .map(|meta| meta.len())
+        .unwrap_or(html.len() as u64);
+    Ok(ExportResult {
+        path: out_path.to_string_lossy().to_string(),
+        count: rows.len() as i64,
+        bytes,
+    })
+}
+
+/// 生词查询：搭配/例句来自 `word_note`（同来源句 + 同 normalized 的最近一条），标签聚合自 `vocab_tag`。
+fn read_vocab_rows(conn: &Connection) -> Result<Vec<VocabRow>, CommandError> {
+    let mut stmt = conn
+        .prepare(
+            "SELECT v.surface, v.phonetic, v.pos, v.context_meaning,
+                    (SELECT wn.collocation FROM word_note wn
+                       JOIN token t ON t.id = wn.token_id
+                      WHERE t.sentence_id = v.source_sentence_id AND t.normalized = v.normalized
+                      ORDER BY wn.updated_at DESC LIMIT 1),
+                    (SELECT wn.example FROM word_note wn
+                       JOIN token t ON t.id = wn.token_id
+                      WHERE t.sentence_id = v.source_sentence_id AND t.normalized = v.normalized
+                      ORDER BY wn.updated_at DESC LIMIT 1),
+                    s.text, a.title,
+                    (SELECT group_concat(tg.name, ' / ') FROM vocab_tag vt
+                       JOIN tag tg ON tg.id = vt.tag_id WHERE vt.vocab_id = v.id)
+               FROM vocab_entry v
+               LEFT JOIN sentence s ON s.id = v.source_sentence_id
+               LEFT JOIN article a ON a.id = v.source_article_id
+              ORDER BY v.created_at DESC, v.id DESC",
+        )
+        .map_err(|err| CommandError::db("准备生词导出查询", err))?;
+    let rows = stmt
+        .query_map([], |row| {
+            Ok(VocabRow {
+                surface: row.get(0)?,
+                phonetic: row.get(1)?,
+                pos: row.get(2)?,
+                context_meaning: row.get(3)?,
+                collocation: row.get(4)?,
+                example: row.get(5)?,
+                source_sentence: row.get(6)?,
+                source_title: row.get(7)?,
+                tags: row.get(8)?,
+            })
+        })
+        .map_err(|err| CommandError::db("读取生词导出数据", err))?;
+    let mut out = Vec::new();
+    for row in rows {
+        out.push(row.map_err(|err| CommandError::db("读取生词导出数据", err))?);
+    }
+    Ok(out)
+}
+
+/// HTML 转义（导出文本含用户内容，必须转义后再拼）。
+fn esc(raw: &str) -> String {
+    let mut out = String::with_capacity(raw.len() + 8);
+    for ch in raw.chars() {
+        match ch {
+            '&' => out.push_str("&amp;"),
+            '<' => out.push_str("&lt;"),
+            '>' => out.push_str("&gt;"),
+            '"' => out.push_str("&quot;"),
+            '\'' => out.push_str("&#39;"),
+            other => out.push(other),
+        }
+    }
+    out
+}
+
+/// 自包含模板：**只有 `<style>`，没有外链**（AC5 门禁会解析断言）。
+fn render_vocab_html(rows: &[VocabRow], stamp: &str) -> String {
+    let mut cards = String::new();
+    if rows.is_empty() {
+        cards.push_str("<p class=\"empty\">还没有生词。在精读页点单词把它加进生词本，再来导出。</p>\n");
+    }
+    for (index, row) in rows.iter().enumerate() {
+        let mut meta = String::new();
+        if let Some(phonetic) = row.phonetic.as_deref().filter(|v| !v.is_empty()) {
+            meta.push_str(&format!("<span class=\"phonetic\">/{}/</span>", esc(phonetic)));
+        }
+        if let Some(pos) = row.pos.as_deref().filter(|v| !v.is_empty()) {
+            meta.push_str(&format!("<span class=\"pos\">{}</span>", esc(pos)));
+        }
+        let mut body = String::new();
+        let section = |label: &str, value: Option<&str>| -> String {
+            match value.map(str::trim).filter(|v| !v.is_empty()) {
+                Some(text) => format!(
+                    "<p class=\"row\"><span class=\"label\">{label}</span><span class=\"value\">{}</span></p>\n",
+                    esc(text)
+                ),
+                None => String::new(),
+            }
+        };
+        body.push_str(&section("释义", row.context_meaning.as_deref()));
+        body.push_str(&section("搭配", row.collocation.as_deref()));
+        body.push_str(&section("例句", row.example.as_deref()));
+        body.push_str(&section("来源句", row.source_sentence.as_deref()));
+        body.push_str(&section("来源篇目", row.source_title.as_deref()));
+        body.push_str(&section("标签", row.tags.as_deref()));
+        cards.push_str(&format!(
+            "<article class=\"card\" data-vocab-item=\"{index}\">\n  <h2 class=\"word\">{word}{meta}</h2>\n{body}</article>\n",
+            word = esc(&row.surface),
+            meta = meta,
+            body = body
+        ));
+    }
+    format!(
+        r#"<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>句读 · 生词本 {count} 词</title>
+<style>
+  :root {{ color-scheme: light; }}
+  * {{ box-sizing: border-box; }}
+  body {{
+    margin: 0; padding: 24px;
+    font-family: -apple-system, "Segoe UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
+    color: #1f2328; background: #f6f7f9; line-height: 1.6;
+  }}
+  header {{ max-width: 860px; margin: 0 auto 16px; }}
+  header h1 {{ margin: 0 0 4px; font-size: 20px; }}
+  header p {{ margin: 0; color: #5b6470; font-size: 13px; }}
+  .list {{ max-width: 860px; margin: 0 auto; }}
+  .card {{
+    background: #fff; border: 1px solid #e3e6ea; border-radius: 10px;
+    padding: 14px 16px; margin: 0 0 12px;
+  }}
+  .word {{ margin: 0 0 8px; font-size: 18px; }}
+  .phonetic {{ margin-left: 8px; font-size: 14px; color: #5b6470; font-weight: 400; }}
+  .pos {{ margin-left: 8px; font-size: 12px; color: #7a4bd6; font-weight: 400; }}
+  .row {{ margin: 4px 0; font-size: 14px; }}
+  .label {{ display: inline-block; min-width: 64px; color: #5b6470; }}
+  .value {{ white-space: pre-wrap; }}
+  .empty {{ max-width: 860px; margin: 0 auto; color: #5b6470; }}
+  footer {{ max-width: 860px; margin: 20px auto 0; color: #8b939e; font-size: 12px; }}
+  @page {{ size: A4; margin: 14mm; }}
+  @media print {{
+    body {{ background: #fff; padding: 0; }}
+    .card {{ break-inside: avoid; page-break-inside: avoid; border-color: #d0d4da; }}
+    header, footer {{ max-width: none; }}
+  }}
+</style>
+</head>
+<body>
+<header>
+  <h1>句读 · 生词本</h1>
+  <p>共 {count} 词 · 导出于 {stamp}</p>
+</header>
+<main class="list">
+{cards}</main>
+<footer>由句读（Judou）导出，本页不依赖网络即可离线查看。</footer>
+</body>
+</html>
+"#,
+        count = rows.len(),
+        stamp = esc(stamp),
+        cards = cards
+    )
+}
+
+/// 备份库到 `out_dir`：`VACUUM INTO` 生成干净副本 + 同名 `.json` 元信息。
+pub fn backup_db(db: &Db, out_dir: &Path, stamp: &str) -> Result<BackupResult, CommandError> {
+    let stamp = validate_stamp(stamp)?;
+    std::fs::create_dir_all(out_dir).map_err(|err| CommandError::db_io("创建备份目录", err))?;
+    let db_path = out_dir.join(format!("judou-backup-{stamp}.db"));
+    vacuum_into(db, &db_path)?;
+    let schema_version = schema_version_of(&db_path)?;
+    let tables = table_counts(&db_path)?;
+    let meta = serde_json::json!({
+        "app": "judou",
+        "kind": "backup",
+        "schemaVersion": schema_version,
+        "createdAt": stamp,
+        "tables": tables,
+    });
+    let meta_path = out_dir.join(format!("judou-backup-{stamp}.json"));
+    std::fs::write(&meta_path, serde_json::to_vec_pretty(&meta).map_err(|err| {
+        CommandError::db_io("序列化备份元信息", err)
+    })?)
+    .map_err(|err| CommandError::db_io("写入备份元信息", err))?;
+
+    Ok(BackupResult {
+        db_path: db_path.to_string_lossy().to_string(),
+        meta_path: meta_path.to_string_lossy().to_string(),
+        schema_version,
+        tables,
+    })
+}
+
+/// 恢复：先自动备份（`pre-restore`）→ 校验源 → 临时副本校验 → 覆盖当前库 → 报告计数差异。
+///
+/// 覆盖用 rusqlite 的 backup API（页级复制），不替换 db 文件——Windows 上正在使用的库文件
+/// 无法被 `rename` 覆盖（共享冲突），页级复制同样满足「失败不破坏现库」：开始覆盖后若失败，
+/// 用 pre-restore 备份再复制回去。
+pub fn restore_db(db: &Db, src: &Path, pre_dir: &Path, stamp: &str) -> Result<RestoreResult, CommandError> {
+    let stamp = validate_stamp(stamp)?;
+    // ① 源文件必须是合法 SQLite 且含 article 表（坏文件在这里就被挡住，现库未动）
+    let src_conn = open_source(src)?;
+    let _ = &src_conn;
+
+    // ② 恢复前自动备份当前库
+    std::fs::create_dir_all(pre_dir).map_err(|err| CommandError::db_io("创建备份目录", err))?;
+    let pre_path = pre_dir.join(format!("judou-pre-restore-{stamp}.db"));
+    vacuum_into(db, &pre_path)?;
+
+    // ③ 临时副本上校验表计数（源文件本身只读打开，不改它）
+    let tmp_dir = pre_dir.join(format!(".restore-check-{stamp}"));
+    std::fs::create_dir_all(&tmp_dir).map_err(|err| CommandError::db_io("创建校验目录", err))?;
+    let tmp_path = tmp_dir.join("check.db");
+    std::fs::copy(src, &tmp_path).map_err(|err| CommandError::db_io("复制待恢复文件", err))?;
+    let before_tables = table_counts(db.path())?;
+    let after_tables = table_counts(&tmp_path)?;
+    std::fs::remove_dir_all(&tmp_dir).ok();
+
+    // ④ 页级覆盖（失败则用 pre-restore 备份回滚）
+    if let Err(err) = copy_into(db, &src_conn) {
+        let _ = copy_into(db, &open_source(&pre_path)?);
+        return Err(err);
+    }
+    drop(src_conn);
+
+    let diff = diff_counts(&before_tables, &after_tables);
+    Ok(RestoreResult {
+        restored_from: src.to_string_lossy().to_string(),
+        pre_backup_path: pre_path.to_string_lossy().to_string(),
+        tables: after_tables,
+        diff,
+    })
+}
+
+fn validate_stamp(stamp: &str) -> Result<String, CommandError> {
+    // 只收 `YYYYMMDD-HHmm`（14 位 + 短横），挡路径穿越与空名
+    let bytes = stamp.as_bytes();
+    let shaped = bytes.len() == 13
+        && bytes[8] == b'-'
+        && bytes
+            .iter()
+            .enumerate()
+            .all(|(i, b)| i == 8 || b.is_ascii_digit());
+    if shaped {
+        Ok(stamp.to_string())
+    } else {
+        Err(CommandError::invalid_setting_value("stamp", "时间戳应为 YYYYMMDD-HHmm"))
+    }
+}
+
+fn vacuum_into(db: &Db, target: &Path) -> Result<(), CommandError> {
+    if target.exists() {
+        std::fs::remove_file(target).map_err(|err| CommandError::db_io("清理同名备份", err))?;
+    }
+    db.read(|conn| {
+        conn.execute("VACUUM INTO ?1", [target.to_string_lossy().to_string()])
+            .map_err(|err| CommandError::db("导出库副本", err))?;
+        Ok(())
+    })
+}
+
+fn open_source(path: &Path) -> Result<Connection, CommandError> {
+    if !path.exists() {
+        return Err(CommandError::restore_invalid("备份文件不存在"));
+    }
+    let meta = std::fs::metadata(path).map_err(|err| CommandError::db_io("读取备份文件", err))?;
+    if meta.len() < 1024 {
+        return Err(CommandError::restore_invalid("备份文件过小，不是有效库"));
+    }
+    let conn = Connection::open_with_flags(path, OpenFlags::SQLITE_OPEN_READ_ONLY)
+        .map_err(|err| CommandError::db("打开备份文件", err))?;
+    let has_article: bool = conn
+        .query_row(
+            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type='table' AND name='article')",
+            [],
+            |row| row.get(0),
+        )
+        .map_err(|err| CommandError::db("检查备份文件结构", err))?;
+    let has_setting: bool = conn
+        .query_row(
+            "SELECT EXISTS(SELECT 1 FROM sqlite_master WHERE type='table' AND name='app_setting')",
+            [],
+            |row| row.get(0),
+        )
+        .map_err(|err| CommandError::db("检查备份文件结构", err))?;
+    if !has_article || !has_setting {
+        return Err(CommandError::restore_invalid("备份文件缺少句读必需的表"));
+    }
+    Ok(conn)
+}
+
+fn copy_into(db: &Db, src: &Connection) -> Result<(), CommandError> {
+    db.with_conn_mut(|dst| {
+        let backup = Backup::new(src, dst).map_err(|err| CommandError::db("开始恢复库", err))?;
+        backup
+            .run_to_completion(64, Duration::from_millis(5), None)
+            .map_err(|err| CommandError::db("写入恢复数据", err))?;
+        Ok(())
+    })
+}
+
+fn schema_version_of(path: &Path) -> Result<i64, CommandError> {
+    let conn = Connection::open_with_flags(path, OpenFlags::SQLITE_OPEN_READ_ONLY)
+        .map_err(|err| CommandError::db("打开备份库", err))?;
+    let version: String = conn
+        .query_row("SELECT value FROM schema_meta WHERE key='version'", [], |row| row.get(0))
+        .map_err(|err| CommandError::db("读取备份库版本", err))?;
+    Ok(version.parse::<i64>().unwrap_or(0))
+}
+
+fn table_counts(path: &Path) -> Result<Vec<TableCount>, CommandError> {
+    let conn = Connection::open_with_flags(path, OpenFlags::SQLITE_OPEN_READ_ONLY)
+        .map_err(|err| CommandError::db("打开待统计库", err))?;
+    let names: Vec<String> = conn
+        .prepare("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%' ORDER BY name")
+        .map_err(|err| CommandError::db("读取表清单", err))?
+        .query_map([], |row| row.get(0))
+        .map_err(|err| CommandError::db("读取表清单", err))?
+        .collect::<Result<Vec<String>, _>>()
+        .map_err(|err| CommandError::db("读取表清单", err))?;
+    let mut out = Vec::with_capacity(names.len());
+    for name in names {
+        let rows: i64 = conn
+            .query_row(&format!("SELECT COUNT(*) FROM \"{name}\""), [], |row| row.get(0))
+            .map_err(|err| CommandError::db("统计表行数", err))?;
+        out.push(TableCount { name, rows });
+    }
+    Ok(out)
+}
+
+fn diff_counts(before: &[TableCount], after: &[TableCount]) -> Vec<String> {
+    let mut diff = Vec::new();
+    for item in after {
+        let old = before
+            .iter()
+            .find(|entry| entry.name == item.name)
+            .map(|entry| entry.rows)
+            .unwrap_or(-1);
+        if old != item.rows {
+            diff.push(format!("{}: {} → {}", item.name, old, item.rows));
+        }
+    }
+    diff
+}
+
+/// `YYYYMMDD-HHmm`（UTC）。前端会传本地时间戳；门禁/CLI 不传时用这个兜底。
+pub fn stamp_now() -> String {
+    let secs = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .map(|d| d.as_secs() as i64)
+        .unwrap_or(0);
+    let days = secs.div_euclid(86_400);
+    let rem = secs.rem_euclid(86_400);
+    let (year, month, day) = civil_from_days(days);
+    format!(
+        "{year:04}{month:02}{day:02}-{:02}{:02}",
+        rem / 3600,
+        (rem % 3600) / 60
+    )
+}
+
+/// `days`（1970-01-01 起）→ (年, 月, 日)，Howard Hinnant 算法。
+fn civil_from_days(days: i64) -> (i64, i64, i64) {
+    let z = days + 719_468;
+    let era = if z >= 0 { z } else { z - 146_096 } / 146_097;
+    let doe = z - era * 146_097;
+    let yoe = (doe - doe / 1460 + doe / 36_524 - doe / 146_096) / 365;
+    let y = yoe + era * 400;
+    let doy = doe - (365 * yoe + yoe / 4 - yoe / 100);
+    let mp = (5 * doy + 2) / 153;
+    let d = doy - (153 * mp + 2) / 5 + 1;
+    let m = if mp < 10 { mp + 3 } else { mp - 9 };
+    (if m <= 2 { y + 1 } else { y }, m, d)
+}
+
+/// 导出文件名的默认时间戳（`judou-vocab-YYYYMMDD.html` 用）。
+pub fn date_now() -> String {
+    stamp_now()[0..8].to_string()
+}
+
+/// 默认导出目录：库文件同级 `exports/`。
+pub fn default_export_dir(db: &Db) -> PathBuf {
+    db.path()
+        .parent()
+        .map(|parent| parent.join("exports"))
+        .unwrap_or_else(|| PathBuf::from("exports"))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    /// AC5：自包含 HTML —— 无 `<link rel="stylesheet">`、无 `<script src=`、无 `http(s)://` 外链。
+    #[test]
+    fn html_has_no_external_links() {
+        let html = render_vocab_html(
+            &[VocabRow {
+                surface: "abandon".into(),
+                phonetic: Some("əˈbændən".into()),
+                pos: Some("v.".into()),
+                context_meaning: Some("放弃；抛弃".into()),
+                collocation: Some("abandon a plan".into()),
+                example: Some("They abandoned the car.".into()),
+                source_sentence: Some("He had to abandon the plan.".into()),
+                source_title: Some("2019 CET4 Reading".into()),
+                tags: Some("高频 / 动词".into()),
+            }],
+            "20261107-1730",
+        );
+        assert!(!html.contains("<link"), "不得有 link 标签");
+        assert!(!html.contains("<script src="), "不得有外部脚本");
+        assert!(!html.contains("http://"), "不得有 http 外链");
+        assert!(!html.contains("https://"), "不得有 https 外链");
+        assert!(html.contains("abandon"));
+        assert!(html.contains("abandon a plan"), "搭配必须导出");
+        assert!(html.contains("They abandoned the car."), "例句必须导出");
+        assert!(html.contains("He had to abandon the plan."), "来源句必须导出");
+        assert!(html.contains("高频 / 动词"), "标签必须导出");
+        assert!(html.contains("break-inside: avoid"), "打印一页一卡");
+    }
+
+    /// AC5：用户内容必须转义（不能把 `<b>` 直接拼进 HTML）。
+    #[test]
+    fn html_escapes_user_content() {
+        let html = render_vocab_html(
+            &[VocabRow {
+                surface: "<b>x</b>".into(),
+                phonetic: None,
+                pos: None,
+                context_meaning: Some("a & b".into()),
+                collocation: None,
+                example: None,
+                source_sentence: None,
+                source_title: None,
+                tags: None,
+            }],
+            "20261107-1730",
+        );
+        assert!(html.contains("&lt;b&gt;x&lt;/b&gt;"), "词形应转义");
+        assert!(html.contains("a &amp; b"), "释义应转义");
+        assert!(!html.contains("<b>x</b>"), "原文标签不得原样出现");
+    }
+
+    /// AC6：备份生成 `.db` + `.json`，且元信息含 schema 版本与表计数。
+    #[test]
+    fn backup_writes_db_and_meta_with_counts() {
+        let db = Db::open_in_memory_for_tests().expect("内存库");
+        let dir = std::env::temp_dir().join(format!("judou-backup-test-{}", stamp_now()));
+        std::fs::create_dir_all(&dir).expect("建目录");
+        // 内存库没有文件路径，备份前先落一个真库副本作为源路径
+        let src = dir.join("judou.db");
+        vacuum_into(&db, &src).expect("先落盘");
+        let file_db = Db::open(src.clone()).expect("打开落盘库");
+
+        let result = backup_db(&file_db, &dir, "20261107-1730").expect("备份应成功");
+        assert!(Path::new(&result.db_path).exists(), "备份 db 应存在");
+        assert!(Path::new(&result.meta_path).exists(), "元信息 json 应存在");
+        assert!(result.schema_version >= 1, "schema 版本应可读");
+        assert!(
+            result.tables.iter().any(|t| t.name == "article"),
+            "表计数应含 article"
+        );
+        let meta = std::fs::read_to_string(&result.meta_path).expect("读元信息");
+        assert!(meta.contains("schemaVersion"));
+        assert!(meta.contains("judou"));
+        std::fs::remove_dir_all(&dir).ok();
+    }
+
+    /// AC7：坏文件恢复必须被拒，且现库完好（表计数前后一致）。
+    #[test]
+    fn restore_rejects_bad_file_and_keeps_current_db() {
+        let dir = std::env::temp_dir().join(format!("judou-restore-test-{}", stamp_now()));
+        std::fs::create_dir_all(&dir).expect("建目录");
+        let live = dir.join("judou.db");
+        let seed = Db::open(live.clone()).expect("建库");
+        vacuum_into(&seed, &live).ok();
+        let db = Db::open(live.clone()).expect("打开库");
+        let before = table_counts(&live).expect("统计前");
+
+        let bad = dir.join("bad.db");
+        std::fs::write(&bad, b"not a sqlite database at all..............").expect("写坏文件");
+        let err = restore_db(&db, &bad, &dir, "20261107-1731").expect_err("坏文件必须被拒");
+        assert_eq!(err.code, "restore_invalid");
+        let after = table_counts(&live).expect("统计后");
+        assert_eq!(
+            before.iter().map(|t| (t.name.clone(), t.rows)).collect::<Vec<_>>(),
+            after.iter().map(|t| (t.name.clone(), t.rows)).collect::<Vec<_>>(),
+            "坏文件被拒后现库表计数不变"
+        );
+        std::fs::remove_dir_all(&dir).ok();
+    }
+}

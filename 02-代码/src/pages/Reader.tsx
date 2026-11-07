@@ -24,7 +24,7 @@ import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import { AnalysisPanel, useWideLayout } from "../components/AnalysisPanel";
 import { ArticleEditor } from "../components/ArticleEditor";
 import type { AnalysisSelection } from "../components/AnalysisPanel";
-import { completeReview, getArticleContent, getArticleNoteMarks, getReviewPlan, markArticleCompleted } from "../lib/api";
+import { completeReview, getArticleContent, getArticleNoteMarks, getReviewPlan, markArticleCompleted, touchReading } from "../lib/api";
 import { renderParagraph, renderTokens } from "../lib/render";
 import type { TokenNode } from "../lib/render";
 import type { ApiSentence, ArticleContent, NoteMarks, ReviewPlan, ReviewResult } from "../lib/types";
@@ -190,6 +190,23 @@ export function Reader() {
   /** 本篇笔记标记（F4/AC-R3）：一次 IPC 全量取，句末角标与词节点据此打 `data-has-note` */
   const [noteMarks, setNoteMarks] = useState<NoteMarks>({ sentenceIds: [], tokenIds: [] });
   const wide = useWideLayout();
+
+  // M6 · AC4 阅读埋点：进入写一次 `last_read_at`，离开时累加 `duration_sec` 并记下位置。
+  // **重复进出累加**（后端 `duration_sec = duration_sec + ?`），换篇目时先结算旧篇。
+  useEffect(() => {
+    if (!articleId) return;
+    void touchReading(articleId, "", 0).catch(() => {
+      // 埋点失败不影响阅读（不弹错、不阻塞正文）
+    });
+    const startedAt = Date.now();
+    return () => {
+      const seconds = Math.max(0, Math.round((Date.now() - startedAt) / 1000));
+      const position = `${Math.round(window.scrollY)}`;
+      void touchReading(articleId, position, seconds).catch((err: unknown) => {
+        console.warn("记录阅读进度失败", err);
+      });
+    };
+  }, [articleId]);
 
   useEffect(() => {
     if (!articleId) {

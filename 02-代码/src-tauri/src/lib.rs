@@ -16,7 +16,10 @@ pub mod commands;
 pub mod db;
 mod import;
 pub mod import_user;
+/// `pub` 是给门禁 bin（`src/bin/records_cli.rs`）用的：备份/恢复/导出要直调库层。
+pub mod export;
 mod pack;
+pub mod records;
 mod review;
 mod vocab;
 
@@ -100,7 +103,15 @@ pub fn run() {
             commands::split_user_input,
             commands::update_article_meta,
             commands::get_article_questions,
-            commands::replace_article_questions
+            commands::replace_article_questions,
+            // M6 路 记录 / 统计 / 导出 / 备份（5 个；实现见 records.rs / export.rs，
+            // get_settings / set_setting 复用 M0 已有命令，不重写）
+            commands::get_reading_records,
+            commands::touch_reading,
+            commands::get_stats,
+            commands::export_vocab_html,
+            commands::backup_db,
+            commands::restore_db
         ])
         .run(tauri::generate_context!())
         .expect("启动句读失败");
