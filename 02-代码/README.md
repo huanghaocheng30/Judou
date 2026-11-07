@@ -251,7 +251,7 @@ src-tauri/      Rust 侧（commands.rs 命令、vocab.rs 生词本 8 命令、db
                 migrations/001_init.sql（冻结）、002_add_import_columns.sql
 src-tauri/src/bin/  门禁通道：import_user_cli.rs（M5）/ ai_import_cli.rs（M5b；只调 lib 层，不复制 SQL）
 scripts/        可复跑的断言（verify-* / check-* / theme.test / pending.test）
-.github/        CI 骨架（**M7 收尾时移动到仓库根 .github/**）
+                （CI 骨架**已搬到仓库根 `.github/workflows/`**，E-M7-2；本目录下无 .github）
 ```
 
 ## 运行期 CDP 取证（读真实 DOM，不截图）
@@ -322,9 +322,11 @@ node scripts/make-update-manifest.mjs --url-base https://…/releases/download/v
 - `.github/workflows/ci.yml`：`cargo check` / `cargo test` / `npm run build` / 发布与回归门禁；矩阵 `windows-latest` / `macos-latest` / `ubuntu-latest`
 - `.github/workflows/release.yml`：`workflow_dispatch` + tag `v*` 触发，`tauri-action` 产出 Windows NSIS 并上传**草稿** Release
 
-> **位置说明**：GitHub Actions 只认仓库根 `.github/workflows/`，而本任务包的目标代码区是 `02-代码/`。
-> 两个 workflow 暂放在 `02-代码/.github/workflows/`，各步已用 `working-directory` / `projectPath` 指向
-> `02-代码`，整体移动到仓库根时**内容无需改动**。
+> **位置说明（E-M7-2 已落地）**：GitHub Actions 只认仓库根 `.github/workflows/`，而目标代码区是
+> `02-代码/`。两个 workflow 已搬到**仓库根** `.github/workflows/`（`02-代码/.github/` 已不存在）；
+> 搬迁后路径仍是「相对仓库根」：`defaults.run.working-directory: 02-代码`、`cache-dependency-path:
+> 02-代码/package-lock.json`、rust-cache `workspaces: 02-代码/src-tauri`、`projectPath: 02-代码` 全部保持不变即正确。
+> 门禁脚本 `scripts/check-ci.mjs` / `scripts/verify-release.mjs` 的 workflow 查找根已同步上跳一级（`repoRoot`）。
 
 > **签名私钥**：只引用 `secrets.TAURI_SIGNING_PRIVATE_KEY` / `secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD`
 > 这两个名称，仓库内不留任何密钥文件（`.gitignore` 覆盖 `*.key` / `*.pem` / `tauri-signing*` / `.tauri-keys/`）。

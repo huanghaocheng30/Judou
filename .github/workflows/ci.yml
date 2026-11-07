@@ -1,9 +1,8 @@
 # 句读 CI 骨架（M0）
 #
-# 位置说明（02 D6 本轮裁定）：GitHub Actions 只认**仓库根** .github/workflows/，
-# 而本任务包的目标代码区是 02-代码/。因此本文件暂放 02-代码/.github/workflows/ci.yml，
-# 由 M7 收尾时移动到仓库根（届时 `defaults.run.working-directory` 与各缓存路径依旧指向 02-代码/，
-# 移动后无需改动文件内容）。
+# 位置说明（E-M7-2 已落地）：GitHub Actions 只认**仓库根** .github/workflows/，
+# 而本任务包的目标代码区是 02-代码/。本文件现位于仓库根 .github/workflows/ci.yml，
+# `defaults.run.working-directory` 与各缓存路径都是「相对仓库根」指向 02-代码/，内容无需改动。
 #
 # 三平台依据：01 §三 第 7 条 + 05 §十六.4；Android job 以 if: false 占位，M7 启用。
 

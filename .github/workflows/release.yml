@@ -1,8 +1,7 @@
 # 句读发布工作流（M7 D5 / AC5）
 #
-# 位置说明（同 ci.yml）：GitHub Actions 只认**仓库根** .github/workflows/，而目标代码区是
-# 02-代码/。本文件暂放 02-代码/.github/workflows/release.yml，M7 收尾整体移动到仓库根，
-# 内容无需改动（各步已用 working-directory / projectPath 指向 02-代码）。
+# 位置说明（同 ci.yml）：E-M7-2 已搬到**仓库根** .github/workflows/release.yml，
+# 内容未改（各步本就用 working-directory / projectPath 相对仓库根指向 02-代码）。
 #
 # 触发：workflow_dispatch（人工发版）+ push tag `v*`
 # 产物：Windows NSIS 安装包 → 上传为 **草稿 Release**（人工确认后再发布）

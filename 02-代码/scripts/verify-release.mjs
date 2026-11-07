@@ -19,6 +19,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// E-M7-2：workflow 已搬到仓库根 .github/workflows/（GitHub 只认仓库根），工作流路径从 02-代码 上跳一级
+const repoRoot = path.resolve(root, "..");
 const problems = [];
 const ok = [];
 const fail = (msg) => problems.push(msg);
@@ -119,12 +121,12 @@ const workflows = [
 
 const workflowTexts = new Map();
 for (const { file, label } of workflows) {
-  const abs = path.join(root, file);
+  const abs = path.join(repoRoot, file);
   if (!existsSync(abs)) {
     fail(`工作流不存在：${file}`);
     continue;
   }
-  const text = read(file);
+  const text = readFileSync(abs, "utf8");
   workflowTexts.set(file, text);
   const yamlProblems = yamlSubsetProblems(text);
   if (yamlProblems.length === 0) {

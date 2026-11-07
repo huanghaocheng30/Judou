@@ -11,7 +11,9 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const ciPath = path.join(root, ".github", "workflows", "ci.yml");
+// E-M7-2：workflow 已搬到仓库根 .github/workflows/（GitHub 只认仓库根），从 02-代码 上跳一级
+const repoRoot = path.resolve(root, "..");
+const ciPath = path.join(repoRoot, ".github", "workflows", "ci.yml");
 
 if (!existsSync(ciPath)) {
   console.error(`FAIL: CI 文件不存在：${ciPath}`);
