@@ -155,7 +155,11 @@ export function Settings() {
             text: `有新版本 v${result.version}`,
             url: result.url ?? undefined,
           });
+        } else if (result.reason === "offline") {
+          // 读不到/读坏了 manifest：如实报失败，**不能**折叠成「已是最新」误导用户（AC7 第三态）
+          setUpdateNote({ kind: "failed", text: "检查失败，稍后再试" });
         } else {
+          // up-to-date / no-manifest：没有更新清单即视为无新版可提示
           setUpdateNote({ kind: "latest", text: "已是最新版本" });
         }
       })

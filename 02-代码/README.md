@@ -296,6 +296,27 @@ powershell -ExecutionPolicy Bypass -File scripts\build-installer.ps1
                                     # 只打包，不发布、不生成清单；CI 不自动执行本脚本
 ```
 
+### 出 `.sig` 签名与 `latest.json`：两步前置（本仓库默认不开）
+
+要生成 `latest.json`，打包产物旁边必须已有 `<安装包>.exe.sig`。**只配密钥不够**，两步都要做：
+
+1. **开清单产物开关**：`src-tauri/tauri.conf.json` 的 `bundle` 段加 `"createUpdaterArtifacts": true`
+   （Tauri 2 的 schema 默认 `false`，开关关着时 `tauri build` **不会**产出 `.exe.sig`）。
+2. **配签名密钥**：环境变量 `TAURI_SIGNING_PRIVATE_KEY`（私钥内容或文件路径）+ `TAURI_SIGNING_PRIVATE_KEY_PASSWORD`，
+   然后重新打包；私钥文件不入库（`.gitignore` 已覆盖 `*.key` / `*.pem` / `tauri-signing*` / `.tauri-keys/`）。
+
+```powershell
+$env:TAURI_SIGNING_PRIVATE_KEY = 'C:\path\to\judou.key'   # 或直接给私钥内容
+$env:TAURI_SIGNING_PRIVATE_KEY_PASSWORD = '…'
+powershell -ExecutionPolicy Bypass -File scripts\build-installer.ps1    # 此时 nsis/ 下会多出 .exe.sig
+node scripts/make-update-manifest.mjs --url-base https://…/releases/download/v0.2.0
+```
+
+> **本仓库默认不开（E-M7-1 裁决）**：开启 `createUpdaterArtifacts` 后，`tauri build` 变成**必须有签名密钥**，
+> 缺密钥直接打包失败——这会破坏「一条命令就能出安装包给人试」。所以默认保持关闭，
+> **只在真要发布更新时临时开启**（并配好密钥）。脚本跑不通时给出的「怎么修」提示就指向这两步。
+
+
 ### CI 与发布工作流
 
 - `.github/workflows/ci.yml`：`cargo check` / `cargo test` / `npm run build` / 发布与回归门禁；矩阵 `windows-latest` / `macos-latest` / `ubuntu-latest`

@@ -69,7 +69,7 @@ foreach ($file in $installers) {
         Write-Host ("    签名：{0}" -f $sig)
     }
     else {
-        Write-Host '    签名：（无）——生成 latest.json 会被拒绝，需配置 TAURI_SIGNING_PRIVATE_KEY 重新打包'
+        Write-Host '    签名：（无）——生成 latest.json 会被拒绝；要出 .sig 需两步：① tauri.conf.json 设 bundle.createUpdaterArtifacts: true ② 配 TAURI_SIGNING_PRIVATE_KEY + TAURI_SIGNING_PRIVATE_KEY_PASSWORD 后重新打包'
     }
 }
 Write-Host ''
