@@ -669,25 +669,71 @@ fn is_section_title_line(line: &str) -> bool {
     false
 }
 
+/// 选项行 / 答案行：切分确认窗口要跳过它们（同一道题的组成部分，不占「有效题行」额度）。
+///
+/// 注意顺序：题号行优先（`question_no_of` 命中就不算可跳过行），避免「46. A」这类怪行被误跳。
+/// 选项字母用 **A~Z** 而不是 `option_of` 的 A~D：选词填空（cloze）一道题有 15 个选项 A~O，
+/// 若只认 A~D，E~O 会被算成「有效题行」占满窗口 → `cloze.full.txt` 仍判 false（实测）。
+/// `option_of` 保持 A~D 不动——它服务的是「题目逐字比对」的解析口径，放宽会污染档 C 校验。
+fn is_option_or_answer_line(line: &str) -> bool {
+    if question_no_of(line).is_some() {
+        return false;
+    }
+    answer_of(line).is_some() || looks_like_option_line(line)
+}
+
+/// 宽松选项行判定（**只用于切分窗口跳过**）：单个 A~Z 字母 + `.`/`、`/`)`/`．` + 内容
+fn looks_like_option_line(line: &str) -> bool {
+    let trimmed = line.trim_start();
+    let mut chars = trimmed.chars();
+    match chars.next() {
+        Some('A'..='Z') => {}
+        _ => return false,
+    }
+    let mut rest_chars = chars.as_str().chars();
+    match rest_chars.next() {
+        Some('.') | Some('、') | Some(')') | Some('．') => !rest_chars.as_str().trim().is_empty(),
+        _ => false,
+    }
+}
+
 /// 正文区 / 题目区自动切分（02 §三.2 的可执行版）。
 ///
-/// 规则：逐行扫描 → 题号行或题型标题行为候选 → 取最靠前候选 `L`；`L` 之后 5 行内题号行 ≥2
-/// 才确认（避免正文里的「2024.」被误判）→ 否则继续找下一候选；全不中 → `detected=false`
-/// 且 `question_text` 为空串（**不猜**）。
+/// 规则：逐行扫描 → 题号行或题型标题行为候选 → 取最靠前候选 `L`；`L` 之后 **5 个有效题行**内
+/// 题号行 ≥2 才确认（避免正文里的「2024.」被误判）→ 否则继续找下一候选；全不中 →
+/// `detected=false` 且 `question_text` 为空串（**不猜**）。
 ///
-/// ponytail: 确认口���用「原始行」而非「去掉空行的行」——设计写死「其后 5 行」，这里不擅自放宽。
-/// 天花板：题干与选项分行的卷面（题干行后紧跟 4 个选项行）可能通不过 5 行确认，用户可用
-/// 「手动标记题目区起点」纠正（04 §6.2.1 第 4 条给的就是这个逃生口）。
-/// 升级路径：若要把窗口放宽到「其后 5 个非空行」，改这一处循环即可。
+/// ponytail: 确认窗口数的是「有效题行」＝非空行 − 选项行 − 答案行（02 §三.2 v1.3 修订，修 D-M5c-1）。
+/// 两级演进原因：原口径「其后 5 个**原始行**」→ 空行会偷走额度；改成「5 个非空行」后仍不够——
+/// 真实卷面「题干 1 行 + A/B/C/D 四个分行选项」里，4 个选项行同样能把窗口占满，依旧看不到
+/// 下一个题号行（`careful.full.txt` / `cloze.full.txt` 实测仍判 false）。所以选项行与答案行
+/// 也一并跳过：它们是**同一道题的组成部分**，不是独立的题。
+/// 天花板：确认仍要求窗口内有第 2 个题号行——单题卷面（只有 1 道题）依旧判不出，走「手动标记
+/// 题目区起点」逃生口（04 §6.2.1 第 4 条）。正文里孤立的「2024. was a hard year.」也只有
+/// 1 个题号行，确认不过 → 「不猜」原则不变（有反例单测守）。
+/// 升级路径：若还要放宽，只能动这一处窗口循环；不要改 `question_no_of` 的正则宽度（会引回误判）。
 pub fn split_user_input(raw: &str) -> UserInputSplit {
     let lines: Vec<&str> = raw.lines().collect();
     let mut index = 0usize;
     while index < lines.len() {
         let candidate = question_no_of(lines[index]).is_some() || is_section_title_line(lines[index]);
         if candidate {
-            let confirm = (1..=5)
-                .filter(|offset| lines.get(index + offset).map(|line| question_no_of(line).is_some()).unwrap_or(false))
-                .count();
+            // 窗口：其后 5 个**有效题行**（空行跳过；选项行 `A.`~`D.` 与答案行不占额度——
+            // 它们是同一道题的组成部分，若占额度，「题干 + 4 选项」的卷面就永远看不到下一个题号）
+            let mut confirm = 0usize;
+            let mut seen = 0usize;
+            let mut offset = 1usize;
+            while seen < 5 {
+                let Some(line) = lines.get(index + offset) else { break };
+                offset += 1;
+                if line.trim().is_empty() || is_option_or_answer_line(line) {
+                    continue;
+                }
+                seen += 1;
+                if question_no_of(line).is_some() {
+                    confirm += 1;
+                }
+            }
             if confirm >= 2 {
                 let question_count = lines[index..]
                     .iter()
@@ -2901,6 +2947,55 @@ mod tests {
         assert!(split.detected);
         assert_eq!(split.question_start_line, Some(3));
         assert_eq!(split.question_count, 2, "题型标题行本身不计题数");
+    }
+
+    /// D-M5c-1 红样：真实卷面「题干 1 行 + A/B/C/D 四个分行选项 + 答案行」，下一题号在第 7 行
+    #[test]
+    fn split_confirms_question_area_with_split_options() {
+        let raw = "Reading builds a habit over time.\n\nDirections: Read the passage and answer the questions below.\n\n46. What does the author say about willpower?\nA. Keep it under control.\nB. Apply it continuously.\nC. Learn from entrepreneurs.\nD. Aim at success determinedly.\n答案 B\n\n47. How are daily actions performed?\nA. Out of habit.\nB. With determination.\nC. Like muscle building.\nD. By self-discipline.\n答案 A\n";
+        let split = split_user_input(raw);
+        assert!(split.detected, "题干 + 4 分行选项的卷面应被识别：{}", split.reason);
+        assert_eq!(split.question_start_line, Some(3), "最靠前候选是题型标题行（第 3 行）");
+        assert_eq!(split.question_count, 2);
+        assert!(!split.body_text.contains("46."), "正文不得含题目行");
+        assert!(split.question_text.starts_with("Directions:"));
+    }
+
+    /// D-M5c-1 同族：选词填空一道题有 15 个选项（A~O），选项字母不能只认 A~D
+    #[test]
+    fn split_confirms_cloze_question_area_with_fifteen_options() {
+        let mut raw = String::from("A team of researchers examined communicative abstraction.\n\nDirections: Read the passage and answer the questions below.\n\n");
+        for no in 26..=28 {
+            raw.push_str(&format!("{no}. 第 {no} 空\n"));
+            for letter in 'A'..='O' {
+                raw.push_str(&format!("{letter}. option {letter}\n"));
+            }
+            raw.push_str("答案 O\n\n");
+        }
+        let split = split_user_input(&raw);
+        assert!(split.detected, "15 个选项一题的选词填空卷面应被识别：{}", split.reason);
+        assert_eq!(split.question_start_line, Some(3), "最靠前候选是题型标题行（第 3 行）");
+        assert_eq!(split.question_count, 3);
+    }
+
+    /// D-M5c-1 同族：选项与题干之间、题与题之间的空行（含连续多个）不得吃掉确认额度
+    #[test]
+    fn split_window_ignores_blank_lines_within_question_block() {
+        let raw = "Reading builds a habit.\n\n\n46. What is the main idea?\n\n\nA. Habit\n\nB. Practice\nC. Reading\nD. Time\n\n答案 A\n\n48. Why does practice matter?\nA. Habit\nB. Practice\nC. Reading\nD. Time\n答案 B\n\n49. What does the author suggest?\nA. Habit\nB. Practice\nC. Reading\nD. Time\n答案 C\n";
+        let split = split_user_input(raw);
+        assert!(split.detected, "空行不得吃掉确认额度：{}", split.reason);
+        assert_eq!(split.question_start_line, Some(4));
+        assert_eq!(split.question_count, 3);
+    }
+
+    /// D-M5c-1 反例：正文里孤立的「2024.」即使前后都是空行，也不得确认（不猜是硬边界）
+    #[test]
+    fn split_still_rejects_lone_numbered_line_between_blank_lines() {
+        let raw = "2024. was a hard year.\n\nStudents complained a lot.\n\nTeachers agreed.\n\nNobody smiled.\n\nIt rained.\n\nWe left.\n";
+        let split = split_user_input(raw);
+        assert!(!split.detected, "孤立题号行 + 空行不得确认：{}", split.reason);
+        assert_eq!(split.question_text, "", "切不中时题目区为空串");
+        assert_eq!(split.question_start_line, None);
     }
 
     #[test]

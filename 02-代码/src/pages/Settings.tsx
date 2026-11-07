@@ -6,7 +6,7 @@
  * 全部经 src/lib/api.ts；主题状态经 ThemeProvider（不在页面里另存一份）。
  * 第五轮变更：原「重新查看引导」三屏卡（说明式，无引导作用）删除，改为可勾选的入门任务清单。
  */
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   backupDb,
   checkUpdate,
@@ -48,6 +48,22 @@ export function Settings() {
     text: string;
     url?: string;
   } | null>(null);
+  /** DB-M6-6：从生词本「导出词表」跳来的落点高亮（只亮 2.4s，随后恢复常态） */
+  const [exportFocus, setExportFocus] = useState(false);
+  const exportCardRef = useRef<HTMLElement | null>(null);
+
+  // DB-M6-6：`#/settings?focus=export` → 滚到「导出 PDF 词表」卡片并描边高亮。
+  // 只读查询串、不改路由；没有该参数（常规进设置页）时什么都不做。
+  useEffect(() => {
+    const raw = window.location.hash;
+    const queryAt = raw.indexOf("?");
+    if (queryAt < 0) return;
+    if (new URLSearchParams(raw.slice(queryAt + 1)).get("focus") !== "export") return;
+    setExportFocus(true);
+    exportCardRef.current?.scrollIntoView?.({ block: "center", behavior: "smooth" });
+    const timer = window.setTimeout(() => setExportFocus(false), 2400);
+    return () => window.clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -203,7 +219,12 @@ export function Settings() {
         </ul>
       </section>
 
-      <section className="card" aria-labelledby="sheet-title">
+      <section
+        className={exportFocus ? "card card-focus" : "card"}
+        aria-labelledby="sheet-title"
+        data-export-focus={exportFocus ? "on" : "off"}
+        ref={exportCardRef}
+      >
         <h2 id="sheet-title">导出 PDF 词表</h2>
         <p className="card-hint">
           打印用。选一种模式 → 点「导出 PDF 词表」→ 在打印对话框里选「另存为 PDF」。

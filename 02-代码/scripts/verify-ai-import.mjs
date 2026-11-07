@@ -525,21 +525,24 @@ const promptOf = (name, mode, withQuestions) =>
 
 // 8.1 切分：含题目区 / 正文干净 / 手动纠正起点（AC3 + AC4 逃生口）
 /**
- * 冻结规则（02 §三.2，本轮不改）：候选行后 **5 个原始行**内题号行 ≥2 才确认。
- * 长篇阅读是「题干连排」→ 可自动识别；仔细阅读 / 选词填空的真实卷面是「题干 + 4 个选项行」，
- * 5 行窗口里只有一个题号行 → 按冻结规则**必须** detected=false（不猜，不许瞎切）。
- * 这正是上一轮 concerns #9 登记的天花板：机械证据在这里，逃生口是「手动标记题目区起点」。
+ * 规则口径（02 §三.2 **v1.3 修订**，修 D-M5c-1）：候选行后 **5 个有效题行**内题号行 ≥2 才确认；
+ * 「有效题行」＝非空行 − 选项行（A~Z）− 答案行。原口径「5 个原始行」对「题干 + 4 个分行选项」
+ * 的真实卷面必然判 false（选项行占满窗口）——本轮起三种题型的 `.full.txt` **全部应自动识别**，
+ * 起点都是题型标题行「Directions: …」。切不中时的「不猜」由 8.2 的反例断言守。
  */
-const EXPECT_AUTO_DETECT = { careful: false, long: true, cloze: false };
+const EXPECT_AUTO_DETECT = { careful: true, long: true, cloze: true };
 for (const name of FULL_TYPES) {
   const raw = readFileSync(fullFixture(`${name}.full.txt`), "utf8");
   const lines = raw.split(/\r?\n/);
   const payload = JSON.parse(readFileSync(fullFixture(`${name}.full.payload.json`), "utf8"));
   const split = splitOf(fullFixture(`${name}.full.txt`));
   const expectDetected = EXPECT_AUTO_DETECT[name];
-  eq(`${name} 自动切分 detected（冻结规则口径）`, split.detected, expectDetected);
+  // 期望起点 = 题型标题行「Directions: …」的 1-based 行号（最靠前候选）
+  const directionsLine = lines.findIndex((line) => /^Directions:/i.test(line.trim())) + 1;
+  eq(`${name} 自动切分 detected（v1.3 口径：跳过空行/选项行/答案行）`, split.detected, expectDetected);
   if (expectDetected) {
     eq(`${name} 自动切分题数 K（= 素材题目数）`, split.questionCount, payload.questions.length);
+    eq(`${name} 自动切分起点 = 题型标题行`, split.questionStartLine ?? null, directionsLine);
     const bodyHasQuestionLine = split.bodyText.split(/\r?\n/).some((line) => /^\s*\d{1,3}\s*[.、．)]\s*\S/.test(line));
     eq(`${name} 正文里没有题号行（否则题目会被当正文解析）`, bodyHasQuestionLine, false);
     eq(`${name} 题目区首行 = Directions`, split.questionText.trim().split(/\r?\n/)[0].trim(), "Directions: Read the passage and answer the questions below.");

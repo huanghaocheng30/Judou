@@ -297,6 +297,11 @@ button {
   border-radius: 12px;
 }
 
+/* DB-M6-6：从生词本「导出词表」跳进来的落点提示——只做描边高亮，不移动布局 */
+.card-focus {
+  box-shadow: 0 0 0 2px var(--accent);
+}
+
 .card h2 {
   margin: 0 0 6px;
   font-family: var(--serif);

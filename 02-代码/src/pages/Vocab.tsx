@@ -132,6 +132,23 @@ export function Vocab() {
           data-vocab-search
           onChange={(event) => setFilter((prev) => ({ ...prev, keyword: event.target.value }))}
         />
+
+        {/*
+          DB-M6-6：导出入口（**只做入口，不复制导出逻辑**）。导出仍只有设置页那一份实现，
+          这里只是把人送到 #/settings?focus=export，由设置页滚动并高亮「导出 PDF 词表」卡片。
+          用查询串而不是 `#/settings#export`：自写 hash 路由只有一个 `#`，第二个 `#` 会污染 path。
+        */}
+        <button
+          type="button"
+          className="btn"
+          data-vocab-export
+          title="去设置页导出词表（PDF 词表 / 生词 HTML）"
+          onClick={() => {
+            window.location.hash = "#/settings?focus=export";
+          }}
+        >
+          导出词表
+        </button>
       </div>
 
       <div className="filters">
