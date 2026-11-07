@@ -28,12 +28,15 @@ import {
   parseAiPayload,
   parseImportPreview,
   patchAiAnalysis,
+  suggestSection,
 } from "../lib/api";
 import type {
   AiImportStats,
   AiMatched,
+  AiPayload,
   AiPrompt,
   AiSection,
+  AiSectionSuggestion,
   AiUnmatchedSentence,
   ArticleContent,
   ImportParagraph,
@@ -79,6 +82,11 @@ interface ImportError {
   hint: string;
   /** 后端给的定位（如 `sentences[11].analysis.structMarkup`） */
   path?: string | null;
+  /**
+   * M5c 优化轮 AC2：`AI_TYPE_MISMATCH` 时后端按 payload 结构推断出的题型建议。
+   * 只有「推断出 ≠ 当前所选」才带上；带上了也**只是建议**——切换必须用户点按钮。
+   */
+  suggestion?: AiSectionSuggestion;
 }
 
 /** Tauri 拒绝值是 `CommandError {code,message,path}` 对象，不是 `Error` 实例 */
@@ -152,6 +160,34 @@ function rememberSection(section: AiSection): void {
     localStorage.setItem(LAST_SECTION_KEY, section);
   } catch {
     // localStorage 不可用（隐私模式）：不记也行，只是下次要重选
+  }
+}
+
+/** 题型中文标签（建议文案与按钮文案共用一份映射，避免两处各写一遍） */
+function sectionLabel(section: AiSection): string {
+  return SECTION_OPTIONS.find((option) => option.value === section)?.label ?? section;
+}
+
+/**
+ * M5c 优化轮 AC2：`AI_TYPE_MISMATCH` 之后补一条「可执行的下一步」。
+ *
+ * 只有「后端推断出题型」且「与当前所选不同」时才带建议；`null`（不敢猜）或与当前所选
+ * 相同时**原样退回**——此时错的不是题型，给建议只会误导用户改错方向。
+ * 建议只进显示层：切不切由用户点 `data-section-suggest` 决定，本函数不切换、不重试。
+ */
+async function withSectionSuggestion(
+  base: ImportError,
+  payload: AiPayload | null,
+  current: AiSection,
+): Promise<ImportError> {
+  if (base.code !== "AI_TYPE_MISMATCH" || !payload) return base;
+  try {
+    const suggested = await suggestSection(payload);
+    if (!suggested || suggested === current) return base;
+    return { ...base, suggestion: suggested };
+  } catch {
+    // 建议是锦上添花：推断失败不得掩盖真实错误，也不得阻断用户后续操作
+    return base;
   }
 }
 
@@ -363,9 +399,13 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     }
   }
 
-  async function onMatch() {
-    if (!preview || !isAiSection(section)) {
-      setError({ code: null, hint: "请先选题型并解析原文。" });
+  /**
+   * 真正跑一次匹配。`target` 显式传入而不是读 `section` state：
+   * 「切换题型并重试」时 `setSection` 还没刷新，读 state 会拿到旧值。
+   */
+  async function runMatch(target: AiSection) {
+    if (!preview) {
+      setError({ code: null, hint: "请先解析原文。" });
       return;
     }
     if (payloadText.trim() === "") {
@@ -374,16 +414,42 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     }
     setBusy("match");
     setError(null);
+    // payload 提到 try 外：判 AI_TYPE_MISMATCH 时要拿它去问「这看起来是哪种题型」
+    let payload: AiPayload | null = null;
     try {
       const parsed = await parseAiPayload(payloadText);
-      const next = await matchAiPayload({ preview, section }, parsed.payload);
+      payload = parsed.payload;
+      const next = await matchAiPayload({ preview, section: target }, payload);
       setIgnoredChars(parsed.ignoredChars);
       setMerged((prev) => mergeMatched(prev, next));
     } catch (err) {
-      setError(readError(err, AI_ERROR_HINTS));
+      setError(await withSectionSuggestion(readError(err, AI_ERROR_HINTS), payload, target));
     } finally {
       setBusy(null);
     }
+  }
+
+  async function onMatch() {
+    if (!isAiSection(section)) {
+      setError({ code: null, hint: "请先选题型并解析原文。" });
+      return;
+    }
+    await runMatch(section);
+  }
+
+  /**
+   * AC3：点「切换为 X 并重试」→ 切题型 + **自动重新匹配**（用户不必再点一次「解析并匹配」）。
+   *
+   * 这是**用户显式点**的动作；`suggestion` 只在用户点击后被消费，不存在自动切换路径。
+   */
+  async function applySectionSuggestion() {
+    const next = error?.suggestion;
+    if (!next) return;
+    setSection(next);
+    rememberSection(next);
+    setPrompt(null);
+    setError(null);
+    await runMatch(next);
   }
 
   /** AC5/AC14①：「跳过」只把这条从待处置清单里去掉（该句照常无解析），不影响其余入库 */
@@ -541,6 +607,48 @@ function AiImport({ articleId, onImported }: AiImportProps) {
 
   return (
     <div className="ai-import" data-ai-panel>
+      {/*
+        AC4：错误卡片**置顶**（页面最上方、粘回框与各步卡片之上）。
+        实测根因之一就是「拒收发生在页面中部，用户看不到，以为点了没反应」——
+        位置与视觉强调同时到位，才谈得上「告诉用户怎么办」。
+      */}
+      {error ? (
+        <div className="import-error import-error-strong" role="alert" data-ai-error>
+          <span className="import-error-icon" aria-hidden="true">
+            ⚠
+          </span>
+          <span className="import-error-code" data-ai-error-code>
+            {error.code ?? "提示"}
+          </span>
+          <span className="import-error-hint">怎么办：{error.hint}</span>
+          {error.suggestion ? (
+            <span className="import-error-suggest" data-ai-error-suggest>
+              这看起来是「{sectionLabel(error.suggestion)}」
+              {isAiSection(section) ? `，你现在选的是「${sectionLabel(section)}」` : ""}。
+              <button
+                type="button"
+                className="btn btn-primary"
+                data-section-suggest
+                disabled={busy !== null}
+                onClick={applySectionSuggestion}
+              >
+                切换为{sectionLabel(error.suggestion)}并重试
+              </button>
+            </span>
+          ) : null}
+          {error.path ? (
+            <span className="import-error-path" data-ai-error-path>
+              定位：{error.path}
+            </span>
+          ) : null}
+          {markupSkipIndex !== null ? (
+            <button type="button" className="btn" data-ai-skip-sentence onClick={skipUnbalancedSentence}>
+              跳过该句（第 {markupSkipIndex + 1} 句）
+            </button>
+          ) : null}
+        </div>
+      ) : null}
+
       <section className="card" aria-labelledby="ai-section-title">
         <h2 id="ai-section-title">① 选题型</h2>
         <p className="card-hint">
@@ -627,25 +735,6 @@ function AiImport({ articleId, onImported }: AiImportProps) {
           </ol>
         ) : null}
       </section>
-
-      {error ? (
-        <div className="import-error" role="alert" data-ai-error>
-          <span className="import-error-code" data-ai-error-code>
-            {error.code ?? "提示"}
-          </span>
-          <span className="import-error-hint">{error.hint}</span>
-          {error.path ? (
-            <span className="import-error-path" data-ai-error-path>
-              定位：{error.path}
-            </span>
-          ) : null}
-          {markupSkipIndex !== null ? (
-            <button type="button" className="btn" data-ai-skip-sentence onClick={skipUnbalancedSentence}>
-              跳过该句（第 {markupSkipIndex + 1} 句）
-            </button>
-          ) : null}
-        </div>
-      ) : null}
 
       {preview ? (
         <section className="card" aria-labelledby="ai-prompt-title">

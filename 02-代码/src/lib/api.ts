@@ -18,6 +18,7 @@ import type {
   AiPatchReport,
   AiPayload,
   AiPrompt,
+  AiSectionSuggestion,
   AiImportStats,
   AppSettings,
   ArticleContent,
@@ -350,6 +351,17 @@ export function parseAiPayload(text: string): Promise<AiParseResult> {
  */
 export function matchAiPayload(draft: AiDraft, payload: AiPayload): Promise<AiMatched> {
   return invoke<AiMatched>("match_ai_payload", { draft, payload });
+}
+
+/**
+ * ③-b 只读题型推断（M5c 优化轮 AC1）：这份 payload **看起来**是哪种题型。
+ *
+ * `null` ＝ 结构上不敢猜（无题 / 选项数既非 4 也非 15 / 空选项但答案不是单字母）。
+ * 只在 `match_ai_payload` 判 `AI_TYPE_MISMATCH` 之后调用，**只用于显示建议**：
+ * 切不切由用户点按钮决定（禁止自动猜并静默切换）。
+ */
+export function suggestSection(payload: AiPayload): Promise<AiSectionSuggestion> {
+  return invoke<AiSectionSuggestion>("suggest_section", { payload });
 }
 
 /** ④ 首次导入：结构四表 + 解析四表一起入库（失败整篇回滚），返回新文章与覆盖率 */

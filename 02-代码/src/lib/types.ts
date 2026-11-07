@@ -566,6 +566,14 @@ export interface AiParseResult {
 }
 
 /** 轻量语义包（02 §三.1）；未知字段（offset/tokens/paragraphs…）后端忽略 */
+/**
+ * M5c 优化轮：`AI_TYPE_MISMATCH` 之后的题型建议。
+ *
+ * `null` ＝ 后端不敢猜（`suggest_section` 无匹配）——前端此时**不显示任何建议**，
+ * 只保留原错误卡片，绝不替用户切题型。
+ */
+export type AiSectionSuggestion = AiSection | null;
+
 export interface AiPayload {
   packVersion?: string | null;
   section: string;

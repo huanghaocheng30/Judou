@@ -1096,6 +1096,48 @@ pub fn validate_payload(expected: AiSection, payload: &AiPayload) -> Result<(), 
     Ok(())
 }
 
+/// 按 payload 结构推断「最可能」的题型（M5c 优化轮 AC1）。
+///
+/// **纯函数、无 IO、不做任何校验**：它只回答「这包看起来是哪种题型」，供前端在
+/// `AI_TYPE_MISMATCH` 之后给用户一条可执行的下一步。**本函数永不决定切换**——真正切题型
+/// 必须用户点确认（02 §七 三问裁定第 3 条：不自动猜并静默切换）。
+///
+/// 判据（按优先级，先命中先返回）：
+/// 1. 全部题 `options` 为空串数组 **且** `answer` 是单个字母 → 长篇信息匹配（段落字母 L/B/G）；
+/// 2. 任一题 `options` 恰好 15 项 → 选词填空（A~O 全部词库）；
+/// 3. 任一题 `options` 恰好 4 项 → 仔细阅读（A/B/C/D）；
+/// 4. 其余（无题、题数形态混合、选项数既非 4 也非 15）→ `None`＝不敢猜。
+///
+/// `questions` 为 `None`/空数组一律 `None`：没有题目就没有可判形态，猜了也只能猜错。
+pub fn suggest_section(payload: &AiPayload) -> Option<AiSection> {
+    let questions = payload.questions.as_ref().filter(|list| !list.is_empty())?;
+
+    let all_blank_with_letter = questions
+        .iter()
+        .all(|question| question.options.is_empty() && is_single_letter(question.answer.as_deref()));
+    if all_blank_with_letter {
+        return Some(AiSection::Long);
+    }
+    if questions.iter().any(|question| question.options.len() == 15) {
+        return Some(AiSection::Cloze);
+    }
+    if questions.iter().any(|question| question.options.len() == 4) {
+        return Some(AiSection::Careful);
+    }
+    None
+}
+
+/// `answer` 是否为「单个 ASCII 字母」（长篇阅读的段落字母；空白与全角不算）
+fn is_single_letter(raw: Option<&str>) -> bool {
+    match raw.map(str::trim) {
+        Some(text) => {
+            let mut chars = text.chars();
+            matches!((chars.next(), chars.next()), (Some(c), None) if c.is_ascii_alphabetic())
+        }
+        None => false,
+    }
+}
+
 // ───────────────────────── ④ match_payload ─────────────────────────
 
 /// 正文空号集合（§三.4.1）：App 自算 token 流，**去尾部标点**后为纯 ASCII 数字、且落在题号区间。
@@ -2430,6 +2472,73 @@ mod tests {
     }
 
     /// AC7④：`blankAnalyses[].no` 有不在正文空号集合里的号 → 拒收
+    // ── M5c 优化轮 AC1：suggest_section 三推断 + 不敢猜 ──
+    #[test]
+    fn suggest_long_when_every_question_is_blank_with_letter() {
+        // 用户实测的真实形态：选「仔细阅读」但粘的是长篇阅读卷面（43~45 题、答案段落字母）
+        let payload = payload_of(json!({
+            "section": "careful",
+            "sentences": [],
+            "questions": [
+                {"no": 43, "stem": "s1", "options": [], "answer": "L"},
+                {"no": 44, "stem": "s2", "options": [], "answer": "B"},
+                {"no": 45, "stem": "s3", "options": [], "answer": "G"}
+            ]
+        }));
+        assert_eq!(suggest_section(&payload), Some(AiSection::Long));
+    }
+
+    #[test]
+    fn suggest_cloze_when_any_question_has_fifteen_options() {
+        let payload = payload_of(json!({
+            "section": "careful",
+            "sentences": [],
+            "questions": [
+                {"no": 26, "stem": "s", "options": cloze_options(15), "answer": "A"}
+            ]
+        }));
+        assert_eq!(suggest_section(&payload), Some(AiSection::Cloze));
+    }
+
+    #[test]
+    fn suggest_careful_when_any_question_has_four_options() {
+        let payload = payload_of(json!({
+            "section": "long",
+            "sentences": [],
+            "questions": [
+                {"no": 46, "stem": "s", "options": four_options(["a", "b", "c", "d"]), "answer": "A"}
+            ]
+        }));
+        assert_eq!(suggest_section(&payload), Some(AiSection::Careful));
+    }
+
+    #[test]
+    fn suggest_none_without_questions() {
+        // 无题 / 空数组：没有可判形态，猜了也只能猜错
+        let no_field = payload_of(json!({"section": "careful", "sentences": []}));
+        assert_eq!(suggest_section(&no_field), None);
+        let empty = payload_of(json!({"section": "careful", "sentences": [], "questions": []}));
+        assert_eq!(suggest_section(&empty), None);
+    }
+
+    #[test]
+    fn suggest_none_when_shape_is_unrecognized() {
+        // 选项数既非 4 也非 15、且不是「空选项 + 字母答案」→ 不敢猜
+        let odd_options = payload_of(json!({
+            "section": "careful",
+            "sentences": [],
+            "questions": [{"no": 46, "stem": "s", "options": four_options(["a", "b", "c", "d"])[..3].to_vec(), "answer": "A"}]
+        }));
+        assert_eq!(suggest_section(&odd_options), None);
+        // 空选项但答案不是单字母（如 "AB"）→ 也不构成长篇形态
+        let long_answer = payload_of(json!({
+            "section": "long",
+            "sentences": [],
+            "questions": [{"no": 43, "stem": "s", "options": [], "answer": "AB"}]
+        }));
+        assert_eq!(suggest_section(&long_answer), None);
+    }
+
     #[test]
     fn match_rejects_cloze_blank_no_outside_body() {
         let draft = draft_of("Text 26. more 28, and 30 years.", AiSection::Cloze);

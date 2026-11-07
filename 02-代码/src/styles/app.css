@@ -2160,6 +2160,38 @@ button {
   color: var(--ink-2);
 }
 
+/* M5c 优化轮 AC4：置顶后的视觉强调——图标 + 左侧强调条 + 浮起，保证「被拒收了」一眼可见 */
+.import-error-strong {
+  align-items: center;
+  flex-wrap: wrap;
+  border-left: 4px solid var(--rose);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+  font-size: 13.5px;
+}
+
+.import-error-icon {
+  flex: none;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--rose);
+}
+
+/* 题型建议行独占一行（「这看起来是…」+ 切换按钮） */
+.import-error-suggest {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding-top: 2px;
+  color: var(--ink);
+}
+
+.import-error-suggest .btn {
+  padding: 4px 12px;
+  font-size: 12.5px;
+}
+
 .import-stats {
   margin: 0 0 14px;
   font-size: 13px;

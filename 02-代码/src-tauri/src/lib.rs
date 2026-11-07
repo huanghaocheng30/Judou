@@ -106,6 +106,8 @@ pub fn run() {
             commands::update_article_meta,
             commands::get_article_questions,
             commands::replace_article_questions,
+            // M5c 优化轮 AC1：只读题型推断（前端在 AI_TYPE_MISMATCH 后据此给建议，切换仍由用户点）
+            commands::suggest_section,
             // M6 路 记录 / 统计 / 导出 / 备份（5 个；实现见 records.rs / export.rs，
             // get_settings / set_setting 复用 M0 已有命令，不重写）
             commands::get_reading_records,

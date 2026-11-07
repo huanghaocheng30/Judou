@@ -1201,6 +1201,15 @@ pub fn match_ai_payload(
     ai_import::match_payload(&draft, &payload)
 }
 
+/// ③-b 只读推断：这份 payload **看起来**是哪种题型（M5c 优化轮 AC1，薄命令）
+///
+/// **纯函数、不写 SQL、不改任何状态**：只在 `match_ai_payload` 判 `AI_TYPE_MISMATCH` 之后，
+/// 给前端一条可执行的下一步（「这看起来是长篇阅读」）。**是否切换由用户点按钮决定**——
+/// 本命令不替用户做决定，也不自动重试。
+#[tauri::command]
+pub fn suggest_section(payload: ai_import::AiPayload) -> Option<ai_import::AiSection> {
+    ai_import::suggest_section(&payload)
+}
 /// ④ 单事务入库（结构四表 + 分析四表；失败整篇回滚）→ 新文章 id + 覆盖率
 #[tauri::command]
 pub fn commit_ai_import(

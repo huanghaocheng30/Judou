@@ -19,8 +19,8 @@ use std::path::PathBuf;
 
 use judou_lib::ai_import::{
     article_counts, build_prompt, commit_ai_import, get_article_questions, match_payload, parse_payload,
-    patch_ai_analysis, preview_from_article, replace_article_questions, split_user_input, update_article_meta,
-    AiCommitMeta, AiDraft, AiSection, ArticleMetaPatch, ImportMode, QuestionView,
+    patch_ai_analysis, preview_from_article, replace_article_questions, split_user_input, suggest_section,
+    update_article_meta, AiCommitMeta, AiDraft, AiSection, ArticleMetaPatch, ImportMode, QuestionView,
 };
 use judou_lib::db::Db;
 use judou_lib::import_user::parse_preview;
@@ -38,6 +38,8 @@ fn main() {
         "meta" => meta_case(&args),
         "dump-questions" => dump_questions_case(&args),
         "set-questions" => set_questions_case(&args),
+        // M5c 优化轮 AC5：题型推断（纯函数，供门禁断言三推断 + 不敢猜）
+        "suggest" => suggest_case(&args),
         other => json!({ "ok": false, "code": "CLI_USAGE", "message": format!("未知模式：{other}") }),
     };
     println!("{}", serde_json::to_string(&report).expect("序列化报告失败"));
@@ -272,6 +274,29 @@ fn dump_case(args: &Args) -> Value {
 
 // ═══════════════ M5c D8：门禁要跑的纯函数口径（切分 / 提示词 / 编辑三命令） ═══════════════
 // 纪律不变：本文件只**调** `ai_import.rs` 的库层函数，不复制任何校验、不复制任何 SQL。
+
+/// `--suggest --payload <file>`：AC1/AC5 的题型推断读数（三种推断 + 不敢猜）
+///
+/// 只读：走到 `parse_payload` 为止，**不碰库、不写文件**。`section: null` ＝ 不敢猜，
+/// 前端据此不显示任何建议（不自动猜并静默切换是硬边界）。
+fn suggest_case(args: &Args) -> Value {
+    let Some(path) = args.get("payload") else {
+        return usage("--suggest 需要 --payload <file>");
+    };
+    let raw = match read_text(path) {
+        Ok(text) => text,
+        Err(_) => {
+            return json!({ "ok": false, "code": "CLI_IO", "message": format!("读 payload 失败：{path}") })
+        }
+    };
+    match parse_payload(&raw) {
+        Ok(parsed) => json!({
+            "ok": true,
+            "section": suggest_section(&parsed.payload).map(|section| section.as_str()),
+        }),
+        Err(err) => failure(err),
+    }
+}
 
 /// 组装 `AiDraft`（三档 + 题目区原文）；`--split` 与 `--prompt` 共用
 fn build_draft(args: &Args) -> Result<AiDraft, Value> {

@@ -721,6 +721,46 @@ for (const name of FULL_TYPES) {
   rmSync(db, { force: true });
 }
 
+// ───────────────────── 8.8 M5c 优化轮 AC5：suggest_section 三推断 + 不敢猜 ─────────────────────
+// 实测根因：选了「仔细阅读」却粘长篇卷面 → AI_TYPE_MISMATCH，而界面看起来「没反应」。
+// 本段只验**推断读数**；「必须用户点确认、无自动切换路径」由代码审查复核（门禁没有 UI 层）。
+console.log("\n── 8.8 suggest_section（AC1 / AC5） ──");
+
+const suggestOf = (file) => {
+  const report = runCli(["--suggest", "--payload", fixture(file)]);
+  if (report.ok !== true) fail(`suggest(${file}) 未返回 ok：${report.code ?? "?"}`);
+  return report.section ?? null;
+};
+
+eq("正例 careful.payload.json → careful", suggestOf("careful.payload.json"), "careful");
+eq("正例 long.payload.json → long（空选项 + 段落字母）", suggestOf("long.payload.json"), "long");
+eq("正例 cloze.payload.json → cloze（15 项）", suggestOf("cloze.payload.json"), "cloze");
+// 规则是「任一题 4 项 → careful」：个别残缺题不否决整体建议（用户真实数据常有半截题）
+eq("bad-type-careful-3options（个别 3 项，其余 4 项）→ careful", suggestOf("bad-type-careful-3options.payload.json"), "careful");
+
+// 全部题都是 3 项（既非 4 也非 15、也不是空选项）→ 结构上无可判形态，必须 null
+const oddPayload = path.join(tempRoot, "suggest-odd-3options.json");
+writeFileSync(
+  oddPayload,
+  JSON.stringify({
+    section: "careful",
+    sentences: [],
+    questions: [{ no: 46, stem: "s", options: [{ key: "A", text: "a" }, { key: "B", text: "b" }, { key: "C", text: "c" }], answer: "A" }],
+  }),
+  "utf8",
+);
+const oddReport = runCli(["--suggest", "--payload", oddPayload]);
+eq("全部 3 项 → 不敢猜 null", oddReport.ok === true ? oddReport.section ?? null : `不 ok：${oddReport.code}`, null);
+eq("cloze-no-questions（无 questions）→ 不敢猜 null", suggestOf("cloze-no-questions.payload.json"), null);
+
+// AC2/AC3/AC4 的入口存在性（静态判据：缺按钮/缺守卫/缺强调，用户就没有「下一步」可点）
+const importSource = readFileSync(path.join(root, "src", "pages", "Import.tsx"), "utf8");
+if (!importSource.includes("data-section-suggest")) fail("导入页缺少 data-section-suggest 按钮（AC2/AC3 无入口）");
+ok("导入页有 data-section-suggest 切换按钮");
+if (!/error\.suggestion\s*\?/.test(importSource)) fail("建议块未受 error.suggestion 守卫（可能无条件显示建议）");
+ok("建议块受 error.suggestion 守卫（不是无条件显示）");
+if (!/import-error-strong/.test(importSource)) fail("错误卡片缺少置顶视觉强调类（AC4）");
+ok("错误卡片带 import-error-strong 强调类（AC4）");
 // ───────────────────────── 9. 汇总 ─────────────────────────
 rmSync(tempRoot, { recursive: true, force: true });
 console.log("");
