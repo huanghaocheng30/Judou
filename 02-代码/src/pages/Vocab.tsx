@@ -199,7 +199,7 @@ export function Vocab() {
       )}
 
       {!loading && !error && rows.length === 0 && (
-        <div className="empty" data-vocab-empty="all">
+        <div className="empty" data-vocab-empty="all" data-empty-vocab>
           <p>生词本还是空的。精读时在词卡上「加入生词本」，攒下第一个词。</p>
           <a className="btn" href="#/library">
             去文章库

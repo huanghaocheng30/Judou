@@ -127,7 +127,7 @@ export function Review() {
     return (
       <section className="review" data-review-page>
         {header}
-        <div className="empty" data-review-empty="none">
+        <div className="empty" data-review-empty="none" data-empty-review>
           <p>今天没有到期的复习。</p>
           <p className="review-hint">
             在精读页读完一篇后点「完成本篇」，会按 1 / 3 / 7 / 14 天排队提醒你回头复习。

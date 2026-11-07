@@ -330,7 +330,7 @@ export function Library() {
       )}
 
       {!loading && !error && groupTotal === 0 && (
-        <div className="empty" data-testid="library-empty-group">
+        <div className="empty" data-testid="library-empty-group" data-empty-articles>
           <p>{state.vis === "user" ? "还没有导入材料。" : "内置内容包没有可显示的文章。"}</p>
           {state.vis === "user" && (
             <a className="btn" href="#/import" data-testid="library-empty-group-action">
