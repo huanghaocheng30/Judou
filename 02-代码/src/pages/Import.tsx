@@ -198,8 +198,9 @@ function mergeMatched(prev: AiMatched | null, next: AiMatched): AiMatched {
   const sentenceKey = (item: { paragraphIdx: number; sentenceIdx: number }) => `${item.paragraphIdx}:${item.sentenceIdx}`;
   const matched = new Map(prev.matched.map((item) => [sentenceKey(item), item]));
   for (const item of next.matched) matched.set(sentenceKey(item), item);
-  const questions = new Map(prev.questions.map((item) => [item.idx, item]));
-  for (const item of next.questions) questions.set(item.idx, item);
+  // 题目按**试卷题号** `no` 合并/排序：`idx` 只是批内槽位（后端写库的是 `no`，见 ai_import.rs）
+  const questions = new Map(prev.questions.map((item) => [item.no, item]));
+  for (const item of next.questions) questions.set(item.no, item);
   const blanks = new Map(prev.blanks.map((item) => [item.no, item]));
   for (const item of next.blanks) blanks.set(item.no, item);
   const lexicon = new Map(prev.lexicon.map((item) => [item.word.toLowerCase(), item]));
@@ -211,7 +212,7 @@ function mergeMatched(prev: AiMatched | null, next: AiMatched): AiMatched {
     ),
     unmatched: next.unmatched,
     unmatchedLexicon: next.unmatchedLexicon,
-    questions: [...questions.values()].sort((a, b) => a.idx - b.idx),
+    questions: [...questions.values()].sort((a, b) => a.no - b.no),
     blanks: [...blanks.values()].sort((a, b) => a.no - b.no),
     lexicon: [...lexicon.values()],
     coverage: next.coverage,
@@ -454,11 +455,15 @@ function AiImport({ articleId, onImported }: AiImportProps) {
   // 补解析时的这个数字只表示「本批要写的词条数」，与 commit 模式同口径。
   const lexiconCount = merged?.lexicon.length ?? 0;
   const blankCount = (baseline?.blanks ?? 0) + (merged?.blanks.length ?? 0);
+  /**
+   * 逐空覆盖率的分母：`coverage.blanks` 为 `k/分母` 时取分母；
+   * 无题号区间（cloze 缺 `questions`）时分母未知——按 02 §三.1 **只显示已解析数 `k`**，不编分母。
+   */
   const blankTotal = useMemo(() => {
     const raw = merged?.coverage.blanks ?? "-";
     const denominator = raw.includes("/") ? raw.split("/")[1] : "";
     if (denominator) return denominator;
-    return merged && merged.questions.length > 0 ? String(merged.questions.length) : "?";
+    return merged && merged.questions.length > 0 ? String(merged.questions.length) : "";
   }, [merged]);
   const pendingCount = merged?.matched.length ?? 0;
 
@@ -712,7 +717,11 @@ function AiImport({ articleId, onImported }: AiImportProps) {
             解析 {covered}/{totalSentences} · 题目 {questionCount} · 词条 {lexiconCount}
           </p>
           <p className="ai-hint" data-ai-blank-coverage>
-            {section === "cloze" ? `逐空 ${blankCount}/${blankTotal}` : "逐空 -（非选词填空）"}
+            {section === "cloze"
+              ? blankTotal
+                ? `逐空 ${blankCount}/${blankTotal}`
+                : `逐空 ${blankCount}`
+              : "逐空 -（非选词填空）"}
           </p>
           <p className="ai-hint" data-ai-missing-answer>
             题目缺答案 {merged?.missingAnswer ?? 0} 题

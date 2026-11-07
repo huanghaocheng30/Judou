@@ -56,12 +56,13 @@ for (const name of POSITIVE) {
 }
 ok("三题型正例 9 个文件齐备且非空");
 
-/** 02 §六.4 表：16 组 / 17 个文件（R2 的 ⑥ 已并入） */
+/** 02 §六.4 表：18 组 / 19 个文件（R2 的 ⑥ 已并入；重号与 cloze 缺 questions 各 1 份） */
 const NEGATIVE = [
   "bad-type-long-with-options.payload.json",
   "bad-type-careful-3options.payload.json",
   "bad-type-cloze-14options.payload.json",
   "bad-type-cloze-blanknos.payload.json",
+  "bad-type-cloze-dupno.payload.json",
   "bad-section-mismatch.payload.json",
   "bad-section-invalid.payload.json",
   "bad-markup-unbalanced.payload.json",
@@ -73,17 +74,18 @@ const NEGATIVE = [
   "answer-out-of-options.payload.json",
   "lexicon-word-absent.payload.json",
   "blank-distractors-string.payload.json",
+  "cloze-no-questions.payload.json",
   "long-batch1.payload.json",
   "long-batch2.payload.json",
 ];
 for (const name of NEGATIVE) {
   if (!existsSync(fixture(name))) fail(`缺少 fixture：${name}`);
 }
-eq("反例与边界 fixture 数（02 §六.4：16 组 / 17 文件）", NEGATIVE.length, 17);
+eq("反例与边界 fixture 数（02 §六.4：18 组 / 19 文件）", NEGATIVE.length, 19);
 
 const allFixtureFiles = readdirSync(fixtureDir);
-eq("fixture 目录总文件数（1 派生脚本 + 9 正例 + 17 反例 = 27）", allFixtureFiles.length, 27);
-eq("数据文件数（不含派生脚本）", allFixtureFiles.filter((name) => name !== "build-fixtures.mjs").length, 26);
+eq("fixture 目录总文件数（1 派生脚本 + 9 正例 + 19 反例 = 29）", allFixtureFiles.length, 29);
+eq("数据文件数（不含派生脚本）", allFixtureFiles.filter((name) => name !== "build-fixtures.mjs").length, 28);
 
 // lexiconShape 自检：派生脚本漏做 map→数组转换时立刻失败（§六.3）
 for (const name of POSITIVE) {
@@ -290,6 +292,33 @@ console.log("\n── 4. AC8 偏移由 App 自算（库里逐句逐词切片相�
   }
 }
 
+// ───────────────── 4b. R1：question.idx 必须是试卷题号（不是批内下标） ─────────────────
+console.log("\n── 4b. R1 题号语义：question.idx = payload questions[].no（与 blank_no 同源）──");
+for (const name of ["careful", "cloze"]) {
+  const entry = positiveReports[name];
+  if (!entry) {
+    fail(`R1 无法验证：${name} 正例未入库`);
+    continue;
+  }
+  const payload = readJson(`${name}.payload.json`);
+  const wantNos = payload.questions.map((question) => question.no).sort((a, b) => a - b);
+  const db = openDb(entry.db);
+  const gotIdx = db
+    .prepare("SELECT idx FROM question WHERE article_id = ? ORDER BY idx")
+    .all(entry.report.articleId)
+    .map((row) => row.idx);
+  const gotBlank = db
+    .prepare("SELECT blank_no FROM blank WHERE article_id = ? ORDER BY blank_no")
+    .all(entry.report.articleId)
+    .map((row) => row.blank_no);
+  db.close();
+  eq(`${name} question.idx 集合（= payload questions[].no）`, gotIdx, wantNos);
+  eq(`${name} question.idx 不含批内下标 0`, gotIdx.includes(0), false);
+  if (name === "cloze") {
+    eq("cloze blank.blank_no 集合（与 question.idx 同源）", gotBlank, gotIdx);
+  }
+}
+
 // ───────────────────────── 5. AC12：只写 8 张内容表，用户表零触碰 ─────────────────────────
 console.log("\n── 5. AC12 写入面 = 8 张内容表（19 表快照前后比对）──");
 const ALL_TABLES = [
@@ -348,7 +377,7 @@ const snapshotUserContent = (dbPath) => {
 }
 
 // ───────────────────────── 6. 反例与边界（逐条 EXIT + 关键行） ─────────────────────────
-console.log("\n── 6. 反例与边界（02 §六.4：16 组 / 17 文件）──");
+console.log("\n── 6. 反例与边界（02 §六.4：18 组 / 19 文件）──");
 
 /** 每条：`want` = 'ok' 表示应通过，其余为期望错误码；`path` 为期望 path；`check` 附加断言 */
 const CASES = [
@@ -356,6 +385,15 @@ const CASES = [
   { name: "bad-type-careful-3options", file: "bad-type-careful-3options.payload.json", text: "careful.text.txt", section: "careful", want: "AI_TYPE_MISMATCH", path: "questions[0].options" },
   { name: "bad-type-cloze-14options", file: "bad-type-cloze-14options.payload.json", text: "cloze.text.txt", section: "cloze", want: "AI_TYPE_MISMATCH", path: "questions[0].options" },
   { name: "bad-type-cloze-blanknos", file: "bad-type-cloze-blanknos.payload.json", text: "cloze.text.txt", section: "cloze", want: "AI_TYPE_MISMATCH", path: "blankAnalyses" },
+  { name: "bad-type-cloze-dupno", file: "bad-type-cloze-dupno.payload.json", text: "cloze.text.txt", section: "cloze", want: "AI_TYPE_MISMATCH", path: "blankAnalyses" },
+  { name: "cloze-no-questions", file: "cloze-no-questions.payload.json", text: "cloze.text.txt", section: "cloze", want: "ok", check: (report, db) => {
+    eq("AC7④ 缺省：逐空写入 10 行", report.blanksWritten, 10);
+    eq("AC7④ 缺省：逐空覆盖率只显示已解析数 k", report.coverage.blanks, "10");
+    eq("AC7④ 缺省：题目覆盖率显示 -", report.coverage.questions, "-");
+    const conn = openDb(db);
+    eq("AC7④ 缺省：不放行题目行（无 questions → 0 行）", conn.prepare("SELECT COUNT(*) AS n FROM question WHERE article_id = ?").get(report.articleId).n, 0);
+    conn.close();
+  } },
   { name: "bad-section-mismatch", file: "bad-section-mismatch.payload.json", text: "careful.text.txt", section: "careful", want: "AI_TYPE_MISMATCH", path: "section" },
   { name: "bad-section-invalid", file: "bad-section-invalid.payload.json", text: "careful.text.txt", section: "careful", want: "AI_TYPE_MISMATCH", path: "section" },
   { name: "bad-markup-unbalanced", file: "bad-markup-unbalanced.payload.json", text: "careful.text.txt", section: "careful", want: "AI_MARKUP_UNBALANCED", path: "sentences[0].analysis.structMarkup" },
@@ -382,7 +420,7 @@ for (const item of CASES) {
   if (got !== item.want) fail(`${item.name} 实测 ${got}（${report.message ?? ""}），期望 ${item.want}`);
   else ok(`${item.name} → ${got}${report.ok ? "" : ` path=${report.path}`}`);
   if (item.path && !report.ok) eq(`${item.name} path`, report.path, item.path);
-  if (report.ok && item.check) item.check(report);
+  if (report.ok && item.check) item.check(report, db);
   // 反例必须证明「库里没留下半套数据」（拒收即零写入）
   if (!report.ok) {
     const counts = snapshotCounts(db);

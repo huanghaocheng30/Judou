@@ -237,6 +237,20 @@ const clone = (value) => JSON.parse(JSON.stringify(value));
   write("bad-type-cloze-blanknos.payload.json", payload);
 }
 
+// AC7④ 选词填空「重号」：11 题，第 11 题重复 `no=26`（去重集合仍是 26~35 → 旧实现会静默放行）
+{
+  const payload = clone(built.cloze.payload);
+  payload.questions = [...payload.questions, clone(payload.questions[0])];
+  write("bad-type-cloze-dupno.payload.json", payload);
+}
+
+// AC7④ 缺省口径（02 §三.1）：cloze 去掉 `questions` → ④ 跳过、不拒收，10 条 blankAnalyses 照常入库
+{
+  const payload = clone(built.cloze.payload);
+  delete payload.questions;
+  write("cloze-no-questions.payload.json", payload);
+}
+
 // AC7⑤ payload.section 与本次所选题型不一致（内容按 careful，section 写 long）
 {
   const payload = clone(built.careful.payload);
@@ -340,6 +354,8 @@ const names = [
   "bad-type-careful-3options.payload.json",
   "bad-type-cloze-14options.payload.json",
   "bad-type-cloze-blanknos.payload.json",
+  "bad-type-cloze-dupno.payload.json",
+  "cloze-no-questions.payload.json",
   "bad-section-mismatch.payload.json",
   "bad-section-invalid.payload.json",
   "bad-markup-unbalanced.payload.json",
@@ -354,4 +370,4 @@ const names = [
   "long-batch1.payload.json",
   "long-batch2.payload.json",
 ];
-console.log(`反例与边界：${names.length} 个文件（02 §六.4：16 组 / 17 个文件）`);
+console.log(`反例与边界：${names.length} 个文件（02 §六.4：18 组 / 19 个文件）`);

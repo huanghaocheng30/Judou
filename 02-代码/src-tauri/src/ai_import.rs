@@ -253,6 +253,8 @@ pub struct AiUnmatchedLexicon {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct AiQuestionOut {
+    /// **批内槽位**（`questions[]` 的数组下标 0..N），**不是**题号，也不写库。
+    /// 写 `question.idx` 的一律是 `no`（试卷题号；对齐既有 `import.rs` 与 `types.ts` 的约定）。
     pub idx: i64,
     pub no: i64,
     pub stem: String,
@@ -808,11 +810,30 @@ pub fn match_payload(draft: &AiDraft, payload: &AiPayload) -> Result<AiMatched, 
         ))
     };
     let body_nos = body_blank_nos(&draft.preview, range);
-    if section == AiSection::Cloze {
-        // R5：cloze 的 questions 实为必填——`R` 无定义时无法判空号，按结构性不一致处理
-        if question_nos.is_empty() {
+    // ④ 只在「有题号区间 `R`」时判定（02 §三.1 缺省口径）：无 `questions` → 无 `R` → ④ 整体跳过、
+    // **不拒收**，`blankAnalyses` 照常入库，逐空覆盖率只显示已解析数 `k`。
+    if section == AiSection::Cloze && !question_nos.is_empty() {
+        // AC7④ 的「重号」：`question_nos` 是 `BTreeSet`，重复号会被去重吃掉 → 先按 `Vec` 计重号
+        let mut seen_nos: HashMap<i64, usize> = HashMap::new();
+        for question in payload.questions.iter().flatten() {
+            *seen_nos.entry(question.no).or_insert(0) += 1;
+        }
+        let mut duplicated: Vec<i64> = seen_nos
+            .iter()
+            .filter(|(_, count)| **count > 1)
+            .map(|(no, _)| *no)
+            .collect();
+        duplicated.sort_unstable();
+        if !duplicated.is_empty() {
             return Err(type_mismatch(
-                "选词填空的 `questions` 不能缺省：没有题号就无法确认正文空号集合。请让 AI 补上 26~35 十道题（每题 15 项词库）。",
+                format!(
+                    "选词填空的题号有重复：{} 出现了两次以上。请让 AI 每道题只给一次（多号/少号/重号都会被拒收）。",
+                    duplicated
+                        .iter()
+                        .map(i64::to_string)
+                        .collect::<Vec<_>>()
+                        .join(", ")
+                ),
                 "blankAnalyses",
             ));
         }
@@ -1264,7 +1285,8 @@ fn write_analysis_rows(
         }
     }
 
-    // ② question：(article_id, idx) 唯一，重复补解析按 idx 修订
+    // ② question：(article_id, idx) 唯一；`idx` 写**试卷题号**（payload `questions[].no`，
+    //    与 `blank.blank_no` 同源，对齐既有 `import.rs` 的 `question.no` 约定），重复补解析按题号修订
     let mut questions = 0i64;
     {
         let mut stmt = tx
@@ -1281,7 +1303,7 @@ fn write_analysis_rows(
         for question in &matched.questions {
             stmt.execute(params![
                 article_id,
-                question.idx,
+                question.no,
                 question.stem.as_str(),
                 serde_json::to_string(&question.options).unwrap_or_else(|_| "[]".to_string()),
                 question.answer.as_deref(),
@@ -1828,6 +1850,45 @@ mod tests {
         assert_eq!(err.path.as_deref(), Some("blankAnalyses"));
     }
 
+    /// R2（AC7④「重号」）：同一题号出现两次必须拒收；`BTreeSet` 的去重不得把重号吃掉
+    #[test]
+    fn match_rejects_cloze_duplicate_question_no() {
+        let draft = draft_of("Text 26. more 28, and 30 years.", AiSection::Cloze);
+        let payload = payload_of(json!({
+            "section": "cloze",
+            "sentences": [],
+            "questions": [
+                {"no": 26, "stem": "第 26 空", "options": cloze_options(15), "answer": "A"},
+                {"no": 28, "stem": "第 28 空", "options": cloze_options(15), "answer": "A"},
+                {"no": 30, "stem": "第 30 空", "options": cloze_options(15), "answer": "A"},
+                {"no": 30, "stem": "第 30 空（重复）", "options": cloze_options(15), "answer": "A"}
+            ]
+        }));
+        let err = match_payload(&draft, &payload).unwrap_err();
+        assert_eq!(err.code, "AI_TYPE_MISMATCH");
+        assert_eq!(err.path.as_deref(), Some("blankAnalyses"));
+        assert!(err.message.contains("重复"), "错误文案要点明重号：{}", err.message);
+    }
+
+    /// R3（02 §三.1 缺省口径）：cloze 无 `questions` → ④ 跳过、不拒收，逐空只显示已解析数
+    #[test]
+    fn cloze_without_questions_is_accepted() {
+        let draft = draft_of("Text 26. more 28, and 30 years.", AiSection::Cloze);
+        let payload = payload_of(json!({
+            "section": "cloze",
+            "sentences": [],
+            "blankAnalyses": [
+                {"no": 26, "answerWord": "w0", "reason": "r"},
+                {"no": 28, "answerWord": "w1", "reason": "r"},
+                {"no": 30, "answerWord": "w2", "reason": "r"}
+            ]
+        }));
+        let matched = match_payload(&draft, &payload).expect("cloze 缺 questions 必须放行（AC7④ 跳过）");
+        assert_eq!(matched.blanks.len(), 3);
+        assert_eq!(matched.coverage.questions, "-", "无题时题目覆盖率显示 -");
+        assert_eq!(matched.coverage.blanks, "3", "分母未知时只显示已解析数 k");
+    }
+
     // ── AC6 markup ──
     #[test]
     fn markup_unbalanced_is_rejected() {
@@ -2026,6 +2087,59 @@ mod tests {
         assert_eq!(after.structure_hash, before.structure_hash, "patch 不得改动三结构表");
         assert_eq!(after.analyses, 2, "同句再给解析视为修订，不新增行");
 
+        std::fs::remove_dir_all(&dir).ok();
+    }
+
+    /// R1（既有 19 表约定 `import.rs:505` / `types.ts:96`）：`question.idx` 写试卷题号，
+    /// 不写批内数组下标——否则「内容包导入篇」题号 46~50 与「AI 导入篇」题号 0~4 语义分叉，
+    /// `blank.blank_no` 与 `question.idx` 也不再同源。
+    #[test]
+    fn question_rows_use_paper_no_not_batch_index() {
+        let text = "Reading builds a habit over time. Practice makes the habit stronger every day.";
+        let draft = draft_of(text, AiSection::Careful);
+        let first = draft.preview.paragraphs[0].sentences[0].text.clone();
+        let payload = payload_of(json!({
+            "section": "careful",
+            "sentences": [{"quote": first, "analysis": analysis("")}],
+            "questions": [
+                {"no": 46, "stem": "第 46 题", "options": [
+                    {"key":"A","text":"a"},{"key":"B","text":"b"},{"key":"C","text":"c"},{"key":"D","text":"d"}], "answer": "A"},
+                {"no": 47, "stem": "第 47 题", "options": [
+                    {"key":"A","text":"a"},{"key":"B","text":"b"},{"key":"C","text":"c"},{"key":"D","text":"d"}], "answer": "B"}
+            ]
+        }));
+        let matched = match_payload(&draft, &payload).expect("匹配应成功");
+
+        let nanos = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .expect("系统时间异常")
+            .as_nanos();
+        let dir = std::env::temp_dir().join(format!("judou-ai-import-no-{nanos}"));
+        std::fs::create_dir_all(&dir).expect("建临时目录失败");
+        let db = Db::open(dir.join("judou.db")).expect("迁移应成功");
+
+        let report = commit_ai_import(&db, &draft, &matched, &AiCommitMeta::default()).expect("入库应成功");
+        let idx: Vec<i64> = db
+            .read(|conn| {
+                let mut stmt = conn
+                    .prepare("SELECT idx FROM question WHERE article_id = ?1 ORDER BY idx")
+                    .map_err(|err| CommandError::db("准备题号查询", err))?;
+                let rows = stmt
+                    .query_map([report.article_id], |row| row.get::<_, i64>(0))
+                    .map_err(|err| CommandError::db("查询题号", err))?;
+                let mut out = Vec::new();
+                for row in rows {
+                    out.push(row.map_err(|err| CommandError::db("读取题号", err))?);
+                }
+                Ok(out)
+            })
+            .expect("题号回读应成功");
+
+        assert_eq!(
+            idx,
+            vec![46, 47],
+            "question.idx 必须是试卷题号（payload questions[].no），不是批内下标 0..N"
+        );
         std::fs::remove_dir_all(&dir).ok();
     }
 }
