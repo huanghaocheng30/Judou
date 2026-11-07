@@ -14,6 +14,7 @@
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { listArticleFilterOptions, listArticles } from "../lib/api";
+import { ArticleEditor } from "../components/ArticleEditor";
 import type { ArticleFilter, ArticleSummary, FilterOptions } from "../lib/types";
 import { parseHash, rememberLibraryQuery } from "../shell/routes";
 
@@ -78,6 +79,8 @@ export function Library() {
   const [options, setOptions] = useState<FilterOptions | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  /** M5c D4/D5：正在编辑的文章（null = 面板关闭） */
+  const [editing, setEditing] = useState<ArticleSummary | null>(null);
   /** 搜索框即时输入（防抖 250ms 后才落到 state.q 与 URL） */
   const [keywordInput, setKeywordInput] = useState(state.q);
   const debounceRef = useRef<number | null>(null);
@@ -387,12 +390,40 @@ export function Library() {
                   href={`#/import?articleId=${item.id}`}
                   onClick={(event) => event.stopPropagation()}
                 >
-                  补解析
+                  补全解析
                 </a>
+                {/* M5c D4：编辑入口（AC9）→ 打开 ArticleEditor；同样 stopPropagation 挡住「进精读」 */}
+                <button
+                  type="button"
+                  className="link-btn"
+                  data-article-edit
+                  data-article-id={item.id}
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    setEditing(item);
+                  }}
+                >
+                  编辑
+                </button>
               </p>
             </article>
           ))}
         </div>
+      )}
+
+      {/* M5c D5：编辑面板（元信息 + 题目）；保存后只回填列表里的标题，不重拉全表 */}
+      {editing !== null && (
+        <ArticleEditor
+          articleId={editing.id}
+          initialTitle={editing.title}
+          initialExamYear={editing.examYear ?? null}
+          initialSectionLabel={editing.sectionLabel ?? null}
+          onClose={() => setEditing(null)}
+          onSaved={({ title }) => {
+            setItems((rows) => rows.map((row) => (row.id === editing.id ? { ...row, title } : row)));
+            setEditing((current) => (current === null ? null : { ...current, title }));
+          }}
+        />
       )}
 
       {!loading && !error && items.length > 0 && isFiltered && (

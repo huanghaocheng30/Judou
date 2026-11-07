@@ -18,8 +18,9 @@ use std::collections::HashMap;
 use std::path::PathBuf;
 
 use judou_lib::ai_import::{
-    article_counts, commit_ai_import, match_payload, parse_payload, patch_ai_analysis, preview_from_article,
-    AiCommitMeta, AiDraft, AiSection, ImportMode,
+    article_counts, build_prompt, commit_ai_import, get_article_questions, match_payload, parse_payload,
+    patch_ai_analysis, preview_from_article, replace_article_questions, split_user_input, update_article_meta,
+    AiCommitMeta, AiDraft, AiSection, ArticleMetaPatch, ImportMode, QuestionView,
 };
 use judou_lib::db::Db;
 use judou_lib::import_user::parse_preview;
@@ -31,6 +32,12 @@ fn main() {
         "commit" => commit_case(&args),
         "patch" => patch_case(&args),
         "dump" => dump_case(&args),
+        // M5c D8：切分 / 三档提示词 / 编辑三命令——门禁要跑 UI 看不到的纯函数口径
+        "split" => split_case(&args),
+        "prompt" => prompt_case(&args),
+        "meta" => meta_case(&args),
+        "dump-questions" => dump_questions_case(&args),
+        "set-questions" => set_questions_case(&args),
         other => json!({ "ok": false, "code": "CLI_USAGE", "message": format!("未知模式：{other}") }),
     };
     println!("{}", serde_json::to_string(&report).expect("序列化报告失败"));
@@ -259,6 +266,151 @@ fn dump_case(args: &Args) -> Value {
             "lexicon": counts.lexicon,
             "structureHash": counts.structure_hash,
         }),
+        Err(err) => failure(err),
+    }
+}
+
+// ═══════════════ M5c D8：门禁要跑的纯函数口径（切分 / 提示词 / 编辑三命令） ═══════════════
+// 纪律不变：本文件只**调** `ai_import.rs` 的库层函数，不复制任何校验、不复制任何 SQL。
+
+/// 组装 `AiDraft`（三档 + 题目区原文）；`--split` 与 `--prompt` 共用
+fn build_draft(args: &Args) -> Result<AiDraft, Value> {
+    let section_raw = args.required("section")?;
+    let Some(section) = AiSection::parse(section_raw) else {
+        return Err(usage(&format!(
+            "--section 只能是 careful / long / cloze，当前是 {section_raw}"
+        )));
+    };
+    let raw_text = read_text(args.required("text")?)?;
+    let preview = parse_preview(&raw_text, None).map_err(failure)?;
+    let mode = args.get("mode").and_then(ImportMode::parse).unwrap_or(ImportMode::Full);
+    let question_text = args.get("questions").map(|path| read_text(path).unwrap_or_default());
+    Ok(AiDraft {
+        preview,
+        section,
+        mode,
+        question_text,
+    })
+}
+
+/// `--split --text <file> [--start <1-based 行号>]`：AC3/AC4 的切分读数
+///
+/// `--start` = 界面上「手动标记题目区起点」的同一动作：只是按行切片（1-based），
+/// **不改任何识别规则**——自动识别失败时的逃生口。
+fn split_case(args: &Args) -> Value {
+    let Ok(path) = args.required("text") else {
+        return usage("--split 需要 --text <file>");
+    };
+    let Ok(raw) = read_text(path) else {
+        return json!({ "ok": false, "code": "CLI_IO", "message": format!("读原文失败：{path}") });
+    };
+    let mut split = split_user_input(&raw);
+    if let Some(start_raw) = args.get("start") {
+        let Ok(start) = start_raw.parse::<usize>() else {
+            return usage(&format!("--start 需要正整数行号，当前是 {start_raw}"));
+        };
+        let lines: Vec<&str> = raw.lines().collect();
+        if start == 0 || start > lines.len() {
+            return usage(&format!("--start 超出范围（1..={}），当前是 {start}", lines.len()));
+        }
+        split.body_text = lines[..start - 1].join("\n").trim_end().to_string();
+        split.question_text = lines[start - 1..].join("\n");
+        split.question_start_line = Some(start);
+        split.detected = true;
+        split.reason = "手动标记题目区起点".to_string();
+    }
+    json!({
+        "ok": true,
+        "detected": split.detected,
+        "reason": split.reason,
+        "questionStartLine": split.question_start_line,
+        "questionCount": split.question_count,
+        "bodyText": split.body_text,
+        "questionText": split.question_text,
+    })
+}
+
+/// `--prompt --section <s> --text <file> [--mode <m>] [--questions <file>]`：AC5/AC6 的提示词全文
+fn prompt_case(args: &Args) -> Value {
+    let draft = match build_draft(args) {
+        Ok(draft) => draft,
+        Err(err) => return err,
+    };
+    let prompt = build_prompt(&draft, 15);
+    json!({
+        "ok": true,
+        "text": prompt.text,
+        "sentenceCount": prompt.sentence_count,
+        "batchSize": prompt.batch_size,
+        "batchCount": prompt.batch_count,
+        "batchHint": prompt.batch_hint,
+    })
+}
+
+/// `--meta --article <id> --db <path> [--title --exam-type --exam-year --section-type --source --difficulty]`
+fn meta_case(args: &Args) -> Value {
+    let Ok(article_raw) = args.required("article") else {
+        return usage("--meta 需要 --article --db");
+    };
+    let Ok(article_id) = article_raw.parse::<i64>() else {
+        return usage(&format!("--article 需要整数，当前是 {article_raw}"));
+    };
+    let Ok(db) = args.db() else {
+        return usage("--db 打不开");
+    };
+    let patch = ArticleMetaPatch {
+        title: args.get("title").map(str::to_string),
+        exam_type: args.get("exam-type").map(str::to_string),
+        exam_year: args.get("exam-year").and_then(|raw| raw.parse::<i64>().ok()),
+        section_type: args.get("section-type").map(str::to_string),
+        source: args.get("source").map(str::to_string),
+        difficulty: args.get("difficulty").map(str::to_string),
+    };
+    match update_article_meta(&db, article_id, &patch) {
+        Ok(()) => json!({ "ok": true, "articleId": article_id }),
+        Err(err) => failure(err),
+    }
+}
+
+/// `--dump-questions --article <id> --db <path>`：编辑面板初值（AC10）
+fn dump_questions_case(args: &Args) -> Value {
+    let Ok(article_raw) = args.required("article") else {
+        return usage("--dump-questions 需要 --article --db");
+    };
+    let Ok(article_id) = article_raw.parse::<i64>() else {
+        return usage(&format!("--article 需要整数，当前是 {article_raw}"));
+    };
+    let Ok(db) = args.db() else {
+        return usage("--db 打不开");
+    };
+    match get_article_questions(&db, article_id) {
+        Ok(questions) => json!({ "ok": true, "questions": questions }),
+        Err(err) => failure(err),
+    }
+}
+
+/// `--set-questions --article <id> --db <path> --payload <file>`：整批替换题目（只写 question 表）
+fn set_questions_case(args: &Args) -> Value {
+    let Ok(article_raw) = args.required("article") else {
+        return usage("--set-questions 需要 --article --db --payload");
+    };
+    let Ok(article_id) = article_raw.parse::<i64>() else {
+        return usage(&format!("--article 需要整数，当前是 {article_raw}"));
+    };
+    let Ok(payload_path) = args.required("payload") else {
+        return usage("--set-questions 需要 --payload <questions.json>");
+    };
+    let Ok(raw) = read_text(payload_path) else {
+        return json!({ "ok": false, "code": "CLI_IO", "message": format!("读题目失败：{payload_path}") });
+    };
+    let Ok(questions) = serde_json::from_str::<Vec<QuestionView>>(&raw) else {
+        return usage("--payload 必须是 QuestionView 数组的 JSON");
+    };
+    let Ok(db) = args.db() else {
+        return usage("--db 打不开");
+    };
+    match replace_article_questions(&db, article_id, &questions) {
+        Ok(written) => json!({ "ok": true, "questions": written }),
         Err(err) => failure(err),
     }
 }

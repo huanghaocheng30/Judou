@@ -371,3 +371,66 @@ const names = [
   "long-batch2.payload.json",
 ];
 console.log(`反例与边界：${names.length} 个文件（02 §六.4：18 组 / 19 个文件）`);
+
+// ─────────────── M5c D9：一体化素材（正文 + 题目 + 答案）→ 用户实测素材 + 门禁端到端 ───────────────
+/**
+ * 三题型各一份「一次粘贴」素材：
+ *   `<type>.full.txt`          = 正文全文 + 题目区（含题干/选项/答案行）
+ *   `<type>.full.payload.json` = 该素材对应的 AI 回包（题目带 `answerSource`）
+ *
+ * 放**独立目录** `scripts/fixtures/ai-import-full/`：`verify-ai-import.mjs` 的静态段断言
+ * 「fixture 目录 29 个文件」是既有判据（只追加不改既有），新素材不能挤进同一目录。
+ * 素材由本脚本生成而非手写 → 题号/选项/答案与 `paypack` 逐字一致（否则档 C 会因逐字比对被拒）。
+ */
+const fullOutDir = path.join(here, "..", "ai-import-full");
+mkdirSync(fullOutDir, { recursive: true });
+const writeFull = (name, value) => {
+  const file = path.join(fullOutDir, name);
+  writeFileSync(file, typeof value === "string" ? value : `${JSON.stringify(value)}\n`, "utf8");
+  return file;
+};
+
+/** 题目区文本：题干行 + 选项行 + 答案行（与 `parse_user_questions` 的口径一致） */
+function buildQuestionArea(questions) {
+  const lines = ["Directions: Read the passage and answer the questions below.", ""];
+  for (const question of questions ?? []) {
+    lines.push(`${question.no}. ${question.stem}`);
+    for (const option of question.options ?? []) lines.push(`${option.key}. ${option.text}`);
+    if (question.answer) lines.push(`答案 ${question.answer}`);
+    lines.push("");
+  }
+  return lines.join("\n");
+}
+
+const FULL_SOURCES = ["careful", "long", "cloze"];
+/** 题目区单独一份：档 C 的「只粘题目区」也要能当 `--questions` 入参（门禁与界面同用） */
+const fullBuilt = {};
+for (const name of FULL_SOURCES) {
+  const source = built[name];
+  const payload = clone(source.payload);
+  // 素材里用户已给答案 → `answerSource: "user"`（AC8）；无答案的题写 `none`
+  payload.questions = (payload.questions ?? []).map((question) => ({
+    ...question,
+    answerSource: question.answer ? "user" : "none",
+  }));
+  const fullText = `${source.text.trim()}\n\n${buildQuestionArea(payload.questions)}`;
+  writeFull(`${name}.full.txt`, fullText);
+  writeFull(`${name}.questions.txt`, buildQuestionArea(payload.questions));
+  writeFull(`${name}.full.payload.json`, payload);
+  fullBuilt[name] = {
+    text: fullText,
+    payload,
+    questions: payload.questions.length,
+    answered: payload.questions.filter((question) => question.answer).length,
+  };
+  console.log(
+    `一体化素材 ${name}.full：正文 ${source.text.trim().length} 字符 + 题目 ${fullBuilt[name].questions} 道（带答案 ${fullBuilt[name].answered}）`,
+  );
+}
+// AC7 反例（档 C）：题干被 AI 改写一处 → 必须 AI_QUESTION_MISMATCH
+{
+  const payload = clone(fullBuilt.careful.payload);
+  payload.questions[0].stem = `${payload.questions[0].stem}（被 AI 改写）`;
+  writeFull("bad-question-stem.payload.json", payload);
+}
+console.log(`一体化素材：${FULL_SOURCES.length * 3 + 1} 个文件 → ${path.relative(projectRoot, fullOutDir)}`);

@@ -18,7 +18,7 @@
  */
 import { DatabaseSync } from "node:sqlite";
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync } from "node:fs";
+import { existsSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -489,7 +489,239 @@ console.log("\n── 7. AC9 后补解析（long-batch1 前 15 句 → patch lon
   rmSync(db, { force: true });
 }
 
-// ───────────────────────── 8. 汇总 ─────────────────────────
+// ═════════════ M5c D8：切分 / 三档提示词 / 档 C 一致性 / answer_source / 编辑命令（追加段） ═════════════
+// 既有 1~7 段一条未改（M5b 契约向后兼容的证据）；本段只追加新能力的机械判据。
+console.log("\n── 8. M5c：切分 / 三档提示词 / 档 C 一致 / answer_source / 编辑命令（D8 追加段）──");
+
+const fullDir = path.join(root, "scripts", "fixtures", "ai-import-full");
+const fullFixture = (name) => path.join(fullDir, name);
+const stripWs = (text) => String(text ?? "").replace(/\s+/g, "");
+const FULL_TYPES = ["careful", "long", "cloze"];
+
+// 8.0 素材齐备性（缺一个就红，避免「空对空」）
+for (const name of FULL_TYPES) {
+  for (const suffix of ["full.txt", "questions.txt", "full.payload.json"]) {
+    const file = fullFixture(`${name}.${suffix}`);
+    if (!existsSync(file)) fail(`缺少一体化素材：${name}.${suffix}`);
+    else if (statSync(file).size <= 0) fail(`一体化素材是空壳：${name}.${suffix}`);
+  }
+}
+if (!existsSync(fullFixture("bad-question-stem.payload.json"))) fail("缺少一体化素材：bad-question-stem.payload.json");
+ok("一体化素材 10 个文件齐备且非空（3 题型 × full/problems/payload + 1 反例）");
+
+const splitOf = (file, start) =>
+  runCli(["--split", "--text", file, ...(start === undefined ? [] : ["--start", String(start)])]);
+const promptOf = (name, mode, withQuestions) =>
+  runCli([
+    "--prompt",
+    "--section",
+    name,
+    "--text",
+    fixture(`${name}.text.txt`),
+    "--mode",
+    mode,
+    ...(withQuestions ? ["--questions", fullFixture(`${name}.questions.txt`)] : []),
+  ]);
+
+// 8.1 切分：含题目区 / 正文干净 / 手动纠正起点（AC3 + AC4 逃生口）
+/**
+ * 冻结规则（02 §三.2，本轮不改）：候选行后 **5 个原始行**内题号行 ≥2 才确认。
+ * 长篇阅读是「题干连排」→ 可自动识别；仔细阅读 / 选词填空的真实卷面是「题干 + 4 个选项行」，
+ * 5 行窗口里只有一个题号行 → 按冻结规则**必须** detected=false（不猜，不许瞎切）。
+ * 这正是上一轮 concerns #9 登记的天花板：机械证据在这里，逃生口是「手动标记题目区起点」。
+ */
+const EXPECT_AUTO_DETECT = { careful: false, long: true, cloze: false };
+for (const name of FULL_TYPES) {
+  const raw = readFileSync(fullFixture(`${name}.full.txt`), "utf8");
+  const lines = raw.split(/\r?\n/);
+  const payload = JSON.parse(readFileSync(fullFixture(`${name}.full.payload.json`), "utf8"));
+  const split = splitOf(fullFixture(`${name}.full.txt`));
+  const expectDetected = EXPECT_AUTO_DETECT[name];
+  eq(`${name} 自动切分 detected（冻结规则口径）`, split.detected, expectDetected);
+  if (expectDetected) {
+    eq(`${name} 自动切分题数 K（= 素材题目数）`, split.questionCount, payload.questions.length);
+    const bodyHasQuestionLine = split.bodyText.split(/\r?\n/).some((line) => /^\s*\d{1,3}\s*[.、．)]\s*\S/.test(line));
+    eq(`${name} 正文里没有题号行（否则题目会被当正文解析）`, bodyHasQuestionLine, false);
+    eq(`${name} 题目区首行 = Directions`, split.questionText.trim().split(/\r?\n/)[0].trim(), "Directions: Read the passage and answer the questions below.");
+  } else {
+    // 切不中必须「不猜」：题目区空串、K=0、起点为 null
+    eq(`${name} 切不中时 questionText 为空串（不猜）`, split.questionText, "");
+    eq(`${name} 切不中时 questionCount`, split.questionCount, 0);
+    eq(`${name} 切不中时 questionStartLine`, split.questionStartLine ?? null, null);
+  }
+  eq(`${name} 原文去空白 = 正文+题目区去空白（切分不丢字）`, stripWs(`${split.bodyText}${split.questionText}`) === stripWs(raw), true);
+
+  // 手动纠正：用户手动标记题目区起点（1-based）时，切分必须接受这个起点
+  const firstNo = lines.findIndex((line) => /^\s*\d{1,3}\s*[.、．)]\s*\S/.test(line)) + 1;
+  const manual = splitOf(fullFixture(`${name}.full.txt`), firstNo);
+  eq(`${name} 手动纠正 questionStartLine`, manual.questionStartLine, firstNo);
+  eq(`${name} 手动纠正 body = 起点之前的原文`, stripWs(manual.bodyText), stripWs(lines.slice(0, firstNo - 1).join("\n")));
+  eq(`${name} 手动纠正 questionText 从题号行起`, stripWs(manual.questionText), stripWs(lines.slice(firstNo - 1).join("\n")));
+}
+
+// 8.2 切分无误判：正文里孤立的数字行不构成题目区（AC4）
+{
+  const silent = path.join(tempRoot, "split-no-false-positive.txt");
+  writeFileSync(
+    silent,
+    "She graduated in 2024 from a small college.\n\n2024.\n\nThe passage ends here without any questions.\n",
+    "utf8",
+  );
+  const split = splitOf(silent);
+  eq("正文含孤立数字行时 detected", split.detected, false);
+  eq("未识别时 questionText 为空串", split.questionText, "");
+  eq("未识别时 questionCount", split.questionCount, 0);
+  eq("未识别时 questionStartLine 为 null", split.questionStartLine ?? null, null);
+}
+
+// 8.3 三档提示词：正文与题目区的包含关系（AC5 / AC6 / AC2）
+{
+  const bodyOf = (name) => readFileSync(fixture(`${name}.text.txt`), "utf8");
+  const questionsOf = (name) => readFileSync(fullFixture(`${name}.questions.txt`), "utf8");
+  for (const name of FULL_TYPES) {
+    const body = stripWs(bodyOf(name));
+    const questions = stripWs(questionsOf(name));
+    const full = promptOf(name, "full", true);
+    const analysis = promptOf(name, "analysis", false);
+    const plain = promptOf(name, "plain", false);
+    if (!full.ok || !analysis.ok || !plain.ok) {
+      fail(`${name} 生成提示词失败：${full.code ?? ""}${analysis.code ?? ""}${plain.code ?? ""}`);
+      continue;
+    }
+    eq(`${name} 档 C 提示词含正文全文（去空白后逐字包含）`, stripWs(full.text).includes(body), true);
+    eq(`${name} 档 C 提示词含题目区全文`, stripWs(full.text).includes(questions), true);
+    eq(`${name} 档 B 提示词含正文全文`, stripWs(analysis.text).includes(body), true);
+    eq(`${name} 档 B 提示词不含题目区（AC6）`, stripWs(analysis.text).includes(questions), false);
+    eq(`${name} 档 A 提示词不要求解析字段（无 sentences[]）`, plain.text.includes("sentences[]"), false);
+    eq(`${name} 档 A 提示词不要求 structMarkup`, plain.text.includes("structMarkup"), false);
+  }
+  // 档 C 的题目区注入是**原文**而非摘要：抽样比对一道题干原文
+  const sample = JSON.parse(readFileSync(fullFixture("careful.full.payload.json"), "utf8")).questions[0].stem;
+  const fullCareful = promptOf("careful", "full", true);
+  eq("档 C 提示词含第一道题的题干原文", stripWs(fullCareful.text).includes(stripWs(sample)), true);
+}
+
+// 8.4 档 A：空 matched 也必须能入库（不要求解析不等于不许入库）
+{
+  const plainPayload = path.join(tempRoot, "plain-empty.payload.json");
+  writeFileSync(plainPayload, JSON.stringify({ section: "careful", sentences: [] }), "utf8");
+  const db = freshDb();
+  const report = runCli([
+    "--commit",
+    "--section",
+    "careful",
+    "--text",
+    fixture("careful.text.txt"),
+    "--payload",
+    plainPayload,
+    "--db",
+    db,
+    "--mode",
+    "plain",
+  ]);
+  eq("档 A 空 matched 入库 ok", report.ok, true);
+  eq("档 A 空 matched 解析覆盖率 0/N", report.coverage?.analysis, `0/${readJson("careful.expect.json").sentences}`);
+  eq("档 A 空 matched 题目覆盖率", report.coverage?.questions, "-");
+  eq("档 A 空 matched 不写解析行", runCli(["--dump", "--article", String(report.articleId ?? 1), "--db", db]).analyses, 0);
+  rmSync(db, { force: true });
+}
+
+// 8.5 档 C 反例：题干被改写 → AI_QUESTION_MISMATCH（经 CLI 走一遍，不是只有单测）
+{
+  const db = freshDb();
+  const report = runCli([
+    "--commit",
+    "--section",
+    "careful",
+    "--text",
+    fixture("careful.text.txt"),
+    "--payload",
+    fullFixture("bad-question-stem.payload.json"),
+    "--db",
+    db,
+    "--mode",
+    "full",
+    "--questions",
+    fullFixture("careful.questions.txt"),
+  ]);
+  eq("档 C 题干被改写 → 错误码", report.ok ? "ok" : report.code, "AI_QUESTION_MISMATCH");
+  eq("档 C 题干被改写 → path", report.path, "questions[0].stem");
+  eq("档 C 题干被改写 → 库里零写入", snapshotCounts(db).article, 0);
+  rmSync(db, { force: true });
+}
+
+// 8.6 answer_source 三值：commit 路径 user / patch 路径 ai / 无答案 none
+{
+  const db = freshDb();
+  const commitReport = runCli([
+    "--commit",
+    "--section",
+    "careful",
+    "--text",
+    fixture("careful.text.txt"),
+    "--payload",
+    fullFixture("careful.full.payload.json"),
+    "--db",
+    db,
+    "--mode",
+    "full",
+    "--questions",
+    fullFixture("careful.questions.txt"),
+  ]);
+  eq("一体化素材（档 C）入库 ok", commitReport.ok, true);
+  const first = runCli(["--dump-questions", "--article", String(commitReport.articleId), "--db", db]).questions ?? [];
+  eq("commit 路径：带答案的题全部 answerSource=user", [...new Set(first.filter((q) => q.answer).map((q) => q.answerSource))], ["user"]);
+  eq("commit 路径：题数与素材一致", first.length, JSON.parse(readFileSync(fullFixture("careful.full.payload.json"), "utf8")).questions.length);
+
+  // patch 路径：无题目区 → AI 补答案 → ai；把第 1 题答案清空 → none
+  const patchPayload = path.join(tempRoot, "patch-answer-source.payload.json");
+  const base = readJson("careful.payload.json");
+  base.questions[0].answer = null;
+  writeFileSync(patchPayload, JSON.stringify(base), "utf8");
+  const patchReport = runCli(["--patch", "--article", String(commitReport.articleId), "--payload", patchPayload, "--db", db, "--section", "careful", "--mode", "analysis"]);
+  eq("patch 路径（第二批）ok", patchReport.ok, true);
+  const second = runCli(["--dump-questions", "--article", String(commitReport.articleId), "--db", db]).questions ?? [];
+  eq("patch 路径：AI 补的答案 answerSource=ai", second.filter((q) => q.answer).map((q) => q.answerSource).every((source) => source === "ai"), true);
+  eq("patch 路径：清空答案的题 answerSource=none", second.find((q) => q.no === base.questions[0].no)?.answerSource, "none");
+  rmSync(db, { force: true });
+}
+
+// 8.7 编辑命令：改元信息 / 改题目后三结构表哈希不变（AC9 / AC10 的库层判据）
+{
+  const db = freshDb();
+  const report = commit({ section: "careful", text: "careful.text.txt", payload: "careful.payload.json", db });
+  if (!report.ok) fail(`8.7 入库失败：${report.code}`);
+  const before = runCli(["--dump", "--article", String(report.articleId), "--db", db]);
+
+  const meta = runCli(["--meta", "--article", String(report.articleId), "--db", db, "--title", "门禁改过的标题", "--exam-year", "2025"]);
+  eq("编辑元信息 ok", meta.ok, true);
+  const afterMeta = runCli(["--dump", "--article", String(report.articleId), "--db", db]);
+  eq("改标题后三结构表内容哈希不变", afterMeta.structureHash, before.structureHash);
+  eq("改标题后解析行数不变", afterMeta.analyses, before.analyses);
+  const conn = openDb(db);
+  const row = conn.prepare("SELECT title, exam_year FROM article WHERE id = ?").get(report.articleId);
+  conn.close();
+  eq("标题真的改了（否则上一条是空对空）", [row.title, row.exam_year], ["门禁改过的标题", 2025]);
+
+  // 改题目：题干改写一处 → 只写 question 表，三结构表哈希不变
+  const questions = runCli(["--dump-questions", "--article", String(report.articleId), "--db", db]).questions ?? [];
+  eq("读题目：行数与库一致", questions.length, before.questions);
+  const edited = questions.map((question, index) => (index === 0 ? { ...question, stem: `${question.stem}（用户改过）` } : question));
+  const editedPath = path.join(tempRoot, "edited-questions.json");
+  writeFileSync(editedPath, JSON.stringify(edited), "utf8");
+  const setReport = runCli(["--set-questions", "--article", String(report.articleId), "--db", db, "--payload", editedPath]);
+  eq("整批替换题目 ok", setReport.ok, true);
+  const afterSet = runCli(["--dump", "--article", String(report.articleId), "--db", db]);
+  eq("改题目后三结构表内容哈希不变", afterSet.structureHash, before.structureHash);
+  eq("改题目后题目行数不变", afterSet.questions, before.questions);
+  eq("改题目后解析行数不变", afterSet.analyses, before.analyses);
+  const afterQuestions = runCli(["--dump-questions", "--article", String(report.articleId), "--db", db]).questions ?? [];
+  eq("题干真的改了", afterQuestions[0]?.stem, `${questions[0].stem}（用户改过）`);
+  eq("answer_source 原样保留", afterQuestions[0]?.answerSource, questions[0].answerSource);
+  rmSync(db, { force: true });
+}
+
+// ───────────────────────── 9. 汇总 ─────────────────────────
 rmSync(tempRoot, { recursive: true, force: true });
 console.log("");
 if (failed) {
