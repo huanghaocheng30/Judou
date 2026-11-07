@@ -433,3 +433,200 @@ export interface ImportCommitResult {
   sourceKey: string;
   stats: ImportStats;
 }
+
+// ───────────────── M5b · AI 解析导入（02 v1.2a D2；命令名与形状由 05 §十一之二 冻结） ─────────────────
+//
+// 分工：App 管结构（段/句/词/偏移由 Rust 算），AI 只出语义（解析/题目/词条）。
+// 所以这些类型里**没有任何偏移字段**——payload 里就算带 `start`/`end`/`offset` 也会被忽略（AC8）。
+
+/** 题型（用户在选择器里选，随 `AiDraft` 传给后端；模板按它裁剪片段） */
+export type AiSection = "careful" | "long" | "cloze";
+
+/** AI 模式入参：`ImportPreview`（既有，不动）+ 所选题型 */
+export interface AiDraft {
+  preview: ImportPreview;
+  section: AiSection;
+}
+
+/** `build_ai_prompt` 返回体：整段可复制的提示词 + 分批元信息 */
+export interface AiPrompt {
+  text: string;
+  section: AiSection;
+  sentenceCount: number;
+  batchSize: number;
+  batchCount: number;
+  /** 句数 > batchSize 时的「建议分批（当前 N 句）」；不阻断（AC2） */
+  batchHint: string | null;
+}
+
+/** `parse_ai_payload` 返回体：容错解析后的 payload + 被丢弃的说明文字字符数（AC13） */
+export interface AiParseResult {
+  payload: AiPayload;
+  ignoredChars: number;
+}
+
+/** 轻量语义包（02 §三.1）；未知字段（offset/tokens/paragraphs…）后端忽略 */
+export interface AiPayload {
+  packVersion?: string | null;
+  section: string;
+  sentences: AiPayloadSentence[];
+  questions?: AiPayloadQuestion[] | null;
+  blankAnalyses?: AiBlankAnalysisInput[] | null;
+  lexicon?: AiLexiconInput[] | null;
+}
+
+export interface AiPayloadSentence {
+  /** 该句原文，必须与正文逐字符一致（App 用它对齐句子） */
+  quote: string;
+  /** 辅助编号：与 `quote` 冲突时以 `quote` 为准（AC18） */
+  sNo?: string | null;
+  analysis: AiAnalysis;
+}
+
+/** 句子解析九字段；`phrases` 两种形态后端都收（字符串项会投影成展示对象） */
+export interface AiAnalysis {
+  translationLiteral: string;
+  translationNatural: string;
+  structMarkup: string;
+  structureSummary: string;
+  components: AiComponentInput[];
+  clauses?: string[] | null;
+  phrases?: Array<string | AnalysisPhrase> | null;
+  pitfalls?: string[] | null;
+  paragraphRole?: string | null;
+}
+
+export interface AiComponentInput {
+  part: string;
+  role: string;
+  note?: string;
+}
+
+export interface AiOption {
+  key: string;
+  text: string;
+}
+
+export interface AiPayloadQuestion {
+  no: number;
+  stem: string;
+  /** careful 4 项 / long `[]` / cloze 15 项（形态错误会被拒收，见 AC7） */
+  options?: AiOption[];
+  /** 不在合法集合内 → 后端归一为无答案，不编造（AC16） */
+  answer?: string | null;
+  explanation?: string | null;
+}
+
+export interface AiBlankAnalysisInput {
+  no: number;
+  answerWord: string;
+  reason: string;
+  /** 契约是对象数组；字符串形态按非必填忽略（§三.4） */
+  distractors?: unknown;
+}
+
+export interface AiLexiconInput {
+  word: string;
+  phonetic?: string | null;
+  pos?: string | null;
+  sense: string;
+  collocations?: string[] | null;
+  examples?: string[] | null;
+  isCet4HighFreq?: boolean | null;
+}
+
+export interface AiMatchedSentence {
+  paragraphIdx: number;
+  sentenceIdx: number;
+  quote: string;
+  sNo?: string | null;
+  analysis: AiAnalysis;
+}
+
+export interface AiUnmatchedSentence {
+  quote: string;
+  sNo?: string | null;
+  /** 为什么没匹配上（界面逐条展示，不得静默丢弃） */
+  reason: string;
+}
+
+export interface AiUnmatchedLexicon {
+  word: string;
+  reason: string;
+}
+
+export interface AiQuestionOut {
+  idx: number;
+  no: number;
+  stem: string;
+  options: AiOption[];
+  answer: string | null;
+  explanation: string | null;
+  missingAnswer: boolean;
+}
+
+export interface AiBlankOut {
+  no: number;
+  answerWord: string;
+  answerKey: string | null;
+  reason: string;
+  distractors: unknown[] | null;
+}
+
+/** 四类覆盖率（`x/y` 串；分母未知时只有 `x`，未知类别显示 `-`） */
+export interface AiCoverage {
+  analysis: string;
+  questions: string;
+  blanks: string;
+  lexicon: number;
+}
+
+/** `match_ai_payload` 返回体，也是 `commit_ai_import` / `patch_ai_analysis` 的入参 */
+export interface AiMatched {
+  section: AiSection;
+  matched: AiMatchedSentence[];
+  unmatched: AiUnmatchedSentence[];
+  unmatchedLexicon: AiUnmatchedLexicon[];
+  questions: AiQuestionOut[];
+  blanks: AiBlankOut[];
+  lexicon: AiLexiconInput[];
+  coverage: AiCoverage;
+  /** AC18：编号与 quote 冲突、已按 quote 纠正的条数 */
+  snoFixed: number;
+  /** AC16：答案不在合法集合内、已归一为无答案的题数 */
+  missingAnswer: number;
+}
+
+export interface AiCommitMeta {
+  examType?: string | null;
+  examYear?: number | null;
+}
+
+/** 覆盖率回读（补解析入口的初值；分母只有句数已知） */
+export interface AiImportStats {
+  sentences: number;
+  analysisCovered: number;
+  questions: number;
+  blanks: number;
+  lexicon: number;
+}
+
+export interface AiCommitReport {
+  articleId: number;
+  sourceKey: string;
+  analysisWritten: number;
+  questionsWritten: number;
+  blanksWritten: number;
+  lexiconInserted: number;
+  coverage: AiCoverage;
+  stats: AiImportStats;
+}
+
+export interface AiPatchReport {
+  articleId: number;
+  analysisWritten: number;
+  questionsWritten: number;
+  blanksWritten: number;
+  lexiconInserted: number;
+  stats: AiImportStats;
+}

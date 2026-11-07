@@ -7,6 +7,9 @@
 //! 错误页永远显示不出来。正确形态是：捕获 → `manage(StartupState::Failed)` → 正常 `Ok(())`。
 
 mod analysis;
+// M5b（02 D1/R6）：`pub` 是给门禁 bin（`src/bin/ai_import_cli.rs`）用的——它要直调库层的
+// `commit_ai_import` / `patch_ai_analysis`（SQL 只在 `ai_import.rs` 里，bin 不复制）。
+pub mod ai_import;
 pub mod commands;
 // `pub` 是给门禁 bin（`src/bin/import_user_cli.rs`，D8 契约）用的：它要开临时库跑真事务。
 // 默认可见性不变（crate 外只有同仓的这个 bin 引用）。
@@ -82,7 +85,16 @@ pub fn run() {
             commands::get_last_read_article,
             // M5 · 用户导入（2 个；实现见 import_user.rs，薄包装在 commands.rs）
             commands::parse_import_preview,
-            commands::commit_import
+            commands::commit_import,
+            // M5b · AI 解析导入（6 个；实现见 ai_import.rs，薄包装在 commands.rs）
+            // 命令名与数量由 05 §十一之二 冻结：build_ai_prompt / parse_ai_payload /
+            // match_ai_payload / commit_ai_import / patch_ai_analysis / get_ai_import_stats
+            commands::build_ai_prompt,
+            commands::parse_ai_payload,
+            commands::match_ai_payload,
+            commands::commit_ai_import,
+            commands::patch_ai_analysis,
+            commands::get_ai_import_stats
         ])
         .run(tauri::generate_context!())
         .expect("启动句读失败");

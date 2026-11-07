@@ -10,6 +10,15 @@
  */
 import { invoke } from "@tauri-apps/api/core";
 import type {
+  AiCommitMeta,
+  AiCommitReport,
+  AiDraft,
+  AiMatched,
+  AiParseResult,
+  AiPatchReport,
+  AiPayload,
+  AiPrompt,
+  AiImportStats,
   AppSettings,
   ArticleContent,
   ArticleFilter,
@@ -258,4 +267,55 @@ export function parseImportPreview(text: string, title?: string): Promise<Import
  */
 export function commitImport(preview: ImportPreview, meta: ImportMeta = {}): Promise<ImportCommitResult> {
   return invoke<ImportCommitResult>("commit_import", { preview, meta });
+}
+
+// ───────────────── M5b · AI 解析导入（6 个封装；命令名由 05 §十一之二 冻结，不得改名/合并） ─────────────────
+
+/**
+ * ① 生成提示词模板 + 本批句子清单 + 题型片段。**纯字符串、不写库**。
+ *
+ * `batchSize` 只是模板里的分批建议（默认 15），**不是拒收阈值**：
+ * 句数 > 15 时后端仍返回全文清单，只在 `batchHint` 里提示「建议分批」（AC2）。
+ */
+export function buildAiPrompt(draft: AiDraft, batchSize = 15): Promise<AiPrompt> {
+  return invoke<AiPrompt>("build_ai_prompt", { draft, batchSize });
+}
+
+/**
+ * ② 容错解析：剥 ``` 围栏、只取最外层 `{}`、丢掉前后说明文字（丢弃字数在 `ignoredChars`）。
+ *
+ * 失败码：`AI_PAYLOAD_INVALID`（不是合法 JSON）/ `AI_TYPE_MISMATCH`（`section` 不在枚举内）/
+ * `AI_MARKUP_UNBALANCED`（某句 `structMarkup` 不配平）。
+ */
+export function parseAiPayload(text: string): Promise<AiParseResult> {
+  return invoke<AiParseResult>("parse_ai_payload", { text });
+}
+
+/**
+ * ③ 按 `quote` 对齐句子 → `matched` / `unmatched` / 四类覆盖率。**纯函数、不写库**。
+ *
+ * 部分不匹配不是错误（`unmatched` 交给用户处置）；一句都没命中才 reject `AI_NO_MATCH`。
+ * 形态错误（AC7 六种）在这里被拒：`AI_TYPE_MISMATCH`。
+ */
+export function matchAiPayload(draft: AiDraft, payload: AiPayload): Promise<AiMatched> {
+  return invoke<AiMatched>("match_ai_payload", { draft, payload });
+}
+
+/** ④ 首次导入：结构四表 + 解析四表一起入库（失败整篇回滚），返回新文章与覆盖率 */
+export function commitAiImport(
+  draft: AiDraft,
+  matched: AiMatched,
+  meta: AiCommitMeta = {},
+): Promise<AiCommitReport> {
+  return invoke<AiCommitReport>("commit_ai_import", { draft, matched, meta });
+}
+
+/** ⑤ 后补解析：只写解析四表，**不动** `paragraph`/`sentence`/`token`（笔记与生词引用不失效） */
+export function patchAiAnalysis(articleId: number, matched: AiMatched): Promise<AiPatchReport> {
+  return invoke<AiPatchReport>("patch_ai_analysis", { articleId, matched });
+}
+
+/** ⑥ 覆盖率回读（补解析入口的初值不是 0） */
+export function getAiImportStats(articleId: number): Promise<AiImportStats> {
+  return invoke<AiImportStats>("get_ai_import_stats", { articleId });
 }

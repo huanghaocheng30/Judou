@@ -377,6 +377,19 @@ export function Library() {
                 <span>{item.sentenceCount} 句</span>
               </p>
               <p className="article-source">{item.source ?? ""}</p>
+              {/* M5b D4：「补解析」入口（AC9）。停在卡片内部，**必须 stopPropagation**，
+                  否则点它会连带触发卡片的「进精读」点击。 */}
+              <p className="article-actions">
+                <a
+                  className="link-btn"
+                  data-ai-patch
+                  data-article-id={item.id}
+                  href={`#/import?articleId=${item.id}`}
+                  onClick={(event) => event.stopPropagation()}
+                >
+                  补解析
+                </a>
+              </p>
             </article>
           ))}
         </div>

@@ -448,6 +448,15 @@ export function Reader() {
               {meta}
             </p>
           </div>
+          {/* M5b D4：精读页页头的「补解析」入口（AC9）→ 跳 `#/import?articleId=<id>`（patch 模式） */}
+          <a
+            className="link-btn reader-patch"
+            data-ai-patch
+            data-article-id={content.article.id}
+            href={`#/import?articleId=${content.article.id}`}
+          >
+            补解析
+          </a>
         </header>
 
         <article className="reader-body" data-testid="reader-body">

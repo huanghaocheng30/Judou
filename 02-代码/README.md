@@ -28,6 +28,7 @@ npm run verify:sql         # 空库全链 001→002：19 表 / version=2 / 三�
 npm run verify:pack        # 内容包 13 文件 SHA-256 与设计区逐字节一致 + 3,529,547 B
 npm run verify:import      # 运行期库：九表 12/90/274/6699/274/213/1561/30/90 + 四项非空 + pack_version
 npm run verify:import-user # 用户导入：清洗/分段/切句/分词 + parse 零写入 + 四层校验六错误码 + commit 两篇/剔段
+npm run verify:ai-import   # AI 解析导入：三题型 fixture 逐格比对 + 16 组反例/边界 + 偏移自算 + 补解析不动结构
 npm run verify:render      # renderTokens 纯函数：6699 token 切片零例外 + 空格 30·62 + 长文 < 50ms（M2 回归基线）
 npm run verify:analysis    # parseMarkup 守恒 274/274 + fail-closed 恰 7 句 + 六段序 + 词卡三态 + 30 空两形态
 npm run verify:note        # 001+002 建临时库：updated_at NOT NULL 无 DEFAULT + upsert/读回/刷新/清空删行
@@ -161,6 +162,71 @@ cmd /c "call ""C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC
   不是硬编码 `true`（硬编码会让上面那句降级文案在真机永不出现）。
 - **门禁**：`npm run verify:import-user`（`scripts/verify-import-user.mjs` + `src-tauri/src/bin/import_user_cli.rs` 契约）。
 
+## AI 解析导入（M5b）
+
+`#/import` 现在有**两个 Tab**（`data-import-mode="quick"` / `"ai"`）：快速导入照旧只要原文；
+**AI 解析导入**多拿一份语义（逐句解析 / 题目答案 / 词条），但**不调任何外部 AI、不带 key、不联网**——
+模板由 App 本地生成，你复制给自己的 AI 用。
+
+**四步**
+
+1. **选题型**（`data-ai-section` 三选一：仔细阅读 / 长篇阅读 / 选词填空）→ 粘原文 → 点「解析原文」，
+   界面显示「N 段 / M 句」与句子清单（`S编号` + 原文前 24 字符）。
+2. 点「**复制提示词 + 句子清单**」（`data-ai-prompt-copy`）→ 把提示词**连同这篇原文**一起交给你的 AI。
+   模板按题型只给对应片段，并明确要求：`quote` 逐字符拷贝、不要给 `start`/`end`/`offset`/`tokens`、`section` 原样回填。
+3. 把 AI 返回的 JSON **粘回**（`data-ai-payload`）→「解析并匹配」→ 看覆盖率与未匹配清单。
+   带 ``` 围栏或前后说明文字也没关系：App 只取最外层 `{ … }`，其余丢弃并显示「已忽略 N 字说明文字」（`data-ai-ignored-chars`）。
+4. 看覆盖率（`data-ai-coverage`：解析 x/M · 题目 n · 词条 n；选词填空另显示 `data-ai-blank-coverage` 逐空 k/10）
+   →「导入这篇文章」（`data-ai-commit`）→ 跳精读页。
+
+**题型怎么选**：选错了会被拒收（`AI_TYPE_MISMATCH`，`path="section"`）。三种题型的形态要求：
+
+| 题型 | `section` | 题目形态 | 分批建议 |
+|---|---|---|---|
+| 仔细阅读 | `careful` | 每题 **4 个 options** + `answer` 是其中一个 key | 20 句左右，一次给完 |
+| 长篇阅读 | `long` | 每题 `options: []` + `answer` 是**段落字母** | 47 句 → 按段落拆 2~4 批 |
+| 选词填空 | `cloze` | 每题 **15 项词库**；`questions[].no` 必须正好等于正文空号；`blankAnalyses` 可只给一部分空 | 13 句，一次给完 |
+
+**分批与累加**：15 句是**建议值不是硬上限**（句数 > 15 只在 `data-ai-batch-hint` 提示「建议分批」，
+不报错、不阻断）。分几次粘回时覆盖率**累加**（同一句再给一次视为修订）。
+
+**允许不完整**：只给一部分句解析也能入库（`解析 20/M`）；未覆盖的句子在精读页显示「该句暂无解析」。
+选词填空少给几个空的解析同样入库（`逐空 6/10`）——只有**结构性错误**才拒收。
+
+**未匹配怎么处置**（`data-ai-unmatched`，逐条给原因，**不静默丢弃**）：
+- `data-ai-skip`「跳过该句」→ 该句不入解析，其余照常入库；
+- `data-ai-regen`「重新生成该句」→ 复制只含该句的小模板（含 `S编号` + 原文，`data-ai-regen-text` 里也能直接复制），再喂给 AI 补一次。
+
+**后补解析**（AC9）：文章库卡片与精读页页头都有「补解析」（`data-ai-patch`）→ `#/import?articleId=<id>`。
+原文从文章库回读并**锁定**（不再粘原文），题型初值取 `article.section_type`（为空或非法时要你自己选，App 不猜）；
+覆盖率初值取库里真读数。补解析**只写解析四表**（`sentence_analysis`/`question`/`lexicon`/`blank`），
+`paragraph`/`sentence`/`token` 一字不动 → 笔记、生词、复习记录都不会失效。
+
+**常见错误与自查**（错误码 + 定位 `path` 都在错误条上，`data-ai-error-path`）：
+
+| 错误码 | 含义 | 自查什么 |
+|---|---|---|
+| `AI_PAYLOAD_INVALID` | 粘回来的不是合法 JSON | 是否漏了结尾的 `}`；只粘 `{ … }` 这一段 |
+| `AI_TYPE_MISMATCH` | 题型/形态不符（六种，见下） | 见下面六条 |
+| `AI_MARKUP_UNBALANCED` | 某句 `structMarkup` 不配平 | `_` 与 `~` 必须成对；`【】{}()` 必须配对；也可「跳过该句」 |
+| `AI_NO_MATCH` | 一句都没对上 | 通常是粘了别的文章的解析；检查 `quote` 是否逐字符一致 |
+
+**六种形态错误**（`AI_TYPE_MISMATCH` 的全部来源，其他一律不拒收）：
+
+1. 长篇阅读的 `questions[].options` 非空（应为 `[]`）；
+2. 仔细阅读任一题 `options` 不是 4 项；
+3. 选词填空任一题 `options` 不是 15 项；
+4. 选词填空 `questions[].no` 集合 ≠ 正文空号集合，或 `blankAnalyses[].no` 里有正文不存在的空号；
+5. payload 的 `section` 与本次所选题型不一致；
+6. `section` 不在 `careful` / `long` / `cloze` 内。
+
+另外三条**不报错但会归一**的行为，供自查：`answer` 不在选项/段落字母范围内 → 该题归一为无答案
+（`data-ai-missing-answer` 显示缺答案题数，**不猜不补**）；`sNo` 与 `quote` 冲突 → 以 `quote` 为准
+（`data-ai-sno-fixed` 显示纠正条数）；`lexicon` 里的词若不在正文 → 不进库、列进未匹配清单。
+
+**门禁**：`npm run verify:ai-import`（`scripts/verify-ai-import.mjs` + `src-tauri/src/bin/ai_import_cli.rs` 契约）。
+fixture 由 `node scripts/fixtures/ai-import/build-fixtures.mjs` 从仓库内 2024-06 完整内容包**可复算**派生。
+
 ## 本地库位置
 
 `%APPDATA%\com.judou.app\judou.db`（Tauri v2 `app_data_dir()` + `identifier`）。
@@ -181,7 +247,9 @@ content-pack/   内置内容包 13 文件（只读数据，SHA-256 由 verify:pa
 src/            React 壳（shell = 侧栏/顶栏/主题/路由；pages = 8 页；lib = api/render/theme/types/vocab/pending）
 src/components/ 解析面板与卡片（AnalysisPanel/SentenceCard/WordCard/BlankCard/NoteEditor/VocabEditor）
 src-tauri/      Rust 侧（commands.rs 命令、vocab.rs 生词本 8 命令、db.rs 连接与迁移、pack.rs 内容包、import.rs 导入）
+                ai_import.rs 是 M5b AI 解析导入的唯一实现（4 纯函数 + 2 库层写库函数；SQL 只在它里面）
                 migrations/001_init.sql（冻结）、002_add_import_columns.sql
+src-tauri/src/bin/  门禁通道：import_user_cli.rs（M5）/ ai_import_cli.rs（M5b；只调 lib 层，不复制 SQL）
 scripts/        可复跑的断言（verify-* / check-* / theme.test / pending.test）
 .github/        CI 骨架（**M7 收尾时移动到仓库根 .github/**）
 ```

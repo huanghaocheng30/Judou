@@ -25,7 +25,10 @@ fn main() {
         "debug" => debug_cases(),
         "all" => all(db_path),
         // ── CDP 取证支持（M5 第 2 批）：把**真 Rust** 的解析/入库结果吐成一行 JSON，
-        //    供浏览器侧 IPC 模拟层逐字复用（本机无 MSVC/WebView2，起不了 `tauri dev`）。
+        //    供浏览器侧 IPC 模拟层逐字复用。
+        //    （D6/R8 勘误：旧注释写「本机无 MSVC/WebView2，起不了 `tauri dev`」——已于 2026-11-07
+        //      证伪：`default-run = "judou"` 修好后 `tauri dev` 本机实测可起，见
+        //      `05-交付/M5-用户导入/构建记录-20261107.md` §九；M5b 的 CDP 证据即走真窗口。）
         //    **不改 `all` / `debug` 的既有输出**，verify-import-user.mjs 走的是 `all`。
         //    用法：`preview <textFile>` / `commit <dbPath> <previewJsonFile> [<metaJsonFile>]`
         "preview" => preview_case(db_path),

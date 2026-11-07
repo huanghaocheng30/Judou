@@ -2258,3 +2258,177 @@ button {
 .import-paragraph.removed .import-paragraph-text {
   color: var(--ink-3);
 }
+
+/* ─────────────────── M5b · AI 解析导入（D5；复用既有色值 token，零新色值） ─────────────────── */
+
+/* 双 Tab：快速导入 / AI 解析导入 */
+.import-tabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+.import-tab {
+  padding: 8px 14px;
+  border: 1px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-radius: 8px 8px 0 0;
+  background: transparent;
+  color: var(--ink-3);
+  font-size: 13.5px;
+  cursor: pointer;
+}
+
+.import-tab:hover {
+  color: var(--ink-2);
+}
+
+.import-tab.active {
+  color: var(--ink);
+  font-weight: 600;
+  border-bottom-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.import-tab:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.ai-import {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* 行内提示（分批建议 / 已忽略字数 / 缺答案 / 逐空覆盖率…） */
+.ai-hint {
+  margin: 6px 0 0;
+  font-size: 12.5px;
+  color: var(--ink-3);
+}
+
+.ai-hint-batch {
+  color: var(--accent);
+}
+
+.ai-subtitle {
+  margin: 14px 0 6px;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+/* 句子清单（S 编号 + 原文前 24 字符） */
+.ai-sentence-list {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  max-height: 280px;
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper-2);
+}
+
+.ai-sentence-list > li {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 5px 10px;
+  border-top: 1px solid var(--line);
+  font-size: 12.5px;
+}
+
+.ai-sentence-list > li:first-child {
+  border-top: none;
+}
+
+.ai-s-no {
+  flex: none;
+  font-family: var(--mono);
+  color: var(--accent);
+}
+
+.ai-s-text {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--serif);
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ai-s-pos {
+  flex: none;
+  color: var(--ink-3);
+}
+
+/* 提示词与单句小模板：等宽、可滚，避免长 JSON 撑破卡片 */
+.ai-prompt-text {
+  margin-top: 10px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+/* 未匹配清单：玫红左边线（与成分标注的 rose 同色系，标「需要处置」） */
+.ai-unmatched-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ai-unmatched-list > li {
+  padding: 8px 10px;
+  border: 1px solid var(--line-2);
+  border-left: 3px solid var(--rose);
+  border-radius: 8px;
+  background: var(--rose-soft);
+}
+
+.ai-unmatched-quote {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 14px;
+  color: var(--ink);
+  word-break: break-word;
+}
+
+.ai-unmatched-reason {
+  margin: 4px 0 0;
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+
+/* 错误定位（如 sentences[11].analysis.structMarkup） */
+.import-error-path {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+/* 补解析写入后的回执（补解析模式「补充解析」按钮旁） */
+.ai-notice {
+  margin: 0;
+  padding: 8px 12px;
+  border: 1px solid var(--line-2);
+  border-left: 3px solid var(--green);
+  border-radius: 8px;
+  background: var(--green-soft);
+  color: var(--ink);
+}
+
+/* 库卡片里的「补解析」行（M5b D4）：与既有 link-btn 同外观，只是单独占一行 */
+.article-actions {
+  margin: 6px 0 0;
+}
+
+/* 精读页页头的「补解析」入口 */
+.reader-patch {
+  flex: none;
+  align-self: center;
+}

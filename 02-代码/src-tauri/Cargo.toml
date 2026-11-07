@@ -31,3 +31,10 @@ sha2 = "0.10"
 [[bin]]
 name = "import_user_cli"
 path = "src/bin/import_user_cli.rs"
+
+# M5b D6 门禁契约（`scripts/verify-ai-import.mjs` → `ai_import_cli`）。
+# 只引用本 crate 的 lib（`judou_lib::ai_import`），**不引入任何新 crate**；
+# 校验与 SQL 一律在 `ai_import.rs`，bin 内不复制（02 N4）。
+[[bin]]
+name = "ai_import_cli"
+path = "src/bin/ai_import_cli.rs"

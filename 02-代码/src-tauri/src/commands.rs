@@ -10,6 +10,7 @@ use rusqlite::params_from_iter;
 use serde::{Deserialize, Serialize};
 use tauri::State;
 
+use crate::ai_import;
 use crate::analysis;
 use crate::db::Db;
 use crate::import::{self, ImportReport};
@@ -1135,10 +1136,69 @@ pub fn commit_import(
     import_user::commit_import(&db, &preview, &meta)
 }
 
+// ───────────────────── M5b · AI 解析导入（D1：6 个薄包装，命令名与数量不得改） ─────────────────────
+// 契约见 05 §十一之二。**全部分工纪律**：这里只做「参数 → 库层/纯函数」转手，
+// **不写 SQL、不复制校验**——校验与写库只有一份实现（`ai_import.rs`），
+// 否则 `parse_ai_payload` 与 `commit_ai_import` 会出现两套行为（AC5/AC6 会失真）。
+// 参数一律 camelCase：`batch_size` ↔ `batchSize`、`article_id` ↔ `articleId`。
+
+/// ① 生成提示词模板 + 本批句子清单 + 题型片段。**纯字符串，不写库**
+#[tauri::command]
+pub fn build_ai_prompt(
+    draft: ai_import::AiDraft,
+    batch_size: u32,
+) -> Result<ai_import::AiPrompt, CommandError> {
+    Ok(ai_import::build_prompt(&draft, batch_size))
+}
+
+/// ② 容错解析（剥围栏 + 只取最外层 `{}`）+ `section` 枚举 + markup 平衡。**不写库**
+#[tauri::command]
+pub fn parse_ai_payload(text: String) -> Result<ai_import::AiParseResult, CommandError> {
+    ai_import::parse_payload(&text)
+}
+
+/// ③ `quote` 匹配 → `matched` / `unmatched` / 四类覆盖率。**纯函数，不写库**
+#[tauri::command]
+pub fn match_ai_payload(
+    draft: ai_import::AiDraft,
+    payload: ai_import::AiPayload,
+) -> Result<ai_import::AiMatched, CommandError> {
+    ai_import::match_payload(&draft, &payload)
+}
+
+/// ④ 单事务入库（结构四表 + 分析四表；失败整篇回滚）→ 新文章 id + 覆盖率
+#[tauri::command]
+pub fn commit_ai_import(
+    db: State<'_, Db>,
+    draft: ai_import::AiDraft,
+    matched: ai_import::AiMatched,
+    meta: ai_import::AiCommitMeta,
+) -> Result<ai_import::AiCommitReport, CommandError> {
+    ai_import::commit_ai_import(&db, &draft, &matched, &meta)
+}
+
+/// ⑤ 后补解析：只写解析四表，不动 `paragraph`/`sentence`/`token`
+#[tauri::command]
+pub fn patch_ai_analysis(
+    db: State<'_, Db>,
+    article_id: i64,
+    matched: ai_import::AiMatched,
+) -> Result<ai_import::AiPatchReport, CommandError> {
+    ai_import::patch_ai_analysis(&db, article_id, &matched)
+}
+
+/// ⑥ 覆盖率回读（补解析入口的初值，不是 0）
+#[tauri::command]
+pub fn get_ai_import_stats(
+    db: State<'_, Db>,
+    article_id: i64,
+) -> Result<ai_import::AiImportStats, CommandError> {
+    ai_import::get_ai_import_stats(&db, article_id)
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
-
     /// LIKE 转义（AC5）：`%` 与 `_` 必须变成字面量，否则用户输入一个 `%` 就命中全表
     #[test]
     fn keyword_wildcards_are_escaped() {
