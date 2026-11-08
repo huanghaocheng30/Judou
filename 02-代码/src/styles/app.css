@@ -2960,3 +2960,193 @@ button {
   font-size: 12px;
   color: var(--green);
 }
+/* ═════════════ 响应式（M9 D0）：<640 底部 Tab / 640~1099 图标栏 ═════════════
+ * 纪律：本段**只追加**。上方既有的 720 / 1100 / 1440 media query 与全部既有 class 规则**一字未改**；
+ * 两条 media query 位于文件末尾，与既有规则同特指度时后者生效，因此在 640~720 区间由本段接管
+ * M0「侧边栏变顶栏」的临时形态（那段代码仍原样保留，被覆盖而非被删）。
+ */
+
+/* ── ① 640~1099px：侧边栏收窄为图标栏（AC3）─────────────────────────────
+ * 上界取 1099：1100px 起回到宽屏双列（与 AnalysisPanel 的 WIDE_QUERY=(min-width:1100px) 同值）。
+ * 文字标签不是 display:none——用「视觉隐藏」保留在无障碍树里，避免 <a> 丢掉可访问名、
+ * 也避免给 <a> 加 aria-label 把复习角标自己的 aria-label 盖掉；hover/聚焦时浮出为右侧 tooltip。 */
+@media (min-width: 640px) and (max-width: 1099px) {
+  .shell {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 0;
+    width: 64px;
+    height: 100vh;
+    flex: none;
+    flex-direction: column;
+    gap: 2px;
+    padding: 12px 8px;
+    border-right: 1px solid var(--line);
+    border-bottom: none;
+  }
+
+  /* 品牌只留图形标记：64px 放不下「句读 / JUDOU」两行 */
+  .brand {
+    justify-content: center;
+    padding: 2px 0 14px;
+  }
+
+  .brand-text {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2px;
+  }
+
+  .nav {
+    position: relative;
+    justify-content: center;
+    padding: 9px 0;
+  }
+
+  /* ponytail: 图标栏 tooltip 用纯 CSS 浮层（不做 JS 定位/视口翻转）——天花板：浮层固定在 64px 栏右侧 8px，
+     栏改到右侧或视口过窄时会被裁；升级路径：加一条 @media 反向翻转 left/right 即可，无需引 JS。 */
+  .nav-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .nav:hover .nav-label,
+  .nav:focus-visible .nav-label {
+    left: calc(100% + 8px);
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip-path: none;
+    padding: 2px 8px;
+    border: 1px solid var(--line-2);
+    border-radius: 6px;
+    background: var(--paper);
+    box-shadow: var(--shadow);
+    color: var(--ink);
+    font-size: 12px;
+    z-index: 5;
+  }
+
+  /* 角标不能挤占图标位：浮到条目右上角 */
+  .nav-badge {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    margin-left: 0;
+    min-width: 14px;
+    padding: 0 3px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .side-foot {
+    display: none;
+  }
+}
+
+/* ── ② <640px：侧边栏变底部固定 Tab 栏（AC1）─────────────────────────────
+ * 7 项直接均分（不做「更多」二次抽屉）：图标在上、文字 10.5px 在下。
+ * z-index 30 高于底部抽屉的 20，抽屉弹出时导航仍可达；抽屉让出 56px（见本段末尾）。 */
+@media (max-width: 639px) {
+  .shell {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    width: auto;
+    /* ponytail: Tab 栏高度写死 56px，不含 env(safe-area-inset-bottom)——天花板：上 Android 全屏时底部会被系统手势条压住；
+       升级路径：改成 min-height:56px + padding-bottom: env(safe-area-inset-bottom, 0px) 即可。 */
+    height: 56px;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    padding: 4px 4px 2px;
+    background: var(--paper-2);
+    border-right: none;
+    border-top: 1px solid var(--line);
+    border-bottom: none;
+    z-index: 30;
+  }
+
+  /* 品牌区与版本号在底部 Tab 里没有位置 */
+  .brand,
+  .side-foot {
+    display: none;
+  }
+
+  .nav-list {
+    flex: 1;
+    min-width: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2px;
+  }
+
+  .nav {
+    position: relative;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    padding: 3px 1px;
+    border-radius: 8px;
+    font-size: 10.5px;
+    line-height: 1.15;
+    text-align: center;
+  }
+
+  .nav svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* 320px 下每项约 43px：「文章库/生词本」三字放得下，超长也不许撑破 Tab */
+  .nav-label {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* 角标浮到条目右上角（均分宽度里塞不进流内角标） */
+  .nav-badge {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    margin-left: 0;
+    min-width: 14px;
+    padding: 0 3px;
+    font-size: 10px;
+    line-height: 14px;
+    border-radius: 7px;
+  }
+
+  /* 底部 Tab 占 56px：内容区补足下边距，避免页面最后一段被 Tab 栏压住 */
+  .content {
+    padding-bottom: 76px;
+  }
+
+  /* 底部抽屉让出 Tab 栏高度（只调 bottom 偏移，不动 AnalysisPanel 的断点/结构/逻辑） */
+  .analysis-drawer {
+    bottom: 56px;
+  }
+}

@@ -156,7 +156,9 @@ export function Sidebar({ active }: SidebarProps) {
               aria-current={isActive ? "page" : undefined}
             >
               {item.icon}
-              <span>{item.label}</span>
+              {/* M9 D1：挂 `nav-label` 只为给 CSS 一个抓手——图标栏档（640~1099）视觉隐藏本行文字、
+                  hover/聚焦时浮出为 tooltip；文字节点本身留在 DOM/无障碍树里，导航项不失可访问名。 */}
+              <span className="nav-label">{item.label}</span>
               {/* 角标：**文字可读**（数字），不是纯色块；`aria-label` 给屏幕阅读器完整语义（AC8） */}
               {isReview && dueCount > 0 && (
                 <span className="nav-badge" data-review-badge={dueCount} aria-label={`今日待复习 ${dueCount} 篇`}>
