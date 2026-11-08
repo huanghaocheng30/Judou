@@ -28,6 +28,7 @@ import {
   parseAiPayload,
   parseImportPreview,
   patchAiAnalysis,
+  splitPassages,
   suggestSection,
 } from "../lib/api";
 import type {
@@ -42,6 +43,7 @@ import type {
   ImportParagraph,
   ImportPreview,
   ImportStats,
+  PassageSpan,
 } from "../lib/types";
 
 /** 题型选项（`exam_type` 枚举只有这三个，见 001_init.sql 的 CHECK） */
@@ -318,6 +320,13 @@ function AiImport({ articleId, onImported }: AiImportProps) {
   const [error, setError] = useState<ImportError | null>(null);
   const [busy, setBusy] = useState<"parse" | "match" | "commit" | "load" | null>(null);
 
+  // ── D-M5c-2 整卷多篇（最小版）：只做「检测 + 逐篇走」，不做并行导入/批量事务 ──
+  /** 整卷原文：只在多篇模式下与 `text` 不同（`text` 变成「当前这一篇」的切片） */
+  const [volume, setVolume] = useState("");
+  const [passageSpans, setPassageSpans] = useState<PassageSpan[]>([]);
+  const [passageIndex, setPassageIndex] = useState(0);
+  const [donePassages, setDonePassages] = useState<number[]>([]);
+
   const chars = text.length;
   const overLimit = chars > MAX_BODY_CHARS;
 
@@ -347,6 +356,68 @@ function AiImport({ articleId, onImported }: AiImportProps) {
     setSection(value);
     rememberSection(value);
     setPrompt(null);
+  };
+
+  /**
+   * 把整卷的第 `index` 篇装进「原文」框并清掉上一篇的中间态（匹配/跳过/提示词都不再适用）。
+   *
+   * `source` 显式传入而不是读 `text`：自动装载发生在检测回调里，那时 `setText(整卷)` 可能还没生效。
+   * 逐篇**不改题型选择**（AC2：题型保留用户上次选择）。
+   */
+  const applyPassage = useCallback((source: string, spans: PassageSpan[], index: number) => {
+    const span = spans[index];
+    if (!span) return;
+    const lines = source.split(/\r?\n/);
+    setVolume(source);
+    setText(lines.slice(span.startLine - 1, span.endLine).join("\n"));
+    setPassageSpans(spans);
+    setPassageIndex(index);
+    setPreview(null);
+    setPrompt(null);
+    setMerged(null);
+    setSkipped([]);
+    setRegenText("");
+    setIgnoredChars(0);
+  }, []);
+
+  /**
+   * 粘贴后自动检测分篇（防抖 300ms）。**只有多篇才切**：单篇时 `passageSpans.length <= 1`，
+   * 界面不渲染篇列表（AC1），`text` 原样留给单篇流程。
+   */
+  useEffect(() => {
+    if (volume !== "") return; // 已进入多篇模式：`text` 只是当前这一篇，不再重新分篇
+    const raw = text;
+    if (raw.trim() === "") {
+      setPassageSpans([]);
+      return;
+    }
+    let cancelled = false;
+    const timer = setTimeout(() => {
+      splitPassages(raw)
+        .then((spans) => {
+          if (cancelled) return;
+          if (spans.length > 1) applyPassage(raw, spans, 0); // AC2：默认第 1 篇
+          else setPassageSpans(spans);
+        })
+        .catch(() => {
+          if (!cancelled) setPassageSpans([]);
+        });
+    }, 300);
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+    };
+  }, [text, volume, applyPassage]);
+
+  /** 用户在原文框里手动改写 = 退出多篇模式（下次粘贴重新检测） */
+  const onTextChange = (value: string) => {
+    setText(value);
+    if (volume !== "") {
+      setVolume("");
+      setPassageSpans([]);
+      setPassageIndex(0);
+      setDonePassages([]);
+    }
   };
 
   useEffect(() => {
@@ -596,7 +667,16 @@ function AiImport({ articleId, onImported }: AiImportProps) {
         );
       } else {
         const result = await commitAiImport({ preview, section }, merged, {});
-        onImported(result.articleId);
+        if (volume !== "") {
+          // 整卷多篇：**不跳走**——先给本篇打「已完成」，用户才能接着点「下一篇」（AC2）
+          setDonePassages((prev) => (prev.includes(passageIndex) ? prev : [...prev, passageIndex]));
+          setMerged(null);
+          setPayloadText("");
+          setSkipped([]);
+          setNotice(`第 ${passageIndex + 1} 篇已入库（文章 #${result.articleId}），点「下一篇」继续。`);
+        } else {
+          onImported(result.articleId);
+        }
       }
     } catch (err) {
       setError(readError(err, AI_ERROR_HINTS));
@@ -668,6 +748,58 @@ function AiImport({ articleId, onImported }: AiImportProps) {
         </label>
       </section>
 
+      {/*
+        D-M5c-2 AC1/AC2：整卷多篇。**单篇时整块不渲染**（避免视觉噪音）。
+        逐篇走：点「本篇」把该篇原文装进下面的原文框 → 独立选题型/解析/入库 → 入库即标「已完成」。
+      */}
+      {passageSpans.length > 1 ? (
+        <section className="card" aria-labelledby="ai-passage-title" data-passage-count={passageSpans.length}>
+          <h2 id="ai-passage-title">检测到 {passageSpans.length} 篇</h2>
+          <p className="card-hint">
+            整卷按小标题切成 {passageSpans.length} 篇。每篇**独立选题型、独立解析、独立入库**；题型选择沿用你上次的选择（不重置）。
+          </p>
+          <ol className="ai-passage-list">
+            {passageSpans.map((span, i) => (
+              <li
+                key={span.index}
+                className={i === passageIndex ? "ai-passage-item current" : "ai-passage-item"}
+                data-passage-item
+                data-passage-index={span.index}
+                data-passage-start={span.startLine}
+                data-passage-end={span.endLine}
+              >
+                <span className="ai-passage-label">{span.label}</span>
+                <span className="ai-hint" data-passage-range>
+                  第 {span.startLine}~{span.endLine} 行 · {span.preview}
+                </span>
+                {donePassages.includes(i) ? (
+                  <span className="badge" data-passage-done={i + 1}>
+                    已完成
+                  </span>
+                ) : null}
+                <button type="button" className="btn" data-passage-use={i + 1} onClick={() => applyPassage(volume, passageSpans, i)}>
+                  {i === passageIndex ? "重新装本篇" : "用本篇"}
+                </button>
+              </li>
+            ))}
+          </ol>
+          <div className="import-row">
+            <span className="import-counter" data-passage-current>
+              当前第 {passageIndex + 1} 篇
+            </span>
+            <button
+              type="button"
+              className="btn"
+              data-passage-next
+              disabled={passageIndex + 1 >= passageSpans.length}
+              onClick={() => applyPassage(volume, passageSpans, passageIndex + 1)}
+            >
+              下一篇
+            </button>
+          </div>
+        </section>
+      ) : null}
+
       <section className="card" aria-labelledby="ai-text-title">
         <h2 id="ai-text-title">② 原文</h2>
         {patchMode ? (
@@ -687,7 +819,7 @@ function AiImport({ articleId, onImported }: AiImportProps) {
               spellCheck={false}
               placeholder="在这里粘贴英文正文……"
               value={text}
-              onChange={(event) => setText(event.target.value)}
+              onChange={(event) => onTextChange(event.target.value)}
             />
             <div className="import-row">
               <span className={overLimit ? "import-counter over" : "import-counter"}>

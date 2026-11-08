@@ -19,8 +19,9 @@ use std::path::PathBuf;
 
 use judou_lib::ai_import::{
     article_counts, build_prompt, commit_ai_import, get_article_questions, match_payload, parse_payload,
-    patch_ai_analysis, preview_from_article, replace_article_questions, split_user_input, suggest_section,
-    update_article_meta, AiCommitMeta, AiDraft, AiSection, ArticleMetaPatch, ImportMode, QuestionView,
+    patch_ai_analysis, preview_from_article, replace_article_questions, split_passages, split_user_input,
+    suggest_section, update_article_meta, AiCommitMeta, AiDraft, AiSection, ArticleMetaPatch, ImportMode,
+    QuestionView,
 };
 use judou_lib::db::Db;
 use judou_lib::import_user::parse_preview;
@@ -34,6 +35,8 @@ fn main() {
         "dump" => dump_case(&args),
         // M5c D8：切分 / 三档提示词 / 编辑三命令——门禁要跑 UI 看不到的纯函数口径
         "split" => split_case(&args),
+        // D-M5c-2：整卷多篇切分（纯函数，供门禁断言「整卷 N 篇 / 单篇 1 篇」）
+        "passages" => passages_case(&args),
         "prompt" => prompt_case(&args),
         "meta" => meta_case(&args),
         "dump-questions" => dump_questions_case(&args),
@@ -352,6 +355,22 @@ fn split_case(args: &Args) -> Value {
         "questionCount": split.question_count,
         "bodyText": split.body_text,
         "questionText": split.question_text,
+    })
+}
+
+/// `--passages --text <file>`：整卷多篇切分的读数（D-M5c-2 AC3/AC4）
+fn passages_case(args: &Args) -> Value {
+    let Ok(path) = args.required("text") else {
+        return usage("--passages 需要 --text <file>");
+    };
+    let Ok(raw) = read_text(path) else {
+        return json!({ "ok": false, "code": "CLI_IO", "message": format!("读原文失败：{path}") });
+    };
+    let spans = split_passages(&raw);
+    json!({
+        "ok": true,
+        "count": spans.len(),
+        "passages": spans,
     })
 }
 

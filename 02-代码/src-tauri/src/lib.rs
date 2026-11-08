@@ -103,6 +103,8 @@ pub fn run() {
             // M5c · 导入重做（4 个；实现见 ai_import.rs，薄包装在 commands.rs）
             // split_user_input / update_article_meta / get_article_questions / replace_article_questions
             commands::split_user_input,
+            // D-M5c-2：整卷多篇切分（纯函数，不读库）
+            commands::split_passages,
             commands::update_article_meta,
             commands::get_article_questions,
             commands::replace_article_questions,

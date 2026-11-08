@@ -1254,6 +1254,12 @@ pub fn split_user_input(raw: String) -> Result<ai_import::UserInputSplit, Comman
     Ok(ai_import::split_user_input(&raw))
 }
 
+/// 整卷多篇切分（D-M5c-2 D1）：纯函数薄包装，不读库、不写库
+#[tauri::command]
+pub fn split_passages(raw: String) -> Result<Vec<ai_import::PassageSpan>, CommandError> {
+    Ok(ai_import::split_passages(&raw))
+}
+
 /// ⑧ 改元信息（标题 / 考试类型 / 年份 / 题型 / 来源 / 难度）；原文三表不动
 #[tauri::command]
 pub fn update_article_meta(

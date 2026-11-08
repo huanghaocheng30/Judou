@@ -36,6 +36,7 @@ import type {
   LexiconEntry,
   NoteMarks,
   NoteUpsertResult,
+  PassageSpan,
   PingResult,
   QuestionView,
   ReviewLog,
@@ -399,6 +400,11 @@ export function getAiImportStats(articleId: number): Promise<AiImportStats> {
 /** ⑦ 一次粘贴「原文 + 题目 + 答案」→ 自动切分（纯函数，不写库；切不中时 `detected=false`） */
 export function splitUserInput(raw: string): Promise<UserInputSplit> {
   return invoke<UserInputSplit>("split_user_input", { raw });
+}
+
+/** 整卷多篇切分（D-M5c-2）：纯函数，不读写库；单篇返回 1 个元素、空输入返回空数组 */
+export function splitPassages(raw: string): Promise<PassageSpan[]> {
+  return invoke<PassageSpan[]>("split_passages", { raw });
 }
 
 /** ⑧ 改元信息（只改 article 行；原文三表不动） */

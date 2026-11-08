@@ -516,6 +516,18 @@ export interface UserInputSplit {
   questionCount: number;
 }
 
+/** 整卷里的一篇（D-M5c-2 / 02 §八 AC3）：行号为 1-based 闭区间 */
+export interface PassageSpan {
+  /** 篇序号（1-based） */
+  index: number;
+  /** 篇名：边界行原文（卷首/单篇有兜底文案） */
+  label: string;
+  startLine: number;
+  endLine: number;
+  /** 该篇首个非空行的前 30 字符 */
+  preview: string;
+}
+
 /** 编辑元信息（`update_article_meta`）：缺省字段 = 不改 */
 export interface ArticleMetaPatch {
   title?: string | null;

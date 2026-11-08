@@ -764,6 +764,67 @@ if (!/error\.suggestion\s*\?/.test(importSource)) fail("建议块未受 error.su
 ok("建议块受 error.suggestion 守卫（不是无条件显示）");
 if (!/import-error-strong/.test(importSource)) fail("错误卡片缺少置顶视觉强调类（AC4）");
 ok("错误卡片带 import-error-strong 强调类（AC4）");
+// ───────────────── 8b. D-M5c-2：整卷多篇切分（真跑 CLI，不靠人眼） ─────────────────
+const volumePath = path.join(tempRoot, "volume-4.txt");
+writeFileSync(
+  volumePath,
+  [
+    "Section A",
+    "Directions: fill in the blanks.",
+    "",
+    "The market of the town changed.",
+    "",
+    "Section B",
+    "Passage One",
+    "Questions 46 to 50 are based on the following passage.",
+    "",
+    "Some long text one.",
+    "",
+    "Passage Two",
+    "Some careful text two.",
+    "",
+    "Section C",
+    "Passage Three",
+    "Some careful text three.",
+    "",
+  ].join("\n"),
+  "utf8",
+);
+const passagesOf = (file) => runCli(["--passages", "--text", file]);
+const volumeReport = passagesOf(volumePath);
+eq("整卷 4 篇 → 篇数 4（相邻小标题合并，不切空壳篇）", volumeReport.ok ? volumeReport.count : `不 ok：${volumeReport.code}`, 4);
+eq("整卷 4 篇 → 首篇从文件头（第 1 行）起", volumeReport.ok ? volumeReport.passages[0].startLine : null, 1);
+eq(
+  "整卷 4 篇 → 篇序与起止行首尾相接",
+  volumeReport.ok
+    ? volumeReport.passages.map((span) => `${span.index}:${span.startLine}-${span.endLine}`).join(",")
+    : "不 ok",
+  "1:1-5,2:6-11,3:12-14,4:15-17",
+);
+const singleReport = passagesOf(fixture("careful.text.txt"));
+eq("单篇原文 → 只有 1 篇（界面不渲染篇列表）", singleReport.ok ? singleReport.count : `不 ok：${singleReport.code}`, 1);
+const emptyPath = path.join(tempRoot, "empty.txt");
+writeFileSync(emptyPath, "  \n\n\t\n", "utf8");
+eq("空输入 → 0 篇", passagesOf(emptyPath).count, 0);
+// 误切防护：正文里的短语不是篇边界（AC4 点名的反例）
+const trapPath = path.join(tempRoot, "trap.txt");
+writeFileSync(
+  trapPath,
+  "Part of the reason is clear.\n\nSection of the market grew fast.\n\nQuestions remain.\n",
+  "utf8",
+);
+eq("「Part of the reason / Section of the market」不误切", passagesOf(trapPath).count, 1);
+
+// AC1/AC2 的入口存在性（静态判据：缺钩子，CDP 就点不到、审核员也无法取证）
+for (const hook of ["data-passage-count", "data-passage-item", "data-passage-next", "data-passage-done"]) {
+  if (!importSource.includes(hook)) fail(`导入页缺少 ${hook}（D-M5c-2 AC1/AC2 无入口）`);
+  ok(`导入页有 ${hook}`);
+}
+if (!/passageSpans\.length\s*>\s*1/.test(importSource)) {
+  fail("篇列表未受「>1 篇」守卫（单篇也会显示区域，违反 AC1）");
+}
+ok("篇列表受「>1 篇」守卫（单篇不渲染）");
+
 // ───────────────────────── 9. 汇总 ─────────────────────────
 rmSync(tempRoot, { recursive: true, force: true });
 console.log("");

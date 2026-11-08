@@ -761,6 +761,123 @@ pub fn split_user_input(raw: &str) -> UserInputSplit {
     }
 }
 
+/// 整卷里的一篇（02 §八 AC3 / D0）。行号一律 **1-based 闭区间**，与界面显示同口径。
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq)]
+#[serde(rename_all = "camelCase")]
+pub struct PassageSpan {
+    /// 篇序号（1-based）
+    pub index: usize,
+    /// 篇名：命中边界行的原文（截断 40 字符）；卷首无边界时是「卷首…」；整卷单篇时是「全文…」
+    pub label: String,
+    pub start_line: usize,
+    pub end_line: usize,
+    /// 该篇首个非空行的前 30 字符
+    pub preview: String,
+}
+
+/// 篇边界行（02 §八 AC3 的四形态）——**防误切**是这里的重点：
+/// 关键字必须独立成词（`Passages` / `Parts` 不算）；`Section` 后必须紧跟**单个** A~C 字母
+/// （「Section of the market」「Section Co.」都不切）；`Part` 后必须是罗马数字/数字
+/// （「Part of the reason」不切）；`Passage` 后必须是 One~Four 或 1~4；`Questions` 必须是 `N-M` 区间行。
+///
+/// ponytail: 只认卷面英文标记，含非 ASCII 小标题的行不参与分篇（中文卷面靠用户手动切）。
+/// 天花板：真实卷面里「Section A Directions: …」这类**同行带说明**的标题算边界（字母后不粘字母数字即可），
+/// 若将来要更严（要求整行只有标题），改这一处判定即可，不要动 `split_passages` 的切分骨架。
+fn is_passage_boundary(line: &str) -> bool {
+    let trimmed = line.trim();
+    if trimmed.is_empty() {
+        return false;
+    }
+    let lower = trimmed.to_lowercase();
+    // 大小写变换若改了字节长度（极少数文字），按词切分的偏移会错位 → 直接不参与分篇
+    if lower.len() != trimmed.len() {
+        return false;
+    }
+    let tokens: Vec<&str> = lower.split_whitespace().collect();
+    let Some(head) = tokens.first() else { return false };
+    let first = tokens.get(1).copied().unwrap_or("");
+    let digits = |text: &str| !text.is_empty() && text.chars().all(|c| c.is_ascii_digit());
+    match *head {
+        "section" => {
+            let mut chars = first.chars();
+            matches!(chars.next(), Some('a'..='c')) && chars.next().is_none()
+        }
+        "part" => {
+            !first.is_empty()
+                && first.chars().all(|c| {
+                    matches!(c, 'i' | 'v' | 'x' | 'ⅰ' | 'ⅱ' | 'ⅲ' | 'ⅳ' | 'ⅴ' | 'ⅵ') || c.is_ascii_digit()
+                })
+        }
+        "passage" => matches!(first, "one" | "two" | "three" | "four" | "1" | "2" | "3" | "4"),
+        "questions" => match tokens.get(1..) {
+            Some([single]) => match single.split_once(['-', '~']) {
+                Some((a, b)) => digits(a) && digits(b),
+                None => false,
+            },
+            Some([a, sep, b, ..]) => digits(a) && matches!(*sep, "-" | "~") && digits(b),
+            _ => false,
+        },
+        _ => false,
+    }
+}
+
+/// 取 `text` 的前 `limit` 个**字符**（不是字节——中文按字算）
+fn first_chars(text: &str, limit: usize) -> String {
+    text.chars().take(limit).collect()
+}
+
+/// 整卷多篇切分（02 §八 AC3 / D0）：按边界行切；**首篇从文件头起**；单篇返回单元素；空输入返回空。
+///
+/// 相邻的小标题（`Section B` 紧接 `Passage One`、中间无正文）合并为同一处边界，
+/// 避免切出一篇「只有一行标题」的空壳篇。
+pub fn split_passages(raw: &str) -> Vec<PassageSpan> {
+    let lines: Vec<&str> = raw.lines().collect();
+    if lines.iter().all(|line| line.trim().is_empty()) {
+        return Vec::new();
+    }
+    let mut bounds: Vec<usize> = Vec::new();
+    for (idx, line) in lines.iter().enumerate() {
+        if !is_passage_boundary(line) {
+            continue;
+        }
+        if let Some(&prev) = bounds.last() {
+            if !lines[prev + 1..idx].iter().any(|line| !line.trim().is_empty()) {
+                continue;
+            }
+        }
+        bounds.push(idx);
+    }
+    let mut spans: Vec<(usize, usize)> = Vec::new();
+    if bounds.is_empty() {
+        spans.push((0, lines.len() - 1));
+    } else {
+        for (i, &start) in bounds.iter().enumerate() {
+            let from = if i == 0 { 0 } else { start };
+            let to = bounds.get(i + 1).map(|next| next - 1).unwrap_or(lines.len() - 1);
+            spans.push((from, to));
+        }
+    }
+    spans
+        .iter()
+        .enumerate()
+        .map(|(i, &(from, to))| {
+            let label = if bounds.is_empty() {
+                "全文（未识别到分篇标记）".to_string()
+            } else if bounds[i] == from {
+                first_chars(lines[from].trim(), 40)
+            } else {
+                "卷首（第一个分篇标记之前）".to_string()
+            };
+            let preview = lines[from..=to]
+                .iter()
+                .find(|line| !line.trim().is_empty())
+                .map(|line| first_chars(line.trim(), 30))
+                .unwrap_or_default();
+            PassageSpan { index: i + 1, label, start_line: from + 1, end_line: to + 1, preview }
+        })
+        .collect()
+}
+
 /// 用户题目区里的一道题（02 §三.4 的宽松解析结果）
 #[derive(Debug, Clone, PartialEq, Eq)]
 struct UserQuestion {
@@ -3284,5 +3401,80 @@ mod tests {
         assert_eq!(section_type, "long", "无 draft 时不回写 article.section_type");
 
         std::fs::remove_dir_all(&dir).ok();
+    }
+}
+
+/// D-M5c-2（02 §八 AC4）：整卷多篇切分的纯函数读数。
+///
+/// 单独成 mod 而不是挤进上面的 `mod tests`：本组用例只碰 `split_passages`，
+/// 与「AI 导入 + 真库」那批用例没有共享夹具（`cargo test --lib --bins` 一样收）。
+#[cfg(test)]
+mod passage_tests {
+    use super::*;
+
+    /// 4 篇整卷（真实形态：Section A 选词填空 / Section B 长篇 / Passage Two 仔细 / Section C 仔细）
+    /// 注意 `Section B` 紧接 `Passage One`（中间无正文）→ 必须合并成一处边界，不切空壳篇。
+    const VOLUME: &str = "Section A\nDirections: fill in the blanks.\n\nThe market of the town changed.\n\nSection B\nPassage One\nQuestions 46 to 50 are based on the following passage.\n\nSome long text one.\n\nPassage Two\nSome careful text two.\n\nSection C\nPassage Three\nSome careful text three.\n";
+
+    #[test]
+    fn volume_of_four_splits_into_four_contiguous_spans() {
+        let spans = split_passages(VOLUME);
+        assert_eq!(spans.len(), 4, "整卷 4 篇应切成 4 段：{spans:?}");
+        // 首篇从文件头起（1-based 行 1）
+        assert_eq!(spans[0].start_line, 1);
+        assert_eq!(spans[0].label, "Section A");
+        assert_eq!(spans[0].preview, "Section A");
+        // 相邻小标题合并：第 2 篇的标签取 `Section B`，不是 `Passage One`
+        assert_eq!(spans[1].label, "Section B");
+        assert_eq!(spans[2].label, "Passage Two");
+        assert_eq!(spans[3].label, "Section C");
+        // 篇序 1..N 且首尾相接（无空洞、无重叠）
+        let total = VOLUME.lines().count();
+        let mut expected = 1usize;
+        for (i, span) in spans.iter().enumerate() {
+            assert_eq!(span.index, i + 1);
+            assert_eq!(span.start_line, expected, "第 {} 篇起点应接上上一篇末尾", i + 1);
+            assert!(span.end_line >= span.start_line);
+            expected = span.end_line + 1;
+        }
+        assert_eq!(spans[3].end_line, total, "最后一篇应覆盖到文件尾");
+    }
+
+    #[test]
+    fn single_passage_returns_one_span_covering_whole_text() {
+        let raw = "Just one passage.\n\nNo headings at all.";
+        let spans = split_passages(raw);
+        assert_eq!(spans.len(), 1);
+        assert_eq!(spans[0].start_line, 1);
+        assert_eq!(spans[0].end_line, 3);
+        assert_eq!(spans[0].preview, "Just one passage.");
+        assert!(spans[0].label.contains("全文"), "单篇的标签应表明「全文」：{}", spans[0].label);
+    }
+
+    #[test]
+    fn empty_input_returns_no_span() {
+        assert!(split_passages("").is_empty());
+        assert!(split_passages("   \n\n\t\n").is_empty(), "纯空白也按空输入处理");
+    }
+
+    /// 误切防护（AC4 点名的反例）：正文里的短语不得当边界。
+    #[test]
+    fn body_phrases_are_not_treated_as_boundaries() {
+        let raw = "Part of the reason is clear.\n\nSection of the market grew fast.\n\nPassages of text are long.\n\nQuestions remain.\n";
+        let spans = split_passages(raw);
+        assert_eq!(spans.len(), 1, "正文短语被误切成了篇边界：{spans:?}");
+        // `Questions 46 to 50`（用 to 而不是连字符）同样不是区间行 → 不切
+        let raw2 = "Questions 46 to 50 are based on the following passage.\n\nBody.\n";
+        assert_eq!(split_passages(raw2).len(), 1);
+    }
+
+    #[test]
+    fn full_width_roman_part_and_questions_range_are_boundaries() {
+        let raw = "Part Ⅰ\nFirst part body.\n\nQuestions 1-5\nSecond part body.\n";
+        let spans = split_passages(raw);
+        assert_eq!(spans.len(), 2, "全角罗马数字 Part 与 Questions N-M 都应算边界：{spans:?}");
+        assert_eq!(spans[0].label, "Part Ⅰ");
+        assert_eq!(spans[1].label, "Questions 1-5");
+        assert_eq!(spans[1].preview, "Questions 1-5");
     }
 }
