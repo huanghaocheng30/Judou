@@ -19,3 +19,6 @@ dsh-image-gen/
 内容生成模板/WorkBuddy-Judou/
 内容生成模板/.cet4tmp/
 内容生成模板/output/
+
+# 02-代码 的物理目录（ASCII，供 Android NDK 构建；逻辑路径 02-代码 是指向它的 junction）
+/code/
