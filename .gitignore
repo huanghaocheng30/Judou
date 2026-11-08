@@ -13,3 +13,9 @@ dsh-image-gen/
 
 # 派工锁（运行时文件，不入库）
 03-开发协同/**/.lock
+
+# 内容生成模板：外部工具产物与批量输出（体积大、可再生；模板本体与 examples 照常入库）
+内容生成模板/.workbuddy/
+内容生成模板/WorkBuddy-Judou/
+内容生成模板/.cet4tmp/
+内容生成模板/output/
