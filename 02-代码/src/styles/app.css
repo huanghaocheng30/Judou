@@ -2795,3 +2795,168 @@ button {
   font-size: 12px;
   color: var(--ink-3);
 }
+
+/* ── 清欠账轮 2：记录 / 设置 / 入门任务专用样式（DB-M6-1） ───────────────
+ * 只新增专用 class 挂点与后代选择器，不改既有 class 语义；
+ * 颜色一律取 tokens.css 的变量，本块零色值字面量（无十六进制、无 rgb）。
+ */
+
+/* 记录页 · 统计卡：默认两列（<640px），≥1100px 六项一行等宽 */
+.records-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.records-stats-grid > li {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+}
+
+.records-stats-grid .stats-label {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.records-stats-grid .stats-value {
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+@media (min-width: 1100px) {
+  .records-stats-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+.stats-card .stats-streak {
+  margin: 10px 0 0;
+  font-size: 12.5px;
+  color: var(--ink-3);
+}
+
+/* 记录页 · 时间线：行 hover 背景 + 完成态左侧强调条 */
+.records-timeline {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.records-timeline .record-item {
+  padding: 10px 12px 10px 14px;
+  border: 1px solid var(--line);
+  border-left: 3px solid transparent;
+  border-radius: 10px;
+  background: var(--paper);
+  transition: background-color 140ms ease, border-color 140ms ease;
+}
+
+.records-timeline .record-item:hover {
+  background: var(--paper-3);
+}
+
+.records-timeline .record-item.is-done {
+  border-left-color: var(--green);
+}
+
+.records-timeline .record-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.records-timeline .record-title {
+  font-weight: 600;
+}
+
+.records-timeline .record-title:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.records-timeline .record-meta {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.records-timeline .record-done {
+  font-size: 12px;
+  color: var(--green);
+}
+
+.records-timeline .record-todo {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+/* 设置页 · 分区小标题（卡片间距沿用 .settings 的 gap） */
+.settings-section > h2 {
+  margin: 0 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+/* 设置页 · 导出三模式：窄屏换行不溢出（同时把死引用 token 对齐到纸感变量） */
+.sheet-modes .export-mode {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  border-color: var(--line);
+  background: var(--paper);
+}
+
+.sheet-modes .export-mode.on {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent) inset;
+}
+
+/* 入门任务清单：完成项打勾 + 淡化，未完成项主色描边 */
+.onboarding-checklist .onboarding-item {
+  border-left-width: 3px;
+}
+
+.onboarding-checklist .onboarding-item.todo {
+  border-color: var(--accent);
+}
+
+.onboarding-checklist .onboarding-item.done .onboarding-task,
+.onboarding-checklist .onboarding-item.done .onboarding-task-hint {
+  color: var(--ink-3);
+  opacity: 0.72;
+}
+
+.onboarding-checklist .onboarding-item.done .onboarding-mark {
+  color: var(--green);
+  font-weight: 700;
+}
+
+/* 设置页 · 检查更新下载链接（M7-L3：按钮化，不再是 <a target=_blank>） */
+.link-btn {
+  padding: 0 2px;
+  font-size: inherit;
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.link-btn:hover {
+  color: var(--accent);
+}
+
+.check-update-link-note {
+  margin-left: 6px;
+  font-size: 12px;
+  color: var(--green);
+}

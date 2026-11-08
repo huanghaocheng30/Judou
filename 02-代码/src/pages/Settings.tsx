@@ -48,6 +48,46 @@ export function Settings() {
     text: string;
     url?: string;
   } | null>(null);
+  /**
+   * M7-L3（本任务包 AC4）：CSP `default-src 'self'` 下 `<a target="_blank">` 点击大概率无反应且不报错
+   * （用户以为坏了）。所以改按钮：先试 `window.open`（用户手势内、noopener），被拦（返回 null 或抛异常）
+   * 则回退「复制链接」——不引 opener 插件，这是最小可行实现。
+   * 属性名仍保留 `data-check-update-link`（门禁与人工测试引用它），另加 `data-check-update-copy` 标复制通道。
+   */
+  const [linkNote, setLinkNote] = useState<string | null>(null);
+  const linkNoteTimer = useRef<number | null>(null);
+  const flashLinkNote = (text: string) => {
+    setLinkNote(text);
+    if (linkNoteTimer.current) window.clearTimeout(linkNoteTimer.current);
+    linkNoteTimer.current = window.setTimeout(() => setLinkNote(null), 2000);
+  };
+  // 卸载时清掉提示定时器，避免对已卸载组件 setState
+  useEffect(
+    () => () => {
+      if (linkNoteTimer.current) window.clearTimeout(linkNoteTimer.current);
+    },
+    [],
+  );
+  const openDownloadPage = (url: string) => {
+    let opened: Window | null = null;
+    try {
+      opened = window.open(url, "_blank", "noopener,noreferrer");
+    } catch {
+      opened = null;
+    }
+    if (opened) return;
+    // 回退：webview 拦了新窗口 → 复制链接，让用户自己粘到浏览器
+    const clipboard = navigator.clipboard;
+    if (!clipboard) {
+      flashLinkNote(`新窗口被拦，请手动复制：${url}`);
+      return;
+    }
+    clipboard.writeText(url).then(
+      () => flashLinkNote("链接已复制"),
+      () => flashLinkNote(`新窗口被拦，请手动复制：${url}`),
+    );
+  };
+
   /** DB-M6-6：从生词本「导出词表」跳来的落点高亮（只亮 2.4s，随后恢复常态） */
   const [exportFocus, setExportFocus] = useState(false);
   const exportCardRef = useRef<HTMLElement | null>(null);
@@ -185,7 +225,7 @@ export function Settings() {
 
   return (
     <div className="settings">
-      <section className="card" aria-labelledby="theme-title">
+      <section className="card settings-section" aria-labelledby="theme-title">
         <h2 id="theme-title">主题</h2>
         <p className="card-hint">
           选择会写入本地设置并立即生效；当前实际渲染：{resolved === "dark" ? "深色" : "浅色"}。
@@ -206,7 +246,7 @@ export function Settings() {
         </div>
       </section>
 
-      <section className="card" aria-labelledby="interval-title">
+      <section className="card settings-section" aria-labelledby="interval-title">
         <h2 id="interval-title">复习间隔</h2>
         <p className="card-hint">只读展示；间隔档位固定，应用不提供修改入口。</p>
         <ul className="interval-list" data-review-intervals>
@@ -220,7 +260,7 @@ export function Settings() {
       </section>
 
       <section
-        className={exportFocus ? "card card-focus" : "card"}
+        className={exportFocus ? "card card-focus settings-section" : "card settings-section"}
         aria-labelledby="sheet-title"
         data-export-focus={exportFocus ? "on" : "off"}
         ref={exportCardRef}
@@ -229,7 +269,7 @@ export function Settings() {
         <p className="card-hint">
           打印用。选一种模式 → 点「导出 PDF 词表」→ 在打印对话框里选「另存为 PDF」。
         </p>
-        <div className="export-modes" role="radiogroup" aria-label="词表模式（三选一）">
+        <div className="export-modes sheet-modes" role="radiogroup" aria-label="词表模式（三选一）">
           {SHEET_MODES.map((item) => (
             <button
               key={item.mode}
@@ -273,7 +313,7 @@ export function Settings() {
         </p>
       </section>
 
-      <section className="card" aria-labelledby="backup-title">
+      <section className="card settings-section" aria-labelledby="backup-title">
         <h2 id="backup-title">导出、备份与恢复</h2>
         <p className="card-hint">
           生词可导出为单文件 HTML（离线可看）；备份是本地库副本；恢复前会**自动先备份当前库**。
@@ -309,7 +349,7 @@ export function Settings() {
         )}
       </section>
 
-      <section className="card" aria-labelledby="onboarding-title" data-onboarding-section>
+      <section className="card settings-section" aria-labelledby="onboarding-title" data-onboarding-section>
         <h2 id="onboarding-title">入门任务</h2>
         <p className="card-hint">
           三项任务做完全自动打勾（按你的真实使用判定）。想再走一遍就点「重新开始入门任务」。
@@ -317,7 +357,7 @@ export function Settings() {
         <Onboarding variant="settings" />
       </section>
 
-      <section className="card about" aria-labelledby="about-title" data-about>
+      <section className="card about settings-section" aria-labelledby="about-title" data-about>
         <h2 id="about-title">关于</h2>
         <dl className="about-list">
           <div>
@@ -351,15 +391,21 @@ export function Settings() {
               {updateNote.url && (
                 <>
                   {"（"}
-                  <a
-                    href={updateNote.url}
+                  <button
+                    type="button"
+                    className="link-btn"
                     data-check-update-link
+                    data-check-update-copy={linkNote ? "copied" : "ready"}
                     title={updateNote.url}
-                    target="_blank"
-                    rel="noreferrer"
+                    onClick={() => updateNote.url && openDownloadPage(updateNote.url)}
                   >
                     下载页
-                  </a>
+                  </button>
+                  {linkNote && (
+                    <span className="check-update-link-note" role="status">
+                      {linkNote}
+                    </span>
+                  )}
                   {"）"}
                 </>
               )}

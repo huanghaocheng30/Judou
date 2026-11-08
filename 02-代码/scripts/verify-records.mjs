@@ -309,7 +309,13 @@ check("PDF-6 乱序：Fisher-Yates，不引新依赖", () => {
 check("PDF-7 前端走隐藏 iframe 的 contentWindow.print()（不用 window.open）", () => {
   assert(/document\.createElement\("iframe"\)/.test(settingsPage), "缺隐藏 iframe");
   assert(/contentWindow/.test(settingsPage) && /\.print\(\)/.test(settingsPage), "必须走 iframe contentWindow.print()");
-  assert(!/window\.open\(/.test(settingsPage), "Tauri webview 会拦 window.open，不得使用");
+  // 收窄（清欠账轮 2 · AC4）：原断言是「全文禁 window.open」，会误伤下载页的修法。
+  // 保留真实意图——**打印通道**不得用 window.open；全文唯一允许的 window.open 必须是下载页 url 通道。
+  const openCalls = [...settingsPage.matchAll(/window\.open\(/g)].length;
+  assert(
+    openCalls === 1 && /window\.open\(url, "_blank", "noopener/.test(settingsPage),
+    `打印不得用 window.open（实测调用 ${openCalls} 处，唯一一处必须是下载页 url 通道）`,
+  );
   return "iframe print";
 });
 
@@ -350,6 +356,45 @@ check("PDF-11 zh/en 与 A4 共用同一回退链（单元格层不直连 context
   assert(!/sheet_cell\(Some\(&row\.context_meaning/.test(sheetRs), "单元格层不得直连 context_meaning");
   assert(/meaning_falls_back_to_lexicon_sense_in_all_three_modes/.test(exportRs), "缺三模式回退单测");
   return `${meaningCalls} 处共用 meaning`;
+});
+
+// ── 清欠账轮 2：DB-M6-1 专用样式 + M7-L3 CSP 链接（AC1~AC4） ──
+check("STY-1 记录/设置/引导专用 class 在 CSS 有定义且在页面挂上", () => {
+  const appCss = read("src/styles/app.css");
+  const pairs = [
+    ["records-stats-grid", recordsPage],
+    ["records-timeline", recordsPage],
+    ["settings-section", settingsPage],
+    ["sheet-modes", settingsPage],
+    ["onboarding-checklist", onboarding],
+  ];
+  for (const [name, source] of pairs) {
+    assert(new RegExp(`\\.${name}\\b`).test(appCss), `app.css 缺 .${name} 定义`);
+    assert(source.includes(name), `页面未挂 class ${name}`);
+  }
+  return `${pairs.length} 个专用 class`;
+});
+
+check("STY-2 新增样式块零新色值（只用既有 token 变量）", () => {
+  const appCss = read("src/styles/app.css");
+  const start = appCss.indexOf("/* ── 清欠账轮 2");
+  assert(start >= 0, "缺「清欠账轮 2」样式块标记注释");
+  const block = appCss.slice(start);
+  assert(!/#[0-9a-fA-F]{3,8}\b/.test(block), "新增块内出现十六进制色值字面量");
+  assert(!/\brgba?\(/.test(block), "新增块内出现 rgb()/rgba() 字面量");
+  assert(block.includes("var(--"), "新增块必须用 var(--*) token");
+  return "零色值字面量";
+});
+
+check("LNK-1 下载链接改按钮：window.open 优先 + 剪贴板回退 + 保留 data-check-update-link", () => {
+  assert(/data-check-update-link/.test(settingsPage), "必须保留 data-check-update-link（门禁/人工测试引用）");
+  assert(/data-check-update-copy/.test(settingsPage), "缺复制通道标记 data-check-update-copy");
+  assert(!/<a[^>]*href=\{updateNote\.url\}/.test(settingsPage), "下载链接不得再是 <a href>（CSP 会拦 target=_blank）");
+  assert(/<button[^>]*data-check-update-link/.test(settingsPage), "data-check-update-link 必须挂在 <button> 上");
+  assert(/window\.open\(url, "_blank", "noopener/.test(settingsPage), "必须先用 window.open + noopener");
+  assert(/navigator\.clipboard/.test(settingsPage), "必须回退到 navigator.clipboard");
+  assert(/链接已复制/.test(settingsPage), "缺「链接已复制」提示");
+  return "按钮 + 复制回退";
 });
 
 console.log(`\nM6 门禁：${passed} 通过 / ${failures.length} 失败`);

@@ -81,7 +81,7 @@ export function Records() {
         {!stats && !error && <p className="card-hint">正在读取统计…</p>}
         {stats && (
           <div className="stats-card" data-stats-card>
-            <ul className="stats-grid">
+            <ul className="stats-grid records-stats-grid">
               {items.map((item) => (
                 <li key={item.key} data-stats-item={item.key}>
                   <span className="stats-label">{item.label}</span>
@@ -108,9 +108,13 @@ export function Records() {
           </div>
         )}
         {records && records.length > 0 && (
-          <ul className="record-list" data-records-list>
+          <ul className="record-list records-timeline" data-records-list>
             {records.map((record) => (
-              <li key={record.articleId} className="record-item" data-record-id={record.articleId}>
+              <li
+                key={record.articleId}
+                className={record.completed ? "record-item is-done" : "record-item"}
+                data-record-id={record.articleId}
+              >
                 <div className="record-head">
                   <a className="record-title" href={`#/article/${record.articleId}`}>
                     {record.title}

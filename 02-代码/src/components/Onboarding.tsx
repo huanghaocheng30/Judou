@@ -176,7 +176,7 @@ export function Onboarding({ variant }: { variant: "today" | "settings" }) {
           <p className="onboarding-hint">
             三项做完会自动打勾（数据来自你的真实使用，不需要手动标记）。
           </p>
-          <ol className="onboarding-list">
+          <ol className="onboarding-list onboarding-checklist">
             {TASKS.map((task, index) => {
               const state = done[task.key] ? "done" : "todo";
               return (
