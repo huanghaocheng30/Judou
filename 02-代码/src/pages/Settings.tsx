@@ -15,12 +15,19 @@ import {
   ping,
   restoreDb,
 } from "../lib/api";
+import { isAndroid } from "../lib/platform";
 import { THEME_LABELS, THEME_SETTINGS, type ThemeSetting } from "../lib/theme";
 import { Onboarding } from "../components/Onboarding";
 import { useTheme } from "../shell/ThemeProvider";
 
 /** 复习间隔默认档（docs C2 §4.15 review_intervals 默认 [1,3,7,14]）——本页**只读** */
 const DEFAULT_INTERVALS = [1, 3, 7, 14];
+
+/**
+ * M10 · AC2：Android WebView 不支持 `window.print()` / `iframe.contentWindow.print()`（静默失败），
+ * 所以导出 PDF 在 Android 上降级为禁用态 + 这行说明。文案单一来源，三处引用不许各写一份。
+ */
+const ANDROID_EXPORT_BLOCKED = "Android 版暂不支持导出 PDF，请用桌面版";
 
 /** PDF 词表三模式（互斥单选，对齐后端 `SheetMode`） */
 type SheetMode = "a4" | "zh" | "en";
@@ -156,8 +163,17 @@ export function Settings() {
   /**
    * PDF 词表：后端返回完整 HTML → 隐藏 iframe 写入 → `contentWindow.print()` 调起系统打印。
    * Tauri webview 会拦 `window.open`，所以走 iframe 这条路；保存 PDF 交给打印对话框。
+   *
+   * M10 · AC2：Android WebView 不支持上面这条链路（点了毫无反应），所以在 Android 上
+   * 按钮置禁用 + 说明；桌面逻辑（本函数）完全不动。
    */
+  const androidBlocked = isAndroid();
   const runExportSheet = () => {
+    // 双保险：按钮已 disabled，这里再拦一次，避免任何程序化触发落进「点了没反应」
+    if (androidBlocked) {
+      setNote(ANDROID_EXPORT_BLOCKED);
+      return;
+    }
     setBusy("sheet");
     setNote(null);
     exportVocabSheet(sheetMode, sheetShuffle, sheetAnswer)
@@ -304,10 +320,23 @@ export function Settings() {
           附答案对照（A4 默写专用：词表末尾给「Word —— 释义」小字对照，自查后折起或裁掉）
         </label>
         <div className="btn-row">
-          <button type="button" className="btn" data-export-pdf disabled={busy !== "none"} onClick={runExportSheet}>
+          <button
+            type="button"
+            className="btn"
+            data-export-pdf
+            data-export-android-blocked={androidBlocked ? "on" : "off"}
+            disabled={busy !== "none" || androidBlocked}
+            title={androidBlocked ? ANDROID_EXPORT_BLOCKED : undefined}
+            onClick={runExportSheet}
+          >
             导出 PDF 词表
           </button>
         </div>
+        {androidBlocked && (
+          <p className="card-hint" data-export-android-note role="note">
+            {ANDROID_EXPORT_BLOCKED}
+          </p>
+        )}
         <p className="card-hint">
           A4 竖版、每页重复表头、行首带勾选框供打印后手打勾；中文/英文词表每页 30 词，A4 默写每页 15 词。
         </p>

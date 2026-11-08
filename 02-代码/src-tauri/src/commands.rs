@@ -1314,15 +1314,18 @@ pub fn touch_reading(
     records::touch_reading_record(&db, article_id, &position, seconds)
 }
 
-/// 生词导出为自包含 HTML（AC5）。`outPath` 省略时写库同级 `exports/judou-vocab-YYYYMMDD.html`。
+/// 生词导出为自包含 HTML（AC5）。`outPath` 省略时写库同级 `exports/judou-vocab-YYYYMMDD.html`，
+/// 库路径取不到父目录时退到 `app_data_dir/exports`（M10 · AC3）。
 #[tauri::command]
 pub fn export_vocab_html(
+    app: tauri::AppHandle,
     db: State<'_, Db>,
     out_path: Option<String>,
 ) -> Result<export::ExportResult, CommandError> {
+    let data_dir = app.path().app_data_dir().ok();
     let target = match out_path {
         Some(path) => std::path::PathBuf::from(path),
-        None => export::default_export_dir(&db)
+        None => export::default_export_dir(&db, data_dir.as_deref())
             .join(format!("judou-vocab-{}.html", export::date_now())),
     };
     export::export_vocab_html(&db, &target)
@@ -1342,16 +1345,18 @@ pub fn export_vocab_sheet(
     export::export_vocab_sheet(&db, &mode, shuffle, with_answer.unwrap_or(true))
 }
 
-/// 备份库（AC6）：`outDir` 省略时写库同级 `backups/`；`stamp` 省略时用 UTC 当前时刻。
+/// 备份库（AC6）：`outDir` 省略时写库同级 `backups/`（库路径无父目录则退 `app_data_dir`）。
 #[tauri::command]
 pub fn backup_db(
+    app: tauri::AppHandle,
     db: State<'_, Db>,
     out_dir: Option<String>,
     stamp: Option<String>,
 ) -> Result<export::BackupResult, CommandError> {
+    let data_dir = app.path().app_data_dir().ok();
     let dir = match out_dir {
         Some(path) => std::path::PathBuf::from(path),
-        None => export::default_export_dir(&db).join("backups"),
+        None => export::default_export_dir(&db, data_dir.as_deref()).join("backups"),
     };
     let stamp = stamp.unwrap_or_else(export::stamp_now);
     export::backup_db(&db, &dir, &stamp)
@@ -1360,14 +1365,16 @@ pub fn backup_db(
 /// 恢复库（AC7）：先自动备份当前库（`pre-restore`），坏文件不破坏现库。
 #[tauri::command]
 pub fn restore_db(
+    app: tauri::AppHandle,
     db: State<'_, Db>,
     src_path: String,
     pre_dir: Option<String>,
     stamp: Option<String>,
 ) -> Result<export::RestoreResult, CommandError> {
+    let data_dir = app.path().app_data_dir().ok();
     let dir = match pre_dir {
         Some(path) => std::path::PathBuf::from(path),
-        None => export::default_export_dir(&db).join("backups"),
+        None => export::default_export_dir(&db, data_dir.as_deref()).join("backups"),
     };
     let stamp = stamp.unwrap_or_else(export::stamp_now);
     export::restore_db(&db, std::path::Path::new(&src_path), &dir, &stamp)

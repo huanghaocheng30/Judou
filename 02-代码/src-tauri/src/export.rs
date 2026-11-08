@@ -773,12 +773,29 @@ pub fn date_now() -> String {
     stamp_now()[0..8].to_string()
 }
 
-/// 默认导出目录：库文件同级 `exports/`。
-pub fn default_export_dir(db: &Db) -> PathBuf {
-    db.path()
-        .parent()
-        .map(|parent| parent.join("exports"))
-        .unwrap_or_else(|| PathBuf::from("exports"))
+/// 默认导出目录：**优先库文件同级** `exports/`；库路径取不到父目录时退到
+/// `app_data_dir/exports`；连应用数据目录都拿不到才回退相对路径 `exports`。
+///
+/// M10 · AC3：Android 上相对路径可能落到不可预期/只读目录（写盘失败且难解释），
+/// 所以第二档用 Tauri 跨平台给出的 `app_data_dir`；桌面上库路径恒有父目录，行为不变。
+pub fn default_export_dir(db: &Db, app_data_dir: Option<&Path>) -> PathBuf {
+    default_export_dir_from(db.path(), app_data_dir)
+}
+
+/// `default_export_dir` 的纯函数内核（不依赖 Tauri/Db，单测直接打这里）。
+///
+/// 坑：`Path::new("judou.db").parent()` 返回 `Some("")`（**空父目录**），等价于
+/// 「没有父目录」——必须继续往下退，否则退化回相对路径 `exports`（正是 AC3 要修的形态）。
+pub fn default_export_dir_from(db_path: &Path, app_data_dir: Option<&Path>) -> PathBuf {
+    if let Some(parent) = db_path.parent() {
+        if !parent.as_os_str().is_empty() {
+            return parent.join("exports");
+        }
+    }
+    match app_data_dir {
+        Some(dir) => dir.join("exports"),
+        None => PathBuf::from("exports"),
+    }
 }
 
 #[cfg(test)]
@@ -1091,6 +1108,47 @@ mod tests {
 
         let zh = export_vocab_sheet(&db, "zh", false, false).expect("中文词表导出");
         assert!(zh.contains("引起；激起"), "中文词表同样走回退链");
+    }
+
+    // ───────────── AC3（M10）：导出目录兜底顺序 ─────────────
+
+    /// AC3 主判据：库路径**取不到父目录**时，退到 `app_data_dir/exports`（而不是相对路径 `exports`）。
+    #[test]
+    fn export_dir_falls_back_to_app_data_dir_when_db_has_no_parent() {
+        let app_data = Path::new("appdata-root");
+        let dir = default_export_dir_from(Path::new("judou.db"), Some(app_data));
+        assert_eq!(dir, app_data.join("exports"), "必须退到 app_data_dir/exports");
+        assert!(dir.is_absolute() || dir.components().count() > 1, "不得是裸相对目录");
+    }
+
+    /// AC3 次判据：连 `app_data_dir` 都拿不到时才回退相对路径 `exports`。
+    #[test]
+    fn export_dir_falls_back_to_relative_exports_as_last_resort() {
+        assert_eq!(
+            default_export_dir_from(Path::new("judou.db"), None),
+            PathBuf::from("exports"),
+            "两者都拿不到时才用相对 exports"
+        );
+    }
+
+    /// AC5 回归：库路径有父目录时仍是「库同级 exports」——app_data_dir 不得越权覆盖。
+    #[test]
+    fn export_dir_prefers_db_parent_over_app_data_dir() {
+        let db_path = Path::new("data-root").join("judou.db");
+        let dir = default_export_dir_from(&db_path, Some(Path::new("appdata-root")));
+        assert_eq!(dir, Path::new("data-root").join("exports"), "库同级优先，桌面行为不变");
+    }
+
+    /// 绝对路径形态（桌面真实场景：`%APPDATA%/…/judou.db`）。
+    #[test]
+    fn export_dir_keeps_desktop_layout_for_absolute_db_path() {
+        let db_path = Path::new("C:\\Users\\u\\AppData\\Roaming\\judou\\judou.db");
+        let dir = default_export_dir_from(db_path, Some(Path::new("E:\\elsewhere")));
+        assert_eq!(
+            dir,
+            Path::new("C:\\Users\\u\\AppData\\Roaming\\judou").join("exports"),
+            "绝对库路径 → 同级 exports"
+        );
     }
 }
 

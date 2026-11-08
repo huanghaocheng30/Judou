@@ -26,6 +26,7 @@
     "verify:records": "node scripts/verify-records.mjs",
     "verify:release": "node scripts/verify-release.mjs",
     "verify:pending": "node --test scripts/pending.test.mjs",
+    "verify:android": "node scripts/verify-android-export.mjs",
     "test:theme": "node --test scripts/theme.test.mjs"
   },
   "dependencies": {
