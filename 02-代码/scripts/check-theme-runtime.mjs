@@ -13,6 +13,13 @@
  * 不引 puppeteer/playwright —— 这里只发 Runtime.evaluate 与读 consoleAPICalled，够了。
  * 等 M2 需要真实点击/键盘事件流再评估引入 CDP 客户端库。
  */
+import { readFileSync } from "node:fs";
+
+/** 版本唯一真源：tauri.conf.json 的 version（升版只改配置一处，本脚本自动跟随）。 */
+const TAURI_CONF = JSON.parse(
+  readFileSync(new URL("../src-tauri/tauri.conf.json", import.meta.url), "utf8"),
+);
+
 const PORT = Number(process.env.CDP_PORT ?? 9222);
 const MODE = process.argv[2] ?? "cycle";
 const APP_URL_HINTS = ["127.0.0.1:1420", "localhost:1420", "tauri://"];
@@ -149,7 +156,11 @@ try {
     }
     console.log("控制台抓到的行：");
     for (const line of consoleLines) console.log(`  ${line}`);
-    check("AC3 控制台 ping 输出", pingLine?.replace(/^\[log\] /, "") ?? null, 'ping → {"pong":true,"appVersion":"0.1.0"}');
+    check(
+      "AC3 控制台 ping 输出",
+      pingLine?.replace(/^\[log\] /, "") ?? null,
+      `ping → ${JSON.stringify({ pong: true, appVersion: TAURI_CONF.version })}`,
+    );
 
     // ── AC4：三档各点击一次并断言 ──
     await evaluate(cdp, `location.hash = "#/settings"; true`);
