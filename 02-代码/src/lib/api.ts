@@ -10,35 +10,19 @@
  */
 import { invoke } from "@tauri-apps/api/core";
 import type {
-  AiCommitMeta,
-  AiCommitReport,
-  AiDraft,
-  AiMatched,
-  AiParseResult,
-  AiPatchReport,
-  AiPayload,
-  AiPrompt,
-  AiSectionSuggestion,
-  AiImportStats,
   AppSettings,
   ArticleContent,
   ArticleFilter,
-  ArticleMetaPatch,
   ArticleSummary,
   BlankAnalysis,
   DueReview,
   FilterOptions,
-  ImportCommitResult,
-  ImportMeta,
-  ImportPreview,
   ImportReport,
   LastReadArticle,
   LexiconEntry,
   NoteMarks,
   NoteUpsertResult,
-  PassageSpan,
   PingResult,
-  QuestionView,
   ReviewLog,
   ReviewPlan,
   ReviewResult,
@@ -52,7 +36,6 @@ import type {
   VocabPatch,
   Tag,
   UpdateResult,
-  UserInputSplit,
   WordNote,
 } from "./types";
 import type { VocabFilter, VocabGroupBy } from "./vocab";
@@ -301,126 +284,9 @@ export function getLastReadArticle(): Promise<LastReadArticle | null> {
 
 // ───────────────── M5 · 用户导入（两阶段：预览 → 提交；D3 只加 2 个封装，不开第三层） ─────────────────
 
-/**
- * 两阶段①：粘贴文本 → 预览（清洗/分段/切句/分词 + stats）。**不写库**。
- *
- * 超 20000 字 → reject `IMPORT_TOO_LARGE`；`title` 空串等价于未给（走后端三级回退）。
- * 返回的 `ImportPreview` 原样回传给 `commitImport` —— **不要**在前端重算偏移或 stats。
- */
-export function parseImportPreview(text: string, title?: string): Promise<ImportPreview> {
-  return invoke<ImportPreview>("parse_import_preview", { text, title });
-}
-
-/**
- * 两阶段②：预览（用户可剔段/改标题后回传）→ 四层校验 → 单事务入库 → 新文章。
- *
- * 失败码（任一失败库中零写入、整体回滚）：`IMPORT_L1_STRUCTURE` / `IMPORT_L2_OFFSET` /
- * `IMPORT_L3_COVERAGE` / `IMPORT_L4_BUSINESS` / `IMPORT_TOO_LARGE` / `IMPORT_DUPLICATE_SOURCE`。
- * 每次提交都生成新的 `source-<hex>` → 同一篇再导一次是**两篇**，不是覆盖（AC7）。
- */
-export function commitImport(preview: ImportPreview, meta: ImportMeta = {}): Promise<ImportCommitResult> {
-  return invoke<ImportCommitResult>("commit_import", { preview, meta });
-}
-
 // ───────────────── M5b · AI 解析导入（6 个封装；命令名由 05 §十一之二 冻结，不得改名/合并） ─────────────────
 
-/**
- * ① 生成提示词模板 + 本批句子清单 + 题型片段。**纯字符串、不写库**。
- *
- * `batchSize` 只是模板里的分批建议（默认 15），**不是拒收阈值**：
- * 句数 > 15 时后端仍返回全文清单，只在 `batchHint` 里提示「建议分批」（AC2）。
- */
-export function buildAiPrompt(draft: AiDraft, batchSize = 15): Promise<AiPrompt> {
-  return invoke<AiPrompt>("build_ai_prompt", { draft, batchSize });
-}
-
-/**
- * ② 容错解析：剥 ``` 围栏、只取最外层 `{}`、丢掉前后说明文字（丢弃字数在 `ignoredChars`）。
- *
- * 失败码：`AI_PAYLOAD_INVALID`（不是合法 JSON）/ `AI_TYPE_MISMATCH`（`section` 不在枚举内）/
- * `AI_MARKUP_UNBALANCED`（某句 `structMarkup` 不配平）。
- */
-export function parseAiPayload(text: string): Promise<AiParseResult> {
-  return invoke<AiParseResult>("parse_ai_payload", { text });
-}
-
-/**
- * ③ 按 `quote` 对齐句子 → `matched` / `unmatched` / 四类覆盖率。**纯函数、不写库**。
- *
- * 部分不匹配不是错误（`unmatched` 交给用户处置）；一句都没命中才 reject `AI_NO_MATCH`。
- * 形态错误（AC7 六种）在这里被拒：`AI_TYPE_MISMATCH`。
- */
-export function matchAiPayload(draft: AiDraft, payload: AiPayload): Promise<AiMatched> {
-  return invoke<AiMatched>("match_ai_payload", { draft, payload });
-}
-
-/**
- * ③-b 只读题型推断（M5c 优化轮 AC1）：这份 payload **看起来**是哪种题型。
- *
- * `null` ＝ 结构上不敢猜（无题 / 选项数既非 4 也非 15 / 空选项但答案不是单字母）。
- * 只在 `match_ai_payload` 判 `AI_TYPE_MISMATCH` 之后调用，**只用于显示建议**：
- * 切不切由用户点按钮决定（禁止自动猜并静默切换）。
- */
-export function suggestSection(payload: AiPayload): Promise<AiSectionSuggestion> {
-  return invoke<AiSectionSuggestion>("suggest_section", { payload });
-}
-
-/** ④ 首次导入：结构四表 + 解析四表一起入库（失败整篇回滚），返回新文章与覆盖率 */
-export function commitAiImport(
-  draft: AiDraft,
-  matched: AiMatched,
-  meta: AiCommitMeta = {},
-): Promise<AiCommitReport> {
-  return invoke<AiCommitReport>("commit_ai_import", { draft, matched, meta });
-}
-
-/**
- * ⑤ 后补解析：只写解析四表，**不动** `paragraph`/`sentence`/`token`（笔记与生词引用不失效）
- *
- * 第三参 `draft` 可选（M5c 回退兼容）：M5b 版导入页只传 `matched`，后端收到 `None`
- * 时跳过 `answer_source` 写入与档 C 逐字比对（列保持默认 `'none'`），其余行为不变。
- */
-export function patchAiAnalysis(
-  articleId: number,
-  matched: AiMatched,
-  draft?: AiDraft,
-): Promise<AiPatchReport> {
-  const args: Record<string, unknown> = { articleId, matched };
-  if (draft) args.draft = draft;
-  return invoke<AiPatchReport>("patch_ai_analysis", args);
-}
-
-/** ⑥ 覆盖率回读（补解析入口的初值不是 0） */
-export function getAiImportStats(articleId: number): Promise<AiImportStats> {
-  return invoke<AiImportStats>("get_ai_import_stats", { articleId });
-}
-
 // ───────── M5c · 导入重做（4 个封装：切分 / 编辑元信息 / 读题目 / 换题目） ─────────
-
-/** ⑦ 一次粘贴「原文 + 题目 + 答案」→ 自动切分（纯函数，不写库；切不中时 `detected=false`） */
-export function splitUserInput(raw: string): Promise<UserInputSplit> {
-  return invoke<UserInputSplit>("split_user_input", { raw });
-}
-
-/** 整卷多篇切分（D-M5c-2）：纯函数，不读写库；单篇返回 1 个元素、空输入返回空数组 */
-export function splitPassages(raw: string): Promise<PassageSpan[]> {
-  return invoke<PassageSpan[]>("split_passages", { raw });
-}
-
-/** ⑧ 改元信息（只改 article 行；原文三表不动） */
-export function updateArticleMeta(articleId: number, patch: ArticleMetaPatch): Promise<void> {
-  return invoke<void>("update_article_meta", { articleId, patch });
-}
-
-/** ⑨ 读该篇题目（编辑面板初值） */
-export function getArticleQuestions(articleId: number): Promise<QuestionView[]> {
-  return invoke<QuestionView[]>("get_article_questions", { articleId });
-}
-
-/** ⑩ 整批替换该篇题目（只写 question 表；`answerSource` 原样保留） */
-export function replaceArticleQuestions(articleId: number, questions: QuestionView[]): Promise<QuestionView[]> {
-  return invoke<QuestionView[]>("replace_article_questions", { articleId, questions });
-}
 
 // ───────────────── M7 · 发布链路（1 个封装：更新检查，离线优先） ─────────────────
 

@@ -2,8 +2,7 @@
  * 文章库（M1 / 04 §八 第 2 行）：两分组 + 四类筛选 + 标题搜索 + 等卡片网格。
  *
  * 硬要求（AC5）：
- * - 两分组：内置（`visibility='system'`）/ 我导入的（`user`）；**两种空态分开**——
- *   ① 分组里一篇都没有 → 引导「去导入」；② 有材料但筛选没命中 → 「试试放宽条件 + 清除筛选」。
+ * - M11 起只剩内置 12 篇（用户导入已移除）：空态一态 —— 有材料但筛选没命中 → 「试试放宽条件 + 清除筛选」。
  * - 四类筛选（考试类型/年份/题型/来源）：组间 AND、同组多选 OR —— 筛选下推到 SQL（不是前端过滤）。
  * - 卡片五项字段：篇名 / 年份 / 题型 / 词数 / 句数。
  * - 筛选与搜索**写进 URL query**：刷新/返回保持（`#/library?vis=system&exam=cet4&…`）。
@@ -14,7 +13,6 @@
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { listArticleFilterOptions, listArticles } from "../lib/api";
-import { ArticleEditor } from "../components/ArticleEditor";
 import type { ArticleFilter, ArticleSummary, FilterOptions } from "../lib/types";
 import { parseHash, rememberLibraryQuery } from "../shell/routes";
 
@@ -26,9 +24,8 @@ const EXAM_LABELS: Record<string, string> = { cet4: "CET-4", cet6: "CET-6", othe
  */
 const SECTION_LABELS: Record<string, string> = { careful: "仔细阅读", long: "长篇阅读", cloze: "选词填空" };
 
-/** 页面状态：与 URL query 一一对应（`vis` / `exam` / `year` / `sec` / `src` / `q`） */
+/** 页面状态：与 URL query 一一对应（`exam` / `year` / `sec` / `src` / `q`） */
 interface LibraryState {
-  vis: string;
   exams: string[];
   years: string[];
   sections: string[];
@@ -38,7 +35,6 @@ interface LibraryState {
 
 function fromQuery(query: URLSearchParams): LibraryState {
   return {
-    vis: query.get("vis") === "user" ? "user" : "system",
     exams: query.getAll("exam"),
     // 手改 URL 时 `?year=abc` 不能静默变成「选中的筛选不生效」：非数字年份直接丢弃
     years: query.getAll("year").filter((value) => /^\d+$/.test(value)),
@@ -48,10 +44,9 @@ function fromQuery(query: URLSearchParams): LibraryState {
   };
 }
 
-/** 状态 → 查询串（顺序固定，便于断言与阅读：vis, exam, year, sec, src, q） */
+/** 状态 → 查询串（顺序固定，便于断言与阅读：exam, year, sec, src, q） */
 function toQueryString(state: LibraryState): string {
   const query = new URLSearchParams();
-  query.set("vis", state.vis);
   state.exams.forEach((value) => query.append("exam", value));
   state.years.forEach((value) => query.append("year", value));
   state.sections.forEach((value) => query.append("sec", value));
@@ -63,7 +58,6 @@ function toQueryString(state: LibraryState): string {
 function buildFilter(state: LibraryState): ArticleFilter {
   const years = state.years.map(Number).filter((value) => Number.isFinite(value));
   return {
-    visibility: state.vis,
     examTypes: state.exams,
     years,
     sectionTypes: state.sections,
@@ -75,12 +69,9 @@ function buildFilter(state: LibraryState): ArticleFilter {
 export function Library() {
   const [state, setState] = useState<LibraryState>(() => fromQuery(parseHash(window.location.hash).query));
   const [items, setItems] = useState<ArticleSummary[]>([]);
-  const [groupTotal, setGroupTotal] = useState(0);
   const [options, setOptions] = useState<FilterOptions | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
-  /** M5c D4/D5：正在编辑的文章（null = 面板关闭） */
-  const [editing, setEditing] = useState<ArticleSummary | null>(null);
   /** 搜索框即时输入（防抖 250ms 后才落到 state.q 与 URL） */
   const [keywordInput, setKeywordInput] = useState(state.q);
   const debounceRef = useRef<number | null>(null);
@@ -126,11 +117,10 @@ export function Library() {
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
-    Promise.all([listArticles(buildFilter(state)), listArticles({ visibility: state.vis })])
-      .then(([list, group]) => {
+    listArticles(buildFilter(state))
+      .then((list) => {
         if (cancelled) return;
         setItems(list);
-        setGroupTotal(group.length);
         setError(null);
       })
       .catch((err: unknown) => {
@@ -182,8 +172,8 @@ export function Library() {
       debounceRef.current = null;
     }
     setKeywordInput("");
-    setState({ vis: state.vis, exams: [], years: [], sections: [], sources: [], q: "" });
-  }, [state.vis]);
+    setState({ exams: [], years: [], sections: [], sources: [], q: "" });
+  }, []);
 
   const openArticle = useCallback(
     (articleId: number) => {
@@ -200,29 +190,6 @@ export function Library() {
   return (
     <section className="library">
       <div className="library-toolbar">
-        <div className="tabs" role="tablist" aria-label="文章分组">
-          <button
-            type="button"
-            role="tab"
-            aria-selected={state.vis !== "user"}
-            className={state.vis !== "user" ? "tab on" : "tab"}
-            data-testid="tab-system"
-            onClick={() => update({ vis: "system" })}
-          >
-            内置
-          </button>
-          <button
-            type="button"
-            role="tab"
-            aria-selected={state.vis === "user"}
-            className={state.vis === "user" ? "tab on" : "tab"}
-            data-testid="tab-user"
-            onClick={() => update({ vis: "user" })}
-          >
-            我导入的
-          </button>
-        </div>
-
         <input
           className="search"
           type="search"
@@ -329,18 +296,13 @@ export function Library() {
         </p>
       )}
 
-      {!loading && !error && groupTotal === 0 && (
+      {!loading && !error && items.length === 0 && !isFiltered && (
         <div className="empty" data-testid="library-empty-group" data-empty-articles>
-          <p>{state.vis === "user" ? "还没有导入材料。" : "内置内容包没有可显示的文章。"}</p>
-          {state.vis === "user" && (
-            <a className="btn" href="#/import" data-testid="library-empty-group-action">
-              去导入
-            </a>
-          )}
+          <p>内置内容包没有可显示的文章。</p>
         </div>
       )}
 
-      {!loading && !error && groupTotal > 0 && items.length === 0 && (
+      {!loading && !error && items.length === 0 && isFiltered && (
         <div className="empty" data-testid="library-empty-filter">
           <p>没有符合当前筛选的文章，试试放宽条件。</p>
           <button type="button" className="btn" onClick={clearFilters} data-testid="library-clear-filters">
@@ -380,50 +342,9 @@ export function Library() {
                 <span>{item.sentenceCount} 句</span>
               </p>
               <p className="article-source">{item.source ?? ""}</p>
-              {/* M5b D4：「补解析」入口（AC9）。停在卡片内部，**必须 stopPropagation**，
-                  否则点它会连带触发卡片的「进精读」点击。 */}
-              <p className="article-actions">
-                <a
-                  className="link-btn"
-                  data-ai-patch
-                  data-article-id={item.id}
-                  href={`#/import?articleId=${item.id}`}
-                  onClick={(event) => event.stopPropagation()}
-                >
-                  补全解析
-                </a>
-                {/* M5c D4：编辑入口（AC9）→ 打开 ArticleEditor；同样 stopPropagation 挡住「进精读」 */}
-                <button
-                  type="button"
-                  className="link-btn"
-                  data-article-edit
-                  data-article-id={item.id}
-                  onClick={(event) => {
-                    event.stopPropagation();
-                    setEditing(item);
-                  }}
-                >
-                  编辑
-                </button>
-              </p>
             </article>
           ))}
         </div>
-      )}
-
-      {/* M5c D5：编辑面板（元信息 + 题目）；保存后只回填列表里的标题，不重拉全表 */}
-      {editing !== null && (
-        <ArticleEditor
-          articleId={editing.id}
-          initialTitle={editing.title}
-          initialExamYear={editing.examYear ?? null}
-          initialSectionLabel={editing.sectionLabel ?? null}
-          onClose={() => setEditing(null)}
-          onSaved={({ title }) => {
-            setItems((rows) => rows.map((row) => (row.id === editing.id ? { ...row, title } : row)));
-            setEditing((current) => (current === null ? null : { ...current, title }));
-          }}
-        />
       )}
 
       {!loading && !error && items.length > 0 && isFiltered && (

@@ -7,15 +7,9 @@
 //! 错误页永远显示不出来。正确形态是：捕获 → `manage(StartupState::Failed)` → 正常 `Ok(())`。
 
 mod analysis;
-// M5b（02 D1/R6）：`pub` 是给门禁 bin（`src/bin/ai_import_cli.rs`）用的——它要直调库层的
-// `commit_ai_import` / `patch_ai_analysis`（SQL 只在 `ai_import.rs` 里，bin 不复制）。
-pub mod ai_import;
 pub mod commands;
-// `pub` 是给门禁 bin（`src/bin/import_user_cli.rs`，D8 契约）用的：它要开临时库跑真事务。
-// 默认可见性不变（crate 外只有同仓的这个 bin 引用）。
 pub mod db;
 mod import;
-pub mod import_user;
 /// `pub` 是给门禁 bin（`src/bin/records_cli.rs`）用的：备份/恢复/导出要直调库层。
 pub mod export;
 mod pack;
@@ -88,28 +82,6 @@ pub fn run() {
             commands::list_review_plans,
             // TP-修复5 · M4-U3：今日页「继续精读」栏（只读；reading_record 按 last_read_at DESC 取 1）
             commands::get_last_read_article,
-            // M5 · 用户导入（2 个；实现见 import_user.rs，薄包装在 commands.rs）
-            commands::parse_import_preview,
-            commands::commit_import,
-            // M5b · AI 解析导入（6 个；实现见 ai_import.rs，薄包装在 commands.rs）
-            // 命令名与数量由 05 §十一之二 冻结：build_ai_prompt / parse_ai_payload /
-            // match_ai_payload / commit_ai_import / patch_ai_analysis / get_ai_import_stats
-            commands::build_ai_prompt,
-            commands::parse_ai_payload,
-            commands::match_ai_payload,
-            commands::commit_ai_import,
-            commands::patch_ai_analysis,
-            commands::get_ai_import_stats,
-            // M5c · 导入重做（4 个；实现见 ai_import.rs，薄包装在 commands.rs）
-            // split_user_input / update_article_meta / get_article_questions / replace_article_questions
-            commands::split_user_input,
-            // D-M5c-2：整卷多篇切分（纯函数，不读库）
-            commands::split_passages,
-            commands::update_article_meta,
-            commands::get_article_questions,
-            commands::replace_article_questions,
-            // M5c 优化轮 AC1：只读题型推断（前端在 AI_TYPE_MISMATCH 后据此给建议，切换仍由用户点）
-            commands::suggest_section,
             // M6 路 记录 / 统计 / 导出 / 备份（5 个；实现见 records.rs / export.rs，
             // get_settings / set_setting 复用 M0 已有命令，不重写）
             commands::get_reading_records,

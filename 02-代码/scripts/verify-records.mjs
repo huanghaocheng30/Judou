@@ -159,17 +159,17 @@ check("AC10 关于四项齐全且版本来自 package.json", () => {
 });
 
 // ── 第五轮：入门任务清单（替代原三屏说明卡）─────────────────
-check("ONB-1 三项判定口径：页面读数 = get_stats 字段 = SQL 口径", () => {
-  // ③ 必须有 visibility='user' 的计数（复用既有统计命令，不新增命令）
-  assert(/SELECT COUNT\(\*\) FROM article WHERE visibility = 'user'/.test(records), "get_stats 缺 visibility='user' 计数 SQL");
-  assert(/user_article_count/.test(records), "StatsView 缺 user_article_count 字段");
-  assert(/userArticleCount: number/.test(types), "types.ts 缺 userArticleCount");
+check("ONB-1 两项判定口径：页面读数 = get_stats 字段 = SQL 口径", () => {
+  // M11 AC5：visibility='user' 代码分支已移除（字段保留、取值恒为 system）——反向把关防回潮
+  assert(!/visibility = 'user'/.test(records), "records.rs 仍残留 visibility='user' 分支（M11 AC5 要求移除）");
+  assert(!/user_article_count/.test(records), "records.rs 仍残留 user_article_count（M11 AC5 要求移除）");
+  assert(!/userArticleCount/.test(types), "types.ts 仍残留 userArticleCount（M11 AC5 要求移除）");
   // ①② 复用既有两项
   assert(/read: stats\.articleCount >= 1/.test(onboarding), "① 必须按 reading_record 行数判定");
   assert(/vocab: stats\.vocabCount >= 1/.test(onboarding), "② 必须按 vocab_entry 行数判定");
-  assert(/import: stats\.userArticleCount >= 1/.test(onboarding), "③ 必须按 visibility='user' 篇数判定");
+  assert(!/userArticleCount/.test(onboarding), "Onboarding 仍引用 userArticleCount（M11 AC5 要求移除）");
   assert(/getStats\(localToday\(\)\)/.test(onboarding), "判定必须取真库统计（不得用本地自报字段）");
-  return "三项与 SQL 对齐";
+  return "两项与 SQL 对齐";
 });
 
 check("ONB-2 钩子齐全：清单根 / 三项 / 状态 / 不再提示 / 重新开始", () => {
@@ -194,7 +194,7 @@ check("ONB-3 onboarding_done 写入 / 重置生效（含后端白名单）", () 
   assert(/setSetting\(ONBOARDING_KEY, "0"\)/.test(onboarding), "重新开始必须写 onboarding_done=0");
   assert(/"onboarding_done" =>/.test(commands), "set_setting 白名单缺 onboarding_done");
   assert(/matches!\(value, "0" \| "1"\)/.test(commands), "onboarding_done 只接受 0 / 1");
-  assert(/stats_count_user_imported_articles_separately/.test(records), "缺 user 篇数单测");
+  assert(!/stats_count_user_imported_articles_separately/.test(records), "M11 AC5：user 篇数单测应随分支一并删除");
   return "写 1 / 写 0 / 白名单";
 });
 

@@ -22,7 +22,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import { AnalysisPanel, useWideLayout } from "../components/AnalysisPanel";
-import { ArticleEditor } from "../components/ArticleEditor";
 import type { AnalysisSelection } from "../components/AnalysisPanel";
 import { completeReview, getArticleContent, getArticleNoteMarks, getReviewPlan, markArticleCompleted, touchReading } from "../lib/api";
 import { renderParagraph, renderTokens } from "../lib/render";
@@ -184,8 +183,6 @@ export function Reader() {
   const [error, setError] = useState<string | null>(null);
   const [selection, setSelection] = useState<AnalysisSelection>({ kind: "none" });
   /** M5c D4/D5：编辑面板开关 + 保存后的标题覆盖（避免重拉整篇） */
-  const [editorOpen, setEditorOpen] = useState(false);
-  const [titleOverride, setTitleOverride] = useState<string | null>(null);
   const [revealed, setRevealed] = useState<number[]>([]);
   /** 本篇笔记标记（F4/AC-R3）：一次 IPC 全量取，句末角标与词节点据此打 `data-has-note` */
   const [noteMarks, setNoteMarks] = useState<NoteMarks>({ sentenceIds: [], tokenIds: [] });
@@ -463,44 +460,13 @@ export function Reader() {
           {backButton}
           <div className="reader-headline">
             <h1 className="reader-title" data-testid="reader-title">
-              {titleOverride ?? detail.title}
+              {detail.title}
             </h1>
             <p className="reader-meta" data-testid="reader-meta">
               {meta}
             </p>
           </div>
-          {/* M5b D4：精读页页头的「补全解析」入口（AC9）→ 跳 `#/import?articleId=<id>`（patch 模式） */}
-          <a
-            className="link-btn reader-patch"
-            data-ai-patch
-            data-article-id={content.article.id}
-            href={`#/import?articleId=${content.article.id}`}
-          >
-            补全解析
-          </a>
-          {/* M5c D4：编辑入口（AC9/AC10）→ 打开 ArticleEditor（元信息 + 题目） */}
-          <button
-            type="button"
-            className="link-btn reader-edit"
-            data-article-edit
-            data-article-id={content.article.id}
-            onClick={() => setEditorOpen(true)}
-          >
-            编辑
-          </button>
         </header>
-
-        {/* M5c D5：编辑面板（元信息 + 题目），保存后只覆盖标题与题目，不重拉整篇 */}
-        {editorOpen && (
-          <ArticleEditor
-            articleId={content.article.id}
-            initialTitle={titleOverride ?? detail.title}
-            initialExamYear={detail.examYear ?? null}
-            initialSectionLabel={detail.sectionLabel ?? null}
-            onClose={() => setEditorOpen(false)}
-            onSaved={({ title }) => setTitleOverride(title)}
-          />
-        )}
 
         <article className="reader-body" data-testid="reader-body">
           {content.paragraphs.map((paragraph) => (

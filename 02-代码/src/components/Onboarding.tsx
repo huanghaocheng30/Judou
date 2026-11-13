@@ -8,21 +8,20 @@
  * 三项判定（全部复用既有 `get_stats`，**不新增命令、不改表**）：
  * ① 打开一篇精读并点开一句话 → `readingRecordCount`（`reading_record` 行数）≥ 1
  * ② 收藏一个生词             → `vocabCount`（`vocab_entry` 行数）≥ 1
- * ③ 导入一篇自己的文章       → `userArticleCount`（`article.visibility='user'` 行数）≥ 1
  *
- * 落盘：三项全完成 或 用户点「不再提示」→ `app_setting.onboarding_done=1`；
+ * 落盘：两项全完成 或 用户点「不再提示」→ `app_setting.onboarding_done=1`；
  * 设置页的「重新开始」写回 `onboarding_done=0`，清单重新出现在今日页顶部。
  *
  * 属性契约（供门禁 / CDP 断言）：
  * - `data-onboarding`（清单根）、`data-onboarding-variant="today|settings"`
- * - `data-onboarding-item="read|vocab|import"` + `data-onboarding-state="todo|done"`
+ * - `data-onboarding-item="read|vocab"` + `data-onboarding-state="todo|done"`
  * - `data-onboarding-dismiss`（不再提示）/ `data-onboarding-reset`（重新开始）
  */
 import { useCallback, useEffect, useState } from "react";
 import { getSettings, getStats, setSetting } from "../lib/api";
 import { localToday } from "../lib/date";
 
-type TaskKey = "read" | "vocab" | "import";
+type TaskKey = "read" | "vocab";
 
 interface TaskDef {
   key: TaskKey;
@@ -44,19 +43,12 @@ const TASKS: TaskDef[] = [
     hint: "精读页点一个单词 → 加进生词本",
     href: "#/library",
   },
-  {
-    key: "import",
-    title: "导入一篇自己的文章",
-    hint: "导入页粘贴英文原文（或整篇 AI 解析 JSON）",
-    href: "#/import",
-  },
 ];
 
-/** 三项完成态：**只从真实数据算**，不读任何「用户上报」字段。 */
+/** 两项完成态：**只从真实数据算**，不读任何「用户上报」字段。 */
 interface DoneMap {
   read: boolean;
   vocab: boolean;
-  import: boolean;
 }
 
 const ONBOARDING_KEY = "onboarding_done";
@@ -75,7 +67,6 @@ export function Onboarding({ variant }: { variant: "today" | "settings" }) {
         const next: DoneMap = {
           read: stats.articleCount >= 1,
           vocab: stats.vocabCount >= 1,
-          import: stats.userArticleCount >= 1,
         };
         setDone(next);
         setDismissed(settings[ONBOARDING_KEY] === "1");
@@ -90,7 +81,7 @@ export function Onboarding({ variant }: { variant: "today" | "settings" }) {
 
   useEffect(() => load(), [load]);
 
-  const allDone = done !== null && done.read && done.vocab && done.import;
+  const allDone = done !== null && done.read && done.vocab;
 
   /** 全完成即自动收起（写一次 `onboarding_done=1`）；写失败不打断用户，只记日志 */
   useEffect(() => {
@@ -138,7 +129,7 @@ export function Onboarding({ variant }: { variant: "today" | "settings" }) {
     );
   }
 
-  const doneCount = [done.read, done.vocab, done.import].filter(Boolean).length;
+  const doneCount = [done.read, done.vocab].filter(Boolean).length;
 
   return (
     <section className="onboarding" data-onboarding data-onboarding-variant={variant}>

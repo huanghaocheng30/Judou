@@ -11,12 +11,10 @@ use serde::{Deserialize, Serialize};
 use tauri::Manager;
 use tauri::State;
 
-use crate::ai_import;
 use crate::analysis;
 use crate::db::Db;
 use crate::export;
 use crate::import::{self, ImportReport};
-use crate::import_user;
 use crate::pack::{self, PackLabels, PackPath, StartupErrorInfo, StartupState};
 use crate::records;
 use crate::review;
@@ -1143,153 +1141,6 @@ pub fn get_last_read_article(
 ) -> Result<Option<review::LastReadArticle>, CommandError> {
     review::get_last_read_article(&db)
 }
-
-// ───────────────────────── M5 · 用户导入（D1：2 个薄包装） ─────────────────────────
-// 清洗/分段/切句/分词/四层校验全在 `import_user.rs`（纯函数 + 单测），这里只做「参数 → 实现」转手。
-// 两命令都是**同步 fn**：`commit_import` 是本地 SQLite 单事务（毫秒级），
-// `Cargo.toml` 无 tokio/async 运行时，与既有命令同口径。
-
-/// 两阶段①：粘贴文本 → 预览（切段/切句/分词 + stats）。**不写库**（AC1）。
-/// 超过 20000 字符 → `IMPORT_TOO_LARGE`。
-#[tauri::command]
-pub fn parse_import_preview(
-    text: String,
-    title: Option<String>,
-) -> Result<import_user::ImportPreview, CommandError> {
-    import_user::parse_preview(&text, title)
-}
-
-/// 两阶段②：预览（用户可剔段/改标题后回传）→ 四层校验 → 单事务入库 → 新文章 id。
-/// 失败码：`IMPORT_L1_STRUCTURE` / `IMPORT_L2_OFFSET` / `IMPORT_L3_COVERAGE` /
-/// `IMPORT_L4_BUSINESS` / `IMPORT_TOO_LARGE` / `IMPORT_DUPLICATE_SOURCE`，任一失败库中零写入。
-#[tauri::command]
-pub fn commit_import(
-    db: State<'_, Db>,
-    preview: import_user::ImportPreview,
-    meta: import_user::ImportMeta,
-) -> Result<import_user::ImportCommitResult, CommandError> {
-    import_user::commit_import(&db, &preview, &meta)
-}
-
-// ───────────────────── M5b · AI 解析导入（D1：6 个薄包装，命令名与数量不得改） ─────────────────────
-// 契约见 05 §十一之二。**全部分工纪律**：这里只做「参数 → 库层/纯函数」转手，
-// **不写 SQL、不复制校验**——校验与写库只有一份实现（`ai_import.rs`），
-// 否则 `parse_ai_payload` 与 `commit_ai_import` 会出现两套行为（AC5/AC6 会失真）。
-// 参数一律 camelCase：`batch_size` ↔ `batchSize`、`article_id` ↔ `articleId`。
-
-/// ① 生成提示词模板 + 本批句子清单 + 题型片段。**纯字符串，不写库**
-#[tauri::command]
-pub fn build_ai_prompt(
-    draft: ai_import::AiDraft,
-    batch_size: u32,
-) -> Result<ai_import::AiPrompt, CommandError> {
-    Ok(ai_import::build_prompt(&draft, batch_size))
-}
-
-/// ② 容错解析（剥围栏 + 只取最外层 `{}`）+ `section` 枚举 + markup 平衡。**不写库**
-#[tauri::command]
-pub fn parse_ai_payload(text: String) -> Result<ai_import::AiParseResult, CommandError> {
-    ai_import::parse_payload(&text)
-}
-
-/// ③ `quote` 匹配 → `matched` / `unmatched` / 四类覆盖率。**纯函数，不写库**
-#[tauri::command]
-pub fn match_ai_payload(
-    draft: ai_import::AiDraft,
-    payload: ai_import::AiPayload,
-) -> Result<ai_import::AiMatched, CommandError> {
-    ai_import::match_payload(&draft, &payload)
-}
-
-/// ③-b 只读推断：这份 payload **看起来**是哪种题型（M5c 优化轮 AC1，薄命令）
-///
-/// **纯函数、不写 SQL、不改任何状态**：只在 `match_ai_payload` 判 `AI_TYPE_MISMATCH` 之后，
-/// 给前端一条可执行的下一步（「这看起来是长篇阅读」）。**是否切换由用户点按钮决定**——
-/// 本命令不替用户做决定，也不自动重试。
-#[tauri::command]
-pub fn suggest_section(payload: ai_import::AiPayload) -> Option<ai_import::AiSection> {
-    ai_import::suggest_section(&payload)
-}
-/// ④ 单事务入库（结构四表 + 分析四表；失败整篇回滚）→ 新文章 id + 覆盖率
-#[tauri::command]
-pub fn commit_ai_import(
-    db: State<'_, Db>,
-    draft: ai_import::AiDraft,
-    matched: ai_import::AiMatched,
-    meta: ai_import::AiCommitMeta,
-) -> Result<ai_import::AiCommitReport, CommandError> {
-    ai_import::commit_ai_import(&db, &draft, &matched, &meta)
-}
-
-/// ⑤ 后补解析：只写解析四表，不动 `paragraph`/`sentence`/`token`
-/// M5c（05 §十一之三）：签名扩为 `(article_id, draft, matched)`——档 C 的逐字比对与
-/// `answer_source` 判定都在 `match_payload` 里按同一个 `draft` 做完，这里只转手。
-///
-/// M5c 回退兼容：`draft` 改为 **可选**。M5b 版导入页只传 `matched`，此时后端跳过
-/// `answer_source` 写入（列保持默认 `'none'`）与档 C 逐字比对，其余行为不变。
-#[tauri::command]
-pub fn patch_ai_analysis(
-    db: State<'_, Db>,
-    article_id: i64,
-    draft: Option<ai_import::AiDraft>,
-    matched: ai_import::AiMatched,
-) -> Result<ai_import::AiPatchReport, CommandError> {
-    ai_import::patch_ai_analysis(&db, article_id, draft.as_ref(), &matched)
-}
-
-/// ⑥ 覆盖率回读（补解析入口的初值，不是 0）
-#[tauri::command]
-pub fn get_ai_import_stats(
-    db: State<'_, Db>,
-    article_id: i64,
-) -> Result<ai_import::AiImportStats, CommandError> {
-    ai_import::get_ai_import_stats(&db, article_id)
-}
-
-// ───────────────────── M5c · 导入重做（4 个新命令，薄包装；SQL 仍只在 ai_import.rs） ─────────────────────
-
-/// ⑦ 一次粘贴「原文 + 题目 + 答案」→ 自动切分正文区 / 题目区。**纯函数，不写库**
-#[tauri::command]
-pub fn split_user_input(raw: String) -> Result<ai_import::UserInputSplit, CommandError> {
-    Ok(ai_import::split_user_input(&raw))
-}
-
-/// 整卷多篇切分（D-M5c-2 D1）：纯函数薄包装，不读库、不写库
-#[tauri::command]
-pub fn split_passages(raw: String) -> Result<Vec<ai_import::PassageSpan>, CommandError> {
-    Ok(ai_import::split_passages(&raw))
-}
-
-/// ⑧ 改元信息（标题 / 考试类型 / 年份 / 题型 / 来源 / 难度）；原文三表不动
-#[tauri::command]
-pub fn update_article_meta(
-    db: State<'_, Db>,
-    article_id: i64,
-    patch: ai_import::ArticleMetaPatch,
-) -> Result<(), CommandError> {
-    ai_import::update_article_meta(&db, article_id, &patch)
-}
-
-/// ⑨ 读该篇题目（编辑面板初值）
-#[tauri::command]
-pub fn get_article_questions(
-    db: State<'_, Db>,
-    article_id: i64,
-) -> Result<Vec<ai_import::QuestionView>, CommandError> {
-    ai_import::get_article_questions(&db, article_id)
-}
-
-/// ⑩ 整批替换该篇题目（只写 `question` 表；`answer_source` 原样保留）
-#[tauri::command]
-pub fn replace_article_questions(
-    db: State<'_, Db>,
-    article_id: i64,
-    questions: Vec<ai_import::QuestionView>,
-) -> Result<Vec<ai_import::QuestionView>, CommandError> {
-    ai_import::replace_article_questions(&db, article_id, &questions)
-}
-
-// ─────────────────────────── M6 · 记录 / 统计 / 导出 / 备份 ───────────────────────────
 
 /// 记录页时间线（AC1）：`reading_record JOIN article`，按 `last_read_at DESC`。
 #[tauri::command]

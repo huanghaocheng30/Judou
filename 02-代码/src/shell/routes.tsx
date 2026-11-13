@@ -4,11 +4,10 @@
  * - 查询串（`#/library?vis=system&exam=cet4`）不参与路由匹配，交给页面自己读（文章库筛选保持）
  * - `useReturn()`：精读页返回，修掉原型「点了没反应」的缺陷（AC7）
  *
- * ponytail: 仍不引 react-router —— 8 条路由 + 一条 `:id` 参数用 3 个函数解决；
+ * ponytail: 仍不引 react-router —— 7 条路由 + 一条 `:id` 参数用 3 个函数解决；
  * 等出现嵌套路由/路由守卫/懒加载再评估引入。
  */
 import { useCallback, useEffect, useState, type ReactNode } from "react";
-import { Import } from "../pages/Import";
 import { Library } from "../pages/Library";
 import { Reader } from "../pages/Reader";
 import { Records } from "../pages/Records";
@@ -39,7 +38,7 @@ export const ROUTES: RouteDef[] = [
     path: "#/library",
     label: "文章库",
     title: "文章库",
-    subtitle: "内置篇目与我导入的篇目，按考试类型、年份、题型筛选。",
+    subtitle: "12 篇内置真题，按考试类型、年份、题型筛选。",
     element: <Library />,
   },
   {
@@ -62,13 +61,6 @@ export const ROUTES: RouteDef[] = [
     title: "生词本",
     subtitle: "按文章、标签、掌握状态分组；点回原句看语境。",
     element: <Vocab />,
-  },
-  {
-    path: "#/import",
-    label: "导入",
-    title: "导入",
-    subtitle: "粘贴或选择文件，先预览再入库。",
-    element: <Import />,
   },
   {
     path: "#/records",

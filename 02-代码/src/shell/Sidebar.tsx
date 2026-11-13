@@ -1,5 +1,5 @@
 /**
- * 侧边栏：品牌标识（四线 + 高亮行 + 句点，取自原型 v2 内联 SVG）+ 7 项导航。
+ * 侧边栏：品牌标识（四线 + 高亮行 + 句点，取自原型 v2 内联 SVG）+ 6 项导航。
  * 路由用原生 `<a href="#/xxx">` —— 自写 hash 路由（见 routes.tsx）不需要 Link 组件。
  *
  * M4 D6：复习项带「今日待复习」角标（`data-review-badge`）。
@@ -63,16 +63,6 @@ export const NAV_ITEMS: NavItem[] = [
       <>
         <path d="M5 5.5A2 2 0 0 1 7 3.5h11v17H7a2 2 0 0 1-2-2z" />
         <path d="M9 8h6M9 11.5h6" />
-      </>,
-    ),
-  },
-  {
-    path: "#/import",
-    label: "导入",
-    icon: icon(
-      <>
-        <path d="M12 15.5V4.5M8 8.5 12 4.5l4 4" />
-        <path d="M4.5 15v3.5a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V15" />
       </>,
     ),
   },
