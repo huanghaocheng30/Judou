@@ -87,7 +87,6 @@ export interface ArticleSummary {
   /** 取冗余列 article.sentence_count（避免列表页聚合） */
   sentenceCount: number;
   source: string | null;
-  /** `system` 内置 / `user` 我导入的 */
   visibility: string;
 }
 
@@ -419,8 +418,6 @@ export interface LastReadArticle {
   title: string;
   lastReadAt: string;
 }
-
-// ───────────────── M5 · 用户导入（02 v1.1 D2；两阶段：预览不写库 → 提交四层校验后入库） ─────────
 
 /**
  * `check_update` 返回体：三态由 `available` + `reason` 表达。

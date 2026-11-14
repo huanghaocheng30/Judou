@@ -491,11 +491,14 @@ check("M13-6 正文层显示「已加入生词本」（AC6②）：data-in-vocab
   assert(!/#[0-9a-fA-F]{3,8}\b|rgba?\(|hsla?\(/.test(vocabBlock[1]),
     "已收藏标记的颜色必须复用既有 CSS 变量（零新色值，契约约束）");
 
-  // 7) 与「有笔记」的红线区分：双层 gradient 规则存在
+  // 7) 与「有笔记」的线型/颜色区分：双层规则存在，两层都用既有变量
+  //    （D-M13-1 · AC6：笔记线由 --rose 实线改为 --blue 虚线，靠线型+颜色双通道区分）
   const bothBlock = /\.tok\[data-has-note="1"\]\[data-in-vocab="1"\]\s*\{([^}]*)\}/.exec(css);
   assert(bothBlock, "缺「既有笔记又已收藏」的双层规则（两标记必须同时可见、互不吞掉）");
-  assert(/var\(--rose\)/.test(bothBlock[1]) && /var\(--accent\)/.test(bothBlock[1]),
-    "双层规则必须同时含 var(--rose)（笔记）与 var(--accent)（生词本）两道色带");
+  assert(/var\(--blue\)/.test(bothBlock[1]) && /var\(--accent\)/.test(bothBlock[1]),
+    "双层规则必须同时含 var(--blue)（笔记蓝虚线）与 var(--accent)（生词本橙实线）两道色带");
+  assert(/repeating-linear-gradient/.test(bothBlock[1]),
+    "双层里的笔记线必须是虚线（AC6 要求笔记/收藏不只靠色相区分）");
 
   // 8) 复习模式与既有 data-has-note 同处清空（D4 只隐藏视觉，不删 DOM）
   assert(/\[data-review-mode="1"\]\s+\.tok\[data-in-vocab="1"\]\s*\{[^}]*background-image:\s*none/.test(css),

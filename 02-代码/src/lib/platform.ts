@@ -6,8 +6,8 @@
  * 所以设置页在 Android 上把该按钮降级为禁用态 + 说明（AC2）。
  *
  * ponytail: 一条 UA 正则足够——本项目只需区分「是不是 Android」。若以后要区分
- * iOS / 具体桌面系统，再按需扩 `platformName()` 的返回值，不预先上
- * `@tauri-apps/plugin-os`（增加依赖与 Android 权限面）。
+ * iOS / 具体桌面系统，再按需加「返回平台名」的函数（那正是 D-M11-2 删掉的零调用点封装，
+ * 需要时按真实需求重写），不预先上 `@tauri-apps/plugin-os`（增加依赖与 Android 权限面）。
  */
 const ANDROID_RE = /Android/i;
 
@@ -21,9 +21,4 @@ function userAgent(): string {
 /** 是否运行在 Android（含 Android WebView / 移动浏览器） */
 export function isAndroid(): boolean {
   return ANDROID_RE.test(userAgent());
-}
-
-/** 平台名：`"android"` | `"desktop"`（供文案与后续分支用，不细分桌面系统） */
-export function platformName(): "android" | "desktop" {
-  return isAndroid() ? "android" : "desktop";
 }

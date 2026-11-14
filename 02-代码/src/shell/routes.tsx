@@ -92,12 +92,20 @@ export interface ParsedRoute {
   query: URLSearchParams;
 }
 
+/** 任意 hash（含空/未知/带尾斜杠）→ 归一后的路径部分（`#` 前缀补全、去尾斜杠、去查询串） */
+function normalizePathPart(raw: string): string {
+  const cleaned = raw.trim().replace(/\/+$/, "");
+  const withPrefix = cleaned.startsWith("#") ? cleaned : `#${cleaned.startsWith("/") ? "" : "/"}${cleaned}`;
+  const hashMark = withPrefix.indexOf("?");
+  return hashMark >= 0 ? withPrefix.slice(0, hashMark) : withPrefix;
+}
+
 /** 任意 hash（含空/未知/带尾斜杠/带查询串）→ 结构化路由 */
 export function parseHash(raw: string): ParsedRoute {
   const cleaned = raw.trim().replace(/\/+$/, "");
   const withPrefix = cleaned.startsWith("#") ? cleaned : `#${cleaned.startsWith("/") ? "" : "/"}${cleaned}`;
   const hashMark = withPrefix.indexOf("?");
-  const pathPart = hashMark >= 0 ? withPrefix.slice(0, hashMark) : withPrefix;
+  const pathPart = normalizePathPart(raw);
   const query = new URLSearchParams(hashMark >= 0 ? withPrefix.slice(hashMark + 1) : "");
 
   if (pathPart.startsWith(ARTICLE_PREFIX)) {
@@ -106,6 +114,19 @@ export function parseHash(raw: string): ParsedRoute {
   }
   const known = ROUTES.some((route) => route.path === pathPart);
   return { path: known ? pathPart : DEFAULT_ROUTE, query };
+}
+
+/**
+ * 该 hash 是否命中路由表（含任意 `#/article/:id`）。
+ *
+ * `parseHash` 对未知路径**回落**成今日页（保证渲染不白屏），但 URL 仍停在那个坏 hash 上；
+ * `useRoute` 再用本判定把 URL 一并改写（D-M11-3：导入移除后 `#/import` 直访曾停留原地）。
+ * 口径与 `parseHash` 共用 `normalizePathPart`，避免两处归一逻辑漂移。
+ */
+export function isKnownHash(raw: string): boolean {
+  const pathPart = normalizePathPart(raw);
+  if (pathPart.startsWith(ARTICLE_PREFIX)) return true;
+  return ROUTES.some((route) => route.path === pathPart);
 }
 
 /** 结构化路由 → 规范 hash（保留查询串） */
@@ -136,6 +157,11 @@ export function useRoute(): [ParsedRoute, (next: string) => void] {
     const raw = window.location.hash.trim();
     if (raw === "" || raw === "#" || raw === "#/") {
       window.location.hash = DEFAULT_ROUTE;
+    } else if (!isKnownHash(raw)) {
+      // D-M11-3：未知路由（导入功能移除后残留的 `#/import` 等）→ 渲染落到今日页，
+      // **并且把 URL 一起改写**——只换渲染不改 hash 会让刷新后仍停在坏地址。
+      // 用 `location.replace`（而非给 hash 赋值）不新增历史条目，后退不会再次撞上它。
+      window.location.replace(DEFAULT_ROUTE);
     }
     return () => window.removeEventListener("hashchange", onHashChange);
   }, []);

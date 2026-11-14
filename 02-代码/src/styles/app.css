@@ -1182,29 +1182,28 @@ button {
   opacity: 1;
 }
 
-/* M13 AC6①：有笔记的词——小圆点换成 2px 粗实线下划线。
-   真机反馈：「只有底下小红点，看不出来」——1.6px 半径的圆点在 3x 屏、浅色纸上几乎不可见；
-   下划线是「已标记」的通用语义，且与句末「析」的实心角标同一套「已写过笔记」语义。
-   仍然只用 `background-image`（不插 DOM、不改字号字距、不影响行盒高度=不重排段落），
-   与 `.tok[data-has-note="1"]` 原有「零布局影响」的约束一致。
-   复习模式仍由 `[data-review-mode="1"] .tok[data-has-note="1"] { background-image: none }` 清空。
-   沿革：F3 引入的 `radial-gradient` 圆点曾在 TP-修复5 / M4-U2 修过「圆心落在绘制区外被裁成半圆」
-   （抬到 `center 2.4px`、条带 4.5px）；M13 真机复验判定「修好的整圆仍然太小看不见」，故整体换下划线。 */
+/* D-M13-1 · AC6：「有笔记」与「已收藏」必须**一眼可分**。
+   改前两种都是实线、只差色相（--rose 紫红 2px vs --accent 棕橙 3px），真机窄屏下要靠辨色；
+   AC6 改为**线型 + 颜色双通道**：笔记＝蓝虚线、收藏＝橙实线，色觉障碍用户也能靠线型区分。
+   仍然只用 `background-image`（不插 DOM、不改字号字距、不影响行盒高度=不重排段落）。
+   复习模式仍由 `[data-review-mode="1"] .tok[data-has-note="1"] { background-image: none }` 清空。 */
 .tok[data-has-note="1"] {
-  background-image: linear-gradient(to top, var(--rose) 0 2px, transparent 2px);
+  /* 虚线：条带高 2px（background-size 100% 2px）内沿水平方向重复 4px 实 / 4px 空，
+     所以「线型是虚线」而「高度仍只有 2px」——布局影响与改前的实线完全一致。 */
+  background-image: repeating-linear-gradient(90deg, var(--blue) 0 4px, transparent 4px 8px);
   background-repeat: no-repeat;
   background-position: 0 100%;
-  background-size: 100% 100%;
+  background-size: 100% 2px;
 }
 
 /* M13 AC6②：「已在生词本」的单词在**正文层**直接可见。
    用户反馈（2026-11-14）：「希望在文章页面就能看出这个单词被加入单词本，就像有笔记的词底部有红线，
    不是在点击单词之后才从词卡知道」——所以标记落在 token 上，与 `data-has-note` 同级别。
-   两种线必须一眼可分：
-   - 有笔记 ＝ 玫红（--rose）2px，贴行盒最底；
-   - 已收藏 ＝ 强调色（--accent）3px，比笔记线更粗（生词本是「要复习」的动作，视觉权重更高）。
+   两种线必须一眼可分（D-M13-1 · AC6 起为双重编码）：
+   - 有笔记 ＝ **蓝虚线**（--blue）2px，贴行盒最底；
+   - 已收藏 ＝ **强调色实线**（--accent）3px，比笔记线更粗（生词本是「要复习」的动作，视觉权重更高）。
    两者都用 `background-image` 渐变：不插 DOM、不改字宽字距、不撑行盒高度＝不重排段落（与上面同一条约束）。
-   零新色值：两色都是 tokens.css 既有变量，深色主题自动跟随。
+   零新色值：两色都是 tokens.css 既有变量（--blue / --accent），深色主题自动跟随。
    复习模式仍由 `[data-review-mode="1"] .tok[data-in-vocab="1"] { background-image: none }` 清空。 */
 .tok[data-in-vocab="1"] {
   background-image: linear-gradient(to top, var(--accent) 0 3px, transparent 3px);
@@ -1213,13 +1212,17 @@ button {
   background-size: 100% 100%;
 }
 
-/* 既有笔记又在生词本：双层——底层玫红 2px，其上强调色 3px（合计 5px 内两道色带，互不吞掉）。
-   特异度 (0,3,0) 高于上面两条 (0,2,0)，不依赖书写顺序。 */
+/* 既有笔记又在生词本：双层——底层橙实线 3px（贴底），其上蓝虚线 2px（距底 3px 起），
+   合计仍占 5px 行内条带，与改前一致；两层都不吞掉另一层，所以「两种状态」依然可读。
+   特异度 (0,3,0) 高于上面两条 (0,2,0)，不依赖书写顺序。
+   `background-position` 的 `calc(100% - 3px)` 让 2px 高的虚线带底边正好压在橙实线上沿。 */
 .tok[data-has-note="1"][data-in-vocab="1"] {
-  background-image: linear-gradient(to top, var(--rose) 0 2px, var(--accent) 2px 5px, transparent 5px);
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  background-size: 100% 100%;
+  background-image:
+    repeating-linear-gradient(90deg, var(--blue) 0 4px, transparent 4px 8px),
+    linear-gradient(to top, var(--accent) 0 3px, transparent 3px);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 calc(100% - 3px), 0 100%;
+  background-size: 100% 2px, 100% 100%;
 }
 
 /* 窄屏抽屉拖动条：指针拖拽 + 键盘 ↑↓/Home/End（D10「拖动条 + 键盘可用」） */

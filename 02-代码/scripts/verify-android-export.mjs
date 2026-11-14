@@ -3,7 +3,8 @@
  * M10 门禁（AC1 / AC2 / AC4 静态契约）——**红→绿的可复算证据**。
  *
  * 三组断言：
- *  1. `src/lib/platform.ts` 存在、导出 `isAndroid()` / `platformName()`、零新依赖、无 window 时安全
+ *  1. `src/lib/platform.ts` 存在、导出 `isAndroid()`、零新依赖、无 window 时安全
+ *     （D-M11-2 删掉零调用点的平台名封装后，本断言随之收敛为只校验 `isAndroid()`）
  *  2. `src/pages/Settings.tsx` 用 `isAndroid()` 给「导出 PDF 词表」加禁用态 + 说明，
  *     且**桌面路径未被误伤**（iframe + print 仍在）
  *  3. **UA 匹配逻辑可复算**：从 platform.ts 抽出真实正则，在 node 里对三条 UA 求值
@@ -44,10 +45,9 @@ check("P-1 platform.ts 存在", () => {
   assert(existsSync(path.join(root, PLATFORM)), `${PLATFORM} 不存在`);
 });
 
-check("P-2 导出 isAndroid / platformName", () => {
+check("P-2 导出 isAndroid", () => {
   const src = read(PLATFORM);
   assert(/export function isAndroid\s*\(\s*\)/.test(src), "缺 export function isAndroid()");
-  assert(/export function platformName\s*\(\s*\)/.test(src), "缺 export function platformName()");
 });
 
 check("P-3 零新依赖：无任何 import（含不引 @tauri-apps/plugin-os）", () => {

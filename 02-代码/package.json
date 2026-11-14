@@ -24,6 +24,8 @@
     "verify:release": "node scripts/verify-release.mjs",
     "verify:pending": "node --test scripts/pending.test.mjs",
     "verify:android": "node scripts/verify-android-export.mjs",
+    "verify:tables": "node scripts/check-tables.mjs",
+    "verify:icons": "node scripts/check-icons.mjs",
     "test:theme": "node --test scripts/theme.test.mjs"
   },
   "dependencies": {
