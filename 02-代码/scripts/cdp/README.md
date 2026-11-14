@@ -20,14 +20,12 @@
 
 | 脚本 | 取证对象 | 额外参数 |
 |---|---|---|
-| `cdp-ai-import.mjs` | 导入页全链路（切分/三档提示词/题目对齐/补全解析/覆盖率空态等），真窗口 1920，逐条打印 AC 读数 | `CDP_PORT`（默认 9222）；fixture 目录按脚本位置解析 `../fixtures/ai-import/` |
 | `cdp-m6-export.mjs` | 设置页导出卡片与词表导出（M6 轮）相关读数 | `CDP_PORT`（默认 9222） |
 
 ## 怎么跑
 
 ```powershell
 cd E:\Judou\02-代码
-node scripts/cdp/cdp-ai-import.mjs
 node scripts/cdp/cdp-m6-export.mjs
 ```
 
