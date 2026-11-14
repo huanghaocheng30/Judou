@@ -24,6 +24,10 @@ use tauri::{AppHandle, Manager};
 use db::Db;
 use pack::{PackLabels, PackPath, StartupErrorInfo, StartupState};
 
+// Tauri v2 移动端必需注解：该宏展开后生成 JNI 入口（Java_<pkg>_Rust_onCreate 等 + JNI_OnLoad）。
+// 缺它则 Android 端启动即 UnsatisfiedLinkError（No implementation found for Rust.onCreate）闪退。
+// 桌面端由 cfg(mobile) 排除，零影响。M7 修复项，勿删。
+#[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
         .setup(|app| {
