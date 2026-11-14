@@ -165,7 +165,9 @@ button {
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  padding: 22px 32px 14px;
+  /* M13 AC3：顶部安全区。`env(safe-area-inset-top)` 只有配合 index.html 的 viewport-fit=cover 才非 0；
+     桌面浏览器恒为 0（fallback 0px），所以 1920 布局与改前逐项一致。 */
+  padding: calc(22px + env(safe-area-inset-top, 0px)) 32px 14px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -622,6 +624,10 @@ button {
 .reader-back {
   flex: none;
 }
+
+/* M13 AC5：窄屏时「返回文章库」不再与标题抢横向空间。
+   做法：`.reader-head` 允许换行，标题 `flex: 1 1 100%` 强制独占下一行 → 标题拿满屏宽。
+   **只在 <640px 生效**（见文件末尾窄屏媒体查询），桌面/平板布局不变。 */
 
 .reader-headline {
   min-width: 0;
@@ -1132,6 +1138,28 @@ button {
   opacity: 1;
 }
 
+/* M13 AC4：触摸热区 ≥44×44 CSS px（Android 触控目标下限）。
+   - 用 `::after` 绝对定位**只扩热区**：不占布局（不重排段落）、不改视觉尺寸（角标仍 2 字 × 10px）；
+   - 只在 `pointer: coarse`（触屏）启用——桌面鼠标设备维持原样，1920 布局与改前逐项一致；
+   - `z-index: 1` 只高过静态行内文本，远低于抽屉(20)/底部 Tab(30)，不会盖住弹层；
+   - 命中后事件照旧冒泡到 `.sentence`（角标本身不接事件，与改造前的模型一致）。
+   取舍记录：热区必然跨到上下行文字带，这是 44px 下限与 32px 行高的物理冲突；
+   选「句末角标命中更省事」而非「零重叠」——重叠面积与误触实测见执行自测。 */
+@media (pointer: coarse) {
+  .sentence-mark::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    pointer-events: auto;
+    z-index: 1;
+  }
+}
+
 /* 写过笔记的句：角标实心（F3 / AC-R3 的视觉痕迹） */
 .sentence-mark[data-has-note="1"] {
   padding: 0 2px;
@@ -1141,16 +1169,19 @@ button {
   opacity: 1;
 }
 
-/* 有笔记的词：底缘小圆点（F3）。用 background-image 而不插入 DOM 节点——
-   不打断文本流、不改字号/字距、不新增可聚焦元素；hover 只改 background-color，圆点保留。
-   **圆心必须落在绘制区内**（TP-修复5 / M4-U2）：`at center bottom` 的圆心正好在绘制区底边上，
-   圆的下半在区外被裁 → 只剩 1.33px 高的扁半圆、压在字母脚底板处，用户看到的是「没效果」。
-   抬到 `center 2.4px`、条带加高到 4.5px 后整圆可见（实测 bbox 3.33×3.17 ≈ 半径 1.6 的整圆）。 */
+/* M13 AC6①：有笔记的词——小圆点换成 2px 粗实线下划线。
+   真机反馈：「只有底下小红点，看不出来」——1.6px 半径的圆点在 3x 屏、浅色纸上几乎不可见；
+   下划线是「已标记」的通用语义，且与句末「析」的实心角标同一套「已写过笔记」语义。
+   仍然只用 `background-image`（不插 DOM、不改字号字距、不影响行盒高度=不重排段落），
+   与 `.tok[data-has-note="1"]` 原有「零布局影响」的约束一致。
+   复习模式仍由 `[data-review-mode="1"] .tok[data-has-note="1"] { background-image: none }` 清空。
+   沿革：F3 引入的 `radial-gradient` 圆点曾在 TP-修复5 / M4-U2 修过「圆心落在绘制区外被裁成半圆」
+   （抬到 `center 2.4px`、条带 4.5px）；M13 真机复验判定「修好的整圆仍然太小看不见」，故整体换下划线。 */
 .tok[data-has-note="1"] {
-  background-image: radial-gradient(circle 1.6px at center 2.4px, var(--rose) 99%, transparent 100%);
+  background-image: linear-gradient(to top, var(--rose) 0 2px, transparent 2px);
   background-repeat: no-repeat;
   background-position: 0 100%;
-  background-size: 100% 4.5px;
+  background-size: 100% 100%;
 }
 
 /* 窄屏抽屉拖动条：指针拖拽 + 键盘 ↑↓/Home/End（D10「拖动条 + 键盘可用」） */
@@ -1716,6 +1747,22 @@ button {
 .word-vocab-error {
   font-size: 12px;
   color: var(--rose);
+}
+
+/* M13 AC6②：加入生词本后要有**可见**变化。
+   复用既有 `data-vocab-state="added"`（Reader.tsx/WordCard.tsx 已有，**不新增状态字段、不改业务逻辑**）：
+   文字层面本来就有「已在生词本 / 移出」，但视觉权重太低（灰字 + 虚线），真机上像没反应。
+   这里只改绘制属性、**不动 padding/字号/字重**——词卡尺寸不变，避免牵动桌面布局。 */
+.word-vocab[data-vocab-state="added"] {
+  /* 用 inset box-shadow 画 2px 强调线，而不是 border-top：border 会加 1px 高度，
+     box-shadow 零布局占位——词卡尺寸与改前完全一致。 */
+  box-shadow: inset 0 2px 0 var(--accent);
+  border-radius: 6px;
+  background: var(--accent-soft);
+}
+
+.word-vocab[data-vocab-state="added"] .word-vocab-flag {
+  color: var(--accent);
 }
 
 /* 点回原句高亮（D6 / AC5）：2 秒后由 React 摘掉 class 与 data-highlight。
@@ -3063,6 +3110,24 @@ button {
 @media (max-width: 639px) {
   .shell {
     flex-direction: column;
+    /* M13 AC2：底部 Tab 是 fixed 脱离文档流，内容区再让出手势条高度，
+        避免页面最后一段被压在系统手势条下面。桌面 env() 恒 0。 */
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  /* M13 AC3（窄屏）：基础上边距收到 12px（手机屏更紧），再叠加状态栏安全区 */
+  .topbar {
+    padding-top: calc(12px + env(safe-area-inset-top, 0px));
+  }
+
+  /* M13 AC5：「返回文章库」不再挤压标题——按钮留在第一行，标题 `flex: 1 1 100%` 独占下一行拿满宽度 */
+  .reader-head {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .reader-headline {
+    flex: 1 1 100%;
   }
 
   .sidebar {
@@ -3072,13 +3137,14 @@ button {
     bottom: 0;
     top: auto;
     width: auto;
-    /* ponytail: Tab 栏高度写死 56px，不含 env(safe-area-inset-bottom)——天花板：上 Android 全屏时底部会被系统手势条压住；
-       升级路径：改成 min-height:56px + padding-bottom: env(safe-area-inset-bottom, 0px) 即可。 */
-    height: 56px;
+    /* M13 AC2（兑现 M9 遗留 ponytail 债务）：Tab 栏高度 = 56px 基础 + 底部安全区。
+       手势条区域由 padding-bottom 吃掉，图标/文字仍居中在 56px 基础区里
+       （border-box：height 与 padding 同步加 inset，内容区高度不变）。 */
+    height: calc(56px + env(safe-area-inset-bottom, 0px));
     flex-direction: row;
     align-items: center;
     gap: 0;
-    padding: 4px 4px 2px;
+    padding: 4px 4px calc(2px + env(safe-area-inset-bottom, 0px));
     background: var(--paper-2);
     border-right: none;
     border-top: 1px solid var(--line);
@@ -3145,8 +3211,9 @@ button {
     padding-bottom: 76px;
   }
 
-  /* 底部抽屉让出 Tab 栏高度（只调 bottom 偏移，不动 AnalysisPanel 的断点/结构/逻辑） */
+  /* 底部抽屉让出 Tab 栏高度（只调 bottom 偏移，不动 AnalysisPanel 的断点/结构/逻辑）
+     M13 AC2：Tab 栏长高了 safe-area-inset-bottom，抽屉同步上移，否则抽屉底边被 Tab 压住。 */
   .analysis-drawer {
-    bottom: 56px;
+    bottom: calc(56px + env(safe-area-inset-bottom, 0px));
   }
 }

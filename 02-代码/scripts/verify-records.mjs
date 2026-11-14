@@ -397,6 +397,70 @@ check("LNK-1 下载链接改按钮：window.open 优先 + 剪贴板回退 + 保�
   return "按钮 + 复制回退";
 });
 
+// ── M13：Android 触控与安全区（AC1~AC6）——静态契约，真机效果另由用户复验 ──
+check("M13-1 index.html viewport 含 viewport-fit=cover（env() 生效前提）", () => {
+  const html = read("index.html");
+  assert(/name="viewport"[^>]*viewport-fit=cover/.test(html), "viewport 缺 viewport-fit=cover（没有它 env(safe-area-inset-*) 恒 0）");
+  assert(/width=device-width/.test(html), "viewport 不得丢掉 width=device-width");
+  return "viewport-fit=cover";
+});
+
+check("M13-2 三处 safe-area inset：topbar 顶 / sidebar 底 / shell 底", () => {
+  const appCss = read("src/styles/app.css");
+  assert(/\.topbar\s*\{[^}]*padding:\s*calc\([^)]*env\(safe-area-inset-top/.test(appCss),
+    ".topbar 的 padding 必须含 env(safe-area-inset-top)");
+  assert(/\.sidebar\s*\{[^}]*height:\s*calc\(56px\s*\+\s*env\(safe-area-inset-bottom/.test(appCss),
+    ".sidebar（<640 底部 Tab）height 必须是 calc(56px + env(safe-area-inset-bottom))");
+  assert(/\.shell\s*\{[^}]*padding-bottom:\s*env\(safe-area-inset-bottom/.test(appCss),
+    ".shell 必须补 padding-bottom: env(safe-area-inset-bottom)");
+  const insets = [...appCss.matchAll(/env\(safe-area-inset-/g)].length;
+  assert(insets >= 4, `env(safe-area-inset-*) 实测 ${insets} 处，至少要覆盖 top/bottom 三块 + 抽屉让位`);
+  return `${insets} 处 inset`;
+});
+
+check("M13-3 .sentence-mark 热区 ≥44×44（::after 绝对定位，不改视觉与布局）", () => {
+  const appCss = read("src/styles/app.css");
+  const block = /\.sentence-mark::after\s*\{([^}]*)\}/.exec(appCss);
+  assert(block, "缺 .sentence-mark::after 热区规则（AC4 优先纯 CSS 扩展热区）");
+  const body = block[1];
+  const width = /width:\s*(\d+)px/.exec(body);
+  const height = /height:\s*(\d+)px/.exec(body);
+  assert(width && Number(width[1]) >= 44, `.sentence-mark::after 宽必须 ≥44px（实测 ${width ? width[1] : "缺"})`);
+  assert(height && Number(height[1]) >= 44, `.sentence-mark::after 高必须 ≥44px（实测 ${height ? height[1] : "缺"})`);
+  assert(/position:\s*absolute/.test(body), "热区必须绝对定位（不占布局、不重排段落）");
+  assert(/pointer-events:\s*auto/.test(body), "热区必须显式接收指针事件（默认继承）");
+  // 视觉尺寸不得被撑大：宿主本身不加 padding/宽高（角标仍只有 2 字 × 10px）
+  const host = /\.sentence-mark\s*\{([^}]*)\}/.exec(appCss);
+  assert(host && !/padding:/.test(host[1]), ".sentence-mark 宿主不得加 padding（会撑宽实心角标背景）");
+  return `${width[1]}×${height[1]} 热区`;
+});
+
+check("M13-4 <640px 时 .reader-back 独占一行，标题拿满宽度", () => {
+  const appCss = read("src/styles/app.css");
+  const block = /@media \(max-width: 639px\)\s*\{[\s\S]*?\n\}/.test(appCss);
+  assert(block, "缺 <640px 窄屏媒体查询");
+  assert(/\.reader-head\s*\{[^}]*flex-wrap:\s*wrap/.test(appCss), ".reader-head 窄屏必须 flex-wrap: wrap");
+  assert(/\.reader-headline\s*\{[^}]*flex:\s*1\s+1\s+100%/.test(appCss),
+    ".reader-headline 窄屏必须 flex: 1 1 100%（独占下一行、拿满宽度）");
+  return "reader-back 独占行";
+});
+
+check("M13-5 单词标记：有笔记＝加粗下划线；已收藏＝词卡可见强化（不加新状态字段）", () => {
+  const appCss = read("src/styles/app.css");
+  // 先剥掉注释再匹配：注释里会引用选择器文本（如复习模式的清空规则），不剥离会误命中注释
+  const css = appCss.replace(/\/\*[\s\S]*?\*\//g, "");
+  const noteBlock = /\.tok\[data-has-note="1"\]\s*\{([^}]*)\}/.exec(css);
+  assert(noteBlock, "缺 .tok[data-has-note=\"1\"] 规则");
+  assert(/linear-gradient/.test(noteBlock[1]),
+    "有笔记的单词必须改成可见的下划线（linear-gradient 兜底线），不再只有 1.6px 小圆点");
+  const addedBlock = /\.word-vocab\[data-vocab-state="added"\]\s*\{([^}]*)\}/.exec(css);
+  assert(addedBlock, "缺 .word-vocab[data-vocab-state=\"added\"] 视觉强化规则（复用既有字段，不新增状态）");
+  assert(/border|background|box-shadow/.test(addedBlock[1]), "已收藏态必须给出可见的边框/底色变化");
+  // 反向断言：不得引入新的状态字段（数据契约由 M2/TP-修复1 定死）
+  assert(!/data-vocab-state=\{?["'](?!none|added)/.test(css), "data-vocab-state 只允许 none|added");
+  return "下划线 + 已收藏底色";
+});
+
 console.log(`\nM6 门禁：${passed} 通过 / ${failures.length} 失败`);
 if (failures.length > 0) {
   for (const failure of failures) console.error(`  - ${failure}`);

@@ -2,7 +2,9 @@
 <html lang="zh-CN" data-theme="light">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- viewport-fit=cover（M13 AC1）：让 WebView 内容铺满全屏，并使 env(safe-area-inset-*) 返回真实值；
+         没有它 Android 上 env() 恒为 0，app.css 里的顶部/底部安全区补白全部失效。 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>句读</title>
   </head>
   <body>
