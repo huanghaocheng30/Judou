@@ -9,6 +9,7 @@
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D4?logo=windows&logoColor=white)](#下载安装)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](#下载安装)
 [![Offline](https://img.shields.io/badge/100%25-离线可用-success)](#设计取舍)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Tests](https://img.shields.io/badge/cargo_test-73_passed-success)](02-代码/README.md)
 [![Gates](https://img.shields.io/badge/质量门禁-18_项全绿-success)](02-代码/README.md)
 
@@ -207,9 +208,11 @@ cd src-tauri; cargo test   # 73 passed
 - 本项目**仅供个人学习**，不得用于商业用途
 - 你创建的笔记与生词归你所有
 
-## 代码许可
+## 许可
 
-代码部分暂未声明开源许可。若需引用/二次开发，请先开 issue 联系。
+**代码**：[MIT](LICENSE) —— 可自由使用、修改、分发、商用，保留版权声明即可。
+
+**内置内容**（CET4 真题原文、题目、答案）：版权归原出处所有，仅供个人学习研究，**不得商用**。详见 [LICENSE](LICENSE) 末尾的 Content Notice。
 
 ---
 
