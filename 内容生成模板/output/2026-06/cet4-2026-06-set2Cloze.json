@@ -1,0 +1,4820 @@
+{
+  "sourceKey": "cet4-2026-06-set2Cloze",
+  "articleId": "set2Cloze",
+  "packVersion": "2026.11.13",
+  "meta": {
+    "examYear": 2026,
+    "examMonth": 6,
+    "setNo": 2,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "Coffee Bitterness and Genetic Sensitivity",
+    "wordCount": 256
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 129,
+          "text": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "surface": "sound",
+              "normalized": "sound",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 23,
+              "surface": "surprising",
+              "normalized": "surprising",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 24,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 35,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 39,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 43,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 58,
+              "surface": "supersensitive",
+              "normalized": "supersensitive",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 61,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 70,
+              "surface": "coffee's",
+              "normalized": "coffee's",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 77,
+              "surface": "bitter",
+              "normalized": "bitter",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 83,
+              "surface": "taste",
+              "normalized": "taste",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 92,
+              "surface": "actually",
+              "normalized": "actually",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 98,
+              "surface": "drink",
+              "normalized": "drink",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 103,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 106,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 109,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 110,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 111,
+              "end": 112,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 116,
+              "surface": "new",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 122,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 128,
+              "surface": "finds",
+              "normalized": "finds",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 129,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这听上去也许令人惊讶，但对咖啡苦味超级敏感的人实际上喝得更多，一项新研究发现。",
+            "translationNatural": "说来可能有点反直觉：一项新研究发现，越能尝出咖啡苦味的人，咖啡反而喝得越多。",
+            "structMarkup": "It _may sound surprising_, but 【people who are supersensitive to coffee's bitter taste】 _actually drink more of it_, (a new study finds).",
+            "structureSummary": "but 连接两个并列分句：前为「It + may sound + 表语 surprising」主系表结构，后为「主语 people + who 定语从句 + 谓语 drink more of it」，句末 a new study finds 作评注性插入分句。",
+            "components": [
+              {
+                "part": "may sound surprising",
+                "role": "谓语",
+                "note": "情态动词 may + 系动词 sound + 形容词表语 surprising，意为「听上去可能令人惊讶」，为下文的转折蓄势。"
+              },
+              {
+                "part": "people who are supersensitive to coffee's bitter taste",
+                "role": "主语",
+                "note": "后一分句主语，核心词 people，由 who 定语从句限定为「对咖啡苦味超级敏感的人」。"
+              },
+              {
+                "part": "who are supersensitive to coffee's bitter taste",
+                "role": "定语从句",
+                "note": "who 修饰 people；be supersensitive to 意为「对……极度敏感」，coffee's 为名词所有格作定语。"
+              },
+              {
+                "part": "actually drink more of it",
+                "role": "谓语",
+                "note": "谓语 + 宾语，more of it 中 it 回指 coffee，副词 actually 强调结果与常识相反。"
+              },
+              {
+                "part": "a new study finds",
+                "role": "插入语",
+                "note": "置于句末的评注性分句，交代结论的来源，去掉后句子主干依然完整。"
+              }
+            ],
+            "clauses": [
+              "定语从句「who are supersensitive to coffee's bitter taste」：who 修饰 people；be supersensitive to 意为「对……极度敏感」，coffee's 为名词所有格作定语。",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "surprising",
+                "meaning": "令人惊讶的、出人意料的、意外的",
+                "usage": "注意区分：surprising（令人惊讶的，指事物）/ surprised（感到惊讶的，指人，be surprised at/by）/ surprisingly（副词）/ -ed/-ing 方向相反。",
+                "example": "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds. 说来可能有点反直觉：一项新研究发现，越能尝出咖啡苦味的人，咖啡反而喝得越多。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "actually",
+                "meaning": "实际上、事实上；居然（表出乎意料）",
+                "usage": "注意区分：actually（实际上）/ currently（目前）/ in fact（事实上）。常见搭配：actually, ... / not actually。",
+                "example": "In reality the female actually did most of it. 现实中主要还是女性在做。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：surprising（令人惊讶的，指事物）/ surprised（感到惊讶的，指人，be surprised at/by）/ surprisingly（副词）/ -ed/-ing 方向相反。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。"
+            ],
+            "paragraphRole": "开篇抛出全文最反直觉的核心发现：对咖啡苦味越敏感的人反而喝得越多，用 surprising 设置悬念。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "This sensitivity isn't 26 a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 142,
+          "text": "This sensitivity isn't 26 a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 16,
+              "surface": "sensitivity",
+              "normalized": "sensitivity",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "isn't",
+              "normalized": "isn't",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 26,
+              "end": 27,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 34,
+              "surface": "matter",
+              "normalized": "matter",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 43,
+              "surface": "taste",
+              "normalized": "taste",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 44,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 51,
+              "surface": "either",
+              "normalized": "either",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 52,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 53,
+              "end": 56,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 63,
+              "surface": "rather",
+              "normalized": "rather",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 66,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 77,
+              "surface": "influenced",
+              "normalized": "influenced",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 82,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 91,
+              "surface": "person's",
+              "normalized": "person's",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 99,
+              "surface": "genetic",
+              "normalized": "genetic",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 106,
+              "surface": "makeup",
+              "normalized": "makeup",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 107,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 108,
+              "end": 111,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 123,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 128,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 131,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 135,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 141,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 142,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这种敏感性也并不 26 只是口味问题，而是受一个人的基因构成所影响，研究人员在研究中说。",
+            "translationNatural": "研究者还指出，这种敏感可不只是「嘴刁」，背后其实由基因决定。",
+            "structMarkup": "【This sensitivity】 _isn't 26 a matter of taste_, (either), _but rather is influenced by a person's genetic makeup_, (the researchers said in the study).",
+            "structureSummary": "主系表 + but rather 引出第二组并列谓语：主语 This sensitivity 后接 isn't 26 a matter of taste 与 is influenced by...，either 用于否定句末表「也」，句末 the researchers said 为插入分句；26 空需副词。",
+            "components": [
+              {
+                "part": "This sensitivity",
+                "role": "主语",
+                "note": "指代上句的苦味超级敏感性，作全句主语，谓语用单数 isn't。"
+              },
+              {
+                "part": "isn't 26 a matter of taste",
+                "role": "谓语",
+                "note": "否定式系表结构作第一组并列谓语；26 空位于 isn't 与表语之间，需填副词 simply，构成「并不只是口味问题」。"
+              },
+              {
+                "part": "but rather is influenced by a person's genetic makeup",
+                "role": "谓语",
+                "note": "but rather 引出第二组并列谓语，被动语态 is influenced by，说明真正的影响因素是基因。"
+              },
+              {
+                "part": "by a person's genetic makeup",
+                "role": "介词短语",
+                "note": "by 引出被动语态的施事，a person's 为所有格，genetic makeup 意为「基因构成」。"
+              },
+              {
+                "part": "either",
+                "role": "状语",
+                "note": "用于否定句末表示「也（不）」，承接上句 surprising 的语气。"
+              },
+              {
+                "part": "the researchers said in the study",
+                "role": "插入语",
+                "note": "句末转述分句，点明信息来源；in the study 限定「在该研究中」。"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "含转折/取舍副词，用来修正或替代前一句的说法。"
+            ],
+            "phrases": [
+              {
+                "text": "matter",
+                "meaning": "要紧、有影响；事情",
+                "usage": "常见搭配：it doesn't matter。",
+                "example": "This sensitivity isn't 26 a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study. 研究者还指出，这种敏感可不只是「嘴刁」，背后其实由基因决定。"
+              },
+              {
+                "text": "either",
+                "meaning": "两者之一（either...or）；也不（否定句末）",
+                "usage": "注意区分：either...or（两者之一）/ neither...nor（两者都不）/ either（也，否定句末）。常见搭配：either ... or / not ... either。",
+                "example": "Either way, the result is the same. 无论哪种方式，结果一样。"
+              },
+              {
+                "text": "but rather",
+                "meaning": "相当；rather than 而不是",
+                "usage": "常见搭配：rather than / but rather。",
+                "example": "This sensitivity isn't 26 a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study. 研究者还指出，这种敏感可不只是「嘴刁」，背后其实由基因决定。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "instead 是副词，不能直接连接两个名词；instead of 才是介词短语。"
+            ],
+            "paragraphRole": "承接首段，进一步说明这种敏感性并非单纯味觉、而由基因决定，并借 26 空考查副词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. \"The 27 results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive 28 brought out by caffeine.\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 161,
+          "text": "\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "surface": "You'd",
+              "normalized": "you'd",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "surface": "expect",
+              "normalized": "expect",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 33,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 46,
+              "surface": "particularly",
+              "normalized": "particularly",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 56,
+              "surface": "sensitive",
+              "normalized": "sensitive",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 59,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 63,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 70,
+              "surface": "bitter",
+              "normalized": "bitter",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 76,
+              "surface": "taste",
+              "normalized": "taste",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 79,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 88,
+              "surface": "caffeine",
+              "normalized": "caffeine",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 94,
+              "surface": "would",
+              "normalized": "would",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 100,
+              "surface": "drink",
+              "normalized": "drink",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 105,
+              "surface": "less",
+              "normalized": "less",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 112,
+              "surface": "coffee",
+              "normalized": "coffee",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 113,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 113,
+              "end": 114,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 115,
+              "end": 119,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 125,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 132,
+              "surface": "senior",
+              "normalized": "senior",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 143,
+              "surface": "researcher",
+              "normalized": "researcher",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 151,
+              "surface": "Marilyn",
+              "normalized": "marilyn",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 160,
+              "surface": "Cornelis",
+              "normalized": "cornelis",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 161,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "「你或许会以为，对咖啡因苦味特别敏感的人会少喝咖啡，」该研究的资深研究员 Marilyn Cornelis 说。",
+            "translationNatural": "资深研究员玛丽莲·科内利斯说：「按常理你会觉得，越怕咖啡因苦味的人，咖啡该喝得越少。」",
+            "structMarkup": "{\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\"} _said study senior researcher Marilyn Cornelis_.",
+            "structureSummary": "带引号直接引语作 said 的宾语，引语内含 that 宾语从句（expect 的宾语），从句主语 people 后接 who 定语从句；句末为倒装式转述主谓 said...。",
+            "components": [
+              {
+                "part": "\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\"",
+                "role": "宾语从句",
+                "note": "整句带引号的直接引语作 said 的宾语；You'd = You would，expect 后接 that 从句。"
+              },
+              {
+                "part": "that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee",
+                "role": "宾语从句",
+                "note": "that 引导作 expect 的宾语，陈述「敏感者会少喝」这一预期，与研究发现正好相反。"
+              },
+              {
+                "part": "who are particularly sensitive to the bitter taste of caffeine",
+                "role": "定语从句",
+                "note": "who 修饰 people；particularly sensitive to 意为「对……特别敏感」。"
+              },
+              {
+                "part": "would drink less coffee",
+                "role": "谓语",
+                "note": "that 从句的谓语，would 表「按常理会」，less coffee 与后文 drink more 形成对照。"
+              },
+              {
+                "part": "said study senior researcher Marilyn Cornelis",
+                "role": "谓语",
+                "note": "引语后倒装式转述主谓（said + 说话人），主语为带头衔的专有名词，是新闻引语常见语序。"
+              }
+            ],
+            "clauses": [
+              "宾语从句「\"You'd expect that people who are particularly sensitive to the bitter」：整句带引号的直接引语作 said 的宾语；You'd = You would，expect 后接 that 从句。",
+              "宾语从句「that people who are particularly sensitive to the bitter taste of caff」：that 引导作 expect 的宾语，陈述「敏感者会少喝」这一预期，与研究发现正好相反。",
+              "定语从句「who are particularly sensitive to the bitter taste of caffeine」：who 修饰 people；particularly sensitive to 意为「对……特别敏感」。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "coffee",
+                "meaning": "咖啡（不可数；一杯咖啡可数）",
+                "usage": "注意区分：coffee（不可数）/ a coffee（一杯咖啡）。常见搭配：a cup of coffee / coffee beans。",
+                "example": "Coffee prices have risen sharply. 咖啡价格大幅上涨。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：coffee（不可数）/ a coffee（一杯咖啡）。"
+            ],
+            "paragraphRole": "借研究者之口先摆出「敏感者应少喝」的常识预期，为下句用 opposite results 反转作铺垫。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 162,
+          "end": 343,
+          "text": "\"The 27 results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive 28 brought out by caffeine.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 1,
+              "end": 4,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 8,
+              "end": 15,
+              "surface": "results",
+              "normalized": "results",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 18,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 28,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "suggest",
+              "normalized": "suggest",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 43,
+              "surface": "coffee",
+              "normalized": "coffee",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 53,
+              "surface": "consumers",
+              "normalized": "consumers",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 61,
+              "surface": "acquire",
+              "normalized": "acquire",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 63,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 69,
+              "surface": "taste",
+              "normalized": "taste",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 73,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 79,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 87,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 97,
+              "surface": "detect",
+              "normalized": "detect",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 101,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 112,
+              "surface": "bitterness",
+              "normalized": "bitterness",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 115,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 124,
+              "surface": "caffeine",
+              "normalized": "caffeine",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 128,
+              "surface": "due",
+              "normalized": "due",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 131,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 135,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 143,
+              "surface": "learned",
+              "normalized": "learned",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 152,
+              "surface": "positive",
+              "normalized": "positive",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 155,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 156,
+              "end": 163,
+              "surface": "brought",
+              "normalized": "brought",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 167,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 170,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 171,
+              "end": 179,
+              "surface": "caffeine",
+              "normalized": "caffeine",
+              "isWord": true
+            },
+            {
+              "start": 179,
+              "end": 180,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 180,
+              "end": 181,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "「我们研究的 27 结果提示，咖啡消费者会养成一种口味、或一种察觉咖啡因苦味的能力，这是由于咖啡因引出的习得性正向 28。」",
+            "translationNatural": "而研究结果恰恰相反：正因为咖啡因带来后天的正向强化，喝咖啡的人反而品出了滋味、也练就了分辨苦味的本事。",
+            "structMarkup": "\"【The 27 results of our study】 _suggest_ {coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine} (due to the learned positive 28 brought out by caffeine).\"",
+            "structureSummary": "主谓 + 省略 that 的宾语从句；从句主语 coffee consumers，谓语 acquire 接 or 连接的并列宾语，due to 介词短语作原因状语，其中 28 空需名词、brought out by caffeine 作后置定语。",
+            "components": [
+              {
+                "part": "The 27 results of our study",
+                "role": "主语",
+                "note": "主语核心词 results；27 空需形容词，opposite 呼应上句常识预期，意为「相反的结果」。"
+              },
+              {
+                "part": "suggest",
+                "role": "谓语",
+                "note": "后接省略 that 的宾语从句，意为「表明、提示」。"
+              },
+              {
+                "part": "coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine",
+                "role": "宾语从句",
+                "note": "省略 that 作 suggest 的宾语；acquire 接 or 连接的两个并列宾语。"
+              },
+              {
+                "part": "due to the learned positive 28 brought out by caffeine",
+                "role": "状语",
+                "note": "due to 介词短语作原因状语；28 空需名词 reinforcement（强化），learned 与 brought out by caffeine 作前后定语。"
+              },
+              {
+                "part": "brought out by caffeine",
+                "role": "后置定语",
+                "note": "过去分词短语修饰 28 空所指的名词，意为「由咖啡因引发出来的」。"
+              }
+            ],
+            "clauses": [
+              "宾语从句「coffee consumers acquire a taste for or an ability to detect the bitte」：省略 that 作 suggest 的宾语；acquire 接 or 连接的两个并列宾语。",
+              "本句主干为「主谓 + 省略 that 的宾语从句；从句主语 coffee consumers，谓语 acquire 接 or 连接的并列宾语，due to 介词短语作原因状语，其中 28 空需名词、brought out by caffeine 作后置定语。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "due to",
+                "meaning": "由于、因为",
+                "usage": "介词短语，后接名词；比 because of 更书面，常作表语或状语。",
+                "example": "The delay was due to heavy rain. 延误是因为大雨。"
+              },
+              {
+                "text": "results",
+                "meaning": "结果（result 的复数）；成绩",
+                "usage": "注意区分：results（复数）/ result（单数）。常见搭配：the results show / test results。",
+                "example": "The results suggest a clear difference. 结果表明有明显差异。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              }
+            ],
+            "pitfalls": [
+              "due to 后接名词，不能接句子。",
+              "注意区分：results（复数）/ result（单数）。",
+              "注意区分：study（研究，可数）/ research（研究，不可数）。"
+            ],
+            "paragraphRole": "用 opposite 的结果推翻上句预期，点明「后天正向强化」这一机制，同时设 27、28 两空。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "Put another way, people who have a 29 ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances, the scientists said.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 136,
+          "text": "Put another way, people who have a 29 ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Put",
+              "normalized": "put",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "surface": "another",
+              "normalized": "another",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "surface": "way",
+              "normalized": "way",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 17,
+              "end": 23,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 32,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 34,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 38,
+              "end": 45,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 54,
+              "surface": "taste",
+              "normalized": "taste",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 69,
+              "surface": "bitterness",
+              "normalized": "bitterness",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 72,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 79,
+              "surface": "coffee",
+              "normalized": "coffee",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 85,
+              "surface": "learn",
+              "normalized": "learn",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 88,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 98,
+              "surface": "associate",
+              "normalized": "associate",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 100,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 100,
+              "end": 104,
+              "surface": "good",
+              "normalized": "good",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 111,
+              "surface": "things",
+              "normalized": "things",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 116,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 119,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 120,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 120,
+              "end": 121,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 122,
+              "end": 130,
+              "surface": "Cornelis",
+              "normalized": "cornelis",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 135,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 136,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "换句话说，拥有 29 能力去尝出咖啡苦味的人，学会了把「好东西与它」联系在一起，Cornelis 说。",
+            "translationNatural": "换个说法：尝苦味更灵敏的人，反而把咖啡和「好事」绑到了一起——科内利斯这样解释。",
+            "structMarkup": "(Put another way), 【people who have a 29 ability to taste the bitterness of coffee】 _learn to associate \"good things with it,\"_ (Cornelis said).",
+            "structureSummary": "Put another way 为句首评注性状语 + 主谓宾：主语 people 含 who 定语从句，谓语 learn to associate...，句末 Cornelis said 为转述插入分句；29 空需形容词修饰 ability。",
+            "components": [
+              {
+                "part": "Put another way",
+                "role": "状语",
+                "note": "过去分词短语作评注性状语，意为「换句话说」，把上句的学术表述换成通俗说法。"
+              },
+              {
+                "part": "people who have a 29 ability to taste the bitterness of coffee",
+                "role": "主语",
+                "note": "主语核心词 people；who 定语从句限定，29 空需形容词 heightened，表示「被增强的、更敏锐的」能力。"
+              },
+              {
+                "part": "who have a 29 ability to taste the bitterness of coffee",
+                "role": "定语从句",
+                "note": "who 修饰 people；to taste... 不定式作 ability 的后置定语。"
+              },
+              {
+                "part": "learn to associate \"good things with it,\"",
+                "role": "谓语",
+                "note": "learn 后接不定式；associate A with B 意为「把 A 与 B 联系起来」，引号内为被关联的内容。"
+              },
+              {
+                "part": "Cornelis said",
+                "role": "插入语",
+                "note": "句末转述主谓，点明说话人，去掉后不影响主干。"
+              }
+            ],
+            "clauses": [
+              "定语从句「who have a 29 ability to taste the bitterness of coffee」：who 修饰 people；to taste... 不定式作 ability 的后置定语。",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "ability",
+                "meaning": "能力（可数/不可数）；才能",
+                "usage": "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。常见搭配：the ability to do sth / natural ability。",
+                "example": "The ability to focus is underrated. 专注的能力被低估了。"
+              },
+              {
+                "text": "coffee",
+                "meaning": "咖啡（不可数；一杯咖啡可数）",
+                "usage": "注意区分：coffee（不可数）/ a coffee（一杯咖啡）。常见搭配：a cup of coffee / coffee beans。",
+                "example": "Coffee prices have risen sharply. 咖啡价格大幅上涨。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：way（方法）/ road（道路）/ method（方法，正式）。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。"
+            ],
+            "paragraphRole": "把上句的「习得性强化」翻成通俗版：敏感者把苦味与好事关联，并以 29 空考形容词。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 137,
+          "end": 288,
+          "text": "This finding is surprising, given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances, the scientists said.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 12,
+              "surface": "finding",
+              "normalized": "finding",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 26,
+              "surface": "surprising",
+              "normalized": "surprising",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 27,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 28,
+              "end": 33,
+              "surface": "given",
+              "normalized": "given",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 38,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 49,
+              "surface": "bitterness",
+              "normalized": "bitterness",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 55,
+              "surface": "often",
+              "normalized": "often",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 62,
+              "surface": "serves",
+              "normalized": "serves",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 67,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 75,
+              "surface": "warning",
+              "normalized": "warning",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 85,
+              "surface": "mechanism",
+              "normalized": "mechanism",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 88,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 91,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 92,
+              "end": 98,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 101,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 106,
+              "surface": "spit",
+              "normalized": "spit",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 110,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 118,
+              "surface": "harmful",
+              "normalized": "harmful",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 129,
+              "surface": "substances",
+              "normalized": "substances",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 130,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 131,
+              "end": 134,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 145,
+              "surface": "scientists",
+              "normalized": "scientists",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 150,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 151,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这一发现令人惊讶，鉴于苦味常常充当一种警告机制，去 30 人们把有害物质吐出来，科学家们说。",
+            "translationNatural": "科学家们说，这结果才叫意外：苦味本来是套预警机制，按理该让人把有害东西吐掉才对。",
+            "structMarkup": "【This finding】 _is surprising_, {given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances}, (the scientists said).",
+            "structureSummary": "主系表 + given that 引导的原因状语从句 + 句末转述分句；从句内含 serve as... 与「to 30 people to spit out...」结构；30 空需动词原形。",
+            "components": [
+              {
+                "part": "This finding",
+                "role": "主语",
+                "note": "指代上句「敏感者反把苦味与好事关联」的发现，谓语用单数 is。"
+              },
+              {
+                "part": "is surprising",
+                "role": "谓语",
+                "note": "系动词 is + 形容词表语，先给出「令人惊讶」的评价，再由从句解释缘由。"
+              },
+              {
+                "part": "given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances",
+                "role": "状语从句",
+                "note": "given that 引导原因状语从句，解释为何说 surprising；30 空需动词原形 convince，构成 convince sb to do。"
+              },
+              {
+                "part": "a warning mechanism",
+                "role": "表语",
+                "note": "serve as 后接的名词短语，说明苦味的天然功能是「警告机制」。"
+              },
+              {
+                "part": "to spit out harmful substances",
+                "role": "状语",
+                "note": "不定式说明「把有害物质吐出来」这一本能反应，spit out 为短语动词。"
+              },
+              {
+                "part": "the scientists said",
+                "role": "插入语",
+                "note": "句末转述分句，交代评论出自科学家之口。"
+              }
+            ],
+            "clauses": [
+              "状语从句「given that bitterness often serves as a warning mechanism to 30 people」：given that 引导原因状语从句，解释为何说 surprising；30 空需动词原形 convince，构成 convince sb to do。",
+              "本句主干为「主系表 + given that 引导的原因状语从句 + 句末转述分句；从句内含 serve as... 与「to 30 people to spit out...」结构；30 空需动词原形。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "finding",
+                "meaning": "研究发现、结论（可数）；find 的现在分词",
+                "usage": "注意区分：finding（研究发现）/ findings（多项结论）/ find（发现）。常见搭配：the findings suggest / research findings。",
+                "example": "That finding suggests the quantified self is limited. 这一发现表明量化自我是有限的。"
+              },
+              {
+                "text": "surprising",
+                "meaning": "令人惊讶的、出人意料的、意外的",
+                "usage": "注意区分：surprising（令人惊讶的，指事物）/ surprised（感到惊讶的，指人，be surprised at/by）/ surprisingly（副词）/ -ed/-ing 方向相反。",
+                "example": "This finding is surprising, given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances, the scientists said. 科学家们说，这结果才叫意外：苦味本来是套预警机制，按理该让人把有害东西吐掉才对。"
+              },
+              {
+                "text": "given that",
+                "meaning": "give 的过去分词；考虑到（介词）；既定的",
+                "usage": "注意区分：given that（考虑到，连词）/ given（给定的，形容词）。常见搭配：given that / given the fact。",
+                "example": "Given that data is limited, instinct helps. 考虑到数据有限，直觉有帮助。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：finding（研究发现）/ findings（多项结论）/ find（发现）。",
+              "注意区分：surprising（令人惊讶的，指事物）/ surprised（感到惊讶的，指人，be surprised at/by）/ surprisingly（副词）/ -ed/-ing 方向相反。",
+              "注意区分：given that（考虑到，连词）/ given（给定的，形容词）。"
+            ],
+            "paragraphRole": "用 given that 补出「苦味本应警告人吐掉有害物」的常识，反衬发现之反常，并设 30 空。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "Researchers conducted the study to understand how genetics influences people's 31 of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 172,
+          "text": "Researchers conducted the study to understand how genetics influences people's 31 of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 11,
+              "surface": "Researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 21,
+              "surface": "conducted",
+              "normalized": "conducted",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 31,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 45,
+              "surface": "understand",
+              "normalized": "understand",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 49,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 58,
+              "surface": "genetics",
+              "normalized": "genetics",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 69,
+              "surface": "influences",
+              "normalized": "influences",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 78,
+              "surface": "people's",
+              "normalized": "people's",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 82,
+              "end": 84,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 88,
+              "surface": "tea",
+              "normalized": "tea",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 90,
+              "end": 96,
+              "surface": "coffee",
+              "normalized": "coffee",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 100,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 108,
+              "surface": "alcohol",
+              "normalized": "alcohol",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 114,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 119,
+              "surface": "tend",
+              "normalized": "tend",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 122,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 128,
+              "surface": "taste",
+              "normalized": "taste",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 135,
+              "surface": "bitter",
+              "normalized": "bitter",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 136,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 137,
+              "end": 141,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 146,
+              "surface": "lead",
+              "normalized": "lead",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 157,
+              "surface": "researcher",
+              "normalized": "researcher",
+              "isWord": true
+            },
+            {
+              "start": 158,
+              "end": 161,
+              "surface": "Jue",
+              "normalized": "jue",
+              "isWord": true
+            },
+            {
+              "start": 162,
+              "end": 167,
+              "surface": "Sheng",
+              "normalized": "sheng",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 171,
+              "surface": "Ong",
+              "normalized": "ong",
+              "isWord": true
+            },
+            {
+              "start": 171,
+              "end": 172,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "研究人员开展这项研究，是为了弄懂基因如何影响人们对茶、咖啡和酒这类往往带苦味的饮品的 31，首席研究员 Jue Sheng Ong 说。",
+            "translationNatural": "首席研究员 Jue Sheng Ong 说，做这项研究就是想搞清楚：基因到底怎样左右人们对茶、咖啡、酒这些偏苦饮品的摄入。",
+            "structMarkup": "【Researchers】 _conducted the study_ (to understand how genetics influences people's 31 of tea, coffee and alcohol) {which tend to taste bitter}, _said lead researcher Jue Sheng Ong_.",
+            "structureSummary": "主谓宾 + to understand 不定式目的状语 + how 引导的宾语从句 + which 定语从句 + 句末转述分句；31 空需名词作 influences 的宾语。",
+            "components": [
+              {
+                "part": "Researchers",
+                "role": "主语",
+                "note": "复数名词作主语，谓语用过去式 conducted。"
+              },
+              {
+                "part": "conducted the study",
+                "role": "谓语",
+                "note": "conduct a study 意为「开展一项研究」。"
+              },
+              {
+                "part": "to understand how genetics influences people's 31 of tea, coffee and alcohol",
+                "role": "状语",
+                "note": "不定式作目的状语；how 引导宾语从句，31 空需名词 consumption，表示「对……的摄入 / 消费」。"
+              },
+              {
+                "part": "how genetics influences people's 31 of tea, coffee and alcohol",
+                "role": "宾语从句",
+                "note": "how 引导作 understand 的宾语；people's 为所有格，31 空是 influences 的宾语中心词。"
+              },
+              {
+                "part": "which tend to taste bitter",
+                "role": "定语从句",
+                "note": "which 修饰 tea, coffee and alcohol；tend to do 意为「往往」，taste 为系动词后接形容词 bitter。"
+              },
+              {
+                "part": "said lead researcher Jue Sheng Ong",
+                "role": "谓语",
+                "note": "句末倒装式转述主谓，主语为带头衔的人名。"
+              }
+            ],
+            "clauses": [
+              "宾语从句「how genetics influences people's 31 of tea, coffee and alcohol」：how 引导作 understand 的宾语；people's 为所有格，31 空是 influences 的宾语中心词。",
+              "定语从句「which tend to taste bitter」：which 修饰 tea, coffee and alcohol；tend to do 意为「往往」，taste 为系动词后接形容词 bitter。"
+            ],
+            "phrases": [
+              {
+                "text": "tend to",
+                "meaning": "往往会、倾向于",
+                "usage": "后接动词原形，表示一般性倾向。",
+                "example": "People tend to overestimate risk. 人们往往高估风险。"
+              },
+              {
+                "text": "conducted",
+                "meaning": "实施、进行（研究/调查）；指挥、引导（conduct 的过去式/过去分词）",
+                "usage": "注意区分：conduct（v. 实施、进行 /kənˈdʌkt/；n. 行为 /ˈkɒndʌkt/）/ conduct a survey/an experiment（做调查/实验，正式）/ conduct 与 carry out（同义）/ conductor（指挥；导体；售票员）。",
+                "example": "Researchers conducted the study to understand how genetics influences people's 31 of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong. 首席研究员 Jue Sheng Ong 说，做这项研究就是想搞清楚：基因到底怎样左右人们对茶、咖啡、酒这些偏苦饮品的摄入。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              }
+            ],
+            "pitfalls": [
+              "tend to 后接动词原形，不接动名词。",
+              "注意区分：conduct（v. 实施、进行 /kənˈdʌkt/；n. 行为 /ˈkɒndʌkt/）/ conduct a survey/an experiment（做调查/实验，正式）/ conduct 与 carry out（同义）/ conductor（指挥；导体；售票员）。",
+              "注意区分：study（研究，可数）/ research（研究，不可数）。"
+            ],
+            "paragraphRole": "交代研究动机：探究基因如何左右人们对苦味饮品的摄入，并借 31 空考名词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "\"While all bitter flavors may seem the same, we 32 the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine 33,\" Ong told Live Science. \"The degree to which we find these flavors bitter is, in part, determined by your genes.\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 145,
+          "text": "\"While all bitter flavors may seem the same, we 32 the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine 33,\" Ong told Live Science.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "surface": "While",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 17,
+              "surface": "bitter",
+              "normalized": "bitter",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 25,
+              "surface": "flavors",
+              "normalized": "flavors",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "seem",
+              "normalized": "seem",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 38,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "same",
+              "normalized": "same",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 44,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 47,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 50,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 65,
+              "surface": "bitterness",
+              "normalized": "bitterness",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 77,
+              "surface": "Brussels",
+              "normalized": "brussels",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 85,
+              "surface": "sprouts",
+              "normalized": "sprouts",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 91,
+              "surface": "(抱子甘蓝)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 91,
+              "end": 92,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 93,
+              "end": 100,
+              "surface": "quinine",
+              "normalized": "quinine",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 104,
+              "surface": "(奎宁)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 105,
+              "end": 108,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 117,
+              "surface": "caffeine",
+              "normalized": "caffeine",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 121,
+              "surface": "33,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 121,
+              "end": 122,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 123,
+              "end": 126,
+              "surface": "Ong",
+              "normalized": "ong",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 131,
+              "surface": "told",
+              "normalized": "told",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 136,
+              "surface": "Live",
+              "normalized": "live",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 144,
+              "surface": "Science",
+              "normalized": "science",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 145,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "「虽然所有苦味尝起来似乎都一样，但我们 32 抱子甘蓝、奎宁和咖啡因的苦味 33，」Ong 告诉《生活科学》。",
+            "translationNatural": "Ong 对 Live Science 说：「别看苦味好像都一个样，抱子甘蓝、奎宁、咖啡因这三种苦，我们其实是分开来感知的。」",
+            "structMarkup": "\"{While all bitter flavors may seem the same}, {we 32 the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine 33},\" (Ong told Live Science).",
+            "structureSummary": "直接引语内含 While 让步状语从句 + 主谓宾；主句 32 空需动词原形 perceive，33 空需副词 separately，句末 Ong told Live Science 为转述分句；括号内为试卷中文注释。",
+            "components": [
+              {
+                "part": "While all bitter flavors may seem the same",
+                "role": "状语从句",
+                "note": "While 引导让步状语从句，意为「尽管」；seem 为系动词，后接 the same 作表语。"
+              },
+              {
+                "part": "we 32 the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine 33",
+                "role": "宾语从句",
+                "note": "直接引语的主句作 told 的宾语；32 空需动词原形 perceive 作谓语，33 空需副词 separately 作状语。"
+              },
+              {
+                "part": "the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine 33",
+                "role": "宾语",
+                "note": "perceive 的宾语，列举三种苦味来源；括号内为试卷所附中文注释。"
+              },
+              {
+                "part": "may seem the same",
+                "role": "谓语",
+                "note": "情态动词 may + 系动词 seem + 表语 the same，构成从句谓语。"
+              },
+              {
+                "part": "Ong told Live Science",
+                "role": "插入语",
+                "note": "句末转述主谓，Live Science 为媒体名，点明采访对象。"
+              }
+            ],
+            "clauses": [
+              "状语从句「While all bitter flavors may seem the same」：While 引导让步状语从句，意为「尽管」；seem 为系动词，后接 the same 作表语。",
+              "宾语从句「we 32 the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffei」：直接引语的主句作 told 的宾语；32 空需动词原形 perceive 作谓语，33 空需副词 separately 作状语。",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。"
+            ],
+            "phrases": [
+              {
+                "text": "the same",
+                "meaning": "同样的",
+                "usage": "same 前通常有 the；the same as 表「与……相同」。",
+                "example": "The same thing happened last year. 去年也发生了同样的事。"
+              },
+              {
+                "text": "flavors",
+                "meaning": "味道、风味、滋味、特色、情味；给…调味（英式拼作 flavour；也可喻指「特色、风味」）（flavor 的复数/三单形式）",
+                "usage": "注意区分：flavors（复数/三单）/ flavor（原形）。",
+                "example": "\"While all bitter flavors may seem the same, we 32 the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine 33,\" Ong told Live Science. Ong 对 Live Science 说：「别看苦味好像都一个样，抱子甘蓝、奎宁、咖啡因这三种苦，我们其实是分开来感知的。」"
+              },
+              {
+                "text": "seem",
+                "meaning": "似乎、好像（seem + adj. / seem to do）",
+                "usage": "注意区分：seem（似乎）/ appear（显得，更正式）/ look（看起来）。常见搭配：seem to be / it seems that。",
+                "example": "People who skip leisure seem higher in status. 跳过休闲的人似乎地位更高。"
+              }
+            ],
+            "pitfalls": [
+              "same 前一般要加 the；比较对象用 as 不用 with。",
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。"
+            ],
+            "paragraphRole": "借 Ong 之口说明不同来源的苦味被分别感知，为下句「基因决定苦感程度」张本，并设 32、33 两空。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 146,
+          "end": 235,
+          "text": "\"The degree to which we find these flavors bitter is, in part, determined by your genes.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 1,
+              "end": 4,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 11,
+              "surface": "degree",
+              "normalized": "degree",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 28,
+              "surface": "find",
+              "normalized": "find",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 34,
+              "surface": "these",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 42,
+              "surface": "flavors",
+              "normalized": "flavors",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 49,
+              "surface": "bitter",
+              "normalized": "bitter",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 61,
+              "surface": "part",
+              "normalized": "part",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 63,
+              "end": 73,
+              "surface": "determined",
+              "normalized": "determined",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 81,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 87,
+              "surface": "genes",
+              "normalized": "genes",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 88,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "「我们觉得这些味道有多苦，在某种程度上是由你的基因决定的。」",
+            "translationNatural": "「至于这些味道到底有多苦，一部分还得看各人的基因。」",
+            "structMarkup": "\"【The degree to which we find these flavors bitter】 _is, in part, determined by your genes_.\"",
+            "structureSummary": "主系表（被动）：主语 The degree + to which 定语从句，谓语 is determined by...，in part 为插入语；整句为带引号的直接引语。",
+            "components": [
+              {
+                "part": "The degree to which we find these flavors bitter",
+                "role": "主语",
+                "note": "主语核心词 degree；to which 引导定语从句，find + 宾语 + 形容词宾补（these flavors bitter）。"
+              },
+              {
+                "part": "to which we find these flavors bitter",
+                "role": "定语从句",
+                "note": "介词 to + which 引导，修饰 degree；to what degree 意为「到何种程度」。"
+              },
+              {
+                "part": "is, in part, determined by your genes",
+                "role": "谓语",
+                "note": "被动语态 is determined by；in part 为插入语，your genes 为施事。"
+              },
+              {
+                "part": "in part",
+                "role": "插入语",
+                "note": "评注性副词短语，前后逗号隔开，说明基因只是部分原因。"
+              },
+              {
+                "part": "by your genes",
+                "role": "介词短语",
+                "note": "by 引出被动句的施事，点明苦感差异来自基因。"
+              }
+            ],
+            "clauses": [
+              "定语从句「to which we find these flavors bitter」：介词 to + which 引导，修饰 degree；to what degree 意为「到何种程度」。",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "The degree to which",
+                "meaning": "……的程度",
+                "usage": "介词 + 关系代词引导定语从句，which 指代 degree。",
+                "example": "We measured the degree to which they agreed. 我们测了他们一致的程度。"
+              },
+              {
+                "text": "in part",
+                "meaning": "部分地",
+                "usage": "副词短语；in part 前可加 only / at least 修饰。",
+                "example": "The failure was in part due to cost. 失败部分源于成本。"
+              }
+            ],
+            "pitfalls": [
+              "the degree to which 中 to 不能省略，源于 to a degree。",
+              "in part 无冠词，不说 in a part。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "收束引语，点明苦感强弱部分由基因决定，回扣全篇的基因主线。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "text": "People with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In 34, people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to 35 coffee.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 106,
+          "text": "People with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "People",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 21,
+              "surface": "genes",
+              "normalized": "genes",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 30,
+              "surface": "taste",
+              "normalized": "taste",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 34,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 45,
+              "surface": "bitterness",
+              "normalized": "bitterness",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 54,
+              "surface": "green",
+              "normalized": "green",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 65,
+              "surface": "vegetables",
+              "normalized": "vegetables",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 69,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 74,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 81,
+              "surface": "likely",
+              "normalized": "likely",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 84,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 91,
+              "surface": "prefer",
+              "normalized": "prefer",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 95,
+              "surface": "tea",
+              "normalized": "tea",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 105,
+              "surface": "coffee",
+              "normalized": "coffee",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 106,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "带有能尝出绿色蔬菜苦味基因的人，更可能更喜欢茶而不是咖啡。",
+            "translationNatural": "能尝出绿叶菜苦味的那批人，往往更爱喝茶、而不是咖啡。",
+            "structMarkup": "【People with the genes to taste the bitterness of green vegetables】 _are more likely to prefer tea to coffee_.",
+            "structureSummary": "主系表：主语 People + with 介词短语作后置定语（内含不定式定语），系表结构 are more likely to...，prefer A to B 为固定搭配。",
+            "components": [
+              {
+                "part": "People with the genes to taste the bitterness of green vegetables",
+                "role": "主语",
+                "note": "主语核心词 People；with 短语作后置定语，to taste... 不定式修饰 genes。"
+              },
+              {
+                "part": "with the genes to taste the bitterness of green vegetables",
+                "role": "介词短语",
+                "note": "with 引出「带有……基因」，to taste... 作 genes 的后置定语。"
+              },
+              {
+                "part": "are more likely to prefer tea to coffee",
+                "role": "谓语",
+                "note": "be likely to do 的比较级 more likely，意为「更可能……」；prefer A to B 表「喜欢 A 胜过 B」。"
+              },
+              {
+                "part": "to taste the bitterness of green vegetables",
+                "role": "后置定语",
+                "note": "不定式修饰 genes，说明是「尝出绿叶菜苦味」的基因。"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表：主语 People + with 介词短语作后置定语（内含不定式定语），系表结构 are more likely to...，prefer A to B 为固定搭配。」。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "genes",
+                "meaning": "基因（gene 的复数）",
+                "usage": "注意区分：genes（基因）/ jeans（牛仔裤）同音。常见搭配：genes and environment / gene editing。",
+                "example": "Genes alone do not decide behaviour. 基因本身不决定行为。"
+              },
+              {
+                "text": "likely",
+                "meaning": "可能的；很可能（be likely to do）",
+                "usage": "注意区分：likely（可作 adj./adv.）/ probable/possible（只作形容词）。常见搭配：be likely to do / more likely than。",
+                "example": "Kids are likely to copy their parents. 孩子很可能模仿父母。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：genes（基因）/ jeans（牛仔裤）同音。",
+              "注意区分：likely（可作 adj./adv.）/ probable/possible（只作形容词）。"
+            ],
+            "paragraphRole": "给出基因与饮品偏好的第一组对应：能尝出蔬菜苦味者更爱茶。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 107,
+          "end": 229,
+          "text": "In 34, people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to 35 coffee.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "34,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 22,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 27,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 37,
+              "surface": "sensitive",
+              "normalized": "sensitive",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 40,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 50,
+              "surface": "quinine's",
+              "normalized": "quinine's",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 57,
+              "surface": "bitter",
+              "normalized": "bitter",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 65,
+              "surface": "flavors",
+              "normalized": "flavors",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 69,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "surface": "those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 81,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 84,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 90,
+              "surface": "green",
+              "normalized": "green",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 101,
+              "surface": "vegetables",
+              "normalized": "vegetables",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 108,
+              "surface": "tended",
+              "normalized": "tended",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 111,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 114,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 115,
+              "end": 121,
+              "surface": "coffee",
+              "normalized": "coffee",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 122,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "34，对奎宁的苦味以及绿色蔬菜中所含那些苦味更敏感的人，往往倾向于 35 咖啡。",
+            "translationNatural": "另外，对奎宁和绿叶菜苦味越敏感的人，反倒越不爱碰咖啡。",
+            "structMarkup": "(In 34), 【people who were more sensitive to quinine's bitter flavors and those found in green vegetables】 _tended to 35 coffee_.",
+            "structureSummary": "In 34 为句首评注性状语（34 空需名词 addition，构成 in addition）+ 主谓 + who 定语从句 + tended to 35...；35 空需动词原形 avoid。",
+            "components": [
+              {
+                "part": "In 34",
+                "role": "状语",
+                "note": "句首介词短语作连接性状语；34 空需名词 addition，in addition 意为「此外」，承接上句再补一组发现。"
+              },
+              {
+                "part": "people who were more sensitive to quinine's bitter flavors and those found in green vegetables",
+                "role": "主语",
+                "note": "主语核心词 people；who 定语从句中 and 连接两个并列比较对象，those 指代 bitter flavors。"
+              },
+              {
+                "part": "who were more sensitive to quinine's bitter flavors and those found in green vegetables",
+                "role": "定语从句",
+                "note": "who 修饰 people；more sensitive to A and B，found in green vegetables 为过去分词作 those 的后置定语。"
+              },
+              {
+                "part": "found in green vegetables",
+                "role": "后置定语",
+                "note": "过去分词短语修饰 those（= bitter flavors），说明「绿叶菜中所含的苦味」。"
+              },
+              {
+                "part": "tended to 35 coffee",
+                "role": "谓语",
+                "note": "tend to do 的过去式，意为「往往……」；35 空需动词原形 avoid，表示「避开咖啡」。"
+              }
+            ],
+            "clauses": [
+              "定语从句「who were more sensitive to quinine's bitter flavors and those found in」：who 修饰 people；more sensitive to A and B，found in green vegetables 为过去分词作 those 的后置定语。",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "flavors",
+                "meaning": "味道、风味、滋味、特色、情味；给…调味（英式拼作 flavour；也可喻指「特色、风味」）（flavor 的复数/三单形式）",
+                "usage": "注意区分：flavors（复数/三单）/ flavor（原形）。",
+                "example": "In 34, people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to 35 coffee. 另外，对奎宁和绿叶菜苦味越敏感的人，反倒越不爱碰咖啡。"
+              },
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：flavors（复数/三单）/ flavor（原形）。"
+            ],
+            "paragraphRole": "以 in addition 补出第二组对应：对奎宁与蔬菜苦味敏感者反而少喝咖啡，收束全文并设 34、35 两空。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "addition"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "avoid"
+        },
+        {
+          "key": "D",
+          "text": "consumption"
+        },
+        {
+          "key": "E",
+          "text": "converted"
+        },
+        {
+          "key": "F",
+          "text": "convince"
+        },
+        {
+          "key": "G",
+          "text": "heightened"
+        },
+        {
+          "key": "H",
+          "text": "omission"
+        },
+        {
+          "key": "I",
+          "text": "opposite"
+        },
+        {
+          "key": "J",
+          "text": "perceive"
+        },
+        {
+          "key": "K",
+          "text": "prospect"
+        },
+        {
+          "key": "L",
+          "text": "reinforcement"
+        },
+        {
+          "key": "M",
+          "text": "separately"
+        },
+        {
+          "key": "N",
+          "text": "simply"
+        },
+        {
+          "key": "O",
+          "text": "targeted"
+        }
+      ],
+      "answer": "N"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "addition"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "avoid"
+        },
+        {
+          "key": "D",
+          "text": "consumption"
+        },
+        {
+          "key": "E",
+          "text": "converted"
+        },
+        {
+          "key": "F",
+          "text": "convince"
+        },
+        {
+          "key": "G",
+          "text": "heightened"
+        },
+        {
+          "key": "H",
+          "text": "omission"
+        },
+        {
+          "key": "I",
+          "text": "opposite"
+        },
+        {
+          "key": "J",
+          "text": "perceive"
+        },
+        {
+          "key": "K",
+          "text": "prospect"
+        },
+        {
+          "key": "L",
+          "text": "reinforcement"
+        },
+        {
+          "key": "M",
+          "text": "separately"
+        },
+        {
+          "key": "N",
+          "text": "simply"
+        },
+        {
+          "key": "O",
+          "text": "targeted"
+        }
+      ],
+      "answer": "I"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "addition"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "avoid"
+        },
+        {
+          "key": "D",
+          "text": "consumption"
+        },
+        {
+          "key": "E",
+          "text": "converted"
+        },
+        {
+          "key": "F",
+          "text": "convince"
+        },
+        {
+          "key": "G",
+          "text": "heightened"
+        },
+        {
+          "key": "H",
+          "text": "omission"
+        },
+        {
+          "key": "I",
+          "text": "opposite"
+        },
+        {
+          "key": "J",
+          "text": "perceive"
+        },
+        {
+          "key": "K",
+          "text": "prospect"
+        },
+        {
+          "key": "L",
+          "text": "reinforcement"
+        },
+        {
+          "key": "M",
+          "text": "separately"
+        },
+        {
+          "key": "N",
+          "text": "simply"
+        },
+        {
+          "key": "O",
+          "text": "targeted"
+        }
+      ],
+      "answer": "L"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "addition"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "avoid"
+        },
+        {
+          "key": "D",
+          "text": "consumption"
+        },
+        {
+          "key": "E",
+          "text": "converted"
+        },
+        {
+          "key": "F",
+          "text": "convince"
+        },
+        {
+          "key": "G",
+          "text": "heightened"
+        },
+        {
+          "key": "H",
+          "text": "omission"
+        },
+        {
+          "key": "I",
+          "text": "opposite"
+        },
+        {
+          "key": "J",
+          "text": "perceive"
+        },
+        {
+          "key": "K",
+          "text": "prospect"
+        },
+        {
+          "key": "L",
+          "text": "reinforcement"
+        },
+        {
+          "key": "M",
+          "text": "separately"
+        },
+        {
+          "key": "N",
+          "text": "simply"
+        },
+        {
+          "key": "O",
+          "text": "targeted"
+        }
+      ],
+      "answer": "G"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "addition"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "avoid"
+        },
+        {
+          "key": "D",
+          "text": "consumption"
+        },
+        {
+          "key": "E",
+          "text": "converted"
+        },
+        {
+          "key": "F",
+          "text": "convince"
+        },
+        {
+          "key": "G",
+          "text": "heightened"
+        },
+        {
+          "key": "H",
+          "text": "omission"
+        },
+        {
+          "key": "I",
+          "text": "opposite"
+        },
+        {
+          "key": "J",
+          "text": "perceive"
+        },
+        {
+          "key": "K",
+          "text": "prospect"
+        },
+        {
+          "key": "L",
+          "text": "reinforcement"
+        },
+        {
+          "key": "M",
+          "text": "separately"
+        },
+        {
+          "key": "N",
+          "text": "simply"
+        },
+        {
+          "key": "O",
+          "text": "targeted"
+        }
+      ],
+      "answer": "F"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "addition"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "avoid"
+        },
+        {
+          "key": "D",
+          "text": "consumption"
+        },
+        {
+          "key": "E",
+          "text": "converted"
+        },
+        {
+          "key": "F",
+          "text": "convince"
+        },
+        {
+          "key": "G",
+          "text": "heightened"
+        },
+        {
+          "key": "H",
+          "text": "omission"
+        },
+        {
+          "key": "I",
+          "text": "opposite"
+        },
+        {
+          "key": "J",
+          "text": "perceive"
+        },
+        {
+          "key": "K",
+          "text": "prospect"
+        },
+        {
+          "key": "L",
+          "text": "reinforcement"
+        },
+        {
+          "key": "M",
+          "text": "separately"
+        },
+        {
+          "key": "N",
+          "text": "simply"
+        },
+        {
+          "key": "O",
+          "text": "targeted"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "addition"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "avoid"
+        },
+        {
+          "key": "D",
+          "text": "consumption"
+        },
+        {
+          "key": "E",
+          "text": "converted"
+        },
+        {
+          "key": "F",
+          "text": "convince"
+        },
+        {
+          "key": "G",
+          "text": "heightened"
+        },
+        {
+          "key": "H",
+          "text": "omission"
+        },
+        {
+          "key": "I",
+          "text": "opposite"
+        },
+        {
+          "key": "J",
+          "text": "perceive"
+        },
+        {
+          "key": "K",
+          "text": "prospect"
+        },
+        {
+          "key": "L",
+          "text": "reinforcement"
+        },
+        {
+          "key": "M",
+          "text": "separately"
+        },
+        {
+          "key": "N",
+          "text": "simply"
+        },
+        {
+          "key": "O",
+          "text": "targeted"
+        }
+      ],
+      "answer": "J"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "addition"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "avoid"
+        },
+        {
+          "key": "D",
+          "text": "consumption"
+        },
+        {
+          "key": "E",
+          "text": "converted"
+        },
+        {
+          "key": "F",
+          "text": "convince"
+        },
+        {
+          "key": "G",
+          "text": "heightened"
+        },
+        {
+          "key": "H",
+          "text": "omission"
+        },
+        {
+          "key": "I",
+          "text": "opposite"
+        },
+        {
+          "key": "J",
+          "text": "perceive"
+        },
+        {
+          "key": "K",
+          "text": "prospect"
+        },
+        {
+          "key": "L",
+          "text": "reinforcement"
+        },
+        {
+          "key": "M",
+          "text": "separately"
+        },
+        {
+          "key": "N",
+          "text": "simply"
+        },
+        {
+          "key": "O",
+          "text": "targeted"
+        }
+      ],
+      "answer": "M"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "addition"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "avoid"
+        },
+        {
+          "key": "D",
+          "text": "consumption"
+        },
+        {
+          "key": "E",
+          "text": "converted"
+        },
+        {
+          "key": "F",
+          "text": "convince"
+        },
+        {
+          "key": "G",
+          "text": "heightened"
+        },
+        {
+          "key": "H",
+          "text": "omission"
+        },
+        {
+          "key": "I",
+          "text": "opposite"
+        },
+        {
+          "key": "J",
+          "text": "perceive"
+        },
+        {
+          "key": "K",
+          "text": "prospect"
+        },
+        {
+          "key": "L",
+          "text": "reinforcement"
+        },
+        {
+          "key": "M",
+          "text": "separately"
+        },
+        {
+          "key": "N",
+          "text": "simply"
+        },
+        {
+          "key": "O",
+          "text": "targeted"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "addition"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "avoid"
+        },
+        {
+          "key": "D",
+          "text": "consumption"
+        },
+        {
+          "key": "E",
+          "text": "converted"
+        },
+        {
+          "key": "F",
+          "text": "convince"
+        },
+        {
+          "key": "G",
+          "text": "heightened"
+        },
+        {
+          "key": "H",
+          "text": "omission"
+        },
+        {
+          "key": "I",
+          "text": "opposite"
+        },
+        {
+          "key": "J",
+          "text": "perceive"
+        },
+        {
+          "key": "K",
+          "text": "prospect"
+        },
+        {
+          "key": "L",
+          "text": "reinforcement"
+        },
+        {
+          "key": "M",
+          "text": "separately"
+        },
+        {
+          "key": "N",
+          "text": "simply"
+        },
+        {
+          "key": "O",
+          "text": "targeted"
+        }
+      ],
+      "answer": "C"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "addition"
+    },
+    {
+      "key": "B",
+      "word": "approximately"
+    },
+    {
+      "key": "C",
+      "word": "avoid"
+    },
+    {
+      "key": "D",
+      "word": "consumption"
+    },
+    {
+      "key": "E",
+      "word": "converted"
+    },
+    {
+      "key": "F",
+      "word": "convince"
+    },
+    {
+      "key": "G",
+      "word": "heightened"
+    },
+    {
+      "key": "H",
+      "word": "omission"
+    },
+    {
+      "key": "I",
+      "word": "opposite"
+    },
+    {
+      "key": "J",
+      "word": "perceive"
+    },
+    {
+      "key": "K",
+      "word": "prospect"
+    },
+    {
+      "key": "L",
+      "word": "reinforcement"
+    },
+    {
+      "key": "M",
+      "word": "separately"
+    },
+    {
+      "key": "N",
+      "word": "simply"
+    },
+    {
+      "key": "O",
+      "word": "targeted"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "N",
+      "answerWord": "simply",
+      "reason": "空格位于 isn't 与表语 a matter of taste 之间，且句末有 either（也），需填副词对整句作程度限定；isn't simply a matter of taste 意为「并不只是口味问题」，与后半句 but rather is influenced by...genetic makeup（而是受基因影响）构成「不只是……而是……」的对照，simply 最贴切。",
+      "distractors": "B) approximately（大约）、M) separately（分别地）虽是副词，但「并不大约是口味问题」「并不分别是口味问题」都不成话；K) prospect（前景）、L) reinforcement（强化）为名词，不能修饰全句；E) converted、G) heightened 是过去分词 / 形容词，词性与位置均不合。"
+    },
+    "27": {
+      "answerKey": "I",
+      "answerWord": "opposite",
+      "reason": "空格在定冠词 The 与名词 results 之间，需填形容词作定语；上句刚说「按常理敏感者会少喝咖啡」，本句却说结果提示他们「反而品出味道、学会辨苦」，方向正好相反，故用 opposite（相反的），The opposite results 即「相反的结果」。",
+      "distractors": "G) heightened（增强的）、O) targeted（有针对性的）虽可作定语，但「增强的结果」「有针对的结果」体现不出与上句预期的反转；D) consumption、H) omission、L) reinforcement 为名词，会造成名词堆砌；M) separately、N) simply 是副词，不能修饰 results。"
+    },
+    "28": {
+      "answerKey": "L",
+      "answerWord": "reinforcement",
+      "reason": "空格在形容词 learned positive 之后、过去分词短语 brought out by caffeine 之前，需填名词作 due to 介词的宾语中心词；learned positive reinforcement（习得性正向强化）是心理学固定术语，指咖啡因带来的奖赏效应使人逐渐接受苦味，与 acquire a taste for（养成口味）因果吻合。",
+      "distractors": "H) omission（省略 / 遗漏）、K) prospect（前景）虽为名词，但「正向遗漏」「正向前景」与「由咖啡因引发、使人学会辨苦」的因果说不通；A) addition（附加）不与 learned positive 搭配；E) converted、F) convince 为动词，词性不符；C) avoid 也是动词。"
+    },
+    "29": {
+      "answerKey": "G",
+      "answerWord": "heightened",
+      "reason": "空格在不定冠词 a 与名词 ability 之间，需填形容词作定语；上文已用 supersensitive（超级敏感）、particularly sensitive（特别敏感）描述这类人，故用 heightened（被提高的、更敏锐的）修饰 ability，表示「被增强的尝苦能力」，与语境一脉相承。",
+      "distractors": "I) opposite（相反的）、O) targeted（定向的）虽是形容词，但「相反的能力」「定向的能力」与「对苦味更敏感」语义不符；D) consumption、L) reinforcement 是名词，不能作定语；M) separately、N) simply、B) approximately 为副词，无法修饰名词 ability。"
+    },
+    "30": {
+      "answerKey": "F",
+      "answerWord": "convince",
+      "reason": "空格在 warning mechanism 之后的不定式 to 与宾语 people 之间，且后接 to spit out...，需填动词原形构成「to + V + sb + to do」；convince sb to do sth（说服某人做某事）搭配吻合，意为苦味作为警告机制「劝服」人把有害物吐掉。",
+      "distractors": "C) avoid（避免）虽是动词原形，但 avoid people to spit out 搭配错误（avoid 后接名词 / 动名词，不接 sb to do）；J) perceive（感知）语义上「感知人们去吐」不通；E) converted、G) heightened 为过去分词 / 形容词，不能作不定式里的谓语；A) addition、D) consumption 为名词。"
+    },
+    "31": {
+      "answerKey": "D",
+      "answerWord": "consumption",
+      "reason": "空格在名词所有格 people's 之后、of tea, coffee and alcohol 之前，需填名词，作宾语从句中 influences 的宾语中心词；people's consumption of tea, coffee and alcohol 即「人们对茶、咖啡和酒的摄入 / 饮用」，正好呼应研究主题「基因如何影响饮品摄入」。",
+      "distractors": "H) omission（省略）、K) prospect（前景）、L) reinforcement（强化）虽为名词，但「人们对茶的省略 / 前景 / 强化」都不合逻辑；A) addition（加法 / 添加）不与 of 饮品搭配；E) converted 是过去分词，F) convince、J) perceive 为动词，均不能作 influences 的宾语。"
+    },
+    "32": {
+      "answerKey": "J",
+      "answerWord": "perceive",
+      "reason": "空格在主句主语 we 之后、宾语 the bitterness of... 之前，需填动词原形作谓语（直接引语用现在时，与从句 may seem 并列）；perceive the bitterness of... 意为「感知到……的苦味」，与下句 find these flavors bitter（觉得这些味道苦）同义呼应。",
+      "distractors": "F) convince（说服）是及物动词却需接 sb 作宾语，不能与 the bitterness 直接搭配；C) avoid（避免）语义变成「避开苦味」，与全篇「敏感者反而多喝」相悖；E) converted、G) heightened 为过去分词，不能单独作谓语；D) consumption、L) reinforcement 是名词，会造成无谓语。"
+    },
+    "33": {
+      "answerKey": "M",
+      "answerWord": "separately",
+      "reason": "空格位于句末、在 and caffeine 之后、逗号之前，需填副词作方式状语；上文说 While all bitter flavors may seem the same（苦味看似一样），本句转折强调三种来源的苦味其实是「分开、各自」被感知的，故用 separately，与下句「程度由基因决定」共同说明苦感并非笼统单一。",
+      "distractors": "B) approximately（大约）、N) simply（只不过）虽为副词，但「大约 / 只不过咖啡因」表达不出「分别感知」的对比；I) opposite、O) targeted 为形容词，不能作状语；A) addition、D) consumption、H) omission、K) prospect、L) reinforcement 是名词，词性不符。"
+    },
+    "34": {
+      "answerKey": "A",
+      "answerWord": "addition",
+      "reason": "空格在句首介词 In 之后、逗号之前，需填名词构成固定短语；in addition（此外）是篇章连接语，用来承接上句「能尝蔬菜苦味者更爱茶」再补出另一组人群的发现，功能与位置完全吻合。",
+      "distractors": "H) omission（省略）、K) prospect（前景）、L) reinforcement（强化）虽为名词，但 in omission / in prospect / in reinforcement 都不是惯用连接短语；D) consumption（in consumption of）语义不通；M) separately、N) simply 是副词，不能作 In 的宾语；O) targeted 为形容词。"
+    },
+    "35": {
+      "answerKey": "C",
+      "answerWord": "avoid",
+      "reason": "空格在 tended to 之后、宾语 coffee 之前，需填动词原形；上文说对奎宁与绿叶菜苦味更敏感的人更爱茶（prefer tea to coffee），本句顺承说他们「往往避开咖啡」，tend to avoid coffee 与 prefer tea to coffee 语义一致，也构成首段「越敏感反而喝得越多」的例外群体。",
+      "distractors": "F) convince（说服）、J) perceive（感知）虽是动词原形，但 convince coffee / perceive coffee 在此不成搭配且语义不通；E) converted、G) heightened 为过去分词 / 形容词，不能用于 to 之后作谓语；B) approximately、M) separately、N) simply 是副词，无法带宾语 coffee。"
+    }
+  },
+  "lexicon": {
+    "ability": {
+      "phonetic": "/əˈbɪləti/",
+      "pos": "n.",
+      "sense": "能力（可数/不可数）；才能",
+      "collocations": [
+        "the ability to do sth",
+        "natural ability",
+        "to the best of one's ability"
+      ],
+      "examples": [
+        "The ability to focus is underrated. 专注的能力被低估了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "able（能够）+ -ity",
+        "confusables": "ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）"
+      }
+    },
+    "actually": {
+      "phonetic": "/ˈæktʃuəli/",
+      "pos": "adv.",
+      "sense": "实际上、事实上；居然（表出乎意料）",
+      "collocations": [
+        "actually, ...",
+        "not actually"
+      ],
+      "examples": [
+        "In reality the female actually did most of it. 现实中主要还是女性在做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "actual（实际的）+ -ly（副词后缀）",
+        "confusables": "actually（实际上）/ currently（目前）/ in fact（事实上）"
+      }
+    },
+    "associate": {
+      "phonetic": "/əˈsəʊʃieɪt/",
+      "pos": "n./v.",
+      "sense": "同事、副职（名词）；联系（动词，be associated with）",
+      "collocations": [
+        "be associated with",
+        "a business associate",
+        "associate A with B"
+      ],
+      "examples": [
+        "He works as an associate and investigator. 他担任副理兼调查员。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "associate（同事/联系）/ association（协会/关联）"
+      }
+    },
+    "bitter": {
+      "phonetic": "/ˈbɪtə/",
+      "pos": "adj.",
+      "sense": "苦的、有苦味的；痛苦的、辛酸的；严寒的；怨恨的（bitter taste / bitter cold）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "coffee's bitter",
+        "bitter taste",
+        "taste bitter"
+      ],
+      "examples": [
+        "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds. 说来可能有点反直觉：一项新研究发现，越能尝出咖啡苦味的人，咖啡反而喝得越多。"
+      ]
+    },
+    "coffee": {
+      "phonetic": "/ˈkɒfi/",
+      "pos": "n.",
+      "sense": "咖啡（不可数；一杯咖啡可数）",
+      "collocations": [
+        "a cup of coffee",
+        "coffee beans",
+        "coffee prices"
+      ],
+      "examples": [
+        "Coffee prices have risen sharply. 咖啡价格大幅上涨。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "coffee（不可数）/ a coffee（一杯咖啡）"
+      }
+    },
+    "conducted": {
+      "phonetic": "/kənˈdʌktɪd/",
+      "pos": "v.",
+      "sense": "实施、进行（研究/调查）；指挥、引导（conduct 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（共同）+ duct（引导，词根 duct = lead，同 produce/educate/conductor）+ -ed",
+        "confusables": "conduct（v. 实施、进行 /kənˈdʌkt/；n. 行为 /ˈkɒndʌkt/）/ conduct a survey/an experiment（做调查/实验，正式）/ conduct 与 carry out（同义）/ conductor（指挥；导体；售票员）"
+      },
+      "collocations": [
+        "Researchers conducted"
+      ],
+      "examples": [
+        "Researchers conducted the study to understand how genetics influences people's 31 of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong. 首席研究员 Jue Sheng Ong 说，做这项研究就是想搞清楚：基因到底怎样左右人们对茶、咖啡、酒这些偏苦饮品的摄入。"
+      ]
+    },
+    "consumers": {
+      "phonetic": "/kənˈsjuːməz/",
+      "pos": "n.",
+      "sense": "消费者、顾客（复数；本文 it will be up to consumers to act 要靠消费者自己行动 / UK consumers）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "coffee consumers",
+        "consumers acquire"
+      ],
+      "examples": [
+        "\"The 27 results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive 28 brought out by caffeine.\" 而研究结果恰恰相反：正因为咖啡因带来后天的正向强化，喝咖啡的人反而品出了滋味、也练就了分辨苦味的本事。"
+      ],
+      "more": {
+        "confusables": "consumers / consume（同族不同词形，注意词性与用法）"
+      }
+    },
+    "degree": {
+      "phonetic": "/dɪˈɡriː/",
+      "pos": "n.",
+      "sense": "程度；学位",
+      "collocations": [
+        "the degree to which",
+        "degree to"
+      ],
+      "examples": [
+        "\"The degree to which we find these flavors bitter is, in part, determined by your genes.\" 「至于这些味道到底有多苦，一部分还得看各人的基因。」"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "degree（程度；学位；度，可数）/ to some / a certain degree（在某种程度上，= to some extent）/ by degrees（逐渐地）/ a bachelor's degree（学士学位）/ degree 与 diploma（diploma 是「文凭」，degree 是「学位」）"
+      }
+    },
+    "detect": {
+      "phonetic": "/dɪˈtekt/",
+      "pos": "v.",
+      "sense": "察觉、发现、检测出、探测（阅读中常指仪器 / 研究发现、检出疾病）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "ability to detect"
+      ],
+      "examples": [
+        "\"The 27 results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive 28 brought out by caffeine.\" 而研究结果恰恰相反：正因为咖啡因带来后天的正向强化，喝咖啡的人反而品出了滋味、也练就了分辨苦味的本事。"
+      ],
+      "more": {
+        "confusables": "detect / determination / determinant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "determined": {
+      "phonetic": "/dɪˈtɜːmɪnd/",
+      "pos": "v.",
+      "sense": "确定、决定；查明、测定（本文指 determine the meaning of words 判定词义 / determine the changes 决定做何改变）（determine 的过去式/过去分词形式）",
+      "lemma": "determine",
+      "collocations": [
+        "determined by"
+      ],
+      "examples": [
+        "\"The degree to which we find these flavors bitter is, in part, determined by your genes.\" 「至于这些味道到底有多苦，一部分还得看各人的基因。」"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "determine + -d（过去式/过去分词）",
+        "confusables": "determined（过去式/过去分词）/ determine（原形）"
+      }
+    },
+    "drink": {
+      "phonetic": "/drɪŋk/",
+      "pos": "v./n.",
+      "sense": "喝、饮；饮料、酒（本文 stop drinking bottled water 不再喝瓶装水 / the food and drink industries 食品饮料业）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "actually drink"
+      ],
+      "examples": [
+        "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds. 说来可能有点反直觉：一项新研究发现，越能尝出咖啡苦味的人，咖啡反而喝得越多。"
+      ],
+      "more": {
+        "confusables": "drink / drinks（同族不同词形，注意词性与用法）"
+      }
+    },
+    "due": {
+      "phonetic": "/djuː/",
+      "pos": "adj./prep.",
+      "sense": "预期的、到期的；（due to）由于",
+      "collocations": [
+        "due to",
+        "be due to do",
+        "due date"
+      ],
+      "examples": [
+        "The change is due to new law. 这一变化源于新法律。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "due to（由于，介词短语）/ because of（同义）/ be due to do（预计做）"
+      }
+    },
+    "either": {
+      "phonetic": "/ˈaɪðə(r)/",
+      "pos": "conj./adv./det.",
+      "sense": "两者之一（either...or）；也不（否定句末）",
+      "collocations": [
+        "either ... or",
+        "not ... either",
+        "either of"
+      ],
+      "examples": [
+        "Either way, the result is the same. 无论哪种方式，结果一样。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "either...or（两者之一）/ neither...nor（两者都不）/ either（也，否定句末）"
+      }
+    },
+    "expect": {
+      "phonetic": "/ɪkˈspekt/",
+      "pos": "v.",
+      "sense": "预料、预计、期待、指望；要求、认为理应（expect sb to do / be expected to 预计会、被要求）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "You'd expect"
+      ],
+      "examples": [
+        "\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. 资深研究员玛丽莲·科内利斯说：「按常理你会觉得，越怕咖啡因苦味的人，咖啡该喝得越少。」"
+      ],
+      "more": {
+        "confusables": "expect / experts / experience（同族不同词形，注意词性与用法）"
+      }
+    },
+    "find": {
+      "phonetic": "/faɪnd/",
+      "pos": "v.",
+      "sense": "发现、找到；认为（find sth + adj.）",
+      "collocations": [
+        "find that...",
+        "find it hard to do",
+        "find out"
+      ],
+      "examples": [
+        "They find the rule acceptable. 他们觉得这条规则可以接受。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "find（找到，结果）/ search（搜寻，过程）/ find out（查明）"
+      }
+    },
+    "finding": {
+      "phonetic": "/ˈfaɪndɪŋ/",
+      "pos": "n./v.",
+      "sense": "研究发现、结论（可数）；find 的现在分词",
+      "lemma": "find",
+      "collocations": [
+        "the findings suggest",
+        "research findings"
+      ],
+      "examples": [
+        "That finding suggests the quantified self is limited. 这一发现表明量化自我是有限的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "finding（研究发现）/ findings（多项结论）/ find（发现）"
+      }
+    },
+    "finds": {
+      "phonetic": "/faɪnddz/",
+      "pos": "v.",
+      "sense": "发现、找到；认为（find sth + adj.）（find 的复数/三单形式）",
+      "lemma": "find",
+      "collocations": [
+        "study finds"
+      ],
+      "examples": [
+        "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds. 说来可能有点反直觉：一项新研究发现，越能尝出咖啡苦味的人，咖啡反而喝得越多。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "find + -s（复数/三单）",
+        "confusables": "finds（复数/三单）/ find（原形）"
+      }
+    },
+    "flavors": {
+      "phonetic": "/ˈfleɪvəz/",
+      "pos": "n./v.",
+      "sense": "味道、风味、滋味、特色、情味；给…调味（英式拼作 flavour；也可喻指「特色、风味」）（flavor 的复数/三单形式）",
+      "lemma": "flavor",
+      "collocations": [
+        "bitter flavors",
+        "flavors bitter"
+      ],
+      "examples": [
+        "\"While all bitter flavors may seem the same, we 32 the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine 33,\" Ong told Live Science. Ong 对 Live Science 说：「别看苦味好像都一个样，抱子甘蓝、奎宁、咖啡因这三种苦，我们其实是分开来感知的。」"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "flavor + -s（复数/三单）",
+        "confusables": "flavors（复数/三单）/ flavor（原形）"
+      }
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "genes": {
+      "phonetic": "/dʒiːnz/",
+      "pos": "n.",
+      "sense": "基因（gene 的复数）",
+      "lemma": "gene",
+      "collocations": [
+        "genes and environment",
+        "gene editing"
+      ],
+      "examples": [
+        "Genes alone do not decide behaviour. 基因本身不决定行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "gene（基因）+ -s（复数）",
+        "confusables": "genes（基因）/ jeans（牛仔裤）同音"
+      }
+    },
+    "genetic": {
+      "phonetic": "/dʒəˈnetɪk/",
+      "pos": "adj.",
+      "sense": "遗传的、基因的",
+      "collocations": [
+        "genetic engineering",
+        "genetic factors"
+      ],
+      "examples": [
+        "Genetic engineering raises new questions. 基因工程带来新问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "gene（基因）+ -tic",
+        "confusables": "genetic（遗传的）/ generic（通用的）"
+      }
+    },
+    "genetics": {
+      "phonetic": "/dʒəˈnetɪkz/",
+      "pos": "adj.",
+      "sense": "遗传的、基因的（genetic 的复数/三单形式）",
+      "lemma": "genetic",
+      "collocations": [
+        "genetics influences"
+      ],
+      "examples": [
+        "Researchers conducted the study to understand how genetics influences people's 31 of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong. 首席研究员 Jue Sheng Ong 说，做这项研究就是想搞清楚：基因到底怎样左右人们对茶、咖啡、酒这些偏苦饮品的摄入。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "genetic + -s（复数/三单）",
+        "confusables": "genetics（复数/三单）/ genetic（原形）"
+      }
+    },
+    "given": {
+      "phonetic": "/ˈɡɪvn/",
+      "pos": "v./prep./adj.",
+      "sense": "give 的过去分词；考虑到（介词）；既定的",
+      "lemma": "give",
+      "collocations": [
+        "given that",
+        "given the fact",
+        "be given more freedom"
+      ],
+      "examples": [
+        "Given that data is limited, instinct helps. 考虑到数据有限，直觉有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "given that（考虑到，连词）/ given（给定的，形容词）"
+      }
+    },
+    "good": {
+      "phonetic": "/ɡʊd/",
+      "pos": "adj./n.",
+      "sense": "好的；有益的 / 好处（不可数）",
+      "collocations": [
+        "be good at",
+        "good for",
+        "a good deal of"
+      ],
+      "examples": [
+        "A rich social life is good for health. 丰富社交生活有益健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "good at（擅长）/ good for（对……有益）/ well（副词，身体好）"
+      }
+    },
+    "green": {
+      "phonetic": "/ɡriːn/",
+      "pos": "adj./n./v.",
+      "sense": "绿色的；环保的；绿色、草地；使变绿 / 绿化（本文 turn vacant plots green 把空地变绿 / tiny green seedlings 绿色幼苗 / green-thumbed 有园艺才能的）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "green vegetables",
+        "bitterness of green",
+        "found in green"
+      ],
+      "examples": [
+        "People with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. 能尝出绿叶菜苦味的那批人，往往更爱喝茶、而不是咖啡。"
+      ],
+      "more": {
+        "confusables": "green / green-thumbed / greenhouses（同族不同词形，注意词性与用法）"
+      }
+    },
+    "harmful": {
+      "phonetic": "/ˈhɑːmfl/",
+      "pos": "adj.",
+      "sense": "有害的、致伤的、不利的（be harmful to 对…有害；反义 harmless）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "harmful substances",
+        "spit out harmful"
+      ],
+      "examples": [
+        "This finding is surprising, given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances, the scientists said. 科学家们说，这结果才叫意外：苦味本来是套预警机制，按理该让人把有害东西吐掉才对。"
+      ],
+      "more": {
+        "roots": "harmful 含 -ful（形容词后缀，表「充满……的」）"
+      }
+    },
+    "influenced": {
+      "phonetic": "/ˈɪnfluənsd/",
+      "pos": "n./v.",
+      "sense": "影响（influence 的过去式/过去分词形式）",
+      "lemma": "influence",
+      "collocations": [
+        "influenced by"
+      ],
+      "examples": [
+        "This sensitivity isn't 26 a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study. 研究者还指出，这种敏感可不只是「嘴刁」，背后其实由基因决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "influence + -d（过去式/过去分词）",
+        "confusables": "influenced（过去式/过去分词）/ influence（原形）"
+      }
+    },
+    "influences": {
+      "phonetic": "/ˈɪnfluənsz/",
+      "pos": "n./v.",
+      "sense": "影响（influence 的复数/三单形式）",
+      "lemma": "influence",
+      "collocations": [
+        "genetics influences",
+        "influences people's"
+      ],
+      "examples": [
+        "Researchers conducted the study to understand how genetics influences people's 31 of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong. 首席研究员 Jue Sheng Ong 说，做这项研究就是想搞清楚：基因到底怎样左右人们对茶、咖啡、酒这些偏苦饮品的摄入。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "influence + -s（复数/三单）",
+        "confusables": "influences（复数/三单）/ influence（原形）"
+      }
+    },
+    "lead": {
+      "phonetic": "/liːd/",
+      "pos": "v./n.",
+      "sense": "导致（lead to）；领导、带领 / 领先",
+      "collocations": [
+        "lead to",
+        "lead a parade",
+        "take the lead"
+      ],
+      "examples": [
+        "Isolation can lead to poor health. 孤立可能导致健康不佳。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lead to（导致）/ lead（铅，读 /led/）/ led（过去式）"
+      }
+    },
+    "learn": {
+      "phonetic": "/lɜːn/",
+      "pos": "v.",
+      "sense": "学习、学会",
+      "collocations": [
+        "learn to do",
+        "learn from"
+      ],
+      "examples": [
+        "We learn from mistakes. 我们从错误中学习。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "learn / learning / learned（同族不同词形，注意词性与用法）"
+      }
+    },
+    "learned": {
+      "phonetic": "/lɜːnd/",
+      "pos": "v.",
+      "sense": "学习、学会（learn 的过去式/过去分词形式）",
+      "lemma": "learn",
+      "collocations": [
+        "learned positive"
+      ],
+      "examples": [
+        "\"The 27 results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive 28 brought out by caffeine.\" 而研究结果恰恰相反：正因为咖啡因带来后天的正向强化，喝咖啡的人反而品出了滋味、也练就了分辨苦味的本事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "learn + -ed（过去式/过去分词）",
+        "confusables": "learned（过去式/过去分词）/ learn（原形）"
+      }
+    },
+    "likely": {
+      "phonetic": "/ˈlaɪkli/",
+      "pos": "adj./adv.",
+      "sense": "可能的；很可能（be likely to do）",
+      "collocations": [
+        "be likely to do",
+        "more likely than",
+        "most likely"
+      ],
+      "examples": [
+        "Kids are likely to copy their parents. 孩子很可能模仿父母。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "likely（可作 adj./adv.）/ probable/possible（只作形容词）"
+      }
+    },
+    "live": {
+      "phonetic": "/lɪv/",
+      "pos": "v./adj.",
+      "sense": "生活、居住、活着、生存；现场的、直播的（形容词读 /laɪv/）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "told Live",
+        "Live Science"
+      ],
+      "examples": [
+        "\"While all bitter flavors may seem the same, we 32 the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine 33,\" Ong told Live Science. Ong 对 Live Science 说：「别看苦味好像都一个样，抱子甘蓝、奎宁、咖啡因这三种苦，我们其实是分开来感知的。」"
+      ],
+      "more": {
+        "confusables": "live / livelier / liver（同族不同词形，注意词性与用法）"
+      }
+    },
+    "matter": {
+      "phonetic": "/ˈmætə(r)/",
+      "pos": "v./n.",
+      "sense": "要紧、有影响；事情",
+      "collocations": [
+        "it doesn't matter",
+        "matter of",
+        "matter of taste"
+      ],
+      "examples": [
+        "This sensitivity isn't 26 a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study. 研究者还指出，这种敏感可不只是「嘴刁」，背后其实由基因决定。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "mechanism": {
+      "phonetic": "/ˈmekənɪzəm/",
+      "pos": "n.",
+      "sense": "机制、机理、作用原理；机械装置、机构（阅读中常指身体、市场或系统的运作机制）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "warning mechanism",
+        "mechanism to"
+      ],
+      "examples": [
+        "This finding is surprising, given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances, the scientists said. 科学家们说，这结果才叫意外：苦味本来是套预警机制，按理该让人把有害东西吐掉才对。"
+      ],
+      "more": {
+        "confusables": "mechanism / mechanical（同族不同词形，注意词性与用法）"
+      }
+    },
+    "new": {
+      "phonetic": "/njuː/",
+      "pos": "adj.",
+      "sense": "新的；新近的",
+      "collocations": [
+        "new technologies",
+        "brand new",
+        "new to sth"
+      ],
+      "examples": [
+        "New tools always provoke worry. 新工具总会引发担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "often": {
+      "phonetic": "/ˈɒfn/",
+      "pos": "adv.",
+      "sense": "经常、常常",
+      "collocations": [
+        "bitterness often",
+        "often serves"
+      ],
+      "examples": [
+        "This finding is surprising, given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances, the scientists said. 科学家们说，这结果才叫意外：苦味本来是套预警机制，按理该让人把有害东西吐掉才对。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "part": {
+      "phonetic": "/pɑːt/",
+      "pos": "n./v.",
+      "sense": "部分、部件；角色、职责；分开、分离（part with 割舍）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "\"The degree to which we find these flavors bitter is, in part, determined by your genes.\" 「至于这些味道到底有多苦，一部分还得看各人的基因。」"
+      ],
+      "more": {
+        "confusables": "part / parts / participants（同族不同词形，注意词性与用法）"
+      }
+    },
+    "particularly": {
+      "phonetic": "/pəˈtɪkjələli/",
+      "pos": "adv.",
+      "sense": "尤其、特别、格外",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "particularly sensitive"
+      ],
+      "examples": [
+        "\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. 资深研究员玛丽莲·科内利斯说：「按常理你会觉得，越怕咖啡因苦味的人，咖啡该喝得越少。」"
+      ],
+      "more": {
+        "confusables": "particularly / particular（同族不同词形，注意词性与用法）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "positive": {
+      "phonetic": "/ˈpɒzətɪv/",
+      "pos": "adj.",
+      "sense": "积极的、正面的；确定的；阳性的",
+      "collocations": [
+        "positive behaviors",
+        "positive impact",
+        "test positive"
+      ],
+      "examples": [
+        "The facts are much more positive. 事实要正面得多。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "positive（积极的）/ negative（消极的）"
+      }
+    },
+    "prefer": {
+      "phonetic": "/prɪˈfɜː(r)/",
+      "pos": "v.",
+      "sense": "更喜欢、宁愿、偏好（prefer A to B；prefer to do）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "prefer A to B（喜欢 A 胜过 B，to 是介词，接名词/动名词）/ prefer to do（更愿意做）/ prefer doing to doing / would prefer to do / prefer 不与 than 连用（用 rather than）/ preference（名词）"
+      },
+      "collocations": [
+        "prefer tea",
+        "likely to prefer"
+      ],
+      "examples": [
+        "People with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. 能尝出绿叶菜苦味的那批人，往往更爱喝茶、而不是咖啡。"
+      ]
+    },
+    "put": {
+      "phonetic": "/pʊt/",
+      "pos": "v.",
+      "sense": "放、放置、摆；表达、说明、提出；使处于（某状态）、赋予",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Put another"
+      ],
+      "examples": [
+        "Put another way, people who have a 29 ability to taste the bitterness of coffee learn to associate \"good things with it,\" Cornelis said. 换个说法：尝苦味更灵敏的人，反而把咖啡和「好事」绑到了一起——科内利斯这样解释。"
+      ],
+      "more": {
+        "confusables": "put / putting（同族不同词形，注意词性与用法）"
+      }
+    },
+    "rather": {
+      "phonetic": "/ˈrɑːðə(r)/",
+      "pos": "adv.",
+      "sense": "相当；rather than 而不是",
+      "collocations": [
+        "rather than",
+        "but rather"
+      ],
+      "examples": [
+        "This sensitivity isn't 26 a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study. 研究者还指出，这种敏感可不只是「嘴刁」，背后其实由基因决定。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "researcher": {
+      "phonetic": "/rɪˈsɜːtʃə(r)/",
+      "pos": "n.",
+      "sense": "研究者（可数）",
+      "collocations": [
+        "a researcher at",
+        "the researchers found"
+      ],
+      "examples": [
+        "A researcher at Oxford interviewed 200 teenagers. 牛津的一位研究者访谈了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "re-（反复）+ search（搜寻）+ -er（表人）",
+        "confusables": "researcher（研究者）/ research（研究）"
+      }
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "researcher 的复数，研究人员",
+      "collocations": [
+        "researchers said",
+        "Researchers conducted"
+      ],
+      "examples": [
+        "This sensitivity isn't 26 a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study. 研究者还指出，这种敏感可不只是「嘴刁」，背后其实由基因决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researchers / researcher（同族不同词形，注意词性与用法）"
+      }
+    },
+    "results": {
+      "phonetic": "/rɪˈzʌlts/",
+      "pos": "n.",
+      "sense": "结果（result 的复数）；成绩",
+      "lemma": "result",
+      "collocations": [
+        "the results show",
+        "test results"
+      ],
+      "examples": [
+        "The results suggest a clear difference. 结果表明有明显差异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "results（复数）/ result（单数）"
+      }
+    },
+    "said": {
+      "phonetic": "/sed/",
+      "pos": "v./adj.",
+      "sense": "说、讲、表明（say 的过去式/过去分词）；上述的（the said…）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "researchers said",
+        "said in",
+        "said study"
+      ],
+      "examples": [
+        "This sensitivity isn't 26 a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study. 研究者还指出，这种敏感可不只是「嘴刁」，背后其实由基因决定。"
+      ]
+    },
+    "science": {
+      "phonetic": "/ˈsaɪəns/",
+      "pos": "n.",
+      "sense": "科学；理科",
+      "collocations": [
+        "funding for science",
+        "science proceeds"
+      ],
+      "examples": [
+        "\"While all bitter flavors may seem the same, we 32 the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine 33,\" Ong told Live Science. Ong 对 Live Science 说：「别看苦味好像都一个样，抱子甘蓝、奎宁、咖啡因这三种苦，我们其实是分开来感知的。」"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "sci（知道，词根 sci = know，同 conscious/omniscient）+ -ence（名词后缀）",
+        "confusables": "science（科学，不可数；一门学科，可数）/ scientist（科学家，指人，-ist）/ scientific（科学的，形容词）/ technology（技术、工艺）/ -ence 名词后缀（difference、patience）"
+      }
+    },
+    "scientists": {
+      "phonetic": "/ˈsaɪəntɪsts/",
+      "pos": "n.",
+      "sense": "科学家（scientist 的复数）",
+      "lemma": "scientist",
+      "collocations": [
+        "social scientists",
+        "scientists found"
+      ],
+      "examples": [
+        "Social scientists found digital use beneficial. 社会科学家发现数字使用有益。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "science（科学）+ -ist",
+        "confusables": "scientist（科学家）/ science（科学）"
+      }
+    },
+    "seem": {
+      "phonetic": "/siːm/",
+      "pos": "v.",
+      "sense": "似乎、好像（seem + adj. / seem to do）",
+      "collocations": [
+        "seem to be",
+        "it seems that",
+        "seemingly"
+      ],
+      "examples": [
+        "People who skip leisure seem higher in status. 跳过休闲的人似乎地位更高。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "seem（似乎）/ appear（显得，更正式）/ look（看起来）"
+      }
+    },
+    "senior": {
+      "phonetic": "/ˈsiːniə/",
+      "pos": "adj./n.",
+      "sense": "资深的、高级的、年长的；上级、长辈、高年级 / 大四学生（本文 middle or senior management 中高层管理 / senior author 资深作者）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "study senior",
+        "senior researcher"
+      ],
+      "examples": [
+        "\"You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,\" said study senior researcher Marilyn Cornelis. 资深研究员玛丽莲·科内利斯说：「按常理你会觉得，越怕咖啡因苦味的人，咖啡该喝得越少。」"
+      ]
+    },
+    "sensitivity": {
+      "phonetic": "/ˌsensəˈtɪvəti/",
+      "pos": "n.",
+      "sense": "敏感、敏感性、灵敏度；体贴、善解人意（sensitivity to 对…的敏感）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sensitivity isn't"
+      ],
+      "examples": [
+        "This sensitivity isn't 26 a matter of taste, either, but rather is influenced by a person's genetic makeup, the researchers said in the study. 研究者还指出，这种敏感可不只是「嘴刁」，背后其实由基因决定。"
+      ],
+      "more": {
+        "roots": "sensitivity 含 -ity（名词后缀，表性质或状态）"
+      }
+    },
+    "serves": {
+      "phonetic": "/sɜːvz/",
+      "pos": "v.",
+      "sense": "为…服务；提供、端上；充当、用作（serve 的复数/三单形式）",
+      "lemma": "serve",
+      "collocations": [
+        "often serves",
+        "serves as"
+      ],
+      "examples": [
+        "This finding is surprising, given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances, the scientists said. 科学家们说，这结果才叫意外：苦味本来是套预警机制，按理该让人把有害东西吐掉才对。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "serve + -s（复数/三单）",
+        "confusables": "serves（复数/三单）/ serve（原形）"
+      }
+    },
+    "sound": {
+      "phonetic": "/saʊnd/",
+      "pos": "n./v./adj.",
+      "sense": "声音、声响、响声；听起来、发出声音、探测；健全的、合理的、扎实的、酣睡的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sound surprising"
+      ],
+      "examples": [
+        "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds. 说来可能有点反直觉：一项新研究发现，越能尝出咖啡苦味的人，咖啡反而喝得越多。"
+      ],
+      "more": {
+        "confusables": "sound / sounds（同族不同词形，注意词性与用法）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "substances": {
+      "phonetic": "/ˈsʌbstənsɪz/",
+      "pos": "n.",
+      "sense": "物质、材料、实质、要点（substance 的复数；化学或营养话题指具体成分）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "harmful substances"
+      ],
+      "examples": [
+        "This finding is surprising, given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances, the scientists said. 科学家们说，这结果才叫意外：苦味本来是套预警机制，按理该让人把有害东西吐掉才对。"
+      ]
+    },
+    "suggest": {
+      "phonetic": "/səˈdʒest/",
+      "pos": "v.",
+      "sense": "建议、提议；表明、暗示、使人想到",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "suggest doing（建议做，接动名词，不说 suggest to do）/ suggest that + (should) do（建议，从句虚拟，should 可省）/ suggest that + 陈述语气（暗示、表明）/ advise sb to do（句型不同）/ suggestion（建议；迹象）"
+      },
+      "collocations": [
+        "study suggest",
+        "suggest coffee"
+      ],
+      "examples": [
+        "\"The 27 results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive 28 brought out by caffeine.\" 而研究结果恰恰相反：正因为咖啡因带来后天的正向强化，喝咖啡的人反而品出了滋味、也练就了分辨苦味的本事。"
+      ]
+    },
+    "surprising": {
+      "phonetic": "/səˈpraɪzɪŋ/",
+      "pos": "adj.",
+      "sense": "令人惊讶的、出人意料的、意外的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "surprise（使惊讶）+ -ing（形容词后缀，去 e）",
+        "confusables": "surprising（令人惊讶的，指事物）/ surprised（感到惊讶的，指人，be surprised at/by）/ surprisingly（副词）/ -ed/-ing 方向相反"
+      },
+      "collocations": [
+        "sound surprising"
+      ],
+      "examples": [
+        "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds. 说来可能有点反直觉：一项新研究发现，越能尝出咖啡苦味的人，咖啡反而喝得越多。"
+      ]
+    },
+    "taste": {
+      "phonetic": "/teɪst/",
+      "pos": "n./v.",
+      "sense": "味道、滋味、味觉、一口、品味、爱好；尝、尝起来、体验、有…味道",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "bitter taste",
+        "taste actually",
+        "matter of taste"
+      ],
+      "examples": [
+        "It may sound surprising, but people who are supersensitive to coffee's bitter taste actually drink more of it, a new study finds. 说来可能有点反直觉：一项新研究发现，越能尝出咖啡苦味的人，咖啡反而喝得越多。"
+      ]
+    },
+    "tend": {
+      "phonetic": "/tend/",
+      "pos": "v.",
+      "sense": "倾向于、往往会（tend to do）；照料（tend to sb）",
+      "collocations": [
+        "tend to do",
+        "tend to be",
+        "tend towards"
+      ],
+      "examples": [
+        "Men tend to exhibit more of these behaviors. 男性往往表现出更多这类行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tend to do（倾向于）/ tend to sb（照料某人）"
+      }
+    },
+    "tended": {
+      "phonetic": "/tendɪd/",
+      "pos": "v.",
+      "sense": "倾向于、往往会（tend to do）；照料（tend to sb）（tend 的过去式/过去分词形式）",
+      "lemma": "tend",
+      "collocations": [
+        "vegetables tended",
+        "tended to"
+      ],
+      "examples": [
+        "In 34, people who were more sensitive to quinine's bitter flavors and those found in green vegetables tended to 35 coffee. 另外，对奎宁和绿叶菜苦味越敏感的人，反倒越不爱碰咖啡。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "tend + -ed（过去式/过去分词）",
+        "confusables": "tended（过去式/过去分词）/ tend（原形）"
+      }
+    },
+    "things": {
+      "phonetic": "/θɪŋz/",
+      "pos": "n.",
+      "sense": "事情、东西（thing 的复数）",
+      "lemma": "thing",
+      "collocations": [
+        "all things considered",
+        "the thing is",
+        "things like that"
+      ],
+      "examples": [
+        "They have to do all these things first. 他们必须先做所有这些事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "things（事情/东西）/ stuff（东西，不可数，口语）"
+      }
+    },
+    "told": {
+      "phonetic": "/təʊld/",
+      "pos": "v.",
+      "sense": "告诉、讲述、吩咐、吩咐（tell 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tell sb sth = tell sth to sb（告诉，双宾语）/ tell sb to do（叫某人做，接不定式）/ tell 与 say（say 接内容，tell 须接人）/ tell 与 speak / talk / be told to do（被动加 to）/ tell-told-told"
+      },
+      "collocations": [
+        "Ong told",
+        "told Live"
+      ],
+      "examples": [
+        "\"While all bitter flavors may seem the same, we 32 the bitterness of Brussels sprouts(抱子甘蓝), quinine(奎宁) and caffeine 33,\" Ong told Live Science. Ong 对 Live Science 说：「别看苦味好像都一个样，抱子甘蓝、奎宁、咖啡因这三种苦，我们其实是分开来感知的。」"
+      ]
+    },
+    "understand": {
+      "phonetic": "/ˌʌndəˈstænd/",
+      "pos": "v.",
+      "sense": "理解、明白；得知、获悉；体谅",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "under-（在…之下）+ stand（站立）构成的复合动词",
+        "confusables": "understand（理解、明白，及物，通常不用进行时）/ understand doing / understand that / make oneself understood（把意思说明白）/ comprehend（更正式）/ understanding（理解；谅解，名词）"
+      },
+      "collocations": [
+        "study to understand"
+      ],
+      "examples": [
+        "Researchers conducted the study to understand how genetics influences people's 31 of tea, coffee and alcohol which tend to taste bitter, said lead researcher Jue Sheng Ong. 首席研究员 Jue Sheng Ong 说，做这项研究就是想搞清楚：基因到底怎样左右人们对茶、咖啡、酒这些偏苦饮品的摄入。"
+      ]
+    },
+    "vegetables": {
+      "phonetic": "/ˈvedʒtəblz/",
+      "pos": "n.",
+      "sense": "蔬菜（复数；本文 fruit and vegetables 果蔬 / vegetable gardens 菜园 / grow vegetables）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "green vegetables",
+        "vegetables tended"
+      ],
+      "examples": [
+        "People with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. 能尝出绿叶菜苦味的那批人，往往更爱喝茶、而不是咖啡。"
+      ],
+      "more": {
+        "confusables": "vegetables / vegetable（同族不同词形，注意词性与用法）"
+      }
+    },
+    "warning": {
+      "phonetic": "/ˈwɔːnɪŋ/",
+      "pos": "n./adj.",
+      "sense": "警告、警示、预告、前兆；警告的（warning signs / issue a warning / without warning）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "warning mechanism"
+      ],
+      "examples": [
+        "This finding is surprising, given that bitterness often serves as a warning mechanism to 30 people to spit out harmful substances, the scientists said. 科学家们说，这结果才叫意外：苦味本来是套预警机制，按理该让人把有害东西吐掉才对。"
+      ],
+      "more": {
+        "confusables": "warning / warnings（同族不同词形，注意词性与用法）"
+      }
+    },
+    "way": {
+      "phonetic": "/weɪ/",
+      "pos": "n.",
+      "sense": "方法、方式；路；程度（in a way）",
+      "collocations": [
+        "the best way to do sth",
+        "in some ways",
+        "by the way"
+      ],
+      "examples": [
+        "There is no simple way to fix it. 没有简单的办法解决它。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "way（方法）/ road（道路）/ method（方法，正式）"
+      }
+    }
+  }
+}

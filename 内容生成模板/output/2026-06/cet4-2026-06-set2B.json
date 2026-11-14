@@ -1,0 +1,5930 @@
+{
+  "sourceKey": "cet4-2026-06-set2B",
+  "articleId": "set2B",
+  "packVersion": "2026.11.13",
+  "meta": {
+    "examYear": 2026,
+    "examMonth": 6,
+    "setNo": 2,
+    "section": "仔细阅读",
+    "passageLabel": "Passage Two",
+    "title": "Music as a Universal Language",
+    "wordCount": 348
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Music is a universal language. In every culture and country, you will find music. It is vitally important across the globe and has the potential to bring people together in peace and harmony. One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. When each culture brings its own unique qualities to the group, an entirely new sound is achieved. This can create extraordinary results. People can communicate with each other using music as the common language.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 30,
+          "text": "Music is a universal language.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 8,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 20,
+              "surface": "universal",
+              "normalized": "universal",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 29,
+              "surface": "language",
+              "normalized": "language",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 30,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "音乐是一种通用的语言。",
+            "translationNatural": "音乐，是一门放之四海皆通的语言。",
+            "structMarkup": "【Music】 _is_ ~a universal language~.",
+            "structureSummary": "简单主系表结构；universal 作前置定语修饰表语 language。",
+            "components": [
+              {
+                "part": "Music",
+                "role": "主语",
+                "note": "名词作主语，点明全篇话题"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与表语"
+              },
+              {
+                "part": "a universal language",
+                "role": "表语",
+                "note": "名词短语作表语，universal 点明「普世通用」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「简单主系表结构；universal 作前置定语修饰表语 language。」。"
+            ],
+            "phrases": [
+              {
+                "text": "language",
+                "meaning": "语言",
+                "usage": "常见搭配：the English language / body language。",
+                "example": "Music is a universal language. 音乐，是一门放之四海皆通的语言。"
+              },
+              {
+                "text": "Music",
+                "meaning": "音乐、乐曲、乐谱；音乐（学科/艺术）",
+                "usage": "本句中作n.，可按「简单主系表结构；universal 作前置定语修饰表语 language。」定位它在句中的位置。",
+                "example": "Music is a universal language. 音乐，是一门放之四海皆通的语言。"
+              }
+            ],
+            "pitfalls": [
+              "本句主干为「简单主系表结构；universal 作前置定语修饰表语 language。」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "开门见山亮出全文总论点：音乐是超越国界的通用语言，定下「普世性」基调。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 31,
+          "end": 81,
+          "text": "In every culture and country, you will find music.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "every",
+              "normalized": "every",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 16,
+              "surface": "culture",
+              "normalized": "culture",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 28,
+              "surface": "country",
+              "normalized": "country",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 29,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 30,
+              "end": 33,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 38,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "find",
+              "normalized": "find",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在每一种文化与每一个国家里，你都会发现音乐。",
+            "translationNatural": "无论哪种文化、哪个国度，音乐都无处不在。",
+            "structMarkup": "(In every culture and country), 【you】 _will find_ ~music~.",
+            "structureSummary": "介词短语作范围状语 + 主谓宾结构；will 表普遍规律而非单纯将来。",
+            "components": [
+              {
+                "part": "In every culture and country",
+                "role": "状语",
+                "note": "in 短语作范围状语，强调「无一例外」"
+              },
+              {
+                "part": "you",
+                "role": "主语",
+                "note": "泛指人称主语，拉近与读者的距离"
+              },
+              {
+                "part": "will find",
+                "role": "谓语",
+                "note": "will + 动词原形，此处表「总会发现」的普遍事实"
+              },
+              {
+                "part": "music",
+                "role": "宾语",
+                "note": "find 的宾语，点明处处可见的对象"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「介词短语作范围状语 + 主谓宾结构；will 表普遍规律而非单纯将来。」。"
+            ],
+            "phrases": [
+              {
+                "text": "find",
+                "meaning": "发现、找到；认为（find sth + adj.）",
+                "usage": "注意区分：find（找到，结果）/ search（搜寻，过程）/ find out（查明）。常见搭配：find that... / find it hard to do。",
+                "example": "They find the rule acceptable. 他们觉得这条规则可以接受。"
+              },
+              {
+                "text": "culture",
+                "meaning": "文化、文明；修养、教养；培养、栽培（细胞 / 细菌）；（企业）文化",
+                "usage": "本句中作n.，可按「介词短语作范围状语 + 主谓宾结构；will 表普遍规律而非单纯将来。」定位它在句中的位置。",
+                "example": "In every culture and country, you will find music. 无论哪种文化、哪个国度，音乐都无处不在。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：find（找到，结果）/ search（搜寻，过程）/ find out（查明）。",
+              "本句主干为「介词短语作范围状语 + 主谓宾结构；will 表普遍规律而非单纯将来。」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "用「处处都有音乐」为总论点提供最直白的事实支撑，强化普世性。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 82,
+          "end": 191,
+          "text": "It is vitally important across the globe and has the potential to bring people together in peace and harmony.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 5,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 13,
+              "surface": "vitally",
+              "normalized": "vitally",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 23,
+              "surface": "important",
+              "normalized": "important",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 30,
+              "surface": "across",
+              "normalized": "across",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 34,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 40,
+              "surface": "globe",
+              "normalized": "globe",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 52,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 62,
+              "surface": "potential",
+              "normalized": "potential",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 71,
+              "surface": "bring",
+              "normalized": "bring",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 78,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 87,
+              "surface": "together",
+              "normalized": "together",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 96,
+              "surface": "peace",
+              "normalized": "peace",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 100,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 108,
+              "surface": "harmony",
+              "normalized": "harmony",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 109,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "它在全球范围内都极其重要，并且具有把人们以和平与和谐的方式聚拢到一起的潜力。",
+            "translationNatural": "音乐在世界各地都分量极重，还能让人们平和、融洽地走到一起。",
+            "structMarkup": "【It】 _is_ ~vitally important~ across the globe _and has the potential_ (to bring people together in peace and harmony).",
+            "structureSummary": "主系表 + and 并列主谓宾；后一分句含 to bring... 不定式作 potential 的后置定语。",
+            "components": [
+              {
+                "part": "It",
+                "role": "主语",
+                "note": "回指上句 music"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与表语 vitally important"
+              },
+              {
+                "part": "vitally important",
+                "role": "表语",
+                "note": "副词 vitally 强化 important，说明其分量"
+              },
+              {
+                "part": "and has the potential",
+                "role": "谓语",
+                "note": "and 连接第二个并列谓语 has，意为「具备潜力」"
+              },
+              {
+                "part": "to bring people together in peace and harmony",
+                "role": "后置定语",
+                "note": "不定式修饰 potential，点明潜力在于「凝聚人心」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表 + and 并列主谓宾；后一分句含 to bring... 不定式作 potential 的后置定语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "vitally",
+                "meaning": "至关重要的、生死攸关的、必不可少的、充满活力的（be vital to/for 对…极重要）（vital 的副词形式）",
+                "usage": "注意区分：vitally（副词）/ vital（原形）。",
+                "example": "It is vitally important across the globe and has the potential to bring people together in peace and harmony. 音乐在世界各地都分量极重，还能让人们平和、融洽地走到一起。"
+              },
+              {
+                "text": "important",
+                "meaning": "重要的、重大的；有影响力的",
+                "usage": "注意区分：important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）。",
+                "example": "It is vitally important across the globe and has the potential to bring people together in peace and harmony. 音乐在世界各地都分量极重，还能让人们平和、融洽地走到一起。"
+              },
+              {
+                "text": "potential",
+                "meaning": "潜在的（形容词）；潜力（不可数）",
+                "usage": "注意区分：potential（潜在的/潜力）/ possible（可能的）/ potentially（可能地）。常见搭配：career potential / potential customers。",
+                "example": "Perceived career potential changed for women. 女性自感的职业潜力发生了变化。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：vitally（副词）/ vital（原形）。",
+              "注意区分：important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）。",
+              "注意区分：potential（潜在的/潜力）/ possible（可能的）/ potentially（可能地）。"
+            ],
+            "paragraphRole": "由「存在」推进到「价值」：音乐重要且能凝聚众人，正是第51题答案的伏笔。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 192,
+          "end": 313,
+          "text": "One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "One",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "surface": "my",
+              "normalized": "my",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 18,
+              "surface": "favorite",
+              "normalized": "favorite",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 30,
+              "surface": "experiences",
+              "normalized": "experiences",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 39,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 42,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 49,
+              "surface": "seeing",
+              "normalized": "seeing",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 59,
+              "surface": "musicians",
+              "normalized": "musicians",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 64,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 74,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 83,
+              "surface": "cultures",
+              "normalized": "cultures",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 88,
+              "surface": "come",
+              "normalized": "come",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 97,
+              "surface": "together",
+              "normalized": "together",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 101,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 109,
+              "surface": "perform",
+              "normalized": "perform",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 112,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 114,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 120,
+              "surface": "group",
+              "normalized": "group",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 121,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在音乐方面我最喜爱的体验之一，就是看到来自不同文化的音乐家们聚到一起并作为一个团体演出。",
+            "translationNatural": "我最爱的一类音乐场景，莫过于看着不同文化背景的乐手凑到一块儿、组团合奏。",
+            "structMarkup": "【One of my favorite experiences in music】 _is_ ~seeing musicians from different cultures come together and perform as a group~.",
+            "structureSummary": "主系表结构；动名词短语 seeing... 作表语，其中 come together and perform 为省略 to 的不定式作宾补。",
+            "components": [
+              {
+                "part": "One of my favorite experiences in music",
+                "role": "主语",
+                "note": "one of + 复数名词作主语，谓语随之用单数 is"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与动名词表语"
+              },
+              {
+                "part": "seeing musicians from different cultures come together and perform as a group",
+                "role": "表语",
+                "note": "动名词短语作表语，描绘作者最爱的合奏画面"
+              },
+              {
+                "part": "from different cultures",
+                "role": "后置定语",
+                "note": "介词短语修饰 musicians，点明「来自不同文化」"
+              },
+              {
+                "part": "as a group",
+                "role": "状语",
+                "note": "介词短语说明演奏方式：作为一个整体"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表结构；动名词短语 seeing... 作表语，其中 come together and perform 为省略 to 的不定式作宾补。」。"
+            ],
+            "phrases": [
+              {
+                "text": "seeing",
+                "meaning": "看见；明白（I see）；见证（see 的现在分词/动名词形式）",
+                "usage": "注意区分：seeing（现在分词/动名词）/ see（原形）。",
+                "example": "One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. 我最爱的一类音乐场景，莫过于看着不同文化背景的乐手凑到一块儿、组团合奏。"
+              },
+              {
+                "text": "different",
+                "meaning": "不同的；各种各样的",
+                "usage": "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。常见搭配：different from / a different picture。",
+                "example": "Their experiences were considerably different. 他们的经历相当不同。"
+              },
+              {
+                "text": "cultures",
+                "meaning": "文化、文明；修养、教养；培养、栽培（细胞 / 细菌）；（企业）文化（culture 的复数/三单形式）",
+                "usage": "注意区分：cultures（复数/三单）/ culture（原形）。",
+                "example": "One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. 我最爱的一类音乐场景，莫过于看着不同文化背景的乐手凑到一块儿、组团合奏。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：seeing（现在分词/动名词）/ see（原形）。",
+              "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。",
+              "注意区分：cultures（复数/三单）/ culture（原形）。"
+            ],
+            "paragraphRole": "转入作者亲身体验，用「跨文化合奏」把抽象的普世性落到具体场景，领起第52题。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 314,
+          "end": 412,
+          "text": "When each culture brings its own unique qualities to the group, an entirely new sound is achieved.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "When",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "each",
+              "normalized": "each",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 17,
+              "surface": "culture",
+              "normalized": "culture",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 24,
+              "surface": "brings",
+              "normalized": "brings",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "its",
+              "normalized": "its",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "own",
+              "normalized": "own",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 39,
+              "surface": "unique",
+              "normalized": "unique",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 49,
+              "surface": "qualities",
+              "normalized": "qualities",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 56,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 62,
+              "surface": "group",
+              "normalized": "group",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 63,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 64,
+              "end": 66,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 75,
+              "surface": "entirely",
+              "normalized": "entirely",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 79,
+              "surface": "new",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 85,
+              "surface": "sound",
+              "normalized": "sound",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 88,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 97,
+              "surface": "achieved",
+              "normalized": "achieved",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 98,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "当每种文化都把自己独有的特质带进这个团体时，一种全新的声音便达成了。",
+            "translationNatural": "每种文化把自己那份独门气质带进来，合在一起就生出了全新的音色。",
+            "structMarkup": "{When each culture brings its own unique qualities to the group}, 【an entirely new sound】 _is achieved_.",
+            "structureSummary": "When 引导状语从句 + 主谓（被动语态）；主句 an entirely new sound 作主语。",
+            "components": [
+              {
+                "part": "When each culture brings its own unique qualities to the group",
+                "role": "状语从句",
+                "note": "When 引导，说明「新声音」产生的条件"
+              },
+              {
+                "part": "each culture",
+                "role": "主语",
+                "note": "从句主语，强调每种文化各自贡献"
+              },
+              {
+                "part": "brings its own unique qualities to the group",
+                "role": "谓语",
+                "note": "bring...to... 结构，意为「把独有特质带入团体」"
+              },
+              {
+                "part": "an entirely new sound",
+                "role": "主语",
+                "note": "主句主语，被动语态下是「被成就」的对象"
+              },
+              {
+                "part": "is achieved",
+                "role": "谓语",
+                "note": "主句被动谓语，意为「被达成 / 得以产生」"
+              }
+            ],
+            "clauses": [
+              "状语从句「When each culture brings its own unique qualities to the group」：When 引导，说明「新声音」产生的条件",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "qualities",
+                "meaning": "质量（不可数）；品质、特质（可数）；优质的（quality 的复数/三单形式）",
+                "usage": "注意区分：qualities（复数/三单）/ quality（原形）。",
+                "example": "When each culture brings its own unique qualities to the group, an entirely new sound is achieved. 每种文化把自己那份独门气质带进来，合在一起就生出了全新的音色。"
+              },
+              {
+                "text": "group",
+                "meaning": "群体、小组（可数）/ 分组（动词）",
+                "usage": "注意区分：group（群体）/ team（团队）/ crowd（人群）。常见搭配：a group of / age group。",
+                "example": "Studies have shown that social support helps. 研究表明社会支持有帮助。"
+              },
+              {
+                "text": "entirely",
+                "meaning": "完全地、全然地、一概（not entirely 不完全）",
+                "usage": "注意区分：entirely（完全地、全然）/ entirely 与 completely（近义）/ not entirely（不完全，部分否定）/ entire（整个的，形容词，只作定语）。",
+                "example": "When each culture brings its own unique qualities to the group, an entirely new sound is achieved. 每种文化把自己那份独门气质带进来，合在一起就生出了全新的音色。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：qualities（复数/三单）/ quality（原形）。",
+              "注意区分：group（群体）/ team（团队）/ crowd（人群）。"
+            ],
+            "paragraphRole": "解释跨文化合奏为何特别：各文化特质叠加，生成前所未有的新声音，为第52题蓄势。"
+          }
+        },
+        {
+          "idx": 5,
+          "start": 413,
+          "end": 451,
+          "text": "This can create extraordinary results.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 15,
+              "surface": "create",
+              "normalized": "create",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 29,
+              "surface": "extraordinary",
+              "normalized": "extraordinary",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 37,
+              "surface": "results",
+              "normalized": "results",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 38,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这能够创造出非凡的结果。",
+            "translationNatural": "由此往往能碰撞出惊艳的效果。",
+            "structMarkup": "【This】 _can create_ ~extraordinary results~.",
+            "structureSummary": "主谓宾结构；情态动词 can + 动词原形 create。",
+            "components": [
+              {
+                "part": "This",
+                "role": "主语",
+                "note": "回指上句「全新声音的产生」"
+              },
+              {
+                "part": "can create",
+                "role": "谓语",
+                "note": "情态动词 can + create，表「能够催生」"
+              },
+              {
+                "part": "extraordinary results",
+                "role": "宾语",
+                "note": "create 的宾语，extraordinary 点明效果非同一般"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾结构；情态动词 can + 动词原形 create。」。"
+            ],
+            "phrases": [
+              {
+                "text": "create",
+                "meaning": "创造、造成（create sth）",
+                "usage": "注意区分：create（创造）/ make（制作）/ produce（生产）。常见搭配：create opportunities / create problems。",
+                "example": "They create powerful new communicative forms. 他们创造出有力的新沟通形式。"
+              },
+              {
+                "text": "results",
+                "meaning": "结果（result 的复数）；成绩",
+                "usage": "注意区分：results（复数）/ result（单数）。常见搭配：the results show / test results。",
+                "example": "The results suggest a clear difference. 结果表明有明显差异。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：create（创造）/ make（制作）/ produce（生产）。",
+              "注意区分：results（复数）/ result（单数）。"
+            ],
+            "paragraphRole": "用一句短评收束体验：跨文化融合能带来非凡成果，直接坐实第52题的正确选项。"
+          }
+        },
+        {
+          "idx": 6,
+          "start": 452,
+          "end": 526,
+          "text": "People can communicate with each other using music as the common language.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "People",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 22,
+              "surface": "communicate",
+              "normalized": "communicate",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 27,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 32,
+              "surface": "each",
+              "normalized": "each",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 44,
+              "surface": "using",
+              "normalized": "using",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 50,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 53,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 64,
+              "surface": "common",
+              "normalized": "common",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 73,
+              "surface": "language",
+              "normalized": "language",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 74,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "人们能够借助音乐这一共同语言彼此交流。",
+            "translationNatural": "大家以音乐为共同语言，就能互相沟通。",
+            "structMarkup": "【People】 _can communicate_ (with each other) (using music as the common language).",
+            "structureSummary": "主谓结构 + using... 现在分词短语作方式状语 + as 短语作宾补。",
+            "components": [
+              {
+                "part": "People",
+                "role": "主语",
+                "note": "泛指人称主语"
+              },
+              {
+                "part": "can communicate",
+                "role": "谓语",
+                "note": "情态动词 can + 不及物动词 communicate"
+              },
+              {
+                "part": "with each other",
+                "role": "介词短语",
+                "note": "介词短语说明交流对象：彼此之间"
+              },
+              {
+                "part": "using music as the common language",
+                "role": "状语",
+                "note": "现在分词短语作方式状语，点明「以音乐为共同语」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓结构 + using... 现在分词短语作方式状语 + as 短语作宾补。」。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "communicate",
+                "meaning": "交流、沟通；传达、传递（信息）；相通",
+                "usage": "注意区分：communicate with sb（与某人交流，介词 with）/ communicate sth to sb（把…传达给某人）/ communication（交流，名词）/ communicable（可传染的，指疾病）。",
+                "example": "People can communicate with each other using music as the common language. 大家以音乐为共同语言，就能互相沟通。"
+              },
+              {
+                "text": "using",
+                "meaning": "use 的现在分词（使用）",
+                "usage": "注意区分：using（现在分词）/ used（过去式/过去分词）。常见搭配：by using sth / using data。",
+                "example": "Results improve by using existing technology. 使用现有技术就能改善结果。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：communicate with sb（与某人交流，介词 with）/ communicate sth to sb（把…传达给某人）/ communication（交流，名词）/ communicable（可传染的，指疾病）。",
+              "注意区分：using（现在分词）/ used（过去式/过去分词）。"
+            ],
+            "paragraphRole": "回扣段首「通用语言」：音乐让人得以跨文化交流，首尾呼应，强化第51题主旨。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "One common musical thread between cultures is known as the pentatonic scale. It is astonishing how many cultures share this tool in approaching music. The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note. This scale can be found in music everywhere including that of Native Americans, Africans, and Asians. It is also found in popular music, blues, jazz, and rock. Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 76,
+          "text": "One common musical thread between cultures is known as the pentatonic scale.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "One",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "surface": "common",
+              "normalized": "common",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 18,
+              "surface": "musical",
+              "normalized": "musical",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "surface": "thread",
+              "normalized": "thread",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 33,
+              "surface": "between",
+              "normalized": "between",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 42,
+              "surface": "cultures",
+              "normalized": "cultures",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 51,
+              "surface": "known",
+              "normalized": "known",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 69,
+              "surface": "pentatonic",
+              "normalized": "pentatonic",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "surface": "scale",
+              "normalized": "scale",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 76,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "各文化之间一条共同的音乐线索被称为五声音阶。",
+            "translationNatural": "贯穿不同文化的一条共同音乐脉络，就是所谓的五声音阶。",
+            "structMarkup": "【One common musical thread】 (between cultures) _is known as_ (the pentatonic scale).",
+            "structureSummary": "主系表（被动 be known as）+ between 介词短语作后置定语。",
+            "components": [
+              {
+                "part": "One common musical thread",
+                "role": "主语",
+                "note": "名词短语作主语，thread 喻「贯穿的线索」"
+              },
+              {
+                "part": "between cultures",
+                "role": "后置定语",
+                "note": "介词短语修饰 thread，限定「文化之间」"
+              },
+              {
+                "part": "is known as",
+                "role": "谓语",
+                "note": "被动结构 be known as，意为「被称作」"
+              },
+              {
+                "part": "the pentatonic scale",
+                "role": "补语",
+                "note": "as 后的名称，点明这条线索即五声音阶"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（被动 be known as）+ between 介词短语作后置定语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "common",
+                "meaning": "常见的、普遍的；共同的",
+                "usage": "注意区分：common（常见/共同）/ ordinary（普通）/ usual（通常的）。常见搭配：in common / common sense。",
+                "example": "Paternity leave is becoming more common. 陪产假越来越普遍。"
+              },
+              {
+                "text": "cultures",
+                "meaning": "文化、文明；修养、教养；培养、栽培（细胞 / 细菌）；（企业）文化（culture 的复数/三单形式）",
+                "usage": "注意区分：cultures（复数/三单）/ culture（原形）。",
+                "example": "One common musical thread between cultures is known as the pentatonic scale. 贯穿不同文化的一条共同音乐脉络，就是所谓的五声音阶。"
+              },
+              {
+                "text": "known",
+                "meaning": "已知的、闻名的、公认的（known as 以…著称）；know 的过去分词",
+                "usage": "注意区分：be known as（作为…而出名，后接身份）/ be known for（因…而出名，后接原因或特点）/ be known to（为…所熟知，后接人）/ know（know-knew-known）/ well-known（著名的，形容词）。",
+                "example": "One common musical thread between cultures is known as the pentatonic scale. 贯穿不同文化的一条共同音乐脉络，就是所谓的五声音阶。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：common（常见/共同）/ ordinary（普通）/ usual（通常的）。",
+              "注意区分：cultures（复数/三单）/ culture（原形）。",
+              "注意区分：be known as（作为…而出名，后接身份）/ be known for（因…而出名，后接原因或特点）/ be known to（为…所熟知，后接人）/ know（know-knew-known）/ well-known（著名的，形容词）。"
+            ],
+            "paragraphRole": "本段换一个角度，把「普世性」落到具体载体——跨文化共有的五声音阶，领起第53题。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 77,
+          "end": 150,
+          "text": "It is astonishing how many cultures share this tool in approaching music.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 5,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 17,
+              "surface": "astonishing",
+              "normalized": "astonishing",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 35,
+              "surface": "cultures",
+              "normalized": "cultures",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "share",
+              "normalized": "share",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 51,
+              "surface": "tool",
+              "normalized": "tool",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 66,
+              "surface": "approaching",
+              "normalized": "approaching",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 72,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 73,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "有如此多的文化在对待音乐时共用这一工具，这是令人惊讶的。",
+            "translationNatural": "竟然有那么多文化不约而同用同一套工具来玩音乐，着实令人惊叹。",
+            "structMarkup": "【It】 _is_ ~astonishing~ {how many cultures share this tool in approaching music}.",
+            "structureSummary": "It 作形式主语 + 系表 astonishing + how 引导的主语从句（真正主语）。",
+            "components": [
+              {
+                "part": "It",
+                "role": "形式主语",
+                "note": "占位形式主语，真正主语是后面的 how 从句"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接形式主语与表语"
+              },
+              {
+                "part": "astonishing",
+                "role": "表语",
+                "note": "形容词作表语，表达「令人惊讶」的评价"
+              },
+              {
+                "part": "how many cultures share this tool in approaching music",
+                "role": "主语从句",
+                "note": "how 引导的真正主语，强调共用此工具的文化之多"
+              }
+            ],
+            "clauses": [
+              "主语从句「how many cultures share this tool in approaching music」：how 引导的真正主语，强调共用此工具的文化之多",
+              "本句主干为「It 作形式主语 + 系表 astonishing + how 引导的主语从句（真正主语）。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "cultures",
+                "meaning": "文化、文明；修养、教养；培养、栽培（细胞 / 细菌）；（企业）文化（culture 的复数/三单形式）",
+                "usage": "注意区分：cultures（复数/三单）/ culture（原形）。",
+                "example": "It is astonishing how many cultures share this tool in approaching music. 竟然有那么多文化不约而同用同一套工具来玩音乐，着实令人惊叹。"
+              },
+              {
+                "text": "approaching",
+                "meaning": "方法、途径、态度；接近、靠近、临近、着手处理、接洽（an approach to …的方法）（approach 的现在分词/动名词形式）",
+                "usage": "注意区分：approaching（现在分词/动名词）/ approach（原形）。",
+                "example": "It is astonishing how many cultures share this tool in approaching music. 竟然有那么多文化不约而同用同一套工具来玩音乐，着实令人惊叹。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：cultures（复数/三单）/ culture（原形）。",
+              "注意区分：approaching（现在分词/动名词）/ approach（原形）。"
+            ],
+            "paragraphRole": "先声夺人地强调五声音阶分布之广，为下句「处处可见」与第53题铺垫。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 151,
+          "end": 249,
+          "text": "The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 14,
+              "surface": "pentatonic",
+              "normalized": "pentatonic",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "scale",
+              "normalized": "scale",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 29,
+              "surface": "consists",
+              "normalized": "consists",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "five",
+              "normalized": "five",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 43,
+              "surface": "notes",
+              "normalized": "notes",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 44,
+              "surface": ";",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 46,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 46,
+              "end": 51,
+              "surface": "penta",
+              "normalized": "penta",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 52,
+              "surface": "-",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 54,
+              "end": 61,
+              "surface": "meaning",
+              "normalized": "meaning",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 64,
+              "surface": "5,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 65,
+              "end": 68,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 70,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "surface": "tonic",
+              "normalized": "tonic",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 76,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 77,
+              "end": 84,
+              "surface": "meaning",
+              "normalized": "meaning",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 89,
+              "surface": "tone",
+              "normalized": "tone",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 97,
+              "surface": "note",
+              "normalized": "note",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 98,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "五声音阶由五个音组成；「penta-」意为 5，「tonic」意为音或音符。",
+            "translationNatural": "五声音阶由五个音构成：penta- 是「五」，tonic 是「音」，合起来就是五个音。",
+            "structMarkup": "【The pentatonic scale】 _consists of_ ~five notes~; (\"penta-\" meaning 5), (and \"tonic\" meaning tone or note).",
+            "structureSummary": "主谓宾（consist of）+ 分号后接两个并列的独立主格结构（名词 + 现在分词）作补充说明。",
+            "components": [
+              {
+                "part": "The pentatonic scale",
+                "role": "主语",
+                "note": "概念名作主语"
+              },
+              {
+                "part": "consists of",
+                "role": "谓语",
+                "note": "固定动词短语，意为「由……组成」"
+              },
+              {
+                "part": "five notes",
+                "role": "宾语",
+                "note": "of 的宾语，点明「五个音」"
+              },
+              {
+                "part": "\"penta-\" meaning 5",
+                "role": "状语",
+                "note": "分号后独立主格，解释前缀 penta- 意为「五」"
+              },
+              {
+                "part": "and \"tonic\" meaning tone or note",
+                "role": "状语",
+                "note": "and 连接第二个独立主格，解释 tonic 意为「音 / 音符」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（consist of）+ 分号后接两个并列的独立主格结构（名词 + 现在分词）作补充说明。」。"
+            ],
+            "phrases": [
+              {
+                "text": "five",
+                "meaning": "五（数词）；五个、五岁（作定语或表语）",
+                "usage": "注意区分：five（五）/ fifth（第五）。常见搭配：five years ago / five times。",
+                "example": "We did a study five years ago. 我们五年前做过一项研究。"
+              },
+              {
+                "text": "notes",
+                "meaning": "笔记；便条；音符；注释（v. 注意；指出）（note 的复数/三单形式）",
+                "usage": "注意区分：notes（复数/三单）/ note（原形）。",
+                "example": "The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note. 五声音阶由五个音构成：penta- 是「五」，tonic 是「音」，合起来就是五个音。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：five（五）/ fifth（第五）。",
+              "注意区分：notes（复数/三单）/ note（原形）。"
+            ],
+            "paragraphRole": "拆解构词把「五声音阶」讲清楚，用趣味词源支撑其「跨文化共有工具」的定位。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 250,
+          "end": 351,
+          "text": "This scale can be found in music everywhere including that of Native Americans, Africans, and Asians.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "scale",
+              "normalized": "scale",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 17,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 23,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 43,
+              "surface": "everywhere",
+              "normalized": "everywhere",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 53,
+              "surface": "including",
+              "normalized": "including",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 58,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 61,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 68,
+              "surface": "Native",
+              "normalized": "native",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 78,
+              "surface": "Americans",
+              "normalized": "americans",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 79,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 80,
+              "end": 88,
+              "surface": "Africans",
+              "normalized": "africans",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 90,
+              "end": 93,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 100,
+              "surface": "Asians",
+              "normalized": "asians",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 101,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这一音阶在各地的音乐中都能找到，包括美洲原住民、非洲人和亚洲人的音乐。",
+            "translationNatural": "从美洲原住民到非洲、亚洲，各地音乐里都有它的身影。",
+            "structMarkup": "【This scale】 _can be found_ (in music everywhere) (including that of Native Americans, Africans, and Asians).",
+            "structureSummary": "主谓（被动 can be found）+ in 地点状语 + including 介词短语作补充说明；that 代指 music。",
+            "components": [
+              {
+                "part": "This scale",
+                "role": "主语",
+                "note": "回指上句 pentatonic scale"
+              },
+              {
+                "part": "can be found",
+                "role": "谓语",
+                "note": "情态动词 + 被动语态，意为「能够被找到」"
+              },
+              {
+                "part": "in music everywhere",
+                "role": "状语",
+                "note": "介词短语作地点状语，强调「各地音乐中」"
+              },
+              {
+                "part": "including that of Native Americans, Africans, and Asians",
+                "role": "介词短语",
+                "note": "including 举例，that 替代 music 避免重复"
+              }
+            ],
+            "clauses": [
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。",
+              "本句主干为「主谓（被动 can be found）+ in 地点状语 + including 介词短语作补充说明；that 代指 music。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              },
+              {
+                "text": "including",
+                "meaning": "包括（介词性分词，后接名词）",
+                "usage": "注意区分：including（包括，后接名词）/ included（被包括，置于名词后）。常见搭配：including cases against / including me。",
+                "example": "Several firms faced cases, including JPMorgan Chase. 多家公司被起诉，包括摩根大通。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。",
+              "注意区分：including（包括，后接名词）/ included（被包括，置于名词后）。"
+            ],
+            "paragraphRole": "正面坐实「遍布全球」：列举三大洲族群，正是第53题「存在于世界各地音乐」的依据。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 352,
+          "end": 409,
+          "text": "It is also found in popular music, blues, jazz, and rock.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 5,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 27,
+              "surface": "popular",
+              "normalized": "popular",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 33,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 34,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 35,
+              "end": 40,
+              "surface": "blues",
+              "normalized": "blues",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 41,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "jazz",
+              "normalized": "jazz",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 56,
+              "surface": "rock",
+              "normalized": "rock",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "它也见于流行音乐、布鲁斯、爵士乐和摇滚乐之中。",
+            "translationNatural": "流行、布鲁斯、爵士、摇滚里，照样少不了它。",
+            "structMarkup": "【It】 _is also found_ (in popular music, blues, jazz, and rock).",
+            "structureSummary": "主谓（被动 is found）+ in 介词短语作状语；also 承接上句。",
+            "components": [
+              {
+                "part": "It",
+                "role": "主语",
+                "note": "回指五声音阶"
+              },
+              {
+                "part": "is also found",
+                "role": "谓语",
+                "note": "被动语态，also 表示用途从传统延伸到现代"
+              },
+              {
+                "part": "in popular music, blues, jazz, and rock",
+                "role": "状语",
+                "note": "介词短语列举现代音乐类型，佐证应用之广"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓（被动 is found）+ in 介词短语作状语；also 承接上句。」。"
+            ],
+            "phrases": [
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。",
+              "本句主干为「主谓（被动 is found）+ in 介词短语作状语；also 承接上句。」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "把分布从民族音乐扩到现代流行曲风，进一步夯实五声音阶的普遍性。"
+          }
+        },
+        {
+          "idx": 5,
+          "start": 410,
+          "end": 574,
+          "text": "Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Using",
+              "normalized": "using",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 20,
+              "surface": "five-note",
+              "normalized": "five-note",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "scale",
+              "normalized": "scale",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 27,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 28,
+              "end": 37,
+              "surface": "musicians",
+              "normalized": "musicians",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 42,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 49,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 53,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 59,
+              "surface": "globe",
+              "normalized": "globe",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 64,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 66,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 73,
+              "surface": "medium",
+              "normalized": "medium",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 81,
+              "surface": "through",
+              "normalized": "through",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 87,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 92,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 96,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 103,
+              "surface": "relate",
+              "normalized": "relate",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 104,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 105,
+              "end": 116,
+              "surface": "communicate",
+              "normalized": "communicate",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 117,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 118,
+              "end": 125,
+              "surface": "perform",
+              "normalized": "perform",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 126,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 127,
+              "end": 130,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 141,
+              "surface": "ultimately",
+              "normalized": "ultimately",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 152,
+              "surface": "understand",
+              "normalized": "understand",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 157,
+              "surface": "each",
+              "normalized": "each",
+              "isWord": true
+            },
+            {
+              "start": 158,
+              "end": 163,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 164,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "借助这一五音音阶，来自全球各地的音乐家们拥有了一种媒介，通过它他们能够建立联系、交流、演奏，并最终彼此理解。",
+            "translationNatural": "靠着这套五声音阶，全世界的乐手有了共通的媒介，得以沟通、合奏，直到真正互相理解。",
+            "structMarkup": "(Using this five-note scale), 【musicians from around the globe】 _have_ ~a medium~ {through which they can relate, communicate, perform, and ultimately understand each other}.",
+            "structureSummary": "现在分词短语 Using... 作方式状语 + 主谓宾 + through which 引导定语从句修饰 medium。",
+            "components": [
+              {
+                "part": "Using this five-note scale",
+                "role": "状语",
+                "note": "现在分词短语作方式状语，说明「凭借什么」"
+              },
+              {
+                "part": "musicians from around the globe",
+                "role": "主语",
+                "note": "名词短语作主语，from 短语限定「全球各地」"
+              },
+              {
+                "part": "have",
+                "role": "谓语",
+                "note": "及物动词，后接宾语 a medium"
+              },
+              {
+                "part": "a medium",
+                "role": "宾语",
+                "note": "have 的宾语，后接定语从句说明其作用"
+              },
+              {
+                "part": "through which they can relate, communicate, perform, and ultimately understand each other",
+                "role": "定语从句",
+                "note": "介词 + which 引导，修饰 medium，列举四项并列动作"
+              }
+            ],
+            "clauses": [
+              "定语从句「through which they can relate, communicate, perform, and ultimately un」：介词 + which 引导，修饰 medium，列举四项并列动作",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "using",
+                "meaning": "use 的现在分词（使用）",
+                "usage": "注意区分：using（现在分词）/ used（过去式/过去分词）。常见搭配：by using sth / using data。",
+                "example": "Results improve by using existing technology. 使用现有技术就能改善结果。"
+              },
+              {
+                "text": "communicate",
+                "meaning": "交流、沟通；传达、传递（信息）；相通",
+                "usage": "注意区分：communicate with sb（与某人交流，介词 with）/ communicate sth to sb（把…传达给某人）/ communication（交流，名词）/ communicable（可传染的，指疾病）。",
+                "example": "Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other. 靠着这套五声音阶，全世界的乐手有了共通的媒介，得以沟通、合奏，直到真正互相理解。"
+              },
+              {
+                "text": "perform",
+                "meaning": "执行、做；表现；表演",
+                "usage": "注意区分：perform（执行/表演）/ performance（表现，名词）。常见搭配：perform well / perform a task。",
+                "example": "Computers help students perform better. 电脑帮助学生学习表现更好。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：using（现在分词）/ used（过去式/过去分词）。",
+              "注意区分：communicate with sb（与某人交流，介词 with）/ communicate sth to sb（把…传达给某人）/ communication（交流，名词）/ communicable（可传染的，指疾病）。"
+            ],
+            "paragraphRole": "收束本段并回扣主旨：五声音阶成为各地乐手相互理解的媒介，呼应第53题的「跨文化沟通」。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos).",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 347,
+          "text": "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos).",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 8,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "tied",
+              "normalized": "tied",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 16,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 25,
+              "surface": "specific",
+              "normalized": "specific",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 36,
+              "surface": "perceptual",
+              "normalized": "perceptual",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "(感知的)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 49,
+              "surface": "mental",
+              "normalized": "mental",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 64,
+              "surface": "emotional",
+              "normalized": "emotional",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 74,
+              "surface": "faculties",
+              "normalized": "faculties",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 75,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 76,
+              "end": 85,
+              "surface": "including",
+              "normalized": "including",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 94,
+              "surface": "language",
+              "normalized": "language",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 96,
+              "surface": "(",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 96,
+              "end": 99,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 109,
+              "surface": "societies",
+              "normalized": "societies",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 113,
+              "surface": "put",
+              "normalized": "put",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 119,
+              "surface": "words",
+              "normalized": "words",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 122,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 128,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 134,
+              "surface": "songs",
+              "normalized": "songs",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 135,
+              "surface": ")",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 135,
+              "end": 136,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 137,
+              "end": 142,
+              "surface": "motor",
+              "normalized": "motor",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 150,
+              "surface": "control",
+              "normalized": "control",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 152,
+              "surface": "(",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 152,
+              "end": 158,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 161,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 162,
+              "end": 165,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 175,
+              "surface": "societies",
+              "normalized": "societies",
+              "isWord": true
+            },
+            {
+              "start": 176,
+              "end": 181,
+              "surface": "dance",
+              "normalized": "dance",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 182,
+              "surface": ")",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 182,
+              "end": 183,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 184,
+              "end": 189,
+              "surface": "sound",
+              "normalized": "sound",
+              "isWord": true
+            },
+            {
+              "start": 190,
+              "end": 198,
+              "surface": "analysis",
+              "normalized": "analysis",
+              "isWord": true
+            },
+            {
+              "start": 199,
+              "end": 200,
+              "surface": "(",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 200,
+              "end": 203,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 204,
+              "end": 211,
+              "surface": "musical",
+              "normalized": "musical",
+              "isWord": true
+            },
+            {
+              "start": 212,
+              "end": 219,
+              "surface": "systems",
+              "normalized": "systems",
+              "isWord": true
+            },
+            {
+              "start": 220,
+              "end": 224,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 225,
+              "end": 226,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 227,
+              "end": 235,
+              "surface": "distinct",
+              "normalized": "distinct",
+              "isWord": true
+            },
+            {
+              "start": 236,
+              "end": 241,
+              "surface": "pitch",
+              "normalized": "pitch",
+              "isWord": true
+            },
+            {
+              "start": 242,
+              "end": 245,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 246,
+              "end": 253,
+              "surface": "quality",
+              "normalized": "quality",
+              "isWord": true
+            },
+            {
+              "start": 253,
+              "end": 254,
+              "surface": ")",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 254,
+              "end": 255,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 256,
+              "end": 259,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 260,
+              "end": 270,
+              "surface": "aesthetics",
+              "normalized": "aesthetics",
+              "isWord": true
+            },
+            {
+              "start": 270,
+              "end": 274,
+              "surface": "(美感)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 275,
+              "end": 276,
+              "surface": "(",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 276,
+              "end": 281,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 282,
+              "end": 287,
+              "surface": "tunes",
+              "normalized": "tunes",
+              "isWord": true
+            },
+            {
+              "start": 288,
+              "end": 291,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 292,
+              "end": 299,
+              "surface": "rhythms",
+              "normalized": "rhythms",
+              "isWord": true
+            },
+            {
+              "start": 300,
+              "end": 303,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 304,
+              "end": 312,
+              "surface": "balanced",
+              "normalized": "balanced",
+              "isWord": true
+            },
+            {
+              "start": 313,
+              "end": 320,
+              "surface": "between",
+              "normalized": "between",
+              "isWord": true
+            },
+            {
+              "start": 321,
+              "end": 335,
+              "surface": "repetitiveness",
+              "normalized": "repetitiveness",
+              "isWord": true
+            },
+            {
+              "start": 336,
+              "end": 339,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 340,
+              "end": 345,
+              "surface": "chaos",
+              "normalized": "chaos",
+              "isWord": true
+            },
+            {
+              "start": 345,
+              "end": 346,
+              "surface": ")",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 346,
+              "end": 347,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "音乐与特定的感知的、心智的以及情感的机能相联系，包括语言（所有社会都给歌曲填上词）、动作控制（所有社会的人都跳舞）、声音分析（所有音乐体系都有独特的音高与音质），以及美感（其曲调与节奏在重复与混乱之间取得平衡）。",
+            "translationNatural": "音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。",
+            "structMarkup": "【Music】 _is tied to_ ~specific perceptual(感知的), mental, and emotional faculties~, (including language (all societies put words to their songs)), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), (and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos)).",
+            "structureSummary": "主系表（被动 is tied to...）+ including 引出四组并列例证，每组括号内为完整小句；中文括注与原句括注并存。",
+            "components": [
+              {
+                "part": "Music",
+                "role": "主语",
+                "note": "名词作主语，话题回到音乐本身"
+              },
+              {
+                "part": "is tied to",
+                "role": "谓语",
+                "note": "被动式系表结构 be tied to，意为「与……紧密相连」"
+              },
+              {
+                "part": "specific perceptual(感知的), mental, and emotional faculties",
+                "role": "宾语",
+                "note": "介词 to 的宾语，三项并列形容词修饰 faculties，含中文括注「感知的」"
+              },
+              {
+                "part": "including language (all societies put words to their songs)",
+                "role": "定语",
+                "note": "including 引出第一类例证，括注小句说明「各社会都填词」"
+              },
+              {
+                "part": "and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos)",
+                "role": "定语",
+                "note": "第四类例证 aesthetics，含中文括注「美感」，后接括注小句讲重复与混乱的平衡"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。"
+            ],
+            "phrases": [
+              {
+                "text": "specific",
+                "meaning": "具体的、明确的、特定的、特有的（specific to 为…所特有）",
+                "usage": "注意区分：specific（明确的、特定的，形容词）/ be specific about（对…说清楚，介词 about）/ specifically（明确地；专门地，副词）/ specifics（具体细节，复数名词）/ specify（明确说明，动词）。",
+                "example": "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos). 音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。"
+              },
+              {
+                "text": "mental",
+                "meaning": "心理的、精神的；脑力的",
+                "usage": "注意区分：mental（心理的）/ physical（身体的）。常见搭配：mental health / mental illness。",
+                "example": "Social support improves mental health. 社会支持改善心理健康。"
+              },
+              {
+                "text": "including",
+                "meaning": "包括（介词性分词，后接名词）",
+                "usage": "注意区分：including（包括，后接名词）/ included（被包括，置于名词后）。常见搭配：including cases against / including me。",
+                "example": "Several firms faced cases, including JPMorgan Chase. 多家公司被起诉，包括摩根大通。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "本段从人类共有的感知、心智与情感机能切入，用四组跨社会例证说明音乐植根于普遍人性，深化「普世」论证。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "There is no known society that existed without music. Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. Music essentially serves to express or change emotions. It can cheer you up, sadden you, anger you or excite you. Music is often ceremonial: used in religion, ceremony, and celebration. Music can simply be recreational: entertaining, joyful and fun. Any way you have used music, it is almost certain that every other culture has used music in the very same way. And that is something that bonds all of us. We all share a deep love for music and it has the power to unite us.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 53,
+          "text": "There is no known society that existed without music.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "There",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 8,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "surface": "no",
+              "normalized": "no",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 17,
+              "surface": "known",
+              "normalized": "known",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 25,
+              "surface": "society",
+              "normalized": "society",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 38,
+              "surface": "existed",
+              "normalized": "existed",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 46,
+              "surface": "without",
+              "normalized": "without",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "不存在任何已知的不曾有音乐的社会。",
+            "translationNatural": "迄今还没发现哪个社会是没有音乐的。",
+            "structMarkup": "_There is_ 【no known society】 {that existed without music}.",
+            "structureSummary": "There be 存在句 + 主语后 that 引导定语从句；no 表全盘否定。",
+            "components": [
+              {
+                "part": "There is",
+                "role": "系动词",
+                "note": "there be 存在句引导词 + be，真正主语在后"
+              },
+              {
+                "part": "no known society",
+                "role": "主语",
+                "note": "存在句真正主语，no known 表「已知范围内没有一个」"
+              },
+              {
+                "part": "that existed without music",
+                "role": "定语从句",
+                "note": "that 修饰 society，限定「没有音乐却存在过的」"
+              }
+            ],
+            "clauses": [
+              "定语从句「that existed without music」：that 修饰 society，限定「没有音乐却存在过的」",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。"
+            ],
+            "phrases": [
+              {
+                "text": "known",
+                "meaning": "已知的、闻名的、公认的（known as 以…著称）；know 的过去分词",
+                "usage": "注意区分：be known as（作为…而出名，后接身份）/ be known for（因…而出名，后接原因或特点）/ be known to（为…所熟知，后接人）/ know（know-knew-known）/ well-known（著名的，形容词）。",
+                "example": "There is no known society that existed without music. 迄今还没发现哪个社会是没有音乐的。"
+              },
+              {
+                "text": "society",
+                "meaning": "社会；社团",
+                "usage": "常见搭配：as a society。",
+                "example": "There is no known society that existed without music. 迄今还没发现哪个社会是没有音乐的。"
+              },
+              {
+                "text": "existed",
+                "meaning": "存在（不及物）（exist 的过去式/过去分词形式）",
+                "usage": "注意区分：existed（过去式/过去分词）/ exist（原形）。",
+                "example": "There is no known society that existed without music. 迄今还没发现哪个社会是没有音乐的。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "注意区分：be known as（作为…而出名，后接身份）/ be known for（因…而出名，后接原因或特点）/ be known to（为…所熟知，后接人）/ know（know-knew-known）/ well-known（著名的，形容词）。",
+              "注意区分：existed（过去式/过去分词）/ exist（原形）。"
+            ],
+            "paragraphRole": "末段先用一句全称否定把普世性推到极致：没有任何社会脱离音乐，为全篇收官定调。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 54,
+          "end": 207,
+          "text": "Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Although",
+              "normalized": "although",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "each",
+              "normalized": "each",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 21,
+              "surface": "culture",
+              "normalized": "culture",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 31,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "own",
+              "normalized": "own",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 44,
+              "surface": "specific",
+              "normalized": "specific",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 50,
+              "surface": "style",
+              "normalized": "style",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 63,
+              "surface": "approach",
+              "normalized": "approach",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 66,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 72,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 73,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 87,
+              "surface": "find",
+              "normalized": "find",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 92,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 96,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 105,
+              "surface": "purposes",
+              "normalized": "purposes",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 112,
+              "surface": "behind",
+              "normalized": "behind",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 118,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 122,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 127,
+              "surface": "very",
+              "normalized": "very",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 135,
+              "surface": "similar",
+              "normalized": "similar",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 142,
+              "surface": "across",
+              "normalized": "across",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 146,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 152,
+              "surface": "board",
+              "normalized": "board",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 153,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "尽管每种文化都有自己独特的音乐风格与处理方式，你会发现音乐背后的目的在整个范围内都非常相似。",
+            "translationNatural": "各地音乐的风格和玩法固然各有一套，但音乐要派什么用场，放到哪儿都差不多。",
+            "structMarkup": "{Although each culture has their own specific style and approach to music}, 【you】 _will find_ {that the purposes behind music are very similar across the board}.",
+            "structureSummary": "Although 让步状语从句 + 主谓 + that 宾语从句；从句与主句形成「形式各异 / 目的趋同」的对照。",
+            "components": [
+              {
+                "part": "Although each culture has their own specific style and approach to music",
+                "role": "状语从句",
+                "note": "Although 引导让步，先承认风格差异"
+              },
+              {
+                "part": "you",
+                "role": "主语",
+                "note": "泛指人称主语，指「读者 / 人们」"
+              },
+              {
+                "part": "will find",
+                "role": "谓语",
+                "note": "will + 动词原形，表「不难发现」"
+              },
+              {
+                "part": "that the purposes behind music are very similar across the board",
+                "role": "宾语从句",
+                "note": "find 的宾语，点明「音乐目的高度一致」这一主旨"
+              }
+            ],
+            "clauses": [
+              "状语从句「Although each culture has their own specific style and approach to mus」：Although 引导让步，先承认风格差异",
+              "宾语从句「that the purposes behind music are very similar across the board」：find 的宾语，点明「音乐目的高度一致」这一主旨",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。"
+            ],
+            "phrases": [
+              {
+                "text": "although",
+                "meaning": "虽然、尽管（后接从句）",
+                "usage": "注意区分：although + 从句 / despite + 名词。常见搭配：although it is / although not。",
+                "example": "Although these accounts touch on real concerns, they miss the whole. 尽管这些报道触及真实担忧，却忽略了全貌。"
+              },
+              {
+                "text": "specific",
+                "meaning": "具体的、明确的、特定的、特有的（specific to 为…所特有）",
+                "usage": "注意区分：specific（明确的、特定的，形容词）/ be specific about（对…说清楚，介词 about）/ specifically（明确地；专门地，副词）/ specifics（具体细节，复数名词）/ specify（明确说明，动词）。",
+                "example": "Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. 各地音乐的风格和玩法固然各有一套，但音乐要派什么用场，放到哪儿都差不多。"
+              },
+              {
+                "text": "find",
+                "meaning": "发现、找到；认为（find sth + adj.）",
+                "usage": "注意区分：find（找到，结果）/ search（搜寻，过程）/ find out（查明）。常见搭配：find that... / find it hard to do。",
+                "example": "They find the rule acceptable. 他们觉得这条规则可以接受。"
+              }
+            ],
+            "pitfalls": [
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "注意区分：although + 从句 / despite + 名词。",
+              "注意区分：specific（明确的、特定的，形容词）/ be specific about（对…说清楚，介词 about）/ specifically（明确地；专门地，副词）/ specifics（具体细节，复数名词）/ specify（明确说明，动词）。"
+            ],
+            "paragraphRole": "立起「异中有同」的框架：风格千差万别，用途却普遍一致，直接对应第55题。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 208,
+          "end": 263,
+          "text": "Music essentially serves to express or change emotions.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 17,
+              "surface": "essentially",
+              "normalized": "essentially",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 24,
+              "surface": "serves",
+              "normalized": "serves",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 35,
+              "surface": "express",
+              "normalized": "express",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 45,
+              "surface": "change",
+              "normalized": "change",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 54,
+              "surface": "emotions",
+              "normalized": "emotions",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 55,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "音乐本质上是用来表达或改变情绪的。",
+            "translationNatural": "说到底，音乐是用来抒发、或者调动情绪的。",
+            "structMarkup": "【Music】 (essentially) _serves_ (to express or change emotions).",
+            "structureSummary": "主谓结构 + serve to do 不定式说明功能；essentially 作评注性状语。",
+            "components": [
+              {
+                "part": "Music",
+                "role": "主语",
+                "note": "名词作主语"
+              },
+              {
+                "part": "essentially",
+                "role": "状语",
+                "note": "评注性副词，强调「从根本上说」"
+              },
+              {
+                "part": "serves",
+                "role": "谓语",
+                "note": "不及物动词 serve，后接不定式说明功能"
+              },
+              {
+                "part": "to express or change emotions",
+                "role": "状语",
+                "note": "目的不定式，or 并列「表达」与「改变」两种作用"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓结构 + serve to do 不定式说明功能；essentially 作评注性状语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "essentially",
+                "meaning": "必不可少的、本质的；要素（复数）（essential 的副词形式）",
+                "usage": "注意区分：essentially（副词）/ essential（原形）。",
+                "example": "Music essentially serves to express or change emotions. 说到底，音乐是用来抒发、或者调动情绪的。"
+              },
+              {
+                "text": "serves",
+                "meaning": "为…服务；提供、端上；充当、用作（serve 的复数/三单形式）",
+                "usage": "注意区分：serves（复数/三单）/ serve（原形）。",
+                "example": "Music essentially serves to express or change emotions. 说到底，音乐是用来抒发、或者调动情绪的。"
+              },
+              {
+                "text": "change",
+                "meaning": "改变、变化 / 变化、零钱",
+                "usage": "注意区分：change（改变）/ exchange（交换）/ alter（改动，更正式）。常见搭配：change behaviour / climate change。",
+                "example": "Attitudes are changing slowly. 态度正在缓慢改变。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：essentially（副词）/ essential（原形）。",
+              "注意区分：serves（复数/三单）/ serve（原形）。",
+              "注意区分：change（改变）/ exchange（交换）/ alter（改动，更正式）。"
+            ],
+            "paragraphRole": "点出音乐最根本的功能——表达与改变情绪，正是第54题的答案所在。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 264,
+          "end": 321,
+          "text": "It can cheer you up, sadden you, anger you or excite you.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "surface": "cheer",
+              "normalized": "cheer",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "surface": "up",
+              "normalized": "up",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 20,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 21,
+              "end": 27,
+              "surface": "sadden",
+              "normalized": "sadden",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 31,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 32,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "anger",
+              "normalized": "anger",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 42,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 52,
+              "surface": "excite",
+              "normalized": "excite",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 56,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "它能让你振作，让你悲伤，让你愤怒，或者让你兴奋。",
+            "translationNatural": "它能叫你开心、叫你难过、叫你上火，也能叫你热血沸腾。",
+            "structMarkup": "【It】 _can cheer you up_, _sadden you_, _anger you_ _or excite you_.",
+            "structureSummary": "主谓 + 四个并列「动词 + 宾语 you」结构；情态动词 can 后接一串原形动词。",
+            "components": [
+              {
+                "part": "It",
+                "role": "主语",
+                "note": "回指上句 music"
+              },
+              {
+                "part": "can cheer you up",
+                "role": "谓语",
+                "note": "情态动词 + 动词短语 cheer...up，第一项作用"
+              },
+              {
+                "part": "sadden you",
+                "role": "谓语",
+                "note": "第二项并列，sadden 作及物动词「使悲伤」"
+              },
+              {
+                "part": "anger you",
+                "role": "谓语",
+                "note": "第三项并列，anger 作动词「使发怒」"
+              },
+              {
+                "part": "or excite you",
+                "role": "谓语",
+                "note": "or 引出第四项，excite 意为「使兴奋」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓 + 四个并列「动词 + 宾语 you」结构；情态动词 can 后接一串原形动词。」。"
+            ],
+            "phrases": [
+              {
+                "text": "anger",
+                "meaning": "愤怒、怒气；使发怒、激怒",
+                "usage": "本句中作n./v.，可按「主谓 + 四个并列「动词 + 宾语 you」结构；情态动词 can 后接一串原形动词。」定位它在句中的位置。",
+                "example": "It can cheer you up, sadden you, anger you or excite you. 它能叫你开心、叫你难过、叫你上火，也能叫你热血沸腾。"
+              }
+            ],
+            "pitfalls": [
+              "本句主干为「主谓 + 四个并列「动词 + 宾语 you」结构；情态动词 can 后接一串原形动词。」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "用四个「使役 + 你」的具体动词把上句「改变情绪」讲活，强化音乐的情绪功能。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 322,
+          "end": 393,
+          "text": "Music is often ceremonial: used in religion, ceremony, and celebration.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 8,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "often",
+              "normalized": "often",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 25,
+              "surface": "ceremonial",
+              "normalized": "ceremonial",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 26,
+              "surface": ":",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "used",
+              "normalized": "used",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 43,
+              "surface": "religion",
+              "normalized": "religion",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 44,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 53,
+              "surface": "ceremony",
+              "normalized": "ceremony",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 54,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 70,
+              "surface": "celebration",
+              "normalized": "celebration",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 71,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "音乐常常是仪式性的：被用于宗教、礼仪与庆典之中。",
+            "translationNatural": "音乐还常担着仪式功能，宗教、典礼、庆祝场合都少不了它。",
+            "structMarkup": "【Music】 _is_ ~often ceremonial~: (used in religion, ceremony, and celebration).",
+            "structureSummary": "主系表 + 冒号后过去分词短语作补充说明；often 为频度状语。",
+            "components": [
+              {
+                "part": "Music",
+                "role": "主语",
+                "note": "名词作主语"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与表语"
+              },
+              {
+                "part": "often ceremonial",
+                "role": "表语",
+                "note": "频度副词 often + 形容词 ceremonial，点明「仪式性」"
+              },
+              {
+                "part": "used in religion, ceremony, and celebration",
+                "role": "状语",
+                "note": "过去分词短语补充具体使用场景"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主系表 + 冒号后过去分词短语作补充说明；often 为频度状语。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "used",
+                "meaning": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+                "usage": "注意区分：used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）。常见搭配：used to do / be used to doing。",
+                "example": "They used flexible work arrangements. 他们使用了弹性工作安排。"
+              },
+              {
+                "text": "Music",
+                "meaning": "音乐、乐曲、乐谱；音乐（学科/艺术）",
+                "usage": "本句中作n.，可按「主系表 + 冒号后过去分词短语作补充说明；often 为频度状语。」定位它在句中的位置。",
+                "example": "Music is often ceremonial: used in religion, ceremony, and celebration. 音乐还常担着仪式功能，宗教、典礼、庆祝场合都少不了它。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）。"
+            ],
+            "paragraphRole": "列举音乐的第一类社会用途——仪式场合，铺陈「用途相似」的例证。"
+          }
+        },
+        {
+          "idx": 5,
+          "start": 394,
+          "end": 457,
+          "text": "Music can simply be recreational: entertaining, joyful and fun.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 16,
+              "surface": "simply",
+              "normalized": "simply",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 32,
+              "surface": "recreational",
+              "normalized": "recreational",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 33,
+              "surface": ":",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 34,
+              "end": 46,
+              "surface": "entertaining",
+              "normalized": "entertaining",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 48,
+              "end": 54,
+              "surface": "joyful",
+              "normalized": "joyful",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 62,
+              "surface": "fun",
+              "normalized": "fun",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 63,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "音乐也可以单纯是娱乐性的：令人开心、愉悦而有趣。",
+            "translationNatural": "音乐也可以纯粹图个乐子，轻松、欢快又好玩。",
+            "structMarkup": "【Music】 _can simply be_ ~recreational~: (entertaining, joyful and fun).",
+            "structureSummary": "主系表（情态动词 can + be）+ 冒号后三个并列形容词作补充说明；simply 作状语。",
+            "components": [
+              {
+                "part": "Music",
+                "role": "主语",
+                "note": "名词作主语"
+              },
+              {
+                "part": "can simply be",
+                "role": "系动词",
+                "note": "情态动词 can + 副词 simply + be，语气留有余地"
+              },
+              {
+                "part": "recreational",
+                "role": "表语",
+                "note": "形容词作表语，点明「娱乐性」"
+              },
+              {
+                "part": "entertaining, joyful and fun",
+                "role": "补语",
+                "note": "冒号后三个并列形容词，具体描摹娱乐属性"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（情态动词 can + be）+ 冒号后三个并列形容词作补充说明；simply 作状语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "simply",
+                "meaning": "仅仅、只不过；简单地",
+                "usage": "注意区分：simply（仅仅/简单地）/ simple（简单的）/ simplistic（过于简化的）。常见搭配：simply because / quite simply。",
+                "example": "Simply feeling something is right is subjective. 仅仅感觉某事对，是主观的。"
+              },
+              {
+                "text": "Music",
+                "meaning": "音乐、乐曲、乐谱；音乐（学科/艺术）",
+                "usage": "本句中作n.，可按「主系表（情态动词 can + be）+ 冒号后三个并列形容词作补充说明；simply 作状语。」定位它在句中的位置。",
+                "example": "Music can simply be recreational: entertaining, joyful and fun. 音乐也可以纯粹图个乐子，轻松、欢快又好玩。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：simply（仅仅/简单地）/ simple（简单的）/ simplistic（过于简化的）。",
+              "本句主干为「主系表（情态动词 can + be）+ 冒号后三个并列形容词作补充说明；simply 作状语。」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "与上句并列出第二类用途——纯娱乐，进一步说明音乐功能在各地相通。"
+          }
+        },
+        {
+          "idx": 6,
+          "start": 458,
+          "end": 569,
+          "text": "Any way you have used music, it is almost certain that every other culture has used music in the very same way.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Any",
+              "normalized": "any",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "surface": "way",
+              "normalized": "way",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "used",
+              "normalized": "used",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 27,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 28,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 29,
+              "end": 31,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 41,
+              "surface": "almost",
+              "normalized": "almost",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 49,
+              "surface": "certain",
+              "normalized": "certain",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 60,
+              "surface": "every",
+              "normalized": "every",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 66,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 74,
+              "surface": "culture",
+              "normalized": "culture",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 78,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 83,
+              "surface": "used",
+              "normalized": "used",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 89,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 96,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 101,
+              "surface": "very",
+              "normalized": "very",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 106,
+              "surface": "same",
+              "normalized": "same",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 110,
+              "surface": "way",
+              "normalized": "way",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 111,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "无论你以何种方式使用过音乐，几乎可以肯定的是，其他每一种文化也都以完全相同的方式使用过音乐。",
+            "translationNatural": "你能想到的任何一种用音乐的方式，几乎都能在别的文化里找到一模一样的用法。",
+            "structMarkup": "(Any way you have used music), 【it】 _is_ ~almost certain~ {that every other culture has used music in the very same way}.",
+            "structureSummary": "Any way... 让步状语（含省略关系词的定语从句）+ It 形式主语 + that 主语从句（真正主语）。",
+            "components": [
+              {
+                "part": "Any way you have used music",
+                "role": "状语",
+                "note": "Any way 引导让步，内含修饰 way 的定语从句，意为「无论哪种用法」"
+              },
+              {
+                "part": "it",
+                "role": "形式主语",
+                "note": "形式主语，真正主语是后面的 that 从句"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接形式主语与表语"
+              },
+              {
+                "part": "almost certain",
+                "role": "表语",
+                "note": "形容词作表语，almost 弱化但保留肯定语气"
+              },
+              {
+                "part": "that every other culture has used music in the very same way",
+                "role": "主语从句",
+                "note": "真正主语，点明「别的文化用法完全相同」"
+              }
+            ],
+            "clauses": [
+              "主语从句「that every other culture has used music in the very same way」：真正主语，点明「别的文化用法完全相同」",
+              "have + 过去分词构成完成时态，强调对现在的影响或动作的先后。"
+            ],
+            "phrases": [
+              {
+                "text": "used",
+                "meaning": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+                "usage": "注意区分：used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）。常见搭配：used to do / be used to doing。",
+                "example": "They used flexible work arrangements. 他们使用了弹性工作安排。"
+              },
+              {
+                "text": "certain",
+                "meaning": "某些（不指明）；确定的、有把握的",
+                "usage": "注意区分：certain（某些/确定的）/ some（一些）/ sure（确信的，多作表语）。常见搭配：certain situations / be certain of。",
+                "example": "In certain situations data is useless. 在某些情况下数据没用。"
+              }
+            ],
+            "pitfalls": [
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。",
+              "注意区分：way（方法）/ road（道路）/ method（方法，正式）。",
+              "注意区分：used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）。"
+            ],
+            "paragraphRole": "把「用途相似」推到极致：你用音乐的任何方式，别的文化也都这么用，正面支撑第55题。"
+          }
+        },
+        {
+          "idx": 7,
+          "start": 570,
+          "end": 613,
+          "text": "And that is something that bonds all of us.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "And",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 21,
+              "surface": "something",
+              "normalized": "something",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "bonds",
+              "normalized": "bonds",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 36,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 39,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 42,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "而这一点正是把我们所有人联结在一起的东西。",
+            "translationNatural": "正是这份共通，把所有人都连在了一起。",
+            "structMarkup": "(And) 【that】 _is_ ~something~ {that bonds all of us}.",
+            "structureSummary": "And 承接 + 主系表 + that 引导定语从句修饰 something。",
+            "components": [
+              {
+                "part": "And",
+                "role": "状语",
+                "note": "句首连词，承接上句把论述再推一层"
+              },
+              {
+                "part": "that",
+                "role": "主语",
+                "note": "回指上句「各地用法相同」这一事实"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与表语"
+              },
+              {
+                "part": "something",
+                "role": "表语",
+                "note": "表语，后接定语从句说明其性质"
+              },
+              {
+                "part": "that bonds all of us",
+                "role": "定语从句",
+                "note": "that 修饰 something，bonds 作动词「联结」"
+              }
+            ],
+            "clauses": [
+              "定语从句「that bonds all of us」：that 修饰 something，bonds 作动词「联结」",
+              "本句主干为「And 承接 + 主系表 + that 引导定语从句修饰 something。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "something",
+                "meaning": "某事、某物（不定代词）",
+                "usage": "注意区分：something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）。常见搭配：something like / something to do with。",
+                "example": "If you feel something should not be done... 如果你觉得某事不该做……"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）。",
+              "something：表语，后接定语从句说明其性质"
+            ],
+            "paragraphRole": "顺势点明共性带来的结果：音乐把所有人凝聚起来，呼应第51题「团结世人」。"
+          }
+        },
+        {
+          "idx": 8,
+          "start": 614,
+          "end": 682,
+          "text": "We all share a deep love for music and it has the power to unite us.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "We",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "surface": "share",
+              "normalized": "share",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "deep",
+              "normalized": "deep",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "love",
+              "normalized": "love",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 34,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 38,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 49,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 55,
+              "surface": "power",
+              "normalized": "power",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 58,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 64,
+              "surface": "unite",
+              "normalized": "unite",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 68,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们都对音乐怀有深深的热爱，而它拥有把我们团结起来的力量。",
+            "translationNatural": "人人都深爱着音乐，而音乐也确有能力把我们聚成一家人。",
+            "structMarkup": "【We all】 _share_ ~a deep love for music~ and 【it】 _has the power_ (to unite us).",
+            "structureSummary": "and 连接两个并列分句：前为主谓宾，后为主谓宾 + to unite 不定式作后置定语。",
+            "components": [
+              {
+                "part": "We all",
+                "role": "主语",
+                "note": "we + 同位 all，强调「我们每一个人」"
+              },
+              {
+                "part": "share",
+                "role": "谓语",
+                "note": "及物动词，意为「共有、都怀有」"
+              },
+              {
+                "part": "a deep love for music",
+                "role": "宾语",
+                "note": "share 的宾语，deep 与 for 短语点明「对音乐的深爱」"
+              },
+              {
+                "part": "it",
+                "role": "主语",
+                "note": "第二分句主语，回指 music"
+              },
+              {
+                "part": "has the power",
+                "role": "谓语",
+                "note": "第二分句谓语 + 宾语，意为「拥有力量」"
+              },
+              {
+                "part": "to unite us",
+                "role": "后置定语",
+                "note": "不定式修饰 power，点明力量的方向是「团结我们」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「and 连接两个并列分句：前为主谓宾，后为主谓宾 + to unite 不定式作后置定语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "power",
+                "meaning": "权力、力量",
+                "usage": "常见搭配：power differences / power dynamics。",
+                "example": "We all share a deep love for music and it has the power to unite us. 人人都深爱着音乐，而音乐也确有能力把我们聚成一家人。"
+              },
+              {
+                "text": "share",
+                "meaning": "分享、共享；共有、分担；份额、股份",
+                "usage": "本句中作v./n.，可按「and 连接两个并列分句：前为主谓宾，后为主谓宾 + to unite 不定式作后置定语。」定位它在句中的位置。",
+                "example": "We all share a deep love for music and it has the power to unite us. 人人都深爱着音乐，而音乐也确有能力把我们聚成一家人。"
+              }
+            ],
+            "pitfalls": [
+              "本句主干为「and 连接两个并列分句：前为主谓宾，后为主谓宾 + to unite 不定式作后置定语。」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "以「人人深爱音乐、音乐凝聚彼此」作结，把主旨升到情感共鸣，圆满收束全文与第51题。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 51,
+      "stem": "In what way is music important?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is able to create novel and extraordinary emotions."
+        },
+        {
+          "key": "B",
+          "text": "It has the power to unite people throughout the world."
+        },
+        {
+          "key": "C",
+          "text": "It allows different cultural groups to sing in harmony."
+        },
+        {
+          "key": "D",
+          "text": "It is the only language favored by all peoples of the world."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 52,
+      "stem": "Why does the author like to see musicians from different cultures perform together?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Their musical experience can be compared."
+        },
+        {
+          "key": "B",
+          "text": "A novel language can be created."
+        },
+        {
+          "key": "C",
+          "text": "Their unique skills can be displayed."
+        },
+        {
+          "key": "D",
+          "text": "Fantastic results can be achieved."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 53,
+      "stem": "What does the passage say about the pentatonic scale?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is present in music all around the world."
+        },
+        {
+          "key": "B",
+          "text": "It is helpful to understanding music."
+        },
+        {
+          "key": "C",
+          "text": "It is the basis for musicians' creation."
+        },
+        {
+          "key": "D",
+          "text": "It is a medium for ordinary people to relate."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 54,
+      "stem": "What is the fundamental role of music in people's life?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To bring them together."
+        },
+        {
+          "key": "B",
+          "text": "To show their identity."
+        },
+        {
+          "key": "C",
+          "text": "To express their emotions."
+        },
+        {
+          "key": "D",
+          "text": "To keep them entertained."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 55,
+      "stem": "In what aspect is music similar throughout the world?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The way people respond to it."
+        },
+        {
+          "key": "B",
+          "text": "The role it plays in society."
+        },
+        {
+          "key": "C",
+          "text": "The joy it brings to people."
+        },
+        {
+          "key": "D",
+          "text": "The way it is made use of."
+        }
+      ],
+      "answer": "D"
+    }
+  ],
+  "lexicon": {
+    "achieved": {
+      "phonetic": "/əˈtʃiːvd/",
+      "pos": "v.",
+      "sense": "achieve 的过去分词，实现、取得",
+      "collocations": [],
+      "examples": [
+        "When each culture brings its own unique qualities to the group, an entirely new sound is achieved. 每种文化把自己那份独门气质带进来，合在一起就生出了全新的音色。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "achieved / achieve / achieving（同族不同词形，注意词性与用法）"
+      }
+    },
+    "almost": {
+      "phonetic": "/ˈɔːlməʊst/",
+      "pos": "adv.",
+      "sense": "几乎、差不多",
+      "collocations": [
+        "almost certain"
+      ],
+      "examples": [
+        "Any way you have used music, it is almost certain that every other culture has used music in the very same way. 你能想到的任何一种用音乐的方式，几乎都能在别的文化里找到一模一样的用法。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "although": {
+      "phonetic": "/ɔːlˈðəʊ/",
+      "pos": "conj.",
+      "sense": "虽然、尽管（后接从句）",
+      "collocations": [
+        "although it is",
+        "although not"
+      ],
+      "examples": [
+        "Although these accounts touch on real concerns, they miss the whole. 尽管这些报道触及真实担忧，却忽略了全貌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "although + 从句 / despite + 名词"
+      }
+    },
+    "analysis": {
+      "phonetic": "/əˈnæləsɪs/",
+      "pos": "n.",
+      "sense": "分析、解析、分析报告（复数 analyses）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ana-（贯穿、彻底）+ lys（松开、分解，词根，同 paralysis/catalyst）+ -is（名词后缀）",
+        "confusables": "analysis（分析，单数，复数 analyses /əˈnæləsiːz/）/ analyse（英式）与 analyze（美式）动词 / analyst（分析者）/ 泛指分析时不可数"
+      },
+      "collocations": [
+        "sound analysis"
+      ],
+      "examples": [
+        "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos). 音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。"
+      ]
+    },
+    "anger": {
+      "phonetic": "/ˈæŋɡə(r)/",
+      "pos": "n./v.",
+      "sense": "愤怒、怒气；使发怒、激怒",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "It can cheer you up, sadden you, anger you or excite you. 它能叫你开心、叫你难过、叫你上火，也能叫你热血沸腾。"
+      ]
+    },
+    "approach": {
+      "phonetic": "/əˈprəʊtʃ/",
+      "pos": "n./v.",
+      "sense": "方法、途径、态度；接近、靠近、临近、着手处理、接洽（an approach to …的方法）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "approach to",
+        "approach to music"
+      ],
+      "examples": [
+        "Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. 各地音乐的风格和玩法固然各有一套，但音乐要派什么用场，放到哪儿都差不多。"
+      ],
+      "more": {
+        "confusables": "approach / approaching（同族不同词形，注意词性与用法）"
+      }
+    },
+    "approaching": {
+      "phonetic": "/əˈprəʊtʃɪŋ/",
+      "pos": "n./v.",
+      "sense": "方法、途径、态度；接近、靠近、临近、着手处理、接洽（an approach to …的方法）（approach 的现在分词/动名词形式）",
+      "lemma": "approach",
+      "collocations": [
+        "approaching music",
+        "tool in approaching"
+      ],
+      "examples": [
+        "It is astonishing how many cultures share this tool in approaching music. 竟然有那么多文化不约而同用同一套工具来玩音乐，着实令人惊叹。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "approach + -ing（现在分词/动名词）",
+        "confusables": "approaching（现在分词/动名词）/ approach（原形）"
+      }
+    },
+    "around": {
+      "phonetic": "/əˈraʊnd/",
+      "pos": "prep./adv.",
+      "sense": "围绕、在…四周；大约、到处、转过来（本文 discussion around careers 围绕职业的讨论 / around 30% 约 30%）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "musicians from around"
+      ],
+      "examples": [
+        "Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other. 靠着这套五声音阶，全世界的乐手有了共通的媒介，得以沟通、合奏，直到真正互相理解。"
+      ]
+    },
+    "astonishing": {
+      "phonetic": "/əˈstɒnɪʃɪŋ/",
+      "pos": "adj.",
+      "sense": "令人惊讶的、惊人的（比 surprising 语气更强；an astonishing number 惊人的数量）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "It is astonishing how many cultures share this tool in approaching music. 竟然有那么多文化不约而同用同一套工具来玩音乐，着实令人惊叹。"
+      ]
+    },
+    "balanced": {
+      "phonetic": "/ˈbælənsd/",
+      "pos": "n./v.",
+      "sense": "平衡、均衡；天平、结余；使平衡、权衡（本文 work-life balance 工作与生活的平衡 / balance work and family）（balance 的过去式/过去分词形式）",
+      "lemma": "balance",
+      "collocations": [],
+      "examples": [
+        "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos). 音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "balance + -d（过去式/过去分词）",
+        "confusables": "balanced（过去式/过去分词）/ balance（原形）"
+      }
+    },
+    "behind": {
+      "phonetic": "/bɪˈhaɪnd/",
+      "pos": "prep./adv.",
+      "sense": "在…后面、落后于；在背后、在后面",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "purposes behind",
+        "behind music"
+      ],
+      "examples": [
+        "Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. 各地音乐的风格和玩法固然各有一套，但音乐要派什么用场，放到哪儿都差不多。"
+      ]
+    },
+    "board": {
+      "phonetic": "/bɔːd/",
+      "pos": "n./v.",
+      "sense": "板、木板、布告牌；董事会、委员会；膳食；上车/船/飞机",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. 各地音乐的风格和玩法固然各有一套，但音乐要派什么用场，放到哪儿都差不多。"
+      ],
+      "more": {
+        "confusables": "board / boardroom（同族不同词形，注意词性与用法）"
+      }
+    },
+    "bring": {
+      "phonetic": "/brɪŋ/",
+      "pos": "v.",
+      "sense": "带来、拿来；引起、导致；使处于（某状态）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "bring（带来，朝说话人/目的地方向）/ take（带走，离开说话人/原地）/ fetch（去取来，一去一回）/ bring sb sth = bring sth to sb（双宾语）/ bring about（导致）/ bring up（抚养；提出）"
+      },
+      "collocations": [
+        "bring people",
+        "potential to bring"
+      ],
+      "examples": [
+        "It is vitally important across the globe and has the potential to bring people together in peace and harmony. 音乐在世界各地都分量极重，还能让人们平和、融洽地走到一起。"
+      ]
+    },
+    "brings": {
+      "phonetic": "/brɪŋz/",
+      "pos": "v.",
+      "sense": "带来、拿来；引起、导致；使处于（bring 的第三人称单数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "culture brings"
+      ],
+      "examples": [
+        "When each culture brings its own unique qualities to the group, an entirely new sound is achieved. 每种文化把自己那份独门气质带进来，合在一起就生出了全新的音色。"
+      ],
+      "more": {
+        "confusables": "brings / bring（同族不同词形，注意词性与用法）"
+      }
+    },
+    "certain": {
+      "phonetic": "/ˈsɜːtn/",
+      "pos": "adj.",
+      "sense": "某些（不指明）；确定的、有把握的",
+      "collocations": [
+        "certain situations",
+        "be certain of",
+        "to a certain extent"
+      ],
+      "examples": [
+        "In certain situations data is useless. 在某些情况下数据没用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "certain（某些/确定的）/ some（一些）/ sure（确信的，多作表语）"
+      }
+    },
+    "change": {
+      "phonetic": "/tʃeɪndʒ/",
+      "pos": "v./n.",
+      "sense": "改变、变化 / 变化、零钱",
+      "collocations": [
+        "change behaviour",
+        "climate change",
+        "make a change"
+      ],
+      "examples": [
+        "Attitudes are changing slowly. 态度正在缓慢改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "change（改变）/ exchange（交换）/ alter（改动，更正式）"
+      }
+    },
+    "come": {
+      "phonetic": "/kʌm/",
+      "pos": "v.",
+      "sense": "来；出现；come from（来自）",
+      "collocations": [
+        "come from",
+        "come out",
+        "come true"
+      ],
+      "examples": [
+        "Fewer readers come from that background. 来自那种背景的读者更少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "come（来）/ go（去）"
+      }
+    },
+    "common": {
+      "phonetic": "/ˈkɒmən/",
+      "pos": "adj.",
+      "sense": "常见的、普遍的；共同的",
+      "collocations": [
+        "in common",
+        "common sense",
+        "common practice"
+      ],
+      "examples": [
+        "Paternity leave is becoming more common. 陪产假越来越普遍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "common（常见/共同）/ ordinary（普通）/ usual（通常的）"
+      }
+    },
+    "communicate": {
+      "phonetic": "/kəˈmjuːnɪkeɪt/",
+      "pos": "v.",
+      "sense": "交流、沟通；传达、传递（信息）；相通",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "commun（共同、共用，词根，同 common/community）+ -icate（动词后缀）",
+        "confusables": "communicate with sb（与某人交流，介词 with）/ communicate sth to sb（把…传达给某人）/ communication（交流，名词）/ communicable（可传染的，指疾病）"
+      },
+      "collocations": [
+        "communicate with"
+      ],
+      "examples": [
+        "People can communicate with each other using music as the common language. 大家以音乐为共同语言，就能互相沟通。"
+      ]
+    },
+    "control": {
+      "phonetic": "/kənˈtrəʊl/",
+      "pos": "n./v.",
+      "sense": "控制、掌控",
+      "collocations": [
+        "under control",
+        "control oneself"
+      ],
+      "examples": [
+        "Try to control your temper. 尽量控制住脾气。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "control / contrary / contribute（同族不同词形，注意词性与用法）"
+      }
+    },
+    "create": {
+      "phonetic": "/kriˈeɪt/",
+      "pos": "v.",
+      "sense": "创造、造成（create sth）",
+      "collocations": [
+        "create opportunities",
+        "create problems"
+      ],
+      "examples": [
+        "They create powerful new communicative forms. 他们创造出有力的新沟通形式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "create（创造）/ make（制作）/ produce（生产）"
+      }
+    },
+    "culture": {
+      "phonetic": "/ˈkʌltʃə/",
+      "pos": "n.",
+      "sense": "文化、文明；修养、教养；培养、栽培（细胞 / 细菌）；（企业）文化",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "culture brings"
+      ],
+      "examples": [
+        "In every culture and country, you will find music. 无论哪种文化、哪个国度，音乐都无处不在。"
+      ],
+      "more": {
+        "confusables": "culture / cultures（同族不同词形，注意词性与用法）"
+      }
+    },
+    "cultures": {
+      "phonetic": "/ˈkʌltʃəz/",
+      "pos": "n.",
+      "sense": "文化、文明；修养、教养；培养、栽培（细胞 / 细菌）；（企业）文化（culture 的复数/三单形式）",
+      "lemma": "culture",
+      "collocations": [
+        "different cultures",
+        "cultures come",
+        "cultures share"
+      ],
+      "examples": [
+        "One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. 我最爱的一类音乐场景，莫过于看着不同文化背景的乐手凑到一块儿、组团合奏。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "culture + -s（复数/三单）",
+        "confusables": "cultures（复数/三单）/ culture（原形）"
+      }
+    },
+    "deep": {
+      "phonetic": "/diːp/",
+      "pos": "adj./adv./n.",
+      "sense": "深的、纵深的、深刻的、深奥的；深深地；深处（deep into the night / in deep water）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "deep love"
+      ],
+      "examples": [
+        "We all share a deep love for music and it has the power to unite us. 人人都深爱着音乐，而音乐也确有能力把我们聚成一家人。"
+      ],
+      "more": {
+        "confusables": "deep / deepen / deeper（同族不同词形，注意词性与用法）"
+      }
+    },
+    "different": {
+      "phonetic": "/ˈdɪfrənt/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的",
+      "collocations": [
+        "different from",
+        "a different picture",
+        "different points of view"
+      ],
+      "examples": [
+        "Their experiences were considerably different. 他们的经历相当不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "emotional": {
+      "phonetic": "/ɪˈməʊʃənl/",
+      "pos": "adj.",
+      "sense": "情感的、情绪的；激动人心的（本文 emotional distress 情绪困扰 / your emotional state 情绪状态 / resultant emotions 随之而来的情绪）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "emotional faculties"
+      ],
+      "examples": [
+        "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos). 音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。"
+      ],
+      "more": {
+        "confusables": "emotional / emotions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "emotions": {
+      "phonetic": "/ɪˈməʊʃnz/",
+      "pos": "n.",
+      "sense": "emotion 的复数，情感、情绪",
+      "collocations": [
+        "change emotions"
+      ],
+      "examples": [
+        "Music essentially serves to express or change emotions. 说到底，音乐是用来抒发、或者调动情绪的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "e-（=ex- 向外）+ mot（动，词根 mot/mov = move，同 motion/motive/promote）+ -ion + -s → 外露的波动 → 情绪",
+        "confusables": "emotion（情绪，强烈而短暂）/ feeling（感觉，较泛）/ mood（心境，持续较久）/ emotional（情绪的；易动感情的）/ emotive（引发强烈情绪的，多指话题）"
+      }
+    },
+    "entertaining": {
+      "phonetic": "/ˌentəˈteɪnɪŋ/",
+      "pos": "adj./v.",
+      "sense": "有趣的、娱乐性强的、令人愉快的；招待、使快乐（entertain 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Music can simply be recreational: entertaining, joyful and fun. 音乐也可以纯粹图个乐子，轻松、欢快又好玩。"
+      ]
+    },
+    "entirely": {
+      "phonetic": "/ɪnˈtaɪəli/",
+      "pos": "adv.",
+      "sense": "完全地、全然地、一概（not entirely 不完全）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "entire（完全的）+ -ly（副词后缀）",
+        "confusables": "entirely（完全地、全然）/ entirely 与 completely（近义）/ not entirely（不完全，部分否定）/ entire（整个的，形容词，只作定语）"
+      },
+      "collocations": [
+        "entirely new",
+        "entirely new sound"
+      ],
+      "examples": [
+        "When each culture brings its own unique qualities to the group, an entirely new sound is achieved. 每种文化把自己那份独门气质带进来，合在一起就生出了全新的音色。"
+      ]
+    },
+    "essentially": {
+      "phonetic": "/ɪˈsenʃlli/",
+      "pos": "adj./n.",
+      "sense": "必不可少的、本质的；要素（复数）（essential 的副词形式）",
+      "lemma": "essential",
+      "collocations": [
+        "Music essentially",
+        "essentially serves"
+      ],
+      "examples": [
+        "Music essentially serves to express or change emotions. 说到底，音乐是用来抒发、或者调动情绪的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "essential + -ly（副词）",
+        "confusables": "essentially（副词）/ essential（原形）"
+      }
+    },
+    "everywhere": {
+      "phonetic": "/ˈevriweə/",
+      "pos": "adv.",
+      "sense": "到处、处处、各个地方",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "music everywhere",
+        "everywhere including"
+      ],
+      "examples": [
+        "This scale can be found in music everywhere including that of Native Americans, Africans, and Asians. 从美洲原住民到非洲、亚洲，各地音乐里都有它的身影。"
+      ]
+    },
+    "existed": {
+      "phonetic": "/ɪɡˈzɪstɪd/",
+      "pos": "v.",
+      "sense": "存在（不及物）（exist 的过去式/过去分词形式）",
+      "lemma": "exist",
+      "collocations": [
+        "existed without"
+      ],
+      "examples": [
+        "There is no known society that existed without music. 迄今还没发现哪个社会是没有音乐的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "exist + -ed（过去式/过去分词）",
+        "confusables": "existed（过去式/过去分词）/ exist（原形）"
+      }
+    },
+    "experiences": {
+      "phonetic": "/ɪkˈspɪəriənsɪz/",
+      "pos": "n./v.",
+      "sense": "经历、体验、经验（experience 的复数）；经历、感受（第三人称单数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "favorite experiences",
+        "experiences in",
+        "experiences in music"
+      ],
+      "examples": [
+        "One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. 我最爱的一类音乐场景，莫过于看着不同文化背景的乐手凑到一块儿、组团合奏。"
+      ],
+      "more": {
+        "confusables": "experiences / experience（同族不同词形，注意词性与用法）"
+      }
+    },
+    "express": {
+      "phonetic": "/ɪkˈspres/",
+      "pos": "v./adj./n.",
+      "sense": "表达、表示、表露；明确的、特快的；快递、快车（本文 you have to express your knowledge in some way 必须以某种方式把知识表达 / 运用出来）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "serves to express"
+      ],
+      "examples": [
+        "Music essentially serves to express or change emotions. 说到底，音乐是用来抒发、或者调动情绪的。"
+      ],
+      "more": {
+        "confusables": "express / expressive（同族不同词形，注意词性与用法）"
+      }
+    },
+    "extraordinary": {
+      "phonetic": "/ɪkˈstrɔːdnri/",
+      "pos": "adj.",
+      "sense": "非凡的、卓越的、特别的；异常的、离奇的（an extraordinary achievement 非凡成就）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "create extraordinary",
+        "extraordinary results"
+      ],
+      "examples": [
+        "This can create extraordinary results. 由此往往能碰撞出惊艳的效果。"
+      ]
+    },
+    "favorite": {
+      "phonetic": "/ˈfeɪvərɪt/",
+      "pos": "adj./n.",
+      "sense": "最喜爱的；特别喜爱的人或物（美式拼写，英式 favourite）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "favorite experiences"
+      ],
+      "examples": [
+        "One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. 我最爱的一类音乐场景，莫过于看着不同文化背景的乐手凑到一块儿、组团合奏。"
+      ]
+    },
+    "find": {
+      "phonetic": "/faɪnd/",
+      "pos": "v.",
+      "sense": "发现、找到；认为（find sth + adj.）",
+      "collocations": [
+        "find that...",
+        "find it hard to do",
+        "find out"
+      ],
+      "examples": [
+        "They find the rule acceptable. 他们觉得这条规则可以接受。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "find（找到，结果）/ search（搜寻，过程）/ find out（查明）"
+      }
+    },
+    "five": {
+      "phonetic": "/faɪv/",
+      "pos": "num.",
+      "sense": "五（数词）；五个、五岁（作定语或表语）",
+      "collocations": [
+        "five years ago",
+        "five times"
+      ],
+      "examples": [
+        "We did a study five years ago. 我们五年前做过一项研究。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "five（五）/ fifth（第五）"
+      }
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "fun": {
+      "phonetic": "/fʌn/",
+      "pos": "n./adj.",
+      "sense": "乐趣、玩笑、嬉戏；有趣的、令人愉快的",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Music can simply be recreational: entertaining, joyful and fun. 音乐也可以纯粹图个乐子，轻松、欢快又好玩。"
+      ],
+      "more": {
+        "confusables": "fun / funded / funding（同族不同词形，注意词性与用法）"
+      }
+    },
+    "group": {
+      "phonetic": "/ɡruːp/",
+      "pos": "n./v.",
+      "sense": "群体、小组（可数）/ 分组（动词）",
+      "collocations": [
+        "a group of",
+        "age group",
+        "group work"
+      ],
+      "examples": [
+        "Studies have shown that social support helps. 研究表明社会支持有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "group（群体）/ team（团队）/ crowd（人群）"
+      }
+    },
+    "important": {
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "pos": "adj.",
+      "sense": "重要的、重大的；有影响力的",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）"
+      },
+      "collocations": [
+        "vitally important",
+        "important across"
+      ],
+      "examples": [
+        "It is vitally important across the globe and has the potential to bring people together in peace and harmony. 音乐在世界各地都分量极重，还能让人们平和、融洽地走到一起。"
+      ]
+    },
+    "including": {
+      "phonetic": "/ɪnˈkluːdɪŋ/",
+      "pos": "prep.",
+      "sense": "包括（介词性分词，后接名词）",
+      "collocations": [
+        "including cases against",
+        "including me"
+      ],
+      "examples": [
+        "Several firms faced cases, including JPMorgan Chase. 多家公司被起诉，包括摩根大通。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "including（包括，后接名词）/ included（被包括，置于名词后）"
+      }
+    },
+    "jazz": {
+      "phonetic": "/dʒæz/",
+      "pos": "n.",
+      "sense": "爵士乐、爵士舞（音乐话题常见）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "It is also found in popular music, blues, jazz, and rock. 流行、布鲁斯、爵士、摇滚里，照样少不了它。"
+      ]
+    },
+    "joyful": {
+      "phonetic": "/ˈdʒɔɪfl/",
+      "pos": "adj.",
+      "sense": "快乐的、高兴的、令人喜悦的",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Music can simply be recreational: entertaining, joyful and fun. 音乐也可以纯粹图个乐子，轻松、欢快又好玩。"
+      ],
+      "more": {
+        "roots": "joyful 含 -ful（形容词后缀，表「充满……的」）"
+      }
+    },
+    "known": {
+      "phonetic": "/nəʊn/",
+      "pos": "adj./v.",
+      "sense": "已知的、闻名的、公认的（known as 以…著称）；know 的过去分词",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be known as（作为…而出名，后接身份）/ be known for（因…而出名，后接原因或特点）/ be known to（为…所熟知，后接人）/ know（know-knew-known）/ well-known（著名的，形容词）"
+      },
+      "collocations": [
+        "known as",
+        "known society"
+      ],
+      "examples": [
+        "One common musical thread between cultures is known as the pentatonic scale. 贯穿不同文化的一条共同音乐脉络，就是所谓的五声音阶。"
+      ]
+    },
+    "language": {
+      "phonetic": "/ˈlæŋɡwɪdʒ/",
+      "pos": "n.",
+      "sense": "语言",
+      "collocations": [
+        "the English language",
+        "body language"
+      ],
+      "examples": [
+        "Music is a universal language. 音乐，是一门放之四海皆通的语言。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "love": {
+      "phonetic": "/lʌv/",
+      "pos": "n./v.",
+      "sense": "爱、热爱；喜爱、爱好；很喜欢",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "deep love",
+        "love for",
+        "love for music"
+      ],
+      "examples": [
+        "We all share a deep love for music and it has the power to unite us. 人人都深爱着音乐，而音乐也确有能力把我们聚成一家人。"
+      ],
+      "more": {
+        "confusables": "love / lovers（同族不同词形，注意词性与用法）"
+      }
+    },
+    "meaning": {
+      "phonetic": "/ˈmiːnɪŋ/",
+      "pos": "n./adj./v.",
+      "sense": "意义、含义、意思；意味深长的；意味着、打算（mean 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "meaning tone"
+      ],
+      "examples": [
+        "The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note. 五声音阶由五个音构成：penta- 是「五」，tonic 是「音」，合起来就是五个音。"
+      ],
+      "more": {
+        "confusables": "meaning / meaningful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "medium": {
+      "phonetic": "/ˈmiːdiəm/",
+      "pos": "n./adj.",
+      "sense": "媒介、手段、介质；中等的、适中的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "medium through"
+      ],
+      "examples": [
+        "Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other. 靠着这套五声音阶，全世界的乐手有了共通的媒介，得以沟通、合奏，直到真正互相理解。"
+      ],
+      "more": {
+        "confusables": "medium / medicine / media（同族不同词形，注意词性与用法）"
+      }
+    },
+    "mental": {
+      "phonetic": "/ˈmentl/",
+      "pos": "adj.",
+      "sense": "心理的、精神的；脑力的",
+      "collocations": [
+        "mental health",
+        "mental illness",
+        "mental effort"
+      ],
+      "examples": [
+        "Social support improves mental health. 社会支持改善心理健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ment（心智、思维，词根 ment = mind，同 mentality/dementia）+ -al（形容词后缀）",
+        "confusables": "mental（心理的）/ physical（身体的）"
+      }
+    },
+    "music": {
+      "phonetic": "/ˈmjuːzɪk/",
+      "pos": "n.",
+      "sense": "音乐、乐曲、乐谱；音乐（学科/艺术）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "find music",
+        "experiences in music",
+        "using music"
+      ],
+      "examples": [
+        "Music is a universal language. 音乐，是一门放之四海皆通的语言。"
+      ]
+    },
+    "new": {
+      "phonetic": "/njuː/",
+      "pos": "adj.",
+      "sense": "新的；新近的",
+      "collocations": [
+        "new technologies",
+        "brand new",
+        "new to sth"
+      ],
+      "examples": [
+        "New tools always provoke worry. 新工具总会引发担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "note": {
+      "phonetic": "/nəʊt/",
+      "pos": "n./v.",
+      "sense": "笔记；便条；音符；注释（v. 注意；指出）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note. 五声音阶由五个音构成：penta- 是「五」，tonic 是「音」，合起来就是五个音。"
+      ],
+      "more": {
+        "confusables": "note / notes（同族不同词形，注意词性与用法）"
+      }
+    },
+    "notes": {
+      "phonetic": "/nəʊtz/",
+      "pos": "n./v.",
+      "sense": "笔记；便条；音符；注释（v. 注意；指出）（note 的复数/三单形式）",
+      "lemma": "note",
+      "collocations": [
+        "five notes"
+      ],
+      "examples": [
+        "The pentatonic scale consists of five notes; \"penta-\" meaning 5, and \"tonic\" meaning tone or note. 五声音阶由五个音构成：penta- 是「五」，tonic 是「音」，合起来就是五个音。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "note + -s（复数/三单）",
+        "confusables": "notes（复数/三单）/ note（原形）"
+      }
+    },
+    "often": {
+      "phonetic": "/ˈɒfn/",
+      "pos": "adv.",
+      "sense": "经常、常常",
+      "collocations": [
+        "often ceremonial"
+      ],
+      "examples": [
+        "Music is often ceremonial: used in religion, ceremony, and celebration. 音乐还常担着仪式功能，宗教、典礼、庆祝场合都少不了它。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "perform": {
+      "phonetic": "/pəˈfɔːm/",
+      "pos": "v.",
+      "sense": "执行、做；表现；表演",
+      "collocations": [
+        "perform well",
+        "perform a task",
+        "perform at"
+      ],
+      "examples": [
+        "Computers help students perform better. 电脑帮助学生学习表现更好。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "perform（执行/表演）/ performance（表现，名词）"
+      }
+    },
+    "pitch": {
+      "phonetic": "/pɪtʃ/",
+      "pos": "n./v.",
+      "sense": "球场、场地；程度、强度、音高；推销说辞；沥青；投、掷、搭（帐篷）、定调、推销、倾斜",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "distinct pitch"
+      ],
+      "examples": [
+        "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos). 音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。"
+      ]
+    },
+    "popular": {
+      "phonetic": "/ˈpɒpjələ/",
+      "pos": "adj.",
+      "sense": "受欢迎的、流行的、大众的、普及的；民众的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "popular music",
+        "found in popular"
+      ],
+      "examples": [
+        "It is also found in popular music, blues, jazz, and rock. 流行、布鲁斯、爵士、摇滚里，照样少不了它。"
+      ],
+      "more": {
+        "confusables": "popular / popularity / population（同族不同词形，注意词性与用法）"
+      }
+    },
+    "potential": {
+      "phonetic": "/pəˈtenʃl/",
+      "pos": "adj./n.",
+      "sense": "潜在的（形容词）；潜力（不可数）",
+      "collocations": [
+        "career potential",
+        "potential customers",
+        "reach one's potential"
+      ],
+      "examples": [
+        "Perceived career potential changed for women. 女性自感的职业潜力发生了变化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "potent（有力量的，词根 pot = power，同 potent/omnipotent）+ -ial（形容词/名词后缀）",
+        "confusables": "potential（潜在的/潜力）/ possible（可能的）/ potentially（可能地）"
+      }
+    },
+    "power": {
+      "phonetic": "/ˈpaʊə(r)/",
+      "pos": "n.",
+      "sense": "权力、力量",
+      "collocations": [
+        "power differences",
+        "power dynamics"
+      ],
+      "examples": [
+        "We all share a deep love for music and it has the power to unite us. 人人都深爱着音乐，而音乐也确有能力把我们聚成一家人。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "power / powers / powerful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "purposes": {
+      "phonetic": "/ˈpɜːpəsz/",
+      "pos": "n.",
+      "sense": "目的、意图（purpose 的复数/三单形式）",
+      "lemma": "purpose",
+      "collocations": [
+        "purposes behind"
+      ],
+      "examples": [
+        "Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. 各地音乐的风格和玩法固然各有一套，但音乐要派什么用场，放到哪儿都差不多。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "purpose + -s（复数/三单）",
+        "confusables": "purposes（复数/三单）/ purpose（原形）"
+      }
+    },
+    "put": {
+      "phonetic": "/pʊt/",
+      "pos": "v.",
+      "sense": "放、放置、摆；表达、说明、提出；使处于（某状态）、赋予",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "societies put",
+        "put words"
+      ],
+      "examples": [
+        "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos). 音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。"
+      ],
+      "more": {
+        "confusables": "put / putting（同族不同词形，注意词性与用法）"
+      }
+    },
+    "qualities": {
+      "phonetic": "/ˈkwɒlətiz/",
+      "pos": "n./adj.",
+      "sense": "质量（不可数）；品质、特质（可数）；优质的（quality 的复数/三单形式）",
+      "lemma": "quality",
+      "collocations": [
+        "unique qualities",
+        "qualities to"
+      ],
+      "examples": [
+        "When each culture brings its own unique qualities to the group, an entirely new sound is achieved. 每种文化把自己那份独门气质带进来，合在一起就生出了全新的音色。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "quality + -ies（复数/三单）",
+        "confusables": "qualities（复数/三单）/ quality（原形）"
+      }
+    },
+    "quality": {
+      "phonetic": "/ˈkwɒləti/",
+      "pos": "n./adj.",
+      "sense": "质量（不可数）；品质、特质（可数）；优质的",
+      "collocations": [
+        "quality of life",
+        "high quality",
+        "quality time"
+      ],
+      "examples": [
+        "The quality of writing has improved. 写作质量提高了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "quality（质量/品质）/ quantity（数量）/ qualitative（定性的）"
+      }
+    },
+    "results": {
+      "phonetic": "/rɪˈzʌlts/",
+      "pos": "n.",
+      "sense": "结果（result 的复数）；成绩",
+      "lemma": "result",
+      "collocations": [
+        "the results show",
+        "test results"
+      ],
+      "examples": [
+        "The results suggest a clear difference. 结果表明有明显差异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "results（复数）/ result（单数）"
+      }
+    },
+    "rock": {
+      "phonetic": "/rɒk/",
+      "pos": "n./v.",
+      "sense": "岩石、石头、石块；摇滚乐；摇动、摇晃、震动",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "It is also found in popular music, blues, jazz, and rock. 流行、布鲁斯、爵士、摇滚里，照样少不了它。"
+      ]
+    },
+    "scale": {
+      "phonetic": "/skeɪl/",
+      "pos": "n./v.",
+      "sense": "规模、范围、程度；刻度、标尺、秤、音阶、等级、鳞片；攀登、按比例缩放、衡量",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "pentatonic scale",
+        "scale consists",
+        "five-note scale"
+      ],
+      "examples": [
+        "One common musical thread between cultures is known as the pentatonic scale. 贯穿不同文化的一条共同音乐脉络，就是所谓的五声音阶。"
+      ]
+    },
+    "seeing": {
+      "phonetic": "/siːɪŋ/",
+      "pos": "v.",
+      "sense": "看见；明白（I see）；见证（see 的现在分词/动名词形式）",
+      "lemma": "see",
+      "collocations": [
+        "seeing musicians"
+      ],
+      "examples": [
+        "One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. 我最爱的一类音乐场景，莫过于看着不同文化背景的乐手凑到一块儿、组团合奏。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "see + -ing（现在分词/动名词）",
+        "confusables": "seeing（现在分词/动名词）/ see（原形）"
+      }
+    },
+    "serves": {
+      "phonetic": "/sɜːvz/",
+      "pos": "v.",
+      "sense": "为…服务；提供、端上；充当、用作（serve 的复数/三单形式）",
+      "lemma": "serve",
+      "collocations": [
+        "essentially serves",
+        "serves to",
+        "serves to express"
+      ],
+      "examples": [
+        "Music essentially serves to express or change emotions. 说到底，音乐是用来抒发、或者调动情绪的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "serve + -s（复数/三单）",
+        "confusables": "serves（复数/三单）/ serve（原形）"
+      }
+    },
+    "share": {
+      "phonetic": "/ʃeə(r)/",
+      "pos": "v./n.",
+      "sense": "分享、共享；共有、分担；份额、股份",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "cultures share"
+      ],
+      "examples": [
+        "It is astonishing how many cultures share this tool in approaching music. 竟然有那么多文化不约而同用同一套工具来玩音乐，着实令人惊叹。"
+      ],
+      "more": {
+        "confusables": "share / sharply / shared（同族不同词形，注意词性与用法）"
+      }
+    },
+    "similar": {
+      "phonetic": "/ˈsɪmələ(r)/",
+      "pos": "adj.",
+      "sense": "相似的、类似的",
+      "collocations": [
+        "be similar to",
+        "similar percentages",
+        "in a similar way"
+      ],
+      "examples": [
+        "Men reported similar levels of enjoyment. 男性报告的享受程度相近。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "similar to（与……相似）/ the same as（与……相同）"
+      }
+    },
+    "simply": {
+      "phonetic": "/ˈsɪmpli/",
+      "pos": "adv.",
+      "sense": "仅仅、只不过；简单地",
+      "collocations": [
+        "simply because",
+        "quite simply",
+        "simply put"
+      ],
+      "examples": [
+        "Simply feeling something is right is subjective. 仅仅感觉某事对，是主观的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "simply（仅仅/简单地）/ simple（简单的）/ simplistic（过于简化的）"
+      }
+    },
+    "societies": {
+      "phonetic": "/səˈsaɪətiz/",
+      "pos": "n.",
+      "sense": "社会；社团（society 的复数/三单形式）",
+      "lemma": "society",
+      "collocations": [
+        "societies put",
+        "societies put words",
+        "societies dance"
+      ],
+      "examples": [
+        "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos). 音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "society + -ies（复数/三单）",
+        "confusables": "societies（复数/三单）/ society（原形）"
+      }
+    },
+    "society": {
+      "phonetic": "/səˈsaɪəti/",
+      "pos": "n.",
+      "sense": "社会；社团",
+      "collocations": [
+        "as a society",
+        "known society"
+      ],
+      "examples": [
+        "There is no known society that existed without music. 迄今还没发现哪个社会是没有音乐的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "society / societies（同族不同词形，注意词性与用法）"
+      }
+    },
+    "something": {
+      "phonetic": "/ˈsʌmθɪŋ/",
+      "pos": "pron.",
+      "sense": "某事、某物（不定代词）",
+      "collocations": [
+        "something like",
+        "something to do with",
+        "or something"
+      ],
+      "examples": [
+        "If you feel something should not be done... 如果你觉得某事不该做……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）"
+      }
+    },
+    "songs": {
+      "phonetic": "/sɒŋz/",
+      "pos": "n.",
+      "sense": "歌曲、歌（song 的复数；hit songs 热门歌曲）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos). 音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。"
+      ]
+    },
+    "sound": {
+      "phonetic": "/saʊnd/",
+      "pos": "n./v./adj.",
+      "sense": "声音、声响、响声；听起来、发出声音、探测；健全的、合理的、扎实的、酣睡的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "new sound",
+        "sound analysis"
+      ],
+      "examples": [
+        "When each culture brings its own unique qualities to the group, an entirely new sound is achieved. 每种文化把自己那份独门气质带进来，合在一起就生出了全新的音色。"
+      ],
+      "more": {
+        "confusables": "sound / sounds（同族不同词形，注意词性与用法）"
+      }
+    },
+    "specific": {
+      "phonetic": "/spəˈsɪfɪk/",
+      "pos": "adj.",
+      "sense": "具体的、明确的、特定的、特有的（specific to 为…所特有）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "speci（种类，词根，同 species/specify）+ -fic（做，词根）",
+        "confusables": "specific（明确的、特定的，形容词）/ be specific about（对…说清楚，介词 about）/ specifically（明确地；专门地，副词）/ specifics（具体细节，复数名词）/ specify（明确说明，动词）"
+      },
+      "collocations": [
+        "specific perceptual",
+        "tied to specific",
+        "specific style"
+      ],
+      "examples": [
+        "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos). 音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。"
+      ]
+    },
+    "systems": {
+      "phonetic": "/ˈsɪstəmz/",
+      "pos": "n.",
+      "sense": "系统、体系（可数）（system 的复数/三单形式）",
+      "lemma": "system",
+      "collocations": [
+        "musical systems"
+      ],
+      "examples": [
+        "Music is tied to specific perceptual(感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics(美感) (their tunes and rhythms are balanced between repetitiveness and chaos). 音乐连着人类几项共通的能力——感知、心智与情感：语言（各社会都会给歌填词）、运动控制（各处的人都会随之起舞）、声音辨析（每种音乐体系都有固定的音高与音色），还有审美（旋律节奏总在重复与杂乱之间找平衡）。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "system + -s（复数/三单）",
+        "confusables": "systems（复数/三单）/ system（原形）"
+      }
+    },
+    "through": {
+      "phonetic": "/θruː/",
+      "pos": "prep.",
+      "sense": "通过、凭借",
+      "collocations": [
+        "medium through"
+      ],
+      "examples": [
+        "Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other. 靠着这套五声音阶，全世界的乐手有了共通的媒介，得以沟通、合奏，直到真正互相理解。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "through / throughput（同族不同词形，注意词性与用法）"
+      }
+    },
+    "together": {
+      "phonetic": "/təˈɡeðə/",
+      "pos": "adv./adj.",
+      "sense": "一起、共同、同时、合计、连续地；（口语）沉着自信的、协调的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "people together",
+        "together in",
+        "together in peace"
+      ],
+      "examples": [
+        "It is vitally important across the globe and has the potential to bring people together in peace and harmony. 音乐在世界各地都分量极重，还能让人们平和、融洽地走到一起。"
+      ]
+    },
+    "tool": {
+      "phonetic": "/tuːl/",
+      "pos": "n.",
+      "sense": "工具、器具、用具；手段、方法、工具（软件）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "tool in",
+        "tool in approaching"
+      ],
+      "examples": [
+        "It is astonishing how many cultures share this tool in approaching music. 竟然有那么多文化不约而同用同一套工具来玩音乐，着实令人惊叹。"
+      ]
+    },
+    "ultimately": {
+      "phonetic": "/ˈʌltɪmətli/",
+      "pos": "adv.",
+      "sense": "最终、归根结底",
+      "collocations": [
+        "ultimately understand"
+      ],
+      "examples": [
+        "Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other. 靠着这套五声音阶，全世界的乐手有了共通的媒介，得以沟通、合奏，直到真正互相理解。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "ultimately / ultimate（同族不同词形，注意词性与用法）"
+      }
+    },
+    "understand": {
+      "phonetic": "/ˌʌndəˈstænd/",
+      "pos": "v.",
+      "sense": "理解、明白；得知、获悉；体谅",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "under-（在…之下）+ stand（站立）构成的复合动词",
+        "confusables": "understand（理解、明白，及物，通常不用进行时）/ understand doing / understand that / make oneself understood（把意思说明白）/ comprehend（更正式）/ understanding（理解；谅解，名词）"
+      },
+      "collocations": [
+        "ultimately understand"
+      ],
+      "examples": [
+        "Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other. 靠着这套五声音阶，全世界的乐手有了共通的媒介，得以沟通、合奏，直到真正互相理解。"
+      ]
+    },
+    "unique": {
+      "phonetic": "/juˈniːk/",
+      "pos": "adj.",
+      "sense": "独特的、独一无二的；唯一的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "unique qualities"
+      ],
+      "examples": [
+        "When each culture brings its own unique qualities to the group, an entirely new sound is achieved. 每种文化把自己那份独门气质带进来，合在一起就生出了全新的音色。"
+      ]
+    },
+    "universal": {
+      "phonetic": "/ˌjuːnɪˈvɜːsl/",
+      "pos": "adj.",
+      "sense": "普遍的、全体的；通用的；全世界的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "universal language"
+      ],
+      "examples": [
+        "Music is a universal language. 音乐，是一门放之四海皆通的语言。"
+      ],
+      "more": {
+        "confusables": "universal / university（同族不同词形，注意词性与用法）"
+      }
+    },
+    "used": {
+      "phonetic": "/juːzd/",
+      "pos": "v./adj.",
+      "sense": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+      "lemma": "use",
+      "collocations": [
+        "used to do",
+        "be used to doing",
+        "be used for"
+      ],
+      "examples": [
+        "They used flexible work arrangements. 他们使用了弹性工作安排。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）"
+      }
+    },
+    "using": {
+      "phonetic": "/ˈjuːzɪŋ/",
+      "pos": "v.",
+      "sense": "use 的现在分词（使用）",
+      "lemma": "use",
+      "collocations": [
+        "by using sth",
+        "using data"
+      ],
+      "examples": [
+        "Results improve by using existing technology. 使用现有技术就能改善结果。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "using（现在分词）/ used（过去式/过去分词）"
+      }
+    },
+    "vitally": {
+      "phonetic": "/ˈvaɪtlli/",
+      "pos": "adj.",
+      "sense": "至关重要的、生死攸关的、必不可少的、充满活力的（be vital to/for 对…极重要）（vital 的副词形式）",
+      "lemma": "vital",
+      "collocations": [
+        "vitally important"
+      ],
+      "examples": [
+        "It is vitally important across the globe and has the potential to bring people together in peace and harmony. 音乐在世界各地都分量极重，还能让人们平和、融洽地走到一起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "vital + -ly（副词）",
+        "confusables": "vitally（副词）/ vital（原形）"
+      }
+    },
+    "way": {
+      "phonetic": "/weɪ/",
+      "pos": "n.",
+      "sense": "方法、方式；路；程度（in a way）",
+      "collocations": [
+        "the best way to do sth",
+        "in some ways",
+        "by the way"
+      ],
+      "examples": [
+        "There is no simple way to fix it. 没有简单的办法解决它。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "way（方法）/ road（道路）/ method（方法，正式）"
+      }
+    },
+    "without": {
+      "phonetic": "/wɪˈðaʊt/",
+      "pos": "prep.",
+      "sense": "没有、不带（后接名词或动名词）",
+      "collocations": [
+        "without doing",
+        "without doubt",
+        "go without"
+      ],
+      "examples": [
+        "Without making things complicated, the answer is simple. 不把事情弄复杂的话，答案很简单。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "without doing（介词 + 动名词）/ without 不接从句（除非 without that，罕见）"
+      }
+    },
+    "words": {
+      "phonetic": "/wɜːdz/",
+      "pos": "n.",
+      "sense": "单词、话语（word 的复数）",
+      "lemma": "word",
+      "collocations": [
+        "in other words",
+        "in a word",
+        "words of"
+      ],
+      "examples": [
+        "In other words, the more we believe in effort... 换句话说，我们越相信努力……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in other words（换句话说）/ in a word（简言之）/ word（单词）"
+      }
+    }
+  }
+}

@@ -1,0 +1,5652 @@
+{
+  "sourceKey": "cet4-2024-06-set2A",
+  "articleId": "set2A",
+  "packVersion": "2026.11.07-1",
+  "meta": {
+    "examYear": 2024,
+    "examMonth": 6,
+    "setNo": 2,
+    "section": "仔细阅读",
+    "passageLabel": "Passage One",
+    "title": "Caring About What Others Think",
+    "wordCount": 349
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Lao Zi once said, \"Care about what other people think and you will always be their prisoner.\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 93,
+          "text": "Lao Zi once said, \"Care about what other people think and you will always be their prisoner.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Lao",
+              "normalized": "lao",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "surface": "Zi",
+              "normalized": "zi",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "once",
+              "normalized": "once",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 18,
+              "end": 19,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 19,
+              "end": 23,
+              "surface": "Care",
+              "normalized": "care",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 29,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 40,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 47,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 53,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 61,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 66,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 73,
+              "surface": "always",
+              "normalized": "always",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 82,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 91,
+              "surface": "prisoner",
+              "normalized": "prisoner",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 92,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 92,
+              "end": 93,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "老子有一次说过：「关心别人所想的事，那么你就会始终是他们的囚犯。」",
+            "translationNatural": "老子有言：老把别人的看法当回事，这辈子就别想自由。",
+            "structMarkup": "【Lao Zi】 _once said_, \"_Care about_ {what other people think} _and you will always be their prisoner_.\"",
+            "structureSummary": "主谓 + 直接引语（祈使句 + and 连接的结果分句，内含 what 宾语从句）",
+            "components": [
+              {
+                "part": "Lao Zi",
+                "role": "主语",
+                "note": "人名作主语，后接 once said 引出引语"
+              },
+              {
+                "part": "once said",
+                "role": "谓语",
+                "note": "once 意为「曾经」，said 后接直接引语"
+              },
+              {
+                "part": "Care about",
+                "role": "谓语",
+                "note": "引语内是祈使句，动词原形开头；about 是介词"
+              },
+              {
+                "part": "what other people think",
+                "role": "宾语从句",
+                "note": "what 引导宾语从句，作介词 about 的宾语；what 在从句中作 think 的宾语"
+              },
+              {
+                "part": "and you will always be their prisoner",
+                "role": "谓语",
+                "note": "祈使句 + and + 陈述句，表示「这样做就会……」的结果"
+              }
+            ],
+            "clauses": [
+              "what other people think 是宾语从句，作介词 about 的宾语；what 在从句中作 think 的宾语。",
+              "本句主干为「主谓 + 直接引语（祈使句 + and 连接的结果分句，内含 what 宾语从句）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "care about",
+                "meaning": "在乎、关心",
+                "usage": "about 是介词，后接名词或 wh- 从句；care for 则多指「喜欢／照料」。",
+                "example": "He cares about what others say. 他很在意别人怎么说。"
+              },
+              {
+                "text": "once",
+                "meaning": "一次；曾经 / 一旦（连词）",
+                "usage": "注意区分：at once（立即/一次性）/ once（一次/一旦）。常见搭配：at once / once again。",
+                "example": "The web is headed for change once again. 网络再次走向变革。"
+              },
+              {
+                "text": "care",
+                "meaning": "谨慎、小心；关心",
+                "usage": "常见搭配：with extra care / take care。",
+                "example": "Lao Zi once said, \"Care about what other people think and you will always be their prisoner.\" 老子有言：老把别人的看法当回事，这辈子就别想自由。"
+              }
+            ],
+            "pitfalls": [
+              "祈使句 + and + 陈述句相当于「如果……就会……」，and 后接陈述语气。",
+              "what other people think 用陈述语序，不说 what do other people think。",
+              "整句是直接引语，句号放在引号内（美式）。"
+            ],
+            "paragraphRole": "以老子语录破题，用「囚徒」之喻立起全文要反驳的态度：太在意他人眼光即失去自由，对应第 46 题。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life. Why do we allow what others think of us to have so much power over how we feel about ourselves? If it's true that you can't please all people all of the time, wouldn't it make sense to stop trying?",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 122,
+          "text": "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 15,
+              "surface": "People-pleasing",
+              "normalized": "people-pleasing",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 27,
+              "surface": "seeking",
+              "normalized": "seeking",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "surface": "self-worth",
+              "normalized": "self-worth",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 46,
+              "surface": "through",
+              "normalized": "through",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 54,
+              "surface": "others'",
+              "normalized": "others",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 63,
+              "surface": "approval",
+              "normalized": "approval",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 64,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 80,
+              "surface": "unproductive",
+              "normalized": "unproductive",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 84,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 87,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 98,
+              "surface": "exhausting",
+              "normalized": "exhausting",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 102,
+              "surface": "way",
+              "normalized": "way",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 105,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 108,
+              "surface": "go",
+              "normalized": "go",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 116,
+              "surface": "through",
+              "normalized": "through",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 121,
+              "surface": "life",
+              "normalized": "life",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 122,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "取悦他人，或者说通过他人的认可来寻求自我价值，是没有产出的，并且是一种令人筋疲力尽的过完一生的方式。",
+            "translationNatural": "讨好别人、靠别人点赞来确认自己值不值，既没用，又活得累。",
+            "structMarkup": "【People-pleasing】, (or seeking self-worth through others' approval), _is_ ~unproductive~ and ~an exhausting way to go through life~.",
+            "structureSummary": "主系表 + 同位语（or 引出）+ 并列的表语成分 + 不定式作后置定语",
+            "components": [
+              {
+                "part": "People-pleasing",
+                "role": "主语",
+                "note": "动名词化的复合词作主语，谓语用单数 is"
+              },
+              {
+                "part": "or seeking self-worth through others' approval",
+                "role": "插入语",
+                "note": "or 引出的同位说明，换个说法解释主语；前后逗号隔开"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接表语；与单数主语一致"
+              },
+              {
+                "part": "unproductive",
+                "role": "表语",
+                "note": "形容词作表语，意为「没有成效的」"
+              },
+              {
+                "part": "an exhausting way to go through life",
+                "role": "表语",
+                "note": "and 连接的第二个表语；不定式作 way 的后置定语"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表 + 同位语（or 引出）+ 并列的表语成分 + 不定式作后置定语」。"
+            ],
+            "phrases": [
+              {
+                "text": "go through",
+                "meaning": "经历、度过",
+                "usage": "go through life / a hard time 表示「度过（人生／难关）」；也有「仔细检查」之义。",
+                "example": "She went through a hard year. 她熬过了艰难的一年。"
+              },
+              {
+                "text": "seeking",
+                "meaning": "寻求、寻找、追求；试图、设法（seek 的现在分词；seek to do 力图）",
+                "usage": "注意区分：seek（寻求、试图，及物，seek-sought-sought）/ seek to do（试图做，接不定式）/ search（搜查某地/人，search for 才等于 seek）/ look for（口语）/ job-seeking（求职的）。",
+                "example": "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life. 讨好别人、靠别人点赞来确认自己值不值，既没用，又活得累。"
+              },
+              {
+                "text": "self-worth",
+                "meaning": "自我价值感、自尊（对自身价值的认可）",
+                "usage": "注意区分：self-worth（自我价值感，不可数，= self-esteem）/ worth（价值，不可数；be worth doing 值得做）/ self-confidence（自信，侧重能力）/ worthy（值得的，形容词）。",
+                "example": "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life. 讨好别人、靠别人点赞来确认自己值不值，既没用，又活得累。"
+              }
+            ],
+            "pitfalls": [
+              "主语核心是动名词 People-pleasing，谓语用单数 is。",
+              "or 短语是同位说明而非并列主语，故谓语仍用单数。",
+              "others' 是复数所有格，撇号在 s 之后。"
+            ],
+            "paragraphRole": "给「讨好型人格」下判断：徒劳且耗人，为第 47 题「人生无成果又筋疲力尽」提供原文依据。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 123,
+          "end": 218,
+          "text": "Why do we allow what others think of us to have so much power over how we feel about ourselves?",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Why",
+              "normalized": "why",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "allow",
+              "normalized": "allow",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 27,
+              "surface": "others",
+              "normalized": "others",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 33,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 39,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 42,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 50,
+              "surface": "so",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 55,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 61,
+              "surface": "power",
+              "normalized": "power",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 66,
+              "surface": "over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "feel",
+              "normalized": "feel",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 84,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 94,
+              "surface": "ourselves",
+              "normalized": "ourselves",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 95,
+              "surface": "?",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "为什么我们允许别人对我们的想法，去拥有如此大的力量，凌驾于我们如何感受自己之上？",
+            "translationNatural": "干嘛要让别人的看法，牢牢攥住我们对自己的感觉？",
+            "structMarkup": "(Why) _do we allow_ ~what others think of us~ (to have so much power) (over how we feel about ourselves)?",
+            "structureSummary": "特殊疑问句（主谓宾 + 宾语补足语）+ what 宾语从句 + how 宾语从句",
+            "components": [
+              {
+                "part": "Why",
+                "role": "状语",
+                "note": "疑问副词，追问原因"
+              },
+              {
+                "part": "do we allow",
+                "role": "谓语",
+                "note": "疑问式，do 提前；allow 后接宾语 + 不定式宾补"
+              },
+              {
+                "part": "what others think of us",
+                "role": "宾语",
+                "note": "what 引导的名词性从句作 allow 的宾语"
+              },
+              {
+                "part": "to have so much power",
+                "role": "补语",
+                "note": "不定式作宾语补足语，构成 allow sb/sth to do"
+              },
+              {
+                "part": "over how we feel about ourselves",
+                "role": "状语",
+                "note": "介词 over 后接 how 引导的宾语从句"
+              }
+            ],
+            "clauses": [
+              "what others think of us 是宾语从句，作 allow 的宾语；what 在从句中作 think 的宾语。",
+              "how we feel about ourselves 是宾语从句，作介词 over 的宾语。",
+              "本句为疑问句；一般疑问句把助动词/系动词提前，特殊疑问句用疑问词开头。"
+            ],
+            "phrases": [
+              {
+                "text": "allow sb/sth to do",
+                "meaning": "允许……去做、让……得以",
+                "usage": "allow 后接宾语再接带 to 的不定式作宾补；被动式 be allowed to do。",
+                "example": "The window allows light to enter. 窗户让光线照进来。"
+              },
+              {
+                "text": "allow",
+                "meaning": "允许、准许；使能够、让…得以；留出（时间/钱）",
+                "usage": "注意区分：allow sb to do（允许某人做，接不定式）/ allow doing（允许做某事，无宾语时）/ allow for（考虑到、把…算进去）/ allow 与 permit（permit 更正式，也接 sb to do）/ allow 与 let（let sb do，不带 to）。",
+                "example": "Why do we allow what others think of us to have so much power over how we feel about ourselves? 干嘛要让别人的看法，牢牢攥住我们对自己的感觉？"
+              },
+              {
+                "text": "others",
+                "meaning": "其他人/物、别的人/物（other 的复数；some...others 一些…另一些）",
+                "usage": "注意区分：others（其他人/物，泛指，常与 some 呼应 some…others…）/ the others（特定范围内「其余全部」）/ another（三者以上的「另一个」，接单数）/ the other（两者中的「另一个」，one…the other…）/ others 后不再接名词。",
+                "example": "Why do we allow what others think of us to have so much power over how we feel about ourselves? 干嘛要让别人的看法，牢牢攥住我们对自己的感觉？"
+              }
+            ],
+            "pitfalls": [
+              "allow 的宾语是 what 从句，to have... 是宾补，不是 allow 的直接宾语。",
+              "think of us 中的 of 不能丢；how 从句用陈述语序。",
+              "疑问句中的宾语从句仍用陈述语序，不能倒装。"
+            ],
+            "paragraphRole": "用反问把「为何如此在意」摆上台面，引出下一段对心理根源的追问。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 219,
+          "end": 320,
+          "text": "If it's true that you can't please all people all of the time, wouldn't it make sense to stop trying?",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "If",
+              "normalized": "if",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 7,
+              "surface": "it's",
+              "normalized": "it's",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 12,
+              "surface": "true",
+              "normalized": "true",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 27,
+              "surface": "can't",
+              "normalized": "can't",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 34,
+              "surface": "please",
+              "normalized": "please",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 38,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 45,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 49,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 56,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 61,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 63,
+              "end": 71,
+              "surface": "wouldn't",
+              "normalized": "wouldn't",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 74,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 79,
+              "surface": "make",
+              "normalized": "make",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 85,
+              "surface": "sense",
+              "normalized": "sense",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 88,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 93,
+              "surface": "stop",
+              "normalized": "stop",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 100,
+              "surface": "trying",
+              "normalized": "trying",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 101,
+              "surface": "?",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "如果这是真的：你无法在所有时候取悦所有人，那么停止尝试难道不会讲得通吗？",
+            "translationNatural": "既然谁也没法永远讨好所有人，那干脆别费这个劲，不更合理吗？",
+            "structMarkup": "{If it's true that you can't please all people all of the time}, _wouldn't it make sense_ (to stop trying)?",
+            "structureSummary": "if 条件状语从句（it 形式主语 + that 主语从句）+ 主句否定反问（it 形式主语 + 不定式真正主语）",
+            "components": [
+              {
+                "part": "If it's true that you can't please all people all of the time",
+                "role": "状语从句",
+                "note": "if 引导条件；it 是形式主语，that 从句才是真正主语"
+              },
+              {
+                "part": "wouldn't it make sense",
+                "role": "谓语",
+                "note": "否定疑问式反问，意为「难道不……吗」"
+              },
+              {
+                "part": "to stop trying",
+                "role": "补语",
+                "note": "不定式是主句真正的主语内容；stop 后接动名词 trying"
+              }
+            ],
+            "clauses": [
+              "that you can't please all people all of the time 是主语从句，作条件从句里 it 的真正主语。",
+              "状语从句「If it's true that you can't please all people all of the time」：if 引导条件；it 是形式主语，that 从句才是真正主语",
+              "It is ... that 是形式主语句型，it 无实义，真正的主语是后面的 that 从句。"
+            ],
+            "phrases": [
+              {
+                "text": "make sense",
+                "meaning": "讲得通、合理、有意义",
+                "usage": "主语常为 it 或某种做法；否定／疑问形式用来反问。",
+                "example": "It makes sense to leave early. 早点走是合理的。"
+              },
+              {
+                "text": "it's",
+                "meaning": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+                "usage": "注意区分：it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）。常见搭配：it's important that / it's likely to。",
+                "example": "It's hard to say. 很难说。"
+              },
+              {
+                "text": "true",
+                "meaning": "真实的；真正的；符合事实的",
+                "usage": "注意区分：true（真实的）/ truth（名词）/ real（真实的，指非虚构）。常见搭配：it is true that / true talent。",
+                "example": "This is true in education too. 这在教育上也成立。"
+              }
+            ],
+            "pitfalls": [
+              "否定反问 wouldn't it... 语气更强，答案倾向「当然该停」。",
+              "stop 后接动名词 trying（停止做某事），不是 to try。",
+              "all people all of the time 是「永远取悦所有人」的强调用法。",
+              "make sense 单独用不加宾语；加宾语要说 make sense of。"
+            ],
+            "paragraphRole": "以常识加反问收束第二段议论，把「别再讨好」的倾向先亮出来，下段立刻用 Unfortunately 反转。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "Unfortunately, sense often isn't driving our behavior. For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. However, where we get into trouble is when our self-worth is dependent upon whether we win someone's approval or not.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 54,
+          "text": "Unfortunately, sense often isn't driving our behavior.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 13,
+              "surface": "Unfortunately",
+              "normalized": "unfortunately",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "sense",
+              "normalized": "sense",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "often",
+              "normalized": "often",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "isn't",
+              "normalized": "isn't",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 40,
+              "surface": "driving",
+              "normalized": "driving",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 53,
+              "surface": "behavior",
+              "normalized": "behavior",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 54,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "不幸的是，理智常常并不是在驱动我们的行为。",
+            "translationNatural": "可惜，人往往并不按理性出牌。",
+            "structMarkup": "(Unfortunately), 【sense】 _often isn't driving_ ~our behavior~.",
+            "structureSummary": "评注性状语 + 主谓宾（现在进行时否定式）",
+            "components": [
+              {
+                "part": "Unfortunately",
+                "role": "状语",
+                "note": "评注性状语，修饰整句，与上段的「讲道理」形成落差"
+              },
+              {
+                "part": "sense",
+                "role": "主语",
+                "note": "抽象不可数名词，此处意为「理智、判断力」"
+              },
+              {
+                "part": "often isn't driving",
+                "role": "谓语",
+                "note": "现在进行时的否定式，isn't = is not"
+              },
+              {
+                "part": "our behavior",
+                "role": "宾语",
+                "note": "drive 的宾语"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「评注性状语 + 主谓宾（现在进行时否定式）」。"
+            ],
+            "phrases": [
+              {
+                "text": "unfortunately",
+                "meaning": "不幸地、遗憾的是、不巧（修饰全句）",
+                "usage": "注意区分：unfortunately（不幸地、遗憾的是，常置句首用逗号隔开，修饰整句）/ fortunately（幸运地，反义）/ unfortunate（不幸的）/ sadly（近义）。",
+                "example": "Unfortunately, sense often isn't driving our behavior. 可惜，人往往并不按理性出牌。"
+              },
+              {
+                "text": "sense",
+                "meaning": "感觉、意识；意义、含义；判断力；意识到、觉察到（make sense 讲得通）",
+                "usage": "注意区分：sense（感觉、感官；意义；判断力）/ make sense（讲得通、有道理）/ make sense of（弄懂…）/ in a sense（在某种意义上）/ common sense（常识，不可数）/ sensible（明智的）与 sensitive（敏感的）。",
+                "example": "Unfortunately, sense often isn't driving our behavior. 可惜，人往往并不按理性出牌。"
+              },
+              {
+                "text": "behavior",
+                "meaning": "行为、举止",
+                "usage": "常见搭配：positive behaviors / change one's behavior。",
+                "example": "His behavior surprised everyone. 他的举止让所有人意外。"
+              }
+            ],
+            "pitfalls": [
+              "sense 在此是名词「理智」，不是动词「感觉到」。",
+              "isn't driving 是现在进行时，强调「眼下的状态并非如此」。"
+            ],
+            "paragraphRole": "第三段开头一句反转：道理归道理，行为并不受理智支配，为下句解释「想被喜欢其实健康」留出空间。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 55,
+          "end": 217,
+          "text": "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "For",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "surface": "social",
+              "normalized": "social",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 17,
+              "surface": "beings",
+              "normalized": "beings",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 28,
+              "surface": "desire",
+              "normalized": "desire",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 33,
+              "surface": "love",
+              "normalized": "love",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 37,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 47,
+              "surface": "belonging",
+              "normalized": "belonging",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 48,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 49,
+              "end": 56,
+              "surface": "wanting",
+              "normalized": "wanting",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 59,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 68,
+              "surface": "liked",
+              "normalized": "liked",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 69,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 70,
+              "end": 73,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 80,
+              "surface": "caring",
+              "normalized": "caring",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 86,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 97,
+              "surface": "effect",
+              "normalized": "effect",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 100,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 105,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 108,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 115,
+              "surface": "others",
+              "normalized": "others",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 116,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 117,
+              "end": 119,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 127,
+              "surface": "healthy",
+              "normalized": "healthy",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 131,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 138,
+              "surface": "allows",
+              "normalized": "allows",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 141,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 144,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 149,
+              "surface": "make",
+              "normalized": "make",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 161,
+              "surface": "connections",
+              "normalized": "connections",
+              "isWord": true
+            },
+            {
+              "start": 161,
+              "end": 162,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "对于渴望爱与归属的社会性存在而言，想要被喜欢、以及在意我们对他人造成的影响，是健康的，并且允许我们去建立联结。",
+            "translationNatural": "人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。",
+            "structMarkup": "(For social beings who desire love and belonging), 【wanting to be liked】, 【and caring about the effect we have on others】, _is healthy_ _and allows us to make connections_.",
+            "structureSummary": "介词短语状语（含 who 定语从句）+ 并列动名词短语作主语 + 并列谓语",
+            "components": [
+              {
+                "part": "For social beings who desire love and belonging",
+                "role": "状语",
+                "note": "for 意为「对……来说」；who 引导定语从句修饰 social beings"
+              },
+              {
+                "part": "wanting to be liked",
+                "role": "主语",
+                "note": "第一个动名词短语，与后面的 caring... 并列作主语"
+              },
+              {
+                "part": "and caring about the effect we have on others",
+                "role": "主语",
+                "note": "第二个并列动名词主语；we have on others 是省略关系代词的定语从句"
+              },
+              {
+                "part": "is healthy",
+                "role": "系动词",
+                "note": "与单数主语一致；主语虽分两块，仍视为一个整体"
+              },
+              {
+                "part": "and allows us to make connections",
+                "role": "谓语",
+                "note": "第二个并列谓语；allow sb to do 结构"
+              }
+            ],
+            "clauses": [
+              "who desire love and belonging 是定语从句，修饰 social beings。",
+              "we have on others 是省略关系代词 that 的定语从句，修饰 the effect。",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "have an effect on",
+                "meaning": "对……有影响",
+                "usage": "effect 常与 on 搭配；对比 affect（动词，直接接宾语）。",
+                "example": "Sleep has a big effect on mood. 睡眠对情绪影响很大。"
+              },
+              {
+                "text": "desire",
+                "meaning": "渴望、欲望、愿望；想要、期望",
+                "usage": "注意区分：desire（渴望，名词/动词，正式）/ desire to do / desire for（对…的渴望，介词 for）/ desired（想要的，形容词）/ desirable（值得拥有的、可取的，与 desired 义不同）/ desirous of（渴望的，正式）。",
+                "example": "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+              },
+              {
+                "text": "belonging",
+                "meaning": "归属感、归属；属于、应归入（belong 的现在分词）",
+                "usage": "注意区分：belong to（属于，介词 to，无被动、无进行时）/ belongings（随身物品，只用复数名词）/ a sense of belonging（归属感）/ belong in（应归入某处）。",
+                "example": "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+              }
+            ],
+            "pitfalls": [
+              "主语是「wanting..., and caring...」整体，谓语用单数 is，别误用 are。",
+              "两个逗号把并列主语与插入成分分开，抽掉后主干仍清楚。",
+              "the effect we have on others 里关系代词被省略，介词 on 留在句末。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "先肯定「在意他人」有其健康的一面，把批判对象收窄到下句所说的「自我价值全押在认可上」。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 218,
+          "end": 335,
+          "text": "However, where we get into trouble is when our self-worth is dependent upon whether we win someone's approval or not.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "However",
+              "normalized": "however",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "where",
+              "normalized": "where",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 17,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "surface": "get",
+              "normalized": "get",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 34,
+              "surface": "trouble",
+              "normalized": "trouble",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 42,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 46,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 57,
+              "surface": "self-worth",
+              "normalized": "self-worth",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 60,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 70,
+              "surface": "dependent",
+              "normalized": "dependent",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "upon",
+              "normalized": "upon",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 83,
+              "surface": "whether",
+              "normalized": "whether",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 86,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "win",
+              "normalized": "win",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 100,
+              "surface": "someone's",
+              "normalized": "someone's",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 109,
+              "surface": "approval",
+              "normalized": "approval",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 112,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 116,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 117,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "然而，我们陷入麻烦的地方，是当我们的自我价值依赖于我们是否赢得某人的认可的时候。",
+            "translationNatural": "可问题出在：一旦把自我价值全系在别人认不认可上，就麻烦了。",
+            "structMarkup": "(However), {where we get into trouble} _is_ {when our self-worth is dependent upon whether we win someone's approval or not}.",
+            "structureSummary": "主语从句（where 引导）+ 主系表 + 表语从句（when 引导，内含 whether 宾语从句）",
+            "components": [
+              {
+                "part": "However",
+                "role": "插入语",
+                "note": "与上句的「健康」转折"
+              },
+              {
+                "part": "where we get into trouble",
+                "role": "主语从句",
+                "note": "where 引导主语从句，意为「……的地方／环节」"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接表语从句"
+              },
+              {
+                "part": "when our self-worth is dependent upon whether we win someone's approval or not",
+                "role": "表语从句",
+                "note": "when 引导表语从句；内含 whether 引导的宾语从句"
+              }
+            ],
+            "clauses": [
+              "where we get into trouble 是主语从句，作全句主语。",
+              "when... 是表语从句，作 is 的表语。",
+              "whether we win someone's approval or not 是宾语从句，作介词 upon 的宾语；whether 表「是否」。"
+            ],
+            "phrases": [
+              {
+                "text": "get into trouble",
+                "meaning": "陷入麻烦、出问题",
+                "usage": "固定搭配；也可说 be in trouble（处于麻烦中）。",
+                "example": "He got into trouble for lying. 他因为撒谎惹了麻烦。"
+              },
+              {
+                "text": "however",
+                "meaning": "然而（副词，须用分号或句号连接）；无论怎样",
+                "usage": "注意区分：however（副词，不能像 but 那样直接连两个分句）/ but（连词）。常见搭配：however, ... / however much。",
+                "example": "However, the study also shows a gap. 然而，研究也显示出一道差距。"
+              },
+              {
+                "text": "self-worth",
+                "meaning": "自我价值感、自尊（对自身价值的认可）",
+                "usage": "注意区分：self-worth（自我价值感，不可数，= self-esteem）/ worth（价值，不可数；be worth doing 值得做）/ self-confidence（自信，侧重能力）/ worthy（值得的，形容词）。",
+                "example": "However, where we get into trouble is when our self-worth is dependent upon whether we win someone's approval or not. 可问题出在：一旦把自我价值全系在别人认不认可上，就麻烦了。"
+              }
+            ],
+            "pitfalls": [
+              "where / when 在此引导名词性从句（主语从句、表语从句），不是状语从句。",
+              "be dependent upon 中 upon 可换 on，但照抄保留 upon。",
+              "介词后的「是否」从句用 whether，不用 if。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "划出全文真正的病灶：不是「在意别人」，而是「自我价值取决于认可」，把论述推进到成因分析。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. We learn about who we are and what is expected of us based on interactions with others, so, to a four-year-old, if Mommy or Daddy doesn't like him or her, there is the danger that they will abandon them. We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 242,
+          "text": "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "need",
+              "normalized": "need",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 12,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 21,
+              "surface": "liked",
+              "normalized": "liked",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 28,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 35,
+              "surface": "traced",
+              "normalized": "traced",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "back",
+              "normalized": "back",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 43,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 51,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 56,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 65,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 69,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 74,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 85,
+              "surface": "completely",
+              "normalized": "completely",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 95,
+              "surface": "dependent",
+              "normalized": "dependent",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 105,
+              "surface": "others",
+              "normalized": "others",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 108,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 113,
+              "surface": "take",
+              "normalized": "take",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 118,
+              "surface": "care",
+              "normalized": "care",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 121,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 124,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 125,
+              "surface": ":",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 126,
+              "end": 131,
+              "surface": "Small",
+              "normalized": "small",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 140,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 144,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 148,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 153,
+              "surface": "just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 162,
+              "surface": "learning",
+              "normalized": "learning",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 166,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 169,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 174,
+              "surface": "walk",
+              "normalized": "walk",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 178,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 179,
+              "end": 190,
+              "surface": "communicate",
+              "normalized": "communicate",
+              "isWord": true
+            },
+            {
+              "start": 190,
+              "end": 191,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 192,
+              "end": 196,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 197,
+              "end": 200,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 201,
+              "end": 205,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 206,
+              "end": 212,
+              "surface": "trying",
+              "normalized": "trying",
+              "isWord": true
+            },
+            {
+              "start": 213,
+              "end": 215,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 216,
+              "end": 221,
+              "surface": "learn",
+              "normalized": "learn",
+              "isWord": true
+            },
+            {
+              "start": 222,
+              "end": 225,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 226,
+              "end": 229,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 230,
+              "end": 235,
+              "surface": "world",
+              "normalized": "world",
+              "isWord": true
+            },
+            {
+              "start": 236,
+              "end": 241,
+              "surface": "works",
+              "normalized": "works",
+              "isWord": true
+            },
+            {
+              "start": 241,
+              "end": 242,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这种想被喜欢的需要，可以被追溯到当我们是孩子、并且完全依赖他人来照顾我们的时候：小孩子不只是在学习如何走路与交流，他们也在试图学习世界如何运转。",
+            "translationNatural": "这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。",
+            "structMarkup": "【This need to be liked】 _can be traced back_ (to when we were children and were completely dependent on others to take care of us): 【Small children】 _are not just learning how to walk and communicate_, _they are also trying to learn how the world works_.",
+            "structureSummary": "主谓（被动语态）+ 介词宾语从句（when 引导）+ 冒号后解释分句（not just...but also 并列）",
+            "components": [
+              {
+                "part": "This need to be liked",
+                "role": "主语",
+                "note": "核心词 need；不定式作后置定语"
+              },
+              {
+                "part": "can be traced back",
+                "role": "谓语",
+                "note": "情态动词 + 被动语态；trace back to 意为「追溯到」"
+              },
+              {
+                "part": "to when we were children and were completely dependent on others to take care of us",
+                "role": "状语",
+                "note": "to 后接 when 引导的宾语从句；be dependent on 为固定搭配"
+              },
+              {
+                "part": "Small children",
+                "role": "主语",
+                "note": "冒号后解释分句的主语，与主句主语不同"
+              },
+              {
+                "part": "are not just learning how to walk and communicate",
+                "role": "谓语",
+                "note": "现在进行时；not just 与后文 also 呼应"
+              },
+              {
+                "part": "they are also trying to learn how the world works",
+                "role": "谓语",
+                "note": "逗号连接的并列分句；how 引导宾语从句"
+              }
+            ],
+            "clauses": [
+              "when we were children and were completely dependent... 是宾语从句，作介词 to 的宾语。",
+              "how to walk and communicate 是「疑问词 + 不定式」结构，作 learning 的宾语。",
+              "how the world works 是宾语从句，作 learn 的宾语，用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "trace back to",
+                "meaning": "追溯到",
+                "usage": "常用被动 be traced back to；to 是介词，后接名词或从句。",
+                "example": "The custom can be traced back to the 18th century. 这习俗可追溯到 18 世纪。"
+              },
+              {
+                "text": "need",
+                "meaning": "需要（情态/实义动词）；需要、需求（名词）",
+                "usage": "注意区分：need to do（实义动词）/ need do（情态动词，多用于否定疑问）。常见搭配：need to do / in need of。",
+                "example": "Parents need to set boundaries. 家长需要划定界限。"
+              },
+              {
+                "text": "liked",
+                "meaning": "像（介词）；喜欢（动词）；口语连词「像……那样」（like 的过去式/过去分词形式）",
+                "usage": "注意区分：liked（过去式/过去分词）/ like（原形）。",
+                "example": "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. 这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。"
+              }
+            ],
+            "pitfalls": [
+              "can be traced 是被动语态，不要漏掉 be。",
+              "be dependent on 中的 on 不能换成 of。",
+              "冒号后是解释分句，其主语是 Small children，不是 This need。",
+              "how the world works 用陈述语序，不说 how does the world work。"
+            ],
+            "paragraphRole": "第四段把成因追到童年依附，并用冒号展开「小孩同时在学两件事」，为下句「怕被抛弃」埋下依据，对应第 48 题。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 243,
+          "end": 446,
+          "text": "We learn about who we are and what is expected of us based on interactions with others, so, to a four-year-old, if Mommy or Daddy doesn't like him or her, there is the danger that they will abandon them.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "We",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "learn",
+              "normalized": "learn",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 46,
+              "surface": "expected",
+              "normalized": "expected",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 58,
+              "surface": "based",
+              "normalized": "based",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 61,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 74,
+              "surface": "interactions",
+              "normalized": "interactions",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 79,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 86,
+              "surface": "others",
+              "normalized": "others",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 87,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "so",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 91,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 92,
+              "end": 94,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 96,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 110,
+              "surface": "four-year-old",
+              "normalized": "four-year-old",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 111,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 112,
+              "end": 114,
+              "surface": "if",
+              "normalized": "if",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 120,
+              "surface": "Mommy",
+              "normalized": "mommy",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 123,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 129,
+              "surface": "Daddy",
+              "normalized": "daddy",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 137,
+              "surface": "doesn't",
+              "normalized": "doesn't",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 142,
+              "surface": "like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 146,
+              "surface": "him",
+              "normalized": "him",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 149,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 153,
+              "surface": "her",
+              "normalized": "her",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 154,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 155,
+              "end": 160,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 161,
+              "end": 163,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 167,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 174,
+              "surface": "danger",
+              "normalized": "danger",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 179,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 180,
+              "end": 184,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 185,
+              "end": 189,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 190,
+              "end": 197,
+              "surface": "abandon",
+              "normalized": "abandon",
+              "isWord": true
+            },
+            {
+              "start": 198,
+              "end": 202,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 202,
+              "end": 203,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们基于与他人的互动，得知我们是谁以及什么被期待于我们，所以，对一个四岁小孩来说，如果妈妈或爸爸不喜欢他或她，就存在一种危险：他们会抛弃他们。",
+            "translationNatural": "小孩是靠跟人相处来认识自己、弄懂规矩的；所以在四岁孩子眼里，爸妈一旦不喜欢自己，就等于要被丢下了。",
+            "structMarkup": "【We】 _learn about_ ~who we are and what is expected of us~ (based on interactions with others), so, (to a four-year-old), {if Mommy or Daddy doesn't like him or her}, _there is the danger_ {that they will abandon them}.",
+            "structureSummary": "主谓 + 并列宾语从句 + so 连接的结果分句（内含 if 条件状语从句、there be 句型与同位语从句）",
+            "components": [
+              {
+                "part": "We",
+                "role": "主语",
+                "note": "泛指人，与全文第一人称叙述一致"
+              },
+              {
+                "part": "learn about",
+                "role": "谓语",
+                "note": "意为「了解到、得知」"
+              },
+              {
+                "part": "who we are and what is expected of us",
+                "role": "宾语",
+                "note": "两个并列的宾语从句，作介词 about 的宾语"
+              },
+              {
+                "part": "based on interactions with others",
+                "role": "状语",
+                "note": "过去分词短语作状语，说明认识的来源"
+              },
+              {
+                "part": "to a four-year-old",
+                "role": "状语",
+                "note": "插入语，意为「对一个四岁孩子而言」，限定下面判断的视角"
+              },
+              {
+                "part": "if Mommy or Daddy doesn't like him or her",
+                "role": "状语从句",
+                "note": "if 引导条件；or 连接的主语按单数处理，用 doesn't"
+              },
+              {
+                "part": "there is the danger",
+                "role": "谓语",
+                "note": "there be 句型，引出「存在某种危险」"
+              },
+              {
+                "part": "that they will abandon them",
+                "role": "同位语从句",
+                "note": "that 引导同位语从句，说明 the danger 的具体内容"
+              }
+            ],
+            "clauses": [
+              "who we are 与 what is expected of us 是两个并列的宾语从句，作介词 about 的宾语。",
+              "if 引导条件状语从句，说明「被抛弃的恐惧」何时被触发。",
+              "that they will abandon them 是同位语从句，说明 the danger 的内容；that 不作成分。"
+            ],
+            "phrases": [
+              {
+                "text": "base on",
+                "meaning": "以……为根据、基于",
+                "usage": "常用被动 be based on；based on... 作状语时逻辑主语须与句子主语一致。",
+                "example": "The film is based on a true story. 这部电影改编自真实故事。"
+              },
+              {
+                "text": "learn",
+                "meaning": "学习、学会",
+                "usage": "常见搭配：learn to do / learn from。",
+                "example": "We learn from mistakes. 我们从错误中学习。"
+              },
+              {
+                "text": "expected",
+                "meaning": "预期的、预料的；期待、要求（expect 的过去式/过去分词）",
+                "usage": "注意区分：be expected to do（被期望做；预计会做）/ expect sb to do（不说 expect sb doing）/ expect 与 look forward to（后者 to 是介词，接名词/doing）/ unexpected（un- 否定）。",
+                "example": "We learn about who we are and what is expected of us based on interactions with others, so, to a four-year-old, if Mommy or Daddy doesn't like him or her, there is the danger that they will abandon them. 小孩是靠跟人相处来认识自己、弄懂规矩的；所以在四岁孩子眼里，爸妈一旦不喜欢自己，就等于要被丢下了。"
+              }
+            ],
+            "pitfalls": [
+              "who / what 从句用陈述语序：who we are、what is expected of us。",
+              "what is expected of us 中 expect 用被动，of 引出期待的发出者。",
+              "Mommy or Daddy 由 or 连接，谓语用单数 doesn't。",
+              "to a four-year-old 是插入语，前后逗号隔开，抽掉后条件—结果关系仍完整。"
+            ],
+            "paragraphRole": "用四岁孩子的视角把「怕被抛弃」讲具体，是第 48 题「幼年被遗弃的恐惧」的直接依据。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 447,
+          "end": 612,
+          "text": "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "We",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 7,
+              "surface": "need",
+              "normalized": "need",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 21,
+              "surface": "understand",
+              "normalized": "understand",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 46,
+              "surface": "desperately",
+              "normalized": "desperately",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 51,
+              "surface": "want",
+              "normalized": "want",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 59,
+              "surface": "someone",
+              "normalized": "someone",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 70,
+              "surface": "approve",
+              "normalized": "approve",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 77,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "it's",
+              "normalized": "it's",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 88,
+              "surface": "being",
+              "normalized": "being",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 95,
+              "surface": "driven",
+              "normalized": "driven",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 103,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 110,
+              "surface": "little",
+              "normalized": "little",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 114,
+              "surface": "kid",
+              "normalized": "kid",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 119,
+              "surface": "part",
+              "normalized": "part",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 122,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 125,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 130,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 133,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 139,
+              "surface": "still",
+              "normalized": "still",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 149,
+              "surface": "terrified",
+              "normalized": "terrified",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 152,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 164,
+              "surface": "abandonment",
+              "normalized": "abandonment",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 165,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们需要理解：当我们拼命想要某个人认可我们时，它正被我们心里那个仍旧害怕被抛弃的小孩部分所驱动。",
+            "translationNatural": "得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。",
+            "structMarkup": "【We】 _need to understand_ {that when we desperately want someone to approve of us}, _it's being driven_ (by that little kid part of us) {that is still terrified of abandonment}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，内含 when 状语从句、现在进行时被动与定语从句）",
+            "components": [
+              {
+                "part": "We",
+                "role": "主语",
+                "note": "作者与读者"
+              },
+              {
+                "part": "need to understand",
+                "role": "谓语",
+                "note": "need to do 表示「需要做某事」"
+              },
+              {
+                "part": "that when we desperately want someone to approve of us",
+                "role": "宾语从句",
+                "note": "that 引导宾语从句；when 从句在宾语从句内作时间状语"
+              },
+              {
+                "part": "it's being driven",
+                "role": "谓语",
+                "note": "现在进行时的被动语态（is being + 过去分词）"
+              },
+              {
+                "part": "by that little kid part of us",
+                "role": "状语",
+                "note": "by 引出施动者；比喻说法「心里那个小孩的部分」"
+              },
+              {
+                "part": "that is still terrified of abandonment",
+                "role": "定语从句",
+                "note": "that 引导定语从句，修饰 that little kid part of us"
+              }
+            ],
+            "clauses": [
+              "that 引导宾语从句，作 understand 的宾语。",
+              "when 在宾语从句内引导时间状语从句。",
+              "that is still terrified of abandonment 是定语从句，修饰 that little kid part of us。"
+            ],
+            "phrases": [
+              {
+                "text": "approve of",
+                "meaning": "赞成、认可",
+                "usage": "of 是介词，后接名词或动名词；名词 approval 常与 win / gain 搭配。",
+                "example": "Her parents approve of the match. 她父母认可这门亲事。"
+              },
+              {
+                "text": "need",
+                "meaning": "需要（情态/实义动词）；需要、需求（名词）",
+                "usage": "注意区分：need to do（实义动词）/ need do（情态动词，多用于否定疑问）。常见搭配：need to do / in need of。",
+                "example": "Parents need to set boundaries. 家长需要划定界限。"
+              },
+              {
+                "text": "understand",
+                "meaning": "理解、明白；得知、获悉；体谅",
+                "usage": "注意区分：understand（理解、明白，及物，通常不用进行时）/ understand doing / understand that / make oneself understood（把意思说明白）/ comprehend（更正式）/ understanding（理解；谅解，名词）。",
+                "example": "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+              }
+            ],
+            "pitfalls": [
+              "it's being driven 是现在进行时被动（is being + 过去分词），不是「正在开车」的主动。",
+              "两个 that 功能不同：第一个引导宾语从句，第二个引导定语从句。",
+              "be terrified of 中 of 是介词，后接名词 abandonment。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "段末把童年恐惧与成年的讨好行为接上因果，完成第 48 题的论证闭环。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. Imagine how much time we lose each moment we restrain our authentic selves in an effort to be liked.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 201,
+          "text": "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "As",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "surface": "become",
+              "normalized": "become",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 26,
+              "surface": "capable",
+              "normalized": "capable",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 29,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 39,
+              "surface": "providing",
+              "normalized": "providing",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 48,
+              "surface": "yourself",
+              "normalized": "yourself",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 53,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 66,
+              "surface": "approval",
+              "normalized": "approval",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "seek",
+              "normalized": "seek",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 76,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 77,
+              "end": 81,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 86,
+              "surface": "need",
+              "normalized": "need",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 99,
+              "surface": "external",
+              "normalized": "external",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 110,
+              "surface": "validation",
+              "normalized": "validation",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 115,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 121,
+              "surface": "start",
+              "normalized": "start",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 124,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 131,
+              "surface": "vanish",
+              "normalized": "vanish",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 132,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 133,
+              "end": 140,
+              "surface": "leaving",
+              "normalized": "leaving",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 144,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 153,
+              "surface": "stronger",
+              "normalized": "stronger",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 154,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 155,
+              "end": 159,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 169,
+              "surface": "confident",
+              "normalized": "confident",
+              "isWord": true
+            },
+            {
+              "start": 169,
+              "end": 170,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 171,
+              "end": 174,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 178,
+              "surface": "yes",
+              "normalized": "yes",
+              "isWord": true
+            },
+            {
+              "start": 178,
+              "end": 179,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 180,
+              "end": 187,
+              "surface": "happier",
+              "normalized": "happier",
+              "isWord": true
+            },
+            {
+              "start": 188,
+              "end": 190,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 191,
+              "end": 195,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 196,
+              "end": 200,
+              "surface": "life",
+              "normalized": "life",
+              "isWord": true
+            },
+            {
+              "start": 200,
+              "end": 201,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "随着你变得更有能力为你自己提供你所寻求的认可，你对外部确认的需要将开始消失，留给你更强、更自信，以及是的，在你的生活中更快乐。",
+            "translationNatural": "等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。",
+            "structMarkup": "{As you become more capable of providing yourself with the approval you seek}, 【your need for external validation】 _will start to vanish_, (leaving you stronger, more confident, and yes, happier in your life).",
+            "structureSummary": "As 时间状语从句 + 主谓（will + 不定式）+ 现在分词短语作结果状语",
+            "components": [
+              {
+                "part": "As you become more capable of providing yourself with the approval you seek",
+                "role": "状语从句",
+                "note": "As 引导时间状语从句，意为「随着」；you seek 是省略关系代词的定语从句"
+              },
+              {
+                "part": "your need for external validation",
+                "role": "主语",
+                "note": "核心词是单数 need，谓语用 will start"
+              },
+              {
+                "part": "will start to vanish",
+                "role": "谓语",
+                "note": "start 后接不定式；vanish 意为「消失」"
+              },
+              {
+                "part": "leaving you stronger, more confident, and yes, happier in your life",
+                "role": "状语",
+                "note": "现在分词短语作结果状语；leave + 宾语 + 形容词宾补"
+              }
+            ],
+            "clauses": [
+              "As 引导时间状语从句，表示伴随变化。",
+              "you seek 是省略关系代词 that 的定语从句，修饰 the approval。",
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。"
+            ],
+            "phrases": [
+              {
+                "text": "provide sb with sth",
+                "meaning": "给某人提供某物",
+                "usage": "也可说 provide sth for sb；with 后接所提供的东西。",
+                "example": "The school provides students with laptops. 学校给学生配笔记本电脑。"
+              },
+              {
+                "text": "become",
+                "meaning": "变得（系动词）；成为",
+                "usage": "注意区分：become（变得/成为）/ get（变得，口语）/ turn（变成，强调转变结果）。常见搭配：become clear / become a parent。",
+                "example": "It has become a public health problem. 它已成为公共卫生问题。"
+              },
+              {
+                "text": "capable",
+                "meaning": "有能力的、能干的（be capable of 能够）",
+                "usage": "注意区分：be capable of（有能力做，of 后接名词/doing，不接 to do）/ be able to do（接不定式）/ capable 可指「干得出（坏事）」/ capability（名词）/ capacity（容量）。",
+                "example": "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+              }
+            ],
+            "pitfalls": [
+              "As 在此表「随着」，不是「因为」或某一个时间点。",
+              "leave + 宾语 + 形容词（stronger / more confident / happier）是宾补结构。",
+              "yes 是插入语，用来强调后面的 happier，前后逗号隔开。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "第五段转向解法：自我认可取代外部确认，直接对应第 49 题「过上更快乐的生活」。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 202,
+          "end": 302,
+          "text": "Imagine how much time we lose each moment we restrain our authentic selves in an effort to be liked.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "Imagine",
+              "normalized": "imagine",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "lose",
+              "normalized": "lose",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "each",
+              "normalized": "each",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 41,
+              "surface": "moment",
+              "normalized": "moment",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 44,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 53,
+              "surface": "restrain",
+              "normalized": "restrain",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 67,
+              "surface": "authentic",
+              "normalized": "authentic",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 74,
+              "surface": "selves",
+              "normalized": "selves",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 77,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 87,
+              "surface": "effort",
+              "normalized": "effort",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 99,
+              "surface": "liked",
+              "normalized": "liked",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 100,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "想象一下，我们失去多少时间，在每一个我们为了被喜欢而压抑真实自我的时刻。",
+            "translationNatural": "想想看，为了讨人喜欢而憋着不做自己，每个瞬间都在白白耗掉多少光阴。",
+            "structMarkup": "_Imagine_ {how much time we lose} (each moment we restrain our authentic selves) (in an effort to be liked).",
+            "structureSummary": "祈使句（主谓 + 宾语从句）+ each moment 引导的时间从句 + 不定式目的状语",
+            "components": [
+              {
+                "part": "Imagine",
+                "role": "谓语",
+                "note": "祈使句，动词原形开头，主语 you 省略"
+              },
+              {
+                "part": "how much time we lose",
+                "role": "宾语从句",
+                "note": "how much 引导宾语从句，作 Imagine 的宾语，用陈述语序"
+              },
+              {
+                "part": "each moment we restrain our authentic selves",
+                "role": "状语",
+                "note": "each moment 起连词作用，后接省略关系词的时间从句"
+              },
+              {
+                "part": "in an effort to be liked",
+                "role": "状语",
+                "note": "in an effort to do 意为「为了、力图」；to be liked 是被动不定式"
+              }
+            ],
+            "clauses": [
+              "how much time we lose 是宾语从句，作 Imagine 的宾语。",
+              "each moment (that) we restrain... 是时间从句，each moment 相当于 every time。",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "in an effort to do",
+                "meaning": "为了、力图做某事",
+                "usage": "相当于 in order to / trying to；to 后接动词原形。",
+                "example": "He spoke slowly in an effort to be clear. 他放慢语速，好让人听懂。"
+              },
+              {
+                "text": "imagine",
+                "meaning": "想象、设想；料想、认为；臆想",
+                "usage": "注意区分：imagine doing（想象做，接动名词，不接 to do）/ imaginary（虚构的，指不存在）/ imaginative（有想象力的，指人）/ imaginable（可想象到的，常与最高级连用）/ imagine (sb) doing。",
+                "example": "Imagine how much time we lose each moment we restrain our authentic selves in an effort to be liked. 想想看，为了讨人喜欢而憋着不做自己，每个瞬间都在白白耗掉多少光阴。"
+              },
+              {
+                "text": "time",
+                "meaning": "时间；次数；时机 / 计时",
+                "usage": "注意区分：times（时代）/ time（时间，不可数）。常见搭配：at the same time / take time off。",
+                "example": "It takes time to change habits. 改变习惯需要时间。"
+              }
+            ],
+            "pitfalls": [
+              "how much time we lose 用陈述语序，不说 how much time do we lose。",
+              "to be liked 是被动式不定式「被喜欢」，不是主动「去喜欢」。",
+              "each moment 在此相当于 every time (that)，引导时间从句。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "用一句祈使把「讨好的代价」量化成时间，强化上句「该松手」的劝导。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference. So embrace the cliché(老话) and love yourself as it's highly doubtful that you'll regret it.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 209,
+          "text": "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "If",
+              "normalized": "if",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 5,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "surface": "base",
+              "normalized": "base",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "worth",
+              "normalized": "worth",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 36,
+              "surface": "opinions",
+              "normalized": "opinions",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 39,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 46,
+              "surface": "others",
+              "normalized": "others",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 48,
+              "end": 50,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 56,
+              "surface": "cheat",
+              "normalized": "cheat",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 66,
+              "surface": "ourselves",
+              "normalized": "ourselves",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 69,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 73,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 79,
+              "surface": "power",
+              "normalized": "power",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 82,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 88,
+              "surface": "shape",
+              "normalized": "shape",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 92,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 104,
+              "surface": "experiences",
+              "normalized": "experiences",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 108,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 116,
+              "surface": "embrace",
+              "normalized": "embrace",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 121,
+              "surface": "life",
+              "normalized": "life",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 125,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 130,
+              "surface": "only",
+              "normalized": "only",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 134,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 141,
+              "surface": "others",
+              "normalized": "others",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 145,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 150,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 154,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 164,
+              "surface": "ourselves",
+              "normalized": "ourselves",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 165,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 166,
+              "end": 173,
+              "surface": "because",
+              "normalized": "because",
+              "isWord": true
+            },
+            {
+              "start": 174,
+              "end": 184,
+              "surface": "ultimately",
+              "normalized": "ultimately",
+              "isWord": true
+            },
+            {
+              "start": 184,
+              "end": 185,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 186,
+              "end": 191,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 192,
+              "end": 194,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 195,
+              "end": 197,
+              "surface": "no",
+              "normalized": "no",
+              "isWord": true
+            },
+            {
+              "start": 198,
+              "end": 208,
+              "surface": "difference",
+              "normalized": "difference",
+              "isWord": true
+            },
+            {
+              "start": 208,
+              "end": 209,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "如果我们把我们的价值建立在别人的意见之上，我们就骗走了自己那塑造我们的经历、并且不只为他者也为我们自己拥抱生活的力量，因为归根结底，并不存在差别。",
+            "translationNatural": "把自我价值交给别人的嘴，等于剥夺了自己塑造人生、既为别人也为自己好好活的能力——说到底，两者本没有分别。",
+            "structMarkup": "{If we base our worth on the opinions of others}, 【we】 _cheat ourselves of_ ~the power to shape our experiences and embrace life not only for others but also for ourselves~, {because ultimately, there is no difference}.",
+            "structureSummary": "if 条件状语从句 + 主谓宾（cheat sb of sth）+ because 原因状语从句",
+            "components": [
+              {
+                "part": "If we base our worth on the opinions of others",
+                "role": "状语从句",
+                "note": "if 引导条件；base A on B 为固定搭配"
+              },
+              {
+                "part": "we",
+                "role": "主语",
+                "note": "主句主语"
+              },
+              {
+                "part": "cheat ourselves of",
+                "role": "谓语",
+                "note": "cheat sb of sth 意为「骗走／剥夺某人某物」"
+              },
+              {
+                "part": "the power to shape our experiences and embrace life not only for others but also for ourselves",
+                "role": "宾语",
+                "note": "核心词 power，后接不定式作后置定语；not only...but also... 并列"
+              },
+              {
+                "part": "because ultimately, there is no difference",
+                "role": "状语从句",
+                "note": "because 引导原因状语从句；ultimately 是插入副词"
+              }
+            ],
+            "clauses": [
+              "if 引导条件状语从句。",
+              "because 引导原因状语从句，解释「为何说不上差别」。",
+              "状语从句「If we base our worth on the opinions of others」：if 引导条件；base A on B 为固定搭配"
+            ],
+            "phrases": [
+              {
+                "text": "base A on B",
+                "meaning": "把 A 建立在 B 之上",
+                "usage": "常用被动 be based on；on 是介词，后接名词。",
+                "example": "Don't base your decision on rumors. 别把决定建立在传言上。"
+              },
+              {
+                "text": "not only",
+                "meaning": "不仅",
+                "usage": "常与 but also 呼应；not only 置于句首时主句要部分倒装。",
+                "example": "Not only did he agree, he also helped. 他不但同意，还帮了忙。"
+              }
+            ],
+            "pitfalls": [
+              "cheat ourselves of the power 中 of 引出被剥夺的东西，不能换成 from。",
+              "not only ... but also ... 连接两个并列介词短语，结构须一致。",
+              "because 从句里 there is no difference 是 there be 句型，difference 不可数故用 is。",
+              "not only 置于句首时，所在分句要部分倒装。"
+            ],
+            "paragraphRole": "末段先立反面代价：以外界评价为根基等于自削自主权，为下句「爱自己」的正面倡议铺垫。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 210,
+          "end": 300,
+          "text": "So embrace the cliché(老话) and love yourself as it's highly doubtful that you'll regret it.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "So",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 10,
+              "surface": "embrace",
+              "normalized": "embrace",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "clich",
+              "normalized": "clich",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 21,
+              "surface": "é",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "(老话)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "love",
+              "normalized": "love",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 43,
+              "surface": "yourself",
+              "normalized": "yourself",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 46,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 51,
+              "surface": "it's",
+              "normalized": "it's",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 58,
+              "surface": "highly",
+              "normalized": "highly",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 67,
+              "surface": "doubtful",
+              "normalized": "doubtful",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 72,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 79,
+              "surface": "you'll",
+              "normalized": "you'll",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 86,
+              "surface": "regret",
+              "normalized": "regret",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 90,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "所以拥抱那句老话(老话)并且爱你自己吧，因为这是高度可疑的：你将会后悔它。",
+            "translationNatural": "所以，就把那句老话照做吧——爱自己；反正你几乎不可能后悔。",
+            "structMarkup": "(So) _embrace the cliché(老话)_ _and love yourself_ {as it's highly doubtful that you'll regret it}.",
+            "structureSummary": "So 连接语 + 并列祈使句 + as 引导的原因状语从句（it 形式主语 + that 主语从句）",
+            "components": [
+              {
+                "part": "So",
+                "role": "插入语",
+                "note": "承接上句，引出结论性建议"
+              },
+              {
+                "part": "embrace the cliché(老话)",
+                "role": "谓语",
+                "note": "祈使句动词原形开头；中文括注照抄"
+              },
+              {
+                "part": "and love yourself",
+                "role": "谓语",
+                "note": "and 连接第二个并列祈使句"
+              },
+              {
+                "part": "as it's highly doubtful that you'll regret it",
+                "role": "状语从句",
+                "note": "as 引导原因状语从句；it 是形式主语，that 从句是真正主语"
+              }
+            ],
+            "clauses": [
+              "as 引导原因状语从句，说明「照做」的理由。",
+              "that you'll regret it 是主语从句，作形式主语 it 的真正内容。"
+            ],
+            "phrases": [
+              {
+                "text": "it is doubtful that ...",
+                "meaning": "……是很值得怀疑的（多半不会）",
+                "usage": "it 作形式主语，that 从句后置；highly 加强 doubtful。",
+                "example": "It is doubtful that he will come. 他多半不会来。"
+              },
+              {
+                "text": "embrace",
+                "meaning": "欣然接受、信奉（观点/变化）；拥抱、包含",
+                "usage": "注意区分：embrace（拥抱；欣然接受想法/变化；包含，及物）/ embrace 与 hug（hug 只指拥抱动作）/ embrace an idea/opportunity / embrace 与 include（只指包括）。",
+                "example": "So embrace the cliché(老话) and love yourself as it's highly doubtful that you'll regret it. 所以，就把那句老话照做吧——爱自己；反正你几乎不可能后悔。"
+              },
+              {
+                "text": "it's",
+                "meaning": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+                "usage": "注意区分：it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）。常见搭配：it's important that / it's likely to。",
+                "example": "It's hard to say. 很难说。"
+              }
+            ],
+            "pitfalls": [
+              "as 在此表原因「因为」，不是「当……时」或「像」。",
+              "highly doubtful that... 意为「极不可能」，委婉地表达「不会后悔」。",
+              "两个祈使句由 and 连接，主语 you 均省略。"
+            ],
+            "paragraphRole": "收束全文并正面作答第 50 题：接纳那句老话、爱自己，别再拿别人的眼光当尺子。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 46,
+      "stem": "What can we conclude from Lao Zi's quotation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "We should see through other people's attempt to make a prisoner of us."
+        },
+        {
+          "key": "B",
+          "text": "We can never really please other people even if we try as hard as we can."
+        },
+        {
+          "key": "C",
+          "text": "We can never be truly free if taking to heart others' opinion of us."
+        },
+        {
+          "key": "D",
+          "text": "We should care about other people's view as much as they care about our own."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 47,
+      "stem": "What will happen if we base our self-worth on other people's approval?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Our desire to be loved will be fulfilled."
+        },
+        {
+          "key": "B",
+          "text": "Our life will be unfruitful and exhausting."
+        },
+        {
+          "key": "C",
+          "text": "Our identity as social beings will be affected."
+        },
+        {
+          "key": "D",
+          "text": "Our sense of self will be sharpened and enhanced."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 48,
+      "stem": "What may account for our need to be liked or approved of?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Our desperate longing for interactions with others."
+        },
+        {
+          "key": "B",
+          "text": "Our understanding of the workings of the world."
+        },
+        {
+          "key": "C",
+          "text": "Our knowledge about the pain of abandonment."
+        },
+        {
+          "key": "D",
+          "text": "Our early childhood fear of being deserted."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 49,
+      "stem": "What can we do when we become better able to provide ourselves with the desired approval?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enjoy a happier life."
+        },
+        {
+          "key": "B",
+          "text": "Exercise self-restraint."
+        },
+        {
+          "key": "C",
+          "text": "Receive more external validation."
+        },
+        {
+          "key": "D",
+          "text": "Strengthen our power of imagination."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 50,
+      "stem": "What does the author advise us to do in the last paragraph?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Embrace life for ourselves and for others."
+        },
+        {
+          "key": "B",
+          "text": "Base our worth on others' opinions."
+        },
+        {
+          "key": "C",
+          "text": "See our experiences as assets."
+        },
+        {
+          "key": "D",
+          "text": "Love ourselves as we are."
+        }
+      ],
+      "answer": "D"
+    }
+  ],
+  "lexicon": {
+    "abandon": {
+      "phonetic": "/əˈbændən/",
+      "pos": "v.",
+      "sense": "放弃、抛弃、遗弃；中止",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "We learn about who we are and what is expected of us based on interactions with others, so, to a four-year-old, if Mommy or Daddy doesn't like him or her, there is the danger that they will abandon them. 小孩是靠跟人相处来认识自己、弄懂规矩的；所以在四岁孩子眼里，爸妈一旦不喜欢自己，就等于要被丢下了。"
+      ],
+      "more": {
+        "confusables": "abandon / abandonment（同族不同词形，注意词性与用法）"
+      }
+    },
+    "abandonment": {
+      "phonetic": "/əˈbændənmənt/",
+      "pos": "n.",
+      "sense": "放弃、抛弃、遗弃（本文指放下对他人评价的执着）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "abandon（放弃）+ -ment（名词后缀）",
+        "confusables": "abandonment（放弃、抛弃，不可数）/ abandon（动词；abandon oneself to 沉溺于）/ abandonment 与 desertion（desertion 多指「擅自离岗、遗弃家属」）"
+      },
+      "collocations": [
+        "terrified of abandonment"
+      ],
+      "examples": [
+        "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+      ]
+    },
+    "allow": {
+      "phonetic": "/əˈlaʊ/",
+      "pos": "v.",
+      "sense": "允许、准许；使能够、让…得以；留出（时间/钱）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "allow sb to do（允许某人做，接不定式）/ allow doing（允许做某事，无宾语时）/ allow for（考虑到、把…算进去）/ allow 与 permit（permit 更正式，也接 sb to do）/ allow 与 let（let sb do，不带 to）"
+      },
+      "collocations": [],
+      "examples": [
+        "Why do we allow what others think of us to have so much power over how we feel about ourselves? 干嘛要让别人的看法，牢牢攥住我们对自己的感觉？"
+      ]
+    },
+    "allows": {
+      "phonetic": "/əˈlaʊz/",
+      "pos": "v.",
+      "sense": "allow 的第三人称单数，使能够、允许",
+      "collocations": [
+        "allow sb to do"
+      ],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "allows / allow（同族不同词形，注意词性与用法）"
+      }
+    },
+    "always": {
+      "phonetic": "/ˈɔːlweɪz/",
+      "pos": "adv.",
+      "sense": "总是、一直、永远；始终（本文指「总是成为他人的囚徒」）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Lao Zi once said, \"Care about what other people think and you will always be their prisoner.\" 老子有言：老把别人的看法当回事，这辈子就别想自由。"
+      ]
+    },
+    "approval": {
+      "phonetic": "/əˈpruːvl/",
+      "pos": "n.",
+      "sense": "赞同、认可；批准、核准（本文指寻求他人的认可）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "approve（赞成、批准）+ -al（名词后缀）",
+        "confusables": "approval（赞成、批准，不可数）/ approve of sth（赞成，of 后接名词/doing，不说 approve to do）/ approve a plan（批准计划，及物，不加 of）"
+      },
+      "collocations": [
+        "others' approval",
+        "someone's approval"
+      ],
+      "examples": [
+        "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life. 讨好别人、靠别人点赞来确认自己值不值，既没用，又活得累。"
+      ]
+    },
+    "approve": {
+      "phonetic": "/əˈpruːv/",
+      "pos": "v.",
+      "sense": "赞成、同意（approve of）；批准、核准、通过",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ap-（=ad- 加强）+ prov（检验、证明，词根，同 prove/probable）+ -e",
+        "confusables": "approve of sth（赞成）/ approve sth（批准）/ disapprove of（不赞成）/ approval（名词）/ improve（改进，同根不同义）"
+      },
+      "collocations": [
+        "approve of",
+        "someone to approve"
+      ],
+      "examples": [
+        "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+      ]
+    },
+    "authentic": {
+      "phonetic": "/ɔːˈθentɪk/",
+      "pos": "adj.",
+      "sense": "真实的、真正的、可信的；原汁原味的",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "authentic（真品的、正宗的，强调非伪造，如 authentic documents/food）/ genuine（真的、真诚的，可指人或感情）/ real（真实的，泛指）/ authentic 与 fake（反义）"
+      },
+      "collocations": [
+        "authentic selves"
+      ],
+      "examples": [
+        "Imagine how much time we lose each moment we restrain our authentic selves in an effort to be liked. 想想看，为了讨人喜欢而憋着不做自己，每个瞬间都在白白耗掉多少光阴。"
+      ]
+    },
+    "back": {
+      "phonetic": "/bæk/",
+      "pos": "n./adj./adv./v.",
+      "sense": "背部、后面；后面的；回原处、向后；支持、后退（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "traced back",
+        "back to"
+      ],
+      "examples": [
+        "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. 这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。"
+      ],
+      "more": {
+        "confusables": "back / background（同族不同词形，注意词性与用法）"
+      }
+    },
+    "base": {
+      "phonetic": "/beɪs/",
+      "pos": "n./v./adj.",
+      "sense": "基础、底座、基地、根基；以…为基础（base on）；卑鄙的",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference. 把自我价值交给别人的嘴，等于剥夺了自己塑造人生、既为别人也为自己好好活的能力——说到底，两者本没有分别。"
+      ],
+      "more": {
+        "confusables": "base / based（同族不同词形，注意词性与用法）"
+      }
+    },
+    "based": {
+      "phonetic": "/beɪst/",
+      "pos": "v./adj.",
+      "sense": "base 的过去式/过去分词；（be based on）基于",
+      "lemma": "base",
+      "collocations": [
+        "be based on",
+        "based on evidence"
+      ],
+      "examples": [
+        "Decisions based on data are not always right. 基于数据的决定并不总对。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "based on（基于，被动/状语）/ basing on（主动，主语须是人）"
+      }
+    },
+    "become": {
+      "phonetic": "/bɪˈkʌm/",
+      "pos": "v.",
+      "sense": "变得（系动词）；成为",
+      "collocations": [
+        "become clear",
+        "become a parent",
+        "become aware of"
+      ],
+      "examples": [
+        "It has become a public health problem. 它已成为公共卫生问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "become（变得/成为）/ get（变得，口语）/ turn（变成，强调转变结果）"
+      }
+    },
+    "behavior": {
+      "phonetic": "/bɪˈheɪvjə(r)/",
+      "pos": "n.",
+      "sense": "行为、举止",
+      "collocations": [
+        "positive behaviors",
+        "change one's behavior"
+      ],
+      "examples": [
+        "His behavior surprised everyone. 他的举止让所有人意外。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "behavior / behaviors / behaviours（同族不同词形，注意词性与用法）"
+      }
+    },
+    "beings": {
+      "phonetic": "/ˈbiːɪŋz/",
+      "pos": "n.",
+      "sense": "生物、人；存在、生存（复数，human beings 人类）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "social beings"
+      ],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ]
+    },
+    "belonging": {
+      "phonetic": "/bɪˈlɒŋɪŋ/",
+      "pos": "n./v.",
+      "sense": "归属感、归属；属于、应归入（belong 的现在分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "belong（属于）+ -ing",
+        "confusables": "belong to（属于，介词 to，无被动、无进行时）/ belongings（随身物品，只用复数名词）/ a sense of belonging（归属感）/ belong in（应归入某处）"
+      },
+      "collocations": [],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ]
+    },
+    "can't": {
+      "phonetic": "/kɑːnt/",
+      "pos": "缩略",
+      "sense": "cannot 的缩写（不能）",
+      "collocations": [
+        "can't help doing",
+        "can't afford to"
+      ],
+      "examples": [
+        "Companies can't do all these things and then turn around. 公司不能做了这些又反口。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "can't（cannot）/ can not（分写用于强调）"
+      }
+    },
+    "capable": {
+      "phonetic": "/ˈkeɪpəbl/",
+      "pos": "adj.",
+      "sense": "有能力的、能干的（be capable of 能够）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "cap（容纳、抓取，词根，同 capacity/captive）+ -able（形容词后缀）",
+        "confusables": "be capable of（有能力做，of 后接名词/doing，不接 to do）/ be able to do（接不定式）/ capable 可指「干得出（坏事）」/ capability（名词）/ capacity（容量）"
+      },
+      "collocations": [
+        "capable of",
+        "capable of providing"
+      ],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ]
+    },
+    "care": {
+      "phonetic": "/keə(r)/",
+      "pos": "n./v.",
+      "sense": "谨慎、小心；关心",
+      "collocations": [
+        "with extra care",
+        "take care"
+      ],
+      "examples": [
+        "Lao Zi once said, \"Care about what other people think and you will always be their prisoner.\" 老子有言：老把别人的看法当回事，这辈子就别想自由。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "care / career / carefully（同族不同词形，注意词性与用法）"
+      }
+    },
+    "caring": {
+      "phonetic": "/keə(r)ɪŋ/",
+      "pos": "n./v.",
+      "sense": "谨慎、小心；关心（care 的现在分词/动名词形式）",
+      "lemma": "care",
+      "collocations": [
+        "caring about"
+      ],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "care + -ing（现在分词/动名词）",
+        "confusables": "caring（现在分词/动名词）/ care（原形）"
+      }
+    },
+    "cheat": {
+      "phonetic": "/tʃiːt/",
+      "pos": "v./n.",
+      "sense": "欺骗、作弊、骗取；骗子、欺骗行为",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "cheat ourselves"
+      ],
+      "examples": [
+        "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference. 把自我价值交给别人的嘴，等于剥夺了自己塑造人生、既为别人也为自己好好活的能力——说到底，两者本没有分别。"
+      ]
+    },
+    "children": {
+      "phonetic": "/ˈtʃɪldrən/",
+      "pos": "n.",
+      "sense": "儿童、小孩、子女（child 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "child（孩子）+ -ren（不规则复数，不说 childs）",
+        "confusables": "children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）"
+      },
+      "collocations": [
+        "Small children"
+      ],
+      "examples": [
+        "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. 这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。"
+      ]
+    },
+    "communicate": {
+      "phonetic": "/kəˈmjuːnɪkeɪt/",
+      "pos": "v.",
+      "sense": "交流、沟通；传达、传递（信息）；相通",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "commun（共同、共用，词根，同 common/community）+ -icate（动词后缀）",
+        "confusables": "communicate with sb（与某人交流，介词 with）/ communicate sth to sb（把…传达给某人）/ communication（交流，名词）/ communicable（可传染的，指疾病）"
+      },
+      "collocations": [],
+      "examples": [
+        "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. 这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。"
+      ]
+    },
+    "completely": {
+      "phonetic": "/kəmˈpliːtli/",
+      "pos": "adv.",
+      "sense": "完全地、彻底地",
+      "collocations": [
+        "completely dependent"
+      ],
+      "examples": [
+        "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. 这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "completely / completed / complete（同族不同词形，注意词性与用法）"
+      }
+    },
+    "confident": {
+      "phonetic": "/ˈkɒnfɪdənt/",
+      "pos": "adj.",
+      "sense": "自信的、有信心的、确信的（be confident of/that）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（加强）+ fid（信任，词根 fid = trust，同 confidence/fidelity）+ -ent（形容词后缀）",
+        "confusables": "be confident of/about（对…有信心，介词 of/about）/ be confident that（确信）/ confidence（信心，名词）/ confidential（机密的，只差 -ial 意思全变）/ self-confidence（自信）"
+      },
+      "collocations": [],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ]
+    },
+    "connections": {
+      "phonetic": "/kəˈnekʃnz/",
+      "pos": "n.",
+      "sense": "connection 的复数，人脉、联系（本文指人脉）",
+      "collocations": [
+        "make connections"
+      ],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "danger": {
+      "phonetic": "/ˈdeɪndʒə(r)/",
+      "pos": "n.",
+      "sense": "危险、危害；威胁、危险因素（in danger 处于危险中）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "We learn about who we are and what is expected of us based on interactions with others, so, to a four-year-old, if Mommy or Daddy doesn't like him or her, there is the danger that they will abandon them. 小孩是靠跟人相处来认识自己、弄懂规矩的；所以在四岁孩子眼里，爸妈一旦不喜欢自己，就等于要被丢下了。"
+      ]
+    },
+    "dependent": {
+      "phonetic": "/dɪˈpendənt/",
+      "pos": "adj.",
+      "sense": "依赖的、依靠的（dependent on）；取决于…的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "depend（依赖）+ -ent（形容词后缀）",
+        "confusables": "dependent on/upon（依赖于，介词 on，不用 of）/ independent of（独立于，介词 of）/ dependence（依赖，名词）/ depend（动词）"
+      },
+      "collocations": [
+        "dependent upon",
+        "completely dependent",
+        "dependent on"
+      ],
+      "examples": [
+        "However, where we get into trouble is when our self-worth is dependent upon whether we win someone's approval or not. 可问题出在：一旦把自我价值全系在别人认不认可上，就麻烦了。"
+      ]
+    },
+    "desire": {
+      "phonetic": "/dɪˈzaɪə(r)/",
+      "pos": "n./v.",
+      "sense": "渴望、欲望、愿望；想要、期望",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "desire（渴望，名词/动词，正式）/ desire to do / desire for（对…的渴望，介词 for）/ desired（想要的，形容词）/ desirable（值得拥有的、可取的，与 desired 义不同）/ desirous of（渴望的，正式）"
+      },
+      "collocations": [
+        "desire love"
+      ],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ]
+    },
+    "desperately": {
+      "phonetic": "/ˈdespərətli/",
+      "pos": "adv.",
+      "sense": "拼命地、不顾一切地；绝望地、非常",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "desperate（绝望的）+ -ly（副词后缀）",
+        "confusables": "desperate（绝望的；极想要的；孤注一掷的）/ be desperate for（极渴望得到，介词 for）/ be desperate to do（急于做）/ desperately（绝望地；极其）/ despair（绝望，名词/动词）"
+      },
+      "collocations": [
+        "desperately want"
+      ],
+      "examples": [
+        "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+      ]
+    },
+    "difference": {
+      "phonetic": "/ˈdɪfrəns/",
+      "pos": "n.",
+      "sense": "差别、差异；分歧、不和（make a difference 有影响）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "differ（不同）+ -ence（名词后缀）",
+        "confusables": "difference between A and B（…之间的差异，介词 between）/ make a / no difference（有/没有影响）/ tell the difference（区分）/ differ from（与…不同，介词 from）/ different from（正式）、than（美语）、to（英式口语）"
+      },
+      "collocations": [],
+      "examples": [
+        "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference. 把自我价值交给别人的嘴，等于剥夺了自己塑造人生、既为别人也为自己好好活的能力——说到底，两者本没有分别。"
+      ]
+    },
+    "doesn't": {
+      "phonetic": "/ˈdʌznt/",
+      "pos": "缩略",
+      "sense": "does not 的缩写（第三人称单数否定）",
+      "collocations": [
+        "doesn't mean",
+        "doesn't apply"
+      ],
+      "examples": [
+        "That doesn't mean it's all good news. 这并不意味着全是好消息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "doesn't（does not）/ don't（do not，复数或第一二人称）"
+      }
+    },
+    "doubtful": {
+      "phonetic": "/ˈdaʊtfl/",
+      "pos": "adj.",
+      "sense": "怀疑的、不确定的、未必的（be doubtful about）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "highly doubtful"
+      ],
+      "examples": [
+        "So embrace the cliché(老话) and love yourself as it's highly doubtful that you'll regret it. 所以，就把那句老话照做吧——爱自己；反正你几乎不可能后悔。"
+      ],
+      "more": {
+        "roots": "doubtful 含 -ful（形容词后缀，表「充满……的」）"
+      }
+    },
+    "driven": {
+      "phonetic": "/ˈdrɪvn/",
+      "pos": "v./adj.",
+      "sense": "驱动、驱使、驾驶（drive 过去分词）；受…驱使的、有…动力的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "driven by"
+      ],
+      "examples": [
+        "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+      ],
+      "more": {
+        "confusables": "driven / driving（同族不同词形，注意词性与用法）"
+      }
+    },
+    "driving": {
+      "phonetic": "/ˈdraɪvɪŋ/",
+      "pos": "n./adj./v.",
+      "sense": "驾驶、开车；推动的、起推动作用的；drive 的现在分词",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "isn't driving"
+      ],
+      "examples": [
+        "Unfortunately, sense often isn't driving our behavior. 可惜，人往往并不按理性出牌。"
+      ]
+    },
+    "effect": {
+      "phonetic": "/ɪˈfekt/",
+      "pos": "n.",
+      "sense": "效应、影响、结果",
+      "collocations": [
+        "the source of this effect",
+        "side effect"
+      ],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ef-（=ex- 出）+ fect（做，词根 fact/fect = do，同 factory/perfect/infect）→ 做出来的结果 → 效果",
+        "confusables": "effect（名词，影响）/ affect（动词，影响）"
+      }
+    },
+    "effort": {
+      "phonetic": "/ˈefət/",
+      "pos": "n.",
+      "sense": "努力、力气、精力；尝试、努力的成果（make an effort 努力）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ef-（=ex- 出）+ fort（力量，词根 fort = strong，同 force/comfort/reinforce）→ 使出力气 → 努力",
+        "confusables": "make an effort / make efforts to do（努力做，用 make，不用 do）/ effort to do（用不定式，不说 of doing）/ spare no effort（不遗余力）/ effortless（不费力的）"
+      },
+      "collocations": [
+        "effort to"
+      ],
+      "examples": [
+        "Imagine how much time we lose each moment we restrain our authentic selves in an effort to be liked. 想想看，为了讨人喜欢而憋着不做自己，每个瞬间都在白白耗掉多少光阴。"
+      ]
+    },
+    "embrace": {
+      "phonetic": "/ɪmˈbreɪs/",
+      "pos": "v./n.",
+      "sense": "欣然接受、信奉（观点/变化）；拥抱、包含",
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "em-（=en- 使进入）+ brace（手臂，词源 bracchium）→ 本义「拥入怀中」，引申「欣然接受、包含」",
+        "confusables": "embrace（拥抱；欣然接受想法/变化；包含，及物）/ embrace 与 hug（hug 只指拥抱动作）/ embrace an idea/opportunity / embrace 与 include（只指包括）"
+      },
+      "collocations": [
+        "embrace life"
+      ],
+      "examples": [
+        "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference. 把自我价值交给别人的嘴，等于剥夺了自己塑造人生、既为别人也为自己好好活的能力——说到底，两者本没有分别。"
+      ]
+    },
+    "exhausting": {
+      "phonetic": "/ɪɡˈzɔːstɪŋ/",
+      "pos": "adj.",
+      "sense": "令人精疲力竭的、累人的、耗神的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "exhaust（使筋疲力尽）+ -ing（形容词后缀）",
+        "confusables": "exhausting（令人筋疲力尽的，指事）/ exhausted（筋疲力尽的，指人）/ exhaustive（详尽无遗的，如 an exhaustive search，与疲惫无关）/ exhaustion（精疲力竭，名词）"
+      },
+      "collocations": [
+        "exhausting way"
+      ],
+      "examples": [
+        "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life. 讨好别人、靠别人点赞来确认自己值不值，既没用，又活得累。"
+      ]
+    },
+    "expected": {
+      "phonetic": "/ɪkˈspektɪd/",
+      "pos": "adj./v.",
+      "sense": "预期的、预料的；期待、要求（expect 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ex-（向外）+ (s)pect（看，词根 spect = look，同 inspect/respect/suspect）+ -ed",
+        "confusables": "be expected to do（被期望做；预计会做）/ expect sb to do（不说 expect sb doing）/ expect 与 look forward to（后者 to 是介词，接名词/doing）/ unexpected（un- 否定）"
+      },
+      "collocations": [
+        "expected of"
+      ],
+      "examples": [
+        "We learn about who we are and what is expected of us based on interactions with others, so, to a four-year-old, if Mommy or Daddy doesn't like him or her, there is the danger that they will abandon them. 小孩是靠跟人相处来认识自己、弄懂规矩的；所以在四岁孩子眼里，爸妈一旦不喜欢自己，就等于要被丢下了。"
+      ]
+    },
+    "experiences": {
+      "phonetic": "/ɪkˈspɪəriənsɪz/",
+      "pos": "n./v.",
+      "sense": "经历、体验、经验（experience 的复数）；经历、感受（第三人称单数）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference. 把自我价值交给别人的嘴，等于剥夺了自己塑造人生、既为别人也为自己好好活的能力——说到底，两者本没有分别。"
+      ],
+      "more": {
+        "confusables": "experiences / experience（同族不同词形，注意词性与用法）"
+      }
+    },
+    "external": {
+      "phonetic": "/ɪkˈstɜːnl/",
+      "pos": "adj.",
+      "sense": "外部的、外来的、外界的、外表的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "extern（外部，词根 exter = outward，同 exterior/extra/extreme）+ -al（形容词后缀）",
+        "confusables": "external（外部的、外来的，如 external factors）/ internal（内部的，反义）/ exterior / interior（多指建筑物内外或人的外表/内心）/ external 与 outer（更口语，只指位置）"
+      },
+      "collocations": [
+        "external validation",
+        "need for external"
+      ],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ]
+    },
+    "feel": {
+      "phonetic": "/fiːl/",
+      "pos": "v./n.",
+      "sense": "感觉、觉得；摸起来、感觉到；触感、气氛（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "feel about",
+        "feel about ourselves"
+      ],
+      "examples": [
+        "Why do we allow what others think of us to have so much power over how we feel about ourselves? 干嘛要让别人的看法，牢牢攥住我们对自己的感觉？"
+      ],
+      "more": {
+        "confusables": "feel / feeling（同族不同词形，注意词性与用法）"
+      }
+    },
+    "get": {
+      "phonetic": "/ɡet/",
+      "pos": "v.",
+      "sense": "得到；变得（get + adj.）；到达",
+      "collocations": [
+        "get better",
+        "get promoted",
+        "get used to"
+      ],
+      "examples": [
+        "As kids get older they write more carefully. 孩子越大写得越小心。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "get（变得/得到，口语）/ become（变得，正式）/ obtain（获得，正式）"
+      }
+    },
+    "go": {
+      "phonetic": "/ɡəʊ/",
+      "pos": "v.",
+      "sense": "去、走；（go up/down）上升/下降；进行",
+      "collocations": [
+        "go up",
+        "go on",
+        "there is still some way to go"
+      ],
+      "examples": [
+        "Satisfaction went down for many women. 许多女性满意度下降。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "go up/down（上升/下降，口语）/ increase/decrease（正式）"
+      }
+    },
+    "happier": {
+      "phonetic": "/ˈhæpiə(r)/",
+      "pos": "adj.",
+      "sense": "更快乐的、更幸福的（happy 的比较级）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "happier in"
+      ],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ]
+    },
+    "healthy": {
+      "phonetic": "/ˈhelθi/",
+      "pos": "adj.",
+      "sense": "健康的；有益健康的",
+      "collocations": [
+        "a healthy diet",
+        "healthy habits",
+        "stay healthy"
+      ],
+      "examples": [
+        "They start a healthy diet. 他们开始健康饮食。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "health（健康）+ -y（形容词后缀）",
+        "confusables": "healthy（健康的）/ healthful（有益健康的）/ health（健康，名词）"
+      }
+    },
+    "highly": {
+      "phonetic": "/ˈhaɪli/",
+      "pos": "adv.",
+      "sense": "高度地、非常、极为（highly likely 极可能；speak highly of 高度评价）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "high（高）+ -ly（副词后缀）",
+        "confusables": "highly（高度地、非常，多修饰形容词/分词，如 highly likely / highly skilled）/ high（高地，副词，指具体高度，如 fly high）/ think highly of（高度评价）/ highly 与 very（highly 更正式）"
+      },
+      "collocations": [
+        "it's highly",
+        "highly doubtful"
+      ],
+      "examples": [
+        "So embrace the cliché(老话) and love yourself as it's highly doubtful that you'll regret it. 所以，就把那句老话照做吧——爱自己；反正你几乎不可能后悔。"
+      ]
+    },
+    "however": {
+      "phonetic": "/haʊˈevə(r)/",
+      "pos": "adv./conj.",
+      "sense": "然而（副词，须用分号或句号连接）；无论怎样",
+      "collocations": [
+        "however, ...",
+        "however much"
+      ],
+      "examples": [
+        "However, the study also shows a gap. 然而，研究也显示出一道差距。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "however（副词，不能像 but 那样直接连两个分句）/ but（连词）"
+      }
+    },
+    "imagine": {
+      "phonetic": "/ɪˈmædʒɪn/",
+      "pos": "v.",
+      "sense": "想象、设想；料想、认为；臆想",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "imag（形象，词根，同 image）+ -ine（动词后缀）",
+        "confusables": "imagine doing（想象做，接动名词，不接 to do）/ imaginary（虚构的，指不存在）/ imaginative（有想象力的，指人）/ imaginable（可想象到的，常与最高级连用）/ imagine (sb) doing"
+      },
+      "collocations": [],
+      "examples": [
+        "Imagine how much time we lose each moment we restrain our authentic selves in an effort to be liked. 想想看，为了讨人喜欢而憋着不做自己，每个瞬间都在白白耗掉多少光阴。"
+      ]
+    },
+    "interactions": {
+      "phonetic": "/ˌɪntərˈækʃnz/",
+      "pos": "n.",
+      "sense": "互动、交流、相互作用（interaction 的复数）",
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "inter-（相互）+ action（作用、行动）+ -s（复数）",
+        "confusables": "interaction（相互作用、互动）/ interaction between/with（…之间的互动）/ interact with（与…互动，with 不能省）/ inter- 表「相互/之间」（international、interpersonal）"
+      },
+      "collocations": [
+        "interactions with",
+        "interactions with others",
+        "based on interactions"
+      ],
+      "examples": [
+        "We learn about who we are and what is expected of us based on interactions with others, so, to a four-year-old, if Mommy or Daddy doesn't like him or her, there is the danger that they will abandon them. 小孩是靠跟人相处来认识自己、弄懂规矩的；所以在四岁孩子眼里，爸妈一旦不喜欢自己，就等于要被丢下了。"
+      ]
+    },
+    "it's": {
+      "phonetic": "/ɪts/",
+      "pos": "缩略",
+      "sense": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+      "collocations": [
+        "it's important that",
+        "it's likely to"
+      ],
+      "examples": [
+        "It's hard to say. 很难说。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
+      }
+    },
+    "kid": {
+      "phonetic": "/kɪd/",
+      "pos": "n./v./adj.",
+      "sense": "小孩、年轻人；开玩笑、戏弄、欺骗；较年幼的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "little kid",
+        "kid part"
+      ],
+      "examples": [
+        "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+      ],
+      "more": {
+        "confusables": "kid / kids（同族不同词形，注意词性与用法）"
+      }
+    },
+    "learn": {
+      "phonetic": "/lɜːn/",
+      "pos": "v.",
+      "sense": "学习、学会",
+      "collocations": [
+        "learn to do",
+        "learn from"
+      ],
+      "examples": [
+        "We learn from mistakes. 我们从错误中学习。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "learn / learning（同族不同词形，注意词性与用法）"
+      }
+    },
+    "learning": {
+      "phonetic": "/ˈlɜːnɪŋ/",
+      "pos": "n./v.",
+      "sense": "学习、学问；learn 的现在分词/动名词",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. 这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。"
+      ]
+    },
+    "leaving": {
+      "phonetic": "/ˈliːvɪŋ/",
+      "pos": "v./n.",
+      "sense": "离开、出发、留下、舍弃（leave 的现在分词）；离开、准假",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ]
+    },
+    "life": {
+      "phonetic": "/laɪf/",
+      "pos": "n.",
+      "sense": "生活；生命（复数 lives）",
+      "collocations": [
+        "everyday life",
+        "public life",
+        "quality of life"
+      ],
+      "examples": [
+        "A rich social life improves health. 丰富的社交生活能改善健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "life（单数）/ lives（复数，注意拼写）"
+      }
+    },
+    "like": {
+      "phonetic": "/laɪk/",
+      "pos": "prep./v./conj.",
+      "sense": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+      "collocations": [
+        "like this",
+        "feel like",
+        "such as"
+      ],
+      "examples": [
+        "Tools like this save time. 这样的工具能省时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
+      }
+    },
+    "liked": {
+      "phonetic": "/laɪkd/",
+      "pos": "prep./v./conj.",
+      "sense": "像（介词）；喜欢（动词）；口语连词「像……那样」（like 的过去式/过去分词形式）",
+      "lemma": "like",
+      "collocations": [],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "like + -d（过去式/过去分词）",
+        "confusables": "liked（过去式/过去分词）/ like（原形）"
+      }
+    },
+    "little": {
+      "phonetic": "/ˈlɪtl/",
+      "pos": "adj./adv./n.",
+      "sense": "小的、少的；几乎不（a little 表肯定「一点」）；少量",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "little（几乎没有，否定，修饰不可数）/ a little（有一点，肯定，修饰不可数）/ few（几乎没，修饰可数复数）/ a few（有几个，肯定）/ little 作形容词还可指「小的」/ Little did I know…（置句首主句倒装）"
+      },
+      "collocations": [
+        "little kid",
+        "little kid part"
+      ],
+      "examples": [
+        "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+      ]
+    },
+    "lose": {
+      "phonetic": "/luːz/",
+      "pos": "v.",
+      "sense": "失去、丢失；输掉、亏损；迷失",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lose（v. 丢失；输掉；迷失，lose-lost-lost）/ loose（adj. 松的，/luːs/）/ loss（n. 损失）/ lost（过去式/分词；也作形容词「迷路的」）/ lose weight（减肥）/ lose 与 loose 拼写、读音、词性都不同"
+      },
+      "collocations": [],
+      "examples": [
+        "Imagine how much time we lose each moment we restrain our authentic selves in an effort to be liked. 想想看，为了讨人喜欢而憋着不做自己，每个瞬间都在白白耗掉多少光阴。"
+      ]
+    },
+    "love": {
+      "phonetic": "/lʌv/",
+      "pos": "n./v.",
+      "sense": "爱、热爱；喜爱、爱好；很喜欢",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "desire love",
+        "love yourself"
+      ],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ]
+    },
+    "make": {
+      "phonetic": "/meɪk/",
+      "pos": "v.",
+      "sense": "做、制造；使得；获得、挣得（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make（做、制造；使得；获得）/ make sb do（使某人做，不带 to；被动变 be made to do）/ make + 宾语 + 形容词（make it clear）/ make 与 do（do 指做抽象事务，make 指制作/产生）/ make a decision / mistake（用 make 不用 do）"
+      },
+      "collocations": [
+        "make sense",
+        "make connections"
+      ],
+      "examples": [
+        "If it's true that you can't please all people all of the time, wouldn't it make sense to stop trying? 既然谁也没法永远讨好所有人，那干脆别费这个劲，不更合理吗？"
+      ]
+    },
+    "moment": {
+      "phonetic": "/ˈməʊmənt/",
+      "pos": "n.",
+      "sense": "片刻、瞬间、刹那；时刻、时机、重要关头",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Imagine how much time we lose each moment we restrain our authentic selves in an effort to be liked. 想想看，为了讨人喜欢而憋着不做自己，每个瞬间都在白白耗掉多少光阴。"
+      ],
+      "more": {
+        "roots": "moment 含 -ment（名词后缀，表结果、手段或过程）"
+      }
+    },
+    "need": {
+      "phonetic": "/niːd/",
+      "pos": "v./n.",
+      "sense": "需要（情态/实义动词）；需要、需求（名词）",
+      "collocations": [
+        "need to do",
+        "in need of",
+        "no need to"
+      ],
+      "examples": [
+        "Parents need to set boundaries. 家长需要划定界限。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "need to do（实义动词）/ need do（情态动词，多用于否定疑问）"
+      }
+    },
+    "often": {
+      "phonetic": "/ˈɒfn/",
+      "pos": "adv.",
+      "sense": "经常、常常",
+      "collocations": [
+        "sense often",
+        "often isn't"
+      ],
+      "examples": [
+        "Unfortunately, sense often isn't driving our behavior. 可惜，人往往并不按理性出牌。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "once": {
+      "phonetic": "/wʌns/",
+      "pos": "adv./conj.",
+      "sense": "一次；曾经 / 一旦（连词）",
+      "collocations": [
+        "at once",
+        "once again",
+        "once you start"
+      ],
+      "examples": [
+        "The web is headed for change once again. 网络再次走向变革。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "at once（立即/一次性）/ once（一次/一旦）"
+      }
+    },
+    "opinions": {
+      "phonetic": "/əˈpɪnjənz/",
+      "pos": "n.",
+      "sense": "意见、看法、主张；舆论（in my opinion 依我看）（opinion 的复数/三单形式）",
+      "lemma": "opinion",
+      "collocations": [
+        "opinions of",
+        "opinions of others"
+      ],
+      "examples": [
+        "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference. 把自我价值交给别人的嘴，等于剥夺了自己塑造人生、既为别人也为自己好好活的能力——说到底，两者本没有分别。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "opinion + -s（复数/三单）",
+        "confusables": "opinions（复数/三单）/ opinion（原形）"
+      }
+    },
+    "others": {
+      "phonetic": "/ˈʌðəz/",
+      "pos": "pron./n.",
+      "sense": "其他人/物、别的人/物（other 的复数；some...others 一些…另一些）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "others（其他人/物，泛指，常与 some 呼应 some…others…）/ the others（特定范围内「其余全部」）/ another（三者以上的「另一个」，接单数）/ the other（两者中的「另一个」，one…the other…）/ others 后不再接名词"
+      },
+      "collocations": [
+        "through others'",
+        "others' approval",
+        "self-worth through others'"
+      ],
+      "examples": [
+        "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life. 讨好别人、靠别人点赞来确认自己值不值，既没用，又活得累。"
+      ]
+    },
+    "part": {
+      "phonetic": "/pɑːt/",
+      "pos": "n./v.",
+      "sense": "部分、部件；角色、职责；分开、分离（part with 割舍）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "kid part",
+        "part of"
+      ],
+      "examples": [
+        "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+      ],
+      "more": {
+        "confusables": "part / parts / participants（同族不同词形，注意词性与用法）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "please": {
+      "phonetic": "/pliːz/",
+      "pos": "v./adv.",
+      "sense": "使高兴、使满意、取悦；请（礼貌用语）、劳驾",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "can't please",
+        "please all",
+        "please all people"
+      ],
+      "examples": [
+        "If it's true that you can't please all people all of the time, wouldn't it make sense to stop trying? 既然谁也没法永远讨好所有人，那干脆别费这个劲，不更合理吗？"
+      ],
+      "more": {
+        "confusables": "please / pleasure / pleasing（同族不同词形，注意词性与用法）"
+      }
+    },
+    "power": {
+      "phonetic": "/ˈpaʊə(r)/",
+      "pos": "n.",
+      "sense": "权力、力量",
+      "collocations": [
+        "power differences",
+        "power dynamics"
+      ],
+      "examples": [
+        "Why do we allow what others think of us to have so much power over how we feel about ourselves? 干嘛要让别人的看法，牢牢攥住我们对自己的感觉？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "power / powers / powerful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "prisoner": {
+      "phonetic": "/ˈprɪznə(r)/",
+      "pos": "n.",
+      "sense": "囚犯、俘虏、受束缚的人（本文喻「成为他人看法的囚徒」）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "prison（监狱）+ -er（表人，此处指被关押者）",
+        "confusables": "prisoner（囚犯、俘虏，可数）/ prison（监狱）/ prisoner of war (POW)（战俘）/ take / hold sb prisoner / captive（俘虏，更书面）/ imprison（监禁，动词）"
+      },
+      "collocations": [],
+      "examples": [
+        "Lao Zi once said, \"Care about what other people think and you will always be their prisoner.\" 老子有言：老把别人的看法当回事，这辈子就别想自由。"
+      ]
+    },
+    "providing": {
+      "phonetic": "/prəˈvaɪdɪŋ/",
+      "pos": "v.",
+      "sense": "提供（provide sb with sth / provide sth for sb）（provide 的现在分词/动名词形式）",
+      "lemma": "provide",
+      "collocations": [
+        "providing yourself",
+        "capable of providing"
+      ],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "provide + -ing（现在分词/动名词）",
+        "confusables": "providing（现在分词/动名词）/ provide（原形）"
+      }
+    },
+    "regret": {
+      "phonetic": "/rɪˈɡret/",
+      "pos": "v./n.",
+      "sense": "后悔、遗憾、惋惜、抱歉（regret doing 后悔做过）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "regret to do（遗憾地要做，如 I regret to say…，事还没发生）/ regret doing / having done（后悔做过，事已发生）/ regret that / regretful（后悔的，指人）/ regrettable（令人遗憾的，指事）"
+      },
+      "collocations": [
+        "you'll regret"
+      ],
+      "examples": [
+        "So embrace the cliché(老话) and love yourself as it's highly doubtful that you'll regret it. 所以，就把那句老话照做吧——爱自己；反正你几乎不可能后悔。"
+      ]
+    },
+    "restrain": {
+      "phonetic": "/rɪˈstreɪn/",
+      "pos": "v.",
+      "sense": "抑制、克制、约束、阻止、控制（restrain oneself 克制自己）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "restrain（抑制、制止、克制，及物）/ restrain sb/oneself from doing（介词 from）/ restrained（克制的、含蓄的）/ restraint（克制；约束）/ refrain（不及物，refrain from doing 主动忍住不做，不接宾语）"
+      },
+      "collocations": [],
+      "examples": [
+        "Imagine how much time we lose each moment we restrain our authentic selves in an effort to be liked. 想想看，为了讨人喜欢而憋着不做自己，每个瞬间都在白白耗掉多少光阴。"
+      ]
+    },
+    "said": {
+      "phonetic": "/sed/",
+      "pos": "v./adj.",
+      "sense": "说、讲、表明（say 的过去式/过去分词）；上述的（the said…）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "once said"
+      ],
+      "examples": [
+        "Lao Zi once said, \"Care about what other people think and you will always be their prisoner.\" 老子有言：老把别人的看法当回事，这辈子就别想自由。"
+      ]
+    },
+    "seek": {
+      "phonetic": "/siːk/",
+      "pos": "v.",
+      "sense": "寻求、追求、寻找、试图、征求（seek to do 力图做）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ],
+      "more": {
+        "confusables": "seek / seeking（同族不同词形，注意词性与用法）"
+      }
+    },
+    "seeking": {
+      "phonetic": "/ˈsiːkɪŋ/",
+      "pos": "v.",
+      "sense": "寻求、寻找、追求；试图、设法（seek 的现在分词；seek to do 力图）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "seek（寻找）+ -ing",
+        "confusables": "seek（寻求、试图，及物，seek-sought-sought）/ seek to do（试图做，接不定式）/ search（搜查某地/人，search for 才等于 seek）/ look for（口语）/ job-seeking（求职的）"
+      },
+      "collocations": [
+        "seeking self-worth"
+      ],
+      "examples": [
+        "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life. 讨好别人、靠别人点赞来确认自己值不值，既没用，又活得累。"
+      ]
+    },
+    "self-worth": {
+      "phonetic": "/ˌself ˈwɜːθ/",
+      "pos": "n.",
+      "sense": "自我价值感、自尊（对自身价值的认可）",
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "self（自身）+ worth（价值）构成的复合名词，意为「自我价值感」",
+        "confusables": "self-worth（自我价值感，不可数，= self-esteem）/ worth（价值，不可数；be worth doing 值得做）/ self-confidence（自信，侧重能力）/ worthy（值得的，形容词）"
+      },
+      "collocations": [
+        "seeking self-worth",
+        "self-worth through",
+        "self-worth through others'"
+      ],
+      "examples": [
+        "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life. 讨好别人、靠别人点赞来确认自己值不值，既没用，又活得累。"
+      ]
+    },
+    "selves": {
+      "phonetic": "/selvz/",
+      "pos": "n.",
+      "sense": "自己、自我、本身（self 的复数形式，常用于构成复合反身代词）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "authentic selves",
+        "selves in"
+      ],
+      "examples": [
+        "Imagine how much time we lose each moment we restrain our authentic selves in an effort to be liked. 想想看，为了讨人喜欢而憋着不做自己，每个瞬间都在白白耗掉多少光阴。"
+      ]
+    },
+    "sense": {
+      "phonetic": "/sens/",
+      "pos": "n./v.",
+      "sense": "感觉、意识；意义、含义；判断力；意识到、觉察到（make sense 讲得通）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sense（感觉、感官；意义；判断力）/ make sense（讲得通、有道理）/ make sense of（弄懂…）/ in a sense（在某种意义上）/ common sense（常识，不可数）/ sensible（明智的）与 sensitive（敏感的）"
+      },
+      "collocations": [
+        "make sense",
+        "sense to",
+        "sense to stop"
+      ],
+      "examples": [
+        "If it's true that you can't please all people all of the time, wouldn't it make sense to stop trying? 既然谁也没法永远讨好所有人，那干脆别费这个劲，不更合理吗？"
+      ]
+    },
+    "shape": {
+      "phonetic": "/ʃeɪp/",
+      "pos": "n./v.",
+      "sense": "形状、外形、形态；塑造、影响、决定（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "power to shape"
+      ],
+      "examples": [
+        "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference. 把自我价值交给别人的嘴，等于剥夺了自己塑造人生、既为别人也为自己好好活的能力——说到底，两者本没有分别。"
+      ]
+    },
+    "small": {
+      "phonetic": "/smɔːl/",
+      "pos": "adj.",
+      "sense": "小的；少量的",
+      "collocations": [
+        "a small number of",
+        "small changes",
+        "small talk"
+      ],
+      "examples": [
+        "A small fraction of men did more childcare. 极小一部分男性承担更多育儿。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "small（小，尺寸）/ little（少，不可数）/ minor（次要的）"
+      }
+    },
+    "social": {
+      "phonetic": "/ˈsəʊʃl/",
+      "pos": "adj.",
+      "sense": "社会的、社会性的；社交的、交际的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "social beings"
+      ],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ],
+      "more": {
+        "confusables": "social / society / socializing（同族不同词形，注意词性与用法）"
+      }
+    },
+    "someone": {
+      "phonetic": "/ˈsʌmwʌn/",
+      "pos": "pron./n.",
+      "sense": "某人、有人、某个人（用于肯定句，与 someone 同义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "someone（某人，不定代词，谓语用单数，= somebody）/ someone else（别人，else 后置）/ someone 多用于肯定句，疑问/否定常用 anyone / some one（分写指「某一个」，可接 of）"
+      },
+      "collocations": [
+        "want someone",
+        "someone to",
+        "someone to approve"
+      ],
+      "examples": [
+        "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+      ]
+    },
+    "start": {
+      "phonetic": "/stɑːt/",
+      "pos": "v./n.",
+      "sense": "开始、着手、出发、启动、创办；开端、起点、出发、开头优势",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "start to",
+        "start to vanish"
+      ],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ],
+      "more": {
+        "confusables": "start / starting（同族不同词形，注意词性与用法）"
+      }
+    },
+    "still": {
+      "phonetic": "/stɪl/",
+      "pos": "adv./adj.",
+      "sense": "仍然、还（副词）；静止的、平静的（形容词）",
+      "collocations": [
+        "still true",
+        "still work",
+        "keep still"
+      ],
+      "examples": [
+        "The gap is still wide. 差距仍然很大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "still（仍然）/ yet（尚，多用于否定疑问）/ already（已经）"
+      }
+    },
+    "stop": {
+      "phonetic": "/stɒp/",
+      "pos": "v./n.",
+      "sense": "停止、停下、阻止、中断、逗留；停止、车站、停留、句号",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "stop trying",
+        "sense to stop"
+      ],
+      "examples": [
+        "If it's true that you can't please all people all of the time, wouldn't it make sense to stop trying? 既然谁也没法永远讨好所有人，那干脆别费这个劲，不更合理吗？"
+      ],
+      "more": {
+        "confusables": "stop / stopped（同族不同词形，注意词性与用法）"
+      }
+    },
+    "stronger": {
+      "phonetic": "/strɒŋə(r)/",
+      "pos": "adj.",
+      "sense": "强壮的、强烈的、坚定的（strong 的比较级形式）",
+      "lemma": "strong",
+      "collocations": [],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "strong + -er（比较级）",
+        "confusables": "stronger（比较级）/ strong（原形）"
+      }
+    },
+    "take": {
+      "phonetic": "/teɪk/",
+      "pos": "v.",
+      "sense": "拿、带；花费、需要；采取、接受（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "take（带走，离开说话人；it takes sb time to do 花费；拿、乘坐）/ bring（带来，朝说话人）/ fetch（去取来）/ spend（人作主语：sb spends … on/doing）/ cost（物作主语：sth costs sb …）/ take part in（参加）、take place（发生，无被动）"
+      },
+      "collocations": [
+        "take care",
+        "others to take"
+      ],
+      "examples": [
+        "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. 这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。"
+      ]
+    },
+    "terrified": {
+      "phonetic": "/ˈterɪfaɪd/",
+      "pos": "adj./v.",
+      "sense": "非常害怕的、极度恐惧的；使惊恐（terrify 的过去式）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "terrify（使害怕，terror 恐惧 + -ify）+ -ed（y → ied）",
+        "confusables": "terrified（感到极度恐惧的，指人，be terrified of）/ terrifying（令人恐惧的，指物）/ terrible（糟糕的、可怕的，语气较弱）/ terror（恐惧；恐怖）/ terrify（动词）"
+      },
+      "collocations": [
+        "terrified of",
+        "terrified of abandonment"
+      ],
+      "examples": [
+        "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+      ]
+    },
+    "think": {
+      "phonetic": "/θɪŋk/",
+      "pos": "v.",
+      "sense": "想、认为；思考",
+      "collocations": [
+        "think about",
+        "think of",
+        "I think that"
+      ],
+      "examples": [
+        "Many think the risk is small. 很多人认为风险很小。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "think about（考虑）/ think of（想起）/ think over（仔细考虑）"
+      }
+    },
+    "through": {
+      "phonetic": "/θruː/",
+      "pos": "prep.",
+      "sense": "通过、凭借",
+      "collocations": [
+        "self-worth through",
+        "through others'",
+        "through life"
+      ],
+      "examples": [
+        "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life. 讨好别人、靠别人点赞来确认自己值不值，既没用，又活得累。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "traced": {
+      "phonetic": "/treɪst/",
+      "pos": "v.",
+      "sense": "追溯、追踪、查出、探出、描摹、描绘（trace 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "traced back"
+      ],
+      "examples": [
+        "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. 这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。"
+      ],
+      "more": {
+        "confusables": "traced / track（同族不同词形，注意词性与用法）"
+      }
+    },
+    "trouble": {
+      "phonetic": "/ˈtrʌbl/",
+      "pos": "n./v.",
+      "sense": "麻烦、困难、烦恼、问题、故障、纷争；使烦恼、使忧虑、费神、麻烦（某人）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "get into trouble"
+      ],
+      "examples": [
+        "However, where we get into trouble is when our self-worth is dependent upon whether we win someone's approval or not. 可问题出在：一旦把自我价值全系在别人认不认可上，就麻烦了。"
+      ]
+    },
+    "true": {
+      "phonetic": "/truː/",
+      "pos": "adj.",
+      "sense": "真实的；真正的；符合事实的",
+      "collocations": [
+        "it is true that",
+        "true talent",
+        "come true"
+      ],
+      "examples": [
+        "This is true in education too. 这在教育上也成立。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "true（真实的）/ truth（名词）/ real（真实的，指非虚构）"
+      }
+    },
+    "trying": {
+      "phonetic": "/ˈtraɪɪŋ/",
+      "pos": "v./adj.",
+      "sense": "尝试、努力、试用（try 的现在分词）；令人难受的、费劲的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "stop trying",
+        "trying to",
+        "trying to learn"
+      ],
+      "examples": [
+        "If it's true that you can't please all people all of the time, wouldn't it make sense to stop trying? 既然谁也没法永远讨好所有人，那干脆别费这个劲，不更合理吗？"
+      ]
+    },
+    "ultimately": {
+      "phonetic": "/ˈʌltɪmətli/",
+      "pos": "adv.",
+      "sense": "最终、归根结底",
+      "collocations": [
+        "because ultimately"
+      ],
+      "examples": [
+        "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference. 把自我价值交给别人的嘴，等于剥夺了自己塑造人生、既为别人也为自己好好活的能力——说到底，两者本没有分别。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "ultimately / ultimate（同族不同词形，注意词性与用法）"
+      }
+    },
+    "understand": {
+      "phonetic": "/ˌʌndəˈstænd/",
+      "pos": "v.",
+      "sense": "理解、明白；得知、获悉；体谅",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "under-（在…之下）+ stand（站立）构成的复合动词",
+        "confusables": "understand（理解、明白，及物，通常不用进行时）/ understand doing / understand that / make oneself understood（把意思说明白）/ comprehend（更正式）/ understanding（理解；谅解，名词）"
+      },
+      "collocations": [
+        "need to understand"
+      ],
+      "examples": [
+        "We need to understand that when we desperately want someone to approve of us, it's being driven by that little kid part of us that is still terrified of abandonment. 得看明白：长大后一渴求别人点头，其实还是心里那个怕被丢下的小孩在作祟。"
+      ]
+    },
+    "unfortunately": {
+      "phonetic": "/ʌnˈfɔːtʃənətli/",
+      "pos": "adv.",
+      "sense": "不幸地、遗憾的是、不巧（修饰全句）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "un-（否定前缀）+ fortunately（幸运地，fortune + -ate + -ly）",
+        "confusables": "unfortunately（不幸地、遗憾的是，常置句首用逗号隔开，修饰整句）/ fortunately（幸运地，反义）/ unfortunate（不幸的）/ sadly（近义）"
+      },
+      "collocations": [],
+      "examples": [
+        "Unfortunately, sense often isn't driving our behavior. 可惜，人往往并不按理性出牌。"
+      ]
+    },
+    "unproductive": {
+      "phonetic": "/ˌʌnprəˈdʌktɪv/",
+      "pos": "adj.",
+      "sense": "无成效的、徒劳的、产出低的、不结果实的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "un-（否定前缀）+ productive（多产的，product + -ive）",
+        "confusables": "unproductive（无成效的、产出低的）/ productive（多产的，反义）/ counterproductive（适得其反的，counter- 反）/ productivity（生产率，名词）"
+      },
+      "collocations": [],
+      "examples": [
+        "People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way to go through life. 讨好别人、靠别人点赞来确认自己值不值，既没用，又活得累。"
+      ]
+    },
+    "validation": {
+      "phonetic": "/ˌvælɪˈdeɪʃn/",
+      "pos": "n.",
+      "sense": "（他人的）认可、肯定、确认；验证、核准（本文指 seeking validation）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "validate（验证、确认，valid 有效 + -ate）+ -ion（名词后缀，去 e）",
+        "confusables": "validation（验证、确认；认可，不可数）/ validate（动词）/ valid（有效的、有根据的）/ invalid（无效的；病人）/ validity（有效性）/ verification（核实）"
+      },
+      "collocations": [
+        "external validation"
+      ],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ]
+    },
+    "vanish": {
+      "phonetic": "/ˈvænɪʃ/",
+      "pos": "v.",
+      "sense": "消失、消散、突然不见、不复存在",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "start to vanish"
+      ],
+      "examples": [
+        "As you become more capable of providing yourself with the approval you seek, your need for external validation will start to vanish, leaving you stronger, more confident, and yes, happier in your life. 等你学会自己给自己那份认可，向外讨确认的瘾就会慢慢淡掉，人也更结实、更自信、说真的，也更快乐。"
+      ]
+    },
+    "walk": {
+      "phonetic": "/wɔːk/",
+      "pos": "v./n.",
+      "sense": "走、步行、散步；陪…走；行业、阶层（walk of life）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. 这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。"
+      ],
+      "more": {
+        "confusables": "walk / walking（同族不同词形，注意词性与用法）"
+      }
+    },
+    "want": {
+      "phonetic": "/wɒnt/",
+      "pos": "v.",
+      "sense": "想要（want to do / want sb to do）；需要",
+      "collocations": [
+        "want to do",
+        "want sb to do",
+        "for want of"
+      ],
+      "examples": [
+        "They want to appear more adult. 他们想显得更成熟。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "want to do（想要）/ need to do（需要）/ would like to do（更礼貌）"
+      }
+    },
+    "wanting": {
+      "phonetic": "/ˈwɒntɪŋ/",
+      "pos": "v./adj.",
+      "sense": "想要、需要、缺乏（want 的现在分词）；欠缺的、不够格的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "wanting to"
+      ],
+      "examples": [
+        "For social beings who desire love and belonging, wanting to be liked, and caring about the effect we have on others, is healthy and allows us to make connections. 人本来就是社会动物，想被接纳、在意自己给别人带来什么，这都很正常，也正靠它才交得到朋友。"
+      ]
+    },
+    "way": {
+      "phonetic": "/weɪ/",
+      "pos": "n.",
+      "sense": "方法、方式；路；程度（in a way）",
+      "collocations": [
+        "the best way to do sth",
+        "in some ways",
+        "by the way"
+      ],
+      "examples": [
+        "There is no simple way to fix it. 没有简单的办法解决它。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "way（方法）/ road（道路）/ method（方法，正式）"
+      }
+    },
+    "whether": {
+      "phonetic": "/ˈweðə(r)/",
+      "pos": "conj.",
+      "sense": "是否；无论（whether ... or ...）",
+      "collocations": [
+        "whether or not",
+        "whether to do",
+        "whether it comes from"
+      ],
+      "examples": [
+        "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）"
+      }
+    },
+    "win": {
+      "phonetic": "/wɪn/",
+      "pos": "v./n.",
+      "sense": "赢、获胜、赢得、获得、夺得、说服；胜利、赢、获胜",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "win someone's"
+      ],
+      "examples": [
+        "However, where we get into trouble is when our self-worth is dependent upon whether we win someone's approval or not. 可问题出在：一旦把自我价值全系在别人认不认可上，就麻烦了。"
+      ],
+      "more": {
+        "confusables": "win / wine / winter（同族不同词形，注意词性与用法）"
+      }
+    },
+    "works": {
+      "phonetic": "/wɜːks/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品（work 的复数/三单形式）",
+      "lemma": "work",
+      "collocations": [
+        "world works"
+      ],
+      "examples": [
+        "This need to be liked can be traced back to when we were children and were completely dependent on others to take care of us: Small children are not just learning how to walk and communicate, they are also trying to learn how the world works. 这份「想被喜欢」的执念得往童年找：那时我们全靠大人照料，一边学走路说话，一边琢磨这世界怎么转。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "work + -s（复数/三单）",
+        "confusables": "works（复数/三单）/ work（原形）"
+      }
+    },
+    "world": {
+      "phonetic": "/wɜːld/",
+      "pos": "n.",
+      "sense": "世界；领域；世人",
+      "collocations": [
+        "around the world",
+        "the world of work",
+        "real world"
+      ],
+      "examples": [
+        "The idea spread around the world. 这个想法传遍世界。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "world（世界）/ word（单词）读音与拼写易混"
+      }
+    },
+    "worth": {
+      "phonetic": "/wɜːθ/",
+      "pos": "adj./n./prep.",
+      "sense": "值得的、有…价值的（be worth doing）；价值、意义；值…（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "worth（值得的，只作表语，be worth + 名词/doing，主动形式表被动，如 The book is worth reading）/ worthy（值得的，作定语或 be worthy of）/ worthwhile（值得做的，可作表语/定语）/ valuable（有价值的）/ be worth it"
+      },
+      "collocations": [
+        "worth on"
+      ],
+      "examples": [
+        "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace life not only for others but also for ourselves, because ultimately, there is no difference. 把自我价值交给别人的嘴，等于剥夺了自己塑造人生、既为别人也为自己好好活的能力——说到底，两者本没有分别。"
+      ]
+    },
+    "you'll": {
+      "phonetic": "/juːl/",
+      "pos": "缩略",
+      "sense": "you will 的缩写",
+      "collocations": [
+        "you'll find",
+        "you'll see"
+      ],
+      "examples": [
+        "You'll find the settings menu at the top. 你会在顶部找到设置菜单。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "you'll（you will）/ you'd（you would/had）"
+      }
+    }
+  }
+}

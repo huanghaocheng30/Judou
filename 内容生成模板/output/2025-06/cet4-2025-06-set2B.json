@@ -1,0 +1,5561 @@
+{
+  "sourceKey": "cet4-2025-06-set2B",
+  "articleId": "set2B",
+  "packVersion": "2026.11.08-1",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 6,
+    "setNo": 2,
+    "section": "仔细阅读",
+    "passageLabel": "Passage Two",
+    "title": "Why Classical Music and Opera Still Matter Today",
+    "wordCount": 346
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. Some people are beginning to wonder whether opera and classical music are still relevant to the modern world of music. Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators that both opera and classical music are now still quite alive.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 128,
+          "text": "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "With",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "rise",
+              "normalized": "rise",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 16,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "pop",
+              "normalized": "pop",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 27,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 28,
+              "end": 32,
+              "surface": "jazz",
+              "normalized": "jazz",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 33,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 34,
+              "end": 37,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 48,
+              "surface": "electronic",
+              "normalized": "electronic",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 54,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 55,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 56,
+              "end": 60,
+              "surface": "both",
+              "normalized": "both",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 66,
+              "surface": "opera",
+              "normalized": "opera",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 80,
+              "surface": "classical",
+              "normalized": "classical",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 86,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 94,
+              "surface": "started",
+              "normalized": "started",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 97,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 102,
+              "surface": "fade",
+              "normalized": "fade",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 107,
+              "surface": "away",
+              "normalized": "away",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 112,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 116,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 123,
+              "surface": "public",
+              "normalized": "public",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 127,
+              "surface": "eye",
+              "normalized": "eye",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 128,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "随着流行音乐、爵士乐和电子音乐的兴起，歌剧和古典音乐都开始从公众的眼中淡去。",
+            "translationNatural": "流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。",
+            "structMarkup": "(With the rise of pop music, jazz, and electronic music), 【both opera and classical music】 _started to fade away_ (from the public eye).",
+            "structureSummary": "介词短语作状语（With 复合结构）+ 主谓 + 不定式作宾语",
+            "components": [
+              {
+                "part": "With the rise of pop music, jazz, and electronic music",
+                "role": "状语",
+                "note": "With + 名词短语表伴随背景，意为『随着……的兴起』；后面三个乐种并列"
+              },
+              {
+                "part": "both opera and classical music",
+                "role": "主语",
+                "note": "both...and... 并列两类传统音乐，整体作复数看，谓语用 started"
+              },
+              {
+                "part": "started to fade away",
+                "role": "谓语",
+                "note": "start to do；fade away 意为『渐渐消失』，与 from the public eye 搭配"
+              },
+              {
+                "part": "from the public eye",
+                "role": "状语",
+                "note": "从『公众视野』淡出，点明是关注度下降而非彻底消亡"
+              }
+            ],
+            "clauses": [
+              "并列关联连词连接两个平行成分，前后词性须一致。",
+              "本句主干为「介词短语作状语（With 复合结构）+ 主谓 + 不定式作宾语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "rise",
+                "meaning": "上升、增长、上涨、兴起；升起、起身、站起来",
+                "usage": "注意区分：rise（vi. 上升、上涨，rise-rose-risen，无宾语、无被动）/ raise（vt. 举起、提高、筹集、抚养，须接宾语）/ arise（vi. 出现、产生，arise from 由…引起）/ arouse（vt. 唤起）/ The sun rises 与 raise your hand 不可换。",
+                "example": "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+              },
+              {
+                "text": "electronic",
+                "meaning": "电子的、电子设备的、电子化的",
+                "usage": "注意区分：electronic（电子的，指用电子元件工作的设备）/ electric（用电的、带电的，如 electric current）/ electrical（与电有关的，如 electrical engineering）/ electronics（电子学；电子设备）。",
+                "example": "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+              },
+              {
+                "text": "started",
+                "meaning": "开始、着手、出发、启动、创办；开端、起点、出发、开头优势（start 的过去式/过去分词形式）",
+                "usage": "注意区分：started（过去式/过去分词）/ start（原形）。",
+                "example": "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+              }
+            ],
+            "pitfalls": [
+              "both...and / either...or / neither...nor 是固定配对，不能交叉混用。",
+              "注意区分：rise（vi. 上升、上涨，rise-rose-risen，无宾语、无被动）/ raise（vt. 举起、提高、筹集、抚养，须接宾语）/ arise（vi. 出现、产生，arise from 由…引起）/ arouse（vt. 唤起）/ The sun rises 与 raise your hand 不可换。",
+              "注意区分：electronic（电子的，指用电子元件工作的设备）/ electric（用电的、带电的，如 electric current）/ electrical（与电有关的，如 electrical engineering）/ electronics（电子学；电子设备）。"
+            ],
+            "paragraphRole": "用『新乐种兴起、旧乐种退场』摆出通行印象，为下句『有人开始怀疑它们是否还合时宜』蓄势。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 129,
+          "end": 247,
+          "text": "Some people are beginning to wonder whether opera and classical music are still relevant to the modern world of music.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 11,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 25,
+              "surface": "beginning",
+              "normalized": "beginning",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 28,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 35,
+              "surface": "wonder",
+              "normalized": "wonder",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 43,
+              "surface": "whether",
+              "normalized": "whether",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "surface": "opera",
+              "normalized": "opera",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 53,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 63,
+              "surface": "classical",
+              "normalized": "classical",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 69,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 73,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 79,
+              "surface": "still",
+              "normalized": "still",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 88,
+              "surface": "relevant",
+              "normalized": "relevant",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 91,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 95,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 102,
+              "surface": "modern",
+              "normalized": "modern",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 108,
+              "surface": "world",
+              "normalized": "world",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 111,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 117,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 118,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一些人正开始想知道歌剧和古典音乐是否仍然与现代音乐世界相关。",
+            "translationNatural": "于是有人犯嘀咕：这年头，歌剧和古典乐还算数吗？",
+            "structMarkup": "【Some people】 _are beginning to wonder_ {whether opera and classical music are still relevant to the modern world of music}.",
+            "structureSummary": "主谓 + 不定式作宾语（含 whether 宾语从句）",
+            "components": [
+              {
+                "part": "Some people",
+                "role": "主语",
+                "note": "不定代词 some 限定范围，不把怀疑说成所有人的看法"
+              },
+              {
+                "part": "are beginning to wonder",
+                "role": "谓语",
+                "note": "现在进行时加 begin to do，表示疑问刚冒头、正在滋长"
+              },
+              {
+                "part": "whether opera and classical music are still relevant to the modern world of music",
+                "role": "宾语从句",
+                "note": "whether 引导『是否』类宾语从句，用陈述语序；be relevant to 意为『与……有关、对……有意义』"
+              }
+            ],
+            "clauses": [
+              "宾语从句「whether opera and classical music are still relevant to the modern wor」：whether 引导『是否』类宾语从句，用陈述语序；be relevant to 意为『与……有关、对……有意义』",
+              "本句主干为「主谓 + 不定式作宾语（含 whether 宾语从句）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "wonder",
+                "meaning": "想知道、纳闷；惊奇",
+                "usage": "常见搭配：wonder why / wonder about。",
+                "example": "I wonder why he left. 我想知道他为什么走了。"
+              },
+              {
+                "text": "whether",
+                "meaning": "是否；无论（whether ... or ...）",
+                "usage": "注意区分：whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）。常见搭配：whether or not / whether to do。",
+                "example": "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）。",
+              "注意区分：still（仍然）/ yet（尚，多用于否定疑问）/ already（已经）。"
+            ],
+            "paragraphRole": "把上句的『退场印象』转成明确疑问，给第三句 Granted 的让步与反转立靶子。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 248,
+          "end": 441,
+          "text": "Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators that both opera and classical music are now still quite alive.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "Granted",
+              "normalized": "granted",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 31,
+              "surface": "typically",
+              "normalized": "typically",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "see",
+              "normalized": "see",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 43,
+              "surface": "today's",
+              "normalized": "today's",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 53,
+              "surface": "teenagers",
+              "normalized": "teenagers",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 61,
+              "surface": "lending",
+              "normalized": "lending",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 67,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 72,
+              "surface": "ears",
+              "normalized": "ears",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 75,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 80,
+              "surface": "Bach",
+              "normalized": "bach",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 88,
+              "surface": "anytime",
+              "normalized": "anytime",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 93,
+              "surface": "soon",
+              "normalized": "soon",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 94,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 95,
+              "end": 98,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 104,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 108,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 113,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 119,
+              "surface": "major",
+              "normalized": "major",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 130,
+              "surface": "indicators",
+              "normalized": "indicators",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 135,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 140,
+              "surface": "both",
+              "normalized": "both",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 146,
+              "surface": "opera",
+              "normalized": "opera",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 150,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 160,
+              "surface": "classical",
+              "normalized": "classical",
+              "isWord": true
+            },
+            {
+              "start": 161,
+              "end": 166,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 170,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 171,
+              "end": 174,
+              "surface": "now",
+              "normalized": "now",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 180,
+              "surface": "still",
+              "normalized": "still",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 186,
+              "surface": "quite",
+              "normalized": "quite",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 192,
+              "surface": "alive",
+              "normalized": "alive",
+              "isWord": true
+            },
+            {
+              "start": 192,
+              "end": 193,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "诚然，你通常不会很快看到如今的青少年把他们的耳朵借给巴赫，但是有一些重要的指标表明歌剧和古典音乐如今仍然相当活着。",
+            "translationNatural": "没错，别指望现在的年轻人会突然迷上巴赫；可有好几处硬迹象说明，这两样其实还活得好好的。",
+            "structMarkup": "(Granted), you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators {that both opera and classical music are now still quite alive}.",
+            "structureSummary": "让步评注（Granted）+ 并列句（but 连接：主谓宾 + 现在分词宾补 / There be 句型 + 同位语从句 that 引导）",
+            "components": [
+              {
+                "part": "Granted",
+                "role": "状语",
+                "note": "评注性状语，先承认对方有理，等于『诚然、就算如此』，为 but 蓄力"
+              },
+              {
+                "part": "you will not typically see today's teenagers lending their ears to Bach anytime soon",
+                "role": "分句",
+                "note": "see sb doing 现在分词作宾补；lend one's ears to 意为『倾听』，anytime soon 加强『短期内别想』"
+              },
+              {
+                "part": "but",
+                "role": "连词",
+                "note": "把让步翻成全文主张"
+              },
+              {
+                "part": "there are some major indicators",
+                "role": "分句",
+                "note": "There be 句型，indicators 是后文要逐条展开的线索"
+              },
+              {
+                "part": "that both opera and classical music are now still quite alive",
+                "role": "同位语从句",
+                "note": "that 说明 indicators 的内容；still quite alive 与首句 fade away 直接对冲，亮出作者立场，对应第 51 题"
+              }
+            ],
+            "clauses": [
+              "同位语从句「that both opera and classical music are now still quite alive」：that 说明 indicators 的内容；still quite alive 与首句 fade away 直接对冲，亮出作者立场，对应第 51 题",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。",
+              "并列关联连词连接两个平行成分，前后词性须一致。"
+            ],
+            "phrases": [
+              {
+                "text": "soon",
+                "meaning": "不久、很快",
+                "usage": "注意区分：soon（不久）/ early（早）/ quickly（快）。常见搭配：as soon as / soon after。",
+                "example": "He was retired soon after. 他不久后就退役了。"
+              },
+              {
+                "text": "major in",
+                "meaning": "主要的（形容词）；专业（名词）；主修（动词）",
+                "usage": "注意区分：major（主要的/主修）/ majority（多数）/ minor（次要的）。常见搭配：a major change / major in。",
+                "example": "A major shift is under way. 一场重大转变正在发生。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "both...and / either...or / neither...nor 是固定配对，不能交叉混用。"
+            ],
+            "paragraphRole": "先退一步承认表层现象，再用 but 抛出全文论点：古典乐与歌剧仍有生命力，正是第 51 题的落点。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it is subtle and just shows the impact symphonic(交响乐的) orchestras have had on society's taste in music.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 262,
+          "text": "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "major",
+              "normalized": "major",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 24,
+              "surface": "indicator",
+              "normalized": "indicator",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 37,
+              "surface": "classical",
+              "normalized": "classical",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 45,
+              "surface": "music's",
+              "normalized": "music's",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 56,
+              "surface": "importance",
+              "normalized": "importance",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 59,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 67,
+              "surface": "society",
+              "normalized": "society",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 73,
+              "surface": "today",
+              "normalized": "today",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 80,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 85,
+              "surface": "fact",
+              "normalized": "fact",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 90,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 95,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 102,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 110,
+              "surface": "popular",
+              "normalized": "popular",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 116,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 121,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 124,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 134,
+              "surface": "currently",
+              "normalized": "currently",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 140,
+              "surface": "being",
+              "normalized": "being",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 149,
+              "surface": "produced",
+              "normalized": "produced",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 154,
+              "surface": "uses",
+              "normalized": "uses",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 162,
+              "surface": "similar",
+              "normalized": "similar",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 168,
+              "surface": "beats",
+              "normalized": "beats",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 169,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 170,
+              "end": 179,
+              "surface": "harmonies",
+              "normalized": "harmonies",
+              "isWord": true
+            },
+            {
+              "start": 179,
+              "end": 180,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 181,
+              "end": 184,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 185,
+              "end": 193,
+              "surface": "melodies",
+              "normalized": "melodies",
+              "isWord": true
+            },
+            {
+              "start": 193,
+              "end": 197,
+              "surface": "(旋律)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 198,
+              "end": 200,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 201,
+              "end": 206,
+              "surface": "those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 207,
+              "end": 211,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 212,
+              "end": 216,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 217,
+              "end": 221,
+              "surface": "used",
+              "normalized": "used",
+              "isWord": true
+            },
+            {
+              "start": 222,
+              "end": 224,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 225,
+              "end": 229,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 230,
+              "end": 232,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 233,
+              "end": 242,
+              "surface": "classical",
+              "normalized": "classical",
+              "isWord": true
+            },
+            {
+              "start": 243,
+              "end": 250,
+              "surface": "music's",
+              "normalized": "music's",
+              "isWord": true
+            },
+            {
+              "start": 251,
+              "end": 255,
+              "surface": "best",
+              "normalized": "best",
+              "isWord": true
+            },
+            {
+              "start": 256,
+              "end": 261,
+              "surface": "works",
+              "normalized": "works",
+              "isWord": true
+            },
+            {
+              "start": 261,
+              "end": 262,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "古典音乐在当今社会中重要性的最主要的指标是这样一个事实：目前被制作的大量流行音乐使用与那些被用在古典音乐一些最优秀作品中的相似的节拍、和声和旋律(旋律)。",
+            "translationNatural": "最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。",
+            "structMarkup": "【The most major indicator of classical music's importance in society today】 _is the fact_ {that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律)} (as those that were used in some of classical music's best works).",
+            "structureSummary": "主系表 + 同位语从句（that 引导，含 that 定语从句、similar...as 比较结构与 that 定语从句）",
+            "components": [
+              {
+                "part": "The most major indicator of classical music's importance in society today",
+                "role": "主语",
+                "note": "核心词 indicator；两层 of 短语限定『谁的重要性、在哪个时空』，故谓语用单数 is"
+              },
+              {
+                "part": "is the fact",
+                "role": "系动词",
+                "note": "表语先用抽象名词 the fact 兜住后面整句内容"
+              },
+              {
+                "part": "that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律)",
+                "role": "同位语从句",
+                "note": "that 说明 fact 的内容；从句主语 much of the popular music 后接 that 引导的定语从句（现在进行时被动），谓语用 uses"
+              },
+              {
+                "part": "as those that were used in some of classical music's best works",
+                "role": "状语",
+                "note": "similar...as 引出比较对象；those 回指前面三类元素，后接 that 定语从句；卷面中文括注 melodies(旋律) 须原样保留"
+              }
+            ],
+            "clauses": [
+              "同位语从句「that much of the popular music that is currently being produced uses s」：that 说明 fact 的内容；从句主语 much of the popular music 后接 that 引导的定语从句（现在进行时被动），谓语用 uses",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "major in",
+                "meaning": "主要的（形容词）；专业（名词）；主修（动词）",
+                "usage": "注意区分：major（主要的/主修）/ majority（多数）/ minor（次要的）。常见搭配：a major change / major in。",
+                "example": "A major shift is under way. 一场重大转变正在发生。"
+              },
+              {
+                "text": "importance",
+                "meaning": "重要性、重大、价值（of importance 重要的）",
+                "usage": "注意区分：importance（重要性，不可数）/ attach importance to（重视，to 是介词，接名词/doing）/ of importance = important / importantly（副词，more importantly 更重要的）。",
+                "example": "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+              },
+              {
+                "text": "society",
+                "meaning": "社会；社团",
+                "usage": "常见搭配：as a society。",
+                "example": "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：major（主要的/主修）/ majority（多数）/ minor（次要的）。",
+              "注意区分：importance（重要性，不可数）/ attach importance to（重视，to 是介词，接名词/doing）/ of importance = important / importantly（副词，more importantly 更重要的）。"
+            ],
+            "paragraphRole": "给出第一条硬指标——流行乐在借用古典乐的元素，直接支撑第 52 题。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 263,
+          "end": 470,
+          "text": "Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it is subtle and just shows the impact symphonic(交响乐的) orchestras have had on society's taste in music.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Even",
+              "normalized": "even",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "so",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 18,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "surface": "difficult",
+              "normalized": "difficult",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 42,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 49,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 55,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 61,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 68,
+              "surface": "theory",
+              "normalized": "theory",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 71,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "see",
+              "normalized": "see",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 80,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 83,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 86,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 96,
+              "surface": "indicator",
+              "normalized": "indicator",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 97,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 98,
+              "end": 103,
+              "surface": "since",
+              "normalized": "since",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 106,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 109,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 116,
+              "surface": "subtle",
+              "normalized": "subtle",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 120,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 125,
+              "surface": "just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 131,
+              "surface": "shows",
+              "normalized": "shows",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 135,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 142,
+              "surface": "impact",
+              "normalized": "impact",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 152,
+              "surface": "symphonic",
+              "normalized": "symphonic",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 158,
+              "surface": "(交响乐的)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 159,
+              "end": 169,
+              "surface": "orchestras",
+              "normalized": "orchestras",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 174,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 178,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 179,
+              "end": 181,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 182,
+              "end": 191,
+              "surface": "society's",
+              "normalized": "society's",
+              "isWord": true
+            },
+            {
+              "start": 192,
+              "end": 197,
+              "surface": "taste",
+              "normalized": "taste",
+              "isWord": true
+            },
+            {
+              "start": 198,
+              "end": 200,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 201,
+              "end": 206,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 206,
+              "end": 207,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "即便如此，对那些不研究乐理的人来说，把这个看作一个指标可能是困难的，因为它是微妙的，并且只是展示了交响乐的(交响乐的)管弦乐团对社会音乐趣味已经产生的影响。",
+            "translationNatural": "话虽如此，没学过乐理的人未必看得出门道——这种借用太隐蔽，顶多让人觉出交响乐的(交响乐的)乐团早就塑造了大众的口味。",
+            "structMarkup": "(Even so), _it can be difficult_ 【for those who do not study music theory to see this as an indicator】, {since it is subtle and just shows the impact} {symphonic(交响乐的) orchestras have had on society's taste in music}.",
+            "structureSummary": "状语（Even so）+ it 形式主语 + 不定式作真主语（含 who 定语从句与 see...as 宾补）+ 原因状语从句（since 引导，含省略关系代词的定语从句）",
+            "components": [
+              {
+                "part": "Even so",
+                "role": "状语",
+                "note": "承接上句，先承认这条指标不易被察觉"
+              },
+              {
+                "part": "it can be difficult",
+                "role": "系动词",
+                "note": "it 是形式主语，真正主语是后面的不定式"
+              },
+              {
+                "part": "for those who do not study music theory to see this as an indicator",
+                "role": "主语",
+                "note": "for sb to do 给不定式带逻辑主语；who 引导定语从句修饰 those；see A as B 意为『把 A 看作 B』"
+              },
+              {
+                "part": "since it is subtle and just shows the impact",
+                "role": "状语从句",
+                "note": "since 表原因，is / shows 两个并列谓语，subtle 点明『隐蔽』正是难被看出的原因"
+              },
+              {
+                "part": "symphonic(交响乐的) orchestras have had on society's taste in music",
+                "role": "定语从句",
+                "note": "修饰 the impact 且省略关系代词，用 have an impact on 的完成时；卷面中文括注 symphonic(交响乐的) 须照抄"
+              }
+            ],
+            "clauses": [
+              "状语从句「since it is subtle and just shows the impact」：since 表原因，is / shows 两个并列谓语，subtle 点明『隐蔽』正是难被看出的原因",
+              "定语从句「symphonic(交响乐的) orchestras have had on society's taste in music」：修饰 the impact 且省略关系代词，用 have an impact on 的完成时；卷面中文括注 symphonic(交响乐的) 须照抄",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。"
+            ],
+            "phrases": [
+              {
+                "text": "difficult",
+                "meaning": "困难的；难以……的",
+                "usage": "常见搭配：difficult to do / a difficult choice。",
+                "example": "This word is difficult to pronounce. 这个词很难念。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "theory",
+                "meaning": "理论、学说、原理、论说；看法、推测（in theory 理论上）",
+                "usage": "注意区分：theory（理论、学说）/ in theory（理论上，反义 in practice 实际上）/ hypothesis（假说，待验证）/ theoretical（理论的）/ practice（实践，相对）/ the theory that…（同位语从句）。",
+                "example": "Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it is subtle and just shows the impact symphonic(交响乐的) orchestras have had on society's taste in music. 话虽如此，没学过乐理的人未必看得出门道——这种借用太隐蔽，顶多让人觉出交响乐的(交响乐的)乐团早就塑造了大众的口味。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "注意区分：study（研究，可数）/ research（研究，不可数）。",
+              "注意区分：theory（理论、学说）/ in theory（理论上，反义 in practice 实际上）/ hypothesis（假说，待验证）/ theoretical（理论的）/ practice（实践，相对）/ the theory that…（同位语从句）。"
+            ],
+            "paragraphRole": "补一句限定：这条指标太含蓄、外行看不出，顺势把论证推向下段更直观的摇滚歌剧。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "A better example for the relevance of opera and classical music can be seen in the invention of the rock opera. Opera, in its simplest definition, is telling a story using music as its form. The art of telling a story using music has not faded in the least bit. In fact, sometimes actual orchestras are used for major parts of the opera itself. Some of the world's greatest hits have been parts of rock operas.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 111,
+          "text": "A better example for the relevance of opera and classical music can be seen in the invention of the rock opera.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "A",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 8,
+              "surface": "better",
+              "normalized": "better",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 16,
+              "surface": "example",
+              "normalized": "example",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 34,
+              "surface": "relevance",
+              "normalized": "relevance",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 43,
+              "surface": "opera",
+              "normalized": "opera",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 47,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 57,
+              "surface": "classical",
+              "normalized": "classical",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 63,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 67,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "seen",
+              "normalized": "seen",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 82,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 92,
+              "surface": "invention",
+              "normalized": "invention",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 95,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 99,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 104,
+              "surface": "rock",
+              "normalized": "rock",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 110,
+              "surface": "opera",
+              "normalized": "opera",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 111,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一个关于歌剧和古典音乐相关性的更好的例子可以在摇滚歌剧的发明中被看到。",
+            "translationNatural": "要说歌剧和古典乐没过时，摇滚歌剧的诞生是个更直白的例子。",
+            "structMarkup": "【A better example for the relevance of opera and classical music】 _can be seen_ (in the invention of the rock opera).",
+            "structureSummary": "主谓（被动语态）+ 状语",
+            "components": [
+              {
+                "part": "A better example for the relevance of opera and classical music",
+                "role": "主语",
+                "note": "better 与上段那条『含蓄指标』比较；for 短语限定例子要证明什么"
+              },
+              {
+                "part": "can be seen",
+                "role": "谓语",
+                "note": "情态动词加被动语态，语气留余地"
+              },
+              {
+                "part": "in the invention of the rock opera",
+                "role": "状语",
+                "note": "in 点明例子的落点，呼应第 53 题所问的『为何提摇滚歌剧』"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主谓（被动语态）+ 状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "better",
+                "meaning": "更好的；更好地（good/well 的比较级）",
+                "usage": "注意区分：better（更好）/ had better（最好，后接动词原形）。常见搭配：better than / a better understanding。",
+                "example": "Sleep is better than more coffee. 睡眠比多喝咖啡更管用。"
+              },
+              {
+                "text": "example",
+                "meaning": "例子、实例；榜样",
+                "usage": "注意区分：for example（插入语，缩写 e.g.）/ such as（后接名词）。常见搭配：for example / an example of。",
+                "example": "For example, texting and reading coexist. 例如，发短信和读书并存。"
+              },
+              {
+                "text": "seen",
+                "meaning": "see 的过去分词（被看见）",
+                "usage": "注意区分：seen（过去分词）/ saw（过去式）/ scene（场景）。常见搭配：have seen / be seen as。",
+                "example": "This has long been seen as normal. 这长期被视为正常。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：better（更好）/ had better（最好，后接动词原形）。",
+              "注意区分：for example（插入语，缩写 e.g.）/ such as（后接名词）。"
+            ],
+            "paragraphRole": "承上启下，用 better 换掉上段不够直观的指标，领起本段对摇滚歌剧的展开。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 112,
+          "end": 190,
+          "text": "Opera, in its simplest definition, is telling a story using music as its form.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Opera",
+              "normalized": "opera",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "surface": "its",
+              "normalized": "its",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 22,
+              "surface": "simplest",
+              "normalized": "simplest",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 33,
+              "surface": "definition",
+              "normalized": "definition",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 34,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 45,
+              "surface": "telling",
+              "normalized": "telling",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 53,
+              "surface": "story",
+              "normalized": "story",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 59,
+              "surface": "using",
+              "normalized": "using",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 65,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 72,
+              "surface": "its",
+              "normalized": "its",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 77,
+              "surface": "form",
+              "normalized": "form",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 78,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "歌剧，用它最简单的定义来说，是用音乐作为它的形式讲一个故事。",
+            "translationNatural": "说到底，歌剧就是拿音乐当壳子来讲故事。",
+            "structMarkup": "【Opera】, (in its simplest definition), _is telling a story_ (using music as its form).",
+            "structureSummary": "主系表 + 插入语 + 动名词短语作表语",
+            "components": [
+              {
+                "part": "Opera",
+                "role": "主语",
+                "note": "抽象名词作主语，系动词用 is"
+              },
+              {
+                "part": "in its simplest definition",
+                "role": "插入语",
+                "note": "前后逗号隔开，先把定义收窄到最简版本，避免概念纠缠"
+              },
+              {
+                "part": "is telling a story",
+                "role": "系动词",
+                "note": "动名词短语作表语，说明歌剧的本质是『讲故事』"
+              },
+              {
+                "part": "using music as its form",
+                "role": "状语",
+                "note": "现在分词短语作方式；use A as B 意为『把 A 当作 B』"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表 + 插入语 + 动名词短语作表语」。"
+            ],
+            "phrases": [
+              {
+                "text": "telling",
+                "meaning": "告诉、讲述；分辨、判断；吩咐（本文 tell A from B 区分 A 与 B / we often tell ourselves 我们常告诉自己）（tell 的现在分词/动名词形式）",
+                "usage": "注意区分：telling（现在分词/动名词）/ tell（原形）。",
+                "example": "Opera, in its simplest definition, is telling a story using music as its form. 说到底，歌剧就是拿音乐当壳子来讲故事。"
+              },
+              {
+                "text": "using",
+                "meaning": "use 的现在分词（使用）",
+                "usage": "注意区分：using（现在分词）/ used（过去式/过去分词）。常见搭配：by using sth / using data。",
+                "example": "Results improve by using existing technology. 使用现有技术就能改善结果。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：telling（现在分词/动名词）/ tell（原形）。",
+              "注意区分：using（现在分词）/ used（过去式/过去分词）。"
+            ],
+            "paragraphRole": "先给歌剧下个最简定义，好让下句论证『用音乐讲故事这门手艺并没消失』。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 191,
+          "end": 261,
+          "text": "The art of telling a story using music has not faded in the least bit.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "surface": "art",
+              "normalized": "art",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 18,
+              "surface": "telling",
+              "normalized": "telling",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 20,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "story",
+              "normalized": "story",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "using",
+              "normalized": "using",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 42,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 46,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "faded",
+              "normalized": "faded",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 55,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 59,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 65,
+              "surface": "least",
+              "normalized": "least",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 69,
+              "surface": "bit",
+              "normalized": "bit",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 70,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "用音乐讲故事的艺术一点也没有消退。",
+            "translationNatural": "拿音乐叙事这套本事，压根儿就没丢。",
+            "structMarkup": "【The art of telling a story using music】 _has not faded_ (in the least bit).",
+            "structureSummary": "主谓（现在完成时否定）+ 程度状语",
+            "components": [
+              {
+                "part": "The art of telling a story using music",
+                "role": "主语",
+                "note": "核心词 art；of 后接动名词短语，using music 再作方式，三层叠出『用音乐叙事的艺术』"
+              },
+              {
+                "part": "has not faded",
+                "role": "谓语",
+                "note": "现在完成时否定，表示从过去到现在都没断"
+              },
+              {
+                "part": "in the least bit",
+                "role": "状语",
+                "note": "固定短语『丝毫、一点也』加强否定，与首段 fade away 形成呼应式反驳"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓（现在完成时否定）+ 程度状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "telling",
+                "meaning": "告诉、讲述；分辨、判断；吩咐（本文 tell A from B 区分 A 与 B / we often tell ourselves 我们常告诉自己）（tell 的现在分词/动名词形式）",
+                "usage": "注意区分：telling（现在分词/动名词）/ tell（原形）。",
+                "example": "The art of telling a story using music has not faded in the least bit. 拿音乐叙事这套本事，压根儿就没丢。"
+              },
+              {
+                "text": "using",
+                "meaning": "use 的现在分词（使用）",
+                "usage": "注意区分：using（现在分词）/ used（过去式/过去分词）。常见搭配：by using sth / using data。",
+                "example": "Results improve by using existing technology. 使用现有技术就能改善结果。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：telling（现在分词/动名词）/ tell（原形）。",
+              "注意区分：using（现在分词）/ used（过去式/过去分词）。"
+            ],
+            "paragraphRole": "把上句的定义接回『没消失』，为摇滚歌剧这个现代变体提供合法性。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 262,
+          "end": 344,
+          "text": "In fact, sometimes actual orchestras are used for major parts of the opera itself.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 7,
+              "surface": "fact",
+              "normalized": "fact",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 18,
+              "surface": "sometimes",
+              "normalized": "sometimes",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "surface": "actual",
+              "normalized": "actual",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 36,
+              "surface": "orchestras",
+              "normalized": "orchestras",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 45,
+              "surface": "used",
+              "normalized": "used",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 49,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 55,
+              "surface": "major",
+              "normalized": "major",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 61,
+              "surface": "parts",
+              "normalized": "parts",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 64,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 68,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 74,
+              "surface": "opera",
+              "normalized": "opera",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 81,
+              "surface": "itself",
+              "normalized": "itself",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 82,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "事实上，有时真正的管弦乐团被用于歌剧本身的主要部分。",
+            "translationNatural": "甚至有些摇滚歌剧的大段配乐，直接就是真管弦乐团上阵。",
+            "structMarkup": "(In fact), sometimes 【actual orchestras】 _are used_ (for major parts of the opera itself).",
+            "structureSummary": "状语 + 主谓（被动语态）+ 状语",
+            "components": [
+              {
+                "part": "In fact",
+                "role": "状语",
+                "note": "追加确认，把话说得更实"
+              },
+              {
+                "part": "actual orchestras",
+                "role": "主语",
+                "note": "actual 强调『货真价实的』管弦乐团，而非合成音色"
+              },
+              {
+                "part": "are used",
+                "role": "谓语",
+                "note": "被动语态一般现在时，说明这是常见做法"
+              },
+              {
+                "part": "for major parts of the opera itself",
+                "role": "状语",
+                "note": "for 限定用在哪些段落；itself 回指这部摇滚歌剧"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「状语 + 主谓（被动语态）+ 状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "In fact",
+                "meaning": "事实上",
+                "usage": "作插入语，用于强调或修正前文。",
+                "example": "In fact, no one objected. 事实上没人反对。"
+              },
+              {
+                "text": "used",
+                "meaning": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+                "usage": "注意区分：used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）。常见搭配：used to do / be used to doing。",
+                "example": "They used flexible work arrangements. 他们使用了弹性工作安排。"
+              },
+              {
+                "text": "major",
+                "meaning": "主要的（形容词）；专业（名词）；主修（动词）",
+                "usage": "注意区分：major（主要的/主修）/ majority（多数）/ minor（次要的）。常见搭配：a major change / major in。",
+                "example": "A major shift is under way. 一场重大转变正在发生。"
+              }
+            ],
+            "pitfalls": [
+              "in fact 是副词性插入语，不能当连词连接两个分句。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "补一个具体细节，说明古典编制甚至直接进场，进一步坐实两者关联。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 345,
+          "end": 410,
+          "text": "Some of the world's greatest hits have been parts of rock operas.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 19,
+              "surface": "world's",
+              "normalized": "world's",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 28,
+              "surface": "greatest",
+              "normalized": "greatest",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 33,
+              "surface": "hits",
+              "normalized": "hits",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 38,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "been",
+              "normalized": "been",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "surface": "parts",
+              "normalized": "parts",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 57,
+              "surface": "rock",
+              "normalized": "rock",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 64,
+              "surface": "operas",
+              "normalized": "operas",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 65,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一些世界上最热门的金曲曾经是摇滚歌剧的片段。",
+            "translationNatural": "全球好几首传唱最广的金曲，本来就是摇滚歌剧里的一截。",
+            "structMarkup": "【Some of the world's greatest hits】 _have been_ ~parts of rock operas~.",
+            "structureSummary": "主系表（现在完成时）+ 介词短语作表语",
+            "components": [
+              {
+                "part": "Some of the world's greatest hits",
+                "role": "主语",
+                "note": "some of + 最高级 + 复数名词，谓语用 have been"
+              },
+              {
+                "part": "have been",
+                "role": "系动词",
+                "note": "现在完成时，表示这些金曲与摇滚歌剧的渊源至今仍有据可查"
+              },
+              {
+                "part": "parts of rock operas",
+                "role": "表语",
+                "note": "of 短语说明归属，把『高雅歌剧』与『流行金曲』连到一处"
+              }
+            ],
+            "clauses": [
+              "have + 过去分词构成完成时态，强调对现在的影响或动作的先后。",
+              "本句主干为「主系表（现在完成时）+ 介词短语作表语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "world's",
+                "meaning": "世界的（world 的所有格）",
+                "usage": "注意区分：world's（世界的）/ worlds（多个世界）。常见搭配：the world's population / around the world。",
+                "example": "He surprised sporting fans around the world. 他让全世界的赛马迷震惊。"
+              },
+              {
+                "text": "greatest",
+                "meaning": "巨大的；很棒的；重要的（great 的最高级形式）",
+                "usage": "注意区分：greatest（最高级）/ great（原形）。",
+                "example": "Some of the world's greatest hits have been parts of rock operas. 全球好几首传唱最广的金曲，本来就是摇滚歌剧里的一截。"
+              },
+              {
+                "text": "hits",
+                "meaning": "hit 的第三人称单数（打击）；热门（复数）",
+                "usage": "注意区分：hits（三单）/ hit（原形，三态同形）。常见搭配：hits the target / a hit。",
+                "example": "The drop in yields hits farmers hardest. 产量下降对农民打击最大。"
+              }
+            ],
+            "pitfalls": [
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。",
+              "注意区分：world's（世界的）/ worlds（多个世界）。",
+              "注意区分：greatest（最高级）/ great（原形）。"
+            ],
+            "paragraphRole": "用最通俗的『金曲』收尾，证明摇滚歌剧确有大众影响力，把本段例子落到实绩上。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "Fans of classical music can also tell you that there are few types of music that are more expressive. So, it should come as no surprise to anyone that classical music pieces are still used as background music in modern movies. Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures. These are often very well received amongst mainstream music fans.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 101,
+          "text": "Fans of classical music can also tell you that there are few types of music that are more expressive.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Fans",
+              "normalized": "fans",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 17,
+              "surface": "classical",
+              "normalized": "classical",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 23,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 32,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "tell",
+              "normalized": "tell",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 41,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 56,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "few",
+              "normalized": "few",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 66,
+              "surface": "types",
+              "normalized": "types",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 69,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 80,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 84,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 89,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 100,
+              "surface": "expressive",
+              "normalized": "expressive",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 101,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "古典音乐的爱好者也能告诉你：几乎没有几种音乐类型是比它更有表现力的。",
+            "translationNatural": "古典乐迷还会补一句：论表现力，能压过它的真没几种。",
+            "structMarkup": "【Fans of classical music】 _can also tell you_ {that there are few types of music that are more expressive}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，含 There be 句型、that 定语从句与比较结构）",
+            "components": [
+              {
+                "part": "Fans of classical music",
+                "role": "主语",
+                "note": "of 短语限定是哪类人，借乐迷之口给出评价"
+              },
+              {
+                "part": "can also tell you",
+                "role": "谓语",
+                "note": "also 追加一条理由；tell sb that 为双宾加从句"
+              },
+              {
+                "part": "that there are few types of music that are more expressive",
+                "role": "宾语从句",
+                "note": "There be 句型；few 含否定意味，that are more expressive 是修饰 types 的定语从句，比较级暗示『古典乐表现力几乎最强』"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that there are few types of music that are more expressive」：There be 句型；few 含否定意味，that are more expressive 是修饰 types 的定语从句，比较级暗示『古典乐表现力几乎最强』",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。"
+            ],
+            "phrases": [
+              {
+                "text": "types of",
+                "meaning": "类型（type 的复数）；打字（动词三单）",
+                "usage": "注意区分：types（类型）/ kind（种类）/ sort（类，口语）。常见搭配：types of / different types。",
+                "example": "Different types of data tell different stories. 不同类型的数据说出不同的故事。"
+              },
+              {
+                "text": "Fans",
+                "meaning": "迷、粉丝、狂热爱好者；风扇、扇子（fan 的复数）；扇、吹、煽动（三单；影视/体育话题常指粉丝）",
+                "usage": "本句中作n./v.，可按「主谓 + 宾语从句（that 引导，含 There be 句型、that 定语从句与比较结构）」定位它在句中的位置。",
+                "example": "Fans of classical music can also tell you that there are few types of music that are more expressive. 古典乐迷还会补一句：论表现力，能压过它的真没几种。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "注意区分：types（类型）/ kind（种类）/ sort（类，口语）。"
+            ],
+            "paragraphRole": "换一条理由（表现力）解释古典乐为何被电影沿用，直接对应第 54 题。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 102,
+          "end": 226,
+          "text": "So, it should come as no surprise to anyone that classical music pieces are still used as background music in modern movies.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "So",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "surface": "should",
+              "normalized": "should",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "come",
+              "normalized": "come",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "no",
+              "normalized": "no",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 33,
+              "surface": "surprise",
+              "normalized": "surprise",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 43,
+              "surface": "anyone",
+              "normalized": "anyone",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 58,
+              "surface": "classical",
+              "normalized": "classical",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 64,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 71,
+              "surface": "pieces",
+              "normalized": "pieces",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 81,
+              "surface": "still",
+              "normalized": "still",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 86,
+              "surface": "used",
+              "normalized": "used",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 100,
+              "surface": "background",
+              "normalized": "background",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 106,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 109,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 116,
+              "surface": "modern",
+              "normalized": "modern",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 123,
+              "surface": "movies",
+              "normalized": "movies",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 124,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "所以，古典乐曲仍被用作现代电影中的背景音乐这件事，对任何人都不应该作为一个意外到来。",
+            "translationNatural": "这么一来，现代电影还拿古典乐当配乐，也就一点不奇怪了。",
+            "structMarkup": "(So), _it should come as no surprise to anyone_ {that classical music pieces are still used as background music in modern movies}.",
+            "structureSummary": "状语（So）+ it 形式主语 + 主语从句（that 引导，被动语态）",
+            "components": [
+              {
+                "part": "So",
+                "role": "状语",
+                "note": "承接上句『表现力最强』，引出顺理成章的结果"
+              },
+              {
+                "part": "it should come as no surprise to anyone",
+                "role": "谓语",
+                "note": "it 形式主语；come as no surprise 意为『并不令人意外』，should 留有余地"
+              },
+              {
+                "part": "that classical music pieces are still used as background music in modern movies",
+                "role": "主语从句",
+                "note": "真正主语；be used as 意为『被用作』，still 点明沿用至今，正是第 54 题所问的现象"
+              }
+            ],
+            "clauses": [
+              "主语从句「that classical music pieces are still used as background music in mode」：真正主语；be used as 意为『被用作』，still 点明沿用至今，正是第 54 题所问的现象",
+              "本句主干为「状语（So）+ it 形式主语 + 主语从句（that 引导，被动语态）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "come",
+                "meaning": "来；出现；come from（来自）",
+                "usage": "注意区分：come（来）/ go（去）。常见搭配：come from / come out。",
+                "example": "Fewer readers come from that background. 来自那种背景的读者更少。"
+              },
+              {
+                "text": "pieces",
+                "meaning": "一片、一块、一段、一件；片段、部件、（文章/作品的）一篇（piece 的复数/三单形式）",
+                "usage": "注意区分：pieces（复数/三单）/ piece（原形）。",
+                "example": "So, it should come as no surprise to anyone that classical music pieces are still used as background music in modern movies. 这么一来，现代电影还拿古典乐当配乐，也就一点不奇怪了。"
+              },
+              {
+                "text": "used",
+                "meaning": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+                "usage": "注意区分：used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）。常见搭配：used to do / be used to doing。",
+                "example": "They used flexible work arrangements. 他们使用了弹性工作安排。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：come（来）/ go（去）。",
+              "注意区分：pieces（复数/三单）/ piece（原形）。",
+              "注意区分：still（仍然）/ yet（尚，多用于否定疑问）/ already（已经）。"
+            ],
+            "paragraphRole": "把『表现力强』与『电影配乐』用 So 扣成因果，替第 54 题给出题干现象。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 227,
+          "end": 349,
+          "text": "Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "Symphonic",
+              "normalized": "symphonic",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 19,
+              "surface": "orchestra",
+              "normalized": "orchestra",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 32,
+              "surface": "compositions",
+              "normalized": "compositions",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 42,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "been",
+              "normalized": "been",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 55,
+              "surface": "created",
+              "normalized": "created",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 62,
+              "surface": "solely",
+              "normalized": "solely",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 66,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 78,
+              "surface": "purpose",
+              "normalized": "purpose",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 87,
+              "surface": "being",
+              "normalized": "being",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 96,
+              "surface": "included",
+              "normalized": "included",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 99,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 105,
+              "surface": "major",
+              "normalized": "major",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 112,
+              "surface": "motion",
+              "normalized": "motion",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 121,
+              "surface": "pictures",
+              "normalized": "pictures",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 122,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "交响乐的管弦乐作品也曾经仅仅为了被纳入大型电影的目的而被创作。",
+            "translationNatural": "甚至有交响曲目是专为大片配乐才写出来的。",
+            "structMarkup": "【Symphonic orchestra compositions】 _have also been created_ (solely for the purpose of being included in major motion pictures).",
+            "structureSummary": "主谓（现在完成时被动）+ 状语（for the purpose of + 动名词被动）",
+            "components": [
+              {
+                "part": "Symphonic orchestra compositions",
+                "role": "主语",
+                "note": "复数名词短语，谓语用 have been created"
+              },
+              {
+                "part": "have also been created",
+                "role": "谓语",
+                "note": "现在完成时被动，also 追加一例"
+              },
+              {
+                "part": "solely for the purpose of being included in major motion pictures",
+                "role": "状语",
+                "note": "for the purpose of 后接动名词；being included 是被动式，solely 强调『唯一目的就是进电影』"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主谓（现在完成时被动）+ 状语（for the purpose of + 动名词被动）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "created",
+                "meaning": "创造、造成（create sth）（create 的过去式/过去分词形式）",
+                "usage": "注意区分：created（过去式/过去分词）/ create（原形）。",
+                "example": "Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures. 甚至有交响曲目是专为大片配乐才写出来的。"
+              },
+              {
+                "text": "purpose",
+                "meaning": "目的、意图",
+                "usage": "常见搭配：the ultimate purpose / on purpose。",
+                "example": "What is the purpose of this rule? 这条规定的目的是什么？"
+              },
+              {
+                "text": "included",
+                "meaning": "包括、包含；把…列为一部分（本文 which will include my family, my hobbies, my workout 包括家人、爱好、健身）（include 的过去式/过去分词形式）",
+                "usage": "注意区分：included（过去式/过去分词）/ include（原形）。",
+                "example": "Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures. 甚至有交响曲目是专为大片配乐才写出来的。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：created（过去式/过去分词）/ create（原形）。",
+              "注意区分：included（过去式/过去分词）/ include（原形）。"
+            ],
+            "paragraphRole": "再补一例：不光『拿来用』，还有专门为大银幕新写的，把古典乐与电影的绑定说得更透。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 350,
+          "end": 415,
+          "text": "These are often very well received amongst mainstream music fans.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "These",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "often",
+              "normalized": "often",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "very",
+              "normalized": "very",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "well",
+              "normalized": "well",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 34,
+              "surface": "received",
+              "normalized": "received",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 42,
+              "surface": "amongst",
+              "normalized": "amongst",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 53,
+              "surface": "mainstream",
+              "normalized": "mainstream",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 59,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 64,
+              "surface": "fans",
+              "normalized": "fans",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 65,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这些常常在主流音乐爱好者中间被非常好评地接受。",
+            "translationNatural": "这类曲子在主流乐迷里往往还挺吃香。",
+            "structMarkup": "【These】 _are often very well received_ (amongst mainstream music fans).",
+            "structureSummary": "主系表（被动语态）+ 状语",
+            "components": [
+              {
+                "part": "These",
+                "role": "主语",
+                "note": "回指上句那些为电影而作的交响曲目"
+              },
+              {
+                "part": "are often very well received",
+                "role": "谓语",
+                "note": "被动语态，well received 意为『受欢迎、获好评』，often / very 限定程度"
+              },
+              {
+                "part": "amongst mainstream music fans",
+                "role": "状语",
+                "note": "amongst 相当于 among，限定在主流乐迷这一群体，避免说成全民"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主系表（被动语态）+ 状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "well",
+                "meaning": "好地（副词）；健康的（形容词）；井（名词）",
+                "usage": "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。常见搭配：as well / well-being。",
+                "example": "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+              },
+              {
+                "text": "often",
+                "meaning": "经常、常常",
+                "usage": "本句中作adv.，可按「主系表（被动语态）+ 状语」定位它在句中的位置。",
+                "example": "These are often very well received amongst mainstream music fans. 这类曲子在主流乐迷里往往还挺吃香。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。"
+            ],
+            "paragraphRole": "用『主流乐迷也买账』收束本段，说明古典元素在当代并不小众。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "Classical music and opera are the very foundation of what our modern music is based upon. Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 89,
+          "text": "Classical music and opera are the very foundation of what our modern music is based upon.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "Classical",
+              "normalized": "classical",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 25,
+              "surface": "opera",
+              "normalized": "opera",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 33,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 38,
+              "surface": "very",
+              "normalized": "very",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 49,
+              "surface": "foundation",
+              "normalized": "foundation",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 57,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 61,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 68,
+              "surface": "modern",
+              "normalized": "modern",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 74,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 77,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 83,
+              "surface": "based",
+              "normalized": "based",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 88,
+              "surface": "upon",
+              "normalized": "upon",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "古典音乐和歌剧正是我们的现代音乐所基于于的那个基础。",
+            "translationNatural": "说到底，现代音乐是踩着古典乐和歌剧这块地基长出来的。",
+            "structMarkup": "【Classical music and opera】 _are the very foundation_ (of what our modern music is based upon).",
+            "structureSummary": "主系表 + 宾语从句（what 引导，作 upon 的宾语）",
+            "components": [
+              {
+                "part": "Classical music and opera",
+                "role": "主语",
+                "note": "两个并列名词，回扣全篇主题"
+              },
+              {
+                "part": "are the very foundation",
+                "role": "系动词",
+                "note": "very 作形容词强调『正是、恰恰是』，把两者定位成根基"
+              },
+              {
+                "part": "of what our modern music is based upon",
+                "role": "定语",
+                "note": "what 引导宾语从句作 of 的宾语；be based upon 意为『以……为基础』，介词 upon 悬在句末"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主系表 + 宾语从句（what 引导，作 upon 的宾语）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "based",
+                "meaning": "base 的过去式/过去分词；（be based on）基于",
+                "usage": "注意区分：based on（基于，被动/状语）/ basing on（主动，主语须是人）。常见搭配：be based on / based on evidence。",
+                "example": "Decisions based on data are not always right. 基于数据的决定并不总对。"
+              },
+              {
+                "text": "Classical",
+                "meaning": "古典的、古典风格的、经典的、传统的（classical music 古典音乐；区别于 classic「一流的、典型的」）",
+                "usage": "本句中作adj.，可按「主系表 + 宾语从句（what 引导，作 upon 的宾语）」定位它在句中的位置。",
+                "example": "Classical music and opera are the very foundation of what our modern music is based upon. 说到底，现代音乐是踩着古典乐和歌剧这块地基长出来的。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：based on（基于，被动/状语）/ basing on（主动，主语须是人）。"
+            ],
+            "paragraphRole": "把前面几条的『影响』升格为『根基』，直接对应第 55 题 modern music 的结论。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 90,
+          "end": 254,
+          "text": "Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 11,
+              "surface": "Considering",
+              "normalized": "considering",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "huge",
+              "normalized": "huge",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 27,
+              "surface": "impact",
+              "normalized": "impact",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 32,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 41,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 44,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 56,
+              "surface": "current",
+              "normalized": "current",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 64,
+              "surface": "society",
+              "normalized": "society",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 65,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 71,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 79,
+              "surface": "without",
+              "normalized": "without",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 85,
+              "surface": "doubt",
+              "normalized": "doubt",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 90,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 97,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 104,
+              "surface": "expect",
+              "normalized": "expect",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 109,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 112,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 121,
+              "surface": "continue",
+              "normalized": "continue",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 124,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 131,
+              "surface": "remain",
+              "normalized": "remain",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 141,
+              "surface": "important",
+              "normalized": "important",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 145,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 155,
+              "surface": "centuries",
+              "normalized": "centuries",
+              "isWord": true
+            },
+            {
+              "start": 156,
+              "end": 158,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 163,
+              "surface": "come",
+              "normalized": "come",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 164,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "考虑到它们已经对我们的当今社会产生的巨大影响，毫无疑问的是我们可以期待它们在未来的几个世纪里继续维持重要。",
+            "translationNatural": "冲着它们对当下社会这么大的塑造力，几乎可以断定：往后几百年，它们照样重要。",
+            "structMarkup": "(Considering the huge impact they have had on our current society), _it is without doubt_ {that we can expect them to continue to remain important} (for centuries to come).",
+            "structureSummary": "状语（Considering + 名词短语，含省略关系代词的定语从句）+ it 形式主语 + 主语从句（that 引导）",
+            "components": [
+              {
+                "part": "Considering the huge impact they have had on our current society",
+                "role": "状语",
+                "note": "Considering 作介词『鉴于』；they have had 是省略关系代词的定语从句修饰 impact，用现在完成时"
+              },
+              {
+                "part": "it is without doubt",
+                "role": "系动词",
+                "note": "it 形式主语，without doubt 意为『毫无疑问』"
+              },
+              {
+                "part": "that we can expect them to continue to remain important",
+                "role": "主语从句",
+                "note": "真正主语；expect sb to do 接不定式，continue to remain 用双重延续语气"
+              },
+              {
+                "part": "for centuries to come",
+                "role": "状语",
+                "note": "to come 作后置定语意为『未来的』，把结论拉长到几百年"
+              }
+            ],
+            "clauses": [
+              "主语从句「that we can expect them to continue to remain important」：真正主语；expect sb to do 接不定式，continue to remain 用双重延续语气",
+              "本句主干为「状语（Considering + 名词短语，含省略关系代词的定语从句）+ it 形式主语 + 主语从句（that 引导）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "considering",
+                "meaning": "考虑、细想；认为、把…看作；顾及、体谅（consider 的现在分词/动名词形式）",
+                "usage": "注意区分：considering（现在分词/动名词）/ consider（原形）。",
+                "example": "Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come. 冲着它们对当下社会这么大的塑造力，几乎可以断定：往后几百年，它们照样重要。"
+              },
+              {
+                "text": "impact",
+                "meaning": "影响、作用；冲击、撞击（动词亦读 /ɪmˈpækt/；have an impact on）",
+                "usage": "注意区分：impact（影响、冲击，名词；冲击，动词）/ have an impact on（对…有影响，介词 on，不用 to）/ impact on/upon（对…产生影响，动词短语）/ impact 与 affect（affect 是及物动词）/ influence（潜移默化的影响）。",
+                "example": "Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come. 冲着它们对当下社会这么大的塑造力，几乎可以断定：往后几百年，它们照样重要。"
+              },
+              {
+                "text": "current",
+                "meaning": "当前的（形容词）；水流、电流（名词）",
+                "usage": "注意区分：current（当前的）/ currently（目前）/ currant（醋栗）。常见搭配：current situation / at current rates。",
+                "example": "At current rates, change will be slow. 以目前的速度，改变会很慢。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：considering（现在分词/动名词）/ consider（原形）。",
+              "注意区分：impact（影响、冲击，名词；冲击，动词）/ have an impact on（对…有影响，介词 on，不用 to）/ impact on/upon（对…产生影响，动词短语）/ impact 与 affect（affect 是及物动词）/ influence（潜移默化的影响）。",
+              "注意区分：current（当前的）/ currently（目前）/ currant（醋栗）。"
+            ],
+            "paragraphRole": "以影响之大作据，给出面向未来的肯定判断，收束全篇并呼应第 55 题。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 51,
+      "stem": "What does the author think of classical music and opera in today's world?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They still make their presence felt."
+        },
+        {
+          "key": "B",
+          "text": "They have given way to electronic music."
+        },
+        {
+          "key": "C",
+          "text": "They will not fade away from the public eye."
+        },
+        {
+          "key": "D",
+          "text": "They are no longer relevant to teenagers' lives."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 52,
+      "stem": "What do we learn about much of the popular music currently produced?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It can be difficult for many classical music fans to appreciate."
+        },
+        {
+          "key": "B",
+          "text": "It can be seen as an indicator of refinement on classical music."
+        },
+        {
+          "key": "C",
+          "text": "It caters to society's taste in music in a more subtle way than classical music."
+        },
+        {
+          "key": "D",
+          "text": "It contains elements similar to those in some masterpieces of classical music."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 53,
+      "stem": "Why does the author mention the invention of the rock opera?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To illustrate how to tell a story using music."
+        },
+        {
+          "key": "B",
+          "text": "To present the simplest definition of opera."
+        },
+        {
+          "key": "C",
+          "text": "To show the relevance of opera and classical music."
+        },
+        {
+          "key": "D",
+          "text": "To justify the necessity of using orchestras in opera."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 54,
+      "stem": "Why are classical music pieces still used as background music in modern movies?",
+      "options": [
+        {
+          "key": "A",
+          "text": "There are few types of music for movie producers to choose from."
+        },
+        {
+          "key": "B",
+          "text": "They are considered to be the most expressive type of music."
+        },
+        {
+          "key": "C",
+          "text": "They are well received by movie fans from all over the world."
+        },
+        {
+          "key": "D",
+          "text": "They are essential for movies to become the world's greatest hits."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 55,
+      "stem": "What do we learn about our modern music?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It could not have come into being without classical music and opera as its foundation."
+        },
+        {
+          "key": "B",
+          "text": "It cannot outcompete classical music and opera in its impact on our current society."
+        },
+        {
+          "key": "C",
+          "text": "It will not enjoy as much popularity as classical music and opera among music fans."
+        },
+        {
+          "key": "D",
+          "text": "It might not be able to rival classical music and opera in importance for centuries to come."
+        }
+      ],
+      "answer": "A"
+    }
+  ],
+  "lexicon": {
+    "actual": {
+      "phonetic": "/ˈæktʃuəl/",
+      "pos": "adj.",
+      "sense": "实际的、真实的、现存的（in actual fact 事实上）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sometimes actual",
+        "actual orchestras"
+      ],
+      "examples": [
+        "In fact, sometimes actual orchestras are used for major parts of the opera itself. 甚至有些摇滚歌剧的大段配乐，直接就是真管弦乐团上阵。"
+      ],
+      "more": {
+        "confusables": "actual / actually（同族不同词形，注意词性与用法）"
+      }
+    },
+    "alive": {
+      "phonetic": "/əˈlaɪv/",
+      "pos": "adj.",
+      "sense": "活着的、在世的；活跃的、有活力的（be alive with 充满）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "quite alive"
+      ],
+      "examples": [
+        "Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators that both opera and classical music are now still quite alive. 没错，别指望现在的年轻人会突然迷上巴赫；可有好几处硬迹象说明，这两样其实还活得好好的。"
+      ],
+      "more": {
+        "roots": "alive 含 -ive（形容词后缀）"
+      }
+    },
+    "anytime": {
+      "phonetic": "/ˈenitaɪm/",
+      "pos": "adv.",
+      "sense": "任何时候、随时、无论何时（美式合写，= any time）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Bach anytime",
+        "anytime soon"
+      ],
+      "examples": [
+        "Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators that both opera and classical music are now still quite alive. 没错，别指望现在的年轻人会突然迷上巴赫；可有好几处硬迹象说明，这两样其实还活得好好的。"
+      ]
+    },
+    "art": {
+      "phonetic": "/ɑːt/",
+      "pos": "n.",
+      "sense": "艺术；技巧、本事（本文取后者）",
+      "collocations": [
+        "the art of",
+        "art of",
+        "art of telling"
+      ],
+      "examples": [
+        "The art of listening takes practice. 倾听的技巧需要练习。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "art / article / artificial（同族不同词形，注意词性与用法）"
+      }
+    },
+    "away": {
+      "phonetic": "/əˈweɪ/",
+      "pos": "adv.",
+      "sense": "离开、远离；（时间/距离）之外",
+      "collocations": [
+        "go away",
+        "far away",
+        "right away"
+      ],
+      "examples": [
+        "Parents stare at their phones instead of reading. 家长盯着手机而不读书。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "away（离开）/ way（路）/ right away（立刻）"
+      }
+    },
+    "background": {
+      "phonetic": "/ˈbækɡraʊnd/",
+      "pos": "n.",
+      "sense": "背景、出身、经历；幕后、背景情况",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "back（后）+ ground（地面/底子）构成的复合名词，本义「背景、后景」",
+        "confusables": "background（背景、出身、经历）/ in the background（在幕后）/ background 与 foreground（前景，反义）/ family background（家庭背景）"
+      },
+      "collocations": [
+        "background music",
+        "used as background"
+      ],
+      "examples": [
+        "So, it should come as no surprise to anyone that classical music pieces are still used as background music in modern movies. 这么一来，现代电影还拿古典乐当配乐，也就一点不奇怪了。"
+      ]
+    },
+    "based": {
+      "phonetic": "/beɪst/",
+      "pos": "v./adj.",
+      "sense": "base 的过去式/过去分词；（be based on）基于",
+      "lemma": "base",
+      "collocations": [
+        "be based on",
+        "based on evidence"
+      ],
+      "examples": [
+        "Decisions based on data are not always right. 基于数据的决定并不总对。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "based on（基于，被动/状语）/ basing on（主动，主语须是人）"
+      }
+    },
+    "beats": {
+      "phonetic": "/biːtts/",
+      "pos": "v./n.",
+      "sense": "打败、战胜、胜过；敲打、（心）跳动；节拍（本文 clever marketing can beat reason 精明营销能压倒理智 / fats and sugar have taken the beating 脂肪与糖轮番挨批）（beat 的复数/三单形式）",
+      "lemma": "beat",
+      "collocations": [
+        "similar beats"
+      ],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "beat + -s（复数/三单）",
+        "confusables": "beats（复数/三单）/ beat（原形）"
+      }
+    },
+    "beginning": {
+      "phonetic": "/bɪˈɡɪnɪŋ/",
+      "pos": "n./v.",
+      "sense": "开始、开端、起点；begin 的现在分词（at the beginning 起初）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "beginning to",
+        "beginning to wonder"
+      ],
+      "examples": [
+        "Some people are beginning to wonder whether opera and classical music are still relevant to the modern world of music. 于是有人犯嘀咕：这年头，歌剧和古典乐还算数吗？"
+      ]
+    },
+    "best": {
+      "phonetic": "/best/",
+      "pos": "adj./adv./n.",
+      "sense": "最好的（good/well 的最高级）；最、最好地；最好的人或物",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "music's best",
+        "best works"
+      ],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ],
+      "more": {
+        "confusables": "best / best-selling（同族不同词形，注意词性与用法）"
+      }
+    },
+    "better": {
+      "phonetic": "/ˈbetə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更好的；更好地（good/well 的比较级）",
+      "collocations": [
+        "better than",
+        "a better understanding",
+        "get better"
+      ],
+      "examples": [
+        "Sleep is better than more coffee. 睡眠比多喝咖啡更管用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "better（更好）/ had better（最好，后接动词原形）"
+      }
+    },
+    "bit": {
+      "phonetic": "/bɪt/",
+      "pos": "n.",
+      "sense": "一点儿、一小块、少量（a bit 稍微；a bit of）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "least bit"
+      ],
+      "examples": [
+        "The art of telling a story using music has not faded in the least bit. 拿音乐叙事这套本事，压根儿就没丢。"
+      ],
+      "more": {
+        "confusables": "bit / bite / bitter（同族不同词形，注意词性与用法）"
+      }
+    },
+    "centuries": {
+      "phonetic": "/ˈsentʃəriz/",
+      "pos": "n.",
+      "sense": "世纪、百年（可数）（century 的复数/三单形式）",
+      "lemma": "century",
+      "collocations": [
+        "centuries to",
+        "centuries to come",
+        "important for centuries"
+      ],
+      "examples": [
+        "Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come. 冲着它们对当下社会这么大的塑造力，几乎可以断定：往后几百年，它们照样重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "century + -ies（复数/三单）",
+        "confusables": "centuries（复数/三单）/ century（原形）"
+      }
+    },
+    "classical": {
+      "phonetic": "/ˈklæsɪkl/",
+      "pos": "adj.",
+      "sense": "古典的、古典风格的、经典的、传统的（classical music 古典音乐；区别于 classic「一流的、典型的」）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "classical music",
+        "classical music's",
+        "indicator of classical"
+      ],
+      "examples": [
+        "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+      ]
+    },
+    "come": {
+      "phonetic": "/kʌm/",
+      "pos": "v.",
+      "sense": "来；出现；come from（来自）",
+      "collocations": [
+        "come from",
+        "come out",
+        "come true"
+      ],
+      "examples": [
+        "Fewer readers come from that background. 来自那种背景的读者更少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "come（来）/ go（去）"
+      }
+    },
+    "compositions": {
+      "phonetic": "/ˌkɒmpəˈzɪʃnz/",
+      "pos": "n.",
+      "sense": "作文、作品、作曲；成分、构成、构图（composition 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "orchestra compositions"
+      ],
+      "examples": [
+        "Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures. 甚至有交响曲目是专为大片配乐才写出来的。"
+      ]
+    },
+    "considering": {
+      "phonetic": "/kənˈsɪdə(r)ɪŋ/",
+      "pos": "v.",
+      "sense": "考虑、细想；认为、把…看作；顾及、体谅（consider 的现在分词/动名词形式）",
+      "lemma": "consider",
+      "collocations": [],
+      "examples": [
+        "Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come. 冲着它们对当下社会这么大的塑造力，几乎可以断定：往后几百年，它们照样重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "consider + -ing（现在分词/动名词）",
+        "confusables": "considering（现在分词/动名词）/ consider（原形）"
+      }
+    },
+    "continue": {
+      "phonetic": "/kənˈtɪnjuː/",
+      "pos": "v.",
+      "sense": "继续（continue to do / continue doing）",
+      "collocations": [
+        "continue to do",
+        "continue doing",
+        "continue with"
+      ],
+      "examples": [
+        "The practice continues in many firms. 这种做法在许多公司延续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（一起）+ tin（握、持，词根 ten/tain/tin = hold，同 contain/maintain）+ -ue",
+        "confusables": "continue to do / continue doing（都对，前者强调新阶段）/ continuous（连续的）"
+      }
+    },
+    "created": {
+      "phonetic": "/kriˈeɪtd/",
+      "pos": "v.",
+      "sense": "创造、造成（create sth）（create 的过去式/过去分词形式）",
+      "lemma": "create",
+      "collocations": [
+        "created solely"
+      ],
+      "examples": [
+        "Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures. 甚至有交响曲目是专为大片配乐才写出来的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "create + -d（过去式/过去分词）",
+        "confusables": "created（过去式/过去分词）/ create（原形）"
+      }
+    },
+    "current": {
+      "phonetic": "/ˈkʌrənt/",
+      "pos": "adj./n.",
+      "sense": "当前的（形容词）；水流、电流（名词）",
+      "collocations": [
+        "current situation",
+        "at current rates",
+        "electric current"
+      ],
+      "examples": [
+        "At current rates, change will be slow. 以目前的速度，改变会很慢。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "current（当前的）/ currently（目前）/ currant（醋栗）"
+      }
+    },
+    "currently": {
+      "phonetic": "/ˈkʌrəntli/",
+      "pos": "adv.",
+      "sense": "目前、当前",
+      "collocations": [
+        "currently available",
+        "currently working"
+      ],
+      "examples": [
+        "The tool is currently free. 该工具目前免费。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "currently（目前）/ actually（实际上）/ presently（不久/目前）"
+      }
+    },
+    "definition": {
+      "phonetic": "/ˌdefɪˈnɪʃn/",
+      "pos": "n.",
+      "sense": "定义、释义、界定；清晰度（by definition 按定义 / high definition 高清）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "simplest definition"
+      ],
+      "examples": [
+        "Opera, in its simplest definition, is telling a story using music as its form. 说到底，歌剧就是拿音乐当壳子来讲故事。"
+      ],
+      "more": {
+        "roots": "definition 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "difficult": {
+      "phonetic": "/ˈdɪfɪkəlt/",
+      "pos": "adj.",
+      "sense": "困难的；难以……的",
+      "collocations": [
+        "difficult to do",
+        "a difficult choice"
+      ],
+      "examples": [
+        "This word is difficult to pronounce. 这个词很难念。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "difficult / difficulties / difficulty（同族不同词形，注意词性与用法）"
+      }
+    },
+    "doubt": {
+      "phonetic": "/daʊt/",
+      "pos": "n./v.",
+      "sense": "怀疑、疑惑、不确定；怀疑、不相信（no doubt / without doubt / doubt whether）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "without doubt"
+      ],
+      "examples": [
+        "Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come. 冲着它们对当下社会这么大的塑造力，几乎可以断定：往后几百年，它们照样重要。"
+      ],
+      "more": {
+        "confusables": "doubt / doubled / doubtful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "ears": {
+      "phonetic": "/ɪəz/",
+      "pos": "n.",
+      "sense": "耳朵（ear 的复数）；听力、倾听（be all ears 洗耳恭听 / fall on deaf ears 未被理睬）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "ears to",
+        "ears to Bach"
+      ],
+      "examples": [
+        "Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators that both opera and classical music are now still quite alive. 没错，别指望现在的年轻人会突然迷上巴赫；可有好几处硬迹象说明，这两样其实还活得好好的。"
+      ]
+    },
+    "electronic": {
+      "phonetic": "/ˌɪlekˈtrɒnɪk/",
+      "pos": "adj.",
+      "sense": "电子的、电子设备的、电子化的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "electron（电子）+ -ic（形容词后缀）",
+        "confusables": "electronic（电子的，指用电子元件工作的设备）/ electric（用电的、带电的，如 electric current）/ electrical（与电有关的，如 electrical engineering）/ electronics（电子学；电子设备）"
+      },
+      "collocations": [
+        "electronic music"
+      ],
+      "examples": [
+        "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+      ]
+    },
+    "example": {
+      "phonetic": "/ɪɡˈzɑːmpl/",
+      "pos": "n.",
+      "sense": "例子、实例；榜样",
+      "collocations": [
+        "for example",
+        "an example of",
+        "set an example"
+      ],
+      "examples": [
+        "For example, texting and reading coexist. 例如，发短信和读书并存。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "for example（插入语，缩写 e.g.）/ such as（后接名词）"
+      }
+    },
+    "expect": {
+      "phonetic": "/ɪkˈspekt/",
+      "pos": "v.",
+      "sense": "预料、预计、期待、指望；要求、认为理应（expect sb to do / be expected to 预计会、被要求）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come. 冲着它们对当下社会这么大的塑造力，几乎可以断定：往后几百年，它们照样重要。"
+      ],
+      "more": {
+        "confusables": "expect / experts / experience（同族不同词形，注意词性与用法）"
+      }
+    },
+    "expressive": {
+      "phonetic": "/ɪkˈspresɪv/",
+      "pos": "adj.",
+      "sense": "表达的、有表现力的、富有表情的、传神的（expressive of 表现出…；expressive language）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Fans of classical music can also tell you that there are few types of music that are more expressive. 古典乐迷还会补一句：论表现力，能压过它的真没几种。"
+      ],
+      "more": {
+        "roots": "expressive 含 -ive（形容词后缀）"
+      }
+    },
+    "eye": {
+      "phonetic": "/aɪ/",
+      "pos": "n./v.",
+      "sense": "眼睛；眼光、视角、目光；注视、端详（keep an eye on 留意；in sb's eyes 在某人看来）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "public eye"
+      ],
+      "examples": [
+        "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+      ],
+      "more": {
+        "confusables": "eye / eyesight / eye-catching（同族不同词形，注意词性与用法）"
+      }
+    },
+    "fact": {
+      "phonetic": "/fækt/",
+      "pos": "n.",
+      "sense": "事实（可数）",
+      "collocations": [
+        "in fact",
+        "the fact that",
+        "a matter of fact"
+      ],
+      "examples": [
+        "In fact, they spend hours changing settings. 事实上他们花数小时修改设置。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in fact（事实上）/ as a matter of fact（同义，更口语）/ the fact that（同位语从句）"
+      }
+    },
+    "fade": {
+      "phonetic": "/feɪd/",
+      "pos": "v.",
+      "sense": "褪色、变淡、变暗、渐弱、逐渐消失、凋谢（fade away 逐渐消逝；颜色、记忆、声音变淡）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "fade away",
+        "started to fade"
+      ],
+      "examples": [
+        "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+      ],
+      "more": {
+        "confusables": "fade / faded（同族不同词形，注意词性与用法）"
+      }
+    },
+    "faded": {
+      "phonetic": "/ˈfeɪdɪd/",
+      "pos": "v./adj.",
+      "sense": "褪色、变淡、消退、消失（fade 的过去式/过去分词）；褪了色的、暗淡的、凋零的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "faded in"
+      ],
+      "examples": [
+        "The art of telling a story using music has not faded in the least bit. 拿音乐叙事这套本事，压根儿就没丢。"
+      ],
+      "more": {
+        "confusables": "faded / fade（同族不同词形，注意词性与用法）"
+      }
+    },
+    "fans": {
+      "phonetic": "/fænz/",
+      "pos": "n./v.",
+      "sense": "迷、粉丝、狂热爱好者；风扇、扇子（fan 的复数）；扇、吹、煽动（三单；影视/体育话题常指粉丝）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Fans of",
+        "Fans of classical",
+        "music fans"
+      ],
+      "examples": [
+        "Fans of classical music can also tell you that there are few types of music that are more expressive. 古典乐迷还会补一句：论表现力，能压过它的真没几种。"
+      ]
+    },
+    "form": {
+      "phonetic": "/fɔːm/",
+      "pos": "n./v.",
+      "sense": "形式、形状、种类、形态；表格；形成、组成、养成、构成",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Opera, in its simplest definition, is telling a story using music as its form. 说到底，歌剧就是拿音乐当壳子来讲故事。"
+      ],
+      "more": {
+        "confusables": "form / former / formula（同族不同词形，注意词性与用法）"
+      }
+    },
+    "foundation": {
+      "phonetic": "/faʊnˈdeɪʃn/",
+      "pos": "n.",
+      "sense": "基础、根基、地基、基本原理；基金会、创建、建立（lay the foundation for 为…打基础）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "foundation of"
+      ],
+      "examples": [
+        "Classical music and opera are the very foundation of what our modern music is based upon. 说到底，现代音乐是踩着古典乐和歌剧这块地基长出来的。"
+      ],
+      "more": {
+        "confusables": "foundation / foundations（同族不同词形，注意词性与用法）"
+      }
+    },
+    "granted": {
+      "phonetic": "/ˈɡrɑːntɪd/",
+      "pos": "v.",
+      "sense": "授予、准予、同意、承认（grant 的过去式/过去分词）；granted (that) 假定、即使（take sth for granted 想当然）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators that both opera and classical music are now still quite alive. 没错，别指望现在的年轻人会突然迷上巴赫；可有好几处硬迹象说明，这两样其实还活得好好的。"
+      ],
+      "more": {
+        "confusables": "granted / grants（同族不同词形，注意词性与用法）"
+      }
+    },
+    "greatest": {
+      "phonetic": "/ɡreɪtɪst/",
+      "pos": "adj.",
+      "sense": "巨大的；很棒的；重要的（great 的最高级形式）",
+      "lemma": "great",
+      "collocations": [
+        "world's greatest",
+        "greatest hits"
+      ],
+      "examples": [
+        "Some of the world's greatest hits have been parts of rock operas. 全球好几首传唱最广的金曲，本来就是摇滚歌剧里的一截。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "great + -est（最高级）",
+        "confusables": "greatest（最高级）/ great（原形）"
+      }
+    },
+    "harmonies": {
+      "phonetic": "/ˈhɑːməniz/",
+      "pos": "n.",
+      "sense": "和声、和谐、协调（harmony 的复数；音乐话题常见）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ]
+    },
+    "hits": {
+      "phonetic": "/hɪts/",
+      "pos": "v./n.",
+      "sense": "hit 的第三人称单数（打击）；热门（复数）",
+      "lemma": "hit",
+      "collocations": [
+        "hits the target",
+        "a hit"
+      ],
+      "examples": [
+        "The drop in yields hits farmers hardest. 产量下降对农民打击最大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "hits（三单）/ hit（原形，三态同形）"
+      }
+    },
+    "huge": {
+      "phonetic": "/hjuːdʒ/",
+      "pos": "adj.",
+      "sense": "巨大的、庞大的、极多的（a huge amount/number of 大量的）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "huge impact"
+      ],
+      "examples": [
+        "Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come. 冲着它们对当下社会这么大的塑造力，几乎可以断定：往后几百年，它们照样重要。"
+      ],
+      "more": {
+        "confusables": "huge / hugely（同族不同词形，注意词性与用法）"
+      }
+    },
+    "impact": {
+      "phonetic": "/ˈɪmpækt/",
+      "pos": "n./v.",
+      "sense": "影响、作用；冲击、撞击（动词亦读 /ɪmˈpækt/；have an impact on）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "impact（影响、冲击，名词；冲击，动词）/ have an impact on（对…有影响，介词 on，不用 to）/ impact on/upon（对…产生影响，动词短语）/ impact 与 affect（affect 是及物动词）/ influence（潜移默化的影响）"
+      },
+      "collocations": [
+        "impact symphonic",
+        "huge impact"
+      ],
+      "examples": [
+        "Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it is subtle and just shows the impact symphonic(交响乐的) orchestras have had on society's taste in music. 话虽如此，没学过乐理的人未必看得出门道——这种借用太隐蔽，顶多让人觉出交响乐的(交响乐的)乐团早就塑造了大众的口味。"
+      ]
+    },
+    "importance": {
+      "phonetic": "/ɪmˈpɔːtns/",
+      "pos": "n.",
+      "sense": "重要性、重大、价值（of importance 重要的）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "important（重要的）+ -ance（名词后缀，t → ce，同 difference/patience）",
+        "confusables": "importance（重要性，不可数）/ attach importance to（重视，to 是介词，接名词/doing）/ of importance = important / importantly（副词，more importantly 更重要的）"
+      },
+      "collocations": [
+        "music's importance",
+        "importance in",
+        "importance in society"
+      ],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ]
+    },
+    "important": {
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "pos": "adj.",
+      "sense": "重要的、重大的；有影响力的",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）"
+      },
+      "collocations": [
+        "remain important",
+        "important for",
+        "important for centuries"
+      ],
+      "examples": [
+        "Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come. 冲着它们对当下社会这么大的塑造力，几乎可以断定：往后几百年，它们照样重要。"
+      ]
+    },
+    "included": {
+      "phonetic": "/ɪnˈkluːdd/",
+      "pos": "v.",
+      "sense": "包括、包含；把…列为一部分（本文 which will include my family, my hobbies, my workout 包括家人、爱好、健身）（include 的过去式/过去分词形式）",
+      "lemma": "include",
+      "collocations": [
+        "included in",
+        "included in major"
+      ],
+      "examples": [
+        "Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures. 甚至有交响曲目是专为大片配乐才写出来的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "include + -d（过去式/过去分词）",
+        "confusables": "included（过去式/过去分词）/ include（原形）"
+      }
+    },
+    "indicator": {
+      "phonetic": "/ˈɪndɪkeɪtə/",
+      "pos": "n.",
+      "sense": "指标、指示物、指示器、标志（a key indicator of …的关键指标）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "major indicator",
+        "indicator of",
+        "indicator of classical"
+      ],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ],
+      "more": {
+        "confusables": "indicator / indication / indicate（同族不同词形，注意词性与用法）"
+      }
+    },
+    "indicators": {
+      "phonetic": "/ˈɪndɪkeɪtəz/",
+      "pos": "n.",
+      "sense": "指标、指示物（indicator 的复数；数据/研究话题常谈多项指标）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "major indicators"
+      ],
+      "examples": [
+        "Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators that both opera and classical music are now still quite alive. 没错，别指望现在的年轻人会突然迷上巴赫；可有好几处硬迹象说明，这两样其实还活得好好的。"
+      ],
+      "more": {
+        "confusables": "indicators / indicator（同族不同词形，注意词性与用法）"
+      }
+    },
+    "invention": {
+      "phonetic": "/ɪnˈvenʃn/",
+      "pos": "n.",
+      "sense": "发明、发明物、创造；虚构、捏造（the invention of …的发明）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "invention of"
+      ],
+      "examples": [
+        "A better example for the relevance of opera and classical music can be seen in the invention of the rock opera. 要说歌剧和古典乐没过时，摇滚歌剧的诞生是个更直白的例子。"
+      ],
+      "more": {
+        "roots": "invention 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "jazz": {
+      "phonetic": "/dʒæz/",
+      "pos": "n.",
+      "sense": "爵士乐、爵士舞（音乐话题常见）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+      ]
+    },
+    "least": {
+      "phonetic": "/liːst/",
+      "pos": "adj./adv./n.",
+      "sense": "最少的、最小的（little 的最高级）；最少（at least 至少；least of all 最不）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "least bit"
+      ],
+      "examples": [
+        "The art of telling a story using music has not faded in the least bit. 拿音乐叙事这套本事，压根儿就没丢。"
+      ]
+    },
+    "lending": {
+      "phonetic": "/ˈlendɪŋ/",
+      "pos": "n./v.",
+      "sense": "出借、借出、贷款、放贷（lend 的现在分词；lending 常指银行信贷业务）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "teenagers lending"
+      ],
+      "examples": [
+        "Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators that both opera and classical music are now still quite alive. 没错，别指望现在的年轻人会突然迷上巴赫；可有好几处硬迹象说明，这两样其实还活得好好的。"
+      ]
+    },
+    "mainstream": {
+      "phonetic": "/ˈmeɪnstriːm/",
+      "pos": "n./adj.",
+      "sense": "主流、主流派；主流的（mainstream media 主流媒体；与 niche 相对）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "amongst mainstream",
+        "mainstream music"
+      ],
+      "examples": [
+        "These are often very well received amongst mainstream music fans. 这类曲子在主流乐迷里往往还挺吃香。"
+      ]
+    },
+    "major": {
+      "phonetic": "/ˈmeɪdʒə(r)/",
+      "pos": "adj./n./v.",
+      "sense": "主要的（形容词）；专业（名词）；主修（动词）",
+      "collocations": [
+        "a major change",
+        "major in",
+        "the majority"
+      ],
+      "examples": [
+        "A major shift is under way. 一场重大转变正在发生。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "major（主要的/主修）/ majority（多数）/ minor（次要的）"
+      }
+    },
+    "melodies": {
+      "phonetic": "/ˈmelədiz/",
+      "pos": "n.",
+      "sense": "旋律、曲调、乐曲（melody 的复数；音乐话题常见）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ]
+    },
+    "modern": {
+      "phonetic": "/ˈmɒdn/",
+      "pos": "adj.",
+      "sense": "现代的、近代的、当代的、时髦的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "modern world",
+        "modern movies",
+        "music in modern"
+      ],
+      "examples": [
+        "Some people are beginning to wonder whether opera and classical music are still relevant to the modern world of music. 于是有人犯嘀咕：这年头，歌剧和古典乐还算数吗？"
+      ],
+      "more": {
+        "confusables": "modern / mode（同族不同词形，注意词性与用法）"
+      }
+    },
+    "motion": {
+      "phonetic": "/ˈməʊʃn/",
+      "pos": "n./v.",
+      "sense": "运动、移动；动议、提议；做手势示意（本文 in motion 在行驶 / 运行中 / set in motion 使开始）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "major motion",
+        "motion pictures"
+      ],
+      "examples": [
+        "Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures. 甚至有交响曲目是专为大片配乐才写出来的。"
+      ],
+      "more": {
+        "confusables": "motion / motivation / motivate（同族不同词形，注意词性与用法）"
+      }
+    },
+    "movies": {
+      "phonetic": "/ˈmuːviz/",
+      "pos": "n.",
+      "sense": "电影、影片（movie 的复数；go to the movies 去看电影，美式）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "modern movies"
+      ],
+      "examples": [
+        "So, it should come as no surprise to anyone that classical music pieces are still used as background music in modern movies. 这么一来，现代电影还拿古典乐当配乐，也就一点不奇怪了。"
+      ],
+      "more": {
+        "confusables": "movies / movie（同族不同词形，注意词性与用法）"
+      }
+    },
+    "music": {
+      "phonetic": "/ˈmjuːzɪk/",
+      "pos": "n.",
+      "sense": "音乐、乐曲、乐谱；音乐（学科/艺术）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "pop music",
+        "electronic music",
+        "classical music"
+      ],
+      "examples": [
+        "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+      ]
+    },
+    "now": {
+      "phonetic": "/naʊ/",
+      "pos": "adv.",
+      "sense": "现在；如今；立刻",
+      "collocations": [
+        "right now",
+        "by now",
+        "now that"
+      ],
+      "examples": [
+        "They are now six times longer. 它们现在长了六倍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "now（现在）/ now that（既然，连词）"
+      }
+    },
+    "often": {
+      "phonetic": "/ˈɒfn/",
+      "pos": "adv.",
+      "sense": "经常、常常",
+      "collocations": [],
+      "examples": [
+        "These are often very well received amongst mainstream music fans. 这类曲子在主流乐迷里往往还挺吃香。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "opera": {
+      "phonetic": "/ˈɒprə/",
+      "pos": "n.",
+      "sense": "歌剧；歌剧艺术、歌剧院（音乐/艺术话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "whether opera",
+        "relevance of opera",
+        "rock opera"
+      ],
+      "examples": [
+        "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+      ],
+      "more": {
+        "confusables": "opera / operating / operate（同族不同词形，注意词性与用法）"
+      }
+    },
+    "operas": {
+      "phonetic": "/ˈɒprəz/",
+      "pos": "n.",
+      "sense": "歌剧（opera 的复数；音乐/艺术话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "rock operas"
+      ],
+      "examples": [
+        "Some of the world's greatest hits have been parts of rock operas. 全球好几首传唱最广的金曲，本来就是摇滚歌剧里的一截。"
+      ],
+      "more": {
+        "confusables": "operas / operating / operate（同族不同词形，注意词性与用法）"
+      }
+    },
+    "orchestra": {
+      "phonetic": "/ˈɔːkɪstrə/",
+      "pos": "n.",
+      "sense": "管弦乐队、交响乐团（音乐话题；也可指剧场乐池）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "Symphonic orchestra",
+        "orchestra compositions"
+      ],
+      "examples": [
+        "Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures. 甚至有交响曲目是专为大片配乐才写出来的。"
+      ],
+      "more": {
+        "confusables": "orchestra / orchestras（同族不同词形，注意词性与用法）"
+      }
+    },
+    "orchestras": {
+      "phonetic": "/ˈɔːkɪstrəz/",
+      "pos": "n.",
+      "sense": "管弦乐队、交响乐团（orchestra 的复数；音乐话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "actual orchestras"
+      ],
+      "examples": [
+        "Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it is subtle and just shows the impact symphonic(交响乐的) orchestras have had on society's taste in music. 话虽如此，没学过乐理的人未必看得出门道——这种借用太隐蔽，顶多让人觉出交响乐的(交响乐的)乐团早就塑造了大众的口味。"
+      ],
+      "more": {
+        "confusables": "orchestras / orchestra（同族不同词形，注意词性与用法）"
+      }
+    },
+    "parts": {
+      "phonetic": "/pɑːts/",
+      "pos": "n.",
+      "sense": "部分（part 的复数）；零件",
+      "lemma": "part",
+      "collocations": [
+        "parts of",
+        "play a part in",
+        "spare parts"
+      ],
+      "examples": [
+        "It is not, for most teens, a cycle of abuse in most parts. 对多数青少年而言并非如此。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "part（部分）/ portion（一份）/ play a part in（起作用）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "pictures": {
+      "phonetic": "/ˈpɪktʃə(r)z/",
+      "pos": "n.",
+      "sense": "图画；the broader picture 宏观大局（picture 的复数/三单形式）",
+      "lemma": "picture",
+      "collocations": [
+        "motion pictures"
+      ],
+      "examples": [
+        "Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures. 甚至有交响曲目是专为大片配乐才写出来的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "picture + -s（复数/三单）",
+        "confusables": "pictures（复数/三单）/ picture（原形）"
+      }
+    },
+    "pieces": {
+      "phonetic": "/piːsz/",
+      "pos": "n.",
+      "sense": "一片、一块、一段、一件；片段、部件、（文章/作品的）一篇（piece 的复数/三单形式）",
+      "lemma": "piece",
+      "collocations": [
+        "music pieces"
+      ],
+      "examples": [
+        "So, it should come as no surprise to anyone that classical music pieces are still used as background music in modern movies. 这么一来，现代电影还拿古典乐当配乐，也就一点不奇怪了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "piece + -s（复数/三单）",
+        "confusables": "pieces（复数/三单）/ piece（原形）"
+      }
+    },
+    "pop": {
+      "phonetic": "/pɒp/",
+      "pos": "n./v./adj.",
+      "sense": "砰（啪）的一声、流行音乐、汽水；突然出现、爆开、弹出；流行的、通俗的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "pop music",
+        "rise of pop"
+      ],
+      "examples": [
+        "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+      ],
+      "more": {
+        "confusables": "pop / popular / popularity（同族不同词形，注意词性与用法）"
+      }
+    },
+    "popular": {
+      "phonetic": "/ˈpɒpjələ/",
+      "pos": "adj.",
+      "sense": "受欢迎的、流行的、大众的、普及的；民众的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "popular music"
+      ],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ],
+      "more": {
+        "confusables": "popular / popularity / population（同族不同词形，注意词性与用法）"
+      }
+    },
+    "produced": {
+      "phonetic": "/prəˈdjuːsd/",
+      "pos": "v./n.",
+      "sense": "生产、制造、产出、产生；农产品、产物（名词读 /ˈprɒdjuːs/）（produce 的过去式/过去分词形式）",
+      "lemma": "produce",
+      "collocations": [
+        "produced uses"
+      ],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "produce + -d（过去式/过去分词）",
+        "confusables": "produced（过去式/过去分词）/ produce（原形）"
+      }
+    },
+    "public": {
+      "phonetic": "/ˈpʌblɪk/",
+      "pos": "adj./n.",
+      "sense": "公共的、公众的 / 公众（the public）",
+      "collocations": [
+        "public health",
+        "the British public",
+        "in public"
+      ],
+      "examples": [
+        "Loneliness is a public health problem. 孤独是公共卫生问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "public（公共的）/ pubic（阴部的，拼写易错）"
+      }
+    },
+    "purpose": {
+      "phonetic": "/ˈpɜːpəs/",
+      "pos": "n.",
+      "sense": "目的、意图",
+      "collocations": [
+        "the ultimate purpose",
+        "on purpose"
+      ],
+      "examples": [
+        "What is the purpose of this rule? 这条规定的目的是什么？"
+      ],
+      "isCet4HighFreq": true
+    },
+    "received": {
+      "phonetic": "/rɪˈsiːvd/",
+      "pos": "v./adj.",
+      "sense": "收到、得到、接受、接待（receive 的过去式/过去分词）；被普遍接受的（received wisdom 公认看法）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "well received",
+        "received amongst"
+      ],
+      "examples": [
+        "These are often very well received amongst mainstream music fans. 这类曲子在主流乐迷里往往还挺吃香。"
+      ],
+      "more": {
+        "confusables": "received / receiving（同族不同词形，注意词性与用法）"
+      }
+    },
+    "relevance": {
+      "phonetic": "/ˈreləvəns/",
+      "pos": "n.",
+      "sense": "相关性、关联、切题、意义（relevance to 与…的相关性；研究/论证话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "relevance of",
+        "relevance of opera"
+      ],
+      "examples": [
+        "A better example for the relevance of opera and classical music can be seen in the invention of the rock opera. 要说歌剧和古典乐没过时，摇滚歌剧的诞生是个更直白的例子。"
+      ],
+      "more": {
+        "confusables": "relevance / relevant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "relevant": {
+      "phonetic": "/ˈreləvənt/",
+      "pos": "adj.",
+      "sense": "相关的、切题的、有意义的、适用的（relevant to）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be relevant to（与…相关，介词 to，不用 with）/ relevant（相关的、切题的，形容词）/ irrelevant（无关的，ir- 否定）/ relevance（相关性，名词）/ related to（也用 to）/ pertinent（更正式）"
+      },
+      "collocations": [
+        "relevant to"
+      ],
+      "examples": [
+        "Some people are beginning to wonder whether opera and classical music are still relevant to the modern world of music. 于是有人犯嘀咕：这年头，歌剧和古典乐还算数吗？"
+      ]
+    },
+    "remain": {
+      "phonetic": "/rɪˈmeɪn/",
+      "pos": "v.",
+      "sense": "保持、仍然是、留下、剩余、尚待（remain + adj./n.；remaining 剩余的）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "remain important",
+        "continue to remain"
+      ],
+      "examples": [
+        "Considering the huge impact they have had on our current society, it is without doubt that we can expect them to continue to remain important for centuries to come. 冲着它们对当下社会这么大的塑造力，几乎可以断定：往后几百年，它们照样重要。"
+      ],
+      "more": {
+        "confusables": "remain / remained / remains（同族不同词形，注意词性与用法）"
+      }
+    },
+    "rise": {
+      "phonetic": "/raɪz/",
+      "pos": "n./v.",
+      "sense": "上升、增长、上涨、兴起；升起、起身、站起来",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "rise（vi. 上升、上涨，rise-rose-risen，无宾语、无被动）/ raise（vt. 举起、提高、筹集、抚养，须接宾语）/ arise（vi. 出现、产生，arise from 由…引起）/ arouse（vt. 唤起）/ The sun rises 与 raise your hand 不可换"
+      },
+      "collocations": [
+        "rise of",
+        "rise of pop"
+      ],
+      "examples": [
+        "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+      ]
+    },
+    "rock": {
+      "phonetic": "/rɒk/",
+      "pos": "n./v.",
+      "sense": "岩石、石头、石块；摇滚乐；摇动、摇晃、震动",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "rock opera",
+        "rock operas",
+        "parts of rock"
+      ],
+      "examples": [
+        "A better example for the relevance of opera and classical music can be seen in the invention of the rock opera. 要说歌剧和古典乐没过时，摇滚歌剧的诞生是个更直白的例子。"
+      ]
+    },
+    "see": {
+      "phonetic": "/siː/",
+      "pos": "v.",
+      "sense": "看见；明白（I see）；见证",
+      "collocations": [
+        "see that",
+        "as we can see",
+        "see sb do/doing"
+      ],
+      "examples": [
+        "We see the same pattern again. 我们又看到了同样的模式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "see（看见，无意）/ look at（看，有意）/ watch（观看，持续）"
+      }
+    },
+    "seen": {
+      "phonetic": "/siːn/",
+      "pos": "v.",
+      "sense": "see 的过去分词（被看见）",
+      "lemma": "see",
+      "collocations": [
+        "have seen",
+        "be seen as",
+        "as seen in"
+      ],
+      "examples": [
+        "This has long been seen as normal. 这长期被视为正常。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "seen（过去分词）/ saw（过去式）/ scene（场景）"
+      }
+    },
+    "shows": {
+      "phonetic": "/ʃəʊz/",
+      "pos": "v./n.",
+      "sense": "显示、表明、展示（show 的第三人称单数）；演出、节目（复数）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it is subtle and just shows the impact symphonic(交响乐的) orchestras have had on society's taste in music. 话虽如此，没学过乐理的人未必看得出门道——这种借用太隐蔽，顶多让人觉出交响乐的(交响乐的)乐团早就塑造了大众的口味。"
+      ],
+      "more": {
+        "confusables": "shows / show（同族不同词形，注意词性与用法）"
+      }
+    },
+    "similar": {
+      "phonetic": "/ˈsɪmələ(r)/",
+      "pos": "adj.",
+      "sense": "相似的、类似的",
+      "collocations": [
+        "be similar to",
+        "similar percentages",
+        "in a similar way"
+      ],
+      "examples": [
+        "Men reported similar levels of enjoyment. 男性报告的享受程度相近。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "similar to（与……相似）/ the same as（与……相同）"
+      }
+    },
+    "simplest": {
+      "phonetic": "/ˈsɪmplɪst/",
+      "pos": "adj.",
+      "sense": "最简单的、最简易的、最朴素的（simple 的最高级）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "simplest definition"
+      ],
+      "examples": [
+        "Opera, in its simplest definition, is telling a story using music as its form. 说到底，歌剧就是拿音乐当壳子来讲故事。"
+      ],
+      "more": {
+        "confusables": "simplest / simple（同族不同词形，注意词性与用法）"
+      }
+    },
+    "since": {
+      "phonetic": "/sɪns/",
+      "pos": "conj./prep./adv.",
+      "sense": "自从（时间）；因为（原因）",
+      "collocations": [
+        "since then",
+        "ever since",
+        "especially since"
+      ],
+      "examples": [
+        "Since then, many cases have been filed. 自那以后，许多案件被提起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "since（自从/因为）/ for（持续一段时间）/ from（起点）"
+      }
+    },
+    "society": {
+      "phonetic": "/səˈsaɪəti/",
+      "pos": "n.",
+      "sense": "社会；社团",
+      "collocations": [
+        "as a society",
+        "society today",
+        "importance in society"
+      ],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "solely": {
+      "phonetic": "/ˈsəʊlli/",
+      "pos": "adv.",
+      "sense": "仅仅、只、唯一地、完全地（solely because 仅仅因为；= only）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "created solely",
+        "solely for"
+      ],
+      "examples": [
+        "Symphonic orchestra compositions have also been created solely for the purpose of being included in major motion pictures. 甚至有交响曲目是专为大片配乐才写出来的。"
+      ],
+      "more": {
+        "roots": "solely 含 -ly（副词后缀）"
+      }
+    },
+    "sometimes": {
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "pos": "adv.",
+      "sense": "有时、偶尔、间或（频度副词；区别于 sometime「在某个时候」）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sometimes actual"
+      ],
+      "examples": [
+        "In fact, sometimes actual orchestras are used for major parts of the opera itself. 甚至有些摇滚歌剧的大段配乐，直接就是真管弦乐团上阵。"
+      ]
+    },
+    "soon": {
+      "phonetic": "/suːn/",
+      "pos": "adv.",
+      "sense": "不久、很快",
+      "collocations": [
+        "as soon as",
+        "soon after",
+        "sooner or later"
+      ],
+      "examples": [
+        "He was retired soon after. 他不久后就退役了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "soon（不久）/ early（早）/ quickly（快）"
+      }
+    },
+    "started": {
+      "phonetic": "/stɑːtɪd/",
+      "pos": "v./n.",
+      "sense": "开始、着手、出发、启动、创办；开端、起点、出发、开头优势（start 的过去式/过去分词形式）",
+      "lemma": "start",
+      "collocations": [
+        "music started",
+        "started to",
+        "started to fade"
+      ],
+      "examples": [
+        "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the public eye. 流行、爵士、电子乐一冒头，歌剧和古典乐就慢慢退出了大众视线。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "start + -ed（过去式/过去分词）",
+        "confusables": "started（过去式/过去分词）/ start（原形）"
+      }
+    },
+    "still": {
+      "phonetic": "/stɪl/",
+      "pos": "adv./adj.",
+      "sense": "仍然、还（副词）；静止的、平静的（形容词）",
+      "collocations": [
+        "still true",
+        "still work",
+        "keep still"
+      ],
+      "examples": [
+        "The gap is still wide. 差距仍然很大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "still（仍然）/ yet（尚，多用于否定疑问）/ already（已经）"
+      }
+    },
+    "story": {
+      "phonetic": "/ˈstɔːri/",
+      "pos": "n.",
+      "sense": "故事、小说、情节、叙述、报道、说法；（楼房）层（tell a story 讲故事；the story goes 据说）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "story using"
+      ],
+      "examples": [
+        "Opera, in its simplest definition, is telling a story using music as its form. 说到底，歌剧就是拿音乐当壳子来讲故事。"
+      ],
+      "more": {
+        "confusables": "story / storage / stories（同族不同词形，注意词性与用法）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "subtle": {
+      "phonetic": "/ˈsʌtl/",
+      "pos": "adj.",
+      "sense": "微妙的、细微的、不易察觉的、含蓄的、精巧的（注意 b 不发音；a subtle difference 细微差别）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it is subtle and just shows the impact symphonic(交响乐的) orchestras have had on society's taste in music. 话虽如此，没学过乐理的人未必看得出门道——这种借用太隐蔽，顶多让人觉出交响乐的(交响乐的)乐团早就塑造了大众的口味。"
+      ]
+    },
+    "surprise": {
+      "phonetic": "/səˈpraɪz/",
+      "pos": "n./v.",
+      "sense": "惊讶、惊奇、意外之事、惊喜；使惊讶、使意外（to one's surprise 令某人惊讶的是）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "surprise to",
+        "surprise to anyone"
+      ],
+      "examples": [
+        "So, it should come as no surprise to anyone that classical music pieces are still used as background music in modern movies. 这么一来，现代电影还拿古典乐当配乐，也就一点不奇怪了。"
+      ],
+      "more": {
+        "confusables": "surprise / surprising（同族不同词形，注意词性与用法）"
+      }
+    },
+    "symphonic": {
+      "phonetic": "/sɪmˈfɒnɪk/",
+      "pos": "adj.",
+      "sense": "交响乐的、交响曲的（symphonic music 交响乐；音乐话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "impact symphonic",
+        "Symphonic orchestra"
+      ],
+      "examples": [
+        "Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it is subtle and just shows the impact symphonic(交响乐的) orchestras have had on society's taste in music. 话虽如此，没学过乐理的人未必看得出门道——这种借用太隐蔽，顶多让人觉出交响乐的(交响乐的)乐团早就塑造了大众的口味。"
+      ]
+    },
+    "taste": {
+      "phonetic": "/teɪst/",
+      "pos": "n./v.",
+      "sense": "味道、滋味、味觉、一口、品味、爱好；尝、尝起来、体验、有…味道",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "society's taste",
+        "taste in",
+        "taste in music"
+      ],
+      "examples": [
+        "Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it is subtle and just shows the impact symphonic(交响乐的) orchestras have had on society's taste in music. 话虽如此，没学过乐理的人未必看得出门道——这种借用太隐蔽，顶多让人觉出交响乐的(交响乐的)乐团早就塑造了大众的口味。"
+      ]
+    },
+    "teenagers": {
+      "phonetic": "/ˈtiːneɪdʒəz/",
+      "pos": "n.",
+      "sense": "青少年、十几岁的年轻人（teenager 的复数，13–19 岁）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "today's teenagers",
+        "teenagers lending"
+      ],
+      "examples": [
+        "Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators that both opera and classical music are now still quite alive. 没错，别指望现在的年轻人会突然迷上巴赫；可有好几处硬迹象说明，这两样其实还活得好好的。"
+      ]
+    },
+    "tell": {
+      "phonetic": "/tel/",
+      "pos": "v.",
+      "sense": "告诉、讲述；分辨、判断；吩咐（本文 tell A from B 区分 A 与 B / we often tell ourselves 我们常告诉自己）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Fans of classical music can also tell you that there are few types of music that are more expressive. 古典乐迷还会补一句：论表现力，能压过它的真没几种。"
+      ],
+      "more": {
+        "confusables": "tell / telling（同族不同词形，注意词性与用法）"
+      }
+    },
+    "telling": {
+      "phonetic": "/telɪŋ/",
+      "pos": "v.",
+      "sense": "告诉、讲述；分辨、判断；吩咐（本文 tell A from B 区分 A 与 B / we often tell ourselves 我们常告诉自己）（tell 的现在分词/动名词形式）",
+      "lemma": "tell",
+      "collocations": [
+        "art of telling"
+      ],
+      "examples": [
+        "Opera, in its simplest definition, is telling a story using music as its form. 说到底，歌剧就是拿音乐当壳子来讲故事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "tell + -ing（现在分词/动名词）",
+        "confusables": "telling（现在分词/动名词）/ tell（原形）"
+      }
+    },
+    "theory": {
+      "phonetic": "/ˈθɪəri/",
+      "pos": "n.",
+      "sense": "理论、学说、原理、论说；看法、推测（in theory 理论上）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "theory（理论、学说）/ in theory（理论上，反义 in practice 实际上）/ hypothesis（假说，待验证）/ theoretical（理论的）/ practice（实践，相对）/ the theory that…（同位语从句）"
+      },
+      "collocations": [
+        "music theory",
+        "theory to",
+        "theory to see"
+      ],
+      "examples": [
+        "Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it is subtle and just shows the impact symphonic(交响乐的) orchestras have had on society's taste in music. 话虽如此，没学过乐理的人未必看得出门道——这种借用太隐蔽，顶多让人觉出交响乐的(交响乐的)乐团早就塑造了大众的口味。"
+      ]
+    },
+    "today": {
+      "phonetic": "/təˈdeɪ/",
+      "pos": "adv./n.",
+      "sense": "今天；当今",
+      "collocations": [
+        "today's digital activity",
+        "in today's world",
+        "leaders of today"
+      ],
+      "examples": [
+        "Today he is still the best-known racehorse. 今天他仍是最知名的赛马。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "today（今天/当今）/ nowadays（如今，副词）"
+      }
+    },
+    "types": {
+      "phonetic": "/taɪps/",
+      "pos": "n./v.",
+      "sense": "类型（type 的复数）；打字（动词三单）",
+      "lemma": "type",
+      "collocations": [
+        "types of",
+        "different types",
+        "type in"
+      ],
+      "examples": [
+        "Different types of data tell different stories. 不同类型的数据说出不同的故事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "types（类型）/ kind（种类）/ sort（类，口语）"
+      }
+    },
+    "typically": {
+      "phonetic": "/ˈtɪpɪkli/",
+      "pos": "adv.",
+      "sense": "通常、一般、典型地、具有代表性地（用于描述普遍情形或典型特征）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "typically see",
+        "typically see today's"
+      ],
+      "examples": [
+        "Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major indicators that both opera and classical music are now still quite alive. 没错，别指望现在的年轻人会突然迷上巴赫；可有好几处硬迹象说明，这两样其实还活得好好的。"
+      ],
+      "more": {
+        "confusables": "typically / typical（同族不同词形，注意词性与用法）"
+      }
+    },
+    "used": {
+      "phonetic": "/juːzd/",
+      "pos": "v./adj.",
+      "sense": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+      "lemma": "use",
+      "collocations": [
+        "used to do",
+        "be used to doing",
+        "be used for"
+      ],
+      "examples": [
+        "They used flexible work arrangements. 他们使用了弹性工作安排。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）"
+      }
+    },
+    "uses": {
+      "phonetic": "/juːzz/",
+      "pos": "v./n.",
+      "sense": "使用、运用；用途、用法（名词读 /juːs/）（use 的复数/三单形式）",
+      "lemma": "use",
+      "collocations": [
+        "produced uses",
+        "uses similar"
+      ],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "use + -s（复数/三单）",
+        "confusables": "uses（复数/三单）/ use（原形）"
+      }
+    },
+    "using": {
+      "phonetic": "/ˈjuːzɪŋ/",
+      "pos": "v.",
+      "sense": "use 的现在分词（使用）",
+      "lemma": "use",
+      "collocations": [
+        "by using sth",
+        "using data"
+      ],
+      "examples": [
+        "Results improve by using existing technology. 使用现有技术就能改善结果。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "using（现在分词）/ used（过去式/过去分词）"
+      }
+    },
+    "well": {
+      "phonetic": "/wel/",
+      "pos": "adv./adj.",
+      "sense": "好地（副词）；健康的（形容词）；井（名词）",
+      "collocations": [
+        "as well",
+        "well-being",
+        "do well"
+      ],
+      "examples": [
+        "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "well（好地/健康）/ good（好的，形容词）/ as well（也）"
+      }
+    },
+    "whether": {
+      "phonetic": "/ˈweðə(r)/",
+      "pos": "conj.",
+      "sense": "是否；无论（whether ... or ...）",
+      "collocations": [
+        "whether or not",
+        "whether to do",
+        "whether it comes from"
+      ],
+      "examples": [
+        "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）"
+      }
+    },
+    "without": {
+      "phonetic": "/wɪˈðaʊt/",
+      "pos": "prep.",
+      "sense": "没有、不带（后接名词或动名词）",
+      "collocations": [
+        "without doing",
+        "without doubt",
+        "go without"
+      ],
+      "examples": [
+        "Without making things complicated, the answer is simple. 不把事情弄复杂的话，答案很简单。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "without doing（介词 + 动名词）/ without 不接从句（除非 without that，罕见）"
+      }
+    },
+    "wonder": {
+      "phonetic": "/ˈwʌndə(r)/",
+      "pos": "v./n.",
+      "sense": "想知道、纳闷；惊奇",
+      "collocations": [
+        "wonder why",
+        "wonder about"
+      ],
+      "examples": [
+        "I wonder why he left. 我想知道他为什么走了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "wonder / wonderful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "works": {
+      "phonetic": "/wɜːks/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品（work 的复数/三单形式）",
+      "lemma": "work",
+      "collocations": [
+        "best works"
+      ],
+      "examples": [
+        "The most major indicator of classical music's importance in society today is the fact that much of the popular music that is currently being produced uses similar beats, harmonies, and melodies(旋律) as those that were used in some of classical music's best works. 最能说明古典乐今天仍有分量的证据是：当下不少流行歌用的节拍、和声、旋律(旋律)，跟古典名曲里的那套如出一辙。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "work + -s（复数/三单）",
+        "confusables": "works（复数/三单）/ work（原形）"
+      }
+    },
+    "world": {
+      "phonetic": "/wɜːld/",
+      "pos": "n.",
+      "sense": "世界；领域；世人",
+      "collocations": [
+        "around the world",
+        "the world of work",
+        "real world"
+      ],
+      "examples": [
+        "The idea spread around the world. 这个想法传遍世界。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "world（世界）/ word（单词）读音与拼写易混"
+      }
+    },
+    "world's": {
+      "phonetic": "/wɜːldz/",
+      "pos": "n.（所有格）",
+      "sense": "世界的（world 的所有格）",
+      "lemma": "world",
+      "collocations": [
+        "the world's population",
+        "around the world"
+      ],
+      "examples": [
+        "He surprised sporting fans around the world. 他让全世界的赛马迷震惊。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "world's（世界的）/ worlds（多个世界）"
+      }
+    }
+  }
+}

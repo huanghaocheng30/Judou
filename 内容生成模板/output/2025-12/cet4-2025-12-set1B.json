@@ -1,0 +1,5666 @@
+{
+  "sourceKey": "cet4-2025-12-set1B",
+  "articleId": "set1B",
+  "packVersion": "2026.11.08-2",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 12,
+    "setNo": 1,
+    "section": "仔细阅读",
+    "passageLabel": "Passage Two",
+    "title": "Why Americans Delay Retirement",
+    "wordCount": 353
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Katharine Abraham, an economics professor, was chatting with her hairdresser(理发师) about retirement plans. The economist said she plans to continue working because she wants to. The hairdresser agreed but for a different reason: She needs the money.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 105,
+          "text": "Katharine Abraham, an economics professor, was chatting with her hairdresser(理发师) about retirement plans.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "Katharine",
+              "normalized": "katharine",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 17,
+              "surface": "Abraham",
+              "normalized": "abraham",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 18,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 31,
+              "surface": "economics",
+              "normalized": "economics",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 41,
+              "surface": "professor",
+              "normalized": "professor",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 46,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 55,
+              "surface": "chatting",
+              "normalized": "chatting",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 60,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 64,
+              "surface": "her",
+              "normalized": "her",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 76,
+              "surface": "hairdresser",
+              "normalized": "hairdresser",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 81,
+              "surface": "(理发师)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 82,
+              "end": 87,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 98,
+              "surface": "retirement",
+              "normalized": "retirement",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 104,
+              "surface": "plans",
+              "normalized": "plans",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 105,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "凯瑟琳·亚伯拉罕，一位经济学教授，正在和她的理发师聊退休计划。",
+            "translationNatural": "经济学教授 Katharine Abraham 和她的理发师聊起退休打算。",
+            "structMarkup": "【Katharine Abraham】, an economics professor, _was chatting with_ ~her hairdresser(理发师)~ (about retirement plans).",
+            "structureSummary": "主谓宾（主语带同位语）+ 状语",
+            "components": [
+              {
+                "part": "Katharine Abraham",
+                "role": "主语",
+                "note": "人名，谓语用单数 was chatting"
+              },
+              {
+                "part": "an economics professor",
+                "role": "同位语",
+                "note": "解释主语身份，前后逗号隔开"
+              },
+              {
+                "part": "was chatting with",
+                "role": "谓语",
+                "note": "过去进行时，chat with 意为「与……聊天」"
+              },
+              {
+                "part": "her hairdresser(理发师)",
+                "role": "宾语",
+                "note": "chat with 的宾语；括号内中文为原文自带的译注，须原样保留"
+              },
+              {
+                "part": "about retirement plans",
+                "role": "状语",
+                "note": "介词短语说明聊天话题"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（主语带同位语）+ 状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "professor",
+                "meaning": "教授（可数）",
+                "usage": "注意区分：professor（教授）/ teacher（教师）/ lecturer（讲师）。常见搭配：a professor of / research professor。",
+                "example": "The professor studies decision-making. 这位教授研究决策。"
+              },
+              {
+                "text": "retirement",
+                "meaning": "退休、退职、引退、退休生活（本文主题：不为退休储蓄）",
+                "usage": "注意区分：retirement（退休；退休生活，不可数）/ retire（退休；退下，动词）/ retired（已退休的）/ retiring（即将退休的；也可指腼腆的）/ pension（养老金）/ take early retirement。",
+                "example": "Katharine Abraham, an economics professor, was chatting with her hairdresser(理发师) about retirement plans. 经济学教授 Katharine Abraham 和她的理发师聊起退休打算。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：professor（教授）/ teacher（教师）/ lecturer（讲师）。",
+              "注意区分：retirement（退休；退休生活，不可数）/ retire（退休；退下，动词）/ retired（已退休的）/ retiring（即将退休的；也可指腼腆的）/ pension（养老金）/ take early retirement。"
+            ],
+            "paragraphRole": "用一个具体对话场景引出两位女性不同的退休动机，开启全文话题。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 106,
+          "end": 176,
+          "text": "The economist said she plans to continue working because she wants to.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 13,
+              "surface": "economist",
+              "normalized": "economist",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "she",
+              "normalized": "she",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 28,
+              "surface": "plans",
+              "normalized": "plans",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 31,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 40,
+              "surface": "continue",
+              "normalized": "continue",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 48,
+              "surface": "working",
+              "normalized": "working",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 56,
+              "surface": "because",
+              "normalized": "because",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "she",
+              "normalized": "she",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 66,
+              "surface": "wants",
+              "normalized": "wants",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 69,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 70,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这位经济学家说她计划继续工作因为她想要（工作）。",
+            "translationNatural": "教授说，她打算继续干是因为自己乐意。",
+            "structMarkup": "【The economist】 _said_ {she plans to continue working because she wants to}.",
+            "structureSummary": "主谓 + 宾语从句（that 省略，内含 because 状语从句）",
+            "components": [
+              {
+                "part": "The economist",
+                "role": "主语",
+                "note": "回指上句的 an economics professor，换词避免重复"
+              },
+              {
+                "part": "said",
+                "role": "谓语",
+                "note": "后接省略 that 的宾语从句"
+              },
+              {
+                "part": "she plans to continue working because she wants to",
+                "role": "宾语从句",
+                "note": "said 的宾语；to 后省略 work，由 because 从句说明动机"
+              },
+              {
+                "part": "she",
+                "role": "主语",
+                "note": "从句主语，指代 the economist"
+              },
+              {
+                "part": "plans to continue working",
+                "role": "谓语",
+                "note": "plan to do 意为「打算做」"
+              },
+              {
+                "part": "because she wants to",
+                "role": "状语从句",
+                "note": "because 说明继续工作的原因——出于自愿，对应第 51 题 A 项"
+              }
+            ],
+            "clauses": [
+              "宾语从句「she plans to continue working because she wants to」：said 的宾语；to 后省略 work，由 because 从句说明动机",
+              "状语从句「because she wants to」：because 说明继续工作的原因——出于自愿，对应第 51 题 A 项",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。"
+            ],
+            "phrases": [
+              {
+                "text": "economist",
+                "meaning": "经济学家、经济学者",
+                "usage": "注意区分：economist（经济学家，指人）/ economy（经济）/ economics（经济学）/ economic（经济的）/ economical（节俭的）。",
+                "example": "The economist said she plans to continue working because she wants to. 教授说，她打算继续干是因为自己乐意。"
+              },
+              {
+                "text": "continue",
+                "meaning": "继续（continue to do / continue doing）",
+                "usage": "注意区分：continue to do / continue doing（都对，前者强调新阶段）/ continuous（连续的）。常见搭配：continue to do / continue doing。",
+                "example": "The practice continues in many firms. 这种做法在许多公司延续。"
+              },
+              {
+                "text": "working",
+                "meaning": "工作的（形容词）；work 的现在分词",
+                "usage": "注意区分：working（工作的）/ work（工作）。常见搭配：working parents / flexible working。",
+                "example": "Working parents need flexible hours. 职场父母需要弹性工时。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "注意区分：economist（经济学家，指人）/ economy（经济）/ economics（经济学）/ economic（经济的）/ economical（节俭的）。",
+              "注意区分：continue to do / continue doing（都对，前者强调新阶段）/ continuous（连续的）。"
+            ],
+            "paragraphRole": "点明教授「因乐意而继续工作」，与下句理发师形成对照。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 177,
+          "end": 248,
+          "text": "The hairdresser agreed but for a different reason: She needs the money.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 15,
+              "surface": "hairdresser",
+              "normalized": "hairdresser",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 22,
+              "surface": "agreed",
+              "normalized": "agreed",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 26,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 32,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 42,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 49,
+              "surface": "reason",
+              "normalized": "reason",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "surface": ":",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "She",
+              "normalized": "she",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 60,
+              "surface": "needs",
+              "normalized": "needs",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 64,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 70,
+              "surface": "money",
+              "normalized": "money",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 71,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这位理发师同意（继续工作），但出于不同的原因：她需要这笔钱。",
+            "translationNatural": "理发师也认同要继续干，理由却不一样：她缺钱。",
+            "structMarkup": "【The hairdresser】 _agreed_ (but for a different reason): She needs the money.",
+            "structureSummary": "主谓（连词 but 转折）+ 同位补充分句",
+            "components": [
+              {
+                "part": "The hairdresser",
+                "role": "主语",
+                "note": "回指首句 her hairdresser，用 the 衔接"
+              },
+              {
+                "part": "agreed",
+                "role": "谓语",
+                "note": "此处指「认同要工作下去」"
+              },
+              {
+                "part": "but for a different reason",
+                "role": "状语",
+                "note": "but 转折 + for a reason 表「出于某原因」，暗示动机不同"
+              },
+              {
+                "part": "She needs the money",
+                "role": "同位语",
+                "note": "冒号后分句解释 reason 的具体内容——经济需求"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓（连词 but 转折）+ 同位补充分句」。"
+            ],
+            "phrases": [
+              {
+                "text": "agreed",
+                "meaning": "同意、赞成、意见一致；相符、一致（agree with/to/on）（agree 的过去式/过去分词形式）",
+                "usage": "注意区分：agreed（过去式/过去分词）/ agree（原形）。",
+                "example": "The hairdresser agreed but for a different reason: She needs the money. 理发师也认同要继续干，理由却不一样：她缺钱。"
+              },
+              {
+                "text": "different",
+                "meaning": "不同的；各种各样的",
+                "usage": "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。常见搭配：different from / a different picture。",
+                "example": "Their experiences were considerably different. 他们的经历相当不同。"
+              },
+              {
+                "text": "needs",
+                "meaning": "需求（need 的复数）；需要（动词三单）",
+                "usage": "注意区分：needs（需求/三单）/ need（需要）。常见搭配：meet needs / needs to do。",
+                "example": "The system meets basic needs. 这个系统满足基本需求。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：agreed（过去式/过去分词）/ agree（原形）。",
+              "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。",
+              "注意区分：needs（需求/三单）/ need（需要）。"
+            ],
+            "paragraphRole": "用「同结论、异原因」的对照收束首段，为后文分类讨论埋下主线。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Both scenarios(情况) are contributing to a big increase in the number of people in the U.S. working into their 70s. Over the past 20 years, the share of Americans working in their 70s has risen from less than 10% to nearly 15%.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 113,
+          "text": "Both scenarios(情况) are contributing to a big increase in the number of people in the U.S. working into their 70s.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Both",
+              "normalized": "both",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 14,
+              "surface": "scenarios",
+              "normalized": "scenarios",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "(情况)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 35,
+              "surface": "contributing",
+              "normalized": "contributing",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 40,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "big",
+              "normalized": "big",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 53,
+              "surface": "increase",
+              "normalized": "increase",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 67,
+              "surface": "number",
+              "normalized": "number",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 77,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 84,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 89,
+              "surface": "U.S.",
+              "normalized": "u.s.",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 97,
+              "surface": "working",
+              "normalized": "working",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 102,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 108,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 111,
+              "surface": "70",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 111,
+              "end": 112,
+              "surface": "s",
+              "normalized": "s",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 113,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这两种情况都正在促成美国人之中工作到 70 多岁的人数的一次大幅增长。",
+            "translationNatural": "这两种情况，都在推动美国工作到 70 多岁的人数大幅上升。",
+            "structMarkup": "【Both scenarios(情况)】 _are contributing to_ ~a big increase in the number of people in the U.S. working into their 70s~.",
+            "structureSummary": "主谓宾（现在进行时）+ 多层后置定语",
+            "components": [
+              {
+                "part": "Both scenarios(情况)",
+                "role": "主语",
+                "note": "回指上段教授与理发师两种情形；括号内中文为原文译注须保留"
+              },
+              {
+                "part": "are contributing to",
+                "role": "谓语",
+                "note": "现在进行时，contribute to 意为「促成、导致」"
+              },
+              {
+                "part": "a big increase in the number of people in the U.S. working into their 70s",
+                "role": "宾语",
+                "note": "contribute to 的宾语；名词链层层嵌套"
+              },
+              {
+                "part": "in the U.S.",
+                "role": "定语",
+                "note": "限定 people 的国籍范围，须整体保留不得拆开"
+              },
+              {
+                "part": "working into their 70s",
+                "role": "后置定语",
+                "note": "现在分词短语修饰 people，说明「工作到 70 多岁」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（现在进行时）+ 多层后置定语」。"
+            ],
+            "phrases": [
+              {
+                "text": "contributing",
+                "meaning": "有助于、贡献（contribute to）（contribute 的现在分词/动名词形式）",
+                "usage": "注意区分：contributing（现在分词/动名词）/ contribute（原形）。",
+                "example": "Both scenarios(情况) are contributing to a big increase in the number of people in the U.S. working into their 70s. 这两种情况，都在推动美国工作到 70 多岁的人数大幅上升。"
+              },
+              {
+                "text": "increase",
+                "meaning": "增加（动词读 /ɪnˈkriːs/）；增加（名词读 /ˈɪnkriːs/）",
+                "usage": "注意区分：increase（动词）/ increase in（名词 + 介词）。常见搭配：increase in sth / increase the chances of。",
+                "example": "More women reported an increase in responsibilities. 更多女性报告责任增加。"
+              },
+              {
+                "text": "number",
+                "meaning": "数字、数量；号码",
+                "usage": "注意区分：a number of（许多，谓语复数）/ the number of（数量，谓语单数）。常见搭配：a number of（许多） / the number of（……的数量）。",
+                "example": "A number of studies agree. 许多研究结论一致。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：contributing（现在分词/动名词）/ contribute（原形）。",
+              "注意区分：increase（动词）/ increase in（名词 + 介词）。",
+              "注意区分：a number of（许多，谓语复数）/ the number of（数量，谓语单数）。"
+            ],
+            "paragraphRole": "把首段个案上升为「美国老人延迟退休人数大增」的总趋势。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 114,
+          "end": 225,
+          "text": "Over the past 20 years, the share of Americans working in their 70s has risen from less than 10% to nearly 15%.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "past",
+              "normalized": "past",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 16,
+              "surface": "20",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 23,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 33,
+              "surface": "share",
+              "normalized": "share",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 46,
+              "surface": "Americans",
+              "normalized": "americans",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 54,
+              "surface": "working",
+              "normalized": "working",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 57,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 63,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 66,
+              "surface": "70",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 66,
+              "end": 67,
+              "surface": "s",
+              "normalized": "s",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 71,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 77,
+              "surface": "risen",
+              "normalized": "risen",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 87,
+              "surface": "less",
+              "normalized": "less",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 92,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 96,
+              "surface": "10%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 97,
+              "end": 99,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 106,
+              "surface": "nearly",
+              "normalized": "nearly",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 110,
+              "surface": "15%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 110,
+              "end": 111,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在过去的 20 年里，工作的美国人之中处于 70 多岁的那部分比例已经从不到 10% 上升到接近 15%。",
+            "translationNatural": "近 20 年，美国 70 多岁还在工作的人占比已从不到 10% 升到近 15%。",
+            "structMarkup": "(Over the past 20 years), 【the share of Americans working in their 70s】 _has risen_ (from less than 10% to nearly 15%).",
+            "structureSummary": "时间状语 + 主谓（现在完成时）+ 状语（from...to...）",
+            "components": [
+              {
+                "part": "Over the past 20 years",
+                "role": "状语",
+                "note": "时间状语，配合现在完成时 has risen"
+              },
+              {
+                "part": "the share of Americans working in their 70s",
+                "role": "主语",
+                "note": "核心词 share；working in their 70s 分词作后置定语"
+              },
+              {
+                "part": "working in their 70s",
+                "role": "后置定语",
+                "note": "修饰 Americans，说明是「70 多岁仍在工作」的群体"
+              },
+              {
+                "part": "has risen",
+                "role": "谓语",
+                "note": "现在完成时，强调从过去延续至今的变化"
+              },
+              {
+                "part": "from less than 10% to nearly 15%",
+                "role": "状语",
+                "note": "from...to... 表变化区间，10% 与 15% 须原样保留"
+              }
+            ],
+            "clauses": [
+              "本句含比较结构（比较级 + than），than 后是被比较对象。",
+              "have + 过去分词构成完成时态，强调对现在的影响或动作的先后。"
+            ],
+            "phrases": [
+              {
+                "text": "past",
+                "meaning": "过（时间）；过去的；过去",
+                "usage": "注意区分：past（过去的/经过）/ passed（pass 的过去式）。常见搭配：past one's prime / in the past。",
+                "example": "He was regarded as past his prime. 他被认为已过巅峰期。"
+              },
+              {
+                "text": "years",
+                "meaning": "年、年份；岁数、年纪（year 的复数）",
+                "usage": "注意区分：year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）。",
+                "example": "Over the past 20 years, the share of Americans working in their 70s has risen from less than 10% to nearly 15%. 近 20 年，美国 70 多岁还在工作的人占比已从不到 10% 升到近 15%。"
+              },
+              {
+                "text": "working",
+                "meaning": "工作的（形容词）；work 的现在分词",
+                "usage": "注意区分：working（工作的）/ work（工作）。常见搭配：working parents / flexible working。",
+                "example": "Working parents need flexible hours. 职场父母需要弹性工时。"
+              }
+            ],
+            "pitfalls": [
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "用具体百分比量化上句的趋势，使「大增」有了数据支撑。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. The decline of manufacturing and the increase in the number of people working in less labor-intensive occupations also has contributed to the trend, says Abraham, who researches work and retirement decisions of older Americans.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 278,
+          "text": "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 11,
+              "surface": "addition",
+              "normalized": "addition",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 21,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 27,
+              "surface": "being",
+              "normalized": "being",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 37,
+              "surface": "healthier",
+              "normalized": "healthier",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 41,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 48,
+              "surface": "living",
+              "normalized": "living",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 53,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 60,
+              "surface": "longer",
+              "normalized": "longer",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 61,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 62,
+              "end": 72,
+              "surface": "economists",
+              "normalized": "economists",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 76,
+              "surface": "say",
+              "normalized": "say",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 81,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 83,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "surface": "combination",
+              "normalized": "combination",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 108,
+              "surface": "financial",
+              "normalized": "financial",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 123,
+              "surface": "considerations",
+              "normalized": "considerations",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 128,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 131,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 137,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 140,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 145,
+              "surface": "slow",
+              "normalized": "slow",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 150,
+              "surface": "rise",
+              "normalized": "rise",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 153,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 158,
+              "surface": "real",
+              "normalized": "real",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 164,
+              "surface": "wages",
+              "normalized": "wages",
+              "isWord": true
+            },
+            {
+              "start": 165,
+              "end": 168,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 169,
+              "end": 170,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 171,
+              "end": 176,
+              "surface": "shift",
+              "normalized": "shift",
+              "isWord": true
+            },
+            {
+              "start": 177,
+              "end": 181,
+              "surface": "away",
+              "normalized": "away",
+              "isWord": true
+            },
+            {
+              "start": 182,
+              "end": 186,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 198,
+              "surface": "traditional",
+              "normalized": "traditional",
+              "isWord": true
+            },
+            {
+              "start": 199,
+              "end": 207,
+              "surface": "pensions",
+              "normalized": "pensions",
+              "isWord": true
+            },
+            {
+              "start": 208,
+              "end": 210,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 211,
+              "end": 214,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 215,
+              "end": 222,
+              "surface": "private",
+              "normalized": "private",
+              "isWord": true
+            },
+            {
+              "start": 223,
+              "end": 229,
+              "surface": "sector",
+              "normalized": "sector",
+              "isWord": true
+            },
+            {
+              "start": 230,
+              "end": 233,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 234,
+              "end": 238,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 239,
+              "end": 241,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 242,
+              "end": 245,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 246,
+              "end": 253,
+              "surface": "reasons",
+              "normalized": "reasons",
+              "isWord": true
+            },
+            {
+              "start": 254,
+              "end": 260,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 261,
+              "end": 266,
+              "surface": "delay",
+              "normalized": "delay",
+              "isWord": true
+            },
+            {
+              "start": 267,
+              "end": 277,
+              "surface": "retirement",
+              "normalized": "retirement",
+              "isWord": true
+            },
+            {
+              "start": 277,
+              "end": 278,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "除了人们更健康、活得更久之外，经济学家们说，诸如实际工资多年缓慢上涨以及私营部门背离传统养老金这样的财务因素的组合，是人们推迟退休的一些原因。",
+            "translationNatural": "除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。",
+            "structMarkup": "(In addition to people being healthier and living much longer), 【economists】 _say_ {that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement}.",
+            "structureSummary": "状语（In addition to 复合结构）+ 主谓 + 宾语从句（that 引导，内含定语从句）",
+            "components": [
+              {
+                "part": "In addition to people being healthier and living much longer",
+                "role": "状语",
+                "note": "in addition to 意为「除了……之外（还）」，引出非财务类前置因素"
+              },
+              {
+                "part": "economists",
+                "role": "主语",
+                "note": "谓语用 say 引出观点"
+              },
+              {
+                "part": "say",
+                "role": "谓语",
+                "note": "后接 that 宾语从句"
+              },
+              {
+                "part": "that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement",
+                "role": "宾语从句",
+                "note": "say 的宾语；从句主语是 a combination，谓语 are"
+              },
+              {
+                "part": "a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector",
+                "role": "主语",
+                "note": "宾语从句主语；such as 后举两类财务因素"
+              },
+              {
+                "part": "are some of the reasons people delay retirement",
+                "role": "谓语",
+                "note": "系表结构；people delay retirement 是省略 that 的定语从句修饰 reasons"
+              },
+              {
+                "part": "people delay retirement",
+                "role": "定语从句",
+                "note": "修饰 reasons，说明是「人们推迟退休」的原因"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that a combination of financial considerations such as years of slow r」：say 的宾语；从句主语是 a combination，谓语 are",
+              "定语从句「people delay retirement」：修饰 reasons，说明是「人们推迟退休」的原因"
+            ],
+            "phrases": [
+              {
+                "text": "In addition",
+                "meaning": "此外",
+                "usage": "副词性连接成分；in addition to 才是介词短语，后接名词/动名词。",
+                "example": "In addition, the fee covers lunch. 此外，费用含午餐。"
+              },
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              }
+            ],
+            "pitfalls": [
+              "in addition 后不直接接名词，要接名词须用 in addition to。",
+              "such as 用于举例，for example 常作插入语，位置不同。"
+            ],
+            "paragraphRole": "列举延迟退休的财务类原因，其中「实际工资缓涨」对应第 52 题 C 项。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 279,
+          "end": 506,
+          "text": "The decline of manufacturing and the increase in the number of people working in less labor-intensive occupations also has contributed to the trend, says Abraham, who researches work and retirement decisions of older Americans.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "surface": "decline",
+              "normalized": "decline",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 28,
+              "surface": "manufacturing",
+              "normalized": "manufacturing",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 36,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 45,
+              "surface": "increase",
+              "normalized": "increase",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 52,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 59,
+              "surface": "number",
+              "normalized": "number",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 69,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 77,
+              "surface": "working",
+              "normalized": "working",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 85,
+              "surface": "less",
+              "normalized": "less",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 101,
+              "surface": "labor-intensive",
+              "normalized": "labor-intensive",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 113,
+              "surface": "occupations",
+              "normalized": "occupations",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 118,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 122,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 134,
+              "surface": "contributed",
+              "normalized": "contributed",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 137,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 141,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 147,
+              "surface": "trend",
+              "normalized": "trend",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 148,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 149,
+              "end": 153,
+              "surface": "says",
+              "normalized": "says",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 161,
+              "surface": "Abraham",
+              "normalized": "abraham",
+              "isWord": true
+            },
+            {
+              "start": 161,
+              "end": 162,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 163,
+              "end": 166,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 177,
+              "surface": "researches",
+              "normalized": "researches",
+              "isWord": true
+            },
+            {
+              "start": 178,
+              "end": 182,
+              "surface": "work",
+              "normalized": "work",
+              "isWord": true
+            },
+            {
+              "start": 183,
+              "end": 186,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 197,
+              "surface": "retirement",
+              "normalized": "retirement",
+              "isWord": true
+            },
+            {
+              "start": 198,
+              "end": 207,
+              "surface": "decisions",
+              "normalized": "decisions",
+              "isWord": true
+            },
+            {
+              "start": 208,
+              "end": 210,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 211,
+              "end": 216,
+              "surface": "older",
+              "normalized": "older",
+              "isWord": true
+            },
+            {
+              "start": 217,
+              "end": 226,
+              "surface": "Americans",
+              "normalized": "americans",
+              "isWord": true
+            },
+            {
+              "start": 226,
+              "end": 227,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "制造业的衰退以及从事体力要求较低职业的人数增长，也促成了这一趋势，亚伯拉罕说，她研究年长美国人的工作与退休决定。",
+            "translationNatural": "制造业萎缩、从事轻体力职业的人变多，也推动了这一趋势——研究美国老年人工作与退休抉择的 Abraham 这样说道。",
+            "structMarkup": "【The decline of manufacturing and the increase in the number of people working in less labor-intensive occupations】 _also has contributed to_ ~the trend~, _says Abraham_, {who researches work and retirement decisions of older Americans}.",
+            "structureSummary": "主语（并列名词短语）+ 谓语 + 宾语 + 倒装报道小句 + 非限制性定语从句",
+            "components": [
+              {
+                "part": "The decline of manufacturing and the increase in the number of people working in less labor-intensive occupations",
+                "role": "主语",
+                "note": "并列主语，由 and 连接两个名词短语"
+              },
+              {
+                "part": "also has contributed to",
+                "role": "谓语",
+                "note": "现在完成时，contribute to 意为「促成」；also 表示补充另一原因"
+              },
+              {
+                "part": "the trend",
+                "role": "宾语",
+                "note": "回指前文「延迟退休人数上升」的趋势"
+              },
+              {
+                "part": "says Abraham",
+                "role": "谓语",
+                "note": "倒装报道小句，主谓位置互换"
+              },
+              {
+                "part": "who researches work and retirement decisions of older Americans",
+                "role": "定语从句",
+                "note": "非限制性，who 修饰 Abraham，点明其研究领域"
+              }
+            ],
+            "clauses": [
+              "定语从句「who researches work and retirement decisions of older Americans」：非限制性，who 修饰 Abraham，点明其研究领域",
+              "have + 过去分词构成完成时态，强调对现在的影响或动作的先后。"
+            ],
+            "phrases": [
+              {
+                "text": "decline",
+                "meaning": "下降（不及物）；拒绝（及物）/ 下降、衰退",
+                "usage": "注意区分：decline（下降，不及物）/ refuse（拒绝）/ decline to do（婉拒）。常见搭配：decline in / a sharp decline。",
+                "example": "Reading rates have declined. 阅读率下降了。"
+              },
+              {
+                "text": "increase",
+                "meaning": "增加（动词读 /ɪnˈkriːs/）；增加（名词读 /ˈɪnkriːs/）",
+                "usage": "注意区分：increase（动词）/ increase in（名词 + 介词）。常见搭配：increase in sth / increase the chances of。",
+                "example": "More women reported an increase in responsibilities. 更多女性报告责任增加。"
+              },
+              {
+                "text": "number",
+                "meaning": "数字、数量；号码",
+                "usage": "注意区分：a number of（许多，谓语复数）/ the number of（数量，谓语单数）。常见搭配：a number of（许多） / the number of（……的数量）。",
+                "example": "A number of studies agree. 许多研究结论一致。"
+              }
+            ],
+            "pitfalls": [
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。",
+              "注意区分：decline（下降，不及物）/ refuse（拒绝）/ decline to do（婉拒）。",
+              "注意区分：increase（动词）/ increase in（名词 + 介词）。"
+            ],
+            "paragraphRole": "补出结构性原因（制造业衰退、轻体力岗位增多），并借 Abraham 之口增强权威性。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "\"Which matters more depends on what your history up until that point has been in the type of work you're doing,\" Abraham says.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 126,
+          "text": "\"Which matters more depends on what your history up until that point has been in the type of work you're doing,\" Abraham says.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "surface": "Which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "surface": "matters",
+              "normalized": "matters",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 27,
+              "surface": "depends",
+              "normalized": "depends",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 48,
+              "surface": "history",
+              "normalized": "history",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 51,
+              "surface": "up",
+              "normalized": "up",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 57,
+              "surface": "until",
+              "normalized": "until",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 68,
+              "surface": "point",
+              "normalized": "point",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 72,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 77,
+              "surface": "been",
+              "normalized": "been",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 84,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 89,
+              "surface": "type",
+              "normalized": "type",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 97,
+              "surface": "work",
+              "normalized": "work",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 104,
+              "surface": "you're",
+              "normalized": "you're",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 110,
+              "surface": "doing",
+              "normalized": "doing",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 111,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 111,
+              "end": 112,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 113,
+              "end": 120,
+              "surface": "Abraham",
+              "normalized": "abraham",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 125,
+              "surface": "says",
+              "normalized": "says",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 126,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "「哪个更重要取决于截止到那时你的经历在你所从事的工作类型中是什么」，亚伯拉罕说。",
+            "translationNatural": "Abraham 说：「哪个因素更重要，要看你做到那时、干这行积累下来的经历。」",
+            "structMarkup": "\"【Which matters more】 _depends on_ {what your history up until that point has been in the type of work you're doing},\" 【Abraham】 _says_.",
+            "structureSummary": "直接引语（主语从句 + 谓语 + what 宾语从句）+ 倒装报道小句",
+            "components": [
+              {
+                "part": "Which matters more",
+                "role": "主语",
+                "note": "直接引语主语，which 指前文各类原因中「哪一个」"
+              },
+              {
+                "part": "depends on",
+                "role": "谓语",
+                "note": "depend on 意为「取决于」"
+              },
+              {
+                "part": "what your history up until that point has been in the type of work you're doing",
+                "role": "宾语从句",
+                "note": "作 depends on 的宾语；what 在从句中作表语"
+              },
+              {
+                "part": "Abraham",
+                "role": "主语",
+                "note": "报道小句主语"
+              },
+              {
+                "part": "says",
+                "role": "谓语",
+                "note": "报道动词，主谓倒装置于引语后"
+              }
+            ],
+            "clauses": [
+              "宾语从句「what your history up until that point has been in the type of work you」：作 depends on 的宾语；what 在从句中作表语",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。",
+              "have + 过去分词构成完成时态，强调对现在的影响或动作的先后。"
+            ],
+            "phrases": [
+              {
+                "text": "matters",
+                "meaning": "要紧、有影响；事情（matter 的复数/三单形式）",
+                "usage": "注意区分：matters（复数/三单）/ matter（原形）。",
+                "example": "\"Which matters more depends on what your history up until that point has been in the type of work you're doing,\" Abraham says. Abraham 说：「哪个因素更重要，要看你做到那时、干这行积累下来的经历。」"
+              },
+              {
+                "text": "depends",
+                "meaning": "取决于（depend on）；依靠（depend 的复数/三单形式）",
+                "usage": "注意区分：depends（复数/三单）/ depend（原形）。",
+                "example": "\"Which matters more depends on what your history up until that point has been in the type of work you're doing,\" Abraham says. Abraham 说：「哪个因素更重要，要看你做到那时、干这行积累下来的经历。」"
+              },
+              {
+                "text": "until",
+                "meaning": "直到（时间）；直到……才（用于否定句）",
+                "usage": "注意区分：until（直到）/ till（同义，口语）/ not ... until（直到……才）。常见搭配：until now / not ... until。",
+                "example": "Kids may not change until they are older. 孩子可能到更大才会改变。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "用 Abraham 的原话说明「原因因个人经历而异」，是对上文原因清单的收束与软化。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "The overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by category. The share of Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018. For those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 132,
+          "text": "The overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by category.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "surface": "overall",
+              "normalized": "overall",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 17,
+              "surface": "trend",
+              "normalized": "trend",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 20,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 28,
+              "surface": "hitting",
+              "normalized": "hitting",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 38,
+              "surface": "Americans",
+              "normalized": "americans",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 55,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 62,
+              "surface": "levels",
+              "normalized": "levels",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 77,
+              "surface": "educational",
+              "normalized": "educational",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 88,
+              "surface": "attainment",
+              "normalized": "attainment",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 90,
+              "end": 98,
+              "surface": "although",
+              "normalized": "although",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 102,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 114,
+              "surface": "percentages",
+              "normalized": "percentages",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 119,
+              "surface": "vary",
+              "normalized": "vary",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 122,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 131,
+              "surface": "category",
+              "normalized": "category",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 132,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "整体趋势正在冲击着处于所有不同教育程度层级的美国人，尽管百分比因类别而异。",
+            "translationNatural": "整体趋势影响到各个教育层次的美国人，只是具体比例因群体而不同。",
+            "structMarkup": "【The overall trend】 _is hitting_ ~Americans of all different levels of educational attainment~, {although the percentages vary by category}.",
+            "structureSummary": "主谓宾 + 让步状语从句（although 引导）",
+            "components": [
+              {
+                "part": "The overall trend",
+                "role": "主语",
+                "note": "回指延迟退休的大趋势"
+              },
+              {
+                "part": "is hitting",
+                "role": "谓语",
+                "note": "现在进行时，hit 此处意为「波及、影响」"
+              },
+              {
+                "part": "Americans of all different levels of educational attainment",
+                "role": "宾语",
+                "note": "hit 的宾语；educational attainment 指「受教育程度」"
+              },
+              {
+                "part": "although the percentages vary by category",
+                "role": "状语从句",
+                "note": "although 让步，引出「总体一致但细分类别有别」"
+              }
+            ],
+            "clauses": [
+              "状语从句「although the percentages vary by category」：although 让步，引出「总体一致但细分类别有别」",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。"
+            ],
+            "phrases": [
+              {
+                "text": "overall",
+                "meaning": "总体的、全面的 / 总的来说",
+                "usage": "注意区分：overall（总体的）/ all over（到处）。常见搭配：overall well-being / overall, ...。",
+                "example": "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+              },
+              {
+                "text": "trend",
+                "meaning": "趋势（可数）",
+                "usage": "注意区分：trend（趋势）/ tendency（倾向）/ pattern（模式）。常见搭配：a clear trend / the trend towards。",
+                "example": "The data show a clear trend. 数据显示出明确趋势。"
+              },
+              {
+                "text": "different",
+                "meaning": "不同的；各种各样的",
+                "usage": "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。常见搭配：different from / a different picture。",
+                "example": "Their experiences were considerably different. 他们的经历相当不同。"
+              }
+            ],
+            "pitfalls": [
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "注意区分：overall（总体的）/ all over（到处）。",
+              "注意区分：trend（趋势）/ tendency（倾向）/ pattern（模式）。"
+            ],
+            "paragraphRole": "转入「按教育程度分述」，先总说趋势普适、比例有别。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 133,
+          "end": 239,
+          "text": "The share of Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "share",
+              "normalized": "share",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 12,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 22,
+              "surface": "Americans",
+              "normalized": "americans",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 27,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "surface": "bachelor's",
+              "normalized": "bachelor's",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 46,
+              "surface": "degrees",
+              "normalized": "degrees",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 50,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 55,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 63,
+              "surface": "working",
+              "normalized": "working",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 68,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 74,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 77,
+              "surface": "70",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 77,
+              "end": 78,
+              "surface": "s",
+              "normalized": "s",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 86,
+              "surface": "reached",
+              "normalized": "reached",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 93,
+              "surface": "nearly",
+              "normalized": "nearly",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 97,
+              "surface": "20%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 98,
+              "end": 100,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 105,
+              "surface": "2018",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 105,
+              "end": 106,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "拥有学士学位、工作到 70 多岁的美国人的占比在 2018 年达到了接近 20%。",
+            "translationNatural": "有学士学位、70 多岁还在工作的美国人，2018 年占比已接近 20%。",
+            "structMarkup": "【The share of Americans with bachelor's degrees who were working into their 70s】 _reached_ ~nearly 20%~ (in 2018).",
+            "structureSummary": "主谓（内含 with 定语与 who 定语从句）+ 状语",
+            "components": [
+              {
+                "part": "The share of Americans with bachelor's degrees who were working into their 70s",
+                "role": "主语",
+                "note": "核心词 share；with 与 who 两重后置定语层层限定"
+              },
+              {
+                "part": "with bachelor's degrees",
+                "role": "定语",
+                "note": "介词短语修饰 Americans，表「有学士学位的」"
+              },
+              {
+                "part": "who were working into their 70s",
+                "role": "定语从句",
+                "note": "who 修饰 Americans，说明其「70 多岁仍工作」"
+              },
+              {
+                "part": "reached",
+                "role": "谓语",
+                "note": "谓语用单数，与 share 一致"
+              },
+              {
+                "part": "nearly 20%",
+                "role": "宾语",
+                "note": "reach 的宾语，20% 须原样保留"
+              },
+              {
+                "part": "in 2018",
+                "role": "状语",
+                "note": "时间状语"
+              }
+            ],
+            "clauses": [
+              "定语从句「who were working into their 70s」：who 修饰 Americans，说明其「70 多岁仍工作」",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "degrees",
+                "meaning": "程度；学位（degree 的复数/三单形式）",
+                "usage": "注意区分：degrees（复数/三单）/ degree（原形）。",
+                "example": "The share of Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018. 有学士学位、70 多岁还在工作的美国人，2018 年占比已接近 20%。"
+              },
+              {
+                "text": "working",
+                "meaning": "工作的（形容词）；work 的现在分词",
+                "usage": "注意区分：working（工作的）/ work（工作）。常见搭配：working parents / flexible working。",
+                "example": "Working parents need flexible hours. 职场父母需要弹性工时。"
+              },
+              {
+                "text": "reached",
+                "meaning": "到达、抵达、达到；伸手够到、联系上；范围、可及之处（reach 的过去式/过去分词形式）",
+                "usage": "注意区分：reached（过去式/过去分词）/ reach（原形）。",
+                "example": "The share of Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018. 有学士学位、70 多岁还在工作的美国人，2018 年占比已接近 20%。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：degrees（复数/三单）/ degree（原形）。",
+              "注意区分：working（工作的）/ work（工作）。"
+            ],
+            "paragraphRole": "给出最高教育组（学士）的占比，为「学历越高越延迟」铺垫。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 240,
+          "end": 428,
+          "text": "For those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "For",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "high",
+              "normalized": "high",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 28,
+              "surface": "school",
+              "normalized": "school",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 35,
+              "surface": "degree",
+              "normalized": "degree",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "less",
+              "normalized": "less",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 44,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 59,
+              "surface": "proportion",
+              "normalized": "proportion",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 68,
+              "surface": "those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 76,
+              "surface": "working",
+              "normalized": "working",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 79,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 85,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 88,
+              "surface": "70",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": "s",
+              "normalized": "s",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 93,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 99,
+              "surface": "risen",
+              "normalized": "risen",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 102,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 109,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 113,
+              "surface": "10%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 113,
+              "end": 114,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 115,
+              "end": 120,
+              "surface": "while",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 126,
+              "surface": "those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 131,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 136,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 144,
+              "surface": "college",
+              "normalized": "college",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 154,
+              "surface": "education",
+              "normalized": "education",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 159,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 162,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 166,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 173,
+              "surface": "middle",
+              "normalized": "middle",
+              "isWord": true
+            },
+            {
+              "start": 174,
+              "end": 176,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 177,
+              "end": 183,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 184,
+              "end": 187,
+              "surface": "15%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 187,
+              "end": 188,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "对于那些只有高中学历或更低的人，工作到 70 多岁者的比例已上升到大约 10%，而那些受过一些大学教育的人则处于中间、大约 15%。",
+            "translationNatural": "高中及以下学历者里，70 多岁还在工作的占比升到约 10%；有些大学经历的则居中，约 15%。",
+            "structMarkup": "(For those with a high school degree or less), 【the proportion of those working in their 70s】 _had risen_ (to around 10%), {while those with some college education were in the middle at around 15%}.",
+            "structureSummary": "状语 + 主句（过去完成时）+ while 对比状语从句",
+            "components": [
+              {
+                "part": "For those with a high school degree or less",
+                "role": "状语",
+                "note": "for those 引出最低学历组，with 短语限定"
+              },
+              {
+                "part": "the proportion of those working in their 70s",
+                "role": "主语",
+                "note": "主句主语；working in their 70s 分词作后置定语"
+              },
+              {
+                "part": "working in their 70s",
+                "role": "后置定语",
+                "note": "修饰 those"
+              },
+              {
+                "part": "had risen",
+                "role": "谓语",
+                "note": "过去完成时，描述到 2018 年之前已达的状态"
+              },
+              {
+                "part": "to around 10%",
+                "role": "状语",
+                "note": "rise to 的到达点，10% 须原样保留"
+              },
+              {
+                "part": "while those with some college education were in the middle at around 15%",
+                "role": "状语从句",
+                "note": "while 表对比，列出中间学历组约 15%"
+              }
+            ],
+            "clauses": [
+              "状语从句「while those with some college education were in the middle at around 1」：while 表对比，列出中间学历组约 15%",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。",
+              "have + 过去分词构成完成时态，强调对现在的影响或动作的先后。"
+            ],
+            "phrases": [
+              {
+                "text": "high school",
+                "meaning": "高的；高度的 / 高高地",
+                "usage": "注意区分：high（具体高）/ highly（抽象程度高，如 highly likely）。常见搭配：high school / high rates。",
+                "example": "Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"
+              },
+              {
+                "text": "degree",
+                "meaning": "程度；学位",
+                "usage": "注意区分：degree（程度；学位；度，可数）/ to some / a certain degree（在某种程度上，= to some extent）/ by degrees（逐渐地）/ a bachelor's degree（学士学位）/ degree 与 diploma（diploma 是「文凭」，degree 是「学位」）。常见搭配：the degree to which。",
+                "example": "For those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%. 高中及以下学历者里，70 多岁还在工作的占比升到约 10%；有些大学经历的则居中，约 15%。"
+              },
+              {
+                "text": "working",
+                "meaning": "工作的（形容词）；work 的现在分词",
+                "usage": "注意区分：working（工作的）/ work（工作）。常见搭配：working parents / flexible working。",
+                "example": "Working parents need flexible hours. 职场父母需要弹性工时。"
+              }
+            ],
+            "pitfalls": [
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "用三组学历占比形成梯度，实证「学历越高、延迟比例越大」，对应第 53 题 D 项。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. He suggests that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons. They're also more likely to be in professional occupations where they tend to enjoy their work more.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 190,
+          "text": "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "Martin",
+              "normalized": "martin",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "Neil",
+              "normalized": "neil",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 17,
+              "surface": "Baily",
+              "normalized": "baily",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 18,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 31,
+              "surface": "economist",
+              "normalized": "economist",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 46,
+              "surface": "leading",
+              "normalized": "leading",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 48,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 57,
+              "surface": "research",
+              "normalized": "research",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 65,
+              "surface": "project",
+              "normalized": "project",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 79,
+              "surface": "retirement",
+              "normalized": "retirement",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 88,
+              "surface": "security",
+              "normalized": "security",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 90,
+              "end": 95,
+              "surface": "notes",
+              "normalized": "notes",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 100,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 109,
+              "surface": "quitting",
+              "normalized": "quitting",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 111,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 118,
+              "surface": "career",
+              "normalized": "career",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 122,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 127,
+              "surface": "lead",
+              "normalized": "lead",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 130,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 139,
+              "surface": "feelings",
+              "normalized": "feelings",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 142,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 152,
+              "surface": "isolation",
+              "normalized": "isolation",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 156,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 167,
+              "surface": "loneliness",
+              "normalized": "loneliness",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 168,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 169,
+              "end": 181,
+              "surface": "particularly",
+              "normalized": "particularly",
+              "isWord": true
+            },
+            {
+              "start": 182,
+              "end": 185,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 186,
+              "end": 189,
+              "surface": "men",
+              "normalized": "men",
+              "isWord": true
+            },
+            {
+              "start": 189,
+              "end": 190,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "Martin Neil Baily，一位正领导一项关于退休保障研究项目经济学家，指出退出职业生涯会导致孤立与孤独的感受，尤其对男性而言。",
+            "translationNatural": "经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。",
+            "structMarkup": "【Martin Neil Baily】, an economist {who is leading a research project on retirement security}, _notes_ {that quitting a career can lead to feelings of isolation and loneliness, particularly for men}.",
+            "structureSummary": "主（带同位语与定语从句）谓 + 宾语从句（that 引导）",
+            "components": [
+              {
+                "part": "Martin Neil Baily",
+                "role": "主语",
+                "note": "人名，谓语用 notes"
+              },
+              {
+                "part": "an economist who is leading a research project on retirement security",
+                "role": "同位语",
+                "note": "解释身份；who 定语从句说明其当前研究"
+              },
+              {
+                "part": "who is leading a research project on retirement security",
+                "role": "定语从句",
+                "note": "修饰 economist"
+              },
+              {
+                "part": "notes",
+                "role": "谓语",
+                "note": "后接 that 宾语从句"
+              },
+              {
+                "part": "that quitting a career can lead to feelings of isolation and loneliness, particularly for men",
+                "role": "宾语从句",
+                "note": "notes 的宾语；quitting 动名词作从句主语"
+              },
+              {
+                "part": "quitting a career",
+                "role": "主语",
+                "note": "宾语从句主语，quit a career 即「退出职业生涯」"
+              },
+              {
+                "part": "can lead to",
+                "role": "谓语",
+                "note": "lead to 意为「导致」"
+              },
+              {
+                "part": "feelings of isolation and loneliness",
+                "role": "宾语",
+                "note": "lead to 的宾语，解释退休的心理代价"
+              },
+              {
+                "part": "particularly for men",
+                "role": "状语",
+                "note": "尤其对男性而言，限定影响范围"
+              }
+            ],
+            "clauses": [
+              "定语从句「who is leading a research project on retirement security」：修饰 economist",
+              "宾语从句「that quitting a career can lead to feelings of isolation and lonelines」：notes 的宾语；quitting 动名词作从句主语",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "lead to",
+                "meaning": "导致",
+                "usage": "to 是介词，后接名词或动名词。",
+                "example": "Poor sleep can lead to mistakes. 睡眠差会导致出错。"
+              },
+              {
+                "text": "economist",
+                "meaning": "经济学家、经济学者",
+                "usage": "注意区分：economist（经济学家，指人）/ economy（经济）/ economics（经济学）/ economic（经济的）/ economical（节俭的）。",
+                "example": "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. 经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。"
+              },
+              {
+                "text": "leading",
+                "meaning": "导致（lead to）；领导、带领 / 领先（lead 的现在分词/动名词形式）",
+                "usage": "注意区分：leading（现在分词/动名词）/ lead（原形）。",
+                "example": "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. 经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。"
+              }
+            ],
+            "pitfalls": [
+              "lead to 中的 to 是介词，后接动名词而非原形。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "引第二位专家，指出退休带来社交孤立，为「留岗出于社交」作铺垫。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 191,
+          "end": 330,
+          "text": "He suggests that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 11,
+              "surface": "suggests",
+              "normalized": "suggests",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 38,
+              "surface": "college-educated",
+              "normalized": "college-educated",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 46,
+              "surface": "workers",
+              "normalized": "workers",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 50,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 59,
+              "surface": "choosing",
+              "normalized": "choosing",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 67,
+              "surface": "stay",
+              "normalized": "stay",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 74,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 80,
+              "surface": "labor",
+              "normalized": "labor",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 86,
+              "surface": "force",
+              "normalized": "force",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 91,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 95,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 102,
+              "surface": "social",
+              "normalized": "social",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 111,
+              "surface": "benefits",
+              "normalized": "benefits",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 116,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 120,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 130,
+              "surface": "financial",
+              "normalized": "financial",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 138,
+              "surface": "reasons",
+              "normalized": "reasons",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 139,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他暗示许多受过大学教育的工人选择留在劳动力队伍中更多是出于社会效益而非财务原因。",
+            "translationNatural": "他认为，许多大学学历的劳动者留在一线，更多是为了社交好处，而非钱。",
+            "structMarkup": "【He】 _suggests_ {that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，内含比较状语）",
+            "components": [
+              {
+                "part": "He",
+                "role": "主语",
+                "note": "回指上句 Martin Neil Baily"
+              },
+              {
+                "part": "suggests",
+                "role": "谓语",
+                "note": "后接 that 从句表观点"
+              },
+              {
+                "part": "that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons",
+                "role": "宾语从句",
+                "note": "suggests 的宾语；more...than... 比较两种动机"
+              },
+              {
+                "part": "many college-educated workers",
+                "role": "主语",
+                "note": "宾语从句主语"
+              },
+              {
+                "part": "are choosing to stay in the labor force",
+                "role": "谓语",
+                "note": "choose to do 意为「选择做」；labor force 即「劳动力市场/劳动力队伍」"
+              },
+              {
+                "part": "more for social benefits than for financial reasons",
+                "role": "状语",
+                "note": "比较状语，点明主因是社交而非财务——对应第 54 题 B 项"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that many college-educated workers are choosing to stay in the labor f」：suggests 的宾语；more...than... 比较两种动机",
+              "本句含比较结构（比较级 + than），than 后是被比较对象。",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "workers",
+                "meaning": "工人、劳动者、工作者、员工（worker 的复数）",
+                "usage": "注意区分：worker（工人、工作者，可数）/ employee（雇员，强调雇佣关系）/ workforce（全体劳动力，集合）/ work（工作，不可数；也作动词）/ job（可数，work 不可数）。",
+                "example": "He suggests that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons. 他认为，许多大学学历的劳动者留在一线，更多是为了社交好处，而非钱。"
+              },
+              {
+                "text": "stay",
+                "meaning": "保持、停留",
+                "usage": "常见搭配：stay strong / stay on track。",
+                "example": "Stay calm. 保持冷静。"
+              },
+              {
+                "text": "benefits",
+                "meaning": "好处、益处（benefit 的复数）；福利待遇",
+                "usage": "注意区分：benefits（好处/福利）/ benefit（单数或动词）。常见搭配：the benefits of / employee benefits。",
+                "example": "The benefits of multitasking are clear. 多任务处理的好处很明显。"
+              }
+            ],
+            "pitfalls": [
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。"
+            ],
+            "paragraphRole": "点明高学历者延迟退休主因是社交，直接回答第 54 题。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 331,
+          "end": 431,
+          "text": "They're also more likely to be in professional occupations where they tend to enjoy their work more.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "They're",
+              "normalized": "they're",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 12,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 24,
+              "surface": "likely",
+              "normalized": "likely",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 46,
+              "surface": "professional",
+              "normalized": "professional",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 58,
+              "surface": "occupations",
+              "normalized": "occupations",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 64,
+              "surface": "where",
+              "normalized": "where",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 69,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 74,
+              "surface": "tend",
+              "normalized": "tend",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 77,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 83,
+              "surface": "enjoy",
+              "normalized": "enjoy",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 89,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 94,
+              "surface": "work",
+              "normalized": "work",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 99,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 100,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他们也更可能处于专业职业之中，在那里他们往往更享受自己的工作。",
+            "translationNatural": "他们也多半从事专业岗位，而这种岗位里他们往往更享受工作。",
+            "structMarkup": "【They're】 _also more likely to be_ (in professional occupations) {where they tend to enjoy their work more}.",
+            "structureSummary": "主系表（more likely to be）+ 定语从句（where 引导）",
+            "components": [
+              {
+                "part": "They're",
+                "role": "主语",
+                "note": "They are 的缩写，回指 college-educated workers"
+              },
+              {
+                "part": "also more likely to be",
+                "role": "谓语",
+                "note": "be likely to do 意为「更可能……」；also 补充另一特征"
+              },
+              {
+                "part": "in professional occupations",
+                "role": "状语",
+                "note": "说明所处岗位类型"
+              },
+              {
+                "part": "where they tend to enjoy their work more",
+                "role": "定语从句",
+                "note": "where 修饰 occupations，解释「更享受工作」"
+              }
+            ],
+            "clauses": [
+              "定语从句「where they tend to enjoy their work more」：where 修饰 occupations，解释「更享受工作」",
+              "本句主干为「主系表（more likely to be）+ 定语从句（where 引导）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "tend to",
+                "meaning": "往往会、倾向于",
+                "usage": "后接动词原形，表示一般性倾向。",
+                "example": "People tend to overestimate risk. 人们往往高估风险。"
+              },
+              {
+                "text": "likely",
+                "meaning": "可能的；很可能（be likely to do）",
+                "usage": "注意区分：likely（可作 adj./adv.）/ probable/possible（只作形容词）。常见搭配：be likely to do / more likely than。",
+                "example": "Kids are likely to copy their parents. 孩子很可能模仿父母。"
+              },
+              {
+                "text": "tend",
+                "meaning": "倾向于、往往会（tend to do）；照料（tend to sb）",
+                "usage": "注意区分：tend to do（倾向于）/ tend to sb（照料某人）。常见搭配：tend to do / tend to be。",
+                "example": "Men tend to exhibit more of these behaviors. 男性往往表现出更多这类行为。"
+              }
+            ],
+            "pitfalls": [
+              "tend to 后接动词原形，不接动名词。",
+              "注意区分：likely（可作 adj./adv.）/ probable/possible（只作形容词）。",
+              "注意区分：tend to do（倾向于）/ tend to sb（照料某人）。"
+            ],
+            "paragraphRole": "补充高学历者多在专业岗、更爱工作，进一步强化其留岗的非财务动机。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "text": "Workers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those who stay on are more likely doing so for financial reasons.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 178,
+          "text": "Workers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those who stay on are more likely doing so for financial reasons.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "Workers",
+              "normalized": "workers",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 24,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "jobs",
+              "normalized": "jobs",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 30,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 31,
+              "end": 40,
+              "surface": "meanwhile",
+              "normalized": "meanwhile",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 41,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 53,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 60,
+              "surface": "likely",
+              "normalized": "likely",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 68,
+              "surface": "look",
+              "normalized": "look",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 76,
+              "surface": "forward",
+              "normalized": "forward",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 79,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 88,
+              "surface": "retiring",
+              "normalized": "retiring",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 90,
+              "end": 95,
+              "surface": "Baily",
+              "normalized": "baily",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 100,
+              "surface": "says",
+              "normalized": "says",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 101,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 102,
+              "end": 112,
+              "surface": "suggesting",
+              "normalized": "suggesting",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 118,
+              "surface": "those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 122,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 127,
+              "surface": "stay",
+              "normalized": "stay",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 130,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 134,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 139,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 146,
+              "surface": "likely",
+              "normalized": "likely",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 152,
+              "surface": "doing",
+              "normalized": "doing",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 155,
+              "surface": "so",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 156,
+              "end": 159,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 169,
+              "surface": "financial",
+              "normalized": "financial",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 177,
+              "surface": "reasons",
+              "normalized": "reasons",
+              "isWord": true
+            },
+            {
+              "start": 177,
+              "end": 178,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "从事更体力性工作的工人们，与此同时，可能更有可能盼望着退休，Baily 说，暗示那些坚持下去的人更可能是出于财务原因才这样做。",
+            "translationNatural": "Baily 说，干体力活的人反倒更盼着退休；而留下来的人，多半是为了钱。",
+            "structMarkup": "【Workers in more physical jobs】, (meanwhile), _may be more likely to look forward to retiring_, _Baily says_, (suggesting those who stay on are more likely doing so for financial reasons).",
+            "structureSummary": "主语（带插入语）+ 谓语 + 倒装报道小句 + 现在分词状语（内含宾语从句与定语从句）",
+            "components": [
+              {
+                "part": "Workers in more physical jobs",
+                "role": "主语",
+                "note": "核心词 workers；in more physical jobs 介词短语作后置定语"
+              },
+              {
+                "part": "meanwhile",
+                "role": "插入语",
+                "note": "插入语，转向下一类劳动者形成对照"
+              },
+              {
+                "part": "may be more likely to look forward to retiring",
+                "role": "谓语",
+                "note": "look forward to doing 意为「盼望做」，与上文高学历者相反"
+              },
+              {
+                "part": "Baily says",
+                "role": "谓语",
+                "note": "倒装报道小句，交代观点来源"
+              },
+              {
+                "part": "suggesting those who stay on are more likely doing so for financial reasons",
+                "role": "状语",
+                "note": "现在分词短语作伴随结果；those who stay on 作 suggesting 的宾语"
+              },
+              {
+                "part": "those who stay on",
+                "role": "宾语从句",
+                "note": "suggesting 的宾语；who stay on 是定语从句"
+              },
+              {
+                "part": "who stay on",
+                "role": "定语从句",
+                "note": "修饰 those，stay on 意为「留任、继续干」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「those who stay on」：suggesting 的宾语；who stay on 是定语从句",
+              "定语从句「who stay on」：修饰 those，stay on 意为「留任、继续干」",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "workers",
+                "meaning": "工人、劳动者、工作者、员工（worker 的复数）",
+                "usage": "注意区分：worker（工人、工作者，可数）/ employee（雇员，强调雇佣关系）/ workforce（全体劳动力，集合）/ work（工作，不可数；也作动词）/ job（可数，work 不可数）。",
+                "example": "Workers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those who stay on are more likely doing so for financial reasons. Baily 说，干体力活的人反倒更盼着退休；而留下来的人，多半是为了钱。"
+              },
+              {
+                "text": "physical",
+                "meaning": "身体的；物理的；实物的",
+                "usage": "注意区分：physical（身体的/物理的）/ mental（心理的）。常见搭配：physical health / physical activity。",
+                "example": "Mental and physical health are linked. 心理与身体健康相互关联。"
+              },
+              {
+                "text": "likely",
+                "meaning": "可能的；很可能（be likely to do）",
+                "usage": "注意区分：likely（可作 adj./adv.）/ probable/possible（只作形容词）。常见搭配：be likely to do / more likely than。",
+                "example": "Kids are likely to copy their parents. 孩子很可能模仿父母。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "以体力劳动者的对比收尾：他们盼退休、留岗者为钱，对应第 55 题 D 项。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 51,
+      "stem": "What do we learn from the passage about the economics professor and her hairdresser?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They differ in their reasons for continuing to work."
+        },
+        {
+          "key": "B",
+          "text": "They are both committed to working into their 70s."
+        },
+        {
+          "key": "C",
+          "text": "They are happy about their current financial situation."
+        },
+        {
+          "key": "D",
+          "text": "They hold different views about postponing retirement."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 52,
+      "stem": "What is one of the reasons for people to delay retirement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "More and more people have switched to less intellectually challenging jobs."
+        },
+        {
+          "key": "B",
+          "text": "The number of jobs suitable for older people has increased in the private sector."
+        },
+        {
+          "key": "C",
+          "text": "The rate of wage increase in terms of purchasing power has slowed down for years."
+        },
+        {
+          "key": "D",
+          "text": "More and more people in the workplace find it hard to rely on traditional pensions."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 53,
+      "stem": "What is the general trend in people delaying retirement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The higher their earnings, the more likely they are tempted to delay retirement."
+        },
+        {
+          "key": "B",
+          "text": "Those who have more job satisfaction tend to retire later than those who have less."
+        },
+        {
+          "key": "C",
+          "text": "More men than women are likely to stay in the labor force until their late seventies."
+        },
+        {
+          "key": "D",
+          "text": "The higher their educational level, the more likely they are to delay retirement."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 54,
+      "stem": "What is the chief reason for college-educated workers delaying retirement according to an economist?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enjoying financial security."
+        },
+        {
+          "key": "B",
+          "text": "Staying connected socially."
+        },
+        {
+          "key": "C",
+          "text": "Contributing more professionally."
+        },
+        {
+          "key": "D",
+          "text": "Increasing social security payments."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 55,
+      "stem": "What does the passage say about people doing manual work?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are eager to enjoy life after retiring."
+        },
+        {
+          "key": "B",
+          "text": "They are likely to have financial troubles."
+        },
+        {
+          "key": "C",
+          "text": "They generally don't enjoy doing it."
+        },
+        {
+          "key": "D",
+          "text": "They tend to anticipate retirement."
+        }
+      ],
+      "answer": "D"
+    }
+  ],
+  "lexicon": {
+    "agreed": {
+      "phonetic": "/əˈɡriːd/",
+      "pos": "v.",
+      "sense": "同意、赞成、意见一致；相符、一致（agree with/to/on）（agree 的过去式/过去分词形式）",
+      "lemma": "agree",
+      "collocations": [
+        "hairdresser agreed"
+      ],
+      "examples": [
+        "The hairdresser agreed but for a different reason: She needs the money. 理发师也认同要继续干，理由却不一样：她缺钱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "agree + -d（过去式/过去分词）",
+        "confusables": "agreed（过去式/过去分词）/ agree（原形）"
+      }
+    },
+    "although": {
+      "phonetic": "/ɔːlˈðəʊ/",
+      "pos": "conj.",
+      "sense": "虽然、尽管（后接从句）",
+      "collocations": [
+        "although it is",
+        "although not"
+      ],
+      "examples": [
+        "Although these accounts touch on real concerns, they miss the whole. 尽管这些报道触及真实担忧，却忽略了全貌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "although + 从句 / despite + 名词"
+      }
+    },
+    "around": {
+      "phonetic": "/əˈraʊnd/",
+      "pos": "prep./adv.",
+      "sense": "围绕、在…四周；大约、到处、转过来（本文 discussion around careers 围绕职业的讨论 / around 30% 约 30%）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "risen to around",
+        "middle at around"
+      ],
+      "examples": [
+        "For those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%. 高中及以下学历者里，70 多岁还在工作的占比升到约 10%；有些大学经历的则居中，约 15%。"
+      ]
+    },
+    "attainment": {
+      "phonetic": "/əˈteɪnmənt/",
+      "pos": "n.",
+      "sense": "达到、实现；成就、造诣（本文指目标达成）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "educational attainment"
+      ],
+      "examples": [
+        "The overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by category. 整体趋势影响到各个教育层次的美国人，只是具体比例因群体而不同。"
+      ],
+      "more": {
+        "roots": "attainment 含 -ment（名词后缀，表结果、手段或过程）"
+      }
+    },
+    "away": {
+      "phonetic": "/əˈweɪ/",
+      "pos": "adv.",
+      "sense": "离开、远离；（时间/距离）之外",
+      "collocations": [
+        "go away",
+        "far away",
+        "right away"
+      ],
+      "examples": [
+        "Parents stare at their phones instead of reading. 家长盯着手机而不读书。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "away（离开）/ way（路）/ right away（立刻）"
+      }
+    },
+    "benefits": {
+      "phonetic": "/ˈbenɪfɪts/",
+      "pos": "n.",
+      "sense": "好处、益处（benefit 的复数）；福利待遇",
+      "lemma": "benefit",
+      "collocations": [
+        "the benefits of",
+        "employee benefits",
+        "for the benefit of"
+      ],
+      "examples": [
+        "The benefits of multitasking are clear. 多任务处理的好处很明显。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "benefits（好处/福利）/ benefit（单数或动词）"
+      }
+    },
+    "big": {
+      "phonetic": "/bɪɡ/",
+      "pos": "adj.",
+      "sense": "大的、巨大的、重大的、重要的、数量大的、年长的（a big decision 重大决定）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "big increase"
+      ],
+      "examples": [
+        "Both scenarios(情况) are contributing to a big increase in the number of people in the U.S. working into their 70s. 这两种情况，都在推动美国工作到 70 多岁的人数大幅上升。"
+      ],
+      "more": {
+        "confusables": "big / biggest（同族不同词形，注意词性与用法）"
+      }
+    },
+    "career": {
+      "phonetic": "/kəˈrɪə(r)/",
+      "pos": "n.",
+      "sense": "职业、事业、职业生涯；一生的事业",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "career（事业、职业生涯，强调长期发展轨迹，可数）/ job（一份具体工作，可数）/ work（工作，不可数）/ profession（须受专业训练的职业）/ vocation（天职，使命感强）"
+      },
+      "collocations": [],
+      "examples": [
+        "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. 经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。"
+      ]
+    },
+    "choosing": {
+      "phonetic": "/ˈtʃuːzɪŋ/",
+      "pos": "v.",
+      "sense": "选择、挑选、决定（choose 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "choosing to",
+        "choosing to stay"
+      ],
+      "examples": [
+        "He suggests that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons. 他认为，许多大学学历的劳动者留在一线，更多是为了社交好处，而非钱。"
+      ]
+    },
+    "college": {
+      "phonetic": "/ˈkɒlɪdʒ/",
+      "pos": "n.",
+      "sense": "大学、学院；上大学（本文 college students 大学生 / graduated from college 大学毕业）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "college education"
+      ],
+      "examples": [
+        "For those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%. 高中及以下学历者里，70 多岁还在工作的占比升到约 10%；有些大学经历的则居中，约 15%。"
+      ],
+      "more": {
+        "confusables": "college / colleague / colleagues（同族不同词形，注意词性与用法）"
+      }
+    },
+    "combination": {
+      "phonetic": "/ˌkɒmbɪˈneɪʃn/",
+      "pos": "n.",
+      "sense": "结合、组合、联合、混合物、组合体（a combination of / in combination with）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "combination of",
+        "combination of financial"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ],
+      "more": {
+        "roots": "combination 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "considerations": {
+      "phonetic": "/kənˌsɪdəˈreɪʃnz/",
+      "pos": "n.",
+      "sense": "考虑；under consideration 在考察中的（consideration 的复数/三单形式）",
+      "lemma": "consideration",
+      "collocations": [
+        "financial considerations"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "consideration + -s（复数/三单）",
+        "confusables": "considerations（复数/三单）/ consideration（原形）"
+      }
+    },
+    "continue": {
+      "phonetic": "/kənˈtɪnjuː/",
+      "pos": "v.",
+      "sense": "继续（continue to do / continue doing）",
+      "collocations": [
+        "continue to do",
+        "continue doing",
+        "continue with"
+      ],
+      "examples": [
+        "The practice continues in many firms. 这种做法在许多公司延续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（一起）+ tin（握、持，词根 ten/tain/tin = hold，同 contain/maintain）+ -ue",
+        "confusables": "continue to do / continue doing（都对，前者强调新阶段）/ continuous（连续的）"
+      }
+    },
+    "contributed": {
+      "phonetic": "/kənˈtrɪbjuːtd/",
+      "pos": "v.",
+      "sense": "有助于、贡献（contribute to）（contribute 的过去式/过去分词形式）",
+      "lemma": "contribute",
+      "collocations": [
+        "contributed to"
+      ],
+      "examples": [
+        "The decline of manufacturing and the increase in the number of people working in less labor-intensive occupations also has contributed to the trend, says Abraham, who researches work and retirement decisions of older Americans. 制造业萎缩、从事轻体力职业的人变多，也推动了这一趋势——研究美国老年人工作与退休抉择的 Abraham 这样说道。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "contribute + -d（过去式/过去分词）",
+        "confusables": "contributed（过去式/过去分词）/ contribute（原形）"
+      }
+    },
+    "contributing": {
+      "phonetic": "/kənˈtrɪbjuːtɪŋ/",
+      "pos": "v.",
+      "sense": "有助于、贡献（contribute to）（contribute 的现在分词/动名词形式）",
+      "lemma": "contribute",
+      "collocations": [
+        "contributing to"
+      ],
+      "examples": [
+        "Both scenarios(情况) are contributing to a big increase in the number of people in the U.S. working into their 70s. 这两种情况，都在推动美国工作到 70 多岁的人数大幅上升。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "contribute + -ing（现在分词/动名词）",
+        "confusables": "contributing（现在分词/动名词）/ contribute（原形）"
+      }
+    },
+    "decisions": {
+      "phonetic": "/dɪˈsɪʒnz/",
+      "pos": "n.",
+      "sense": "决定、抉择、决断（decision 的复数；make decisions 作决定）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "retirement decisions",
+        "decisions of",
+        "decisions of older"
+      ],
+      "examples": [
+        "The decline of manufacturing and the increase in the number of people working in less labor-intensive occupations also has contributed to the trend, says Abraham, who researches work and retirement decisions of older Americans. 制造业萎缩、从事轻体力职业的人变多，也推动了这一趋势——研究美国老年人工作与退休抉择的 Abraham 这样说道。"
+      ],
+      "more": {
+        "confusables": "decisions / decision（同族不同词形，注意词性与用法）"
+      }
+    },
+    "decline": {
+      "phonetic": "/dɪˈklaɪn/",
+      "pos": "v./n.",
+      "sense": "下降（不及物）；拒绝（及物）/ 下降、衰退",
+      "collocations": [
+        "decline in",
+        "a sharp decline",
+        "decline to do"
+      ],
+      "examples": [
+        "Reading rates have declined. 阅读率下降了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "decline（下降，不及物）/ refuse（拒绝）/ decline to do（婉拒）"
+      }
+    },
+    "degree": {
+      "phonetic": "/dɪˈɡriː/",
+      "pos": "n.",
+      "sense": "程度；学位",
+      "collocations": [
+        "the degree to which",
+        "school degree"
+      ],
+      "examples": [
+        "For those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%. 高中及以下学历者里，70 多岁还在工作的占比升到约 10%；有些大学经历的则居中，约 15%。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "degree（程度；学位；度，可数）/ to some / a certain degree（在某种程度上，= to some extent）/ by degrees（逐渐地）/ a bachelor's degree（学士学位）/ degree 与 diploma（diploma 是「文凭」，degree 是「学位」）"
+      }
+    },
+    "degrees": {
+      "phonetic": "/dɪˈɡriːz/",
+      "pos": "n.",
+      "sense": "程度；学位（degree 的复数/三单形式）",
+      "lemma": "degree",
+      "collocations": [
+        "bachelor's degrees"
+      ],
+      "examples": [
+        "The share of Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018. 有学士学位、70 多岁还在工作的美国人，2018 年占比已接近 20%。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "degree + -s（复数/三单）",
+        "confusables": "degrees（复数/三单）/ degree（原形）"
+      }
+    },
+    "delay": {
+      "phonetic": "/dɪˈleɪ/",
+      "pos": "v./n.",
+      "sense": "延迟（及物）；延误（可数/不可数）",
+      "collocations": [
+        "delay doing",
+        "without delay",
+        "a long delay"
+      ],
+      "examples": [
+        "Delay in taking leave may reduce its benefits. 推迟休假可能降低其益处。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "delay doing（延迟做）/ delay（延误）"
+      }
+    },
+    "depends": {
+      "phonetic": "/dɪˈpenddz/",
+      "pos": "v.",
+      "sense": "取决于（depend on）；依靠（depend 的复数/三单形式）",
+      "lemma": "depend",
+      "collocations": [
+        "depends on"
+      ],
+      "examples": [
+        "\"Which matters more depends on what your history up until that point has been in the type of work you're doing,\" Abraham says. Abraham 说：「哪个因素更重要，要看你做到那时、干这行积累下来的经历。」"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "depend + -s（复数/三单）",
+        "confusables": "depends（复数/三单）/ depend（原形）"
+      }
+    },
+    "different": {
+      "phonetic": "/ˈdɪfrənt/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的",
+      "collocations": [
+        "different from",
+        "a different picture",
+        "different points of view"
+      ],
+      "examples": [
+        "Their experiences were considerably different. 他们的经历相当不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "doing": {
+      "phonetic": "/ˈduːɪŋ/",
+      "pos": "v./n.",
+      "sense": "做、干、从事（do 的现在分词/动名词）；所作的事、活动",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "you're doing",
+        "likely doing"
+      ],
+      "examples": [
+        "\"Which matters more depends on what your history up until that point has been in the type of work you're doing,\" Abraham says. Abraham 说：「哪个因素更重要，要看你做到那时、干这行积累下来的经历。」"
+      ]
+    },
+    "economics": {
+      "phonetic": "/ˌiːkəˈnɒmɪks/",
+      "pos": "n.",
+      "sense": "经济学；经济情况",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "economics professor"
+      ],
+      "examples": [
+        "Katharine Abraham, an economics professor, was chatting with her hairdresser(理发师) about retirement plans. 经济学教授 Katharine Abraham 和她的理发师聊起退休打算。"
+      ],
+      "more": {
+        "confusables": "economics / economic / economists（同族不同词形，注意词性与用法）"
+      }
+    },
+    "economist": {
+      "phonetic": "/ɪˈkɒnəmɪst/",
+      "pos": "n.",
+      "sense": "经济学家、经济学者",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "economy（经济）+ -ist（表「从事…的人」的名词后缀，去 y）",
+        "confusables": "economist（经济学家，指人）/ economy（经济）/ economics（经济学）/ economic（经济的）/ economical（节俭的）"
+      },
+      "collocations": [
+        "economist said"
+      ],
+      "examples": [
+        "The economist said she plans to continue working because she wants to. 教授说，她打算继续干是因为自己乐意。"
+      ]
+    },
+    "economists": {
+      "phonetic": "/ɪˈkɒnəmɪsts/",
+      "pos": "n.",
+      "sense": "经济学家（复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "economists say"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ],
+      "more": {
+        "confusables": "economists / economist（同族不同词形，注意词性与用法）"
+      }
+    },
+    "education": {
+      "phonetic": "/ˌedʒuˈkeɪʃn/",
+      "pos": "n.",
+      "sense": "教育、培养；教育学",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "educate（教育）+ -ion（名词后缀，去 e）",
+        "confusables": "education（教育，不可数）/ educational（教育的，形容词）/ higher / further education（高等/继续教育）/ education 与 training（training 侧重技能培训）"
+      },
+      "collocations": [
+        "college education"
+      ],
+      "examples": [
+        "For those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%. 高中及以下学历者里，70 多岁还在工作的占比升到约 10%；有些大学经历的则居中，约 15%。"
+      ]
+    },
+    "educational": {
+      "phonetic": "/ˌedʒuˈkeɪʃənl/",
+      "pos": "adj.",
+      "sense": "教育的、教学用的、有教育意义的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "education（教育）+ -al（形容词后缀）",
+        "confusables": "educational（教育的、有教育意义的）/ education（教育，不可数）/ educate（动词）/ educational 与 academic（academic 指「学术的、学校的」）"
+      },
+      "collocations": [
+        "educational attainment",
+        "levels of educational"
+      ],
+      "examples": [
+        "The overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by category. 整体趋势影响到各个教育层次的美国人，只是具体比例因群体而不同。"
+      ]
+    },
+    "enjoy": {
+      "phonetic": "/ɪnˈdʒɔɪ/",
+      "pos": "v.",
+      "sense": "享受…的乐趣、喜爱；享有（某种条件）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "enjoy doing（喜欢做，接动名词，不接 to do）/ enjoy oneself（玩得开心）/ enjoy sth（享有，如 enjoy good health）/ enjoyment（乐趣，名词）/ enjoy 与 like（like to do / doing 均可，enjoy 只接 doing）"
+      },
+      "collocations": [
+        "tend to enjoy"
+      ],
+      "examples": [
+        "They're also more likely to be in professional occupations where they tend to enjoy their work more. 他们也多半从事专业岗位，而这种岗位里他们往往更享受工作。"
+      ]
+    },
+    "feelings": {
+      "phonetic": "/ˈfiːlɪŋz/",
+      "pos": "n.",
+      "sense": "感觉、知觉、感触；情感、看法（feelings 感情、情绪）（feeling 的复数/三单形式）",
+      "lemma": "feeling",
+      "collocations": [
+        "feelings of",
+        "feelings of isolation",
+        "lead to feelings"
+      ],
+      "examples": [
+        "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. 经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "feeling + -s（复数/三单）",
+        "confusables": "feelings（复数/三单）/ feeling（原形）"
+      }
+    },
+    "financial": {
+      "phonetic": "/faɪˈnænʃl/",
+      "pos": "adj.",
+      "sense": "财务的、财政的、金融的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "finance（财政、金融）+ -ial（形容词后缀，去 e）",
+        "confusables": "financial（财政的、金融的，形容词）/ finance（财政；资金，名词；动词「资助」）/ financial 与 fiscal（fiscal 专指国库的、会计年度的，如 fiscal year，比 financial 窄）/ financially（经济上，副词）/ financial crisis（金融危机）"
+      },
+      "collocations": [
+        "financial considerations",
+        "combination of financial",
+        "financial reasons"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ]
+    },
+    "force": {
+      "phonetic": "/fɔːs/",
+      "pos": "n./v.",
+      "sense": "力量、武力、暴力；作用力、军队；强迫、迫使、用力推动",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "labor force"
+      ],
+      "examples": [
+        "He suggests that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons. 他认为，许多大学学历的劳动者留在一线，更多是为了社交好处，而非钱。"
+      ]
+    },
+    "forward": {
+      "phonetic": "/ˈfɔːwəd/",
+      "pos": "adv./adj.",
+      "sense": "向前、前进；向前的、未来的（本文 move forward 推进 / the road forward 前路 / go forward）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "look forward",
+        "forward to",
+        "forward to retiring"
+      ],
+      "examples": [
+        "Workers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those who stay on are more likely doing so for financial reasons. Baily 说，干体力活的人反倒更盼着退休；而留下来的人，多半是为了钱。"
+      ]
+    },
+    "hairdresser": {
+      "phonetic": "/ˈheədresə(r)/",
+      "pos": "n.",
+      "sense": "理发师；美发师",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "hairdresser agreed"
+      ],
+      "examples": [
+        "Katharine Abraham, an economics professor, was chatting with her hairdresser(理发师) about retirement plans. 经济学教授 Katharine Abraham 和她的理发师聊起退休打算。"
+      ]
+    },
+    "healthier": {
+      "phonetic": "/ˈhelθiə(r)/",
+      "pos": "adj.",
+      "sense": "更健康的、更有益健康的（healthy 的比较级）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ]
+    },
+    "high": {
+      "phonetic": "/haɪ/",
+      "pos": "adj./adv.",
+      "sense": "高的；高度的 / 高高地",
+      "collocations": [
+        "high school",
+        "high rates",
+        "highly（注意区分）"
+      ],
+      "examples": [
+        "Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "high（具体高）/ highly（抽象程度高，如 highly likely）"
+      }
+    },
+    "history": {
+      "phonetic": "/ˈhɪstri/",
+      "pos": "n.",
+      "sense": "历史、历史学；来历、经历、病史、沿革",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "history up",
+        "history up until"
+      ],
+      "examples": [
+        "\"Which matters more depends on what your history up until that point has been in the type of work you're doing,\" Abraham says. Abraham 说：「哪个因素更重要，要看你做到那时、干这行积累下来的经历。」"
+      ],
+      "more": {
+        "confusables": "history / historically / historian（同族不同词形，注意词性与用法）"
+      }
+    },
+    "hitting": {
+      "phonetic": "/ˈhɪtɪŋ/",
+      "pos": "v.",
+      "sense": "击、打、撞、命中、达到（水平/数量/目标）、碰到（问题/瓶颈）、使突然意识到（hit 的现在分词；hit a target）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "hitting Americans"
+      ],
+      "examples": [
+        "The overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by category. 整体趋势影响到各个教育层次的美国人，只是具体比例因群体而不同。"
+      ]
+    },
+    "increase": {
+      "phonetic": "/ɪnˈkriːs/",
+      "pos": "v./n.",
+      "sense": "增加（动词读 /ɪnˈkriːs/）；增加（名词读 /ˈɪnkriːs/）",
+      "collocations": [
+        "increase in sth",
+        "increase the chances of",
+        "a sharp increase"
+      ],
+      "examples": [
+        "More women reported an increase in responsibilities. 更多女性报告责任增加。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increase（动词）/ increase in（名词 + 介词）"
+      }
+    },
+    "jobs": {
+      "phonetic": "/dʒɒbz/",
+      "pos": "n.",
+      "sense": "工作、职位、职业；任务、活儿（job 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "physical jobs"
+      ],
+      "examples": [
+        "Workers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those who stay on are more likely doing so for financial reasons. Baily 说，干体力活的人反倒更盼着退休；而留下来的人，多半是为了钱。"
+      ]
+    },
+    "labor": {
+      "phonetic": "/ˈleɪbə(r)/",
+      "pos": "n./v.",
+      "sense": "劳动、劳动力、劳工、分娩；劳动、苦干（美式拼写，英式 labour）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "labor force"
+      ],
+      "examples": [
+        "He suggests that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons. 他认为，许多大学学历的劳动者留在一线，更多是为了社交好处，而非钱。"
+      ]
+    },
+    "lead": {
+      "phonetic": "/liːd/",
+      "pos": "v./n.",
+      "sense": "导致（lead to）；领导、带领 / 领先",
+      "collocations": [
+        "lead to",
+        "lead a parade",
+        "take the lead"
+      ],
+      "examples": [
+        "Isolation can lead to poor health. 孤立可能导致健康不佳。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lead to（导致）/ lead（铅，读 /led/）/ led（过去式）"
+      }
+    },
+    "leading": {
+      "phonetic": "/liːdɪŋ/",
+      "pos": "v./n.",
+      "sense": "导致（lead to）；领导、带领 / 领先（lead 的现在分词/动名词形式）",
+      "lemma": "lead",
+      "collocations": [],
+      "examples": [
+        "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. 经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "lead + -ing（现在分词/动名词）",
+        "confusables": "leading（现在分词/动名词）/ lead（原形）"
+      }
+    },
+    "levels": {
+      "phonetic": "/ˈlevlz/",
+      "pos": "n./adj./v.",
+      "sense": "水平、程度、级别、层次；平的、同高度的；弄平、使持平（level 的复数/三单形式）",
+      "lemma": "level",
+      "collocations": [
+        "different levels",
+        "levels of",
+        "levels of educational"
+      ],
+      "examples": [
+        "The overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by category. 整体趋势影响到各个教育层次的美国人，只是具体比例因群体而不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "level + -s（复数/三单）",
+        "confusables": "levels（复数/三单）/ level（原形）"
+      }
+    },
+    "likely": {
+      "phonetic": "/ˈlaɪkli/",
+      "pos": "adj./adv.",
+      "sense": "可能的；很可能（be likely to do）",
+      "collocations": [
+        "be likely to do",
+        "more likely than",
+        "most likely"
+      ],
+      "examples": [
+        "Kids are likely to copy their parents. 孩子很可能模仿父母。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "likely（可作 adj./adv.）/ probable/possible（只作形容词）"
+      }
+    },
+    "living": {
+      "phonetic": "/ˈlɪvɪŋ/",
+      "pos": "adj./n./v.",
+      "sense": "活着的、现存的；生计、生活方式；生活、居住（live 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ]
+    },
+    "longer": {
+      "phonetic": "/ˈlɒŋɡə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更长的（long 的比较级）；（no longer）不再",
+      "lemma": "long",
+      "collocations": [
+        "no longer",
+        "longer than",
+        "six times longer"
+      ],
+      "examples": [
+        "Essays are now six times longer. 现在文章长了六倍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "no longer（不再，指时间）/ no more（不再，指数量）"
+      }
+    },
+    "look": {
+      "phonetic": "/lʊk/",
+      "pos": "v./n.",
+      "sense": "看、显得（look + adj.）；外观",
+      "collocations": [
+        "look at",
+        "look like",
+        "look for"
+      ],
+      "examples": [
+        "When you look at today's digital activity... 当你审视当今的数字活动……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "look at（看）/ look for（找）/ look after（照顾）"
+      }
+    },
+    "manufacturing": {
+      "phonetic": "/ˌmænjuˈfæktʃərɪŋ/",
+      "pos": "n./v.",
+      "sense": "制造业；制造、生产（manufacture 的现在分词/动名词，常作定语）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "decline of manufacturing"
+      ],
+      "examples": [
+        "The decline of manufacturing and the increase in the number of people working in less labor-intensive occupations also has contributed to the trend, says Abraham, who researches work and retirement decisions of older Americans. 制造业萎缩、从事轻体力职业的人变多，也推动了这一趋势——研究美国老年人工作与退休抉择的 Abraham 这样说道。"
+      ]
+    },
+    "matters": {
+      "phonetic": "/ˈmætə(r)z/",
+      "pos": "v./n.",
+      "sense": "要紧、有影响；事情（matter 的复数/三单形式）",
+      "lemma": "matter",
+      "collocations": [],
+      "examples": [
+        "\"Which matters more depends on what your history up until that point has been in the type of work you're doing,\" Abraham says. Abraham 说：「哪个因素更重要，要看你做到那时、干这行积累下来的经历。」"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "matter + -s（复数/三单）",
+        "confusables": "matters（复数/三单）/ matter（原形）"
+      }
+    },
+    "meanwhile": {
+      "phonetic": "/ˈmiːnwaɪl/",
+      "pos": "adv.",
+      "sense": "与此同时",
+      "collocations": [],
+      "examples": [
+        "Workers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those who stay on are more likely doing so for financial reasons. Baily 说，干体力活的人反倒更盼着退休；而留下来的人，多半是为了钱。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "men": {
+      "phonetic": "/men/",
+      "pos": "n.",
+      "sense": "man 的复数，男人、男性",
+      "collocations": [
+        "particularly for men"
+      ],
+      "examples": [
+        "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. 经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "men / mental / mention（同族不同词形，注意词性与用法）"
+      }
+    },
+    "middle": {
+      "phonetic": "/ˈmɪdl/",
+      "pos": "n./adj.",
+      "sense": "中间、中部、中央、腰部；中间的、中部的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "middle at",
+        "middle at around"
+      ],
+      "examples": [
+        "For those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%. 高中及以下学历者里，70 多岁还在工作的占比升到约 10%；有些大学经历的则居中，约 15%。"
+      ]
+    },
+    "money": {
+      "phonetic": "/ˈmʌni/",
+      "pos": "n.",
+      "sense": "钱、资金",
+      "collocations": [],
+      "examples": [
+        "The hairdresser agreed but for a different reason: She needs the money. 理发师也认同要继续干，理由却不一样：她缺钱。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "nearly": {
+      "phonetic": "/ˈnɪəli/",
+      "pos": "adv.",
+      "sense": "几乎、差不多、将近、差点儿",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "nearly（几乎、差不多，副词）/ not nearly（远不及、差得远，千万别当「几乎不」）/ hardly（几乎不，含否定，与 nearly 意思相反）/ almost（近义，更常用）/ near（近，介词/形容词）"
+      },
+      "collocations": [
+        "reached nearly"
+      ],
+      "examples": [
+        "Over the past 20 years, the share of Americans working in their 70s has risen from less than 10% to nearly 15%. 近 20 年，美国 70 多岁还在工作的人占比已从不到 10% 升到近 15%。"
+      ]
+    },
+    "needs": {
+      "phonetic": "/niːdz/",
+      "pos": "n./v.",
+      "sense": "需求（need 的复数）；需要（动词三单）",
+      "lemma": "need",
+      "collocations": [
+        "meet needs",
+        "needs to do"
+      ],
+      "examples": [
+        "The system meets basic needs. 这个系统满足基本需求。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "needs（需求/三单）/ need（需要）"
+      }
+    },
+    "notes": {
+      "phonetic": "/nəʊtz/",
+      "pos": "n./v.",
+      "sense": "笔记；便条；音符；注释（v. 注意；指出）（note 的复数/三单形式）",
+      "lemma": "note",
+      "collocations": [],
+      "examples": [
+        "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. 经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "note + -s（复数/三单）",
+        "confusables": "notes（复数/三单）/ note（原形）"
+      }
+    },
+    "number": {
+      "phonetic": "/ˈnʌmbə(r)/",
+      "pos": "n.",
+      "sense": "数字、数量；号码",
+      "collocations": [
+        "a number of（许多）",
+        "the number of（……的数量）",
+        "in large numbers"
+      ],
+      "examples": [
+        "A number of studies agree. 许多研究结论一致。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "a number of（许多，谓语复数）/ the number of（数量，谓语单数）"
+      }
+    },
+    "older": {
+      "phonetic": "/əʊldə(r)/",
+      "pos": "adj.",
+      "sense": "老的、年老的、旧的、古老的、从前的；…岁的（old 的比较级形式）",
+      "lemma": "old",
+      "collocations": [
+        "older Americans",
+        "decisions of older"
+      ],
+      "examples": [
+        "The decline of manufacturing and the increase in the number of people working in less labor-intensive occupations also has contributed to the trend, says Abraham, who researches work and retirement decisions of older Americans. 制造业萎缩、从事轻体力职业的人变多，也推动了这一趋势——研究美国老年人工作与退休抉择的 Abraham 这样说道。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "old + -er（比较级）",
+        "confusables": "older（比较级）/ old（原形）"
+      }
+    },
+    "overall": {
+      "phonetic": "/ˌəʊvərˈɔːl/",
+      "pos": "adj./adv.",
+      "sense": "总体的、全面的 / 总的来说",
+      "collocations": [
+        "overall well-being",
+        "overall, ...",
+        "overall performance"
+      ],
+      "examples": [
+        "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "over（覆盖、全部）+ all（全部）构成的形容词/名词/副词，意为「总体的/地」",
+        "confusables": "overall（总体的）/ all over（到处）"
+      }
+    },
+    "particularly": {
+      "phonetic": "/pəˈtɪkjələ(r)li/",
+      "pos": "adj./n.",
+      "sense": "特定的、某一的、特别的、讲究的；细节、详情（in particular 尤其）（particular 的副词形式）",
+      "lemma": "particular",
+      "collocations": [
+        "particularly for",
+        "particularly for men"
+      ],
+      "examples": [
+        "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. 经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "particular + -ly（副词）",
+        "confusables": "particularly（副词）/ particular（原形）"
+      }
+    },
+    "past": {
+      "phonetic": "/pɑːst/",
+      "pos": "prep./adj./n.",
+      "sense": "过（时间）；过去的；过去",
+      "collocations": [
+        "past one's prime",
+        "in the past",
+        "over the past decade"
+      ],
+      "examples": [
+        "He was regarded as past his prime. 他被认为已过巅峰期。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "past（过去的/经过）/ passed（pass 的过去式）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "percentages": {
+      "phonetic": "/pəˈsentɪdʒɪz/",
+      "pos": "n.",
+      "sense": "百分比、百分率、比例（a high percentage of；与 per cent「百分之…」区分）（percentage 的复数/三单形式）",
+      "lemma": "percentage",
+      "collocations": [
+        "percentages vary"
+      ],
+      "examples": [
+        "The overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by category. 整体趋势影响到各个教育层次的美国人，只是具体比例因群体而不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "percentage + -s（复数/三单）",
+        "confusables": "percentages（复数/三单）/ percentage（原形）"
+      }
+    },
+    "physical": {
+      "phonetic": "/ˈfɪzɪkl/",
+      "pos": "adj.",
+      "sense": "身体的；物理的；实物的",
+      "collocations": [
+        "physical health",
+        "physical activity",
+        "physical presence"
+      ],
+      "examples": [
+        "Mental and physical health are linked. 心理与身体健康相互关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "physica（自然）+ -al",
+        "confusables": "physical（身体的/物理的）/ mental（心理的）"
+      }
+    },
+    "plans": {
+      "phonetic": "/plænz/",
+      "pos": "n./v.",
+      "sense": "计划、打算、方案、平面图（复数）；计划、设计（三单）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "retirement plans",
+        "plans to",
+        "plans to continue"
+      ],
+      "examples": [
+        "Katharine Abraham, an economics professor, was chatting with her hairdresser(理发师) about retirement plans. 经济学教授 Katharine Abraham 和她的理发师聊起退休打算。"
+      ],
+      "more": {
+        "confusables": "plans / plants / plant-based（同族不同词形，注意词性与用法）"
+      }
+    },
+    "point": {
+      "phonetic": "/pɔɪnt/",
+      "pos": "n./v.",
+      "sense": "观点、要点（可数）；分数 / 指出（point out）",
+      "collocations": [
+        "the point is",
+        "point out",
+        "make a point"
+      ],
+      "examples": [
+        "The point is not to blame parents. 重点不是责怪家长。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "point out（指出）/ point to（表明）/ the point is（关键是）"
+      }
+    },
+    "private": {
+      "phonetic": "/ˈpraɪvət/",
+      "pos": "adj.",
+      "sense": "私人的、私营的",
+      "collocations": [
+        "private companies",
+        "private patronage"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "professional": {
+      "phonetic": "/prəˈfeʃənl/",
+      "pos": "adj./n.",
+      "sense": "专业的、职业的、内行的、敬业的；专业人士、专家、职业选手",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "professional occupations"
+      ],
+      "examples": [
+        "They're also more likely to be in professional occupations where they tend to enjoy their work more. 他们也多半从事专业岗位，而这种岗位里他们往往更享受工作。"
+      ],
+      "more": {
+        "confusables": "professional / profession / professionals（同族不同词形，注意词性与用法）"
+      }
+    },
+    "professor": {
+      "phonetic": "/prəˈfesə(r)/",
+      "pos": "n.",
+      "sense": "教授（可数）",
+      "collocations": [
+        "a professor of",
+        "research professor"
+      ],
+      "examples": [
+        "The professor studies decision-making. 这位教授研究决策。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "professor（教授）/ teacher（教师）/ lecturer（讲师）"
+      }
+    },
+    "project": {
+      "phonetic": "/ˈprɒdʒekt/",
+      "pos": "n./v.",
+      "sense": "项目、工程、课题、方案、计划；规划、投射、预计、展现（动词读 /prəˈdʒekt/）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "research project",
+        "project on",
+        "project on retirement"
+      ],
+      "examples": [
+        "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. 经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。"
+      ]
+    },
+    "quitting": {
+      "phonetic": "/ˈkwɪtɪŋ/",
+      "pos": "v./n.",
+      "sense": "放弃、辞职、退出、停止（quit 的现在分词，双写 t）；离职、戒除",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. 经济学家 Martin Neil Baily（正主持一项退休保障研究）指出：告别职业生涯会带来孤立与孤独，男性尤甚。"
+      ]
+    },
+    "reached": {
+      "phonetic": "/riːtʃd/",
+      "pos": "v./n.",
+      "sense": "到达、抵达、达到；伸手够到、联系上；范围、可及之处（reach 的过去式/过去分词形式）",
+      "lemma": "reach",
+      "collocations": [
+        "reached nearly"
+      ],
+      "examples": [
+        "The share of Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018. 有学士学位、70 多岁还在工作的美国人，2018 年占比已接近 20%。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "reach + -ed（过去式/过去分词）",
+        "confusables": "reached（过去式/过去分词）/ reach（原形）"
+      }
+    },
+    "real": {
+      "phonetic": "/rɪəl/",
+      "pos": "adj.",
+      "sense": "真实的、现实的",
+      "collocations": [
+        "in the real world",
+        "do real research"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "real / realms / really（同族不同词形，注意词性与用法）"
+      }
+    },
+    "reason": {
+      "phonetic": "/ˈriːzn/",
+      "pos": "n./v.",
+      "sense": "原因、理由、道理；理性、理智；推理、推断、劝说",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "different reason"
+      ],
+      "examples": [
+        "The hairdresser agreed but for a different reason: She needs the money. 理发师也认同要继续干，理由却不一样：她缺钱。"
+      ],
+      "more": {
+        "confusables": "reason / reasoning / reasoned（同族不同词形，注意词性与用法）"
+      }
+    },
+    "reasons": {
+      "phonetic": "/ˈriːznz/",
+      "pos": "n./v.",
+      "sense": "原因、理由、道理、理性（复数）；推理、推断（第三人称单数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "reason（原因、理由）+ -s（复数）",
+        "confusables": "reason（原因、理由，可数；理性，不可数）/ reason for（介词 for，不用 of）/ the reason why/that（…的原因）/ The reason is that…（表语从句用 that，不用 because）/ cause（强调直接导致）"
+      },
+      "collocations": [
+        "reasons people",
+        "financial reasons"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ]
+    },
+    "research": {
+      "phonetic": "/rɪˈsɜːtʃ/",
+      "pos": "n./v.",
+      "sense": "研究（不可数）；调查 / 研究",
+      "collocations": [
+        "a body of research",
+        "research on sth",
+        "research shows"
+      ],
+      "examples": [
+        "A growing body of research supports this. 越来越多的研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "research（不可数）/ study（可数，一项研究）/ researches（罕用）"
+      }
+    },
+    "retirement": {
+      "phonetic": "/rɪˈtaɪəmənt/",
+      "pos": "n.",
+      "sense": "退休、退职、引退、退休生活（本文主题：不为退休储蓄）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "retire（退休）+ -ment（名词后缀）",
+        "confusables": "retirement（退休；退休生活，不可数）/ retire（退休；退下，动词）/ retired（已退休的）/ retiring（即将退休的；也可指腼腆的）/ pension（养老金）/ take early retirement"
+      },
+      "collocations": [
+        "retirement plans",
+        "delay retirement",
+        "retirement decisions"
+      ],
+      "examples": [
+        "Katharine Abraham, an economics professor, was chatting with her hairdresser(理发师) about retirement plans. 经济学教授 Katharine Abraham 和她的理发师聊起退休打算。"
+      ]
+    },
+    "retiring": {
+      "phonetic": "/rɪˈtaɪərɪŋ/",
+      "pos": "adj./v.",
+      "sense": "即将退休的、不爱交际的；退休、退下、就寝（现在分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "retire（退休）+ -ing（去 e 加 -ing）",
+        "confusables": "retiring（即将退休的；也指「腼腆、不爱交际的」，一词两义）/ retired（已退休的）/ retirement（退休）/ resign（辞职，不等于退休）/ shy（近义，retiring 更书面）"
+      },
+      "collocations": [
+        "forward to retiring"
+      ],
+      "examples": [
+        "Workers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those who stay on are more likely doing so for financial reasons. Baily 说，干体力活的人反倒更盼着退休；而留下来的人，多半是为了钱。"
+      ]
+    },
+    "rise": {
+      "phonetic": "/raɪz/",
+      "pos": "n./v.",
+      "sense": "上升、增长、上涨、兴起；升起、起身、站起来",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "rise（vi. 上升、上涨，rise-rose-risen，无宾语、无被动）/ raise（vt. 举起、提高、筹集、抚养，须接宾语）/ arise（vi. 出现、产生，arise from 由…引起）/ arouse（vt. 唤起）/ The sun rises 与 raise your hand 不可换"
+      },
+      "collocations": [
+        "slow rise",
+        "rise in",
+        "rise in real"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ]
+    },
+    "risen": {
+      "phonetic": "/ˈrɪzn/",
+      "pos": "v.",
+      "sense": "上升、升起、增长、上涨、起身、反抗（rise 的过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "risen from",
+        "risen to",
+        "risen to around"
+      ],
+      "examples": [
+        "Over the past 20 years, the share of Americans working in their 70s has risen from less than 10% to nearly 15%. 近 20 年，美国 70 多岁还在工作的人占比已从不到 10% 升到近 15%。"
+      ],
+      "more": {
+        "confusables": "risen / rise（同族不同词形，注意词性与用法）"
+      }
+    },
+    "said": {
+      "phonetic": "/sed/",
+      "pos": "v./adj.",
+      "sense": "说、讲、表明（say 的过去式/过去分词）；上述的（the said…）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "economist said"
+      ],
+      "examples": [
+        "The economist said she plans to continue working because she wants to. 教授说，她打算继续干是因为自己乐意。"
+      ]
+    },
+    "say": {
+      "phonetic": "/seɪ/",
+      "pos": "v./n.",
+      "sense": "说、讲、表明、写道；发言权、决定权（have a say）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "economists say"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ],
+      "more": {
+        "confusables": "say / says / sayings（同族不同词形，注意词性与用法）"
+      }
+    },
+    "says": {
+      "phonetic": "/sez/",
+      "pos": "v.",
+      "sense": "say 的第三人称单数（说）",
+      "lemma": "say",
+      "collocations": [
+        "she says that",
+        "as the report says"
+      ],
+      "examples": [
+        "He says the change is coming. 他说变化正在到来。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "says /sez/ 发音不按规则；注意与 say 的过去式 said /sed/ 区分"
+      }
+    },
+    "school": {
+      "phonetic": "/skuːl/",
+      "pos": "n./v.",
+      "sense": "学校、上学、全校师生；学派、流派；训练、教育",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "high school",
+        "school degree"
+      ],
+      "examples": [
+        "For those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%. 高中及以下学历者里，70 多岁还在工作的占比升到约 10%；有些大学经历的则居中，约 15%。"
+      ],
+      "more": {
+        "confusables": "school / schoolers（同族不同词形，注意词性与用法）"
+      }
+    },
+    "sector": {
+      "phonetic": "/ˈsektə/",
+      "pos": "n.",
+      "sense": "部门、领域、行业、（经济）部分；扇形（the private sector 私营部门；阅读中常谈行业板块）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "private sector"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ]
+    },
+    "security": {
+      "phonetic": "/sɪˈkjʊərəti/",
+      "pos": "n.",
+      "sense": "安全（不可数）；保障",
+      "collocations": [
+        "food security",
+        "security concerns"
+      ],
+      "examples": [
+        "Food security is at risk. 粮食安全面临风险。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "secure（安全的，se- 脱离 + cur 忧虑，词根 cur = care）+ -ity（名词后缀）",
+        "confusables": "security（安全）/ safety（安全）/ secure（安全的）"
+      }
+    },
+    "shift": {
+      "phonetic": "/ʃɪft/",
+      "pos": "n./v.",
+      "sense": "转变、变化、轮班、班次；转移、改变、换挡、推卸",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "shift（转变、转移；轮班，名词/动词）/ a shift in（…的转变，介词 in）/ change（泛指，shift 强调位置/重心渐变）/ switch（切换，常是二选一）/ work shifts（轮班）"
+      },
+      "collocations": [
+        "shift away"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ]
+    },
+    "slow": {
+      "phonetic": "/sləʊ/",
+      "pos": "adj./v.",
+      "sense": "慢的、缓慢的、迟钝的、清淡的；放慢、减速（slow down 放慢；slow 也可作动词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "slow rise",
+        "years of slow"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ],
+      "more": {
+        "confusables": "slow / slower / slowly（同族不同词形，注意词性与用法）"
+      }
+    },
+    "social": {
+      "phonetic": "/ˈsəʊʃl/",
+      "pos": "adj.",
+      "sense": "社会的、社会性的；社交的、交际的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "social benefits"
+      ],
+      "examples": [
+        "He suggests that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons. 他认为，许多大学学历的劳动者留在一线，更多是为了社交好处，而非钱。"
+      ],
+      "more": {
+        "confusables": "social / society / socializing（同族不同词形，注意词性与用法）"
+      }
+    },
+    "stay": {
+      "phonetic": "/steɪ/",
+      "pos": "v.",
+      "sense": "保持、停留",
+      "collocations": [
+        "stay strong",
+        "stay on track"
+      ],
+      "examples": [
+        "Stay calm. 保持冷静。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "suggesting": {
+      "phonetic": "/səˈdʒestɪŋ/",
+      "pos": "v.",
+      "sense": "建议、提议；表明、暗示、使人想到（suggest 的现在分词/动名词形式）",
+      "lemma": "suggest",
+      "collocations": [],
+      "examples": [
+        "Workers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those who stay on are more likely doing so for financial reasons. Baily 说，干体力活的人反倒更盼着退休；而留下来的人，多半是为了钱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "suggest + -ing（现在分词/动名词）",
+        "confusables": "suggesting（现在分词/动名词）/ suggest（原形）"
+      }
+    },
+    "suggests": {
+      "phonetic": "/səˈdʒests/",
+      "pos": "v.",
+      "sense": "表明、显示、暗示；建议、提议（suggest 的第三人称单数，本文多指研究结果显示）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "He suggests that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons. 他认为，许多大学学历的劳动者留在一线，更多是为了社交好处，而非钱。"
+      ],
+      "more": {
+        "confusables": "suggests / suggest / suggesting（同族不同词形，注意词性与用法）"
+      }
+    },
+    "tend": {
+      "phonetic": "/tend/",
+      "pos": "v.",
+      "sense": "倾向于、往往会（tend to do）；照料（tend to sb）",
+      "collocations": [
+        "tend to do",
+        "tend to be",
+        "tend towards"
+      ],
+      "examples": [
+        "Men tend to exhibit more of these behaviors. 男性往往表现出更多这类行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tend to do（倾向于）/ tend to sb（照料某人）"
+      }
+    },
+    "traditional": {
+      "phonetic": "/trəˈdɪʃənl/",
+      "pos": "adj.",
+      "sense": "传统的、惯例的、因袭的、守旧的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "tradition（传统）+ -al（形容词后缀）",
+        "confusables": "traditional（传统的）/ tradition（传统，名词）/ traditionally（副词）/ conventional（因循惯例的）/ conservative（保守的）/ modern（现代的，反义）"
+      },
+      "collocations": [
+        "traditional pensions",
+        "away from traditional"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ]
+    },
+    "trend": {
+      "phonetic": "/trend/",
+      "pos": "n.",
+      "sense": "趋势（可数）",
+      "collocations": [
+        "a clear trend",
+        "the trend towards"
+      ],
+      "examples": [
+        "The data show a clear trend. 数据显示出明确趋势。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "trend（趋势）/ tendency（倾向）/ pattern（模式）"
+      }
+    },
+    "type": {
+      "phonetic": "/taɪp/",
+      "pos": "n./v.",
+      "sense": "类型、种类、品种、典型、字体、铅字；打字、测定…的类型",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "type of",
+        "type of work"
+      ],
+      "examples": [
+        "\"Which matters more depends on what your history up until that point has been in the type of work you're doing,\" Abraham says. Abraham 说：「哪个因素更重要，要看你做到那时、干这行积累下来的经历。」"
+      ],
+      "more": {
+        "confusables": "type / types（同族不同词形，注意词性与用法）"
+      }
+    },
+    "until": {
+      "phonetic": "/ənˈtɪl/",
+      "pos": "prep./conj.",
+      "sense": "直到（时间）；直到……才（用于否定句）",
+      "collocations": [
+        "until now",
+        "not ... until",
+        "until then"
+      ],
+      "examples": [
+        "Kids may not change until they are older. 孩子可能到更大才会改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "until（直到）/ till（同义，口语）/ not ... until（直到……才）"
+      }
+    },
+    "vary": {
+      "phonetic": "/ˈveəri/",
+      "pos": "v.",
+      "sense": "变化、不同（vary by/from）",
+      "collocations": [
+        "vary by",
+        "vary from A to B"
+      ],
+      "examples": [
+        "Yields vary by region. 产量因地区而异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "vary（变化，动词）/ various（各种的）/ variety（多样性）"
+      }
+    },
+    "wages": {
+      "phonetic": "/weɪdʒɪz/",
+      "pos": "n./v.",
+      "sense": "工资、报酬（常按小时/周计）；发动、进行（战争/运动）（wage 的复数/三单形式）",
+      "lemma": "wage",
+      "collocations": [
+        "real wages"
+      ],
+      "examples": [
+        "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are some of the reasons people delay retirement. 除了人们更长寿、更健康，经济学家指出：实际工资常年缓涨、私企不再盛行传统养老金等财务因素叠加，正是人们推迟退休的部分原因。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "wage + -s（复数/三单）",
+        "confusables": "wages（复数/三单）/ wage（原形）"
+      }
+    },
+    "wants": {
+      "phonetic": "/wɒntts/",
+      "pos": "v.",
+      "sense": "想要（want to do / want sb to do）；需要（want 的复数/三单形式）",
+      "lemma": "want",
+      "collocations": [
+        "wants to"
+      ],
+      "examples": [
+        "The economist said she plans to continue working because she wants to. 教授说，她打算继续干是因为自己乐意。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "want + -s（复数/三单）",
+        "confusables": "wants（复数/三单）/ want（原形）"
+      }
+    },
+    "work": {
+      "phonetic": "/wɜːk/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品",
+      "collocations": [
+        "work well",
+        "at work",
+        "work out"
+      ],
+      "examples": [
+        "The approach works in practice. 这个方法在实践中奏效。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）"
+      }
+    },
+    "workers": {
+      "phonetic": "/ˈwɜːkəz/",
+      "pos": "n.",
+      "sense": "工人、劳动者、工作者、员工（worker 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "work（工作）+ -er（表人）+ -s（复数）",
+        "confusables": "worker（工人、工作者，可数）/ employee（雇员，强调雇佣关系）/ workforce（全体劳动力，集合）/ work（工作，不可数；也作动词）/ job（可数，work 不可数）"
+      },
+      "collocations": [
+        "college-educated workers",
+        "Workers in"
+      ],
+      "examples": [
+        "He suggests that many college-educated workers are choosing to stay in the labor force more for social benefits than for financial reasons. 他认为，许多大学学历的劳动者留在一线，更多是为了社交好处，而非钱。"
+      ]
+    },
+    "working": {
+      "phonetic": "/ˈwɜːkɪŋ/",
+      "pos": "adj./v.",
+      "sense": "工作的（形容词）；work 的现在分词",
+      "lemma": "work",
+      "collocations": [
+        "working parents",
+        "flexible working",
+        "working hours"
+      ],
+      "examples": [
+        "Working parents need flexible hours. 职场父母需要弹性工时。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "working（工作的）/ work（工作）"
+      }
+    },
+    "years": {
+      "phonetic": "/jɪəz/",
+      "pos": "n.",
+      "sense": "年、年份；岁数、年纪（year 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "year（年）+ -s（复数）",
+        "confusables": "year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）"
+      },
+      "collocations": [
+        "years of",
+        "years of slow"
+      ],
+      "examples": [
+        "Over the past 20 years, the share of Americans working in their 70s has risen from less than 10% to nearly 15%. 近 20 年，美国 70 多岁还在工作的人占比已从不到 10% 升到近 15%。"
+      ]
+    }
+  }
+}

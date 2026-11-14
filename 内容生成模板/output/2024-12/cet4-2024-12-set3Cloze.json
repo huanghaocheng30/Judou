@@ -1,0 +1,4683 @@
+{
+  "sourceKey": "cet4-2024-12-set3Cloze",
+  "articleId": "set3Cloze",
+  "packVersion": "2026.11.07-3",
+  "meta": {
+    "examYear": 2024,
+    "examMonth": 12,
+    "setNo": 3,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "Super Realistic Masks",
+    "wordCount": 248
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 142,
+          "text": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Super",
+              "normalized": "super",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 15,
+              "surface": "realistic",
+              "normalized": "realistic",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 21,
+              "surface": "masks",
+              "normalized": "masks",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "made",
+              "normalized": "made",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 44,
+              "surface": "flexible",
+              "normalized": "flexible",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 54,
+              "surface": "materials",
+              "normalized": "materials",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 59,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 71,
+              "surface": "silicone",
+              "normalized": "silicone",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 79,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 88,
+              "surface": "designed",
+              "normalized": "designed",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 91,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 99,
+              "surface": "imitate",
+              "normalized": "imitate",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 104,
+              "surface": "real",
+              "normalized": "real",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 110,
+              "surface": "human",
+              "normalized": "human",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 115,
+              "surface": "face",
+              "normalized": "face",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 116,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 116,
+              "end": 120,
+              "surface": "down",
+              "normalized": "down",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 123,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 129,
+              "surface": "every",
+              "normalized": "every",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 134,
+              "surface": "last",
+              "normalized": "last",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 141,
+              "surface": "detail",
+              "normalized": "detail",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 142,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "超逼真的面具由柔性材料（例如硅胶）制成，并被设计去模仿真人面孔——细致到每一处最后的细节。",
+            "translationNatural": "这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。",
+            "structMarkup": "【Super realistic masks】 _are made from flexible materials such as silicone_ _and are designed to imitate real human face_(—down to every last detail).",
+            "structureSummary": "主谓（被动）+ 并列谓语（被动）+ 破折号补充状语",
+            "components": [
+              {
+                "part": "Super realistic masks",
+                "role": "主语",
+                "note": "复数名词作主语，与 are made / are designed 两个并列被动谓语保持一致"
+              },
+              {
+                "part": "are made from flexible materials such as silicone",
+                "role": "谓语",
+                "note": "be made from 强调原材料经加工变化；such as 引出 silicone 作为举例"
+              },
+              {
+                "part": "and are designed to imitate real human face",
+                "role": "谓语",
+                "note": "and 连接第二个被动谓语，be designed to do 说明设计用途而非动作本身"
+              },
+              {
+                "part": "—down to every last detail",
+                "role": "状语",
+                "note": "破折号后追加补充，down to 意为「细致到、连……都」，用来强调仿真精度"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主谓（被动）+ 并列谓语（被动）+ 破折号补充状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              },
+              {
+                "text": "masks",
+                "meaning": "面具、口罩、面罩；掩饰、遮盖（作动词指掩盖真相、气味或问题）（mask 的复数/三单形式）",
+                "usage": "注意区分：masks（复数/三单）/ mask（原形）。",
+                "example": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+              },
+              {
+                "text": "made",
+                "meaning": "做、制造；使得、使成为；获得（make 的过去式/过去分词）",
+                "usage": "注意区分：be made of（由…制成，看得出原料）/ be made from（由…制成，看不出原料）/ be made in（产地）/ be made to do（被迫做，被动须加 to）/ make sb do（主动使役不带 to）/ make（make-made-made）。",
+                "example": "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+              }
+            ],
+            "pitfalls": [
+              "such as 用于举例，for example 常作插入语，位置不同。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "开篇给「超逼真面具」定性：材料柔软、仿真到每一处细节，为下文的辨认实验立起对象。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 188,
+          "text": "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 13,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 30,
+              "surface": "Universities",
+              "normalized": "universities",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 38,
+              "surface": "York",
+              "normalized": "york",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 42,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 48,
+              "surface": "Kyoto",
+              "normalized": "kyoto",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 49,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 50,
+              "end": 61,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 67,
+              "surface": "asked",
+              "normalized": "asked",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 80,
+              "surface": "participants",
+              "normalized": "participants",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 83,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 88,
+              "surface": "look",
+              "normalized": "look",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 91,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 97,
+              "surface": "pairs",
+              "normalized": "pairs",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 100,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 112,
+              "surface": "photographs",
+              "normalized": "photographs",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 116,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 123,
+              "surface": "decide",
+              "normalized": "decide",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 129,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 136,
+              "surface": "showed",
+              "normalized": "showed",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 138,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 141,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 142,
+              "end": 146,
+              "surface": "face",
+              "normalized": "face",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 150,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 156,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 163,
+              "surface": "showed",
+              "normalized": "showed",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 165,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 172,
+              "surface": "person",
+              "normalized": "person",
+              "isWord": true
+            },
+            {
+              "start": 173,
+              "end": 180,
+              "surface": "wearing",
+              "normalized": "wearing",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 182,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 183,
+              "end": 187,
+              "surface": "mask",
+              "normalized": "mask",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 188,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在约克大学与京都大学的一项研究中，研究者请参与者看成对的照片，并判定哪一张显示的是一张 26 的脸、哪一张显示的是一个戴着面具的人。",
+            "translationNatural": "约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。",
+            "structMarkup": "(In a study by the Universities of York and Kyoto), 【researchers】 _asked participants to look at pairs of photographs and decide_ {which showed a 26 face and which showed a person wearing a mask}.",
+            "structureSummary": "主谓宾 + 宾语补足语（不定式）+ 两个并列宾语从句（which 引导）",
+            "components": [
+              {
+                "part": "In a study by the Universities of York and Kyoto",
+                "role": "状语",
+                "note": "介词短语点明研究出处，by 引出主持机构，两所大学并列"
+              },
+              {
+                "part": "researchers",
+                "role": "主语",
+                "note": "复数主语，谓语用过去式 asked"
+              },
+              {
+                "part": "asked participants to look at pairs of photographs and decide",
+                "role": "谓语+宾补",
+                "note": "ask sb to do 结构；to look 与 (to) decide 是两个并列不定式，后者省略 to"
+              },
+              {
+                "part": "which showed a 26 face and which showed a person wearing a mask",
+                "role": "宾语从句",
+                "note": "两个 which 引导的从句并列作 decide 的宾语；26 空落在 a 与 face 之间，必为形容词"
+              }
+            ],
+            "clauses": [
+              "宾语从句「which showed a 26 face and which showed a person wearing a mask」：两个 which 引导的从句并列作 decide 的宾语；26 空落在 a 与 face 之间，必为形容词",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "look at",
+                "meaning": "看；研究、考察",
+                "usage": "在学术语境常指「考察某问题」。",
+                "example": "The paper looks at sleep and mood. 这篇论文考察睡眠与情绪。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "universities",
+                "meaning": "大学（可数）（university 的复数/三单形式）",
+                "usage": "注意区分：universities（复数/三单）/ university（原形）。",
+                "example": "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+              }
+            ],
+            "pitfalls": [
+              "look at 在论文语境不是「看一眼」，而是「研究」。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "交代实验任务（二选一辨认真脸与面具脸），并借 a 26 face 埋下第 26 空。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "Surprisingly, participants made the wrong call in one-in-five cases.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 68,
+          "text": "Surprisingly, participants made the wrong call in one-in-five cases.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 12,
+              "surface": "Surprisingly",
+              "normalized": "surprisingly",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 14,
+              "end": 26,
+              "surface": "participants",
+              "normalized": "participants",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "made",
+              "normalized": "made",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "wrong",
+              "normalized": "wrong",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "call",
+              "normalized": "call",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 61,
+              "surface": "one-in-five",
+              "normalized": "one-in-five",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 67,
+              "surface": "cases",
+              "normalized": "cases",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 68,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "令人惊讶地，参与者在五分之一的案例里做出了错误的判断。",
+            "translationNatural": "结果出人意料：每五次判断里，就有一次看走了眼。",
+            "structMarkup": "(Surprisingly), 【participants】 _made the wrong call_ (in one-in-five cases).",
+            "structureSummary": "主谓宾 + 评注性状语 + 介词状语",
+            "components": [
+              {
+                "part": "Surprisingly",
+                "role": "状语",
+                "note": "评注性状语修饰整句而非某个动词，暗示错误率高得反常"
+              },
+              {
+                "part": "participants",
+                "role": "主语",
+                "note": "回指上一句的受试者，避免重复"
+              },
+              {
+                "part": "made the wrong call",
+                "role": "谓语+宾语",
+                "note": "make the call 意为「作出判断」，wrong 修饰 call 而非修饰人"
+              },
+              {
+                "part": "in one-in-five cases",
+                "role": "状语",
+                "note": "one-in-five 是连字符构成的复合形容词，意为「五分之一的」，说明误判比例"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 评注性状语 + 介词状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "surprisingly",
+                "meaning": "令人惊讶的、出人意料的、意外的（surprising 的副词形式）",
+                "usage": "注意区分：surprisingly（副词）/ surprising（原形）。",
+                "example": "Surprisingly, participants made the wrong call in one-in-five cases. 结果出人意料：每五次判断里，就有一次看走了眼。"
+              },
+              {
+                "text": "made",
+                "meaning": "做、制造；使得、使成为；获得（make 的过去式/过去分词）",
+                "usage": "注意区分：be made of（由…制成，看得出原料）/ be made from（由…制成，看不出原料）/ be made in（产地）/ be made to do（被迫做，被动须加 to）/ make sb do（主动使役不带 to）/ make（make-made-made）。",
+                "example": "Surprisingly, participants made the wrong call in one-in-five cases. 结果出人意料：每五次判断里，就有一次看走了眼。"
+              },
+              {
+                "text": "call",
+                "meaning": "称呼（call sb sth）；打电话；呼叫",
+                "usage": "注意区分：call sb sth（称某人某物）/ call sb up（打电话）/ so-called（所谓的）。常见搭配：call for / call on。",
+                "example": "This is what we call the third space. 这就是我们所说的「第三空间」。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：surprisingly（副词）/ surprising（原形）。",
+              "注意区分：be made of（由…制成，看得出原料）/ be made from（由…制成，看不出原料）/ be made in（产地）/ be made to do（被迫做，被动须加 to）/ make sb do（主动使役不带 to）/ make（make-made-made）。",
+              "注意区分：call sb sth（称某人某物）/ call sb up（打电话）/ so-called（所谓的）。"
+            ],
+            "paragraphRole": "抛出核心反常数据「五分之一误判」，为下句点明 20% 错误率蓄势。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "The 20% error rate 27 in the study likely underestimates the extent to which people would struggle to tell an 28 face from the real thing outside of the lab.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 157,
+          "text": "The 20% error rate 27 in the study likely underestimates the extent to which people would struggle to tell an 28 face from the real thing outside of the lab.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "surface": "20%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 8,
+              "end": 13,
+              "surface": "error",
+              "normalized": "error",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "rate",
+              "normalized": "rate",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 34,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 41,
+              "surface": "likely",
+              "normalized": "likely",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 56,
+              "surface": "underestimates",
+              "normalized": "underestimates",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 67,
+              "surface": "extent",
+              "normalized": "extent",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 76,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 83,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 89,
+              "surface": "would",
+              "normalized": "would",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 98,
+              "surface": "struggle",
+              "normalized": "struggle",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 101,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 106,
+              "surface": "tell",
+              "normalized": "tell",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 109,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 112,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 113,
+              "end": 117,
+              "surface": "face",
+              "normalized": "face",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 122,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 126,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 131,
+              "surface": "real",
+              "normalized": "real",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 137,
+              "surface": "thing",
+              "normalized": "thing",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 145,
+              "surface": "outside",
+              "normalized": "outside",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 148,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 152,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 156,
+              "surface": "lab",
+              "normalized": "lab",
+              "isWord": true
+            },
+            {
+              "start": 156,
+              "end": 157,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这项研究里 27 的 20% 错误率，很可能低估了人们在实验室之外要费多大气力才能把一张 28 的脸与真脸区分开来的程度。",
+            "translationNatural": "研究测到的 20% 误判率恐怕还偏保守：真到了现实场景，人们分辨仿真脸和真脸只会更吃力。",
+            "structMarkup": "【The 20% error rate 27 in the study】 _likely underestimates_ ~the extent to which people would struggle to tell an 28 face from the real thing outside of the lab~.",
+            "structureSummary": "主谓宾 + 过去分词作后置定语 + 定语从句（to which 引导，修饰 extent）",
+            "components": [
+              {
+                "part": "The 20% error rate 27 in the study",
+                "role": "主语",
+                "note": "核心词是 rate；27 空作后置定语修饰 rate，需过去分词，指「研究中所观测到的」"
+              },
+              {
+                "part": "likely underestimates",
+                "role": "谓语",
+                "note": "underestimate 意为「低估」，副词 likely 给判断留出余地、不作绝对断言"
+              },
+              {
+                "part": "the extent to which people would struggle to tell an 28 face from the real thing outside of the lab",
+                "role": "宾语",
+                "note": "the extent to which... 是固定框架，介词 to 提前；28 空在 an 与 face 之间，需形容词且以元音音素开头"
+              }
+            ],
+            "clauses": [
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。",
+              "本句主干为「主谓宾 + 过去分词作后置定语 + 定语从句（to which 引导，修饰 extent）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "the extent to which",
+                "meaning": "……的程度",
+                "usage": "to which 引导定语从句，正式书面语。",
+                "example": "The extent to which it matters is unclear. 它有多重要尚不清楚。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "likely",
+                "meaning": "可能的；很可能（be likely to do）",
+                "usage": "注意区分：likely（可作 adj./adv.）/ probable/possible（只作形容词）。常见搭配：be likely to do / more likely than。",
+                "example": "Kids are likely to copy their parents. 孩子很可能模仿父母。"
+              }
+            ],
+            "pitfalls": [
+              "extent 搭配的介词是 to，不是 of which。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "把实验室数据外推到现实、指出问题更严重，同时埋下 27、28 两空。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "The researchers collected data from participants from both the UK and Japan to 29 any differences according to race. When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less 30 .",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 116,
+          "text": "The researchers collected data from participants from both the UK and Japan to 29 any differences according to race.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 15,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 25,
+              "surface": "collected",
+              "normalized": "collected",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "data",
+              "normalized": "data",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 48,
+              "surface": "participants",
+              "normalized": "participants",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 53,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 58,
+              "surface": "both",
+              "normalized": "both",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 62,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "UK",
+              "normalized": "uk",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 69,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "surface": "Japan",
+              "normalized": "japan",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 82,
+              "end": 85,
+              "surface": "any",
+              "normalized": "any",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 97,
+              "surface": "differences",
+              "normalized": "differences",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 107,
+              "surface": "according",
+              "normalized": "according",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 110,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 115,
+              "surface": "race",
+              "normalized": "race",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 116,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "研究者收集了来自英国和日本两地参与者的数据，以 29 按种族划分的任何差异。",
+            "translationNatural": "团队特意找了英国和日本两国的受试者，想看看不同种族之间会不会有差别。",
+            "structMarkup": "【The researchers】 _collected data from participants from both the UK and Japan_ (to 29 any differences according to race).",
+            "structureSummary": "主谓宾 + 不定式目的状语",
+            "components": [
+              {
+                "part": "The researchers",
+                "role": "主语",
+                "note": "复数主语，谓语用过去式 collected，与全文实验叙述时态一致"
+              },
+              {
+                "part": "collected data from participants from both the UK and Japan",
+                "role": "谓语+宾语",
+                "note": "两个 from 短语层层修饰：先说明数据来源，再说明参与者的国别"
+              },
+              {
+                "part": "to 29 any differences according to race",
+                "role": "状语",
+                "note": "不定式作目的状语；29 空位于 to 与宾语之间，必为动词原形"
+              }
+            ],
+            "clauses": [
+              "并列关联连词连接两个平行成分，前后词性须一致。",
+              "本句主干为「主谓宾 + 不定式目的状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "according to",
+                "meaning": "根据、据……所说",
+                "usage": "引出信息来源，后接名词或代词，不接从句。",
+                "example": "According to the report, costs rose. 据报告，成本上升了。"
+              },
+              {
+                "text": "data",
+                "meaning": "数据（datum 的复数，现代英语也常作不可数，谓语单复皆可但须一致）",
+                "usage": "注意区分：data（数据）/ date（日期）。常见搭配：data on sth / collect data。",
+                "example": "The data show a clear trend. 数据显示出明确的趋势。"
+              },
+              {
+                "text": "differences",
+                "meaning": "差异（difference 的复数）",
+                "usage": "注意区分：difference（差异）/ different（形容词）/ differ（动词）。常见搭配：differences between / make a difference。",
+                "example": "There are clear differences between the groups. 两组之间有明显差异。"
+              }
+            ],
+            "pitfalls": [
+              "according to 不用于表达自己观点，不说 according to me。",
+              "both...and / either...or / neither...nor 是固定配对，不能交叉混用。"
+            ],
+            "paragraphRole": "交代取样横跨两国、目的是比较种族差异，并带出第 29 空。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 117,
+          "end": 283,
+          "text": "When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less 30 .",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "When",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "trial",
+              "normalized": "trial",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 23,
+              "surface": "participants",
+              "normalized": "participants",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 28,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 34,
+              "surface": "asked",
+              "normalized": "asked",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 44,
+              "surface": "choose",
+              "normalized": "choose",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 52,
+              "surface": "between",
+              "normalized": "between",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 64,
+              "surface": "photographs",
+              "normalized": "photographs",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 73,
+              "surface": "faces",
+              "normalized": "faces",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 78,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 88,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 93,
+              "surface": "race",
+              "normalized": "race",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 98,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 105,
+              "surface": "theirs",
+              "normalized": "theirs",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 106,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 107,
+              "end": 115,
+              "surface": "response",
+              "normalized": "response",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 121,
+              "surface": "times",
+              "normalized": "times",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 126,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 133,
+              "surface": "slower",
+              "normalized": "slower",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 137,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 148,
+              "surface": "selections",
+              "normalized": "selections",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 153,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 156,
+              "surface": "5%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 157,
+              "end": 161,
+              "surface": "less",
+              "normalized": "less",
+              "isWord": true
+            },
+            {
+              "start": 162,
+              "end": 164,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 165,
+              "end": 166,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "当实验参与者被要求在与其自身不同种族的面孔照片之间做选择时，反应时间更慢，且选择的准确度低了 5% 30 。",
+            "translationNatural": "一旦让他们辨认跟自己不同种族的面孔，反应明显变慢，正确率还掉了 5 个百分点。",
+            "structMarkup": "{When trial participants were asked to choose between photographs of faces of a different race from theirs}, response times were slower and selections were 5% less 30 .",
+            "structureSummary": "时间状语从句（When 引导，被动）+ and 连接的两个并列主系表分句",
+            "components": [
+              {
+                "part": "When trial participants were asked to choose between photographs of faces of a different race from theirs",
+                "role": "状语从句",
+                "note": "When 引导；were asked to do 为被动；a different race from theirs 意为「与他们的种族不同的」"
+              },
+              {
+                "part": "response times were slower",
+                "role": "主句1",
+                "note": "主系表，比较级 slower 隐含与「同种族条件」对照"
+              },
+              {
+                "part": "selections were 5% less 30",
+                "role": "主句2",
+                "note": "and 连接并列分句；30 空在 less 之后作表语，需形容词，说明选择「更不准确」"
+              }
+            ],
+            "clauses": [
+              "状语从句「When trial participants were asked to choose between photographs of fa」：When 引导；were asked to do 为被动；a different race from theirs 意为「与他们的种族不同的」",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "different",
+                "meaning": "不同的；各种各样的",
+                "usage": "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。常见搭配：different from / a different picture。",
+                "example": "Their experiences were considerably different. 他们的经历相当不同。"
+              },
+              {
+                "text": "times",
+                "meaning": "次数；时代（time 的复数）；乘以",
+                "usage": "注意区分：times（次数/时代）/ time（时间）。常见搭配：three times / at times。",
+                "example": "He won three times. 他赢过三次。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "给出跨种族辨认更差的实证，30 空考与 slower 并列、被 5% less 修饰的表语形容词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 177,
+          "text": "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "There",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "surface": "now",
+              "normalized": "now",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 20,
+              "surface": "dozens",
+              "normalized": "dozens",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 32,
+              "surface": "criminal",
+              "normalized": "criminal",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "cases",
+              "normalized": "cases",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 47,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 57,
+              "surface": "offenders",
+              "normalized": "offenders",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 66,
+              "end": 76,
+              "surface": "themselves",
+              "normalized": "themselves",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 80,
+              "surface": "off",
+              "normalized": "off",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 83,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 90,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 95,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 105,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 109,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 110,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 111,
+              "end": 115,
+              "surface": "race",
+              "normalized": "race",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 118,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 125,
+              "surface": "gender",
+              "normalized": "gender",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 126,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 127,
+              "end": 134,
+              "surface": "sending",
+              "normalized": "sending",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 141,
+              "surface": "police",
+              "normalized": "police",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 156,
+              "surface": "investigations",
+              "normalized": "investigations",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 161,
+              "surface": "down",
+              "normalized": "down",
+              "isWord": true
+            },
+            {
+              "start": 162,
+              "end": 165,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 171,
+              "surface": "wrong",
+              "normalized": "wrong",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 176,
+              "surface": "path",
+              "normalized": "path",
+              "isWord": true
+            },
+            {
+              "start": 176,
+              "end": 177,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "如今已有数十起刑事案件，在其中罪犯把 31 自己冒充为不同年龄、种族或性别的人，把警方调查送上了错误的路径。",
+            "translationNatural": "现实里已经有几十桩案子：嫌犯靠面具扮成另一个年龄、种族甚至性别的人，害得警方查错了方向。",
+            "structMarkup": "There are now 【dozens of criminal cases】 {in which offenders have 31 themselves off as people of a different age, race or gender}, (sending police investigations down the wrong path).",
+            "structureSummary": "There be 句型 + 定语从句（in which 引导）+ 现在分词短语作结果状语",
+            "components": [
+              {
+                "part": "dozens of criminal cases",
+                "role": "主语",
+                "note": "There be 句型中的真正主语，dozens of 表「数十起」，谓语用 are"
+              },
+              {
+                "part": "in which offenders have 31 themselves off as people of a different age, race or gender",
+                "role": "定语从句",
+                "note": "in which 修饰 cases；31 空与 off 构成 pass off as（冒充），需过去分词与 have 组成现在完成时"
+              },
+              {
+                "part": "sending police investigations down the wrong path",
+                "role": "状语",
+                "note": "现在分词短语表自然结果，send ... down the wrong path 意为「把……引入歧途」"
+              }
+            ],
+            "clauses": [
+              "定语从句「in which offenders have 31 themselves off as people of a different age」：in which 修饰 cases；31 空与 off 构成 pass off as（冒充），需过去分词与 have 组成现在完成时",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "different",
+                "meaning": "不同的；各种各样的",
+                "usage": "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。常见搭配：different from / a different picture。",
+                "example": "Their experiences were considerably different. 他们的经历相当不同。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "从实验室转到真实刑案，说明面具被用来冒充身份，31 空考 pass off 的完成式。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "text": "In one recent case, an international gang used an 32 realistic mask to pose as a French minister, 33 business executives out of millions of pounds.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 147,
+          "text": "In one recent case, an international gang used an 32 realistic mask to pose as a French minister, 33 business executives out of millions of pounds.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "one",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "surface": "recent",
+              "normalized": "recent",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "case",
+              "normalized": "case",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 19,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 36,
+              "surface": "international",
+              "normalized": "international",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "gang",
+              "normalized": "gang",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "used",
+              "normalized": "used",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 53,
+              "end": 62,
+              "surface": "realistic",
+              "normalized": "realistic",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 67,
+              "surface": "mask",
+              "normalized": "mask",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "pose",
+              "normalized": "pose",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 80,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 87,
+              "surface": "French",
+              "normalized": "french",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 96,
+              "surface": "minister",
+              "normalized": "minister",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 97,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 98,
+              "end": 100,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 101,
+              "end": 109,
+              "surface": "business",
+              "normalized": "business",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 120,
+              "surface": "executives",
+              "normalized": "executives",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 124,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 127,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 136,
+              "surface": "millions",
+              "normalized": "millions",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 139,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 146,
+              "surface": "pounds",
+              "normalized": "pounds",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 147,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在最近的一起案件里，一个国际团伙使用了一张 32 逼真的面具去冒充一位法国部长，33 企业高管们数百万英镑。",
+            "translationNatural": "最近就有一桩：某跨国团伙戴上足以乱真的面具假扮法国部长，从企业高管手里骗走了几百万英镑。",
+            "structMarkup": "(In one recent case), 【an international gang】 _used an 32 realistic mask to pose as a French minister_, (33 business executives out of millions of pounds).",
+            "structureSummary": "主谓宾 + 不定式目的状语 + 现在分词短语作结果状语",
+            "components": [
+              {
+                "part": "In one recent case",
+                "role": "状语",
+                "note": "介词短语点明举例的时间场合，承接上段的 dozens of cases"
+              },
+              {
+                "part": "an international gang",
+                "role": "主语",
+                "note": "单数主语，谓语用过去式 used"
+              },
+              {
+                "part": "used an 32 realistic mask to pose as a French minister",
+                "role": "谓语+宾语+状语",
+                "note": "32 空在 an 与形容词 realistic 之间，需副词修饰 realistic；pose as 意为「假扮成」"
+              },
+              {
+                "part": "33 business executives out of millions of pounds",
+                "role": "状语",
+                "note": "现在分词短语表结果；33 空需及物动词的现在分词，构成 cheat sb out of sth（骗走某人某物）"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 不定式目的状语 + 现在分词短语作结果状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "recent",
+                "meaning": "最近的、近来的",
+                "usage": "注意区分：recent（最近的）/ recently（副词）/ resent（怨恨）。常见搭配：recent study / in recent years。",
+                "example": "One recent study found a surprising result. 最近一项研究发现了意外的结果。"
+              },
+              {
+                "text": "case",
+                "meaning": "事例、情况、案例；案件；箱子、盒（in case 万一）",
+                "usage": "注意区分：in case（万一，连词，从句用一般现在时表将来）/ in case of + 名词（假如发生，介词短语）/ in the case of（就…而言）/ in no case（绝不，置句首主句倒装）/ in any case（无论如何）。",
+                "example": "In one recent case, an international gang used an 32 realistic mask to pose as a French minister, 33 business executives out of millions of pounds. 最近就有一桩：某跨国团伙戴上足以乱真的面具假扮法国部长，从企业高管手里骗走了几百万英镑。"
+              },
+              {
+                "text": "international",
+                "meaning": "国际的",
+                "usage": "注意区分：international（国际的）/ national（国家的）/ multinational（跨国的）。常见搭配：international law / international students。",
+                "example": "International studies reach similar conclusions. 国际研究得出类似结论。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：recent（最近的）/ recently（副词）/ resent（怨恨）。",
+              "注意区分：in case（万一，连词，从句用一般现在时表将来）/ in case of + 名词（假如发生，介词短语）/ in the case of（就…而言）/ in no case（绝不，置句首主句倒装）/ in any case（无论如何）。",
+              "注意区分：international（国际的）/ national（国家的）/ multinational（跨国的）。"
+            ],
+            "paragraphRole": "用具体诈骗案坐实危害，32 空考副词修饰形容词、33 空考 cheat sb out of sth 的分词形式。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "text": "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 296,
+          "text": "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "Dr",
+              "normalized": "dr",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "Jet",
+              "normalized": "jet",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "surface": "Sanders",
+              "normalized": "sanders",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 15,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 26,
+              "surface": "worked",
+              "normalized": "worked",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 29,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 33,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 39,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 45,
+              "surface": "while",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "PhD",
+              "normalized": "phd",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 59,
+              "surface": "student",
+              "normalized": "student",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 66,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 77,
+              "surface": "University",
+              "normalized": "university",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 85,
+              "surface": "York",
+              "normalized": "york",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 86,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 87,
+              "end": 91,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 92,
+              "surface": ":",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 93,
+              "end": 94,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 94,
+              "end": 101,
+              "surface": "Failure",
+              "normalized": "failure",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 104,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 111,
+              "surface": "detect",
+              "normalized": "detect",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 121,
+              "surface": "synthetic",
+              "normalized": "synthetic",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 127,
+              "surface": "faces",
+              "normalized": "faces",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 131,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 136,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 146,
+              "surface": "important",
+              "normalized": "important",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 159,
+              "surface": "implications",
+              "normalized": "implications",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 163,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 172,
+              "surface": "security",
+              "normalized": "security",
+              "isWord": true
+            },
+            {
+              "start": 173,
+              "end": 176,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 177,
+              "end": 182,
+              "surface": "crime",
+              "normalized": "crime",
+              "isWord": true
+            },
+            {
+              "start": 183,
+              "end": 193,
+              "surface": "prevention",
+              "normalized": "prevention",
+              "isWord": true
+            },
+            {
+              "start": 194,
+              "end": 196,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 197,
+              "end": 202,
+              "surface": "super",
+              "normalized": "super",
+              "isWord": true
+            },
+            {
+              "start": 203,
+              "end": 212,
+              "surface": "realistic",
+              "normalized": "realistic",
+              "isWord": true
+            },
+            {
+              "start": 213,
+              "end": 218,
+              "surface": "masks",
+              "normalized": "masks",
+              "isWord": true
+            },
+            {
+              "start": 219,
+              "end": 222,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 223,
+              "end": 225,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 226,
+              "end": 229,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 230,
+              "end": 233,
+              "surface": "key",
+              "normalized": "key",
+              "isWord": true
+            },
+            {
+              "start": 234,
+              "end": 249,
+              "surface": "characteristics",
+              "normalized": "characteristics",
+              "isWord": true
+            },
+            {
+              "start": 250,
+              "end": 252,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 253,
+              "end": 254,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 255,
+              "end": 263,
+              "surface": "person's",
+              "normalized": "person's",
+              "isWord": true
+            },
+            {
+              "start": 264,
+              "end": 274,
+              "surface": "appearance",
+              "normalized": "appearance",
+              "isWord": true
+            },
+            {
+              "start": 275,
+              "end": 277,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 278,
+              "end": 280,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 281,
+              "end": 283,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 284,
+              "end": 294,
+              "surface": "identified",
+              "normalized": "identified",
+              "isWord": true
+            },
+            {
+              "start": 294,
+              "end": 295,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 295,
+              "end": 296,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "Jet Sanders 博士——她在约克大学读博士期间参与了这项研究——说：「未能识别出合成面孔，可能对安防与犯罪预防有重大影响，因为超逼真面具可能 34 一个人外貌的关键特征被 35 识别。」",
+            "translationNatural": "参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。",
+            "structMarkup": "【Dr Jet Sanders】, {who worked on the study while a PhD student at the University of York}, _said_: \"Failure to detect synthetic faces may have important implications for security and crime prevention {as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified}.\"",
+            "structureSummary": "主谓 + 非限制性定语从句（who 引导）+ 直接引语（内含 as 原因状语从句）",
+            "components": [
+              {
+                "part": "Dr Jet Sanders",
+                "role": "主语",
+                "note": "人名作主语，后接 who 引导的非限制性定语从句补充身份"
+              },
+              {
+                "part": "who worked on the study while a PhD student at the University of York",
+                "role": "定语从句",
+                "note": "who 指代 Dr Jet Sanders；while a PhD student 是 while she was 的省略式"
+              },
+              {
+                "part": "said",
+                "role": "谓语",
+                "note": "引出后面整段直接引语，冒号后引号一直到句末才闭合"
+              },
+              {
+                "part": "as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified",
+                "role": "状语从句",
+                "note": "as 引导原因；34 空是 may 后的谓语动词原形，构成 allow ... to be done；35 空在 to be 与 identified 之间，需副词修饰过去分词"
+              }
+            ],
+            "clauses": [
+              "定语从句「who worked on the study while a PhD student at the University of York」：who 指代 Dr Jet Sanders；while a PhD student 是 while she was 的省略式",
+              "状语从句「as super realistic masks may 34 the key characteristics of a person's 」：as 引导原因；34 空是 may 后的谓语动词原形，构成 allow ... to be done；35 空在 to be 与 identified 之间，需副词修饰过去分词",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。"
+            ],
+            "phrases": [
+              {
+                "text": "worked",
+                "meaning": "工作；运转、奏效 / 工作、作品（work 的过去式/过去分词形式）",
+                "usage": "注意区分：worked（过去式/过去分词）/ work（原形）。",
+                "example": "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "university",
+                "meaning": "大学（可数）",
+                "usage": "注意区分：university（大学）/ college（学院）/ at university（在读大学，不加 the）。常见搭配：at university / university students。",
+                "example": "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+              }
+            ],
+            "pitfalls": [
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "注意区分：worked（过去式/过去分词）/ work（原形）。",
+              "注意区分：study（研究，可数）/ research（研究，不可数）。"
+            ],
+            "paragraphRole": "借研究者之口收束全文、点出安防隐患，34 空考 allow 的动词原形、35 空考修饰 identified 的副词。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accurate"
+        },
+        {
+          "key": "B",
+          "text": "allow"
+        },
+        {
+          "key": "C",
+          "text": "artificial"
+        },
+        {
+          "key": "D",
+          "text": "cheating"
+        },
+        {
+          "key": "E",
+          "text": "deserted"
+        },
+        {
+          "key": "F",
+          "text": "establish"
+        },
+        {
+          "key": "G",
+          "text": "extremely"
+        },
+        {
+          "key": "H",
+          "text": "immediately"
+        },
+        {
+          "key": "I",
+          "text": "incorrectly"
+        },
+        {
+          "key": "J",
+          "text": "normal"
+        },
+        {
+          "key": "K",
+          "text": "observed"
+        },
+        {
+          "key": "L",
+          "text": "passed"
+        },
+        {
+          "key": "M",
+          "text": "reminding"
+        },
+        {
+          "key": "N",
+          "text": "reparable"
+        },
+        {
+          "key": "O",
+          "text": "resolve"
+        }
+      ],
+      "answer": "J"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accurate"
+        },
+        {
+          "key": "B",
+          "text": "allow"
+        },
+        {
+          "key": "C",
+          "text": "artificial"
+        },
+        {
+          "key": "D",
+          "text": "cheating"
+        },
+        {
+          "key": "E",
+          "text": "deserted"
+        },
+        {
+          "key": "F",
+          "text": "establish"
+        },
+        {
+          "key": "G",
+          "text": "extremely"
+        },
+        {
+          "key": "H",
+          "text": "immediately"
+        },
+        {
+          "key": "I",
+          "text": "incorrectly"
+        },
+        {
+          "key": "J",
+          "text": "normal"
+        },
+        {
+          "key": "K",
+          "text": "observed"
+        },
+        {
+          "key": "L",
+          "text": "passed"
+        },
+        {
+          "key": "M",
+          "text": "reminding"
+        },
+        {
+          "key": "N",
+          "text": "reparable"
+        },
+        {
+          "key": "O",
+          "text": "resolve"
+        }
+      ],
+      "answer": "K"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accurate"
+        },
+        {
+          "key": "B",
+          "text": "allow"
+        },
+        {
+          "key": "C",
+          "text": "artificial"
+        },
+        {
+          "key": "D",
+          "text": "cheating"
+        },
+        {
+          "key": "E",
+          "text": "deserted"
+        },
+        {
+          "key": "F",
+          "text": "establish"
+        },
+        {
+          "key": "G",
+          "text": "extremely"
+        },
+        {
+          "key": "H",
+          "text": "immediately"
+        },
+        {
+          "key": "I",
+          "text": "incorrectly"
+        },
+        {
+          "key": "J",
+          "text": "normal"
+        },
+        {
+          "key": "K",
+          "text": "observed"
+        },
+        {
+          "key": "L",
+          "text": "passed"
+        },
+        {
+          "key": "M",
+          "text": "reminding"
+        },
+        {
+          "key": "N",
+          "text": "reparable"
+        },
+        {
+          "key": "O",
+          "text": "resolve"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accurate"
+        },
+        {
+          "key": "B",
+          "text": "allow"
+        },
+        {
+          "key": "C",
+          "text": "artificial"
+        },
+        {
+          "key": "D",
+          "text": "cheating"
+        },
+        {
+          "key": "E",
+          "text": "deserted"
+        },
+        {
+          "key": "F",
+          "text": "establish"
+        },
+        {
+          "key": "G",
+          "text": "extremely"
+        },
+        {
+          "key": "H",
+          "text": "immediately"
+        },
+        {
+          "key": "I",
+          "text": "incorrectly"
+        },
+        {
+          "key": "J",
+          "text": "normal"
+        },
+        {
+          "key": "K",
+          "text": "observed"
+        },
+        {
+          "key": "L",
+          "text": "passed"
+        },
+        {
+          "key": "M",
+          "text": "reminding"
+        },
+        {
+          "key": "N",
+          "text": "reparable"
+        },
+        {
+          "key": "O",
+          "text": "resolve"
+        }
+      ],
+      "answer": "F"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accurate"
+        },
+        {
+          "key": "B",
+          "text": "allow"
+        },
+        {
+          "key": "C",
+          "text": "artificial"
+        },
+        {
+          "key": "D",
+          "text": "cheating"
+        },
+        {
+          "key": "E",
+          "text": "deserted"
+        },
+        {
+          "key": "F",
+          "text": "establish"
+        },
+        {
+          "key": "G",
+          "text": "extremely"
+        },
+        {
+          "key": "H",
+          "text": "immediately"
+        },
+        {
+          "key": "I",
+          "text": "incorrectly"
+        },
+        {
+          "key": "J",
+          "text": "normal"
+        },
+        {
+          "key": "K",
+          "text": "observed"
+        },
+        {
+          "key": "L",
+          "text": "passed"
+        },
+        {
+          "key": "M",
+          "text": "reminding"
+        },
+        {
+          "key": "N",
+          "text": "reparable"
+        },
+        {
+          "key": "O",
+          "text": "resolve"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accurate"
+        },
+        {
+          "key": "B",
+          "text": "allow"
+        },
+        {
+          "key": "C",
+          "text": "artificial"
+        },
+        {
+          "key": "D",
+          "text": "cheating"
+        },
+        {
+          "key": "E",
+          "text": "deserted"
+        },
+        {
+          "key": "F",
+          "text": "establish"
+        },
+        {
+          "key": "G",
+          "text": "extremely"
+        },
+        {
+          "key": "H",
+          "text": "immediately"
+        },
+        {
+          "key": "I",
+          "text": "incorrectly"
+        },
+        {
+          "key": "J",
+          "text": "normal"
+        },
+        {
+          "key": "K",
+          "text": "observed"
+        },
+        {
+          "key": "L",
+          "text": "passed"
+        },
+        {
+          "key": "M",
+          "text": "reminding"
+        },
+        {
+          "key": "N",
+          "text": "reparable"
+        },
+        {
+          "key": "O",
+          "text": "resolve"
+        }
+      ],
+      "answer": "L"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accurate"
+        },
+        {
+          "key": "B",
+          "text": "allow"
+        },
+        {
+          "key": "C",
+          "text": "artificial"
+        },
+        {
+          "key": "D",
+          "text": "cheating"
+        },
+        {
+          "key": "E",
+          "text": "deserted"
+        },
+        {
+          "key": "F",
+          "text": "establish"
+        },
+        {
+          "key": "G",
+          "text": "extremely"
+        },
+        {
+          "key": "H",
+          "text": "immediately"
+        },
+        {
+          "key": "I",
+          "text": "incorrectly"
+        },
+        {
+          "key": "J",
+          "text": "normal"
+        },
+        {
+          "key": "K",
+          "text": "observed"
+        },
+        {
+          "key": "L",
+          "text": "passed"
+        },
+        {
+          "key": "M",
+          "text": "reminding"
+        },
+        {
+          "key": "N",
+          "text": "reparable"
+        },
+        {
+          "key": "O",
+          "text": "resolve"
+        }
+      ],
+      "answer": "G"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accurate"
+        },
+        {
+          "key": "B",
+          "text": "allow"
+        },
+        {
+          "key": "C",
+          "text": "artificial"
+        },
+        {
+          "key": "D",
+          "text": "cheating"
+        },
+        {
+          "key": "E",
+          "text": "deserted"
+        },
+        {
+          "key": "F",
+          "text": "establish"
+        },
+        {
+          "key": "G",
+          "text": "extremely"
+        },
+        {
+          "key": "H",
+          "text": "immediately"
+        },
+        {
+          "key": "I",
+          "text": "incorrectly"
+        },
+        {
+          "key": "J",
+          "text": "normal"
+        },
+        {
+          "key": "K",
+          "text": "observed"
+        },
+        {
+          "key": "L",
+          "text": "passed"
+        },
+        {
+          "key": "M",
+          "text": "reminding"
+        },
+        {
+          "key": "N",
+          "text": "reparable"
+        },
+        {
+          "key": "O",
+          "text": "resolve"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accurate"
+        },
+        {
+          "key": "B",
+          "text": "allow"
+        },
+        {
+          "key": "C",
+          "text": "artificial"
+        },
+        {
+          "key": "D",
+          "text": "cheating"
+        },
+        {
+          "key": "E",
+          "text": "deserted"
+        },
+        {
+          "key": "F",
+          "text": "establish"
+        },
+        {
+          "key": "G",
+          "text": "extremely"
+        },
+        {
+          "key": "H",
+          "text": "immediately"
+        },
+        {
+          "key": "I",
+          "text": "incorrectly"
+        },
+        {
+          "key": "J",
+          "text": "normal"
+        },
+        {
+          "key": "K",
+          "text": "observed"
+        },
+        {
+          "key": "L",
+          "text": "passed"
+        },
+        {
+          "key": "M",
+          "text": "reminding"
+        },
+        {
+          "key": "N",
+          "text": "reparable"
+        },
+        {
+          "key": "O",
+          "text": "resolve"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accurate"
+        },
+        {
+          "key": "B",
+          "text": "allow"
+        },
+        {
+          "key": "C",
+          "text": "artificial"
+        },
+        {
+          "key": "D",
+          "text": "cheating"
+        },
+        {
+          "key": "E",
+          "text": "deserted"
+        },
+        {
+          "key": "F",
+          "text": "establish"
+        },
+        {
+          "key": "G",
+          "text": "extremely"
+        },
+        {
+          "key": "H",
+          "text": "immediately"
+        },
+        {
+          "key": "I",
+          "text": "incorrectly"
+        },
+        {
+          "key": "J",
+          "text": "normal"
+        },
+        {
+          "key": "K",
+          "text": "observed"
+        },
+        {
+          "key": "L",
+          "text": "passed"
+        },
+        {
+          "key": "M",
+          "text": "reminding"
+        },
+        {
+          "key": "N",
+          "text": "reparable"
+        },
+        {
+          "key": "O",
+          "text": "resolve"
+        }
+      ],
+      "answer": "I"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "accurate"
+    },
+    {
+      "key": "B",
+      "word": "allow"
+    },
+    {
+      "key": "C",
+      "word": "artificial"
+    },
+    {
+      "key": "D",
+      "word": "cheating"
+    },
+    {
+      "key": "E",
+      "word": "deserted"
+    },
+    {
+      "key": "F",
+      "word": "establish"
+    },
+    {
+      "key": "G",
+      "word": "extremely"
+    },
+    {
+      "key": "H",
+      "word": "immediately"
+    },
+    {
+      "key": "I",
+      "word": "incorrectly"
+    },
+    {
+      "key": "J",
+      "word": "normal"
+    },
+    {
+      "key": "K",
+      "word": "observed"
+    },
+    {
+      "key": "L",
+      "word": "passed"
+    },
+    {
+      "key": "M",
+      "word": "reminding"
+    },
+    {
+      "key": "N",
+      "word": "reparable"
+    },
+    {
+      "key": "O",
+      "word": "resolve"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "J",
+      "answerWord": "normal",
+      "reason": "空格位于不定冠词 a 与名词 face 之间，需要形容词作定语。实验要受试者分辨「真脸」与「戴面具的脸」，与合成脸、假脸相对的正是 normal（正常的、真实的），故为 a normal face。",
+      "distractors": "C) artificial（人造的）恰好是要被识破的那一类，填进去与后面的 wearing a mask 同义、逻辑反了；A) accurate（准确的）通常修饰判断、数据，不修饰 face；E) deserted 语义完全不搭。"
+    },
+    "27": {
+      "answerKey": "K",
+      "answerWord": "observed",
+      "reason": "空格夹在 The 20% error rate 与介词短语 in the study 之间，作后置定语修饰 rate，需要过去分词。「研究中观测到的」错误率，observed 正表「被观测到、测得的」。",
+      "distractors": "L) passed 虽是过去分词，但「被通过的错误率」不成话；D) cheating 是现在分词，既不能作后置定语修饰 rate，语义也不通；M) reminding 与「错误率」搭配不上。"
+    },
+    "28": {
+      "answerKey": "C",
+      "answerWord": "artificial",
+      "reason": "空格在不定冠词 an 与名词 face 之间，需要形容词且以元音音素开头。tell an artificial face from the real thing（把人造脸与真脸区分开）与文末 synthetic faces 呼应，artificial 正是 real 的反面。",
+      "distractors": "J) normal 与 the real thing 同义，两者无从「区分」；A) accurate 修饰 face 语义不通；N) reparable（可修复的）与语境无关。"
+    },
+    "29": {
+      "answerKey": "F",
+      "answerWord": "establish",
+      "reason": "空格位于不定式符号 to 之后、宾语 any differences 之前，需填动词原形；collected data ... to establish any differences 即「收集数据以确定是否存在差异」，establish 与 differences 构成动宾搭配，意为「确定、查明」。",
+      "distractors": "O) resolve（解决）虽是动词原形，但宾语是 differences「差异」，不能说「解决差异」；B) allow 需接 allow sb/sth to do，此处既缺宾语又无后续不定式；H) immediately 是副词，词性不符。"
+    },
+    "30": {
+      "answerKey": "A",
+      "answerWord": "accurate",
+      "reason": "空格在系动词 were 之后、受 5% less 修饰，构成「less + 形容词」的表语，需要形容词。上句说反应变慢，此处说选择「准确度低 5%」，accurate 与第三段 made the wrong call 直接呼应。",
+      "distractors": "G) extremely 是副词，不能作表语；J) normal（正常的）虽是形容词，但「选择更不正常」不合语境；E) deserted 语义不通。"
+    },
+    "31": {
+      "answerKey": "L",
+      "answerWord": "passed",
+      "reason": "空格在 have 与 themselves off as 之间，需要过去分词构成现在完成时。pass oneself off as 是固定短语，意为「把自己冒充成……」，与 offenders 假扮他人身份的语境完全吻合。",
+      "distractors": "K) observed 已用于 27 空，且「把自己观察成」不成搭配；D) cheating 是现在分词，不能与 have 构成完成式，也不与 off as 连用；M) reminding 没有 remind off as 的用法。"
+    },
+    "32": {
+      "answerKey": "G",
+      "answerWord": "extremely",
+      "reason": "空格在不定冠词 an 与形容词 realistic 之间，需要副词修饰 realistic（用 an 是因为 extremely 以元音音素开头）。an extremely realistic mask 意为「一张极其逼真的面具」，与全文 super realistic 一脉相承。",
+      "distractors": "H) immediately（立即）虽是副词，但「立即逼真的面具」语义不通；I) incorrectly 修饰形容词时带否定色彩，与「骗过高管」的语境矛盾；C) artificial 是形容词，不能修饰 realistic。"
+    },
+    "33": {
+      "answerKey": "D",
+      "answerWord": "cheating",
+      "reason": "逗号之后是表结果的状语，空格需要及物动词的现在分词，且能接 business executives out of millions of pounds。cheat sb out of sth（骗取某人某物）是固定搭配，cheating 说明冒充法国部长带来的作案结果。",
+      "distractors": "M) reminding（提醒）不能接 out of 结构；L) passed 是过去分词，且 pass sb out of sth 不成搭配；F) establish 是动词原形，不能作结果分词。"
+    },
+    "34": {
+      "answerKey": "B",
+      "answerWord": "allow",
+      "reason": "空格在情态动词 may 之后、宾语 the key characteristics 之前，需要动词原形作谓语；后面紧接 to be ... identified 的不定式被动，正是 allow sth to be done（使某事得以被……）结构，表示面具会「使外貌关键特征可能被误认」。",
+      "distractors": "F) establish 已用于 29 空，且 establish ... to be identified 搭配生硬；O) resolve 语义不合；E) deserted 不是动词原形，无法跟在 may 后。"
+    },
+    "35": {
+      "answerKey": "I",
+      "answerWord": "incorrectly",
+      "reason": "空格位于 to be 与过去分词 identified 之间，需要副词修饰被动分词。全文讲人们分不清真假、误判率达 20%，故为 to be incorrectly identified（被错误地识别），与第三段 made the wrong call 首尾闭合。",
+      "distractors": "G) extremely 已用于 32 空，且「被极其识别」不成话；H) immediately 只表时间，不含「错误」这一核心语义；A) accurate 是形容词，不能修饰 identified。"
+    }
+  },
+  "lexicon": {
+    "according": {
+      "phonetic": "/əˈkɔːdɪŋ/",
+      "pos": "prep.（用于 according to）",
+      "sense": "根据、按照（according to）",
+      "collocations": [
+        "according to the study",
+        "according to sb"
+      ],
+      "examples": [
+        "According to the study, rates are stable. 根据这项研究，比率稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "according to（根据，后接来源）/ because of（因为）"
+      }
+    },
+    "age": {
+      "phonetic": "/eɪdʒ/",
+      "pos": "n./v.",
+      "sense": "年龄、年纪；时代、时期；变老、老化",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "different age"
+      ],
+      "examples": [
+        "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path. 现实里已经有几十桩案子：嫌犯靠面具扮成另一个年龄、种族甚至性别的人，害得警方查错了方向。"
+      ],
+      "more": {
+        "confusables": "age / agencies（同族不同词形，注意词性与用法）"
+      }
+    },
+    "appearance": {
+      "phonetic": "/əˈpɪərəns/",
+      "pos": "n.",
+      "sense": "外貌、外表；出现、露面；表象（judge by appearances 以貌取人）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "person's appearance",
+        "appearance to"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ],
+      "more": {
+        "roots": "appearance 含 -ance / -ence（名词后缀，表行为或状态）"
+      }
+    },
+    "asked": {
+      "phonetic": "/ɑːskt/",
+      "pos": "v.",
+      "sense": "问、询问；要求、请求；邀请（ask 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "researchers asked",
+        "asked participants",
+        "asked to"
+      ],
+      "examples": [
+        "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+      ]
+    },
+    "business": {
+      "phonetic": "/ˈbɪznəs/",
+      "pos": "n.",
+      "sense": "生意、商业（不可数）；公司（可数）；事、分内事",
+      "collocations": [
+        "in business",
+        "business decisions",
+        "mind your own business"
+      ],
+      "examples": [
+        "People in business rely on instincts. 商界人士依赖直觉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "business（生意）/ busy（忙的）"
+      }
+    },
+    "call": {
+      "phonetic": "/kɔːl/",
+      "pos": "v./n.",
+      "sense": "称呼（call sb sth）；打电话；呼叫",
+      "collocations": [
+        "call for",
+        "call on",
+        "so-called"
+      ],
+      "examples": [
+        "This is what we call the third space. 这就是我们所说的「第三空间」。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "call sb sth（称某人某物）/ call sb up（打电话）/ so-called（所谓的）"
+      }
+    },
+    "case": {
+      "phonetic": "/keɪs/",
+      "pos": "n.",
+      "sense": "事例、情况、案例；案件；箱子、盒（in case 万一）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in case（万一，连词，从句用一般现在时表将来）/ in case of + 名词（假如发生，介词短语）/ in the case of（就…而言）/ in no case（绝不，置句首主句倒装）/ in any case（无论如何）"
+      },
+      "collocations": [
+        "recent case"
+      ],
+      "examples": [
+        "In one recent case, an international gang used an 32 realistic mask to pose as a French minister, 33 business executives out of millions of pounds. 最近就有一桩：某跨国团伙戴上足以乱真的面具假扮法国部长，从企业高管手里骗走了几百万英镑。"
+      ]
+    },
+    "cases": {
+      "phonetic": "/ˈkeɪsɪz/",
+      "pos": "n.",
+      "sense": "事例、情况、案例、病例、案件（case 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "one-in-five cases",
+        "criminal cases",
+        "cases in"
+      ],
+      "examples": [
+        "Surprisingly, participants made the wrong call in one-in-five cases. 结果出人意料：每五次判断里，就有一次看走了眼。"
+      ],
+      "more": {
+        "confusables": "cases / case（同族不同词形，注意词性与用法）"
+      }
+    },
+    "characteristics": {
+      "phonetic": "/ˌkærəktəˈrɪstɪkz/",
+      "pos": "n./adj.",
+      "sense": "特征、特点、特性；典型的、特有的（be characteristic of）（characteristic 的复数/三单形式）",
+      "lemma": "characteristic",
+      "collocations": [
+        "key characteristics",
+        "characteristics of"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "characteristic + -s（复数/三单）",
+        "confusables": "characteristics（复数/三单）/ characteristic（原形）"
+      }
+    },
+    "choose": {
+      "phonetic": "/tʃuːz/",
+      "pos": "v.",
+      "sense": "选择、挑选、决定（choose to do 选择做；choose between/from 在…中挑选）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "asked to choose"
+      ],
+      "examples": [
+        "When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less 30 . 一旦让他们辨认跟自己不同种族的面孔，反应明显变慢，正确率还掉了 5 个百分点。"
+      ],
+      "more": {
+        "confusables": "choose / choosing（同族不同词形，注意词性与用法）"
+      }
+    },
+    "collected": {
+      "phonetic": "/kəˈlektɪd/",
+      "pos": "v./adj.",
+      "sense": "收集、采集、领取、收走（collect 的过去式/过去分词）；镇定自若的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "researchers collected",
+        "collected data"
+      ],
+      "examples": [
+        "The researchers collected data from participants from both the UK and Japan to 29 any differences according to race. 团队特意找了英国和日本两国的受试者，想看看不同种族之间会不会有差别。"
+      ],
+      "more": {
+        "confusables": "collected / collectors / collection（同族不同词形，注意词性与用法）"
+      }
+    },
+    "crime": {
+      "phonetic": "/kraɪm/",
+      "pos": "n.",
+      "sense": "犯罪、罪行、违法活动（crime rate 犯罪率；commit a crime 犯罪）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "crime prevention"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ],
+      "more": {
+        "confusables": "crime / criminal（同族不同词形，注意词性与用法）"
+      }
+    },
+    "criminal": {
+      "phonetic": "/ˈkrɪmɪnl/",
+      "pos": "adj./n.",
+      "sense": "犯罪的、刑事的；罪犯",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "criminal cases",
+        "dozens of criminal"
+      ],
+      "examples": [
+        "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path. 现实里已经有几十桩案子：嫌犯靠面具扮成另一个年龄、种族甚至性别的人，害得警方查错了方向。"
+      ]
+    },
+    "data": {
+      "phonetic": "/ˈdeɪtə/",
+      "pos": "n.",
+      "sense": "数据（datum 的复数，现代英语也常作不可数，谓语单复皆可但须一致）",
+      "collocations": [
+        "data on sth",
+        "collect data",
+        "data analysis"
+      ],
+      "examples": [
+        "The data show a clear trend. 数据显示出明确的趋势。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "data（数据）/ date（日期）",
+        "roots": "datum（给定之物）"
+      }
+    },
+    "decide": {
+      "phonetic": "/dɪˈsaɪd/",
+      "pos": "v.",
+      "sense": "决定、抉择；判定、断定（本文 decide which showed a real face 判断哪张是真人）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+      ],
+      "more": {
+        "confusables": "decide / decision / decisions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "designed": {
+      "phonetic": "/dɪˈzaɪnd/",
+      "pos": "n./v.",
+      "sense": "设计（不可数/可数）；计划 / 设计（design 的过去式/过去分词形式）",
+      "lemma": "design",
+      "collocations": [
+        "designed to",
+        "designed to imitate"
+      ],
+      "examples": [
+        "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "design + -ed（过去式/过去分词）",
+        "confusables": "designed（过去式/过去分词）/ design（原形）"
+      }
+    },
+    "detail": {
+      "phonetic": "/ˈdiːteɪl/",
+      "pos": "n./v.",
+      "sense": "细节、详情、细目；详述、细说（in detail 详细地）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "last detail"
+      ],
+      "examples": [
+        "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+      ],
+      "more": {
+        "confusables": "detail / details（同族不同词形，注意词性与用法）"
+      }
+    },
+    "detect": {
+      "phonetic": "/dɪˈtekt/",
+      "pos": "v.",
+      "sense": "察觉、发现、检测出、探测（阅读中常指仪器 / 研究发现、检出疾病）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "detect synthetic",
+        "Failure to detect"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ],
+      "more": {
+        "confusables": "detect / determination / determinant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "differences": {
+      "phonetic": "/ˈdɪfrənsɪz/",
+      "pos": "n.",
+      "sense": "差异（difference 的复数）",
+      "lemma": "difference",
+      "collocations": [
+        "differences between",
+        "make a difference",
+        "gender differences"
+      ],
+      "examples": [
+        "There are clear differences between the groups. 两组之间有明显差异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "difference（差异）/ different（形容词）/ differ（动词）"
+      }
+    },
+    "different": {
+      "phonetic": "/ˈdɪfrənt/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的",
+      "collocations": [
+        "different from",
+        "a different picture",
+        "different points of view"
+      ],
+      "examples": [
+        "Their experiences were considerably different. 他们的经历相当不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "dozens": {
+      "phonetic": "/ˈdʌznz/",
+      "pos": "n.",
+      "sense": "几十、许多（dozens of 数十个；本文 Dozens of fountains 数十个饮水喷泉 / dozens of criminal cases 数十起刑案）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "now dozens",
+        "dozens of",
+        "dozens of criminal"
+      ],
+      "examples": [
+        "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path. 现实里已经有几十桩案子：嫌犯靠面具扮成另一个年龄、种族甚至性别的人，害得警方查错了方向。"
+      ]
+    },
+    "error": {
+      "phonetic": "/ˈerə/",
+      "pos": "n.",
+      "sense": "错误、差错、误差；过失（make/commit an error 犯错；error rate 错误率）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "error rate"
+      ],
+      "examples": [
+        "The 20% error rate 27 in the study likely underestimates the extent to which people would struggle to tell an 28 face from the real thing outside of the lab. 研究测到的 20% 误判率恐怕还偏保守：真到了现实场景，人们分辨仿真脸和真脸只会更吃力。"
+      ],
+      "more": {
+        "confusables": "error / error-proof（同族不同词形，注意词性与用法）"
+      }
+    },
+    "executives": {
+      "phonetic": "/ɪɡˈzekjətɪvz/",
+      "pos": "n./adj.",
+      "sense": "高管、主管、行政人员；执行的、行政的、决策的（本文 one chief executive 某位首席执行官 / cheating business executives 诈骗企业高管）（executive 的复数/三单形式）",
+      "lemma": "executive",
+      "collocations": [
+        "business executives",
+        "executives out"
+      ],
+      "examples": [
+        "In one recent case, an international gang used an 32 realistic mask to pose as a French minister, 33 business executives out of millions of pounds. 最近就有一桩：某跨国团伙戴上足以乱真的面具假扮法国部长，从企业高管手里骗走了几百万英镑。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "executive + -s（复数/三单）",
+        "confusables": "executives（复数/三单）/ executive（原形）"
+      }
+    },
+    "extent": {
+      "phonetic": "/ɪkˈstent/",
+      "pos": "n.",
+      "sense": "程度、限度；范围、广度（to some/a large extent 在某种 / 很大程度上）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "extent to"
+      ],
+      "examples": [
+        "The 20% error rate 27 in the study likely underestimates the extent to which people would struggle to tell an 28 face from the real thing outside of the lab. 研究测到的 20% 误判率恐怕还偏保守：真到了现实场景，人们分辨仿真脸和真脸只会更吃力。"
+      ],
+      "more": {
+        "confusables": "extent / external（同族不同词形，注意词性与用法）"
+      }
+    },
+    "face": {
+      "phonetic": "/feɪs/",
+      "pos": "n./v.",
+      "sense": "脸、面孔；表面、正面；面对、面临、正视（face a challenge 面临挑战）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "human face",
+        "face from"
+      ],
+      "examples": [
+        "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+      ],
+      "more": {
+        "confusables": "face / faces / faced（同族不同词形，注意词性与用法）"
+      }
+    },
+    "faces": {
+      "phonetic": "/ˈfeɪsɪz/",
+      "pos": "v./n.",
+      "sense": "面对、面临、正视（第三人称单数）；脸、面部（复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "faces of",
+        "photographs of faces",
+        "synthetic faces"
+      ],
+      "examples": [
+        "When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less 30 . 一旦让他们辨认跟自己不同种族的面孔，反应明显变慢，正确率还掉了 5 个百分点。"
+      ],
+      "more": {
+        "confusables": "faces / face（同族不同词形，注意词性与用法）"
+      }
+    },
+    "failure": {
+      "phonetic": "/ˈfeɪljə/",
+      "pos": "n.",
+      "sense": "失败、不成功；失败的人 / 事；故障、失灵；未能做到（failure to do 未做…）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Failure to",
+        "Failure to detect"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ]
+    },
+    "flexible": {
+      "phonetic": "/ˈfleksəbl/",
+      "pos": "adj.",
+      "sense": "灵活的、可变通的、弹性的；柔韧的、易弯曲的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "flex（弯曲，词根 flect/flex = bend，同 reflect/deflect）+ -ible（可…的）",
+        "confusables": "flexible（灵活的、可弯曲的；可变通的）/ flexibility（灵活性，名词）/ inflexible（不灵活的，in- 否定）/ rigid（僵硬的，反义）/ flexible working（弹性工作）"
+      },
+      "collocations": [
+        "flexible materials",
+        "made from flexible"
+      ],
+      "examples": [
+        "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+      ]
+    },
+    "gang": {
+      "phonetic": "/ɡæŋ/",
+      "pos": "n./v.",
+      "sense": "一帮、一伙、一群；帮派、团伙；结伙（gang up on 合伙对付）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "international gang",
+        "gang used"
+      ],
+      "examples": [
+        "In one recent case, an international gang used an 32 realistic mask to pose as a French minister, 33 business executives out of millions of pounds. 最近就有一桩：某跨国团伙戴上足以乱真的面具假扮法国部长，从企业高管手里骗走了几百万英镑。"
+      ]
+    },
+    "gender": {
+      "phonetic": "/ˈdʒendə/",
+      "pos": "n.",
+      "sense": "性别；（语法的）性（gender differences 性别差异；gender gap 性别鸿沟）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path. 现实里已经有几十桩案子：嫌犯靠面具扮成另一个年龄、种族甚至性别的人，害得警方查错了方向。"
+      ],
+      "more": {
+        "confusables": "gender / genders（同族不同词形，注意词性与用法）"
+      }
+    },
+    "human": {
+      "phonetic": "/ˈhjuːmən/",
+      "pos": "adj./n.",
+      "sense": "人的、人类的、有人情味的；人、人类（human being）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "real human",
+        "human face"
+      ],
+      "examples": [
+        "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+      ],
+      "more": {
+        "confusables": "human / humanity / human-made（同族不同词形，注意词性与用法）"
+      }
+    },
+    "identified": {
+      "phonetic": "/aɪˈdentɪfaɪd/",
+      "pos": "v.",
+      "sense": "识别、确认、鉴定；发现、找出；认同（identify with）（identify 的过去式/过去分词形式）",
+      "lemma": "identify",
+      "collocations": [],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "identify + -ied（过去式/过去分词）",
+        "confusables": "identified（过去式/过去分词）/ identify（原形）"
+      }
+    },
+    "imitate": {
+      "phonetic": "/ˈɪmɪteɪt/",
+      "pos": "v.",
+      "sense": "模仿、仿效、仿制、学样",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "imitate（模仿、仿效，及物）/ imitate 与 copy（复制/照抄，含贬义可指抄袭）/ mimic（学样、拟态，常为逗弄）/ imitation（模仿；仿制品）/ imitate 与 intimate（亲密的，拼写易混）"
+      },
+      "collocations": [
+        "imitate real",
+        "designed to imitate"
+      ],
+      "examples": [
+        "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+      ]
+    },
+    "implications": {
+      "phonetic": "/ˌɪmplɪˈkeɪʃnz/",
+      "pos": "n.",
+      "sense": "可能的影响、后果；含意、暗含之意（复数；本文 important implications for security 对安全的重大影响 / their implications 条款的含意）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "important implications",
+        "implications for",
+        "implications for security"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ]
+    },
+    "important": {
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "pos": "adj.",
+      "sense": "重要的、重大的；有影响力的",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）"
+      },
+      "collocations": [
+        "important implications"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ]
+    },
+    "international": {
+      "phonetic": "/ˌɪntəˈnæʃnəl/",
+      "pos": "adj.",
+      "sense": "国际的",
+      "collocations": [
+        "international law",
+        "international students"
+      ],
+      "examples": [
+        "International studies reach similar conclusions. 国际研究得出类似结论。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "inter-（之间）+ nation（国家）+ -al（形容词后缀）",
+        "confusables": "international（国际的）/ national（国家的）/ multinational（跨国的）"
+      }
+    },
+    "investigations": {
+      "phonetic": "/ɪnˌvestɪˈɡeɪʃnz/",
+      "pos": "n.",
+      "sense": "调查、调查研究、侦查（investigation 的复数；carry out investigations 开展调查）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "police investigations",
+        "investigations down"
+      ],
+      "examples": [
+        "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path. 现实里已经有几十桩案子：嫌犯靠面具扮成另一个年龄、种族甚至性别的人，害得警方查错了方向。"
+      ]
+    },
+    "key": {
+      "phonetic": "/kiː/",
+      "pos": "n./adj.",
+      "sense": "关键、钥匙；关键的",
+      "collocations": [
+        "the key to",
+        "a key factor"
+      ],
+      "examples": [
+        "Practice is the key to progress. 练习是进步的关键。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "lab": {
+      "phonetic": "/læb/",
+      "pos": "n.",
+      "sense": "实验室、实验楼（laboratory 的常用缩略，现已作独立常用词；lab tests 实验室检测）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "The 20% error rate 27 in the study likely underestimates the extent to which people would struggle to tell an 28 face from the real thing outside of the lab. 研究测到的 20% 误判率恐怕还偏保守：真到了现实场景，人们分辨仿真脸和真脸只会更吃力。"
+      ],
+      "more": {
+        "confusables": "lab / labor（同族不同词形，注意词性与用法）"
+      }
+    },
+    "last": {
+      "phonetic": "/lɑːst/",
+      "pos": "adj./v.",
+      "sense": "最后的；上一个的 / 持续",
+      "collocations": [
+        "last week",
+        "at last",
+        "last for"
+      ],
+      "examples": [
+        "In the last 12 months, few were bullied. 过去 12 个月里很少有人被欺凌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "last（最后的/上一个）/ latest（最新的）/ latter（后者）"
+      }
+    },
+    "likely": {
+      "phonetic": "/ˈlaɪkli/",
+      "pos": "adj./adv.",
+      "sense": "可能的；很可能（be likely to do）",
+      "collocations": [
+        "be likely to do",
+        "more likely than",
+        "most likely"
+      ],
+      "examples": [
+        "Kids are likely to copy their parents. 孩子很可能模仿父母。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "likely（可作 adj./adv.）/ probable/possible（只作形容词）"
+      }
+    },
+    "look": {
+      "phonetic": "/lʊk/",
+      "pos": "v./n.",
+      "sense": "看、显得（look + adj.）；外观",
+      "collocations": [
+        "look at",
+        "look like",
+        "look for"
+      ],
+      "examples": [
+        "When you look at today's digital activity... 当你审视当今的数字活动……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "look at（看）/ look for（找）/ look after（照顾）"
+      }
+    },
+    "made": {
+      "phonetic": "/meɪd/",
+      "pos": "v.",
+      "sense": "做、制造；使得、使成为；获得（make 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be made of（由…制成，看得出原料）/ be made from（由…制成，看不出原料）/ be made in（产地）/ be made to do（被迫做，被动须加 to）/ make sb do（主动使役不带 to）/ make（make-made-made）"
+      },
+      "collocations": [
+        "made from",
+        "made from flexible",
+        "participants made"
+      ],
+      "examples": [
+        "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+      ]
+    },
+    "mask": {
+      "phonetic": "/mɑːsk/",
+      "pos": "n./v.",
+      "sense": "面具、口罩、面罩；掩饰、遮盖（作动词指掩盖真相、气味或问题）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "realistic mask",
+        "mask to",
+        "mask to pose"
+      ],
+      "examples": [
+        "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+      ],
+      "more": {
+        "confusables": "mask / masks（同族不同词形，注意词性与用法）"
+      }
+    },
+    "masks": {
+      "phonetic": "/mɑːsks/",
+      "pos": "n./v.",
+      "sense": "面具、口罩、面罩；掩饰、遮盖（作动词指掩盖真相、气味或问题）（mask 的复数/三单形式）",
+      "lemma": "mask",
+      "collocations": [
+        "realistic masks"
+      ],
+      "examples": [
+        "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "mask + -s（复数/三单）",
+        "confusables": "masks（复数/三单）/ mask（原形）"
+      }
+    },
+    "materials": {
+      "phonetic": "/məˈtɪəriəlz/",
+      "pos": "n.",
+      "sense": "材料、原料、物资；素材（复数；本文 human-made materials 人造材料 / flexible materials such as silicone 硅胶等柔性材料）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "flexible materials"
+      ],
+      "examples": [
+        "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+      ],
+      "more": {
+        "confusables": "materials / materially（同族不同词形，注意词性与用法）"
+      }
+    },
+    "millions": {
+      "phonetic": "/ˈmɪljənz/",
+      "pos": "n.",
+      "sense": "数百万、成千上万、大量（millions of；million 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "million（百万）+ -s（复数）",
+        "confusables": "millions of（数百万的，泛指用复数 + of）/ two million（具体数字后 million 不加 -s，不说 two millions）/ hundreds / thousands of（同类用法）/ millionaire（百万富翁）"
+      },
+      "collocations": [
+        "millions of",
+        "millions of pounds"
+      ],
+      "examples": [
+        "In one recent case, an international gang used an 32 realistic mask to pose as a French minister, 33 business executives out of millions of pounds. 最近就有一桩：某跨国团伙戴上足以乱真的面具假扮法国部长，从企业高管手里骗走了几百万英镑。"
+      ]
+    },
+    "minister": {
+      "phonetic": "/ˈmɪnɪstə/",
+      "pos": "n./v.",
+      "sense": "部长、大臣；牧师；照料、服侍（minister to sb）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "French minister"
+      ],
+      "examples": [
+        "In one recent case, an international gang used an 32 realistic mask to pose as a French minister, 33 business executives out of millions of pounds. 最近就有一桩：某跨国团伙戴上足以乱真的面具假扮法国部长，从企业高管手里骗走了几百万英镑。"
+      ]
+    },
+    "now": {
+      "phonetic": "/naʊ/",
+      "pos": "adv.",
+      "sense": "现在；如今；立刻",
+      "collocations": [
+        "right now",
+        "by now",
+        "now that"
+      ],
+      "examples": [
+        "They are now six times longer. 它们现在长了六倍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "now（现在）/ now that（既然，连词）"
+      }
+    },
+    "offenders": {
+      "phonetic": "/əˈfendəz/",
+      "pos": "n.",
+      "sense": "违法者、违规者、冒犯者（offender 的复数；常指屡犯的人或主要问题源）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path. 现实里已经有几十桩案子：嫌犯靠面具扮成另一个年龄、种族甚至性别的人，害得警方查错了方向。"
+      ]
+    },
+    "outside": {
+      "phonetic": "/ˌaʊtˈsaɪd/",
+      "pos": "n./adv./prep./adj.",
+      "sense": "外面、外部、外表；在外面、向室外；在…外面；外部的、外界的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "thing outside",
+        "outside of"
+      ],
+      "examples": [
+        "The 20% error rate 27 in the study likely underestimates the extent to which people would struggle to tell an 28 face from the real thing outside of the lab. 研究测到的 20% 误判率恐怕还偏保守：真到了现实场景，人们分辨仿真脸和真脸只会更吃力。"
+      ]
+    },
+    "pairs": {
+      "phonetic": "/peəz/",
+      "pos": "n./v.",
+      "sense": "一对、一双、一副（复数）；使成对、配对（三单；in pairs 成对地）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "pairs of",
+        "pairs of photographs",
+        "look at pairs"
+      ],
+      "examples": [
+        "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+      ]
+    },
+    "participants": {
+      "phonetic": "/pɑːˈtɪsɪpənts/",
+      "pos": "n.",
+      "sense": "participant 的复数，参与者、受试者",
+      "collocations": [
+        "asked participants",
+        "participants to",
+        "participants to look"
+      ],
+      "examples": [
+        "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "path": {
+      "phonetic": "/pɑːθ/",
+      "pos": "n.",
+      "sense": "小路、小径；路线、路径；（喻）途径、成功之路（复数 paths 读 /pɑːðz/）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "wrong path"
+      ],
+      "examples": [
+        "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path. 现实里已经有几十桩案子：嫌犯靠面具扮成另一个年龄、种族甚至性别的人，害得警方查错了方向。"
+      ],
+      "more": {
+        "confusables": "path / pathways（同族不同词形，注意词性与用法）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "person": {
+      "phonetic": "/ˈpɜːsn/",
+      "pos": "n.",
+      "sense": "人（可数，复数 people/persons）",
+      "collocations": [
+        "a person who",
+        "in person",
+        "per person"
+      ],
+      "examples": [
+        "Can a person really be a multitasker? 一个人真的能一心多用吗？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "person（单数）/ people（复数）/ persons（法律用语复数）"
+      }
+    },
+    "photographs": {
+      "phonetic": "/ˈfəʊtəɡrɑːfs/",
+      "pos": "n.",
+      "sense": "照片、相片（photograph 的复数；= photos）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "pairs of photographs",
+        "photographs of",
+        "photographs of faces"
+      ],
+      "examples": [
+        "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+      ]
+    },
+    "police": {
+      "phonetic": "/pəˈliːs/",
+      "pos": "n./v.",
+      "sense": "警察、警方（集合名词，谓语用复数）；维持治安、监管",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sending police",
+        "police investigations"
+      ],
+      "examples": [
+        "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path. 现实里已经有几十桩案子：嫌犯靠面具扮成另一个年龄、种族甚至性别的人，害得警方查错了方向。"
+      ],
+      "more": {
+        "confusables": "police / policies / political（同族不同词形，注意词性与用法）"
+      }
+    },
+    "pose": {
+      "phonetic": "/pəʊz/",
+      "pos": "v./n.",
+      "sense": "造成、构成（威胁/问题/风险）、提出（问题）；摆姿势；姿势（pose a risk / pose a question）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "pose as",
+        "mask to pose"
+      ],
+      "examples": [
+        "In one recent case, an international gang used an 32 realistic mask to pose as a French minister, 33 business executives out of millions of pounds. 最近就有一桩：某跨国团伙戴上足以乱真的面具假扮法国部长，从企业高管手里骗走了几百万英镑。"
+      ]
+    },
+    "pounds": {
+      "phonetic": "/paʊnddz/",
+      "pos": "n.",
+      "sense": "英镑（英国货币）；磅（重量单位，约 454 克）（本文 well over a pound 一英镑多 / millions of pounds 数百万英镑 / a 140-pound person 体重 140 磅的人）（pound 的复数/三单形式）",
+      "lemma": "pound",
+      "collocations": [
+        "millions of pounds"
+      ],
+      "examples": [
+        "In one recent case, an international gang used an 32 realistic mask to pose as a French minister, 33 business executives out of millions of pounds. 最近就有一桩：某跨国团伙戴上足以乱真的面具假扮法国部长，从企业高管手里骗走了几百万英镑。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "pound + -s（复数/三单）",
+        "confusables": "pounds（复数/三单）/ pound（原形）"
+      }
+    },
+    "prevention": {
+      "phonetic": "/prɪˈvenʃn/",
+      "pos": "n.",
+      "sense": "预防、防止、防范（prevention of disease / crime prevention；与 prevent 同源）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "crime prevention",
+        "prevention as",
+        "prevention as super"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ],
+      "more": {
+        "roots": "prevention 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "race": {
+      "phonetic": "/reɪs/",
+      "pos": "n./v.",
+      "sense": "赛跑、竞赛、角逐；种族、人种；疾行、参赛、竞相（race to do 争相做）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "according to race",
+        "different race",
+        "race from"
+      ],
+      "examples": [
+        "The researchers collected data from participants from both the UK and Japan to 29 any differences according to race. 团队特意找了英国和日本两国的受试者，想看看不同种族之间会不会有差别。"
+      ]
+    },
+    "rate": {
+      "phonetic": "/reɪt/",
+      "pos": "n./v.",
+      "sense": "比率、速度、价格；评价、评级（本文 the rate of growth 增长率 / collection rates 回收率 / error rate 错误率）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "error rate"
+      ],
+      "examples": [
+        "The 20% error rate 27 in the study likely underestimates the extent to which people would struggle to tell an 28 face from the real thing outside of the lab. 研究测到的 20% 误判率恐怕还偏保守：真到了现实场景，人们分辨仿真脸和真脸只会更吃力。"
+      ],
+      "more": {
+        "confusables": "rate / rated / rates（同族不同词形，注意词性与用法）"
+      }
+    },
+    "real": {
+      "phonetic": "/rɪəl/",
+      "pos": "adj.",
+      "sense": "真实的、现实的",
+      "collocations": [
+        "in the real world",
+        "do real research"
+      ],
+      "examples": [
+        "Super realistic masks are made from flexible materials such as silicone and are designed to imitate real human face—down to every last detail. 这种足以以假乱真的面具，用硅胶一类软材料做成，连真人脸上的每一点细微之处都照搬不误。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "real / realms / really（同族不同词形，注意词性与用法）"
+      }
+    },
+    "recent": {
+      "phonetic": "/ˈriːsnt/",
+      "pos": "adj.",
+      "sense": "最近的、近来的",
+      "collocations": [
+        "recent study",
+        "in recent years",
+        "a recent report"
+      ],
+      "examples": [
+        "One recent study found a surprising result. 最近一项研究发现了意外的结果。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "recent（最近的）/ recently（副词）/ resent（怨恨）"
+      }
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "researcher 的复数，研究人员",
+      "collocations": [
+        "researchers asked",
+        "researchers collected"
+      ],
+      "examples": [
+        "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researchers / researcher（同族不同词形，注意词性与用法）"
+      }
+    },
+    "response": {
+      "phonetic": "/rɪˈspɒns/",
+      "pos": "n.",
+      "sense": "回答、回应、反应；响应（in response to；本文 an individual's response 个人层面的应对 / response times 反应时间）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "response times"
+      ],
+      "examples": [
+        "When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less 30 . 一旦让他们辨认跟自己不同种族的面孔，反应明显变慢，正确率还掉了 5 个百分点。"
+      ],
+      "more": {
+        "confusables": "response / respondents / responded（同族不同词形，注意词性与用法）"
+      }
+    },
+    "said": {
+      "phonetic": "/sed/",
+      "pos": "v./adj.",
+      "sense": "说、讲、表明（say 的过去式/过去分词）；上述的（the said…）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ]
+    },
+    "security": {
+      "phonetic": "/sɪˈkjʊərəti/",
+      "pos": "n.",
+      "sense": "安全（不可数）；保障",
+      "collocations": [
+        "food security",
+        "security concerns"
+      ],
+      "examples": [
+        "Food security is at risk. 粮食安全面临风险。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "secure（安全的，se- 脱离 + cur 忧虑，词根 cur = care）+ -ity（名词后缀）",
+        "confusables": "security（安全）/ safety（安全）/ secure（安全的）"
+      }
+    },
+    "selections": {
+      "phonetic": "/sɪˈlekʃnz/",
+      "pos": "n.",
+      "sense": "选择、挑选；精选品、选集、可供挑选之物（selection 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less 30 . 一旦让他们辨认跟自己不同种族的面孔，反应明显变慢，正确率还掉了 5 个百分点。"
+      ]
+    },
+    "sending": {
+      "phonetic": "/ˈsendɪŋ/",
+      "pos": "v.",
+      "sense": "发送、寄、派遣、传达（send 的现在分词；sending signals / messages）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sending police"
+      ],
+      "examples": [
+        "There are now dozens of criminal cases in which offenders have 31 themselves off as people of a different age, race or gender, sending police investigations down the wrong path. 现实里已经有几十桩案子：嫌犯靠面具扮成另一个年龄、种族甚至性别的人，害得警方查错了方向。"
+      ]
+    },
+    "showed": {
+      "phonetic": "/ʃəʊd/",
+      "pos": "v./n.",
+      "sense": "显示、表明（show that）；展示 / 演出、展览（show 的过去式/过去分词形式）",
+      "lemma": "show",
+      "collocations": [],
+      "examples": [
+        "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "show + -ed（过去式/过去分词）",
+        "confusables": "showed（过去式/过去分词）/ show（原形）"
+      }
+    },
+    "slower": {
+      "phonetic": "/ˈsləʊə/",
+      "pos": "adj./adv.",
+      "sense": "更慢的、较慢的、更慢地（slow 的比较级）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less 30 . 一旦让他们辨认跟自己不同种族的面孔，反应明显变慢，正确率还掉了 5 个百分点。"
+      ]
+    },
+    "struggle": {
+      "phonetic": "/ˈstrʌɡl/",
+      "pos": "v./n.",
+      "sense": "挣扎、努力（struggle to do / struggle with）；斗争",
+      "collocations": [
+        "struggle to do",
+        "struggle with",
+        "the struggle for"
+      ],
+      "examples": [
+        "They struggle with new communication skills. 他们在新沟通技能上挣扎。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "struggle to do（努力做，含困难）/ try to do（尝试）/ struggle with（应对困难）"
+      }
+    },
+    "student": {
+      "phonetic": "/ˈstjuːdnt/",
+      "pos": "n.",
+      "sense": "学生、大学生、研究生；学者、研究者",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "PhD student",
+        "student at"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ],
+      "more": {
+        "confusables": "student / students（同族不同词形，注意词性与用法）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "surprisingly": {
+      "phonetic": "/səˈpraɪzɪŋli/",
+      "pos": "adj.",
+      "sense": "令人惊讶的、出人意料的、意外的（surprising 的副词形式）",
+      "lemma": "surprising",
+      "collocations": [],
+      "examples": [
+        "Surprisingly, participants made the wrong call in one-in-five cases. 结果出人意料：每五次判断里，就有一次看走了眼。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "surprising + -ly（副词）",
+        "confusables": "surprisingly（副词）/ surprising（原形）"
+      }
+    },
+    "synthetic": {
+      "phonetic": "/sɪnˈθetɪk/",
+      "pos": "adj./n.",
+      "sense": "合成的、人造的、人工的；合成物、合成纤维（synthetic materials 人造材料；与 natural 相对）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "detect synthetic",
+        "synthetic faces"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ]
+    },
+    "tell": {
+      "phonetic": "/tel/",
+      "pos": "v.",
+      "sense": "告诉、讲述；分辨、判断；吩咐（本文 tell A from B 区分 A 与 B / we often tell ourselves 我们常告诉自己）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "struggle to tell"
+      ],
+      "examples": [
+        "The 20% error rate 27 in the study likely underestimates the extent to which people would struggle to tell an 28 face from the real thing outside of the lab. 研究测到的 20% 误判率恐怕还偏保守：真到了现实场景，人们分辨仿真脸和真脸只会更吃力。"
+      ]
+    },
+    "thing": {
+      "phonetic": "/θɪŋ/",
+      "pos": "n.",
+      "sense": "事情、东西（可数）",
+      "collocations": [
+        "the thing is",
+        "the same thing",
+        "for one thing"
+      ],
+      "examples": [
+        "Could the same thing happen to crops? 同样的事会发生在作物上吗？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "thing（事情/东西）/ stuff（东西，不可数）"
+      }
+    },
+    "times": {
+      "phonetic": "/taɪmz/",
+      "pos": "n.",
+      "sense": "次数；时代（time 的复数）；乘以",
+      "lemma": "time",
+      "collocations": [
+        "three times",
+        "at times",
+        "in modern times"
+      ],
+      "examples": [
+        "He won three times. 他赢过三次。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "times（次数/时代）/ time（时间）"
+      }
+    },
+    "trial": {
+      "phonetic": "/ˈtraɪəl/",
+      "pos": "n./v.",
+      "sense": "试验、试用、审判、审理、考验；试验、试用（clinical trials 临床试验 / trial and error 反复试验）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "trial participants"
+      ],
+      "examples": [
+        "When trial participants were asked to choose between photographs of faces of a different race from theirs, response times were slower and selections were 5% less 30 . 一旦让他们辨认跟自己不同种族的面孔，反应明显变慢，正确率还掉了 5 个百分点。"
+      ],
+      "more": {
+        "confusables": "trial / trials（同族不同词形，注意词性与用法）"
+      }
+    },
+    "underestimates": {
+      "phonetic": "/ˌʌndərˈestɪmeɪts/",
+      "pos": "v.",
+      "sense": "低估、看轻、对…估计不足（underestimate 的三单；勿低估风险或影响）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "likely underestimates"
+      ],
+      "examples": [
+        "The 20% error rate 27 in the study likely underestimates the extent to which people would struggle to tell an 28 face from the real thing outside of the lab. 研究测到的 20% 误判率恐怕还偏保守：真到了现实场景，人们分辨仿真脸和真脸只会更吃力。"
+      ]
+    },
+    "universities": {
+      "phonetic": "/ˌjuːnɪˈvɜːsətiz/",
+      "pos": "n.",
+      "sense": "大学（可数）（university 的复数/三单形式）",
+      "lemma": "university",
+      "collocations": [
+        "Universities of",
+        "Universities of York"
+      ],
+      "examples": [
+        "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "university + -ies（复数/三单）",
+        "confusables": "universities（复数/三单）/ university（原形）"
+      }
+    },
+    "university": {
+      "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+      "pos": "n.",
+      "sense": "大学（可数）",
+      "collocations": [
+        "at university",
+        "university students",
+        "a research university"
+      ],
+      "examples": [
+        "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "university（大学）/ college（学院）/ at university（在读大学，不加 the）"
+      }
+    },
+    "used": {
+      "phonetic": "/juːzd/",
+      "pos": "v./adj.",
+      "sense": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+      "lemma": "use",
+      "collocations": [
+        "used to do",
+        "be used to doing",
+        "be used for"
+      ],
+      "examples": [
+        "They used flexible work arrangements. 他们使用了弹性工作安排。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）"
+      }
+    },
+    "wearing": {
+      "phonetic": "/weəɪŋ/",
+      "pos": "v./n.",
+      "sense": "穿、戴、佩戴、蓄（须发）、面带（表情）、磨损、耐用；穿着、衣着、磨损、耐用性（wear 的现在分词/动名词形式）",
+      "lemma": "wear",
+      "collocations": [
+        "person wearing"
+      ],
+      "examples": [
+        "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide which showed a 26 face and which showed a person wearing a mask. 约克大学和京都大学联合做过一个实验：给受试者看一组组照片，让他们指认哪张是真人、哪张是戴了面具的人。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "wear + -ing（现在分词/动名词）",
+        "confusables": "wearing（现在分词/动名词）/ wear（原形）"
+      }
+    },
+    "worked": {
+      "phonetic": "/wɜːkt/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品（work 的过去式/过去分词形式）",
+      "lemma": "work",
+      "collocations": [
+        "worked on"
+      ],
+      "examples": [
+        "Dr Jet Sanders, who worked on the study while a PhD student at the University of York, said: \"Failure to detect synthetic faces may have important implications for security and crime prevention as super realistic masks may 34 the key characteristics of a person's appearance to be 35 identified.\" 参与研究的约克大学博士生杰特·桑德斯博士提醒：分不出合成人脸，会给安防和办案带来大麻烦——这种面具会让人外貌的关键特征被认错。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "work + -ed（过去式/过去分词）",
+        "confusables": "worked（过去式/过去分词）/ work（原形）"
+      }
+    },
+    "wrong": {
+      "phonetic": "/rɒŋ/",
+      "pos": "adj./adv./n.",
+      "sense": "错误的、不对的、不合适的、不道德的、出毛病的；错误地、不对；错误、坏事、不公、冤屈",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "wrong call",
+        "wrong path"
+      ],
+      "examples": [
+        "Surprisingly, participants made the wrong call in one-in-five cases. 结果出人意料：每五次判断里，就有一次看走了眼。"
+      ]
+    }
+  }
+}

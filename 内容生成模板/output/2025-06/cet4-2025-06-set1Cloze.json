@@ -1,0 +1,4895 @@
+{
+  "sourceKey": "cet4-2025-06-set1Cloze",
+  "articleId": "set1Cloze",
+  "packVersion": "2026.11.08-1",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 6,
+    "setNo": 1,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "Constructing Identities and Managing Reputations",
+    "wordCount": 244
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 147,
+          "text": "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 13,
+              "surface": "Psychologists",
+              "normalized": "psychologists",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 23,
+              "surface": "long",
+              "normalized": "long",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 28,
+              "surface": "been",
+              "normalized": "been",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 39,
+              "surface": "interested",
+              "normalized": "interested",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 42,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 46,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 59,
+              "surface": "construct",
+              "normalized": "construct",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 63,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 74,
+              "surface": "identities",
+              "normalized": "identities",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 78,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 82,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 88,
+              "surface": "sorts",
+              "normalized": "sorts",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 91,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 102,
+              "surface": "strategies",
+              "normalized": "strategies",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 107,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 110,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 114,
+              "surface": "use",
+              "normalized": "use",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 117,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 125,
+              "surface": "present",
+              "normalized": "present",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 135,
+              "surface": "ourselves",
+              "normalized": "ourselves",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 138,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 146,
+              "surface": "society",
+              "normalized": "society",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 147,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "心理学家们长久以来一直对「我们如何构建我们的身份」以及「我们用来在社会中呈现我们自己的那类策略」感兴趣。",
+            "translationNatural": "心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。",
+            "structMarkup": "【Psychologists】 _have long been interested in_ {how we construct our identities} and ~the sorts of strategies that we use to present ourselves in society~.",
+            "structureSummary": "主谓（现在完成时）+ 介词宾语（how 从句与名词短语并列，含 that 定语从句）",
+            "components": [
+              {
+                "part": "Psychologists",
+                "role": "主语",
+                "note": "复数名词，谓语用 have been，指整个研究群体而非某一个人"
+              },
+              {
+                "part": "have long been interested in",
+                "role": "谓语",
+                "note": "现在完成时加形容词短语，long 点明「由来已久」，in 后接感兴趣的对象"
+              },
+              {
+                "part": "how we construct our identities",
+                "role": "宾语从句",
+                "note": "how 引导、用陈述语序，作介词 in 的宾语"
+              },
+              {
+                "part": "the sorts of strategies that we use to present ourselves in society",
+                "role": "宾语",
+                "note": "与前面的 how 从句并列；that 引导定语从句修饰 strategies，to present 表用途"
+              },
+              {
+                "part": "that we use to present ourselves in society",
+                "role": "定语从句",
+                "note": "that 在从句中作 use 的宾语，修饰 strategies，把「策略」限定为呈现自我所用"
+              }
+            ],
+            "clauses": [
+              "宾语从句「how we construct our identities」：how 引导、用陈述语序，作介词 in 的宾语",
+              "定语从句「that we use to present ourselves in society」：that 在从句中作 use 的宾语，修饰 strategies，把「策略」限定为呈现自我所用",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "psychologists",
+                "meaning": "心理学家、心理学研究者（psychologist 的复数/三单形式）",
+                "usage": "注意区分：psychologists（复数/三单）/ psychologist（原形）。",
+                "example": "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. 心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。"
+              },
+              {
+                "text": "long",
+                "meaning": "长的、长期的 / 长久地",
+                "usage": "注意区分：long（长）/ lengthy（冗长的）/ as long as（只要）。常见搭配：long-term / as long as。",
+                "example": "The impact is long-term. 影响是长期的。"
+              },
+              {
+                "text": "interested",
+                "meaning": "感兴趣的、关心的（be interested in）；有利害关系的",
+                "usage": "注意区分：interested（感兴趣的，指人，be interested in，介词 in）/ interesting（令人感兴趣的，指事物）/ interest（兴趣；利益；利息，名词）/ be interested to do（想了解…）/ -ed/-ing 方向相反。",
+                "example": "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. 心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：psychologists（复数/三单）/ psychologist（原形）。",
+              "注意区分：long（长）/ lengthy（冗长的）/ as long as（只要）。"
+            ],
+            "paragraphRole": "开篇点出全文两大母题「身份如何建构」与「自我呈现策略」，先把话题锚在成人身上，为下句「其实更早就出现」蓄势。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 148,
+          "end": 292,
+          "text": "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "New",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "findings",
+              "normalized": "findings",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 20,
+              "surface": "suggest",
+              "normalized": "suggest",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 35,
+              "surface": "kinds",
+              "normalized": "kinds",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 55,
+              "surface": "strategic",
+              "normalized": "strategic",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 73,
+              "surface": "self-presentation",
+              "normalized": "self-presentation",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 83,
+              "surface": "behaviour",
+              "normalized": "behaviour",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 86,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "see",
+              "normalized": "see",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 100,
+              "surface": "adults",
+              "normalized": "adults",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 107,
+              "surface": "appear",
+              "normalized": "appear",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 110,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 112,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 117,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 125,
+              "surface": "younger",
+              "normalized": "younger",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 129,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 134,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 137,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 138,
+              "end": 143,
+              "surface": "known",
+              "normalized": "known",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 144,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "新的发现表明，我们在成人身上看到的那种 26 且有策略性的自我呈现行为，出现在比 27 所知的要年轻得多的年龄。",
+            "translationNatural": "新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。",
+            "structMarkup": "【New findings】 _suggest_ {that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，含省略关系代词的定语从句）+ 比较状语（than）",
+            "components": [
+              {
+                "part": "New findings",
+                "role": "主语",
+                "note": "复数，谓语用原形 suggest；与上句「长期关注」构成新旧对照"
+              },
+              {
+                "part": "suggest",
+                "role": "谓语",
+                "note": "及物动词，后接 that 从句给出结论，语气比 prove 克制"
+              },
+              {
+                "part": "that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known",
+                "role": "宾语从句",
+                "note": "从句主干是 behaviour... appear；26 与 strategic 并列作前置定语，需形容词"
+              },
+              {
+                "part": "we see in adults",
+                "role": "定语从句",
+                "note": "省略关系代词 that/which，修饰 behaviour，把范围限定在成人"
+              },
+              {
+                "part": "than 27 known",
+                "role": "状语",
+                "note": "比较结构，than 后是省略形式，27 需副词修饰 known，意为「比此前已知的」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that the kinds of 26 and strategic self-presentation behaviour we see 」：从句主干是 behaviour... appear；26 与 strategic 并列作前置定语，需形容词",
+              "定语从句「we see in adults」：省略关系代词 that/which，修饰 behaviour，把范围限定在成人",
+              "本句含比较结构（比较级 + than），than 后是被比较对象。"
+            ],
+            "phrases": [
+              {
+                "text": "findings",
+                "meaning": "研究结果、调查发现（finding 的复数）",
+                "usage": "注意区分：findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings。",
+                "example": "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+              },
+              {
+                "text": "suggest",
+                "meaning": "建议、提议；表明、暗示、使人想到",
+                "usage": "注意区分：suggest doing（建议做，接动名词，不说 suggest to do）/ suggest that + (should) do（建议，从句虚拟，should 可省）/ suggest that + 陈述语气（暗示、表明）/ advise sb to do（句型不同）/ suggestion（建议；迹象）。",
+                "example": "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+              },
+              {
+                "text": "kinds",
+                "meaning": "种类、类别、性质；友善的、亲切的、体贴的（kind of 有点儿）（kind 的复数/三单形式）",
+                "usage": "注意区分：kinds（复数/三单）/ kind（原形）。",
+                "example": "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+              }
+            ],
+            "pitfalls": [
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。"
+            ],
+            "paragraphRole": "用「新发现」推翻上句隐含的「成人专属」预设，把论述重心拉向儿童；26、27 两空分别考形容词与时间副词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Research shows that a child's awareness of social standing comes from adults. Like grown-ups, kids want to be 28 by those they admire. Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 77,
+          "text": "Research shows that a child's awareness of social standing comes from adults.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Research",
+              "normalized": "research",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "shows",
+              "normalized": "shows",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 21,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 29,
+              "surface": "child's",
+              "normalized": "child's",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 39,
+              "surface": "awareness",
+              "normalized": "awareness",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 42,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 49,
+              "surface": "social",
+              "normalized": "social",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 58,
+              "surface": "standing",
+              "normalized": "standing",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 64,
+              "surface": "comes",
+              "normalized": "comes",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 69,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 76,
+              "surface": "adults",
+              "normalized": "adults",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 77,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "研究表明，一个孩子对社会地位的意识来自成人。",
+            "translationNatural": "有研究显示，小孩懂不懂得「谁高谁低」，是从大人那儿学来的。",
+            "structMarkup": "【Research】 _shows_ {that a child's awareness of social standing comes from adults}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导）",
+            "components": [
+              {
+                "part": "Research",
+                "role": "主语",
+                "note": "不可数名词，谓语用第三人称单数 shows"
+              },
+              {
+                "part": "shows",
+                "role": "谓语",
+                "note": "及物动词，后接 that 从句说明研究发现"
+              },
+              {
+                "part": "that a child's awareness of social standing comes from adults",
+                "role": "宾语从句",
+                "note": "从句主干为 awareness... comes from...；of 短语限定是哪方面的意识"
+              },
+              {
+                "part": "of social standing",
+                "role": "定语",
+                "note": "修饰 awareness；standing 在此意为「地位、名望」，不是「站立」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that a child's awareness of social standing comes from adults」：从句主干为 awareness... comes from...；of 短语限定是哪方面的意识",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "research shows",
+                "meaning": "研究（不可数）；调查 / 研究",
+                "usage": "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。常见搭配：a body of research / research on sth。",
+                "example": "A growing body of research supports this. 越来越多的研究支持这一点。"
+              },
+              {
+                "text": "comes from",
+                "meaning": "come 的第三人称单数（来）",
+                "usage": "注意区分：comes（三单）/ come（原形）。常见搭配：comes from / comes with。",
+                "example": "With success comes new pressure. 成功带来新的压力。"
+              },
+              {
+                "text": "adults",
+                "meaning": "成年人（adult 的复数）",
+                "usage": "注意区分：adults（复数）/ adult（单数）。常见搭配：adults and children / young adults。",
+                "example": "Kids know how adults are expected to write. 孩子知道大人该怎么写。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。",
+              "注意区分：comes（三单）/ come（原形）。"
+            ],
+            "paragraphRole": "把「名声意识」的源头归到成人，为下句「孩子想被钦佩的人接纳」立下因果起点。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 78,
+          "end": 134,
+          "text": "Like grown-ups, kids want to be 28 by those they admire.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 14,
+              "surface": "grown-ups",
+              "normalized": "grown-ups",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 15,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "kids",
+              "normalized": "kids",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "want",
+              "normalized": "want",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 28,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 31,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 43,
+              "surface": "those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 55,
+              "surface": "admire",
+              "normalized": "admire",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 56,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "像成年人一样，孩子们想要被他们所钦佩的人 28。",
+            "translationNatural": "跟大人一个样，小孩也盼着自己佩服的人能认可自己。",
+            "structMarkup": "(Like grown-ups), 【kids】 _want to be 28_ (by those they admire).",
+            "structureSummary": "主谓 + 不定式被动语态作宾语 + 介词短语（含省略关系代词的定语从句）",
+            "components": [
+              {
+                "part": "Like grown-ups",
+                "role": "状语",
+                "note": "介词短语作类比，把孩子与成人并置，承接上句「意识源自成人」"
+              },
+              {
+                "part": "kids",
+                "role": "主语",
+                "note": "复数，谓语用原形 want"
+              },
+              {
+                "part": "want to be 28",
+                "role": "谓语",
+                "note": "want 后接不定式；to be + 过去分词构成被动，28 需过去分词"
+              },
+              {
+                "part": "by those they admire",
+                "role": "状语",
+                "note": "by 引出施动者；they admire 是省略关系代词的定语从句，修饰 those"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓 + 不定式被动语态作宾语 + 介词短语（含省略关系代词的定语从句）」。"
+            ],
+            "phrases": [
+              {
+                "text": "like",
+                "meaning": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+                "usage": "注意区分：like（介词，后接名词）/ as（连词，后接从句）。常见搭配：like this / feel like。",
+                "example": "Tools like this save time. 这样的工具能省时间。"
+              },
+              {
+                "text": "want",
+                "meaning": "想要（want to do / want sb to do）；需要",
+                "usage": "注意区分：want to do（想要）/ need to do（需要）/ would like to do（更礼貌）。常见搭配：want to do / want sb to do。",
+                "example": "They want to appear more adult. 他们想显得更成熟。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：like（介词，后接名词）/ as（连词，后接从句）。",
+              "注意区分：want to do（想要）/ need to do（需要）/ would like to do（更礼貌）。"
+            ],
+            "paragraphRole": "用「像大人一样」把上句因果落成具体心理动机，替 28 空的被动语态提供语境。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 135,
+          "end": 344,
+          "text": "Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 11,
+              "surface": "Interactive",
+              "normalized": "interactive",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 23,
+              "surface": "experiences",
+              "normalized": "experiences",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 35,
+              "surface": "provide",
+              "normalized": "provide",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 49,
+              "surface": "opportunities",
+              "normalized": "opportunities",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 53,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 62,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 71,
+              "surface": "learn",
+              "normalized": "learn",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 77,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 85,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 86,
+              "end": 87,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 97,
+              "surface": "desirable",
+              "normalized": "desirable",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 108,
+              "surface": "reputation",
+              "normalized": "reputation",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 112,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 116,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 122,
+              "surface": "kinds",
+              "normalized": "kinds",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 125,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 136,
+              "surface": "strategies",
+              "normalized": "strategies",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 141,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 145,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 155,
+              "surface": "effective",
+              "normalized": "effective",
+              "isWord": true
+            },
+            {
+              "start": 156,
+              "end": 159,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 162,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 163,
+              "end": 164,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 165,
+              "end": 169,
+              "surface": "good",
+              "normalized": "good",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 180,
+              "surface": "reputation",
+              "normalized": "reputation",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 183,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 184,
+              "end": 189,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 190,
+              "end": 196,
+              "surface": "social",
+              "normalized": "social",
+              "isWord": true
+            },
+            {
+              "start": 197,
+              "end": 208,
+              "surface": "environment",
+              "normalized": "environment",
+              "isWord": true
+            },
+            {
+              "start": 208,
+              "end": 209,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "互动式的经历可能为孩子们提供机会，去了解什么 29 一个令人向往的名声，以及那些对于在他们的社会环境中 30 一个好名声有效的策略种类。",
+            "translationNatural": "跟人打交道的过程，或许正好让孩子慢慢琢磨明白：什么样的名声招人喜欢，以及在其所处的圈子里，靠哪些办法能把好名声立起来。",
+            "structMarkup": "【Interactive experiences】 _may provide opportunities_ (for children to learn about) {what 29 a desirable reputation} and the kinds of strategies {that are effective for 30 a good reputation in their social environment}.",
+            "structureSummary": "主谓宾 + for sb to do 后置定语 + 宾语从句（what 引导）+ 定语从句（that 引导）+ 介词短语（for + 动名词）",
+            "components": [
+              {
+                "part": "Interactive experiences",
+                "role": "主语",
+                "note": "复数，情态动词 may 后接动词原形 provide"
+              },
+              {
+                "part": "may provide opportunities",
+                "role": "谓语",
+                "note": "may 表可能性，不把话说死"
+              },
+              {
+                "part": "for children to learn about",
+                "role": "定语",
+                "note": "for sb to do 复合结构作 opportunities 的后置定语，说明机会归谁、用来做什么"
+              },
+              {
+                "part": "what 29 a desirable reputation",
+                "role": "宾语从句",
+                "note": "what 作从句主语，29 需第三人称单数动词，意为「什么构成了好名声」"
+              },
+              {
+                "part": "that are effective for 30 a good reputation in their social environment",
+                "role": "定语从句",
+                "note": "that 修饰 strategies；for 后需动名词，30 与 build a reputation 搭配"
+              }
+            ],
+            "clauses": [
+              "宾语从句「what 29 a desirable reputation」：what 作从句主语，29 需第三人称单数动词，意为「什么构成了好名声」",
+              "定语从句「that are effective for 30 a good reputation in their social environmen」：that 修饰 strategies；for 后需动名词，30 与 build a reputation 搭配"
+            ],
+            "phrases": [
+              {
+                "text": "provide",
+                "meaning": "提供（provide sb with sth / provide sth for sb）",
+                "usage": "注意区分：provide sb with sth / provide sth for sb（两种搭配）/ offer。常见搭配：provide sb with sth / provide sth for sb。",
+                "example": "The policy provides fathers with leave. 该政策为父亲提供假期。"
+              },
+              {
+                "text": "opportunities",
+                "meaning": "机会、时机、机遇（复数）",
+                "usage": "注意区分：opportunity（机会、时机，可数）/ opportunity to do / for (doing)（常用不定式）/ take / seize an opportunity（抓住机会）/ chance（可指偶然性/可能性）/ possibility（只指可能性）。",
+                "example": "Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment. 跟人打交道的过程，或许正好让孩子慢慢琢磨明白：什么样的名声招人喜欢，以及在其所处的圈子里，靠哪些办法能把好名声立起来。"
+              },
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment. 跟人打交道的过程，或许正好让孩子慢慢琢磨明白：什么样的名声招人喜欢，以及在其所处的圈子里，靠哪些办法能把好名声立起来。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：provide sb with sth / provide sth for sb（两种搭配）/ offer。",
+              "注意区分：opportunity（机会、时机，可数）/ opportunity to do / for (doing)（常用不定式）/ take / seize an opportunity（抓住机会）/ chance（可指偶然性/可能性）/ possibility（只指可能性）。",
+              "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。"
+            ],
+            "paragraphRole": "把「想被认可」的动机转成「通过互动学会经营名声」的机制，29、30 两空分别考三单动词与介词后的动名词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "Five-year-olds aren't just aware of their reputations, they also behave strategically to alter their outward image. They will 31 their behaviour in order to appear moral or socially good in the eyes of key observers. While we know that adults use a large variety of attributes to manage and create impressions, we don't yet know whether children 32 and use the fact that different attributes are valuable at different times to different 33 . It's important for us to further consider where in this process children succeed in controlling their reputation and where they 34 .",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 115,
+          "text": "Five-year-olds aren't just aware of their reputations, they also behave strategically to alter their outward image.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 14,
+              "surface": "Five-year-olds",
+              "normalized": "five-year-olds",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 21,
+              "surface": "aren't",
+              "normalized": "aren't",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "aware",
+              "normalized": "aware",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 35,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 53,
+              "surface": "reputations",
+              "normalized": "reputations",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 54,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 55,
+              "end": 59,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 64,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 71,
+              "surface": "behave",
+              "normalized": "behave",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 85,
+              "surface": "strategically",
+              "normalized": "strategically",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 88,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 94,
+              "surface": "alter",
+              "normalized": "alter",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 100,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 108,
+              "surface": "outward",
+              "normalized": "outward",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 114,
+              "surface": "image",
+              "normalized": "image",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 115,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "五岁的孩子并不只是意识到他们的名声，他们还策略性地行事去改变他们外在的形象。",
+            "translationNatural": "五岁娃不光已经知道「别人怎么看我」，还会耍点心机去修饰自己留给外界的印象。",
+            "structMarkup": "【Five-year-olds】 _aren't just aware of their reputations_, _they also behave strategically_ (to alter their outward image).",
+            "structureSummary": "并列句（not just... also... 关联，逗号连接）+ 不定式作目的状语",
+            "components": [
+              {
+                "part": "Five-year-olds",
+                "role": "主语",
+                "note": "复数化的合成名词，指「五岁儿童」这一群体"
+              },
+              {
+                "part": "aren't just aware of their reputations",
+                "role": "谓语",
+                "note": "not just 先退一步，be aware of 意为「意识到」"
+              },
+              {
+                "part": "they also behave strategically",
+                "role": "谓语",
+                "note": "also 与 not just 呼应递进；strategically 副词修饰行事方式"
+              },
+              {
+                "part": "to alter their outward image",
+                "role": "状语",
+                "note": "不定式表目的，说明「策略性地表现」是为了改动外在形象"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「并列句（not just... also... 关联，逗号连接）+ 不定式作目的状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "aware",
+                "meaning": "意识到的、知道的（be aware of / be aware that；本文 Almost everyone is aware of this 几乎人人都知道这一点）",
+                "usage": "本句中作adj.，可按「并列句（not just... also... 关联，逗号连接）+ 不定式作目的状语」定位它在句中的位置。",
+                "example": "Five-year-olds aren't just aware of their reputations, they also behave strategically to alter their outward image. 五岁娃不光已经知道「别人怎么看我」，还会耍点心机去修饰自己留给外界的印象。"
+              }
+            ],
+            "pitfalls": [
+              "本句主干为「并列句（not just... also... 关联，逗号连接）+ 不定式作目的状语」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "从「有意识」推进到「会动手」，正式把话题带到儿童的策略性行为，为后文三个空铺路。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 116,
+          "end": 216,
+          "text": "They will 31 their behaviour in order to appear moral or socially good in the eyes of key observers.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 12,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 13,
+              "end": 18,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "surface": "behaviour",
+              "normalized": "behaviour",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 31,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 37,
+              "surface": "order",
+              "normalized": "order",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 40,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 47,
+              "surface": "appear",
+              "normalized": "appear",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 53,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 65,
+              "surface": "socially",
+              "normalized": "socially",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 70,
+              "surface": "good",
+              "normalized": "good",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "eyes",
+              "normalized": "eyes",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 85,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 89,
+              "surface": "key",
+              "normalized": "key",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 99,
+              "surface": "observers",
+              "normalized": "observers",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 100,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他们会 31 他们的行为，为了在关键观察者的眼中显得道德上或社会意义上良好。",
+            "translationNatural": "为了让那些「重要观众」觉得自己乖、懂事，他们会刻意调整自己的一举一动。",
+            "structMarkup": "【They】 _will 31_ ~their behaviour~ (in order to appear moral or socially good) (in the eyes of key observers).",
+            "structureSummary": "主谓宾 + 目的状语（in order to）+ 介词短语",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "回指上句 Five-year-olds"
+              },
+              {
+                "part": "will 31",
+                "role": "谓语",
+                "note": "情态助动词 will 后须接动词原形；31 与 alter / behave strategically 同向"
+              },
+              {
+                "part": "their behaviour",
+                "role": "宾语",
+                "note": "及物动词的宾语，与上句 outward image 呼应"
+              },
+              {
+                "part": "in order to appear moral or socially good",
+                "role": "状语",
+                "note": "in order to 表目的；appear 作系动词，后接形容词"
+              },
+              {
+                "part": "in the eyes of key observers",
+                "role": "状语",
+                "note": "意为「在……眼里」，key observers 呼应第 33 空的 audiences"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 目的状语（in order to）+ 介词短语」。"
+            ],
+            "phrases": [
+              {
+                "text": "in order to",
+                "meaning": "为了",
+                "usage": "不定式作目的状语，否定式 in order not to。",
+                "example": "He got up early in order to catch the train. 他早起是为了赶火车。"
+              },
+              {
+                "text": "socially",
+                "meaning": "社会的、社会性的；社交的、交际的（social 的副词形式）",
+                "usage": "注意区分：socially（副词）/ social（原形）。",
+                "example": "They will 31 their behaviour in order to appear moral or socially good in the eyes of key observers. 为了让那些「重要观众」觉得自己乖、懂事，他们会刻意调整自己的一举一动。"
+              },
+              {
+                "text": "good",
+                "meaning": "好的；有益的 / 好处（不可数）",
+                "usage": "注意区分：good at（擅长）/ good for（对……有益）/ well（副词，身体好）。常见搭配：be good at / good for。",
+                "example": "A rich social life is good for health. 丰富社交生活有益健康。"
+              }
+            ],
+            "pitfalls": [
+              "in order to 后接动词原形，不接动名词。",
+              "注意区分：socially（副词）/ social（原形）。",
+              "注意区分：good at（擅长）/ good for（对……有益）/ well（副词，身体好）。"
+            ],
+            "paragraphRole": "用「为了给关键观众看好」把上句的「改变形象」具体化，31 空考 will 后的动词原形。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 217,
+          "end": 441,
+          "text": "While we know that adults use a large variety of attributes to manage and create impressions, we don't yet know whether children 32 and use the fact that different attributes are valuable at different times to different 33 .",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "While",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 8,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "know",
+              "normalized": "know",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "surface": "adults",
+              "normalized": "adults",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "use",
+              "normalized": "use",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 37,
+              "surface": "large",
+              "normalized": "large",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 45,
+              "surface": "variety",
+              "normalized": "variety",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 59,
+              "surface": "attributes",
+              "normalized": "attributes",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 69,
+              "surface": "manage",
+              "normalized": "manage",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 73,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 80,
+              "surface": "create",
+              "normalized": "create",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 92,
+              "surface": "impressions",
+              "normalized": "impressions",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 93,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 94,
+              "end": 96,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 102,
+              "surface": "don't",
+              "normalized": "don't",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 106,
+              "surface": "yet",
+              "normalized": "yet",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 111,
+              "surface": "know",
+              "normalized": "know",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 119,
+              "surface": "whether",
+              "normalized": "whether",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 128,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 131,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 132,
+              "end": 135,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 139,
+              "surface": "use",
+              "normalized": "use",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 143,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 148,
+              "surface": "fact",
+              "normalized": "fact",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 153,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 163,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 174,
+              "surface": "attributes",
+              "normalized": "attributes",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 178,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 179,
+              "end": 187,
+              "surface": "valuable",
+              "normalized": "valuable",
+              "isWord": true
+            },
+            {
+              "start": 188,
+              "end": 190,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 191,
+              "end": 200,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 201,
+              "end": 206,
+              "surface": "times",
+              "normalized": "times",
+              "isWord": true
+            },
+            {
+              "start": 207,
+              "end": 209,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 210,
+              "end": 219,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 220,
+              "end": 222,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 223,
+              "end": 224,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "虽然我们知道成人使用大量各样的特质去管理和制造印象，我们尚且不知道孩子们是否 32 并运用「不同特质在不同时候对不同 33 有价值」这一事实。",
+            "translationNatural": "我们清楚大人会拿各种特质来经营印象，可孩子是不是也懂得、并且会用「看人下菜碟、分时候换招」这套道理，目前还不清楚。",
+            "structMarkup": "{While we know that adults use a large variety of attributes to manage and create impressions}, _we don't yet know_ {whether children 32 and use the fact} {that different attributes are valuable at different times to different 33} .",
+            "structureSummary": "让步状语从句（While 引导，内含宾语从句）+ 主句（含 whether 宾语从句与 that 同位语从句）",
+            "components": [
+              {
+                "part": "While we know that adults use a large variety of attributes to manage and create impressions",
+                "role": "状语从句",
+                "note": "While 表让步「虽然」；that 从句作 know 的宾语，先摆出已知的成人情况"
+              },
+              {
+                "part": "we don't yet know",
+                "role": "谓语",
+                "note": "yet 强调「至今仍」，把已知与未知划出分界"
+              },
+              {
+                "part": "whether children 32 and use the fact",
+                "role": "宾语从句",
+                "note": "whether 引导；32 与 use 并列，需动词原形，意为「理解并使用」"
+              },
+              {
+                "part": "that different attributes are valuable at different times to different 33",
+                "role": "同位语从句",
+                "note": "that 解释 the fact 的具体内容；33 在 different 后需名词复数，指「受众」"
+              }
+            ],
+            "clauses": [
+              "状语从句「While we know that adults use a large variety of attributes to manage 」：While 表让步「虽然」；that 从句作 know 的宾语，先摆出已知的成人情况",
+              "宾语从句「whether children 32 and use the fact」：whether 引导；32 与 use 并列，需动词原形，意为「理解并使用」",
+              "同位语从句「that different attributes are valuable at different times to different」：that 解释 the fact 的具体内容；33 在 different 后需名词复数，指「受众」"
+            ],
+            "phrases": [
+              {
+                "text": "adults",
+                "meaning": "成年人（adult 的复数）",
+                "usage": "注意区分：adults（复数）/ adult（单数）。常见搭配：adults and children / young adults。",
+                "example": "Kids know how adults are expected to write. 孩子知道大人该怎么写。"
+              },
+              {
+                "text": "variety",
+                "meaning": "多样性、变化、多样化；种类、品种（a variety of 各种各样的）",
+                "usage": "注意区分：a variety of + 复数可数名词（各种各样的，谓语通常用复数）/ the variety of（…的种类/多样性，谓语用单数）/ varieties of（多种…）/ variation（变化、变体）/ vary（动词）/ various（形容词）。",
+                "example": "While we know that adults use a large variety of attributes to manage and create impressions, we don't yet know whether children 32 and use the fact that different attributes are valuable at different times to different 33 . 我们清楚大人会拿各种特质来经营印象，可孩子是不是也懂得、并且会用「看人下菜碟、分时候换招」这套道理，目前还不清楚。"
+              },
+              {
+                "text": "manage",
+                "meaning": "管理、经营、处理；设法做到、勉强应付（manage to do）",
+                "usage": "注意区分：manage（设法做到；管理，及物/不及物）/ manage to do（设法做成，强调成功，接不定式）/ try to do（只是尝试，未必成功）/ attempt（试图，正式）/ manage a team（管理团队）/ management（管理，名词）。",
+                "example": "While we know that adults use a large variety of attributes to manage and create impressions, we don't yet know whether children 32 and use the fact that different attributes are valuable at different times to different 33 . 我们清楚大人会拿各种特质来经营印象，可孩子是不是也懂得、并且会用「看人下菜碟、分时候换招」这套道理，目前还不清楚。"
+              }
+            ],
+            "pitfalls": [
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。"
+            ],
+            "paragraphRole": "用「成人已知／儿童未知」的对照提出研究空白，32、33 两空分别考与 use 并列的原形动词和介词 to 后的名词。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 442,
+          "end": 574,
+          "text": "It's important for us to further consider where in this process children succeed in controlling their reputation and where they 34 .",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "It's",
+              "normalized": "it's",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 14,
+              "surface": "important",
+              "normalized": "important",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 32,
+              "surface": "further",
+              "normalized": "further",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 41,
+              "surface": "consider",
+              "normalized": "consider",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 47,
+              "surface": "where",
+              "normalized": "where",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 50,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 55,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 63,
+              "surface": "process",
+              "normalized": "process",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 72,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 80,
+              "surface": "succeed",
+              "normalized": "succeed",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 83,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "surface": "controlling",
+              "normalized": "controlling",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 101,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 112,
+              "surface": "reputation",
+              "normalized": "reputation",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 116,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 122,
+              "surface": "where",
+              "normalized": "where",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 127,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 130,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 131,
+              "end": 132,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "对我们去进一步思考「在这一过程中孩子们在哪儿成功掌控了他们的名声、又在哪儿 34」是重要的。",
+            "translationNatural": "所以我们还得再往下挖一挖：经营名声这件事，孩子到底哪一步做得来，哪一步还卡着。",
+            "structMarkup": "【It】's important 【for us to further consider】 {where in this process children succeed in controlling their reputation and where they 34} .",
+            "structureSummary": "it 形式主语 + 主系表 + 真正主语（for sb to do，含两个并列的 where 宾语从句）",
+            "components": [
+              {
+                "part": "It",
+                "role": "主语",
+                "note": "形式主语，真正主语是后面的不定式复合结构"
+              },
+              {
+                "part": "It's important",
+                "role": "谓语",
+                "note": "It's 是 It is 的缩略；系表结构，important 点出这一步的研究价值"
+              },
+              {
+                "part": "for us to further consider",
+                "role": "主语",
+                "note": "for sb to do 作真正主语；further 强调「再往深里」"
+              },
+              {
+                "part": "where in this process children succeed in controlling their reputation and where they 34",
+                "role": "宾语从句",
+                "note": "两个 where 从句并列作 consider 的宾语，后一个与 succeed 正反相对，34 需动词原形"
+              }
+            ],
+            "clauses": [
+              "宾语从句「where in this process children succeed in controlling their reputation」：两个 where 从句并列作 consider 的宾语，后一个与 succeed 正反相对，34 需动词原形",
+              "本句主干为「it 形式主语 + 主系表 + 真正主语（for sb to do，含两个并列的 where 宾语从句）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "it's",
+                "meaning": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+                "usage": "注意区分：it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）。常见搭配：it's important that / it's likely to。",
+                "example": "It's hard to say. 很难说。"
+              },
+              {
+                "text": "important",
+                "meaning": "重要的、重大的；有影响力的",
+                "usage": "注意区分：important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）。",
+                "example": "It's important for us to further consider where in this process children succeed in controlling their reputation and where they 34 . 所以我们还得再往下挖一挖：经营名声这件事，孩子到底哪一步做得来，哪一步还卡着。"
+              },
+              {
+                "text": "further",
+                "meaning": "进一步、此外、更远；更多的、更进一步的；促进、推动",
+                "usage": "注意区分：further（进一步的；更远地；此外，副词；促进，动词）/ further 与 farther（farther 多指物理距离，further 还可指「程度更深、此外」）/ furthermore（此外，副词）/ further to（关于，正式）。",
+                "example": "It's important for us to further consider where in this process children succeed in controlling their reputation and where they 34 . 所以我们还得再往下挖一挖：经营名声这件事，孩子到底哪一步做得来，哪一步还卡着。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）。",
+              "注意区分：important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）。",
+              "注意区分：further（进一步的；更远地；此外，副词；促进，动词）/ further 与 farther（farther 多指物理距离，further 还可指「程度更深、此外」）/ furthermore（此外，副词）/ further to（关于，正式）。"
+            ],
+            "paragraphRole": "把上句的「未知」收成一条研究议程，用 succeed 与 34 的正反对照点出考察方向。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "A question to think about is, \"What happens even earlier than age five?\" Children don't just show up to the first day of kindergarten and have the idea of reputation pop 35 into existence. The logical question to ask is, \"What happens even earlier?\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 72,
+          "text": "A question to think about is, \"What happens even earlier than age five?\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "A",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 10,
+              "surface": "question",
+              "normalized": "question",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 13,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 19,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 25,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 28,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 29,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "What",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 43,
+              "surface": "happens",
+              "normalized": "happens",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "even",
+              "normalized": "even",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 56,
+              "surface": "earlier",
+              "normalized": "earlier",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 61,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 65,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 70,
+              "surface": "five",
+              "normalized": "five",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 71,
+              "surface": "?",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 71,
+              "end": 72,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一个值得去思考的问题是：「在比五岁更早的时候发生着什么？」",
+            "translationNatural": "于是有个问题值得追问：五岁之前，其实还发生了些什么？",
+            "structMarkup": "【A question to think about】 _is_, ~\"What happens even earlier than age five?\"~",
+            "structureSummary": "主系表（不定式作后置定语）+ 直接引语问句作表语",
+            "components": [
+              {
+                "part": "A question to think about",
+                "role": "主语",
+                "note": "核心词 question；不定式作后置定语，说明这是「要琢磨」的问题"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接表语，逗号后直接引出引语"
+              },
+              {
+                "part": "\"What happens even earlier than age five?\"",
+                "role": "表语",
+                "note": "整句直接引语作表语；even 加强比较级，把时间往五岁之前推"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（不定式作后置定语）+ 直接引语问句作表语」。"
+            ],
+            "phrases": [
+              {
+                "text": "question",
+                "meaning": "问题（需回答）；疑问 / 质疑",
+                "usage": "注意区分：question（疑问）/ problem（难题）/ out of the question（不可能）。常见搭配：ask a question / the question is。",
+                "example": "This seemingly easy question drives the need to understand. 这个看似简单的问题催生了理解的需要。"
+              },
+              {
+                "text": "think about",
+                "meaning": "想、认为；思考",
+                "usage": "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。常见搭配：think about / think of。",
+                "example": "Many think the risk is small. 很多人认为风险很小。"
+              },
+              {
+                "text": "happens",
+                "meaning": "发生（不及物）；碰巧（happen to do）（happen 的复数/三单形式）",
+                "usage": "注意区分：happens（复数/三单）/ happen（原形）。",
+                "example": "A question to think about is, \"What happens even earlier than age five?\" 于是有个问题值得追问：五岁之前，其实还发生了些什么？"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：question（疑问）/ problem（难题）/ out of the question（不可能）。",
+              "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。",
+              "注意区分：happens（复数/三单）/ happen（原形）。"
+            ],
+            "paragraphRole": "用设问把时间线从「五岁」再往前推，开启末段对更早年龄的追问。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 73,
+          "end": 188,
+          "text": "Children don't just show up to the first day of kindergarten and have the idea of reputation pop 35 into existence.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "don't",
+              "normalized": "don't",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "show",
+              "normalized": "show",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "up",
+              "normalized": "up",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 34,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 40,
+              "surface": "first",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 47,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 60,
+              "surface": "kindergarten",
+              "normalized": "kindergarten",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 64,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 69,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 73,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "idea",
+              "normalized": "idea",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 92,
+              "surface": "reputation",
+              "normalized": "reputation",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 96,
+              "surface": "pop",
+              "normalized": "pop",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 99,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 100,
+              "end": 104,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 114,
+              "surface": "existence",
+              "normalized": "existence",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 115,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "孩子们并不只是出现在幼儿园的第一天，就让「名声」这个念头 35 进入存在。",
+            "translationNatural": "小孩不是一进幼儿园那天，脑子里就凭空「叮」地冒出个名声的概念。",
+            "structMarkup": "【Children】 _don't just show up to the first day of kindergarten_ and _have the idea of reputation pop_ (35 into existence).",
+            "structureSummary": "主谓（not just... 并列谓语）+ 宾语 + 不带 to 的不定式作宾补（have sth do）",
+            "components": [
+              {
+                "part": "Children",
+                "role": "主语",
+                "note": "复数，谓语用 don't...，回指全篇谈论的儿童"
+              },
+              {
+                "part": "don't just show up to the first day of kindergarten",
+                "role": "谓语",
+                "note": "not just 否定「仅仅一露面就……」，show up 意为「出现、到场」"
+              },
+              {
+                "part": "have the idea of reputation pop",
+                "role": "谓语",
+                "note": "have + 宾语 + 动词原形（不带 to），意为「让……做出某动作」，pop 是宾语补足语"
+              },
+              {
+                "part": "35 into existence",
+                "role": "状语",
+                "note": "pop into existence 是固定短语「突然出现」，35 需副词修饰 pop"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓（not just... 并列谓语）+ 宾语 + 不带 to 的不定式作宾补（have sth do）」。"
+            ],
+            "phrases": [
+              {
+                "text": "up to",
+                "meaning": "多达；取决于；由……决定",
+                "usage": "多义短语，需按语境判断。",
+                "example": "It's up to you to decide. 由你来决定。"
+              },
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "Children don't just show up to the first day of kindergarten and have the idea of reputation pop 35 into existence. 小孩不是一进幼儿园那天，脑子里就凭空「叮」地冒出个名声的概念。"
+              },
+              {
+                "text": "show up",
+                "meaning": "显示、表明（show that）；展示 / 演出、展览",
+                "usage": "注意区分：show（显示）/ prove（证明，更强）/ indicate（表明，正式）。常见搭配：show that / show up。",
+                "example": "The study shows how roles endure. 研究显示角色如何延续。"
+              }
+            ],
+            "pitfalls": [
+              "up to 表数量时意为「多达」，表责任时意为「由……决定」。",
+              "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+              "注意区分：show（显示）/ prove（证明，更强）/ indicate（表明，正式）。"
+            ],
+            "paragraphRole": "用「不是一上学就凭空冒出」否定突变式解释，替 35 空锁定修饰 pop 的副词，并接住上句设问。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 189,
+          "end": 249,
+          "text": "The logical question to ask is, \"What happens even earlier?\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "surface": "logical",
+              "normalized": "logical",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 20,
+              "surface": "question",
+              "normalized": "question",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "ask",
+              "normalized": "ask",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 32,
+              "end": 33,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "What",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 45,
+              "surface": "happens",
+              "normalized": "happens",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 50,
+              "surface": "even",
+              "normalized": "even",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 58,
+              "surface": "earlier",
+              "normalized": "earlier",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 59,
+              "surface": "?",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 59,
+              "end": 60,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "顺理成章要去问的问题是：「更早的时候发生着什么？」",
+            "translationNatural": "顺着这个逻辑，该问的自然是：那再往前呢？",
+            "structMarkup": "【The logical question to ask】 _is_, ~\"What happens even earlier?\"~",
+            "structureSummary": "主系表（不定式作后置定语）+ 直接引语问句作表语",
+            "components": [
+              {
+                "part": "The logical question to ask",
+                "role": "主语",
+                "note": "logical 点明这是由上句自然推出的；不定式作后置定语"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "引出表语"
+              },
+              {
+                "part": "\"What happens even earlier?\"",
+                "role": "表语",
+                "note": "直接引语作表语；与上句引语同构，但去掉 than age five，把追问推得更远"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（不定式作后置定语）+ 直接引语问句作表语」。"
+            ],
+            "phrases": [
+              {
+                "text": "logical",
+                "meaning": "合逻辑的、合乎情理的、有条理的",
+                "usage": "注意区分：logical（合乎逻辑的，形容词）/ logic（逻辑，不可数名词）/ logically（逻辑上，副词）/ illogical（不合逻辑的，il- 否定）/ reasonable（合情理的）。",
+                "example": "The logical question to ask is, \"What happens even earlier?\" 顺着这个逻辑，该问的自然是：那再往前呢？"
+              },
+              {
+                "text": "question",
+                "meaning": "问题（需回答）；疑问 / 质疑",
+                "usage": "注意区分：question（疑问）/ problem（难题）/ out of the question（不可能）。常见搭配：ask a question / the question is。",
+                "example": "This seemingly easy question drives the need to understand. 这个看似简单的问题催生了理解的需要。"
+              },
+              {
+                "text": "happens",
+                "meaning": "发生（不及物）；碰巧（happen to do）（happen 的复数/三单形式）",
+                "usage": "注意区分：happens（复数/三单）/ happen（原形）。",
+                "example": "The logical question to ask is, \"What happens even earlier?\" 顺着这个逻辑，该问的自然是：那再往前呢？"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：logical（合乎逻辑的，形容词）/ logic（逻辑，不可数名词）/ logically（逻辑上，副词）/ illogical（不合逻辑的，il- 否定）/ reasonable（合情理的）。",
+              "注意区分：question（疑问）/ problem（难题）/ out of the question（不可能）。",
+              "注意区分：happens（复数/三单）/ happen（原形）。"
+            ],
+            "paragraphRole": "以同构设问收束全篇，把「更早之前」留成开放问题，呼应首段「行为出现得比已知更早」。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accepted"
+        },
+        {
+          "key": "B",
+          "text": "audiences"
+        },
+        {
+          "key": "C",
+          "text": "building"
+        },
+        {
+          "key": "D",
+          "text": "complex"
+        },
+        {
+          "key": "E",
+          "text": "constitutes"
+        },
+        {
+          "key": "F",
+          "text": "deputies"
+        },
+        {
+          "key": "G",
+          "text": "previously"
+        },
+        {
+          "key": "H",
+          "text": "revolving"
+        },
+        {
+          "key": "I",
+          "text": "samples"
+        },
+        {
+          "key": "J",
+          "text": "selected"
+        },
+        {
+          "key": "K",
+          "text": "solemn"
+        },
+        {
+          "key": "L",
+          "text": "struggle"
+        },
+        {
+          "key": "M",
+          "text": "suddenly"
+        },
+        {
+          "key": "N",
+          "text": "understand"
+        },
+        {
+          "key": "O",
+          "text": "vary"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accepted"
+        },
+        {
+          "key": "B",
+          "text": "audiences"
+        },
+        {
+          "key": "C",
+          "text": "building"
+        },
+        {
+          "key": "D",
+          "text": "complex"
+        },
+        {
+          "key": "E",
+          "text": "constitutes"
+        },
+        {
+          "key": "F",
+          "text": "deputies"
+        },
+        {
+          "key": "G",
+          "text": "previously"
+        },
+        {
+          "key": "H",
+          "text": "revolving"
+        },
+        {
+          "key": "I",
+          "text": "samples"
+        },
+        {
+          "key": "J",
+          "text": "selected"
+        },
+        {
+          "key": "K",
+          "text": "solemn"
+        },
+        {
+          "key": "L",
+          "text": "struggle"
+        },
+        {
+          "key": "M",
+          "text": "suddenly"
+        },
+        {
+          "key": "N",
+          "text": "understand"
+        },
+        {
+          "key": "O",
+          "text": "vary"
+        }
+      ],
+      "answer": "G"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accepted"
+        },
+        {
+          "key": "B",
+          "text": "audiences"
+        },
+        {
+          "key": "C",
+          "text": "building"
+        },
+        {
+          "key": "D",
+          "text": "complex"
+        },
+        {
+          "key": "E",
+          "text": "constitutes"
+        },
+        {
+          "key": "F",
+          "text": "deputies"
+        },
+        {
+          "key": "G",
+          "text": "previously"
+        },
+        {
+          "key": "H",
+          "text": "revolving"
+        },
+        {
+          "key": "I",
+          "text": "samples"
+        },
+        {
+          "key": "J",
+          "text": "selected"
+        },
+        {
+          "key": "K",
+          "text": "solemn"
+        },
+        {
+          "key": "L",
+          "text": "struggle"
+        },
+        {
+          "key": "M",
+          "text": "suddenly"
+        },
+        {
+          "key": "N",
+          "text": "understand"
+        },
+        {
+          "key": "O",
+          "text": "vary"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accepted"
+        },
+        {
+          "key": "B",
+          "text": "audiences"
+        },
+        {
+          "key": "C",
+          "text": "building"
+        },
+        {
+          "key": "D",
+          "text": "complex"
+        },
+        {
+          "key": "E",
+          "text": "constitutes"
+        },
+        {
+          "key": "F",
+          "text": "deputies"
+        },
+        {
+          "key": "G",
+          "text": "previously"
+        },
+        {
+          "key": "H",
+          "text": "revolving"
+        },
+        {
+          "key": "I",
+          "text": "samples"
+        },
+        {
+          "key": "J",
+          "text": "selected"
+        },
+        {
+          "key": "K",
+          "text": "solemn"
+        },
+        {
+          "key": "L",
+          "text": "struggle"
+        },
+        {
+          "key": "M",
+          "text": "suddenly"
+        },
+        {
+          "key": "N",
+          "text": "understand"
+        },
+        {
+          "key": "O",
+          "text": "vary"
+        }
+      ],
+      "answer": "E"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accepted"
+        },
+        {
+          "key": "B",
+          "text": "audiences"
+        },
+        {
+          "key": "C",
+          "text": "building"
+        },
+        {
+          "key": "D",
+          "text": "complex"
+        },
+        {
+          "key": "E",
+          "text": "constitutes"
+        },
+        {
+          "key": "F",
+          "text": "deputies"
+        },
+        {
+          "key": "G",
+          "text": "previously"
+        },
+        {
+          "key": "H",
+          "text": "revolving"
+        },
+        {
+          "key": "I",
+          "text": "samples"
+        },
+        {
+          "key": "J",
+          "text": "selected"
+        },
+        {
+          "key": "K",
+          "text": "solemn"
+        },
+        {
+          "key": "L",
+          "text": "struggle"
+        },
+        {
+          "key": "M",
+          "text": "suddenly"
+        },
+        {
+          "key": "N",
+          "text": "understand"
+        },
+        {
+          "key": "O",
+          "text": "vary"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accepted"
+        },
+        {
+          "key": "B",
+          "text": "audiences"
+        },
+        {
+          "key": "C",
+          "text": "building"
+        },
+        {
+          "key": "D",
+          "text": "complex"
+        },
+        {
+          "key": "E",
+          "text": "constitutes"
+        },
+        {
+          "key": "F",
+          "text": "deputies"
+        },
+        {
+          "key": "G",
+          "text": "previously"
+        },
+        {
+          "key": "H",
+          "text": "revolving"
+        },
+        {
+          "key": "I",
+          "text": "samples"
+        },
+        {
+          "key": "J",
+          "text": "selected"
+        },
+        {
+          "key": "K",
+          "text": "solemn"
+        },
+        {
+          "key": "L",
+          "text": "struggle"
+        },
+        {
+          "key": "M",
+          "text": "suddenly"
+        },
+        {
+          "key": "N",
+          "text": "understand"
+        },
+        {
+          "key": "O",
+          "text": "vary"
+        }
+      ],
+      "answer": "O"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accepted"
+        },
+        {
+          "key": "B",
+          "text": "audiences"
+        },
+        {
+          "key": "C",
+          "text": "building"
+        },
+        {
+          "key": "D",
+          "text": "complex"
+        },
+        {
+          "key": "E",
+          "text": "constitutes"
+        },
+        {
+          "key": "F",
+          "text": "deputies"
+        },
+        {
+          "key": "G",
+          "text": "previously"
+        },
+        {
+          "key": "H",
+          "text": "revolving"
+        },
+        {
+          "key": "I",
+          "text": "samples"
+        },
+        {
+          "key": "J",
+          "text": "selected"
+        },
+        {
+          "key": "K",
+          "text": "solemn"
+        },
+        {
+          "key": "L",
+          "text": "struggle"
+        },
+        {
+          "key": "M",
+          "text": "suddenly"
+        },
+        {
+          "key": "N",
+          "text": "understand"
+        },
+        {
+          "key": "O",
+          "text": "vary"
+        }
+      ],
+      "answer": "N"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accepted"
+        },
+        {
+          "key": "B",
+          "text": "audiences"
+        },
+        {
+          "key": "C",
+          "text": "building"
+        },
+        {
+          "key": "D",
+          "text": "complex"
+        },
+        {
+          "key": "E",
+          "text": "constitutes"
+        },
+        {
+          "key": "F",
+          "text": "deputies"
+        },
+        {
+          "key": "G",
+          "text": "previously"
+        },
+        {
+          "key": "H",
+          "text": "revolving"
+        },
+        {
+          "key": "I",
+          "text": "samples"
+        },
+        {
+          "key": "J",
+          "text": "selected"
+        },
+        {
+          "key": "K",
+          "text": "solemn"
+        },
+        {
+          "key": "L",
+          "text": "struggle"
+        },
+        {
+          "key": "M",
+          "text": "suddenly"
+        },
+        {
+          "key": "N",
+          "text": "understand"
+        },
+        {
+          "key": "O",
+          "text": "vary"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accepted"
+        },
+        {
+          "key": "B",
+          "text": "audiences"
+        },
+        {
+          "key": "C",
+          "text": "building"
+        },
+        {
+          "key": "D",
+          "text": "complex"
+        },
+        {
+          "key": "E",
+          "text": "constitutes"
+        },
+        {
+          "key": "F",
+          "text": "deputies"
+        },
+        {
+          "key": "G",
+          "text": "previously"
+        },
+        {
+          "key": "H",
+          "text": "revolving"
+        },
+        {
+          "key": "I",
+          "text": "samples"
+        },
+        {
+          "key": "J",
+          "text": "selected"
+        },
+        {
+          "key": "K",
+          "text": "solemn"
+        },
+        {
+          "key": "L",
+          "text": "struggle"
+        },
+        {
+          "key": "M",
+          "text": "suddenly"
+        },
+        {
+          "key": "N",
+          "text": "understand"
+        },
+        {
+          "key": "O",
+          "text": "vary"
+        }
+      ],
+      "answer": "L"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "accepted"
+        },
+        {
+          "key": "B",
+          "text": "audiences"
+        },
+        {
+          "key": "C",
+          "text": "building"
+        },
+        {
+          "key": "D",
+          "text": "complex"
+        },
+        {
+          "key": "E",
+          "text": "constitutes"
+        },
+        {
+          "key": "F",
+          "text": "deputies"
+        },
+        {
+          "key": "G",
+          "text": "previously"
+        },
+        {
+          "key": "H",
+          "text": "revolving"
+        },
+        {
+          "key": "I",
+          "text": "samples"
+        },
+        {
+          "key": "J",
+          "text": "selected"
+        },
+        {
+          "key": "K",
+          "text": "solemn"
+        },
+        {
+          "key": "L",
+          "text": "struggle"
+        },
+        {
+          "key": "M",
+          "text": "suddenly"
+        },
+        {
+          "key": "N",
+          "text": "understand"
+        },
+        {
+          "key": "O",
+          "text": "vary"
+        }
+      ],
+      "answer": "M"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "accepted"
+    },
+    {
+      "key": "B",
+      "word": "audiences"
+    },
+    {
+      "key": "C",
+      "word": "building"
+    },
+    {
+      "key": "D",
+      "word": "complex"
+    },
+    {
+      "key": "E",
+      "word": "constitutes"
+    },
+    {
+      "key": "F",
+      "word": "deputies"
+    },
+    {
+      "key": "G",
+      "word": "previously"
+    },
+    {
+      "key": "H",
+      "word": "revolving"
+    },
+    {
+      "key": "I",
+      "word": "samples"
+    },
+    {
+      "key": "J",
+      "word": "selected"
+    },
+    {
+      "key": "K",
+      "word": "solemn"
+    },
+    {
+      "key": "L",
+      "word": "struggle"
+    },
+    {
+      "key": "M",
+      "word": "suddenly"
+    },
+    {
+      "key": "N",
+      "word": "understand"
+    },
+    {
+      "key": "O",
+      "word": "vary"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "D",
+      "answerWord": "complex",
+      "reason": "空格与 strategic 用 and 并列，同作 self-presentation behaviour 的前置定语，需形容词。上文说成人会构建身份、讲究呈现自我的策略，这类行为既有策略性又「复杂」，complex 与 strategic 并列最贴切，也正好呼应下句「孩子很早就有这类表现」这一反差。",
+      "distractors": "K) solemn（庄严的）虽是形容词，但多形容神情或场合，不修饰 behaviour；H) revolving（旋转的）语义与「自我呈现」无关；F) deputies、I) samples 是名词，词性不符。"
+    },
+    "27": {
+      "answerKey": "G",
+      "answerWord": "previously",
+      "reason": "空格夹在 than 与过去分词 known 之间，构成 than ___ known 的比较省略结构，需副词修饰 known。句意是「这类行为出现的年龄比此前所知的要早得多」，previously known 是「此前已知道」的固定说法，与句首 New findings 构成新知对旧知的对照。",
+      "distractors": "M) suddenly（突然）虽是副词，但「比突然已知的年龄更小」语义不通；A) accepted、J) selected 是过去分词／形容词，不能作副词修饰 known；K) solemn 是形容词，词性不符。"
+    },
+    "28": {
+      "answerKey": "A",
+      "answerWord": "accepted",
+      "reason": "空格在 want to be 之后、by those they admire 之前，是被动结构，需过去分词。孩子和大人一样，希望被自己钦佩的人「接纳、认可」，be accepted by 是固定搭配，恰好承接上句「社会地位意识来自成人」。",
+      "distractors": "J) selected（被挑选）虽是过去分词，但「被钦佩的人挑中」与上句「在意别人怎么看自己」不合；D) complex、K) solemn 是形容词，不能填进 be + 过去分词 的被动式；C) building 是现在分词，语义不通。"
+    },
+    "29": {
+      "answerKey": "E",
+      "answerWord": "constitutes",
+      "reason": "空格在 what 引导的名词性从句里作谓语，what 视为单数，需第三人称单数动词。what ___ a desirable reputation 意为「什么构成了一个令人向往的名声」，constitutes（构成）正好，且与后面 the kinds of strategies 并列作 learn about 的宾语，形成「名声是什么／怎么建立」的对照。",
+      "distractors": "N) understand、L) struggle、O) vary 都是动词原形，与从句主语 what 的单数不一致；C) building 是动名词不能单独作谓语；F) deputies、I) samples 是名词，词性不符。"
+    },
+    "30": {
+      "answerKey": "C",
+      "answerWord": "building",
+      "reason": "空格紧跟介词 for，需动名词作介词宾语。effective for ___ a good reputation 意为「对树立好名声有效」，build a reputation 是固定搭配，故用 building，与上句 constitutes a desirable reputation 一个讲「是什么」、一个讲「怎么立」，正好配对。",
+      "distractors": "A) accepted、J) selected 是过去分词，不能作介词 for 的宾语；M) suddenly、G) previously 是副词；D) complex 是形容词，词性均不符。"
+    },
+    "31": {
+      "answerKey": "O",
+      "answerWord": "vary",
+      "reason": "空格在助动词 will 之后，需动词原形作谓语。上句说五岁孩子会策略性地「改变外在形象」，本句具体说他们会「变换、调整」自己的行为，vary their behaviour 正好呼应 alter their outward image，且与 in order to appear moral 的目的吻合。",
+      "distractors": "N) understand、L) struggle 虽是动词原形，但「理解／挣扎自己的行为」与「为了显得乖」的目的搭不上；E) constitutes 是三单形式，不能接在 will 后；B) audiences 是名词，词性不符。"
+    },
+    "32": {
+      "answerKey": "N",
+      "answerWord": "understand",
+      "reason": "空格与 use 由 and 并列（children 32 and use the fact），需与 use 一致的动词原形。whether children ___ and use the fact that... 意为「孩子是否理解并运用这一事实」，understand 与上句 we know that adults... 形成「成人已知、孩子是否也懂」的对照。",
+      "distractors": "O) vary、L) struggle 虽为动词原形，但「变换／挣扎并使用这一事实」搭配生硬；E) constitutes 是三单形式，与 use 不平行；B) audiences 是名词，词性不符。"
+    },
+    "33": {
+      "answerKey": "B",
+      "answerWord": "audiences",
+      "reason": "空格在 different 之后、介词 to 的宾语位置，需名词复数。different attributes are valuable at different times to different ___ 意为「不同特质在不同时候、对着不同『受众』才值钱」，audiences 与本段前面的 key observers 呼应，点明「看的人不一样」。",
+      "distractors": "I) samples（样本）、F) deputies（代表）虽是名词复数，但「对不同样本／代表有价值」不如「对不同受众」贴合 manage and create impressions 的语境；M) suddenly、G) previously 是副词，词性不符。"
+    },
+    "34": {
+      "answerKey": "L",
+      "answerWord": "struggle",
+      "reason": "空格在 where they 之后，与前面 where children succeed in controlling their reputation 对举，需动词原形作谓语。succeed... and where they ___ 意为「哪儿做得成、哪儿还『吃力』」，struggle 与 succeed 正反相对，正好扣住「进一步考察哪些环节孩子掌控得住、哪些还不行」。",
+      "distractors": "N) understand、O) vary 是动词原形但代入「哪儿理解／变换」与 succeed 形不成反差；E) constitutes 是三单形式，主语 they 要求原形；K) solemn 是形容词，词性不符。"
+    },
+    "35": {
+      "answerKey": "M",
+      "answerWord": "suddenly",
+      "reason": "空格夹在 pop 与 into existence 之间，pop into existence 是「突然出现／凭空冒出」的固定短语，需副词修饰 pop。句意是「名声的观念不会在入园第一天就『一下子』冒出来」，suddenly 与 don't just show up... and have the idea... pop 相呼应，强调它并非突然生成而是有更早的铺垫。",
+      "distractors": "G) previously（此前）是副词但语义不合，「此前进入存在」与 pop 的突发义相冲突；A) accepted、J) selected 是过去分词，不能修饰动词 pop；K) solemn 是形容词，词性不符。"
+    }
+  },
+  "lexicon": {
+    "admire": {
+      "phonetic": "/ədˈmaɪə/",
+      "pos": "v.",
+      "sense": "钦佩、赞赏、欣赏、羡慕（admire sb for sth 因某事钦佩某人）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Like grown-ups, kids want to be 28 by those they admire. 跟大人一个样，小孩也盼着自己佩服的人能认可自己。"
+      ]
+    },
+    "adults": {
+      "phonetic": "/ˈædʌlts/",
+      "pos": "n.",
+      "sense": "成年人（adult 的复数）",
+      "lemma": "adult",
+      "collocations": [
+        "adults and children",
+        "young adults"
+      ],
+      "examples": [
+        "Kids know how adults are expected to write. 孩子知道大人该怎么写。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "adults（复数）/ adult（单数）"
+      }
+    },
+    "age": {
+      "phonetic": "/eɪdʒ/",
+      "pos": "n./v.",
+      "sense": "年龄、年纪；时代、时期；变老、老化",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "younger age",
+        "age five"
+      ],
+      "examples": [
+        "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+      ],
+      "more": {
+        "confusables": "age / agencies（同族不同词形，注意词性与用法）"
+      }
+    },
+    "alter": {
+      "phonetic": "/ˈɔːltə(r)/",
+      "pos": "v.",
+      "sense": "改变、更改、改动（使略有变化）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "strategically to alter"
+      ],
+      "examples": [
+        "Five-year-olds aren't just aware of their reputations, they also behave strategically to alter their outward image. 五岁娃不光已经知道「别人怎么看我」，还会耍点心机去修饰自己留给外界的印象。"
+      ],
+      "more": {
+        "confusables": "alter / alternatives / alternative（同族不同词形，注意词性与用法）"
+      }
+    },
+    "appear": {
+      "phonetic": "/əˈpɪə/",
+      "pos": "v.",
+      "sense": "出现、显现、露面；似乎、显得、好像（appear to be / it appears that）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "adults appear",
+        "appear at",
+        "appear moral"
+      ],
+      "examples": [
+        "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+      ],
+      "more": {
+        "confusables": "appear / appealing / appeals（同族不同词形，注意词性与用法）"
+      }
+    },
+    "ask": {
+      "phonetic": "/ɑːsk/",
+      "pos": "v.",
+      "sense": "问、询问、请求、要求、邀请（ask for / ask sb to do / ask about）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "question to ask"
+      ],
+      "examples": [
+        "The logical question to ask is, \"What happens even earlier?\" 顺着这个逻辑，该问的自然是：那再往前呢？"
+      ],
+      "more": {
+        "confusables": "ask / asked / asking（同族不同词形，注意词性与用法）"
+      }
+    },
+    "attributes": {
+      "phonetic": "/ˈætrɪbjuːts/",
+      "pos": "n./v.",
+      "sense": "属性、特质、特征（名词复数，读 /ˈætrɪbjuːts/）；把…归因于（动词三单读 /əˈtrɪbjuːts/，attribute A to B）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "attributes to",
+        "attributes to manage",
+        "variety of attributes"
+      ],
+      "examples": [
+        "While we know that adults use a large variety of attributes to manage and create impressions, we don't yet know whether children 32 and use the fact that different attributes are valuable at different times to different 33 . 我们清楚大人会拿各种特质来经营印象，可孩子是不是也懂得、并且会用「看人下菜碟、分时候换招」这套道理，目前还不清楚。"
+      ]
+    },
+    "aware": {
+      "phonetic": "/əˈweə/",
+      "pos": "adj.",
+      "sense": "意识到的、知道的（be aware of / be aware that；本文 Almost everyone is aware of this 几乎人人都知道这一点）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "aware of"
+      ],
+      "examples": [
+        "Five-year-olds aren't just aware of their reputations, they also behave strategically to alter their outward image. 五岁娃不光已经知道「别人怎么看我」，还会耍点心机去修饰自己留给外界的印象。"
+      ],
+      "more": {
+        "confusables": "aware / awareness（同族不同词形，注意词性与用法）"
+      }
+    },
+    "awareness": {
+      "phonetic": "/əˈweənəs/",
+      "pos": "n.",
+      "sense": "意识、认识、知晓（本文 public / environmental / health awareness 公众 / 环保 / 健康意识，self-awareness 自我觉察）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "child's awareness",
+        "awareness of",
+        "awareness of social"
+      ],
+      "examples": [
+        "Research shows that a child's awareness of social standing comes from adults. 有研究显示，小孩懂不懂得「谁高谁低」，是从大人那儿学来的。"
+      ],
+      "more": {
+        "roots": "awareness 含 -ness（名词后缀，表性质或状态）"
+      }
+    },
+    "behave": {
+      "phonetic": "/bɪˈheɪv/",
+      "pos": "v.",
+      "sense": "表现、举止、行为；守规矩、表现得体（behave oneself / behave well；名词 behaviour）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "behave strategically"
+      ],
+      "examples": [
+        "Five-year-olds aren't just aware of their reputations, they also behave strategically to alter their outward image. 五岁娃不光已经知道「别人怎么看我」，还会耍点心机去修饰自己留给外界的印象。"
+      ],
+      "more": {
+        "confusables": "behave / behavior / behaviors（同族不同词形，注意词性与用法）"
+      }
+    },
+    "behaviour": {
+      "phonetic": "/bɪˈheɪvjə/",
+      "pos": "n.",
+      "sense": "行为、举止、表现；运行方式、习性（美式 behavior；本文 changed behaviour 行为的改变 / consumer behaviour 消费者行为）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "self-presentation behaviour",
+        "behaviour in",
+        "behaviour in order"
+      ],
+      "examples": [
+        "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+      ],
+      "more": {
+        "confusables": "behaviour / behavior / behaviours（同族不同词形，注意词性与用法）"
+      }
+    },
+    "children": {
+      "phonetic": "/ˈtʃɪldrən/",
+      "pos": "n.",
+      "sense": "儿童、小孩、子女（child 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "child（孩子）+ -ren（不规则复数，不说 childs）",
+        "confusables": "children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）"
+      },
+      "collocations": [
+        "children to",
+        "children to learn",
+        "opportunities for children"
+      ],
+      "examples": [
+        "Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment. 跟人打交道的过程，或许正好让孩子慢慢琢磨明白：什么样的名声招人喜欢，以及在其所处的圈子里，靠哪些办法能把好名声立起来。"
+      ]
+    },
+    "comes": {
+      "phonetic": "/kʌmz/",
+      "pos": "v.",
+      "sense": "come 的第三人称单数（来）",
+      "lemma": "come",
+      "collocations": [
+        "comes from",
+        "comes with",
+        "as it comes"
+      ],
+      "examples": [
+        "With success comes new pressure. 成功带来新的压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "comes（三单）/ come（原形）"
+      }
+    },
+    "consider": {
+      "phonetic": "/kənˈsɪdə(r)/",
+      "pos": "v.",
+      "sense": "考虑、细想；认为、把…看作；顾及、体谅",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "consider doing（考虑做，接动名词，不接 to do）/ consider sb/sth (to be) + adj/n（认为…是）/ consider that（认为）/ take … into consideration（把…考虑在内）/ considerate（体贴的）与 considerable（相当大的）形近义远"
+      },
+      "collocations": [
+        "further consider"
+      ],
+      "examples": [
+        "It's important for us to further consider where in this process children succeed in controlling their reputation and where they 34 . 所以我们还得再往下挖一挖：经营名声这件事，孩子到底哪一步做得来，哪一步还卡着。"
+      ]
+    },
+    "construct": {
+      "phonetic": "/kənˈstrʌkt/",
+      "pos": "v./n.",
+      "sense": "建造、构筑、构建、创立（理论、体系）；构想、概念（动词读 /kənˈstrʌkt/，名词读 /ˈkɒnstrʌkt/）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. 心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。"
+      ],
+      "more": {
+        "confusables": "construct / construction（同族不同词形，注意词性与用法）"
+      }
+    },
+    "controlling": {
+      "phonetic": "/kənˈtrəʊlɪŋ/",
+      "pos": "v./adj.",
+      "sense": "控制、支配、管理、抑制（control 的现在分词，双写 l）；控制欲强的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "succeed in controlling"
+      ],
+      "examples": [
+        "It's important for us to further consider where in this process children succeed in controlling their reputation and where they 34 . 所以我们还得再往下挖一挖：经营名声这件事，孩子到底哪一步做得来，哪一步还卡着。"
+      ]
+    },
+    "create": {
+      "phonetic": "/kriˈeɪt/",
+      "pos": "v.",
+      "sense": "创造、造成（create sth）",
+      "collocations": [
+        "create opportunities",
+        "create problems"
+      ],
+      "examples": [
+        "They create powerful new communicative forms. 他们创造出有力的新沟通形式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "create（创造）/ make（制作）/ produce（生产）"
+      }
+    },
+    "day": {
+      "phonetic": "/deɪ/",
+      "pos": "n.",
+      "sense": "一天、白天；时期、时代（these days 如今）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "first day",
+        "day of",
+        "day of kindergarten"
+      ],
+      "examples": [
+        "Children don't just show up to the first day of kindergarten and have the idea of reputation pop 35 into existence. 小孩不是一进幼儿园那天，脑子里就凭空「叮」地冒出个名声的概念。"
+      ],
+      "more": {
+        "confusables": "day / day-to-day / days（同族不同词形，注意词性与用法）"
+      }
+    },
+    "desirable": {
+      "phonetic": "/dɪˈzaɪərəbl/",
+      "pos": "adj.",
+      "sense": "值得拥有的、合意的、可取的、令人向往的（反义 undesirable）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "desirable reputation"
+      ],
+      "examples": [
+        "Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment. 跟人打交道的过程，或许正好让孩子慢慢琢磨明白：什么样的名声招人喜欢，以及在其所处的圈子里，靠哪些办法能把好名声立起来。"
+      ],
+      "more": {
+        "confusables": "desirable / desirability（同族不同词形，注意词性与用法）"
+      }
+    },
+    "different": {
+      "phonetic": "/ˈdɪfrənt/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的",
+      "collocations": [
+        "different from",
+        "a different picture",
+        "different points of view"
+      ],
+      "examples": [
+        "Their experiences were considerably different. 他们的经历相当不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "earlier": {
+      "phonetic": "/ˈɜːliə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更早的；更早地（early 的比较级）",
+      "lemma": "early",
+      "collocations": [
+        "earlier studies",
+        "as mentioned earlier"
+      ],
+      "examples": [
+        "Earlier research reached similar conclusions. 早期研究得出了类似结论。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "earlier（更早）/ earliest（最早）/ early（早）"
+      }
+    },
+    "effective": {
+      "phonetic": "/ɪˈfektɪv/",
+      "pos": "adj.",
+      "sense": "有效的、起作用的；实际的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "effect（效果）+ -ive（形容词后缀）",
+        "confusables": "effective（有效的，指「达到预期效果」）/ efficient（效率高的，指「少投入多产出」）/ be effective against（对…有效，如药物）/ take effect（生效，动词短语）"
+      },
+      "collocations": [
+        "effective for"
+      ],
+      "examples": [
+        "Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment. 跟人打交道的过程，或许正好让孩子慢慢琢磨明白：什么样的名声招人喜欢，以及在其所处的圈子里，靠哪些办法能把好名声立起来。"
+      ]
+    },
+    "environment": {
+      "phonetic": "/ɪnˈvaɪrənmənt/",
+      "pos": "n.",
+      "sense": "环境（可数/不可数）；自然环境",
+      "collocations": [
+        "the environment",
+        "legal environment",
+        "work environment"
+      ],
+      "examples": [
+        "The legal environment may change. 法律环境可能会变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "environment（环境）/ surroundings（周围环境）/ atmosphere（气氛）"
+      }
+    },
+    "existence": {
+      "phonetic": "/ɪɡˈzɪstəns/",
+      "pos": "n.",
+      "sense": "存在、生存、生活方式（come into existence 产生 / in existence 现存的）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Children don't just show up to the first day of kindergarten and have the idea of reputation pop 35 into existence. 小孩不是一进幼儿园那天，脑子里就凭空「叮」地冒出个名声的概念。"
+      ],
+      "more": {
+        "roots": "existence 含 -ance / -ence（名词后缀，表行为或状态）"
+      }
+    },
+    "experiences": {
+      "phonetic": "/ɪkˈspɪəriənsɪz/",
+      "pos": "n./v.",
+      "sense": "经历、体验、经验（experience 的复数）；经历、感受（第三人称单数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Interactive experiences"
+      ],
+      "examples": [
+        "Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment. 跟人打交道的过程，或许正好让孩子慢慢琢磨明白：什么样的名声招人喜欢，以及在其所处的圈子里，靠哪些办法能把好名声立起来。"
+      ],
+      "more": {
+        "confusables": "experiences / experience（同族不同词形，注意词性与用法）"
+      }
+    },
+    "eyes": {
+      "phonetic": "/aɪz/",
+      "pos": "n.",
+      "sense": "眼睛（eye 的复数）；目光、眼神（阅读中常以「in the eyes of…」表示「在…看来」）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "eyes of",
+        "eyes of key"
+      ],
+      "examples": [
+        "They will 31 their behaviour in order to appear moral or socially good in the eyes of key observers. 为了让那些「重要观众」觉得自己乖、懂事，他们会刻意调整自己的一举一动。"
+      ],
+      "more": {
+        "confusables": "eyes / eyesight（同族不同词形，注意词性与用法）"
+      }
+    },
+    "fact": {
+      "phonetic": "/fækt/",
+      "pos": "n.",
+      "sense": "事实（可数）",
+      "collocations": [
+        "in fact",
+        "the fact that",
+        "a matter of fact"
+      ],
+      "examples": [
+        "In fact, they spend hours changing settings. 事实上他们花数小时修改设置。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in fact（事实上）/ as a matter of fact（同义，更口语）/ the fact that（同位语从句）"
+      }
+    },
+    "findings": {
+      "phonetic": "/ˈfaɪndɪŋz/",
+      "pos": "n.",
+      "sense": "研究结果、调查发现（finding 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "find（发现）+ -ing + -s",
+        "confusables": "findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings"
+      },
+      "collocations": [
+        "New findings",
+        "findings suggest"
+      ],
+      "examples": [
+        "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+      ]
+    },
+    "first": {
+      "phonetic": "/fɜːst/",
+      "pos": "num./adj./adv.",
+      "sense": "第一；最早的；首先、初次",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "first day"
+      ],
+      "examples": [
+        "Children don't just show up to the first day of kindergarten and have the idea of reputation pop 35 into existence. 小孩不是一进幼儿园那天，脑子里就凭空「叮」地冒出个名声的概念。"
+      ]
+    },
+    "five": {
+      "phonetic": "/faɪv/",
+      "pos": "num.",
+      "sense": "五（数词）；五个、五岁（作定语或表语）",
+      "collocations": [
+        "five years ago",
+        "five times"
+      ],
+      "examples": [
+        "We did a study five years ago. 我们五年前做过一项研究。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "five（五）/ fifth（第五）"
+      }
+    },
+    "further": {
+      "phonetic": "/ˈfɜːðə(r)/",
+      "pos": "adv./adj./v.",
+      "sense": "进一步、此外、更远；更多的、更进一步的；促进、推动",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "further（进一步的；更远地；此外，副词；促进，动词）/ further 与 farther（farther 多指物理距离，further 还可指「程度更深、此外」）/ furthermore（此外，副词）/ further to（关于，正式）"
+      },
+      "collocations": [
+        "further consider"
+      ],
+      "examples": [
+        "It's important for us to further consider where in this process children succeed in controlling their reputation and where they 34 . 所以我们还得再往下挖一挖：经营名声这件事，孩子到底哪一步做得来，哪一步还卡着。"
+      ]
+    },
+    "good": {
+      "phonetic": "/ɡʊd/",
+      "pos": "adj./n.",
+      "sense": "好的；有益的 / 好处（不可数）",
+      "collocations": [
+        "be good at",
+        "good for",
+        "a good deal of"
+      ],
+      "examples": [
+        "A rich social life is good for health. 丰富社交生活有益健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "good at（擅长）/ good for（对……有益）/ well（副词，身体好）"
+      }
+    },
+    "grown-ups": {
+      "phonetic": "/ˈɡrəʊn ʌps/",
+      "pos": "n.",
+      "sense": "成年人、大人（grown-up 的复数，儿语/口语；相对 children 而言）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Like grown-ups"
+      ],
+      "examples": [
+        "Like grown-ups, kids want to be 28 by those they admire. 跟大人一个样，小孩也盼着自己佩服的人能认可自己。"
+      ]
+    },
+    "happens": {
+      "phonetic": "/ˈhæpənz/",
+      "pos": "v.",
+      "sense": "发生（不及物）；碰巧（happen to do）（happen 的复数/三单形式）",
+      "lemma": "happen",
+      "collocations": [],
+      "examples": [
+        "A question to think about is, \"What happens even earlier than age five?\" 于是有个问题值得追问：五岁之前，其实还发生了些什么？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "happen + -s（复数/三单）",
+        "confusables": "happens（复数/三单）/ happen（原形）"
+      }
+    },
+    "idea": {
+      "phonetic": "/aɪˈdɪə/",
+      "pos": "n.",
+      "sense": "想法、主意（可数）；概念",
+      "collocations": [
+        "have an idea",
+        "the idea that",
+        "no idea"
+      ],
+      "examples": [
+        "This idea is supported by prior research. 这一想法有先前研究支持。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "idea（想法）/ ideal（理想的）/ concept（概念）"
+      }
+    },
+    "identities": {
+      "phonetic": "/aɪˈdentətiz/",
+      "pos": "n.",
+      "sense": "身份、本身、本体；同一性、一致（identity 的复数；常谈个人或群体认同）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. 心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。"
+      ]
+    },
+    "image": {
+      "phonetic": "/ˈɪmɪdʒ/",
+      "pos": "n./v.",
+      "sense": "形象、印象、声誉；图像、影像；想象、描绘",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "outward image"
+      ],
+      "examples": [
+        "Five-year-olds aren't just aware of their reputations, they also behave strategically to alter their outward image. 五岁娃不光已经知道「别人怎么看我」，还会耍点心机去修饰自己留给外界的印象。"
+      ],
+      "more": {
+        "confusables": "image / imagine / imaginative（同族不同词形，注意词性与用法）"
+      }
+    },
+    "important": {
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "pos": "adj.",
+      "sense": "重要的、重大的；有影响力的",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）"
+      },
+      "collocations": [
+        "It's important",
+        "important for"
+      ],
+      "examples": [
+        "It's important for us to further consider where in this process children succeed in controlling their reputation and where they 34 . 所以我们还得再往下挖一挖：经营名声这件事，孩子到底哪一步做得来，哪一步还卡着。"
+      ]
+    },
+    "impressions": {
+      "phonetic": "/ɪmˈpreʃnz/",
+      "pos": "n.",
+      "sense": "印象、感想、看法；印记、压痕（impression 的复数；make/leave an impression 留下印象）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "create impressions"
+      ],
+      "examples": [
+        "While we know that adults use a large variety of attributes to manage and create impressions, we don't yet know whether children 32 and use the fact that different attributes are valuable at different times to different 33 . 我们清楚大人会拿各种特质来经营印象，可孩子是不是也懂得、并且会用「看人下菜碟、分时候换招」这套道理，目前还不清楚。"
+      ]
+    },
+    "interactive": {
+      "phonetic": "/ˌɪntərˈæktɪv/",
+      "pos": "adj.",
+      "sense": "互动的、交互的、相互作用的（interactive media 互动媒体；技术/教育话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "Interactive experiences"
+      ],
+      "examples": [
+        "Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment. 跟人打交道的过程，或许正好让孩子慢慢琢磨明白：什么样的名声招人喜欢，以及在其所处的圈子里，靠哪些办法能把好名声立起来。"
+      ],
+      "more": {
+        "confusables": "interactive / interactions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "interested": {
+      "phonetic": "/ˈɪntrəstɪd/",
+      "pos": "adj.",
+      "sense": "感兴趣的、关心的（be interested in）；有利害关系的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "interest（兴趣）+ -ed",
+        "confusables": "interested（感兴趣的，指人，be interested in，介词 in）/ interesting（令人感兴趣的，指事物）/ interest（兴趣；利益；利息，名词）/ be interested to do（想了解…）/ -ed/-ing 方向相反"
+      },
+      "collocations": [
+        "interested in"
+      ],
+      "examples": [
+        "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. 心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。"
+      ]
+    },
+    "it's": {
+      "phonetic": "/ɪts/",
+      "pos": "缩略",
+      "sense": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+      "collocations": [
+        "it's important that",
+        "it's likely to"
+      ],
+      "examples": [
+        "It's hard to say. 很难说。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
+      }
+    },
+    "key": {
+      "phonetic": "/kiː/",
+      "pos": "n./adj.",
+      "sense": "关键、钥匙；关键的",
+      "collocations": [
+        "the key to",
+        "a key factor"
+      ],
+      "examples": [
+        "Practice is the key to progress. 练习是进步的关键。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "kids": {
+      "phonetic": "/kɪdz/",
+      "pos": "n.",
+      "sense": "小孩、年轻人、子女（kid 的复数，口语）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "kids want"
+      ],
+      "examples": [
+        "Like grown-ups, kids want to be 28 by those they admire. 跟大人一个样，小孩也盼着自己佩服的人能认可自己。"
+      ]
+    },
+    "kindergarten": {
+      "phonetic": "/ˈkɪndəɡɑːtn/",
+      "pos": "n.",
+      "sense": "幼儿园、学前班（kindergarten children 学龄前儿童；教育话题）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "day of kindergarten"
+      ],
+      "examples": [
+        "Children don't just show up to the first day of kindergarten and have the idea of reputation pop 35 into existence. 小孩不是一进幼儿园那天，脑子里就凭空「叮」地冒出个名声的概念。"
+      ]
+    },
+    "kinds": {
+      "phonetic": "/kaɪnddz/",
+      "pos": "n./adj.",
+      "sense": "种类、类别、性质；友善的、亲切的、体贴的（kind of 有点儿）（kind 的复数/三单形式）",
+      "lemma": "kind",
+      "collocations": [
+        "kinds of",
+        "kinds of strategies"
+      ],
+      "examples": [
+        "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "kind + -s（复数/三单）",
+        "confusables": "kinds（复数/三单）/ kind（原形）"
+      }
+    },
+    "know": {
+      "phonetic": "/nəʊ/",
+      "pos": "v.",
+      "sense": "知道、了解、懂得；认识、熟悉；会（语言等）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "yet know",
+        "know whether"
+      ],
+      "examples": [
+        "While we know that adults use a large variety of attributes to manage and create impressions, we don't yet know whether children 32 and use the fact that different attributes are valuable at different times to different 33 . 我们清楚大人会拿各种特质来经营印象，可孩子是不是也懂得、并且会用「看人下菜碟、分时候换招」这套道理，目前还不清楚。"
+      ],
+      "more": {
+        "confusables": "know / known / knowledge（同族不同词形，注意词性与用法）"
+      }
+    },
+    "known": {
+      "phonetic": "/nəʊn/",
+      "pos": "adj./v.",
+      "sense": "已知的、闻名的、公认的（known as 以…著称）；know 的过去分词",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be known as（作为…而出名，后接身份）/ be known for（因…而出名，后接原因或特点）/ be known to（为…所熟知，后接人）/ know（know-knew-known）/ well-known（著名的，形容词）"
+      },
+      "collocations": [],
+      "examples": [
+        "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+      ]
+    },
+    "large": {
+      "phonetic": "/lɑːdʒ/",
+      "pos": "adj.",
+      "sense": "大的、大规模的、大量的、宽大的（at large 总体上、逍遥在外）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "large variety"
+      ],
+      "examples": [
+        "While we know that adults use a large variety of attributes to manage and create impressions, we don't yet know whether children 32 and use the fact that different attributes are valuable at different times to different 33 . 我们清楚大人会拿各种特质来经营印象，可孩子是不是也懂得、并且会用「看人下菜碟、分时候换招」这套道理，目前还不清楚。"
+      ],
+      "more": {
+        "confusables": "large / largest / largely（同族不同词形，注意词性与用法）"
+      }
+    },
+    "learn": {
+      "phonetic": "/lɜːn/",
+      "pos": "v.",
+      "sense": "学习、学会",
+      "collocations": [
+        "learn to do",
+        "learn from"
+      ],
+      "examples": [
+        "We learn from mistakes. 我们从错误中学习。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "learn / learning（同族不同词形，注意词性与用法）"
+      }
+    },
+    "like": {
+      "phonetic": "/laɪk/",
+      "pos": "prep./v./conj.",
+      "sense": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+      "collocations": [
+        "like this",
+        "feel like",
+        "such as"
+      ],
+      "examples": [
+        "Tools like this save time. 这样的工具能省时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
+      }
+    },
+    "logical": {
+      "phonetic": "/ˈlɒdʒɪkl/",
+      "pos": "adj.",
+      "sense": "合逻辑的、合乎情理的、有条理的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "logic（逻辑，log 言说/理性，词根 log = word/reason，同 -logy/dialogue）+ -al（形容词后缀）",
+        "confusables": "logical（合乎逻辑的，形容词）/ logic（逻辑，不可数名词）/ logically（逻辑上，副词）/ illogical（不合逻辑的，il- 否定）/ reasonable（合情理的）"
+      },
+      "collocations": [
+        "logical question"
+      ],
+      "examples": [
+        "The logical question to ask is, \"What happens even earlier?\" 顺着这个逻辑，该问的自然是：那再往前呢？"
+      ]
+    },
+    "long": {
+      "phonetic": "/lɒŋ/",
+      "pos": "adj./adv.",
+      "sense": "长的、长期的 / 长久地",
+      "collocations": [
+        "long-term",
+        "as long as",
+        "no longer"
+      ],
+      "examples": [
+        "The impact is long-term. 影响是长期的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "long（长）/ lengthy（冗长的）/ as long as（只要）"
+      }
+    },
+    "manage": {
+      "phonetic": "/ˈmænɪdʒ/",
+      "pos": "v.",
+      "sense": "管理、经营、处理；设法做到、勉强应付（manage to do）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "manage（设法做到；管理，及物/不及物）/ manage to do（设法做成，强调成功，接不定式）/ try to do（只是尝试，未必成功）/ attempt（试图，正式）/ manage a team（管理团队）/ management（管理，名词）"
+      },
+      "collocations": [
+        "attributes to manage"
+      ],
+      "examples": [
+        "While we know that adults use a large variety of attributes to manage and create impressions, we don't yet know whether children 32 and use the fact that different attributes are valuable at different times to different 33 . 我们清楚大人会拿各种特质来经营印象，可孩子是不是也懂得、并且会用「看人下菜碟、分时候换招」这套道理，目前还不清楚。"
+      ]
+    },
+    "moral": {
+      "phonetic": "/ˈmɒrəl/",
+      "pos": "adj./n.",
+      "sense": "道德的、道义上的、品行端正的；寓意、教训、道德（moral values 道德观；the moral of the story 故事寓意）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "appear moral"
+      ],
+      "examples": [
+        "They will 31 their behaviour in order to appear moral or socially good in the eyes of key observers. 为了让那些「重要观众」觉得自己乖、懂事，他们会刻意调整自己的一举一动。"
+      ],
+      "more": {
+        "confusables": "moral / morality（同族不同词形，注意词性与用法）"
+      }
+    },
+    "new": {
+      "phonetic": "/njuː/",
+      "pos": "adj.",
+      "sense": "新的；新近的",
+      "collocations": [
+        "new technologies",
+        "brand new",
+        "new to sth"
+      ],
+      "examples": [
+        "New tools always provoke worry. 新工具总会引发担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "observers": {
+      "phonetic": "/əbˈzɜːvəz/",
+      "pos": "n.",
+      "sense": "观察者、目击者、观察员、评论者（observer 的复数；研究与报道话题）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "key observers"
+      ],
+      "examples": [
+        "They will 31 their behaviour in order to appear moral or socially good in the eyes of key observers. 为了让那些「重要观众」觉得自己乖、懂事，他们会刻意调整自己的一举一动。"
+      ],
+      "more": {
+        "confusables": "observers / observed（同族不同词形，注意词性与用法）"
+      }
+    },
+    "opportunities": {
+      "phonetic": "/ˌɒpəˈtjuːnətiz/",
+      "pos": "n.",
+      "sense": "机会、时机、机遇（复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "opportunity（机会）+ -ies（复数，y → ies）",
+        "confusables": "opportunity（机会、时机，可数）/ opportunity to do / for (doing)（常用不定式）/ take / seize an opportunity（抓住机会）/ chance（可指偶然性/可能性）/ possibility（只指可能性）"
+      },
+      "collocations": [
+        "provide opportunities",
+        "opportunities for",
+        "opportunities for children"
+      ],
+      "examples": [
+        "Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment. 跟人打交道的过程，或许正好让孩子慢慢琢磨明白：什么样的名声招人喜欢，以及在其所处的圈子里，靠哪些办法能把好名声立起来。"
+      ]
+    },
+    "order": {
+      "phonetic": "/ˈɔːdə(r)/",
+      "pos": "n./v.",
+      "sense": "顺序、秩序、命令、订单、点菜；命令、订购、点（菜）、整理（in order to 为了）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "order to",
+        "order to appear",
+        "behaviour in order"
+      ],
+      "examples": [
+        "They will 31 their behaviour in order to appear moral or socially good in the eyes of key observers. 为了让那些「重要观众」觉得自己乖、懂事，他们会刻意调整自己的一举一动。"
+      ]
+    },
+    "outward": {
+      "phonetic": "/ˈaʊtwəd/",
+      "pos": "adj./adv.",
+      "sense": "向外的、外表的、表面的；向外、朝外（outward appearance 外表；outwardly 表面上）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "outward image"
+      ],
+      "examples": [
+        "Five-year-olds aren't just aware of their reputations, they also behave strategically to alter their outward image. 五岁娃不光已经知道「别人怎么看我」，还会耍点心机去修饰自己留给外界的印象。"
+      ]
+    },
+    "pop": {
+      "phonetic": "/pɒp/",
+      "pos": "n./v./adj.",
+      "sense": "砰（啪）的一声、流行音乐、汽水；突然出现、爆开、弹出；流行的、通俗的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "reputation pop"
+      ],
+      "examples": [
+        "Children don't just show up to the first day of kindergarten and have the idea of reputation pop 35 into existence. 小孩不是一进幼儿园那天，脑子里就凭空「叮」地冒出个名声的概念。"
+      ],
+      "more": {
+        "confusables": "pop / popular / popularity（同族不同词形，注意词性与用法）"
+      }
+    },
+    "present": {
+      "phonetic": "/ˈpreznt/",
+      "pos": "adj./n./v.",
+      "sense": "现在的、目前的、出席的；目前、礼物（动词「呈现/提出/颁发」读 /prɪˈzent/）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "present（n. 礼物/现在 /ˈpreznt/；adj. 出席的、现在的；v. 呈现/提出 /prɪˈzent/）/ at present（目前）/ be present at（出席…，介词 at）/ gift（礼物近义）/ absent（反义）/ present sb with sth（授予）"
+      },
+      "collocations": [
+        "present ourselves",
+        "use to present"
+      ],
+      "examples": [
+        "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. 心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。"
+      ]
+    },
+    "process": {
+      "phonetic": "/ˈprəʊses/",
+      "pos": "n.",
+      "sense": "过程、流程",
+      "collocations": [
+        "process children"
+      ],
+      "examples": [
+        "It's important for us to further consider where in this process children succeed in controlling their reputation and where they 34 . 所以我们还得再往下挖一挖：经营名声这件事，孩子到底哪一步做得来，哪一步还卡着。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "process / processes / proceeds（同族不同词形，注意词性与用法）"
+      }
+    },
+    "provide": {
+      "phonetic": "/prəˈvaɪd/",
+      "pos": "v.",
+      "sense": "提供（provide sb with sth / provide sth for sb）",
+      "collocations": [
+        "provide sb with sth",
+        "provide sth for sb",
+        "provide that"
+      ],
+      "examples": [
+        "The policy provides fathers with leave. 该政策为父亲提供假期。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "pro-（预先）+ vid（看，词根 vid/vis = see，同 video/vision/evidence）→ 预先备好 → 提供",
+        "confusables": "provide sb with sth / provide sth for sb（两种搭配）/ offer"
+      }
+    },
+    "psychologists": {
+      "phonetic": "/saɪˈkɒlədʒɪstts/",
+      "pos": "n.",
+      "sense": "心理学家、心理学研究者（psychologist 的复数/三单形式）",
+      "lemma": "psychologist",
+      "collocations": [],
+      "examples": [
+        "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. 心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "psychologist + -s（复数/三单）",
+        "confusables": "psychologists（复数/三单）/ psychologist（原形）"
+      }
+    },
+    "question": {
+      "phonetic": "/ˈkwestʃən/",
+      "pos": "n./v.",
+      "sense": "问题（需回答）；疑问 / 质疑",
+      "collocations": [
+        "ask a question",
+        "the question is",
+        "out of the question"
+      ],
+      "examples": [
+        "This seemingly easy question drives the need to understand. 这个看似简单的问题催生了理解的需要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "question（疑问）/ problem（难题）/ out of the question（不可能）"
+      }
+    },
+    "reputation": {
+      "phonetic": "/ˌrepjuˈteɪʃn/",
+      "pos": "n.",
+      "sense": "名声、声誉、名望、口碑（have a reputation for 以…著称；build/ruin a reputation）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "desirable reputation",
+        "good reputation",
+        "reputation in"
+      ],
+      "examples": [
+        "Interactive experiences may provide opportunities for children to learn about what 29 a desirable reputation and the kinds of strategies that are effective for 30 a good reputation in their social environment. 跟人打交道的过程，或许正好让孩子慢慢琢磨明白：什么样的名声招人喜欢，以及在其所处的圈子里，靠哪些办法能把好名声立起来。"
+      ],
+      "more": {
+        "confusables": "reputation / reputations（同族不同词形，注意词性与用法）"
+      }
+    },
+    "reputations": {
+      "phonetic": "/ˌrepjuˈteɪʃnz/",
+      "pos": "n.",
+      "sense": "名声、声誉（reputation 的复数；常谈个人或机构的名望）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Five-year-olds aren't just aware of their reputations, they also behave strategically to alter their outward image. 五岁娃不光已经知道「别人怎么看我」，还会耍点心机去修饰自己留给外界的印象。"
+      ],
+      "more": {
+        "confusables": "reputations / reputation（同族不同词形，注意词性与用法）"
+      }
+    },
+    "research": {
+      "phonetic": "/rɪˈsɜːtʃ/",
+      "pos": "n./v.",
+      "sense": "研究（不可数）；调查 / 研究",
+      "collocations": [
+        "a body of research",
+        "research on sth",
+        "research shows"
+      ],
+      "examples": [
+        "A growing body of research supports this. 越来越多的研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "research（不可数）/ study（可数，一项研究）/ researches（罕用）"
+      }
+    },
+    "see": {
+      "phonetic": "/siː/",
+      "pos": "v.",
+      "sense": "看见；明白（I see）；见证",
+      "collocations": [
+        "see that",
+        "as we can see",
+        "see sb do/doing"
+      ],
+      "examples": [
+        "We see the same pattern again. 我们又看到了同样的模式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "see（看见，无意）/ look at（看，有意）/ watch（观看，持续）"
+      }
+    },
+    "self-presentation": {
+      "phonetic": "/ˌself ˌpreznˈteɪʃn/",
+      "pos": "n.",
+      "sense": "自我呈现、自我展示（心理/社交话题，指人在他人面前塑造自身形象）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "strategic self-presentation",
+        "self-presentation behaviour"
+      ],
+      "examples": [
+        "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+      ],
+      "more": {
+        "roots": "self-presentation 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "show": {
+      "phonetic": "/ʃəʊ/",
+      "pos": "v./n.",
+      "sense": "显示、表明（show that）；展示 / 演出、展览",
+      "collocations": [
+        "show that",
+        "show up",
+        "a show of"
+      ],
+      "examples": [
+        "The study shows how roles endure. 研究显示角色如何延续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "show（显示）/ prove（证明，更强）/ indicate（表明，正式）"
+      }
+    },
+    "shows": {
+      "phonetic": "/ʃəʊz/",
+      "pos": "v./n.",
+      "sense": "显示、表明、展示（show 的第三人称单数）；演出、节目（复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Research shows"
+      ],
+      "examples": [
+        "Research shows that a child's awareness of social standing comes from adults. 有研究显示，小孩懂不懂得「谁高谁低」，是从大人那儿学来的。"
+      ],
+      "more": {
+        "confusables": "shows / show（同族不同词形，注意词性与用法）"
+      }
+    },
+    "social": {
+      "phonetic": "/ˈsəʊʃl/",
+      "pos": "adj.",
+      "sense": "社会的、社会性的；社交的、交际的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "social standing",
+        "awareness of social",
+        "social environment"
+      ],
+      "examples": [
+        "Research shows that a child's awareness of social standing comes from adults. 有研究显示，小孩懂不懂得「谁高谁低」，是从大人那儿学来的。"
+      ],
+      "more": {
+        "confusables": "social / society / socializing（同族不同词形，注意词性与用法）"
+      }
+    },
+    "socially": {
+      "phonetic": "/ˈsəʊʃlli/",
+      "pos": "adj.",
+      "sense": "社会的、社会性的；社交的、交际的（social 的副词形式）",
+      "lemma": "social",
+      "collocations": [
+        "socially good"
+      ],
+      "examples": [
+        "They will 31 their behaviour in order to appear moral or socially good in the eyes of key observers. 为了让那些「重要观众」觉得自己乖、懂事，他们会刻意调整自己的一举一动。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "social + -ly（副词）",
+        "confusables": "socially（副词）/ social（原形）"
+      }
+    },
+    "society": {
+      "phonetic": "/səˈsaɪəti/",
+      "pos": "n.",
+      "sense": "社会；社团",
+      "collocations": [
+        "as a society",
+        "ourselves in society"
+      ],
+      "examples": [
+        "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. 心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "sorts": {
+      "phonetic": "/sɔːts/",
+      "pos": "n./v.",
+      "sense": "种类、类别、某类人（sort 的复数）；分类、整理（三单；all sorts of 各种各样的）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sorts of",
+        "sorts of strategies"
+      ],
+      "examples": [
+        "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. 心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。"
+      ]
+    },
+    "standing": {
+      "phonetic": "/ˈstændɪŋ/",
+      "pos": "n./adj./v.",
+      "sense": "站立、地位、身份、声望、持续时间；常设的、长期存在的、直立的、静止的（stand 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "social standing",
+        "standing comes"
+      ],
+      "examples": [
+        "Research shows that a child's awareness of social standing comes from adults. 有研究显示，小孩懂不懂得「谁高谁低」，是从大人那儿学来的。"
+      ]
+    },
+    "strategic": {
+      "phonetic": "/strəˈtiːdʒɪk/",
+      "pos": "adj.",
+      "sense": "战略性的、策略上的、关键的（a strategic decision 战略决策；strategy 的形容词）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "strategic self-presentation"
+      ],
+      "examples": [
+        "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+      ],
+      "more": {
+        "confusables": "strategic / strategies / strategy（同族不同词形，注意词性与用法）"
+      }
+    },
+    "strategically": {
+      "phonetic": "/strəˈtiːdʒɪkli/",
+      "pos": "adv.",
+      "sense": "战略上、策略性地、有谋略地（strategic 的副词）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "behave strategically",
+        "strategically to",
+        "strategically to alter"
+      ],
+      "examples": [
+        "Five-year-olds aren't just aware of their reputations, they also behave strategically to alter their outward image. 五岁娃不光已经知道「别人怎么看我」，还会耍点心机去修饰自己留给外界的印象。"
+      ],
+      "more": {
+        "roots": "strategically 含 -ly（副词后缀）"
+      }
+    },
+    "strategies": {
+      "phonetic": "/ˈstrætədʒiz/",
+      "pos": "n.",
+      "sense": "策略（strategy 的复数）",
+      "lemma": "strategy",
+      "collocations": [
+        "coping strategies",
+        "new strategies"
+      ],
+      "examples": [
+        "They develop coping strategies. 他们发展出应对策略。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "strategies（策略）/ strategy（单数）/ tactic（战术）"
+      }
+    },
+    "succeed": {
+      "phonetic": "/səkˈsiːd/",
+      "pos": "v.",
+      "sense": "成功、达成、办成；接替、继承、继任（succeed in doing）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "suc-（=sub- 随后）+ ceed（走，词根 ced/ceed = go，同 proceed/exceed/access）→ 跟着走下去 → 成功、接替",
+        "confusables": "succeed in (doing)（成功做成，介词 in，接动名词）/ succeed to（继承王位/职位，介词 to）/ success（成功，名词）/ successful（成功的）/ succeed sb（接替某人）"
+      },
+      "collocations": [
+        "children succeed",
+        "succeed in",
+        "succeed in controlling"
+      ],
+      "examples": [
+        "It's important for us to further consider where in this process children succeed in controlling their reputation and where they 34 . 所以我们还得再往下挖一挖：经营名声这件事，孩子到底哪一步做得来，哪一步还卡着。"
+      ]
+    },
+    "suggest": {
+      "phonetic": "/səˈdʒest/",
+      "pos": "v.",
+      "sense": "建议、提议；表明、暗示、使人想到",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "suggest doing（建议做，接动名词，不说 suggest to do）/ suggest that + (should) do（建议，从句虚拟，should 可省）/ suggest that + 陈述语气（暗示、表明）/ advise sb to do（句型不同）/ suggestion（建议；迹象）"
+      },
+      "collocations": [
+        "findings suggest"
+      ],
+      "examples": [
+        "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+      ]
+    },
+    "think": {
+      "phonetic": "/θɪŋk/",
+      "pos": "v.",
+      "sense": "想、认为；思考",
+      "collocations": [
+        "think about",
+        "think of",
+        "I think that"
+      ],
+      "examples": [
+        "Many think the risk is small. 很多人认为风险很小。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "think about（考虑）/ think of（想起）/ think over（仔细考虑）"
+      }
+    },
+    "times": {
+      "phonetic": "/taɪmz/",
+      "pos": "n.",
+      "sense": "次数；时代（time 的复数）；乘以",
+      "lemma": "time",
+      "collocations": [
+        "three times",
+        "at times",
+        "in modern times"
+      ],
+      "examples": [
+        "He won three times. 他赢过三次。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "times（次数/时代）/ time（时间）"
+      }
+    },
+    "use": {
+      "phonetic": "/juːz/",
+      "pos": "v./n.",
+      "sense": "使用、运用；用途、用法（名词读 /juːs/）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "use（v. 使用 /juːz/；n. 用途、使用 /juːs/，读音不同）/ use sth to do（用某物做）/ be used to do（被用于做）/ make use of（利用）/ usage（用法，名词）"
+      },
+      "collocations": [
+        "use to",
+        "use to present",
+        "adults use"
+      ],
+      "examples": [
+        "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. 心理学家早就想弄明白：人是怎么一步步形成自我认同的，又会用哪些招数在社会上摆出自己的样子。"
+      ]
+    },
+    "valuable": {
+      "phonetic": "/ˈvæljuəbl/",
+      "pos": "adj.",
+      "sense": "有价值的、宝贵的",
+      "collocations": [
+        "valuable experience",
+        "a valuable lesson"
+      ],
+      "examples": [
+        "That was a valuable lesson. 那是宝贵的一课。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "valuable 含 -able / -ible（形容词后缀，表「可……的」）"
+      }
+    },
+    "variety": {
+      "phonetic": "/vəˈraɪəti/",
+      "pos": "n.",
+      "sense": "多样性、变化、多样化；种类、品种（a variety of 各种各样的）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "a variety of + 复数可数名词（各种各样的，谓语通常用复数）/ the variety of（…的种类/多样性，谓语用单数）/ varieties of（多种…）/ variation（变化、变体）/ vary（动词）/ various（形容词）"
+      },
+      "collocations": [
+        "large variety",
+        "variety of",
+        "variety of attributes"
+      ],
+      "examples": [
+        "While we know that adults use a large variety of attributes to manage and create impressions, we don't yet know whether children 32 and use the fact that different attributes are valuable at different times to different 33 . 我们清楚大人会拿各种特质来经营印象，可孩子是不是也懂得、并且会用「看人下菜碟、分时候换招」这套道理，目前还不清楚。"
+      ]
+    },
+    "want": {
+      "phonetic": "/wɒnt/",
+      "pos": "v.",
+      "sense": "想要（want to do / want sb to do）；需要",
+      "collocations": [
+        "want to do",
+        "want sb to do",
+        "for want of"
+      ],
+      "examples": [
+        "They want to appear more adult. 他们想显得更成熟。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "want to do（想要）/ need to do（需要）/ would like to do（更礼貌）"
+      }
+    },
+    "whether": {
+      "phonetic": "/ˈweðə(r)/",
+      "pos": "conj.",
+      "sense": "是否；无论（whether ... or ...）",
+      "collocations": [
+        "whether or not",
+        "whether to do",
+        "whether it comes from"
+      ],
+      "examples": [
+        "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）"
+      }
+    },
+    "yet": {
+      "phonetic": "/jet/",
+      "pos": "adv./conj.",
+      "sense": "尚、还（否定/疑问句）；然而（连词）",
+      "collocations": [
+        "not yet",
+        "yet another",
+        "as yet"
+      ],
+      "examples": [
+        "Yet studies suggest these anxieties are misplaced. 然而研究表明这些焦虑没有根据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "yet（尚/然而）/ already（已经）/ but（但是）"
+      }
+    },
+    "younger": {
+      "phonetic": "/jʌŋə(r)/",
+      "pos": "adj.",
+      "sense": "年轻的、幼小的；青年的（本文指年轻人 / 年轻时）（young 的比较级形式）",
+      "lemma": "young",
+      "collocations": [
+        "younger age"
+      ],
+      "examples": [
+        "New findings suggest that the kinds of 26 and strategic self-presentation behaviour we see in adults appear at a much younger age than 27 known. 新研究却说：成年人那套复杂又讲究策略的「自我包装」，其实在比以往认为的更小的年纪就冒头了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "young + -er（比较级）",
+        "confusables": "younger（比较级）/ young（原形）"
+      }
+    }
+  }
+}

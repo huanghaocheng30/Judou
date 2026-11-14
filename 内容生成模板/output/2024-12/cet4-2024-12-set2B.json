@@ -1,0 +1,6065 @@
+{
+  "sourceKey": "cet4-2024-12-set2B",
+  "articleId": "set2B",
+  "packVersion": "2026.11.07-3",
+  "meta": {
+    "examYear": 2024,
+    "examMonth": 12,
+    "setNo": 2,
+    "section": "仔细阅读",
+    "passageLabel": "Passage Two",
+    "title": "Women in U.S. Engineering: Then and Now",
+    "wordCount": 347
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Engineering in the U.S. has long been a male-dominated profession. Fifty years ago, it looked like that might change.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 66,
+          "text": "Engineering in the U.S. has long been a male-dominated profession.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 11,
+              "surface": "Engineering",
+              "normalized": "engineering",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 23,
+              "surface": "U.S.",
+              "normalized": "u.s.",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 32,
+              "surface": "long",
+              "normalized": "long",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "been",
+              "normalized": "been",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 39,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 54,
+              "surface": "male-dominated",
+              "normalized": "male-dominated",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 65,
+              "surface": "profession",
+              "normalized": "profession",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 66,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "美国的工程行业长久以来一直是一个男性主导的职业。",
+            "translationNatural": "在美国，工程师这行向来是男人的天下。",
+            "structMarkup": "【Engineering in the U.S.】 _has long been_ ~a male-dominated profession~.",
+            "structureSummary": "主系表（现在完成时）",
+            "components": [
+              {
+                "part": "Engineering in the U.S.",
+                "role": "主语",
+                "note": "抽象名词作主语，系动词用 has been；in the U.S. 作后置限定"
+              },
+              {
+                "part": "has long been",
+                "role": "系动词",
+                "note": "现在完成时 + long，表示从过去延续至今的状态"
+              },
+              {
+                "part": "a male-dominated profession",
+                "role": "表语",
+                "note": "male-dominated 是复合形容词，点明全文要讨论的失衡"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（现在完成时）」。"
+            ],
+            "phrases": [
+              {
+                "text": "engineering",
+                "meaning": "工程、工程学（不可数）",
+                "usage": "注意区分：engineering（工程学）/ engineer（工程师）。常见搭配：software engineering / an engineering degree。",
+                "example": "She studied engineering at university. 她在大学学工程。"
+              },
+              {
+                "text": "long",
+                "meaning": "长的、长期的 / 长久地",
+                "usage": "注意区分：long（长）/ lengthy（冗长的）/ as long as（只要）。常见搭配：long-term / as long as。",
+                "example": "The impact is long-term. 影响是长期的。"
+              },
+              {
+                "text": "profession",
+                "meaning": "职业、专业（尤指需受高等教育者）、同行、同业；表白",
+                "usage": "注意区分：profession（职业，尤指需高等教育/专业训练者，如 teaching/medicine/law）/ job（一份具体工作）/ career（职业生涯）/ trade（手艺行当）/ professional（专业的；专业人士）/ by profession（介词 by）。",
+                "example": "Engineering in the U.S. has long been a male-dominated profession. 在美国，工程师这行向来是男人的天下。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：engineering（工程学）/ engineer（工程师）。",
+              "注意区分：long（长）/ lengthy（冗长的）/ as long as（只要）。",
+              "注意区分：profession（职业，尤指需高等教育/专业训练者，如 teaching/medicine/law）/ job（一份具体工作）/ career（职业生涯）/ trade（手艺行当）/ professional（专业的；专业人士）/ by profession（介词 by）。"
+            ],
+            "paragraphRole": "首句立起全文背景：工程行业长期由男性主导，为下句「一度看似要变」蓄势。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 67,
+          "end": 117,
+          "text": "Fifty years ago, it looked like that might change.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Fifty",
+              "normalized": "fifty",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "surface": "ago",
+              "normalized": "ago",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 26,
+              "surface": "looked",
+              "normalized": "looked",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 36,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 42,
+              "surface": "might",
+              "normalized": "might",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 49,
+              "surface": "change",
+              "normalized": "change",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "五十年前，它看上去像那样可能改变。",
+            "translationNatural": "大约五十年前，局面一度看着要松动。",
+            "structMarkup": "(Fifty years ago), 【it】 _looked like_ {that might change}.",
+            "structureSummary": "主系表（look like + 表语从句）",
+            "components": [
+              {
+                "part": "Fifty years ago",
+                "role": "状语",
+                "note": "时间状语，把镜头拉回 1970 年代"
+              },
+              {
+                "part": "it",
+                "role": "主语",
+                "note": "形式主语，泛指「局面」"
+              },
+              {
+                "part": "looked like",
+                "role": "系动词",
+                "note": "look like 后接从句，表示「看上去像」"
+              },
+              {
+                "part": "that might change",
+                "role": "表语从句",
+                "note": "might 表不确定推测，为下段「其实没变」埋下反讽"
+              }
+            ],
+            "clauses": [
+              "表语从句「that might change」：might 表不确定推测，为下段「其实没变」埋下反讽",
+              "本句主干为「主系表（look like + 表语从句）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "years",
+                "meaning": "年、年份；岁数、年纪（year 的复数）",
+                "usage": "注意区分：year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）。",
+                "example": "Fifty years ago, it looked like that might change. 大约五十年前，局面一度看着要松动。"
+              },
+              {
+                "text": "looked",
+                "meaning": "看、显得（look + adj.）；外观（look 的过去式/过去分词形式）",
+                "usage": "注意区分：looked（过去式/过去分词）/ look（原形）。",
+                "example": "Fifty years ago, it looked like that might change. 大约五十年前，局面一度看着要松动。"
+              },
+              {
+                "text": "like",
+                "meaning": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+                "usage": "注意区分：like（介词，后接名词）/ as（连词，后接从句）。常见搭配：like this / feel like。",
+                "example": "Tools like this save time. 这样的工具能省时间。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）。",
+              "注意区分：looked（过去式/过去分词）/ look（原形）。",
+              "注意区分：like（介词，后接名词）/ as（连词，后接从句）。"
+            ],
+            "paragraphRole": "用「看似要变」吊起悬念，下段立刻用数据把期待打回去。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "In 1970, the percentage of women majoring in engineering was less than 1%. In 1979, that number was 9%. Many hoped women would continue to enter the field at the same rate. But that's not what happened. Today, only 21% of engineering majors are women, a number largely unchanged since 2000.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 74,
+          "text": "In 1970, the percentage of women majoring in engineering was less than 1%.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "1970,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 23,
+              "surface": "percentage",
+              "normalized": "percentage",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 41,
+              "surface": "majoring",
+              "normalized": "majoring",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 44,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 56,
+              "surface": "engineering",
+              "normalized": "engineering",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 65,
+              "surface": "less",
+              "normalized": "less",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 70,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "1%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 73,
+              "end": 74,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在 1970 年，主修工程的女性的百分比是不到 1%。",
+            "translationNatural": "1970 年，工科女生占比连 1% 都不到。",
+            "structMarkup": "(In 1970), 【the percentage of women majoring in engineering】 _was_ ~less than 1%~.",
+            "structureSummary": "主系表 + 现在分词短语作后置定语",
+            "components": [
+              {
+                "part": "In 1970",
+                "role": "状语",
+                "note": "时间状语，与下句 In 1979 对举"
+              },
+              {
+                "part": "the percentage of women majoring in engineering",
+                "role": "主语",
+                "note": "核心词 percentage 为单数，故用 was；majoring in... 作 women 的后置定语"
+              },
+              {
+                "part": "was",
+                "role": "系动词",
+                "note": "过去时，与 1970 呼应"
+              },
+              {
+                "part": "less than 1%",
+                "role": "表语",
+                "note": "less than 表「不足」，给出起点之低"
+              }
+            ],
+            "clauses": [
+              "本句含比较结构（比较级 + than），than 后是被比较对象。",
+              "本句主干为「主系表 + 现在分词短语作后置定语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "majoring",
+                "meaning": "主要的（形容词）；专业（名词）；主修（动词）（major 的现在分词/动名词形式）",
+                "usage": "注意区分：majoring（现在分词/动名词）/ major（原形）。",
+                "example": "In 1970, the percentage of women majoring in engineering was less than 1%. 1970 年，工科女生占比连 1% 都不到。"
+              },
+              {
+                "text": "engineering",
+                "meaning": "工程、工程学（不可数）",
+                "usage": "注意区分：engineering（工程学）/ engineer（工程师）。常见搭配：software engineering / an engineering degree。",
+                "example": "She studied engineering at university. 她在大学学工程。"
+              }
+            ],
+            "pitfalls": [
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "注意区分：majoring（现在分词/动名词）/ major（原形）。",
+              "注意区分：engineering（工程学）/ engineer（工程师）。"
+            ],
+            "paragraphRole": "用起点数据（<1%）为下句 9% 的跃升做刻度，支撑第 51 题。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 75,
+          "end": 103,
+          "text": "In 1979, that number was 9%.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "1979,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 20,
+              "surface": "number",
+              "normalized": "number",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "9%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 27,
+              "end": 28,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在 1979 年，那个数字是 9%。",
+            "translationNatural": "到 1979 年，这个比例升到了 9%。",
+            "structMarkup": "(In 1979), 【that number】 _was_ ~9%~.",
+            "structureSummary": "主系表",
+            "components": [
+              {
+                "part": "In 1979",
+                "role": "状语",
+                "note": "与上句 In 1970 平行"
+              },
+              {
+                "part": "that number",
+                "role": "主语",
+                "note": "回指上句的 percentage，避免重复"
+              },
+              {
+                "part": "was",
+                "role": "系动词",
+                "note": "过去时"
+              },
+              {
+                "part": "9%",
+                "role": "表语",
+                "note": "从 <1% 到 9%，正是第 51 题 significant increase 的依据"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表」。"
+            ],
+            "phrases": [
+              {
+                "text": "number",
+                "meaning": "数字、数量；号码",
+                "usage": "注意区分：a number of（许多，谓语复数）/ the number of（数量，谓语单数）。常见搭配：a number of（许多） / the number of（……的数量）。",
+                "example": "A number of studies agree. 许多研究结论一致。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：a number of（许多，谓语复数）/ the number of（数量，谓语单数）。",
+              "本句主干为「主系表」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "给出十年间的跃升，把上句「看似要变」落到实处。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 104,
+          "end": 172,
+          "text": "Many hoped women would continue to enter the field at the same rate.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "hoped",
+              "normalized": "hoped",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "would",
+              "normalized": "would",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 31,
+              "surface": "continue",
+              "normalized": "continue",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 40,
+              "surface": "enter",
+              "normalized": "enter",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 50,
+              "surface": "field",
+              "normalized": "field",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 53,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "same",
+              "normalized": "same",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 67,
+              "surface": "rate",
+              "normalized": "rate",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 68,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "许多人曾希望女性会以同样的速率继续进入这个领域。",
+            "translationNatural": "当时不少人以为，照这势头下去，女生会源源不断涌进工科。",
+            "structMarkup": "【Many】 _hoped_ {women would continue to enter the field at the same rate}.",
+            "structureSummary": "主谓 + 宾语从句（省略 that）",
+            "components": [
+              {
+                "part": "Many",
+                "role": "主语",
+                "note": "指代 many people，复数概念"
+              },
+              {
+                "part": "hoped",
+                "role": "谓语",
+                "note": "后接省略连词 that 的宾语从句"
+              },
+              {
+                "part": "women would continue to enter the field at the same rate",
+                "role": "宾语从句",
+                "note": "would 表过去视角下的将来；at the same rate 回指 9% 的增速"
+              }
+            ],
+            "clauses": [
+              "宾语从句「women would continue to enter the field at the same rate」：would 表过去视角下的将来；at the same rate 回指 9% 的增速",
+              "本句主干为「主谓 + 宾语从句（省略 that）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "the same",
+                "meaning": "同样的",
+                "usage": "same 前通常有 the；the same as 表「与……相同」。",
+                "example": "The same thing happened last year. 去年也发生了同样的事。"
+              },
+              {
+                "text": "hoped",
+                "meaning": "希望、期望；希望、指望（本文 Hope is not entirely out of reach 希望并未完全破灭 / the things you hope to achieve）（hope 的过去式/过去分词形式）",
+                "usage": "注意区分：hoped（过去式/过去分词）/ hope（原形）。",
+                "example": "Many hoped women would continue to enter the field at the same rate. 当时不少人以为，照这势头下去，女生会源源不断涌进工科。"
+              },
+              {
+                "text": "continue",
+                "meaning": "继续（continue to do / continue doing）",
+                "usage": "注意区分：continue to do / continue doing（都对，前者强调新阶段）/ continuous（连续的）。常见搭配：continue to do / continue doing。",
+                "example": "The practice continues in many firms. 这种做法在许多公司延续。"
+              }
+            ],
+            "pitfalls": [
+              "same 前一般要加 the；比较对象用 as 不用 with。",
+              "注意区分：hoped（过去式/过去分词）/ hope（原形）。",
+              "注意区分：continue to do / continue doing（都对，前者强调新阶段）/ continuous（连续的）。"
+            ],
+            "paragraphRole": "写出当年的乐观预期，好让下一句的转折更有落差。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 173,
+          "end": 202,
+          "text": "But that's not what happened.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "surface": "that's",
+              "normalized": "that's",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 28,
+              "surface": "happened",
+              "normalized": "happened",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 29,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但那并不是所发生的事。",
+            "translationNatural": "结果偏偏没按这个剧本走。",
+            "structMarkup": "(But) 【that】_'s not_ {what happened}.",
+            "structureSummary": "主系表 + 表语从句（what 引导）",
+            "components": [
+              {
+                "part": "But",
+                "role": "状语",
+                "note": "强转折，推翻上句预期"
+              },
+              {
+                "part": "that",
+                "role": "主语",
+                "note": "回指「按同速率持续增长」的预期"
+              },
+              {
+                "part": "'s not",
+                "role": "系动词",
+                "note": "That is not 的缩写"
+              },
+              {
+                "part": "what happened",
+                "role": "表语从句",
+                "note": "what 引导，意为「实际发生的事」，用最简形式收住"
+              }
+            ],
+            "clauses": [
+              "表语从句「what happened」：what 引导，意为「实际发生的事」，用最简形式收住",
+              "本句主干为「主系表 + 表语从句（what 引导）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "happened",
+                "meaning": "发生、出现、碰巧、恰好（happen 过去式/分词；happen to do 碰巧）",
+                "usage": "本句中作v.，可按「主系表 + 表语从句（what 引导）」定位它在句中的位置。",
+                "example": "But that's not what happened. 结果偏偏没按这个剧本走。"
+              }
+            ],
+            "pitfalls": [
+              "what happened：what 引导，意为「实际发生的事」，用最简形式收住",
+              "本句主干为「主系表 + 表语从句（what 引导）」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "一句短促转折，把读者从期待拽回现实。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 203,
+          "end": 290,
+          "text": "Today, only 21% of engineering majors are women, a number largely unchanged since 2000.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Today",
+              "normalized": "today",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "only",
+              "normalized": "only",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "surface": "21%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 16,
+              "end": 18,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 30,
+              "surface": "engineering",
+              "normalized": "engineering",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 37,
+              "surface": "majors",
+              "normalized": "majors",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 41,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 47,
+              "surface": "women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 48,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 57,
+              "surface": "number",
+              "normalized": "number",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 65,
+              "surface": "largely",
+              "normalized": "largely",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 75,
+              "surface": "unchanged",
+              "normalized": "unchanged",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 81,
+              "surface": "since",
+              "normalized": "since",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 86,
+              "surface": "2000",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 86,
+              "end": 87,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "今天，工科学生中只有 21% 是女性，这个数字自 2000 年以来大体未变。",
+            "translationNatural": "如今工科女生也只占 21%，而且 2000 年之后基本就没再动过。",
+            "structMarkup": "(Today), 【only 21% of engineering majors】 _are women_, a number largely unchanged since 2000.",
+            "structureSummary": "主系表 + 同位语（含过去分词短语作后置定语）",
+            "components": [
+              {
+                "part": "Today",
+                "role": "状语",
+                "note": "与 In 1970 / In 1979 形成时间线收束"
+              },
+              {
+                "part": "only 21% of engineering majors",
+                "role": "主语",
+                "note": "百分数 + of + 复数名词，谓语用 are；only 强调不及预期"
+              },
+              {
+                "part": "are women",
+                "role": "系动词",
+                "note": "主系表结构"
+              },
+              {
+                "part": "a number largely unchanged since 2000",
+                "role": "同位语",
+                "note": "对 21% 的补充；largely unchanged 是过去分词短语作后置定语，since 2000 点明停滞时长"
+              }
+            ],
+            "clauses": [
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "today",
+                "meaning": "今天；当今",
+                "usage": "注意区分：today（今天/当今）/ nowadays（如今，副词）。常见搭配：today's digital activity / in today's world。",
+                "example": "Today he is still the best-known racehorse. 今天他仍是最知名的赛马。"
+              },
+              {
+                "text": "engineering",
+                "meaning": "工程、工程学（不可数）",
+                "usage": "注意区分：engineering（工程学）/ engineer（工程师）。常见搭配：software engineering / an engineering degree。",
+                "example": "She studied engineering at university. 她在大学学工程。"
+              },
+              {
+                "text": "majors",
+                "meaning": "主要的（形容词）；专业（名词）；主修（动词）（major 的复数/三单形式）",
+                "usage": "注意区分：majors（复数/三单）/ major（原形）。",
+                "example": "Today, only 21% of engineering majors are women, a number largely unchanged since 2000. 如今工科女生也只占 21%，而且 2000 年之后基本就没再动过。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "用 21% 与「自 2000 未变」给全段画上句号，也解释第 51 题为何只说 1970 年代有显著增长。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. These pioneers reflected on the challenges they faced—and had advice for women entering the field today.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 117,
+          "text": "I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "I",
+              "normalized": "i",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "surface": "am",
+              "normalized": "am",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 16,
+              "surface": "historian",
+              "normalized": "historian",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 21,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 22,
+              "end": 27,
+              "surface": "along",
+              "normalized": "along",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 32,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 35,
+              "surface": "my",
+              "normalized": "my",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 46,
+              "surface": "colleagues",
+              "normalized": "colleagues",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 48,
+              "end": 56,
+              "surface": "surveyed",
+              "normalized": "surveyed",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "251",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 61,
+              "end": 66,
+              "surface": "women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 76,
+              "surface": "engineers",
+              "normalized": "engineers",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 80,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 90,
+              "surface": "graduated",
+              "normalized": "graduated",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 95,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 103,
+              "surface": "college",
+              "normalized": "college",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 106,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 110,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 115,
+              "surface": "1970",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 115,
+              "end": 116,
+              "surface": "s",
+              "normalized": "s",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 117,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我是一名历史学者，我与同事一起调查了 251 位在 1970 年代从大学毕业的女工程师。",
+            "translationNatural": "作者是位历史学者，和同事一起访谈了 251 名七十年代毕业的女工程师。",
+            "structMarkup": "【I】 _am_ ~a historian~ {who, along with my colleagues, surveyed 251 women engineers} {who graduated from college in the 1970s}.",
+            "structureSummary": "主系表 + 定语从句（who 引导，含插入语与另一 who 定语从句）",
+            "components": [
+              {
+                "part": "I",
+                "role": "主语",
+                "note": "第一人称，交代研究者身份"
+              },
+              {
+                "part": "am",
+                "role": "系动词",
+                "note": "连接表语"
+              },
+              {
+                "part": "a historian",
+                "role": "表语",
+                "note": "后接 who 引导的定语从句"
+              },
+              {
+                "part": "who, along with my colleagues, surveyed 251 women engineers",
+                "role": "定语从句",
+                "note": "who 修饰 a historian；along with... 是插入语，不影响谓语用 surveyed"
+              },
+              {
+                "part": "who graduated from college in the 1970s",
+                "role": "定语从句",
+                "note": "第二个 who 修饰 251 women engineers，限定样本年代"
+              }
+            ],
+            "clauses": [
+              "定语从句「who, along with my colleagues, surveyed 251 women engineers」：who 修饰 a historian；along with... 是插入语，不影响谓语用 surveyed",
+              "定语从句「who graduated from college in the 1970s」：第二个 who 修饰 251 women engineers，限定样本年代"
+            ],
+            "phrases": [
+              {
+                "text": "along with",
+                "meaning": "连同、与……一起",
+                "usage": "作主语时谓语与前面的主语一致。",
+                "example": "Coffee, along with snacks, was served. 上了咖啡，还有点心。"
+              },
+              {
+                "text": "colleagues",
+                "meaning": "同事（colleague 的复数）",
+                "usage": "注意区分：colleague（同事）/ college（学院）。常见搭配：a colleague of mine / colleagues at work。",
+                "example": "She discussed it with colleagues. 她和同事讨论了这件事。"
+              },
+              {
+                "text": "surveyed",
+                "meaning": "调查（可数）/ 调查、审视（survey 的过去式/过去分词形式）",
+                "usage": "注意区分：surveyed（过去式/过去分词）/ survey（原形）。",
+                "example": "I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. 作者是位历史学者，和同事一起访谈了 251 名七十年代毕业的女工程师。"
+              }
+            ],
+            "pitfalls": [
+              "A along with B 作主语，谓语与 A 一致。",
+              "注意区分：colleague（同事）/ college（学院）。",
+              "注意区分：surveyed（过去式/过去分词）/ survey（原形）。"
+            ],
+            "paragraphRole": "交代研究身份与样本（251 位先行者），为后面大段直接引语建立来源。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 118,
+          "end": 222,
+          "text": "These pioneers reflected on the challenges they faced—and had advice for women entering the field today.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "These",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 14,
+              "surface": "pioneers",
+              "normalized": "pioneers",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 24,
+              "surface": "reflected",
+              "normalized": "reflected",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 31,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 42,
+              "surface": "challenges",
+              "normalized": "challenges",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 53,
+              "surface": "faced",
+              "normalized": "faced",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 54,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 61,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 68,
+              "surface": "advice",
+              "normalized": "advice",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 72,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 78,
+              "surface": "women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 87,
+              "surface": "entering",
+              "normalized": "entering",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 91,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 97,
+              "surface": "field",
+              "normalized": "field",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 103,
+              "surface": "today",
+              "normalized": "today",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 104,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这些先驱者回顾了她们所面对的挑战——并且对如今进入这一领域的女性有建议。",
+            "translationNatural": "这批开路的人既复盘了当年吃过的苦，也给今天入行的女生留了话。",
+            "structMarkup": "【These pioneers】 _reflected on_ ~the challenges they faced~—_and had advice for women entering the field today_.",
+            "structureSummary": "主谓宾（含省略关系代词的定语从句）+ 并列谓语 + 现在分词短语作后置定语",
+            "components": [
+              {
+                "part": "These pioneers",
+                "role": "主语",
+                "note": "回指上句的 251 women engineers，带敬意"
+              },
+              {
+                "part": "reflected on",
+                "role": "谓语",
+                "note": "reflect on 意为「回顾、反思」"
+              },
+              {
+                "part": "the challenges they faced",
+                "role": "宾语",
+                "note": "they faced 是省略关系代词的定语从句修饰 challenges"
+              },
+              {
+                "part": "and had advice for women entering the field today",
+                "role": "谓语",
+                "note": "破折号后并列谓语；entering the field today 作 women 的后置定语"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（含省略关系代词的定语从句）+ 并列谓语 + 现在分词短语作后置定语」。"
+            ],
+            "phrases": [
+              {
+                "text": "reflected",
+                "meaning": "反映、显示、体现；反射（光/热）；反思、深思（reflect on）（reflect 的过去式/过去分词形式）",
+                "usage": "注意区分：reflected（过去式/过去分词）/ reflect（原形）。",
+                "example": "These pioneers reflected on the challenges they faced—and had advice for women entering the field today. 这批开路的人既复盘了当年吃过的苦，也给今天入行的女生留了话。"
+              },
+              {
+                "text": "challenges",
+                "meaning": "挑战、难题（challenge 复数）；向…挑战、质疑（第三人称单数）",
+                "usage": "注意区分：challenge（挑战，可数；质疑，动词）/ face a challenge（面临挑战）/ challenge sb to do（向某人挑战做）/ challenging（有挑战性的，形容词）/ challenge 与 doubt（质疑观点用 challenge，怀疑真伪用 doubt）。",
+                "example": "These pioneers reflected on the challenges they faced—and had advice for women entering the field today. 这批开路的人既复盘了当年吃过的苦，也给今天入行的女生留了话。"
+              },
+              {
+                "text": "entering",
+                "meaning": "进入、加入、开始从事；输入、录入（本文 enter the field 进入该领域 / entering university 上大学 / enter adulthood 步入成年）（enter 的现在分词/动名词形式）",
+                "usage": "注意区分：entering（现在分词/动名词）/ enter（原形）。",
+                "example": "These pioneers reflected on the challenges they faced—and had advice for women entering the field today. 这批开路的人既复盘了当年吃过的苦，也给今天入行的女生留了话。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：reflected（过去式/过去分词）/ reflect（原形）。",
+              "注意区分：challenge（挑战，可数；质疑，动词）/ face a challenge（面临挑战）/ challenge sb to do（向某人挑战做）/ challenging（有挑战性的，形容词）/ challenge 与 doubt（质疑观点用 challenge，怀疑真伪用 doubt）。",
+              "注意区分：entering（现在分词/动名词）/ enter（原形）。"
+            ],
+            "paragraphRole": "预告下文结构：先讲挑战、再讲对后来人的建议，是全篇的提纲句。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 287,
+          "text": "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "One",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "surface": "survey",
+              "normalized": "survey",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "taker",
+              "normalized": "taker",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 26,
+              "surface": "explained",
+              "normalized": "explained",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 27,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 28,
+              "end": 29,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 41,
+              "surface": "greatest",
+              "normalized": "greatest",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 51,
+              "surface": "challenge",
+              "normalized": "challenge",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 55,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 58,
+              "surface": "me",
+              "normalized": "me",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 62,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 73,
+              "surface": "continuing",
+              "normalized": "continuing",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 84,
+              "surface": "believe",
+              "normalized": "believe",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 87,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 94,
+              "surface": "myself",
+              "normalized": "myself",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 95,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 96,
+              "end": 100,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 104,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 108,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 117,
+              "surface": "messages",
+              "normalized": "messages",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 119,
+              "surface": "I",
+              "normalized": "i",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 123,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 131,
+              "surface": "getting",
+              "normalized": "getting",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 136,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 141,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 143,
+              "surface": "I",
+              "normalized": "i",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 149,
+              "surface": "would",
+              "normalized": "would",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 155,
+              "surface": "never",
+              "normalized": "never",
+              "isWord": true
+            },
+            {
+              "start": 156,
+              "end": 158,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 164,
+              "surface": "taken",
+              "normalized": "taken",
+              "isWord": true
+            },
+            {
+              "start": 165,
+              "end": 174,
+              "surface": "seriously",
+              "normalized": "seriously",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 177,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 178,
+              "end": 186,
+              "surface": "promoted",
+              "normalized": "promoted",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 189,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 190,
+              "end": 195,
+              "surface": "given",
+              "normalized": "given",
+              "isWord": true
+            },
+            {
+              "start": 196,
+              "end": 202,
+              "surface": "raises",
+              "normalized": "raises",
+              "isWord": true
+            },
+            {
+              "start": 203,
+              "end": 205,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 206,
+              "end": 209,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 210,
+              "end": 214,
+              "surface": "same",
+              "normalized": "same",
+              "isWord": true
+            },
+            {
+              "start": 215,
+              "end": 219,
+              "surface": "rate",
+              "normalized": "rate",
+              "isWord": true
+            },
+            {
+              "start": 220,
+              "end": 222,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 223,
+              "end": 226,
+              "surface": "men",
+              "normalized": "men",
+              "isWord": true
+            },
+            {
+              "start": 226,
+              "end": 227,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 228,
+              "end": 231,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 232,
+              "end": 236,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 237,
+              "end": 244,
+              "surface": "clearly",
+              "normalized": "clearly",
+              "isWord": true
+            },
+            {
+              "start": 245,
+              "end": 249,
+              "surface": "less",
+              "normalized": "less",
+              "isWord": true
+            },
+            {
+              "start": 250,
+              "end": 259,
+              "surface": "qualified",
+              "normalized": "qualified",
+              "isWord": true
+            },
+            {
+              "start": 260,
+              "end": 263,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 264,
+              "end": 267,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 268,
+              "end": 270,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 271,
+              "end": 276,
+              "surface": "smart",
+              "normalized": "smart",
+              "isWord": true
+            },
+            {
+              "start": 277,
+              "end": 279,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 280,
+              "end": 281,
+              "surface": "I",
+              "normalized": "i",
+              "isWord": true
+            },
+            {
+              "start": 282,
+              "end": 285,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 285,
+              "end": 286,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 286,
+              "end": 287,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一位受访者解释道：「对我而言最大的挑战是在所有我接收到的信息都是我永远不会像男人那样被认真对待、被提拔或被以同等幅度加薪的情况下，继续相信我自己，而那些男人明显更不够格、也不如我聪明。」",
+            "translationNatural": "有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。",
+            "structMarkup": "One survey taker explained, \"~The greatest challenge for me was continuing to believe in myself~, {when all the messages I was getting were that I would never be taken seriously or promoted or given raises} at the same rate as men, {who were clearly less qualified and not as smart as I was}.\"",
+            "structureSummary": "主谓 + 直接引语（主系表 + 动名词作表语 + when 时间状语从句，内含 that 表语从句与 who 非限制性定语从句）",
+            "components": [
+              {
+                "part": "One survey taker explained",
+                "role": "主谓",
+                "note": "引出第一手证词"
+              },
+              {
+                "part": "The greatest challenge for me was continuing to believe in myself",
+                "role": "表语结构",
+                "note": "动名词短语 continuing... 作表语；for me 限定视角"
+              },
+              {
+                "part": "when all the messages I was getting were that I would never be taken seriously or promoted or given raises",
+                "role": "状语从句",
+                "note": "when 此处近于「在……的情况下」；that 引导表语从句，三个并列过去分词构成被动"
+              },
+              {
+                "part": "I was getting",
+                "role": "定语从句",
+                "note": "省略关系代词，修饰 all the messages"
+              },
+              {
+                "part": "who were clearly less qualified and not as smart as I was",
+                "role": "定语从句",
+                "note": "who 引导非限制性定语从句修饰 men；not as...as 比较结构"
+              }
+            ],
+            "clauses": [
+              "状语从句「when all the messages I was getting were that I would never be taken s」：when 此处近于「在……的情况下」；that 引导表语从句，三个并列过去分词构成被动",
+              "定语从句「I was getting」：省略关系代词，修饰 all the messages",
+              "定语从句「who were clearly less qualified and not as smart as I was」：who 引导非限制性定语从句修饰 men；not as...as 比较结构"
+            ],
+            "phrases": [
+              {
+                "text": "the same",
+                "meaning": "同样的",
+                "usage": "same 前通常有 the；the same as 表「与……相同」。",
+                "example": "The same thing happened last year. 去年也发生了同样的事。"
+              },
+              {
+                "text": "survey",
+                "meaning": "调查（可数）/ 调查、审视",
+                "usage": "注意区分：survey（调查）/ poll（民意调查）/ inspect（检查）。常见搭配：conduct a survey / a survey of。",
+                "example": "A survey of 290 employees found a gap. 一项针对 290 名员工的调查发现了差距。"
+              },
+              {
+                "text": "explained",
+                "meaning": "解释、说明、阐明；为…辩解（explain 的过去式/过去分词形式）",
+                "usage": "注意区分：explained（过去式/过去分词）/ explain（原形）。",
+                "example": "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+              }
+            ],
+            "pitfalls": [
+              "same 前一般要加 the；比较对象用 as 不用 with。",
+              "as...as 中间必须用原级，不能用比较级。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "第一份证词点出「自我怀疑」这一最痛的挑战，对应第 52 题。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 149,
+          "text": "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "A",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 10,
+              "surface": "chemical",
+              "normalized": "chemical",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 19,
+              "surface": "engineer",
+              "normalized": "engineer",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 23,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 30,
+              "surface": "worked",
+              "normalized": "worked",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 47,
+              "surface": "manufacturing",
+              "normalized": "manufacturing",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 54,
+              "surface": "agreed",
+              "normalized": "agreed",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 55,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "You",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 65,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 74,
+              "surface": "prove",
+              "normalized": "prove",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 83,
+              "surface": "yourself",
+              "normalized": "yourself",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 88,
+              "surface": "just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 96,
+              "surface": "because",
+              "normalized": "because",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 100,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 104,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 111,
+              "surface": "female",
+              "normalized": "female",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 112,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 113,
+              "end": 116,
+              "surface": "And",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 120,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 125,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 128,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 133,
+              "surface": "work",
+              "normalized": "work",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 139,
+              "surface": "twice",
+              "normalized": "twice",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 142,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 147,
+              "surface": "hard",
+              "normalized": "hard",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 148,
+              "surface": "!",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 148,
+              "end": 149,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一位在制造业工作的化学工程师同意道：「只因为你是女性，你就得证明自己。而且你得付出两倍的努力！」",
+            "translationNatural": "一位制造业的化学工程师附和：就因为是女的，你得先自证清白，还得比别人拼两倍。",
+            "structMarkup": "【A chemical engineer who worked in manufacturing】 _agreed_, \"You have to prove yourself (just because you are female). And you have to work twice as hard!\"",
+            "structureSummary": "主谓 + 定语从句（who 引导）+ 直接引语（两个并列主谓宾分句，含 because 原因状语从句）",
+            "components": [
+              {
+                "part": "A chemical engineer who worked in manufacturing",
+                "role": "主语",
+                "note": "who 引导定语从句，点明受访者的行业"
+              },
+              {
+                "part": "agreed",
+                "role": "谓语",
+                "note": "表示附和上一位的观点"
+              },
+              {
+                "part": "just because you are female",
+                "role": "状语",
+                "note": "because 引导原因；just 强调「仅仅因为性别」"
+              },
+              {
+                "part": "You have to prove yourself",
+                "role": "分句",
+                "note": "have to 表被迫；prove oneself 意为「证明自己的能力」"
+              },
+              {
+                "part": "And you have to work twice as hard",
+                "role": "分句",
+                "note": "twice as hard 是倍数比较，说明额外代价"
+              }
+            ],
+            "clauses": [
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "engineer",
+                "meaning": "工程师（可数）/ 设计、策划（动词）",
+                "usage": "注意区分：engineer（工程师）/ engineering（工程学）。常见搭配：a software engineer / engineer a solution。",
+                "example": "She works as an engineer. 她做工程师。"
+              },
+              {
+                "text": "worked",
+                "meaning": "工作；运转、奏效 / 工作、作品（work 的过去式/过去分词形式）",
+                "usage": "注意区分：worked（过去式/过去分词）/ work（原形）。",
+                "example": "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\" 一位制造业的化学工程师附和：就因为是女的，你得先自证清白，还得比别人拼两倍。"
+              },
+              {
+                "text": "agreed",
+                "meaning": "同意、赞成、意见一致；相符、一致（agree with/to/on）（agree 的过去式/过去分词形式）",
+                "usage": "注意区分：agreed（过去式/过去分词）/ agree（原形）。",
+                "example": "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\" 一位制造业的化学工程师附和：就因为是女的，你得先自证清白，还得比别人拼两倍。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "用第二份证词把「不公平」从心理层面推到工作量层面，强化第 52 题的语境。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" Another civil engineer stated, \"On many levels, you're never quite one of the groups.\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 171,
+          "text": "A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "A",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 7,
+              "surface": "civil",
+              "normalized": "civil",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 16,
+              "surface": "engineer",
+              "normalized": "engineer",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 22,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 23,
+              "end": 24,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "We",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 32,
+              "surface": "'",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 32,
+              "end": 37,
+              "surface": "women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 47,
+              "surface": "engineers",
+              "normalized": "engineers",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 48,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 48,
+              "end": 49,
+              "surface": "'",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 50,
+              "end": 56,
+              "surface": "People",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 62,
+              "surface": "don't",
+              "normalized": "don't",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 68,
+              "surface": "refer",
+              "normalized": "refer",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 71,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 73,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "man",
+              "normalized": "man",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 82,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 84,
+              "surface": "'",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 84,
+              "end": 87,
+              "surface": "man",
+              "normalized": "man",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 97,
+              "surface": "engineer'",
+              "normalized": "engineer",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 98,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 98,
+              "end": 102,
+              "surface": "he's",
+              "normalized": "he's",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 105,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 114,
+              "surface": "engineer",
+              "normalized": "engineer",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 115,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 116,
+              "end": 118,
+              "surface": "We",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 122,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 133,
+              "surface": "constantly",
+              "normalized": "constantly",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 142,
+              "surface": "reminded",
+              "normalized": "reminded",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 147,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 150,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 156,
+              "surface": "don't",
+              "normalized": "don't",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 162,
+              "surface": "truly",
+              "normalized": "truly",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 169,
+              "surface": "belong",
+              "normalized": "belong",
+              "isWord": true
+            },
+            {
+              "start": 169,
+              "end": 170,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 170,
+              "end": 171,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一位土木工程师说：「我们是『女工程师』。人们不会把一个男人称作『男工程师』——他就是工程师。我们被不断提醒我们并不真正属于这里。」",
+            "translationNatural": "一位土木工程师说：她们总被叫「女工程师」，可没人管男的叫「男工程师」，人家就是「工程师」；这种称呼时刻在提醒她们：你不算自己人。",
+            "structMarkup": "【A】 civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\"",
+            "structureSummary": "主谓 + 直接引语（三个分句，含破折号补充说明与 that 宾语从句的被动式）",
+            "components": [
+              {
+                "part": "A civil engineer said",
+                "role": "主谓",
+                "note": "引出第三份证词"
+              },
+              {
+                "part": "We are 'women engineers.'",
+                "role": "分句",
+                "note": "单引号标示被强加的标签，是「被区别对待」的语言证据"
+              },
+              {
+                "part": "People don't refer to a man as a 'man engineer'—he's an engineer",
+                "role": "分句",
+                "note": "refer to A as B 固定搭配；破折号后用简称形成对照"
+              },
+              {
+                "part": "We are constantly reminded that we don't truly belong",
+                "role": "分句",
+                "note": "被动语态 + that 宾语从句；constantly 对应第 53 题的 frequently"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓 + 直接引语（三个分句，含破折号补充说明与 that 宾语从句的被动式）」。"
+            ],
+            "phrases": [
+              {
+                "text": "refer to",
+                "meaning": "指的是；提及；参考",
+                "usage": "to 是介词，后接名词或动名词。",
+                "example": "The term refers to a habit. 这个术语指一种习惯。"
+              },
+              {
+                "text": "engineer",
+                "meaning": "工程师（可数）/ 设计、策划（动词）",
+                "usage": "注意区分：engineer（工程师）/ engineering（工程学）。常见搭配：a software engineer / engineer a solution。",
+                "example": "She works as an engineer. 她做工程师。"
+              },
+              {
+                "text": "engineers",
+                "meaning": "工程师（可数）/ 设计、策划（动词）（engineer 的复数/三单形式）",
+                "usage": "注意区分：engineers（复数/三单）/ engineer（原形）。",
+                "example": "A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" 一位土木工程师说：她们总被叫「女工程师」，可没人管男的叫「男工程师」，人家就是「工程师」；这种称呼时刻在提醒她们：你不算自己人。"
+              }
+            ],
+            "pitfalls": [
+              "refer to 中 to 是介词，后接动名词。",
+              "注意区分：engineer（工程师）/ engineering（工程学）。",
+              "注意区分：engineers（复数/三单）/ engineer（原形）。"
+            ],
+            "paragraphRole": "第一位土木工程师点破「不属于」感，是第 53 题的核心依据。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 172,
+          "end": 258,
+          "text": "Another civil engineer stated, \"On many levels, you're never quite one of the groups.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "Another",
+              "normalized": "another",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 13,
+              "surface": "civil",
+              "normalized": "civil",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 22,
+              "surface": "engineer",
+              "normalized": "engineer",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 29,
+              "surface": "stated",
+              "normalized": "stated",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 30,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 31,
+              "end": 32,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "On",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 46,
+              "surface": "levels",
+              "normalized": "levels",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 48,
+              "end": 54,
+              "surface": "you're",
+              "normalized": "you're",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 60,
+              "surface": "never",
+              "normalized": "never",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 66,
+              "surface": "quite",
+              "normalized": "quite",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "one",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 84,
+              "surface": "groups",
+              "normalized": "groups",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 85,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 85,
+              "end": 86,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "另一位土木工程师陈述道：「在许多层面上，你从来都不太算这些群体中的一员。」",
+            "translationNatural": "另一位土木工程师补了一句：不管从哪头看，你始终融不进那个圈子。",
+            "structMarkup": "Another civil engineer stated, \"(On many levels), _you're never quite_ ~one of the groups~.\"",
+            "structureSummary": "主谓 + 直接引语（主系表 + 状语）",
+            "components": [
+              {
+                "part": "Another civil engineer stated",
+                "role": "主谓",
+                "note": "与上句并列，第二位同行业受访者"
+              },
+              {
+                "part": "On many levels",
+                "role": "状语",
+                "note": "意为「在多个层面」，把排斥感说得比上句更宽"
+              },
+              {
+                "part": "you're never quite",
+                "role": "系动词",
+                "note": "you are 的缩写；quite 与 never 配合，表示「始终算不上」"
+              },
+              {
+                "part": "one of the groups",
+                "role": "表语",
+                "note": "one of + 复数名词，意为「其中一员」"
+              }
+            ],
+            "clauses": [
+              "含否定或半否定成分；若置于句首，主句须部分倒装。",
+              "本句主干为「主谓 + 直接引语（主系表 + 状语）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "engineer",
+                "meaning": "工程师（可数）/ 设计、策划（动词）",
+                "usage": "注意区分：engineer（工程师）/ engineering（工程学）。常见搭配：a software engineer / engineer a solution。",
+                "example": "She works as an engineer. 她做工程师。"
+              },
+              {
+                "text": "stated",
+                "meaning": "状态、状况、情形；国家、州、政府；陈述、说明、规定；州的、国事的（state 的过去式/过去分词形式）",
+                "usage": "注意区分：stated（过去式/过去分词）/ state（原形）。",
+                "example": "Another civil engineer stated, \"On many levels, you're never quite one of the groups.\" 另一位土木工程师补了一句：不管从哪头看，你始终融不进那个圈子。"
+              },
+              {
+                "text": "levels",
+                "meaning": "水平、程度、级别、层次；平的、同高度的；弄平、使持平（level 的复数/三单形式）",
+                "usage": "注意区分：levels（复数/三单）/ level（原形）。",
+                "example": "Another civil engineer stated, \"On many levels, you're never quite one of the groups.\" 另一位土木工程师补了一句：不管从哪头看，你始终融不进那个圈子。"
+              }
+            ],
+            "pitfalls": [
+              "否定副词置于句首时主句要部分倒装（助动词提前）。",
+              "注意区分：engineer（工程师）/ engineering（工程学）。",
+              "注意区分：stated（过去式/过去分词）/ state（原形）。"
+            ],
+            "paragraphRole": "第二位土木工程师把「被排除」再确认一遍，与上一句合起来坐实第 53 题的 B 项。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "text": "Women also talked about family caregiving responsibilities. A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 59,
+          "text": "Women also talked about family caregiving responsibilities.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 17,
+              "surface": "talked",
+              "normalized": "talked",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 23,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 30,
+              "surface": "family",
+              "normalized": "family",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 41,
+              "surface": "caregiving",
+              "normalized": "caregiving",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 58,
+              "surface": "responsibilities",
+              "normalized": "responsibilities",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 59,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "女性们也谈到了家庭照护责任。",
+            "translationNatural": "受访者还提到另一重担子：家里照护老小的活儿。",
+            "structMarkup": "【Women】 _also talked about_ ~family caregiving responsibilities~.",
+            "structureSummary": "主谓宾 + 状语",
+            "components": [
+              {
+                "part": "Women",
+                "role": "主语",
+                "note": "回指受访的女工程师群体"
+              },
+              {
+                "part": "also talked about",
+                "role": "谓语",
+                "note": "also 表示追加一类挑战；talk about 后接名词宾语"
+              },
+              {
+                "part": "family caregiving responsibilities",
+                "role": "宾语",
+                "note": "caregiving 作前置定语，点明责任落在家庭照护"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "talked about",
+                "meaning": "talk 的过去式/过去分词（谈话）",
+                "usage": "注意区分：talked（过去式）/ talking（现在分词）。常见搭配：talked about / talked with。",
+                "example": "They talked about the change. 他们谈论了这一变化。"
+              },
+              {
+                "text": "family",
+                "meaning": "家庭、家人、子女；家族、族；科（生物分类）",
+                "usage": "注意区分：family（家庭，集合名词：强调整体用单数谓语，强调成员英式常用复数）/ home（家，住所与情感）/ house（房子，建筑）/ household（一户，统计用语）/ start a family（生养孩子）。",
+                "example": "Women also talked about family caregiving responsibilities. 受访者还提到另一重担子：家里照护老小的活儿。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：talked（过去式）/ talking（现在分词）。",
+              "注意区分：family（家庭，集合名词：强调整体用单数谓语，强调成员英式常用复数）/ home（家，住所与情感）/ house（房子，建筑）/ household（一户，统计用语）/ start a family（生养孩子）。"
+            ],
+            "paragraphRole": "从职场偏见转到家庭分工，拓宽「挑战」的清单。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 60,
+          "end": 315,
+          "text": "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "A",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 9,
+              "surface": "retired",
+              "normalized": "retired",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "vice",
+              "normalized": "vice",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 24,
+              "surface": "president",
+              "normalized": "president",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 37,
+              "surface": "major",
+              "normalized": "major",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 46,
+              "surface": "chemical",
+              "normalized": "chemical",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 54,
+              "surface": "company",
+              "normalized": "company",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 61,
+              "surface": "stated",
+              "normalized": "stated",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 63,
+              "end": 64,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 64,
+              "end": 69,
+              "surface": "Young",
+              "normalized": "young",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "surface": "women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 85,
+              "surface": "engineers",
+              "normalized": "engineers",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 89,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 95,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 101,
+              "surface": "equal",
+              "normalized": "equal",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 109,
+              "surface": "footing",
+              "normalized": "footing",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 115,
+              "surface": "until",
+              "normalized": "until",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 120,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 125,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 134,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 135,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 136,
+              "end": 140,
+              "surface": "then",
+              "normalized": "then",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 145,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 154,
+              "surface": "struggle",
+              "normalized": "struggle",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 157,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 158,
+              "end": 165,
+              "surface": "balance",
+              "normalized": "balance",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 170,
+              "surface": "work",
+              "normalized": "work",
+              "isWord": true
+            },
+            {
+              "start": 171,
+              "end": 174,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 181,
+              "surface": "family",
+              "normalized": "family",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 182,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 182,
+              "end": 185,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 186,
+              "end": 193,
+              "surface": "compete",
+              "normalized": "compete",
+              "isWord": true
+            },
+            {
+              "start": 194,
+              "end": 198,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 199,
+              "end": 202,
+              "surface": "men",
+              "normalized": "men",
+              "isWord": true
+            },
+            {
+              "start": 203,
+              "end": 206,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 207,
+              "end": 212,
+              "surface": "don't",
+              "normalized": "don't",
+              "isWord": true
+            },
+            {
+              "start": 213,
+              "end": 217,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 218,
+              "end": 221,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 222,
+              "end": 226,
+              "surface": "same",
+              "normalized": "same",
+              "isWord": true
+            },
+            {
+              "start": 227,
+              "end": 236,
+              "surface": "household",
+              "normalized": "household",
+              "isWord": true
+            },
+            {
+              "start": 237,
+              "end": 253,
+              "surface": "responsibilities",
+              "normalized": "responsibilities",
+              "isWord": true
+            },
+            {
+              "start": 253,
+              "end": 254,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 254,
+              "end": 255,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一家大型化工公司的退休副总裁陈述道：「年轻女工程师在生孩子之前是处于平等地位的，之后她们就得费力平衡工作与家庭——并且与那些没有同样家务责任的男人竞争。」",
+            "translationNatural": "某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。",
+            "structMarkup": "【A retired vice president from a major chemical company】 _stated_, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men {who don't have the same household responsibilities}.\"",
+            "structureSummary": "主谓 + 直接引语（时间状语从句 until + 主句 + 破折号并列谓语，含 who 定语从句）",
+            "components": [
+              {
+                "part": "A retired vice president from a major chemical company",
+                "role": "主语",
+                "note": "核心词 vice president，from... 作后置定语，身份含资历分量"
+              },
+              {
+                "part": "stated",
+                "role": "谓语",
+                "note": "正式引述动词"
+              },
+              {
+                "part": "Young women engineers are on an equal footing until they have children",
+                "role": "分句",
+                "note": "on an equal footing 意为「地位平等」；until 划出转折点"
+              },
+              {
+                "part": "then they struggle to balance work and family—and compete with men",
+                "role": "分句",
+                "note": "破折号后补出第二重压力；struggle to do 表吃力"
+              },
+              {
+                "part": "who don't have the same household responsibilities",
+                "role": "定语从句",
+                "note": "who 修饰 men，用对照把不平等点明"
+              }
+            ],
+            "clauses": [
+              "定语从句「who don't have the same household responsibilities」：who 修饰 men，用对照把不平等点明",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "the same",
+                "meaning": "同样的",
+                "usage": "same 前通常有 the；the same as 表「与……相同」。",
+                "example": "The same thing happened last year. 去年也发生了同样的事。"
+              },
+              {
+                "text": "major",
+                "meaning": "主要的（形容词）；专业（名词）；主修（动词）",
+                "usage": "注意区分：major（主要的/主修）/ majority（多数）/ minor（次要的）。常见搭配：a major change / major in。",
+                "example": "A major shift is under way. 一场重大转变正在发生。"
+              },
+              {
+                "text": "company",
+                "meaning": "公司（可数）；陪伴（不可数）",
+                "usage": "注意区分：company（公司/陪伴）/ companion（同伴）。常见搭配：a tech company / in the company of。",
+                "example": "The company changed its leave policy. 该公司修改了休假政策。"
+              }
+            ],
+            "pitfalls": [
+              "same 前一般要加 the；比较对象用 as 不用 with。",
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "把「家庭责任」具体化为生育后的分水岭，解释女性处境为何在中途掉队。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "text": "But over the years things have changed a lot. Young women engineers are more accepted mostly because there are just more of them.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 45,
+          "text": "But over the years things have changed a lot.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 18,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "surface": "things",
+              "normalized": "things",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 38,
+              "surface": "changed",
+              "normalized": "changed",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 40,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "lot",
+              "normalized": "lot",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 45,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但这些年间事情已经改变了很多。",
+            "translationNatural": "不过这么多年下来，情况到底变了不少。",
+            "structMarkup": "(But) (over the years) 【things】 _have changed a lot_.",
+            "structureSummary": "主谓 + 状语",
+            "components": [
+              {
+                "part": "But",
+                "role": "状语",
+                "note": "全文由「诉苦」转向「改观」的枢纽"
+              },
+              {
+                "part": "over the years",
+                "role": "状语",
+                "note": "时间跨度状语，呼应开篇 Fifty years ago"
+              },
+              {
+                "part": "things",
+                "role": "主语",
+                "note": "笼统指代行业氛围"
+              },
+              {
+                "part": "have changed a lot",
+                "role": "谓语",
+                "note": "现在完成时；a lot 说明变化幅度"
+              }
+            ],
+            "clauses": [
+              "have + 过去分词构成完成时态，强调对现在的影响或动作的先后。",
+              "本句主干为「主谓 + 状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "years",
+                "meaning": "年、年份；岁数、年纪（year 的复数）",
+                "usage": "注意区分：year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）。",
+                "example": "But over the years things have changed a lot. 不过这么多年下来，情况到底变了不少。"
+              },
+              {
+                "text": "things",
+                "meaning": "事情、东西（thing 的复数）",
+                "usage": "注意区分：things（事情/东西）/ stuff（东西，不可数，口语）。常见搭配：all things considered / the thing is。",
+                "example": "They have to do all these things first. 他们必须先做所有这些事。"
+              }
+            ],
+            "pitfalls": [
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。",
+              "注意区分：year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）。",
+              "注意区分：things（事情/东西）/ stuff（东西，不可数，口语）。"
+            ],
+            "paragraphRole": "一句转折收住前面大段困境，开启结尾的积极面。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 46,
+          "end": 129,
+          "text": "Young women engineers are more accepted mostly because there are just more of them.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Young",
+              "normalized": "young",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "surface": "women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 21,
+              "surface": "engineers",
+              "normalized": "engineers",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 39,
+              "surface": "accepted",
+              "normalized": "accepted",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 46,
+              "surface": "mostly",
+              "normalized": "mostly",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 54,
+              "surface": "because",
+              "normalized": "because",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 60,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 64,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 69,
+              "surface": "just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 74,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 77,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 83,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "年轻女工程师被更多接纳，主要因为只是她们的人数更多了。",
+            "translationNatural": "如今年轻女工程师更容易被接纳，说到底就一个原因：人多了。",
+            "structMarkup": "【Young women engineers】 _are more accepted_ {mostly because there are just more of them}.",
+            "structureSummary": "主系表（被动）+ 原因状语从句（because 引导）",
+            "components": [
+              {
+                "part": "Young women engineers",
+                "role": "主语",
+                "note": "复数主语，被动用 are accepted"
+              },
+              {
+                "part": "are more accepted",
+                "role": "谓语",
+                "note": "被动语态 + 比较级，与前文「不被当自己人」对照"
+              },
+              {
+                "part": "mostly because there are just more of them",
+                "role": "状语从句",
+                "note": "mostly 把原因收窄到一条；there are more of them 正是第 54 题 increase in their number 的依据"
+              }
+            ],
+            "clauses": [
+              "状语从句「mostly because there are just more of them」：mostly 把原因收窄到一条；there are more of them 正是第 54 题 increase in their number 的依据",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。"
+            ],
+            "phrases": [
+              {
+                "text": "engineers",
+                "meaning": "工程师（可数）/ 设计、策划（动词）（engineer 的复数/三单形式）",
+                "usage": "注意区分：engineers（复数/三单）/ engineer（原形）。",
+                "example": "Young women engineers are more accepted mostly because there are just more of them. 如今年轻女工程师更容易被接纳，说到底就一个原因：人多了。"
+              },
+              {
+                "text": "Young",
+                "meaning": "年轻的、幼小的；青年的（本文指年轻人 / 年轻时）",
+                "usage": "本句中作adj.，可按「主系表（被动）+ 原因状语从句（because 引导）」定位它在句中的位置。",
+                "example": "Young women engineers are more accepted mostly because there are just more of them. 如今年轻女工程师更容易被接纳，说到底就一个原因：人多了。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "because 引导从句，because of 后只能接名词；两者不能混用。"
+            ],
+            "paragraphRole": "给出「改观」的唯一原因，直接对应第 54 题。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "text": "Many women engineers hailed the benefits of their chosen career. A program manager in manufacturing stated that engineering is the best degree. A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 64,
+          "text": "Many women engineers hailed the benefits of their chosen career.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 20,
+              "surface": "engineers",
+              "normalized": "engineers",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 27,
+              "surface": "hailed",
+              "normalized": "hailed",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 31,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 40,
+              "surface": "benefits",
+              "normalized": "benefits",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 43,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 56,
+              "surface": "chosen",
+              "normalized": "chosen",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 63,
+              "surface": "career",
+              "normalized": "career",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 64,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "许多女工程师称赞了她们所选职业的好处。",
+            "translationNatural": "不少女工程师反倒细数起这行的好处来。",
+            "structMarkup": "【Many women engineers】 _hailed_ ~the benefits of their chosen career~.",
+            "structureSummary": "主谓宾",
+            "components": [
+              {
+                "part": "Many women engineers",
+                "role": "主语",
+                "note": "复数主语，谓语用过去式 hailed"
+              },
+              {
+                "part": "hailed",
+                "role": "谓语",
+                "note": "hail 此处意为「盛赞、称道」，语气积极"
+              },
+              {
+                "part": "the benefits of their chosen career",
+                "role": "宾语",
+                "note": "chosen 是过去分词作定语，呼应第 55 题 chosen career"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾」。"
+            ],
+            "phrases": [
+              {
+                "text": "engineers",
+                "meaning": "工程师（可数）/ 设计、策划（动词）（engineer 的复数/三单形式）",
+                "usage": "注意区分：engineers（复数/三单）/ engineer（原形）。",
+                "example": "Many women engineers hailed the benefits of their chosen career. 不少女工程师反倒细数起这行的好处来。"
+              },
+              {
+                "text": "the benefits of",
+                "meaning": "好处、益处（benefit 的复数）；福利待遇",
+                "usage": "注意区分：benefits（好处/福利）/ benefit（单数或动词）。常见搭配：the benefits of / employee benefits。",
+                "example": "The benefits of multitasking are clear. 多任务处理的好处很明显。"
+              },
+              {
+                "text": "career",
+                "meaning": "职业、事业、职业生涯；一生的事业",
+                "usage": "注意区分：career（事业、职业生涯，强调长期发展轨迹，可数）/ job（一份具体工作，可数）/ work（工作，不可数）/ profession（须受专业训练的职业）/ vocation（天职，使命感强）。",
+                "example": "Many women engineers hailed the benefits of their chosen career. 不少女工程师反倒细数起这行的好处来。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：engineers（复数/三单）/ engineer（原形）。",
+              "注意区分：benefits（好处/福利）/ benefit（单数或动词）。",
+              "注意区分：career（事业、职业生涯，强调长期发展轨迹，可数）/ job（一份具体工作，可数）/ work（工作，不可数）/ profession（须受专业训练的职业）/ vocation（天职，使命感强）。"
+            ],
+            "paragraphRole": "把结尾基调从「困境」翻到「职业认同」，为第 55 题定调。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 65,
+          "end": 143,
+          "text": "A program manager in manufacturing stated that engineering is the best degree.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "A",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 9,
+              "surface": "program",
+              "normalized": "program",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 17,
+              "surface": "manager",
+              "normalized": "manager",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 20,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 34,
+              "surface": "manufacturing",
+              "normalized": "manufacturing",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 41,
+              "surface": "stated",
+              "normalized": "stated",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 58,
+              "surface": "engineering",
+              "normalized": "engineering",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 61,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 65,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 70,
+              "surface": "best",
+              "normalized": "best",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 77,
+              "surface": "degree",
+              "normalized": "degree",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 78,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一位制造业的项目经理陈述说工程是最好的学位。",
+            "translationNatural": "一位制造业项目经理干脆说：工科是最值钱的学位。",
+            "structMarkup": "【A program manager in manufacturing】 _stated_ {that engineering is the best degree}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导）",
+            "components": [
+              {
+                "part": "A program manager in manufacturing",
+                "role": "主语",
+                "note": "in manufacturing 作后置定语"
+              },
+              {
+                "part": "stated",
+                "role": "谓语",
+                "note": "后接 that 从句"
+              },
+              {
+                "part": "that engineering is the best degree",
+                "role": "宾语从句",
+                "note": "最高级 the best 直接表达对专业的自豪"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that engineering is the best degree」：最高级 the best 直接表达对专业的自豪",
+              "本句主干为「主谓 + 宾语从句（that 引导）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "program",
+                "meaning": "计划、节目（美式拼写）；编程",
+                "usage": "注意区分：program（美式）/ programme（英式）。常见搭配：a research program / training program。",
+                "example": "The program helps new parents. 该项目帮助新手父母。"
+              },
+              {
+                "text": "stated",
+                "meaning": "状态、状况、情形；国家、州、政府；陈述、说明、规定；州的、国事的（state 的过去式/过去分词形式）",
+                "usage": "注意区分：stated（过去式/过去分词）/ state（原形）。",
+                "example": "A program manager in manufacturing stated that engineering is the best degree. 一位制造业项目经理干脆说：工科是最值钱的学位。"
+              },
+              {
+                "text": "engineering",
+                "meaning": "工程、工程学（不可数）",
+                "usage": "注意区分：engineering（工程学）/ engineer（工程师）。常见搭配：software engineering / an engineering degree。",
+                "example": "She studied engineering at university. 她在大学学工程。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：program（美式）/ programme（英式）。",
+              "注意区分：stated（过去式/过去分词）/ state（原形）。",
+              "注意区分：engineering（工程学）/ engineer（工程师）。"
+            ],
+            "paragraphRole": "第一句正面评价，替「自豪」给出具体说法。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 144,
+          "end": 293,
+          "text": "A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "A",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 12,
+              "surface": "mechanical",
+              "normalized": "mechanical",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 21,
+              "surface": "engineer",
+              "normalized": "engineer",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 27,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 28,
+              "end": 29,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 29,
+              "end": 31,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 36,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "give",
+              "normalized": "give",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 49,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 61,
+              "surface": "flexibility",
+              "normalized": "flexibility",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 64,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 74,
+              "surface": "almost",
+              "normalized": "almost",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 83,
+              "surface": "anything",
+              "normalized": "anything",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 84,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 85,
+              "end": 87,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 95,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 106,
+              "surface": "satisfying",
+              "normalized": "satisfying",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 109,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 113,
+              "surface": "see",
+              "normalized": "see",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 117,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 125,
+              "surface": "effects",
+              "normalized": "effects",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 128,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 133,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 137,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 142,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 147,
+              "surface": "done",
+              "normalized": "done",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 148,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 148,
+              "end": 149,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一位机械工程师说：「它会给你去做几乎任何事的灵活性。看到你所做之事的效果也是令人满足的。」",
+            "translationNatural": "一位机械工程师说：这行能让你几乎什么都能干；而且看着自己做的东西真起了作用，特别有成就感。",
+            "structMarkup": "A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying (to see the effects of what you have done).\"",
+            "structureSummary": "主谓 + 直接引语（两个分句：主谓宾 + it 形式主语句，含 what 宾语从句）",
+            "components": [
+              {
+                "part": "A mechanical engineer said",
+                "role": "主谓",
+                "note": "引出第 55 题所问的那位机械工程师"
+              },
+              {
+                "part": "It will give you the flexibility to do almost anything",
+                "role": "分句",
+                "note": "give sb sth 双宾；to do almost anything 作 flexibility 的后置定语"
+              },
+              {
+                "part": "It is also satisfying",
+                "role": "分句",
+                "note": "it 是形式主语，真正主语是后面的不定式"
+              },
+              {
+                "part": "to see the effects of what you have done",
+                "role": "补语",
+                "note": "what you have done 是宾语从句，作 of 的宾语；satisfying 与 hailed the benefits 呼应"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓 + 直接引语（两个分句：主谓宾 + it 形式主语句，含 what 宾语从句）」。"
+            ],
+            "phrases": [
+              {
+                "text": "engineer",
+                "meaning": "工程师（可数）/ 设计、策划（动词）",
+                "usage": "注意区分：engineer（工程师）/ engineering（工程学）。常见搭配：a software engineer / engineer a solution。",
+                "example": "She works as an engineer. 她做工程师。"
+              },
+              {
+                "text": "flexibility",
+                "meaning": "灵活性（不可数）",
+                "usage": "注意区分：flexibility（灵活性）/ flexible（灵活的）。常见搭配：flexibility in / job flexibility。",
+                "example": "Flexibility at work helps parents. 工作中的灵活性对父母有帮助。"
+              },
+              {
+                "text": "anything",
+                "meaning": "任何事物（否定/疑问句常用）",
+                "usage": "注意区分：anything（任何事）/ something（某事）/ nothing（没有）。常见搭配：anything else / not anything。",
+                "example": "They rarely share anything personal. 他们很少分享私事。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：engineer（工程师）/ engineering（工程学）。",
+              "注意区分：flexibility（灵活性）/ flexible（灵活的）。",
+              "注意区分：anything（任何事）/ something（某事）/ nothing（没有）。"
+            ],
+            "paragraphRole": "以「灵活 + 有成就感」收束全部证词，正是第 55 题「对所选职业深感自豪」的依据。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 51,
+      "stem": "What does the passage say about the engineering profession in the United States?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It has seen a change in attitude towards women engineers since 1979."
+        },
+        {
+          "key": "B",
+          "text": "It witnessed a significant increase in women engineers in the 1970s."
+        },
+        {
+          "key": "C",
+          "text": "It has experienced the gradual weakening of male dominance."
+        },
+        {
+          "key": "D",
+          "text": "It boasted the largest number of engineering majors in 2000."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 52,
+      "stem": "What does one survey taker say was her greatest challenge?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Not to feel superior to less qualified male engineers."
+        },
+        {
+          "key": "B",
+          "text": "Not to take seriously all the messages she was getting."
+        },
+        {
+          "key": "C",
+          "text": "Not to think highly of her qualifications when promoted or given a pay raise."
+        },
+        {
+          "key": "D",
+          "text": "Not to lose self-confidence though constantly discouraged or unfairly treated."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 53,
+      "stem": "How do women engineers frequently feel according to the two civil engineers?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Disqualified on many levels."
+        },
+        {
+          "key": "B",
+          "text": "Excluded from the group."
+        },
+        {
+          "key": "C",
+          "text": "Overworked by their organizations."
+        },
+        {
+          "key": "D",
+          "text": "Looked down upon by male colleagues."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 54,
+      "stem": "What probably makes young women engineers more accepted nowadays?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Their success in gaining an equal footing."
+        },
+        {
+          "key": "B",
+          "text": "Their ability to balance work and family."
+        },
+        {
+          "key": "C",
+          "text": "The change in their responsibilities."
+        },
+        {
+          "key": "D",
+          "text": "The increase in their number."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 55,
+      "stem": "What can we conclude about many female engineers from the statement of a mechanical engineer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They take great pride in their chosen career."
+        },
+        {
+          "key": "B",
+          "text": "They have reaped the benefits of being flexible."
+        },
+        {
+          "key": "C",
+          "text": "They enjoy doing engineering to the best degree."
+        },
+        {
+          "key": "D",
+          "text": "They have proved capable of doing almost anything."
+        }
+      ],
+      "answer": "A"
+    }
+  ],
+  "lexicon": {
+    "accepted": {
+      "phonetic": "/əkˈseptɪd/",
+      "pos": "v.",
+      "sense": "接受、收下、认可、承认（accept 的过去式/过去分词；be accepted 被接纳 / 被录用 / 被认可）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "accepted mostly"
+      ],
+      "examples": [
+        "Young women engineers are more accepted mostly because there are just more of them. 如今年轻女工程师更容易被接纳，说到底就一个原因：人多了。"
+      ]
+    },
+    "advice": {
+      "phonetic": "/ədˈvaɪs/",
+      "pos": "n.",
+      "sense": "建议、劝告、忠告（不可数；a piece of advice 一条建议；advise 是动词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "advice for",
+        "advice for women"
+      ],
+      "examples": [
+        "These pioneers reflected on the challenges they faced—and had advice for women entering the field today. 这批开路的人既复盘了当年吃过的苦，也给今天入行的女生留了话。"
+      ],
+      "more": {
+        "confusables": "advice / adviser（同族不同词形，注意词性与用法）"
+      }
+    },
+    "agreed": {
+      "phonetic": "/əˈɡriːd/",
+      "pos": "v.",
+      "sense": "同意、赞成、意见一致；相符、一致（agree with/to/on）（agree 的过去式/过去分词形式）",
+      "lemma": "agree",
+      "collocations": [
+        "manufacturing agreed"
+      ],
+      "examples": [
+        "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\" 一位制造业的化学工程师附和：就因为是女的，你得先自证清白，还得比别人拼两倍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "agree + -d（过去式/过去分词）",
+        "confusables": "agreed（过去式/过去分词）/ agree（原形）"
+      }
+    },
+    "almost": {
+      "phonetic": "/ˈɔːlməʊst/",
+      "pos": "adv.",
+      "sense": "几乎、差不多",
+      "collocations": [
+        "almost anything"
+      ],
+      "examples": [
+        "A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\" 一位机械工程师说：这行能让你几乎什么都能干；而且看着自己做的东西真起了作用，特别有成就感。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "along": {
+      "phonetic": "/əˈlɒŋ/",
+      "pos": "prep./adv.",
+      "sense": "沿着、顺着；一起、向前",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "along with"
+      ],
+      "examples": [
+        "I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. 作者是位历史学者，和同事一起访谈了 251 名七十年代毕业的女工程师。"
+      ],
+      "more": {
+        "confusables": "along / alongside（同族不同词形，注意词性与用法）"
+      }
+    },
+    "anything": {
+      "phonetic": "/ˈeniθɪŋ/",
+      "pos": "pron.",
+      "sense": "任何事物（否定/疑问句常用）",
+      "collocations": [
+        "anything else",
+        "not anything",
+        "anything but"
+      ],
+      "examples": [
+        "They rarely share anything personal. 他们很少分享私事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "anything（任何事）/ something（某事）/ nothing（没有）"
+      }
+    },
+    "balance": {
+      "phonetic": "/ˈbæləns/",
+      "pos": "n./v.",
+      "sense": "平衡、均衡；天平、结余；使平衡、权衡（本文 work-life balance 工作与生活的平衡 / balance work and family）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "balance work",
+        "struggle to balance"
+      ],
+      "examples": [
+        "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\" 某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。"
+      ],
+      "more": {
+        "roots": "balance 含 -ance / -ence（名词后缀，表行为或状态）"
+      }
+    },
+    "believe": {
+      "phonetic": "/bɪˈliːv/",
+      "pos": "v.",
+      "sense": "相信、认为",
+      "collocations": [
+        "believe in",
+        "believe that"
+      ],
+      "examples": [
+        "I believe he is right. 我认为他是对的。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "belong": {
+      "phonetic": "/bɪˈlɒŋ/",
+      "pos": "v.",
+      "sense": "属于、为…所有；应在（某处）、合得来（belong to 属于；belong in 适合置于）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "truly belong"
+      ],
+      "examples": [
+        "A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" 一位土木工程师说：她们总被叫「女工程师」，可没人管男的叫「男工程师」，人家就是「工程师」；这种称呼时刻在提醒她们：你不算自己人。"
+      ],
+      "more": {
+        "confusables": "belong / belonging / below（同族不同词形，注意词性与用法）"
+      }
+    },
+    "benefits": {
+      "phonetic": "/ˈbenɪfɪts/",
+      "pos": "n.",
+      "sense": "好处、益处（benefit 的复数）；福利待遇",
+      "lemma": "benefit",
+      "collocations": [
+        "the benefits of",
+        "employee benefits",
+        "for the benefit of"
+      ],
+      "examples": [
+        "The benefits of multitasking are clear. 多任务处理的好处很明显。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "benefits（好处/福利）/ benefit（单数或动词）"
+      }
+    },
+    "best": {
+      "phonetic": "/best/",
+      "pos": "adj./adv./n.",
+      "sense": "最好的（good/well 的最高级）；最、最好地；最好的人或物",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "best degree"
+      ],
+      "examples": [
+        "A program manager in manufacturing stated that engineering is the best degree. 一位制造业项目经理干脆说：工科是最值钱的学位。"
+      ],
+      "more": {
+        "confusables": "best / best-selling（同族不同词形，注意词性与用法）"
+      }
+    },
+    "career": {
+      "phonetic": "/kəˈrɪə(r)/",
+      "pos": "n.",
+      "sense": "职业、事业、职业生涯；一生的事业",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "career（事业、职业生涯，强调长期发展轨迹，可数）/ job（一份具体工作，可数）/ work（工作，不可数）/ profession（须受专业训练的职业）/ vocation（天职，使命感强）"
+      },
+      "collocations": [
+        "chosen career"
+      ],
+      "examples": [
+        "Many women engineers hailed the benefits of their chosen career. 不少女工程师反倒细数起这行的好处来。"
+      ]
+    },
+    "caregiving": {
+      "phonetic": "/ˈkeəɡɪvɪŋ/",
+      "pos": "n./adj.",
+      "sense": "照料、看护（老人 / 病患 / 幼儿）；照护的（caregiver 照护者）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "family caregiving",
+        "caregiving responsibilities"
+      ],
+      "examples": [
+        "Women also talked about family caregiving responsibilities. 受访者还提到另一重担子：家里照护老小的活儿。"
+      ]
+    },
+    "challenge": {
+      "phonetic": "/ˈtʃælɪndʒ/",
+      "pos": "n./v.",
+      "sense": "挑战、难题、考验；质疑、向…挑战（face a challenge 面临挑战；challenge a view 质疑某观点）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "greatest challenge",
+        "challenge for"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "more": {
+        "confusables": "challenge / challenges / challenging（同族不同词形，注意词性与用法）"
+      }
+    },
+    "challenges": {
+      "phonetic": "/ˈtʃælɪndʒɪz/",
+      "pos": "n./v.",
+      "sense": "挑战、难题（challenge 复数）；向…挑战、质疑（第三人称单数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "challenge（挑战）+ -s（复数/第三人称单数）",
+        "confusables": "challenge（挑战，可数；质疑，动词）/ face a challenge（面临挑战）/ challenge sb to do（向某人挑战做）/ challenging（有挑战性的，形容词）/ challenge 与 doubt（质疑观点用 challenge，怀疑真伪用 doubt）"
+      },
+      "collocations": [],
+      "examples": [
+        "These pioneers reflected on the challenges they faced—and had advice for women entering the field today. 这批开路的人既复盘了当年吃过的苦，也给今天入行的女生留了话。"
+      ]
+    },
+    "change": {
+      "phonetic": "/tʃeɪndʒ/",
+      "pos": "v./n.",
+      "sense": "改变、变化 / 变化、零钱",
+      "collocations": [
+        "change behaviour",
+        "climate change",
+        "make a change"
+      ],
+      "examples": [
+        "Attitudes are changing slowly. 态度正在缓慢改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "change（改变）/ exchange（交换）/ alter（改动，更正式）"
+      }
+    },
+    "changed": {
+      "phonetic": "/tʃeɪndʒd/",
+      "pos": "v.",
+      "sense": "change 的过去分词，改变",
+      "collocations": [],
+      "examples": [
+        "But over the years things have changed a lot. 不过这么多年下来，情况到底变了不少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "changed / change / change-induced（同族不同词形，注意词性与用法）"
+      }
+    },
+    "chemical": {
+      "phonetic": "/ˈkemɪkl/",
+      "pos": "adj./n.",
+      "sense": "化学的、用化学品的；化学品、化学制品（复数 chemicals）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "chemical engineer",
+        "major chemical",
+        "chemical company"
+      ],
+      "examples": [
+        "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\" 一位制造业的化学工程师附和：就因为是女的，你得先自证清白，还得比别人拼两倍。"
+      ]
+    },
+    "children": {
+      "phonetic": "/ˈtʃɪldrən/",
+      "pos": "n.",
+      "sense": "儿童、小孩、子女（child 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "child（孩子）+ -ren（不规则复数，不说 childs）",
+        "confusables": "children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）"
+      },
+      "collocations": [],
+      "examples": [
+        "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\" 某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。"
+      ]
+    },
+    "chosen": {
+      "phonetic": "/ˈtʃəʊzn/",
+      "pos": "v./adj.",
+      "sense": "选择（choose 的过去分词）；精选的、被选中的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "chosen career"
+      ],
+      "examples": [
+        "Many women engineers hailed the benefits of their chosen career. 不少女工程师反倒细数起这行的好处来。"
+      ]
+    },
+    "civil": {
+      "phonetic": "/ˈsɪvl/",
+      "pos": "adj.",
+      "sense": "公民的、市民的；民事的（非刑事的）；文明的、有礼貌的；国内的（civil war 内战）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "civil engineer",
+        "Another civil"
+      ],
+      "examples": [
+        "A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" 一位土木工程师说：她们总被叫「女工程师」，可没人管男的叫「男工程师」，人家就是「工程师」；这种称呼时刻在提醒她们：你不算自己人。"
+      ]
+    },
+    "clearly": {
+      "phonetic": "/klɪə(r)li/",
+      "pos": "adj./v.",
+      "sense": "清楚的、明显的；清澈的 / 清除（clear 的副词形式）",
+      "lemma": "clear",
+      "collocations": [],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "clear + -ly（副词）",
+        "confusables": "clearly（副词）/ clear（原形）"
+      }
+    },
+    "colleagues": {
+      "phonetic": "/ˈkɒliːɡz/",
+      "pos": "n.",
+      "sense": "同事（colleague 的复数）",
+      "lemma": "colleague",
+      "collocations": [
+        "a colleague of mine",
+        "colleagues at work"
+      ],
+      "examples": [
+        "She discussed it with colleagues. 她和同事讨论了这件事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "colleague（同事）/ college（学院）"
+      }
+    },
+    "college": {
+      "phonetic": "/ˈkɒlɪdʒ/",
+      "pos": "n.",
+      "sense": "大学、学院；上大学（本文 college students 大学生 / graduated from college 大学毕业）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "college in",
+        "graduated from college"
+      ],
+      "examples": [
+        "I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. 作者是位历史学者，和同事一起访谈了 251 名七十年代毕业的女工程师。"
+      ],
+      "more": {
+        "confusables": "college / colleague / colleagues（同族不同词形，注意词性与用法）"
+      }
+    },
+    "company": {
+      "phonetic": "/ˈkʌmpəni/",
+      "pos": "n.",
+      "sense": "公司（可数）；陪伴（不可数）",
+      "collocations": [
+        "a tech company",
+        "in the company of",
+        "keep sb company"
+      ],
+      "examples": [
+        "The company changed its leave policy. 该公司修改了休假政策。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "company（公司/陪伴）/ companion（同伴）"
+      }
+    },
+    "compete": {
+      "phonetic": "/kəmˈpiːt/",
+      "pos": "v.",
+      "sense": "竞争、比赛、争夺（compete with/against sb for sth 与某人争夺某物）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "compete with",
+        "compete with men"
+      ],
+      "examples": [
+        "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\" 某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。"
+      ],
+      "more": {
+        "confusables": "compete / compelling / compensated（同族不同词形，注意词性与用法）"
+      }
+    },
+    "constantly": {
+      "phonetic": "/ˈkɒnstəntli/",
+      "pos": "adv.",
+      "sense": "不断地、时常地",
+      "collocations": [
+        "constantly reminded"
+      ],
+      "examples": [
+        "A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" 一位土木工程师说：她们总被叫「女工程师」，可没人管男的叫「男工程师」，人家就是「工程师」；这种称呼时刻在提醒她们：你不算自己人。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "constantly / constant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "continue": {
+      "phonetic": "/kənˈtɪnjuː/",
+      "pos": "v.",
+      "sense": "继续（continue to do / continue doing）",
+      "collocations": [
+        "continue to do",
+        "continue doing",
+        "continue with"
+      ],
+      "examples": [
+        "The practice continues in many firms. 这种做法在许多公司延续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（一起）+ tin（握、持，词根 ten/tain/tin = hold，同 contain/maintain）+ -ue",
+        "confusables": "continue to do / continue doing（都对，前者强调新阶段）/ continuous（连续的）"
+      }
+    },
+    "continuing": {
+      "phonetic": "/kənˈtɪnjuːɪŋ/",
+      "pos": "v.",
+      "sense": "继续（continue to do / continue doing）（continue 的现在分词/动名词形式）",
+      "lemma": "continue",
+      "collocations": [
+        "continuing to",
+        "continuing to believe"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "continue + -ing（现在分词/动名词）",
+        "confusables": "continuing（现在分词/动名词）/ continue（原形）"
+      }
+    },
+    "degree": {
+      "phonetic": "/dɪˈɡriː/",
+      "pos": "n.",
+      "sense": "程度；学位",
+      "collocations": [
+        "the degree to which",
+        "best degree"
+      ],
+      "examples": [
+        "A program manager in manufacturing stated that engineering is the best degree. 一位制造业项目经理干脆说：工科是最值钱的学位。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "degree（程度；学位；度，可数）/ to some / a certain degree（在某种程度上，= to some extent）/ by degrees（逐渐地）/ a bachelor's degree（学士学位）/ degree 与 diploma（diploma 是「文凭」，degree 是「学位」）"
+      }
+    },
+    "done": {
+      "phonetic": "/dʌn/",
+      "pos": "v./adj.",
+      "sense": "做、完成（do 的过去分词）；完成的、结束的、煮熟的",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\" 一位机械工程师说：这行能让你几乎什么都能干；而且看着自己做的东西真起了作用，特别有成就感。"
+      ]
+    },
+    "effects": {
+      "phonetic": "/ɪˈfekts/",
+      "pos": "n./v.",
+      "sense": "影响、效果、作用（effect 的复数）；引起、实现（第三人称单数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "effect（效果）+ -s（复数）",
+        "confusables": "effect（效果、影响，可数）/ side effects（副作用）/ have an effect on（介词 on）/ cause and effect（因果）/ affect（动词「影响」，勿混）"
+      },
+      "collocations": [
+        "effects of"
+      ],
+      "examples": [
+        "A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\" 一位机械工程师说：这行能让你几乎什么都能干；而且看着自己做的东西真起了作用，特别有成就感。"
+      ]
+    },
+    "engineer": {
+      "phonetic": "/ˌendʒɪˈnɪə(r)/",
+      "pos": "n./v.",
+      "sense": "工程师（可数）/ 设计、策划（动词）",
+      "collocations": [
+        "a software engineer",
+        "engineer a solution"
+      ],
+      "examples": [
+        "She works as an engineer. 她做工程师。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "engineer（工程师）/ engineering（工程学）"
+      }
+    },
+    "engineering": {
+      "phonetic": "/ˌendʒɪˈnɪərɪŋ/",
+      "pos": "n.",
+      "sense": "工程、工程学（不可数）",
+      "collocations": [
+        "software engineering",
+        "an engineering degree"
+      ],
+      "examples": [
+        "She studied engineering at university. 她在大学学工程。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "engineering（工程学）/ engineer（工程师）"
+      }
+    },
+    "engineers": {
+      "phonetic": "/ˌendʒɪˈnɪə(r)z/",
+      "pos": "n./v.",
+      "sense": "工程师（可数）/ 设计、策划（动词）（engineer 的复数/三单形式）",
+      "lemma": "engineer",
+      "collocations": [
+        "women engineers",
+        "engineers hailed"
+      ],
+      "examples": [
+        "I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. 作者是位历史学者，和同事一起访谈了 251 名七十年代毕业的女工程师。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "engineer + -s（复数/三单）",
+        "confusables": "engineers（复数/三单）/ engineer（原形）"
+      }
+    },
+    "enter": {
+      "phonetic": "/ˈentə/",
+      "pos": "v.",
+      "sense": "进入、加入、开始从事；输入、录入（本文 enter the field 进入该领域 / entering university 上大学 / enter adulthood 步入成年）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "continue to enter"
+      ],
+      "examples": [
+        "Many hoped women would continue to enter the field at the same rate. 当时不少人以为，照这势头下去，女生会源源不断涌进工科。"
+      ],
+      "more": {
+        "confusables": "enter / enterprises / entering（同族不同词形，注意词性与用法）"
+      }
+    },
+    "entering": {
+      "phonetic": "/ˈentəɪŋ/",
+      "pos": "v.",
+      "sense": "进入、加入、开始从事；输入、录入（本文 enter the field 进入该领域 / entering university 上大学 / enter adulthood 步入成年）（enter 的现在分词/动名词形式）",
+      "lemma": "enter",
+      "collocations": [
+        "women entering"
+      ],
+      "examples": [
+        "These pioneers reflected on the challenges they faced—and had advice for women entering the field today. 这批开路的人既复盘了当年吃过的苦，也给今天入行的女生留了话。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "enter + -ing（现在分词/动名词）",
+        "confusables": "entering（现在分词/动名词）/ enter（原形）"
+      }
+    },
+    "equal": {
+      "phonetic": "/ˈiːkwəl/",
+      "pos": "adj./v./n.",
+      "sense": "相等的、平等的、同等的；等于、比得上；同等的人（本文 an equal number of men and women 男女数量相等 / an equal footing 平等地位 / equal amounts of time 等量时间）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "equal footing"
+      ],
+      "examples": [
+        "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\" 某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。"
+      ]
+    },
+    "explained": {
+      "phonetic": "/ɪkˈspleɪnd/",
+      "pos": "v.",
+      "sense": "解释、说明、阐明；为…辩解（explain 的过去式/过去分词形式）",
+      "lemma": "explain",
+      "collocations": [
+        "taker explained"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "explain + -ed（过去式/过去分词）",
+        "confusables": "explained（过去式/过去分词）/ explain（原形）"
+      }
+    },
+    "faced": {
+      "phonetic": "/feɪst/",
+      "pos": "v./adj.",
+      "sense": "面对、面临、朝向（face 的过去式/过去分词；be faced with 面临）；有…表面 / 饰面的",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "These pioneers reflected on the challenges they faced—and had advice for women entering the field today. 这批开路的人既复盘了当年吃过的苦，也给今天入行的女生留了话。"
+      ],
+      "more": {
+        "confusables": "faced / face（同族不同词形，注意词性与用法）"
+      }
+    },
+    "family": {
+      "phonetic": "/ˈfæməli/",
+      "pos": "n.",
+      "sense": "家庭、家人、子女；家族、族；科（生物分类）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "family（家庭，集合名词：强调整体用单数谓语，强调成员英式常用复数）/ home（家，住所与情感）/ house（房子，建筑）/ household（一户，统计用语）/ start a family（生养孩子）"
+      },
+      "collocations": [
+        "family caregiving",
+        "talked about family"
+      ],
+      "examples": [
+        "Women also talked about family caregiving responsibilities. 受访者还提到另一重担子：家里照护老小的活儿。"
+      ]
+    },
+    "female": {
+      "phonetic": "/ˈfiːmeɪl/",
+      "pos": "adj./n.",
+      "sense": "女性的、雌性的；女性、雌性动物（对应 male 男性的 / 雄性的）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\" 一位制造业的化学工程师附和：就因为是女的，你得先自证清白，还得比别人拼两倍。"
+      ]
+    },
+    "field": {
+      "phonetic": "/fiːld/",
+      "pos": "n.",
+      "sense": "领域；田野；场地（可数）",
+      "collocations": [
+        "in the field of",
+        "a field of study"
+      ],
+      "examples": [
+        "She works in the field of education. 她在教育领域工作。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "field（领域/田野）/ area（地区/领域）"
+      }
+    },
+    "flexibility": {
+      "phonetic": "/ˌfleksəˈbɪləti/",
+      "pos": "n.",
+      "sense": "灵活性（不可数）",
+      "collocations": [
+        "flexibility in",
+        "job flexibility"
+      ],
+      "examples": [
+        "Flexibility at work helps parents. 工作中的灵活性对父母有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "flexibility（灵活性）/ flexible（灵活的）"
+      }
+    },
+    "footing": {
+      "phonetic": "/ˈfʊtɪŋ/",
+      "pos": "n.",
+      "sense": "立足处、站稳；基础、地位、关系（an equal footing 平等地位；on a firm footing 基础稳固）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "equal footing",
+        "footing until"
+      ],
+      "examples": [
+        "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\" 某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。"
+      ]
+    },
+    "getting": {
+      "phonetic": "/ˈɡetɪŋ/",
+      "pos": "v.",
+      "sense": "get 的现在分词（得到、变得）",
+      "lemma": "get",
+      "collocations": [
+        "getting better sleep",
+        "getting older"
+      ],
+      "examples": [
+        "They start getting better sleep. 他们开始改善睡眠。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "getting（现在分词）/ got（过去式）/ gotten（美式过去分词）"
+      }
+    },
+    "give": {
+      "phonetic": "/ɡɪv/",
+      "pos": "v.",
+      "sense": "给、提供；举办、作（出）；让步、塌下（give up 放弃）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\" 一位机械工程师说：这行能让你几乎什么都能干；而且看着自己做的东西真起了作用，特别有成就感。"
+      ],
+      "more": {
+        "confusables": "give / given（同族不同词形，注意词性与用法）"
+      }
+    },
+    "given": {
+      "phonetic": "/ˈɡɪvn/",
+      "pos": "v./prep./adj.",
+      "sense": "give 的过去分词；考虑到（介词）；既定的",
+      "lemma": "give",
+      "collocations": [
+        "given that",
+        "given the fact",
+        "be given more freedom"
+      ],
+      "examples": [
+        "Given that data is limited, instinct helps. 考虑到数据有限，直觉有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "given that（考虑到，连词）/ given（给定的，形容词）"
+      }
+    },
+    "graduated": {
+      "phonetic": "/ˈɡrædʒueɪtɪd/",
+      "pos": "v.",
+      "sense": "毕业、获学位（graduate 的过去式/过去分词；graduate from 毕业于）；渐变、划分等级",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "graduated from",
+        "graduated from college"
+      ],
+      "examples": [
+        "I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. 作者是位历史学者，和同事一起访谈了 251 名七十年代毕业的女工程师。"
+      ],
+      "more": {
+        "confusables": "graduated / graduating / graduation（同族不同词形，注意词性与用法）"
+      }
+    },
+    "greatest": {
+      "phonetic": "/ɡreɪtɪst/",
+      "pos": "adj.",
+      "sense": "巨大的；很棒的；重要的（great 的最高级形式）",
+      "lemma": "great",
+      "collocations": [
+        "greatest challenge"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "great + -est（最高级）",
+        "confusables": "greatest（最高级）/ great（原形）"
+      }
+    },
+    "groups": {
+      "phonetic": "/ɡruːps/",
+      "pos": "n.",
+      "sense": "group 的复数，团体、群体",
+      "collocations": [
+        "special interest groups"
+      ],
+      "examples": [
+        "Another civil engineer stated, \"On many levels, you're never quite one of the groups.\" 另一位土木工程师补了一句：不管从哪头看，你始终融不进那个圈子。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "groups / group（同族不同词形，注意词性与用法）"
+      }
+    },
+    "hailed": {
+      "phonetic": "/heɪld/",
+      "pos": "v.",
+      "sense": "把…誉为、称赞为（be hailed as 被誉为）；下冰雹；招呼、欢呼（hail 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "engineers hailed"
+      ],
+      "examples": [
+        "Many women engineers hailed the benefits of their chosen career. 不少女工程师反倒细数起这行的好处来。"
+      ]
+    },
+    "happened": {
+      "phonetic": "/ˈhæpənd/",
+      "pos": "v.",
+      "sense": "发生、出现、碰巧、恰好（happen 过去式/分词；happen to do 碰巧）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "But that's not what happened. 结果偏偏没按这个剧本走。"
+      ],
+      "more": {
+        "confusables": "happened / happen（同族不同词形，注意词性与用法）"
+      }
+    },
+    "hard": {
+      "phonetic": "/hɑːd/",
+      "pos": "adj./adv.",
+      "sense": "硬的、坚固的、困难的、艰苦的；努力地、猛烈地",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "twice as hard"
+      ],
+      "examples": [
+        "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\" 一位制造业的化学工程师附和：就因为是女的，你得先自证清白，还得比别人拼两倍。"
+      ],
+      "more": {
+        "confusables": "hard / harder / hardware（同族不同词形，注意词性与用法）"
+      }
+    },
+    "historian": {
+      "phonetic": "/hɪˈstɔːriən/",
+      "pos": "n.",
+      "sense": "历史学家、史学研究者",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. 作者是位历史学者，和同事一起访谈了 251 名七十年代毕业的女工程师。"
+      ],
+      "more": {
+        "confusables": "historian / historically（同族不同词形，注意词性与用法）"
+      }
+    },
+    "hoped": {
+      "phonetic": "/həʊpd/",
+      "pos": "n./v.",
+      "sense": "希望、期望；希望、指望（本文 Hope is not entirely out of reach 希望并未完全破灭 / the things you hope to achieve）（hope 的过去式/过去分词形式）",
+      "lemma": "hope",
+      "collocations": [
+        "hoped women"
+      ],
+      "examples": [
+        "Many hoped women would continue to enter the field at the same rate. 当时不少人以为，照这势头下去，女生会源源不断涌进工科。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "hope + -d（过去式/过去分词）",
+        "confusables": "hoped（过去式/过去分词）/ hope（原形）"
+      }
+    },
+    "household": {
+      "phonetic": "/ˈhaʊshəʊld/",
+      "pos": "n./adj.",
+      "sense": "家庭、住户、一家人；家用的、家喻户晓的（household name 家喻户晓的名字）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "household responsibilities"
+      ],
+      "examples": [
+        "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\" 某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。"
+      ]
+    },
+    "largely": {
+      "phonetic": "/ˈlɑːdʒli/",
+      "pos": "adv.",
+      "sense": "很大程度上、主要地",
+      "collocations": [
+        "largely because",
+        "largely unchanged"
+      ],
+      "examples": [
+        "He was largely regarded as past his prime. 他被普遍认为已过巅峰。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "largely（主要地）/ large（大的）——不是「大量地」"
+      }
+    },
+    "levels": {
+      "phonetic": "/ˈlevlz/",
+      "pos": "n./adj./v.",
+      "sense": "水平、程度、级别、层次；平的、同高度的；弄平、使持平（level 的复数/三单形式）",
+      "lemma": "level",
+      "collocations": [],
+      "examples": [
+        "Another civil engineer stated, \"On many levels, you're never quite one of the groups.\" 另一位土木工程师补了一句：不管从哪头看，你始终融不进那个圈子。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "level + -s（复数/三单）",
+        "confusables": "levels（复数/三单）/ level（原形）"
+      }
+    },
+    "like": {
+      "phonetic": "/laɪk/",
+      "pos": "prep./v./conj.",
+      "sense": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+      "collocations": [
+        "like this",
+        "feel like",
+        "such as"
+      ],
+      "examples": [
+        "Tools like this save time. 这样的工具能省时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
+      }
+    },
+    "long": {
+      "phonetic": "/lɒŋ/",
+      "pos": "adj./adv.",
+      "sense": "长的、长期的 / 长久地",
+      "collocations": [
+        "long-term",
+        "as long as",
+        "no longer"
+      ],
+      "examples": [
+        "The impact is long-term. 影响是长期的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "long（长）/ lengthy（冗长的）/ as long as（只要）"
+      }
+    },
+    "looked": {
+      "phonetic": "/lʊkt/",
+      "pos": "v./n.",
+      "sense": "看、显得（look + adj.）；外观（look 的过去式/过去分词形式）",
+      "lemma": "look",
+      "collocations": [
+        "looked like"
+      ],
+      "examples": [
+        "Fifty years ago, it looked like that might change. 大约五十年前，局面一度看着要松动。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "look + -ed（过去式/过去分词）",
+        "confusables": "looked（过去式/过去分词）/ look（原形）"
+      }
+    },
+    "lot": {
+      "phonetic": "/lɒt/",
+      "pos": "n.",
+      "sense": "大量（a lot of）；许多",
+      "collocations": [
+        "a lot of",
+        "lots of",
+        "a lot"
+      ],
+      "examples": [
+        "A lot of kids still read for pleasure. 很多孩子仍为乐趣读书。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "a lot of（可数/不可数都行）/ a lot（副词，很）/ a lot of 为口语"
+      }
+    },
+    "major": {
+      "phonetic": "/ˈmeɪdʒə(r)/",
+      "pos": "adj./n./v.",
+      "sense": "主要的（形容词）；专业（名词）；主修（动词）",
+      "collocations": [
+        "a major change",
+        "major in",
+        "the majority"
+      ],
+      "examples": [
+        "A major shift is under way. 一场重大转变正在发生。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "major（主要的/主修）/ majority（多数）/ minor（次要的）"
+      }
+    },
+    "majoring": {
+      "phonetic": "/ˈmeɪdʒə(r)ɪŋ/",
+      "pos": "adj./n./v.",
+      "sense": "主要的（形容词）；专业（名词）；主修（动词）（major 的现在分词/动名词形式）",
+      "lemma": "major",
+      "collocations": [
+        "women majoring",
+        "majoring in",
+        "majoring in engineering"
+      ],
+      "examples": [
+        "In 1970, the percentage of women majoring in engineering was less than 1%. 1970 年，工科女生占比连 1% 都不到。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "major + -ing（现在分词/动名词）",
+        "confusables": "majoring（现在分词/动名词）/ major（原形）"
+      }
+    },
+    "majors": {
+      "phonetic": "/ˈmeɪdʒə(r)z/",
+      "pos": "adj./n./v.",
+      "sense": "主要的（形容词）；专业（名词）；主修（动词）（major 的复数/三单形式）",
+      "lemma": "major",
+      "collocations": [
+        "engineering majors"
+      ],
+      "examples": [
+        "Today, only 21% of engineering majors are women, a number largely unchanged since 2000. 如今工科女生也只占 21%，而且 2000 年之后基本就没再动过。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "major + -s（复数/三单）",
+        "confusables": "majors（复数/三单）/ major（原形）"
+      }
+    },
+    "male-dominated": {
+      "phonetic": "/ˌmeɪl ˈdɒmɪneɪtɪd/",
+      "pos": "adj.",
+      "sense": "男性主导的、以男性为主的（形容行业、职业或领域）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "male-dominated profession"
+      ],
+      "examples": [
+        "Engineering in the U.S. has long been a male-dominated profession. 在美国，工程师这行向来是男人的天下。"
+      ]
+    },
+    "man": {
+      "phonetic": "/mæn/",
+      "pos": "n./v.",
+      "sense": "男人、人、人类；给…配备人员、操控（复数 men；man 作动词指值守/操纵）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "man as",
+        "man engineer'"
+      ],
+      "examples": [
+        "A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" 一位土木工程师说：她们总被叫「女工程师」，可没人管男的叫「男工程师」，人家就是「工程师」；这种称呼时刻在提醒她们：你不算自己人。"
+      ],
+      "more": {
+        "confusables": "man / management / manipulated（同族不同词形，注意词性与用法）"
+      }
+    },
+    "manager": {
+      "phonetic": "/ˈmænɪdʒə/",
+      "pos": "n.",
+      "sense": "经理、管理者、负责人（本文 a program manager 项目经理 / general manager 总经理 / companies and managers 公司与管理者）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "program manager",
+        "manager in",
+        "manager in manufacturing"
+      ],
+      "examples": [
+        "A program manager in manufacturing stated that engineering is the best degree. 一位制造业项目经理干脆说：工科是最值钱的学位。"
+      ],
+      "more": {
+        "confusables": "manager / management / manage（同族不同词形，注意词性与用法）"
+      }
+    },
+    "manufacturing": {
+      "phonetic": "/ˌmænjuˈfæktʃərɪŋ/",
+      "pos": "n./v.",
+      "sense": "制造业；制造、生产（manufacture 的现在分词/动名词，常作定语）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "manufacturing agreed",
+        "worked in manufacturing",
+        "manufacturing stated"
+      ],
+      "examples": [
+        "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\" 一位制造业的化学工程师附和：就因为是女的，你得先自证清白，还得比别人拼两倍。"
+      ]
+    },
+    "mechanical": {
+      "phonetic": "/məˈkænɪkl/",
+      "pos": "adj.",
+      "sense": "机械的、机械制的、力学的；机械般的、呆板的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "mechanical engineer"
+      ],
+      "examples": [
+        "A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\" 一位机械工程师说：这行能让你几乎什么都能干；而且看着自己做的东西真起了作用，特别有成就感。"
+      ]
+    },
+    "men": {
+      "phonetic": "/men/",
+      "pos": "n.",
+      "sense": "man 的复数，男人、男性",
+      "collocations": [
+        "rate as men",
+        "compete with men"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "men / mental / mention（同族不同词形，注意词性与用法）"
+      }
+    },
+    "messages": {
+      "phonetic": "/ˈmesɪdʒɪz/",
+      "pos": "n.",
+      "sense": "信息、消息、要旨、启示（本文 the message is not quite reaching all the people 信息没传达到所有人 / all the messages I was getting 我得到的种种暗示 / ignore the message 忽略提示）（message 的复数/三单形式）",
+      "lemma": "message",
+      "collocations": [],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "message + -s（复数/三单）",
+        "confusables": "messages（复数/三单）/ message（原形）"
+      }
+    },
+    "never": {
+      "phonetic": "/ˈnevə(r)/",
+      "pos": "adv.",
+      "sense": "从不、永不、从来没有（置于句首时主句部分倒装）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "you're never",
+        "never quite"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "more": {
+        "confusables": "never / never-ending（同族不同词形，注意词性与用法）"
+      }
+    },
+    "number": {
+      "phonetic": "/ˈnʌmbə(r)/",
+      "pos": "n.",
+      "sense": "数字、数量；号码",
+      "collocations": [
+        "a number of（许多）",
+        "the number of（……的数量）",
+        "in large numbers"
+      ],
+      "examples": [
+        "A number of studies agree. 许多研究结论一致。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "a number of（许多，谓语复数）/ the number of（数量，谓语单数）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "percentage": {
+      "phonetic": "/pəˈsentɪdʒ/",
+      "pos": "n.",
+      "sense": "百分比、百分率、比例（a high percentage of；与 per cent「百分之…」区分）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "percentage of",
+        "percentage of women"
+      ],
+      "examples": [
+        "In 1970, the percentage of women majoring in engineering was less than 1%. 1970 年，工科女生占比连 1% 都不到。"
+      ]
+    },
+    "pioneers": {
+      "phonetic": "/ˌpaɪəˈnɪəz/",
+      "pos": "n./v.",
+      "sense": "先驱、开拓者、创始人（复数）；开创、倡导（三单）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "pioneers reflected"
+      ],
+      "examples": [
+        "These pioneers reflected on the challenges they faced—and had advice for women entering the field today. 这批开路的人既复盘了当年吃过的苦，也给今天入行的女生留了话。"
+      ]
+    },
+    "president": {
+      "phonetic": "/ˈprezɪdənt/",
+      "pos": "n.",
+      "sense": "总统、国家主席；总裁、会长、校长、院长",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "vice president",
+        "president from"
+      ],
+      "examples": [
+        "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\" 某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。"
+      ]
+    },
+    "profession": {
+      "phonetic": "/prəˈfeʃn/",
+      "pos": "n.",
+      "sense": "职业、专业（尤指需受高等教育者）、同行、同业；表白",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "profession（职业，尤指需高等教育/专业训练者，如 teaching/medicine/law）/ job（一份具体工作）/ career（职业生涯）/ trade（手艺行当）/ professional（专业的；专业人士）/ by profession（介词 by）"
+      },
+      "collocations": [
+        "male-dominated profession"
+      ],
+      "examples": [
+        "Engineering in the U.S. has long been a male-dominated profession. 在美国，工程师这行向来是男人的天下。"
+      ]
+    },
+    "program": {
+      "phonetic": "/ˈprəʊɡræm/",
+      "pos": "n./v.",
+      "sense": "计划、节目（美式拼写）；编程",
+      "collocations": [
+        "a research program",
+        "training program"
+      ],
+      "examples": [
+        "The program helps new parents. 该项目帮助新手父母。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "program（美式）/ programme（英式）"
+      }
+    },
+    "promoted": {
+      "phonetic": "/prəˈməʊtɪd/",
+      "pos": "v.",
+      "sense": "促进、推广、晋升（promote 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "more": {
+        "confusables": "promoted / promotion / promote（同族不同词形，注意词性与用法）"
+      }
+    },
+    "prove": {
+      "phonetic": "/pruːv/",
+      "pos": "v.",
+      "sense": "证明（prove that / prove to be）",
+      "collocations": [
+        "prove that",
+        "prove to be",
+        "prove sb wrong"
+      ],
+      "examples": [
+        "Observational data cannot prove causation. 观察数据不能证明因果。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "prove（证明）/ proof（证据）/ prove 后接形容词表「证明是」"
+      }
+    },
+    "qualified": {
+      "phonetic": "/ˈkwɒlɪfaɪd/",
+      "pos": "adj./v.",
+      "sense": "合格的、有资质的、具备条件的；使合格、限定（qualify 的过去分词；be qualified to do）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ]
+    },
+    "raises": {
+      "phonetic": "/reɪzz/",
+      "pos": "v.",
+      "sense": "提高、提出（及物）；抚养（美式）（raise 的复数/三单形式）",
+      "lemma": "raise",
+      "collocations": [
+        "given raises",
+        "raises at"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "raise + -s（复数/三单）",
+        "confusables": "raises（复数/三单）/ raise（原形）"
+      }
+    },
+    "rate": {
+      "phonetic": "/reɪt/",
+      "pos": "n./v.",
+      "sense": "比率、速度、价格；评价、评级（本文 the rate of growth 增长率 / collection rates 回收率 / error rate 错误率）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "rate as",
+        "rate as men"
+      ],
+      "examples": [
+        "Many hoped women would continue to enter the field at the same rate. 当时不少人以为，照这势头下去，女生会源源不断涌进工科。"
+      ],
+      "more": {
+        "confusables": "rate / rated / rates（同族不同词形，注意词性与用法）"
+      }
+    },
+    "refer": {
+      "phonetic": "/rɪˈfɜː(r)/",
+      "pos": "v.",
+      "sense": "指称（refer to）；参考",
+      "collocations": [
+        "refer to",
+        "refer to sb as"
+      ],
+      "examples": [
+        "They refer to this as the third space. 他们把这称作第三空间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "refer to（提及/指称）/ refer to as（称为）/ reference（参考）"
+      }
+    },
+    "reflected": {
+      "phonetic": "/rɪˈflektɪd/",
+      "pos": "v.",
+      "sense": "反映、显示、体现；反射（光/热）；反思、深思（reflect on）（reflect 的过去式/过去分词形式）",
+      "lemma": "reflect",
+      "collocations": [
+        "pioneers reflected",
+        "reflected on"
+      ],
+      "examples": [
+        "These pioneers reflected on the challenges they faced—and had advice for women entering the field today. 这批开路的人既复盘了当年吃过的苦，也给今天入行的女生留了话。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "reflect + -ed（过去式/过去分词）",
+        "confusables": "reflected（过去式/过去分词）/ reflect（原形）"
+      }
+    },
+    "reminded": {
+      "phonetic": "/rɪˈmaɪndɪd/",
+      "pos": "v.",
+      "sense": "提醒、使想起（remind 的过去式 / 过去分词；本文 Managers were regularly reminded to... 管理者被定期提醒 / are constantly reminded that 不断被提醒）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "constantly reminded"
+      ],
+      "examples": [
+        "A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" 一位土木工程师说：她们总被叫「女工程师」，可没人管男的叫「男工程师」，人家就是「工程师」；这种称呼时刻在提醒她们：你不算自己人。"
+      ]
+    },
+    "responsibilities": {
+      "phonetic": "/rɪˌspɒnsəˈbɪlətiz/",
+      "pos": "n.",
+      "sense": "责任、职责、义务、负担（responsibility 的复数；工作与家庭责任）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "caregiving responsibilities",
+        "household responsibilities"
+      ],
+      "examples": [
+        "Women also talked about family caregiving responsibilities. 受访者还提到另一重担子：家里照护老小的活儿。"
+      ]
+    },
+    "retired": {
+      "phonetic": "/rɪˈtaɪəd/",
+      "pos": "adj./v.",
+      "sense": "退休的、退职的；退休、退下、退隐（retire 的过去式/过去分词；retired workers）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "retired vice"
+      ],
+      "examples": [
+        "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\" 某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。"
+      ],
+      "more": {
+        "confusables": "retired / retirement / retiring（同族不同词形，注意词性与用法）"
+      }
+    },
+    "said": {
+      "phonetic": "/sed/",
+      "pos": "v./adj.",
+      "sense": "说、讲、表明（say 的过去式/过去分词）；上述的（the said…）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "engineer said"
+      ],
+      "examples": [
+        "A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" 一位土木工程师说：她们总被叫「女工程师」，可没人管男的叫「男工程师」，人家就是「工程师」；这种称呼时刻在提醒她们：你不算自己人。"
+      ]
+    },
+    "satisfying": {
+      "phonetic": "/ˈsætɪsfaɪɪŋ/",
+      "pos": "adj./v.",
+      "sense": "令人满意的、令人满足的；使满意、满足（satisfy 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "satisfying to",
+        "satisfying to see"
+      ],
+      "examples": [
+        "A mechanical engineer said, \"It will give you the flexibility to do almost anything. It is also satisfying to see the effects of what you have done.\" 一位机械工程师说：这行能让你几乎什么都能干；而且看着自己做的东西真起了作用，特别有成就感。"
+      ]
+    },
+    "see": {
+      "phonetic": "/siː/",
+      "pos": "v.",
+      "sense": "看见；明白（I see）；见证",
+      "collocations": [
+        "see that",
+        "as we can see",
+        "see sb do/doing"
+      ],
+      "examples": [
+        "We see the same pattern again. 我们又看到了同样的模式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "see（看见，无意）/ look at（看，有意）/ watch（观看，持续）"
+      }
+    },
+    "seriously": {
+      "phonetic": "/ˈsɪəriəsli/",
+      "pos": "adv.",
+      "sense": "严肃地、认真地；严重地（take sb/sth seriously 认真对待；本文 leaving high schoolers seriously behind 让中学生严重落后）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "taken seriously"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "more": {
+        "confusables": "seriously / serious（同族不同词形，注意词性与用法）"
+      }
+    },
+    "since": {
+      "phonetic": "/sɪns/",
+      "pos": "conj./prep./adv.",
+      "sense": "自从（时间）；因为（原因）",
+      "collocations": [
+        "since then",
+        "ever since",
+        "especially since"
+      ],
+      "examples": [
+        "Since then, many cases have been filed. 自那以后，许多案件被提起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "since（自从/因为）/ for（持续一段时间）/ from（起点）"
+      }
+    },
+    "smart": {
+      "phonetic": "/smɑːt/",
+      "pos": "adj.",
+      "sense": "聪明的、机灵的；智能的、时髦的（smartphone / smart devices 智能设备）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "smart as"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "more": {
+        "confusables": "smart / smartphone（同族不同词形，注意词性与用法）"
+      }
+    },
+    "stated": {
+      "phonetic": "/steɪtd/",
+      "pos": "n./v./adj.",
+      "sense": "状态、状况、情形；国家、州、政府；陈述、说明、规定；州的、国事的（state 的过去式/过去分词形式）",
+      "lemma": "state",
+      "collocations": [
+        "engineer stated",
+        "company stated",
+        "manufacturing stated"
+      ],
+      "examples": [
+        "Another civil engineer stated, \"On many levels, you're never quite one of the groups.\" 另一位土木工程师补了一句：不管从哪头看，你始终融不进那个圈子。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "state + -d（过去式/过去分词）",
+        "confusables": "stated（过去式/过去分词）/ state（原形）"
+      }
+    },
+    "struggle": {
+      "phonetic": "/ˈstrʌɡl/",
+      "pos": "v./n.",
+      "sense": "挣扎、努力（struggle to do / struggle with）；斗争",
+      "collocations": [
+        "struggle to do",
+        "struggle with",
+        "the struggle for"
+      ],
+      "examples": [
+        "They struggle with new communication skills. 他们在新沟通技能上挣扎。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "struggle to do（努力做，含困难）/ try to do（尝试）/ struggle with（应对困难）"
+      }
+    },
+    "survey": {
+      "phonetic": "/ˈsɜːveɪ/",
+      "pos": "n./v.",
+      "sense": "调查（可数）/ 调查、审视",
+      "collocations": [
+        "conduct a survey",
+        "a survey of"
+      ],
+      "examples": [
+        "A survey of 290 employees found a gap. 一项针对 290 名员工的调查发现了差距。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "survey（调查）/ poll（民意调查）/ inspect（检查）"
+      }
+    },
+    "surveyed": {
+      "phonetic": "/ˈsɜːveɪd/",
+      "pos": "n./v.",
+      "sense": "调查（可数）/ 调查、审视（survey 的过去式/过去分词形式）",
+      "lemma": "survey",
+      "collocations": [],
+      "examples": [
+        "I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in the 1970s. 作者是位历史学者，和同事一起访谈了 251 名七十年代毕业的女工程师。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "survey + -ed（过去式/过去分词）",
+        "confusables": "surveyed（过去式/过去分词）/ survey（原形）"
+      }
+    },
+    "taken": {
+      "phonetic": "/ˈteɪkən/",
+      "pos": "v.",
+      "sense": "拿、带、采取、花费、理解（take 的过去分词；本文 be taken seriously 被认真对待 / be taken in 被接纳）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "taken seriously"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "more": {
+        "confusables": "taken / take / take-home（同族不同词形，注意词性与用法）"
+      }
+    },
+    "taker": {
+      "phonetic": "/ˈteɪkə/",
+      "pos": "n.",
+      "sense": "接受者、领取者、参加者（常与 risk / test 搭配；risk-taker 冒险者）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "survey taker",
+        "taker explained"
+      ],
+      "examples": [
+        "One survey taker explained, \"The greatest challenge for me was continuing to believe in myself, when all the messages I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly less qualified and not as smart as I was.\" 有位受访者说，最难的是：耳边全是「你不会被当回事、别想升职加薪」的声音，对面那些男同事明明还不如她，她却得一直硬撑着不怀疑自己。"
+      ],
+      "more": {
+        "confusables": "taker / take / take-home（同族不同词形，注意词性与用法）"
+      }
+    },
+    "talked": {
+      "phonetic": "/tɔːkt/",
+      "pos": "v.",
+      "sense": "talk 的过去式/过去分词（谈话）",
+      "lemma": "talk",
+      "collocations": [
+        "talked about",
+        "talked with"
+      ],
+      "examples": [
+        "They talked about the change. 他们谈论了这一变化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "talked（过去式）/ talking（现在分词）"
+      }
+    },
+    "things": {
+      "phonetic": "/θɪŋz/",
+      "pos": "n.",
+      "sense": "事情、东西（thing 的复数）",
+      "lemma": "thing",
+      "collocations": [
+        "all things considered",
+        "the thing is",
+        "things like that"
+      ],
+      "examples": [
+        "They have to do all these things first. 他们必须先做所有这些事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "things（事情/东西）/ stuff（东西，不可数，口语）"
+      }
+    },
+    "today": {
+      "phonetic": "/təˈdeɪ/",
+      "pos": "adv./n.",
+      "sense": "今天；当今",
+      "collocations": [
+        "today's digital activity",
+        "in today's world",
+        "leaders of today"
+      ],
+      "examples": [
+        "Today he is still the best-known racehorse. 今天他仍是最知名的赛马。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "today（今天/当今）/ nowadays（如今，副词）"
+      }
+    },
+    "truly": {
+      "phonetic": "/ˈtruːli/",
+      "pos": "adv.",
+      "sense": "真正地、确实地、真诚地、完全地（用于强调真实性；Yours truly 信末敬语）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "don't truly",
+        "truly belong"
+      ],
+      "examples": [
+        "A civil engineer said, \"We are 'women engineers.' People don't refer to a man as a 'man engineer'—he's an engineer. We are constantly reminded that we don't truly belong.\" 一位土木工程师说：她们总被叫「女工程师」，可没人管男的叫「男工程师」，人家就是「工程师」；这种称呼时刻在提醒她们：你不算自己人。"
+      ],
+      "more": {
+        "roots": "truly 含 -ly（副词后缀）"
+      }
+    },
+    "twice": {
+      "phonetic": "/twaɪs/",
+      "pos": "adv.",
+      "sense": "两次；两倍（本文 work twice as hard 加倍努力 / twice as much as they need 两倍于所需 / twice the recommended intake）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "work twice",
+        "twice as",
+        "twice as hard"
+      ],
+      "examples": [
+        "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\" 一位制造业的化学工程师附和：就因为是女的，你得先自证清白，还得比别人拼两倍。"
+      ]
+    },
+    "unchanged": {
+      "phonetic": "/ʌnˈtʃeɪndʒd/",
+      "pos": "adj.",
+      "sense": "未改变的、原封不动的、保持不变的（remain unchanged 保持不变）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "largely unchanged",
+        "unchanged since"
+      ],
+      "examples": [
+        "Today, only 21% of engineering majors are women, a number largely unchanged since 2000. 如今工科女生也只占 21%，而且 2000 年之后基本就没再动过。"
+      ]
+    },
+    "until": {
+      "phonetic": "/ənˈtɪl/",
+      "pos": "prep./conj.",
+      "sense": "直到（时间）；直到……才（用于否定句）",
+      "collocations": [
+        "until now",
+        "not ... until",
+        "until then"
+      ],
+      "examples": [
+        "Kids may not change until they are older. 孩子可能到更大才会改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "until（直到）/ till（同义，口语）/ not ... until（直到……才）"
+      }
+    },
+    "vice": {
+      "phonetic": "/vaɪs/",
+      "pos": "n./adj.",
+      "sense": "恶习、恶行、罪恶、缺点；副的、代理的（vice president 副总统 / vice versa 反之亦然）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "retired vice",
+        "vice president"
+      ],
+      "examples": [
+        "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\" 某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。"
+      ]
+    },
+    "women": {
+      "phonetic": "/ˈwɪmɪn/",
+      "pos": "n.",
+      "sense": "woman 的复数，女人、女性",
+      "collocations": [
+        "women majoring",
+        "percentage of women",
+        "hoped women"
+      ],
+      "examples": [
+        "In 1970, the percentage of women majoring in engineering was less than 1%. 1970 年，工科女生占比连 1% 都不到。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "work": {
+      "phonetic": "/wɜːk/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品",
+      "collocations": [
+        "work well",
+        "at work",
+        "work out"
+      ],
+      "examples": [
+        "The approach works in practice. 这个方法在实践中奏效。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）"
+      }
+    },
+    "worked": {
+      "phonetic": "/wɜːkt/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品（work 的过去式/过去分词形式）",
+      "lemma": "work",
+      "collocations": [
+        "worked in",
+        "worked in manufacturing"
+      ],
+      "examples": [
+        "A chemical engineer who worked in manufacturing agreed, \"You have to prove yourself just because you are female. And you have to work twice as hard!\" 一位制造业的化学工程师附和：就因为是女的，你得先自证清白，还得比别人拼两倍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "work + -ed（过去式/过去分词）",
+        "confusables": "worked（过去式/过去分词）/ work（原形）"
+      }
+    },
+    "years": {
+      "phonetic": "/jɪəz/",
+      "pos": "n.",
+      "sense": "年、年份；岁数、年纪（year 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "year（年）+ -s（复数）",
+        "confusables": "year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）"
+      },
+      "collocations": [
+        "Fifty years",
+        "years ago",
+        "years things"
+      ],
+      "examples": [
+        "Fifty years ago, it looked like that might change. 大约五十年前，局面一度看着要松动。"
+      ]
+    },
+    "young": {
+      "phonetic": "/jʌŋ/",
+      "pos": "adj.",
+      "sense": "年轻的、幼小的；青年的（本文指年轻人 / 年轻时）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Young women"
+      ],
+      "examples": [
+        "A retired vice president from a major chemical company stated, \"Young women engineers are on an equal footing until they have children, then they struggle to balance work and family—and compete with men who don't have the same household responsibilities.\" 某大化工企业一位退休副总裁说：没生孩子前，年轻女工程师跟男同事还站得一样齐；一有了孩子，就得一边顾家一边拼，对手却是压根不用管家务的男人。"
+      ]
+    }
+  }
+}

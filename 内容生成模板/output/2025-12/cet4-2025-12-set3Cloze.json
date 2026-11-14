@@ -1,0 +1,4369 @@
+{
+  "sourceKey": "cet4-2025-12-set3Cloze",
+  "articleId": "set3Cloze",
+  "packVersion": "2026.11.08-2",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 12,
+    "setNo": 3,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "Earth Day: History and Mission",
+    "wordCount": 240
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. Earth Day is celebrated on April 22 in the United States and on either April 22 or the day the spring equinox(春分) occurs throughout the 26 of the world.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 187,
+          "text": "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Earth",
+              "normalized": "earth",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "surface": "Day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 12,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 22,
+              "surface": "annual",
+              "normalized": "annual",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 34,
+              "surface": "celebration",
+              "normalized": "celebration",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 46,
+              "surface": "honors",
+              "normalized": "honors",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 50,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 63,
+              "surface": "achievements",
+              "normalized": "achievements",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 66,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 84,
+              "surface": "environmental",
+              "normalized": "environmental",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 93,
+              "surface": "movement",
+              "normalized": "movement",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 97,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 104,
+              "surface": "raises",
+              "normalized": "raises",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 114,
+              "surface": "awareness",
+              "normalized": "awareness",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 117,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 121,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 126,
+              "surface": "need",
+              "normalized": "need",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 129,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 137,
+              "surface": "protect",
+              "normalized": "protect",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 145,
+              "surface": "Earth's",
+              "normalized": "earth's",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 153,
+              "surface": "natural",
+              "normalized": "natural",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 163,
+              "surface": "resources",
+              "normalized": "resources",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 167,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 174,
+              "surface": "future",
+              "normalized": "future",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 186,
+              "surface": "generations",
+              "normalized": "generations",
+              "isWord": true
+            },
+            {
+              "start": 186,
+              "end": 187,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "地球日是一年一次的庆典，它致敬环保运动的成就，并提升对于保护地球自然资源以供后代之需要之意识。",
+            "translationNatural": "地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。",
+            "structMarkup": "【Earth Day】 is an annual celebration {that honors the achievements of the environmental movement} {and raises awareness of the need to protect Earth's natural resources for future generations}.",
+            "structureSummary": "主系表 + that 引导的定语从句（内由 and 并列 honors 与 raises 两个谓语）",
+            "components": [
+              {
+                "part": "Earth Day",
+                "role": "主语",
+                "note": "单数专有名词作主语，谓语用 is；指代「地球日」这一固定节日，是全句话题的起点"
+              },
+              {
+                "part": "is an annual celebration",
+                "role": "系表",
+                "note": "系动词 is 加表语 an annual celebration，先点明地球日的本质：一年一度的庆典"
+              },
+              {
+                "part": "that honors the achievements of the environmental movement",
+                "role": "定语从句",
+                "note": "that 引导修饰 celebration，honors 是从句谓语，of the environmental movement 限定 achievements 的归属"
+              },
+              {
+                "part": "and raises awareness of the need to protect Earth's natural resources for future generations",
+                "role": "定语从句",
+                "note": "and 连接同一 that 从句内的第二个谓语 raises；of the need 说明 awareness 的内容，to protect... 作 need 的后置定语，for future generations 限定保护对象的受益方"
+              }
+            ],
+            "clauses": [
+              "定语从句「that honors the achievements of the environmental movement」：that 引导修饰 celebration，honors 是从句谓语，of the environmental movement 限定 achievements 的归属",
+              "定语从句「and raises awareness of the need to protect Earth's natural resources 」：and 连接同一 that 从句内的第二个谓语 raises；of the need 说明 awareness 的内容，to protect... 作 need 的后置定语，for future generations 限定保护对象的受益方"
+            ],
+            "phrases": [
+              {
+                "text": "earth",
+                "meaning": "地球（the earth）；泥土；究竟（on earth）",
+                "usage": "注意区分：earth（地球/泥土）/ world（世界）。常见搭配：on earth / the earth's climate。",
+                "example": "The earth's climate is changing. 地球气候正在改变。"
+              },
+              {
+                "text": "achievements",
+                "meaning": "成就、成绩；达成、实现（本文 look at work-life balance as an achievement 把平衡当成一项成就 / a cycle, not an achievement 是循环而非一劳永逸的目标）（achievement 的复数/三单形式）",
+                "usage": "注意区分：achievements（复数/三单）/ achievement（原形）。",
+                "example": "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+              },
+              {
+                "text": "raises",
+                "meaning": "提高、提出（及物）；抚养（美式）（raise 的复数/三单形式）",
+                "usage": "注意区分：raises（复数/三单）/ raise（原形）。",
+                "example": "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：earth（地球/泥土）/ world（世界）。",
+              "注意区分：achievements（复数/三单）/ achievement（原形）。",
+              "注意区分：raises（复数/三单）/ raise（原形）。"
+            ],
+            "paragraphRole": "开篇先对地球日下定义：它是一年一度的庆典，作用在于致敬环保成就并唤醒保护资源的意识，为后面讲历史与使命铺底。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 188,
+          "end": 340,
+          "text": "Earth Day is celebrated on April 22 in the United States and on either April 22 or the day the spring equinox(春分) occurs throughout the 26 of the world.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Earth",
+              "normalized": "earth",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "surface": "Day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 12,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 23,
+              "surface": "celebrated",
+              "normalized": "celebrated",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "April",
+              "normalized": "april",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 35,
+              "surface": "22",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 42,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 49,
+              "surface": "United",
+              "normalized": "united",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 56,
+              "surface": "States",
+              "normalized": "states",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 70,
+              "surface": "either",
+              "normalized": "either",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 76,
+              "surface": "April",
+              "normalized": "april",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 79,
+              "surface": "22",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 80,
+              "end": 82,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 86,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 94,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 101,
+              "surface": "spring",
+              "normalized": "spring",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 109,
+              "surface": "equinox",
+              "normalized": "equinox",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 113,
+              "surface": "(春分)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 114,
+              "end": 120,
+              "surface": "occurs",
+              "normalized": "occurs",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 131,
+              "surface": "throughout",
+              "normalized": "throughout",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 135,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 138,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 139,
+              "end": 141,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 145,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 151,
+              "surface": "world",
+              "normalized": "world",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 152,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "地球日在4月22日于美国被庆祝，并且在要么4月22日要么春分行于世界26的那一天在世界其余地区被庆祝。",
+            "translationNatural": "美国把地球日定在 4 月 22 日，而世界其他地方则选在 4 月 22 日或春分那天庆祝。",
+            "structMarkup": "【Earth Day】 _is celebrated_ (on April 22 in the United States and on either April 22 or the day) {the spring equinox(春分) occurs} (throughout the 26 of the world).",
+            "structureSummary": "主谓（被动）+ 两个并列时间状语（后者含省略 that 的定语从句，内嵌 26 空）",
+            "components": [
+              {
+                "part": "Earth Day",
+                "role": "主语",
+                "note": "回指上句主语，单数，谓语用被动 is celebrated，使焦点落在「被如何庆祝」上"
+              },
+              {
+                "part": "is celebrated",
+                "role": "谓语",
+                "note": "被动语态，强调地球日作为一种被设立的节日而被人们庆祝，而非谁主动去做"
+              },
+              {
+                "part": "on April 22 in the United States and on either April 22 or the day",
+                "role": "状语",
+                "note": "两层介词短语作并列时间/地点状语；either...or... 给出美国与「世界其余地区」两种日期选择，把庆祝时间铺开"
+              },
+              {
+                "part": "the spring equinox(春分) occurs",
+                "role": "定语从句",
+                "note": "省略 that 的定语从句修饰 the day，说明是「春分行」的那一天；spring equinox(春分) 后中文括注原样保留"
+              },
+              {
+                "part": "throughout the 26 of the world",
+                "role": "状语",
+                "note": "介词短语收束地点范围；26 空夹在 the 与 of 之间需名词，rest 构成 the rest of the world（世界其他地区），与美国的具体日期形成对照"
+              }
+            ],
+            "clauses": [
+              "定语从句「the spring equinox(春分) occurs」：省略 that 的定语从句修饰 the day，说明是「春分行」的那一天；spring equinox(春分) 后中文括注原样保留",
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "并列关联连词连接两个平行成分，前后词性须一致。"
+            ],
+            "phrases": [
+              {
+                "text": "earth",
+                "meaning": "地球（the earth）；泥土；究竟（on earth）",
+                "usage": "注意区分：earth（地球/泥土）/ world（世界）。常见搭配：on earth / the earth's climate。",
+                "example": "The earth's climate is changing. 地球气候正在改变。"
+              },
+              {
+                "text": "states",
+                "meaning": "状态、状况、情形；国家、州、政府；陈述、说明、规定；州的、国事的（state 的复数/三单形式）",
+                "usage": "注意区分：states（复数/三单）/ state（原形）。",
+                "example": "Earth Day is celebrated on April 22 in the United States and on either April 22 or the day the spring equinox(春分) occurs throughout the 26 of the world. 美国把地球日定在 4 月 22 日，而世界其他地方则选在 4 月 22 日或春分那天庆祝。"
+              },
+              {
+                "text": "either",
+                "meaning": "两者之一（either...or）；也不（否定句末）",
+                "usage": "注意区分：either...or（两者之一）/ neither...nor（两者都不）/ either（也，否定句末）。常见搭配：either ... or / not ... either。",
+                "example": "Either way, the result is the same. 无论哪种方式，结果一样。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "both...and / either...or / neither...nor 是固定配对，不能交叉混用。"
+            ],
+            "paragraphRole": "用美国与世界其余地区的日期对照，带出 26 空（the rest of the world），并自然引出下文地球日的历史起源。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Environmental activism during the 1960s 27 Wisconsin Senator Gaylord Nelson to create a 28 celebration uniting the environmental movement. With the help of Denis Hayes, a graduate student at Harvard University, Nelson organized the first Earth Day on April 22, 1970, educating participants in the 29 of environmental protection. Attended by 20 million people across the United States, the event 30 support for legislation such as the Clean Air Act and the Endangered Species Act.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 138,
+          "text": "Environmental activism during the 1960s 27 Wisconsin Senator Gaylord Nelson to create a 28 celebration uniting the environmental movement.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 13,
+              "surface": "Environmental",
+              "normalized": "environmental",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 22,
+              "surface": "activism",
+              "normalized": "activism",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 29,
+              "surface": "during",
+              "normalized": "during",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 33,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 38,
+              "surface": "1960",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 38,
+              "end": 39,
+              "surface": "s",
+              "normalized": "s",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 42,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 52,
+              "surface": "Wisconsin",
+              "normalized": "wisconsin",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 60,
+              "surface": "Senator",
+              "normalized": "senator",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 68,
+              "surface": "Gaylord",
+              "normalized": "gaylord",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 75,
+              "surface": "Nelson",
+              "normalized": "nelson",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 85,
+              "surface": "create",
+              "normalized": "create",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 87,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 91,
+              "end": 102,
+              "surface": "celebration",
+              "normalized": "celebration",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 110,
+              "surface": "uniting",
+              "normalized": "uniting",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 114,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 128,
+              "surface": "environmental",
+              "normalized": "environmental",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 137,
+              "surface": "movement",
+              "normalized": "movement",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 138,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在1960年代的环保行动主义27威斯康星州参议员盖洛德·纳尔逊去创建一个28庆典，联合环保运动。",
+            "translationNatural": "上世纪 60 年代的环保运动激励了威斯康星州参议员盖洛德·纳尔逊，让他发起了一场团结环保运动的盛大庆祝活动。",
+            "structMarkup": "【Environmental activism during the 1960s】 _27_ ~Wisconsin Senator Gaylord Nelson~ ~to create a 28 celebration uniting the environmental movement~.",
+            "structureSummary": "主语 + 27 空（谓语）+ 宾语 + 不定式目的状语（内嵌 28 空）",
+            "components": [
+              {
+                "part": "Environmental activism during the 1960s",
+                "role": "主语",
+                "note": "核心词 activism 单数，谓语用过去式；during the 1960s 是后置时间定语，给全句一个历史背景"
+              },
+              {
+                "part": "27",
+                "role": "谓语",
+                "note": "27 空独占谓语位置，后接宾语与不定式 to create；需及物动词过去式且能接「宾语 + to do」，inspired（激励）正合 inspire sb to do 的搭配"
+              },
+              {
+                "part": "Wisconsin Senator Gaylord Nelson",
+                "role": "宾语",
+                "note": "27 的宾语，指被环保运动「激励」的人；专有名词原样照抄"
+              },
+              {
+                "part": "to create a 28 celebration uniting the environmental movement",
+                "role": "宾语",
+                "note": "不定式作 27 的宾语补足/目的；28 空修饰 celebration 需形容词，national（全国的）与 environmental movement 的范围相呼应"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主语 + 27 空（谓语）+ 宾语 + 不定式目的状语（内嵌 28 空）」。"
+            ],
+            "phrases": [
+              {
+                "text": "create",
+                "meaning": "创造、造成（create sth）",
+                "usage": "注意区分：create（创造）/ make（制作）/ produce（生产）。常见搭配：create opportunities / create problems。",
+                "example": "They create powerful new communicative forms. 他们创造出有力的新沟通形式。"
+              },
+              {
+                "text": "Environmental",
+                "meaning": "环境的、有关环境的、环保的（本文 on health and environmental fronts 在健康与环保两条战线 / environmental campaigners 环保人士 / environmental awareness）",
+                "usage": "本句中作adj.，可按「主语 + 27 空（谓语）+ 宾语 + 不定式目的状语（内嵌 28 空）」定位它在句中的位置。",
+                "example": "Environmental activism during the 1960s 27 Wisconsin Senator Gaylord Nelson to create a 28 celebration uniting the environmental movement. 上世纪 60 年代的环保运动激励了威斯康星州参议员盖洛德·纳尔逊，让他发起了一场团结环保运动的盛大庆祝活动。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：create（创造）/ make（制作）/ produce（生产）。",
+              "27：27 空独占谓语位置，后接宾语与不定式 to create；需及物动词过去式且能接「宾语 + to do」，inspired（激励）正合 inspire sb to do 的搭配"
+            ],
+            "paragraphRole": "交代地球日的起源：60 年代的环保运动促使纳尔逊参议员创立一场全国性的庆祝活动，27、28 两空分别考谓语动词与前置形容词。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 139,
+          "end": 328,
+          "text": "With the help of Denis Hayes, a graduate student at Harvard University, Nelson organized the first Earth Day on April 22, 1970, educating participants in the 29 of environmental protection.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "With",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "help",
+              "normalized": "help",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 16,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "Denis",
+              "normalized": "denis",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 28,
+              "surface": "Hayes",
+              "normalized": "hayes",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 29,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 40,
+              "surface": "graduate",
+              "normalized": "graduate",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 48,
+              "surface": "student",
+              "normalized": "student",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 51,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 59,
+              "surface": "Harvard",
+              "normalized": "harvard",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 70,
+              "surface": "University",
+              "normalized": "university",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 71,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 72,
+              "end": 78,
+              "surface": "Nelson",
+              "normalized": "nelson",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 88,
+              "surface": "organized",
+              "normalized": "organized",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 92,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 98,
+              "surface": "first",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 104,
+              "surface": "Earth",
+              "normalized": "earth",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 108,
+              "surface": "Day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 111,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 117,
+              "surface": "April",
+              "normalized": "april",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 121,
+              "surface": "22,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 122,
+              "end": 127,
+              "surface": "1970,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 128,
+              "end": 137,
+              "surface": "educating",
+              "normalized": "educating",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 150,
+              "surface": "participants",
+              "normalized": "participants",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 153,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 157,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 158,
+              "end": 160,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 161,
+              "end": 163,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 177,
+              "surface": "environmental",
+              "normalized": "environmental",
+              "isWord": true
+            },
+            {
+              "start": 178,
+              "end": 188,
+              "surface": "protection",
+              "normalized": "protection",
+              "isWord": true
+            },
+            {
+              "start": 188,
+              "end": 189,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在丹尼斯·海斯的帮助下，一位哈佛大学的毕业生，纳尔逊组织了第一次地球日在1970年4月22日，教育参与者于环保的29之中。",
+            "translationNatural": "在哈佛研究生丹尼斯·海斯的协助下，纳尔逊于 1970 年 4 月 22 日组织了首届地球日，让参与者认识到环保的重要性。",
+            "structMarkup": "(With the help of Denis Hayes), a graduate student at Harvard University, _Nelson organized the first Earth Day on April 22, 1970_, (educating participants in the 29 of environmental protection).",
+            "structureSummary": "With 介词状语 + 同位语 + 主谓宾（含日期状语）+ 现在分词伴随状语（内嵌 29 空）",
+            "components": [
+              {
+                "part": "With the help of Denis Hayes",
+                "role": "状语",
+                "note": "介词短语作状语，with the help of 表示「在……帮助下」，点出合作者 Denis Hayes"
+              },
+              {
+                "part": "a graduate student at Harvard University",
+                "role": "同位语",
+                "note": "逗号间的名词短语，补充说明 Denis Hayes 的身份（哈佛研究生）"
+              },
+              {
+                "part": "Nelson organized the first Earth Day on April 22, 1970",
+                "role": "谓语",
+                "note": "主句，organized 过去式，on April 22, 1970 是具体日期状语，说明首届地球日的时间"
+              },
+              {
+                "part": "educating participants in the 29 of environmental protection",
+                "role": "状语",
+                "note": "现在分词短语作伴随状语；in the 29 of environmental protection 中 29 空需名词，importance（重要性）构成 the importance of...，与 educating participants 搭配"
+              }
+            ],
+            "clauses": [
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。",
+              "本句主干为「With 介词状语 + 同位语 + 主谓宾（含日期状语）+ 现在分词伴随状语（内嵌 29 空）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "help",
+                "meaning": "帮助（help sb do sth / help with）；帮助（不可数）",
+                "usage": "注意区分：help sb do/to do（不带 doing）/ can't help doing（忍不住）。常见搭配：help sb do sth / help with。",
+                "example": "Instincts can help you decide fast. 直觉能帮你快速决定。"
+              },
+              {
+                "text": "university",
+                "meaning": "大学（可数）",
+                "usage": "注意区分：university（大学）/ college（学院）/ at university（在读大学，不加 the）。常见搭配：at university / university students。",
+                "example": "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+              },
+              {
+                "text": "earth",
+                "meaning": "地球（the earth）；泥土；究竟（on earth）",
+                "usage": "注意区分：earth（地球/泥土）/ world（世界）。常见搭配：on earth / the earth's climate。",
+                "example": "The earth's climate is changing. 地球气候正在改变。"
+              }
+            ],
+            "pitfalls": [
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。",
+              "注意区分：help sb do/to do（不带 doing）/ can't help doing（忍不住）。",
+              "注意区分：university（大学）/ college（学院）/ at university（在读大学，不加 the）。"
+            ],
+            "paragraphRole": "补充首届地球日的具体筹备（海斯协助、1970 年落地）与目的，29 空考 the importance of 这一名词搭配。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 329,
+          "end": 479,
+          "text": "Attended by 20 million people across the United States, the event 30 support for legislation such as the Clean Air Act and the Endangered Species Act.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Attended",
+              "normalized": "attended",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "20",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "surface": "million",
+              "normalized": "million",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 29,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 36,
+              "surface": "across",
+              "normalized": "across",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 47,
+              "surface": "United",
+              "normalized": "united",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 54,
+              "surface": "States",
+              "normalized": "states",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 55,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 56,
+              "end": 59,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 65,
+              "surface": "event",
+              "normalized": "event",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 69,
+              "end": 76,
+              "surface": "support",
+              "normalized": "support",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 80,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 92,
+              "surface": "legislation",
+              "normalized": "legislation",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 97,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 100,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 104,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 110,
+              "surface": "Clean",
+              "normalized": "clean",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 114,
+              "surface": "Air",
+              "normalized": "air",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 118,
+              "surface": "Act",
+              "normalized": "act",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 122,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 126,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 137,
+              "surface": "Endangered",
+              "normalized": "endangered",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 145,
+              "surface": "Species",
+              "normalized": "species",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 149,
+              "surface": "Act",
+              "normalized": "act",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 150,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "被两千万跨美国的人所参加，该事件30对立法如清洁空气法和濒危物种法的支持。",
+            "translationNatural": "这场有全美两千万人参与的活动，强化了对《清洁空气法》《濒危物种法》等立法的支持。",
+            "structMarkup": "(Attended by 20 million people across the United States), 【the event】 _30_ ~support for legislation such as the Clean Air Act and the Endangered Species Act~.",
+            "structureSummary": "过去分词短语作句首状语 + 主谓（30 空）+ 宾语（含 such as 列举）",
+            "components": [
+              {
+                "part": "Attended by 20 million people across the United States",
+                "role": "状语",
+                "note": "过去分词短语作句首背景状语，attended by 表示「有……参加」，20 million people 强调规模"
+              },
+              {
+                "part": "the event",
+                "role": "主语",
+                "note": "单数名词，谓语用 30 的过去式；回指上句的首次地球日"
+              },
+              {
+                "part": "30",
+                "role": "谓语",
+                "note": "30 空独占谓语，后接宾语 support；需及物动词过去式，strengthened（加强）表示活动「强化」了对立法的支持"
+              },
+              {
+                "part": "support for legislation such as the Clean Air Act and the Endangered Species Act",
+                "role": "宾语",
+                "note": "30 的宾语；for legislation 说明支持对象，such as 引出《清洁空气法》《濒危物种法》两例，法案名原样照抄"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「过去分词短语作句首状语 + 主谓（30 空）+ 宾语（含 such as 列举）」。"
+            ],
+            "phrases": [
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "states",
+                "meaning": "状态、状况、情形；国家、州、政府；陈述、说明、规定；州的、国事的（state 的复数/三单形式）",
+                "usage": "注意区分：states（复数/三单）/ state（原形）。",
+                "example": "Attended by 20 million people across the United States, the event 30 support for legislation such as the Clean Air Act and the Endangered Species Act. 这场有全美两千万人参与的活动，强化了对《清洁空气法》《濒危物种法》等立法的支持。"
+              }
+            ],
+            "pitfalls": [
+              "such as 用于举例，for example 常作插入语，位置不同。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：states（复数/三单）/ state（原形）。"
+            ],
+            "paragraphRole": "用参与规模与立法成效说明首届地球日的影响，30 空考 strengthen 这类及物过去式动词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "In 1990, Hayes organized a global Earth Day, with more than 200 million participants in 140 countries. Earth Day now brings 31 citizens and activists from around the world to raise awareness and take action regarding such environmental 32 as global warming and renewable energy.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 102,
+          "text": "In 1990, Hayes organized a global Earth Day, with more than 200 million participants in 140 countries.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "1990,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "Hayes",
+              "normalized": "hayes",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 24,
+              "surface": "organized",
+              "normalized": "organized",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 26,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 33,
+              "surface": "global",
+              "normalized": "global",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 39,
+              "surface": "Earth",
+              "normalized": "earth",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 43,
+              "surface": "Day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 44,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 49,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 59,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 63,
+              "surface": "200",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 64,
+              "end": 71,
+              "surface": "million",
+              "normalized": "million",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 84,
+              "surface": "participants",
+              "normalized": "participants",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 87,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 91,
+              "surface": "140",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 92,
+              "end": 101,
+              "surface": "countries",
+              "normalized": "countries",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 102,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在1990年，海斯组织了一个全球的地球日，有超过两亿参与者在140个国家。",
+            "translationNatural": "1990 年，海斯又组织了一次全球性的地球日，140 个国家超过两亿人参与。",
+            "structMarkup": "(In 1990), _Hayes organized a global Earth Day_, (with more than 200 million participants in 140 countries).",
+            "structureSummary": "时间状语 + 主谓宾 + with 伴随状语",
+            "components": [
+              {
+                "part": "In 1990",
+                "role": "状语",
+                "note": "时间介词短语，把叙事从 1970 年推进到 1990 年"
+              },
+              {
+                "part": "Hayes organized a global Earth Day",
+                "role": "谓语",
+                "note": "主句，organized 过去式，a global Earth Day 是宾语，global 与上文美国本土活动形成「走向全球」的对照"
+              },
+              {
+                "part": "with more than 200 million participants in 140 countries",
+                "role": "状语",
+                "note": "介词 with 引导伴随状语，给出参与规模（2 亿多人、140 国），说明全球化的程度"
+              }
+            ],
+            "clauses": [
+              "本句含比较结构（比较级 + than），than 后是被比较对象。",
+              "本句主干为「时间状语 + 主谓宾 + with 伴随状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "global",
+                "meaning": "全球的、全世界的；整体的",
+                "usage": "注意区分：global（全球的）/ worldwide（世界范围的）/ globe（地球）。常见搭配：global warming / global market。",
+                "example": "Food is a global commodity. 粮食是全球性商品。"
+              },
+              {
+                "text": "earth",
+                "meaning": "地球（the earth）；泥土；究竟（on earth）",
+                "usage": "注意区分：earth（地球/泥土）/ world（世界）。常见搭配：on earth / the earth's climate。",
+                "example": "The earth's climate is changing. 地球气候正在改变。"
+              }
+            ],
+            "pitfalls": [
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "注意区分：global（全球的）/ worldwide（世界范围的）/ globe（地球）。",
+              "注意区分：earth（地球/泥土）/ world（世界）。"
+            ],
+            "paragraphRole": "时间跳到 1990 年，地球日升级为全球性活动，用参与国与人数凸显其规模，承上启下。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 103,
+          "end": 278,
+          "text": "Earth Day now brings 31 citizens and activists from around the world to raise awareness and take action regarding such environmental 32 as global warming and renewable energy.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Earth",
+              "normalized": "earth",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "surface": "Day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "surface": "now",
+              "normalized": "now",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 20,
+              "surface": "brings",
+              "normalized": "brings",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 24,
+              "end": 32,
+              "surface": "citizens",
+              "normalized": "citizens",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 36,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 46,
+              "surface": "activists",
+              "normalized": "activists",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 51,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 58,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 62,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 68,
+              "surface": "world",
+              "normalized": "world",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 71,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 77,
+              "surface": "raise",
+              "normalized": "raise",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 87,
+              "surface": "awareness",
+              "normalized": "awareness",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 91,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 96,
+              "surface": "take",
+              "normalized": "take",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 103,
+              "surface": "action",
+              "normalized": "action",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 113,
+              "surface": "regarding",
+              "normalized": "regarding",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 118,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 132,
+              "surface": "environmental",
+              "normalized": "environmental",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 135,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 136,
+              "end": 138,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 145,
+              "surface": "global",
+              "normalized": "global",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 153,
+              "surface": "warming",
+              "normalized": "warming",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 157,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 158,
+              "end": 167,
+              "surface": "renewable",
+              "normalized": "renewable",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 174,
+              "surface": "energy",
+              "normalized": "energy",
+              "isWord": true
+            },
+            {
+              "start": 174,
+              "end": 175,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "地球日现在带来31公民与活动家从全世界去提升意识并采取行动关于诸如全球变暖与可再生能源这样的环境32。",
+            "translationNatural": "如今地球日把世界各地的公民和活动人士汇聚起来，以提升意识、采取行动，应对全球变暖、可再生能源之类的环境议题。",
+            "structMarkup": "【Earth Day】 _now brings 31 citizens and activists from around the world_ (to raise awareness and take action regarding such environmental 32 as global warming and renewable energy).",
+            "structureSummary": "主语 + 谓语（内嵌 31 空）+ 宾语 + 不定式目的状语（内嵌 32 空，含 such...as 列举）",
+            "components": [
+              {
+                "part": "Earth Day",
+                "role": "主语",
+                "note": "单数主语，谓语用 brings（三单），与上文 now 的现在时态一致"
+              },
+              {
+                "part": "now brings 31 citizens and activists from around the world",
+                "role": "谓语",
+                "note": "brings 的宾语是 citizens and activists，from around the world 是来源状语；31 空在 brings 与 citizens 之间需副词，together（共同）表示「把……聚到一起」"
+              },
+              {
+                "part": "to raise awareness and take action regarding such environmental 32 as global warming and renewable energy",
+                "role": "状语",
+                "note": "不定式作目的状语；regarding such environmental 32 as... 中 32 空需名词，concerns（议题）构成 such...as 列举全球变暖与可再生能源"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主语 + 谓语（内嵌 31 空）+ 宾语 + 不定式目的状语（内嵌 32 空，含 such...as 列举）」。"
+            ],
+            "phrases": [
+              {
+                "text": "earth",
+                "meaning": "地球（the earth）；泥土；究竟（on earth）",
+                "usage": "注意区分：earth（地球/泥土）/ world（世界）。常见搭配：on earth / the earth's climate。",
+                "example": "The earth's climate is changing. 地球气候正在改变。"
+              },
+              {
+                "text": "around the world",
+                "meaning": "世界；领域；世人",
+                "usage": "注意区分：world（世界）/ word（单词）读音与拼写易混。常见搭配：around the world / the world of work。",
+                "example": "The idea spread around the world. 这个想法传遍世界。"
+              },
+              {
+                "text": "raise awareness",
+                "meaning": "提高、提出（及物）；抚养（美式）",
+                "usage": "注意区分：raise（及物，提高）/ rise（不及物，上升）/ arise（出现）。常见搭配：raise a question / raise children。",
+                "example": "The finding raises a question. 这一发现引出一个问题。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：earth（地球/泥土）/ world（世界）。",
+              "注意区分：now（现在）/ now that（既然，连词）。",
+              "注意区分：world（世界）/ word（单词）读音与拼写易混。"
+            ],
+            "paragraphRole": "说明地球日当下的作用：把全球公民与行动者联合起来应对环境议题，31、32 两空分别考副词 together 与名词 concerns。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "Today, the Earth Day Network, which rallies more than 20,000 33 and organizations in 190 countries, supports the Earth Day mission year-round. This mission is founded on the proposition that all people, regardless of race, gender, income, or 34 , have a moral right to a healthy, sustainable environment. The Earth Day Network 35 this mission through education, public policy, and activism campaigns.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 142,
+          "text": "Today, the Earth Day Network, which rallies more than 20,000 33 and organizations in 190 countries, supports the Earth Day mission year-round.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Today",
+              "normalized": "today",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "Earth",
+              "normalized": "earth",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "Day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 28,
+              "surface": "Network",
+              "normalized": "network",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 29,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 30,
+              "end": 35,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 43,
+              "surface": "rallies",
+              "normalized": "rallies",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 53,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 60,
+              "surface": "20,000",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 64,
+              "end": 67,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 81,
+              "surface": "organizations",
+              "normalized": "organizations",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 84,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 88,
+              "surface": "190",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 89,
+              "end": 98,
+              "surface": "countries",
+              "normalized": "countries",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 99,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 100,
+              "end": 108,
+              "surface": "supports",
+              "normalized": "supports",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 112,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 118,
+              "surface": "Earth",
+              "normalized": "earth",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 122,
+              "surface": "Day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 130,
+              "surface": "mission",
+              "normalized": "mission",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 141,
+              "surface": "year-round",
+              "normalized": "year-round",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 142,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "今天，地球日网络，它集结超过两万33与组织在190个国家，全年支持地球日使命。",
+            "translationNatural": "如今，在 190 个国家集结了两万多家伙伴与组织的「地球日网络」，全年都在推进地球日的使命。",
+            "structMarkup": "(Today), 【the Earth Day Network】, {which rallies more than 20,000 33 and organizations in 190 countries}, _supports the Earth Day mission year-round_.",
+            "structureSummary": "时间状语 + 主语 + 非限制性定语从句（内嵌 33 空）+ 谓语 + 宾语",
+            "components": [
+              {
+                "part": "Today",
+                "role": "状语",
+                "note": "时间副词，把叙事从历史事件拉到「现今」"
+              },
+              {
+                "part": "the Earth Day Network",
+                "role": "主语",
+                "note": "单数主语，谓语用 supports（三单）"
+              },
+              {
+                "part": "which rallies more than 20,000 33 and organizations in 190 countries",
+                "role": "定语从句",
+                "note": "which 引导非限制性定语从句修饰 Network；rallies 后接 20,000 33 and organizations，33 空与 organizations 并列需名词，partners（伙伴）构成 partners and organizations"
+              },
+              {
+                "part": "supports the Earth Day mission year-round",
+                "role": "谓语",
+                "note": "主句谓语 supports 加宾语 mission，year-round 是时间状语表示「全年」"
+              }
+            ],
+            "clauses": [
+              "定语从句「which rallies more than 20,000 33 and organizations in 190 countries」：which 引导非限制性定语从句修饰 Network；rallies 后接 20,000 33 and organizations，33 空与 organizations 并列需名词，partners（伙伴）构成 partners and organizations",
+              "本句含比较结构（比较级 + than），than 后是被比较对象。"
+            ],
+            "phrases": [
+              {
+                "text": "today",
+                "meaning": "今天；当今",
+                "usage": "注意区分：today（今天/当今）/ nowadays（如今，副词）。常见搭配：today's digital activity / in today's world。",
+                "example": "Today he is still the best-known racehorse. 今天他仍是最知名的赛马。"
+              },
+              {
+                "text": "earth",
+                "meaning": "地球（the earth）；泥土；究竟（on earth）",
+                "usage": "注意区分：earth（地球/泥土）/ world（世界）。常见搭配：on earth / the earth's climate。",
+                "example": "The earth's climate is changing. 地球气候正在改变。"
+              },
+              {
+                "text": "supports",
+                "meaning": "支持、资助（support 的复数/三单形式）",
+                "usage": "注意区分：supports（复数/三单）/ support（原形）。",
+                "example": "Today, the Earth Day Network, which rallies more than 20,000 33 and organizations in 190 countries, supports the Earth Day mission year-round. 如今，在 190 个国家集结了两万多家伙伴与组织的「地球日网络」，全年都在推进地球日的使命。"
+              }
+            ],
+            "pitfalls": [
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "注意区分：today（今天/当今）/ nowadays（如今，副词）。",
+              "注意区分：earth（地球/泥土）/ world（世界）。"
+            ],
+            "paragraphRole": "引出常设机构「地球日网络」及其规模（190 国、两万余伙伴组织），33 空考与 organizations 并列的名词 partners。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 143,
+          "end": 304,
+          "text": "This mission is founded on the proposition that all people, regardless of race, gender, income, or 34 , have a moral right to a healthy, sustainable environment.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 12,
+              "surface": "mission",
+              "normalized": "mission",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 23,
+              "surface": "founded",
+              "normalized": "founded",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 42,
+              "surface": "proposition",
+              "normalized": "proposition",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 58,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 59,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 60,
+              "end": 70,
+              "surface": "regardless",
+              "normalized": "regardless",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "race",
+              "normalized": "race",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 79,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 80,
+              "end": 86,
+              "surface": "gender",
+              "normalized": "gender",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 87,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 88,
+              "end": 94,
+              "surface": "income",
+              "normalized": "income",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 95,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 101,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 102,
+              "end": 103,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 104,
+              "end": 108,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 110,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 116,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 122,
+              "surface": "right",
+              "normalized": "right",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 125,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 127,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 135,
+              "surface": "healthy",
+              "normalized": "healthy",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 136,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 137,
+              "end": 148,
+              "surface": "sustainable",
+              "normalized": "sustainable",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 160,
+              "surface": "environment",
+              "normalized": "environment",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 161,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这一使命建立在如下主张之上：所有人，不论种族、性别、收入或34，都有对健康可持续环境的道德权利。",
+            "translationNatural": "这一使命基于一个主张：无论种族、性别、收入或地域，人人都天然享有健康、可持续环境的道德权利。",
+            "structMarkup": "【This mission】 is founded on the proposition {that all people}, (regardless of race, gender, income, or 34) , _have a moral right to a healthy, sustainable environment_.",
+            "structureSummary": "主系表 + that 引导的同位语从句（内含 regardless of 让步状语，内嵌 34 空）",
+            "components": [
+              {
+                "part": "This mission",
+                "role": "主语",
+                "note": "回指上句的 the Earth Day mission，单数，谓语用 is founded"
+              },
+              {
+                "part": "is founded on the proposition",
+                "role": "系表",
+                "note": "be founded on 意为「建立在……基础之上」，the proposition 是「主张/命题」"
+              },
+              {
+                "part": "that all people",
+                "role": "同位语从句",
+                "note": "that 引导同位语从句，解释 proposition 的具体内容；all people 是从句主语"
+              },
+              {
+                "part": "regardless of race, gender, income, or 34",
+                "role": "状语",
+                "note": "介词短语作让步状语，within 从句；or 34 是并列的最后一项，34 空与 race/gender/income 并列需名词，geography（地域）构成 regardless of geography（不论地域）"
+              },
+              {
+                "part": "have a moral right to a healthy, sustainable environment",
+                "role": "谓语",
+                "note": "同位语从句的谓语部分，have a moral right to 意为「享有……的道德权利」，to a healthy, sustainable environment 说明权利对象"
+              }
+            ],
+            "clauses": [
+              "同位语从句「that all people」：that 引导同位语从句，解释 proposition 的具体内容；all people 是从句主语",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "regardless of",
+                "meaning": "不管、无论",
+                "usage": "介词短语后接名词或 wh- 从句。",
+                "example": "Everyone is welcome regardless of age. 不论年龄都欢迎。"
+              },
+              {
+                "text": "founded",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」（found 的过去式/过去分词形式）",
+                "usage": "注意区分：founded（过去式/过去分词）/ found（原形）。",
+                "example": "This mission is founded on the proposition that all people, regardless of race, gender, income, or 34 , have a moral right to a healthy, sustainable environment. 这一使命基于一个主张：无论种族、性别、收入或地域，人人都天然享有健康、可持续环境的道德权利。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              }
+            ],
+            "pitfalls": [
+              "regardless of 已含「无论」，后面不再加 no matter。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "阐明地球日使命背后的理念：环境权人人平等，不因种族、性别、收入或地域而异，34 空考与前面并列的名词 geography。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 305,
+          "end": 400,
+          "text": "The Earth Day Network 35 this mission through education, public policy, and activism campaigns.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "Earth",
+              "normalized": "earth",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "surface": "Day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 21,
+              "surface": "Network",
+              "normalized": "network",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 37,
+              "surface": "mission",
+              "normalized": "mission",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 45,
+              "surface": "through",
+              "normalized": "through",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 55,
+              "surface": "education",
+              "normalized": "education",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 56,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 57,
+              "end": 63,
+              "surface": "public",
+              "normalized": "public",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 70,
+              "surface": "policy",
+              "normalized": "policy",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 71,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 84,
+              "surface": "activism",
+              "normalized": "activism",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 94,
+              "surface": "campaigns",
+              "normalized": "campaigns",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 95,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "地球日网络35这一使命通过教育、公共政策与行动运动。",
+            "translationNatural": "地球日网络通过教育、公共政策和行动倡导来践行这一使命。",
+            "structMarkup": "【The Earth Day Network】 _35_ ~this mission~ (through education, public policy, and activism campaigns).",
+            "structureSummary": "主语 + 35 空（谓语）+ 宾语 + through 方式状语",
+            "components": [
+              {
+                "part": "The Earth Day Network",
+                "role": "主语",
+                "note": "回指本段首句主语，单数，谓语用 35 的三单形式"
+              },
+              {
+                "part": "35",
+                "role": "谓语",
+                "note": "35 空独占谓语，后接宾语 this mission；需及物动词三单，pursues（追求/践行）表示「践行这一使命」"
+              },
+              {
+                "part": "this mission",
+                "role": "宾语",
+                "note": "35 的宾语，回指前文 the Earth Day mission"
+              },
+              {
+                "part": "through education, public policy, and activism campaigns",
+                "role": "状语",
+                "note": "介词 through 引出方式状语，列举三种途径（教育、公共政策、行动运动）"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主语 + 35 空（谓语）+ 宾语 + through 方式状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "earth",
+                "meaning": "地球（the earth）；泥土；究竟（on earth）",
+                "usage": "注意区分：earth（地球/泥土）/ world（世界）。常见搭配：on earth / the earth's climate。",
+                "example": "The earth's climate is changing. 地球气候正在改变。"
+              },
+              {
+                "text": "education",
+                "meaning": "教育、培养；教育学",
+                "usage": "注意区分：education（教育，不可数）/ educational（教育的，形容词）/ higher / further education（高等/继续教育）/ education 与 training（training 侧重技能培训）。",
+                "example": "The Earth Day Network 35 this mission through education, public policy, and activism campaigns. 地球日网络通过教育、公共政策和行动倡导来践行这一使命。"
+              },
+              {
+                "text": "public",
+                "meaning": "公共的、公众的 / 公众（the public）",
+                "usage": "注意区分：public（公共的）/ pubic（阴部的，拼写易错）。常见搭配：public health / the British public。",
+                "example": "Loneliness is a public health problem. 孤独是公共卫生问题。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：earth（地球/泥土）/ world（世界）。",
+              "注意区分：education（教育，不可数）/ educational（教育的，形容词）/ higher / further education（高等/继续教育）/ education 与 training（training 侧重技能培训）。",
+              "注意区分：public（公共的）/ pubic（阴部的，拼写易错）。"
+            ],
+            "paragraphRole": "收束全篇：地球日网络以教育、政策与行动三条途径践行使命，35 空考三单及物动词 pursues。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "concerns"
+        },
+        {
+          "key": "B",
+          "text": "expansion"
+        },
+        {
+          "key": "C",
+          "text": "forth"
+        },
+        {
+          "key": "D",
+          "text": "geography"
+        },
+        {
+          "key": "E",
+          "text": "importance"
+        },
+        {
+          "key": "F",
+          "text": "imposed"
+        },
+        {
+          "key": "G",
+          "text": "inspired"
+        },
+        {
+          "key": "H",
+          "text": "national"
+        },
+        {
+          "key": "I",
+          "text": "partners"
+        },
+        {
+          "key": "J",
+          "text": "potential"
+        },
+        {
+          "key": "K",
+          "text": "pursues"
+        },
+        {
+          "key": "L",
+          "text": "rescues"
+        },
+        {
+          "key": "M",
+          "text": "rest"
+        },
+        {
+          "key": "N",
+          "text": "strengthened"
+        },
+        {
+          "key": "O",
+          "text": "together"
+        }
+      ],
+      "answer": "M"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "concerns"
+        },
+        {
+          "key": "B",
+          "text": "expansion"
+        },
+        {
+          "key": "C",
+          "text": "forth"
+        },
+        {
+          "key": "D",
+          "text": "geography"
+        },
+        {
+          "key": "E",
+          "text": "importance"
+        },
+        {
+          "key": "F",
+          "text": "imposed"
+        },
+        {
+          "key": "G",
+          "text": "inspired"
+        },
+        {
+          "key": "H",
+          "text": "national"
+        },
+        {
+          "key": "I",
+          "text": "partners"
+        },
+        {
+          "key": "J",
+          "text": "potential"
+        },
+        {
+          "key": "K",
+          "text": "pursues"
+        },
+        {
+          "key": "L",
+          "text": "rescues"
+        },
+        {
+          "key": "M",
+          "text": "rest"
+        },
+        {
+          "key": "N",
+          "text": "strengthened"
+        },
+        {
+          "key": "O",
+          "text": "together"
+        }
+      ],
+      "answer": "G"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "concerns"
+        },
+        {
+          "key": "B",
+          "text": "expansion"
+        },
+        {
+          "key": "C",
+          "text": "forth"
+        },
+        {
+          "key": "D",
+          "text": "geography"
+        },
+        {
+          "key": "E",
+          "text": "importance"
+        },
+        {
+          "key": "F",
+          "text": "imposed"
+        },
+        {
+          "key": "G",
+          "text": "inspired"
+        },
+        {
+          "key": "H",
+          "text": "national"
+        },
+        {
+          "key": "I",
+          "text": "partners"
+        },
+        {
+          "key": "J",
+          "text": "potential"
+        },
+        {
+          "key": "K",
+          "text": "pursues"
+        },
+        {
+          "key": "L",
+          "text": "rescues"
+        },
+        {
+          "key": "M",
+          "text": "rest"
+        },
+        {
+          "key": "N",
+          "text": "strengthened"
+        },
+        {
+          "key": "O",
+          "text": "together"
+        }
+      ],
+      "answer": "H"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "concerns"
+        },
+        {
+          "key": "B",
+          "text": "expansion"
+        },
+        {
+          "key": "C",
+          "text": "forth"
+        },
+        {
+          "key": "D",
+          "text": "geography"
+        },
+        {
+          "key": "E",
+          "text": "importance"
+        },
+        {
+          "key": "F",
+          "text": "imposed"
+        },
+        {
+          "key": "G",
+          "text": "inspired"
+        },
+        {
+          "key": "H",
+          "text": "national"
+        },
+        {
+          "key": "I",
+          "text": "partners"
+        },
+        {
+          "key": "J",
+          "text": "potential"
+        },
+        {
+          "key": "K",
+          "text": "pursues"
+        },
+        {
+          "key": "L",
+          "text": "rescues"
+        },
+        {
+          "key": "M",
+          "text": "rest"
+        },
+        {
+          "key": "N",
+          "text": "strengthened"
+        },
+        {
+          "key": "O",
+          "text": "together"
+        }
+      ],
+      "answer": "E"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "concerns"
+        },
+        {
+          "key": "B",
+          "text": "expansion"
+        },
+        {
+          "key": "C",
+          "text": "forth"
+        },
+        {
+          "key": "D",
+          "text": "geography"
+        },
+        {
+          "key": "E",
+          "text": "importance"
+        },
+        {
+          "key": "F",
+          "text": "imposed"
+        },
+        {
+          "key": "G",
+          "text": "inspired"
+        },
+        {
+          "key": "H",
+          "text": "national"
+        },
+        {
+          "key": "I",
+          "text": "partners"
+        },
+        {
+          "key": "J",
+          "text": "potential"
+        },
+        {
+          "key": "K",
+          "text": "pursues"
+        },
+        {
+          "key": "L",
+          "text": "rescues"
+        },
+        {
+          "key": "M",
+          "text": "rest"
+        },
+        {
+          "key": "N",
+          "text": "strengthened"
+        },
+        {
+          "key": "O",
+          "text": "together"
+        }
+      ],
+      "answer": "N"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "concerns"
+        },
+        {
+          "key": "B",
+          "text": "expansion"
+        },
+        {
+          "key": "C",
+          "text": "forth"
+        },
+        {
+          "key": "D",
+          "text": "geography"
+        },
+        {
+          "key": "E",
+          "text": "importance"
+        },
+        {
+          "key": "F",
+          "text": "imposed"
+        },
+        {
+          "key": "G",
+          "text": "inspired"
+        },
+        {
+          "key": "H",
+          "text": "national"
+        },
+        {
+          "key": "I",
+          "text": "partners"
+        },
+        {
+          "key": "J",
+          "text": "potential"
+        },
+        {
+          "key": "K",
+          "text": "pursues"
+        },
+        {
+          "key": "L",
+          "text": "rescues"
+        },
+        {
+          "key": "M",
+          "text": "rest"
+        },
+        {
+          "key": "N",
+          "text": "strengthened"
+        },
+        {
+          "key": "O",
+          "text": "together"
+        }
+      ],
+      "answer": "O"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "concerns"
+        },
+        {
+          "key": "B",
+          "text": "expansion"
+        },
+        {
+          "key": "C",
+          "text": "forth"
+        },
+        {
+          "key": "D",
+          "text": "geography"
+        },
+        {
+          "key": "E",
+          "text": "importance"
+        },
+        {
+          "key": "F",
+          "text": "imposed"
+        },
+        {
+          "key": "G",
+          "text": "inspired"
+        },
+        {
+          "key": "H",
+          "text": "national"
+        },
+        {
+          "key": "I",
+          "text": "partners"
+        },
+        {
+          "key": "J",
+          "text": "potential"
+        },
+        {
+          "key": "K",
+          "text": "pursues"
+        },
+        {
+          "key": "L",
+          "text": "rescues"
+        },
+        {
+          "key": "M",
+          "text": "rest"
+        },
+        {
+          "key": "N",
+          "text": "strengthened"
+        },
+        {
+          "key": "O",
+          "text": "together"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "concerns"
+        },
+        {
+          "key": "B",
+          "text": "expansion"
+        },
+        {
+          "key": "C",
+          "text": "forth"
+        },
+        {
+          "key": "D",
+          "text": "geography"
+        },
+        {
+          "key": "E",
+          "text": "importance"
+        },
+        {
+          "key": "F",
+          "text": "imposed"
+        },
+        {
+          "key": "G",
+          "text": "inspired"
+        },
+        {
+          "key": "H",
+          "text": "national"
+        },
+        {
+          "key": "I",
+          "text": "partners"
+        },
+        {
+          "key": "J",
+          "text": "potential"
+        },
+        {
+          "key": "K",
+          "text": "pursues"
+        },
+        {
+          "key": "L",
+          "text": "rescues"
+        },
+        {
+          "key": "M",
+          "text": "rest"
+        },
+        {
+          "key": "N",
+          "text": "strengthened"
+        },
+        {
+          "key": "O",
+          "text": "together"
+        }
+      ],
+      "answer": "I"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "concerns"
+        },
+        {
+          "key": "B",
+          "text": "expansion"
+        },
+        {
+          "key": "C",
+          "text": "forth"
+        },
+        {
+          "key": "D",
+          "text": "geography"
+        },
+        {
+          "key": "E",
+          "text": "importance"
+        },
+        {
+          "key": "F",
+          "text": "imposed"
+        },
+        {
+          "key": "G",
+          "text": "inspired"
+        },
+        {
+          "key": "H",
+          "text": "national"
+        },
+        {
+          "key": "I",
+          "text": "partners"
+        },
+        {
+          "key": "J",
+          "text": "potential"
+        },
+        {
+          "key": "K",
+          "text": "pursues"
+        },
+        {
+          "key": "L",
+          "text": "rescues"
+        },
+        {
+          "key": "M",
+          "text": "rest"
+        },
+        {
+          "key": "N",
+          "text": "strengthened"
+        },
+        {
+          "key": "O",
+          "text": "together"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "concerns"
+        },
+        {
+          "key": "B",
+          "text": "expansion"
+        },
+        {
+          "key": "C",
+          "text": "forth"
+        },
+        {
+          "key": "D",
+          "text": "geography"
+        },
+        {
+          "key": "E",
+          "text": "importance"
+        },
+        {
+          "key": "F",
+          "text": "imposed"
+        },
+        {
+          "key": "G",
+          "text": "inspired"
+        },
+        {
+          "key": "H",
+          "text": "national"
+        },
+        {
+          "key": "I",
+          "text": "partners"
+        },
+        {
+          "key": "J",
+          "text": "potential"
+        },
+        {
+          "key": "K",
+          "text": "pursues"
+        },
+        {
+          "key": "L",
+          "text": "rescues"
+        },
+        {
+          "key": "M",
+          "text": "rest"
+        },
+        {
+          "key": "N",
+          "text": "strengthened"
+        },
+        {
+          "key": "O",
+          "text": "together"
+        }
+      ],
+      "answer": "K"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "concerns"
+    },
+    {
+      "key": "B",
+      "word": "expansion"
+    },
+    {
+      "key": "C",
+      "word": "forth"
+    },
+    {
+      "key": "D",
+      "word": "geography"
+    },
+    {
+      "key": "E",
+      "word": "importance"
+    },
+    {
+      "key": "F",
+      "word": "imposed"
+    },
+    {
+      "key": "G",
+      "word": "inspired"
+    },
+    {
+      "key": "H",
+      "word": "national"
+    },
+    {
+      "key": "I",
+      "word": "partners"
+    },
+    {
+      "key": "J",
+      "word": "potential"
+    },
+    {
+      "key": "K",
+      "word": "pursues"
+    },
+    {
+      "key": "L",
+      "word": "rescues"
+    },
+    {
+      "key": "M",
+      "word": "rest"
+    },
+    {
+      "key": "N",
+      "word": "strengthened"
+    },
+    {
+      "key": "O",
+      "word": "together"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "M",
+      "answerWord": "rest",
+      "reason": "空格夹在定冠词 the 与介词 of 之间，前面是 throughout，需填名词。前句说美国固定在 4 月 22 日庆祝，此句用 either...or... 给出另一种情况——世界「其余地区」按春分日庆祝，the rest of the world 是固定搭配，rest 意为「其余部分」。",
+      "distractors": "B) expansion（扩张）、C) forth（向前，副词）、J) potential（潜力/潜在的）都不是能被 the...of 直接修饰的合适名词；D) geography（地理）虽是名词，但 throughout the geography of the world 语义不通，且不与「美国具体日期 vs 世界其余」形成对照。"
+    },
+    "27": {
+      "answerKey": "G",
+      "answerWord": "inspired",
+      "reason": "空格独占谓语位置，主语是 Environmental activism，后接宾语 Wisconsin Senator... 和不定式 to create...，需及物动词过去式且能接「宾语 + to do」。环保运动「激励」了纳尔逊去创立庆典，inspired 正合 inspire sb to do 的搭配。",
+      "distractors": "F) imposed（强加）是及物动词过去式，但 impose sth on sb 不接 to do，语义也不符；M) rest 已用于 26 空且作「休息/剩余」讲，不能接 to create；K) pursues（追求）是三单形式，与复数主语 activism 不一致（此处应填过去式）。"
+    },
+    "28": {
+      "answerKey": "H",
+      "answerWord": "national",
+      "reason": "空格在冠词 a 与名词 celebration 之间，需形容词作前置定语。前文讲美国本土的地球日，此处理应说一场「全国的」庆典来团结环保运动，national 与 environmental movement 的范围相呼应。",
+      "distractors": "E) importance（重要性，名词）不能修饰 celebration；O) together（共同，副词）不能作前置定语；G) inspired 已用于 27 空，且 inspired celebration 语义不如 national 贴合「团结全国运动」。"
+    },
+    "29": {
+      "answerKey": "E",
+      "answerWord": "importance",
+      "reason": "空格在 the 与 of environmental protection 之间，需名词。educating participants in the importance of... 意为「让参与者认识到环保的『重要性』」，importance of 是常用搭配。",
+      "distractors": "A) concerns（关切/议题，名词）虽可接 of，但 in the concerns of environmental protection 不如 importance 自然，且 concerns 已用于 32 空；H) national（全国的，形容词）不能置于 the 与 of 之间作名词中心词；D) geography 不搭。"
+    },
+    "30": {
+      "answerKey": "N",
+      "answerWord": "strengthened",
+      "reason": "空格独占谓语，主语是 the event（单数，指首次地球日），后接宾语 support，需及物动词过去式。活动「强化/加强」了对立法的支持，strengthened 正合。",
+      "distractors": "F) imposed（强加）是及物动词过去式，但 impose support 搭配生硬且语义负面，与「赢得立法支持」的走向相反；G) inspired 已用于 27 空；L) rescues（营救）语义完全不符。"
+    },
+    "31": {
+      "answerKey": "O",
+      "answerWord": "together",
+      "reason": "空格在谓语动词 brings 与宾语 citizens and activists 之间，需副词修饰 brings，表示「把……聚到一起」。bring together 是固定短语，意为「使联合/团聚」，与 from around the world 呼应。",
+      "distractors": "C) forth（向前）是副词，但 bring forth 意为「产生/提出」，与「召集全球公民」不符；B) expansion 是名词，不能修饰动词；M) rest 已用于 26 空。"
+    },
+    "32": {
+      "answerKey": "A",
+      "answerWord": "concerns",
+      "reason": "空格在 environmental 与 as global warming... 之间，且前面有 such...as 结构，需名词（与 such environmental X as 搭配）。concerns 意为「议题/关切之事」，such environmental concerns as... 列举全球变暖与可再生能源等「环保议题」。",
+      "distractors": "E) importance 已用于 29 空，且 such importance as 不搭配（应为 importance of）；J) potential（潜力）可作名词，但 such potential concerns 语义偏差；H) national 是形容词，不能置于 environmental 与 as 之间作名词中心词。"
+    },
+    "33": {
+      "answerKey": "I",
+      "answerWord": "partners",
+      "reason": "空格与 organizations 由 and 连接，同作 rallies 的宾语，需名词（与 organizations 并列）。partners 意为「伙伴」，partners and organizations 即「伙伴与组织」，符合网络联合的对象。",
+      "distractors": "D) geography（地理）是名词但不与 organizations 并列成「联合对象」；A) concerns 已用于 32 空；L) rescues（营救，名词）语义不符。"
+    },
+    "34": {
+      "answerKey": "D",
+      "answerWord": "geography",
+      "reason": "空格在 regardless of race, gender, income, or 之后、逗号之前，与 race/gender/income 并列，需名词，构成「不论种族、性别、收入或地域」。geography 在此指「地域/所处地区」，与前面几项同属身份维度。",
+      "distractors": "C) forth（向前，副词）不能作并列名词；B) expansion（扩张）语义不符；E) importance 已用于 29 空；H) national 是形容词，不能作 or 的并列项。"
+    },
+    "35": {
+      "answerKey": "K",
+      "answerWord": "pursues",
+      "reason": "空格独占谓语，主语是 The Earth Day Network（单数），后接宾语 this mission，需及物动词三单现在式。pursue the mission 意为「践行/追求使命」，pursues 三单形式与单数主语一致。",
+      "distractors": "N) strengthened 已用于 30 空且是过去式，与本文现在时态及三单不一致；G) inspired 是过去式；M) rest 是名词/原形动词，不能作三单谓语。"
+    }
+  },
+  "lexicon": {
+    "achievements": {
+      "phonetic": "/əˈtʃiːvməntts/",
+      "pos": "n.",
+      "sense": "成就、成绩；达成、实现（本文 look at work-life balance as an achievement 把平衡当成一项成就 / a cycle, not an achievement 是循环而非一劳永逸的目标）（achievement 的复数/三单形式）",
+      "lemma": "achievement",
+      "collocations": [
+        "achievements of"
+      ],
+      "examples": [
+        "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "achievement + -s（复数/三单）",
+        "confusables": "achievements（复数/三单）/ achievement（原形）"
+      }
+    },
+    "act": {
+      "phonetic": "/ækt/",
+      "pos": "v./n.",
+      "sense": "行动、做事；表演、扮演；行为、法令（本文 consumers to not only demand change—but to act themselves 消费者不仅要呼吁改变，更要自己行动）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Air Act",
+        "Species Act"
+      ],
+      "examples": [
+        "Attended by 20 million people across the United States, the event 30 support for legislation such as the Clean Air Act and the Endangered Species Act. 这场有全美两千万人参与的活动，强化了对《清洁空气法》《濒危物种法》等立法的支持。"
+      ],
+      "more": {
+        "confusables": "act / actually / activity（同族不同词形，注意词性与用法）"
+      }
+    },
+    "action": {
+      "phonetic": "/ˈækʃn/",
+      "pos": "n.",
+      "sense": "行动、行为",
+      "collocations": [
+        "take action",
+        "the means of action"
+      ],
+      "examples": [
+        "We need to take action now. 我们得马上行动。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "action / activity / activities（同族不同词形，注意词性与用法）"
+      }
+    },
+    "annual": {
+      "phonetic": "/ˈænjuəl/",
+      "pos": "adj.",
+      "sense": "每年的、一年一度的、年度的（本文 an annual rise in volume of 8.5% 销量年增 8.5% / annual report）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "annual celebration"
+      ],
+      "examples": [
+        "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+      ]
+    },
+    "around": {
+      "phonetic": "/əˈraʊnd/",
+      "pos": "prep./adv.",
+      "sense": "围绕、在…四周；大约、到处、转过来（本文 discussion around careers 围绕职业的讨论 / around 30% 约 30%）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "activists from around"
+      ],
+      "examples": [
+        "Earth Day now brings 31 citizens and activists from around the world to raise awareness and take action regarding such environmental 32 as global warming and renewable energy. 如今地球日把世界各地的公民和活动人士汇聚起来，以提升意识、采取行动，应对全球变暖、可再生能源之类的环境议题。"
+      ]
+    },
+    "attended": {
+      "phonetic": "/əˈtendɪd/",
+      "pos": "v.",
+      "sense": "出席、参加、上（学/课）、照料、随同、专心于（attend 的过去式/过去分词；attend a school 上学）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Attended by"
+      ],
+      "examples": [
+        "Attended by 20 million people across the United States, the event 30 support for legislation such as the Clean Air Act and the Endangered Species Act. 这场有全美两千万人参与的活动，强化了对《清洁空气法》《濒危物种法》等立法的支持。"
+      ],
+      "more": {
+        "confusables": "attended / attend（同族不同词形，注意词性与用法）"
+      }
+    },
+    "awareness": {
+      "phonetic": "/əˈweənəs/",
+      "pos": "n.",
+      "sense": "意识、认识、知晓（本文 public / environmental / health awareness 公众 / 环保 / 健康意识，self-awareness 自我觉察）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "raises awareness",
+        "awareness of",
+        "raise awareness"
+      ],
+      "examples": [
+        "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+      ],
+      "more": {
+        "roots": "awareness 含 -ness（名词后缀，表性质或状态）"
+      }
+    },
+    "brings": {
+      "phonetic": "/brɪŋz/",
+      "pos": "v.",
+      "sense": "带来、拿来；引起、导致；使处于（bring 的第三人称单数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "now brings"
+      ],
+      "examples": [
+        "Earth Day now brings 31 citizens and activists from around the world to raise awareness and take action regarding such environmental 32 as global warming and renewable energy. 如今地球日把世界各地的公民和活动人士汇聚起来，以提升意识、采取行动，应对全球变暖、可再生能源之类的环境议题。"
+      ],
+      "more": {
+        "confusables": "brings / bring（同族不同词形，注意词性与用法）"
+      }
+    },
+    "campaigns": {
+      "phonetic": "/kæmˈpeɪnz/",
+      "pos": "n./v.",
+      "sense": "运动；战役；活动（v. 参加运动；竞选）（campaign 的复数/三单形式）",
+      "lemma": "campaign",
+      "collocations": [
+        "activism campaigns"
+      ],
+      "examples": [
+        "The Earth Day Network 35 this mission through education, public policy, and activism campaigns. 地球日网络通过教育、公共政策和行动倡导来践行这一使命。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "campaign + -s（复数/三单）",
+        "confusables": "campaigns（复数/三单）/ campaign（原形）"
+      }
+    },
+    "clean": {
+      "phonetic": "/kliːn/",
+      "pos": "adj./v.",
+      "sense": "干净的、清洁的、纯净的、无污染的；打扫、清理（本文 nations blessed with clean tap water 拥有洁净自来水的国家）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Clean Air",
+        "Clean Air Act"
+      ],
+      "examples": [
+        "Attended by 20 million people across the United States, the event 30 support for legislation such as the Clean Air Act and the Endangered Species Act. 这场有全美两千万人参与的活动，强化了对《清洁空气法》《濒危物种法》等立法的支持。"
+      ]
+    },
+    "countries": {
+      "phonetic": "/ˈkʌntriz/",
+      "pos": "n.",
+      "sense": "国家、国度；乡村、乡下（country 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In 1990, Hayes organized a global Earth Day, with more than 200 million participants in 140 countries. 1990 年，海斯又组织了一次全球性的地球日，140 个国家超过两亿人参与。"
+      ]
+    },
+    "create": {
+      "phonetic": "/kriˈeɪt/",
+      "pos": "v.",
+      "sense": "创造、造成（create sth）",
+      "collocations": [
+        "create opportunities",
+        "create problems"
+      ],
+      "examples": [
+        "They create powerful new communicative forms. 他们创造出有力的新沟通形式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "create（创造）/ make（制作）/ produce（生产）"
+      }
+    },
+    "day": {
+      "phonetic": "/deɪ/",
+      "pos": "n.",
+      "sense": "一天、白天；时期、时代（these days 如今）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Earth Day",
+        "Day on",
+        "Day on April"
+      ],
+      "examples": [
+        "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+      ],
+      "more": {
+        "confusables": "day / day-to-day / days（同族不同词形，注意词性与用法）"
+      }
+    },
+    "earth": {
+      "phonetic": "/ɜːθ/",
+      "pos": "n.",
+      "sense": "地球（the earth）；泥土；究竟（on earth）",
+      "collocations": [
+        "on earth",
+        "the earth's climate"
+      ],
+      "examples": [
+        "The earth's climate is changing. 地球气候正在改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "earth（地球/泥土）/ world（世界）"
+      }
+    },
+    "education": {
+      "phonetic": "/ˌedʒuˈkeɪʃn/",
+      "pos": "n.",
+      "sense": "教育、培养；教育学",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "educate（教育）+ -ion（名词后缀，去 e）",
+        "confusables": "education（教育，不可数）/ educational（教育的，形容词）/ higher / further education（高等/继续教育）/ education 与 training（training 侧重技能培训）"
+      },
+      "collocations": [
+        "through education",
+        "mission through education"
+      ],
+      "examples": [
+        "The Earth Day Network 35 this mission through education, public policy, and activism campaigns. 地球日网络通过教育、公共政策和行动倡导来践行这一使命。"
+      ]
+    },
+    "either": {
+      "phonetic": "/ˈaɪðə(r)/",
+      "pos": "conj./adv./det.",
+      "sense": "两者之一（either...or）；也不（否定句末）",
+      "collocations": [
+        "either ... or",
+        "not ... either",
+        "either of"
+      ],
+      "examples": [
+        "Either way, the result is the same. 无论哪种方式，结果一样。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "either...or（两者之一）/ neither...nor（两者都不）/ either（也，否定句末）"
+      }
+    },
+    "endangered": {
+      "phonetic": "/ɪnˈdeɪndʒəd/",
+      "pos": "adj./v.",
+      "sense": "濒危的、有灭绝危险的、受威胁的；危及（endanger 的过去分词；endangered species 濒危物种）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Endangered Species"
+      ],
+      "examples": [
+        "Attended by 20 million people across the United States, the event 30 support for legislation such as the Clean Air Act and the Endangered Species Act. 这场有全美两千万人参与的活动，强化了对《清洁空气法》《濒危物种法》等立法的支持。"
+      ],
+      "more": {
+        "confusables": "endangered / endangers / endangering（同族不同词形，注意词性与用法）"
+      }
+    },
+    "energy": {
+      "phonetic": "/ˈenədʒi/",
+      "pos": "n.",
+      "sense": "能量、能源；精力、活力、干劲",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "en-（在内）+ erg（工作、力，词根 erg = work，同 synergy/ergonomic）+ -y",
+        "confusables": "energy（能量；精力，不可数）/ energetic（精力充沛的）/ energies 复数可指「精力、努力」（devote one's energies to）/ power（电力/权力）/ strength（力气）"
+      },
+      "collocations": [
+        "renewable energy"
+      ],
+      "examples": [
+        "Earth Day now brings 31 citizens and activists from around the world to raise awareness and take action regarding such environmental 32 as global warming and renewable energy. 如今地球日把世界各地的公民和活动人士汇聚起来，以提升意识、采取行动，应对全球变暖、可再生能源之类的环境议题。"
+      ]
+    },
+    "environment": {
+      "phonetic": "/ɪnˈvaɪrənmənt/",
+      "pos": "n.",
+      "sense": "环境（可数/不可数）；自然环境",
+      "collocations": [
+        "the environment",
+        "legal environment",
+        "work environment"
+      ],
+      "examples": [
+        "The legal environment may change. 法律环境可能会变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "environment（环境）/ surroundings（周围环境）/ atmosphere（气氛）"
+      }
+    },
+    "environmental": {
+      "phonetic": "/ɪnˌvaɪrənˈmentl/",
+      "pos": "adj.",
+      "sense": "环境的、有关环境的、环保的（本文 on health and environmental fronts 在健康与环保两条战线 / environmental campaigners 环保人士 / environmental awareness）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "environmental movement",
+        "Environmental activism",
+        "environmental protection"
+      ],
+      "examples": [
+        "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+      ],
+      "more": {
+        "confusables": "environmental / environment / environmentalists（同族不同词形，注意词性与用法）"
+      }
+    },
+    "event": {
+      "phonetic": "/ɪˈvent/",
+      "pos": "n.",
+      "sense": "事件、大事、发生的事；比赛项目（in any event 无论如何）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Attended by 20 million people across the United States, the event 30 support for legislation such as the Clean Air Act and the Endangered Species Act. 这场有全美两千万人参与的活动，强化了对《清洁空气法》《濒危物种法》等立法的支持。"
+      ],
+      "more": {
+        "confusables": "event / eventually / evenly（同族不同词形，注意词性与用法）"
+      }
+    },
+    "first": {
+      "phonetic": "/fɜːst/",
+      "pos": "num./adj./adv.",
+      "sense": "第一；最早的；首先、初次",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "first Earth"
+      ],
+      "examples": [
+        "With the help of Denis Hayes, a graduate student at Harvard University, Nelson organized the first Earth Day on April 22, 1970, educating participants in the 29 of environmental protection. 在哈佛研究生丹尼斯·海斯的协助下，纳尔逊于 1970 年 4 月 22 日组织了首届地球日，让参与者认识到环保的重要性。"
+      ]
+    },
+    "founded": {
+      "phonetic": "/faʊndɪd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」（found 的过去式/过去分词形式）",
+      "lemma": "found",
+      "collocations": [
+        "founded on"
+      ],
+      "examples": [
+        "This mission is founded on the proposition that all people, regardless of race, gender, income, or 34 , have a moral right to a healthy, sustainable environment. 这一使命基于一个主张：无论种族、性别、收入或地域，人人都天然享有健康、可持续环境的道德权利。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "found + -ed（过去式/过去分词）",
+        "confusables": "founded（过去式/过去分词）/ found（原形）"
+      }
+    },
+    "future": {
+      "phonetic": "/ˈfjuːtʃə(r)/",
+      "pos": "n./adj.",
+      "sense": "未来 / 未来的",
+      "collocations": [
+        "in the future",
+        "future food supply",
+        "near future"
+      ],
+      "examples": [
+        "The future of food is uncertain. 食物的未来不确定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in the future（将来）/ in future（英式：从今往后）"
+      }
+    },
+    "gender": {
+      "phonetic": "/ˈdʒendə/",
+      "pos": "n.",
+      "sense": "性别；（语法的）性（gender differences 性别差异；gender gap 性别鸿沟）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "This mission is founded on the proposition that all people, regardless of race, gender, income, or 34 , have a moral right to a healthy, sustainable environment. 这一使命基于一个主张：无论种族、性别、收入或地域，人人都天然享有健康、可持续环境的道德权利。"
+      ],
+      "more": {
+        "confusables": "gender / genders（同族不同词形，注意词性与用法）"
+      }
+    },
+    "generations": {
+      "phonetic": "/ˌdʒenəˈreɪʃnz/",
+      "pos": "n.",
+      "sense": "一代人、代、世代（约二三十年）；（产品/技术的）代（generation 的复数；future generations 后代；generation gap 代沟）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "future generations"
+      ],
+      "examples": [
+        "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+      ]
+    },
+    "global": {
+      "phonetic": "/ˈɡləʊbl/",
+      "pos": "adj.",
+      "sense": "全球的、全世界的；整体的",
+      "collocations": [
+        "global warming",
+        "global market"
+      ],
+      "examples": [
+        "Food is a global commodity. 粮食是全球性商品。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "global（全球的）/ worldwide（世界范围的）/ globe（地球）"
+      }
+    },
+    "graduate": {
+      "phonetic": "/ˈɡrædʒuət/",
+      "pos": "n./v./adj.",
+      "sense": "毕业生；研究生（v. 毕业；授予学位；adj. 毕业的）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "graduate student"
+      ],
+      "examples": [
+        "With the help of Denis Hayes, a graduate student at Harvard University, Nelson organized the first Earth Day on April 22, 1970, educating participants in the 29 of environmental protection. 在哈佛研究生丹尼斯·海斯的协助下，纳尔逊于 1970 年 4 月 22 日组织了首届地球日，让参与者认识到环保的重要性。"
+      ],
+      "more": {
+        "confusables": "graduate / gradually / graduated（同族不同词形，注意词性与用法）"
+      }
+    },
+    "healthy": {
+      "phonetic": "/ˈhelθi/",
+      "pos": "adj.",
+      "sense": "健康的；有益健康的",
+      "collocations": [
+        "a healthy diet",
+        "healthy habits",
+        "stay healthy"
+      ],
+      "examples": [
+        "They start a healthy diet. 他们开始健康饮食。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "health（健康）+ -y（形容词后缀）",
+        "confusables": "healthy（健康的）/ healthful（有益健康的）/ health（健康，名词）"
+      }
+    },
+    "help": {
+      "phonetic": "/help/",
+      "pos": "v./n.",
+      "sense": "帮助（help sb do sth / help with）；帮助（不可数）",
+      "collocations": [
+        "help sb do sth",
+        "help with",
+        "can't help doing"
+      ],
+      "examples": [
+        "Instincts can help you decide fast. 直觉能帮你快速决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "help sb do/to do（不带 doing）/ can't help doing（忍不住）"
+      }
+    },
+    "income": {
+      "phonetic": "/ˈɪnkʌm/",
+      "pos": "n.",
+      "sense": "收入、收益、所得",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "in（进入）+ come（来）→ 进来的钱 → 收入",
+        "confusables": "income（收入，可数/不可数）/ income 与 salary / wage（salary 月薪、wages 时薪，income 是含投资等的总收入）/ income tax（所得税）/ a high / low income（用 high/low，不用 many）"
+      },
+      "collocations": [],
+      "examples": [
+        "This mission is founded on the proposition that all people, regardless of race, gender, income, or 34 , have a moral right to a healthy, sustainable environment. 这一使命基于一个主张：无论种族、性别、收入或地域，人人都天然享有健康、可持续环境的道德权利。"
+      ]
+    },
+    "million": {
+      "phonetic": "/ˈmɪljən/",
+      "pos": "num./n.",
+      "sense": "百万；数百万、大量（millions of 数百万的、大量的）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "million people",
+        "million participants"
+      ],
+      "examples": [
+        "Attended by 20 million people across the United States, the event 30 support for legislation such as the Clean Air Act and the Endangered Species Act. 这场有全美两千万人参与的活动，强化了对《清洁空气法》《濒危物种法》等立法的支持。"
+      ],
+      "more": {
+        "confusables": "million / millions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "mission": {
+      "phonetic": "/ˈmɪʃn/",
+      "pos": "n.",
+      "sense": "使命、天职、任务；代表团、使团",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Day mission",
+        "mission year-round",
+        "mission through"
+      ],
+      "examples": [
+        "Today, the Earth Day Network, which rallies more than 20,000 33 and organizations in 190 countries, supports the Earth Day mission year-round. 如今，在 190 个国家集结了两万多家伙伴与组织的「地球日网络」，全年都在推进地球日的使命。"
+      ],
+      "more": {
+        "roots": "mission 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "moral": {
+      "phonetic": "/ˈmɒrəl/",
+      "pos": "adj./n.",
+      "sense": "道德的、道义上的、品行端正的；寓意、教训、道德（moral values 道德观；the moral of the story 故事寓意）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "moral right"
+      ],
+      "examples": [
+        "This mission is founded on the proposition that all people, regardless of race, gender, income, or 34 , have a moral right to a healthy, sustainable environment. 这一使命基于一个主张：无论种族、性别、收入或地域，人人都天然享有健康、可持续环境的道德权利。"
+      ],
+      "more": {
+        "confusables": "moral / morality（同族不同词形，注意词性与用法）"
+      }
+    },
+    "movement": {
+      "phonetic": "/ˈmuːvmənt/",
+      "pos": "n.",
+      "sense": "运动、移动、活动、动作；（社会）运动、动向、乐章（the movement of …的运动）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "environmental movement"
+      ],
+      "examples": [
+        "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+      ],
+      "more": {
+        "roots": "movement 含 -ment（名词后缀，表结果、手段或过程）"
+      }
+    },
+    "natural": {
+      "phonetic": "/ˈnætʃrəl/",
+      "pos": "adj.",
+      "sense": "自然的、天然的；天生的（本文 the natural world 自然界 / natural habitat 自然栖息地 / a natural result 自然的结果）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Earth's natural",
+        "natural resources"
+      ],
+      "examples": [
+        "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+      ],
+      "more": {
+        "confusables": "natural / naturally / nature（同族不同词形，注意词性与用法）"
+      }
+    },
+    "need": {
+      "phonetic": "/niːd/",
+      "pos": "v./n.",
+      "sense": "需要（情态/实义动词）；需要、需求（名词）",
+      "collocations": [
+        "need to do",
+        "in need of",
+        "no need to"
+      ],
+      "examples": [
+        "Parents need to set boundaries. 家长需要划定界限。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "need to do（实义动词）/ need do（情态动词，多用于否定疑问）"
+      }
+    },
+    "now": {
+      "phonetic": "/naʊ/",
+      "pos": "adv.",
+      "sense": "现在；如今；立刻",
+      "collocations": [
+        "right now",
+        "by now",
+        "now that"
+      ],
+      "examples": [
+        "They are now six times longer. 它们现在长了六倍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "now（现在）/ now that（既然，连词）"
+      }
+    },
+    "occurs": {
+      "phonetic": "/əˈkɜːz/",
+      "pos": "v.",
+      "sense": "发生、出现、存在；被想到（it occurs to sb that）（第三人称单数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "oc-（=ob- 朝向）+ cur（跑，词根 cur/curs = run，同 current/course/occur）+ -s",
+        "confusables": "occur（发生；出现；想到，不及物，无被动）/ occur to sb（某人想到…，介词 to，如 An idea occurred to me）/ happen（近义，occur 更正式）/ occurrence（发生；事件，名词）"
+      },
+      "collocations": [
+        "occurs throughout"
+      ],
+      "examples": [
+        "Earth Day is celebrated on April 22 in the United States and on either April 22 or the day the spring equinox(春分) occurs throughout the 26 of the world. 美国把地球日定在 4 月 22 日，而世界其他地方则选在 4 月 22 日或春分那天庆祝。"
+      ]
+    },
+    "organizations": {
+      "phonetic": "/ˌɔːɡənaɪˈzeɪʃnz/",
+      "pos": "n.",
+      "sense": "organization 的复数，组织、机构",
+      "collocations": [
+        "organizations in"
+      ],
+      "examples": [
+        "Today, the Earth Day Network, which rallies more than 20,000 33 and organizations in 190 countries, supports the Earth Day mission year-round. 如今，在 190 个国家集结了两万多家伙伴与组织的「地球日网络」，全年都在推进地球日的使命。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "organizations / organizational / organization（同族不同词形，注意词性与用法）"
+      }
+    },
+    "participants": {
+      "phonetic": "/pɑːˈtɪsɪpənts/",
+      "pos": "n.",
+      "sense": "participant 的复数，参与者、受试者",
+      "collocations": [
+        "educating participants",
+        "participants in",
+        "million participants"
+      ],
+      "examples": [
+        "With the help of Denis Hayes, a graduate student at Harvard University, Nelson organized the first Earth Day on April 22, 1970, educating participants in the 29 of environmental protection. 在哈佛研究生丹尼斯·海斯的协助下，纳尔逊于 1970 年 4 月 22 日组织了首届地球日，让参与者认识到环保的重要性。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "policy": {
+      "phonetic": "/ˈpɒləsi/",
+      "pos": "n.",
+      "sense": "政策、方针、原则、策略；保险单",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "poli（城邦、政务，词根 polis = city，同 politics/police/metropolis）+ -cy（名词后缀）",
+        "confusables": "policy（政策、方针；保险单）/ police（警察）/ politics（政治）/ policy maker（决策者）/ policy on/towards（介词 on/towards）"
+      },
+      "collocations": [
+        "public policy"
+      ],
+      "examples": [
+        "The Earth Day Network 35 this mission through education, public policy, and activism campaigns. 地球日网络通过教育、公共政策和行动倡导来践行这一使命。"
+      ]
+    },
+    "protect": {
+      "phonetic": "/prəˈtekt/",
+      "pos": "v.",
+      "sense": "保护（protect sb from sth）",
+      "collocations": [
+        "protect against",
+        "protect sb from"
+      ],
+      "examples": [
+        "Law can protect minors online. 法律可以保护网上未成年人。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "protect from/against（保护免受）/ prevention（预防）"
+      }
+    },
+    "public": {
+      "phonetic": "/ˈpʌblɪk/",
+      "pos": "adj./n.",
+      "sense": "公共的、公众的 / 公众（the public）",
+      "collocations": [
+        "public health",
+        "the British public",
+        "in public"
+      ],
+      "examples": [
+        "Loneliness is a public health problem. 孤独是公共卫生问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "public（公共的）/ pubic（阴部的，拼写易错）"
+      }
+    },
+    "race": {
+      "phonetic": "/reɪs/",
+      "pos": "n./v.",
+      "sense": "赛跑、竞赛、角逐；种族、人种；疾行、参赛、竞相（race to do 争相做）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "regardless of race"
+      ],
+      "examples": [
+        "This mission is founded on the proposition that all people, regardless of race, gender, income, or 34 , have a moral right to a healthy, sustainable environment. 这一使命基于一个主张：无论种族、性别、收入或地域，人人都天然享有健康、可持续环境的道德权利。"
+      ],
+      "more": {
+        "confusables": "race / racer（同族不同词形，注意词性与用法）"
+      }
+    },
+    "raise": {
+      "phonetic": "/reɪz/",
+      "pos": "v.",
+      "sense": "提高、提出（及物）；抚养（美式）",
+      "collocations": [
+        "raise a question",
+        "raise children",
+        "raise awareness"
+      ],
+      "examples": [
+        "The finding raises a question. 这一发现引出一个问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "raise（及物，提高）/ rise（不及物，上升）/ arise（出现）"
+      }
+    },
+    "raises": {
+      "phonetic": "/reɪzz/",
+      "pos": "v.",
+      "sense": "提高、提出（及物）；抚养（美式）（raise 的复数/三单形式）",
+      "lemma": "raise",
+      "collocations": [
+        "raises awareness"
+      ],
+      "examples": [
+        "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "raise + -s（复数/三单）",
+        "confusables": "raises（复数/三单）/ raise（原形）"
+      }
+    },
+    "regarding": {
+      "phonetic": "/rɪˈɡɑːdɪŋ/",
+      "pos": "v./n.",
+      "sense": "认为、看作、看待；关注、尊重、致意（regard A as B / in regard to / with regard to）（regard 的现在分词/动名词形式）",
+      "lemma": "regard",
+      "collocations": [
+        "action regarding"
+      ],
+      "examples": [
+        "Earth Day now brings 31 citizens and activists from around the world to raise awareness and take action regarding such environmental 32 as global warming and renewable energy. 如今地球日把世界各地的公民和活动人士汇聚起来，以提升意识、采取行动，应对全球变暖、可再生能源之类的环境议题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "regard + -ing（现在分词/动名词）",
+        "confusables": "regarding（现在分词/动名词）/ regard（原形）"
+      }
+    },
+    "regardless": {
+      "phonetic": "/rɪˈɡɑːdləs/",
+      "pos": "adv.",
+      "sense": "不管怎样（regardless of 后接名词）",
+      "collocations": [
+        "regardless of",
+        "regardless, ..."
+      ],
+      "examples": [
+        "Regardless of the cost, firms must act. 无论代价如何，公司必须行动。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "regard（顾及、看待）+ -less（否定形容词后缀，「不顾…的」）",
+        "confusables": "regardless of（不管，后接名词）/ regardless（不管怎样，副词）"
+      }
+    },
+    "resources": {
+      "phonetic": "/rɪˈsɔːsɪz/",
+      "pos": "n.",
+      "sense": "资源、财力、物力、资料（复数；natural / human / financial resources）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "natural resources",
+        "resources for",
+        "resources for future"
+      ],
+      "examples": [
+        "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness of the need to protect Earth's natural resources for future generations. 地球日是一年一度的盛典，既表彰环保运动取得的成就，也唤起人们保护地球自然资源、为子孙后代着想的自觉。"
+      ]
+    },
+    "right": {
+      "phonetic": "/raɪt/",
+      "pos": "adj./adv./n./v.",
+      "sense": "正确的、对的、合适的、右边的、正当的；正好、直接地、向右；右边、权利、正确；纠正",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "moral right",
+        "right to"
+      ],
+      "examples": [
+        "This mission is founded on the proposition that all people, regardless of race, gender, income, or 34 , have a moral right to a healthy, sustainable environment. 这一使命基于一个主张：无论种族、性别、收入或地域，人人都天然享有健康、可持续环境的道德权利。"
+      ]
+    },
+    "species": {
+      "phonetic": "/ˈspiːʃiːz/",
+      "pos": "n.",
+      "sense": "物种（单复同形）",
+      "collocations": [
+        "a species of",
+        "endangered species",
+        "species diversity"
+      ],
+      "examples": [
+        "Many species face extinction. 许多物种面临灭绝。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "species（单复同形）/ specie（硬币，罕用）/ spice（香料）"
+      }
+    },
+    "spring": {
+      "phonetic": "/sprɪŋ/",
+      "pos": "n./v.",
+      "sense": "春天、春季；泉、源泉；弹簧、发条；跳、跃、涌现（spring up 涌现）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "spring equinox"
+      ],
+      "examples": [
+        "Earth Day is celebrated on April 22 in the United States and on either April 22 or the day the spring equinox(春分) occurs throughout the 26 of the world. 美国把地球日定在 4 月 22 日，而世界其他地方则选在 4 月 22 日或春分那天庆祝。"
+      ]
+    },
+    "states": {
+      "phonetic": "/steɪtz/",
+      "pos": "n./v./adj.",
+      "sense": "状态、状况、情形；国家、州、政府；陈述、说明、规定；州的、国事的（state 的复数/三单形式）",
+      "lemma": "state",
+      "collocations": [
+        "United States"
+      ],
+      "examples": [
+        "Earth Day is celebrated on April 22 in the United States and on either April 22 or the day the spring equinox(春分) occurs throughout the 26 of the world. 美国把地球日定在 4 月 22 日，而世界其他地方则选在 4 月 22 日或春分那天庆祝。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "state + -s（复数/三单）",
+        "confusables": "states（复数/三单）/ state（原形）"
+      }
+    },
+    "student": {
+      "phonetic": "/ˈstjuːdnt/",
+      "pos": "n.",
+      "sense": "学生、大学生、研究生；学者、研究者",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "graduate student",
+        "student at",
+        "student at Harvard"
+      ],
+      "examples": [
+        "With the help of Denis Hayes, a graduate student at Harvard University, Nelson organized the first Earth Day on April 22, 1970, educating participants in the 29 of environmental protection. 在哈佛研究生丹尼斯·海斯的协助下，纳尔逊于 1970 年 4 月 22 日组织了首届地球日，让参与者认识到环保的重要性。"
+      ],
+      "more": {
+        "confusables": "student / students（同族不同词形，注意词性与用法）"
+      }
+    },
+    "support": {
+      "phonetic": "/səˈpɔːt/",
+      "pos": "v./n.",
+      "sense": "支持、资助",
+      "collocations": [
+        "support science",
+        "financial support"
+      ],
+      "examples": [
+        "Attended by 20 million people across the United States, the event 30 support for legislation such as the Clean Air Act and the Endangered Species Act. 这场有全美两千万人参与的活动，强化了对《清洁空气法》《濒危物种法》等立法的支持。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "support / supported / supporters（同族不同词形，注意词性与用法）"
+      }
+    },
+    "supports": {
+      "phonetic": "/səˈpɔːtts/",
+      "pos": "v./n.",
+      "sense": "支持、资助（support 的复数/三单形式）",
+      "lemma": "support",
+      "collocations": [],
+      "examples": [
+        "Today, the Earth Day Network, which rallies more than 20,000 33 and organizations in 190 countries, supports the Earth Day mission year-round. 如今，在 190 个国家集结了两万多家伙伴与组织的「地球日网络」，全年都在推进地球日的使命。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "support + -s（复数/三单）",
+        "confusables": "supports（复数/三单）/ support（原形）"
+      }
+    },
+    "sustainable": {
+      "phonetic": "/səˈsteɪnəbl/",
+      "pos": "adj.",
+      "sense": "可持续的、不破坏环境的、能长期维持的（本文指兼具创意与商业可行性的可持续设计）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sustainable environment"
+      ],
+      "examples": [
+        "This mission is founded on the proposition that all people, regardless of race, gender, income, or 34 , have a moral right to a healthy, sustainable environment. 这一使命基于一个主张：无论种族、性别、收入或地域，人人都天然享有健康、可持续环境的道德权利。"
+      ],
+      "more": {
+        "roots": "sustainable 含 -able / -ible（形容词后缀，表「可……的」）"
+      }
+    },
+    "take": {
+      "phonetic": "/teɪk/",
+      "pos": "v.",
+      "sense": "拿、带；花费、需要；采取、接受（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "take（带走，离开说话人；it takes sb time to do 花费；拿、乘坐）/ bring（带来，朝说话人）/ fetch（去取来）/ spend（人作主语：sb spends … on/doing）/ cost（物作主语：sth costs sb …）/ take part in（参加）、take place（发生，无被动）"
+      },
+      "collocations": [
+        "take action"
+      ],
+      "examples": [
+        "Earth Day now brings 31 citizens and activists from around the world to raise awareness and take action regarding such environmental 32 as global warming and renewable energy. 如今地球日把世界各地的公民和活动人士汇聚起来，以提升意识、采取行动，应对全球变暖、可再生能源之类的环境议题。"
+      ]
+    },
+    "through": {
+      "phonetic": "/θruː/",
+      "pos": "prep.",
+      "sense": "通过、凭借",
+      "collocations": [
+        "mission through",
+        "through education"
+      ],
+      "examples": [
+        "The Earth Day Network 35 this mission through education, public policy, and activism campaigns. 地球日网络通过教育、公共政策和行动倡导来践行这一使命。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "through / throughput（同族不同词形，注意词性与用法）"
+      }
+    },
+    "today": {
+      "phonetic": "/təˈdeɪ/",
+      "pos": "adv./n.",
+      "sense": "今天；当今",
+      "collocations": [
+        "today's digital activity",
+        "in today's world",
+        "leaders of today"
+      ],
+      "examples": [
+        "Today he is still the best-known racehorse. 今天他仍是最知名的赛马。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "today（今天/当今）/ nowadays（如今，副词）"
+      }
+    },
+    "university": {
+      "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+      "pos": "n.",
+      "sense": "大学（可数）",
+      "collocations": [
+        "at university",
+        "university students",
+        "a research university"
+      ],
+      "examples": [
+        "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "university（大学）/ college（学院）/ at university（在读大学，不加 the）"
+      }
+    },
+    "warming": {
+      "phonetic": "/ˈwɔːmɪŋ/",
+      "pos": "n./v.",
+      "sense": "变暖（不可数）；warm 的现在分词",
+      "lemma": "warm",
+      "collocations": [
+        "global warming",
+        "warming trend"
+      ],
+      "examples": [
+        "Global warming affects crop yields. 全球变暖影响作物产量。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "warm（暖）+ -ing",
+        "confusables": "global warming（全球变暖）/ warm（温暖的）"
+      }
+    },
+    "world": {
+      "phonetic": "/wɜːld/",
+      "pos": "n.",
+      "sense": "世界；领域；世人",
+      "collocations": [
+        "around the world",
+        "the world of work",
+        "real world"
+      ],
+      "examples": [
+        "The idea spread around the world. 这个想法传遍世界。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "world（世界）/ word（单词）读音与拼写易混"
+      }
+    }
+  }
+}

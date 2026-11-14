@@ -1,0 +1,4426 @@
+{
+  "sourceKey": "cet4-2026-06-set3Cloze",
+  "articleId": "set3Cloze",
+  "packVersion": "2026.11.13",
+  "meta": {
+    "examYear": 2026,
+    "examMonth": 6,
+    "setNo": 3,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "Junk Food Withdrawal Symptoms",
+    "wordCount": 238
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Junk-food lovers who try to cut back on fries or chocolate may experience symptoms similar to drug withdrawal, a new study suggests.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 132,
+          "text": "Junk-food lovers who try to cut back on fries or chocolate may experience symptoms similar to drug withdrawal, a new study suggests.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "Junk-food",
+              "normalized": "junk-food",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 16,
+              "surface": "lovers",
+              "normalized": "lovers",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "try",
+              "normalized": "try",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 31,
+              "surface": "cut",
+              "normalized": "cut",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 36,
+              "surface": "back",
+              "normalized": "back",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 39,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 45,
+              "surface": "fries",
+              "normalized": "fries",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 58,
+              "surface": "chocolate",
+              "normalized": "chocolate",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 62,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 73,
+              "surface": "experience",
+              "normalized": "experience",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 82,
+              "surface": "symptoms",
+              "normalized": "symptoms",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 90,
+              "surface": "similar",
+              "normalized": "similar",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 98,
+              "surface": "drug",
+              "normalized": "drug",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 109,
+              "surface": "withdrawal",
+              "normalized": "withdrawal",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 110,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 111,
+              "end": 112,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 116,
+              "surface": "new",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 122,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 131,
+              "surface": "suggests",
+              "normalized": "suggests",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 132,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "试图少吃薯条或巧克力的垃圾食品爱好者，可能会出现与药物戒断相似的症状，一项新研究提示。",
+            "translationNatural": "一项新研究提醒：想戒掉薯条、巧克力这类垃圾食品的人，身上可能出现类似「戒断反应」的症状。",
+            "structMarkup": "【Junk-food lovers who try to cut back on fries or chocolate】 _may experience symptoms_ (similar to drug withdrawal), (a new study suggests).",
+            "structureSummary": "主语 Junk-food lovers（后接 who 定语从句）+ 情态谓语 may experience + 宾语 symptoms + 形容词短语 similar to drug withdrawal 作后置定语，句末 a new study suggests 为评注性插入分句；核心是用 similar to 把「减吃垃圾食品」类比成「药物戒断」。",
+            "components": [
+              {
+                "part": "Junk-food lovers who try to cut back on fries or chocolate",
+                "role": "主语",
+                "note": "全句主语，中心词 lovers，Junk-food 为复合前置定语，who 从句进一步把它限定为「试图少吃薯条或巧克力的人」。"
+              },
+              {
+                "part": "who try to cut back on fries or chocolate",
+                "role": "定语从句",
+                "note": "who 修饰 lovers；cut back on 意为「削减、减少摄入」，or 连接 fries 与 chocolate 两个并列宾语，点明被削减的对象。"
+              },
+              {
+                "part": "may experience symptoms",
+                "role": "谓语",
+                "note": "情态动词 may + 动词原形 experience + 宾语 symptoms，用 may 表示「可能」而非必然，给结论留有余地。"
+              },
+              {
+                "part": "similar to drug withdrawal",
+                "role": "后置定语",
+                "note": "形容词短语后置修饰 symptoms，把「症状」与 drug withdrawal（药物戒断）挂钩，是全篇立论的关键类比。"
+              },
+              {
+                "part": "a new study suggests",
+                "role": "插入语",
+                "note": "置于句末的评注性主谓分句，交代结论来自新研究；抽掉后主句仍自足，是新闻体常见的信源后置写法。"
+              }
+            ],
+            "clauses": [
+              "定语从句「who try to cut back on fries or chocolate」：who 修饰 lovers；cut back on 意为「削减、减少摄入」，or 连接 fries 与 chocolate 两个并列宾语，点明被削减的对象。",
+              "本句主干为「主语 Junk-food lovers（后接 who 定语从句）+ 情态谓语 may experience + 宾语 symptoms + 形容词短语 similar to drug withdrawal 作后置定语，句末 a new study suggests 为评注性插入分句；核心是用 similar to 把「减吃垃圾食品」类比成「药物戒断」。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "chocolate",
+                "meaning": "巧克力（可数/不可数）",
+                "usage": "注意区分：chocolate（不可数泛指）/ chocolates（一盒块装巧克力）。常见搭配：a bar of chocolate / dark chocolate。",
+                "example": "She treats herself to chocolate sometimes. 她偶尔吃点巧克力犒劳自己。"
+              },
+              {
+                "text": "experience",
+                "meaning": "经验（不可数）；经历（可数）/ 经历、体验",
+                "usage": "注意区分：experience（经验，不可数）/ experiences（经历，可数）。常见搭配：work experience / a lot of experience。",
+                "example": "Relying on instincts needs vast experience. 依靠直觉需要大量经验。"
+              },
+              {
+                "text": "symptoms",
+                "meaning": "症状；征兆、征候（symptom 的复数/三单形式）",
+                "usage": "注意区分：symptoms（复数/三单）/ symptom（原形）。",
+                "example": "Junk-food lovers who try to cut back on fries or chocolate may experience symptoms similar to drug withdrawal, a new study suggests. 一项新研究提醒：想戒掉薯条、巧克力这类垃圾食品的人，身上可能出现类似「戒断反应」的症状。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：chocolate（不可数泛指）/ chocolates（一盒块装巧克力）。",
+              "注意区分：experience（经验，不可数）/ experiences（经历，可数）。",
+              "注意区分：symptoms（复数/三单）/ symptom（原形）。"
+            ],
+            "paragraphRole": "开篇用一项新研究抛出全文总命题——减少垃圾食品会引发类似戒断的症状，为后文的研究发现与意义逐层展开定调。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 269,
+          "text": "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 11,
+              "surface": "Researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 17,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 22,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 29,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 40,
+              "surface": "attempting",
+              "normalized": "attempting",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 43,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 47,
+              "surface": "cut",
+              "normalized": "cut",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 52,
+              "surface": "down",
+              "normalized": "down",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 55,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 62,
+              "surface": "eating",
+              "normalized": "eating",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 69,
+              "surface": "highly",
+              "normalized": "highly",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 79,
+              "surface": "processed",
+              "normalized": "processed",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 85,
+              "surface": "foods",
+              "normalized": "foods",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 96,
+              "surface": "experience",
+              "normalized": "experience",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 101,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 104,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 108,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 113,
+              "surface": "same",
+              "normalized": "same",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 116,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 117,
+              "end": 120,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 134,
+              "surface": "psychological",
+              "normalized": "psychological",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 143,
+              "surface": "symptoms",
+              "normalized": "symptoms",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 144,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 144,
+              "end": 148,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 151,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 156,
+              "surface": "mood",
+              "normalized": "mood",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 163,
+              "surface": "swings",
+              "normalized": "swings",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 164,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 165,
+              "end": 172,
+              "surface": "anxiety",
+              "normalized": "anxiety",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 173,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 174,
+              "end": 183,
+              "surface": "headaches",
+              "normalized": "headaches",
+              "isWord": true
+            },
+            {
+              "start": 184,
+              "end": 187,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 188,
+              "end": 192,
+              "surface": "poor",
+              "normalized": "poor",
+              "isWord": true
+            },
+            {
+              "start": 193,
+              "end": 198,
+              "surface": "sleep",
+              "normalized": "sleep",
+              "isWord": true
+            },
+            {
+              "start": 198,
+              "end": 199,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 199,
+              "end": 201,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 202,
+              "end": 207,
+              "surface": "those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 208,
+              "end": 210,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 211,
+              "end": 218,
+              "surface": "smoking",
+              "normalized": "smoking",
+              "isWord": true
+            },
+            {
+              "start": 219,
+              "end": 229,
+              "surface": "cigarettes",
+              "normalized": "cigarettes",
+              "isWord": true
+            },
+            {
+              "start": 230,
+              "end": 232,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 233,
+              "end": 238,
+              "surface": "using",
+              "normalized": "using",
+              "isWord": true
+            },
+            {
+              "start": 239,
+              "end": 244,
+              "surface": "drugs",
+              "normalized": "drugs",
+              "isWord": true
+            },
+            {
+              "start": 244,
+              "end": 245,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 246,
+              "end": 255,
+              "surface": "according",
+              "normalized": "according",
+              "isWord": true
+            },
+            {
+              "start": 256,
+              "end": 258,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 259,
+              "end": 262,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 263,
+              "end": 268,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 268,
+              "end": 269,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "研究人员发现，那些试图减少吃高度加工食品的人，会体验到与那些 27 吸烟或使用毒品的人相同的一些 26 及心理症状——比如情绪波动、焦虑、头痛和睡眠不佳——根据这项研究。",
+            "translationNatural": "研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。",
+            "structMarkup": "【Researchers】 _found_ {that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs}, (according to the study).",
+            "structureSummary": "主句 Researchers found + that 宾语从句；从句主干为 people（后接现在分词后置定语）experience some of the same 26 and psychological symptoms，破折号内 such as... 为举例插入语，as those 27... 与 the same 构成 the same...as 比较结构；句末 according to the study 交代来源。26 需与 psychological 并列的形容词、27 需动名词。",
+            "components": [
+              {
+                "part": "Researchers",
+                "role": "主语",
+                "note": "主句主语，复数普通名词，搭配过去式谓语 found，引出一项具体发现。"
+              },
+              {
+                "part": "found",
+                "role": "谓语",
+                "note": "主句限定动词，后接 that 引导的宾语从句，说明「发现」到的具体内容。"
+              },
+              {
+                "part": "that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs",
+                "role": "宾语从句",
+                "note": "that 引导作 found 的宾语；用 the same...as... 把「减吃加工食品者」与「戒烟 / 戒毒者」的症状等同起来，两个破折号之间为举例插入成分，26、27 为待填空白。"
+              },
+              {
+                "part": "attempting to cut down on eating highly processed foods",
+                "role": "后置定语",
+                "note": "现在分词短语修饰 people，相当于 who attempt to...；cut down on 意为「减少」，highly processed foods 指「深度加工食品」。"
+              },
+              {
+                "part": "some of the same 26 and psychological symptoms",
+                "role": "宾语",
+                "note": "experience 的宾语，也是 the same...as 结构的前项；26 空须填形容词与 psychological 并列，合指「身体与心理两方面症状」。"
+              },
+              {
+                "part": "—such as mood swings, anxiety, headaches and poor sleep—",
+                "role": "插入语",
+                "note": "一对破折号括起的举例成分，具体列出情绪波动、焦虑、头痛、睡眠差；去掉后主句骨架不受影响。"
+              },
+              {
+                "part": "as those 27 smoking cigarettes or using drugs",
+                "role": "状语",
+                "note": "与前面的 the same 呼应构成比较结构，引出被类比的另一群人；27 空须填动名词 quitting，与 smoking、using 一起修饰 those。"
+              },
+              {
+                "part": "according to the study",
+                "role": "状语",
+                "note": "句末介词短语作评注性状语，回指首段 a new study suggests，标明信息来源。"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that people attempting to cut down on eating highly processed foods ex」：that 引导作 found 的宾语；用 the same...as... 把「减吃加工食品者」与「戒烟 / 戒毒者」的症状等同起来，两个破折号之间为举例插入成分，26、27 为待填空白。",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。",
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。"
+            ],
+            "phrases": [
+              {
+                "text": "according to",
+                "meaning": "根据、据……所说",
+                "usage": "引出信息来源，后接名词或代词，不接从句。",
+                "example": "According to the report, costs rose. 据报告，成本上升了。"
+              },
+              {
+                "text": "the same",
+                "meaning": "同样的",
+                "usage": "same 前通常有 the；the same as 表「与……相同」。",
+                "example": "The same thing happened last year. 去年也发生了同样的事。"
+              },
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              }
+            ],
+            "pitfalls": [
+              "according to 不用于表达自己观点，不说 according to me。",
+              "same 前一般要加 the；比较对象用 as 不用 with。",
+              "such as 用于举例，for example 常作插入语，位置不同。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。"
+            ],
+            "paragraphRole": "承接首段，用研究者的具体发现把「垃圾食品戒断」坐实：症状与戒烟戒毒者高度重合，并借 26、27 两空考查形容词与动名词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "The new study 28 the first evidence that these withdrawal-like symptoms can occur when people cut down on highly processed foods, said lead study author Erica Schulte.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 167,
+          "text": "The new study 28 the first evidence that these withdrawal-like symptoms can occur when people cut down on highly processed foods, said lead study author Erica Schulte.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "surface": "new",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 13,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 16,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "first",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 35,
+              "surface": "evidence",
+              "normalized": "evidence",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 46,
+              "surface": "these",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 62,
+              "surface": "withdrawal-like",
+              "normalized": "withdrawal-like",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 71,
+              "surface": "symptoms",
+              "normalized": "symptoms",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 81,
+              "surface": "occur",
+              "normalized": "occur",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 86,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 93,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 97,
+              "surface": "cut",
+              "normalized": "cut",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 102,
+              "surface": "down",
+              "normalized": "down",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 105,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 112,
+              "surface": "highly",
+              "normalized": "highly",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 122,
+              "surface": "processed",
+              "normalized": "processed",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 128,
+              "surface": "foods",
+              "normalized": "foods",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 129,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 130,
+              "end": 134,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 139,
+              "surface": "lead",
+              "normalized": "lead",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 145,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 152,
+              "surface": "author",
+              "normalized": "author",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 158,
+              "surface": "Erica",
+              "normalized": "erica",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 166,
+              "surface": "Schulte",
+              "normalized": "schulte",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 167,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这项新研究 28 首批证据，证明当人们减少高度加工食品时，这些类似戒断的症状可能出现，首席研究作者 Erica Schulte 说。",
+            "translationNatural": "论文第一作者埃丽卡·舒尔特指出：这项新研究首次拿出证据，证明少吃深加工食品确实会诱发这类戒断样症状。",
+            "structMarkup": "【The new study】 _28 the first evidence_ {that these withdrawal-like symptoms can occur when people cut down on highly processed foods}, (said lead study author Erica Schulte).",
+            "structureSummary": "主语 The new study + 谓语 28（需第三人称单数动词）+ 宾语 the first evidence + that 同位语从句说明证据内容，从句内含 when 时间状语从句；句末 said lead study author Erica Schulte 为倒装式转述分句。",
+            "components": [
+              {
+                "part": "The new study",
+                "role": "主语",
+                "note": "全句主语，单数，故 28 空须填第三人称单数形式的谓语动词。"
+              },
+              {
+                "part": "28 the first evidence",
+                "role": "谓语",
+                "note": "谓语 + 宾语；28 空需动词第三人称单数 offers，构成 offer the first evidence「提供首批证据」。"
+              },
+              {
+                "part": "that these withdrawal-like symptoms can occur when people cut down on highly processed foods",
+                "role": "同位语从句",
+                "note": "that 从句具体说明 evidence 的内容（与 evidence 同位，而非修饰），解释「证据证明了什么」；内部还含一个 when 引导的时间状语从句。"
+              },
+              {
+                "part": "when people cut down on highly processed foods",
+                "role": "状语从句",
+                "note": "when 引导时间状语从句，限定症状出现的条件——「当人们减少深度加工食品摄入时」。"
+              },
+              {
+                "part": "said lead study author Erica Schulte",
+                "role": "插入语",
+                "note": "陈述后倒装式转述主谓（said + 说话人），主语为带头衔的人名，是新闻报道引出研究者的惯用语序。"
+              }
+            ],
+            "clauses": [
+              "同位语从句「that these withdrawal-like symptoms can occur when people cut down on 」：that 从句具体说明 evidence 的内容（与 evidence 同位，而非修饰），解释「证据证明了什么」；内部还含一个 when 引导的时间状语从句。",
+              "状语从句「when people cut down on highly processed foods」：when 引导时间状语从句，限定症状出现的条件——「当人们减少深度加工食品摄入时」。"
+            ],
+            "phrases": [
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "evidence",
+                "meaning": "证据（不可数）",
+                "usage": "注意区分：evidence（不可数，不加 -s）/ evident（形容词，明显的）。常见搭配：evidence suggests / evidence of/for。",
+                "example": "The evidence suggests not. 证据表明并非如此。"
+              },
+              {
+                "text": "symptoms",
+                "meaning": "症状；征兆、征候（symptom 的复数/三单形式）",
+                "usage": "注意区分：symptoms（复数/三单）/ symptom（原形）。",
+                "example": "The new study 28 the first evidence that these withdrawal-like symptoms can occur when people cut down on highly processed foods, said lead study author Erica Schulte. 论文第一作者埃丽卡·舒尔特指出：这项新研究首次拿出证据，证明少吃深加工食品确实会诱发这类戒断样症状。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）。",
+              "注意区分：study（研究，可数）/ research（研究，不可数）。",
+              "注意区分：evidence（不可数，不加 -s）/ evident（形容词，明显的）。"
+            ],
+            "paragraphRole": "借第一作者之口点明研究的原创性——首次给出「减吃加工食品会诱发戒断样症状」的证据，并用 28 空考查主谓一致的动词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "Based on the participants' self-reported symptoms, withdrawal symptoms were 29 more intense between the second and fifth days after attempting to reduce junk-food consumption, which 30 the time span people live through during drug withdrawal.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 242,
+          "text": "Based on the participants' self-reported symptoms, withdrawal symptoms were 29 more intense between the second and fifth days after attempting to reduce junk-food consumption, which 30 the time span people live through during drug withdrawal.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Based",
+              "normalized": "based",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 8,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 26,
+              "surface": "participants'",
+              "normalized": "participants",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 40,
+              "surface": "self-reported",
+              "normalized": "self-reported",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 49,
+              "surface": "symptoms",
+              "normalized": "symptoms",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 51,
+              "end": 61,
+              "surface": "withdrawal",
+              "normalized": "withdrawal",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 70,
+              "surface": "symptoms",
+              "normalized": "symptoms",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 79,
+              "end": 83,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 91,
+              "surface": "intense",
+              "normalized": "intense",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 99,
+              "surface": "between",
+              "normalized": "between",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 103,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 110,
+              "surface": "second",
+              "normalized": "second",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 114,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 120,
+              "surface": "fifth",
+              "normalized": "fifth",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 125,
+              "surface": "days",
+              "normalized": "days",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 131,
+              "surface": "after",
+              "normalized": "after",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 142,
+              "surface": "attempting",
+              "normalized": "attempting",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 145,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 152,
+              "surface": "reduce",
+              "normalized": "reduce",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 162,
+              "surface": "junk-food",
+              "normalized": "junk-food",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 174,
+              "surface": "consumption",
+              "normalized": "consumption",
+              "isWord": true
+            },
+            {
+              "start": 174,
+              "end": 175,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 176,
+              "end": 181,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 182,
+              "end": 184,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 185,
+              "end": 188,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 189,
+              "end": 193,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 194,
+              "end": 198,
+              "surface": "span",
+              "normalized": "span",
+              "isWord": true
+            },
+            {
+              "start": 199,
+              "end": 205,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 206,
+              "end": 210,
+              "surface": "live",
+              "normalized": "live",
+              "isWord": true
+            },
+            {
+              "start": 211,
+              "end": 218,
+              "surface": "through",
+              "normalized": "through",
+              "isWord": true
+            },
+            {
+              "start": 219,
+              "end": 225,
+              "surface": "during",
+              "normalized": "during",
+              "isWord": true
+            },
+            {
+              "start": 226,
+              "end": 230,
+              "surface": "drug",
+              "normalized": "drug",
+              "isWord": true
+            },
+            {
+              "start": 231,
+              "end": 241,
+              "surface": "withdrawal",
+              "normalized": "withdrawal",
+              "isWord": true
+            },
+            {
+              "start": 241,
+              "end": 242,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "基于参与者自我报告的症状，戒断症状在尝试减少垃圾食品摄入后的第 2 天到第 5 天之间 29 更为强烈，这 30 人们在药物戒断期间所熬过的那段时间跨度。",
+            "translationNatural": "据参与者自述，戒断反应在尝试少吃垃圾食品后的第 2 至第 5 天明显加重——这段窗口恰好与药物戒断要熬过的时间段相吻合。",
+            "structMarkup": "(Based on the participants' self-reported symptoms), 【withdrawal symptoms】 _were 29 more intense_ (between the second and fifth days after attempting to reduce junk-food consumption), {which 30 the time span people live through during drug withdrawal}.",
+            "structureSummary": "句首 Based on... 过去分词短语作状语 + 主系表 withdrawal symptoms were 29 more intense + between... 介词短语作时间状语 + 句末 which 引导非限制性定语从句补充说明；29 需程度副词、30 需动词。",
+            "components": [
+              {
+                "part": "Based on the participants' self-reported symptoms",
+                "role": "状语",
+                "note": "过去分词短语置于句首作依据状语，说明结论来自「参与者自报症状」；participants' 为复数所有格，self-reported 为复合形容词。"
+              },
+              {
+                "part": "withdrawal symptoms",
+                "role": "主语",
+                "note": "主句主语，复数，故系动词用 were，指上文提到的那批戒断样症状。"
+              },
+              {
+                "part": "were 29 more intense",
+                "role": "谓语",
+                "note": "系动词 were + 表语 more intense；29 空须填程度副词 significantly 修饰比较级，表示「显著更强烈」。"
+              },
+              {
+                "part": "between the second and fifth days after attempting to reduce junk-food consumption",
+                "role": "状语",
+                "note": "between...and... 介词短语作时间状语，锁定症状高峰期；after attempting to... 为「介词 + 动名词」结构说明起算点。"
+              },
+              {
+                "part": "which 30 the time span people live through during drug withdrawal",
+                "role": "非限制性定语从句",
+                "note": "which 回指前面整段时间（第 2 至第 5 天）；30 空须填动词 parallels，说明这段窗口与药物戒断期「相平行 / 相吻合」。"
+              },
+              {
+                "part": "people live through during drug withdrawal",
+                "role": "定语从句",
+                "note": "省略关系代词 that / which 的定语从句，修饰 the time span；live through 意为「熬过、经历」。"
+              }
+            ],
+            "clauses": [
+              "非限制性定语从句「which 30 the time span people live through during drug withdrawal」：which 回指前面整段时间（第 2 至第 5 天）；30 空须填动词 parallels，说明这段窗口与药物戒断期「相平行 / 相吻合」。",
+              "定语从句「people live through during drug withdrawal」：省略关系代词 that / which 的定语从句，修饰 the time span；live through 意为「熬过、经历」。"
+            ],
+            "phrases": [
+              {
+                "text": "based",
+                "meaning": "base 的过去式/过去分词；（be based on）基于",
+                "usage": "注意区分：based on（基于，被动/状语）/ basing on（主动，主语须是人）。常见搭配：be based on / based on evidence。",
+                "example": "Decisions based on data are not always right. 基于数据的决定并不总对。"
+              },
+              {
+                "text": "symptoms",
+                "meaning": "症状；征兆、征候（symptom 的复数/三单形式）",
+                "usage": "注意区分：symptoms（复数/三单）/ symptom（原形）。",
+                "example": "Based on the participants' self-reported symptoms, withdrawal symptoms were 29 more intense between the second and fifth days after attempting to reduce junk-food consumption, which 30 the time span people live through during drug withdrawal. 据参与者自述，戒断反应在尝试少吃垃圾食品后的第 2 至第 5 天明显加重——这段窗口恰好与药物戒断要熬过的时间段相吻合。"
+              },
+              {
+                "text": "attempting",
+                "meaning": "尝试、企图、努力；试图、企图（本文 any effort you attempt to make 你试图做的任何努力 / make an attempt）（attempt 的现在分词/动名词形式）",
+                "usage": "注意区分：attempting（现在分词/动名词）/ attempt（原形）。",
+                "example": "Based on the participants' self-reported symptoms, withdrawal symptoms were 29 more intense between the second and fifth days after attempting to reduce junk-food consumption, which 30 the time span people live through during drug withdrawal. 据参与者自述，戒断反应在尝试少吃垃圾食品后的第 2 至第 5 天明显加重——这段窗口恰好与药物戒断要熬过的时间段相吻合。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：based on（基于，被动/状语）/ basing on（主动，主语须是人）。",
+              "注意区分：symptoms（复数/三单）/ symptom（原形）。",
+              "注意区分：attempting（现在分词/动名词）/ attempt（原形）。"
+            ],
+            "paragraphRole": "把戒断症状量化到时间轴上：第 2 至第 5 天最明显，且这段窗口与药物戒断期平行；29、30 两空分别考查副词与动词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "The idea that food may be addictive after \"heavy\" use by some individuals is a 31 subject, Schulte said. Although prior studies in animals and humans have shown some biological and behavioral similarities between substance-use disorders and addictive-like consumption of highly processed foods, no studies have looked at whether reducing junk food can 32 withdrawal symptoms in people, she noted. Raising 33 that people may experience irritability(烦躁) or headaches when cutting down on junk food can help individuals 34 coping strategies in advance, Schulte noted. The findings may also 35 light on the barriers people face when changing eating habits—barriers that may play a role in people dropping out of treatments, she said.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 104,
+          "text": "The idea that food may be addictive after \"heavy\" use by some individuals is a 31 subject, Schulte said.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "idea",
+              "normalized": "idea",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "food",
+              "normalized": "food",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 35,
+              "surface": "addictive",
+              "normalized": "addictive",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "after",
+              "normalized": "after",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 48,
+              "surface": "heavy",
+              "normalized": "heavy",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 49,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 50,
+              "end": 53,
+              "surface": "use",
+              "normalized": "use",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 61,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 73,
+              "surface": "individuals",
+              "normalized": "individuals",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 78,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 82,
+              "end": 89,
+              "surface": "subject",
+              "normalized": "subject",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 90,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 91,
+              "end": 98,
+              "surface": "Schulte",
+              "normalized": "schulte",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 103,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 104,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "「食物在被某些人大量食用后可能成瘾」这一观点，是一个 31 话题，Schulte 说。",
+            "translationNatural": "舒尔特说，「某些人吃多了会上瘾」这个说法，向来是个有争议的话题。",
+            "structMarkup": "【The idea】 {that food may be addictive after \"heavy\" use by some individuals} _is a 31 subject_, (Schulte said).",
+            "structureSummary": "主语 The idea + that 同位语从句解释其内容 + 系表 is a 31 subject；句末 Schulte said 为转述分句；31 空需形容词修饰 subject，与后文「尚无研究」的留白相呼应。",
+            "components": [
+              {
+                "part": "The idea",
+                "role": "主语",
+                "note": "全句主语，抽象名词，后接 that 从句说明这一「观点」的具体所指。"
+              },
+              {
+                "part": "that food may be addictive after \"heavy\" use by some individuals",
+                "role": "同位语从句",
+                "note": "that 从句与 idea 同位，展开其内容；after \"heavy\" use 中引号表示「大量 / 重度」使用的特殊含义，by some individuals 点明仅限部分人。"
+              },
+              {
+                "part": "is a 31 subject",
+                "role": "谓语",
+                "note": "系动词 is + 表语 a 31 subject；31 空须填形容词 controversial，构成「一个有争议的话题」，为下文「尚无研究」埋下伏笔。"
+              },
+              {
+                "part": "Schulte said",
+                "role": "插入语",
+                "note": "句末转述主谓，点明说话人为研究者 Schulte，去掉后主句依然完整。"
+              }
+            ],
+            "clauses": [
+              "同位语从句「that food may be addictive after \"heavy\" use by some individuals」：that 从句与 idea 同位，展开其内容；after \"heavy\" use 中引号表示「大量 / 重度」使用的特殊含义，by some individuals 点明仅限部分人。",
+              "本句主干为「主语 The idea + that 同位语从句解释其内容 + 系表 is a 31 subject；句末 Schulte said 为转述分句；31 空需形容词修饰 subject，与后文「尚无研究」的留白相呼应。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "the idea that",
+                "meaning": "想法、主意（可数）；概念",
+                "usage": "注意区分：idea（想法）/ ideal（理想的）/ concept（概念）。常见搭配：have an idea / the idea that。",
+                "example": "This idea is supported by prior research. 这一想法有先前研究支持。"
+              },
+              {
+                "text": "food",
+                "meaning": "食物（一般不可数）",
+                "usage": "注意区分：food（食物，泛指不可数）/ foods（多种食品，可数）。常见搭配：food supply / fast food。",
+                "example": "Food prices are rising. 食品价格在上涨。"
+              },
+              {
+                "text": "individuals",
+                "meaning": "individual 的复数，个人、个体",
+                "usage": "注意区分：individual（个人，可数；个别的，形容词）/ individually（各自地）/ independently（独立地）/ personal（个人的、私人的，形容词）/ people（集合复数）。",
+                "example": "The idea that food may be addictive after \"heavy\" use by some individuals is a 31 subject, Schulte said. 舒尔特说，「某些人吃多了会上瘾」这个说法，向来是个有争议的话题。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：idea（想法）/ ideal（理想的）/ concept（概念）。",
+              "注意区分：food（食物，泛指不可数）/ foods（多种食品，可数）。",
+              "注意区分：use（v. 使用 /juːz/；n. 用途、使用 /juːs/，读音不同）/ use sth to do（用某物做）/ be used to do（被用于做）/ make use of（利用）/ usage（用法，名词）。"
+            ],
+            "paragraphRole": "末段先摆出学界背景：食物成瘾说本身就有争议，为随后「既往研究有空白、本研究补缺」的论述铺垫，并设 31 空。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 105,
+          "end": 396,
+          "text": "Although prior studies in animals and humans have shown some biological and behavioral similarities between substance-use disorders and addictive-like consumption of highly processed foods, no studies have looked at whether reducing junk food can 32 withdrawal symptoms in people, she noted.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Although",
+              "normalized": "although",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "prior",
+              "normalized": "prior",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "surface": "studies",
+              "normalized": "studies",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 33,
+              "surface": "animals",
+              "normalized": "animals",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 37,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 44,
+              "surface": "humans",
+              "normalized": "humans",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 49,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 55,
+              "surface": "shown",
+              "normalized": "shown",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 60,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 71,
+              "surface": "biological",
+              "normalized": "biological",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 86,
+              "surface": "behavioral",
+              "normalized": "behavioral",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 99,
+              "surface": "similarities",
+              "normalized": "similarities",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 107,
+              "surface": "between",
+              "normalized": "between",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 121,
+              "surface": "substance-use",
+              "normalized": "substance-use",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 131,
+              "surface": "disorders",
+              "normalized": "disorders",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 135,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 150,
+              "surface": "addictive-like",
+              "normalized": "addictive-like",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 162,
+              "surface": "consumption",
+              "normalized": "consumption",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 165,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 172,
+              "surface": "highly",
+              "normalized": "highly",
+              "isWord": true
+            },
+            {
+              "start": 173,
+              "end": 182,
+              "surface": "processed",
+              "normalized": "processed",
+              "isWord": true
+            },
+            {
+              "start": 183,
+              "end": 188,
+              "surface": "foods",
+              "normalized": "foods",
+              "isWord": true
+            },
+            {
+              "start": 188,
+              "end": 189,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 190,
+              "end": 192,
+              "surface": "no",
+              "normalized": "no",
+              "isWord": true
+            },
+            {
+              "start": 193,
+              "end": 200,
+              "surface": "studies",
+              "normalized": "studies",
+              "isWord": true
+            },
+            {
+              "start": 201,
+              "end": 205,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 206,
+              "end": 212,
+              "surface": "looked",
+              "normalized": "looked",
+              "isWord": true
+            },
+            {
+              "start": 213,
+              "end": 215,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 216,
+              "end": 223,
+              "surface": "whether",
+              "normalized": "whether",
+              "isWord": true
+            },
+            {
+              "start": 224,
+              "end": 232,
+              "surface": "reducing",
+              "normalized": "reducing",
+              "isWord": true
+            },
+            {
+              "start": 233,
+              "end": 237,
+              "surface": "junk",
+              "normalized": "junk",
+              "isWord": true
+            },
+            {
+              "start": 238,
+              "end": 242,
+              "surface": "food",
+              "normalized": "food",
+              "isWord": true
+            },
+            {
+              "start": 243,
+              "end": 246,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 247,
+              "end": 249,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 250,
+              "end": 260,
+              "surface": "withdrawal",
+              "normalized": "withdrawal",
+              "isWord": true
+            },
+            {
+              "start": 261,
+              "end": 269,
+              "surface": "symptoms",
+              "normalized": "symptoms",
+              "isWord": true
+            },
+            {
+              "start": 270,
+              "end": 272,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 273,
+              "end": 279,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 279,
+              "end": 280,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 281,
+              "end": 284,
+              "surface": "she",
+              "normalized": "she",
+              "isWord": true
+            },
+            {
+              "start": 285,
+              "end": 290,
+              "surface": "noted",
+              "normalized": "noted",
+              "isWord": true
+            },
+            {
+              "start": 290,
+              "end": 291,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "尽管先前在动物和人类身上的研究已经显示出，物质使用障碍与类成瘾地消费高度加工食品之间有一些生物学和行为学上的相似性，但还没有研究考察过减少垃圾食品是否会在人身上 32 戒断症状，她指出。",
+            "translationNatural": "她补充说：以往动物与人体实验虽已发现「物质成瘾」和「沉迷深加工食品」在生理、行为上有相似处，却没人验证过——少吃垃圾食品到底会不会在人身上触发戒断反应。",
+            "structMarkup": "{Although prior studies in animals and humans have shown some biological and behavioral similarities between substance-use disorders and addictive-like consumption of highly processed foods}, 【no studies】 _have looked at whether reducing junk food can 32 withdrawal symptoms in people_, (she noted).",
+            "structureSummary": "Although 引导让步状语从句 + 主句 no studies have looked at whether 宾语从句；从句 have shown 与主句 have looked at 形成「已有 vs 尚无」对照，whether 从句中 32 需动词原形，句末 she noted 为转述分句。",
+            "components": [
+              {
+                "part": "Although prior studies in animals and humans have shown some biological and behavioral similarities between substance-use disorders and addictive-like consumption of highly processed foods",
+                "role": "状语从句",
+                "note": "Although 引导让步状语从句，先承认既有研究已发现两类行为在生物学与行为学上的相似，为主句转折蓄势；between...and... 连接被比较的两端。"
+              },
+              {
+                "part": "no studies",
+                "role": "主语",
+                "note": "主句主语，否定式，与从句里的 prior studies 形成「有研究 vs 无研究」的鲜明对照。"
+              },
+              {
+                "part": "have looked at whether reducing junk food can 32 withdrawal symptoms in people",
+                "role": "谓语",
+                "note": "现在完成时 have looked at + whether 引导的宾语从句；32 空须填动词原形 trigger，构成 can trigger withdrawal symptoms「会诱发戒断症状」。"
+              },
+              {
+                "part": "whether reducing junk food can 32 withdrawal symptoms in people",
+                "role": "宾语从句",
+                "note": "whether（「是否」）引导作 looked at 的宾语，从句用陈述语序；reducing junk food 为动名词短语作从句主语。"
+              },
+              {
+                "part": "between substance-use disorders and addictive-like consumption of highly processed foods",
+                "role": "介词短语",
+                "note": "between A and B 说明相似性所对照的两类对象：物质使用障碍 与 类成瘾式消费深加工食品。"
+              },
+              {
+                "part": "she noted",
+                "role": "插入语",
+                "note": "句末转述主谓，点明这是 Schulte 的补充评述。"
+              }
+            ],
+            "clauses": [
+              "状语从句「Although prior studies in animals and humans have shown some biologica」：Although 引导让步状语从句，先承认既有研究已发现两类行为在生物学与行为学上的相似，为主句转折蓄势；between...and... 连接被比较的两端。",
+              "宾语从句「whether reducing junk food can 32 withdrawal symptoms in people」：whether（「是否」）引导作 looked at 的宾语，从句用陈述语序；reducing junk food 为动名词短语作从句主语。",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。"
+            ],
+            "phrases": [
+              {
+                "text": "although",
+                "meaning": "虽然、尽管（后接从句）",
+                "usage": "注意区分：although + 从句 / despite + 名词。常见搭配：although it is / although not。",
+                "example": "Although these accounts touch on real concerns, they miss the whole. 尽管这些报道触及真实担忧，却忽略了全貌。"
+              },
+              {
+                "text": "studies",
+                "meaning": "研究（study 的复数）；study 的第三人称单数",
+                "usage": "注意区分：studies（复数/三单）/ study（单数）。常见搭配：studies show that / recent studies。",
+                "example": "Studies suggest a strong link. 研究表明存在强关联。"
+              },
+              {
+                "text": "animals",
+                "meaning": "动物（animal 的复数）",
+                "usage": "注意区分：animals（复数）/ animal（单数）。常见搭配：farm animals / wild animals。",
+                "example": "Farm animals need space. 农场动物需要空间。"
+              }
+            ],
+            "pitfalls": [
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "用「既有相似证据、却无人验证戒断」的让步转折，凸显本研究填补空白之处，并以 32 空考查动词原形。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 397,
+          "end": 564,
+          "text": "Raising 33 that people may experience irritability(烦躁) or headaches when cutting down on junk food can help individuals 34 coping strategies in advance, Schulte noted.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "Raising",
+              "normalized": "raising",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 22,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 26,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 37,
+              "surface": "experience",
+              "normalized": "experience",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 50,
+              "surface": "irritability",
+              "normalized": "irritability",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "(烦躁)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 55,
+              "end": 57,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 67,
+              "surface": "headaches",
+              "normalized": "headaches",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 72,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 80,
+              "surface": "cutting",
+              "normalized": "cutting",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 85,
+              "surface": "down",
+              "normalized": "down",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 88,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 93,
+              "surface": "junk",
+              "normalized": "junk",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 98,
+              "surface": "food",
+              "normalized": "food",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 102,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 107,
+              "surface": "help",
+              "normalized": "help",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 119,
+              "surface": "individuals",
+              "normalized": "individuals",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 122,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 123,
+              "end": 129,
+              "surface": "coping",
+              "normalized": "coping",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 140,
+              "surface": "strategies",
+              "normalized": "strategies",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 143,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 151,
+              "surface": "advance",
+              "normalized": "advance",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 152,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 153,
+              "end": 160,
+              "surface": "Schulte",
+              "normalized": "schulte",
+              "isWord": true
+            },
+            {
+              "start": 161,
+              "end": 166,
+              "surface": "noted",
+              "normalized": "noted",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 167,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "提高 33，即人们在减少垃圾食品时可能出现烦躁或头痛，能帮助人们提前 34 应对策略，Schulte 指出。",
+            "translationNatural": "舒尔特认为，若让人事先知道「戒垃圾食品可能烦躁、头痛」，就能提前备好应对办法。",
+            "structMarkup": "【Raising 33 that people may experience irritability(烦躁) or headaches when cutting down on junk food】 _can help individuals 34 coping strategies_ (in advance), (Schulte noted).",
+            "structureSummary": "动名词短语 Raising 33... 作主语（内含 that 同位语从句与 when 省略式状语）+ 谓语 can help + 宾语 individuals + 宾补 34 coping strategies；in advance 为时间状语，句末 Schulte noted 为转述分句；33 需名词、34 需动词原形。",
+            "components": [
+              {
+                "part": "Raising 33 that people may experience irritability(烦躁) or headaches when cutting down on junk food",
+                "role": "主语",
+                "note": "动名词短语作全句主语，谓语因此用单数 can help；33 空须填名词 awareness，Raising awareness 即「提高认识」；括号内为试卷所附中文注释「烦躁」。"
+              },
+              {
+                "part": "that people may experience irritability(烦躁) or headaches when cutting down on junk food",
+                "role": "同位语从句",
+                "note": "that 从句与 33（awareness）同位，具体说明「要提高的是哪种认识」；when cutting down... 为「连词 + 现在分词」的省略式状语。"
+              },
+              {
+                "part": "can help individuals 34 coping strategies",
+                "role": "谓语",
+                "note": "情态动词 can + help + 宾语 individuals + 宾补；34 空须填动词原形 prepare，构成 help sb (to) prepare coping strategies「帮人提前备好应对策略」。"
+              },
+              {
+                "part": "irritability(烦躁) or headaches",
+                "role": "宾语",
+                "note": "experience 的并列宾语，or 连接两种具体不适；括号内「烦躁」为试卷给出的中文注释。"
+              },
+              {
+                "part": "when cutting down on junk food",
+                "role": "状语",
+                "note": "「when + 现在分词」的省略式时间状语，相当于 when they are cutting down on junk food，限定不适出现的时机。"
+              },
+              {
+                "part": "in advance",
+                "role": "状语",
+                "note": "固定副词短语，意为「提前、预先」，强调应对策略要备在症状出现之前。"
+              },
+              {
+                "part": "Schulte noted",
+                "role": "插入语",
+                "note": "句末转述主谓，点明说话人，抽掉后主句结构仍完整。"
+              }
+            ],
+            "clauses": [
+              "同位语从句「that people may experience irritability(烦躁) or headaches when cutting 」：that 从句与 33（awareness）同位，具体说明「要提高的是哪种认识」；when cutting down... 为「连词 + 现在分词」的省略式状语。",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "raising",
+                "meaning": "提高、提出（及物）；抚养（美式）（raise 的现在分词/动名词形式）",
+                "usage": "注意区分：raising（现在分词/动名词）/ raise（原形）。",
+                "example": "Raising 33 that people may experience irritability(烦躁) or headaches when cutting down on junk food can help individuals 34 coping strategies in advance, Schulte noted. 舒尔特认为，若让人事先知道「戒垃圾食品可能烦躁、头痛」，就能提前备好应对办法。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "experience",
+                "meaning": "经验（不可数）；经历（可数）/ 经历、体验",
+                "usage": "注意区分：experience（经验，不可数）/ experiences（经历，可数）。常见搭配：work experience / a lot of experience。",
+                "example": "Relying on instincts needs vast experience. 依靠直觉需要大量经验。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：raising（现在分词/动名词）/ raise（原形）。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。"
+            ],
+            "paragraphRole": "转向研究的现实意义：提前让人知道可能出现的不适，就能预先备好应对；33、34 两空分别考查名词与动词。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 565,
+          "end": 729,
+          "text": "The findings may also 35 light on the barriers people face when changing eating habits—barriers that may play a role in people dropping out of treatments, she said.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "findings",
+              "normalized": "findings",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 25,
+              "end": 30,
+              "surface": "light",
+              "normalized": "light",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 37,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 46,
+              "surface": "barriers",
+              "normalized": "barriers",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 53,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 58,
+              "surface": "face",
+              "normalized": "face",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 63,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 72,
+              "surface": "changing",
+              "normalized": "changing",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 79,
+              "surface": "eating",
+              "normalized": "eating",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 86,
+              "surface": "habits",
+              "normalized": "habits",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 87,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 87,
+              "end": 95,
+              "surface": "barriers",
+              "normalized": "barriers",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 100,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 104,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 109,
+              "surface": "play",
+              "normalized": "play",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 111,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 116,
+              "surface": "role",
+              "normalized": "role",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 119,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 126,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 135,
+              "surface": "dropping",
+              "normalized": "dropping",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 139,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 142,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 153,
+              "surface": "treatments",
+              "normalized": "treatments",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 154,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 155,
+              "end": 158,
+              "surface": "she",
+              "normalized": "she",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 163,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 164,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这些发现还可能 35 于人们改变饮食习惯时所面临的障碍——这些障碍可能在人们退出治疗这件事上起作用，她说。",
+            "translationNatural": "她还说，这项发现也有助于看清人们改变饮食习惯时的重重阻力——正是这些阻力，可能让不少人中途放弃治疗。",
+            "structMarkup": "【The findings】 _may also 35 light_ (on the barriers people face when changing eating habits)(—barriers that may play a role in people dropping out of treatments), (she said).",
+            "structureSummary": "主语 The findings + 情态谓语 may also 35 + 宾语 light + 介词短语 on the barriers；barriers 后接省略关系代词的定语从句 people face...，破折号后再以 barriers 同位复指并带 that 定语从句；35 空需动词原形与 light on 构成固定搭配 shed light on。",
+            "components": [
+              {
+                "part": "The findings",
+                "role": "主语",
+                "note": "全句主语，复数，回指本研究所得结论；may 表明这是「还可能」的延伸价值。"
+              },
+              {
+                "part": "may also 35 light",
+                "role": "谓语",
+                "note": "情态动词 may + 副词 also + 35 空动词原形；须填 shed，与后面的 on 构成 shed light on「阐明、使……清楚」。"
+              },
+              {
+                "part": "on the barriers people face when changing eating habits",
+                "role": "介词短语",
+                "note": "on 引出 shed light on 的对象；barriers 后接省略关系代词的定语从句，when changing... 为省略式时间状语。"
+              },
+              {
+                "part": "people face when changing eating habits",
+                "role": "定语从句",
+                "note": "省略 that / which 的定语从句修饰 barriers；when changing eating habits 相当于 when they are changing eating habits。"
+              },
+              {
+                "part": "—barriers that may play a role in people dropping out of treatments",
+                "role": "插入语",
+                "note": "破折号后重复 barriers 作同位复指，进一步点明这些障碍的后果；整体为补充性插入成分。"
+              },
+              {
+                "part": "that may play a role in people dropping out of treatments",
+                "role": "定语从句",
+                "note": "that 修饰被复指的 barriers；play a role in 意为「在……中起作用」，in 后接动名词复合结构 people dropping out of treatments。"
+              },
+              {
+                "part": "she said",
+                "role": "插入语",
+                "note": "句末转述主谓，收束全篇引语，去掉后主句仍完整。"
+              }
+            ],
+            "clauses": [
+              "定语从句「people face when changing eating habits」：省略 that / which 的定语从句修饰 barriers；when changing eating habits 相当于 when they are changing eating habits。",
+              "定语从句「that may play a role in people dropping out of treatments」：that 修饰被复指的 barriers；play a role in 意为「在……中起作用」，in 后接动名词复合结构 people dropping out of treatments。"
+            ],
+            "phrases": [
+              {
+                "text": "play a role in",
+                "meaning": "在……中起作用",
+                "usage": "in 后接名词或动名词。",
+                "example": "Habits play a role in success. 习惯在成功中起作用。"
+              },
+              {
+                "text": "findings",
+                "meaning": "研究结果、调查发现（finding 的复数）",
+                "usage": "注意区分：findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings。",
+                "example": "The findings may also 35 light on the barriers people face when changing eating habits—barriers that may play a role in people dropping out of treatments, she said. 她还说，这项发现也有助于看清人们改变饮食习惯时的重重阻力——正是这些阻力，可能让不少人中途放弃治疗。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              }
+            ],
+            "pitfalls": [
+              "play a role in doing 中 in 后接动名词。",
+              "注意区分：findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。"
+            ],
+            "paragraphRole": "收束全文：点明发现还能解释「改变饮食习惯为何难、为何有人中途退出治疗」，并以 35 空考查固定搭配 shed light on。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "awareness"
+        },
+        {
+          "key": "B",
+          "text": "canceling"
+        },
+        {
+          "key": "C",
+          "text": "controversial"
+        },
+        {
+          "key": "D",
+          "text": "emptiness"
+        },
+        {
+          "key": "E",
+          "text": "monstrous"
+        },
+        {
+          "key": "F",
+          "text": "offers"
+        },
+        {
+          "key": "G",
+          "text": "parallels"
+        },
+        {
+          "key": "H",
+          "text": "permanently"
+        },
+        {
+          "key": "I",
+          "text": "physical"
+        },
+        {
+          "key": "J",
+          "text": "prepare"
+        },
+        {
+          "key": "K",
+          "text": "prospects"
+        },
+        {
+          "key": "L",
+          "text": "quitting"
+        },
+        {
+          "key": "M",
+          "text": "shed"
+        },
+        {
+          "key": "N",
+          "text": "significantly"
+        },
+        {
+          "key": "O",
+          "text": "trigger"
+        }
+      ],
+      "answer": "I"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "awareness"
+        },
+        {
+          "key": "B",
+          "text": "canceling"
+        },
+        {
+          "key": "C",
+          "text": "controversial"
+        },
+        {
+          "key": "D",
+          "text": "emptiness"
+        },
+        {
+          "key": "E",
+          "text": "monstrous"
+        },
+        {
+          "key": "F",
+          "text": "offers"
+        },
+        {
+          "key": "G",
+          "text": "parallels"
+        },
+        {
+          "key": "H",
+          "text": "permanently"
+        },
+        {
+          "key": "I",
+          "text": "physical"
+        },
+        {
+          "key": "J",
+          "text": "prepare"
+        },
+        {
+          "key": "K",
+          "text": "prospects"
+        },
+        {
+          "key": "L",
+          "text": "quitting"
+        },
+        {
+          "key": "M",
+          "text": "shed"
+        },
+        {
+          "key": "N",
+          "text": "significantly"
+        },
+        {
+          "key": "O",
+          "text": "trigger"
+        }
+      ],
+      "answer": "L"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "awareness"
+        },
+        {
+          "key": "B",
+          "text": "canceling"
+        },
+        {
+          "key": "C",
+          "text": "controversial"
+        },
+        {
+          "key": "D",
+          "text": "emptiness"
+        },
+        {
+          "key": "E",
+          "text": "monstrous"
+        },
+        {
+          "key": "F",
+          "text": "offers"
+        },
+        {
+          "key": "G",
+          "text": "parallels"
+        },
+        {
+          "key": "H",
+          "text": "permanently"
+        },
+        {
+          "key": "I",
+          "text": "physical"
+        },
+        {
+          "key": "J",
+          "text": "prepare"
+        },
+        {
+          "key": "K",
+          "text": "prospects"
+        },
+        {
+          "key": "L",
+          "text": "quitting"
+        },
+        {
+          "key": "M",
+          "text": "shed"
+        },
+        {
+          "key": "N",
+          "text": "significantly"
+        },
+        {
+          "key": "O",
+          "text": "trigger"
+        }
+      ],
+      "answer": "F"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "awareness"
+        },
+        {
+          "key": "B",
+          "text": "canceling"
+        },
+        {
+          "key": "C",
+          "text": "controversial"
+        },
+        {
+          "key": "D",
+          "text": "emptiness"
+        },
+        {
+          "key": "E",
+          "text": "monstrous"
+        },
+        {
+          "key": "F",
+          "text": "offers"
+        },
+        {
+          "key": "G",
+          "text": "parallels"
+        },
+        {
+          "key": "H",
+          "text": "permanently"
+        },
+        {
+          "key": "I",
+          "text": "physical"
+        },
+        {
+          "key": "J",
+          "text": "prepare"
+        },
+        {
+          "key": "K",
+          "text": "prospects"
+        },
+        {
+          "key": "L",
+          "text": "quitting"
+        },
+        {
+          "key": "M",
+          "text": "shed"
+        },
+        {
+          "key": "N",
+          "text": "significantly"
+        },
+        {
+          "key": "O",
+          "text": "trigger"
+        }
+      ],
+      "answer": "N"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "awareness"
+        },
+        {
+          "key": "B",
+          "text": "canceling"
+        },
+        {
+          "key": "C",
+          "text": "controversial"
+        },
+        {
+          "key": "D",
+          "text": "emptiness"
+        },
+        {
+          "key": "E",
+          "text": "monstrous"
+        },
+        {
+          "key": "F",
+          "text": "offers"
+        },
+        {
+          "key": "G",
+          "text": "parallels"
+        },
+        {
+          "key": "H",
+          "text": "permanently"
+        },
+        {
+          "key": "I",
+          "text": "physical"
+        },
+        {
+          "key": "J",
+          "text": "prepare"
+        },
+        {
+          "key": "K",
+          "text": "prospects"
+        },
+        {
+          "key": "L",
+          "text": "quitting"
+        },
+        {
+          "key": "M",
+          "text": "shed"
+        },
+        {
+          "key": "N",
+          "text": "significantly"
+        },
+        {
+          "key": "O",
+          "text": "trigger"
+        }
+      ],
+      "answer": "G"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "awareness"
+        },
+        {
+          "key": "B",
+          "text": "canceling"
+        },
+        {
+          "key": "C",
+          "text": "controversial"
+        },
+        {
+          "key": "D",
+          "text": "emptiness"
+        },
+        {
+          "key": "E",
+          "text": "monstrous"
+        },
+        {
+          "key": "F",
+          "text": "offers"
+        },
+        {
+          "key": "G",
+          "text": "parallels"
+        },
+        {
+          "key": "H",
+          "text": "permanently"
+        },
+        {
+          "key": "I",
+          "text": "physical"
+        },
+        {
+          "key": "J",
+          "text": "prepare"
+        },
+        {
+          "key": "K",
+          "text": "prospects"
+        },
+        {
+          "key": "L",
+          "text": "quitting"
+        },
+        {
+          "key": "M",
+          "text": "shed"
+        },
+        {
+          "key": "N",
+          "text": "significantly"
+        },
+        {
+          "key": "O",
+          "text": "trigger"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "awareness"
+        },
+        {
+          "key": "B",
+          "text": "canceling"
+        },
+        {
+          "key": "C",
+          "text": "controversial"
+        },
+        {
+          "key": "D",
+          "text": "emptiness"
+        },
+        {
+          "key": "E",
+          "text": "monstrous"
+        },
+        {
+          "key": "F",
+          "text": "offers"
+        },
+        {
+          "key": "G",
+          "text": "parallels"
+        },
+        {
+          "key": "H",
+          "text": "permanently"
+        },
+        {
+          "key": "I",
+          "text": "physical"
+        },
+        {
+          "key": "J",
+          "text": "prepare"
+        },
+        {
+          "key": "K",
+          "text": "prospects"
+        },
+        {
+          "key": "L",
+          "text": "quitting"
+        },
+        {
+          "key": "M",
+          "text": "shed"
+        },
+        {
+          "key": "N",
+          "text": "significantly"
+        },
+        {
+          "key": "O",
+          "text": "trigger"
+        }
+      ],
+      "answer": "O"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "awareness"
+        },
+        {
+          "key": "B",
+          "text": "canceling"
+        },
+        {
+          "key": "C",
+          "text": "controversial"
+        },
+        {
+          "key": "D",
+          "text": "emptiness"
+        },
+        {
+          "key": "E",
+          "text": "monstrous"
+        },
+        {
+          "key": "F",
+          "text": "offers"
+        },
+        {
+          "key": "G",
+          "text": "parallels"
+        },
+        {
+          "key": "H",
+          "text": "permanently"
+        },
+        {
+          "key": "I",
+          "text": "physical"
+        },
+        {
+          "key": "J",
+          "text": "prepare"
+        },
+        {
+          "key": "K",
+          "text": "prospects"
+        },
+        {
+          "key": "L",
+          "text": "quitting"
+        },
+        {
+          "key": "M",
+          "text": "shed"
+        },
+        {
+          "key": "N",
+          "text": "significantly"
+        },
+        {
+          "key": "O",
+          "text": "trigger"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "awareness"
+        },
+        {
+          "key": "B",
+          "text": "canceling"
+        },
+        {
+          "key": "C",
+          "text": "controversial"
+        },
+        {
+          "key": "D",
+          "text": "emptiness"
+        },
+        {
+          "key": "E",
+          "text": "monstrous"
+        },
+        {
+          "key": "F",
+          "text": "offers"
+        },
+        {
+          "key": "G",
+          "text": "parallels"
+        },
+        {
+          "key": "H",
+          "text": "permanently"
+        },
+        {
+          "key": "I",
+          "text": "physical"
+        },
+        {
+          "key": "J",
+          "text": "prepare"
+        },
+        {
+          "key": "K",
+          "text": "prospects"
+        },
+        {
+          "key": "L",
+          "text": "quitting"
+        },
+        {
+          "key": "M",
+          "text": "shed"
+        },
+        {
+          "key": "N",
+          "text": "significantly"
+        },
+        {
+          "key": "O",
+          "text": "trigger"
+        }
+      ],
+      "answer": "J"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "awareness"
+        },
+        {
+          "key": "B",
+          "text": "canceling"
+        },
+        {
+          "key": "C",
+          "text": "controversial"
+        },
+        {
+          "key": "D",
+          "text": "emptiness"
+        },
+        {
+          "key": "E",
+          "text": "monstrous"
+        },
+        {
+          "key": "F",
+          "text": "offers"
+        },
+        {
+          "key": "G",
+          "text": "parallels"
+        },
+        {
+          "key": "H",
+          "text": "permanently"
+        },
+        {
+          "key": "I",
+          "text": "physical"
+        },
+        {
+          "key": "J",
+          "text": "prepare"
+        },
+        {
+          "key": "K",
+          "text": "prospects"
+        },
+        {
+          "key": "L",
+          "text": "quitting"
+        },
+        {
+          "key": "M",
+          "text": "shed"
+        },
+        {
+          "key": "N",
+          "text": "significantly"
+        },
+        {
+          "key": "O",
+          "text": "trigger"
+        }
+      ],
+      "answer": "M"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "awareness"
+    },
+    {
+      "key": "B",
+      "word": "canceling"
+    },
+    {
+      "key": "C",
+      "word": "controversial"
+    },
+    {
+      "key": "D",
+      "word": "emptiness"
+    },
+    {
+      "key": "E",
+      "word": "monstrous"
+    },
+    {
+      "key": "F",
+      "word": "offers"
+    },
+    {
+      "key": "G",
+      "word": "parallels"
+    },
+    {
+      "key": "H",
+      "word": "permanently"
+    },
+    {
+      "key": "I",
+      "word": "physical"
+    },
+    {
+      "key": "J",
+      "word": "prepare"
+    },
+    {
+      "key": "K",
+      "word": "prospects"
+    },
+    {
+      "key": "L",
+      "word": "quitting"
+    },
+    {
+      "key": "M",
+      "word": "shed"
+    },
+    {
+      "key": "N",
+      "word": "significantly"
+    },
+    {
+      "key": "O",
+      "word": "trigger"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "I",
+      "answerWord": "physical",
+      "reason": "空格在 the same 之后、与 and psychological 并列共同修饰 symptoms，须填形容词；psychological（心理的）提示与之对举的另一维度是「身体的」，physical and psychological symptoms 即「身体与心理症状」，正好呼应后文列举的 headaches、poor sleep（偏躯体）与 mood swings、anxiety（偏心理）。",
+      "distractors": "C) controversial（有争议的）、E) monstrous（巨大的）虽是形容词，但「有争议的症状」「巨大的症状」与症状清单不搭；N) significantly、H) permanently 为副词，不能修饰名词 symptoms；D) emptiness、K) prospects 是名词，会造成名词堆叠；此处要的是与 psychological 构成「身体 / 心理」这一固定对立维度，只有 physical 成立。"
+    },
+    "27": {
+      "answerKey": "L",
+      "answerWord": "quitting",
+      "reason": "空格在代词 those 之后、动名词 smoking cigarettes / using drugs 之前，须填能带动名词宾语、并与后面 or using drugs 并列的 -ing 形式；quitting smoking cigarettes 即「戒烟」，quitting ... using drugs 即「戒毒」，those 指「戒烟或戒毒的人」，恰好与前文「减吃加工食品者」构成 the same...as 的类比对象。",
+      "distractors": "B) canceling（取消）虽是 -ing 形式，但 canceling smoking 不成「戒烟」之意、语义不通；其余 -ing 形式里没有能同时支配 smoking / using 并表「戒除」的动词；H) permanently、N) significantly 为副词，D) emptiness、K) prospects 为名词，均无法置于 those 后作后置定语并带宾语。"
+    },
+    "28": {
+      "answerKey": "F",
+      "answerWord": "offers",
+      "reason": "空格在单数主语 The new study 与宾语 the first evidence 之间，须填第三人称单数现在时动词；offer evidence 是「提供证据」的固定搭配，故用 offers，与后文 that 同位语从句（证据的内容）顺理成章，单数主语也排除了动词原形。",
+      "distractors": "O) trigger（触发）、J) prepare（准备）、M) shed（shed light on）虽为动词，但 trigger evidence / prepare evidence 搭配生硬，且此处需要三单形式、原形不能直接接在单数主语后；G) parallels 若勉强作三单动词，「使证据与……平行」也不合语义；A) awareness、D) emptiness、K) prospects 是名词，不能作谓语。"
+    },
+    "29": {
+      "answerKey": "N",
+      "answerWord": "significantly",
+      "reason": "空格在系动词 were 与比较级形容词 more intense 之间，须填能修饰比较级的程度副词；significantly more intense 意为「显著更强烈」，与后文把第 2—5 天定为症状高峰的语气吻合，是学术写作里修饰比较级的典型副词。",
+      "distractors": "H) permanently（永久地）虽是副词，但「永久更强烈」与 between the second and fifth days 这一有限时间窗相矛盾；E) monstrous、I) physical 为形容词，不能修饰比较级；B) canceling、L) quitting 为 -ing 形式，词性不符；只有 significantly 能恰当地量化「更加剧烈」的程度。"
+    },
+    "30": {
+      "answerKey": "G",
+      "answerWord": "parallels",
+      "reason": "空格在关系代词 which（指代前文第 2 至第 5 天这段时间）之后、宾语 the time span 之前，须填第三人称单数谓语动词；parallel 作动词意为「与……相似 / 相平行」，which parallels the time span... 说明垃圾食品戒断的高峰窗口与药物戒断期长度吻合，呼应全篇的「类比」主线。",
+      "distractors": "F) offers（提供）虽是三单动词，但 which offers the time span 语义不通；O) trigger、J) prepare、M) shed 为动词原形，不能跟在 which 后作三单谓语（主谓一致不合）；C) controversial、I) physical 是形容词，D) emptiness、K) prospects 是名词，均无法带宾语 the time span。"
+    },
+    "31": {
+      "answerKey": "C",
+      "answerWord": "controversial",
+      "reason": "空格在不定冠词 a 与名词 subject 之间，须填形容词作定语；下文用 Although... no studies have looked at... 说明学界至今证据不足、看法不一，正呼应「食物是否成瘾是个有争议的话题」，故用 controversial。",
+      "distractors": "E) monstrous（巨大的）、I) physical（身体的）虽为形容词，但「巨大的话题」「身体的话题」与「学界尚无定论」的语境不符；A) awareness、D) emptiness、K) prospects 是名词，不能作 a 与 subject 之间的定语；N) significantly、H) permanently 为副词，无法修饰 subject。"
+    },
+    "32": {
+      "answerKey": "O",
+      "answerWord": "trigger",
+      "reason": "空格在情态动词 can 之后、宾语 withdrawal symptoms 之前，须填动词原形；trigger withdrawal symptoms 意为「诱发 / 触发戒断症状」，正好回答 whether 所问的「减少垃圾食品是否会在人身上引起戒断」，与全篇主题一致。",
+      "distractors": "J) prepare（准备）虽是动词原形，但 prepare withdrawal symptoms「准备症状」不合逻辑；M) shed 通常需与 light on 连用（shed light on），不能单独接 symptoms；F) offers、G) parallels 为三单形式，不能用在 can 之后；C) controversial、I) physical 为形容词，A) awareness、D) emptiness、K) prospects 为名词，词性均不符。"
+    },
+    "33": {
+      "answerKey": "A",
+      "answerWord": "awareness",
+      "reason": "空格在动名词 Raising 之后、that 同位语从句之前，须填名词作 Raising 的宾语；raise awareness that... 是「提高……的意识 / 让人意识到……」的固定表达，that 从句具体说明要意识到的是「减吃垃圾食品可能烦躁、头痛」，与后文 help individuals prepare... 构成「先知后备」的逻辑。",
+      "distractors": "D) emptiness（空虚）、K) prospects（前景）虽为名词，但 raising emptiness / raising prospects that... 不成搭配且语义不通；B) canceling、L) quitting 为 -ing 形式，不能作 Raising 的宾语中心词；C) controversial、I) physical 是形容词，N) significantly、H) permanently 是副词，均无法被 Raising 支配并带出 that 从句。"
+    },
+    "34": {
+      "answerKey": "J",
+      "answerWord": "prepare",
+      "reason": "空格在 help individuals 之后、宾语 coping strategies 之前，须填动词原形（help sb (to) do 结构）；prepare coping strategies 意为「准备 / 制定应对策略」，与 in advance（提前）及前半句「提高认识」衔接自然：先知道会不适，才谈得上提前备好办法。",
+      "distractors": "O) trigger、M) shed 虽为动词原形，但 trigger coping strategies「触发策略」、shed coping strategies「流出策略」都不成话；F) offers、G) parallels 为三单形式，不能用于 help sb 之后；B) canceling、L) quitting 为 -ing，A) awareness、D) emptiness、K) prospects 为名词，词性不合。"
+    },
+    "35": {
+      "answerKey": "M",
+      "answerWord": "shed",
+      "reason": "空格在情态动词 may 之后、名词 light 之前，且后面紧跟介词 on，须填能与 light on 构成固定短语的动词原形；shed light on sth 意为「阐明、使……更易理解」，The findings may also shed light on the barriers 即「这些发现还有助于看清（改变饮食习惯的）障碍」，是唯一成立的搭配。",
+      "distractors": "O) trigger、J) prepare 虽为动词原形，但 trigger light on / prepare light on 不是惯用搭配；F) offers、G) parallels 是三单形式，不能接在 may 之后；B) canceling、L) quitting 为 -ing，C) controversial、I) physical 为形容词，A) awareness、D) emptiness、K) prospects 为名词，均无法与 light on 组成固定短语。"
+    }
+  },
+  "lexicon": {
+    "according": {
+      "phonetic": "/əˈkɔːdɪŋ/",
+      "pos": "prep.（用于 according to）",
+      "sense": "根据、按照（according to）",
+      "collocations": [
+        "according to the study",
+        "according to sb"
+      ],
+      "examples": [
+        "According to the study, rates are stable. 根据这项研究，比率稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "according to（根据，后接来源）/ because of（因为）"
+      }
+    },
+    "although": {
+      "phonetic": "/ɔːlˈðəʊ/",
+      "pos": "conj.",
+      "sense": "虽然、尽管（后接从句）",
+      "collocations": [
+        "although it is",
+        "although not"
+      ],
+      "examples": [
+        "Although these accounts touch on real concerns, they miss the whole. 尽管这些报道触及真实担忧，却忽略了全貌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "although + 从句 / despite + 名词"
+      }
+    },
+    "animals": {
+      "phonetic": "/ˈænɪmlz/",
+      "pos": "n.",
+      "sense": "动物（animal 的复数）",
+      "lemma": "animal",
+      "collocations": [
+        "farm animals",
+        "wild animals"
+      ],
+      "examples": [
+        "Farm animals need space. 农场动物需要空间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "animals（复数）/ animal（单数）"
+      }
+    },
+    "attempting": {
+      "phonetic": "/əˈtemptɪŋ/",
+      "pos": "n./v.",
+      "sense": "尝试、企图、努力；试图、企图（本文 any effort you attempt to make 你试图做的任何努力 / make an attempt）（attempt 的现在分词/动名词形式）",
+      "lemma": "attempt",
+      "collocations": [
+        "people attempting",
+        "attempting to",
+        "attempting to cut"
+      ],
+      "examples": [
+        "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study. 研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "attempt + -ing（现在分词/动名词）",
+        "confusables": "attempting（现在分词/动名词）/ attempt（原形）"
+      }
+    },
+    "author": {
+      "phonetic": "/ˈɔːθə/",
+      "pos": "n./v.",
+      "sense": "作者、作家；撰写（本文 influential authors / a best-selling author 畅销书作者 / senior author 资深作者）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "study author",
+        "author Erica"
+      ],
+      "examples": [
+        "The new study 28 the first evidence that these withdrawal-like symptoms can occur when people cut down on highly processed foods, said lead study author Erica Schulte. 论文第一作者埃丽卡·舒尔特指出：这项新研究首次拿出证据，证明少吃深加工食品确实会诱发这类戒断样症状。"
+      ],
+      "more": {
+        "confusables": "author / authors / authentic（同族不同词形，注意词性与用法）"
+      }
+    },
+    "back": {
+      "phonetic": "/bæk/",
+      "pos": "n./adj./adv./v.",
+      "sense": "背部、后面；后面的；回原处、向后；支持、后退（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "cut back",
+        "back on",
+        "back on fries"
+      ],
+      "examples": [
+        "Junk-food lovers who try to cut back on fries or chocolate may experience symptoms similar to drug withdrawal, a new study suggests. 一项新研究提醒：想戒掉薯条、巧克力这类垃圾食品的人，身上可能出现类似「戒断反应」的症状。"
+      ],
+      "more": {
+        "confusables": "back / background / backward（同族不同词形，注意词性与用法）"
+      }
+    },
+    "based": {
+      "phonetic": "/beɪst/",
+      "pos": "v./adj.",
+      "sense": "base 的过去式/过去分词；（be based on）基于",
+      "lemma": "base",
+      "collocations": [
+        "be based on",
+        "based on evidence"
+      ],
+      "examples": [
+        "Decisions based on data are not always right. 基于数据的决定并不总对。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "based on（基于，被动/状语）/ basing on（主动，主语须是人）"
+      }
+    },
+    "biological": {
+      "phonetic": "/ˌbaɪəˈlɒdʒɪkl/",
+      "pos": "adj.",
+      "sense": "生物的、生物学的；与生理有关的",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "Although prior studies in animals and humans have shown some biological and behavioral similarities between substance-use disorders and addictive-like consumption of highly processed foods, no studies have looked at whether reducing junk food can 32 withdrawal symptoms in people, she noted. 她补充说：以往动物与人体实验虽已发现「物质成瘾」和「沉迷深加工食品」在生理、行为上有相似处，却没人验证过——少吃垃圾食品到底会不会在人身上触发戒断反应。"
+      ]
+    },
+    "changing": {
+      "phonetic": "/tʃeɪndʒɪŋ/",
+      "pos": "v./n.",
+      "sense": "改变、变化 / 变化、零钱（change 的现在分词/动名词形式）",
+      "lemma": "change",
+      "collocations": [
+        "changing eating"
+      ],
+      "examples": [
+        "The findings may also 35 light on the barriers people face when changing eating habits—barriers that may play a role in people dropping out of treatments, she said. 她还说，这项发现也有助于看清人们改变饮食习惯时的重重阻力——正是这些阻力，可能让不少人中途放弃治疗。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "change + -ing（现在分词/动名词）",
+        "confusables": "changing（现在分词/动名词）/ change（原形）"
+      }
+    },
+    "chocolate": {
+      "phonetic": "/ˈtʃɒklət/",
+      "pos": "n.",
+      "sense": "巧克力（可数/不可数）",
+      "collocations": [
+        "a bar of chocolate",
+        "dark chocolate"
+      ],
+      "examples": [
+        "She treats herself to chocolate sometimes. 她偶尔吃点巧克力犒劳自己。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "chocolate（不可数泛指）/ chocolates（一盒块装巧克力）"
+      }
+    },
+    "consumption": {
+      "phonetic": "/kənˈsʌmpʃn/",
+      "pos": "n.",
+      "sense": "消费、消耗、食用 / 饮用；消费量（本文 Tap water consumption 自来水消费量 / greater consumption of sugary drinks 更多含糖饮料摄入）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "junk-food consumption",
+        "addictive-like consumption",
+        "consumption of"
+      ],
+      "examples": [
+        "Based on the participants' self-reported symptoms, withdrawal symptoms were 29 more intense between the second and fifth days after attempting to reduce junk-food consumption, which 30 the time span people live through during drug withdrawal. 据参与者自述，戒断反应在尝试少吃垃圾食品后的第 2 至第 5 天明显加重——这段窗口恰好与药物戒断要熬过的时间段相吻合。"
+      ],
+      "more": {
+        "roots": "consumption 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "coping": {
+      "phonetic": "/kəʊpɪŋ/",
+      "pos": "v.",
+      "sense": "应对、应付（cope with）（cope 的现在分词/动名词形式）",
+      "lemma": "cope",
+      "collocations": [
+        "coping strategies"
+      ],
+      "examples": [
+        "Raising 33 that people may experience irritability(烦躁) or headaches when cutting down on junk food can help individuals 34 coping strategies in advance, Schulte noted. 舒尔特认为，若让人事先知道「戒垃圾食品可能烦躁、头痛」，就能提前备好应对办法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "cope + -ing（现在分词/动名词）",
+        "confusables": "coping（现在分词/动名词）/ cope（原形）"
+      }
+    },
+    "cutting": {
+      "phonetic": "/ˈkʌtɪŋ/",
+      "pos": "v./adj.",
+      "sense": "切、割、剪、削减；尖刻的、刺骨的（cut 的现在分词；本文 cutting back on family time 压缩 / 削减家庭时间）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "cutting down"
+      ],
+      "examples": [
+        "Raising 33 that people may experience irritability(烦躁) or headaches when cutting down on junk food can help individuals 34 coping strategies in advance, Schulte noted. 舒尔特认为，若让人事先知道「戒垃圾食品可能烦躁、头痛」，就能提前备好应对办法。"
+      ]
+    },
+    "days": {
+      "phonetic": "/deɪz/",
+      "pos": "n.",
+      "sense": "天、日子、白天；时期、时代（day 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "fifth days"
+      ],
+      "examples": [
+        "Based on the participants' self-reported symptoms, withdrawal symptoms were 29 more intense between the second and fifth days after attempting to reduce junk-food consumption, which 30 the time span people live through during drug withdrawal. 据参与者自述，戒断反应在尝试少吃垃圾食品后的第 2 至第 5 天明显加重——这段窗口恰好与药物戒断要熬过的时间段相吻合。"
+      ]
+    },
+    "drug": {
+      "phonetic": "/drʌɡ/",
+      "pos": "n.",
+      "sense": "药物、药品；毒品",
+      "collocations": [
+        "drug research",
+        "a new drug"
+      ],
+      "examples": [
+        "Junk-food lovers who try to cut back on fries or chocolate may experience symptoms similar to drug withdrawal, a new study suggests. 一项新研究提醒：想戒掉薯条、巧克力这类垃圾食品的人，身上可能出现类似「戒断反应」的症状。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "drug（药、药物；毒品，可数，贬义可专指毒品）/ medicine（药，治病用，不含毒品义）/ medication（药物，正式）/ take / be on drugs（服药或吸毒，视语境）/ drug 与 pharmacy（药房）"
+      }
+    },
+    "drugs": {
+      "phonetic": "/drʌɡz/",
+      "pos": "n.",
+      "sense": "药物、药品；毒品（drug 的复数/三单形式）",
+      "lemma": "drug",
+      "collocations": [
+        "using drugs"
+      ],
+      "examples": [
+        "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study. 研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "drug + -s（复数/三单）",
+        "confusables": "drugs（复数/三单）/ drug（原形）"
+      }
+    },
+    "eating": {
+      "phonetic": "/ˈiːtɪŋ/",
+      "pos": "v./n.",
+      "sense": "eat 的现在分词；饮食（不可数）",
+      "lemma": "eat",
+      "collocations": [
+        "eating habits",
+        "healthy eating"
+      ],
+      "examples": [
+        "Healthy eating starts early. 健康饮食从小开始。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "eating（饮食）/ eat（吃）"
+      }
+    },
+    "evidence": {
+      "phonetic": "/ˈevɪdəns/",
+      "pos": "n.",
+      "sense": "证据（不可数）",
+      "collocations": [
+        "evidence suggests",
+        "evidence of/for",
+        "based on evidence"
+      ],
+      "examples": [
+        "The evidence suggests not. 证据表明并非如此。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "e-（=ex- 出）+ vid（看，词根 vid/vis = see，同 video/vision/visible/provide）+ -ence → 看得出来的东西 → 证据",
+        "confusables": "evidence（不可数，不加 -s）/ evident（形容词，明显的）"
+      }
+    },
+    "experience": {
+      "phonetic": "/ɪkˈspɪəriəns/",
+      "pos": "n./v.",
+      "sense": "经验（不可数）；经历（可数）/ 经历、体验",
+      "collocations": [
+        "work experience",
+        "a lot of experience",
+        "experience sth"
+      ],
+      "examples": [
+        "Relying on instincts needs vast experience. 依靠直觉需要大量经验。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "experience（经验，不可数）/ experiences（经历，可数）"
+      }
+    },
+    "face": {
+      "phonetic": "/feɪs/",
+      "pos": "n./v.",
+      "sense": "脸、面孔；表面、正面；面对、面临、正视（face a challenge 面临挑战）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "people face"
+      ],
+      "examples": [
+        "The findings may also 35 light on the barriers people face when changing eating habits—barriers that may play a role in people dropping out of treatments, she said. 她还说，这项发现也有助于看清人们改变饮食习惯时的重重阻力——正是这些阻力，可能让不少人中途放弃治疗。"
+      ],
+      "more": {
+        "confusables": "face / faces / faced（同族不同词形，注意词性与用法）"
+      }
+    },
+    "findings": {
+      "phonetic": "/ˈfaɪndɪŋz/",
+      "pos": "n.",
+      "sense": "研究结果、调查发现（finding 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "find（发现）+ -ing + -s",
+        "confusables": "findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings"
+      },
+      "collocations": [],
+      "examples": [
+        "The findings may also 35 light on the barriers people face when changing eating habits—barriers that may play a role in people dropping out of treatments, she said. 她还说，这项发现也有助于看清人们改变饮食习惯时的重重阻力——正是这些阻力，可能让不少人中途放弃治疗。"
+      ]
+    },
+    "first": {
+      "phonetic": "/fɜːst/",
+      "pos": "num./adj./adv.",
+      "sense": "第一；最早的；首先、初次",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "first evidence"
+      ],
+      "examples": [
+        "The new study 28 the first evidence that these withdrawal-like symptoms can occur when people cut down on highly processed foods, said lead study author Erica Schulte. 论文第一作者埃丽卡·舒尔特指出：这项新研究首次拿出证据，证明少吃深加工食品确实会诱发这类戒断样症状。"
+      ]
+    },
+    "food": {
+      "phonetic": "/fuːd/",
+      "pos": "n.",
+      "sense": "食物（一般不可数）",
+      "collocations": [
+        "food supply",
+        "fast food",
+        "food security"
+      ],
+      "examples": [
+        "Food prices are rising. 食品价格在上涨。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "food（食物，泛指不可数）/ foods（多种食品，可数）"
+      }
+    },
+    "foods": {
+      "phonetic": "/fuːdz/",
+      "pos": "n.",
+      "sense": "各种食品（food 的复数，指多个种类）",
+      "lemma": "food",
+      "collocations": [
+        "processed foods",
+        "whole foods"
+      ],
+      "examples": [
+        "Some foods will simply cost more. 有些食品就是会涨价。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "foods（多种食品）/ food（泛指食物）"
+      }
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "habits": {
+      "phonetic": "/ˈhæbɪts/",
+      "pos": "n.",
+      "sense": "习惯（habit 的复数）",
+      "lemma": "habit",
+      "collocations": [
+        "good habits",
+        "break a habit",
+        "eating habits"
+      ],
+      "examples": [
+        "Healthy habits start early. 健康习惯从小养成。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "habit（习惯）/ hobby（爱好）"
+      }
+    },
+    "heavy": {
+      "phonetic": "/ˈhevi/",
+      "pos": "adj.",
+      "sense": "重的、沉的；大量的、密集的；沉重的、繁重的",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "The idea that food may be addictive after \"heavy\" use by some individuals is a 31 subject, Schulte said. 舒尔特说，「某些人吃多了会上瘾」这个说法，向来是个有争议的话题。"
+      ],
+      "more": {
+        "confusables": "heavy / heavily（同族不同词形，注意词性与用法）"
+      }
+    },
+    "help": {
+      "phonetic": "/help/",
+      "pos": "v./n.",
+      "sense": "帮助（help sb do sth / help with）；帮助（不可数）",
+      "collocations": [
+        "help sb do sth",
+        "help with",
+        "can't help doing"
+      ],
+      "examples": [
+        "Instincts can help you decide fast. 直觉能帮你快速决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "help sb do/to do（不带 doing）/ can't help doing（忍不住）"
+      }
+    },
+    "highly": {
+      "phonetic": "/ˈhaɪli/",
+      "pos": "adv.",
+      "sense": "高度地、非常、极为（highly likely 极可能；speak highly of 高度评价）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "high（高）+ -ly（副词后缀）",
+        "confusables": "highly（高度地、非常，多修饰形容词/分词，如 highly likely / highly skilled）/ high（高地，副词，指具体高度，如 fly high）/ think highly of（高度评价）/ highly 与 very（highly 更正式）"
+      },
+      "collocations": [
+        "eating highly",
+        "highly processed",
+        "down on highly"
+      ],
+      "examples": [
+        "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study. 研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。"
+      ]
+    },
+    "humans": {
+      "phonetic": "/ˈhjuːmənz/",
+      "pos": "adj./n.",
+      "sense": "人的、人类的、有人情味的；人、人类（human being）（human 的复数/三单形式）",
+      "lemma": "human",
+      "collocations": [],
+      "examples": [
+        "Although prior studies in animals and humans have shown some biological and behavioral similarities between substance-use disorders and addictive-like consumption of highly processed foods, no studies have looked at whether reducing junk food can 32 withdrawal symptoms in people, she noted. 她补充说：以往动物与人体实验虽已发现「物质成瘾」和「沉迷深加工食品」在生理、行为上有相似处，却没人验证过——少吃垃圾食品到底会不会在人身上触发戒断反应。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "human + -s（复数/三单）",
+        "confusables": "humans（复数/三单）/ human（原形）"
+      }
+    },
+    "idea": {
+      "phonetic": "/aɪˈdɪə/",
+      "pos": "n.",
+      "sense": "想法、主意（可数）；概念",
+      "collocations": [
+        "have an idea",
+        "the idea that",
+        "no idea"
+      ],
+      "examples": [
+        "This idea is supported by prior research. 这一想法有先前研究支持。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "idea（想法）/ ideal（理想的）/ concept（概念）"
+      }
+    },
+    "individuals": {
+      "phonetic": "/ˌɪndɪˈvɪdʒuəlz/",
+      "pos": "n.",
+      "sense": "individual 的复数，个人、个体",
+      "collocations": [
+        "help individuals"
+      ],
+      "examples": [
+        "The idea that food may be addictive after \"heavy\" use by some individuals is a 31 subject, Schulte said. 舒尔特说，「某些人吃多了会上瘾」这个说法，向来是个有争议的话题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "in-（不）+ divid（分割，词根，同 divide/dividend）+ -ual + -s → 本义「不可再分的」→ 个人",
+        "confusables": "individual（个人，可数；个别的，形容词）/ individually（各自地）/ independently（独立地）/ personal（个人的、私人的，形容词）/ people（集合复数）"
+      }
+    },
+    "lead": {
+      "phonetic": "/liːd/",
+      "pos": "v./n.",
+      "sense": "导致（lead to）；领导、带领 / 领先",
+      "collocations": [
+        "lead to",
+        "lead a parade",
+        "take the lead"
+      ],
+      "examples": [
+        "Isolation can lead to poor health. 孤立可能导致健康不佳。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lead to（导致）/ lead（铅，读 /led/）/ led（过去式）"
+      }
+    },
+    "light": {
+      "phonetic": "/laɪt/",
+      "pos": "n./adj./v.",
+      "sense": "光、光线、灯；轻的、浅色的、明亮的；点燃、照亮",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "light on"
+      ],
+      "examples": [
+        "The findings may also 35 light on the barriers people face when changing eating habits—barriers that may play a role in people dropping out of treatments, she said. 她还说，这项发现也有助于看清人们改变饮食习惯时的重重阻力——正是这些阻力，可能让不少人中途放弃治疗。"
+      ]
+    },
+    "live": {
+      "phonetic": "/lɪv/",
+      "pos": "v./adj.",
+      "sense": "生活、居住、活着、生存；现场的、直播的（形容词读 /laɪv/）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "people live",
+        "live through"
+      ],
+      "examples": [
+        "Based on the participants' self-reported symptoms, withdrawal symptoms were 29 more intense between the second and fifth days after attempting to reduce junk-food consumption, which 30 the time span people live through during drug withdrawal. 据参与者自述，戒断反应在尝试少吃垃圾食品后的第 2 至第 5 天明显加重——这段窗口恰好与药物戒断要熬过的时间段相吻合。"
+      ],
+      "more": {
+        "confusables": "live / livelier / liver（同族不同词形，注意词性与用法）"
+      }
+    },
+    "looked": {
+      "phonetic": "/lʊkt/",
+      "pos": "v./n.",
+      "sense": "看、显得（look + adj.）；外观（look 的过去式/过去分词形式）",
+      "lemma": "look",
+      "collocations": [
+        "looked at",
+        "looked at whether"
+      ],
+      "examples": [
+        "Although prior studies in animals and humans have shown some biological and behavioral similarities between substance-use disorders and addictive-like consumption of highly processed foods, no studies have looked at whether reducing junk food can 32 withdrawal symptoms in people, she noted. 她补充说：以往动物与人体实验虽已发现「物质成瘾」和「沉迷深加工食品」在生理、行为上有相似处，却没人验证过——少吃垃圾食品到底会不会在人身上触发戒断反应。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "look + -ed（过去式/过去分词）",
+        "confusables": "looked（过去式/过去分词）/ look（原形）"
+      }
+    },
+    "lovers": {
+      "phonetic": "/ˈlʌvəz/",
+      "pos": "n.",
+      "sense": "爱好者、酷爱…的人；恋人、情侣（复数；如 nature lovers 自然爱好者）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Junk-food lovers"
+      ],
+      "examples": [
+        "Junk-food lovers who try to cut back on fries or chocolate may experience symptoms similar to drug withdrawal, a new study suggests. 一项新研究提醒：想戒掉薯条、巧克力这类垃圾食品的人，身上可能出现类似「戒断反应」的症状。"
+      ],
+      "more": {
+        "confusables": "lovers / love（同族不同词形，注意词性与用法）"
+      }
+    },
+    "mood": {
+      "phonetic": "/muːd/",
+      "pos": "n.",
+      "sense": "心情、情绪；气氛、基调（be in the mood for 有心思做）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "mood（心境、情绪，持续较久，可数）/ be in the mood for sth / to do（有心情做…）/ emotion（情绪，强烈而短暂）/ feeling（感觉，较泛）/ temper（脾气）/ in a good / bad mood"
+      },
+      "collocations": [
+        "mood swings"
+      ],
+      "examples": [
+        "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study. 研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。"
+      ]
+    },
+    "new": {
+      "phonetic": "/njuː/",
+      "pos": "adj.",
+      "sense": "新的；新近的",
+      "collocations": [
+        "new technologies",
+        "brand new",
+        "new to sth"
+      ],
+      "examples": [
+        "New tools always provoke worry. 新工具总会引发担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "noted": {
+      "phonetic": "/nəʊtd/",
+      "pos": "n./v.",
+      "sense": "笔记；便条；音符；注释（v. 注意；指出）（note 的过去式/过去分词形式）",
+      "lemma": "note",
+      "collocations": [
+        "Schulte noted"
+      ],
+      "examples": [
+        "Although prior studies in animals and humans have shown some biological and behavioral similarities between substance-use disorders and addictive-like consumption of highly processed foods, no studies have looked at whether reducing junk food can 32 withdrawal symptoms in people, she noted. 她补充说：以往动物与人体实验虽已发现「物质成瘾」和「沉迷深加工食品」在生理、行为上有相似处，却没人验证过——少吃垃圾食品到底会不会在人身上触发戒断反应。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "note + -d（过去式/过去分词）",
+        "confusables": "noted（过去式/过去分词）/ note（原形）"
+      }
+    },
+    "occur": {
+      "phonetic": "/əˈkɜː/",
+      "pos": "v.",
+      "sense": "发生、出现；存在于、被想到（occur to sb 突然想到；常与变化、现象搭配）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "The new study 28 the first evidence that these withdrawal-like symptoms can occur when people cut down on highly processed foods, said lead study author Erica Schulte. 论文第一作者埃丽卡·舒尔特指出：这项新研究首次拿出证据，证明少吃深加工食品确实会诱发这类戒断样症状。"
+      ],
+      "more": {
+        "confusables": "occur / occurs / occurring（同族不同词形，注意词性与用法）"
+      }
+    },
+    "participants": {
+      "phonetic": "/pɑːˈtɪsɪpənts/",
+      "pos": "n.",
+      "sense": "participant 的复数，参与者、受试者",
+      "collocations": [
+        "participants' self-reported"
+      ],
+      "examples": [
+        "Based on the participants' self-reported symptoms, withdrawal symptoms were 29 more intense between the second and fifth days after attempting to reduce junk-food consumption, which 30 the time span people live through during drug withdrawal. 据参与者自述，戒断反应在尝试少吃垃圾食品后的第 2 至第 5 天明显加重——这段窗口恰好与药物戒断要熬过的时间段相吻合。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "play": {
+      "phonetic": "/pleɪ/",
+      "pos": "v./n.",
+      "sense": "玩、玩耍、扮演、参加（运动）、播放；剧本、游戏、作用（本文 play a key role 起关键作用 / play catch-up 奋起直追）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "The findings may also 35 light on the barriers people face when changing eating habits—barriers that may play a role in people dropping out of treatments, she said. 她还说，这项发现也有助于看清人们改变饮食习惯时的重重阻力——正是这些阻力，可能让不少人中途放弃治疗。"
+      ]
+    },
+    "poor": {
+      "phonetic": "/pɔː/",
+      "pos": "adj.",
+      "sense": "贫穷的、贫困的；差的、不足的、拙劣的；可怜的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "poor sleep"
+      ],
+      "examples": [
+        "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study. 研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。"
+      ],
+      "more": {
+        "confusables": "poor / poorer / poorest（同族不同词形，注意词性与用法）"
+      }
+    },
+    "processed": {
+      "phonetic": "/ˈprəʊsest/",
+      "pos": "n.",
+      "sense": "过程、流程（process 的过去式/过去分词形式）",
+      "lemma": "process",
+      "collocations": [
+        "highly processed",
+        "processed foods"
+      ],
+      "examples": [
+        "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study. 研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "process + -ed（过去式/过去分词）",
+        "confusables": "processed（过去式/过去分词）/ process（原形）"
+      }
+    },
+    "psychological": {
+      "phonetic": "/ˌsaɪkəˈlɒdʒɪkl/",
+      "pos": "adj.",
+      "sense": "心理的、心理学的；精神上的",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "psychological symptoms"
+      ],
+      "examples": [
+        "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study. 研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。"
+      ]
+    },
+    "raising": {
+      "phonetic": "/reɪzɪŋ/",
+      "pos": "v.",
+      "sense": "提高、提出（及物）；抚养（美式）（raise 的现在分词/动名词形式）",
+      "lemma": "raise",
+      "collocations": [],
+      "examples": [
+        "Raising 33 that people may experience irritability(烦躁) or headaches when cutting down on junk food can help individuals 34 coping strategies in advance, Schulte noted. 舒尔特认为，若让人事先知道「戒垃圾食品可能烦躁、头痛」，就能提前备好应对办法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "raise + -ing（现在分词/动名词）",
+        "confusables": "raising（现在分词/动名词）/ raise（原形）"
+      }
+    },
+    "reduce": {
+      "phonetic": "/rɪˈdjuːs/",
+      "pos": "v.",
+      "sense": "减少、降低（及物）；使沦为（reduce to）",
+      "collocations": [
+        "reduce the likelihood",
+        "reduce stress",
+        "reduce to"
+      ],
+      "examples": [
+        "Data reduces the likelihood of errors. 数据能降低出错的可能性。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "reduce（及物，减少某物）/ decrease（不及物，自身减少）/ lower（降低）"
+      }
+    },
+    "reducing": {
+      "phonetic": "/rɪˈdjuːsɪŋ/",
+      "pos": "v.",
+      "sense": "减少、降低（及物）；使沦为（reduce to）（reduce 的现在分词/动名词形式）",
+      "lemma": "reduce",
+      "collocations": [
+        "whether reducing",
+        "reducing junk"
+      ],
+      "examples": [
+        "Although prior studies in animals and humans have shown some biological and behavioral similarities between substance-use disorders and addictive-like consumption of highly processed foods, no studies have looked at whether reducing junk food can 32 withdrawal symptoms in people, she noted. 她补充说：以往动物与人体实验虽已发现「物质成瘾」和「沉迷深加工食品」在生理、行为上有相似处，却没人验证过——少吃垃圾食品到底会不会在人身上触发戒断反应。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "reduce + -ing（现在分词/动名词）",
+        "confusables": "reducing（现在分词/动名词）/ reduce（原形）"
+      }
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "researcher 的复数，研究人员",
+      "collocations": [
+        "Researchers found"
+      ],
+      "examples": [
+        "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study. 研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researchers / researcher（同族不同词形，注意词性与用法）"
+      }
+    },
+    "role": {
+      "phonetic": "/rəʊl/",
+      "pos": "n.",
+      "sense": "角色；作用",
+      "collocations": [
+        "play a role in",
+        "a high-power role"
+      ],
+      "examples": [
+        "The findings may also 35 light on the barriers people face when changing eating habits—barriers that may play a role in people dropping out of treatments, she said. 她还说，这项发现也有助于看清人们改变饮食习惯时的重重阻力——正是这些阻力，可能让不少人中途放弃治疗。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "said": {
+      "phonetic": "/sed/",
+      "pos": "v./adj.",
+      "sense": "说、讲、表明（say 的过去式/过去分词）；上述的（the said…）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "said lead",
+        "Schulte said"
+      ],
+      "examples": [
+        "The new study 28 the first evidence that these withdrawal-like symptoms can occur when people cut down on highly processed foods, said lead study author Erica Schulte. 论文第一作者埃丽卡·舒尔特指出：这项新研究首次拿出证据，证明少吃深加工食品确实会诱发这类戒断样症状。"
+      ]
+    },
+    "second": {
+      "phonetic": "/ˈsekənd/",
+      "pos": "n./adj./v.",
+      "sense": "秒、瞬间、片刻；第二（的）、次等的、另一的；支持、附议（动词读 /sɪˈkɒnd/）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Based on the participants' self-reported symptoms, withdrawal symptoms were 29 more intense between the second and fifth days after attempting to reduce junk-food consumption, which 30 the time span people live through during drug withdrawal. 据参与者自述，戒断反应在尝试少吃垃圾食品后的第 2 至第 5 天明显加重——这段窗口恰好与药物戒断要熬过的时间段相吻合。"
+      ],
+      "more": {
+        "confusables": "second / secondary（同族不同词形，注意词性与用法）"
+      }
+    },
+    "shown": {
+      "phonetic": "/ʃəʊn/",
+      "pos": "v.",
+      "sense": "显示、表明、展示、给…看（show 的过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Although prior studies in animals and humans have shown some biological and behavioral similarities between substance-use disorders and addictive-like consumption of highly processed foods, no studies have looked at whether reducing junk food can 32 withdrawal symptoms in people, she noted. 她补充说：以往动物与人体实验虽已发现「物质成瘾」和「沉迷深加工食品」在生理、行为上有相似处，却没人验证过——少吃垃圾食品到底会不会在人身上触发戒断反应。"
+      ],
+      "more": {
+        "confusables": "shown / show（同族不同词形，注意词性与用法）"
+      }
+    },
+    "similar": {
+      "phonetic": "/ˈsɪmələ(r)/",
+      "pos": "adj.",
+      "sense": "相似的、类似的",
+      "collocations": [
+        "be similar to",
+        "similar percentages",
+        "in a similar way"
+      ],
+      "examples": [
+        "Men reported similar levels of enjoyment. 男性报告的享受程度相近。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "similar to（与……相似）/ the same as（与……相同）"
+      }
+    },
+    "sleep": {
+      "phonetic": "/sliːp/",
+      "pos": "v./n.",
+      "sense": "睡觉、入睡；睡眠",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "poor sleep"
+      ],
+      "examples": [
+        "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study. 研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。"
+      ]
+    },
+    "smoking": {
+      "phonetic": "/sməʊkɪŋ/",
+      "pos": "n./v.",
+      "sense": "烟、烟雾；吸烟、抽烟；冒烟（smoke 的现在分词/动名词形式）",
+      "lemma": "smoke",
+      "collocations": [
+        "smoking cigarettes"
+      ],
+      "examples": [
+        "Researchers found that people attempting to cut down on eating highly processed foods experience some of the same 26 and psychological symptoms—such as mood swings, anxiety, headaches and poor sleep—as those 27 smoking cigarettes or using drugs, according to the study. 研究称，想少吃高度加工食品的人，会出现和戒烟、戒毒者如出一辙的身心反应：情绪起伏、焦虑、头痛、睡不好，一个不少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "smoke + -ing（现在分词/动名词）",
+        "confusables": "smoking（现在分词/动名词）/ smoke（原形）"
+      }
+    },
+    "strategies": {
+      "phonetic": "/ˈstrætədʒiz/",
+      "pos": "n.",
+      "sense": "策略（strategy 的复数）",
+      "lemma": "strategy",
+      "collocations": [
+        "coping strategies",
+        "new strategies"
+      ],
+      "examples": [
+        "They develop coping strategies. 他们发展出应对策略。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "strategies（策略）/ strategy（单数）/ tactic（战术）"
+      }
+    },
+    "studies": {
+      "phonetic": "/ˈstʌdiz/",
+      "pos": "n./v.",
+      "sense": "研究（study 的复数）；study 的第三人称单数",
+      "lemma": "study",
+      "collocations": [
+        "studies show that",
+        "recent studies"
+      ],
+      "examples": [
+        "Studies suggest a strong link. 研究表明存在强关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "studies（复数/三单）/ study（单数）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "subject": {
+      "phonetic": "/ˈsʌbdʒɪkt/",
+      "pos": "n./adj./v.",
+      "sense": "主题、学科、科目、主语、受试者；易受…影响的、受…支配的（动词「使服从/使遭受」读 /səbˈdʒekt/；subject to）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "The idea that food may be addictive after \"heavy\" use by some individuals is a 31 subject, Schulte said. 舒尔特说，「某些人吃多了会上瘾」这个说法，向来是个有争议的话题。"
+      ]
+    },
+    "suggests": {
+      "phonetic": "/səˈdʒests/",
+      "pos": "v.",
+      "sense": "表明、显示、暗示；建议、提议（suggest 的第三人称单数，本文多指研究结果显示）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "study suggests"
+      ],
+      "examples": [
+        "Junk-food lovers who try to cut back on fries or chocolate may experience symptoms similar to drug withdrawal, a new study suggests. 一项新研究提醒：想戒掉薯条、巧克力这类垃圾食品的人，身上可能出现类似「戒断反应」的症状。"
+      ],
+      "more": {
+        "confusables": "suggests / suggest（同族不同词形，注意词性与用法）"
+      }
+    },
+    "symptoms": {
+      "phonetic": "/ˈsɪmptəmz/",
+      "pos": "n.",
+      "sense": "症状；征兆、征候（symptom 的复数/三单形式）",
+      "lemma": "symptom",
+      "collocations": [
+        "experience symptoms",
+        "symptoms similar",
+        "psychological symptoms"
+      ],
+      "examples": [
+        "Junk-food lovers who try to cut back on fries or chocolate may experience symptoms similar to drug withdrawal, a new study suggests. 一项新研究提醒：想戒掉薯条、巧克力这类垃圾食品的人，身上可能出现类似「戒断反应」的症状。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "symptom + -s（复数/三单）",
+        "confusables": "symptoms（复数/三单）/ symptom（原形）"
+      }
+    },
+    "through": {
+      "phonetic": "/θruː/",
+      "pos": "prep.",
+      "sense": "通过、凭借",
+      "collocations": [
+        "live through"
+      ],
+      "examples": [
+        "Based on the participants' self-reported symptoms, withdrawal symptoms were 29 more intense between the second and fifth days after attempting to reduce junk-food consumption, which 30 the time span people live through during drug withdrawal. 据参与者自述，戒断反应在尝试少吃垃圾食品后的第 2 至第 5 天明显加重——这段窗口恰好与药物戒断要熬过的时间段相吻合。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "through / throughput（同族不同词形，注意词性与用法）"
+      }
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "try": {
+      "phonetic": "/traɪ/",
+      "pos": "v./n.",
+      "sense": "尝试、试图、努力、试用、品尝、审判；尝试（try to do 努力做 / try doing 试试看）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "try to",
+        "try to cut"
+      ],
+      "examples": [
+        "Junk-food lovers who try to cut back on fries or chocolate may experience symptoms similar to drug withdrawal, a new study suggests. 一项新研究提醒：想戒掉薯条、巧克力这类垃圾食品的人，身上可能出现类似「戒断反应」的症状。"
+      ],
+      "more": {
+        "confusables": "try / trying（同族不同词形，注意词性与用法）"
+      }
+    },
+    "use": {
+      "phonetic": "/juːz/",
+      "pos": "v./n.",
+      "sense": "使用、运用；用途、用法（名词读 /juːs/）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "use（v. 使用 /juːz/；n. 用途、使用 /juːs/，读音不同）/ use sth to do（用某物做）/ be used to do（被用于做）/ make use of（利用）/ usage（用法，名词）"
+      },
+      "collocations": [
+        "use by"
+      ],
+      "examples": [
+        "The idea that food may be addictive after \"heavy\" use by some individuals is a 31 subject, Schulte said. 舒尔特说，「某些人吃多了会上瘾」这个说法，向来是个有争议的话题。"
+      ]
+    },
+    "using": {
+      "phonetic": "/ˈjuːzɪŋ/",
+      "pos": "v.",
+      "sense": "use 的现在分词（使用）",
+      "lemma": "use",
+      "collocations": [
+        "by using sth",
+        "using data"
+      ],
+      "examples": [
+        "Results improve by using existing technology. 使用现有技术就能改善结果。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "using（现在分词）/ used（过去式/过去分词）"
+      }
+    },
+    "whether": {
+      "phonetic": "/ˈweðə(r)/",
+      "pos": "conj.",
+      "sense": "是否；无论（whether ... or ...）",
+      "collocations": [
+        "whether or not",
+        "whether to do",
+        "whether it comes from"
+      ],
+      "examples": [
+        "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）"
+      }
+    }
+  }
+}

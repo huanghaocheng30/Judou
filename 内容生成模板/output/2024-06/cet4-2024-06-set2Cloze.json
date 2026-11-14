@@ -1,0 +1,4808 @@
+{
+  "sourceKey": "cet4-2024-06-set2Cloze",
+  "articleId": "set2Cloze",
+  "packVersion": "2026.11.07-1",
+  "meta": {
+    "examYear": 2024,
+    "examMonth": 6,
+    "setNo": 2,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "Exercise and Mood",
+    "wordCount": 248
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "It's well known that physical exercise is beneficial not just to physical health but also to mental health. Yet whereas most countries have 26 , evidence-backed guidelines on the type and intensity of exercise 27 for various physical health benefits, such guidelines do not yet exist for exercise and mood. This is 28 due to a lack of necessary evidence. However, a new systematic review brings us usefully up to-date on the current findings in this area.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 107,
+          "text": "It's well known that physical exercise is beneficial not just to physical health but also to mental health.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "It's",
+              "normalized": "it's",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "well",
+              "normalized": "well",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "known",
+              "normalized": "known",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 29,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 38,
+              "surface": "exercise",
+              "normalized": "exercise",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 52,
+              "surface": "beneficial",
+              "normalized": "beneficial",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 56,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 61,
+              "surface": "just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 64,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 73,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 80,
+              "surface": "health",
+              "normalized": "health",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 84,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 89,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 99,
+              "surface": "mental",
+              "normalized": "mental",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 106,
+              "surface": "health",
+              "normalized": "health",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 107,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "被充分知晓的是这一点：体育锻炼是有益的，不只对身体健康，而且也对心理健康。",
+            "translationNatural": "谁都知道，运动不光强身，还能调理情绪、有益心理。",
+            "structMarkup": "【It】_'s well known_ {that physical exercise is beneficial not just to physical health but also to mental health}.",
+            "structureSummary": "it 形式主语 + 主语从句（that 引导，从句为主系表）+ not just...but also... 并列状语",
+            "components": [
+              {
+                "part": "It",
+                "role": "主语",
+                "note": "形式主语，真正的主语是后面的 that 从句，不能译成「它」"
+              },
+              {
+                "part": "'s well known",
+                "role": "谓语",
+                "note": "'s = is（原文缩写为 It's）；well known 意为「众所周知的」"
+              },
+              {
+                "part": "that physical exercise is beneficial not just to physical health but also to mental health",
+                "role": "主语从句",
+                "note": "that 引导真正的主语，从句自身是主系表结构"
+              },
+              {
+                "part": "not just to physical health but also to mental health",
+                "role": "状语",
+                "note": "两个并列介词短语，由 not just...but also... 连接，说明「有益」落在哪两方面"
+              }
+            ],
+            "clauses": [
+              "that 引导主语从句，作全句真正的主语；it 只是形式主语。",
+              "本句主干为「it 形式主语 + 主语从句（that 引导，从句为主系表）+ not just...but also... 并列状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "not just ... but also ...",
+                "meaning": "不仅……而且……",
+                "usage": "连接并列成分，前后词性与结构须一致；也可写作 not only ... but also ...。",
+                "example": "She is not just a teacher but also a writer. 她不仅是老师，还是作家。"
+              },
+              {
+                "text": "it's",
+                "meaning": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+                "usage": "注意区分：it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）。常见搭配：it's important that / it's likely to。",
+                "example": "It's hard to say. 很难说。"
+              },
+              {
+                "text": "well",
+                "meaning": "好地（副词）；健康的（形容词）；井（名词）",
+                "usage": "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。常见搭配：as well / well-being。",
+                "example": "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+              }
+            ],
+            "pitfalls": [
+              "It's well known that... 中 it 是形式主语，真正主语是 that 从句。",
+              "beneficial to 的 to 是介词，后接名词，不接动词原形。"
+            ],
+            "paragraphRole": "以公认常识开篇，先立「运动有益身心」这一共识，为下句转折到「情绪方面却无指南」蓄势。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 108,
+          "end": 306,
+          "text": "Yet whereas most countries have 26 , evidence-backed guidelines on the type and intensity of exercise 27 for various physical health benefits, such guidelines do not yet exist for exercise and mood.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Yet",
+              "normalized": "yet",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "surface": "whereas",
+              "normalized": "whereas",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 26,
+              "surface": "countries",
+              "normalized": "countries",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 35,
+              "end": 36,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 37,
+              "end": 52,
+              "surface": "evidence-backed",
+              "normalized": "evidence-backed",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 63,
+              "surface": "guidelines",
+              "normalized": "guidelines",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 66,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "type",
+              "normalized": "type",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 79,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 89,
+              "surface": "intensity",
+              "normalized": "intensity",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 101,
+              "surface": "exercise",
+              "normalized": "exercise",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 104,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 105,
+              "end": 108,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 116,
+              "surface": "various",
+              "normalized": "various",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 125,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 132,
+              "surface": "health",
+              "normalized": "health",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 141,
+              "surface": "benefits",
+              "normalized": "benefits",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 142,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 143,
+              "end": 147,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 158,
+              "surface": "guidelines",
+              "normalized": "guidelines",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 161,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 162,
+              "end": 165,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 169,
+              "surface": "yet",
+              "normalized": "yet",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 175,
+              "surface": "exist",
+              "normalized": "exist",
+              "isWord": true
+            },
+            {
+              "start": 176,
+              "end": 179,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 180,
+              "end": 188,
+              "surface": "exercise",
+              "normalized": "exercise",
+              "isWord": true
+            },
+            {
+              "start": 189,
+              "end": 192,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 193,
+              "end": 197,
+              "surface": "mood",
+              "normalized": "mood",
+              "isWord": true
+            },
+            {
+              "start": 197,
+              "end": 198,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "然而，虽然多数国家已经有了 26 、有证据支持的指南，是关于为了各种身体健康益处所 27 的运动类型与强度，但这样的指南尚未存在，就运动与情绪而言。",
+            "translationNatural": "可怪就怪在：各国对「练什么、练多强才能改善身体」早有详细且循证的指南，偏偏「运动怎样改善情绪」至今没有类似说法。",
+            "structMarkup": "{Yet whereas most countries have 26 , evidence-backed guidelines} (on the type and intensity of exercise 27 for various physical health benefits), 【such guidelines】 _do not yet exist_ (for exercise and mood).",
+            "structureSummary": "whereas 让步状语从句 + 主句（主谓）；从句内嵌过去分词短语作后置定语",
+            "components": [
+              {
+                "part": "Yet whereas most countries have 26 , evidence-backed guidelines",
+                "role": "状语从句",
+                "note": "whereas 引导让步，意为「虽然」；26 空与 evidence-backed 并列作 guidelines 的定语"
+              },
+              {
+                "part": "on the type and intensity of exercise 27 for various physical health benefits",
+                "role": "定语",
+                "note": "介词短语作后置定语修饰 guidelines；27 空是过去分词短语作 exercise 的后置定语"
+              },
+              {
+                "part": "such guidelines",
+                "role": "主语",
+                "note": "主句主语，回指前面那类循证指南"
+              },
+              {
+                "part": "do not yet exist",
+                "role": "谓语",
+                "note": "否定 + yet 表示「至今尚未」，与主句形成时间上的落差"
+              },
+              {
+                "part": "for exercise and mood",
+                "role": "状语",
+                "note": "点出指南缺失的领域，与从句的 physical health benefits 对照"
+              }
+            ],
+            "clauses": [
+              "whereas 引导让步状语从句，与主句构成「身体已有 / 情绪尚无」的对照。",
+              "状语从句「Yet whereas most countries have 26 , evidence-backed guidelines」：whereas 引导让步，意为「虽然」；26 空与 evidence-backed 并列作 guidelines 的定语",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。"
+            ],
+            "phrases": [
+              {
+                "text": "evidence-backed",
+                "meaning": "有证据支持的、循证的",
+                "usage": "名词 + 过去分词构成复合形容词作前置定语；同类写法如 data-driven。",
+                "example": "We need evidence-backed policies. 我们需要有依据的政策。"
+              },
+              {
+                "text": "guidelines",
+                "meaning": "准则、指导原则（guideline 的复数）",
+                "usage": "注意区分：guidelines（准则）/ rules（规则）。常见搭配：follow guidelines / issue guidelines。",
+                "example": "New guidelines were issued last month. 上个月发布了新准则。"
+              },
+              {
+                "text": "intensity",
+                "meaning": "强度、剧烈程度、强烈（本文指运动强度）",
+                "usage": "注意区分：intensity（强度、剧烈程度，不可数）/ intense（强烈的，形容词）/ intensive（密集的，与 intensity 形近义不同）/ intensify（加剧，动词）。",
+                "example": "Yet whereas most countries have 26 , evidence-backed guidelines on the type and intensity of exercise 27 for various physical health benefits, such guidelines do not yet exist for exercise and mood. 可怪就怪在：各国对「练什么、练多强才能改善身体」早有详细且循证的指南，偏偏「运动怎样改善情绪」至今没有类似说法。"
+              }
+            ],
+            "pitfalls": [
+              "26 空与 evidence-backed 并列修饰 guidelines，需形容词（detailed）。",
+              "27 空在 exercise 之后作后置定语，需过去分词（required）；别把它当成主句谓语。",
+              "主句主语 such guidelines 指前文的循证指南，不是指 most countries。",
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。"
+            ],
+            "paragraphRole": "用 whereas 把「身体有指南」与「情绪没指南」并置，点出全文要补的缺口，同时埋下 26、27 两空。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 307,
+          "end": 354,
+          "text": "This is 28 due to a lack of necessary evidence.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "surface": "due",
+              "normalized": "due",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 17,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 19,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "lack",
+              "normalized": "lack",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 37,
+              "surface": "necessary",
+              "normalized": "necessary",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 46,
+              "surface": "evidence",
+              "normalized": "evidence",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这 28 地是由于必要证据的缺乏。",
+            "translationNatural": "说到底，是支撑结论的证据还攒得不够。",
+            "structMarkup": "【This】 _is_ ~28 due to a lack of necessary evidence~.",
+            "structureSummary": "主系表 + 介词短语作表语（due to）",
+            "components": [
+              {
+                "part": "This",
+                "role": "主语",
+                "note": "指代上句「情绪指南缺失」这一事实"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与表语，本句无实义动作"
+              },
+              {
+                "part": "28 due to a lack of necessary evidence",
+                "role": "表语",
+                "note": "due to 引出原因；28 空位于系动词与介词短语之间，需副词"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表 + 介词短语作表语（due to）」。"
+            ],
+            "phrases": [
+              {
+                "text": "due to",
+                "meaning": "由于、因为",
+                "usage": "后接名词或动名词，不接完整句子；近义 owing to / because of。",
+                "example": "The delay was due to bad weather. 延误是天气造成的。"
+              },
+              {
+                "text": "a lack of",
+                "meaning": "缺乏",
+                "usage": "lack 作名词时接 of；作动词时直接接宾语（lack sth），不加 of。",
+                "example": "A lack of sleep affects memory. 睡眠不足影响记忆。"
+              }
+            ],
+            "pitfalls": [
+              "28 空在 is 与 due to 之间，需副词（partly）；下文 However 引出转机，说明「缺证据」只是部分原因。",
+              "a lack of 意为「缺乏」，不是「一点」。",
+              "名词 lack of / 动词 lack sth，两种用法不要混。",
+              "due to 后接名词，不能接句子。"
+            ],
+            "paragraphRole": "先给缺口的解释（证据不足），再用下一句 However 预告新综述，一抑一扬地推进。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 355,
+          "end": 455,
+          "text": "However, a new systematic review brings us usefully up to-date on the current findings in this area.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "However",
+              "normalized": "however",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "surface": "new",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 25,
+              "surface": "systematic",
+              "normalized": "systematic",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 32,
+              "surface": "review",
+              "normalized": "review",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 39,
+              "surface": "brings",
+              "normalized": "brings",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 42,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 51,
+              "surface": "usefully",
+              "normalized": "usefully",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "up",
+              "normalized": "up",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 62,
+              "surface": "to-date",
+              "normalized": "to-date",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 69,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 77,
+              "surface": "current",
+              "normalized": "current",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 86,
+              "surface": "findings",
+              "normalized": "findings",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 94,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 99,
+              "surface": "area",
+              "normalized": "area",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 100,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "然而，一项新的系统性综述，颇有用处地，把我们带到了关于这一领域现有发现的最新状况上。",
+            "translationNatural": "好在一篇新的系统综述及时梳理了该领域的最新成果，正好补上这块空白。",
+            "structMarkup": "(However), 【a new systematic review】 _brings_ ~us~ (usefully) up to-date on the current findings in this area.",
+            "structureSummary": "主谓宾 + 方式状语（usefully）+ 介词短语状语（bring sb up to-date on sth 固定表达）",
+            "components": [
+              {
+                "part": "However",
+                "role": "插入语",
+                "note": "转折连接副词，与上句「证据不足」形成转机"
+              },
+              {
+                "part": "a new systematic review",
+                "role": "主语",
+                "note": "核心词是单数 review，谓语用第三人称单数 brings"
+              },
+              {
+                "part": "brings",
+                "role": "谓语",
+                "note": "bring sb up to-date 意为「让某人跟上最新进展」"
+              },
+              {
+                "part": "us",
+                "role": "宾语",
+                "note": "bring 的宾语，指读者／学界"
+              },
+              {
+                "part": "usefully",
+                "role": "状语",
+                "note": "评注性副词，说明这份综述来得正是时候"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 方式状语（usefully）+ 介词短语状语（bring sb up to-date on sth 固定表达）」。"
+            ],
+            "phrases": [
+              {
+                "text": "up to-date",
+                "meaning": "最新的、跟上进展的",
+                "usage": "原文写作 up to-date（连字符位置不规则），通常作 up to date / up-to-date；bring sb up to date 意为「给某人补上最新进展」。",
+                "example": "Let me bring you up to date on the project. 我把项目的最新进展给你说说。"
+              },
+              {
+                "text": "up to",
+                "meaning": "多达；取决于；由……决定",
+                "usage": "多义短语，需按语境判断。",
+                "example": "It's up to you to decide. 由你来决定。"
+              }
+            ],
+            "pitfalls": [
+              "up to-date 是原文的不规则拼写，照抄勿改成 up-to-date。",
+              "usefully 是副词，评注整句而非修饰某个名词。",
+              "up to 表数量时意为「多达」，表责任时意为「由……决定」。"
+            ],
+            "paragraphRole": "收束首段：用 However 一转，点出全文依据——一篇新的系统综述，为下文展开研究结果开场。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Before 29 into some of the key take-aways, an important 30 made in the review is between aerobic exercise and anaerobic. The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy. In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 120,
+          "text": "Before 29 into some of the key take-aways, an important 30 made in the review is between aerobic exercise and anaerobic.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "Before",
+              "normalized": "before",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 26,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "key",
+              "normalized": "key",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 41,
+              "surface": "take-aways",
+              "normalized": "take-aways",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 55,
+              "surface": "important",
+              "normalized": "important",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 58,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 59,
+              "end": 63,
+              "surface": "made",
+              "normalized": "made",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 66,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 77,
+              "surface": "review",
+              "normalized": "review",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 88,
+              "surface": "between",
+              "normalized": "between",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 96,
+              "surface": "aerobic",
+              "normalized": "aerobic",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 105,
+              "surface": "exercise",
+              "normalized": "exercise",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 109,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 119,
+              "surface": "anaerobic",
+              "normalized": "anaerobic",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 120,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在 29 进一些关键要点之前，综述里做出的一项重要的 30 是在有氧运动与无氧运动之间。",
+            "translationNatural": "进入正题前得先厘清一点：综述把运动分成有氧和无氧两类，这个区分很关键。",
+            "structMarkup": "(Before 29 into some of the key take-aways), 【an important 30 made in the review】 _is_ ~between aerobic exercise and anaerobic~.",
+            "structureSummary": "介词短语作状语（Before + 动名词）+ 主系表（表语为 between 介词短语）",
+            "components": [
+              {
+                "part": "Before 29 into some of the key take-aways",
+                "role": "状语",
+                "note": "Before 是介词，29 空需动名词；dip into 意为「翻阅、涉猎」"
+              },
+              {
+                "part": "an important 30 made in the review",
+                "role": "主语",
+                "note": "核心词是 30 空（名词）；made in the review 是过去分词短语作后置定语"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与表语"
+              },
+              {
+                "part": "between aerobic exercise and anaerobic",
+                "role": "表语",
+                "note": "介词短语作表语，点出区分的两端；anaerobic 后省略了 exercise"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「介词短语作状语（Before + 动名词）+ 主系表（表语为 between 介词短语）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "dip into",
+                "meaning": "粗略翻阅、涉猎、稍作探究",
+                "usage": "dip into a book / a topic，指不深入地看一看；介词 before 后接动名词 dipping。",
+                "example": "I only dipped into the report. 这份报告我只是随手翻了翻。"
+              },
+              {
+                "text": "make a distinction between A and B",
+                "meaning": "区分 A 与 B",
+                "usage": "distinction 常与 between 搭配；动词用 make / draw。",
+                "example": "We must make a distinction between facts and opinions. 得分清事实和看法。"
+              }
+            ],
+            "pitfalls": [
+              "29 空在 Before 之后作介词宾语，需动名词（dipping）。",
+              "30 空是主语核心词，需名词（distinction）；make a distinction between A and B 是固定说法。",
+              "anaerobic 后省略了 exercise，与 aerobic exercise 对称，照抄勿补词。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "开启第二段：先做术语铺垫（有氧 / 无氧之分），为后面分别讨论两类运动的强度效果立框架。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 121,
+          "end": 274,
+          "text": "The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "surface": "former",
+              "normalized": "former",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 13,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "surface": "things",
+              "normalized": "things",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 28,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "walking",
+              "normalized": "walking",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 37,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 38,
+              "end": 45,
+              "surface": "jogging",
+              "normalized": "jogging",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 49,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 57,
+              "surface": "cycling",
+              "normalized": "cycling",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 61,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 67,
+              "surface": "means",
+              "normalized": "means",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 78,
+              "surface": "exercising",
+              "normalized": "exercising",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 86,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 88,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 92,
+              "surface": "way",
+              "normalized": "way",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 97,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 102,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 107,
+              "surface": "body",
+              "normalized": "body",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 110,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 115,
+              "surface": "able",
+              "normalized": "able",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 118,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 122,
+              "surface": "use",
+              "normalized": "use",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 129,
+              "surface": "oxygen",
+              "normalized": "oxygen",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 132,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 137,
+              "surface": "burn",
+              "normalized": "burn",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 141,
+              "surface": "fat",
+              "normalized": "fat",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 145,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 152,
+              "surface": "energy",
+              "normalized": "energy",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 153,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "前者 31 诸如走路、慢跑与骑车之类的事情，并且意味着以这样一种方式运动：你的身体能够利用氧气去燃烧脂肪以获取能量。",
+            "translationNatural": "有氧运动就是散步、慢跑、骑车这类：强度适中，身体来得及用氧气分解脂肪来供能。",
+            "structMarkup": "【The former】 _31_ ~such things as walking, jogging and cycling~ _and means exercising in such a way_ {that your body is able to use oxygen to burn fat for energy}.",
+            "structureSummary": "主谓宾 + and 连接并列谓语（means）+ such...that 引导的结果状语从句",
+            "components": [
+              {
+                "part": "The former",
+                "role": "主语",
+                "note": "指代上句先提到的 aerobic exercise，避免重复"
+              },
+              {
+                "part": "31",
+                "role": "谓语",
+                "note": "31 空需及物动词第三人称单数（involves），与后文 means 并列"
+              },
+              {
+                "part": "such things as walking, jogging and cycling",
+                "role": "宾语",
+                "note": "such as 用来列举有氧运动的具体形式"
+              },
+              {
+                "part": "and means exercising in such a way",
+                "role": "谓语",
+                "note": "and 连接第二个并列谓语；such a way 为后文 that 从句埋下呼应词"
+              },
+              {
+                "part": "that your body is able to use oxygen to burn fat for energy",
+                "role": "状语从句",
+                "note": "such ... that 引导结果状语从句，说明「这样运动」带来的供能方式"
+              }
+            ],
+            "clauses": [
+              "such a way that... 中 that 引导结果状语从句，与 such 呼应，意为「如此……以至于」。",
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。"
+            ],
+            "phrases": [
+              {
+                "text": "such ... that ...",
+                "meaning": "如此……以至于……",
+                "usage": "such 后接名词短语，that 引导结果状语从句；对比 so ... that（so 后接形容词或副词）。",
+                "example": "It was such a hot day that we stayed indoors. 天太热，我们只好待在屋里。"
+              },
+              {
+                "text": "former",
+                "meaning": "以前的、从前的、前任的；前者（the former … the latter）",
+                "usage": "注意区分：former（前者的；以前的，形容词，只作定语）/ the former … the latter …（前者…后者…，须加 the）/ latter（后者，反义）/ previous（指「上一个/先前的」，不强调两者对照）/ ex- 前缀「前任」。",
+                "example": "The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy. 有氧运动就是散步、慢跑、骑车这类：强度适中，身体来得及用氧气分解脂肪来供能。"
+              },
+              {
+                "text": "things",
+                "meaning": "事情、东西（thing 的复数）",
+                "usage": "注意区分：things（事情/东西）/ stuff（东西，不可数，口语）。常见搭配：all things considered / the thing is。",
+                "example": "They have to do all these things first. 他们必须先做所有这些事。"
+              }
+            ],
+            "pitfalls": [
+              "31 空在主语 The former 之后作谓语，需第三人称单数动词（involves），不要误填动名词。",
+              "such a way that 是结果状语从句，不是定语从句。",
+              "be able to 后接动词原形。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "给出有氧运动的定义与机制，用 such...that 把「来得及用氧气供能」变成可判定的标准。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 275,
+          "end": 494,
+          "text": "In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 11,
+              "surface": "contrast",
+              "normalized": "contrast",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 13,
+              "end": 22,
+              "surface": "anaerobic",
+              "normalized": "anaerobic",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 31,
+              "surface": "exercise",
+              "normalized": "exercise",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 32,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 32,
+              "end": 36,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 39,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 47,
+              "surface": "lifting",
+              "normalized": "lifting",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 53,
+              "surface": "heavy",
+              "normalized": "heavy",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 61,
+              "surface": "weights",
+              "normalized": "weights",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 62,
+              "end": 64,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 72,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 75,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 76,
+              "end": 85,
+              "surface": "intensity",
+              "normalized": "intensity",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 90,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 95,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 100,
+              "surface": "body",
+              "normalized": "body",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 105,
+              "surface": "does",
+              "normalized": "does",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 109,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 114,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 119,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 122,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 126,
+              "surface": "use",
+              "normalized": "use",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 133,
+              "surface": "oxygen",
+              "normalized": "oxygen",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 136,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 143,
+              "surface": "create",
+              "normalized": "create",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 150,
+              "surface": "energy",
+              "normalized": "energy",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 154,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 157,
+              "surface": "so",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 158,
+              "end": 165,
+              "surface": "instead",
+              "normalized": "instead",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 168,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 169,
+              "end": 175,
+              "surface": "breaks",
+              "normalized": "breaks",
+              "isWord": true
+            },
+            {
+              "start": 176,
+              "end": 180,
+              "surface": "down",
+              "normalized": "down",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 188,
+              "surface": "glucose",
+              "normalized": "glucose",
+              "isWord": true
+            },
+            {
+              "start": 188,
+              "end": 193,
+              "surface": "(葡萄糖)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 194,
+              "end": 196,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 197,
+              "end": 201,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 202,
+              "end": 207,
+              "surface": "blood",
+              "normalized": "blood",
+              "isWord": true
+            },
+            {
+              "start": 208,
+              "end": 210,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 211,
+              "end": 218,
+              "surface": "muscles",
+              "normalized": "muscles",
+              "isWord": true
+            },
+            {
+              "start": 218,
+              "end": 219,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "与之相反，无氧运动——例如举重物——是这样 32 的强度，以至于你的身体没有时间用氧气去制造能量，于是转而以它分解血液或肌肉中的葡萄糖(葡萄糖)。",
+            "translationNatural": "无氧运动正相反：像举重这类强度太高的动作，身体来不及靠氧气供能，只能直接拆解血液或肌肉里的葡萄糖。",
+            "structMarkup": "(In contrast), 【anaerobic exercise】—such as lifting heavy weights—_is of such 32 intensity_ {that your body does not have time to use oxygen to create energy} and so instead it breaks down ~glucose(葡萄糖) in your blood or muscles~.",
+            "structureSummary": "主系表（be of + 抽象名词）+ such...that 结果状语从句 + so 连接的并列分句",
+            "components": [
+              {
+                "part": "In contrast",
+                "role": "状语",
+                "note": "与上句有氧运动的定义形成对照"
+              },
+              {
+                "part": "anaerobic exercise",
+                "role": "主语",
+                "note": "本段第二个定义对象，两个破折号之间的举例是插入成分"
+              },
+              {
+                "part": "is of such 32 intensity",
+                "role": "系动词",
+                "note": "be of + 抽象名词相当于 be + 形容词；32 空需形容词（vigorous）"
+              },
+              {
+                "part": "that your body does not have time to use oxygen to create energy",
+                "role": "状语从句",
+                "note": "such...that 引导结果状语从句，说明强度过高的直接后果"
+              },
+              {
+                "part": "glucose(葡萄糖) in your blood or muscles",
+                "role": "宾语",
+                "note": "break down 的宾语；中文括注是原文自带，整体照抄"
+              }
+            ],
+            "clauses": [
+              "such 32 intensity that... 中 that 引导结果状语从句，交代「来不及用氧」这一结果。",
+              "含转折/取舍副词，用来修正或替代前一句的说法。"
+            ],
+            "phrases": [
+              {
+                "text": "in contrast",
+                "meaning": "相比之下、正相反",
+                "usage": "作连接性状语，常置于句首并以逗号隔开；也可说 by contrast。",
+                "example": "In contrast, costs fell last year. 相比之下，去年成本下降了。"
+              },
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              }
+            ],
+            "pitfalls": [
+              "32 空在 such ... intensity 之间、that 结果从句之前，需形容词（vigorous），与上文有氧「来得及用氧」反义对照。",
+              "be of + 抽象名词（is of such intensity）相当于 is + 形容词。",
+              "两个破折号之间 such as lifting heavy weights 是插入举例，抽掉后主干仍完整。",
+              "such as 用于举例，for example 常作插入语，位置不同。"
+            ],
+            "paragraphRole": "与上句对照着完成无氧运动的定义，用「强度过高→来不及用氧→改耗葡萄糖」的因果链，为末段「中等强度最优」埋伏笔。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise, the researchers, led by John Chan at Shenzhen University, found 33 results from 19 relevant studies. Some favoured higher intensity, others low, while seven studies found that intensity made no 34 to mood benefits.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 199,
+          "text": "Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise, the researchers, led by John Chan at Shenzhen University, found 33 results from 19 relevant studies.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "Beginning",
+              "normalized": "beginning",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "first",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 34,
+              "surface": "influence",
+              "normalized": "influence",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 46,
+              "surface": "exercise",
+              "normalized": "exercise",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 56,
+              "surface": "intensity",
+              "normalized": "intensity",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 59,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 63,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 68,
+              "surface": "mood",
+              "normalized": "mood",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 77,
+              "surface": "benefits",
+              "normalized": "benefits",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 88,
+              "surface": "aerobic",
+              "normalized": "aerobic",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 97,
+              "surface": "exercise",
+              "normalized": "exercise",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 98,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 99,
+              "end": 102,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 114,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 115,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 116,
+              "end": 119,
+              "surface": "led",
+              "normalized": "led",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 122,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 127,
+              "surface": "John",
+              "normalized": "john",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 132,
+              "surface": "Chan",
+              "normalized": "chan",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 135,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 144,
+              "surface": "Shenzhen",
+              "normalized": "shenzhen",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 155,
+              "surface": "University",
+              "normalized": "university",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 156,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 157,
+              "end": 162,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 165,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 166,
+              "end": 173,
+              "surface": "results",
+              "normalized": "results",
+              "isWord": true
+            },
+            {
+              "start": 174,
+              "end": 178,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 179,
+              "end": 181,
+              "surface": "19",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 182,
+              "end": 190,
+              "surface": "relevant",
+              "normalized": "relevant",
+              "isWord": true
+            },
+            {
+              "start": 191,
+              "end": 198,
+              "surface": "studies",
+              "normalized": "studies",
+              "isWord": true
+            },
+            {
+              "start": 198,
+              "end": 199,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "首先从运动强度对有氧运动的情绪益处的影响开始，由深圳大学的 John Chan 带领的研究者们，从 19 项相关研究中发现了 33 的结果。",
+            "translationNatural": "先说有氧运动：深圳大学 John Chan 团队梳理了 19 项相关研究，结论却互相打架。",
+            "structMarkup": "(Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise), 【the researchers】, (led by John Chan at Shenzhen University), _found_ ~33 results from 19 relevant studies~.",
+            "structureSummary": "现在分词短语作状语 + 主谓宾（主谓之间插入后置定语）",
+            "components": [
+              {
+                "part": "Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise",
+                "role": "状语",
+                "note": "现在分词短语作状语，交代综述的讨论顺序"
+              },
+              {
+                "part": "the researchers",
+                "role": "主语",
+                "note": "全句核心主语，后面两个逗号之间是插入说明"
+              },
+              {
+                "part": "led by John Chan at Shenzhen University",
+                "role": "定语",
+                "note": "过去分词短语作后置定语，说明带队者；不是谓语"
+              },
+              {
+                "part": "found",
+                "role": "谓语",
+                "note": "及物动词过去式，后接宾语"
+              },
+              {
+                "part": "33 results from 19 relevant studies",
+                "role": "宾语",
+                "note": "核心词 results；33 空需形容词，与下句三类冲突结果呼应"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「现在分词短语作状语 + 主谓宾（主谓之间插入后置定语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "begin with",
+                "meaning": "从……开始、先谈",
+                "usage": "begin with sth 表示以某事为起点；此处用现在分词 Beginning with... 作状语。",
+                "example": "Let's begin with the easiest question. 我们先从最简单的题开始。"
+              },
+              {
+                "text": "influence",
+                "meaning": "影响",
+                "usage": "注意区分：influence（影响，名词；及物动词，直接接宾语，不加介词）/ have an influence on/upon（介词 on）/ influence sb to do / influence 与 affect（动词）/ effect（名词）/ under the influence of（在…影响下）。常见搭配：influence on / have an influence。",
+                "example": "Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise, the researchers, led by John Chan at Shenzhen University, found 33 results from 19 relevant studies. 先说有氧运动：深圳大学 John Chan 团队梳理了 19 项相关研究，结论却互相打架。"
+              },
+              {
+                "text": "exercise",
+                "meaning": "锻炼（不可数）；练习、习题（可数）/ 锻炼",
+                "usage": "注意区分：exercise（锻炼，不可数）/ exercises（练习题，可数）。常见搭配：do exercise / regular exercise。",
+                "example": "Regular exercise improves sleep. 规律锻炼能改善睡眠。"
+              }
+            ],
+            "pitfalls": [
+              "33 空修饰 results，需形容词；下文「有的支持高强度、有的支持低强度、七项说没差」正是结果相互矛盾，故用 contradictory。",
+              "led by... 是后置定语，抽掉后 the researchers found... 主干仍完整。"
+            ],
+            "paragraphRole": "开启第三段，锁定「有氧运动强度与情绪」这一分议题，并点出证据来自 19 项研究；33 空考上下文语义呼应。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 200,
+          "end": 313,
+          "text": "Some favoured higher intensity, others low, while seven studies found that intensity made no 34 to mood benefits.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 13,
+              "surface": "favoured",
+              "normalized": "favoured",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 20,
+              "surface": "higher",
+              "normalized": "higher",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 30,
+              "surface": "intensity",
+              "normalized": "intensity",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 32,
+              "end": 38,
+              "surface": "others",
+              "normalized": "others",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 42,
+              "surface": "low",
+              "normalized": "low",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "surface": "while",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 55,
+              "surface": "seven",
+              "normalized": "seven",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 63,
+              "surface": "studies",
+              "normalized": "studies",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 69,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 74,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 84,
+              "surface": "intensity",
+              "normalized": "intensity",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 89,
+              "surface": "made",
+              "normalized": "made",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "no",
+              "normalized": "no",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 95,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 103,
+              "surface": "mood",
+              "normalized": "mood",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 112,
+              "surface": "benefits",
+              "normalized": "benefits",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 113,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一些（研究）偏爱更高强度，另一些（偏爱）低强度，而七项研究发现强度对情绪益处没有造成 34。",
+            "translationNatural": "有的偏向高强度，有的偏向低强度，还有 7 项干脆说强度高低对情绪没啥影响。",
+            "structMarkup": "【Some】 _favoured higher intensity_, (others low), {while seven studies found that intensity made no 34 to mood benefits}.",
+            "structureSummary": "两个省略式并列分句 + while 引导的对比状语从句（内含 that 宾语从句）",
+            "components": [
+              {
+                "part": "Some",
+                "role": "主语",
+                "note": "省略式主语，指 some of the studies"
+              },
+              {
+                "part": "favoured higher intensity",
+                "role": "谓语",
+                "note": "favour 意为「支持、偏向」；favoured 是英式拼写"
+              },
+              {
+                "part": "others low",
+                "role": "补语",
+                "note": "省略结构，等于 others favoured low intensity，避免重复"
+              },
+              {
+                "part": "while seven studies found that intensity made no 34 to mood benefits",
+                "role": "状语从句",
+                "note": "while 表对比，意为「而」；34 空在 make no ... to 之间需名词"
+              }
+            ],
+            "clauses": [
+              "while 引导对比状语从句，把三类研究结果并置。",
+              "that 引导宾语从句，作 found 的宾语，说明第三类研究的结论。",
+              "状语从句「while seven studies found that intensity made no 34 to mood benefits」：while 表对比，意为「而」；34 空在 make no ... to 之间需名词"
+            ],
+            "phrases": [
+              {
+                "text": "make no difference to",
+                "meaning": "对……没有影响／没有差别",
+                "usage": "difference 前可用 no / little / a big 修饰；注意介词用 to，不是 for。",
+                "example": "It makes no difference to me. 这对我来说无所谓。"
+              },
+              {
+                "text": "favoured",
+                "meaning": "恩惠、支持（英式拼写）；偏袒（favour 的过去式/过去分词形式）",
+                "usage": "注意区分：favoured（过去式/过去分词）/ favour（原形）。",
+                "example": "Some favoured higher intensity, others low, while seven studies found that intensity made no 34 to mood benefits. 有的偏向高强度，有的偏向低强度，还有 7 项干脆说强度高低对情绪没啥影响。"
+              },
+              {
+                "text": "higher",
+                "meaning": "更高的（high 的比较级）；更高地",
+                "usage": "注意区分：higher（更高）/ hire（雇用）同音。常见搭配：higher rates / higher than。",
+                "example": "Isolation is linked to higher rates of disease. 孤立与更高的发病率相关。"
+              }
+            ],
+            "pitfalls": [
+              "34 空在 made no ___ to 之间，需名词（difference），构成 make no difference to。",
+              "others low 是省略句，完整形式是 others favoured low intensity，不要误以为缺谓语。",
+              "favoured 是英式拼写，对应美式 favored，照抄勿改。",
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。"
+            ],
+            "paragraphRole": "用三类互相冲突的结果坐实上句的 contradictory，同时说明有氧运动强度尚无定论，为下段「无氧却有定论」作转折铺垫。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 225,
+          "text": "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 11,
+              "surface": "relation",
+              "normalized": "relation",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "surface": "intensity",
+              "normalized": "intensity",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 31,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 41,
+              "surface": "anaerobic",
+              "normalized": "anaerobic",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 50,
+              "surface": "exercise",
+              "normalized": "exercise",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 51,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 52,
+              "end": 59,
+              "surface": "however",
+              "normalized": "however",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 60,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 61,
+              "end": 64,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 72,
+              "surface": "results",
+              "normalized": "results",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 77,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 81,
+              "surface": "far",
+              "normalized": "far",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 89,
+              "surface": "clearer",
+              "normalized": "clearer",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 90,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 90,
+              "end": 93,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 101,
+              "surface": "optimum",
+              "normalized": "optimum",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 107,
+              "surface": "(最佳选择)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 108,
+              "end": 111,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 121,
+              "surface": "improving",
+              "normalized": "improving",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 126,
+              "surface": "mood",
+              "normalized": "mood",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 129,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 132,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 133,
+              "end": 142,
+              "surface": "intensity",
+              "normalized": "intensity",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 143,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 144,
+              "end": 151,
+              "surface": "perhaps",
+              "normalized": "perhaps",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 159,
+              "surface": "because",
+              "normalized": "because",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 163,
+              "surface": "low",
+              "normalized": "low",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 173,
+              "surface": "intensity",
+              "normalized": "intensity",
+              "isWord": true
+            },
+            {
+              "start": 174,
+              "end": 176,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 177,
+              "end": 180,
+              "surface": "too",
+              "normalized": "too",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 185,
+              "surface": "dull",
+              "normalized": "dull",
+              "isWord": true
+            },
+            {
+              "start": 186,
+              "end": 191,
+              "surface": "while",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 192,
+              "end": 196,
+              "surface": "high",
+              "normalized": "high",
+              "isWord": true
+            },
+            {
+              "start": 197,
+              "end": 206,
+              "surface": "intensity",
+              "normalized": "intensity",
+              "isWord": true
+            },
+            {
+              "start": 207,
+              "end": 209,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 210,
+              "end": 213,
+              "surface": "too",
+              "normalized": "too",
+              "isWord": true
+            },
+            {
+              "start": 214,
+              "end": 224,
+              "surface": "unpleasant",
+              "normalized": "unpleasant",
+              "isWord": true
+            },
+            {
+              "start": 224,
+              "end": 225,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "关于无氧运动的强度，然而，结果要清楚得多——改善情绪的最佳选择(最佳选择)是 35 强度，也许是因为低强度太枯燥，而高强度太令人不适。",
+            "translationNatural": "轮到无氧运动，结论反倒干脆：想靠它改善心情，中等强度最合适——太低太无聊，太高又太难受。",
+            "structMarkup": "(In relation to the intensity of anaerobic exercise), (however), 【the results】 _were far clearer_—【the optimum(最佳选择) for improving mood】 _is 35 intensity_, {perhaps because low intensity is too dull while high intensity is too unpleasant}.",
+            "structureSummary": "介词短语状语 + 主系表 + 破折号后解释分句（含 because 原因状语从句与 while 对比从句）",
+            "components": [
+              {
+                "part": "In relation to the intensity of anaerobic exercise",
+                "role": "状语",
+                "note": "意为「关于……」，把话题从有氧切回无氧"
+              },
+              {
+                "part": "however",
+                "role": "插入语",
+                "note": "插入在状语与主句之间，强调与上段「无定论」的转折"
+              },
+              {
+                "part": "the results",
+                "role": "主语",
+                "note": "复数主语，系动词用 were"
+              },
+              {
+                "part": "were far clearer",
+                "role": "系动词",
+                "note": "far 修饰比较级 clearer，与上段对照"
+              },
+              {
+                "part": "the optimum(最佳选择) for improving mood",
+                "role": "主语",
+                "note": "破折号后解释分句的主语；中文括注照抄"
+              },
+              {
+                "part": "is 35 intensity",
+                "role": "系动词",
+                "note": "35 空在系动词与名词 intensity 之间，需形容词（moderate）"
+              },
+              {
+                "part": "perhaps because low intensity is too dull while high intensity is too unpleasant",
+                "role": "状语从句",
+                "note": "because 引出取中间值的理由，while 在从句内对比两头"
+              }
+            ],
+            "clauses": [
+              "because 引导原因状语从句，解释为何中等强度最优。",
+              "while 在 because 从句内表对比：低强度太枯燥 vs 高强度太难受。",
+              "状语从句「perhaps because low intensity is too dull while high intensity is too 」：because 引出取中间值的理由，while 在从句内对比两头"
+            ],
+            "phrases": [
+              {
+                "text": "in relation to",
+                "meaning": "关于、涉及",
+                "usage": "较正式，相当于 concerning / regarding；to 是介词，后接名词或动名词。",
+                "example": "In relation to your question, I have no comment. 关于你的问题，我不予置评。"
+              },
+              {
+                "text": "intensity",
+                "meaning": "强度、剧烈程度、强烈（本文指运动强度）",
+                "usage": "注意区分：intensity（强度、剧烈程度，不可数）/ intense（强烈的，形容词）/ intensive（密集的，与 intensity 形近义不同）/ intensify（加剧，动词）。",
+                "example": "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant. 轮到无氧运动，结论反倒干脆：想靠它改善心情，中等强度最合适——太低太无聊，太高又太难受。"
+              },
+              {
+                "text": "exercise",
+                "meaning": "锻炼（不可数）；练习、习题（可数）/ 锻炼",
+                "usage": "注意区分：exercise（锻炼，不可数）/ exercises（练习题，可数）。常见搭配：do exercise / regular exercise。",
+                "example": "Regular exercise improves sleep. 规律锻炼能改善睡眠。"
+              }
+            ],
+            "pitfalls": [
+              "35 空在 is 之后、名词 intensity 之前，需形容词（moderate）；下文「太低太闷、太高太难受」正是取中间的理由。",
+              "far 修饰比较级 clearer，不用 very。",
+              "破折号后是解释性分句，不是定语从句。",
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。"
+            ],
+            "paragraphRole": "收束全文并给出唯一明确结论：无氧运动以中等强度改善情绪最佳；35 空同时收尾词库。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "constitutes"
+        },
+        {
+          "key": "B",
+          "text": "contradictory"
+        },
+        {
+          "key": "C",
+          "text": "decision"
+        },
+        {
+          "key": "D",
+          "text": "detailed"
+        },
+        {
+          "key": "E",
+          "text": "difference"
+        },
+        {
+          "key": "F",
+          "text": "dipping"
+        },
+        {
+          "key": "G",
+          "text": "distinction"
+        },
+        {
+          "key": "H",
+          "text": "falling"
+        },
+        {
+          "key": "I",
+          "text": "involves"
+        },
+        {
+          "key": "J",
+          "text": "moderate"
+        },
+        {
+          "key": "K",
+          "text": "notified"
+        },
+        {
+          "key": "L",
+          "text": "partly"
+        },
+        {
+          "key": "M",
+          "text": "required"
+        },
+        {
+          "key": "N",
+          "text": "traditionally"
+        },
+        {
+          "key": "O",
+          "text": "vigorous"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "constitutes"
+        },
+        {
+          "key": "B",
+          "text": "contradictory"
+        },
+        {
+          "key": "C",
+          "text": "decision"
+        },
+        {
+          "key": "D",
+          "text": "detailed"
+        },
+        {
+          "key": "E",
+          "text": "difference"
+        },
+        {
+          "key": "F",
+          "text": "dipping"
+        },
+        {
+          "key": "G",
+          "text": "distinction"
+        },
+        {
+          "key": "H",
+          "text": "falling"
+        },
+        {
+          "key": "I",
+          "text": "involves"
+        },
+        {
+          "key": "J",
+          "text": "moderate"
+        },
+        {
+          "key": "K",
+          "text": "notified"
+        },
+        {
+          "key": "L",
+          "text": "partly"
+        },
+        {
+          "key": "M",
+          "text": "required"
+        },
+        {
+          "key": "N",
+          "text": "traditionally"
+        },
+        {
+          "key": "O",
+          "text": "vigorous"
+        }
+      ],
+      "answer": "M"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "constitutes"
+        },
+        {
+          "key": "B",
+          "text": "contradictory"
+        },
+        {
+          "key": "C",
+          "text": "decision"
+        },
+        {
+          "key": "D",
+          "text": "detailed"
+        },
+        {
+          "key": "E",
+          "text": "difference"
+        },
+        {
+          "key": "F",
+          "text": "dipping"
+        },
+        {
+          "key": "G",
+          "text": "distinction"
+        },
+        {
+          "key": "H",
+          "text": "falling"
+        },
+        {
+          "key": "I",
+          "text": "involves"
+        },
+        {
+          "key": "J",
+          "text": "moderate"
+        },
+        {
+          "key": "K",
+          "text": "notified"
+        },
+        {
+          "key": "L",
+          "text": "partly"
+        },
+        {
+          "key": "M",
+          "text": "required"
+        },
+        {
+          "key": "N",
+          "text": "traditionally"
+        },
+        {
+          "key": "O",
+          "text": "vigorous"
+        }
+      ],
+      "answer": "L"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "constitutes"
+        },
+        {
+          "key": "B",
+          "text": "contradictory"
+        },
+        {
+          "key": "C",
+          "text": "decision"
+        },
+        {
+          "key": "D",
+          "text": "detailed"
+        },
+        {
+          "key": "E",
+          "text": "difference"
+        },
+        {
+          "key": "F",
+          "text": "dipping"
+        },
+        {
+          "key": "G",
+          "text": "distinction"
+        },
+        {
+          "key": "H",
+          "text": "falling"
+        },
+        {
+          "key": "I",
+          "text": "involves"
+        },
+        {
+          "key": "J",
+          "text": "moderate"
+        },
+        {
+          "key": "K",
+          "text": "notified"
+        },
+        {
+          "key": "L",
+          "text": "partly"
+        },
+        {
+          "key": "M",
+          "text": "required"
+        },
+        {
+          "key": "N",
+          "text": "traditionally"
+        },
+        {
+          "key": "O",
+          "text": "vigorous"
+        }
+      ],
+      "answer": "F"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "constitutes"
+        },
+        {
+          "key": "B",
+          "text": "contradictory"
+        },
+        {
+          "key": "C",
+          "text": "decision"
+        },
+        {
+          "key": "D",
+          "text": "detailed"
+        },
+        {
+          "key": "E",
+          "text": "difference"
+        },
+        {
+          "key": "F",
+          "text": "dipping"
+        },
+        {
+          "key": "G",
+          "text": "distinction"
+        },
+        {
+          "key": "H",
+          "text": "falling"
+        },
+        {
+          "key": "I",
+          "text": "involves"
+        },
+        {
+          "key": "J",
+          "text": "moderate"
+        },
+        {
+          "key": "K",
+          "text": "notified"
+        },
+        {
+          "key": "L",
+          "text": "partly"
+        },
+        {
+          "key": "M",
+          "text": "required"
+        },
+        {
+          "key": "N",
+          "text": "traditionally"
+        },
+        {
+          "key": "O",
+          "text": "vigorous"
+        }
+      ],
+      "answer": "G"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "constitutes"
+        },
+        {
+          "key": "B",
+          "text": "contradictory"
+        },
+        {
+          "key": "C",
+          "text": "decision"
+        },
+        {
+          "key": "D",
+          "text": "detailed"
+        },
+        {
+          "key": "E",
+          "text": "difference"
+        },
+        {
+          "key": "F",
+          "text": "dipping"
+        },
+        {
+          "key": "G",
+          "text": "distinction"
+        },
+        {
+          "key": "H",
+          "text": "falling"
+        },
+        {
+          "key": "I",
+          "text": "involves"
+        },
+        {
+          "key": "J",
+          "text": "moderate"
+        },
+        {
+          "key": "K",
+          "text": "notified"
+        },
+        {
+          "key": "L",
+          "text": "partly"
+        },
+        {
+          "key": "M",
+          "text": "required"
+        },
+        {
+          "key": "N",
+          "text": "traditionally"
+        },
+        {
+          "key": "O",
+          "text": "vigorous"
+        }
+      ],
+      "answer": "I"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "constitutes"
+        },
+        {
+          "key": "B",
+          "text": "contradictory"
+        },
+        {
+          "key": "C",
+          "text": "decision"
+        },
+        {
+          "key": "D",
+          "text": "detailed"
+        },
+        {
+          "key": "E",
+          "text": "difference"
+        },
+        {
+          "key": "F",
+          "text": "dipping"
+        },
+        {
+          "key": "G",
+          "text": "distinction"
+        },
+        {
+          "key": "H",
+          "text": "falling"
+        },
+        {
+          "key": "I",
+          "text": "involves"
+        },
+        {
+          "key": "J",
+          "text": "moderate"
+        },
+        {
+          "key": "K",
+          "text": "notified"
+        },
+        {
+          "key": "L",
+          "text": "partly"
+        },
+        {
+          "key": "M",
+          "text": "required"
+        },
+        {
+          "key": "N",
+          "text": "traditionally"
+        },
+        {
+          "key": "O",
+          "text": "vigorous"
+        }
+      ],
+      "answer": "O"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "constitutes"
+        },
+        {
+          "key": "B",
+          "text": "contradictory"
+        },
+        {
+          "key": "C",
+          "text": "decision"
+        },
+        {
+          "key": "D",
+          "text": "detailed"
+        },
+        {
+          "key": "E",
+          "text": "difference"
+        },
+        {
+          "key": "F",
+          "text": "dipping"
+        },
+        {
+          "key": "G",
+          "text": "distinction"
+        },
+        {
+          "key": "H",
+          "text": "falling"
+        },
+        {
+          "key": "I",
+          "text": "involves"
+        },
+        {
+          "key": "J",
+          "text": "moderate"
+        },
+        {
+          "key": "K",
+          "text": "notified"
+        },
+        {
+          "key": "L",
+          "text": "partly"
+        },
+        {
+          "key": "M",
+          "text": "required"
+        },
+        {
+          "key": "N",
+          "text": "traditionally"
+        },
+        {
+          "key": "O",
+          "text": "vigorous"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "constitutes"
+        },
+        {
+          "key": "B",
+          "text": "contradictory"
+        },
+        {
+          "key": "C",
+          "text": "decision"
+        },
+        {
+          "key": "D",
+          "text": "detailed"
+        },
+        {
+          "key": "E",
+          "text": "difference"
+        },
+        {
+          "key": "F",
+          "text": "dipping"
+        },
+        {
+          "key": "G",
+          "text": "distinction"
+        },
+        {
+          "key": "H",
+          "text": "falling"
+        },
+        {
+          "key": "I",
+          "text": "involves"
+        },
+        {
+          "key": "J",
+          "text": "moderate"
+        },
+        {
+          "key": "K",
+          "text": "notified"
+        },
+        {
+          "key": "L",
+          "text": "partly"
+        },
+        {
+          "key": "M",
+          "text": "required"
+        },
+        {
+          "key": "N",
+          "text": "traditionally"
+        },
+        {
+          "key": "O",
+          "text": "vigorous"
+        }
+      ],
+      "answer": "E"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "constitutes"
+        },
+        {
+          "key": "B",
+          "text": "contradictory"
+        },
+        {
+          "key": "C",
+          "text": "decision"
+        },
+        {
+          "key": "D",
+          "text": "detailed"
+        },
+        {
+          "key": "E",
+          "text": "difference"
+        },
+        {
+          "key": "F",
+          "text": "dipping"
+        },
+        {
+          "key": "G",
+          "text": "distinction"
+        },
+        {
+          "key": "H",
+          "text": "falling"
+        },
+        {
+          "key": "I",
+          "text": "involves"
+        },
+        {
+          "key": "J",
+          "text": "moderate"
+        },
+        {
+          "key": "K",
+          "text": "notified"
+        },
+        {
+          "key": "L",
+          "text": "partly"
+        },
+        {
+          "key": "M",
+          "text": "required"
+        },
+        {
+          "key": "N",
+          "text": "traditionally"
+        },
+        {
+          "key": "O",
+          "text": "vigorous"
+        }
+      ],
+      "answer": "J"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "constitutes"
+    },
+    {
+      "key": "B",
+      "word": "contradictory"
+    },
+    {
+      "key": "C",
+      "word": "decision"
+    },
+    {
+      "key": "D",
+      "word": "detailed"
+    },
+    {
+      "key": "E",
+      "word": "difference"
+    },
+    {
+      "key": "F",
+      "word": "dipping"
+    },
+    {
+      "key": "G",
+      "word": "distinction"
+    },
+    {
+      "key": "H",
+      "word": "falling"
+    },
+    {
+      "key": "I",
+      "word": "involves"
+    },
+    {
+      "key": "J",
+      "word": "moderate"
+    },
+    {
+      "key": "K",
+      "word": "notified"
+    },
+    {
+      "key": "L",
+      "word": "partly"
+    },
+    {
+      "key": "M",
+      "word": "required"
+    },
+    {
+      "key": "N",
+      "word": "traditionally"
+    },
+    {
+      "key": "O",
+      "word": "vigorous"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "D",
+      "answerWord": "detailed",
+      "reason": "空格与 evidence-backed 并列，共同修饰 guidelines，需形容词；「详细且有证据支持的指南」语义顺畅，正好对应下句说的「对运动类型与强度都有规定」。",
+      "distractors": "B) contradictory（矛盾的）与「指南」语义相冲；C) decision、E) difference、G) distinction 是名词，词性不符；L) partly、N) traditionally 是副词，不能作定语。"
+    },
+    "27": {
+      "answerKey": "M",
+      "answerWord": "required",
+      "reason": "空格在 exercise 之后，作后置定语修饰它，需过去分词；the type and intensity of exercise required for various physical health benefits 意为「为获得各种身体健康益处所需的运动类型与强度」。",
+      "distractors": "F) dipping 是现在分词，与 exercise 构不成被动修饰关系；K) notified（被通知的）语义完全不通；I) involves 是限定动词三单，不能作后置定语。"
+    },
+    "28": {
+      "answerKey": "L",
+      "answerWord": "partly",
+      "reason": "空格在系动词 is 与介词短语 due to 之间，需副词修饰整个原因短语；下文 However 引出「新综述带来转机」，说明「缺证据」只是部分原因，partly（部分地）正合这层逻辑。",
+      "distractors": "N) traditionally（传统上）与「缺证据」不搭；M) required、D) detailed 是形容词／分词，词性不符；C) decision 是名词。"
+    },
+    "29": {
+      "answerKey": "F",
+      "answerWord": "dipping",
+      "reason": "Before 在此是介词，后面必须接动名词；dip into 是固定搭配，意为「翻阅、涉猎」，Before dipping into some of the key take-aways 即「在细看几条要点之前」。",
+      "distractors": "H) falling 虽是动名词，但 fall into 意为「陷入、落入」，与 take-aways 不搭配；B) contradictory、J) moderate 是形容词，不能作介词宾语；I) involves 是限定动词。"
+    },
+    "30": {
+      "answerKey": "G",
+      "answerWord": "distinction",
+      "reason": "空格是句子主语的核心词（an important ___），需名词；make a distinction between A and B（区分 A 与 B）是固定搭配，正好接后面的 between aerobic exercise and anaerobic。",
+      "distractors": "C) decision（决定）不与 between 搭配；E) difference 虽近义，但惯用说法是 make a distinction between，且 difference 要留给 34 空的 make no difference to；A) constitutes 是动词。"
+    },
+    "31": {
+      "answerKey": "I",
+      "answerWord": "involves",
+      "reason": "空格在主语 The former 之后作谓语，需及物动词第三人称单数；involve such things as...（包含诸如……之类）与后文 means 并列，用来列举有氧运动的具体形式。",
+      "distractors": "A) constitutes（构成）虽是三单动词，但「构成诸如走路之类的事」语义生硬；K) notified 是过去式／过去分词，时态与语义都不合；F) dipping 是动名词，不能作谓语。"
+    },
+    "32": {
+      "answerKey": "O",
+      "answerWord": "vigorous",
+      "reason": "空格在 such ___ intensity 之中，需形容词；与上文有氧运动「来得及用氧气」相反，无氧运动强度大到身体来不及用氧，vigorous（剧烈的、强度大的）正合语境。",
+      "distractors": "J) moderate（中等的）与「来不及用氧」矛盾，且是 35 空答案；B) contradictory 语义不合；I) involves 是动词，词性不符。"
+    },
+    "33": {
+      "answerKey": "B",
+      "answerWord": "contradictory",
+      "reason": "空格修饰 results，需形容词；下句「有的支持高强度、有的支持低强度、七项说强度没差别」正是结果彼此矛盾，故用 contradictory（相互矛盾的）。",
+      "distractors": "D) detailed（详细的）无法概括三类冲突结果；O) vigorous（剧烈的）不修饰 results；G) distinction 是名词，词性不符。"
+    },
+    "34": {
+      "answerKey": "E",
+      "answerWord": "difference",
+      "reason": "空格在 made no ___ to 之间，需名词；make no difference to（对……没有影响）是固定搭配，说明强度并不改变情绪益处。",
+      "distractors": "C) decision 不与 make no ... to 搭配；G) distinction 虽是名词，但其固定搭配是 make a distinction between，且 30 空已用；L) partly 是副词。"
+    },
+    "35": {
+      "answerKey": "J",
+      "answerWord": "moderate",
+      "reason": "空格在系动词 is 之后、名词 intensity 之前，需形容词；紧接的理由是「低强度太枯燥、高强度太难受」，两头都排除，取中间即 moderate（中等的）强度最优。",
+      "distractors": "O) vigorous（剧烈的）正对应被排除的高强度，且 32 空已用；D) detailed、B) contradictory 语义不合；N) traditionally 是副词，词性不符。"
+    }
+  },
+  "lexicon": {
+    "able": {
+      "phonetic": "/ˈeɪbl/",
+      "pos": "adj.",
+      "sense": "能够的（be able to do）",
+      "collocations": [
+        "be able to do",
+        "able to"
+      ],
+      "examples": [
+        "They are able to delete the posts. 他们能够删除这些帖子。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be able to（能够）/ can（情态动词，不能与 will 连用）/ ability（名词）"
+      }
+    },
+    "aerobic": {
+      "phonetic": "/eəˈrəʊbɪk/",
+      "pos": "adj.",
+      "sense": "有氧的、需氧的（本文与 anaerobic 对举谈运动类型）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "aerobic exercise",
+        "benefits of aerobic"
+      ],
+      "examples": [
+        "Before 29 into some of the key take-aways, an important 30 made in the review is between aerobic exercise and anaerobic. 进入正题前得先厘清一点：综述把运动分成有氧和无氧两类，这个区分很关键。"
+      ]
+    },
+    "anaerobic": {
+      "phonetic": "/ˌænəˈrəʊbɪk/",
+      "pos": "adj.",
+      "sense": "无氧的、厌氧的（本文指无氧运动）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "anaerobic exercise",
+        "intensity of anaerobic"
+      ],
+      "examples": [
+        "Before 29 into some of the key take-aways, an important 30 made in the review is between aerobic exercise and anaerobic. 进入正题前得先厘清一点：综述把运动分成有氧和无氧两类，这个区分很关键。"
+      ]
+    },
+    "area": {
+      "phonetic": "/ˈeəriə/",
+      "pos": "n.",
+      "sense": "地区；领域、方面（可数）",
+      "collocations": [
+        "in the area of",
+        "a research area",
+        "rural areas"
+      ],
+      "examples": [
+        "This is a growing research area. 这是一个不断发展的研究领域。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "area（地区/领域）/ region（区域）"
+      }
+    },
+    "beginning": {
+      "phonetic": "/bɪˈɡɪnɪŋ/",
+      "pos": "n./v.",
+      "sense": "开始、开端、起点；begin 的现在分词（at the beginning 起初）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Beginning first"
+      ],
+      "examples": [
+        "Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise, the researchers, led by John Chan at Shenzhen University, found 33 results from 19 relevant studies. 先说有氧运动：深圳大学 John Chan 团队梳理了 19 项相关研究，结论却互相打架。"
+      ]
+    },
+    "beneficial": {
+      "phonetic": "/ˌbenɪˈfɪʃl/",
+      "pos": "adj.",
+      "sense": "有益的、有利的、有帮助的（beneficial to）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "bene-（好，词根，同 benefit/benevolent）+ fic（做，词根）+ -ial（形容词后缀）",
+        "confusables": "be beneficial to（对…有益，介词 to，不用 for）/ benefit from（从…受益，动词短语）/ be of benefit to / beneficial 与 profitable（profitable 指「有利可图」）"
+      },
+      "collocations": [],
+      "examples": [
+        "It's well known that physical exercise is beneficial not just to physical health but also to mental health. 谁都知道，运动不光强身，还能调理情绪、有益心理。"
+      ]
+    },
+    "benefits": {
+      "phonetic": "/ˈbenɪfɪts/",
+      "pos": "n.",
+      "sense": "好处、益处（benefit 的复数）；福利待遇",
+      "lemma": "benefit",
+      "collocations": [
+        "the benefits of",
+        "employee benefits",
+        "for the benefit of"
+      ],
+      "examples": [
+        "The benefits of multitasking are clear. 多任务处理的好处很明显。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "benefits（好处/福利）/ benefit（单数或动词）"
+      }
+    },
+    "blood": {
+      "phonetic": "/blʌd/",
+      "pos": "n.",
+      "sense": "血、血液；血统、出身",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles. 无氧运动正相反：像举重这类强度太高的动作，身体来不及靠氧气供能，只能直接拆解血液或肌肉里的葡萄糖。"
+      ]
+    },
+    "body": {
+      "phonetic": "/ˈbɒdi/",
+      "pos": "n.",
+      "sense": "身体、躯体；主体、正文；团体、机构",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy. 有氧运动就是散步、慢跑、骑车这类：强度适中，身体来得及用氧气分解脂肪来供能。"
+      ]
+    },
+    "breaks": {
+      "phonetic": "/breɪks/",
+      "pos": "v./n.",
+      "sense": "打破、弄坏、违背；休息、间歇、断裂（三单/复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "breaks down",
+        "breaks down glucose"
+      ],
+      "examples": [
+        "In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles. 无氧运动正相反：像举重这类强度太高的动作，身体来不及靠氧气供能，只能直接拆解血液或肌肉里的葡萄糖。"
+      ]
+    },
+    "brings": {
+      "phonetic": "/brɪŋz/",
+      "pos": "v.",
+      "sense": "带来、拿来；引起、导致；使处于（bring 的第三人称单数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "review brings"
+      ],
+      "examples": [
+        "However, a new systematic review brings us usefully up to-date on the current findings in this area. 好在一篇新的系统综述及时梳理了该领域的最新成果，正好补上这块空白。"
+      ],
+      "more": {
+        "confusables": "brings / bring（同族不同词形，注意词性与用法）"
+      }
+    },
+    "burn": {
+      "phonetic": "/bɜːn/",
+      "pos": "v./n.",
+      "sense": "燃烧、烧毁、烧焦；消耗（能量）；灼伤、烧伤",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "burn fat",
+        "oxygen to burn"
+      ],
+      "examples": [
+        "The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy. 有氧运动就是散步、慢跑、骑车这类：强度适中，身体来得及用氧气分解脂肪来供能。"
+      ]
+    },
+    "clearer": {
+      "phonetic": "/klɪə(r)ə(r)/",
+      "pos": "adj./v.",
+      "sense": "清楚的、明显的；清澈的 / 清除（clear 的比较级形式）",
+      "lemma": "clear",
+      "collocations": [
+        "far clearer"
+      ],
+      "examples": [
+        "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant. 轮到无氧运动，结论反倒干脆：想靠它改善心情，中等强度最合适——太低太无聊，太高又太难受。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "clear + -er（比较级）",
+        "confusables": "clearer（比较级）/ clear（原形）"
+      }
+    },
+    "contrast": {
+      "phonetic": "/ˈkɒntrɑːst/",
+      "pos": "n./v.",
+      "sense": "对比、反差、明显差异；对照、形成对比（动词亦读 /kənˈtrɑːst/；by/in contrast 相比之下）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "contra-（相对）+ st（站立，词根 sta = stand）→ 站到对面 → 对比",
+        "confusables": "contrast（n. 对比 /ˈkɒntrɑːst/；v. 对比 /kənˈtrɑːst/）/ in contrast to / by contrast（相比之下）/ contrast A with B（把 A 与 B 对比）/ compare A with B（找异同）、compare A to B（把 A 比作 B）"
+      },
+      "collocations": [],
+      "examples": [
+        "In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles. 无氧运动正相反：像举重这类强度太高的动作，身体来不及靠氧气供能，只能直接拆解血液或肌肉里的葡萄糖。"
+      ]
+    },
+    "countries": {
+      "phonetic": "/ˈkʌntriz/",
+      "pos": "n.",
+      "sense": "国家、国度；乡村、乡下（country 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Yet whereas most countries have 26 , evidence-backed guidelines on the type and intensity of exercise 27 for various physical health benefits, such guidelines do not yet exist for exercise and mood. 可怪就怪在：各国对「练什么、练多强才能改善身体」早有详细且循证的指南，偏偏「运动怎样改善情绪」至今没有类似说法。"
+      ]
+    },
+    "create": {
+      "phonetic": "/kriˈeɪt/",
+      "pos": "v.",
+      "sense": "创造、造成（create sth）",
+      "collocations": [
+        "create opportunities",
+        "create problems"
+      ],
+      "examples": [
+        "They create powerful new communicative forms. 他们创造出有力的新沟通形式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "create（创造）/ make（制作）/ produce（生产）"
+      }
+    },
+    "current": {
+      "phonetic": "/ˈkʌrənt/",
+      "pos": "adj./n.",
+      "sense": "当前的（形容词）；水流、电流（名词）",
+      "collocations": [
+        "current situation",
+        "at current rates",
+        "electric current"
+      ],
+      "examples": [
+        "At current rates, change will be slow. 以目前的速度，改变会很慢。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "current（当前的）/ currently（目前）/ currant（醋栗）"
+      }
+    },
+    "cycling": {
+      "phonetic": "/ˈsaɪklɪŋ/",
+      "pos": "n.",
+      "sense": "骑自行车（运动）、骑行",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "cycle（骑车/循环）+ -ing（去 e 加 -ing）",
+        "confusables": "cycling（骑车运动，不可数）/ go cycling（去骑车，go + -ing 表去从事某活动）/ cycle（自行车；循环）/ cycle 与 recycle（回收利用）"
+      },
+      "collocations": [],
+      "examples": [
+        "The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy. 有氧运动就是散步、慢跑、骑车这类：强度适中，身体来得及用氧气分解脂肪来供能。"
+      ]
+    },
+    "due": {
+      "phonetic": "/djuː/",
+      "pos": "adj./prep.",
+      "sense": "预期的、到期的；（due to）由于",
+      "collocations": [
+        "due to",
+        "be due to do",
+        "due date"
+      ],
+      "examples": [
+        "The change is due to new law. 这一变化源于新法律。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "due to（由于，介词短语）/ because of（同义）/ be due to do（预计做）"
+      }
+    },
+    "dull": {
+      "phonetic": "/dʌl/",
+      "pos": "adj.",
+      "sense": "枯燥的、无聊的；迟钝的、愚钝的；暗淡的、阴沉的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "dull while"
+      ],
+      "examples": [
+        "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant. 轮到无氧运动，结论反倒干脆：想靠它改善心情，中等强度最合适——太低太无聊，太高又太难受。"
+      ]
+    },
+    "energy": {
+      "phonetic": "/ˈenədʒi/",
+      "pos": "n.",
+      "sense": "能量、能源；精力、活力、干劲",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "en-（在内）+ erg（工作、力，词根 erg = work，同 synergy/ergonomic）+ -y",
+        "confusables": "energy（能量；精力，不可数）/ energetic（精力充沛的）/ energies 复数可指「精力、努力」（devote one's energies to）/ power（电力/权力）/ strength（力气）"
+      },
+      "collocations": [
+        "fat for energy",
+        "create energy"
+      ],
+      "examples": [
+        "The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy. 有氧运动就是散步、慢跑、骑车这类：强度适中，身体来得及用氧气分解脂肪来供能。"
+      ]
+    },
+    "evidence": {
+      "phonetic": "/ˈevɪdəns/",
+      "pos": "n.",
+      "sense": "证据（不可数）",
+      "collocations": [
+        "evidence suggests",
+        "evidence of/for",
+        "based on evidence"
+      ],
+      "examples": [
+        "The evidence suggests not. 证据表明并非如此。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "e-（=ex- 出）+ vid（看，词根 vid/vis = see，同 video/vision/visible/provide）+ -ence → 看得出来的东西 → 证据",
+        "confusables": "evidence（不可数，不加 -s）/ evident（形容词，明显的）"
+      }
+    },
+    "exercise": {
+      "phonetic": "/ˈeksəsaɪz/",
+      "pos": "n./v.",
+      "sense": "锻炼（不可数）；练习、习题（可数）/ 锻炼",
+      "collocations": [
+        "do exercise",
+        "regular exercise",
+        "an exercise in sth"
+      ],
+      "examples": [
+        "Regular exercise improves sleep. 规律锻炼能改善睡眠。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "exercise（锻炼，不可数）/ exercises（练习题，可数）"
+      }
+    },
+    "exercising": {
+      "phonetic": "/ˈeksəsaɪzɪŋ/",
+      "pos": "v.",
+      "sense": "exercise 的现在分词（锻炼；行使）",
+      "lemma": "exercise",
+      "collocations": [
+        "exercising regularly",
+        "exercising judgment"
+      ],
+      "examples": [
+        "Exercising regularly improves sleep. 规律锻炼能改善睡眠。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "exercising（现在分词）/ exercise（原形）/ exercise 也可作名词"
+      }
+    },
+    "exist": {
+      "phonetic": "/ɪɡˈzɪst/",
+      "pos": "v.",
+      "sense": "存在（不及物）",
+      "collocations": [
+        "exist in",
+        "no longer exist",
+        "cease to exist"
+      ],
+      "examples": [
+        "Technologies that already exist could help. 已有的技术就能帮上忙。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ex-（出）+ (s)ist（站立，词根，同 insist/persist/resist/consist）→ 站出来 → 存在",
+        "confusables": "exist（存在）/ exist in（存在于）/ exit（出口）"
+      }
+    },
+    "far": {
+      "phonetic": "/fɑː(r)/",
+      "pos": "adj./adv.",
+      "sense": "远的；远远、大大（修饰比较级）；久远地（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "far clearer"
+      ],
+      "examples": [
+        "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant. 轮到无氧运动，结论反倒干脆：想靠它改善心情，中等强度最合适——太低太无聊，太高又太难受。"
+      ],
+      "more": {
+        "confusables": "far / farmers / farrant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "fat": {
+      "phonetic": "/fæt/",
+      "pos": "adj./n.",
+      "sense": "胖的；脂肪（不可数）",
+      "collocations": [
+        "low in fat",
+        "body fat"
+      ],
+      "examples": [
+        "Diets low in fat are not always healthier. 低脂饮食不一定更健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fat（脂肪/胖）/ fatty（含脂肪的）"
+      }
+    },
+    "favoured": {
+      "phonetic": "/ˈfeɪvə(r)d/",
+      "pos": "n./v.",
+      "sense": "恩惠、支持（英式拼写）；偏袒（favour 的过去式/过去分词形式）",
+      "lemma": "favour",
+      "collocations": [
+        "favoured higher"
+      ],
+      "examples": [
+        "Some favoured higher intensity, others low, while seven studies found that intensity made no 34 to mood benefits. 有的偏向高强度，有的偏向低强度，还有 7 项干脆说强度高低对情绪没啥影响。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "favour + -ed（过去式/过去分词）",
+        "confusables": "favoured（过去式/过去分词）/ favour（原形）"
+      }
+    },
+    "findings": {
+      "phonetic": "/ˈfaɪndɪŋz/",
+      "pos": "n.",
+      "sense": "研究结果、调查发现（finding 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "find（发现）+ -ing + -s",
+        "confusables": "findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings"
+      },
+      "collocations": [
+        "current findings",
+        "findings in"
+      ],
+      "examples": [
+        "However, a new systematic review brings us usefully up to-date on the current findings in this area. 好在一篇新的系统综述及时梳理了该领域的最新成果，正好补上这块空白。"
+      ]
+    },
+    "first": {
+      "phonetic": "/fɜːst/",
+      "pos": "num./adj./adv.",
+      "sense": "第一；最早的；首先、初次",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Beginning first",
+        "first with"
+      ],
+      "examples": [
+        "Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise, the researchers, led by John Chan at Shenzhen University, found 33 results from 19 relevant studies. 先说有氧运动：深圳大学 John Chan 团队梳理了 19 项相关研究，结论却互相打架。"
+      ]
+    },
+    "former": {
+      "phonetic": "/ˈfɔːmə(r)/",
+      "pos": "adj./n.",
+      "sense": "以前的、从前的、前任的；前者（the former … the latter）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "former（前者的；以前的，形容词，只作定语）/ the former … the latter …（前者…后者…，须加 the）/ latter（后者，反义）/ previous（指「上一个/先前的」，不强调两者对照）/ ex- 前缀「前任」"
+      },
+      "collocations": [],
+      "examples": [
+        "The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy. 有氧运动就是散步、慢跑、骑车这类：强度适中，身体来得及用氧气分解脂肪来供能。"
+      ]
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "glucose": {
+      "phonetic": "/ˈɡluːkəʊz/",
+      "pos": "n.",
+      "sense": "葡萄糖、血糖（本文谈运动供能）",
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "gluc-（甜，希腊词根）+ -ose（糖类名词后缀，同 fructose/sucrose/lactose）→ 葡萄糖",
+        "confusables": "glucose（葡萄糖，不可数）/ blood glucose / blood sugar（血糖）/ -ose 是糖类名称后缀 / glucose 与 sugar（泛指食糖）"
+      },
+      "collocations": [
+        "down glucose",
+        "breaks down glucose"
+      ],
+      "examples": [
+        "In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles. 无氧运动正相反：像举重这类强度太高的动作，身体来不及靠氧气供能，只能直接拆解血液或肌肉里的葡萄糖。"
+      ]
+    },
+    "guidelines": {
+      "phonetic": "/ˈɡaɪdlaɪnz/",
+      "pos": "n.",
+      "sense": "准则、指导原则（guideline 的复数）",
+      "lemma": "guideline",
+      "collocations": [
+        "follow guidelines",
+        "issue guidelines"
+      ],
+      "examples": [
+        "New guidelines were issued last month. 上个月发布了新准则。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "guidelines（准则）/ rules（规则）"
+      }
+    },
+    "health": {
+      "phonetic": "/helθ/",
+      "pos": "n.",
+      "sense": "健康；医疗、卫生",
+      "collocations": [
+        "mental health",
+        "public health",
+        "health care"
+      ],
+      "examples": [
+        "Social ties affect health. 社会联系影响健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "whole（完整）+ -th → 身心完整",
+        "confusables": "health（名词）/ healthy（形容词）"
+      }
+    },
+    "heavy": {
+      "phonetic": "/ˈhevi/",
+      "pos": "adj.",
+      "sense": "重的、沉的；大量的、密集的；沉重的、繁重的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "lifting heavy",
+        "heavy weights"
+      ],
+      "examples": [
+        "In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles. 无氧运动正相反：像举重这类强度太高的动作，身体来不及靠氧气供能，只能直接拆解血液或肌肉里的葡萄糖。"
+      ],
+      "more": {
+        "confusables": "heavy / heavily（同族不同词形，注意词性与用法）"
+      }
+    },
+    "high": {
+      "phonetic": "/haɪ/",
+      "pos": "adj./adv.",
+      "sense": "高的；高度的 / 高高地",
+      "collocations": [
+        "high school",
+        "high rates",
+        "highly（注意区分）"
+      ],
+      "examples": [
+        "Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "high（具体高）/ highly（抽象程度高，如 highly likely）"
+      }
+    },
+    "higher": {
+      "phonetic": "/ˈhaɪə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更高的（high 的比较级）；更高地",
+      "lemma": "high",
+      "collocations": [
+        "higher rates",
+        "higher than",
+        "higher education"
+      ],
+      "examples": [
+        "Isolation is linked to higher rates of disease. 孤立与更高的发病率相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "higher（更高）/ hire（雇用）同音"
+      }
+    },
+    "however": {
+      "phonetic": "/haʊˈevə(r)/",
+      "pos": "adv./conj.",
+      "sense": "然而（副词，须用分号或句号连接）；无论怎样",
+      "collocations": [
+        "however, ...",
+        "however much"
+      ],
+      "examples": [
+        "However, the study also shows a gap. 然而，研究也显示出一道差距。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "however（副词，不能像 but 那样直接连两个分句）/ but（连词）"
+      }
+    },
+    "important": {
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "pos": "adj.",
+      "sense": "重要的、重大的；有影响力的",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）"
+      },
+      "collocations": [],
+      "examples": [
+        "Before 29 into some of the key take-aways, an important 30 made in the review is between aerobic exercise and anaerobic. 进入正题前得先厘清一点：综述把运动分成有氧和无氧两类，这个区分很关键。"
+      ]
+    },
+    "improving": {
+      "phonetic": "/ɪmˈpruːvɪŋ/",
+      "pos": "v./adj.",
+      "sense": "改善、改进、提高、好转（improve 现在分词）；不断改善的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "improving mood"
+      ],
+      "examples": [
+        "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant. 轮到无氧运动，结论反倒干脆：想靠它改善心情，中等强度最合适——太低太无聊，太高又太难受。"
+      ]
+    },
+    "influence": {
+      "phonetic": "/ˈɪnfluəns/",
+      "pos": "n./v.",
+      "sense": "影响",
+      "collocations": [
+        "influence on",
+        "have an influence"
+      ],
+      "examples": [
+        "Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise, the researchers, led by John Chan at Shenzhen University, found 33 results from 19 relevant studies. 先说有氧运动：深圳大学 John Chan 团队梳理了 19 项相关研究，结论却互相打架。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "influence（影响，名词；及物动词，直接接宾语，不加介词）/ have an influence on/upon（介词 on）/ influence sb to do / influence 与 affect（动词）/ effect（名词）/ under the influence of（在…影响下）"
+      }
+    },
+    "instead": {
+      "phonetic": "/ɪnˈsted/",
+      "pos": "adv.",
+      "sense": "代替、反而、却（副词；instead of 才是介词短语，后接名词/动名词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "instead（副词「代替、反而」，单独用，放句首或句末，不接宾语）/ instead of（介词短语「而不是」，后接名词/代词/动名词）/ rather than（连接平行结构）/ instead 与 take the place of（动词短语取代）"
+      },
+      "collocations": [],
+      "examples": [
+        "In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles. 无氧运动正相反：像举重这类强度太高的动作，身体来不及靠氧气供能，只能直接拆解血液或肌肉里的葡萄糖。"
+      ]
+    },
+    "intensity": {
+      "phonetic": "/ɪnˈtensəti/",
+      "pos": "n.",
+      "sense": "强度、剧烈程度、强烈（本文指运动强度）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "intense（强烈的）+ -ity（名词后缀）",
+        "confusables": "intensity（强度、剧烈程度，不可数）/ intense（强烈的，形容词）/ intensive（密集的，与 intensity 形近义不同）/ intensify（加剧，动词）"
+      },
+      "collocations": [
+        "intensity of",
+        "intensity of exercise",
+        "exercise intensity"
+      ],
+      "examples": [
+        "Yet whereas most countries have 26 , evidence-backed guidelines on the type and intensity of exercise 27 for various physical health benefits, such guidelines do not yet exist for exercise and mood. 可怪就怪在：各国对「练什么、练多强才能改善身体」早有详细且循证的指南，偏偏「运动怎样改善情绪」至今没有类似说法。"
+      ]
+    },
+    "it's": {
+      "phonetic": "/ɪts/",
+      "pos": "缩略",
+      "sense": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+      "collocations": [
+        "it's important that",
+        "it's likely to"
+      ],
+      "examples": [
+        "It's hard to say. 很难说。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
+      }
+    },
+    "jogging": {
+      "phonetic": "/ˈdʒɒɡɪŋ/",
+      "pos": "n.",
+      "sense": "慢跑（锻炼）、缓步跑",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "jog（慢跑）+ -ing（动名词后缀，注意双写 g：jogging）",
+        "confusables": "jogging（慢跑，不可数）/ go jogging（go + -ing 表去从事某活动，同类 go cycling/swimming）/ jog（慢跑；轻推）/ jogging 与 running（速度更快）"
+      },
+      "collocations": [],
+      "examples": [
+        "The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy. 有氧运动就是散步、慢跑、骑车这类：强度适中，身体来得及用氧气分解脂肪来供能。"
+      ]
+    },
+    "key": {
+      "phonetic": "/kiː/",
+      "pos": "n./adj.",
+      "sense": "关键、钥匙；关键的",
+      "collocations": [
+        "the key to",
+        "a key factor"
+      ],
+      "examples": [
+        "Practice is the key to progress. 练习是进步的关键。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "known": {
+      "phonetic": "/nəʊn/",
+      "pos": "adj./v.",
+      "sense": "已知的、闻名的、公认的（known as 以…著称）；know 的过去分词",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be known as（作为…而出名，后接身份）/ be known for（因…而出名，后接原因或特点）/ be known to（为…所熟知，后接人）/ know（know-knew-known）/ well-known（著名的，形容词）"
+      },
+      "collocations": [
+        "well known"
+      ],
+      "examples": [
+        "It's well known that physical exercise is beneficial not just to physical health but also to mental health. 谁都知道，运动不光强身，还能调理情绪、有益心理。"
+      ]
+    },
+    "lack": {
+      "phonetic": "/læk/",
+      "pos": "n./v.",
+      "sense": "缺乏、不足、缺少（a lack of 缺少…；lack sth 缺乏某物）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lack（缺乏，及物动词，直接接宾语，不说 lack of sth 作谓语；作名词用 a lack of）/ lack sth / be lacking in（缺乏…，形容词短语）/ a lack of + 名词 / shortage（供应不足，可数/不可数）"
+      },
+      "collocations": [
+        "lack of",
+        "lack of necessary"
+      ],
+      "examples": [
+        "This is 28 due to a lack of necessary evidence. 说到底，是支撑结论的证据还攒得不够。"
+      ]
+    },
+    "led": {
+      "phonetic": "/led/",
+      "pos": "v.",
+      "sense": "lead 的过去分词，带领、领导",
+      "collocations": [
+        "a team led by",
+        "led by",
+        "led by John"
+      ],
+      "examples": [
+        "Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise, the researchers, led by John Chan at Shenzhen University, found 33 results from 19 relevant studies. 先说有氧运动：深圳大学 John Chan 团队梳理了 19 项相关研究，结论却互相打架。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "lifting": {
+      "phonetic": "/ˈlɪftɪŋ/",
+      "pos": "v./n.",
+      "sense": "举起、抬起、提升、解除（lift 的现在分词）；举起、升高",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "lifting heavy"
+      ],
+      "examples": [
+        "In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles. 无氧运动正相反：像举重这类强度太高的动作，身体来不及靠氧气供能，只能直接拆解血液或肌肉里的葡萄糖。"
+      ]
+    },
+    "low": {
+      "phonetic": "/ləʊ/",
+      "pos": "adj./adv./n.",
+      "sense": "低的、矮的、低下的、不足的；低地、低点、低水平",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "others low",
+        "because low",
+        "low intensity"
+      ],
+      "examples": [
+        "Some favoured higher intensity, others low, while seven studies found that intensity made no 34 to mood benefits. 有的偏向高强度，有的偏向低强度，还有 7 项干脆说强度高低对情绪没啥影响。"
+      ],
+      "more": {
+        "confusables": "low / low-intensity / lower（同族不同词形，注意词性与用法）"
+      }
+    },
+    "made": {
+      "phonetic": "/meɪd/",
+      "pos": "v.",
+      "sense": "做、制造；使得、使成为；获得（make 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be made of（由…制成，看得出原料）/ be made from（由…制成，看不出原料）/ be made in（产地）/ be made to do（被迫做，被动须加 to）/ make sb do（主动使役不带 to）/ make（make-made-made）"
+      },
+      "collocations": [
+        "made in",
+        "intensity made"
+      ],
+      "examples": [
+        "Before 29 into some of the key take-aways, an important 30 made in the review is between aerobic exercise and anaerobic. 进入正题前得先厘清一点：综述把运动分成有氧和无氧两类，这个区分很关键。"
+      ]
+    },
+    "means": {
+      "phonetic": "/miːnz/",
+      "pos": "v./n.",
+      "sense": "mean 的第三人称单数；手段、方法（单复同形）",
+      "lemma": "mean",
+      "collocations": [
+        "by means of",
+        "a means of",
+        "by no means"
+      ],
+      "examples": [
+        "She argues the data means little. 她认为这些数据意义不大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "by no means（绝不）/ by all means（当然可以）/ means（单复同形）"
+      }
+    },
+    "mental": {
+      "phonetic": "/ˈmentl/",
+      "pos": "adj.",
+      "sense": "心理的、精神的；脑力的",
+      "collocations": [
+        "mental health",
+        "mental illness",
+        "mental effort"
+      ],
+      "examples": [
+        "Social support improves mental health. 社会支持改善心理健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ment（心智、思维，词根 ment = mind，同 mentality/dementia）+ -al（形容词后缀）",
+        "confusables": "mental（心理的）/ physical（身体的）"
+      }
+    },
+    "mood": {
+      "phonetic": "/muːd/",
+      "pos": "n.",
+      "sense": "心情、情绪；气氛、基调（be in the mood for 有心思做）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "mood（心境、情绪，持续较久，可数）/ be in the mood for sth / to do（有心情做…）/ emotion（情绪，强烈而短暂）/ feeling（感觉，较泛）/ temper（脾气）/ in a good / bad mood"
+      },
+      "collocations": [
+        "mood benefits",
+        "improving mood"
+      ],
+      "examples": [
+        "Yet whereas most countries have 26 , evidence-backed guidelines on the type and intensity of exercise 27 for various physical health benefits, such guidelines do not yet exist for exercise and mood. 可怪就怪在：各国对「练什么、练多强才能改善身体」早有详细且循证的指南，偏偏「运动怎样改善情绪」至今没有类似说法。"
+      ]
+    },
+    "muscles": {
+      "phonetic": "/ˈmʌslz/",
+      "pos": "n.",
+      "sense": "肌肉；（比喻）力量（muscle 的复数/三单形式）",
+      "lemma": "muscle",
+      "collocations": [],
+      "examples": [
+        "In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles. 无氧运动正相反：像举重这类强度太高的动作，身体来不及靠氧气供能，只能直接拆解血液或肌肉里的葡萄糖。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "muscle + -s（复数/三单）",
+        "confusables": "muscles（复数/三单）/ muscle（原形）"
+      }
+    },
+    "necessary": {
+      "phonetic": "/ˈnesəsəri/",
+      "pos": "adj.",
+      "sense": "必要的、必需的",
+      "collocations": [
+        "if necessary",
+        "necessary to do"
+      ],
+      "examples": [
+        "Bring a pen if necessary. 有必要的话带支笔。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "necessary / necessarily（同族不同词形，注意词性与用法）"
+      }
+    },
+    "new": {
+      "phonetic": "/njuː/",
+      "pos": "adj.",
+      "sense": "新的；新近的",
+      "collocations": [
+        "new technologies",
+        "brand new",
+        "new to sth"
+      ],
+      "examples": [
+        "New tools always provoke worry. 新工具总会引发担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "optimum": {
+      "phonetic": "/ˈɒptɪməm/",
+      "pos": "adj./n.",
+      "sense": "最适宜的、最佳的、最优的；最适度、最佳条件",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant. 轮到无氧运动，结论反倒干脆：想靠它改善心情，中等强度最合适——太低太无聊，太高又太难受。"
+      ],
+      "more": {
+        "confusables": "optimum / optimistic（同族不同词形，注意词性与用法）"
+      }
+    },
+    "others": {
+      "phonetic": "/ˈʌðəz/",
+      "pos": "pron./n.",
+      "sense": "其他人/物、别的人/物（other 的复数；some...others 一些…另一些）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "others（其他人/物，泛指，常与 some 呼应 some…others…）/ the others（特定范围内「其余全部」）/ another（三者以上的「另一个」，接单数）/ the other（两者中的「另一个」，one…the other…）/ others 后不再接名词"
+      },
+      "collocations": [
+        "others low"
+      ],
+      "examples": [
+        "Some favoured higher intensity, others low, while seven studies found that intensity made no 34 to mood benefits. 有的偏向高强度，有的偏向低强度，还有 7 项干脆说强度高低对情绪没啥影响。"
+      ]
+    },
+    "oxygen": {
+      "phonetic": "/ˈɒksɪdʒən/",
+      "pos": "n.",
+      "sense": "氧、氧气（本文谈有氧/无氧运动供能）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "oxy-（酸、尖锐，词根，同 oxide）+ -gen（产生，词根 gen = produce，同 gene/hydrogen）→ 字面「成酸元素」（历史命名）",
+        "confusables": "oxygen（氧气，不可数）/ -gen 表「产生…的物质」（hydrogen 氢、nitrogen 氮）/ oxide（氧化物）/ oxygen 与 ozone（臭氧 O₃）"
+      },
+      "collocations": [
+        "use oxygen",
+        "oxygen to",
+        "oxygen to burn"
+      ],
+      "examples": [
+        "The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy. 有氧运动就是散步、慢跑、骑车这类：强度适中，身体来得及用氧气分解脂肪来供能。"
+      ]
+    },
+    "perhaps": {
+      "phonetic": "/pəˈhæps/",
+      "pos": "adv.",
+      "sense": "也许、或许、大概（表委婉或不确定的推测）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "perhaps because"
+      ],
+      "examples": [
+        "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant. 轮到无氧运动，结论反倒干脆：想靠它改善心情，中等强度最合适——太低太无聊，太高又太难受。"
+      ]
+    },
+    "physical": {
+      "phonetic": "/ˈfɪzɪkl/",
+      "pos": "adj.",
+      "sense": "身体的；物理的；实物的",
+      "collocations": [
+        "physical health",
+        "physical activity",
+        "physical presence"
+      ],
+      "examples": [
+        "Mental and physical health are linked. 心理与身体健康相互关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "physica（自然）+ -al",
+        "confusables": "physical（身体的/物理的）/ mental（心理的）"
+      }
+    },
+    "relation": {
+      "phonetic": "/rɪˈleɪʃn/",
+      "pos": "n.",
+      "sense": "关系、关联、联系；亲属；叙述（in relation to 关于、与…相比）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "relation to"
+      ],
+      "examples": [
+        "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant. 轮到无氧运动，结论反倒干脆：想靠它改善心情，中等强度最合适——太低太无聊，太高又太难受。"
+      ],
+      "more": {
+        "confusables": "relation / relationships（同族不同词形，注意词性与用法）"
+      }
+    },
+    "relevant": {
+      "phonetic": "/ˈreləvənt/",
+      "pos": "adj.",
+      "sense": "相关的、切题的、有意义的、适用的（relevant to）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be relevant to（与…相关，介词 to，不用 with）/ relevant（相关的、切题的，形容词）/ irrelevant（无关的，ir- 否定）/ relevance（相关性，名词）/ related to（也用 to）/ pertinent（更正式）"
+      },
+      "collocations": [
+        "relevant studies"
+      ],
+      "examples": [
+        "Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise, the researchers, led by John Chan at Shenzhen University, found 33 results from 19 relevant studies. 先说有氧运动：深圳大学 John Chan 团队梳理了 19 项相关研究，结论却互相打架。"
+      ]
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "researcher 的复数，研究人员",
+      "collocations": [],
+      "examples": [
+        "Beginning first with the influence of exercise intensity on the mood benefits of aerobic exercise, the researchers, led by John Chan at Shenzhen University, found 33 results from 19 relevant studies. 先说有氧运动：深圳大学 John Chan 团队梳理了 19 项相关研究，结论却互相打架。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researchers / researcher（同族不同词形，注意词性与用法）"
+      }
+    },
+    "results": {
+      "phonetic": "/rɪˈzʌlts/",
+      "pos": "n.",
+      "sense": "结果（result 的复数）；成绩",
+      "lemma": "result",
+      "collocations": [
+        "the results show",
+        "test results"
+      ],
+      "examples": [
+        "The results suggest a clear difference. 结果表明有明显差异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "results（复数）/ result（单数）"
+      }
+    },
+    "review": {
+      "phonetic": "/rɪˈvjuː/",
+      "pos": "n./v.",
+      "sense": "审查、检查、回顾、复习、评论、书评；复审、复习",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "re-（再）+ view（看）→ 再看一遍 → 复习、回顾、评审",
+        "confusables": "review（复习；回顾；评论；评审，名词/动词）/ revise（修订、修改；英式也指复习）/ preview（预览，pre- 预先）/ under review（在审议中）"
+      },
+      "collocations": [
+        "systematic review",
+        "review brings"
+      ],
+      "examples": [
+        "However, a new systematic review brings us usefully up to-date on the current findings in this area. 好在一篇新的系统综述及时梳理了该领域的最新成果，正好补上这块空白。"
+      ]
+    },
+    "seven": {
+      "phonetic": "/ˈsevn/",
+      "pos": "num.",
+      "sense": "七、七个",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "while seven",
+        "seven studies"
+      ],
+      "examples": [
+        "Some favoured higher intensity, others low, while seven studies found that intensity made no 34 to mood benefits. 有的偏向高强度，有的偏向低强度，还有 7 项干脆说强度高低对情绪没啥影响。"
+      ],
+      "more": {
+        "confusables": "seven / several / severely（同族不同词形，注意词性与用法）"
+      }
+    },
+    "studies": {
+      "phonetic": "/ˈstʌdiz/",
+      "pos": "n./v.",
+      "sense": "研究（study 的复数）；study 的第三人称单数",
+      "lemma": "study",
+      "collocations": [
+        "studies show that",
+        "recent studies"
+      ],
+      "examples": [
+        "Studies suggest a strong link. 研究表明存在强关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "studies（复数/三单）/ study（单数）"
+      }
+    },
+    "systematic": {
+      "phonetic": "/ˌsɪstəˈmætɪk/",
+      "pos": "adj.",
+      "sense": "系统的、有条理的、有计划的、成体系的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "system（系统）+ -atic（形容词后缀，同 dramatic/automatic）",
+        "confusables": "systematic（有系统的、有条理的，指方法按步骤）/ systemic（全身的、体系性的，如 systemic risk 系统性风险）/ systematically（副词）/ methodical（近义）"
+      },
+      "collocations": [
+        "new systematic",
+        "systematic review"
+      ],
+      "examples": [
+        "However, a new systematic review brings us usefully up to-date on the current findings in this area. 好在一篇新的系统综述及时梳理了该领域的最新成果，正好补上这块空白。"
+      ]
+    },
+    "things": {
+      "phonetic": "/θɪŋz/",
+      "pos": "n.",
+      "sense": "事情、东西（thing 的复数）",
+      "lemma": "thing",
+      "collocations": [
+        "all things considered",
+        "the thing is",
+        "things like that"
+      ],
+      "examples": [
+        "They have to do all these things first. 他们必须先做所有这些事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "things（事情/东西）/ stuff（东西，不可数，口语）"
+      }
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "type": {
+      "phonetic": "/taɪp/",
+      "pos": "n./v.",
+      "sense": "类型、种类、品种、典型、字体、铅字；打字、测定…的类型",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Yet whereas most countries have 26 , evidence-backed guidelines on the type and intensity of exercise 27 for various physical health benefits, such guidelines do not yet exist for exercise and mood. 可怪就怪在：各国对「练什么、练多强才能改善身体」早有详细且循证的指南，偏偏「运动怎样改善情绪」至今没有类似说法。"
+      ],
+      "more": {
+        "confusables": "type / types（同族不同词形，注意词性与用法）"
+      }
+    },
+    "university": {
+      "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+      "pos": "n.",
+      "sense": "大学（可数）",
+      "collocations": [
+        "at university",
+        "university students",
+        "a research university"
+      ],
+      "examples": [
+        "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "university（大学）/ college（学院）/ at university（在读大学，不加 the）"
+      }
+    },
+    "unpleasant": {
+      "phonetic": "/ʌnˈpleznt/",
+      "pos": "adj.",
+      "sense": "令人不快的、讨厌的、不和善的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "un-（否定前缀）+ pleasant（愉快的，please + -ant）",
+        "confusables": "unpleasant（令人不快的，指事物/经历）/ pleased（感到高兴的，指人）/ pleasant（令人愉快的）/ displeased（不悦的，指人）/ nasty（令人厌恶的，语气更强）"
+      },
+      "collocations": [],
+      "examples": [
+        "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum(最佳选择) for improving mood is 35 intensity, perhaps because low intensity is too dull while high intensity is too unpleasant. 轮到无氧运动，结论反倒干脆：想靠它改善心情，中等强度最合适——太低太无聊，太高又太难受。"
+      ]
+    },
+    "use": {
+      "phonetic": "/juːz/",
+      "pos": "v./n.",
+      "sense": "使用、运用；用途、用法（名词读 /juːs/）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "use（v. 使用 /juːz/；n. 用途、使用 /juːs/，读音不同）/ use sth to do（用某物做）/ be used to do（被用于做）/ make use of（利用）/ usage（用法，名词）"
+      },
+      "collocations": [
+        "use oxygen",
+        "able to use",
+        "time to use"
+      ],
+      "examples": [
+        "The former 31 such things as walking, jogging and cycling and means exercising in such a way that your body is able to use oxygen to burn fat for energy. 有氧运动就是散步、慢跑、骑车这类：强度适中，身体来得及用氧气分解脂肪来供能。"
+      ]
+    },
+    "usefully": {
+      "phonetic": "/ˈjuːsfəli/",
+      "pos": "adv.",
+      "sense": "有用地、有效地、有益地",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "usefully up",
+        "usefully up to-date"
+      ],
+      "examples": [
+        "However, a new systematic review brings us usefully up to-date on the current findings in this area. 好在一篇新的系统综述及时梳理了该领域的最新成果，正好补上这块空白。"
+      ],
+      "more": {
+        "roots": "usefully 含 -ly（副词后缀）"
+      }
+    },
+    "various": {
+      "phonetic": "/ˈveəriəs/",
+      "pos": "adj.",
+      "sense": "各种各样的",
+      "collocations": [
+        "various physical"
+      ],
+      "examples": [
+        "Yet whereas most countries have 26 , evidence-backed guidelines on the type and intensity of exercise 27 for various physical health benefits, such guidelines do not yet exist for exercise and mood. 可怪就怪在：各国对「练什么、练多强才能改善身体」早有详细且循证的指南，偏偏「运动怎样改善情绪」至今没有类似说法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "various 含 -ous（形容词后缀）"
+      }
+    },
+    "walking": {
+      "phonetic": "/ˈwɔːkɪŋ/",
+      "pos": "n./v.",
+      "sense": "步行（不可数）；walk 的现在分词",
+      "lemma": "walk",
+      "collocations": [
+        "walking more",
+        "walking distance"
+      ],
+      "examples": [
+        "Walking more improves health. 多走路能改善健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "walking（步行）/ walk（走）"
+      }
+    },
+    "way": {
+      "phonetic": "/weɪ/",
+      "pos": "n.",
+      "sense": "方法、方式；路；程度（in a way）",
+      "collocations": [
+        "the best way to do sth",
+        "in some ways",
+        "by the way"
+      ],
+      "examples": [
+        "There is no simple way to fix it. 没有简单的办法解决它。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "way（方法）/ road（道路）/ method（方法，正式）"
+      }
+    },
+    "weights": {
+      "phonetic": "/weɪtts/",
+      "pos": "n.",
+      "sense": "体重、重量（weight 的复数/三单形式）",
+      "lemma": "weight",
+      "collocations": [
+        "heavy weights"
+      ],
+      "examples": [
+        "In contrast, anaerobic exercise—such as lifting heavy weights—is of such 32 intensity that your body does not have time to use oxygen to create energy and so instead it breaks down glucose(葡萄糖) in your blood or muscles. 无氧运动正相反：像举重这类强度太高的动作，身体来不及靠氧气供能，只能直接拆解血液或肌肉里的葡萄糖。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "weight + -s（复数/三单）",
+        "confusables": "weights（复数/三单）/ weight（原形）"
+      }
+    },
+    "well": {
+      "phonetic": "/wel/",
+      "pos": "adv./adj.",
+      "sense": "好地（副词）；健康的（形容词）；井（名词）",
+      "collocations": [
+        "as well",
+        "well-being",
+        "do well"
+      ],
+      "examples": [
+        "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "well（好地/健康）/ good（好的，形容词）/ as well（也）"
+      }
+    },
+    "whereas": {
+      "phonetic": "/ˌweərˈæz/",
+      "pos": "conj.",
+      "sense": "然而、但是、尽管、反之（用于对比）；鉴于（法律文书用语）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Yet whereas"
+      ],
+      "examples": [
+        "Yet whereas most countries have 26 , evidence-backed guidelines on the type and intensity of exercise 27 for various physical health benefits, such guidelines do not yet exist for exercise and mood. 可怪就怪在：各国对「练什么、练多强才能改善身体」早有详细且循证的指南，偏偏「运动怎样改善情绪」至今没有类似说法。"
+      ]
+    },
+    "yet": {
+      "phonetic": "/jet/",
+      "pos": "adv./conj.",
+      "sense": "尚、还（否定/疑问句）；然而（连词）",
+      "collocations": [
+        "not yet",
+        "yet another",
+        "as yet"
+      ],
+      "examples": [
+        "Yet studies suggest these anxieties are misplaced. 然而研究表明这些焦虑没有根据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "yet（尚/然而）/ already（已经）/ but（但是）"
+      }
+    }
+  }
+}
