@@ -32,6 +32,8 @@ CREATE TABLE article (
   section_type TEXT,
   difficulty  TEXT,
   word_count  INTEGER,
+  -- visibility 是历史字段：M11 移除用户导入后恒为 'system'，无业务语义。
+  -- 不清理的理由见 M15 任务包 02 §一 B：彻底删需改 Rust 20 处 + 前端 2 处 + 新迁移，收益成本比不成立。
   visibility  TEXT    NOT NULL CHECK (visibility IN ('system', 'user')),
   status      TEXT    NOT NULL DEFAULT 'published' CHECK (status IN ('draft', 'published')),
   created_at  TEXT    NOT NULL DEFAULT (datetime('now')),

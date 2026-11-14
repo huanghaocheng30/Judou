@@ -2179,24 +2179,7 @@ button {
   color: var(--ink-3);
 }
 
-/* 库卡片里的「补解析」行（M5b D4）：与既有 link-btn 同外观，只是单独占一行 */
-.article-actions {
-  margin: 6px 0 0;
-}
-
-/* 精读页页头的「补解析」入口 */
-.reader-patch {
-  flex: none;
-  align-self: center;
-}
-
-/* ═══════════ M5c D6：切分可视化 / 编辑面板（新增 class，只加不改） ═══════════ */
-
-.split-preview {
-  display: grid;
-  gap: 10px;
-  margin: 12px 0;
-}
+/* ═══════════ M5c D6：切分可视化（新增 class，只加不改） ═══════════ */
 
 .split-body,
 .split-question {
@@ -2215,36 +2198,6 @@ button {
 
 .split-question {
   border-left: 3px solid var(--accent, #2563eb);
-}
-
-/* 编辑面板：文章库与精读页共用 */
-.article-editor {
-  margin: 16px 0;
-  padding: 14px 16px;
-  border: 1px solid var(--border, #dcdfe6);
-  border-radius: 10px;
-  background: #fff;
-}
-
-.article-editor .editor-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.article-editor .editor-head h2 {
-  margin: 0;
-  font-size: 16px;
-}
-
-.article-editor .editor-block {
-  margin-top: 14px;
-}
-
-.article-editor .editor-block h3 {
-  margin: 0 0 8px;
-  font-size: 14px;
 }
 
 .editor-field {
