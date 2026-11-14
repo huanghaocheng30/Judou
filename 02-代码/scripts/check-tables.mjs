@@ -1,21 +1,16 @@
 #!/usr/bin/env node
 /**
- * AC2 运行期断言：只读打开 Tauri 生成的本地库，核查 19 张物理表 / schema_meta.version（002 后应为 2） /
- * 6 条显式索引 / app_setting 实际值。与 verify-sql.mjs 的区别：
- *   verify-sql = 迁移 SQL 空跑（写代码时的语法与结构自检）
- *   check-tables = 真实运行期库（证明应用启动时确实建了库）
+ * AC2 schema 断言：在**脚本内临时库**（`:memory:`）跑真迁移 SQL（001→003），核查 19 张物理表 /
+ * schema_meta.version=3 / 6 条显式索引 / 003 的 answer_source 列。与 verify-sql.mjs 的区别：
+ *   verify-sql = 迁移 SQL 的静态结构自检（不执行）
+ *   check-tables = 真执行一遍迁移（证明 db.rs 那套游标 + `execute_batch` 能吃下三份 SQL）
  *
- * 用法：node scripts/check-tables.mjs [dbPath]
- *   缺省路径 = %APPDATA%\\com.judou.app\\judou.db（Tauri v2 app_data_dir + identifier）
+ * M16 D4：**不再读 `%APPDATA%\com.judou.app\judou.db`**。原口径要求「应用启动过一次」，
+ * 于是干净机器上必红（假失败）、为绿去造库又是假证据；schema 正确性本该由迁移 SQL 自己证明。
+ *
+ * 用法：node scripts/check-tables.mjs
  */
-import { DatabaseSync } from "node:sqlite";
-import { existsSync } from "node:fs";
-import path from "node:path";
-
-const IDENTIFIER = "com.judou.app";
-const dbPath =
-  process.argv[2] ??
-  path.join(process.env.APPDATA ?? "", IDENTIFIER, "judou.db");
+import { openTempPackDb } from "./lib/temp-pack-db.mjs";
 
 const EXPECTED_TABLES = [
   "article", "paragraph", "sentence", "token", "question", "blank",
@@ -33,13 +28,9 @@ const EXPECTED_INDEXES = [
   "idx_review_plan_due",
 ];
 
-console.log(`库路径: ${dbPath}`);
-if (!existsSync(dbPath)) {
-  console.error("FAIL: 库文件不存在（应用是否启动过？）");
-  process.exit(1);
-}
+console.log("数据源: 脚本内临时库（:memory:，跑真迁移 SQL 001→003）");
 
-const db = new DatabaseSync(dbPath, { readOnly: true });
+const db = openTempPackDb({ withContent: false });
 let failed = false;
 
 const tables = db
@@ -85,4 +76,4 @@ console.log(`PRAGMA foreign_keys（只读连接，仅展示）= ${JSON.stringify
 
 db.close();
 if (failed) { console.error("FAIL: 运行期库与 02 D2 清单不符"); process.exit(1); }
-console.log("PASS: 运行期库 19 张表 / version=2 / 6 索引 全部符合");
+console.log("PASS: 迁移后 schema 19 张表 / version=3 / 6 索引 全部符合");

@@ -2179,27 +2179,6 @@ button {
   color: var(--ink-3);
 }
 
-/* ═══════════ M5c D6：切分可视化（新增 class，只加不改） ═══════════ */
-
-.split-body,
-.split-question {
-  margin: 0;
-  padding: 10px 12px;
-  max-height: 260px;
-  overflow: auto;
-  border: 1px solid var(--border, #dcdfe6);
-  border-radius: 8px;
-  background: var(--surface-2, #fafafa);
-  font-size: 13px;
-  line-height: 1.7;
-  white-space: pre-wrap;
-  word-break: break-word;
-}
-
-.split-question {
-  border-left: 3px solid var(--accent, #2563eb);
-}
-
 .editor-field {
   display: flex;
   align-items: center;

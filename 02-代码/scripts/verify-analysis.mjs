@@ -4,47 +4,43 @@
  *
  * 判据（与 02 v1.2 / 决策记录 #19 #20 #23 逐条对应）：
  *   ① parseMarkup 文本守恒：`parts.map(p => p.text).join("")` === `markup.replace(/[_~]/g, "")`
- *      —— 274/274 零例外（`text` 统一去标记符口径，含嵌套内层与 fail-closed 分支）
+ *      —— 1771/1771 零例外（`text` 统一去标记符口径，含嵌套内层与 fail-closed 分支）
  *   ② fail-closed 白名单**恰为** 7 句（sentence_id 26/68/69/75/180/211/260）；其余句一律不得触发
  *   ③ 五种 kind 全覆盖；样本句 id=4 出 subject/predicate/object、id=10 出 clause/phrase
  *   ④ 标记符零残留：任何 part.text 里都不含 `_` / `~`
  *   ⑤ 奇数标记不抛错、退化为单个 text part；嵌套按外层优先切、内层不展开
  *   ⑥ toSentenceCard 六段序固定、缺字段段 empty=true
  *   ⑦ pickWordCard 三态（provoke→context / teenagers→generic / the→none）
- *   ⑧ toBlankCard 30 空全部有内容、distractors 两形态逐空条数正确、无行时降级
+ *   ⑧ toBlankCard 180 空全部有内容、distractors 两形态逐空条数正确、无行时降级
  *   ⑨ normalizeList 数组 / 字符串（`、`、换行）/ JSON 数组文本 三形态归一
  *   ⑩ 数据事实：`more.synonyms`/`more.confusables` 两形态真实存在（string 130 / array 83）；
  *      `collocations`/`examples` 数据只有数组形态（字符串形态由构造用例覆盖，不谎称「数据里有」）
  *
- * 数据源与前置沿用 verify-render.mjs:27 口径：`process.argv[2] ?? APPDATA/com.judou.app/judou.db`；
- * 前置＝应用启动过一次、内置内容包已导入。
+ * 数据源（M16 D4）：**脚本内自建 `:memory:` 临时库**（`lib/temp-pack-db.mjs`：跑真迁移 SQL +
+ * 按 manifest 顺序灌 content-pack），不再读 `%APPDATA%\com.judou.app\judou.db`——
+ * 门禁验的是「内容包能不能被解析」，不该以「用户机器上启动过应用」为前提。
  *
  * 失败分两类（02 D10 / 评审 N2-9）：
- *   退出码 2 = 前置不满足（库文件不存在 / 库无数据）—— 不是实现错
+ *   退出码 2 = 前置不满足（内容包无句子/无解析行）—— 不是实现错
  *   退出码 1 = 实现错（断言不成立）
  *
- * 用法：node scripts/verify-analysis.mjs [dbPath]
+ * 用法：node scripts/verify-analysis.mjs
  */
-import { DatabaseSync } from "node:sqlite";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { openTempPackDb } from "./lib/temp-pack-db.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const dbPath = process.argv[2] ?? path.join(process.env.APPDATA ?? "", "com.judou.app", "judou.db");
 const analysisPath = path.join(root, "src", "lib", "analysis.ts");
 
-// ── 前置：库与实现文件 ──────────────────────────────────────────
-if (!existsSync(dbPath)) {
-  console.error(`FAIL[前置]: 库文件不存在（应用是否启动过？）：${dbPath}`);
-  process.exit(2);
-}
+// ── 前置：实现文件 ──────────────────────────────────────────────
 if (!existsSync(analysisPath)) {
   console.error(`FAIL[实现]: 纯函数不存在：${analysisPath}`);
   process.exit(1);
 }
 
-const db = new DatabaseSync(dbPath, { readOnly: true });
+const db = openTempPackDb({ withContent: true });
 const sentenceCount = db.prepare("SELECT COUNT(*) c FROM sentence").get().c;
 const analysisRows = db
   .prepare("SELECT sentence_id, struct_markup, translation_literal, translation_natural, structure_summary, paragraph_role, components_json, clauses_json, phrases_json, pitfalls_json FROM sentence_analysis ORDER BY sentence_id")
@@ -71,7 +67,7 @@ const fail = (msg) => {
 };
 const ok = (msg) => console.log(`  ok  ${msg}`);
 
-console.log(`库路径: ${dbPath}`);
+console.log(`数据源: 脚本内临时库（跑真迁移 SQL + 灌 content-pack）`);
 console.log(`库内：sentence ${sentenceCount} / sentence_analysis ${analysisRows.length}`);
 
 const strip = (markup) => markup.replace(/[_~]/g, "");
@@ -349,13 +345,13 @@ for (const testCase of listCases) {
 }
 if (!failed) ok(`${listCases.length} 个 normalizeList 用例通过`);
 
-// ── ⑧ toBlankCard 30 空 + 两形态 ──────────────────────────
-console.log("\n── ⑧ toBlankCard 30 空 + distractors 两形态 ──");
+// ── ⑧ toBlankCard 180 空 + 两形态 ─────────────────────────
+console.log("\n── ⑧ toBlankCard 180 空 + distractors 两形态 ──");
 const blankRows = db
   .prepare("SELECT article_id, blank_no, answer_key, answer_word, reason, distractors FROM blank ORDER BY article_id, blank_no")
   .all();
-console.log(`  库内 blank 行 ${blankRows.length}（期望 30）`);
-if (blankRows.length !== 30) fail(`blank 行数应 30，实测 ${blankRows.length}`);
+console.log(`  库内 blank 行 ${blankRows.length}（期望 180）`);
+if (blankRows.length !== 180) fail(`blank 行数应 180，实测 ${blankRows.length}`);
 let blankOk = 0;
 let stringForm = 0;
 let arrayForm = 0;
@@ -402,16 +398,16 @@ for (const row of blankRows) {
   blankOk += 1;
 }
 console.log(`  逐空条数：${blankDetail.join(" / ")}`);
-console.log(`  形态分布：array ${arrayForm} / string ${stringForm}（期望 10 / 20）；distractors 总条数 ${distTotal}`);
-if (arrayForm !== 10 || stringForm !== 20) fail(`distractors 形态分布应 array 10 / string 20，实测 ${arrayForm}/${stringForm}`);
-if (blankOk !== 30) fail(`30 空应全部有内容，实测 ${blankOk}`);
+console.log(`  形态分布：array ${arrayForm} / string ${stringForm}（期望 10 / 170）；distractors 总条数 ${distTotal}`);
+if (arrayForm !== 10 || stringForm !== 170) fail(`distractors 形态分布应 array 10 / string 170，实测 ${arrayForm}/${stringForm}`);
+if (blankOk !== 180) fail(`180 空应全部有内容，实测 ${blankOk}`);
 
 const blankEmpty = toBlankCard(null, 99);
 console.log(`  无行降级：${JSON.stringify(blankEmpty)}`);
 if (!blankEmpty.empty) fail(`无 blank 行时应 empty=true`);
 if (blankEmpty.blankNo !== 99) fail(`无 blank 行时 blankNo 应保留 99，实测 ${blankEmpty.blankNo}`);
 if (blankEmpty.distractors.length !== 0) fail(`无 blank 行时 distractors 应为空数组`);
-if (!failed) ok(`30 空全部有内容；两形态条数逐空一致；无行降级成立`);
+if (!failed) ok(`180 空全部有内容；两形态条数逐空一致；无行降级成立`);
 
 db.close();
 
@@ -420,4 +416,4 @@ if (failed) {
   console.error("FAIL[实现]: analysis.ts 未通过 M2 纯函数判据（详见上方 FAIL 行）");
   process.exit(1);
 }
-console.log(`PASS: parseMarkup 守恒 ${conserveOk}/${analysisRows.length} / fail-closed 恰 ${failedClosedSet.length} 句 / 五 kind 全覆盖 / 六段序固定 / 三态正确 / 30 空两形态逐条一致 / normalizeList 三形态`);
+console.log(`PASS: parseMarkup 守恒 ${conserveOk}/${analysisRows.length} / fail-closed 恰 ${failedClosedSet.length} 句 / 五 kind 全覆盖 / 六段序固定 / 三态正确 / 180 空两形态逐条一致 / normalizeList 三形态`);

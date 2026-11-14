@@ -1,0 +1,4524 @@
+{
+  "sourceKey": "cet4-2025-12-set2Cloze",
+  "articleId": "set2Cloze",
+  "packVersion": "2026.11.08-2",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 12,
+    "setNo": 2,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "How Music Moves the Mind",
+    "wordCount": 245
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Some music inspires you to move your feet, some inspires you to get out there and change the world. In any case, it's 26 to say that music moves people in special ways.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 99,
+          "text": "Some music inspires you to move your feet, some inspires you to get out there and change the world.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 19,
+              "surface": "inspires",
+              "normalized": "inspires",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 23,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "move",
+              "normalized": "move",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 36,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "feet",
+              "normalized": "feet",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 56,
+              "surface": "inspires",
+              "normalized": "inspires",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 67,
+              "surface": "get",
+              "normalized": "get",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 71,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 77,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 81,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 88,
+              "surface": "change",
+              "normalized": "change",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 92,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 98,
+              "surface": "world",
+              "normalized": "world",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 99,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一些音乐激励你挪动双脚，一些激励你走出去并改变世界。",
+            "translationNatural": "有的音乐让你忍不住跟着节拍动脚，有的则激励你走出门去改变世界。",
+            "structMarkup": "【Some music】 _inspires you to move your feet_, _some inspires you to get out there and change the world_.",
+            "structureSummary": "并列句（some…, some…）+ 两个不定式目的状语",
+            "components": [
+              {
+                "part": "Some music",
+                "role": "主语",
+                "note": "复数主语，谓语用 inspires；与后句 some 形成「有的……有的……」对照，奠定全文谈论音乐多元作用的基调"
+              },
+              {
+                "part": "inspires you to move your feet",
+                "role": "谓语",
+                "note": "及物动词 inspires 后接宾语 you 与不定式 to move，意为「激励你动起脚来」，是音乐让人身体律动的写照"
+              },
+              {
+                "part": "some inspires you to get out there and change the world",
+                "role": "谓语",
+                "note": "第二个分句，some 回指 some music，inspires 与前者平行，把音乐的作用从身体拔高到改变社会层面"
+              },
+              {
+                "part": "to move your feet",
+                "role": "状语",
+                "note": "不定式表结果／内容，move your feet 指随乐而动"
+              },
+              {
+                "part": "to get out there and change the world",
+                "role": "状语",
+                "note": "不定式作 inspires 的补足，get out there 意为「走出去」，change the world 递进至社会层面"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「并列句（some…, some…）+ 两个不定式目的状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "inspires",
+                "meaning": "激励、鼓舞、启发、唤起（灵感）；使产生（某种感受）（inspire sb to do 激励某人做）（inspire 的复数/三单形式）",
+                "usage": "注意区分：inspires（复数/三单）/ inspire（原形）。",
+                "example": "Some music inspires you to move your feet, some inspires you to get out there and change the world. 有的音乐让你忍不住跟着节拍动脚，有的则激励你走出门去改变世界。"
+              },
+              {
+                "text": "move",
+                "meaning": "移动、搬；促使（move sb to do）；举措",
+                "usage": "注意区分：move（移动）/ movement（运动/动作）。常见搭配：move on / move towards。",
+                "example": "The law is a move towards protection. 这项法律是迈向保护的一步。"
+              },
+              {
+                "text": "change",
+                "meaning": "改变、变化 / 变化、零钱",
+                "usage": "注意区分：change（改变）/ exchange（交换）/ alter（改动，更正式）。常见搭配：change behaviour / climate change。",
+                "example": "Attitudes are changing slowly. 态度正在缓慢改变。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：inspires（复数/三单）/ inspire（原形）。",
+              "注意区分：move（移动）/ movement（运动/动作）。",
+              "注意区分：get（变得/得到，口语）/ become（变得，正式）/ obtain（获得，正式）。"
+            ],
+            "paragraphRole": "首段用两类音乐的正面作用引出话题，并以 it's fair to say 收束，点明「音乐以特殊方式打动人」这一总论点，26 空考 it's + 形容词 + to do 结构中的形容词。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 100,
+          "end": 168,
+          "text": "In any case, it's 26 to say that music moves people in special ways.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "any",
+              "normalized": "any",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "case",
+              "normalized": "case",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "surface": "it's",
+              "normalized": "it's",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 20,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "say",
+              "normalized": "say",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 32,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 44,
+              "surface": "moves",
+              "normalized": "moves",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 51,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 62,
+              "surface": "special",
+              "normalized": "special",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 67,
+              "surface": "ways",
+              "normalized": "ways",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 68,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "无论如何，说音乐以特殊方式打动人是 26 的。",
+            "translationNatural": "总之，公允地说，音乐确实是以特殊的方式在打动人。",
+            "structMarkup": "(In any case), 【it】's ~26~ 【to say that music moves people in special ways】.",
+            "structureSummary": "it 形式主语 + 系表（it's + 形容词 + to do）+ that 宾语从句",
+            "components": [
+              {
+                "part": "In any case",
+                "role": "状语",
+                "note": "过渡短语，意为「无论如何、总之」，把前面两类例子收拢成一句总评"
+              },
+              {
+                "part": "it",
+                "role": "形式主语",
+                "note": "形式主语，真正主语是后面的不定式复合结构 to say that…，避免头重脚轻"
+              },
+              {
+                "part": "26",
+                "role": "表语",
+                "note": "空格位于 it's 与 to say 之间，构成 it's + 形容词 + to do，需形容词；填 fair 后成 it's fair to say（公允地说）"
+              },
+              {
+                "part": "to say that music moves people in special ways",
+                "role": "主语",
+                "note": "真正主语，不定式短语；that 从句作 say 的宾语，点出全文主旨——音乐以特殊方式打动人"
+              },
+              {
+                "part": "that music moves people in special ways",
+                "role": "宾语从句",
+                "note": "say 的宾语，moves 此处意为「打动、触动」，in special ways 作方式状语"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that music moves people in special ways」：say 的宾语，moves 此处意为「打动、触动」，in special ways 作方式状语",
+              "本句主干为「it 形式主语 + 系表（it's + 形容词 + to do）+ that 宾语从句」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "case",
+                "meaning": "事例、情况、案例；案件；箱子、盒（in case 万一）",
+                "usage": "注意区分：in case（万一，连词，从句用一般现在时表将来）/ in case of + 名词（假如发生，介词短语）/ in the case of（就…而言）/ in no case（绝不，置句首主句倒装）/ in any case（无论如何）。",
+                "example": "In any case, it's 26 to say that music moves people in special ways. 总之，公允地说，音乐确实是以特殊的方式在打动人。"
+              },
+              {
+                "text": "it's",
+                "meaning": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+                "usage": "注意区分：it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）。常见搭配：it's important that / it's likely to。",
+                "example": "It's hard to say. 很难说。"
+              },
+              {
+                "text": "moves",
+                "meaning": "移动、搬；促使（move sb to do）；举措（move 的复数/三单形式）",
+                "usage": "注意区分：moves（复数/三单）/ move（原形）。",
+                "example": "In any case, it's 26 to say that music moves people in special ways. 总之，公允地说，音乐确实是以特殊的方式在打动人。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：in case（万一，连词，从句用一般现在时表将来）/ in case of + 名词（假如发生，介词短语）/ in the case of（就…而言）/ in no case（绝不，置句首主句倒装）/ in any case（无论如何）。",
+              "注意区分：it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）。",
+              "注意区分：moves（复数/三单）/ move（原形）。"
+            ],
+            "paragraphRole": "用 In any case 收口，it's fair to say 把两类例子提炼为总判断，26 空锁定形容词 fair。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response (ASMR), which 27 to you like a sting in your brain.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 165,
+          "text": "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response (ASMR), which 27 to you like a sting in your brain.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "If",
+              "normalized": "if",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 9,
+              "surface": "you're",
+              "normalized": "you're",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 20,
+              "surface": "especially",
+              "normalized": "especially",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 27,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 33,
+              "surface": "piece",
+              "normalized": "piece",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 42,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 54,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 59,
+              "surface": "does",
+              "normalized": "does",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 69,
+              "surface": "something",
+              "normalized": "something",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 76,
+              "surface": "called",
+              "normalized": "called",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 87,
+              "surface": "Autonomous",
+              "normalized": "autonomous",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 95,
+              "surface": "Sensory",
+              "normalized": "sensory",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 104,
+              "surface": "Meridian",
+              "normalized": "meridian",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 113,
+              "surface": "Response",
+              "normalized": "response",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 115,
+              "surface": "(",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 115,
+              "end": 119,
+              "surface": "ASMR",
+              "normalized": "asmr",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 120,
+              "surface": ")",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 120,
+              "end": 121,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 122,
+              "end": 127,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 130,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 131,
+              "end": 133,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 137,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 142,
+              "surface": "like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 144,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 150,
+              "surface": "sting",
+              "normalized": "sting",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 153,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 158,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 164,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 165,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "如果你特别沉迷于一首音乐，你的大脑会做一件叫作自律性感官经络反应（ASMR）的事，它 27 给你像脑中一刺。",
+            "translationNatural": "要是你特别迷某首曲子，大脑会触发一种叫「自发性知觉经络反应」（ASMR）的东西，它给你的感觉就像脑子里被刺了一下。",
+            "structMarkup": "{If you're especially into a piece of music}, 【your brain】 _does something_ (called Autonomous Sensory Meridian Response (ASMR)), {which 27 to you like a sting in your brain}.",
+            "structureSummary": "If 条件状语从句 + 主句（主谓宾 + 过去分词作后置定语）+ which 定语从句",
+            "components": [
+              {
+                "part": "If you're especially into a piece of music",
+                "role": "状语从句",
+                "note": "If 引导条件从句，you're into… 意为「你特别沉迷于……」，into 口语化表喜好"
+              },
+              {
+                "part": "your brain",
+                "role": "主语",
+                "note": "主句主语，谓语用 does，承接条件从句里的「你」"
+              },
+              {
+                "part": "does something",
+                "role": "谓语",
+                "note": "does 作及物动词，something 为宾语，整体意为「大脑做了一件事」"
+              },
+              {
+                "part": "called Autonomous Sensory Meridian Response (ASMR)",
+                "role": "定语",
+                "note": "过去分词短语作后置定语修饰 something，called 引出专有名词 ASMR 的全称"
+              },
+              {
+                "part": "which 27 to you like a sting in your brain",
+                "role": "定语从句",
+                "note": "which 指代 ASMR，在从句中作主语需三单谓语；27 填 feels 后成 feels to you like a sting，把体感比作脑中一刺"
+              }
+            ],
+            "clauses": [
+              "状语从句「If you're especially into a piece of music」：If 引导条件从句，you're into… 意为「你特别沉迷于……」，into 口语化表喜好",
+              "定语从句「which 27 to you like a sting in your brain」：which 指代 ASMR，在从句中作主语需三单谓语；27 填 feels 后成 feels to you like a sting，把体感比作脑中一刺",
+              "条件状语从句中，主句表将来时从句用一般现在时。"
+            ],
+            "phrases": [
+              {
+                "text": "something",
+                "meaning": "某事、某物（不定代词）",
+                "usage": "注意区分：something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）。常见搭配：something like / something to do with。",
+                "example": "If you feel something should not be done... 如果你觉得某事不该做……"
+              },
+              {
+                "text": "like",
+                "meaning": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+                "usage": "注意区分：like（介词，后接名词）/ as（连词，后接从句）。常见搭配：like this / feel like。",
+                "example": "Tools like this save time. 这样的工具能省时间。"
+              }
+            ],
+            "pitfalls": [
+              "if 引导条件从句时，从句不用 will 表将来。",
+              "注意区分：something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）。",
+              "注意区分：like（介词，后接名词）/ as（连词，后接从句）。"
+            ],
+            "paragraphRole": "第二段引入 ASMR 这一专业概念，用 which 定语从句把其体感比作脑中一刺，27 空考与 which（单数）一致的三单动词 feels。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "It turns out that ASMR is pretty special. According to a 28 published study in The Journal of Prevention of Alzheimer's Disease, the part of your brain responsible for ASMR doesn't get lost to Alzheimer's. Alzheimer's 29 to put people into layers of confusion, and the study confirms that music can sometimes 30 lift people out of the Alzheimer's haze and bring them back to (at least a likeness of) normality … if only for a short while. ASMR is powerful stuff!",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 41,
+          "text": "It turns out that ASMR is pretty special.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "turns",
+              "normalized": "turns",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 22,
+              "surface": "ASMR",
+              "normalized": "asmr",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 32,
+              "surface": "pretty",
+              "normalized": "pretty",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 40,
+              "surface": "special",
+              "normalized": "special",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 41,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "结果证明 ASMR 是相当特殊的。",
+            "translationNatural": "事实证明，ASMR 还真是挺特别的。",
+            "structMarkup": "【It】 _turns out_ {that ASMR is pretty special}.",
+            "structureSummary": "主（虚位主语）+ 谓语（turn out）+ that 宾语从句",
+            "components": [
+              {
+                "part": "It",
+                "role": "主语",
+                "note": "虚位主语，指代后文 that 从句所陈述的事实"
+              },
+              {
+                "part": "turns out",
+                "role": "谓语",
+                "note": "turn out 为系动词性短语，意为「结果是、事实证明」，后接 that 从句"
+              },
+              {
+                "part": "that ASMR is pretty special",
+                "role": "宾语从句",
+                "note": "turns out 的宾语，主干 ASMR is special，pretty 副词加强语气，引出本段核心判断"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that ASMR is pretty special」：turns out 的宾语，主干 ASMR is special，pretty 副词加强语气，引出本段核心判断",
+              "本句主干为「主（虚位主语）+ 谓语（turn out）+ that 宾语从句」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "It turns out",
+                "meaning": "结果是、原来",
+                "usage": "常接 that 从句，说明与预期不同的发现。",
+                "example": "It turns out that sleep matters. 原来睡眠很关键。"
+              },
+              {
+                "text": "turns",
+                "meaning": "转动、旋转、翻转、转弯、变成、转向；轮次、转动、转弯、变化、转折（turn 的复数/三单形式）",
+                "usage": "注意区分：turns（复数/三单）/ turn（原形）。",
+                "example": "It turns out that ASMR is pretty special. 事实证明，ASMR 还真是挺特别的。"
+              },
+              {
+                "text": "special",
+                "meaning": "特殊的、特别的",
+                "usage": "常见搭配：special interest groups。",
+                "example": "It turns out that ASMR is pretty special. 事实证明，ASMR 还真是挺特别的。"
+              }
+            ],
+            "pitfalls": [
+              "it turns out that 后接完整从句，it 是形式主语。",
+              "注意区分：turns（复数/三单）/ turn（原形）。"
+            ],
+            "paragraphRole": "用 turns out 把话题落到 ASMR 的特殊性，是全段主旨句，为后文研究证据张本。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 42,
+          "end": 205,
+          "text": "According to a 28 published study in The Journal of Prevention of Alzheimer's Disease, the part of your brain responsible for ASMR doesn't get lost to Alzheimer's.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "According",
+              "normalized": "according",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 12,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 17,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 18,
+              "end": 27,
+              "surface": "published",
+              "normalized": "published",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 33,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 48,
+              "surface": "Journal",
+              "normalized": "journal",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 51,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 62,
+              "surface": "Prevention",
+              "normalized": "prevention",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 77,
+              "surface": "Alzheimer's",
+              "normalized": "alzheimer's",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 85,
+              "surface": "Disease",
+              "normalized": "disease",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 86,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 95,
+              "surface": "part",
+              "normalized": "part",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 103,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 109,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 121,
+              "surface": "responsible",
+              "normalized": "responsible",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 125,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 130,
+              "surface": "ASMR",
+              "normalized": "asmr",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 138,
+              "surface": "doesn't",
+              "normalized": "doesn't",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 142,
+              "surface": "get",
+              "normalized": "get",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 147,
+              "surface": "lost",
+              "normalized": "lost",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 150,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 162,
+              "surface": "Alzheimer's",
+              "normalized": "alzheimer's",
+              "isWord": true
+            },
+            {
+              "start": 162,
+              "end": 163,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "根据一篇 28 发表的、刊登在《阿尔茨海默病预防杂志》上的研究，你大脑中负责 ASMR 的那部分不会因为阿尔茨海默病而迷失。",
+            "translationNatural": "据《阿尔茨海默病预防杂志》一篇近期发表的研究，大脑里负责 ASMR 的那块区域并不会被阿尔茨海默病毁掉。",
+            "structMarkup": "(According to a 28 published study in The Journal of Prevention of Alzheimer's Disease), 【the part of your brain responsible for ASMR】 _doesn't get lost to Alzheimer's_.",
+            "structureSummary": "介词短语作状语（含 28 修饰语）+ 主谓（含后置定语）",
+            "components": [
+              {
+                "part": "According to a 28 published study in The Journal of Prevention of Alzheimer's Disease",
+                "role": "状语",
+                "note": "介词短语作状语，点明信息来源；28 修饰 published study，需副词，recently 最贴切"
+              },
+              {
+                "part": "the part of your brain responsible for ASMR",
+                "role": "主语",
+                "note": "核心词 part，of 短语与 responsible for ASMR 双重修饰，限定是大脑中「负责 ASMR 的那部分」"
+              },
+              {
+                "part": "doesn't get lost to Alzheimer's",
+                "role": "谓语",
+                "note": "否定谓语，get lost to 意为「因……而丧失／迷失」，说明这部分脑组织不被阿尔茨海默病摧毁"
+              },
+              {
+                "part": "responsible for ASMR",
+                "role": "定语",
+                "note": "形容词短语作后置定语，修饰 the part，说明该脑区的功能归属"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「介词短语作状语（含 28 修饰语）+ 主谓（含后置定语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "According to",
+                "meaning": "根据、据……所说",
+                "usage": "引出信息来源，后接名词或代词，不接从句。",
+                "example": "According to the report, costs rose. 据报告，成本上升了。"
+              },
+              {
+                "text": "according",
+                "meaning": "根据、按照（according to）",
+                "usage": "注意区分：according to（根据，后接来源）/ because of（因为）。常见搭配：according to the study / according to sb。",
+                "example": "According to the study, rates are stable. 根据这项研究，比率稳定。"
+              },
+              {
+                "text": "published",
+                "meaning": "publish 的过去式/过去分词（发表、出版）",
+                "usage": "注意区分：published（发表）/ publication（发表，名词）/ publish。常见搭配：published in the journal / be published。",
+                "example": "One recent study published in PLOS ONE found... 最近发表在《PLOS ONE》上的一项研究……"
+              }
+            ],
+            "pitfalls": [
+              "according to 不用于表达自己观点，不说 according to me。",
+              "注意区分：according to（根据，后接来源）/ because of（因为）。",
+              "注意区分：published（发表）/ publication（发表，名词）/ publish。"
+            ],
+            "paragraphRole": "借权威期刊研究给出硬证据：负责 ASMR 的脑区不受病变影响，28 空考修饰 published study 的副词 recently。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 206,
+          "end": 438,
+          "text": "Alzheimer's 29 to put people into layers of confusion, and the study confirms that music can sometimes 30 lift people out of the Alzheimer's haze and bring them back to (at least a likeness of) normality … if only for a short while.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 11,
+              "surface": "Alzheimer's",
+              "normalized": "alzheimer's",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 15,
+              "end": 17,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "surface": "put",
+              "normalized": "put",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 28,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 33,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 40,
+              "surface": "layers",
+              "normalized": "layers",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 43,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 53,
+              "surface": "confusion",
+              "normalized": "confusion",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 54,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 62,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 68,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 77,
+              "surface": "confirms",
+              "normalized": "confirms",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 88,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 92,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 102,
+              "surface": "sometimes",
+              "normalized": "sometimes",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 105,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 106,
+              "end": 110,
+              "surface": "lift",
+              "normalized": "lift",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 117,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 121,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 124,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 128,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 140,
+              "surface": "Alzheimer's",
+              "normalized": "alzheimer's",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 145,
+              "surface": "haze",
+              "normalized": "haze",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 149,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 155,
+              "surface": "bring",
+              "normalized": "bring",
+              "isWord": true
+            },
+            {
+              "start": 156,
+              "end": 160,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 161,
+              "end": 165,
+              "surface": "back",
+              "normalized": "back",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 168,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 169,
+              "end": 170,
+              "surface": "(",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 170,
+              "end": 172,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 173,
+              "end": 178,
+              "surface": "least",
+              "normalized": "least",
+              "isWord": true
+            },
+            {
+              "start": 179,
+              "end": 180,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 189,
+              "surface": "likeness",
+              "normalized": "likeness",
+              "isWord": true
+            },
+            {
+              "start": 190,
+              "end": 192,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 192,
+              "end": 193,
+              "surface": ")",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 194,
+              "end": 203,
+              "surface": "normality",
+              "normalized": "normality",
+              "isWord": true
+            },
+            {
+              "start": 204,
+              "end": 205,
+              "surface": "…",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 206,
+              "end": 208,
+              "surface": "if",
+              "normalized": "if",
+              "isWord": true
+            },
+            {
+              "start": 209,
+              "end": 213,
+              "surface": "only",
+              "normalized": "only",
+              "isWord": true
+            },
+            {
+              "start": 214,
+              "end": 217,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 218,
+              "end": 219,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 220,
+              "end": 225,
+              "surface": "short",
+              "normalized": "short",
+              "isWord": true
+            },
+            {
+              "start": 226,
+              "end": 231,
+              "surface": "while",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 231,
+              "end": 232,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "阿尔茨海默病 29 把人放进一层层的混乱之中，并且这项研究确认音乐有时能 30 把人从阿尔茨海默的迷雾中拉出并带回到（至少近似的）正常状态……哪怕只是片刻。",
+            "translationNatural": "阿尔茨海默病往往会把人层层困在混乱里，而研究确认音乐有时确实能把人从那片病态迷雾中拉出来、带回（至少近似的）正常状态——哪怕只是短暂一会儿。",
+            "structMarkup": "【Alzheimer's】 _29 to put people into layers of confusion_, _and the study confirms_ {that music can sometimes 30 lift people out of the Alzheimer's haze and bring them back to (at least a likeness of) normality} … (if only for a short while).",
+            "structureSummary": "并列句（前分句主谓 + 不定式；后分句主谓 + that 宾语从句含并列不定式）+ 让步状语",
+            "components": [
+              {
+                "part": "Alzheimer's",
+                "role": "主语",
+                "note": "疾病名称作主语，谓语用三单 tends"
+              },
+              {
+                "part": "29 to put people into layers of confusion",
+                "role": "谓语",
+                "note": "29 在主语后作谓语，需三单动词；填 tends 后成 tends to put，意为「往往把人层层困在混乱中」"
+              },
+              {
+                "part": "and the study confirms",
+                "role": "谓语",
+                "note": "and 连接的第二谓语，主语换为 the study，引出研究结论"
+              },
+              {
+                "part": "that music can sometimes 30 lift people out of the Alzheimer's haze and bring them back to (at least a likeness of) normality",
+                "role": "宾语从句",
+                "note": "confirms 的宾语；30 在 can 与 lift 之间修饰动词需副词 actually；lift…out of 与 bring back to 两个不定式并列"
+              },
+              {
+                "part": "if only for a short while",
+                "role": "状语",
+                "note": "让步状语，意为「哪怕只是片刻」，为前面的乐观结论留出余地"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that music can sometimes 30 lift people out of the Alzheimer's haze an」：confirms 的宾语；30 在 can 与 lift 之间修饰动词需副词 actually；lift…out of 与 bring back to 两个不定式并列",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。",
+              "条件状语从句中，主句表将来时从句用一般现在时。"
+            ],
+            "phrases": [
+              {
+                "text": "at least",
+                "meaning": "至少",
+                "usage": "修饰数量或程度，反义 at most（至多）。",
+                "example": "It takes at least an hour. 至少要一小时。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              }
+            ],
+            "pitfalls": [
+              "at least 是副词短语，不修饰名词作定语。",
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "if 引导条件从句时，从句不用 will 表将来。"
+            ],
+            "paragraphRole": "把「病常使人糊涂／音乐偶尔使人清醒」对照写出，29 空考主语三单 tends，30 空考 can 与 lift 之间的副词 actually，并以 powerful stuff 小结。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 439,
+          "end": 462,
+          "text": "ASMR is powerful stuff!",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "ASMR",
+              "normalized": "asmr",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 16,
+              "surface": "powerful",
+              "normalized": "powerful",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "stuff",
+              "normalized": "stuff",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 23,
+              "surface": "!",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "ASMR 是强有力的东西！",
+            "translationNatural": "ASMR 可真不是闹着玩的！",
+            "structMarkup": "【ASMR】 _is_ ~powerful stuff~!",
+            "structureSummary": "主系表（感叹句）",
+            "components": [
+              {
+                "part": "ASMR",
+                "role": "主语",
+                "note": "回指前文概念，作主语"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接表语"
+              },
+              {
+                "part": "powerful stuff",
+                "role": "表语",
+                "note": "stuff 口语化指「东西、玩意儿」，powerful stuff 收束全段，强调 ASMR 效力之强"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（感叹句）」。"
+            ],
+            "phrases": [
+              {
+                "text": "powerful",
+                "meaning": "强大的、强有力的、有权势的、效力大的",
+                "usage": "注意区分：powerful（强大的、有力的，形容词）/ power（力量；电力；权力，名词）/ powerless（无力的，反义）/ strong（多指体力/强度）/ power 与 strength。",
+                "example": "ASMR is powerful stuff! ASMR 可真不是闹着玩的！"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：powerful（强大的、有力的，形容词）/ power（力量；电力；权力，名词）/ powerless（无力的，反义）/ strong（多指体力/强度）/ power 与 strength。",
+              "本句主干为「主系表（感叹句）」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "用感叹句收住第三段，强调 ASMR 效力惊人，并为第四段「少见研究」做反差铺垫。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "This phenomenon has been 31 several times but rarely studied properly. One of the most famous examples of this is the story of 92-year-old Henry Dryer, who comes out of dementia(痴呆) while listening to songs from his youth.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 70,
+          "text": "This phenomenon has been 31 several times but rarely studied properly.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 15,
+              "surface": "phenomenon",
+              "normalized": "phenomenon",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "been",
+              "normalized": "been",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 28,
+              "end": 35,
+              "surface": "several",
+              "normalized": "several",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "times",
+              "normalized": "times",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 52,
+              "surface": "rarely",
+              "normalized": "rarely",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 60,
+              "surface": "studied",
+              "normalized": "studied",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 69,
+              "surface": "properly",
+              "normalized": "properly",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 70,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这一现象已被 31 若干次，但很少被恰当地研究。",
+            "translationNatural": "这种现象已经被观察到好几次了，却几乎没被认真研究过。",
+            "structMarkup": "【This phenomenon】 _has been 31_ (several times) _but rarely studied properly_.",
+            "structureSummary": "并列谓语（前：现在完成时被动；后：被动）由 but 连接",
+            "components": [
+              {
+                "part": "This phenomenon",
+                "role": "主语",
+                "note": "回指前文 ASMR 的特殊现象，用 This 承上"
+              },
+              {
+                "part": "has been 31",
+                "role": "谓语",
+                "note": "现在完成时被动，31 需过去分词；填 observed 成 has been observed（已被多次观察到）"
+              },
+              {
+                "part": "several times",
+                "role": "状语",
+                "note": "时间状语，与 31 呼应，说明被观察的次数"
+              },
+              {
+                "part": "but rarely studied properly",
+                "role": "谓语",
+                "note": "but 连接的第二谓语（被动），rarely 副词，与前面「被多次观察」形成「见得多、研究少」的转折"
+              }
+            ],
+            "clauses": [
+              "have + 过去分词构成完成时态，强调对现在的影响或动作的先后。",
+              "含否定或半否定成分；若置于句首，主句须部分倒装。"
+            ],
+            "phrases": [
+              {
+                "text": "several",
+                "meaning": "数个、几个（后接可数复数）",
+                "usage": "注意区分：several（数个，后接复数）/ some（一些）。常见搭配：several years / several of them。",
+                "example": "Several legal cases were filed. 提起了数起法律诉讼。"
+              },
+              {
+                "text": "times",
+                "meaning": "次数；时代（time 的复数）；乘以",
+                "usage": "注意区分：times（次数/时代）/ time（时间）。常见搭配：three times / at times。",
+                "example": "He won three times. 他赢过三次。"
+              },
+              {
+                "text": "studied",
+                "meaning": "研究、调查；学习 / 研究、学习（study 的过去式/过去分词形式）",
+                "usage": "注意区分：studied（过去式/过去分词）/ study（原形）。",
+                "example": "This phenomenon has been 31 several times but rarely studied properly. 这种现象已经被观察到好几次了，却几乎没被认真研究过。"
+              }
+            ],
+            "pitfalls": [
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。",
+              "否定副词置于句首时主句要部分倒装（助动词提前）。"
+            ],
+            "paragraphRole": "用「被多次观察却少被研究」的转折过渡到实例，31 空考 has been 之后被动语态所需的过去分词 observed。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 71,
+          "end": 222,
+          "text": "One of the most famous examples of this is the story of 92-year-old Henry Dryer, who comes out of dementia(痴呆) while listening to songs from his youth.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "One",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "surface": "most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 22,
+              "surface": "famous",
+              "normalized": "famous",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 31,
+              "surface": "examples",
+              "normalized": "examples",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 42,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 46,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "story",
+              "normalized": "story",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 55,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 58,
+              "surface": "92",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 58,
+              "end": 59,
+              "surface": "-",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 59,
+              "end": 67,
+              "surface": "year-old",
+              "normalized": "year-old",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 73,
+              "surface": "Henry",
+              "normalized": "henry",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 79,
+              "surface": "Dryer",
+              "normalized": "dryer",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 80,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 81,
+              "end": 84,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 90,
+              "surface": "comes",
+              "normalized": "comes",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 94,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 97,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 106,
+              "surface": "dementia",
+              "normalized": "dementia",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 110,
+              "surface": "(痴呆)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 111,
+              "end": 116,
+              "surface": "while",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 126,
+              "surface": "listening",
+              "normalized": "listening",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 129,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 135,
+              "surface": "songs",
+              "normalized": "songs",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 140,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 144,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 150,
+              "surface": "youth",
+              "normalized": "youth",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 151,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这方面最著名的例子之一是 92 岁的 Henry Dryer 的故事，他在听年轻时歌曲的同时从痴呆中走出来。",
+            "translationNatural": "其中最出名的一个例子，是 92 岁的 Henry Dryer 的故事——他听着年轻时的歌，竟从痴呆中清醒了过来。",
+            "structMarkup": "【One of the most famous examples of this】 _is_ ~the story of 92-year-old Henry Dryer~, {who comes out of dementia(痴呆) while listening to songs from his youth}.",
+            "structureSummary": "主系表 + who 定语从句（含 while 时间分词状语）",
+            "components": [
+              {
+                "part": "One of the most famous examples of this",
+                "role": "主语",
+                "note": "one of + 复数名词，核心词 example，of this 回指上文现象，most famous 最高级强调典型性"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接表语"
+              },
+              {
+                "part": "the story of 92-year-old Henry Dryer",
+                "role": "表语",
+                "note": "表语，92-year-old 复合形容词修饰人名，交代例主年龄与身份"
+              },
+              {
+                "part": "who comes out of dementia(痴呆) while listening to songs from his youth",
+                "role": "定语从句",
+                "note": "who 修饰 Henry Dryer，comes out of dementia 意为「从痴呆中清醒过来」；while listening… 时间状语，dementia(痴呆) 的中文括注须原样保留"
+              }
+            ],
+            "clauses": [
+              "定语从句「who comes out of dementia(痴呆) while listening to songs from his youth」：who 修饰 Henry Dryer，comes out of dementia 意为「从痴呆中清醒过来」；while listening… 时间状语，dementia(痴呆) 的中文括注须原样保留",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。"
+            ],
+            "phrases": [
+              {
+                "text": "examples",
+                "meaning": "例子、实例、榜样、范例（example 复数；for example 例如）",
+                "usage": "注意区分：for example（例如，= for instance，作插入语，后接句子或名词短语，不接 doing）/ set an example to/for sb（树立榜样）/ an example of（…的例子，介词 of）/ example 与 sample（实物样本）。",
+                "example": "One of the most famous examples of this is the story of 92-year-old Henry Dryer, who comes out of dementia(痴呆) while listening to songs from his youth. 其中最出名的一个例子，是 92 岁的 Henry Dryer 的故事——他听着年轻时的歌，竟从痴呆中清醒了过来。"
+              },
+              {
+                "text": "comes",
+                "meaning": "come 的第三人称单数（来）",
+                "usage": "注意区分：comes（三单）/ come（原形）。常见搭配：comes from / comes with。",
+                "example": "With success comes new pressure. 成功带来新的压力。"
+              }
+            ],
+            "pitfalls": [
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "注意区分：for example（例如，= for instance，作插入语，后接句子或名词短语，不接 doing）/ set an example to/for sb（树立榜样）/ an example of（…的例子，介词 of）/ example 与 sample（实物样本）。",
+              "注意区分：comes（三单）/ come（原形）。"
+            ],
+            "paragraphRole": "用 92 岁老人的真实轶事佐证「音乐能把人拉出病态」，dementia(痴呆) 的中文括注须保留原样。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "Jeff Anderson, associate professor in Radiology at the University of Utah and 32 author on the study, says \"In our society, the diagnoses of dementia are 33 resources to the maximum. No one says playing music will be a cure for Alzheimer's disease, but it might make the symptoms more 34 , decrease the cost of care and improve a patient's 35 of life.\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 182,
+          "text": "Jeff Anderson, associate professor in Radiology at the University of Utah and 32 author on the study, says \"In our society, the diagnoses of dementia are 33 resources to the maximum.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Jeff",
+              "normalized": "jeff",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 13,
+              "surface": "Anderson",
+              "normalized": "anderson",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 15,
+              "end": 24,
+              "surface": "associate",
+              "normalized": "associate",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 34,
+              "surface": "professor",
+              "normalized": "professor",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 47,
+              "surface": "Radiology",
+              "normalized": "radiology",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 50,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 65,
+              "surface": "University",
+              "normalized": "university",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 73,
+              "surface": "Utah",
+              "normalized": "utah",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 81,
+              "end": 87,
+              "surface": "author",
+              "normalized": "author",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 94,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 100,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 101,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 102,
+              "end": 106,
+              "surface": "says",
+              "normalized": "says",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 108,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 108,
+              "end": 110,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 114,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 122,
+              "surface": "society",
+              "normalized": "society",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 123,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 124,
+              "end": 127,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 137,
+              "surface": "diagnoses",
+              "normalized": "diagnoses",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 140,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 149,
+              "surface": "dementia",
+              "normalized": "dementia",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 153,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 156,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 157,
+              "end": 166,
+              "surface": "resources",
+              "normalized": "resources",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 169,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 173,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 174,
+              "end": 181,
+              "surface": "maximum",
+              "normalized": "maximum",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 182,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "Jeff Anderson，犹他大学放射学副教授以及该研究的 32 作者，说「在我们的社会里，痴呆的诊断是 33 资源到极限。」",
+            "translationNatural": "犹他大学放射学副教授、也是这项研究的撰稿作者 Jeff Anderson 说：「在我们的社会里，痴呆症的确诊把资源消耗到了极限。」",
+            "structMarkup": "【Jeff Anderson】, associate professor in Radiology at the University of Utah and 32 author on the study, _says_ ~\"In our society, the diagnoses of dementia are 33 resources to the maximum.~",
+            "structureSummary": "主语 + 同位语（含 32）+ 谓语 + 直接引语作宾语（含 33 表语）",
+            "components": [
+              {
+                "part": "Jeff Anderson",
+                "role": "主语",
+                "note": "人名，后接同位语说明身份，谓语用 says 三单"
+              },
+              {
+                "part": "associate professor in Radiology at the University of Utah and 32 author on the study",
+                "role": "同位语",
+                "note": "补充说明 Anderson 的身份；32 修饰 author，需分词／形容词，contributing author 指「对研究有贡献的作者」"
+              },
+              {
+                "part": "says",
+                "role": "谓语",
+                "note": "报道动词，后接整段直接引语作宾语"
+              },
+              {
+                "part": "\"In our society, the diagnoses of dementia are 33 resources to the maximum.",
+                "role": "宾语",
+                "note": "直接引语作 says 的宾语，引语内 33 在 are 后作表语需形容词 taxing（消耗资源的），tax resources to the maximum 意为「把资源耗到极限」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主语 + 同位语（含 32）+ 谓语 + 直接引语作宾语（含 33 表语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "associate",
+                "meaning": "同事、副职（名词）；联系（动词，be associated with）",
+                "usage": "注意区分：associate（同事/联系）/ association（协会/关联）。常见搭配：be associated with / a business associate。",
+                "example": "He works as an associate and investigator. 他担任副理兼调查员。"
+              },
+              {
+                "text": "professor",
+                "meaning": "教授（可数）",
+                "usage": "注意区分：professor（教授）/ teacher（教师）/ lecturer（讲师）。常见搭配：a professor of / research professor。",
+                "example": "The professor studies decision-making. 这位教授研究决策。"
+              },
+              {
+                "text": "university",
+                "meaning": "大学（可数）",
+                "usage": "注意区分：university（大学）/ college（学院）/ at university（在读大学，不加 the）。常见搭配：at university / university students。",
+                "example": "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：associate（同事/联系）/ association（协会/关联）。",
+              "注意区分：professor（教授）/ teacher（教师）/ lecturer（讲师）。",
+              "注意区分：university（大学）/ college（学院）/ at university（在读大学，不加 the）。"
+            ],
+            "paragraphRole": "借研究者 Anderson 之口说明音乐在痴呆照护中的潜在价值，32 空考修饰 author 的分词 contributing，33 空考 are 后的形容词表语 taxing。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 183,
+          "end": 352,
+          "text": "No one says playing music will be a cure for Alzheimer's disease, but it might make the symptoms more 34 , decrease the cost of care and improve a patient's 35 of life.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "No",
+              "normalized": "no",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "one",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "says",
+              "normalized": "says",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 19,
+              "surface": "playing",
+              "normalized": "playing",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 25,
+              "surface": "music",
+              "normalized": "music",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 35,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "cure",
+              "normalized": "cure",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 56,
+              "surface": "Alzheimer's",
+              "normalized": "alzheimer's",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 64,
+              "surface": "disease",
+              "normalized": "disease",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 65,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 66,
+              "end": 69,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 72,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 78,
+              "surface": "might",
+              "normalized": "might",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 83,
+              "surface": "make",
+              "normalized": "make",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 87,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 96,
+              "surface": "symptoms",
+              "normalized": "symptoms",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 101,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 104,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 105,
+              "end": 106,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 107,
+              "end": 115,
+              "surface": "decrease",
+              "normalized": "decrease",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 119,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 124,
+              "surface": "cost",
+              "normalized": "cost",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 127,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 132,
+              "surface": "care",
+              "normalized": "care",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 136,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 144,
+              "surface": "improve",
+              "normalized": "improve",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 146,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 156,
+              "surface": "patient's",
+              "normalized": "patient's",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 159,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 160,
+              "end": 162,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 167,
+              "surface": "life",
+              "normalized": "life",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 168,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 168,
+              "end": 169,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "没有人说演奏音乐会是一种治愈，但它可能使症状更 34 ，降低照护成本并改善病人的 35 生活。",
+            "translationNatural": "没人会说听音乐能治好阿尔茨海默病，但它或许能让症状更可控一些，降低照护开销，并提升病人的生活质量。",
+            "structMarkup": "【No one】 _says_ {playing music will be a cure for Alzheimer's disease}, _but it might make_ ~the symptoms more 34 , decrease the cost of care and improve a patient's 35 of life~.\"",
+            "structureSummary": "并列句（前：主谓 + that 宾语从句；后：but + 主谓 + 复合宾语含三个并列动宾）",
+            "components": [
+              {
+                "part": "No one",
+                "role": "主语",
+                "note": "否定代词作主语，谓语用 says 三单"
+              },
+              {
+                "part": "says",
+                "role": "谓语",
+                "note": "报道动词"
+              },
+              {
+                "part": "playing music will be a cure for Alzheimer's disease",
+                "role": "宾语从句",
+                "note": "says 的宾语（省略 that），主干 playing music will be a cure，for 短语说明针对哪种病"
+              },
+              {
+                "part": "but it might make",
+                "role": "谓语",
+                "note": "but 引出转折分句，it 回指 music，might make 后接复合宾语"
+              },
+              {
+                "part": "the symptoms more 34 , decrease the cost of care and improve a patient's 35 of life",
+                "role": "宾语",
+                "note": "make 的复合宾语（宾语 + 补语）；34 在 more 后需形容词 manageable；35 在 a patient's 与 of life 之间需名词 quality，quality of life 为固定搭配「生活质量」。三个动宾结构并列，列举音乐可能的益处"
+              }
+            ],
+            "clauses": [
+              "宾语从句「playing music will be a cure for Alzheimer's disease」：says 的宾语（省略 that），主干 playing music will be a cure，for 短语说明针对哪种病",
+              "本句主干为「并列句（前：主谓 + that 宾语从句；后：but + 主谓 + 复合宾语含三个并列动宾）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "says",
+                "meaning": "say 的第三人称单数（说）",
+                "usage": "注意区分：says /sez/ 发音不按规则；注意与 say 的过去式 said /sed/ 区分。常见搭配：she says that / as the report says。",
+                "example": "He says the change is coming. 他说变化正在到来。"
+              },
+              {
+                "text": "playing",
+                "meaning": "玩、玩耍、扮演、参加（运动）、播放；剧本、游戏、作用（本文 play a key role 起关键作用 / play catch-up 奋起直追）（play 的现在分词/动名词形式）",
+                "usage": "注意区分：playing（现在分词/动名词）/ play（原形）。",
+                "example": "No one says playing music will be a cure for Alzheimer's disease, but it might make the symptoms more 34 , decrease the cost of care and improve a patient's 35 of life.\" 没人会说听音乐能治好阿尔茨海默病，但它或许能让症状更可控一些，降低照护开销，并提升病人的生活质量。"
+              },
+              {
+                "text": "disease",
+                "meaning": "疾病（可数/不可数）",
+                "usage": "注意区分：disease（疾病）/ illness（生病状态）/ decease（死亡，正式）。常见搭配：bone disease / heart disease。",
+                "example": "Red Rum had a serious bone disease. 「红朗姆」有严重的骨病。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：says /sez/ 发音不按规则；注意与 say 的过去式 said /sed/ 区分。",
+              "注意区分：playing（现在分词/动名词）/ play（原形）。",
+              "注意区分：disease（疾病）/ illness（生病状态）/ decease（死亡，正式）。"
+            ],
+            "paragraphRole": "末句以「无人称其能治愈，但可减轻症状、降本、提质」收束，34 空考 more 后的形容词 manageable，35 空考 a patient's 与 of life 之间的名词（quality of life 固定搭配）。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "consequently"
+        },
+        {
+          "key": "C",
+          "text": "contributing"
+        },
+        {
+          "key": "D",
+          "text": "fair"
+        },
+        {
+          "key": "E",
+          "text": "feels"
+        },
+        {
+          "key": "F",
+          "text": "manageable"
+        },
+        {
+          "key": "G",
+          "text": "mends"
+        },
+        {
+          "key": "H",
+          "text": "observed"
+        },
+        {
+          "key": "I",
+          "text": "phase"
+        },
+        {
+          "key": "J",
+          "text": "plotting"
+        },
+        {
+          "key": "K",
+          "text": "quality"
+        },
+        {
+          "key": "L",
+          "text": "recently"
+        },
+        {
+          "key": "M",
+          "text": "taxing"
+        },
+        {
+          "key": "N",
+          "text": "tends"
+        },
+        {
+          "key": "O",
+          "text": "yielded"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "consequently"
+        },
+        {
+          "key": "C",
+          "text": "contributing"
+        },
+        {
+          "key": "D",
+          "text": "fair"
+        },
+        {
+          "key": "E",
+          "text": "feels"
+        },
+        {
+          "key": "F",
+          "text": "manageable"
+        },
+        {
+          "key": "G",
+          "text": "mends"
+        },
+        {
+          "key": "H",
+          "text": "observed"
+        },
+        {
+          "key": "I",
+          "text": "phase"
+        },
+        {
+          "key": "J",
+          "text": "plotting"
+        },
+        {
+          "key": "K",
+          "text": "quality"
+        },
+        {
+          "key": "L",
+          "text": "recently"
+        },
+        {
+          "key": "M",
+          "text": "taxing"
+        },
+        {
+          "key": "N",
+          "text": "tends"
+        },
+        {
+          "key": "O",
+          "text": "yielded"
+        }
+      ],
+      "answer": "E"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "consequently"
+        },
+        {
+          "key": "C",
+          "text": "contributing"
+        },
+        {
+          "key": "D",
+          "text": "fair"
+        },
+        {
+          "key": "E",
+          "text": "feels"
+        },
+        {
+          "key": "F",
+          "text": "manageable"
+        },
+        {
+          "key": "G",
+          "text": "mends"
+        },
+        {
+          "key": "H",
+          "text": "observed"
+        },
+        {
+          "key": "I",
+          "text": "phase"
+        },
+        {
+          "key": "J",
+          "text": "plotting"
+        },
+        {
+          "key": "K",
+          "text": "quality"
+        },
+        {
+          "key": "L",
+          "text": "recently"
+        },
+        {
+          "key": "M",
+          "text": "taxing"
+        },
+        {
+          "key": "N",
+          "text": "tends"
+        },
+        {
+          "key": "O",
+          "text": "yielded"
+        }
+      ],
+      "answer": "L"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "consequently"
+        },
+        {
+          "key": "C",
+          "text": "contributing"
+        },
+        {
+          "key": "D",
+          "text": "fair"
+        },
+        {
+          "key": "E",
+          "text": "feels"
+        },
+        {
+          "key": "F",
+          "text": "manageable"
+        },
+        {
+          "key": "G",
+          "text": "mends"
+        },
+        {
+          "key": "H",
+          "text": "observed"
+        },
+        {
+          "key": "I",
+          "text": "phase"
+        },
+        {
+          "key": "J",
+          "text": "plotting"
+        },
+        {
+          "key": "K",
+          "text": "quality"
+        },
+        {
+          "key": "L",
+          "text": "recently"
+        },
+        {
+          "key": "M",
+          "text": "taxing"
+        },
+        {
+          "key": "N",
+          "text": "tends"
+        },
+        {
+          "key": "O",
+          "text": "yielded"
+        }
+      ],
+      "answer": "N"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "consequently"
+        },
+        {
+          "key": "C",
+          "text": "contributing"
+        },
+        {
+          "key": "D",
+          "text": "fair"
+        },
+        {
+          "key": "E",
+          "text": "feels"
+        },
+        {
+          "key": "F",
+          "text": "manageable"
+        },
+        {
+          "key": "G",
+          "text": "mends"
+        },
+        {
+          "key": "H",
+          "text": "observed"
+        },
+        {
+          "key": "I",
+          "text": "phase"
+        },
+        {
+          "key": "J",
+          "text": "plotting"
+        },
+        {
+          "key": "K",
+          "text": "quality"
+        },
+        {
+          "key": "L",
+          "text": "recently"
+        },
+        {
+          "key": "M",
+          "text": "taxing"
+        },
+        {
+          "key": "N",
+          "text": "tends"
+        },
+        {
+          "key": "O",
+          "text": "yielded"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "consequently"
+        },
+        {
+          "key": "C",
+          "text": "contributing"
+        },
+        {
+          "key": "D",
+          "text": "fair"
+        },
+        {
+          "key": "E",
+          "text": "feels"
+        },
+        {
+          "key": "F",
+          "text": "manageable"
+        },
+        {
+          "key": "G",
+          "text": "mends"
+        },
+        {
+          "key": "H",
+          "text": "observed"
+        },
+        {
+          "key": "I",
+          "text": "phase"
+        },
+        {
+          "key": "J",
+          "text": "plotting"
+        },
+        {
+          "key": "K",
+          "text": "quality"
+        },
+        {
+          "key": "L",
+          "text": "recently"
+        },
+        {
+          "key": "M",
+          "text": "taxing"
+        },
+        {
+          "key": "N",
+          "text": "tends"
+        },
+        {
+          "key": "O",
+          "text": "yielded"
+        }
+      ],
+      "answer": "H"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "consequently"
+        },
+        {
+          "key": "C",
+          "text": "contributing"
+        },
+        {
+          "key": "D",
+          "text": "fair"
+        },
+        {
+          "key": "E",
+          "text": "feels"
+        },
+        {
+          "key": "F",
+          "text": "manageable"
+        },
+        {
+          "key": "G",
+          "text": "mends"
+        },
+        {
+          "key": "H",
+          "text": "observed"
+        },
+        {
+          "key": "I",
+          "text": "phase"
+        },
+        {
+          "key": "J",
+          "text": "plotting"
+        },
+        {
+          "key": "K",
+          "text": "quality"
+        },
+        {
+          "key": "L",
+          "text": "recently"
+        },
+        {
+          "key": "M",
+          "text": "taxing"
+        },
+        {
+          "key": "N",
+          "text": "tends"
+        },
+        {
+          "key": "O",
+          "text": "yielded"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "consequently"
+        },
+        {
+          "key": "C",
+          "text": "contributing"
+        },
+        {
+          "key": "D",
+          "text": "fair"
+        },
+        {
+          "key": "E",
+          "text": "feels"
+        },
+        {
+          "key": "F",
+          "text": "manageable"
+        },
+        {
+          "key": "G",
+          "text": "mends"
+        },
+        {
+          "key": "H",
+          "text": "observed"
+        },
+        {
+          "key": "I",
+          "text": "phase"
+        },
+        {
+          "key": "J",
+          "text": "plotting"
+        },
+        {
+          "key": "K",
+          "text": "quality"
+        },
+        {
+          "key": "L",
+          "text": "recently"
+        },
+        {
+          "key": "M",
+          "text": "taxing"
+        },
+        {
+          "key": "N",
+          "text": "tends"
+        },
+        {
+          "key": "O",
+          "text": "yielded"
+        }
+      ],
+      "answer": "M"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "consequently"
+        },
+        {
+          "key": "C",
+          "text": "contributing"
+        },
+        {
+          "key": "D",
+          "text": "fair"
+        },
+        {
+          "key": "E",
+          "text": "feels"
+        },
+        {
+          "key": "F",
+          "text": "manageable"
+        },
+        {
+          "key": "G",
+          "text": "mends"
+        },
+        {
+          "key": "H",
+          "text": "observed"
+        },
+        {
+          "key": "I",
+          "text": "phase"
+        },
+        {
+          "key": "J",
+          "text": "plotting"
+        },
+        {
+          "key": "K",
+          "text": "quality"
+        },
+        {
+          "key": "L",
+          "text": "recently"
+        },
+        {
+          "key": "M",
+          "text": "taxing"
+        },
+        {
+          "key": "N",
+          "text": "tends"
+        },
+        {
+          "key": "O",
+          "text": "yielded"
+        }
+      ],
+      "answer": "F"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "consequently"
+        },
+        {
+          "key": "C",
+          "text": "contributing"
+        },
+        {
+          "key": "D",
+          "text": "fair"
+        },
+        {
+          "key": "E",
+          "text": "feels"
+        },
+        {
+          "key": "F",
+          "text": "manageable"
+        },
+        {
+          "key": "G",
+          "text": "mends"
+        },
+        {
+          "key": "H",
+          "text": "observed"
+        },
+        {
+          "key": "I",
+          "text": "phase"
+        },
+        {
+          "key": "J",
+          "text": "plotting"
+        },
+        {
+          "key": "K",
+          "text": "quality"
+        },
+        {
+          "key": "L",
+          "text": "recently"
+        },
+        {
+          "key": "M",
+          "text": "taxing"
+        },
+        {
+          "key": "N",
+          "text": "tends"
+        },
+        {
+          "key": "O",
+          "text": "yielded"
+        }
+      ],
+      "answer": "K"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "actually"
+    },
+    {
+      "key": "B",
+      "word": "consequently"
+    },
+    {
+      "key": "C",
+      "word": "contributing"
+    },
+    {
+      "key": "D",
+      "word": "fair"
+    },
+    {
+      "key": "E",
+      "word": "feels"
+    },
+    {
+      "key": "F",
+      "word": "manageable"
+    },
+    {
+      "key": "G",
+      "word": "mends"
+    },
+    {
+      "key": "H",
+      "word": "observed"
+    },
+    {
+      "key": "I",
+      "word": "phase"
+    },
+    {
+      "key": "J",
+      "word": "plotting"
+    },
+    {
+      "key": "K",
+      "word": "quality"
+    },
+    {
+      "key": "L",
+      "word": "recently"
+    },
+    {
+      "key": "M",
+      "word": "taxing"
+    },
+    {
+      "key": "N",
+      "word": "tends"
+    },
+    {
+      "key": "O",
+      "word": "yielded"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "D",
+      "answerWord": "fair",
+      "reason": "空格在 it's 之后、to say 之前，构成 it's + 形容词 + to do 结构，需形容词。上文用两类音乐的正面作用做铺垫，作者想表达「公允地说，音乐以特殊方式打动人」，fair to say 是英语固定搭配，意为「公允地说／可以说」，与全文语气一致。",
+      "distractors": "A) actually、B) consequently、L) recently 都是副词，不能放在 it's 与 to say 之间作表语；M) taxing 虽是形容词，但「费力地说」语义不通，且与后文音乐「打动人」的轻松基调不符。"
+    },
+    "27": {
+      "answerKey": "E",
+      "answerWord": "feels",
+      "reason": "空格在 which（指代 ASMR，单数）之后，构成定语从句谓语，需第三人称单数动词。feel to sb like… 意为「给某人像……一样的感觉」，feels 与 like a sting（像脑中一刺）搭配，把 ASMR 的体感写活。",
+      "distractors": "N) tends 虽是三单动词，但 tend to 须接动词原形表「倾向于做」，而本句 to 属于 feel to you like，无法与 tends 搭配，语义也不通；D) fair、F) manageable 是形容词，A) actually 是副词，均不能作谓语。"
+    },
+    "28": {
+      "answerKey": "L",
+      "answerWord": "recently",
+      "reason": "空格在 a 与过去分词 published 之间，修饰「已发表的研究」，需副词。recently published 是常见搭配，意为「近期发表的」，呼应后文 the study confirms 的现在时态，说明这是较新的证据。",
+      "distractors": "A) actually（实际上）、B) consequently（因此）虽是副词，但「actually published study」语义上「确实发表的研究」不如「近期发表」贴合语境；D) fair、F) manageable 等是形容词，不能修饰过去分词；G) mends、H) observed 是动词，词性不符。"
+    },
+    "29": {
+      "answerKey": "N",
+      "answerWord": "tends",
+      "reason": "空格在主语 Alzheimer's（疾病，单数）之后作谓语，需第三人称单数动词。tend to do sth 是固定搭配，意为「往往会／趋于」，说明阿尔茨海默病「通常会把人层层困在混乱之中」，与后文 music can sometimes lift 形成「病常使人糊涂／音乐偶尔使人清醒」的对照。",
+      "distractors": "E) feels 是三单但「病感觉把人……」主语错配；D) fair、F) manageable 是形容词；A) actually 是副词不能作谓语；L) recently 是副词。"
+    },
+    "30": {
+      "answerKey": "A",
+      "answerWord": "actually",
+      "reason": "空格在情态动词 can 与动词原形 lift 之间，需副词修饰动词。actually 意为「真正地」，强调音乐「确实」能把人拉出迷雾，与 sometimes 并用，语气克制又肯定，呼应本段 ASMR is powerful stuff。",
+      "distractors": "L) recently（最近）虽是副词，但「最近让人脱离」与 can sometimes 时间语义重复且不通；N) tends 是动词，不能插在 can 与 lift 之间；D) fair、F) manageable 是形容词，词性不符。"
+    },
+    "31": {
+      "answerKey": "H",
+      "answerWord": "observed",
+      "reason": "空格在 has been 之后，是现在完成时被动语态，需过去分词。observe 意为「观察到」，has been observed 表示「这一现象已被多次观察到」，与 but 后的 rarely studied（很少被研究）形成「被看见却没被研究」的转折。",
+      "distractors": "G) mends（治愈，三单）、O) yielded（产生，三单）是动词／三单，不能填进 has been + 过去分词；C) contributing 是现在分词，不能作被动谓语；D) fair 是形容词。"
+    },
+    "32": {
+      "answerKey": "C",
+      "answerWord": "contributing",
+      "reason": "空格修饰名词 author，在 and 之后与 associate professor 并列说明 Anderson 的身份，需形容词或分词。contributing author 是学术固定说法，指「对研究有贡献的作者／共同作者」，恰好说明他在该项研究中的角色。",
+      "distractors": "I) phase（阶段）、K) quality（质量）是名词；G) mends、O) yielded 是动词；D) fair、F) manageable 虽是形容词，但「公平的作者／可控的作者」语义不通。"
+    },
+    "33": {
+      "answerKey": "M",
+      "answerWord": "taxing",
+      "reason": "空格在系动词 are 之后作表语，需形容词。taxing 作形容词意为「费力的、消耗大的」，tax resources to the maximum 即「把资源消耗到极限」，这里说痴呆诊断「极度消耗资源」，与后文 playing music 可能减轻负担形成对比。",
+      "distractors": "K) quality（质量，名词）、I) phase（名词）不能作表语；A) actually 是副词；D) fair、F) manageable 是形容词，但「公平／可控的资源」与 to the maximum（到极限）矛盾。"
+    },
+    "34": {
+      "answerKey": "F",
+      "answerWord": "manageable",
+      "reason": "空格在 more 之后，是 make + 宾语 + 形容词 的复合宾语结构，需形容词原级（more 已表比较）。manageable 意为「可管理的、可控的」，make the symptoms more manageable 即「让症状更易应对」，与后文 decrease cost、improve quality 三件事并列，都是音乐可能的好处。",
+      "distractors": "M) taxing（费力的）虽是形容词，但语义与「减轻负担」相反；K) quality 是名词；A) actually 是副词；D) fair 是形容词但「更公平的症状」搭配生硬。"
+    },
+    "35": {
+      "answerKey": "K",
+      "answerWord": "quality",
+      "reason": "空格在 a patient's 与 of life 之间，作介词 of 的修饰中心词，需名词。quality of life 是固定短语，意为「生活质量」，与前面 manageable symptoms、decrease cost of care 并列，构成音乐对病人的三重益处。",
+      "distractors": "I) phase（阶段）是名词但「生活的阶段」语义不符；M) taxing 是形容词不能放在 a patient's 后；C) contributing 是分词；A) actually 是副词，词性均不符。"
+    }
+  },
+  "lexicon": {
+    "according": {
+      "phonetic": "/əˈkɔːdɪŋ/",
+      "pos": "prep.（用于 according to）",
+      "sense": "根据、按照（according to）",
+      "collocations": [
+        "according to the study",
+        "according to sb"
+      ],
+      "examples": [
+        "According to the study, rates are stable. 根据这项研究，比率稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "according to（根据，后接来源）/ because of（因为）"
+      }
+    },
+    "associate": {
+      "phonetic": "/əˈsəʊʃieɪt/",
+      "pos": "n./v.",
+      "sense": "同事、副职（名词）；联系（动词，be associated with）",
+      "collocations": [
+        "be associated with",
+        "a business associate",
+        "associate A with B"
+      ],
+      "examples": [
+        "He works as an associate and investigator. 他担任副理兼调查员。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "associate（同事/联系）/ association（协会/关联）"
+      }
+    },
+    "author": {
+      "phonetic": "/ˈɔːθə/",
+      "pos": "n./v.",
+      "sense": "作者、作家；撰写（本文 influential authors / a best-selling author 畅销书作者 / senior author 资深作者）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "author on"
+      ],
+      "examples": [
+        "Jeff Anderson, associate professor in Radiology at the University of Utah and 32 author on the study, says \"In our society, the diagnoses of dementia are 33 resources to the maximum. 犹他大学放射学副教授、也是这项研究的撰稿作者 Jeff Anderson 说：「在我们的社会里，痴呆症的确诊把资源消耗到了极限。」"
+      ],
+      "more": {
+        "confusables": "author / authors / authentic（同族不同词形，注意词性与用法）"
+      }
+    },
+    "autonomous": {
+      "phonetic": "/ɔːˈtɒnəməs/",
+      "pos": "adj.",
+      "sense": "自主的、自治的、自动的、独立自主的（autonomous driving/vehicles 自动驾驶/车辆）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "called Autonomous",
+        "Autonomous Sensory"
+      ],
+      "examples": [
+        "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response (ASMR), which 27 to you like a sting in your brain. 要是你特别迷某首曲子，大脑会触发一种叫「自发性知觉经络反应」（ASMR）的东西，它给你的感觉就像脑子里被刺了一下。"
+      ],
+      "more": {
+        "roots": "autonomous 含 -ous（形容词后缀）"
+      }
+    },
+    "back": {
+      "phonetic": "/bæk/",
+      "pos": "n./adj./adv./v.",
+      "sense": "背部、后面；后面的；回原处、向后；支持、后退（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "back to"
+      ],
+      "examples": [
+        "Alzheimer's 29 to put people into layers of confusion, and the study confirms that music can sometimes 30 lift people out of the Alzheimer's haze and bring them back to (at least a likeness of) normality … if only for a short while. 阿尔茨海默病往往会把人层层困在混乱里，而研究确认音乐有时确实能把人从那片病态迷雾中拉出来、带回（至少近似的）正常状态——哪怕只是短暂一会儿。"
+      ],
+      "more": {
+        "confusables": "back / background / backward（同族不同词形，注意词性与用法）"
+      }
+    },
+    "brain": {
+      "phonetic": "/breɪn/",
+      "pos": "n.",
+      "sense": "大脑、脑力、智力（brains 才气）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brain responsible"
+      ],
+      "examples": [
+        "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response (ASMR), which 27 to you like a sting in your brain. 要是你特别迷某首曲子，大脑会触发一种叫「自发性知觉经络反应」（ASMR）的东西，它给你的感觉就像脑子里被刺了一下。"
+      ],
+      "more": {
+        "confusables": "brain / brains / brain-training（同族不同词形，注意词性与用法）"
+      }
+    },
+    "bring": {
+      "phonetic": "/brɪŋ/",
+      "pos": "v.",
+      "sense": "带来、拿来；引起、导致；使处于（某状态）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "bring（带来，朝说话人/目的地方向）/ take（带走，离开说话人/原地）/ fetch（去取来，一去一回）/ bring sb sth = bring sth to sb（双宾语）/ bring about（导致）/ bring up（抚养；提出）"
+      },
+      "collocations": [],
+      "examples": [
+        "Alzheimer's 29 to put people into layers of confusion, and the study confirms that music can sometimes 30 lift people out of the Alzheimer's haze and bring them back to (at least a likeness of) normality … if only for a short while. 阿尔茨海默病往往会把人层层困在混乱里，而研究确认音乐有时确实能把人从那片病态迷雾中拉出来、带回（至少近似的）正常状态——哪怕只是短暂一会儿。"
+      ]
+    },
+    "called": {
+      "phonetic": "/kɔːld/",
+      "pos": "v.",
+      "sense": "把…叫作、称作；打电话给；召唤、召开（call 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "something called",
+        "called Autonomous"
+      ],
+      "examples": [
+        "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response (ASMR), which 27 to you like a sting in your brain. 要是你特别迷某首曲子，大脑会触发一种叫「自发性知觉经络反应」（ASMR）的东西，它给你的感觉就像脑子里被刺了一下。"
+      ],
+      "more": {
+        "confusables": "called / call（同族不同词形，注意词性与用法）"
+      }
+    },
+    "care": {
+      "phonetic": "/keə(r)/",
+      "pos": "n./v.",
+      "sense": "谨慎、小心；关心",
+      "collocations": [
+        "with extra care",
+        "take care"
+      ],
+      "examples": [
+        "No one says playing music will be a cure for Alzheimer's disease, but it might make the symptoms more 34 , decrease the cost of care and improve a patient's 35 of life.\" 没人会说听音乐能治好阿尔茨海默病，但它或许能让症状更可控一些，降低照护开销，并提升病人的生活质量。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "care / career / carefully（同族不同词形，注意词性与用法）"
+      }
+    },
+    "case": {
+      "phonetic": "/keɪs/",
+      "pos": "n.",
+      "sense": "事例、情况、案例；案件；箱子、盒（in case 万一）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in case（万一，连词，从句用一般现在时表将来）/ in case of + 名词（假如发生，介词短语）/ in the case of（就…而言）/ in no case（绝不，置句首主句倒装）/ in any case（无论如何）"
+      },
+      "collocations": [],
+      "examples": [
+        "In any case, it's 26 to say that music moves people in special ways. 总之，公允地说，音乐确实是以特殊的方式在打动人。"
+      ]
+    },
+    "change": {
+      "phonetic": "/tʃeɪndʒ/",
+      "pos": "v./n.",
+      "sense": "改变、变化 / 变化、零钱",
+      "collocations": [
+        "change behaviour",
+        "climate change",
+        "make a change"
+      ],
+      "examples": [
+        "Attitudes are changing slowly. 态度正在缓慢改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "change（改变）/ exchange（交换）/ alter（改动，更正式）"
+      }
+    },
+    "comes": {
+      "phonetic": "/kʌmz/",
+      "pos": "v.",
+      "sense": "come 的第三人称单数（来）",
+      "lemma": "come",
+      "collocations": [
+        "comes from",
+        "comes with",
+        "as it comes"
+      ],
+      "examples": [
+        "With success comes new pressure. 成功带来新的压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "comes（三单）/ come（原形）"
+      }
+    },
+    "confusion": {
+      "phonetic": "/kənˈfjuːʒn/",
+      "pos": "n.",
+      "sense": "困惑、迷惑；混乱、混淆；骚乱（in confusion 一片混乱）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "layers of confusion"
+      ],
+      "examples": [
+        "Alzheimer's 29 to put people into layers of confusion, and the study confirms that music can sometimes 30 lift people out of the Alzheimer's haze and bring them back to (at least a likeness of) normality … if only for a short while. 阿尔茨海默病往往会把人层层困在混乱里，而研究确认音乐有时确实能把人从那片病态迷雾中拉出来、带回（至少近似的）正常状态——哪怕只是短暂一会儿。"
+      ],
+      "more": {
+        "roots": "confusion 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "cost": {
+      "phonetic": "/kɒst/",
+      "pos": "n./v.",
+      "sense": "成本、代价（可数/不可数）/ 花费（物作主语）",
+      "collocations": [
+        "the cost of",
+        "at the cost of",
+        "cost sb sth"
+      ],
+      "examples": [
+        "The cost of childcare is high. 育儿成本很高。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "cost（物作主语花费）/ spend（人作主语）/ take（it 作形式主语）"
+      }
+    },
+    "cure": {
+      "phonetic": "/kjʊə(r)/",
+      "pos": "v./n.",
+      "sense": "治愈；治疗；解决（n. 治愈；疗法）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "cure for",
+        "cure for Alzheimer's"
+      ],
+      "examples": [
+        "No one says playing music will be a cure for Alzheimer's disease, but it might make the symptoms more 34 , decrease the cost of care and improve a patient's 35 of life.\" 没人会说听音乐能治好阿尔茨海默病，但它或许能让症状更可控一些，降低照护开销，并提升病人的生活质量。"
+      ],
+      "more": {
+        "confusables": "cure / cure-all（同族不同词形，注意词性与用法）"
+      }
+    },
+    "disease": {
+      "phonetic": "/dɪˈziːz/",
+      "pos": "n.",
+      "sense": "疾病（可数/不可数）",
+      "collocations": [
+        "bone disease",
+        "heart disease",
+        "rates of disease"
+      ],
+      "examples": [
+        "Red Rum had a serious bone disease. 「红朗姆」有严重的骨病。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "dis-（不）+ ease（舒适）",
+        "confusables": "disease（疾病）/ illness（生病状态）/ decease（死亡，正式）"
+      }
+    },
+    "doesn't": {
+      "phonetic": "/ˈdʌznt/",
+      "pos": "缩略",
+      "sense": "does not 的缩写（第三人称单数否定）",
+      "collocations": [
+        "doesn't mean",
+        "doesn't apply"
+      ],
+      "examples": [
+        "That doesn't mean it's all good news. 这并不意味着全是好消息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "doesn't（does not）/ don't（do not，复数或第一二人称）"
+      }
+    },
+    "especially": {
+      "phonetic": "/ɪˈspeʃəli/",
+      "pos": "adv.",
+      "sense": "尤其、特别、格外（本文 especially for working parents 尤其对职场父母而言）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "you're especially",
+        "especially into"
+      ],
+      "examples": [
+        "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response (ASMR), which 27 to you like a sting in your brain. 要是你特别迷某首曲子，大脑会触发一种叫「自发性知觉经络反应」（ASMR）的东西，它给你的感觉就像脑子里被刺了一下。"
+      ],
+      "more": {
+        "roots": "especially 含 -ly（副词后缀）"
+      }
+    },
+    "examples": {
+      "phonetic": "/ɪɡˈzɑːmplz/",
+      "pos": "n.",
+      "sense": "例子、实例、榜样、范例（example 复数；for example 例如）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "example（例子）+ -s（复数）",
+        "confusables": "for example（例如，= for instance，作插入语，后接句子或名词短语，不接 doing）/ set an example to/for sb（树立榜样）/ an example of（…的例子，介词 of）/ example 与 sample（实物样本）"
+      },
+      "collocations": [
+        "famous examples",
+        "examples of"
+      ],
+      "examples": [
+        "One of the most famous examples of this is the story of 92-year-old Henry Dryer, who comes out of dementia(痴呆) while listening to songs from his youth. 其中最出名的一个例子，是 92 岁的 Henry Dryer 的故事——他听着年轻时的歌，竟从痴呆中清醒了过来。"
+      ]
+    },
+    "famous": {
+      "phonetic": "/ˈfeɪməs/",
+      "pos": "adj.",
+      "sense": "著名的、出名的、闻名的（be famous for 因…闻名 / be famous as 作为…出名；本文 Organisers of a famous music festival 某著名音乐节主办方）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "famous examples"
+      ],
+      "examples": [
+        "One of the most famous examples of this is the story of 92-year-old Henry Dryer, who comes out of dementia(痴呆) while listening to songs from his youth. 其中最出名的一个例子，是 92 岁的 Henry Dryer 的故事——他听着年轻时的歌，竟从痴呆中清醒了过来。"
+      ],
+      "more": {
+        "roots": "famous 含 -ous（形容词后缀）"
+      }
+    },
+    "get": {
+      "phonetic": "/ɡet/",
+      "pos": "v.",
+      "sense": "得到；变得（get + adj.）；到达",
+      "collocations": [
+        "get better",
+        "get promoted",
+        "get used to"
+      ],
+      "examples": [
+        "As kids get older they write more carefully. 孩子越大写得越小心。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "get（变得/得到，口语）/ become（变得，正式）/ obtain（获得，正式）"
+      }
+    },
+    "improve": {
+      "phonetic": "/ɪmˈpruːv/",
+      "pos": "v.",
+      "sense": "改善、提高（及物与不及物皆可）",
+      "collocations": [
+        "improve health",
+        "improve mood",
+        "improve on sth"
+      ],
+      "examples": [
+        "Social life can improve mood. 社交生活能改善情绪。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "improve（改善本身）/ improve on（在……基础上做得更好）"
+      }
+    },
+    "inspires": {
+      "phonetic": "/ɪnˈspaɪəz/",
+      "pos": "v.",
+      "sense": "激励、鼓舞、启发、唤起（灵感）；使产生（某种感受）（inspire sb to do 激励某人做）（inspire 的复数/三单形式）",
+      "lemma": "inspire",
+      "collocations": [
+        "music inspires"
+      ],
+      "examples": [
+        "Some music inspires you to move your feet, some inspires you to get out there and change the world. 有的音乐让你忍不住跟着节拍动脚，有的则激励你走出门去改变世界。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "inspire + -s（复数/三单）",
+        "confusables": "inspires（复数/三单）/ inspire（原形）"
+      }
+    },
+    "it's": {
+      "phonetic": "/ɪts/",
+      "pos": "缩略",
+      "sense": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+      "collocations": [
+        "it's important that",
+        "it's likely to"
+      ],
+      "examples": [
+        "It's hard to say. 很难说。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
+      }
+    },
+    "journal": {
+      "phonetic": "/ˈdʒɜːnl/",
+      "pos": "n.",
+      "sense": "期刊、学报（可数）；日志",
+      "collocations": [
+        "published in the journal",
+        "an academic journal"
+      ],
+      "examples": [
+        "The study appeared in the journal PLOS ONE. 该研究发表在《PLOS ONE》期刊上。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "journal（期刊/日志）/ journey（旅程）/ journalism（新闻业）"
+      }
+    },
+    "least": {
+      "phonetic": "/liːst/",
+      "pos": "adj./adv./n.",
+      "sense": "最少的、最小的（little 的最高级）；最少（at least 至少；least of all 最不）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Alzheimer's 29 to put people into layers of confusion, and the study confirms that music can sometimes 30 lift people out of the Alzheimer's haze and bring them back to (at least a likeness of) normality … if only for a short while. 阿尔茨海默病往往会把人层层困在混乱里，而研究确认音乐有时确实能把人从那片病态迷雾中拉出来、带回（至少近似的）正常状态——哪怕只是短暂一会儿。"
+      ]
+    },
+    "life": {
+      "phonetic": "/laɪf/",
+      "pos": "n.",
+      "sense": "生活；生命（复数 lives）",
+      "collocations": [
+        "everyday life",
+        "public life",
+        "quality of life"
+      ],
+      "examples": [
+        "A rich social life improves health. 丰富的社交生活能改善健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "life（单数）/ lives（复数，注意拼写）"
+      }
+    },
+    "like": {
+      "phonetic": "/laɪk/",
+      "pos": "prep./v./conj.",
+      "sense": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+      "collocations": [
+        "like this",
+        "feel like",
+        "such as"
+      ],
+      "examples": [
+        "Tools like this save time. 这样的工具能省时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
+      }
+    },
+    "lost": {
+      "phonetic": "/lɒst/",
+      "pos": "v./adj.",
+      "sense": "失去、丢失、输掉、迷失（lose 的过去式）；迷路的、丢失的、不知所措的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "get lost",
+        "lost to",
+        "lost to Alzheimer's"
+      ],
+      "examples": [
+        "According to a 28 published study in The Journal of Prevention of Alzheimer's Disease, the part of your brain responsible for ASMR doesn't get lost to Alzheimer's. 据《阿尔茨海默病预防杂志》一篇近期发表的研究，大脑里负责 ASMR 的那块区域并不会被阿尔茨海默病毁掉。"
+      ]
+    },
+    "make": {
+      "phonetic": "/meɪk/",
+      "pos": "v.",
+      "sense": "做、制造；使得；获得、挣得（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make（做、制造；使得；获得）/ make sb do（使某人做，不带 to；被动变 be made to do）/ make + 宾语 + 形容词（make it clear）/ make 与 do（do 指做抽象事务，make 指制作/产生）/ make a decision / mistake（用 make 不用 do）"
+      },
+      "collocations": [],
+      "examples": [
+        "No one says playing music will be a cure for Alzheimer's disease, but it might make the symptoms more 34 , decrease the cost of care and improve a patient's 35 of life.\" 没人会说听音乐能治好阿尔茨海默病，但它或许能让症状更可控一些，降低照护开销，并提升病人的生活质量。"
+      ]
+    },
+    "maximum": {
+      "phonetic": "/ˈmæksɪməm/",
+      "pos": "n./adj.",
+      "sense": "最大值、最大量、极限、上限；最大的、最高的、最大限度的（反义 minimum；复数 maxima/maximums）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Jeff Anderson, associate professor in Radiology at the University of Utah and 32 author on the study, says \"In our society, the diagnoses of dementia are 33 resources to the maximum. 犹他大学放射学副教授、也是这项研究的撰稿作者 Jeff Anderson 说：「在我们的社会里，痴呆症的确诊把资源消耗到了极限。」"
+      ]
+    },
+    "move": {
+      "phonetic": "/muːv/",
+      "pos": "v./n.",
+      "sense": "移动、搬；促使（move sb to do）；举措",
+      "collocations": [
+        "move on",
+        "move towards",
+        "a move to do"
+      ],
+      "examples": [
+        "The law is a move towards protection. 这项法律是迈向保护的一步。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "move（移动）/ movement（运动/动作）"
+      }
+    },
+    "moves": {
+      "phonetic": "/muːvz/",
+      "pos": "v./n.",
+      "sense": "移动、搬；促使（move sb to do）；举措（move 的复数/三单形式）",
+      "lemma": "move",
+      "collocations": [
+        "music moves",
+        "moves people"
+      ],
+      "examples": [
+        "In any case, it's 26 to say that music moves people in special ways. 总之，公允地说，音乐确实是以特殊的方式在打动人。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "move + -s（复数/三单）",
+        "confusables": "moves（复数/三单）/ move（原形）"
+      }
+    },
+    "music": {
+      "phonetic": "/ˈmjuːzɪk/",
+      "pos": "n.",
+      "sense": "音乐、乐曲、乐谱；音乐（学科/艺术）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "music inspires",
+        "music moves",
+        "piece of music"
+      ],
+      "examples": [
+        "Some music inspires you to move your feet, some inspires you to get out there and change the world. 有的音乐让你忍不住跟着节拍动脚，有的则激励你走出门去改变世界。"
+      ]
+    },
+    "part": {
+      "phonetic": "/pɑːt/",
+      "pos": "n./v.",
+      "sense": "部分、部件；角色、职责；分开、分离（part with 割舍）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "part of"
+      ],
+      "examples": [
+        "According to a 28 published study in The Journal of Prevention of Alzheimer's Disease, the part of your brain responsible for ASMR doesn't get lost to Alzheimer's. 据《阿尔茨海默病预防杂志》一篇近期发表的研究，大脑里负责 ASMR 的那块区域并不会被阿尔茨海默病毁掉。"
+      ],
+      "more": {
+        "confusables": "part / parts / participants（同族不同词形，注意词性与用法）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "piece": {
+      "phonetic": "/piːs/",
+      "pos": "n.",
+      "sense": "一片、一块、一段、一件；片段、部件、（文章/作品的）一篇",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "piece of",
+        "piece of music"
+      ],
+      "examples": [
+        "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response (ASMR), which 27 to you like a sting in your brain. 要是你特别迷某首曲子，大脑会触发一种叫「自发性知觉经络反应」（ASMR）的东西，它给你的感觉就像脑子里被刺了一下。"
+      ]
+    },
+    "playing": {
+      "phonetic": "/pleɪɪŋ/",
+      "pos": "v./n.",
+      "sense": "玩、玩耍、扮演、参加（运动）、播放；剧本、游戏、作用（本文 play a key role 起关键作用 / play catch-up 奋起直追）（play 的现在分词/动名词形式）",
+      "lemma": "play",
+      "collocations": [
+        "says playing",
+        "playing music"
+      ],
+      "examples": [
+        "No one says playing music will be a cure for Alzheimer's disease, but it might make the symptoms more 34 , decrease the cost of care and improve a patient's 35 of life.\" 没人会说听音乐能治好阿尔茨海默病，但它或许能让症状更可控一些，降低照护开销，并提升病人的生活质量。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "play + -ing（现在分词/动名词）",
+        "confusables": "playing（现在分词/动名词）/ play（原形）"
+      }
+    },
+    "powerful": {
+      "phonetic": "/ˈpaʊəfl/",
+      "pos": "adj.",
+      "sense": "强大的、强有力的、有权势的、效力大的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "power（力量）+ -ful（形容词后缀）",
+        "confusables": "powerful（强大的、有力的，形容词）/ power（力量；电力；权力，名词）/ powerless（无力的，反义）/ strong（多指体力/强度）/ power 与 strength"
+      },
+      "collocations": [
+        "powerful stuff"
+      ],
+      "examples": [
+        "ASMR is powerful stuff! ASMR 可真不是闹着玩的！"
+      ]
+    },
+    "prevention": {
+      "phonetic": "/prɪˈvenʃn/",
+      "pos": "n.",
+      "sense": "预防、防止、防范（prevention of disease / crime prevention；与 prevent 同源）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Prevention of",
+        "Prevention of Alzheimer's",
+        "Journal of Prevention"
+      ],
+      "examples": [
+        "According to a 28 published study in The Journal of Prevention of Alzheimer's Disease, the part of your brain responsible for ASMR doesn't get lost to Alzheimer's. 据《阿尔茨海默病预防杂志》一篇近期发表的研究，大脑里负责 ASMR 的那块区域并不会被阿尔茨海默病毁掉。"
+      ],
+      "more": {
+        "roots": "prevention 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "professor": {
+      "phonetic": "/prəˈfesə(r)/",
+      "pos": "n.",
+      "sense": "教授（可数）",
+      "collocations": [
+        "a professor of",
+        "research professor"
+      ],
+      "examples": [
+        "The professor studies decision-making. 这位教授研究决策。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "professor（教授）/ teacher（教师）/ lecturer（讲师）"
+      }
+    },
+    "published": {
+      "phonetic": "/ˈpʌblɪʃt/",
+      "pos": "v.",
+      "sense": "publish 的过去式/过去分词（发表、出版）",
+      "lemma": "publish",
+      "collocations": [
+        "published in the journal",
+        "be published",
+        "publish a study"
+      ],
+      "examples": [
+        "One recent study published in PLOS ONE found... 最近发表在《PLOS ONE》上的一项研究……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "published（发表）/ publication（发表，名词）/ publish"
+      }
+    },
+    "put": {
+      "phonetic": "/pʊt/",
+      "pos": "v.",
+      "sense": "放、放置、摆；表达、说明、提出；使处于（某状态）、赋予",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "put people"
+      ],
+      "examples": [
+        "Alzheimer's 29 to put people into layers of confusion, and the study confirms that music can sometimes 30 lift people out of the Alzheimer's haze and bring them back to (at least a likeness of) normality … if only for a short while. 阿尔茨海默病往往会把人层层困在混乱里，而研究确认音乐有时确实能把人从那片病态迷雾中拉出来、带回（至少近似的）正常状态——哪怕只是短暂一会儿。"
+      ],
+      "more": {
+        "confusables": "put / putting（同族不同词形，注意词性与用法）"
+      }
+    },
+    "rarely": {
+      "phonetic": "/ˈreəli/",
+      "pos": "adv.",
+      "sense": "很少、难得、罕有地（否定副词，置句首时主句部分倒装）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "rarely studied"
+      ],
+      "examples": [
+        "This phenomenon has been 31 several times but rarely studied properly. 这种现象已经被观察到好几次了，却几乎没被认真研究过。"
+      ],
+      "more": {
+        "roots": "rarely 含 -ly（副词后缀）"
+      }
+    },
+    "resources": {
+      "phonetic": "/rɪˈsɔːsɪz/",
+      "pos": "n.",
+      "sense": "资源、财力、物力、资料（复数；natural / human / financial resources）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "resources to"
+      ],
+      "examples": [
+        "Jeff Anderson, associate professor in Radiology at the University of Utah and 32 author on the study, says \"In our society, the diagnoses of dementia are 33 resources to the maximum. 犹他大学放射学副教授、也是这项研究的撰稿作者 Jeff Anderson 说：「在我们的社会里，痴呆症的确诊把资源消耗到了极限。」"
+      ]
+    },
+    "response": {
+      "phonetic": "/rɪˈspɒns/",
+      "pos": "n.",
+      "sense": "回答、回应、反应；响应（in response to；本文 an individual's response 个人层面的应对 / response times 反应时间）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Meridian Response"
+      ],
+      "examples": [
+        "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response (ASMR), which 27 to you like a sting in your brain. 要是你特别迷某首曲子，大脑会触发一种叫「自发性知觉经络反应」（ASMR）的东西，它给你的感觉就像脑子里被刺了一下。"
+      ],
+      "more": {
+        "confusables": "response / respondents / responded（同族不同词形，注意词性与用法）"
+      }
+    },
+    "say": {
+      "phonetic": "/seɪ/",
+      "pos": "v./n.",
+      "sense": "说、讲、表明、写道；发言权、决定权（have a say）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In any case, it's 26 to say that music moves people in special ways. 总之，公允地说，音乐确实是以特殊的方式在打动人。"
+      ],
+      "more": {
+        "confusables": "say / says / sayings（同族不同词形，注意词性与用法）"
+      }
+    },
+    "says": {
+      "phonetic": "/sez/",
+      "pos": "v.",
+      "sense": "say 的第三人称单数（说）",
+      "lemma": "say",
+      "collocations": [
+        "she says that",
+        "as the report says"
+      ],
+      "examples": [
+        "He says the change is coming. 他说变化正在到来。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "says /sez/ 发音不按规则；注意与 say 的过去式 said /sed/ 区分"
+      }
+    },
+    "sensory": {
+      "phonetic": "/ˈsensəri/",
+      "pos": "adj.",
+      "sense": "感官的、感觉的（sensory information / experience 感官信息、感官体验）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "Autonomous Sensory",
+        "Sensory Meridian"
+      ],
+      "examples": [
+        "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response (ASMR), which 27 to you like a sting in your brain. 要是你特别迷某首曲子，大脑会触发一种叫「自发性知觉经络反应」（ASMR）的东西，它给你的感觉就像脑子里被刺了一下。"
+      ]
+    },
+    "several": {
+      "phonetic": "/ˈsevrəl/",
+      "pos": "adj./pron.",
+      "sense": "数个、几个（后接可数复数）",
+      "collocations": [
+        "several years",
+        "several of them"
+      ],
+      "examples": [
+        "Several legal cases were filed. 提起了数起法律诉讼。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "several（数个，后接复数）/ some（一些）"
+      }
+    },
+    "short": {
+      "phonetic": "/ʃɔːt/",
+      "pos": "adj.",
+      "sense": "短的、矮的；不足的（be short of）",
+      "collocations": [
+        "short-form writing",
+        "in short",
+        "be short of"
+      ],
+      "examples": [
+        "Short-form writing dominates social media. 短文本写作主导社交媒体。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "short（短的）/ shortly（不久）/ in short（简言之）"
+      }
+    },
+    "society": {
+      "phonetic": "/səˈsaɪəti/",
+      "pos": "n.",
+      "sense": "社会；社团",
+      "collocations": [
+        "as a society"
+      ],
+      "examples": [
+        "Jeff Anderson, associate professor in Radiology at the University of Utah and 32 author on the study, says \"In our society, the diagnoses of dementia are 33 resources to the maximum. 犹他大学放射学副教授、也是这项研究的撰稿作者 Jeff Anderson 说：「在我们的社会里，痴呆症的确诊把资源消耗到了极限。」"
+      ],
+      "isCet4HighFreq": true
+    },
+    "something": {
+      "phonetic": "/ˈsʌmθɪŋ/",
+      "pos": "pron.",
+      "sense": "某事、某物（不定代词）",
+      "collocations": [
+        "something like",
+        "something to do with",
+        "or something"
+      ],
+      "examples": [
+        "If you feel something should not be done... 如果你觉得某事不该做……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）"
+      }
+    },
+    "sometimes": {
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "pos": "adv.",
+      "sense": "有时、偶尔、间或（频度副词；区别于 sometime「在某个时候」）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Alzheimer's 29 to put people into layers of confusion, and the study confirms that music can sometimes 30 lift people out of the Alzheimer's haze and bring them back to (at least a likeness of) normality … if only for a short while. 阿尔茨海默病往往会把人层层困在混乱里，而研究确认音乐有时确实能把人从那片病态迷雾中拉出来、带回（至少近似的）正常状态——哪怕只是短暂一会儿。"
+      ]
+    },
+    "songs": {
+      "phonetic": "/sɒŋz/",
+      "pos": "n.",
+      "sense": "歌曲、歌（song 的复数；hit songs 热门歌曲）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "songs from",
+        "songs from his",
+        "listening to songs"
+      ],
+      "examples": [
+        "One of the most famous examples of this is the story of 92-year-old Henry Dryer, who comes out of dementia(痴呆) while listening to songs from his youth. 其中最出名的一个例子，是 92 岁的 Henry Dryer 的故事——他听着年轻时的歌，竟从痴呆中清醒了过来。"
+      ]
+    },
+    "special": {
+      "phonetic": "/ˈspeʃl/",
+      "pos": "adj.",
+      "sense": "特殊的、特别的",
+      "collocations": [
+        "special interest groups",
+        "special ways",
+        "people in special"
+      ],
+      "examples": [
+        "In any case, it's 26 to say that music moves people in special ways. 总之，公允地说，音乐确实是以特殊的方式在打动人。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "special / specific（同族不同词形，注意词性与用法）"
+      }
+    },
+    "story": {
+      "phonetic": "/ˈstɔːri/",
+      "pos": "n.",
+      "sense": "故事、小说、情节、叙述、报道、说法；（楼房）层（tell a story 讲故事；the story goes 据说）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "story of"
+      ],
+      "examples": [
+        "One of the most famous examples of this is the story of 92-year-old Henry Dryer, who comes out of dementia(痴呆) while listening to songs from his youth. 其中最出名的一个例子，是 92 岁的 Henry Dryer 的故事——他听着年轻时的歌，竟从痴呆中清醒了过来。"
+      ],
+      "more": {
+        "confusables": "story / storage / stories（同族不同词形，注意词性与用法）"
+      }
+    },
+    "studied": {
+      "phonetic": "/ˈstʌdid/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习（study 的过去式/过去分词形式）",
+      "lemma": "study",
+      "collocations": [
+        "rarely studied",
+        "studied properly"
+      ],
+      "examples": [
+        "This phenomenon has been 31 several times but rarely studied properly. 这种现象已经被观察到好几次了，却几乎没被认真研究过。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "study + -ied（过去式/过去分词）",
+        "confusables": "studied（过去式/过去分词）/ study（原形）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "stuff": {
+      "phonetic": "/stʌf/",
+      "pos": "n./v.",
+      "sense": "东西、物品、材料、原料、玩意儿、废话（口语）；塞满、填满、填塞、把…塞进",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "powerful stuff"
+      ],
+      "examples": [
+        "ASMR is powerful stuff! ASMR 可真不是闹着玩的！"
+      ]
+    },
+    "times": {
+      "phonetic": "/taɪmz/",
+      "pos": "n.",
+      "sense": "次数；时代（time 的复数）；乘以",
+      "lemma": "time",
+      "collocations": [
+        "three times",
+        "at times",
+        "in modern times"
+      ],
+      "examples": [
+        "He won three times. 他赢过三次。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "times（次数/时代）/ time（时间）"
+      }
+    },
+    "turns": {
+      "phonetic": "/tɜːnz/",
+      "pos": "v./n.",
+      "sense": "转动、旋转、翻转、转弯、变成、转向；轮次、转动、转弯、变化、转折（turn 的复数/三单形式）",
+      "lemma": "turn",
+      "collocations": [
+        "turns out"
+      ],
+      "examples": [
+        "It turns out that ASMR is pretty special. 事实证明，ASMR 还真是挺特别的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "turn + -s（复数/三单）",
+        "confusables": "turns（复数/三单）/ turn（原形）"
+      }
+    },
+    "university": {
+      "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+      "pos": "n.",
+      "sense": "大学（可数）",
+      "collocations": [
+        "at university",
+        "university students",
+        "a research university"
+      ],
+      "examples": [
+        "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "university（大学）/ college（学院）/ at university（在读大学，不加 the）"
+      }
+    },
+    "ways": {
+      "phonetic": "/weɪz/",
+      "pos": "n.",
+      "sense": "方式、方法（way 的复数）",
+      "lemma": "way",
+      "collocations": [
+        "in many ways",
+        "in some ways",
+        "find ways to"
+      ],
+      "examples": [
+        "In some ways the risks are overstated. 某些方面风险被夸大了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in some ways（在某些方面）/ in a way（在某种意义上）"
+      }
+    },
+    "world": {
+      "phonetic": "/wɜːld/",
+      "pos": "n.",
+      "sense": "世界；领域；世人",
+      "collocations": [
+        "around the world",
+        "the world of work",
+        "real world"
+      ],
+      "examples": [
+        "The idea spread around the world. 这个想法传遍世界。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "world（世界）/ word（单词）读音与拼写易混"
+      }
+    },
+    "youth": {
+      "phonetic": "/juːθ/",
+      "pos": "n.",
+      "sense": "青年时期、青春；年轻人、青年（本文 in their youth 年轻时 / Australia's youth 澳大利亚年轻人）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "his youth"
+      ],
+      "examples": [
+        "One of the most famous examples of this is the story of 92-year-old Henry Dryer, who comes out of dementia(痴呆) while listening to songs from his youth. 其中最出名的一个例子，是 92 岁的 Henry Dryer 的故事——他听着年轻时的歌，竟从痴呆中清醒了过来。"
+      ]
+    }
+  }
+}

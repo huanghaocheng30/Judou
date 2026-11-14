@@ -1,0 +1,5818 @@
+{
+  "sourceKey": "cet4-2025-06-set3A",
+  "articleId": "set3A",
+  "packVersion": "2026.11.08-1",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 6,
+    "setNo": 3,
+    "section": "仔细阅读",
+    "passageLabel": "Passage One",
+    "title": "Outer Beauty and Inner Beauty",
+    "wordCount": 350
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Our society places a high value on physical beauty. Americans spend an average of over $722 each year on their appearance. One in ten Americans has tried to look like a star.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 51,
+          "text": "Our society places a high value on physical beauty.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "surface": "society",
+              "normalized": "society",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "surface": "places",
+              "normalized": "places",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 20,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "high",
+              "normalized": "high",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 31,
+              "surface": "value",
+              "normalized": "value",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 43,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 50,
+              "surface": "beauty",
+              "normalized": "beauty",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 51,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们的社会把一种很高的价值放置在身体之美上。",
+            "translationNatural": "这个社会，把长得好不好看看得特别重。",
+            "structMarkup": "【Our society】 _places a high value on_ ~physical beauty~.",
+            "structureSummary": "主谓宾 + 介词短语作状语",
+            "components": [
+              {
+                "part": "Our society",
+                "role": "主语",
+                "note": "单数集合名词，谓语用第三人称单数 places；用 Our 把读者一并纳入，不是冷眼旁观地谈「他们」"
+              },
+              {
+                "part": "places a high value on",
+                "role": "谓语",
+                "note": "place a high value on 是固定搭配，意为「高度重视」；把「重视」写成 place + 名词 value，而非 very much 之类副词"
+              },
+              {
+                "part": "physical beauty",
+                "role": "宾语",
+                "note": "介词 on 的宾语；physical 与下文的 soulful / inner 形成全文最核心的一组对立"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 介词短语作状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "society",
+                "meaning": "社会；社团",
+                "usage": "常见搭配：as a society。",
+                "example": "Our society places a high value on physical beauty. 这个社会，把长得好不好看看得特别重。"
+              },
+              {
+                "text": "places",
+                "meaning": "地方（place 的复数）；放置（动词三单）",
+                "usage": "注意区分：take place（发生）/ take the place of（取代）/ in place（到位）。常见搭配：in many places / take place。",
+                "example": "Many places could benefit from existing technology. 许多地方能受益于现有技术。"
+              },
+              {
+                "text": "high",
+                "meaning": "高的；高度的 / 高高地",
+                "usage": "注意区分：high（具体高）/ highly（抽象程度高，如 highly likely）。常见搭配：high school / high rates。",
+                "example": "Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：take place（发生）/ take the place of（取代）/ in place（到位）。",
+              "注意区分：high（具体高）/ highly（抽象程度高，如 highly likely）。",
+              "注意区分：value（价值，不可数；values 价值观，复数；重视，动词）/ be of value = valuable / worth（只作表语，be worth doing）/ price（是「定价」，value 是「价值」）/ evaluate（评估，动词）。"
+            ],
+            "paragraphRole": "开门见山给社会风气定性：重外在美，为第 46 题直接立据，也让后面全部「内在美」的论述有了要回应的靶子。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 52,
+          "end": 122,
+          "text": "Americans spend an average of over $722 each year on their appearance.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "Americans",
+              "normalized": "americans",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "spend",
+              "normalized": "spend",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 18,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 26,
+              "surface": "average",
+              "normalized": "average",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 29,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 36,
+              "surface": "$",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 36,
+              "end": 39,
+              "surface": "722",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 40,
+              "end": 44,
+              "surface": "each",
+              "normalized": "each",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 49,
+              "surface": "year",
+              "normalized": "year",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 58,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 69,
+              "surface": "appearance",
+              "normalized": "appearance",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 70,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "美国人每年平均在他们的外表上花费超过 722 美元。",
+            "translationNatural": "美国人一年花在打扮上的钱，平均七百二十多美元。",
+            "structMarkup": "【Americans】 _spend an average of over $722_ (each year) (on their appearance).",
+            "structureSummary": "主谓宾 + 数量状语 + 介词状语",
+            "components": [
+              {
+                "part": "Americans",
+                "role": "主语",
+                "note": "复数泛指，谓语用原形 spend；把上句抽象的「我们的社会」换成可统计的人群"
+              },
+              {
+                "part": "spend an average of over $722",
+                "role": "谓语+宾语",
+                "note": "spend + 金额 结构；an average of 意为「平均为」，over 表「超过」；$722 是卷面金额写法，原样保留"
+              },
+              {
+                "part": "each year",
+                "role": "状语",
+                "note": "时间状语把金额折算成年，避免被误读成一次性支出"
+              },
+              {
+                "part": "on their appearance",
+                "role": "状语",
+                "note": "spend ... on sth 固定搭配；appearance 与 physical beauty 同义换词，把钱具体花在哪儿点明"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 数量状语 + 介词状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "spend",
+                "meaning": "花费（时间/金钱）、度过、消耗、用尽（spend ... on sth / doing）",
+                "usage": "注意区分：sb spends time/money on sth 或 (in) doing（人作主语）/ sth costs sb money（物作主语）/ it takes sb time to do（it 作形式主语）/ sb pays money for sth（介词 for）/ spend、cost、take、pay 主语与句型不同，不能互换。",
+                "example": "Americans spend an average of over $722 each year on their appearance. 美国人一年花在打扮上的钱，平均七百二十多美元。"
+              },
+              {
+                "text": "year",
+                "meaning": "年；年度",
+                "usage": "注意区分：year（年）/ ear（耳朵）。常见搭配：this year / a year ago。",
+                "example": "Red Rum returned the very next year. 「红朗姆」在第二年又回来了。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：sb spends time/money on sth 或 (in) doing（人作主语）/ sth costs sb money（物作主语）/ it takes sb time to do（it 作形式主语）/ sb pays money for sth（介词 for）/ spend、cost、take、pay 主语与句型不同，不能互换。",
+              "注意区分：year（年）/ ear（耳朵）。"
+            ],
+            "paragraphRole": "用一个具体金额把上句「高度重视」量化，让第 46 题的 B 选项有了硬证据，同时排除「钱浪费在明星身材上」一类误读。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 123,
+          "end": 174,
+          "text": "One in ten Americans has tried to look like a star.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "One",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "surface": "ten",
+              "normalized": "ten",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 20,
+              "surface": "Americans",
+              "normalized": "americans",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 30,
+              "surface": "tried",
+              "normalized": "tried",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 38,
+              "surface": "look",
+              "normalized": "look",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 45,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 50,
+              "surface": "star",
+              "normalized": "star",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 51,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "十个美国人中的一个曾试图去看起来像一位明星。",
+            "translationNatural": "每十个美国人里就有一个，曾照着明星的样子捯饬过自己。",
+            "structMarkup": "【One in ten Americans】 _has tried_ ~to look like a star~.",
+            "structureSummary": "主谓宾 + 不定式作宾语",
+            "components": [
+              {
+                "part": "One in ten Americans",
+                "role": "主语",
+                "note": "分数式表达作主语，核心词是 One，故谓语用单数 has；in ten Americans 给出分母"
+              },
+              {
+                "part": "has tried",
+                "role": "谓语",
+                "note": "现在完成时表「至今有过这种尝试」；try 后接不定式，不接动名词"
+              },
+              {
+                "part": "to look like a star",
+                "role": "宾语",
+                "note": "不定式作 tried 的宾语；look like 意为「看上去像」，a star 与上句 appearance 一起把「重外表」推到模仿明星的极端"
+              }
+            ],
+            "clauses": [
+              "have + 过去分词构成完成时态，强调对现在的影响或动作的先后。",
+              "本句主干为「主谓宾 + 不定式作宾语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "look like",
+                "meaning": "看、显得（look + adj.）；外观",
+                "usage": "注意区分：look at（看）/ look for（找）/ look after（照顾）。常见搭配：look at / look like。",
+                "example": "When you look at today's digital activity... 当你审视当今的数字活动……"
+              },
+              {
+                "text": "like",
+                "meaning": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+                "usage": "注意区分：like（介词，后接名词）/ as（连词，后接从句）。常见搭配：like this / feel like。",
+                "example": "Tools like this save time. 这样的工具能省时间。"
+              }
+            ],
+            "pitfalls": [
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。",
+              "注意区分：look at（看）/ look for（找）/ look after（照顾）。",
+              "注意区分：like（介词，后接名词）/ as（连词，后接从句）。"
+            ],
+            "paragraphRole": "补上第三个层层加码的数据（模仿明星），三个短句由定性到金额到比例，把首段「社会重外表」钉得结实，正好落在第 46 题。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. Trying to look like the magazine pictures can take us on a long ride away from what beauty is really about.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 155,
+          "text": "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "There's",
+              "normalized": "there's",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 15,
+              "surface": "nothing",
+              "normalized": "nothing",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 21,
+              "surface": "wrong",
+              "normalized": "wrong",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 33,
+              "surface": "trying",
+              "normalized": "trying",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "look",
+              "normalized": "look",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 50,
+              "surface": "best",
+              "normalized": "best",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 51,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 52,
+              "end": 55,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 65,
+              "surface": "excessive",
+              "normalized": "excessive",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 71,
+              "surface": "focus",
+              "normalized": "focus",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 74,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 83,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 94,
+              "surface": "appearance",
+              "normalized": "appearance",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 101,
+              "surface": "misses",
+              "normalized": "misses",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 105,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 113,
+              "surface": "soulful",
+              "normalized": "soulful",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 121,
+              "surface": "aspects",
+              "normalized": "aspects",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 124,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 129,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 132,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 138,
+              "surface": "means",
+              "normalized": "means",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 141,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 144,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 154,
+              "surface": "beautiful",
+              "normalized": "beautiful",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 155,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "尝试去看起来我们最好的样子并没有什么错，但是对外在的过度聚焦错过了「成为美意味着什么」的灵魂层面。",
+            "translationNatural": "想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。",
+            "structMarkup": "There's nothing wrong with trying to look our best, 【but excessive focus on physical appearance】 _misses the soulful aspects_ (of what it means to be beautiful).",
+            "structureSummary": "but 连接的并列句（前 There be 句型 + 动名词短语，后主谓宾 + 宾语从句）",
+            "components": [
+              {
+                "part": "There's nothing wrong with trying to look our best",
+                "role": "分句1",
+                "note": "There be 句型；nothing wrong with doing 意为「做……没什么不对」；look one's best 意为「呈现出最佳状态」，our 与主语呼应"
+              },
+              {
+                "part": "but excessive focus on physical appearance",
+                "role": "分句2主语",
+                "note": "but 转折；excessive 与上半句 nothing wrong 划界——错的不是「收拾」，而是「过度」；focus on 与首段 place value on 呼应"
+              },
+              {
+                "part": "misses the soulful aspects",
+                "role": "谓语+宾语",
+                "note": "miss 此处意为「漏掉、错过」而非「想念」；soulful 与 physical 正面对立，是全文第一次点出「内在」"
+              },
+              {
+                "part": "of what it means to be beautiful",
+                "role": "定语",
+                "note": "of 后接 what 引导的宾语从句；从句里 it 是形式主语，真正主语是不定式 to be beautiful，把「美」拆成可追问的定义"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「but 连接的并列句（前 There be 句型 + 动名词短语，后主谓宾 + 宾语从句）」。"
+            ],
+            "phrases": [
+              {
+                "text": "focus on",
+                "meaning": "专注于",
+                "usage": "on 是介词，后接名词或动名词。",
+                "example": "The study focuses on sleep quality. 该研究聚焦睡眠质量。"
+              },
+              {
+                "text": "look",
+                "meaning": "看、显得（look + adj.）；外观",
+                "usage": "注意区分：look at（看）/ look for（找）/ look after（照顾）。常见搭配：look at / look like。",
+                "example": "When you look at today's digital activity... 当你审视当今的数字活动……"
+              },
+              {
+                "text": "focus",
+                "meaning": "集中（注意力于）、聚焦（focus on）；焦点、重点、中心",
+                "usage": "注意区分：focus on/upon（集中于，介词 on，不用 in/at）/ focus（焦点；集中，名词/动词）/ focused / focussed（两种过去式拼写）/ foci（科学复数）/ focus 与 concentrate on（后者更强调集中注意力）。",
+                "example": "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. 想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。"
+              }
+            ],
+            "pitfalls": [
+              "focus on 后接动名词；名词形式 focus 也常与 on 搭配。",
+              "注意区分：look at（看）/ look for（找）/ look after（照顾）。",
+              "注意区分：focus on/upon（集中于，介词 on，不用 in/at）/ focus（焦点；集中，名词/动词）/ focused / focussed（两种过去式拼写）/ foci（科学复数）/ focus 与 concentrate on（后者更强调集中注意力）。"
+            ],
+            "paragraphRole": "先让一步（想好看没错）再转折，把批评对象精确锁定为「过度关注外表」，并第一次抛出 soulful / 内在这条主线，为全篇转向定调。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 156,
+          "end": 263,
+          "text": "Trying to look like the magazine pictures can take us on a long ride away from what beauty is really about.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "Trying",
+              "normalized": "trying",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "look",
+              "normalized": "look",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 23,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 32,
+              "surface": "magazine",
+              "normalized": "magazine",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 41,
+              "surface": "pictures",
+              "normalized": "pictures",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 50,
+              "surface": "take",
+              "normalized": "take",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 53,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 58,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 63,
+              "surface": "long",
+              "normalized": "long",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 68,
+              "surface": "ride",
+              "normalized": "ride",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 73,
+              "surface": "away",
+              "normalized": "away",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 83,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 90,
+              "surface": "beauty",
+              "normalized": "beauty",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 100,
+              "surface": "really",
+              "normalized": "really",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 106,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 107,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "试图去看起来像杂志图片，能够带我们走上一段远离「美真正关乎什么」的长路程。",
+            "translationNatural": "照着杂志上的样子去整，只会把人越带越偏，离美真正的意思越来越远。",
+            "structMarkup": "【Trying to look like the magazine pictures】 _can take us on a long ride_ (away from what beauty is really about).",
+            "structureSummary": "主谓宾 + 状语（动名词短语作主语 + 宾语从句作介词宾语）",
+            "components": [
+              {
+                "part": "Trying to look like the magazine pictures",
+                "role": "主语",
+                "note": "动名词短语作主语，谓语用单数 can take；magazine pictures 把上句的 a star 换成更日常的比照对象"
+              },
+              {
+                "part": "can take us on a long ride",
+                "role": "谓语+宾语",
+                "note": "take sb on a ride 字面「带某人走一程」，此处引申为「把人带偏」；can 保留可能性语气"
+              },
+              {
+                "part": "away from what beauty is really about",
+                "role": "状语",
+                "note": "away from 与 on a long ride 配合，方向感很强；what 引导宾语从句作 from 的宾语，really 强调「本真」与「表象」之别"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 状语（动名词短语作主语 + 宾语从句作介词宾语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "look like",
+                "meaning": "看、显得（look + adj.）；外观",
+                "usage": "注意区分：look at（看）/ look for（找）/ look after（照顾）。常见搭配：look at / look like。",
+                "example": "When you look at today's digital activity... 当你审视当今的数字活动……"
+              },
+              {
+                "text": "like",
+                "meaning": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+                "usage": "注意区分：like（介词，后接名词）/ as（连词，后接从句）。常见搭配：like this / feel like。",
+                "example": "Tools like this save time. 这样的工具能省时间。"
+              },
+              {
+                "text": "pictures",
+                "meaning": "图画；the broader picture 宏观大局（picture 的复数/三单形式）",
+                "usage": "注意区分：pictures（复数/三单）/ picture（原形）。",
+                "example": "Trying to look like the magazine pictures can take us on a long ride away from what beauty is really about. 照着杂志上的样子去整，只会把人越带越偏，离美真正的意思越来越远。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：look at（看）/ look for（找）/ look after（照顾）。",
+              "注意区分：like（介词，后接名词）/ as（连词，后接从句）。",
+              "注意区分：pictures（复数/三单）/ picture（原形）。"
+            ],
+            "paragraphRole": "用「越带越远」这个空间比喻把上句的 misses 具象化，收束第 2 段，也为第 3 段「花太多时间打磨形象」埋下动作铺垫。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 140,
+          "text": "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "spend",
+              "normalized": "spend",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "far",
+              "normalized": "far",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "too",
+              "normalized": "too",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 35,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 36,
+              "end": 42,
+              "surface": "energy",
+              "normalized": "energy",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 44,
+              "end": 47,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 53,
+              "surface": "money",
+              "normalized": "money",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 60,
+              "surface": "trying",
+              "normalized": "trying",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 70,
+              "surface": "polish",
+              "normalized": "polish",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 79,
+              "surface": "image",
+              "normalized": "image",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 82,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 87,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 96,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 101,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 107,
+              "surface": "bring",
+              "normalized": "bring",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 117,
+              "surface": "attention",
+              "normalized": "attention",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 118,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 119,
+              "end": 123,
+              "surface": "love",
+              "normalized": "love",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 124,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 125,
+              "end": 128,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 139,
+              "surface": "connection",
+              "normalized": "connection",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 140,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们当中许多人花费远过于多的时间、精力与金钱，去打磨一个「我们认为会带来关注、爱与联结」的形象。",
+            "translationNatural": "好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。",
+            "structMarkup": "【Many of us】 _spend far too much time, energy, and money_ (trying to polish an image) (of what we think will bring attention, love, and connection).",
+            "structureSummary": "主谓宾 + 现在分词短语作补足语（spend ... doing 结构）+ 宾语从句",
+            "components": [
+              {
+                "part": "Many of us",
+                "role": "主语",
+                "note": "复数概念，谓语用 spend；of us 把批评落回「我们自己也一样」，语气是自省而非指责"
+              },
+              {
+                "part": "spend far too much time, energy, and money",
+                "role": "谓语+宾语",
+                "note": "三个并列宾语由逗号与 and 串起；far too much 比 too much 更重，强调投入之过量，与首段 $722 呼应"
+              },
+              {
+                "part": "trying to polish an image",
+                "role": "状语",
+                "note": "spend ... doing 结构；polish 意为「打磨、粉饰」，image 与 appearance / magazine pictures 同义递进"
+              },
+              {
+                "part": "of what we think will bring attention, love, and connection",
+                "role": "定语",
+                "note": "of 后接 what 引导的宾语从句；we think 是插入语，去掉后为 what will bring...；三个抽象名词并列，是第 47 题「关注、爱、联结」的题眼"
+              }
+            ],
+            "clauses": [
+              "情态动词 + be doing 表示对正在发生之事的推测或可能。",
+              "本句主干为「主谓宾 + 现在分词短语作补足语（spend ... doing 结构）+ 宾语从句」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "spend",
+                "meaning": "花费（时间/金钱）、度过、消耗、用尽（spend ... on sth / doing）",
+                "usage": "注意区分：sb spends time/money on sth 或 (in) doing（人作主语）/ sth costs sb money（物作主语）/ it takes sb time to do（it 作形式主语）/ sb pays money for sth（介词 for）/ spend、cost、take、pay 主语与句型不同，不能互换。",
+                "example": "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. 好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。"
+              },
+              {
+                "text": "time",
+                "meaning": "时间；次数；时机 / 计时",
+                "usage": "注意区分：times（时代）/ time（时间，不可数）。常见搭配：at the same time / take time off。",
+                "example": "It takes time to change habits. 改变习惯需要时间。"
+              },
+              {
+                "text": "energy",
+                "meaning": "能量、能源；精力、活力、干劲",
+                "usage": "注意区分：energy（能量；精力，不可数）/ energetic（精力充沛的）/ energies 复数可指「精力、努力」（devote one's energies to）/ power（电力/权力）/ strength（力气）。",
+                "example": "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. 好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。"
+              }
+            ],
+            "pitfalls": [
+              "情态动词后接动词原形，不能接第三人称单数或过去式。",
+              "注意区分：sb spends time/money on sth 或 (in) doing（人作主语）/ sth costs sb money（物作主语）/ it takes sb time to do（it 作形式主语）/ sb pays money for sth（介词 for）/ spend、cost、take、pay 主语与句型不同，不能互换。",
+              "注意区分：times（时代）/ time（时间，不可数）。"
+            ],
+            "paragraphRole": "把「过度关注」拆成时间／精力／金钱三笔具体投入，并点出人们误以为能换来的三样东西，正是第 47 题「努力变好看会怎样」所针对的那层错觉。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 141,
+          "end": 269,
+          "text": "In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "surface": "process",
+              "normalized": "process",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 15,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 16,
+              "end": 18,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 27,
+              "surface": "fail",
+              "normalized": "fail",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 37,
+              "surface": "attend",
+              "normalized": "attend",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 40,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 50,
+              "surface": "ourselves",
+              "normalized": "ourselves",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 53,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 55,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 59,
+              "surface": "way",
+              "normalized": "way",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 64,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 70,
+              "surface": "would",
+              "normalized": "would",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "move",
+              "normalized": "move",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 85,
+              "surface": "toward",
+              "normalized": "toward",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 92,
+              "surface": "deeper",
+              "normalized": "deeper",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 101,
+              "surface": "intimacy",
+              "normalized": "intimacy",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 102,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 103,
+              "end": 114,
+              "surface": "fulfillment",
+              "normalized": "fulfillment",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 115,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 116,
+              "end": 119,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 127,
+              "surface": "meaning",
+              "normalized": "meaning",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 128,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在这一过程中，我们可能没能以一种会把我们推向更深的亲密、满足与意义的方式去关照我们自己。",
+            "translationNatural": "可这么折腾下来，反倒顾不上真正照料自己——而恰恰是那种照料，才能把人带向更深的亲近、踏实和活着的意义。",
+            "structMarkup": "(In the process), we may fail to attend to ourselves (in a way that would move us toward deeper intimacy, fulfillment, and meaning).",
+            "structureSummary": "主谓 + 不定式作宾语 + 方式状语（含 that 引导的定语从句）",
+            "components": [
+              {
+                "part": "In the process",
+                "role": "状语",
+                "note": "回指上句「打磨形象」的整个过程，把因果从「投入」接到「代价」"
+              },
+              {
+                "part": "we may fail to attend to ourselves",
+                "role": "主句",
+                "note": "fail to do 意为「没能做」；may 让判断留余地；attend to 此处意为「关照、留心」，与「关注外表」的 attend 形成反讽"
+              },
+              {
+                "part": "in a way that would move us toward deeper intimacy, fulfillment, and meaning",
+                "role": "状语",
+                "note": "that 引导定语从句修饰 way，在从句中作主语；move sb toward 意为「把某人推向」；三个名词与上句 attention, love, connection 一一对照，构成本段最要紧的取舍"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓 + 不定式作宾语 + 方式状语（含 that 引导的定语从句）」。"
+            ],
+            "phrases": [
+              {
+                "text": "move",
+                "meaning": "移动、搬；促使（move sb to do）；举措",
+                "usage": "注意区分：move（移动）/ movement（运动/动作）。常见搭配：move on / move towards。",
+                "example": "The law is a move towards protection. 这项法律是迈向保护的一步。"
+              },
+              {
+                "text": "toward",
+                "meaning": "朝向、对于（towards 的美式写法）",
+                "usage": "注意区分：toward（美式）/ towards（英式），词义相同。常见搭配：toward the end / attitudes toward。",
+                "example": "A good diet goes a long way toward easing changes. 良好饮食对缓解变化大有帮助。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：way（方法）/ road（道路）/ method（方法，正式）。",
+              "注意区分：move（移动）/ movement（运动/动作）。",
+              "注意区分：toward（美式）/ towards（英式），词义相同。"
+            ],
+            "paragraphRole": "点出上句那些投入真正的代价：忽略内在照料、也就错失更深的关系与意义，是第 47 题 C 选项「 neglect inner qualities 」的直接依据。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "It may sound trite(老生常谈的), but beauty is only skin deep; it's not what brings love toward us. Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 93,
+          "text": "It may sound trite(老生常谈的), but beauty is only skin deep; it's not what brings love toward us.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "surface": "sound",
+              "normalized": "sound",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 18,
+              "surface": "trite",
+              "normalized": "trite",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 25,
+              "surface": "(老生常谈的)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 25,
+              "end": 26,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 37,
+              "surface": "beauty",
+              "normalized": "beauty",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 40,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 45,
+              "surface": "only",
+              "normalized": "only",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 50,
+              "surface": "skin",
+              "normalized": "skin",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 55,
+              "surface": "deep",
+              "normalized": "deep",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 56,
+              "surface": ";",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 57,
+              "end": 61,
+              "surface": "it's",
+              "normalized": "it's",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 65,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 70,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 77,
+              "surface": "brings",
+              "normalized": "brings",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "love",
+              "normalized": "love",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 89,
+              "surface": "toward",
+              "normalized": "toward",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 93,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "它可能听起来老生常谈(老生常谈的)，但是美只是皮肤深的；它不是把爱带向我们的东西。",
+            "translationNatural": "这话听着像陈词滥调，可「美不过一张皮」是真话：光靠脸，招不来爱。",
+            "structMarkup": "It may sound trite(老生常谈的), but beauty is only skin deep; it's not what brings love toward us.",
+            "structureSummary": "but 连接的并列句（前主系表，后主系表；分号后再接主系表 + 表语从句）",
+            "components": [
+              {
+                "part": "It may sound trite(老生常谈的)",
+                "role": "分句1",
+                "note": "It 指代后面要引的那句俗话；sound 作系动词；trite(老生常谈的) 是卷面中文括注，原样保留，先自嘲再转折"
+              },
+              {
+                "part": "beauty is only skin deep",
+                "role": "分句2",
+                "note": "skin deep 是固定复合形容词，意为「肤浅的、只到皮肤那么深」；only 把美限定在表层"
+              },
+              {
+                "part": "it's not what brings love toward us",
+                "role": "分句3",
+                "note": "分号后另起；what 引导表语从句，在从句中作主语；bring ... toward 意为「把……引向」，把上句「留不住爱」讲成因果"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「but 连接的并列句（前主系表，后主系表；分号后再接主系表 + 表语从句）」。"
+            ],
+            "phrases": [
+              {
+                "text": "it's",
+                "meaning": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+                "usage": "注意区分：it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）。常见搭配：it's important that / it's likely to。",
+                "example": "It's hard to say. 很难说。"
+              },
+              {
+                "text": "toward",
+                "meaning": "朝向、对于（towards 的美式写法）",
+                "usage": "注意区分：toward（美式）/ towards（英式），词义相同。常见搭配：toward the end / attitudes toward。",
+                "example": "A good diet goes a long way toward easing changes. 良好饮食对缓解变化大有帮助。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）。",
+              "注意区分：toward（美式）/ towards（英式），词义相同。"
+            ],
+            "paragraphRole": "借一句被说滥的俗语正面立论：外表招不来爱，既呼应第 3 段的 love，又为下句用好莱坞例子佐证铺路。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 94,
+          "end": 206,
+          "text": "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "read",
+              "normalized": "read",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 26,
+              "surface": "latest",
+              "normalized": "latest",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 36,
+              "surface": "Hollywood",
+              "normalized": "hollywood",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 45,
+              "surface": "starlets",
+              "normalized": "starlets",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 51,
+              "surface": "whose",
+              "normalized": "whose",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 59,
+              "surface": "seeming",
+              "normalized": "seeming",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 64,
+              "surface": "love",
+              "normalized": "love",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 70,
+              "surface": "turns",
+              "normalized": "turns",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 86,
+              "surface": "resentment",
+              "normalized": "resentment",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 97,
+              "surface": "bitter",
+              "normalized": "bitter",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 103,
+              "surface": "court",
+              "normalized": "court",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 111,
+              "surface": "battles",
+              "normalized": "battles",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 112,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "只要去读一读最新一批好莱坞小明星们的故事，她们看似的美满爱情变成了怨恨与痛苦的法庭争斗。",
+            "translationNatural": "看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。",
+            "structMarkup": "_Just read about_ ~the latest Hollywood starlets~ {whose seeming love turns into resentment and bitter court battles}.",
+            "structureSummary": "祈使句 + 宾语 + 定语从句（whose 引导）",
+            "components": [
+              {
+                "part": "Just read about",
+                "role": "谓语",
+                "note": "祈使句动词原形开头；Just 意为「只要、不妨」，把论证换成让读者自己去查证的口吻"
+              },
+              {
+                "part": "the latest Hollywood starlets",
+                "role": "宾语",
+                "note": "the latest 指「最近一批」；starlets 意为「小明星／新星」，带轻微贬义，与首段的 a star 遥相呼应"
+              },
+              {
+                "part": "whose seeming love turns into resentment and bitter court battles",
+                "role": "定语从句",
+                "note": "whose 修饰 starlets，表所属；seeming 意为「表面上的」，与 skin deep 同调；turn into 后接两个并列宾语，把「美→爱」的想象反证成「美→怨」"
+              }
+            ],
+            "clauses": [
+              "定语从句「whose seeming love turns into resentment and bitter court battles」：whose 修饰 starlets，表所属；seeming 意为「表面上的」，与 skin deep 同调；turn into 后接两个并列宾语，把「美→爱」的想象反证成「美→怨」",
+              "本句主干为「祈使句 + 宾语 + 定语从句（whose 引导）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "seeming",
+                "meaning": "似乎、好像（seem + adj. / seem to do）（seem 的现在分词/动名词形式）",
+                "usage": "注意区分：seeming（现在分词/动名词）/ seem（原形）。",
+                "example": "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+              },
+              {
+                "text": "turns",
+                "meaning": "转动、旋转、翻转、转弯、变成、转向；轮次、转动、转弯、变化、转折（turn 的复数/三单形式）",
+                "usage": "注意区分：turns（复数/三单）/ turn（原形）。",
+                "example": "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：seeming（现在分词/动名词）/ seem（原形）。",
+              "注意区分：turns（复数/三单）/ turn（原形）。"
+            ],
+            "paragraphRole": "用好莱坞明星「看似恩爱终成对簿公堂」的实例坐实上句，给第 4 段的立论补一个反例证据。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "Outer beauty can be as much of a curse as a blessing. We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. As I describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 53,
+          "text": "Outer beauty can be as much of a curse as a blessing.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Outer",
+              "normalized": "outer",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 12,
+              "surface": "beauty",
+              "normalized": "beauty",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 27,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 32,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "curse",
+              "normalized": "curse",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 52,
+              "surface": "blessing",
+              "normalized": "blessing",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "外在美能够既是一样多的诅咒，也是祝福。",
+            "translationNatural": "长得好看，是福也是祸，两边分量一样重。",
+            "structMarkup": "【Outer beauty】 _can be_ ~as much of a curse as a blessing~.",
+            "structureSummary": "主系表 + as ... as ... 同级比较结构",
+            "components": [
+              {
+                "part": "Outer beauty",
+                "role": "主语",
+                "note": "抽象名词短语作主语，谓语用 can be；Outer 与第 2 段起的 inner / soulful 正式成对"
+              },
+              {
+                "part": "can be",
+                "role": "系动词",
+                "note": "can 表「可能」，留有余地，不说所有美貌必然如此"
+              },
+              {
+                "part": "as much of a curse as a blessing",
+                "role": "表语",
+                "note": "as much of a ... as ... 是「既是一样多的 A 也是 B」的同级比较；of a 不能省；curse / blessing 一组反义，正是第 48 题 D 选项「as much harm as good」的同义改写"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表 + as ... as ... 同级比较结构」。"
+            ],
+            "phrases": [
+              {
+                "text": "Outer",
+                "meaning": "外面的、外部的、外层的、远离中心的（outer space 外层空间；与 inner 相对）",
+                "usage": "本句中作adj.，可按「主系表 + as ... as ... 同级比较结构」定位它在句中的位置。",
+                "example": "Outer beauty can be as much of a curse as a blessing. 长得好看，是福也是祸，两边分量一样重。"
+              }
+            ],
+            "pitfalls": [
+              "as much of a curse as a blessing：as much of a ... as ... 是「既是一样多的 A 也是 B」的同级比较；of a 不能省；curse / blessing 一组反义，正是第 48 题 D 选项「as much harm as good」的同义改写",
+              "本句主干为「主系表 + as ... as ... 同级比较结构」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "用一组反义词把「外在美」重新定性为福祸参半，是第 48 题的直接题眼，也把前四段的批评收成一句可记的判断。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 54,
+          "end": 233,
+          "text": "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "We",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "surface": "develop",
+              "normalized": "develop",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "habit",
+              "normalized": "habit",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 31,
+              "surface": "being",
+              "normalized": "being",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "so",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 42,
+              "surface": "focused",
+              "normalized": "focused",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 57,
+              "surface": "maintaining",
+              "normalized": "maintaining",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 59,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 67,
+              "surface": "perfect",
+              "normalized": "perfect",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 78,
+              "surface": "appearance",
+              "normalized": "appearance",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 83,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 86,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 92,
+              "surface": "never",
+              "normalized": "never",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 102,
+              "surface": "cultivate",
+              "normalized": "cultivate",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 106,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 112,
+              "surface": "inner",
+              "normalized": "inner",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 122,
+              "surface": "qualities",
+              "normalized": "qualities",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 132,
+              "surface": "necessary",
+              "normalized": "necessary",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 135,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 143,
+              "surface": "sustain",
+              "normalized": "sustain",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 147,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 154,
+              "surface": "deepen",
+              "normalized": "deepen",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 163,
+              "surface": "intimacy",
+              "normalized": "intimacy",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 167,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 178,
+              "surface": "connection",
+              "normalized": "connection",
+              "isWord": true
+            },
+            {
+              "start": 178,
+              "end": 179,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们可能养成一种习惯：如此聚焦于维持一个完美的外表，以至于我们从不培养那些为维持并加深亲密与联结所必需的内在品质。",
+            "translationNatural": "人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。",
+            "structMarkup": "We may develop a habit (of being so focused on maintaining a perfect appearance) {that we never cultivate the inner qualities} (necessary to sustain and deepen intimacy and connection).",
+            "structureSummary": "主谓宾 + 介词短语作后置定语（含 so ... that ... 结果状语从句）",
+            "components": [
+              {
+                "part": "We may develop a habit",
+                "role": "主句",
+                "note": "may 表普遍倾向；develop a habit 意为「养成习惯」，把一次次的关注固化成长期行为"
+              },
+              {
+                "part": "of being so focused on maintaining a perfect appearance",
+                "role": "定语",
+                "note": "of + 动名词作 habit 的后置定语；be focused on 后接动名词 maintaining；so 为后面的 that 结果从句埋好程度标记"
+              },
+              {
+                "part": "that we never cultivate the inner qualities",
+                "role": "状语从句",
+                "note": "so ... that ... 引导结果；never 把「从不」说到绝对；cultivate 与全文「培养内在美」同词，inner qualities 是第 47 题 C 选项的落点"
+              },
+              {
+                "part": "necessary to sustain and deepen intimacy and connection",
+                "role": "定语",
+                "note": "形容词短语作后置定语修饰 qualities；两个并列不定式 sustain / deepen 共接宾语 intimacy and connection，与第 3 段三词收尾呼应"
+              }
+            ],
+            "clauses": [
+              "状语从句「that we never cultivate the inner qualities」：so ... that ... 引导结果；never 把「从不」说到绝对；cultivate 与全文「培养内在美」同词，inner qualities 是第 47 题 C 选项的落点",
+              "含否定或半否定成分；若置于句首，主句须部分倒装。"
+            ],
+            "phrases": [
+              {
+                "text": "develop a habit",
+                "meaning": "发展、养成、开发",
+                "usage": "常见搭配：develop a habit / develop a skill。",
+                "example": "He developed a reading habit. 他养成了阅读习惯。"
+              },
+              {
+                "text": "habit",
+                "meaning": "习惯（本文指养成的固定行为）",
+                "usage": "常见搭配：form a habit / break a habit / out of habit。",
+                "example": "I check my phone out of habit. 我习惯性地看手机。"
+              },
+              {
+                "text": "focused",
+                "meaning": "集中（注意力于）、聚焦（focus on）；焦点、重点、中心（focus 的过去式/过去分词形式）",
+                "usage": "注意区分：focused（过去式/过去分词）/ focus（原形）。",
+                "example": "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. 人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。"
+              }
+            ],
+            "pitfalls": [
+              "否定副词置于句首时主句要部分倒装（助动词提前）。",
+              "注意区分：focused（过去式/过去分词）/ focus（原形）。",
+              "注意区分：maintaining（现在分词/动名词）/ maintain（原形）。"
+            ],
+            "paragraphRole": "把「福祸参半」讲成机制：过度维护外表会挤掉培养内在品质的时间，既解释第 47 题的 neglect，又为第 48 题的 harm 给出理由。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 234,
+          "end": 348,
+          "text": "As I describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "As",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "surface": "I",
+              "normalized": "i",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 13,
+              "surface": "describe",
+              "normalized": "describe",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 16,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "surface": "my",
+              "normalized": "my",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "book",
+              "normalized": "book",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 25,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 39,
+              "surface": "Authentic",
+              "normalized": "authentic",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 45,
+              "surface": "Heart",
+              "normalized": "heart",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 46,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 56,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 64,
+              "surface": "courage",
+              "normalized": "courage",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 80,
+              "surface": "authentic",
+              "normalized": "authentic",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 85,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 94,
+              "surface": "connects",
+              "normalized": "connects",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 97,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 100,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 102,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 109,
+              "surface": "deeper",
+              "normalized": "deeper",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 113,
+              "surface": "way",
+              "normalized": "way",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 114,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "正如我在我的书《真实之心》中所描述的，正是去真实的勇气以一种更深的方式把我们联结起来。",
+            "translationNatural": "我在《真实之心》里写过：真能把人连到一块儿的，是敢做自己的那股勇气。",
+            "structMarkup": "{As I describe in my book, The Authentic Heart}, it is 【the courage to be authentic】 that connects us in a deeper way.",
+            "structureSummary": "As 引导的非限制性定语从句 + It is ... that ... 强调句",
+            "components": [
+              {
+                "part": "As I describe in my book, The Authentic Heart",
+                "role": "定语从句",
+                "note": "As 指代后面整句，意为「正如……所说」；The Authentic Heart 是书名、用逗号插入作 my book 的同位语，卷面无斜体星号，原样照抄"
+              },
+              {
+                "part": "it is the courage to be authentic that connects us in a deeper way",
+                "role": "强调句",
+                "note": "It is ... that ... 强调主语 the courage；to be authentic 是不定式作后置定语；去掉强调框架后为 the courage ... connects us，谓语单数与 courage 一致"
+              },
+              {
+                "part": "the courage to be authentic",
+                "role": "主语",
+                "note": "被 It is ... that ... 框住强调的真正主语；to be authentic 作后置定语，把上句「从不培养内在品质」缺的那样东西点名成敢真实"
+              }
+            ],
+            "clauses": [
+              "定语从句「As I describe in my book, The Authentic Heart」：As 指代后面整句，意为「正如……所说」；The Authentic Heart 是书名、用逗号插入作 my book 的同位语，卷面无斜体星号，原样照抄",
+              "本句主干为「As 引导的非限制性定语从句 + It is ... that ... 强调句」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "authentic",
+                "meaning": "真实的、真正的、可信的；原汁原味的",
+                "usage": "注意区分：authentic（真品的、正宗的，强调非伪造，如 authentic documents/food）/ genuine（真的、真诚的，可指人或感情）/ real（真实的，泛指）/ authentic 与 fake（反义）。",
+                "example": "As I describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way. 我在《真实之心》里写过：真能把人连到一块儿的，是敢做自己的那股勇气。"
+              },
+              {
+                "text": "connects",
+                "meaning": "连接、接通；联系、关联；把…联系起来（connect A to/with B）（connect 的复数/三单形式）",
+                "usage": "注意区分：connects（复数/三单）/ connect（原形）。",
+                "example": "As I describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way. 我在《真实之心》里写过：真能把人连到一块儿的，是敢做自己的那股勇气。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：authentic（真品的、正宗的，强调非伪造，如 authentic documents/food）/ genuine（真的、真诚的，可指人或感情）/ real（真实的，泛指）/ authentic 与 fake（反义）。",
+              "注意区分：connects（复数/三单）/ connect（原形）。",
+              "注意区分：way（方法）/ road（道路）/ method（方法，正式）。"
+            ],
+            "paragraphRole": "借自己的书把「内在」落成一个具体词——敢真实，并用强调句与上句「从不培养内在品质」正面对撞，为第 6 段的 meeting of inner worlds 铺路。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "While our initial attraction may be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. If we redirect our attention toward cultivating inner qualities, we might find a magnetic attraction that moves us from something superficial to something that connects us to our depths.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 190,
+          "text": "While our initial attraction may be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "While",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 17,
+              "surface": "initial",
+              "normalized": "initial",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 28,
+              "surface": "attraction",
+              "normalized": "attraction",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 35,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "based",
+              "normalized": "based",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 50,
+              "surface": "part",
+              "normalized": "part",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 51,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 63,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 73,
+              "surface": "chemistry",
+              "normalized": "chemistry",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 74,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 75,
+              "end": 77,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 84,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 92,
+              "surface": "meeting",
+              "normalized": "meeting",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 95,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 99,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 105,
+              "surface": "inner",
+              "normalized": "inner",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 112,
+              "surface": "worlds",
+              "normalized": "worlds",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 117,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 125,
+              "surface": "creates",
+              "normalized": "creates",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 129,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 137,
+              "surface": "lasting",
+              "normalized": "lasting",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 146,
+              "surface": "intimacy",
+              "normalized": "intimacy",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 150,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 160,
+              "surface": "spiritual",
+              "normalized": "spiritual",
+              "isWord": true
+            },
+            {
+              "start": 161,
+              "end": 171,
+              "surface": "connection",
+              "normalized": "connection",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 175,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 176,
+              "end": 181,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 182,
+              "end": 184,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 185,
+              "end": 189,
+              "surface": "long",
+              "normalized": "long",
+              "isWord": true
+            },
+            {
+              "start": 189,
+              "end": 190,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "虽然我们最初的吸引可能部分地建立在外在的化学作用上，但正是我们内在世界的相遇创造了我们所渴望的持久亲密与精神联结。",
+            "translationNatural": "起初动心，多少是看外在的化学反应；可真正让亲密长久、让两个人精神上连起来的，是彼此内心世界对上了。",
+            "structMarkup": "{While our initial attraction may be based, in part, on physical chemistry}, it is the meeting of our inner worlds that creates ~the lasting intimacy and spiritual connection~ {for which we long}.",
+            "structureSummary": "While 让步状语从句 + It is ... that ... 强调句（含 for which 引导的定语从句）",
+            "components": [
+              {
+                "part": "While our initial attraction may be based, in part, on physical chemistry",
+                "role": "状语从句",
+                "note": "While 表让步；be based on 被动；in part 用两个逗号插入，意为「部分地」，先给外在吸引留一点位置，不作全盘否定"
+              },
+              {
+                "part": "it is the meeting of our inner worlds that creates",
+                "role": "强调句",
+                "note": "It is ... that ... 强调主语 the meeting；与上段强调句同构，两处强调前后对照：勇气 → 内心相遇"
+              },
+              {
+                "part": "the lasting intimacy and spiritual connection",
+                "role": "宾语",
+                "note": "lasting 与从句里的 initial 正相对（最初 vs 持久）；spiritual 与 physical 又成对，把全文对立关系收进一个宾语"
+              },
+              {
+                "part": "for which we long",
+                "role": "定语从句",
+                "note": "for which 引导，修饰 connection；long for 是固定搭配，介词 for 提前到关系代词前，是第 49 题 spiritual connection 的落点"
+              }
+            ],
+            "clauses": [
+              "状语从句「While our initial attraction may be based, in part, on physical chemis」：While 表让步；be based on 被动；in part 用两个逗号插入，意为「部分地」，先给外在吸引留一点位置，不作全盘否定",
+              "定语从句「for which we long」：for which 引导，修饰 connection；long for 是固定搭配，介词 for 提前到关系代词前，是第 49 题 spiritual connection 的落点",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。"
+            ],
+            "phrases": [
+              {
+                "text": "in part",
+                "meaning": "部分地",
+                "usage": "副词短语；in part 前可加 only / at least 修饰。",
+                "example": "The failure was in part due to cost. 失败部分源于成本。"
+              },
+              {
+                "text": "based",
+                "meaning": "base 的过去式/过去分词；（be based on）基于",
+                "usage": "注意区分：based on（基于，被动/状语）/ basing on（主动，主语须是人）。常见搭配：be based on / based on evidence。",
+                "example": "Decisions based on data are not always right. 基于数据的决定并不总对。"
+              },
+              {
+                "text": "physical",
+                "meaning": "身体的；物理的；实物的",
+                "usage": "注意区分：physical（身体的/物理的）/ mental（心理的）。常见搭配：physical health / physical activity。",
+                "example": "Mental and physical health are linked. 心理与身体健康相互关联。"
+              }
+            ],
+            "pitfalls": [
+              "in part 无冠词，不说 in a part。",
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "把「最初靠外在 / 长久靠内在」正面立成一对，明确 lasting intimacy and spiritual connection 来自「内心相遇」，是第 49 题 A 选项 Meeting of minds 的直接依据。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 191,
+          "end": 377,
+          "text": "If we redirect our attention toward cultivating inner qualities, we might find a magnetic attraction that moves us from something superficial to something that connects us to our depths.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "If",
+              "normalized": "if",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 5,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 14,
+              "surface": "redirect",
+              "normalized": "redirect",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "surface": "attention",
+              "normalized": "attention",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 35,
+              "surface": "toward",
+              "normalized": "toward",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 47,
+              "surface": "cultivating",
+              "normalized": "cultivating",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 53,
+              "surface": "inner",
+              "normalized": "inner",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 63,
+              "surface": "qualities",
+              "normalized": "qualities",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 64,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 73,
+              "surface": "might",
+              "normalized": "might",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "find",
+              "normalized": "find",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 80,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 89,
+              "surface": "magnetic",
+              "normalized": "magnetic",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 100,
+              "surface": "attraction",
+              "normalized": "attraction",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 105,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 111,
+              "surface": "moves",
+              "normalized": "moves",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 114,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 119,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 129,
+              "surface": "something",
+              "normalized": "something",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 141,
+              "surface": "superficial",
+              "normalized": "superficial",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 144,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 154,
+              "surface": "something",
+              "normalized": "something",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 159,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 168,
+              "surface": "connects",
+              "normalized": "connects",
+              "isWord": true
+            },
+            {
+              "start": 169,
+              "end": 171,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 174,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 178,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 179,
+              "end": 185,
+              "surface": "depths",
+              "normalized": "depths",
+              "isWord": true
+            },
+            {
+              "start": 185,
+              "end": 186,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "如果我们把我们的注意力重新转向培养内在品质，我们也许会发现一种磁性的吸引，它把我们带从某种肤浅的东西到某种把我们连向我们深处的东西。",
+            "translationNatural": "要是把心思挪去养内在，说不定会碰上另一种「吸力」：它把人从浮在表面的东西，一路带到能触到自己深处的联结。",
+            "structMarkup": "{If we redirect our attention toward cultivating inner qualities}, we might find a magnetic attraction {that moves us from something superficial to something} {that connects us to our depths}.",
+            "structureSummary": "if 条件状语从句 + 主谓宾 + 定语从句（that 引导，内含 that 引导的定语从句）",
+            "components": [
+              {
+                "part": "If we redirect our attention toward cultivating inner qualities",
+                "role": "状语从句",
+                "note": "if 引导条件；redirect ... toward 后接动名词 cultivating；re- 前缀点明「把原本朝外的注意力调头」，呼应第 3 段的投入方向"
+              },
+              {
+                "part": "we might find a magnetic attraction",
+                "role": "主句",
+                "note": "might 表可能；magnetic 与上句 physical chemistry 同属「吸引」比喻，但换到内在一侧"
+              },
+              {
+                "part": "that moves us from something superficial to something",
+                "role": "定语从句",
+                "note": "that 修饰 attraction 并在从句中作主语；from A to B 结构，superficial 与 skin deep 同义，与后半的 depths 拉开"
+              },
+              {
+                "part": "that connects us to our depths",
+                "role": "定语从句",
+                "note": "第二个 that 修饰 something；connect ... to ... 结构；depths 用复数表「内心深处」，把全文由「外表」到「内在」的位移收在一个词上"
+              }
+            ],
+            "clauses": [
+              "状语从句「If we redirect our attention toward cultivating inner qualities」：if 引导条件；redirect ... toward 后接动名词 cultivating；re- 前缀点明「把原本朝外的注意力调头」，呼应第 3 段的投入方向",
+              "定语从句「that moves us from something superficial to something」：that 修饰 attraction 并在从句中作主语；from A to B 结构，superficial 与 skin deep 同义，与后半的 depths 拉开",
+              "定语从句「that connects us to our depths」：第二个 that 修饰 something；connect ... to ... 结构；depths 用复数表「内心深处」，把全文由「外表」到「内在」的位移收在一个词上"
+            ],
+            "phrases": [
+              {
+                "text": "attention",
+                "meaning": "注意力（不可数）；关注",
+                "usage": "注意区分：pay attention to（注意）/ attention to（注意）/ attend（参加）。常见搭配：pay attention to / attention span。",
+                "example": "Short forms may shorten attention span. 短形式可能缩短注意力持续时间。"
+              },
+              {
+                "text": "toward",
+                "meaning": "朝向、对于（towards 的美式写法）",
+                "usage": "注意区分：toward（美式）/ towards（英式），词义相同。常见搭配：toward the end / attitudes toward。",
+                "example": "A good diet goes a long way toward easing changes. 良好饮食对缓解变化大有帮助。"
+              },
+              {
+                "text": "qualities",
+                "meaning": "质量（不可数）；品质、特质（可数）；优质的（quality 的复数/三单形式）",
+                "usage": "注意区分：qualities（复数/三单）/ quality（原形）。",
+                "example": "If we redirect our attention toward cultivating inner qualities, we might find a magnetic attraction that moves us from something superficial to something that connects us to our depths. 要是把心思挪去养内在，说不定会碰上另一种「吸力」：它把人从浮在表面的东西，一路带到能触到自己深处的联结。"
+              }
+            ],
+            "pitfalls": [
+              "if 引导条件从句时，从句不用 will 表将来。",
+              "注意区分：pay attention to（注意）/ attention to（注意）/ attend（参加）。",
+              "注意区分：toward（美式）/ towards（英式），词义相同。"
+            ],
+            "paragraphRole": "给出可操作的转向（把注意力改投内在）并预告回报，收束第 6 段，也把「内在美」从批评话题变成一条可走的路，引出末段。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "text": "The path toward cultivating inner beauty is really simple. But what is simple is not always easy. Not everyone will see us and appreciate us as we take the courageous risk to allow ourselves to be seen as we really are. But if they don't, it is their loss, not ours. Eventually we'll find those compatible souls who appreciate us as we are.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 58,
+          "text": "The path toward cultivating inner beauty is really simple.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "path",
+              "normalized": "path",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 15,
+              "surface": "toward",
+              "normalized": "toward",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 27,
+              "surface": "cultivating",
+              "normalized": "cultivating",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 33,
+              "surface": "inner",
+              "normalized": "inner",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 40,
+              "surface": "beauty",
+              "normalized": "beauty",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 43,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 50,
+              "surface": "really",
+              "normalized": "really",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 57,
+              "surface": "simple",
+              "normalized": "simple",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 58,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "通往培养内在美的路径是真正简单的。",
+            "translationNatural": "养内在美这条路，说起来简单得很。",
+            "structMarkup": "【The path toward cultivating inner beauty】 is really simple.",
+            "structureSummary": "主系表 + 介词短语作后置定语",
+            "components": [
+              {
+                "part": "The path toward cultivating inner beauty",
+                "role": "主语",
+                "note": "核心词是单数 path，系动词用 is；toward 后接动名词短语，把上段的「转向」正式命名为一条路"
+              },
+              {
+                "part": "is really simple",
+                "role": "系表",
+                "note": "really 加强 simple，先给一个轻巧的判断，专门留给下句 But 去推翻"
+              },
+              {
+                "part": "toward cultivating inner beauty",
+                "role": "定语",
+                "note": "介词短语作 path 的后置定语；toward 后接动名词短语，把上段「把注意力调头」正式指成一条有去向的路"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表 + 介词短语作后置定语」。"
+            ],
+            "phrases": [
+              {
+                "text": "toward",
+                "meaning": "朝向、对于（towards 的美式写法）",
+                "usage": "注意区分：toward（美式）/ towards（英式），词义相同。常见搭配：toward the end / attitudes toward。",
+                "example": "A good diet goes a long way toward easing changes. 良好饮食对缓解变化大有帮助。"
+              },
+              {
+                "text": "really",
+                "meaning": "真正地、确实；非常（口语）",
+                "usage": "注意区分：really（真正地）/ real（形容词）/ actually（实际上）。常见搭配：really important / not really。",
+                "example": "They do not really reflect everyday behaviour. 它们并没有真正反映日常行为。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：toward（美式）/ towards（英式），词义相同。",
+              "注意区分：really（真正地）/ real（形容词）/ actually（实际上）。"
+            ],
+            "paragraphRole": "末段起笔先抛「很简单」，用一句最轻的话为紧接着的「但简单不等于容易」制造落差。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 59,
+          "end": 97,
+          "text": "But what is simple is not always easy.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "surface": "simple",
+              "normalized": "simple",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 32,
+              "surface": "always",
+              "normalized": "always",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "easy",
+              "normalized": "easy",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 38,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但是简单的东西并不总是容易的。",
+            "translationNatural": "可「简单」跟「容易」是两码事。",
+            "structMarkup": "(But) {what is simple} is not always easy.",
+            "structureSummary": "主系表 + 主语从句（what 引导）",
+            "components": [
+              {
+                "part": "But",
+                "role": "插入语",
+                "note": "直接推翻上句的轻巧判断，把段落从「说起来简单」折到「做起来难」"
+              },
+              {
+                "part": "what is simple",
+                "role": "主语从句",
+                "note": "what 引导主语从句，谓语用单数 is；simple 回指上句，用从句把「简单的东西」抽象化"
+              },
+              {
+                "part": "is not always easy",
+                "role": "系表",
+                "note": "not always 是部分否定，意为「并不总是」；easy 与 simple 一词之差，正是本句全部锋芒所在"
+              }
+            ],
+            "clauses": [
+              "主语从句「what is simple」：what 引导主语从句，谓语用单数 is；simple 回指上句，用从句把「简单的东西」抽象化",
+              "本句主干为「主系表 + 主语从句（what 引导）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "easy",
+                "meaning": "容易的、轻松的",
+                "usage": "常见搭配：easy to do / take it easy。",
+                "example": "The task looks easy. 这任务看着简单。"
+              },
+              {
+                "text": "simple",
+                "meaning": "简单的、简易的；朴素的、单纯的；头脑简单的",
+                "usage": "本句中作adj.，可按「主系表 + 主语从句（what 引导）」定位它在句中的位置。",
+                "example": "But what is simple is not always easy. 可「简单」跟「容易」是两码事。"
+              }
+            ],
+            "pitfalls": [
+              "what is simple：what 引导主语从句，谓语用单数 is；simple 回指上句，用从句把「简单的东西」抽象化",
+              "本句主干为「主系表 + 主语从句（what 引导）」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "用 simple / easy 的一字之差立起末段的真正难点：难不在道理，而在敢不敢被人看见，为下句的 courageous risk 铺垫。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 98,
+          "end": 219,
+          "text": "Not everyone will see us and appreciate us as we take the courageous risk to allow ourselves to be seen as we really are.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "everyone",
+              "normalized": "everyone",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "surface": "see",
+              "normalized": "see",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 39,
+              "surface": "appreciate",
+              "normalized": "appreciate",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 42,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 53,
+              "surface": "take",
+              "normalized": "take",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 68,
+              "surface": "courageous",
+              "normalized": "courageous",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 73,
+              "surface": "risk",
+              "normalized": "risk",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 82,
+              "surface": "allow",
+              "normalized": "allow",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 92,
+              "surface": "ourselves",
+              "normalized": "ourselves",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 95,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 103,
+              "surface": "seen",
+              "normalized": "seen",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 106,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 109,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 116,
+              "surface": "really",
+              "normalized": "really",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 120,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 121,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "并非每个人都会看见我们并欣赏我们，当我们冒那个勇敢的风险去允许我们自己被以我们真实的样子看见时。",
+            "translationNatural": "真要敢把自己本来的样子亮出来，就别指望人人都看得见、都懂得欣赏。",
+            "structMarkup": "Not everyone will see us and appreciate us {as we take the courageous risk} (to allow ourselves to be seen as we really are).",
+            "structureSummary": "主谓（部分否定 + 两个并列谓语）+ as 时间状语从句（含不定式作后置定语与 as 方式状语从句）",
+            "components": [
+              {
+                "part": "Not everyone will see us and appreciate us",
+                "role": "主句",
+                "note": "Not everyone 是部分否定，意为「不是所有人」；see / appreciate 两个并列谓语由 will 一并管辖"
+              },
+              {
+                "part": "as we take the courageous risk",
+                "role": "状语从句",
+                "note": "as 引导时间，意为「当……时」；take a risk 固定搭配；courageous 回扣第 5 段的 the courage to be authentic"
+              },
+              {
+                "part": "to allow ourselves to be seen as we really are",
+                "role": "定语",
+                "note": "不定式作 risk 的后置定语；allow sb to be done 被动；句末 as we really are 是方式状语从句，really 与 seeming / superficial 相对"
+              }
+            ],
+            "clauses": [
+              "状语从句「as we take the courageous risk」：as 引导时间，意为「当……时」；take a risk 固定搭配；courageous 回扣第 5 段的 the courage to be authentic",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "not everyone",
+                "meaning": "每个人（单数概念，回指常用 they）",
+                "usage": "注意区分：everyone（每个人，单数）/ every one（每一个，强调个体）。常见搭配：everyone else / not everyone。",
+                "example": "Like everyone else, they make mistakes. 和所有人一样，他们也会犯错。"
+              },
+              {
+                "text": "take",
+                "meaning": "拿、带；花费、需要；采取、接受（本文按语境取义）",
+                "usage": "注意区分：take（带走，离开说话人；it takes sb time to do 花费；拿、乘坐）/ bring（带来，朝说话人）/ fetch（去取来）/ spend（人作主语：sb spends … on/doing）/ cost（物作主语：sth costs sb …）/ take part in（参加）、take place（发生，无被动）。",
+                "example": "Not everyone will see us and appreciate us as we take the courageous risk to allow ourselves to be seen as we really are. 真要敢把自己本来的样子亮出来，就别指望人人都看得见、都懂得欣赏。"
+              },
+              {
+                "text": "risk",
+                "meaning": "风险、危险、冒险；冒…的风险、使…处于险境",
+                "usage": "注意区分：risk（风险，可数/不可数；冒…险，动词）/ risk doing（冒险做，接动名词，不接 to do）/ at risk（处于危险中，无冠词）/ at the risk of（冒着…的风险，介词 of）/ take / run a risk / danger（指危险本身，risk 指可能性）。",
+                "example": "Not everyone will see us and appreciate us as we take the courageous risk to allow ourselves to be seen as we really are. 真要敢把自己本来的样子亮出来，就别指望人人都看得见、都懂得欣赏。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：everyone（每个人，单数）/ every one（每一个，强调个体）。",
+              "注意区分：see（看见，无意）/ look at（看，有意）/ watch（观看，持续）。"
+            ],
+            "paragraphRole": "把上句「不容易」落到具体代价：亮出真实自我未必被接纳，为第 50 题排除「会被身边人更欣赏」这类干扰项。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 220,
+          "end": 266,
+          "text": "But if they don't, it is their loss, not ours.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "surface": "if",
+              "normalized": "if",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 17,
+              "surface": "don't",
+              "normalized": "don't",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 18,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 30,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "loss",
+              "normalized": "loss",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 36,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 45,
+              "surface": "ours",
+              "normalized": "ours",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 46,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但是如果他们不，那是他们的损失，不是我们的。",
+            "translationNatural": "可要是他们不领情，亏的是他们，不是我们。",
+            "structMarkup": "{But if they don't}, it is their loss, (not ours).",
+            "structureSummary": "if 条件状语从句（省略式）+ 主系表（含省略式对照）",
+            "components": [
+              {
+                "part": "But if they don't",
+                "role": "状语从句",
+                "note": "But 转折；don't 后省略了 see us and appreciate us，承接上句整块内容，避免重复"
+              },
+              {
+                "part": "it is their loss, not ours",
+                "role": "主句",
+                "note": "it 回指「没被看见」这件事；their loss 与 not ours 用逗号对照，ours 后省略 loss，把损失归到对方，语气干脆"
+              },
+              {
+                "part": "not ours",
+                "role": "补语",
+                "note": "逗号后的省略式对照，ours 后省去 loss；用两个词把「损失不在自己这边」说死，替末段的乐观收尾卸掉心理负担"
+              }
+            ],
+            "clauses": [
+              "状语从句「But if they don't」：But 转折；don't 后省略了 see us and appreciate us，承接上句整块内容，避免重复",
+              "条件状语从句中，主句表将来时从句用一般现在时。"
+            ],
+            "phrases": [
+              {
+                "text": "loss",
+                "meaning": "丧失、损失、丢失；亏损、失败（本文 species loss 物种流失 / crop losses 作物减产 / weight loss 减重）",
+                "usage": "本句中作n.，可按「if 条件状语从句（省略式）+ 主系表（含省略式对照）」定位它在句中的位置。",
+                "example": "But if they don't, it is their loss, not ours. 可要是他们不领情，亏的是他们，不是我们。"
+              }
+            ],
+            "pitfalls": [
+              "if 引导条件从句时，从句不用 will 表将来。",
+              "本句主干为「if 条件状语从句（省略式）+ 主系表（含省略式对照）」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "用一句短促的反转把上句可能的失落接住：不被欣赏不是自己的损失，替末段的乐观收尾先卸掉心理负担。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 267,
+          "end": 340,
+          "text": "Eventually we'll find those compatible souls who appreciate us as we are.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 10,
+              "surface": "Eventually",
+              "normalized": "eventually",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "we'll",
+              "normalized": "we'll",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "find",
+              "normalized": "find",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 27,
+              "surface": "those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 38,
+              "surface": "compatible",
+              "normalized": "compatible",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 44,
+              "surface": "souls",
+              "normalized": "souls",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 59,
+              "surface": "appreciate",
+              "normalized": "appreciate",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 72,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 73,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "最终我们将找到那些欣赏我们如我们所是的相容的灵魂。",
+            "translationNatural": "总有一天，会遇上那些合得来的人，喜欢的就是你本来的样子。",
+            "structMarkup": "(Eventually) we'll find those compatible souls {who appreciate us as we are}.",
+            "structureSummary": "主谓宾 + 定语从句（who 引导，含 as 方式状语从句）",
+            "components": [
+              {
+                "part": "Eventually",
+                "role": "状语",
+                "note": "时间副词把前几句「未必被接纳」的曲折推到终点，给全文一个向前的落点"
+              },
+              {
+                "part": "we'll find those compatible souls",
+                "role": "主句",
+                "note": "we'll 表对未来的笃定；compatible 意为「合得来的」，souls 与第 2 段 soulful 呼应，把「内在」最终落到人"
+              },
+              {
+                "part": "who appreciate us as we are",
+                "role": "定语从句",
+                "note": "who 修饰 souls；as we are 意为「照我们本来的样子」，与上句 as we really are 几乎同形，把「敢真实」与「被欣赏」扣成一环"
+              }
+            ],
+            "clauses": [
+              "定语从句「who appreciate us as we are」：who 修饰 souls；as we are 意为「照我们本来的样子」，与上句 as we really are 几乎同形，把「敢真实」与「被欣赏」扣成一环",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "eventually",
+                "meaning": "最终、终于（强调结果）",
+                "usage": "注意区分：eventually（最终）/ finally（最后，强调顺序）/ in the end（最终）。常见搭配：eventually become / eventually happen。",
+                "example": "Attitudes eventually shifted. 态度最终转变了。"
+              },
+              {
+                "text": "find",
+                "meaning": "发现、找到；认为（find sth + adj.）",
+                "usage": "注意区分：find（找到，结果）/ search（搜寻，过程）/ find out（查明）。常见搭配：find that... / find it hard to do。",
+                "example": "They find the rule acceptable. 他们觉得这条规则可以接受。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：eventually（最终）/ finally（最后，强调顺序）/ in the end（最终）。",
+              "注意区分：find（找到，结果）/ search（搜寻，过程）/ find out（查明）。"
+            ],
+            "paragraphRole": "以「终会遇到欣赏真实自我的人」收束全文，正是第 50 题 C 选项「meet people who value us for who we are」的直接依据。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 46,
+      "stem": "What do we learn about American society from the first paragraph?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It sees lots of personal income wasted on beauty products."
+        },
+        {
+          "key": "B",
+          "text": "It considers one's physical appearance very important."
+        },
+        {
+          "key": "C",
+          "text": "It places a high value on the physical fitness of stars."
+        },
+        {
+          "key": "D",
+          "text": "It expects every individual to look their very best."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 47,
+      "stem": "What happens when people strive to look better?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They have to get prepared for resentment and bitter court battles."
+        },
+        {
+          "key": "B",
+          "text": "They are better able to gain attention, love, and personal connection."
+        },
+        {
+          "key": "C",
+          "text": "They may neglect to cultivate the inner qualities that matter more."
+        },
+        {
+          "key": "D",
+          "text": "They feel much of their precious time, energy and resources is wasted."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 48,
+      "stem": "What does the author say about outer beauty?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It may be inherited or cultivated."
+        },
+        {
+          "key": "B",
+          "text": "It may lead to bad as well as good habits."
+        },
+        {
+          "key": "C",
+          "text": "It may create connection or isolation."
+        },
+        {
+          "key": "D",
+          "text": "It may do as much harm as good."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 49,
+      "stem": "What brings about spiritual connection?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Meeting of minds."
+        },
+        {
+          "key": "B",
+          "text": "Attraction at first sight."
+        },
+        {
+          "key": "C",
+          "text": "Physical chemistry."
+        },
+        {
+          "key": "D",
+          "text": "Frequent interaction."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 50,
+      "stem": "What happens when we take the path toward cultivating inner beauty?",
+      "options": [
+        {
+          "key": "A",
+          "text": "We may find a route toward other people's souls."
+        },
+        {
+          "key": "B",
+          "text": "We may be appreciated more by people around us."
+        },
+        {
+          "key": "C",
+          "text": "We will meet people who value us for who we are."
+        },
+        {
+          "key": "D",
+          "text": "We will be discouraged from revealing our true selves."
+        }
+      ],
+      "answer": "C"
+    }
+  ],
+  "lexicon": {
+    "allow": {
+      "phonetic": "/əˈlaʊ/",
+      "pos": "v.",
+      "sense": "允许、准许；使能够、让…得以；留出（时间/钱）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "allow sb to do（允许某人做，接不定式）/ allow doing（允许做某事，无宾语时）/ allow for（考虑到、把…算进去）/ allow 与 permit（permit 更正式，也接 sb to do）/ allow 与 let（let sb do，不带 to）"
+      },
+      "collocations": [
+        "allow ourselves",
+        "risk to allow"
+      ],
+      "examples": [
+        "Not everyone will see us and appreciate us as we take the courageous risk to allow ourselves to be seen as we really are. 真要敢把自己本来的样子亮出来，就别指望人人都看得见、都懂得欣赏。"
+      ]
+    },
+    "always": {
+      "phonetic": "/ˈɔːlweɪz/",
+      "pos": "adv.",
+      "sense": "总是、一直、永远；始终（本文指「总是成为他人的囚徒」）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "always easy"
+      ],
+      "examples": [
+        "But what is simple is not always easy. 可「简单」跟「容易」是两码事。"
+      ]
+    },
+    "appearance": {
+      "phonetic": "/əˈpɪərəns/",
+      "pos": "n.",
+      "sense": "外貌、外表；出现、露面；表象（judge by appearances 以貌取人）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "physical appearance",
+        "appearance misses",
+        "perfect appearance"
+      ],
+      "examples": [
+        "Americans spend an average of over $722 each year on their appearance. 美国人一年花在打扮上的钱，平均七百二十多美元。"
+      ],
+      "more": {
+        "roots": "appearance 含 -ance / -ence（名词后缀，表行为或状态）"
+      }
+    },
+    "appreciate": {
+      "phonetic": "/əˈpriːʃieɪt/",
+      "pos": "v.",
+      "sense": "欣赏、赏识、感激；理解、意识到；（价值）增值（I'd appreciate it if…）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Not everyone will see us and appreciate us as we take the courageous risk to allow ourselves to be seen as we really are. 真要敢把自己本来的样子亮出来，就别指望人人都看得见、都懂得欣赏。"
+      ]
+    },
+    "aspects": {
+      "phonetic": "/ˈæspekts/",
+      "pos": "n.",
+      "sense": "方面、层面、角度（复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "a-（=ad- 朝向）+ spect（看，词根，同 inspect/respect）+ -s → 看到的各个面 → 方面",
+        "confusables": "aspect（方面，an aspect of sth）/ in this respect / in this regard（在这方面，用 respect/regard，不说 in this aspect）/ perspective（视角、观点）"
+      },
+      "collocations": [
+        "soulful aspects",
+        "aspects of"
+      ],
+      "examples": [
+        "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. 想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。"
+      ]
+    },
+    "attend": {
+      "phonetic": "/əˈtend/",
+      "pos": "v.",
+      "sense": "出席、参加、上（学、课）；照料、服侍；专注于（attend a meeting / attend to）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "attend to",
+        "attend to ourselves",
+        "fail to attend"
+      ],
+      "examples": [
+        "In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning. 可这么折腾下来，反倒顾不上真正照料自己——而恰恰是那种照料，才能把人带向更深的亲近、踏实和活着的意义。"
+      ],
+      "more": {
+        "confusables": "attend / attention / attempt（同族不同词形，注意词性与用法）"
+      }
+    },
+    "attention": {
+      "phonetic": "/əˈtenʃn/",
+      "pos": "n.",
+      "sense": "注意力（不可数）；关注",
+      "collocations": [
+        "pay attention to",
+        "attention span",
+        "draw attention"
+      ],
+      "examples": [
+        "Short forms may shorten attention span. 短形式可能缩短注意力持续时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "at-（=ad- 朝向）+ tent（伸展，词根 tend/tent = stretch，同 attend/extend）+ -ion（名词后缀）",
+        "confusables": "pay attention to（注意）/ attention to（注意）/ attend（参加）"
+      }
+    },
+    "attraction": {
+      "phonetic": "/əˈtrækʃn/",
+      "pos": "n.",
+      "sense": "吸引、吸引力、魅力；吸引人的事物、景点（tourist attractions 旅游景点）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "initial attraction",
+        "magnetic attraction"
+      ],
+      "examples": [
+        "While our initial attraction may be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. 起初动心，多少是看外在的化学反应；可真正让亲密长久、让两个人精神上连起来的，是彼此内心世界对上了。"
+      ],
+      "more": {
+        "roots": "attraction 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "authentic": {
+      "phonetic": "/ɔːˈθentɪk/",
+      "pos": "adj.",
+      "sense": "真实的、真正的、可信的；原汁原味的",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "authentic（真品的、正宗的，强调非伪造，如 authentic documents/food）/ genuine（真的、真诚的，可指人或感情）/ real（真实的，泛指）/ authentic 与 fake（反义）"
+      },
+      "collocations": [
+        "Authentic Heart"
+      ],
+      "examples": [
+        "As I describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way. 我在《真实之心》里写过：真能把人连到一块儿的，是敢做自己的那股勇气。"
+      ]
+    },
+    "average": {
+      "phonetic": "/ˈævərɪdʒ/",
+      "pos": "n./adj./v.",
+      "sense": "平均数、平均水平；平均的、普通的（above/below average）；平均为",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "average of"
+      ],
+      "examples": [
+        "Americans spend an average of over $722 each year on their appearance. 美国人一年花在打扮上的钱，平均七百二十多美元。"
+      ]
+    },
+    "away": {
+      "phonetic": "/əˈweɪ/",
+      "pos": "adv.",
+      "sense": "离开、远离；（时间/距离）之外",
+      "collocations": [
+        "go away",
+        "far away",
+        "right away"
+      ],
+      "examples": [
+        "Parents stare at their phones instead of reading. 家长盯着手机而不读书。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "away（离开）/ way（路）/ right away（立刻）"
+      }
+    },
+    "based": {
+      "phonetic": "/beɪst/",
+      "pos": "v./adj.",
+      "sense": "base 的过去式/过去分词；（be based on）基于",
+      "lemma": "base",
+      "collocations": [
+        "be based on",
+        "based on evidence"
+      ],
+      "examples": [
+        "Decisions based on data are not always right. 基于数据的决定并不总对。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "based on（基于，被动/状语）/ basing on（主动，主语须是人）"
+      }
+    },
+    "battles": {
+      "phonetic": "/ˈbætlz/",
+      "pos": "n./v.",
+      "sense": "战斗、战役、较量、斗争（battle 的复数）；搏斗、奋战（三单）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "court battles"
+      ],
+      "examples": [
+        "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+      ]
+    },
+    "beautiful": {
+      "phonetic": "/ˈbjuːtɪfl/",
+      "pos": "adj.",
+      "sense": "美丽的、漂亮的；美好的、极好的（本文 the wonder and beauty of the natural world 自然界的奇妙与美 / learning can be a beautiful thing 学习本身可以是件美事）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. 想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。"
+      ],
+      "more": {
+        "roots": "beautiful 含 -ful（形容词后缀，表「充满……的」）"
+      }
+    },
+    "beauty": {
+      "phonetic": "/ˈbjuːti/",
+      "pos": "n.",
+      "sense": "美、美丽；美人、美好的事物；妙处、优点（the beauty of… …的妙处）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "physical beauty",
+        "Outer beauty",
+        "inner beauty"
+      ],
+      "examples": [
+        "Our society places a high value on physical beauty. 这个社会，把长得好不好看看得特别重。"
+      ],
+      "more": {
+        "confusables": "beauty / beautiful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "best": {
+      "phonetic": "/best/",
+      "pos": "adj./adv./n.",
+      "sense": "最好的（good/well 的最高级）；最、最好地；最好的人或物",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. 想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。"
+      ],
+      "more": {
+        "confusables": "best / best-selling（同族不同词形，注意词性与用法）"
+      }
+    },
+    "bitter": {
+      "phonetic": "/ˈbɪtə/",
+      "pos": "adj.",
+      "sense": "苦的、有苦味的；痛苦的、辛酸的；严寒的；怨恨的（bitter taste / bitter cold）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "bitter court"
+      ],
+      "examples": [
+        "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+      ]
+    },
+    "blessing": {
+      "phonetic": "/ˈblesɪŋ/",
+      "pos": "n.",
+      "sense": "幸事、恩赐、福气；祝福、祷告（a blessing in disguise 塞翁失马、因祸得福）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Outer beauty can be as much of a curse as a blessing. 长得好看，是福也是祸，两边分量一样重。"
+      ]
+    },
+    "book": {
+      "phonetic": "/bʊk/",
+      "pos": "n./v.",
+      "sense": "书、书籍；本子、册；预订（座位、票等）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "As I describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way. 我在《真实之心》里写过：真能把人连到一块儿的，是敢做自己的那股勇气。"
+      ]
+    },
+    "bring": {
+      "phonetic": "/brɪŋ/",
+      "pos": "v.",
+      "sense": "带来、拿来；引起、导致；使处于（某状态）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "bring（带来，朝说话人/目的地方向）/ take（带走，离开说话人/原地）/ fetch（去取来，一去一回）/ bring sb sth = bring sth to sb（双宾语）/ bring about（导致）/ bring up（抚养；提出）"
+      },
+      "collocations": [
+        "bring attention"
+      ],
+      "examples": [
+        "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. 好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。"
+      ]
+    },
+    "brings": {
+      "phonetic": "/brɪŋz/",
+      "pos": "v.",
+      "sense": "带来、拿来；引起、导致；使处于（bring 的第三人称单数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brings love"
+      ],
+      "examples": [
+        "It may sound trite(老生常谈的), but beauty is only skin deep; it's not what brings love toward us. 这话听着像陈词滥调，可「美不过一张皮」是真话：光靠脸，招不来爱。"
+      ],
+      "more": {
+        "confusables": "brings / bring（同族不同词形，注意词性与用法）"
+      }
+    },
+    "chemistry": {
+      "phonetic": "/ˈkeməstri/",
+      "pos": "n.",
+      "sense": "化学；化学反应、化学成分；（人与人之间的）默契、吸引力",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "physical chemistry"
+      ],
+      "examples": [
+        "While our initial attraction may be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. 起初动心，多少是看外在的化学反应；可真正让亲密长久、让两个人精神上连起来的，是彼此内心世界对上了。"
+      ]
+    },
+    "compatible": {
+      "phonetic": "/kəmˈpætəbl/",
+      "pos": "adj.",
+      "sense": "兼容的、相容的、协调的、合得来的（be compatible with 与…兼容 / 相处融洽）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "compatible souls"
+      ],
+      "examples": [
+        "Eventually we'll find those compatible souls who appreciate us as we are. 总有一天，会遇上那些合得来的人，喜欢的就是你本来的样子。"
+      ],
+      "more": {
+        "roots": "compatible 含 -able / -ible（形容词后缀，表「可……的」）"
+      }
+    },
+    "connection": {
+      "phonetic": "/kəˈnekʃn/",
+      "pos": "n.",
+      "sense": "联系、关联；连接、接通；关系、人脉（in connection with 与…有关）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "spiritual connection",
+        "connection for"
+      ],
+      "examples": [
+        "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. 好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。"
+      ],
+      "more": {
+        "confusables": "connection / connections / connectivity（同族不同词形，注意词性与用法）"
+      }
+    },
+    "connects": {
+      "phonetic": "/kəˈnektts/",
+      "pos": "v.",
+      "sense": "连接、接通；联系、关联；把…联系起来（connect A to/with B）（connect 的复数/三单形式）",
+      "lemma": "connect",
+      "collocations": [],
+      "examples": [
+        "As I describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way. 我在《真实之心》里写过：真能把人连到一块儿的，是敢做自己的那股勇气。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "connect + -s（复数/三单）",
+        "confusables": "connects（复数/三单）/ connect（原形）"
+      }
+    },
+    "courage": {
+      "phonetic": "/ˈkʌrɪdʒ/",
+      "pos": "n.",
+      "sense": "勇气、胆量、勇敢（have the courage to do 有勇气做）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "courage to"
+      ],
+      "examples": [
+        "As I describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way. 我在《真实之心》里写过：真能把人连到一块儿的，是敢做自己的那股勇气。"
+      ],
+      "more": {
+        "confusables": "courage / courageous（同族不同词形，注意词性与用法）"
+      }
+    },
+    "courageous": {
+      "phonetic": "/kəˈreɪdʒəs/",
+      "pos": "adj.",
+      "sense": "勇敢的、有胆量的、无畏的（courage + -ous；a courageous decision）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "courageous risk"
+      ],
+      "examples": [
+        "Not everyone will see us and appreciate us as we take the courageous risk to allow ourselves to be seen as we really are. 真要敢把自己本来的样子亮出来，就别指望人人都看得见、都懂得欣赏。"
+      ],
+      "more": {
+        "roots": "courageous 含 -ous（形容词后缀）"
+      }
+    },
+    "court": {
+      "phonetic": "/kɔːt/",
+      "pos": "n.",
+      "sense": "法庭、法院；球场；朝廷、宫廷",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "bitter court",
+        "court battles"
+      ],
+      "examples": [
+        "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+      ],
+      "more": {
+        "confusables": "court / course / courage（同族不同词形，注意词性与用法）"
+      }
+    },
+    "creates": {
+      "phonetic": "/kriˈeɪts/",
+      "pos": "v.",
+      "sense": "create 的第三人称单数（创造）",
+      "lemma": "create",
+      "collocations": [
+        "it creates",
+        "creates a sense of"
+      ],
+      "examples": [
+        "It creates a sense of achievement. 它带来成就感。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "creates（三单）/ create（原形）"
+      }
+    },
+    "cultivate": {
+      "phonetic": "/ˈkʌltɪveɪt/",
+      "pos": "v.",
+      "sense": "耕作、栽培、种植；培养、养成、结交（cultivate a habit / relationship）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "never cultivate"
+      ],
+      "examples": [
+        "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. 人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。"
+      ],
+      "more": {
+        "confusables": "cultivate / cultivating（同族不同词形，注意词性与用法）"
+      }
+    },
+    "cultivating": {
+      "phonetic": "/ˈkʌltɪveɪtɪŋ/",
+      "pos": "v.",
+      "sense": "耕作、栽培、种植；培养、养成（习惯 / 关系）（cultivate 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "toward cultivating",
+        "cultivating inner"
+      ],
+      "examples": [
+        "If we redirect our attention toward cultivating inner qualities, we might find a magnetic attraction that moves us from something superficial to something that connects us to our depths. 要是把心思挪去养内在，说不定会碰上另一种「吸力」：它把人从浮在表面的东西，一路带到能触到自己深处的联结。"
+      ]
+    },
+    "curse": {
+      "phonetic": "/kɜːs/",
+      "pos": "n./v.",
+      "sense": "诅咒、咒语、骂人的话；祸根、祸害；诅咒、咒骂（be under a curse）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "curse as"
+      ],
+      "examples": [
+        "Outer beauty can be as much of a curse as a blessing. 长得好看，是福也是祸，两边分量一样重。"
+      ]
+    },
+    "deep": {
+      "phonetic": "/diːp/",
+      "pos": "adj./adv./n.",
+      "sense": "深的、纵深的、深刻的、深奥的；深深地；深处（deep into the night / in deep water）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "skin deep"
+      ],
+      "examples": [
+        "It may sound trite(老生常谈的), but beauty is only skin deep; it's not what brings love toward us. 这话听着像陈词滥调，可「美不过一张皮」是真话：光靠脸，招不来爱。"
+      ],
+      "more": {
+        "confusables": "deep / deepen / deeper（同族不同词形，注意词性与用法）"
+      }
+    },
+    "deepen": {
+      "phonetic": "/ˈdiːpən/",
+      "pos": "v.",
+      "sense": "（使）加深、变深、加剧、深化（deepen understanding / deepen a crisis）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "deepen intimacy"
+      ],
+      "examples": [
+        "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. 人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。"
+      ],
+      "more": {
+        "confusables": "deepen / deep（同族不同词形，注意词性与用法）"
+      }
+    },
+    "deeper": {
+      "phonetic": "/ˈdiːpə/",
+      "pos": "adj./adv.",
+      "sense": "更深的、更深地（deep 的比较级；喻指更深层、更深入，如 deeper understanding）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "toward deeper",
+        "deeper intimacy",
+        "deeper way"
+      ],
+      "examples": [
+        "In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning. 可这么折腾下来，反倒顾不上真正照料自己——而恰恰是那种照料，才能把人带向更深的亲近、踏实和活着的意义。"
+      ],
+      "more": {
+        "confusables": "deeper / deep（同族不同词形，注意词性与用法）"
+      }
+    },
+    "depths": {
+      "phonetic": "/depθs/",
+      "pos": "n.",
+      "sense": "深处、深水区、最深处、深渊；（感情、危机的）深处（depth 的复数；in the depths of）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "If we redirect our attention toward cultivating inner qualities, we might find a magnetic attraction that moves us from something superficial to something that connects us to our depths. 要是把心思挪去养内在，说不定会碰上另一种「吸力」：它把人从浮在表面的东西，一路带到能触到自己深处的联结。"
+      ]
+    },
+    "describe": {
+      "phonetic": "/dɪˈskraɪb/",
+      "pos": "v.",
+      "sense": "描述、描写、形容、把…称为（describe sb/sth as；名词 description）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "describe in"
+      ],
+      "examples": [
+        "As I describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way. 我在《真实之心》里写过：真能把人连到一块儿的，是敢做自己的那股勇气。"
+      ],
+      "more": {
+        "confusables": "describe / descriptions / described（同族不同词形，注意词性与用法）"
+      }
+    },
+    "develop": {
+      "phonetic": "/dɪˈveləp/",
+      "pos": "v.",
+      "sense": "发展、养成、开发",
+      "collocations": [
+        "develop a habit",
+        "develop a skill"
+      ],
+      "examples": [
+        "He developed a reading habit. 他养成了阅读习惯。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "develop / development / developed（同族不同词形，注意词性与用法）"
+      }
+    },
+    "easy": {
+      "phonetic": "/ˈiːzi/",
+      "pos": "adj.",
+      "sense": "容易的、轻松的",
+      "collocations": [
+        "easy to do",
+        "take it easy"
+      ],
+      "examples": [
+        "The task looks easy. 这任务看着简单。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "energy": {
+      "phonetic": "/ˈenədʒi/",
+      "pos": "n.",
+      "sense": "能量、能源；精力、活力、干劲",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "en-（在内）+ erg（工作、力，词根 erg = work，同 synergy/ergonomic）+ -y",
+        "confusables": "energy（能量；精力，不可数）/ energetic（精力充沛的）/ energies 复数可指「精力、努力」（devote one's energies to）/ power（电力/权力）/ strength（力气）"
+      },
+      "collocations": [],
+      "examples": [
+        "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. 好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。"
+      ]
+    },
+    "eventually": {
+      "phonetic": "/ɪˈventʃuəli/",
+      "pos": "adv.",
+      "sense": "最终、终于（强调结果）",
+      "collocations": [
+        "eventually become",
+        "eventually happen"
+      ],
+      "examples": [
+        "Attitudes eventually shifted. 态度最终转变了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "eventually（最终）/ finally（最后，强调顺序）/ in the end（最终）"
+      }
+    },
+    "everyone": {
+      "phonetic": "/ˈevriwʌn/",
+      "pos": "pron.",
+      "sense": "每个人（单数概念，回指常用 they）",
+      "collocations": [
+        "everyone else",
+        "not everyone"
+      ],
+      "examples": [
+        "Like everyone else, they make mistakes. 和所有人一样，他们也会犯错。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "everyone（每个人，单数）/ every one（每一个，强调个体）"
+      }
+    },
+    "excessive": {
+      "phonetic": "/ɪkˈsesɪv/",
+      "pos": "adj.",
+      "sense": "过度的、过分的、过多的、过量的（excessive amounts / excessive use 用量过大）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "excessive focus"
+      ],
+      "examples": [
+        "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. 想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。"
+      ],
+      "more": {
+        "roots": "excessive 含 -ive（形容词后缀）"
+      }
+    },
+    "fail": {
+      "phonetic": "/feɪl/",
+      "pos": "v.",
+      "sense": "失败、未能做到、不及格；（机器/器官）失灵、衰竭；使失望（fail to do 未能做；fail an exam 挂科）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "fail to",
+        "fail to attend"
+      ],
+      "examples": [
+        "In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning. 可这么折腾下来，反倒顾不上真正照料自己——而恰恰是那种照料，才能把人带向更深的亲近、踏实和活着的意义。"
+      ],
+      "more": {
+        "confusables": "fail / failing / failure（同族不同词形，注意词性与用法）"
+      }
+    },
+    "far": {
+      "phonetic": "/fɑː(r)/",
+      "pos": "adj./adv.",
+      "sense": "远的；远远、大大（修饰比较级）；久远地（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "spend far"
+      ],
+      "examples": [
+        "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. 好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。"
+      ],
+      "more": {
+        "confusables": "far / farmers / farrant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "find": {
+      "phonetic": "/faɪnd/",
+      "pos": "v.",
+      "sense": "发现、找到；认为（find sth + adj.）",
+      "collocations": [
+        "find that...",
+        "find it hard to do",
+        "find out"
+      ],
+      "examples": [
+        "They find the rule acceptable. 他们觉得这条规则可以接受。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "find（找到，结果）/ search（搜寻，过程）/ find out（查明）"
+      }
+    },
+    "focus": {
+      "phonetic": "/ˈfəʊkəs/",
+      "pos": "v./n.",
+      "sense": "集中（注意力于）、聚焦（focus on）；焦点、重点、中心",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "focus on/upon（集中于，介词 on，不用 in/at）/ focus（焦点；集中，名词/动词）/ focused / focussed（两种过去式拼写）/ foci（科学复数）/ focus 与 concentrate on（后者更强调集中注意力）"
+      },
+      "collocations": [
+        "excessive focus",
+        "focus on",
+        "focus on physical"
+      ],
+      "examples": [
+        "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. 想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。"
+      ]
+    },
+    "focused": {
+      "phonetic": "/ˈfəʊkəst/",
+      "pos": "v./n.",
+      "sense": "集中（注意力于）、聚焦（focus on）；焦点、重点、中心（focus 的过去式/过去分词形式）",
+      "lemma": "focus",
+      "collocations": [
+        "focused on",
+        "focused on maintaining"
+      ],
+      "examples": [
+        "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. 人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "focus + -ed（过去式/过去分词）",
+        "confusables": "focused（过去式/过去分词）/ focus（原形）"
+      }
+    },
+    "fulfillment": {
+      "phonetic": "/fʊlˈfɪlmənt/",
+      "pos": "n.",
+      "sense": "满足感、成就感；履行（本文指从工作中获得的成就感）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning. 可这么折腾下来，反倒顾不上真正照料自己——而恰恰是那种照料，才能把人带向更深的亲近、踏实和活着的意义。"
+      ],
+      "more": {
+        "roots": "fulfillment 含 -ment（名词后缀，表结果、手段或过程）"
+      }
+    },
+    "habit": {
+      "phonetic": "/ˈhæbɪt/",
+      "pos": "n.",
+      "sense": "习惯（本文指养成的固定行为）",
+      "collocations": [
+        "form a habit",
+        "break a habit",
+        "out of habit"
+      ],
+      "examples": [
+        "I check my phone out of habit. 我习惯性地看手机。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "habit / habits / habitat（同族不同词形，注意词性与用法）"
+      }
+    },
+    "heart": {
+      "phonetic": "/hɑːt/",
+      "pos": "n.",
+      "sense": "心、心脏；内心、核心、要点（本文 a racing heart 怦怦直跳的心 / heart disease 心脏病 / by heart 熟记）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Authentic Heart"
+      ],
+      "examples": [
+        "As I describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way. 我在《真实之心》里写过：真能把人连到一块儿的，是敢做自己的那股勇气。"
+      ],
+      "more": {
+        "confusables": "heart / hear / hearing（同族不同词形，注意词性与用法）"
+      }
+    },
+    "high": {
+      "phonetic": "/haɪ/",
+      "pos": "adj./adv.",
+      "sense": "高的；高度的 / 高高地",
+      "collocations": [
+        "high school",
+        "high rates",
+        "highly（注意区分）"
+      ],
+      "examples": [
+        "Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "high（具体高）/ highly（抽象程度高，如 highly likely）"
+      }
+    },
+    "image": {
+      "phonetic": "/ˈɪmɪdʒ/",
+      "pos": "n./v.",
+      "sense": "形象、印象、声誉；图像、影像；想象、描绘",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "image of"
+      ],
+      "examples": [
+        "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. 好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。"
+      ],
+      "more": {
+        "confusables": "image / imagine / imaginative（同族不同词形，注意词性与用法）"
+      }
+    },
+    "initial": {
+      "phonetic": "/ɪˈnɪʃl/",
+      "pos": "adj./n.",
+      "sense": "最初的、开始的、原始的；首字母（initial reaction 最初反应；the initial stage 初始阶段）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "initial attraction"
+      ],
+      "examples": [
+        "While our initial attraction may be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. 起初动心，多少是看外在的化学反应；可真正让亲密长久、让两个人精神上连起来的，是彼此内心世界对上了。"
+      ],
+      "more": {
+        "confusables": "initial / initiatives（同族不同词形，注意词性与用法）"
+      }
+    },
+    "inner": {
+      "phonetic": "/ˈɪnə/",
+      "pos": "adj.",
+      "sense": "内部的、里面的、内心的、核心的（inner peace 内心平静；inner city 内城；与 outer 相对）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "inner qualities",
+        "inner worlds",
+        "cultivating inner"
+      ],
+      "examples": [
+        "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. 人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。"
+      ]
+    },
+    "intimacy": {
+      "phonetic": "/ˈɪntɪməsi/",
+      "pos": "n.",
+      "sense": "亲密、亲近、密切；私密（intimate 的名词形式；社会/心理话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "deeper intimacy",
+        "deepen intimacy",
+        "lasting intimacy"
+      ],
+      "examples": [
+        "In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning. 可这么折腾下来，反倒顾不上真正照料自己——而恰恰是那种照料，才能把人带向更深的亲近、踏实和活着的意义。"
+      ]
+    },
+    "it's": {
+      "phonetic": "/ɪts/",
+      "pos": "缩略",
+      "sense": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+      "collocations": [
+        "it's important that",
+        "it's likely to"
+      ],
+      "examples": [
+        "It's hard to say. 很难说。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
+      }
+    },
+    "lasting": {
+      "phonetic": "/lɑːstɪŋ/",
+      "pos": "adj./v.",
+      "sense": "最后的；上一个的 / 持续（last 的现在分词/动名词形式）",
+      "lemma": "last",
+      "collocations": [
+        "lasting intimacy"
+      ],
+      "examples": [
+        "While our initial attraction may be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. 起初动心，多少是看外在的化学反应；可真正让亲密长久、让两个人精神上连起来的，是彼此内心世界对上了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "last + -ing（现在分词/动名词）",
+        "confusables": "lasting（现在分词/动名词）/ last（原形）"
+      }
+    },
+    "latest": {
+      "phonetic": "/ˈleɪtɪst/",
+      "pos": "adj./n.",
+      "sense": "最新的、最近的；最新消息 / 款式（late 的最高级；本文 the latest figures / the latest analyst data 最新数据 / the latest research 最新研究）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "latest Hollywood"
+      ],
+      "examples": [
+        "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+      ],
+      "more": {
+        "confusables": "latest / late / later（同族不同词形，注意词性与用法）"
+      }
+    },
+    "like": {
+      "phonetic": "/laɪk/",
+      "pos": "prep./v./conj.",
+      "sense": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+      "collocations": [
+        "like this",
+        "feel like",
+        "such as"
+      ],
+      "examples": [
+        "Tools like this save time. 这样的工具能省时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
+      }
+    },
+    "long": {
+      "phonetic": "/lɒŋ/",
+      "pos": "adj./adv.",
+      "sense": "长的、长期的 / 长久地",
+      "collocations": [
+        "long-term",
+        "as long as",
+        "no longer"
+      ],
+      "examples": [
+        "The impact is long-term. 影响是长期的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "long（长）/ lengthy（冗长的）/ as long as（只要）"
+      }
+    },
+    "look": {
+      "phonetic": "/lʊk/",
+      "pos": "v./n.",
+      "sense": "看、显得（look + adj.）；外观",
+      "collocations": [
+        "look at",
+        "look like",
+        "look for"
+      ],
+      "examples": [
+        "When you look at today's digital activity... 当你审视当今的数字活动……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "look at（看）/ look for（找）/ look after（照顾）"
+      }
+    },
+    "loss": {
+      "phonetic": "/lɒs/",
+      "pos": "n.",
+      "sense": "丧失、损失、丢失；亏损、失败（本文 species loss 物种流失 / crop losses 作物减产 / weight loss 减重）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "But if they don't, it is their loss, not ours. 可要是他们不领情，亏的是他们，不是我们。"
+      ]
+    },
+    "love": {
+      "phonetic": "/lʌv/",
+      "pos": "n./v.",
+      "sense": "爱、热爱；喜爱、爱好；很喜欢",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brings love",
+        "love toward",
+        "seeming love"
+      ],
+      "examples": [
+        "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. 好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。"
+      ],
+      "more": {
+        "confusables": "love / lovers（同族不同词形，注意词性与用法）"
+      }
+    },
+    "magazine": {
+      "phonetic": "/ˌmæɡəˈziːn/",
+      "pos": "n.",
+      "sense": "杂志、期刊；弹匣、弹药库（a monthly magazine 月刊；媒体话题）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "magazine pictures"
+      ],
+      "examples": [
+        "Trying to look like the magazine pictures can take us on a long ride away from what beauty is really about. 照着杂志上的样子去整，只会把人越带越偏，离美真正的意思越来越远。"
+      ]
+    },
+    "magnetic": {
+      "phonetic": "/mæɡˈnetɪk/",
+      "pos": "adj.",
+      "sense": "磁的、有磁性的、有吸引力的（magnetic field 磁场；科普话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "magnetic attraction"
+      ],
+      "examples": [
+        "If we redirect our attention toward cultivating inner qualities, we might find a magnetic attraction that moves us from something superficial to something that connects us to our depths. 要是把心思挪去养内在，说不定会碰上另一种「吸力」：它把人从浮在表面的东西，一路带到能触到自己深处的联结。"
+      ]
+    },
+    "maintaining": {
+      "phonetic": "/meɪnˈteɪnɪŋ/",
+      "pos": "v.",
+      "sense": "维持、保持；坚持认为（maintain that）（maintain 的现在分词/动名词形式）",
+      "lemma": "maintain",
+      "collocations": [
+        "focused on maintaining"
+      ],
+      "examples": [
+        "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. 人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "maintain + -ing（现在分词/动名词）",
+        "confusables": "maintaining（现在分词/动名词）/ maintain（原形）"
+      }
+    },
+    "meaning": {
+      "phonetic": "/ˈmiːnɪŋ/",
+      "pos": "n./adj./v.",
+      "sense": "意义、含义、意思；意味深长的；意味着、打算（mean 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning. 可这么折腾下来，反倒顾不上真正照料自己——而恰恰是那种照料，才能把人带向更深的亲近、踏实和活着的意义。"
+      ],
+      "more": {
+        "confusables": "meaning / meaningful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "means": {
+      "phonetic": "/miːnz/",
+      "pos": "v./n.",
+      "sense": "mean 的第三人称单数；手段、方法（单复同形）",
+      "lemma": "mean",
+      "collocations": [
+        "by means of",
+        "a means of",
+        "by no means"
+      ],
+      "examples": [
+        "She argues the data means little. 她认为这些数据意义不大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "by no means（绝不）/ by all means（当然可以）/ means（单复同形）"
+      }
+    },
+    "meeting": {
+      "phonetic": "/ˈmiːtɪŋ/",
+      "pos": "n./v.",
+      "sense": "会议、集会、会面、相遇；遇见、会面（meet 的现在分词；hold/attend a meeting 举行/参加会议）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "meeting of"
+      ],
+      "examples": [
+        "While our initial attraction may be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. 起初动心，多少是看外在的化学反应；可真正让亲密长久、让两个人精神上连起来的，是彼此内心世界对上了。"
+      ],
+      "more": {
+        "confusables": "meeting / meetings（同族不同词形，注意词性与用法）"
+      }
+    },
+    "misses": {
+      "phonetic": "/ˈmɪsɪz/",
+      "pos": "v./n.",
+      "sense": "想念、思念、错过、未击中、未赶上；小姐、少女（miss 的三单/复数；miss the point 没抓住要点）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "appearance misses"
+      ],
+      "examples": [
+        "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. 想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。"
+      ],
+      "more": {
+        "confusables": "misses / missing / mission（同族不同词形，注意词性与用法）"
+      }
+    },
+    "money": {
+      "phonetic": "/ˈmʌni/",
+      "pos": "n.",
+      "sense": "钱、资金",
+      "collocations": [
+        "money trying"
+      ],
+      "examples": [
+        "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. 好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "move": {
+      "phonetic": "/muːv/",
+      "pos": "v./n.",
+      "sense": "移动、搬；促使（move sb to do）；举措",
+      "collocations": [
+        "move on",
+        "move towards",
+        "a move to do"
+      ],
+      "examples": [
+        "The law is a move towards protection. 这项法律是迈向保护的一步。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "move（移动）/ movement（运动/动作）"
+      }
+    },
+    "moves": {
+      "phonetic": "/muːvz/",
+      "pos": "v./n.",
+      "sense": "移动、搬；促使（move sb to do）；举措（move 的复数/三单形式）",
+      "lemma": "move",
+      "collocations": [],
+      "examples": [
+        "If we redirect our attention toward cultivating inner qualities, we might find a magnetic attraction that moves us from something superficial to something that connects us to our depths. 要是把心思挪去养内在，说不定会碰上另一种「吸力」：它把人从浮在表面的东西，一路带到能触到自己深处的联结。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "move + -s（复数/三单）",
+        "confusables": "moves（复数/三单）/ move（原形）"
+      }
+    },
+    "necessary": {
+      "phonetic": "/ˈnesəsəri/",
+      "pos": "adj.",
+      "sense": "必要的、必需的",
+      "collocations": [
+        "if necessary",
+        "necessary to do"
+      ],
+      "examples": [
+        "Bring a pen if necessary. 有必要的话带支笔。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "necessary / necessarily（同族不同词形，注意词性与用法）"
+      }
+    },
+    "never": {
+      "phonetic": "/ˈnevə(r)/",
+      "pos": "adv.",
+      "sense": "从不、永不、从来没有（置于句首时主句部分倒装）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "never cultivate"
+      ],
+      "examples": [
+        "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. 人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。"
+      ],
+      "more": {
+        "confusables": "never / never-ending（同族不同词形，注意词性与用法）"
+      }
+    },
+    "outer": {
+      "phonetic": "/ˈaʊtə/",
+      "pos": "adj.",
+      "sense": "外面的、外部的、外层的、远离中心的（outer space 外层空间；与 inner 相对）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Outer beauty"
+      ],
+      "examples": [
+        "Outer beauty can be as much of a curse as a blessing. 长得好看，是福也是祸，两边分量一样重。"
+      ]
+    },
+    "part": {
+      "phonetic": "/pɑːt/",
+      "pos": "n./v.",
+      "sense": "部分、部件；角色、职责；分开、分离（part with 割舍）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "While our initial attraction may be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. 起初动心，多少是看外在的化学反应；可真正让亲密长久、让两个人精神上连起来的，是彼此内心世界对上了。"
+      ],
+      "more": {
+        "confusables": "part / parts / participants（同族不同词形，注意词性与用法）"
+      }
+    },
+    "path": {
+      "phonetic": "/pɑːθ/",
+      "pos": "n.",
+      "sense": "小路、小径；路线、路径；（喻）途径、成功之路（复数 paths 读 /pɑːðz/）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "path toward"
+      ],
+      "examples": [
+        "The path toward cultivating inner beauty is really simple. 养内在美这条路，说起来简单得很。"
+      ],
+      "more": {
+        "confusables": "path / pathways（同族不同词形，注意词性与用法）"
+      }
+    },
+    "perfect": {
+      "phonetic": "/ˈpɜːfɪkt/",
+      "pos": "adj.",
+      "sense": "完美的、理想的",
+      "collocations": [
+        "in a perfect world",
+        "perfect appearance"
+      ],
+      "examples": [
+        "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. 人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "perfect / perfection（同族不同词形，注意词性与用法）"
+      }
+    },
+    "physical": {
+      "phonetic": "/ˈfɪzɪkl/",
+      "pos": "adj.",
+      "sense": "身体的；物理的；实物的",
+      "collocations": [
+        "physical health",
+        "physical activity",
+        "physical presence"
+      ],
+      "examples": [
+        "Mental and physical health are linked. 心理与身体健康相互关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "physica（自然）+ -al",
+        "confusables": "physical（身体的/物理的）/ mental（心理的）"
+      }
+    },
+    "pictures": {
+      "phonetic": "/ˈpɪktʃə(r)z/",
+      "pos": "n.",
+      "sense": "图画；the broader picture 宏观大局（picture 的复数/三单形式）",
+      "lemma": "picture",
+      "collocations": [
+        "magazine pictures"
+      ],
+      "examples": [
+        "Trying to look like the magazine pictures can take us on a long ride away from what beauty is really about. 照着杂志上的样子去整，只会把人越带越偏，离美真正的意思越来越远。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "picture + -s（复数/三单）",
+        "confusables": "pictures（复数/三单）/ picture（原形）"
+      }
+    },
+    "places": {
+      "phonetic": "/ˈpleɪsɪz/",
+      "pos": "n./v.",
+      "sense": "地方（place 的复数）；放置（动词三单）",
+      "lemma": "place",
+      "collocations": [
+        "in many places",
+        "take place",
+        "in place"
+      ],
+      "examples": [
+        "Many places could benefit from existing technology. 许多地方能受益于现有技术。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "take place（发生）/ take the place of（取代）/ in place（到位）"
+      }
+    },
+    "polish": {
+      "phonetic": "/ˈpɒlɪʃ/",
+      "pos": "v./n.",
+      "sense": "擦亮、磨光、润色、改进、使完善；光泽、上光剂、优雅（polish up 润色/提高）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "trying to polish"
+      ],
+      "examples": [
+        "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention, love, and connection. 好多人把大把时间、精力、钞票都砸在「经营形象」上，还一心以为这样就能换来关注、疼爱和交心。"
+      ],
+      "more": {
+        "confusables": "polish / policies / political（同族不同词形，注意词性与用法）"
+      }
+    },
+    "process": {
+      "phonetic": "/ˈprəʊses/",
+      "pos": "n.",
+      "sense": "过程、流程",
+      "collocations": [],
+      "examples": [
+        "In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning. 可这么折腾下来，反倒顾不上真正照料自己——而恰恰是那种照料，才能把人带向更深的亲近、踏实和活着的意义。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "process / processes / proceeds（同族不同词形，注意词性与用法）"
+      }
+    },
+    "qualities": {
+      "phonetic": "/ˈkwɒlətiz/",
+      "pos": "n./adj.",
+      "sense": "质量（不可数）；品质、特质（可数）；优质的（quality 的复数/三单形式）",
+      "lemma": "quality",
+      "collocations": [
+        "inner qualities",
+        "qualities necessary"
+      ],
+      "examples": [
+        "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. 人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "quality + -ies（复数/三单）",
+        "confusables": "qualities（复数/三单）/ quality（原形）"
+      }
+    },
+    "read": {
+      "phonetic": "/riːd/",
+      "pos": "v.",
+      "sense": "读、阅读；读懂、写着（过去式/过去分词同形，读 /red/；本文 most end users don't read EULAs 多数用户不读协议）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "read about"
+      ],
+      "examples": [
+        "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+      ],
+      "more": {
+        "confusables": "read / reader / reading（同族不同词形，注意词性与用法）"
+      }
+    },
+    "really": {
+      "phonetic": "/ˈrɪəli/",
+      "pos": "adv.",
+      "sense": "真正地、确实；非常（口语）",
+      "collocations": [
+        "really important",
+        "not really",
+        "really?"
+      ],
+      "examples": [
+        "They do not really reflect everyday behaviour. 它们并没有真正反映日常行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "really（真正地）/ real（形容词）/ actually（实际上）"
+      }
+    },
+    "redirect": {
+      "phonetic": "/ˌriːdɪˈrekt/",
+      "pos": "v.",
+      "sense": "使改道、使转向、重新指引、改寄、重新定向（re + direct；也指把资金或注意力转向他处）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "If we redirect our attention toward cultivating inner qualities, we might find a magnetic attraction that moves us from something superficial to something that connects us to our depths. 要是把心思挪去养内在，说不定会碰上另一种「吸力」：它把人从浮在表面的东西，一路带到能触到自己深处的联结。"
+      ]
+    },
+    "resentment": {
+      "phonetic": "/rɪˈzentmənt/",
+      "pos": "n.",
+      "sense": "怨恨、愤恨、不满（resentment at/against 对…的怨愤）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "turns into resentment"
+      ],
+      "examples": [
+        "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+      ],
+      "more": {
+        "roots": "resentment 含 -ment（名词后缀，表结果、手段或过程）"
+      }
+    },
+    "ride": {
+      "phonetic": "/raɪd/",
+      "pos": "v./n.",
+      "sense": "骑（马、自行车）、乘坐（车）；乘车旅程、搭乘（ride a bike / give sb a ride）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "long ride",
+        "ride away"
+      ],
+      "examples": [
+        "Trying to look like the magazine pictures can take us on a long ride away from what beauty is really about. 照着杂志上的样子去整，只会把人越带越偏，离美真正的意思越来越远。"
+      ]
+    },
+    "risk": {
+      "phonetic": "/rɪsk/",
+      "pos": "n./v.",
+      "sense": "风险、危险、冒险；冒…的风险、使…处于险境",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "risk（风险，可数/不可数；冒…险，动词）/ risk doing（冒险做，接动名词，不接 to do）/ at risk（处于危险中，无冠词）/ at the risk of（冒着…的风险，介词 of）/ take / run a risk / danger（指危险本身，risk 指可能性）"
+      },
+      "collocations": [
+        "courageous risk",
+        "risk to",
+        "risk to allow"
+      ],
+      "examples": [
+        "Not everyone will see us and appreciate us as we take the courageous risk to allow ourselves to be seen as we really are. 真要敢把自己本来的样子亮出来，就别指望人人都看得见、都懂得欣赏。"
+      ]
+    },
+    "see": {
+      "phonetic": "/siː/",
+      "pos": "v.",
+      "sense": "看见；明白（I see）；见证",
+      "collocations": [
+        "see that",
+        "as we can see",
+        "see sb do/doing"
+      ],
+      "examples": [
+        "We see the same pattern again. 我们又看到了同样的模式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "see（看见，无意）/ look at（看，有意）/ watch（观看，持续）"
+      }
+    },
+    "seeming": {
+      "phonetic": "/siːmɪŋ/",
+      "pos": "v.",
+      "sense": "似乎、好像（seem + adj. / seem to do）（seem 的现在分词/动名词形式）",
+      "lemma": "seem",
+      "collocations": [
+        "seeming love"
+      ],
+      "examples": [
+        "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "seem + -ing（现在分词/动名词）",
+        "confusables": "seeming（现在分词/动名词）/ seem（原形）"
+      }
+    },
+    "seen": {
+      "phonetic": "/siːn/",
+      "pos": "v.",
+      "sense": "see 的过去分词（被看见）",
+      "lemma": "see",
+      "collocations": [
+        "have seen",
+        "be seen as",
+        "as seen in"
+      ],
+      "examples": [
+        "This has long been seen as normal. 这长期被视为正常。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "seen（过去分词）/ saw（过去式）/ scene（场景）"
+      }
+    },
+    "simple": {
+      "phonetic": "/ˈsɪmpl/",
+      "pos": "adj.",
+      "sense": "简单的、简易的；朴素的、单纯的；头脑简单的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "really simple"
+      ],
+      "examples": [
+        "The path toward cultivating inner beauty is really simple. 养内在美这条路，说起来简单得很。"
+      ],
+      "more": {
+        "confusables": "simple / simplest（同族不同词形，注意词性与用法）"
+      }
+    },
+    "skin": {
+      "phonetic": "/skɪn/",
+      "pos": "n./v.",
+      "sense": "皮肤、皮、毛皮、外皮、表层、果皮；剥皮、擦破皮（skin deep 肤浅）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "skin deep"
+      ],
+      "examples": [
+        "It may sound trite(老生常谈的), but beauty is only skin deep; it's not what brings love toward us. 这话听着像陈词滥调，可「美不过一张皮」是真话：光靠脸，招不来爱。"
+      ],
+      "more": {
+        "confusables": "skin / skins（同族不同词形，注意词性与用法）"
+      }
+    },
+    "society": {
+      "phonetic": "/səˈsaɪəti/",
+      "pos": "n.",
+      "sense": "社会；社团",
+      "collocations": [
+        "as a society",
+        "society places"
+      ],
+      "examples": [
+        "Our society places a high value on physical beauty. 这个社会，把长得好不好看看得特别重。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "something": {
+      "phonetic": "/ˈsʌmθɪŋ/",
+      "pos": "pron.",
+      "sense": "某事、某物（不定代词）",
+      "collocations": [
+        "something like",
+        "something to do with",
+        "or something"
+      ],
+      "examples": [
+        "If you feel something should not be done... 如果你觉得某事不该做……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）"
+      }
+    },
+    "soulful": {
+      "phonetic": "/ˈsəʊlfl/",
+      "pos": "adj.",
+      "sense": "深情的、充满感情的、凄婉的（a soulful voice 深情的嗓音；音乐/文艺话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "soulful aspects"
+      ],
+      "examples": [
+        "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. 想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。"
+      ],
+      "more": {
+        "roots": "soulful 含 -ful（形容词后缀，表「充满……的」）"
+      }
+    },
+    "souls": {
+      "phonetic": "/səʊlz/",
+      "pos": "n.",
+      "sense": "灵魂、心灵、精神、人（soul 的复数；文艺/情感话题常指内心或人）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "compatible souls"
+      ],
+      "examples": [
+        "Eventually we'll find those compatible souls who appreciate us as we are. 总有一天，会遇上那些合得来的人，喜欢的就是你本来的样子。"
+      ],
+      "more": {
+        "confusables": "souls / soulful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "sound": {
+      "phonetic": "/saʊnd/",
+      "pos": "n./v./adj.",
+      "sense": "声音、声响、响声；听起来、发出声音、探测；健全的、合理的、扎实的、酣睡的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sound trite"
+      ],
+      "examples": [
+        "It may sound trite(老生常谈的), but beauty is only skin deep; it's not what brings love toward us. 这话听着像陈词滥调，可「美不过一张皮」是真话：光靠脸，招不来爱。"
+      ],
+      "more": {
+        "confusables": "sound / sounds（同族不同词形，注意词性与用法）"
+      }
+    },
+    "spend": {
+      "phonetic": "/spend/",
+      "pos": "v.",
+      "sense": "花费（时间/金钱）、度过、消耗、用尽（spend ... on sth / doing）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sb spends time/money on sth 或 (in) doing（人作主语）/ sth costs sb money（物作主语）/ it takes sb time to do（it 作形式主语）/ sb pays money for sth（介词 for）/ spend、cost、take、pay 主语与句型不同，不能互换"
+      },
+      "collocations": [
+        "Americans spend",
+        "spend far"
+      ],
+      "examples": [
+        "Americans spend an average of over $722 each year on their appearance. 美国人一年花在打扮上的钱，平均七百二十多美元。"
+      ]
+    },
+    "spiritual": {
+      "phonetic": "/ˈspɪrɪtʃuəl/",
+      "pos": "adj.",
+      "sense": "精神的、心灵的、宗教的、灵性的（spiritual needs 精神需求；与 material/physical 相对）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "spiritual connection"
+      ],
+      "examples": [
+        "While our initial attraction may be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. 起初动心，多少是看外在的化学反应；可真正让亲密长久、让两个人精神上连起来的，是彼此内心世界对上了。"
+      ]
+    },
+    "star": {
+      "phonetic": "/stɑː/",
+      "pos": "n./v.",
+      "sense": "星、恒星；明星、主角、星形；主演、标星号（star in 主演；影视/天文话题）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "One in ten Americans has tried to look like a star. 每十个美国人里就有一个，曾照着明星的样子捯饬过自己。"
+      ],
+      "more": {
+        "confusables": "star / start / starting（同族不同词形，注意词性与用法）"
+      }
+    },
+    "starlets": {
+      "phonetic": "/ˈstɑːləts/",
+      "pos": "n.",
+      "sense": "小明星、崭露头角的年轻演员（starlet 的复数；影视话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "Hollywood starlets"
+      ],
+      "examples": [
+        "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+      ]
+    },
+    "superficial": {
+      "phonetic": "/ˌsuːpəˈfɪʃl/",
+      "pos": "adj.",
+      "sense": "表面的、肤浅的、浅薄的、表层的（a superficial understanding 肤浅的理解）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "something superficial",
+        "superficial to",
+        "superficial to something"
+      ],
+      "examples": [
+        "If we redirect our attention toward cultivating inner qualities, we might find a magnetic attraction that moves us from something superficial to something that connects us to our depths. 要是把心思挪去养内在，说不定会碰上另一种「吸力」：它把人从浮在表面的东西，一路带到能触到自己深处的联结。"
+      ]
+    },
+    "sustain": {
+      "phonetic": "/səˈsteɪn/",
+      "pos": "v.",
+      "sense": "维持、保持、支撑、承受；遭受（损失/伤害）；证实",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "sus-（=sub- 在下）+ tain（握、持，词根 ten/tain = hold，同 maintain/retain/contain）→ 在下面托住 → 支撑、维持",
+        "confusables": "sustain（维持、支撑；遭受损伤，及物）/ sustain 与 maintain（维护、保持现状；坚称）/ retain（保留、留住）/ sustainable（可持续的）/ sustenance（食物、生计）"
+      },
+      "collocations": [
+        "necessary to sustain"
+      ],
+      "examples": [
+        "We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection. 人很容易养成这么个毛病：一门心思维护完美形象，结果从没去养那些真正能让关系长久、变深的内在东西。"
+      ]
+    },
+    "take": {
+      "phonetic": "/teɪk/",
+      "pos": "v.",
+      "sense": "拿、带；花费、需要；采取、接受（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "take（带走，离开说话人；it takes sb time to do 花费；拿、乘坐）/ bring（带来，朝说话人）/ fetch（去取来）/ spend（人作主语：sb spends … on/doing）/ cost（物作主语：sth costs sb …）/ take part in（参加）、take place（发生，无被动）"
+      },
+      "collocations": [],
+      "examples": [
+        "Trying to look like the magazine pictures can take us on a long ride away from what beauty is really about. 照着杂志上的样子去整，只会把人越带越偏，离美真正的意思越来越远。"
+      ]
+    },
+    "think": {
+      "phonetic": "/θɪŋk/",
+      "pos": "v.",
+      "sense": "想、认为；思考",
+      "collocations": [
+        "think about",
+        "think of",
+        "I think that"
+      ],
+      "examples": [
+        "Many think the risk is small. 很多人认为风险很小。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "think about（考虑）/ think of（想起）/ think over（仔细考虑）"
+      }
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "toward": {
+      "phonetic": "/təˈwɔːd/",
+      "pos": "prep.",
+      "sense": "朝向、对于（towards 的美式写法）",
+      "collocations": [
+        "toward the end",
+        "attitudes toward",
+        "go a long way toward"
+      ],
+      "examples": [
+        "A good diet goes a long way toward easing changes. 良好饮食对缓解变化大有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "toward（美式）/ towards（英式），词义相同"
+      }
+    },
+    "tried": {
+      "phonetic": "/traɪd/",
+      "pos": "v.",
+      "sense": "尝试、试图、努力、试用、试验、审理（try 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "tried to",
+        "tried to look"
+      ],
+      "examples": [
+        "One in ten Americans has tried to look like a star. 每十个美国人里就有一个，曾照着明星的样子捯饬过自己。"
+      ]
+    },
+    "trite": {
+      "phonetic": "/traɪt/",
+      "pos": "adj.",
+      "sense": "陈腐的、老套的、平淡无奇的（a trite remark 老生常谈；文艺评论用语）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "sound trite"
+      ],
+      "examples": [
+        "It may sound trite(老生常谈的), but beauty is only skin deep; it's not what brings love toward us. 这话听着像陈词滥调，可「美不过一张皮」是真话：光靠脸，招不来爱。"
+      ]
+    },
+    "trying": {
+      "phonetic": "/ˈtraɪɪŋ/",
+      "pos": "v./adj.",
+      "sense": "尝试、努力、试用（try 的现在分词）；令人难受的、费劲的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "trying to",
+        "trying to look",
+        "wrong with trying"
+      ],
+      "examples": [
+        "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. 想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。"
+      ]
+    },
+    "turns": {
+      "phonetic": "/tɜːnz/",
+      "pos": "v./n.",
+      "sense": "转动、旋转、翻转、转弯、变成、转向；轮次、转动、转弯、变化、转折（turn 的复数/三单形式）",
+      "lemma": "turn",
+      "collocations": [
+        "love turns",
+        "turns into",
+        "turns into resentment"
+      ],
+      "examples": [
+        "Just read about the latest Hollywood starlets whose seeming love turns into resentment and bitter court battles. 看看最近那些好莱坞小花就知道了：看着甜甜蜜蜜的感情，转头就撕成怨偶、闹上法庭。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "turn + -s（复数/三单）",
+        "confusables": "turns（复数/三单）/ turn（原形）"
+      }
+    },
+    "value": {
+      "phonetic": "/ˈvæljuː/",
+      "pos": "n./v.",
+      "sense": "价值、价格、重要性；价值观（values）；重视、珍视、估价",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "value（价值，不可数；values 价值观，复数；重视，动词）/ be of value = valuable / worth（只作表语，be worth doing）/ price（是「定价」，value 是「价值」）/ evaluate（评估，动词）"
+      },
+      "collocations": [
+        "high value",
+        "value on",
+        "value on physical"
+      ],
+      "examples": [
+        "Our society places a high value on physical beauty. 这个社会，把长得好不好看看得特别重。"
+      ]
+    },
+    "way": {
+      "phonetic": "/weɪ/",
+      "pos": "n.",
+      "sense": "方法、方式；路；程度（in a way）",
+      "collocations": [
+        "the best way to do sth",
+        "in some ways",
+        "by the way"
+      ],
+      "examples": [
+        "There is no simple way to fix it. 没有简单的办法解决它。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "way（方法）/ road（道路）/ method（方法，正式）"
+      }
+    },
+    "worlds": {
+      "phonetic": "/wɜːlddz/",
+      "pos": "n.",
+      "sense": "世界；领域；世人（world 的复数/三单形式）",
+      "lemma": "world",
+      "collocations": [
+        "inner worlds"
+      ],
+      "examples": [
+        "While our initial attraction may be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. 起初动心，多少是看外在的化学反应；可真正让亲密长久、让两个人精神上连起来的，是彼此内心世界对上了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "world + -s（复数/三单）",
+        "confusables": "worlds（复数/三单）/ world（原形）"
+      }
+    },
+    "wrong": {
+      "phonetic": "/rɒŋ/",
+      "pos": "adj./adv./n.",
+      "sense": "错误的、不对的、不合适的、不道德的、出毛病的；错误地、不对；错误、坏事、不公、冤屈",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "nothing wrong",
+        "wrong with",
+        "wrong with trying"
+      ],
+      "examples": [
+        "There's nothing wrong with trying to look our best, but excessive focus on physical appearance misses the soulful aspects of what it means to be beautiful. 想把自己收拾得体面点，本身没毛病；可一旦盯外表盯过了头，就把「美」里头那份关乎心灵的东西给漏掉了。"
+      ],
+      "more": {
+        "confusables": "wrong / wrongdoer（同族不同词形，注意词性与用法）"
+      }
+    },
+    "year": {
+      "phonetic": "/jɪə(r)/",
+      "pos": "n.",
+      "sense": "年；年度",
+      "collocations": [
+        "this year",
+        "a year ago",
+        "the following two years"
+      ],
+      "examples": [
+        "Red Rum returned the very next year. 「红朗姆」在第二年又回来了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "year（年）/ ear（耳朵）"
+      }
+    }
+  }
+}

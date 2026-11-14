@@ -1,0 +1,6050 @@
+{
+  "sourceKey": "cet4-2025-12-set2B",
+  "articleId": "set2B",
+  "packVersion": "2026.11.08-2",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 12,
+    "setNo": 2,
+    "section": "仔细阅读",
+    "passageLabel": "Passage Two",
+    "title": "When Do Babies Start Dreaming?",
+    "wordCount": 348
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Adults dream during REM (rapid eye movement) sleep and infants have loads of REM. So, it might be fair to assume that babies have tons of dreams.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 81,
+          "text": "Adults dream during REM (rapid eye movement) sleep and infants have loads of REM.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "Adults",
+              "normalized": "adults",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "surface": "dream",
+              "normalized": "dream",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 19,
+              "surface": "during",
+              "normalized": "during",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 23,
+              "surface": "REM",
+              "normalized": "rem",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 25,
+              "surface": "(",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 25,
+              "end": 30,
+              "surface": "rapid",
+              "normalized": "rapid",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 34,
+              "surface": "eye",
+              "normalized": "eye",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 43,
+              "surface": "movement",
+              "normalized": "movement",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 44,
+              "surface": ")",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 50,
+              "surface": "sleep",
+              "normalized": "sleep",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 62,
+              "surface": "infants",
+              "normalized": "infants",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 67,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 73,
+              "surface": "loads",
+              "normalized": "loads",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 80,
+              "surface": "REM",
+              "normalized": "rem",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 81,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "成年人在 REM（快速眼动）睡眠期间做梦，而婴儿有大量 REM。",
+            "translationNatural": "大人入睡会经历 REM（快速眼动）期，小婴儿也有的是 REM。",
+            "structMarkup": "【Adults】 _dream during REM (rapid eye movement) sleep_ _and infants have loads of REM_.",
+            "structureSummary": "并列句（and 连接两个分句，含 REM 括号注释）",
+            "components": [
+              {
+                "part": "Adults",
+                "role": "主语",
+                "note": "主语，成年人，谓语用 dream（复数）"
+              },
+              {
+                "part": "dream during REM (rapid eye movement) sleep",
+                "role": "谓语",
+                "note": "谓语，dream 作不及物，during REM sleep 时间状语；括号 rapid eye movement 是原文附的英文注释须照抄"
+              },
+              {
+                "part": "and infants have loads of REM",
+                "role": "谓语",
+                "note": "and 接并列分句，infants 主语，have loads of 『有大量』REM"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「并列句（and 连接两个分句，含 REM 括号注释）」。"
+            ],
+            "phrases": [
+              {
+                "text": "adults",
+                "meaning": "成年人（adult 的复数）",
+                "usage": "注意区分：adults（复数）/ adult（单数）。常见搭配：adults and children / young adults。",
+                "example": "Kids know how adults are expected to write. 孩子知道大人该怎么写。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：adults（复数）/ adult（单数）。",
+              "本句主干为「并列句（and 连接两个分句，含 REM 括号注释）」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "本段从常识切入：成人婴儿都有大量 REM，于是顺理成章猜测婴儿也爱做梦，为下文科学家的否定做铺垫。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 82,
+          "end": 145,
+          "text": "So, it might be fair to assume that babies have tons of dreams.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "So",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "surface": "might",
+              "normalized": "might",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "fair",
+              "normalized": "fair",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 30,
+              "surface": "assume",
+              "normalized": "assume",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 42,
+              "surface": "babies",
+              "normalized": "babies",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 52,
+              "surface": "tons",
+              "normalized": "tons",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 55,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 62,
+              "surface": "dreams",
+              "normalized": "dreams",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 63,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "所以，认为婴儿有大量的梦或许是公平的。",
+            "translationNatural": "所以，说小婴儿做了好多梦，听起来倒也挺合理。",
+            "structMarkup": "(So), 【it might be fair to assume】 {that babies have tons of dreams}.",
+            "structureSummary": "it 形式主语 + 不定式主语 + that 主语从句",
+            "components": [
+              {
+                "part": "So",
+                "role": "状语",
+                "note": "连词/状语，承接上文『成人婴儿都多 REM』"
+              },
+              {
+                "part": "it might be fair to assume",
+                "role": "形式主语",
+                "note": "it 形式主语，真正主语是不定式 to assume；it is fair to 『有理由/公平地』"
+              },
+              {
+                "part": "that babies have tons of dreams",
+                "role": "主语从句",
+                "note": "that 引导主语从句，tons of 『成吨的、大量的』，口语化表示很多梦"
+              }
+            ],
+            "clauses": [
+              "主语从句「that babies have tons of dreams」：that 引导主语从句，tons of 『成吨的、大量的』，口语化表示很多梦",
+              "本句主干为「it 形式主语 + 不定式主语 + that 主语从句」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "assume",
+                "meaning": "假定、认为、想当然；承担（责任）、呈现（形态）",
+                "usage": "注意区分：assume（假定；承担；呈现）/ assume that（认为）/ assuming (that)（假如，连词）/ assume 与 presume（presume 偏「基于证据姑且认定」）/ assumption（名词）。",
+                "example": "So, it might be fair to assume that babies have tons of dreams. 所以，说小婴儿做了好多梦，听起来倒也挺合理。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：assume（假定；承担；呈现）/ assume that（认为）/ assuming (that)（假如，连词）/ assume 与 presume（presume 偏「基于证据姑且认定」）/ assumption（名词）。",
+              "that babies have tons of dreams：that 引导主语从句，tons of 『成吨的、大量的』，口语化表示很多梦"
+            ],
+            "paragraphRole": "本段从常识切入：成人婴儿都有大量 REM，于是顺理成章猜测婴儿也爱做梦，为下文科学家的否定做铺垫。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "But scientists believe REM serves a completely different purpose for newborns and infants than dreaming. When babies are in REM, it allows their brain to develop pathways, connections, and eventually, learn languages.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 104,
+          "text": "But scientists believe REM serves a completely different purpose for newborns and infants than dreaming.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 14,
+              "surface": "scientists",
+              "normalized": "scientists",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "surface": "believe",
+              "normalized": "believe",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 26,
+              "surface": "REM",
+              "normalized": "rem",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 33,
+              "surface": "serves",
+              "normalized": "serves",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 35,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 46,
+              "surface": "completely",
+              "normalized": "completely",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 56,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 64,
+              "surface": "purpose",
+              "normalized": "purpose",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 68,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 77,
+              "surface": "newborns",
+              "normalized": "newborns",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 81,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 89,
+              "surface": "infants",
+              "normalized": "infants",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 94,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 103,
+              "surface": "dreaming",
+              "normalized": "dreaming",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 104,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但科学家认为，REM 对新生儿和婴儿起到的作用与做梦完全不同。",
+            "translationNatural": "但科学家认为，REM 对新生儿和婴儿的作用，跟『做梦』完全是两码事。",
+            "structMarkup": "(But) 【scientists】 _believe_ {REM serves a completely different purpose for newborns and infants than dreaming}.",
+            "structureSummary": "主谓 + 省略 that 的宾语从句（比较结构 than dreaming）",
+            "components": [
+              {
+                "part": "But",
+                "role": "状语",
+                "note": "转折，引出科学家不同看法"
+              },
+              {
+                "part": "scientists",
+                "role": "主语",
+                "note": "主语，科学家，谓语 believe"
+              },
+              {
+                "part": "believe",
+                "role": "谓语",
+                "note": "谓语，后接省略 that 的宾语从句"
+              },
+              {
+                "part": "REM serves a completely different purpose for newborns and infants than dreaming",
+                "role": "宾语从句",
+                "note": "从句主语 REM，serve a purpose 『起到……作用』，completely different...than dreaming 说明对新生儿作用不同于『做梦』"
+              }
+            ],
+            "clauses": [
+              "宾语从句「REM serves a completely different purpose for newborns and infants tha」：从句主语 REM，serve a purpose 『起到……作用』，completely different...than dreaming 说明对新生儿作用不同于『做梦』",
+              "本句主干为「主谓 + 省略 that 的宾语从句（比较结构 than dreaming）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "scientists",
+                "meaning": "科学家（scientist 的复数）",
+                "usage": "注意区分：scientist（科学家）/ science（科学）。常见搭配：social scientists / scientists found。",
+                "example": "Social scientists found digital use beneficial. 社会科学家发现数字使用有益。"
+              },
+              {
+                "text": "believe",
+                "meaning": "相信、认为",
+                "usage": "常见搭配：believe in / believe that。",
+                "example": "I believe he is right. 我认为他是对的。"
+              },
+              {
+                "text": "different",
+                "meaning": "不同的；各种各样的",
+                "usage": "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。常见搭配：different from / a different picture。",
+                "example": "Their experiences were considerably different. 他们的经历相当不同。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：scientist（科学家）/ science（科学）。",
+              "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。",
+              "注意区分：dreaming（现在分词/动名词）/ dream（原形）。"
+            ],
+            "paragraphRole": "本段给出科学家观点：REM 对新生儿的作用并非做梦，而是帮大脑铺设神经通路、学会语言。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 105,
+          "end": 217,
+          "text": "When babies are in REM, it allows their brain to develop pathways, connections, and eventually, learn languages.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "When",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 11,
+              "surface": "babies",
+              "normalized": "babies",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 18,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "REM",
+              "normalized": "rem",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 23,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 33,
+              "surface": "allows",
+              "normalized": "allows",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 39,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 45,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 56,
+              "surface": "develop",
+              "normalized": "develop",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 65,
+              "surface": "pathways",
+              "normalized": "pathways",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 66,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 67,
+              "end": 78,
+              "surface": "connections",
+              "normalized": "connections",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 79,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 80,
+              "end": 83,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 94,
+              "surface": "eventually",
+              "normalized": "eventually",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 95,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 96,
+              "end": 101,
+              "surface": "learn",
+              "normalized": "learn",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 111,
+              "surface": "languages",
+              "normalized": "languages",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 112,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "当婴儿处于 REM 时，它让大脑发展通路、连接，并最终学会语言。",
+            "translationNatural": "婴儿处在 REM 期时，大脑借此铺设神经通路和连接，最终还学起语言来。",
+            "structMarkup": "{When babies are in REM}, 【it】 _allows their brain to develop_ ~pathways, connections, and eventually, learn languages~.",
+            "structureSummary": "when 时间状语从句 + 主句 allow sb to do + 并列不定式宾语",
+            "components": [
+              {
+                "part": "When babies are in REM",
+                "role": "状语从句",
+                "note": "when 引导时间状语从句，『当婴儿处于 REM 时』"
+              },
+              {
+                "part": "it",
+                "role": "主语",
+                "note": "主句主语，回指 REM 状态"
+              },
+              {
+                "part": "allows their brain to develop",
+                "role": "谓语",
+                "note": "谓语，allow sb to do 『使其大脑得以发展』"
+              },
+              {
+                "part": "pathways, connections, and eventually, learn languages",
+                "role": "宾语",
+                "note": "不定式 to develop 的宾语，三个并列：神经通路、连接，最终学会语言；eventually 插入语"
+              }
+            ],
+            "clauses": [
+              "状语从句「When babies are in REM」：when 引导时间状语从句，『当婴儿处于 REM 时』",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "allows",
+                "meaning": "allow 的第三人称单数，使能够、允许",
+                "usage": "常见搭配：allow sb to do。",
+                "example": "When babies are in REM, it allows their brain to develop pathways, connections, and eventually, learn languages. 婴儿处在 REM 期时，大脑借此铺设神经通路和连接，最终还学起语言来。"
+              },
+              {
+                "text": "develop",
+                "meaning": "发展、养成、开发",
+                "usage": "常见搭配：develop a habit / develop a skill。",
+                "example": "He developed a reading habit. 他养成了阅读习惯。"
+              },
+              {
+                "text": "eventually",
+                "meaning": "最终、终于（强调结果）",
+                "usage": "注意区分：eventually（最终）/ finally（最后，强调顺序）/ in the end（最终）。常见搭配：eventually become / eventually happen。",
+                "example": "Attitudes eventually shifted. 态度最终转变了。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：eventually（最终）/ finally（最后，强调顺序）/ in the end（最终）。",
+              "注意区分：languages（复数/三单）/ language（原形）。"
+            ],
+            "paragraphRole": "本段给出科学家观点：REM 对新生儿的作用并非做梦，而是帮大脑铺设神经通路、学会语言。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "Since your baby doesn't dream at this stage of brain development, it's safe to assume babies do not have nightmares, either. Nightmares stem from exposure to trauma(创伤), an overactive imagination, and the normal stresses of everyday life.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 124,
+          "text": "Since your baby doesn't dream at this stage of brain development, it's safe to assume babies do not have nightmares, either.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Since",
+              "normalized": "since",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "surface": "baby",
+              "normalized": "baby",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 23,
+              "surface": "doesn't",
+              "normalized": "doesn't",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 29,
+              "surface": "dream",
+              "normalized": "dream",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 43,
+              "surface": "stage",
+              "normalized": "stage",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 46,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 64,
+              "surface": "development",
+              "normalized": "development",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 65,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 66,
+              "end": 70,
+              "surface": "it's",
+              "normalized": "it's",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "safe",
+              "normalized": "safe",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 85,
+              "surface": "assume",
+              "normalized": "assume",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 92,
+              "surface": "babies",
+              "normalized": "babies",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 95,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 99,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 104,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 115,
+              "surface": "nightmares",
+              "normalized": "nightmares",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 116,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 117,
+              "end": 123,
+              "surface": "either",
+              "normalized": "either",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 124,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "既然你的宝宝在这一大脑发育阶段不做梦，那么可以放心地认为宝宝也没有噩梦。",
+            "translationNatural": "既然宝宝在这个阶段还不会做梦，那基本可以放心：他们也不会做噩梦。",
+            "structMarkup": "{Since your baby doesn't dream at this stage of brain development}, 【it's safe to assume】 {babies do not have nightmares}, (either).",
+            "structureSummary": "since 原因状语从句 + it 形式主语 + that 主语从句 + either 否定附尾",
+            "components": [
+              {
+                "part": "Since your baby doesn't dream at this stage of brain development",
+                "role": "状语从句",
+                "note": "since 引导原因状语从句，this stage of brain development 『大脑发育这一阶段』"
+              },
+              {
+                "part": "it's safe to assume",
+                "role": "形式主语",
+                "note": "it 形式主语，safe to assume 『可以放心地认为』"
+              },
+              {
+                "part": "babies do not have nightmares",
+                "role": "主语从句",
+                "note": "that 省略的主语从句，nightmares 噩梦"
+              },
+              {
+                "part": "either",
+                "role": "状语",
+                "note": "副词『也（不）』，用于否定句句末"
+              }
+            ],
+            "clauses": [
+              "状语从句「Since your baby doesn't dream at this stage of brain development」：since 引导原因状语从句，this stage of brain development 『大脑发育这一阶段』",
+              "主语从句「babies do not have nightmares」：that 省略的主语从句，nightmares 噩梦",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。"
+            ],
+            "phrases": [
+              {
+                "text": "since",
+                "meaning": "自从（时间）；因为（原因）",
+                "usage": "注意区分：since（自从/因为）/ for（持续一段时间）/ from（起点）。常见搭配：since then / ever since。",
+                "example": "Since then, many cases have been filed. 自那以后，许多案件被提起。"
+              },
+              {
+                "text": "doesn't",
+                "meaning": "does not 的缩写（第三人称单数否定）",
+                "usage": "注意区分：doesn't（does not）/ don't（do not，复数或第一二人称）。常见搭配：doesn't mean / doesn't apply。",
+                "example": "That doesn't mean it's all good news. 这并不意味着全是好消息。"
+              },
+              {
+                "text": "development",
+                "meaning": "发展、开发；research and development 研发",
+                "usage": "常见搭配：research and development。",
+                "example": "Since your baby doesn't dream at this stage of brain development, it's safe to assume babies do not have nightmares, either. 既然宝宝在这个阶段还不会做梦，那基本可以放心：他们也不会做噩梦。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "注意区分：since（自从/因为）/ for（持续一段时间）/ from（起点）。",
+              "注意区分：doesn't（does not）/ don't（do not，复数或第一二人称）。"
+            ],
+            "paragraphRole": "本段顺势推论：既然婴儿不做梦，便没有噩梦；并点出噩梦的三大来源——创伤、过度想象与日常压力。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 125,
+          "end": 238,
+          "text": "Nightmares stem from exposure to trauma(创伤), an overactive imagination, and the normal stresses of everyday life.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 10,
+              "surface": "Nightmares",
+              "normalized": "nightmares",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "surface": "stem",
+              "normalized": "stem",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 29,
+              "surface": "exposure",
+              "normalized": "exposure",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 39,
+              "surface": "trauma",
+              "normalized": "trauma",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "(创伤)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 44,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 47,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 58,
+              "surface": "overactive",
+              "normalized": "overactive",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 70,
+              "surface": "imagination",
+              "normalized": "imagination",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 71,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 79,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 86,
+              "surface": "normal",
+              "normalized": "normal",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 95,
+              "surface": "stresses",
+              "normalized": "stresses",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 107,
+              "surface": "everyday",
+              "normalized": "everyday",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 112,
+              "surface": "life",
+              "normalized": "life",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 113,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "噩梦源于对创伤、过度活跃的想象力以及日常生活正常压力的暴露。",
+            "translationNatural": "噩梦打哪儿来？来自受过创伤、想象力太过活跃，还有日常生活里那些再正常不过的压力。",
+            "structMarkup": "【Nightmares】 _stem from_ ~exposure to trauma(创伤)~, ~an overactive imagination, and the normal stresses of everyday life~.",
+            "structureSummary": "主谓 + 并列介词宾语（含 trauma 括号注释）",
+            "components": [
+              {
+                "part": "Nightmares",
+                "role": "主语",
+                "note": "主语，噩梦，谓语 stem 用复数"
+              },
+              {
+                "part": "stem from",
+                "role": "谓语",
+                "note": "谓语，stem from 『源于、来自』"
+              },
+              {
+                "part": "exposure to trauma(创伤)",
+                "role": "宾语",
+                "note": "宾语，exposure to 『暴露于』，trauma 创伤，括号中文注释须照抄"
+              },
+              {
+                "part": "an overactive imagination, and the normal stresses of everyday life",
+                "role": "宾语",
+                "note": "and 接并列宾语，overactive imagination 『过度活跃的想象力』，normal stresses 日常压力"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓 + 并列介词宾语（含 trauma 括号注释）」。"
+            ],
+            "phrases": [
+              {
+                "text": "normal",
+                "meaning": "正常的、普通的、标准的；常态、正常水平",
+                "usage": "注意区分：normal（正常的、符合标准的，形容词）/ abnormal（不正常的，ab- 偏离）/ normally（通常，副词）/ norm（规范、常态，名词）/ ordinary（指「平凡」，normal 指「达标」）/ return to normal。",
+                "example": "Nightmares stem from exposure to trauma(创伤), an overactive imagination, and the normal stresses of everyday life. 噩梦打哪儿来？来自受过创伤、想象力太过活跃，还有日常生活里那些再正常不过的压力。"
+              },
+              {
+                "text": "everyday life",
+                "meaning": "生活；生命（复数 lives）",
+                "usage": "注意区分：life（单数）/ lives（复数，注意拼写）。常见搭配：everyday life / public life。",
+                "example": "A rich social life improves health. 丰富的社交生活能改善健康。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：normal（正常的、符合标准的，形容词）/ abnormal（不正常的，ab- 偏离）/ normally（通常，副词）/ norm（规范、常态，名词）/ ordinary（指「平凡」，normal 指「达标」）/ return to normal。",
+              "注意区分：life（单数）/ lives（复数，注意拼写）。"
+            ],
+            "paragraphRole": "本段顺势推论：既然婴儿不做梦，便没有噩梦；并点出噩梦的三大来源——创伤、过度想象与日常压力。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "Are you wondering, what do babies dream about? Good question, but the answer is nothing! So, when do babies start dreaming? The general consensus is that they start dreaming around the age of two. Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day. In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 46,
+          "text": "Are you wondering, what do babies dream about?",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 17,
+              "surface": "wondering",
+              "normalized": "wondering",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 18,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 19,
+              "end": 23,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 33,
+              "surface": "babies",
+              "normalized": "babies",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 39,
+              "surface": "dream",
+              "normalized": "dream",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 45,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 46,
+              "surface": "?",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "你在好奇，婴儿梦到些什么吗？",
+            "translationNatural": "你是不是也在琢磨：小婴儿到底梦见了啥？",
+            "structMarkup": "_Are you wondering_, {what do babies dream about}?",
+            "structureSummary": "疑问句主谓 + what 宾语从句（引语语序）",
+            "components": [
+              {
+                "part": "Are you wondering",
+                "role": "谓语",
+                "note": "现在进行时的疑问主谓，wonder 『想知道』"
+              },
+              {
+                "part": "what do babies dream about",
+                "role": "宾语从句",
+                "note": "what 引导宾语从句（疑问句语序保留作引语），dream about 『梦到』"
+              },
+              {
+                "part": "babies",
+                "role": "主语",
+                "note": "从句主语，婴儿"
+              }
+            ],
+            "clauses": [
+              "宾语从句「what do babies dream about」：what 引导宾语从句（疑问句语序保留作引语），dream about 『梦到』",
+              "本句为疑问句；一般疑问句把助动词/系动词提前，特殊疑问句用疑问词开头。"
+            ],
+            "phrases": [
+              {
+                "text": "wondering",
+                "meaning": "想知道、纳闷；惊奇（wonder 的现在分词/动名词形式）",
+                "usage": "注意区分：wondering（现在分词/动名词）/ wonder（原形）。",
+                "example": "Are you wondering, what do babies dream about? 你是不是也在琢磨：小婴儿到底梦见了啥？"
+              }
+            ],
+            "pitfalls": [
+              "疑问句中的宾语从句仍用陈述语序，不能倒装。",
+              "注意区分：wondering（现在分词/动名词）/ wonder（原形）。"
+            ],
+            "paragraphRole": "本段以设问推进：婴儿何时开始做梦？引出 Foulkes 的研究，说明他如何用实验室手段窥探儿童梦境。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 47,
+          "end": 88,
+          "text": "Good question, but the answer is nothing!",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Good",
+              "normalized": "good",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 13,
+              "surface": "question",
+              "normalized": "question",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 29,
+              "surface": "answer",
+              "normalized": "answer",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 40,
+              "surface": "nothing",
+              "normalized": "nothing",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 41,
+              "surface": "!",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "好问题，但答案什么也不是！",
+            "translationNatural": "问得好——可答案偏偏是：啥也没有！",
+            "structMarkup": "【Good question】, (but) _the answer is nothing_!",
+            "structureSummary": "省略主系 + but 转折 + 主系表",
+            "components": [
+              {
+                "part": "Good question",
+                "role": "主语",
+                "note": "主语（省略 it is），『好问题』"
+              },
+              {
+                "part": "but",
+                "role": "状语",
+                "note": "转折连词"
+              },
+              {
+                "part": "the answer is nothing",
+                "role": "系动词",
+                "note": "主系表，answer 主语，is 系动词，nothing 表语『什么也不是/没有』"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「省略主系 + but 转折 + 主系表」。"
+            ],
+            "phrases": [
+              {
+                "text": "good",
+                "meaning": "好的；有益的 / 好处（不可数）",
+                "usage": "注意区分：good at（擅长）/ good for（对……有益）/ well（副词，身体好）。常见搭配：be good at / good for。",
+                "example": "A rich social life is good for health. 丰富社交生活有益健康。"
+              },
+              {
+                "text": "question",
+                "meaning": "问题（需回答）；疑问 / 质疑",
+                "usage": "注意区分：question（疑问）/ problem（难题）/ out of the question（不可能）。常见搭配：ask a question / the question is。",
+                "example": "This seemingly easy question drives the need to understand. 这个看似简单的问题催生了理解的需要。"
+              },
+              {
+                "text": "answer",
+                "meaning": "答案、回答（可数）/ 回答；解决",
+                "usage": "注意区分：answer to（……的答案，用 to）/ reply to（回复）。常见搭配：the answer to / answer a question。",
+                "example": "For most scientists, the answer is no. 对多数科学家来说，答案是否定的。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：good at（擅长）/ good for（对……有益）/ well（副词，身体好）。",
+              "注意区分：question（疑问）/ problem（难题）/ out of the question（不可能）。",
+              "注意区分：answer to（……的答案，用 to）/ reply to（回复）。"
+            ],
+            "paragraphRole": "本段以设问推进：婴儿何时开始做梦？引出 Foulkes 的研究，说明他如何用实验室手段窥探儿童梦境。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 89,
+          "end": 123,
+          "text": "So, when do babies start dreaming?",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "So",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "surface": "babies",
+              "normalized": "babies",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 24,
+              "surface": "start",
+              "normalized": "start",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 33,
+              "surface": "dreaming",
+              "normalized": "dreaming",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 34,
+              "surface": "?",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "那么，婴儿什么时候开始做梦？",
+            "translationNatural": "那婴儿究竟多大才开始做梦呢？",
+            "structMarkup": "(So), {when do babies start dreaming}?",
+            "structureSummary": "So 连词 + when 引语宾语从句",
+            "components": [
+              {
+                "part": "So",
+                "role": "状语",
+                "note": "连词，承接"
+              },
+              {
+                "part": "when do babies start dreaming",
+                "role": "宾语从句",
+                "note": "when 引导的疑问引语作『问』的宾语，start dreaming 『开始做梦』"
+              },
+              {
+                "part": "babies",
+                "role": "主语",
+                "note": "从句主语，婴儿"
+              }
+            ],
+            "clauses": [
+              "宾语从句「when do babies start dreaming」：when 引导的疑问引语作『问』的宾语，start dreaming 『开始做梦』",
+              "本句为疑问句；一般疑问句把助动词/系动词提前，特殊疑问句用疑问词开头。"
+            ],
+            "phrases": [
+              {
+                "text": "dreaming",
+                "meaning": "梦、梦想、理想、愿望；做梦、梦想（dream of/about；本文 Most people have a dream in life 多数人心中都有一个人生梦想）（dream 的现在分词/动名词形式）",
+                "usage": "注意区分：dreaming（现在分词/动名词）/ dream（原形）。",
+                "example": "So, when do babies start dreaming? 那婴儿究竟多大才开始做梦呢？"
+              },
+              {
+                "text": "start",
+                "meaning": "开始、着手、出发、启动、创办；开端、起点、出发、开头优势",
+                "usage": "本句中作v./n.，可按「So 连词 + when 引语宾语从句」定位它在句中的位置。",
+                "example": "So, when do babies start dreaming? 那婴儿究竟多大才开始做梦呢？"
+              }
+            ],
+            "pitfalls": [
+              "疑问句中的宾语从句仍用陈述语序，不能倒装。",
+              "注意区分：dreaming（现在分词/动名词）/ dream（原形）。"
+            ],
+            "paragraphRole": "本段以设问推进：婴儿何时开始做梦？引出 Foulkes 的研究，说明他如何用实验室手段窥探儿童梦境。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 124,
+          "end": 196,
+          "text": "The general consensus is that they start dreaming around the age of two.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "surface": "general",
+              "normalized": "general",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 21,
+              "surface": "consensus",
+              "normalized": "consensus",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 40,
+              "surface": "start",
+              "normalized": "start",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 49,
+              "surface": "dreaming",
+              "normalized": "dreaming",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 56,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 64,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 71,
+              "surface": "two",
+              "normalized": "two",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 72,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "普遍的共识是，他们大约在两岁时开始做梦。",
+            "translationNatural": "学界普遍看法是：大概到两岁，孩子才开始做梦。",
+            "structMarkup": "【The general consensus】 _is_ {that they start dreaming around the age of two}.",
+            "structureSummary": "主 + 系动词 + that 表语从句",
+            "components": [
+              {
+                "part": "The general consensus",
+                "role": "主语",
+                "note": "主语，consensus 『共识』，general 『普遍的』"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "系动词"
+              },
+              {
+                "part": "that they start dreaming around the age of two",
+                "role": "表语从句",
+                "note": "that 引导表语从句，around the age of two 『大约两岁』"
+              }
+            ],
+            "clauses": [
+              "表语从句「that they start dreaming around the age of two」：that 引导表语从句，around the age of two 『大约两岁』",
+              "本句主干为「主 + 系动词 + that 表语从句」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "general",
+                "meaning": "总体的、普遍的；一般的 / 将军",
+                "usage": "注意区分：in general（总的来说）/ generally（通常）/ generic（通用的）。常见搭配：in general / general farm management。",
+                "example": "General management can ease changes. 总体管理能缓解变化冲击。"
+              },
+              {
+                "text": "dreaming",
+                "meaning": "梦、梦想、理想、愿望；做梦、梦想（dream of/about；本文 Most people have a dream in life 多数人心中都有一个人生梦想）（dream 的现在分词/动名词形式）",
+                "usage": "注意区分：dreaming（现在分词/动名词）/ dream（原形）。",
+                "example": "The general consensus is that they start dreaming around the age of two. 学界普遍看法是：大概到两岁，孩子才开始做梦。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：in general（总的来说）/ generally（通常）/ generic（通用的）。",
+              "注意区分：dreaming（现在分词/动名词）/ dream（原形）。"
+            ],
+            "paragraphRole": "本段以设问推进：婴儿何时开始做梦？引出 Foulkes 的研究，说明他如何用实验室手段窥探儿童梦境。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 197,
+          "end": 330,
+          "text": "Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 12,
+              "surface": "Psychologist",
+              "normalized": "psychologist",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 18,
+              "surface": "David",
+              "normalized": "david",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 26,
+              "surface": "Foulkes",
+              "normalized": "foulkes",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 34,
+              "surface": "studies",
+              "normalized": "studies",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 43,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 45,
+              "surface": "(",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 49,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "very",
+              "normalized": "very",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 60,
+              "surface": "small",
+              "normalized": "small",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 65,
+              "surface": "kids",
+              "normalized": "kids",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 74,
+              "surface": "teens",
+              "normalized": "teens",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 75,
+              "surface": ")",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 84,
+              "surface": "bring",
+              "normalized": "bring",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 88,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 96,
+              "surface": "secrets",
+              "normalized": "secrets",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 99,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 105,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 112,
+              "surface": "dreams",
+              "normalized": "dreams",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 115,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 119,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 125,
+              "surface": "light",
+              "normalized": "light",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 128,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 132,
+              "surface": "day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 133,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "心理学家 David Foulkes 研究儿童（从很小的孩子到青少年）以把他们的梦境秘密公之于众。",
+            "translationNatural": "心理学家 David Foulkes 专门研究孩子（从刚会走的小不点到青少年），想把孩子们梦境里的秘密都翻出来见见光。",
+            "structMarkup": "【Psychologist David Foulkes】 _studies_ ~children (from very small kids to teens)~ (to bring the secrets of their dreams to the light of day).",
+            "structureSummary": "主谓宾（含 children 括号举例）+ 不定式目的状语",
+            "components": [
+              {
+                "part": "Psychologist David Foulkes",
+                "role": "主语",
+                "note": "主语，心理学家 David Foulkes，专有名词须照抄"
+              },
+              {
+                "part": "studies",
+                "role": "谓语",
+                "note": "谓语，study 第三人称单数『研究』"
+              },
+              {
+                "part": "children (from very small kids to teens)",
+                "role": "宾语",
+                "note": "宾语，children 后括号 from...to... 举例年龄跨度须照抄"
+              },
+              {
+                "part": "to bring the secrets of their dreams to the light of day",
+                "role": "状语",
+                "note": "不定式表目的，bring...to the light of day 『把……公之于众/揭示』"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（含 children 括号举例）+ 不定式目的状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "psychologist",
+                "meaning": "心理学家、心理学研究者",
+                "usage": "注意区分：psychologist（心理学家，指人）/ psychology（心理学，学科）/ psychological（心理的）/ -ist 表「从事…的人」（scientist、economist）。",
+                "example": "Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day. 心理学家 David Foulkes 专门研究孩子（从刚会走的小不点到青少年），想把孩子们梦境里的秘密都翻出来见见光。"
+              },
+              {
+                "text": "studies",
+                "meaning": "研究（study 的复数）；study 的第三人称单数",
+                "usage": "注意区分：studies（复数/三单）/ study（单数）。常见搭配：studies show that / recent studies。",
+                "example": "Studies suggest a strong link. 研究表明存在强关联。"
+              },
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day. 心理学家 David Foulkes 专门研究孩子（从刚会走的小不点到青少年），想把孩子们梦境里的秘密都翻出来见见光。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：psychologist（心理学家，指人）/ psychology（心理学，学科）/ psychological（心理的）/ -ist 表「从事…的人」（scientist、economist）。",
+              "注意区分：studies（复数/三单）/ study（单数）。",
+              "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。"
+            ],
+            "paragraphRole": "本段以设问推进：婴儿何时开始做梦？引出 Foulkes 的研究，说明他如何用实验室手段窥探儿童梦境。"
+          }
+        },
+        {
+          "idx": 5,
+          "start": 331,
+          "end": 447,
+          "text": "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "surface": "lab",
+              "normalized": "lab",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "he",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "lets",
+              "normalized": "lets",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "kids",
+              "normalized": "kids",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "fall",
+              "normalized": "fall",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 36,
+              "surface": "asleep",
+              "normalized": "asleep",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 45,
+              "surface": "then",
+              "normalized": "then",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 51,
+              "surface": "wakes",
+              "normalized": "wakes",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 56,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 58,
+              "surface": "3",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 59,
+              "end": 64,
+              "surface": "times",
+              "normalized": "times",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 66,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 72,
+              "surface": "night",
+              "normalized": "night",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 76,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 81,
+              "surface": "asks",
+              "normalized": "asks",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 86,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 98,
+              "surface": "describe",
+              "normalized": "describe",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 103,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 108,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 115,
+              "surface": "recall",
+              "normalized": "recall",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 116,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在他的实验室里，他让孩子们入睡，然后一晚把他们叫醒三次，让他们描述回忆起的内容。",
+            "translationNatural": "在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。",
+            "structMarkup": "(In his lab), 【he】 _lets kids fall asleep_ _and then wakes them 3 times a night and asks them to describe what they recall_.",
+            "structureSummary": "地点状语 + 主 + 并列使役/谓语（含 3 times a night）",
+            "components": [
+              {
+                "part": "In his lab",
+                "role": "状语",
+                "note": "地点状语，『在他的实验室里』"
+              },
+              {
+                "part": "he",
+                "role": "主语",
+                "note": "主语，回指 Foulkes"
+              },
+              {
+                "part": "lets kids fall asleep",
+                "role": "谓语",
+                "note": "谓语，let sb do 使役，fall asleep 『入睡』"
+              },
+              {
+                "part": "and then wakes them 3 times a night and asks them to describe what they recall",
+                "role": "谓语",
+                "note": "and 接并列谓语 wakes 与 asks；3 times a night 『每晚三次』，describe what they recall 『描述回忆起的』"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「地点状语 + 主 + 并列使役/谓语（含 3 times a night）」。"
+            ],
+            "phrases": [
+              {
+                "text": "lets",
+                "meaning": "让、允许、使；出租；假设、任由（let 的复数/三单形式）",
+                "usage": "注意区分：lets（复数/三单）/ let（原形）。",
+                "example": "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall. 在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。"
+              },
+              {
+                "text": "wakes",
+                "meaning": "醒来；唤醒；唤起（wake 的复数/三单形式）",
+                "usage": "注意区分：wakes（复数/三单）/ wake（原形）。",
+                "example": "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall. 在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。"
+              },
+              {
+                "text": "times",
+                "meaning": "次数；时代（time 的复数）；乘以",
+                "usage": "注意区分：times（次数/时代）/ time（时间）。常见搭配：three times / at times。",
+                "example": "He won three times. 他赢过三次。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：lets（复数/三单）/ let（原形）。",
+              "注意区分：wakes（复数/三单）/ wake（原形）。",
+              "注意区分：times（次数/时代）/ time（时间）。"
+            ],
+            "paragraphRole": "本段以设问推进：婴儿何时开始做梦？引出 Foulkes 的研究，说明他如何用实验室手段窥探儿童梦境。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "Foulkes' findings are unsurprising. Basically, little kids have little dreams. But exactly what kids see while dreaming depends on their age. As children develop and grow, their dreams do too.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 35,
+          "text": "Foulkes' findings are unsurprising.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Foulkes'",
+              "normalized": "foulkes",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 17,
+              "surface": "findings",
+              "normalized": "findings",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 34,
+              "surface": "unsurprising",
+              "normalized": "unsurprising",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 35,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "Foulkes 的发现并不令人意外。",
+            "translationNatural": "Foulkes 的发现，其实一点不让人意外。",
+            "structMarkup": "【Foulkes' findings】 _are_ ~unsurprising~.",
+            "structureSummary": "主系表（所有格主语 + unsurprising 表语）",
+            "components": [
+              {
+                "part": "Foulkes' findings",
+                "role": "主语",
+                "note": "主语，Foulkes 的所有格 findings 『发现』"
+              },
+              {
+                "part": "are",
+                "role": "系动词",
+                "note": "系动词"
+              },
+              {
+                "part": "unsurprising",
+                "role": "表语",
+                "note": "表语，un- 否定前缀，『不令人意外』"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（所有格主语 + unsurprising 表语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "findings",
+                "meaning": "研究结果、调查发现（finding 的复数）",
+                "usage": "注意区分：findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings。",
+                "example": "Foulkes' findings are unsurprising. Foulkes 的发现，其实一点不让人意外。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings。",
+              "本句主干为「主系表（所有格主语 + unsurprising 表语）」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "本段总述 Foulkes 的核心发现：小孩的梦随年龄增长而变复杂，梦与年龄同步发育。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 36,
+          "end": 78,
+          "text": "Basically, little kids have little dreams.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "Basically",
+              "normalized": "basically",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 11,
+              "end": 17,
+              "surface": "little",
+              "normalized": "little",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 22,
+              "surface": "kids",
+              "normalized": "kids",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 27,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 34,
+              "surface": "little",
+              "normalized": "little",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 41,
+              "surface": "dreams",
+              "normalized": "dreams",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "基本上，小孩子做小小的梦。",
+            "translationNatural": "说白了，小小孩做的也是些小小的梦。",
+            "structMarkup": "(Basically), 【little kids】 _have little dreams_.",
+            "structureSummary": "评注状语 + 主谓宾（little 双关）",
+            "components": [
+              {
+                "part": "Basically",
+                "role": "状语",
+                "note": "评注性状语，『基本上/说白了』"
+              },
+              {
+                "part": "little kids",
+                "role": "主语",
+                "note": "主语，little 『小的』，kids 孩子"
+              },
+              {
+                "part": "have little dreams",
+                "role": "谓语",
+                "note": "谓语，little dreams 『小小的梦』，little 此处表『少/小』"
+              }
+            ],
+            "clauses": [
+              "含否定或半否定成分；若置于句首，主句须部分倒装。",
+              "本句主干为「评注状语 + 主谓宾（little 双关）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "little",
+                "meaning": "小的、少的；几乎不（a little 表肯定「一点」）；少量",
+                "usage": "注意区分：little（几乎没有，否定，修饰不可数）/ a little（有一点，肯定，修饰不可数）/ few（几乎没，修饰可数复数）/ a few（有几个，肯定）/ little 作形容词还可指「小的」/ Little did I know…（置句首主句倒装）。",
+                "example": "Basically, little kids have little dreams. 说白了，小小孩做的也是些小小的梦。"
+              }
+            ],
+            "pitfalls": [
+              "否定副词置于句首时主句要部分倒装（助动词提前）。",
+              "注意区分：little（几乎没有，否定，修饰不可数）/ a little（有一点，肯定，修饰不可数）/ few（几乎没，修饰可数复数）/ a few（有几个，肯定）/ little 作形容词还可指「小的」/ Little did I know…（置句首主句倒装）。"
+            ],
+            "paragraphRole": "本段总述 Foulkes 的核心发现：小孩的梦随年龄增长而变复杂，梦与年龄同步发育。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 79,
+          "end": 141,
+          "text": "But exactly what kids see while dreaming depends on their age.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "surface": "exactly",
+              "normalized": "exactly",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "kids",
+              "normalized": "kids",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "see",
+              "normalized": "see",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 31,
+              "surface": "while",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 40,
+              "surface": "dreaming",
+              "normalized": "dreaming",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 48,
+              "surface": "depends",
+              "normalized": "depends",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 51,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 57,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 61,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但孩子做梦时确切看到什么，取决于他们的年龄。",
+            "translationNatural": "不过孩子梦里具体看见什么，全看他们长到几岁了。",
+            "structMarkup": "(But) 【exactly what kids see while dreaming】 _depends on_ ~their age~.",
+            "structureSummary": "But + what 主语从句（含 while 省略状语从句）+ 谓宾",
+            "components": [
+              {
+                "part": "But",
+                "role": "状语",
+                "note": "转折"
+              },
+              {
+                "part": "exactly what kids see while dreaming",
+                "role": "主语",
+                "note": "主语从句（what 引导），exactly 强调，while dreaming 省略主谓的状语从句『在做梦时』"
+              },
+              {
+                "part": "depends on",
+                "role": "谓语",
+                "note": "谓语，depend on 『取决于』"
+              },
+              {
+                "part": "their age",
+                "role": "宾语",
+                "note": "宾语，他们的年龄"
+              }
+            ],
+            "clauses": [
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。",
+              "本句主干为「But + what 主语从句（含 while 省略状语从句）+ 谓宾」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "exactly",
+                "meaning": "精确的、确切的（exact 的副词形式）",
+                "usage": "注意区分：exactly（副词）/ exact（原形）。",
+                "example": "But exactly what kids see while dreaming depends on their age. 不过孩子梦里具体看见什么，全看他们长到几岁了。"
+              },
+              {
+                "text": "dreaming",
+                "meaning": "梦、梦想、理想、愿望；做梦、梦想（dream of/about；本文 Most people have a dream in life 多数人心中都有一个人生梦想）（dream 的现在分词/动名词形式）",
+                "usage": "注意区分：dreaming（现在分词/动名词）/ dream（原形）。",
+                "example": "But exactly what kids see while dreaming depends on their age. 不过孩子梦里具体看见什么，全看他们长到几岁了。"
+              },
+              {
+                "text": "depends",
+                "meaning": "取决于（depend on）；依靠（depend 的复数/三单形式）",
+                "usage": "注意区分：depends（复数/三单）/ depend（原形）。",
+                "example": "But exactly what kids see while dreaming depends on their age. 不过孩子梦里具体看见什么，全看他们长到几岁了。"
+              }
+            ],
+            "pitfalls": [
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "注意区分：exactly（副词）/ exact（原形）。",
+              "注意区分：see（看见，无意）/ look at（看，有意）/ watch（观看，持续）。"
+            ],
+            "paragraphRole": "本段总述 Foulkes 的核心发现：小孩的梦随年龄增长而变复杂，梦与年龄同步发育。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 142,
+          "end": 192,
+          "text": "As children develop and grow, their dreams do too.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "As",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 11,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 19,
+              "surface": "develop",
+              "normalized": "develop",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 23,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 28,
+              "surface": "grow",
+              "normalized": "grow",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 29,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 30,
+              "end": 35,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 42,
+              "surface": "dreams",
+              "normalized": "dreams",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 49,
+              "surface": "too",
+              "normalized": "too",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "随着儿童发育成长，他们的梦也如此。",
+            "translationNatural": "孩子一天天长大，他们的梦也跟着一起长。",
+            "structMarkup": "{As children develop and grow}, 【their dreams】 _do too_.",
+            "structureSummary": "As 状语从句 + 主 + do too 替代谓语",
+            "components": [
+              {
+                "part": "As children develop and grow",
+                "role": "状语从句",
+                "note": "as 引导时间/伴随状语从句，『随着孩子成长发育』"
+              },
+              {
+                "part": "their dreams",
+                "role": "主语",
+                "note": "主句主语，他们的梦"
+              },
+              {
+                "part": "do too",
+                "role": "谓语",
+                "note": "谓语替代词 do 替代 develop and grow，too 『也』，呼应上句"
+              }
+            ],
+            "clauses": [
+              "状语从句「As children develop and grow」：as 引导时间/伴随状语从句，『随着孩子成长发育』",
+              "本句主干为「As 状语从句 + 主 + do too 替代谓语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "As children develop and grow, their dreams do too. 孩子一天天长大，他们的梦也跟着一起长。"
+              },
+              {
+                "text": "develop",
+                "meaning": "发展、养成、开发",
+                "usage": "常见搭配：develop a habit / develop a skill。",
+                "example": "He developed a reading habit. 他养成了阅读习惯。"
+              },
+              {
+                "text": "grow",
+                "meaning": "生长、增长（不及物）；种植（及物）；变得",
+                "usage": "注意区分：grow（生长/种植）/ grow up（长大）/ increase（增加）。常见搭配：grow crops / grow up。",
+                "example": "They grow crops for export. 他们种植出口作物。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+              "注意区分：grow（生长/种植）/ grow up（长大）/ increase（增加）。"
+            ],
+            "paragraphRole": "本段总述 Foulkes 的核心发现：小孩的梦随年龄增长而变复杂，梦与年龄同步发育。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "Dreams of very small kids are usually just snapshots(快照), looking much more like a slideshow than a movie, when compared to the dreams of adults. They heavily feature animals and other familiar sights, like images of people eating. According to Foulkes, \"Children's dream life…seems to be similar to their waking imagination and narration.\" Kids ages 5 – 9 begin seeing moving images and characters in action. Dreams now include multiple events strung together, one after the other. They also start developing greater ability to remember dreams. Still, that's not always the case: When roused during REM sleep, 25% of the kids in Foulkes' studies had no recollection of dreaming, a trend that continues through age 9.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 145,
+          "text": "Dreams of very small kids are usually just snapshots(快照), looking much more like a slideshow than a movie, when compared to the dreams of adults.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "Dreams",
+              "normalized": "dreams",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "very",
+              "normalized": "very",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "small",
+              "normalized": "small",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "kids",
+              "normalized": "kids",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 37,
+              "surface": "usually",
+              "normalized": "usually",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 42,
+              "surface": "just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 52,
+              "surface": "snapshots",
+              "normalized": "snapshots",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 56,
+              "surface": "(快照)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 58,
+              "end": 65,
+              "surface": "looking",
+              "normalized": "looking",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 70,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 80,
+              "surface": "like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 82,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 92,
+              "surface": "slideshow",
+              "normalized": "slideshow",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 97,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 99,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 105,
+              "surface": "movie",
+              "normalized": "movie",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 106,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 107,
+              "end": 111,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 120,
+              "surface": "compared",
+              "normalized": "compared",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 123,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 127,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 134,
+              "surface": "dreams",
+              "normalized": "dreams",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 137,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 144,
+              "surface": "adults",
+              "normalized": "adults",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 145,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "很小孩子的梦通常只是快照（快照），与成年人的梦相比更像幻灯片而非电影。",
+            "translationNatural": "小小孩的梦多半只是一张张定格画面，比起大人的梦，更像幻灯片而不是电影。",
+            "structMarkup": "【Dreams of very small kids】 ~are usually just snapshots(快照)~, (looking much more like a slideshow than a movie), (when compared to the dreams of adults).",
+            "structureSummary": "主系表（含 snapshots 括号）+ 现在分词状语 + when 省略状语",
+            "components": [
+              {
+                "part": "Dreams of very small kids",
+                "role": "主语",
+                "note": "主语，very small kids 『很小的孩子』"
+              },
+              {
+                "part": "are usually just snapshots(快照)",
+                "role": "表语",
+                "note": "系表，snapshots 『快照』，括号中文须照抄；just 强调『仅仅』"
+              },
+              {
+                "part": "looking much more like a slideshow than a movie",
+                "role": "状语",
+                "note": "现在分词短语作伴随/方式状语，like...than 比较『更像幻灯片而非电影』"
+              },
+              {
+                "part": "when compared to the dreams of adults",
+                "role": "状语",
+                "note": "when 引导省略状语从句，compare to 『与……相比』"
+              }
+            ],
+            "clauses": [
+              "本句含比较结构（比较级 + than），than 后是被比较对象。",
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。"
+            ],
+            "phrases": [
+              {
+                "text": "small",
+                "meaning": "小的；少量的",
+                "usage": "注意区分：small（小，尺寸）/ little（少，不可数）/ minor（次要的）。常见搭配：a small number of / small changes。",
+                "example": "A small fraction of men did more childcare. 极小一部分男性承担更多育儿。"
+              },
+              {
+                "text": "usually",
+                "meaning": "通常、经常、平常、一贯",
+                "usage": "注意区分：usually（通常、一般，频率约八九成，副词）/ often（约五六成）/ always（总是）/ as usual（像往常一样，usual 是形容词）/ normally（近义）。",
+                "example": "Dreams of very small kids are usually just snapshots(快照), looking much more like a slideshow than a movie, when compared to the dreams of adults. 小小孩的梦多半只是一张张定格画面，比起大人的梦，更像幻灯片而不是电影。"
+              },
+              {
+                "text": "looking",
+                "meaning": "看、显得（look + adj.）；外观（look 的现在分词/动名词形式）",
+                "usage": "注意区分：looking（现在分词/动名词）/ look（原形）。",
+                "example": "Dreams of very small kids are usually just snapshots(快照), looking much more like a slideshow than a movie, when compared to the dreams of adults. 小小孩的梦多半只是一张张定格画面，比起大人的梦，更像幻灯片而不是电影。"
+              }
+            ],
+            "pitfalls": [
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "本段细述各年龄段的梦：从婴幼儿的定格快照，到 5–9 岁出现动态画面与连贯事件，并提醒并非所有孩子都能忆梦。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 146,
+          "end": 231,
+          "text": "They heavily feature animals and other familiar sights, like images of people eating.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 12,
+              "surface": "heavily",
+              "normalized": "heavily",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 20,
+              "surface": "feature",
+              "normalized": "feature",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 28,
+              "surface": "animals",
+              "normalized": "animals",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 47,
+              "surface": "familiar",
+              "normalized": "familiar",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 54,
+              "surface": "sights",
+              "normalized": "sights",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 55,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 56,
+              "end": 60,
+              "surface": "like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 67,
+              "surface": "images",
+              "normalized": "images",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 77,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 84,
+              "surface": "eating",
+              "normalized": "eating",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 85,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "它们大量以动物和其他熟悉景象为特色，比如人吃东西的画面。",
+            "translationNatural": "梦里满屏都是动物和一些眼熟的情景，比方说人吃东西的模样。",
+            "structMarkup": "【They】 _heavily feature_ ~animals and other familiar sights~, (like images of people eating).",
+            "structureSummary": "主谓宾 + like 举例状语",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "主语，回指 dreams"
+              },
+              {
+                "part": "heavily feature",
+                "role": "谓语",
+                "note": "谓语，feature 作动词『以……为特色/经常出现』，heavily 『大量地』"
+              },
+              {
+                "part": "animals and other familiar sights",
+                "role": "宾语",
+                "note": "宾语，familiar sights 『熟悉的景象』"
+              },
+              {
+                "part": "like images of people eating",
+                "role": "状语",
+                "note": "like 介词举例，images of people eating 『人吃东西的画面』"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + like 举例状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "animals",
+                "meaning": "动物（animal 的复数）",
+                "usage": "注意区分：animals（复数）/ animal（单数）。常见搭配：farm animals / wild animals。",
+                "example": "Farm animals need space. 农场动物需要空间。"
+              },
+              {
+                "text": "familiar",
+                "meaning": "熟悉的、常见的、亲近的（be familiar with 精通；be familiar to 为…所熟知）",
+                "usage": "注意区分：be familiar with（某人熟悉某物，主语是人，with 后接物）/ be familiar to（某物为某人熟知，主语是物，to 后接人）/ familiar 与 similar（be similar to）/ unfamiliar（不熟悉的）。",
+                "example": "They heavily feature animals and other familiar sights, like images of people eating. 梦里满屏都是动物和一些眼熟的情景，比方说人吃东西的模样。"
+              },
+              {
+                "text": "sights",
+                "meaning": "视力、视觉；景象、名胜（sights）；看见、瞥见（at first sight / catch sight of / lose sight of）（sight 的复数/三单形式）",
+                "usage": "注意区分：sights（复数/三单）/ sight（原形）。",
+                "example": "They heavily feature animals and other familiar sights, like images of people eating. 梦里满屏都是动物和一些眼熟的情景，比方说人吃东西的模样。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：animals（复数）/ animal（单数）。",
+              "注意区分：be familiar with（某人熟悉某物，主语是人，with 后接物）/ be familiar to（某物为某人熟知，主语是物，to 后接人）/ familiar 与 similar（be similar to）/ unfamiliar（不熟悉的）。",
+              "注意区分：sights（复数/三单）/ sight（原形）。"
+            ],
+            "paragraphRole": "本段细述各年龄段的梦：从婴幼儿的定格快照，到 5–9 岁出现动态画面与连贯事件，并提醒并非所有孩子都能忆梦。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 232,
+          "end": 340,
+          "text": "According to Foulkes, \"Children's dream life…seems to be similar to their waking imagination and narration.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "According",
+              "normalized": "according",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 12,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 20,
+              "surface": "Foulkes",
+              "normalized": "foulkes",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 21,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 22,
+              "end": 23,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 23,
+              "end": 33,
+              "surface": "Children's",
+              "normalized": "children's",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 39,
+              "surface": "dream",
+              "normalized": "dream",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 44,
+              "surface": "life",
+              "normalized": "life",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 45,
+              "surface": "…",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 50,
+              "surface": "seems",
+              "normalized": "seems",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 53,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 64,
+              "surface": "similar",
+              "normalized": "similar",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 73,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 80,
+              "surface": "waking",
+              "normalized": "waking",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 92,
+              "surface": "imagination",
+              "normalized": "imagination",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 96,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 106,
+              "surface": "narration",
+              "normalized": "narration",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 107,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 107,
+              "end": 108,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "据 Foulkes，『儿童的梦境生活……似乎类似于他们清醒时的想象和叙述。』",
+            "translationNatural": "Foulkes 说：『小孩的梦……看着倒很像他们醒着时的想象和碎碎念。』",
+            "structMarkup": "(According to Foulkes), \"{Children's dream life…seems to be similar to their waking imagination and narration}.\"",
+            "structureSummary": "According to 状语 + that 省略宾语从句（含原文省略号引语）",
+            "components": [
+              {
+                "part": "According to Foulkes",
+                "role": "状语",
+                "note": "状语，『据 Foulkes 说』，Foulkes 专有名词照抄"
+              },
+              {
+                "part": "Children's dream life…seems to be similar to their waking imagination and narration",
+                "role": "宾语从句",
+                "note": "that 省略的宾语从句（引语），… 为原文省略号须照抄；similar to 『与……相似』，waking imagination 清醒时的想象、narration 叙述"
+              },
+              {
+                "part": "their waking imagination and narration",
+                "role": "宾语",
+                "note": "作介词 to 的宾语，waking 『清醒时的』，narration 『叙述/讲述』"
+              }
+            ],
+            "clauses": [
+              "宾语从句「Children's dream life…seems to be similar to their waking imagination 」：that 省略的宾语从句（引语），… 为原文省略号须照抄；similar to 『与……相似』，waking imagination 清醒时的想象、narration 叙述",
+              "本句主干为「According to 状语 + that 省略宾语从句（含原文省略号引语）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "According to",
+                "meaning": "根据、据……所说",
+                "usage": "引出信息来源，后接名词或代词，不接从句。",
+                "example": "According to the report, costs rose. 据报告，成本上升了。"
+              },
+              {
+                "text": "according",
+                "meaning": "根据、按照（according to）",
+                "usage": "注意区分：according to（根据，后接来源）/ because of（因为）。常见搭配：according to the study / according to sb。",
+                "example": "According to the study, rates are stable. 根据这项研究，比率稳定。"
+              },
+              {
+                "text": "life",
+                "meaning": "生活；生命（复数 lives）",
+                "usage": "注意区分：life（单数）/ lives（复数，注意拼写）。常见搭配：everyday life / public life。",
+                "example": "A rich social life improves health. 丰富的社交生活能改善健康。"
+              }
+            ],
+            "pitfalls": [
+              "according to 不用于表达自己观点，不说 according to me。",
+              "注意区分：according to（根据，后接来源）/ because of（因为）。",
+              "注意区分：life（单数）/ lives（复数，注意拼写）。"
+            ],
+            "paragraphRole": "本段细述各年龄段的梦：从婴幼儿的定格快照，到 5–9 岁出现动态画面与连贯事件，并提醒并非所有孩子都能忆梦。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 341,
+          "end": 409,
+          "text": "Kids ages 5 – 9 begin seeing moving images and characters in action.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Kids",
+              "normalized": "kids",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "ages",
+              "normalized": "ages",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "surface": "5",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "surface": "–",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 14,
+              "end": 15,
+              "surface": "9",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 16,
+              "end": 21,
+              "surface": "begin",
+              "normalized": "begin",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 28,
+              "surface": "seeing",
+              "normalized": "seeing",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 35,
+              "surface": "moving",
+              "normalized": "moving",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 42,
+              "surface": "images",
+              "normalized": "images",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 46,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 57,
+              "surface": "characters",
+              "normalized": "characters",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 60,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 67,
+              "surface": "action",
+              "normalized": "action",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 68,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "5 – 9 岁的孩子开始看见活动的图像和动起来的人物。",
+            "translationNatural": "到 5–9 岁，孩子梦里开始出现会动的画面和活起来的人物。",
+            "structMarkup": "【Kids ages 5 – 9】 _begin seeing_ ~moving images and characters in action~.",
+            "structureSummary": "主谓宾（含 en dash 年龄区间）+ 后置定语",
+            "components": [
+              {
+                "part": "Kids ages 5 – 9",
+                "role": "主语",
+                "note": "主语，ages 5 – 9 含 en dash（–）须照抄，指『5 到 9 岁孩子』"
+              },
+              {
+                "part": "begin seeing",
+                "role": "谓语",
+                "note": "谓语，begin doing 『开始做』，seeing 『看见』"
+              },
+              {
+                "part": "moving images and characters in action",
+                "role": "宾语",
+                "note": "宾语，moving 『活动的』，in action 『在行动中/动起来』"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（含 en dash 年龄区间）+ 后置定语」。"
+            ],
+            "phrases": [
+              {
+                "text": "ages",
+                "meaning": "年龄、年纪；时代、时期；变老、老化（age 的复数/三单形式）",
+                "usage": "注意区分：ages（复数/三单）/ age（原形）。",
+                "example": "Kids ages 5 – 9 begin seeing moving images and characters in action. 到 5–9 岁，孩子梦里开始出现会动的画面和活起来的人物。"
+              },
+              {
+                "text": "seeing",
+                "meaning": "看见；明白（I see）；见证（see 的现在分词/动名词形式）",
+                "usage": "注意区分：seeing（现在分词/动名词）/ see（原形）。",
+                "example": "Kids ages 5 – 9 begin seeing moving images and characters in action. 到 5–9 岁，孩子梦里开始出现会动的画面和活起来的人物。"
+              },
+              {
+                "text": "moving",
+                "meaning": "移动、搬；促使（move sb to do）；举措（move 的现在分词/动名词形式）",
+                "usage": "注意区分：moving（现在分词/动名词）/ move（原形）。",
+                "example": "Kids ages 5 – 9 begin seeing moving images and characters in action. 到 5–9 岁，孩子梦里开始出现会动的画面和活起来的人物。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：ages（复数/三单）/ age（原形）。",
+              "注意区分：seeing（现在分词/动名词）/ see（原形）。",
+              "注意区分：moving（现在分词/动名词）/ move（原形）。"
+            ],
+            "paragraphRole": "本段细述各年龄段的梦：从婴幼儿的定格快照，到 5–9 岁出现动态画面与连贯事件，并提醒并非所有孩子都能忆梦。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 410,
+          "end": 482,
+          "text": "Dreams now include multiple events strung together, one after the other.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "Dreams",
+              "normalized": "dreams",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "surface": "now",
+              "normalized": "now",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 18,
+              "surface": "include",
+              "normalized": "include",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 27,
+              "surface": "multiple",
+              "normalized": "multiple",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 34,
+              "surface": "events",
+              "normalized": "events",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 41,
+              "surface": "strung",
+              "normalized": "strung",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 50,
+              "surface": "together",
+              "normalized": "together",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 51,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 52,
+              "end": 55,
+              "surface": "one",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 61,
+              "surface": "after",
+              "normalized": "after",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 65,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 71,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 72,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "梦现在包含多个串联在一起的事件，一个接一个。",
+            "translationNatural": "这时候的梦会把好几件事串在一起，一件挨着一件。",
+            "structMarkup": "【Dreams】 _now include_ ~multiple events~ (strung together, one after the other).",
+            "structureSummary": "主谓宾 + 过去分词后置定语",
+            "components": [
+              {
+                "part": "Dreams",
+                "role": "主语",
+                "note": "主语，梦"
+              },
+              {
+                "part": "now include",
+                "role": "谓语",
+                "note": "谓语，include 『包含』"
+              },
+              {
+                "part": "multiple events",
+                "role": "宾语",
+                "note": "宾语，multiple 『多个的』"
+              },
+              {
+                "part": "strung together, one after the other",
+                "role": "定语",
+                "note": "过去分词短语作后置定语修饰 events，strung 是 string 的过去分词『串联』，one after the other 『一个接一个』"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 过去分词后置定语」。"
+            ],
+            "phrases": [
+              {
+                "text": "multiple",
+                "meaning": "多个的、多样的；倍数",
+                "usage": "注意区分：multiple（多个的）/ several（几个）/ multiply（乘/倍增）。常见搭配：multiple factors / multiple choice。",
+                "example": "Multiple factors explain the gap. 多种因素解释了这一差距。"
+              },
+              {
+                "text": "events",
+                "meaning": "事件、大事、发生的事；比赛项目（in any event 无论如何）（event 的复数/三单形式）",
+                "usage": "注意区分：events（复数/三单）/ event（原形）。",
+                "example": "Dreams now include multiple events strung together, one after the other. 这时候的梦会把好几件事串在一起，一件挨着一件。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：now（现在）/ now that（既然，连词）。",
+              "注意区分：multiple（多个的）/ several（几个）/ multiply（乘/倍增）。",
+              "注意区分：events（复数/三单）/ event（原形）。"
+            ],
+            "paragraphRole": "本段细述各年龄段的梦：从婴幼儿的定格快照，到 5–9 岁出现动态画面与连贯事件，并提醒并非所有孩子都能忆梦。"
+          }
+        },
+        {
+          "idx": 5,
+          "start": 483,
+          "end": 545,
+          "text": "They also start developing greater ability to remember dreams.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "start",
+              "normalized": "start",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 26,
+              "surface": "developing",
+              "normalized": "developing",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 34,
+              "surface": "greater",
+              "normalized": "greater",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 42,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 54,
+              "surface": "remember",
+              "normalized": "remember",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 61,
+              "surface": "dreams",
+              "normalized": "dreams",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他们也开始发展更强的记住梦的能力。",
+            "translationNatural": "同时，他们也越来越能记住自己做过的梦。",
+            "structMarkup": "【They】 _also start developing_ ~greater ability to remember dreams~.",
+            "structureSummary": "主谓宾（含不定式后置定语）",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "主语，回指 kids"
+              },
+              {
+                "part": "also start developing",
+                "role": "谓语",
+                "note": "谓语，start doing 『开始发展』"
+              },
+              {
+                "part": "greater ability to remember dreams",
+                "role": "宾语",
+                "note": "宾语，greater 『更强的』，to remember dreams 不定式后置定语"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（含不定式后置定语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "developing",
+                "meaning": "发展、养成、开发（develop 的现在分词/动名词形式）",
+                "usage": "注意区分：developing（现在分词/动名词）/ develop（原形）。",
+                "example": "They also start developing greater ability to remember dreams. 同时，他们也越来越能记住自己做过的梦。"
+              },
+              {
+                "text": "greater",
+                "meaning": "更大的（great 的比较级）；更重大的",
+                "usage": "注意区分：greater（更大，抽象/程度）/ bigger（更大，具体）。常见搭配：greater independence / greater than。",
+                "example": "The web is replaced in reaction to greater independence. 因为更独立，网络被替换了。"
+              },
+              {
+                "text": "ability",
+                "meaning": "能力（可数/不可数）；才能",
+                "usage": "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。常见搭配：the ability to do sth / natural ability。",
+                "example": "The ability to focus is underrated. 专注的能力被低估了。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：developing（现在分词/动名词）/ develop（原形）。",
+              "注意区分：greater（更大，抽象/程度）/ bigger（更大，具体）。",
+              "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。"
+            ],
+            "paragraphRole": "本段细述各年龄段的梦：从婴幼儿的定格快照，到 5–9 岁出现动态画面与连贯事件，并提醒并非所有孩子都能忆梦。"
+          }
+        },
+        {
+          "idx": 6,
+          "start": 546,
+          "end": 717,
+          "text": "Still, that's not always the case: When roused during REM sleep, 25% of the kids in Foulkes' studies had no recollection of dreaming, a trend that continues through age 9.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Still",
+              "normalized": "still",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "surface": "that's",
+              "normalized": "that's",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 24,
+              "surface": "always",
+              "normalized": "always",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 33,
+              "surface": "case",
+              "normalized": "case",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 34,
+              "surface": ":",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "When",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 46,
+              "surface": "roused",
+              "normalized": "roused",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 53,
+              "surface": "during",
+              "normalized": "during",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "REM",
+              "normalized": "rem",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 63,
+              "surface": "sleep",
+              "normalized": "sleep",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 64,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 65,
+              "end": 68,
+              "surface": "25%",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 69,
+              "end": 71,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 80,
+              "surface": "kids",
+              "normalized": "kids",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 83,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 92,
+              "surface": "Foulkes'",
+              "normalized": "foulkes",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 100,
+              "surface": "studies",
+              "normalized": "studies",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 104,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 107,
+              "surface": "no",
+              "normalized": "no",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 120,
+              "surface": "recollection",
+              "normalized": "recollection",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 123,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 132,
+              "surface": "dreaming",
+              "normalized": "dreaming",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 133,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 134,
+              "end": 135,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 141,
+              "surface": "trend",
+              "normalized": "trend",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 146,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 156,
+              "surface": "continues",
+              "normalized": "continues",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 164,
+              "surface": "through",
+              "normalized": "through",
+              "isWord": true
+            },
+            {
+              "start": 165,
+              "end": 168,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 169,
+              "end": 170,
+              "surface": "9",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 170,
+              "end": 171,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "不过，情况并非总是如此：当在 REM 睡眠期间被唤醒时，Foulkes 研究中 25% 的孩子对做梦毫无记忆，这一趋势一直持续到 9 岁。",
+            "translationNatural": "不过话也说回来：在 REM 期被叫醒时，Foulkes 研究里 25% 的孩子根本不记得自己梦过——而且这情形一直延续到 9 岁。",
+            "structMarkup": "(Still), _that's not always the case_: {When roused during REM sleep}, 【25% of the kids in Foulkes' studies had no recollection of dreaming】, {a trend that continues through age 9}.",
+            "structureSummary": "Still 评注 + if 条件状语从句（含 or 并列谓语）+ there be 主句 + 同位语",
+            "components": [
+              {
+                "part": "Still",
+                "role": "状语",
+                "note": "评注性状语，『不过/仍然』，引出例外"
+              },
+              {
+                "part": "that's not always the case",
+                "role": "系动词",
+                "note": "主系表，that 回指上句『能记住梦』，case 『情况』，not always 『并非总是』"
+              },
+              {
+                "part": "When roused during REM sleep",
+                "role": "状语从句",
+                "note": "when 引导省略状语从句，rouse 『唤醒』，during REM sleep 『在 REM 睡眠期间』"
+              },
+              {
+                "part": "25% of the kids in Foulkes' studies had no recollection of dreaming",
+                "role": "主语",
+                "note": "主句主语（含 25% 数字须照抄），recollection of dreaming 『对做梦的回忆』"
+              },
+              {
+                "part": "a trend that continues through age 9",
+                "role": "同位语从句",
+                "note": "a trend 同位语解释前句现象，that 定语从句 continues through age 9 『一直持续到 9 岁』"
+              }
+            ],
+            "clauses": [
+              "状语从句「When roused during REM sleep」：when 引导省略状语从句，rouse 『唤醒』，during REM sleep 『在 REM 睡眠期间』",
+              "同位语从句「a trend that continues through age 9」：a trend 同位语解释前句现象，that 定语从句 continues through age 9 『一直持续到 9 岁』"
+            ],
+            "phrases": [
+              {
+                "text": "case",
+                "meaning": "事例、情况、案例；案件；箱子、盒（in case 万一）",
+                "usage": "注意区分：in case（万一，连词，从句用一般现在时表将来）/ in case of + 名词（假如发生，介词短语）/ in the case of（就…而言）/ in no case（绝不，置句首主句倒装）/ in any case（无论如何）。",
+                "example": "Still, that's not always the case: When roused during REM sleep, 25% of the kids in Foulkes' studies had no recollection of dreaming, a trend that continues through age 9. 不过话也说回来：在 REM 期被叫醒时，Foulkes 研究里 25% 的孩子根本不记得自己梦过——而且这情形一直延续到 9 岁。"
+              },
+              {
+                "text": "studies",
+                "meaning": "研究（study 的复数）；study 的第三人称单数",
+                "usage": "注意区分：studies（复数/三单）/ study（单数）。常见搭配：studies show that / recent studies。",
+                "example": "Studies suggest a strong link. 研究表明存在强关联。"
+              },
+              {
+                "text": "dreaming",
+                "meaning": "梦、梦想、理想、愿望；做梦、梦想（dream of/about；本文 Most people have a dream in life 多数人心中都有一个人生梦想）（dream 的现在分词/动名词形式）",
+                "usage": "注意区分：dreaming（现在分词/动名词）/ dream（原形）。",
+                "example": "Still, that's not always the case: When roused during REM sleep, 25% of the kids in Foulkes' studies had no recollection of dreaming, a trend that continues through age 9. 不过话也说回来：在 REM 期被叫醒时，Foulkes 研究里 25% 的孩子根本不记得自己梦过——而且这情形一直延续到 9 岁。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：still（仍然）/ yet（尚，多用于否定疑问）/ already（已经）。",
+              "注意区分：in case（万一，连词，从句用一般现在时表将来）/ in case of + 名词（假如发生，介词短语）/ in the case of（就…而言）/ in no case（绝不，置句首主句倒装）/ in any case（无论如何）。",
+              "注意区分：studies（复数/三单）/ study（单数）。"
+            ],
+            "paragraphRole": "本段细述各年龄段的梦：从婴幼儿的定格快照，到 5–9 岁出现动态画面与连贯事件，并提醒并非所有孩子都能忆梦。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "text": "So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at play.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 125,
+          "text": "So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at play.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "So",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "surface": "if",
+              "normalized": "if",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "baby",
+              "normalized": "baby",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "seems",
+              "normalized": "seems",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 28,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 31,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 33,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 43,
+              "surface": "stressful",
+              "normalized": "stressful",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "surface": "state",
+              "normalized": "state",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 55,
+              "surface": "while",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 64,
+              "surface": "sleeping",
+              "normalized": "sleeping",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 76,
+              "surface": "upset",
+              "normalized": "upset",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 81,
+              "surface": "upon",
+              "normalized": "upon",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 88,
+              "surface": "waking",
+              "normalized": "waking",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 90,
+              "end": 95,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 99,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 102,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 108,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 116,
+              "surface": "factors",
+              "normalized": "factors",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 119,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 124,
+              "surface": "play",
+              "normalized": "play",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 125,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "所以，如果你的宝宝在睡眠中似乎处于紧张状态或醒来时心烦，可能有其他因素在起作用。",
+            "translationNatural": "所以，要是宝宝睡着时看着紧绷，或者醒来闹脾气，那多半是别的原因在作怪。",
+            "structMarkup": "(So), {if your baby seems to be in a stressful state while sleeping or is upset upon waking}, _there may be other factors at play_.",
+            "structureSummary": "So + if 条件状语从句（含 or 并列谓语）+ there be 主句",
+            "components": [
+              {
+                "part": "So",
+                "role": "状语",
+                "note": "连词，引出结论"
+              },
+              {
+                "part": "if your baby seems to be in a stressful state while sleeping or is upset upon waking",
+                "role": "状语从句",
+                "note": "if 引导条件状语从句，含 or 连接的并列谓语 seems...or is upset；stressful state 『紧张状态』，upon waking 『醒来时』"
+              },
+              {
+                "part": "there may be other factors at play",
+                "role": "谓语",
+                "note": "there be 句型，factors at play 『起作用的因素』，at play 固定搭配『在起作用』"
+              }
+            ],
+            "clauses": [
+              "状语从句「if your baby seems to be in a stressful state while sleeping or is ups」：if 引导条件状语从句，含 or 连接的并列谓语 seems...or is upset；stressful state 『紧张状态』，upon waking 『醒来时』",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。",
+              "条件状语从句中，主句表将来时从句用一般现在时。"
+            ],
+            "phrases": [
+              {
+                "text": "seems",
+                "meaning": "似乎、好像（seem + adj. / seem to do）（seem 的复数/三单形式）",
+                "usage": "注意区分：seems（复数/三单）/ seem（原形）。",
+                "example": "So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at play. 所以，要是宝宝睡着时看着紧绷，或者醒来闹脾气，那多半是别的原因在作怪。"
+              },
+              {
+                "text": "state",
+                "meaning": "状态、状况、情形；国家、州、政府；陈述、说明、规定；州的、国事的",
+                "usage": "注意区分：state（状态；国家；州，名词；陈述，动词）/ in a … state（处于…状态）/ state that（陈述…，后接从句）/ condition（条件/状况）/ the United States（复数形式表单数义）。",
+                "example": "So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at play. 所以，要是宝宝睡着时看着紧绷，或者醒来闹脾气，那多半是别的原因在作怪。"
+              },
+              {
+                "text": "waking",
+                "meaning": "醒来；唤醒；唤起（wake 的现在分词/动名词形式）",
+                "usage": "注意区分：waking（现在分词/动名词）/ wake（原形）。",
+                "example": "So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at play. 所以，要是宝宝睡着时看着紧绷，或者醒来闹脾气，那多半是别的原因在作怪。"
+              }
+            ],
+            "pitfalls": [
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "if 引导条件从句时，从句不用 will 表将来。"
+            ],
+            "paragraphRole": "本段收尾提醒：宝宝睡中紧张或醒后哭闹，未必与梦有关，可能另有原因，呼应前文『婴儿不做梦』。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 51,
+      "stem": "What do scientists think of REM?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is a sign of dreaming in adults and infants alike."
+        },
+        {
+          "key": "B",
+          "text": "It is essential to human beings' language learning."
+        },
+        {
+          "key": "C",
+          "text": "It determines the formation of connections in the brain."
+        },
+        {
+          "key": "D",
+          "text": "It performs a different function in babies than in adults."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 52,
+      "stem": "What can we infer about nightmares from the passage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They occur often in people with an active imagination."
+        },
+        {
+          "key": "B",
+          "text": "They occur in people suffering from emotional stress."
+        },
+        {
+          "key": "C",
+          "text": "They vary in different stages of brain development."
+        },
+        {
+          "key": "D",
+          "text": "They appear in the sleep of both adults and infants."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 53,
+      "stem": "What is the aim of psychologist David Foulkes' study?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To reveal the secrets of children's dreams."
+        },
+        {
+          "key": "B",
+          "text": "To see if children start dreaming at age two."
+        },
+        {
+          "key": "C",
+          "text": "To solve the mystery of dreaming and brain growth."
+        },
+        {
+          "key": "D",
+          "text": "To confirm the general consensus on when kids dream."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 54,
+      "stem": "What are Foulkes' findings about kids' dreams?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They feature strange animals."
+        },
+        {
+          "key": "B",
+          "text": "They are unsurprising to adults."
+        },
+        {
+          "key": "C",
+          "text": "They grow and evolve with age."
+        },
+        {
+          "key": "D",
+          "text": "They reflect kids' waking life."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 55,
+      "stem": "What can we assume about babies who appear upset upon waking?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They have been roused against their will."
+        },
+        {
+          "key": "B",
+          "text": "They have been disturbed by a nightmare."
+        },
+        {
+          "key": "C",
+          "text": "They have trouble recollecting the images of their dreams."
+        },
+        {
+          "key": "D",
+          "text": "They have been affected by something other than dreaming."
+        }
+      ],
+      "answer": "D"
+    }
+  ],
+  "lexicon": {
+    "ability": {
+      "phonetic": "/əˈbɪləti/",
+      "pos": "n.",
+      "sense": "能力（可数/不可数）；才能",
+      "collocations": [
+        "the ability to do sth",
+        "natural ability",
+        "to the best of one's ability"
+      ],
+      "examples": [
+        "The ability to focus is underrated. 专注的能力被低估了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "able（能够）+ -ity",
+        "confusables": "ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）"
+      }
+    },
+    "according": {
+      "phonetic": "/əˈkɔːdɪŋ/",
+      "pos": "prep.（用于 according to）",
+      "sense": "根据、按照（according to）",
+      "collocations": [
+        "according to the study",
+        "according to sb"
+      ],
+      "examples": [
+        "According to the study, rates are stable. 根据这项研究，比率稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "according to（根据，后接来源）/ because of（因为）"
+      }
+    },
+    "action": {
+      "phonetic": "/ˈækʃn/",
+      "pos": "n.",
+      "sense": "行动、行为",
+      "collocations": [
+        "take action",
+        "the means of action"
+      ],
+      "examples": [
+        "We need to take action now. 我们得马上行动。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "action / activity / activities（同族不同词形，注意词性与用法）"
+      }
+    },
+    "adults": {
+      "phonetic": "/ˈædʌlts/",
+      "pos": "n.",
+      "sense": "成年人（adult 的复数）",
+      "lemma": "adult",
+      "collocations": [
+        "adults and children",
+        "young adults"
+      ],
+      "examples": [
+        "Kids know how adults are expected to write. 孩子知道大人该怎么写。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "adults（复数）/ adult（单数）"
+      }
+    },
+    "age": {
+      "phonetic": "/eɪdʒ/",
+      "pos": "n./v.",
+      "sense": "年龄、年纪；时代、时期；变老、老化",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "age of",
+        "age of two",
+        "through age"
+      ],
+      "examples": [
+        "The general consensus is that they start dreaming around the age of two. 学界普遍看法是：大概到两岁，孩子才开始做梦。"
+      ],
+      "more": {
+        "confusables": "age / agencies / ages（同族不同词形，注意词性与用法）"
+      }
+    },
+    "ages": {
+      "phonetic": "/eɪdʒɪz/",
+      "pos": "n./v.",
+      "sense": "年龄、年纪；时代、时期；变老、老化（age 的复数/三单形式）",
+      "lemma": "age",
+      "collocations": [
+        "Kids ages"
+      ],
+      "examples": [
+        "Kids ages 5 – 9 begin seeing moving images and characters in action. 到 5–9 岁，孩子梦里开始出现会动的画面和活起来的人物。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "age + -s（复数/三单）",
+        "confusables": "ages（复数/三单）/ age（原形）"
+      }
+    },
+    "allows": {
+      "phonetic": "/əˈlaʊz/",
+      "pos": "v.",
+      "sense": "allow 的第三人称单数，使能够、允许",
+      "collocations": [
+        "allow sb to do"
+      ],
+      "examples": [
+        "When babies are in REM, it allows their brain to develop pathways, connections, and eventually, learn languages. 婴儿处在 REM 期时，大脑借此铺设神经通路和连接，最终还学起语言来。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "allows / allow（同族不同词形，注意词性与用法）"
+      }
+    },
+    "always": {
+      "phonetic": "/ˈɔːlweɪz/",
+      "pos": "adv.",
+      "sense": "总是、一直、永远；始终（本文指「总是成为他人的囚徒」）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Still, that's not always the case: When roused during REM sleep, 25% of the kids in Foulkes' studies had no recollection of dreaming, a trend that continues through age 9. 不过话也说回来：在 REM 期被叫醒时，Foulkes 研究里 25% 的孩子根本不记得自己梦过——而且这情形一直延续到 9 岁。"
+      ]
+    },
+    "animals": {
+      "phonetic": "/ˈænɪmlz/",
+      "pos": "n.",
+      "sense": "动物（animal 的复数）",
+      "lemma": "animal",
+      "collocations": [
+        "farm animals",
+        "wild animals"
+      ],
+      "examples": [
+        "Farm animals need space. 农场动物需要空间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "animals（复数）/ animal（单数）"
+      }
+    },
+    "answer": {
+      "phonetic": "/ˈɑːnsə(r)/",
+      "pos": "n./v.",
+      "sense": "答案、回答（可数）/ 回答；解决",
+      "collocations": [
+        "the answer to",
+        "answer a question",
+        "answer for"
+      ],
+      "examples": [
+        "For most scientists, the answer is no. 对多数科学家来说，答案是否定的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "answer to（……的答案，用 to）/ reply to（回复）"
+      }
+    },
+    "around": {
+      "phonetic": "/əˈraʊnd/",
+      "pos": "prep./adv.",
+      "sense": "围绕、在…四周；大约、到处、转过来（本文 discussion around careers 围绕职业的讨论 / around 30% 约 30%）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "dreaming around"
+      ],
+      "examples": [
+        "The general consensus is that they start dreaming around the age of two. 学界普遍看法是：大概到两岁，孩子才开始做梦。"
+      ]
+    },
+    "asks": {
+      "phonetic": "/ɑːsks/",
+      "pos": "v.",
+      "sense": "问、询问；要求、请求（第三人称单数）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall. 在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。"
+      ]
+    },
+    "assume": {
+      "phonetic": "/əˈsjuːm/",
+      "pos": "v.",
+      "sense": "假定、认为、想当然；承担（责任）、呈现（形态）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "as-（=ad- 朝向）+ sum（拿取，词根 sum/sumpt，同 consume/presume/resume）+ -e",
+        "confusables": "assume（假定；承担；呈现）/ assume that（认为）/ assuming (that)（假如，连词）/ assume 与 presume（presume 偏「基于证据姑且认定」）/ assumption（名词）"
+      },
+      "collocations": [
+        "fair to assume",
+        "assume babies",
+        "safe to assume"
+      ],
+      "examples": [
+        "So, it might be fair to assume that babies have tons of dreams. 所以，说小婴儿做了好多梦，听起来倒也挺合理。"
+      ]
+    },
+    "begin": {
+      "phonetic": "/bɪˈɡɪn/",
+      "pos": "v.",
+      "sense": "开始、着手、启动（本文 a quest we begin as infants 始于婴儿期 / hard to know where to even begin 不知从何下手）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "begin seeing"
+      ],
+      "examples": [
+        "Kids ages 5 – 9 begin seeing moving images and characters in action. 到 5–9 岁，孩子梦里开始出现会动的画面和活起来的人物。"
+      ],
+      "more": {
+        "confusables": "begin / beginning（同族不同词形，注意词性与用法）"
+      }
+    },
+    "believe": {
+      "phonetic": "/bɪˈliːv/",
+      "pos": "v.",
+      "sense": "相信、认为",
+      "collocations": [
+        "believe in",
+        "believe that"
+      ],
+      "examples": [
+        "I believe he is right. 我认为他是对的。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "brain": {
+      "phonetic": "/breɪn/",
+      "pos": "n.",
+      "sense": "大脑、脑力、智力（brains 才气）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brain to",
+        "brain to develop",
+        "brain development"
+      ],
+      "examples": [
+        "When babies are in REM, it allows their brain to develop pathways, connections, and eventually, learn languages. 婴儿处在 REM 期时，大脑借此铺设神经通路和连接，最终还学起语言来。"
+      ],
+      "more": {
+        "confusables": "brain / brains / brain-training（同族不同词形，注意词性与用法）"
+      }
+    },
+    "bring": {
+      "phonetic": "/brɪŋ/",
+      "pos": "v.",
+      "sense": "带来、拿来；引起、导致；使处于（某状态）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "bring（带来，朝说话人/目的地方向）/ take（带走，离开说话人/原地）/ fetch（去取来，一去一回）/ bring sb sth = bring sth to sb（双宾语）/ bring about（导致）/ bring up（抚养；提出）"
+      },
+      "collocations": [],
+      "examples": [
+        "Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day. 心理学家 David Foulkes 专门研究孩子（从刚会走的小不点到青少年），想把孩子们梦境里的秘密都翻出来见见光。"
+      ]
+    },
+    "case": {
+      "phonetic": "/keɪs/",
+      "pos": "n.",
+      "sense": "事例、情况、案例；案件；箱子、盒（in case 万一）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in case（万一，连词，从句用一般现在时表将来）/ in case of + 名词（假如发生，介词短语）/ in the case of（就…而言）/ in no case（绝不，置句首主句倒装）/ in any case（无论如何）"
+      },
+      "collocations": [],
+      "examples": [
+        "Still, that's not always the case: When roused during REM sleep, 25% of the kids in Foulkes' studies had no recollection of dreaming, a trend that continues through age 9. 不过话也说回来：在 REM 期被叫醒时，Foulkes 研究里 25% 的孩子根本不记得自己梦过——而且这情形一直延续到 9 岁。"
+      ]
+    },
+    "characters": {
+      "phonetic": "/ˈkærəktəz/",
+      "pos": "n.",
+      "sense": "性格、品质；角色、人物；文字、字符；特点（character 的复数；阅读中常指游戏 / 故事角色）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "characters in",
+        "characters in action"
+      ],
+      "examples": [
+        "Kids ages 5 – 9 begin seeing moving images and characters in action. 到 5–9 岁，孩子梦里开始出现会动的画面和活起来的人物。"
+      ],
+      "more": {
+        "confusables": "characters / characteristic（同族不同词形，注意词性与用法）"
+      }
+    },
+    "children": {
+      "phonetic": "/ˈtʃɪldrən/",
+      "pos": "n.",
+      "sense": "儿童、小孩、子女（child 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "child（孩子）+ -ren（不规则复数，不说 childs）",
+        "confusables": "children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）"
+      },
+      "collocations": [
+        "studies children",
+        "children develop"
+      ],
+      "examples": [
+        "Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day. 心理学家 David Foulkes 专门研究孩子（从刚会走的小不点到青少年），想把孩子们梦境里的秘密都翻出来见见光。"
+      ]
+    },
+    "compared": {
+      "phonetic": "/kəmˈpeəd/",
+      "pos": "v.",
+      "sense": "比较、对比；把…比作（compare 的过去式 / 过去分词；本文 compared with 8% the previous year 与上一年 8% 相比 / compared to）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "compared to"
+      ],
+      "examples": [
+        "Dreams of very small kids are usually just snapshots(快照), looking much more like a slideshow than a movie, when compared to the dreams of adults. 小小孩的梦多半只是一张张定格画面，比起大人的梦，更像幻灯片而不是电影。"
+      ],
+      "more": {
+        "confusables": "compared / compare / comparison（同族不同词形，注意词性与用法）"
+      }
+    },
+    "completely": {
+      "phonetic": "/kəmˈpliːtli/",
+      "pos": "adv.",
+      "sense": "完全地、彻底地",
+      "collocations": [
+        "completely different"
+      ],
+      "examples": [
+        "But scientists believe REM serves a completely different purpose for newborns and infants than dreaming. 但科学家认为，REM 对新生儿和婴儿的作用，跟『做梦』完全是两码事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "completely / completed / complete（同族不同词形，注意词性与用法）"
+      }
+    },
+    "connections": {
+      "phonetic": "/kəˈnekʃnz/",
+      "pos": "n.",
+      "sense": "connection 的复数，人脉、联系（本文指人脉）",
+      "collocations": [],
+      "examples": [
+        "When babies are in REM, it allows their brain to develop pathways, connections, and eventually, learn languages. 婴儿处在 REM 期时，大脑借此铺设神经通路和连接，最终还学起语言来。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "connections / connection（同族不同词形，注意词性与用法）"
+      }
+    },
+    "continues": {
+      "phonetic": "/kənˈtɪnjuːz/",
+      "pos": "v.",
+      "sense": "继续（continue to do / continue doing）（continue 的复数/三单形式）",
+      "lemma": "continue",
+      "collocations": [
+        "continues through",
+        "continues through age"
+      ],
+      "examples": [
+        "Still, that's not always the case: When roused during REM sleep, 25% of the kids in Foulkes' studies had no recollection of dreaming, a trend that continues through age 9. 不过话也说回来：在 REM 期被叫醒时，Foulkes 研究里 25% 的孩子根本不记得自己梦过——而且这情形一直延续到 9 岁。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "continue + -s（复数/三单）",
+        "confusables": "continues（复数/三单）/ continue（原形）"
+      }
+    },
+    "day": {
+      "phonetic": "/deɪ/",
+      "pos": "n.",
+      "sense": "一天、白天；时期、时代（these days 如今）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "light of day"
+      ],
+      "examples": [
+        "Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day. 心理学家 David Foulkes 专门研究孩子（从刚会走的小不点到青少年），想把孩子们梦境里的秘密都翻出来见见光。"
+      ],
+      "more": {
+        "confusables": "day / day-to-day / days（同族不同词形，注意词性与用法）"
+      }
+    },
+    "depends": {
+      "phonetic": "/dɪˈpenddz/",
+      "pos": "v.",
+      "sense": "取决于（depend on）；依靠（depend 的复数/三单形式）",
+      "lemma": "depend",
+      "collocations": [
+        "dreaming depends",
+        "depends on"
+      ],
+      "examples": [
+        "But exactly what kids see while dreaming depends on their age. 不过孩子梦里具体看见什么，全看他们长到几岁了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "depend + -s（复数/三单）",
+        "confusables": "depends（复数/三单）/ depend（原形）"
+      }
+    },
+    "describe": {
+      "phonetic": "/dɪˈskraɪb/",
+      "pos": "v.",
+      "sense": "描述、描写、形容、把…称为（describe sb/sth as；名词 description）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall. 在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。"
+      ],
+      "more": {
+        "confusables": "describe / descriptions / described（同族不同词形，注意词性与用法）"
+      }
+    },
+    "develop": {
+      "phonetic": "/dɪˈveləp/",
+      "pos": "v.",
+      "sense": "发展、养成、开发",
+      "collocations": [
+        "develop a habit",
+        "develop a skill"
+      ],
+      "examples": [
+        "He developed a reading habit. 他养成了阅读习惯。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "develop / development / developed（同族不同词形，注意词性与用法）"
+      }
+    },
+    "developing": {
+      "phonetic": "/dɪˈveləpɪŋ/",
+      "pos": "v.",
+      "sense": "发展、养成、开发（develop 的现在分词/动名词形式）",
+      "lemma": "develop",
+      "collocations": [
+        "start developing",
+        "developing greater"
+      ],
+      "examples": [
+        "They also start developing greater ability to remember dreams. 同时，他们也越来越能记住自己做过的梦。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "develop + -ing（现在分词/动名词）",
+        "confusables": "developing（现在分词/动名词）/ develop（原形）"
+      }
+    },
+    "development": {
+      "phonetic": "/dɪˈveləpmənt/",
+      "pos": "n.",
+      "sense": "发展、开发；research and development 研发",
+      "collocations": [
+        "research and development",
+        "brain development"
+      ],
+      "examples": [
+        "Since your baby doesn't dream at this stage of brain development, it's safe to assume babies do not have nightmares, either. 既然宝宝在这个阶段还不会做梦，那基本可以放心：他们也不会做噩梦。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "development / developmental（同族不同词形，注意词性与用法）"
+      }
+    },
+    "different": {
+      "phonetic": "/ˈdɪfrənt/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的",
+      "collocations": [
+        "different from",
+        "a different picture",
+        "different points of view"
+      ],
+      "examples": [
+        "Their experiences were considerably different. 他们的经历相当不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "doesn't": {
+      "phonetic": "/ˈdʌznt/",
+      "pos": "缩略",
+      "sense": "does not 的缩写（第三人称单数否定）",
+      "collocations": [
+        "doesn't mean",
+        "doesn't apply"
+      ],
+      "examples": [
+        "That doesn't mean it's all good news. 这并不意味着全是好消息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "doesn't（does not）/ don't（do not，复数或第一二人称）"
+      }
+    },
+    "dream": {
+      "phonetic": "/driːm/",
+      "pos": "n./v.",
+      "sense": "梦、梦想、理想、愿望；做梦、梦想（dream of/about；本文 Most people have a dream in life 多数人心中都有一个人生梦想）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Adults dream",
+        "doesn't dream",
+        "dream at"
+      ],
+      "examples": [
+        "Adults dream during REM (rapid eye movement) sleep and infants have loads of REM. 大人入睡会经历 REM（快速眼动）期，小婴儿也有的是 REM。"
+      ],
+      "more": {
+        "confusables": "dream / dreams / dreamt（同族不同词形，注意词性与用法）"
+      }
+    },
+    "dreaming": {
+      "phonetic": "/driːmɪŋ/",
+      "pos": "n./v.",
+      "sense": "梦、梦想、理想、愿望；做梦、梦想（dream of/about；本文 Most people have a dream in life 多数人心中都有一个人生梦想）（dream 的现在分词/动名词形式）",
+      "lemma": "dream",
+      "collocations": [
+        "start dreaming",
+        "dreaming around",
+        "while dreaming"
+      ],
+      "examples": [
+        "But scientists believe REM serves a completely different purpose for newborns and infants than dreaming. 但科学家认为，REM 对新生儿和婴儿的作用，跟『做梦』完全是两码事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "dream + -ing（现在分词/动名词）",
+        "confusables": "dreaming（现在分词/动名词）/ dream（原形）"
+      }
+    },
+    "dreams": {
+      "phonetic": "/driːmz/",
+      "pos": "n./v.",
+      "sense": "梦想、理想（复数）；做梦、梦想（三单）（本文 nor the dreams we visualize 也不是我们设想的那些梦想）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "tons of dreams",
+        "dreams to",
+        "little dreams"
+      ],
+      "examples": [
+        "So, it might be fair to assume that babies have tons of dreams. 所以，说小婴儿做了好多梦，听起来倒也挺合理。"
+      ],
+      "more": {
+        "confusables": "dreams / dream / dreaming（同族不同词形，注意词性与用法）"
+      }
+    },
+    "eating": {
+      "phonetic": "/ˈiːtɪŋ/",
+      "pos": "v./n.",
+      "sense": "eat 的现在分词；饮食（不可数）",
+      "lemma": "eat",
+      "collocations": [
+        "eating habits",
+        "healthy eating"
+      ],
+      "examples": [
+        "Healthy eating starts early. 健康饮食从小开始。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "eating（饮食）/ eat（吃）"
+      }
+    },
+    "either": {
+      "phonetic": "/ˈaɪðə(r)/",
+      "pos": "conj./adv./det.",
+      "sense": "两者之一（either...or）；也不（否定句末）",
+      "collocations": [
+        "either ... or",
+        "not ... either",
+        "either of"
+      ],
+      "examples": [
+        "Either way, the result is the same. 无论哪种方式，结果一样。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "either...or（两者之一）/ neither...nor（两者都不）/ either（也，否定句末）"
+      }
+    },
+    "events": {
+      "phonetic": "/ɪˈventts/",
+      "pos": "n.",
+      "sense": "事件、大事、发生的事；比赛项目（in any event 无论如何）（event 的复数/三单形式）",
+      "lemma": "event",
+      "collocations": [
+        "multiple events",
+        "events strung"
+      ],
+      "examples": [
+        "Dreams now include multiple events strung together, one after the other. 这时候的梦会把好几件事串在一起，一件挨着一件。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "event + -s（复数/三单）",
+        "confusables": "events（复数/三单）/ event（原形）"
+      }
+    },
+    "eventually": {
+      "phonetic": "/ɪˈventʃuəli/",
+      "pos": "adv.",
+      "sense": "最终、终于（强调结果）",
+      "collocations": [
+        "eventually become",
+        "eventually happen"
+      ],
+      "examples": [
+        "Attitudes eventually shifted. 态度最终转变了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "eventually（最终）/ finally（最后，强调顺序）/ in the end（最终）"
+      }
+    },
+    "exactly": {
+      "phonetic": "/ɪɡˈzæktli/",
+      "pos": "adj.",
+      "sense": "精确的、确切的（exact 的副词形式）",
+      "lemma": "exact",
+      "collocations": [],
+      "examples": [
+        "But exactly what kids see while dreaming depends on their age. 不过孩子梦里具体看见什么，全看他们长到几岁了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "exact + -ly（副词）",
+        "confusables": "exactly（副词）/ exact（原形）"
+      }
+    },
+    "eye": {
+      "phonetic": "/aɪ/",
+      "pos": "n./v.",
+      "sense": "眼睛；眼光、视角、目光；注视、端详（keep an eye on 留意；in sb's eyes 在某人看来）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "rapid eye",
+        "eye movement"
+      ],
+      "examples": [
+        "Adults dream during REM (rapid eye movement) sleep and infants have loads of REM. 大人入睡会经历 REM（快速眼动）期，小婴儿也有的是 REM。"
+      ],
+      "more": {
+        "confusables": "eye / eyesight / eye-catching（同族不同词形，注意词性与用法）"
+      }
+    },
+    "factors": {
+      "phonetic": "/ˈfæktəz/",
+      "pos": "n.",
+      "sense": "因素（factor 的复数）",
+      "lemma": "factor",
+      "collocations": [
+        "factors affecting",
+        "a key factor",
+        "factor in"
+      ],
+      "examples": [
+        "Several factors limit the value of data. 若干因素限制了数据的价值。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "fact（做，词根 fact/fect = do）+ -or（表起作用的物/人）+ -s（复数）",
+        "confusables": "factor（因素）/ element（要素）/ reason（理由）"
+      }
+    },
+    "fall": {
+      "phonetic": "/fɔːl/",
+      "pos": "v./n.",
+      "sense": "落下、跌倒、下降、变成；秋天（美式）、瀑布",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "kids fall",
+        "fall asleep"
+      ],
+      "examples": [
+        "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall. 在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。"
+      ],
+      "more": {
+        "confusables": "fall / fallen（同族不同词形，注意词性与用法）"
+      }
+    },
+    "familiar": {
+      "phonetic": "/fəˈmɪliə(r)/",
+      "pos": "adj.",
+      "sense": "熟悉的、常见的、亲近的（be familiar with 精通；be familiar to 为…所熟知）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "famili（家庭，词根，同 family）+ -ar（形容词后缀）→ 像家人一样熟",
+        "confusables": "be familiar with（某人熟悉某物，主语是人，with 后接物）/ be familiar to（某物为某人熟知，主语是物，to 后接人）/ familiar 与 similar（be similar to）/ unfamiliar（不熟悉的）"
+      },
+      "collocations": [
+        "familiar sights"
+      ],
+      "examples": [
+        "They heavily feature animals and other familiar sights, like images of people eating. 梦里满屏都是动物和一些眼熟的情景，比方说人吃东西的模样。"
+      ]
+    },
+    "findings": {
+      "phonetic": "/ˈfaɪndɪŋz/",
+      "pos": "n.",
+      "sense": "研究结果、调查发现（finding 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "find（发现）+ -ing + -s",
+        "confusables": "findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings"
+      },
+      "collocations": [
+        "Foulkes' findings"
+      ],
+      "examples": [
+        "Foulkes' findings are unsurprising. Foulkes 的发现，其实一点不让人意外。"
+      ]
+    },
+    "general": {
+      "phonetic": "/ˈdʒenrəl/",
+      "pos": "adj./n.",
+      "sense": "总体的、普遍的；一般的 / 将军",
+      "collocations": [
+        "in general",
+        "general farm management",
+        "the general public"
+      ],
+      "examples": [
+        "General management can ease changes. 总体管理能缓解变化冲击。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in general（总的来说）/ generally（通常）/ generic（通用的）"
+      }
+    },
+    "good": {
+      "phonetic": "/ɡʊd/",
+      "pos": "adj./n.",
+      "sense": "好的；有益的 / 好处（不可数）",
+      "collocations": [
+        "be good at",
+        "good for",
+        "a good deal of"
+      ],
+      "examples": [
+        "A rich social life is good for health. 丰富社交生活有益健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "good at（擅长）/ good for（对……有益）/ well（副词，身体好）"
+      }
+    },
+    "greater": {
+      "phonetic": "/ˈɡreɪtə(r)/",
+      "pos": "adj.",
+      "sense": "更大的（great 的比较级）；更重大的",
+      "lemma": "great",
+      "collocations": [
+        "greater independence",
+        "greater than"
+      ],
+      "examples": [
+        "The web is replaced in reaction to greater independence. 因为更独立，网络被替换了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "greater（更大，抽象/程度）/ bigger（更大，具体）"
+      }
+    },
+    "grow": {
+      "phonetic": "/ɡrəʊ/",
+      "pos": "v.",
+      "sense": "生长、增长（不及物）；种植（及物）；变得",
+      "collocations": [
+        "grow crops",
+        "grow up",
+        "grow older"
+      ],
+      "examples": [
+        "They grow crops for export. 他们种植出口作物。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "grow（生长/种植）/ grow up（长大）/ increase（增加）"
+      }
+    },
+    "heavily": {
+      "phonetic": "/ˈhevɪli/",
+      "pos": "adv.",
+      "sense": "沉重地、大量地、猛烈地、严重地；吃力地",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "heavily feature"
+      ],
+      "examples": [
+        "They heavily feature animals and other familiar sights, like images of people eating. 梦里满屏都是动物和一些眼熟的情景，比方说人吃东西的模样。"
+      ],
+      "more": {
+        "roots": "heavily 含 -ly（副词后缀）"
+      }
+    },
+    "images": {
+      "phonetic": "/ˈɪmɪdʒɪz/",
+      "pos": "n./v.",
+      "sense": "形象、印象、声誉；图像、影像；想象、描绘（image 的复数/三单形式）",
+      "lemma": "image",
+      "collocations": [
+        "like images",
+        "images of",
+        "images of people"
+      ],
+      "examples": [
+        "They heavily feature animals and other familiar sights, like images of people eating. 梦里满屏都是动物和一些眼熟的情景，比方说人吃东西的模样。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "image + -s（复数/三单）",
+        "confusables": "images（复数/三单）/ image（原形）"
+      }
+    },
+    "include": {
+      "phonetic": "/ɪnˈkluːd/",
+      "pos": "v.",
+      "sense": "包括、包含；把…列为一部分（本文 which will include my family, my hobbies, my workout 包括家人、爱好、健身）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "now include",
+        "include multiple"
+      ],
+      "examples": [
+        "Dreams now include multiple events strung together, one after the other. 这时候的梦会把好几件事串在一起，一件挨着一件。"
+      ],
+      "more": {
+        "confusables": "include / including（同族不同词形，注意词性与用法）"
+      }
+    },
+    "infants": {
+      "phonetic": "/ˈɪnfənts/",
+      "pos": "n.",
+      "sense": "婴儿、幼儿（infant 的复数；阅读中常指语言习得 / 发育研究对象）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Adults dream during REM (rapid eye movement) sleep and infants have loads of REM. 大人入睡会经历 REM（快速眼动）期，小婴儿也有的是 REM。"
+      ]
+    },
+    "it's": {
+      "phonetic": "/ɪts/",
+      "pos": "缩略",
+      "sense": "it is 或 it has 的缩写（注意与 its 所有格区分）",
+      "collocations": [
+        "it's important that",
+        "it's likely to"
+      ],
+      "examples": [
+        "It's hard to say. 很难说。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "it's = it is/has（有撇号）/ its = 它的（所有格，无撇号）"
+      }
+    },
+    "kids": {
+      "phonetic": "/kɪdz/",
+      "pos": "n.",
+      "sense": "小孩、年轻人、子女（kid 的复数，口语）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "small kids",
+        "kids to",
+        "kids to teens"
+      ],
+      "examples": [
+        "Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day. 心理学家 David Foulkes 专门研究孩子（从刚会走的小不点到青少年），想把孩子们梦境里的秘密都翻出来见见光。"
+      ]
+    },
+    "lab": {
+      "phonetic": "/læb/",
+      "pos": "n.",
+      "sense": "实验室、实验楼（laboratory 的常用缩略，现已作独立常用词；lab tests 实验室检测）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "his lab"
+      ],
+      "examples": [
+        "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall. 在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。"
+      ],
+      "more": {
+        "confusables": "lab / labor（同族不同词形，注意词性与用法）"
+      }
+    },
+    "languages": {
+      "phonetic": "/ˈlæŋɡwɪdʒɪz/",
+      "pos": "n.",
+      "sense": "语言（language 的复数/三单形式）",
+      "lemma": "language",
+      "collocations": [
+        "learn languages"
+      ],
+      "examples": [
+        "When babies are in REM, it allows their brain to develop pathways, connections, and eventually, learn languages. 婴儿处在 REM 期时，大脑借此铺设神经通路和连接，最终还学起语言来。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "language + -s（复数/三单）",
+        "confusables": "languages（复数/三单）/ language（原形）"
+      }
+    },
+    "learn": {
+      "phonetic": "/lɜːn/",
+      "pos": "v.",
+      "sense": "学习、学会",
+      "collocations": [
+        "learn to do",
+        "learn from"
+      ],
+      "examples": [
+        "We learn from mistakes. 我们从错误中学习。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "learn / learning（同族不同词形，注意词性与用法）"
+      }
+    },
+    "lets": {
+      "phonetic": "/letts/",
+      "pos": "v.",
+      "sense": "让、允许、使；出租；假设、任由（let 的复数/三单形式）",
+      "lemma": "let",
+      "collocations": [
+        "lets kids"
+      ],
+      "examples": [
+        "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall. 在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "let + -s（复数/三单）",
+        "confusables": "lets（复数/三单）/ let（原形）"
+      }
+    },
+    "life": {
+      "phonetic": "/laɪf/",
+      "pos": "n.",
+      "sense": "生活；生命（复数 lives）",
+      "collocations": [
+        "everyday life",
+        "public life",
+        "quality of life"
+      ],
+      "examples": [
+        "A rich social life improves health. 丰富的社交生活能改善健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "life（单数）/ lives（复数，注意拼写）"
+      }
+    },
+    "light": {
+      "phonetic": "/laɪt/",
+      "pos": "n./adj./v.",
+      "sense": "光、光线、灯；轻的、浅色的、明亮的；点燃、照亮",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "light of",
+        "light of day"
+      ],
+      "examples": [
+        "Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day. 心理学家 David Foulkes 专门研究孩子（从刚会走的小不点到青少年），想把孩子们梦境里的秘密都翻出来见见光。"
+      ]
+    },
+    "like": {
+      "phonetic": "/laɪk/",
+      "pos": "prep./v./conj.",
+      "sense": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+      "collocations": [
+        "like this",
+        "feel like",
+        "such as"
+      ],
+      "examples": [
+        "Tools like this save time. 这样的工具能省时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
+      }
+    },
+    "little": {
+      "phonetic": "/ˈlɪtl/",
+      "pos": "adj./adv./n.",
+      "sense": "小的、少的；几乎不（a little 表肯定「一点」）；少量",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "little（几乎没有，否定，修饰不可数）/ a little（有一点，肯定，修饰不可数）/ few（几乎没，修饰可数复数）/ a few（有几个，肯定）/ little 作形容词还可指「小的」/ Little did I know…（置句首主句倒装）"
+      },
+      "collocations": [
+        "little kids",
+        "little dreams"
+      ],
+      "examples": [
+        "Basically, little kids have little dreams. 说白了，小小孩做的也是些小小的梦。"
+      ]
+    },
+    "looking": {
+      "phonetic": "/lʊkɪŋ/",
+      "pos": "v./n.",
+      "sense": "看、显得（look + adj.）；外观（look 的现在分词/动名词形式）",
+      "lemma": "look",
+      "collocations": [],
+      "examples": [
+        "Dreams of very small kids are usually just snapshots(快照), looking much more like a slideshow than a movie, when compared to the dreams of adults. 小小孩的梦多半只是一张张定格画面，比起大人的梦，更像幻灯片而不是电影。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "look + -ing（现在分词/动名词）",
+        "confusables": "looking（现在分词/动名词）/ look（原形）"
+      }
+    },
+    "movement": {
+      "phonetic": "/ˈmuːvmənt/",
+      "pos": "n.",
+      "sense": "运动、移动、活动、动作；（社会）运动、动向、乐章（the movement of …的运动）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "eye movement"
+      ],
+      "examples": [
+        "Adults dream during REM (rapid eye movement) sleep and infants have loads of REM. 大人入睡会经历 REM（快速眼动）期，小婴儿也有的是 REM。"
+      ],
+      "more": {
+        "roots": "movement 含 -ment（名词后缀，表结果、手段或过程）"
+      }
+    },
+    "movie": {
+      "phonetic": "/ˈmuːvi/",
+      "pos": "n.",
+      "sense": "电影、影片（美式；英式 film；movie star 电影明星；影视话题高频）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Dreams of very small kids are usually just snapshots(快照), looking much more like a slideshow than a movie, when compared to the dreams of adults. 小小孩的梦多半只是一张张定格画面，比起大人的梦，更像幻灯片而不是电影。"
+      ],
+      "more": {
+        "confusables": "movie / movies / moving（同族不同词形，注意词性与用法）"
+      }
+    },
+    "moving": {
+      "phonetic": "/muːvɪŋ/",
+      "pos": "v./n.",
+      "sense": "移动、搬；促使（move sb to do）；举措（move 的现在分词/动名词形式）",
+      "lemma": "move",
+      "collocations": [
+        "seeing moving",
+        "moving images"
+      ],
+      "examples": [
+        "Kids ages 5 – 9 begin seeing moving images and characters in action. 到 5–9 岁，孩子梦里开始出现会动的画面和活起来的人物。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "move + -ing（现在分词/动名词）",
+        "confusables": "moving（现在分词/动名词）/ move（原形）"
+      }
+    },
+    "multiple": {
+      "phonetic": "/ˈmʌltɪpl/",
+      "pos": "adj./n.",
+      "sense": "多个的、多样的；倍数",
+      "collocations": [
+        "multiple factors",
+        "multiple choice"
+      ],
+      "examples": [
+        "Multiple factors explain the gap. 多种因素解释了这一差距。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "multiple（多个的）/ several（几个）/ multiply（乘/倍增）"
+      }
+    },
+    "night": {
+      "phonetic": "/naɪt/",
+      "pos": "n.",
+      "sense": "夜晚，夜间",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall. 在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。"
+      ]
+    },
+    "normal": {
+      "phonetic": "/ˈnɔːml/",
+      "pos": "adj./n.",
+      "sense": "正常的、普通的、标准的；常态、正常水平",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "norm（标准、规范，词根 norm = rule，同 norm/enormous/abnormal）+ -al",
+        "confusables": "normal（正常的、符合标准的，形容词）/ abnormal（不正常的，ab- 偏离）/ normally（通常，副词）/ norm（规范、常态，名词）/ ordinary（指「平凡」，normal 指「达标」）/ return to normal"
+      },
+      "collocations": [
+        "normal stresses"
+      ],
+      "examples": [
+        "Nightmares stem from exposure to trauma(创伤), an overactive imagination, and the normal stresses of everyday life. 噩梦打哪儿来？来自受过创伤、想象力太过活跃，还有日常生活里那些再正常不过的压力。"
+      ]
+    },
+    "now": {
+      "phonetic": "/naʊ/",
+      "pos": "adv.",
+      "sense": "现在；如今；立刻",
+      "collocations": [
+        "right now",
+        "by now",
+        "now that"
+      ],
+      "examples": [
+        "They are now six times longer. 它们现在长了六倍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "now（现在）/ now that（既然，连词）"
+      }
+    },
+    "pathways": {
+      "phonetic": "/ˈpɑːθweɪz/",
+      "pos": "n.",
+      "sense": "路径、途径、通道、路线（复数，本文指大脑神经通路）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "develop pathways"
+      ],
+      "examples": [
+        "When babies are in REM, it allows their brain to develop pathways, connections, and eventually, learn languages. 婴儿处在 REM 期时，大脑借此铺设神经通路和连接，最终还学起语言来。"
+      ]
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "play": {
+      "phonetic": "/pleɪ/",
+      "pos": "v./n.",
+      "sense": "玩、玩耍、扮演、参加（运动）、播放；剧本、游戏、作用（本文 play a key role 起关键作用 / play catch-up 奋起直追）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "factors at play"
+      ],
+      "examples": [
+        "So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at play. 所以，要是宝宝睡着时看着紧绷，或者醒来闹脾气，那多半是别的原因在作怪。"
+      ]
+    },
+    "psychologist": {
+      "phonetic": "/saɪˈkɒlədʒɪst/",
+      "pos": "n.",
+      "sense": "心理学家、心理学研究者",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "psychology（心理学，psycho- 心理 + -logy …学）+ -ist（表人，去 y）",
+        "confusables": "psychologist（心理学家，指人）/ psychology（心理学，学科）/ psychological（心理的）/ -ist 表「从事…的人」（scientist、economist）"
+      },
+      "collocations": [
+        "Psychologist David"
+      ],
+      "examples": [
+        "Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day. 心理学家 David Foulkes 专门研究孩子（从刚会走的小不点到青少年），想把孩子们梦境里的秘密都翻出来见见光。"
+      ]
+    },
+    "purpose": {
+      "phonetic": "/ˈpɜːpəs/",
+      "pos": "n.",
+      "sense": "目的、意图",
+      "collocations": [
+        "the ultimate purpose",
+        "on purpose"
+      ],
+      "examples": [
+        "What is the purpose of this rule? 这条规定的目的是什么？"
+      ],
+      "isCet4HighFreq": true
+    },
+    "question": {
+      "phonetic": "/ˈkwestʃən/",
+      "pos": "n./v.",
+      "sense": "问题（需回答）；疑问 / 质疑",
+      "collocations": [
+        "ask a question",
+        "the question is",
+        "out of the question"
+      ],
+      "examples": [
+        "This seemingly easy question drives the need to understand. 这个看似简单的问题催生了理解的需要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "question（疑问）/ problem（难题）/ out of the question（不可能）"
+      }
+    },
+    "recall": {
+      "phonetic": "/rɪˈkɔːl/",
+      "pos": "v./n.",
+      "sense": "回忆、回想起、记得；召回（产品或人员）；记忆力、召回",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall. 在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。"
+      ]
+    },
+    "remember": {
+      "phonetic": "/rɪˈmembə(r)/",
+      "pos": "v.",
+      "sense": "记得；记住；想起",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "remember dreams",
+        "ability to remember"
+      ],
+      "examples": [
+        "They also start developing greater ability to remember dreams. 同时，他们也越来越能记住自己做过的梦。"
+      ],
+      "more": {
+        "confusables": "remember / remembered（同族不同词形，注意词性与用法）"
+      }
+    },
+    "safe": {
+      "phonetic": "/seɪf/",
+      "pos": "adj./n.",
+      "sense": "安全的；平安的（n. 保险箱）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "it's safe",
+        "safe to",
+        "safe to assume"
+      ],
+      "examples": [
+        "Since your baby doesn't dream at this stage of brain development, it's safe to assume babies do not have nightmares, either. 既然宝宝在这个阶段还不会做梦，那基本可以放心：他们也不会做噩梦。"
+      ],
+      "more": {
+        "confusables": "safe / safeguards / safely（同族不同词形，注意词性与用法）"
+      }
+    },
+    "scientists": {
+      "phonetic": "/ˈsaɪəntɪsts/",
+      "pos": "n.",
+      "sense": "科学家（scientist 的复数）",
+      "lemma": "scientist",
+      "collocations": [
+        "social scientists",
+        "scientists found"
+      ],
+      "examples": [
+        "Social scientists found digital use beneficial. 社会科学家发现数字使用有益。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "science（科学）+ -ist",
+        "confusables": "scientist（科学家）/ science（科学）"
+      }
+    },
+    "see": {
+      "phonetic": "/siː/",
+      "pos": "v.",
+      "sense": "看见；明白（I see）；见证",
+      "collocations": [
+        "see that",
+        "as we can see",
+        "see sb do/doing"
+      ],
+      "examples": [
+        "We see the same pattern again. 我们又看到了同样的模式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "see（看见，无意）/ look at（看，有意）/ watch（观看，持续）"
+      }
+    },
+    "seeing": {
+      "phonetic": "/siːɪŋ/",
+      "pos": "v.",
+      "sense": "看见；明白（I see）；见证（see 的现在分词/动名词形式）",
+      "lemma": "see",
+      "collocations": [
+        "begin seeing",
+        "seeing moving"
+      ],
+      "examples": [
+        "Kids ages 5 – 9 begin seeing moving images and characters in action. 到 5–9 岁，孩子梦里开始出现会动的画面和活起来的人物。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "see + -ing（现在分词/动名词）",
+        "confusables": "seeing（现在分词/动名词）/ see（原形）"
+      }
+    },
+    "seems": {
+      "phonetic": "/siːmz/",
+      "pos": "v.",
+      "sense": "似乎、好像（seem + adj. / seem to do）（seem 的复数/三单形式）",
+      "lemma": "seem",
+      "collocations": [
+        "seems to",
+        "baby seems"
+      ],
+      "examples": [
+        "According to Foulkes, \"Children's dream life…seems to be similar to their waking imagination and narration.\" Foulkes 说：『小孩的梦……看着倒很像他们醒着时的想象和碎碎念。』"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "seem + -s（复数/三单）",
+        "confusables": "seems（复数/三单）/ seem（原形）"
+      }
+    },
+    "sights": {
+      "phonetic": "/saɪtts/",
+      "pos": "n./v.",
+      "sense": "视力、视觉；景象、名胜（sights）；看见、瞥见（at first sight / catch sight of / lose sight of）（sight 的复数/三单形式）",
+      "lemma": "sight",
+      "collocations": [
+        "familiar sights"
+      ],
+      "examples": [
+        "They heavily feature animals and other familiar sights, like images of people eating. 梦里满屏都是动物和一些眼熟的情景，比方说人吃东西的模样。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "sight + -s（复数/三单）",
+        "confusables": "sights（复数/三单）/ sight（原形）"
+      }
+    },
+    "similar": {
+      "phonetic": "/ˈsɪmələ(r)/",
+      "pos": "adj.",
+      "sense": "相似的、类似的",
+      "collocations": [
+        "be similar to",
+        "similar percentages",
+        "in a similar way"
+      ],
+      "examples": [
+        "Men reported similar levels of enjoyment. 男性报告的享受程度相近。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "similar to（与……相似）/ the same as（与……相同）"
+      }
+    },
+    "since": {
+      "phonetic": "/sɪns/",
+      "pos": "conj./prep./adv.",
+      "sense": "自从（时间）；因为（原因）",
+      "collocations": [
+        "since then",
+        "ever since",
+        "especially since"
+      ],
+      "examples": [
+        "Since then, many cases have been filed. 自那以后，许多案件被提起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "since（自从/因为）/ for（持续一段时间）/ from（起点）"
+      }
+    },
+    "small": {
+      "phonetic": "/smɔːl/",
+      "pos": "adj.",
+      "sense": "小的；少量的",
+      "collocations": [
+        "a small number of",
+        "small changes",
+        "small talk"
+      ],
+      "examples": [
+        "A small fraction of men did more childcare. 极小一部分男性承担更多育儿。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "small（小，尺寸）/ little（少，不可数）/ minor（次要的）"
+      }
+    },
+    "start": {
+      "phonetic": "/stɑːt/",
+      "pos": "v./n.",
+      "sense": "开始、着手、出发、启动、创办；开端、起点、出发、开头优势",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "babies start",
+        "start dreaming",
+        "start developing"
+      ],
+      "examples": [
+        "So, when do babies start dreaming? 那婴儿究竟多大才开始做梦呢？"
+      ],
+      "more": {
+        "confusables": "start / starting / startup（同族不同词形，注意词性与用法）"
+      }
+    },
+    "state": {
+      "phonetic": "/steɪt/",
+      "pos": "n./v./adj.",
+      "sense": "状态、状况、情形；国家、州、政府；陈述、说明、规定；州的、国事的",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "state（状态；国家；州，名词；陈述，动词）/ in a … state（处于…状态）/ state that（陈述…，后接从句）/ condition（条件/状况）/ the United States（复数形式表单数义）"
+      },
+      "collocations": [
+        "stressful state",
+        "state while"
+      ],
+      "examples": [
+        "So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at play. 所以，要是宝宝睡着时看着紧绷，或者醒来闹脾气，那多半是别的原因在作怪。"
+      ]
+    },
+    "still": {
+      "phonetic": "/stɪl/",
+      "pos": "adv./adj.",
+      "sense": "仍然、还（副词）；静止的、平静的（形容词）",
+      "collocations": [
+        "still true",
+        "still work",
+        "keep still"
+      ],
+      "examples": [
+        "The gap is still wide. 差距仍然很大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "still（仍然）/ yet（尚，多用于否定疑问）/ already（已经）"
+      }
+    },
+    "studies": {
+      "phonetic": "/ˈstʌdiz/",
+      "pos": "n./v.",
+      "sense": "研究（study 的复数）；study 的第三人称单数",
+      "lemma": "study",
+      "collocations": [
+        "studies show that",
+        "recent studies"
+      ],
+      "examples": [
+        "Studies suggest a strong link. 研究表明存在强关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "studies（复数/三单）/ study（单数）"
+      }
+    },
+    "teens": {
+      "phonetic": "/tiːnz/",
+      "pos": "n./adj.",
+      "sense": "青少年（常用复数teens：十几岁；adj. 青少年的）（teen 的复数/三单形式）",
+      "lemma": "teen",
+      "collocations": [
+        "kids to teens"
+      ],
+      "examples": [
+        "Psychologist David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day. 心理学家 David Foulkes 专门研究孩子（从刚会走的小不点到青少年），想把孩子们梦境里的秘密都翻出来见见光。"
+      ],
+      "isCet4HighFreq": false,
+      "more": {
+        "roots": "teen + -s（复数/三单）",
+        "confusables": "teens（复数/三单）/ teen（原形）"
+      }
+    },
+    "through": {
+      "phonetic": "/θruː/",
+      "pos": "prep.",
+      "sense": "通过、凭借",
+      "collocations": [
+        "continues through",
+        "through age"
+      ],
+      "examples": [
+        "Still, that's not always the case: When roused during REM sleep, 25% of the kids in Foulkes' studies had no recollection of dreaming, a trend that continues through age 9. 不过话也说回来：在 REM 期被叫醒时，Foulkes 研究里 25% 的孩子根本不记得自己梦过——而且这情形一直延续到 9 岁。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "through / throughput（同族不同词形，注意词性与用法）"
+      }
+    },
+    "times": {
+      "phonetic": "/taɪmz/",
+      "pos": "n.",
+      "sense": "次数；时代（time 的复数）；乘以",
+      "lemma": "time",
+      "collocations": [
+        "three times",
+        "at times",
+        "in modern times"
+      ],
+      "examples": [
+        "He won three times. 他赢过三次。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "times（次数/时代）/ time（时间）"
+      }
+    },
+    "together": {
+      "phonetic": "/təˈɡeðə/",
+      "pos": "adv./adj.",
+      "sense": "一起、共同、同时、合计、连续地；（口语）沉着自信的、协调的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "strung together"
+      ],
+      "examples": [
+        "Dreams now include multiple events strung together, one after the other. 这时候的梦会把好几件事串在一起，一件挨着一件。"
+      ]
+    },
+    "trend": {
+      "phonetic": "/trend/",
+      "pos": "n.",
+      "sense": "趋势（可数）",
+      "collocations": [
+        "a clear trend",
+        "the trend towards"
+      ],
+      "examples": [
+        "The data show a clear trend. 数据显示出明确趋势。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "trend（趋势）/ tendency（倾向）/ pattern（模式）"
+      }
+    },
+    "usually": {
+      "phonetic": "/ˈjuːʒuəli/",
+      "pos": "adv.",
+      "sense": "通常、经常、平常、一贯",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "usual（通常的）+ -ly（副词后缀）",
+        "confusables": "usually（通常、一般，频率约八九成，副词）/ often（约五六成）/ always（总是）/ as usual（像往常一样，usual 是形容词）/ normally（近义）"
+      },
+      "collocations": [],
+      "examples": [
+        "Dreams of very small kids are usually just snapshots(快照), looking much more like a slideshow than a movie, when compared to the dreams of adults. 小小孩的梦多半只是一张张定格画面，比起大人的梦，更像幻灯片而不是电影。"
+      ]
+    },
+    "wakes": {
+      "phonetic": "/weɪkz/",
+      "pos": "v.",
+      "sense": "醒来；唤醒；唤起（wake 的复数/三单形式）",
+      "lemma": "wake",
+      "collocations": [],
+      "examples": [
+        "In his lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe what they recall. 在他的实验室里，他哄孩子们睡着，一晚上叫醒三次，让他们说说刚梦到了什么。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "wake + -s（复数/三单）",
+        "confusables": "wakes（复数/三单）/ wake（原形）"
+      }
+    },
+    "waking": {
+      "phonetic": "/weɪkɪŋ/",
+      "pos": "v.",
+      "sense": "醒来；唤醒；唤起（wake 的现在分词/动名词形式）",
+      "lemma": "wake",
+      "collocations": [
+        "waking imagination",
+        "upon waking"
+      ],
+      "examples": [
+        "According to Foulkes, \"Children's dream life…seems to be similar to their waking imagination and narration.\" Foulkes 说：『小孩的梦……看着倒很像他们醒着时的想象和碎碎念。』"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "wake + -ing（现在分词/动名词）",
+        "confusables": "waking（现在分词/动名词）/ wake（原形）"
+      }
+    },
+    "wondering": {
+      "phonetic": "/ˈwʌndə(r)ɪŋ/",
+      "pos": "v./n.",
+      "sense": "想知道、纳闷；惊奇（wonder 的现在分词/动名词形式）",
+      "lemma": "wonder",
+      "collocations": [],
+      "examples": [
+        "Are you wondering, what do babies dream about? 你是不是也在琢磨：小婴儿到底梦见了啥？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "wonder + -ing（现在分词/动名词）",
+        "confusables": "wondering（现在分词/动名词）/ wonder（原形）"
+      }
+    }
+  }
+}

@@ -1,0 +1,4023 @@
+{
+  "sourceKey": "cet4-2025-06-set2Cloze",
+  "articleId": "set2Cloze",
+  "packVersion": "2026.11.08-1",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 6,
+    "setNo": 2,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "Alfred Hitchcock: The Master of Suspense",
+    "wordCount": 199
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Sir Alfred Hitchcock was an English movie director and producer. Famously 26 to as 'The Master of Suspense,' Hitchcock is one of the most influential filmmakers in the history of 27 . He was an extraordinary director who entertained his audience with 28 and gripping suspense movies.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 64,
+          "text": "Sir Alfred Hitchcock was an English movie director and producer.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Sir",
+              "normalized": "sir",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "surface": "Alfred",
+              "normalized": "alfred",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 20,
+              "surface": "Hitchcock",
+              "normalized": "hitchcock",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 35,
+              "surface": "English",
+              "normalized": "english",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "movie",
+              "normalized": "movie",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 50,
+              "surface": "director",
+              "normalized": "director",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 63,
+              "surface": "producer",
+              "normalized": "producer",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 64,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "阿尔弗雷德·希区柯克爵士曾是一位英国电影导演和制片人。",
+            "translationNatural": "希区柯克爵士是英国人，干的是导演兼制片的活儿。",
+            "structMarkup": "【Sir Alfred Hitchcock】 _was_ ~an English movie director and producer~.",
+            "structureSummary": "主系表（一般过去时）",
+            "components": [
+              {
+                "part": "Sir Alfred Hitchcock",
+                "role": "主语",
+                "note": "Sir 加全名作主语，谓语用单数 was；头衔与姓名整体指同一人"
+              },
+              {
+                "part": "was",
+                "role": "系动词",
+                "note": "过去时，与全文回顾生平的基调一致"
+              },
+              {
+                "part": "an English movie director and producer",
+                "role": "表语",
+                "note": "and 连接两个并列表语却只用一个冠词 an，说明导演与制片是同一人兼的两职"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（一般过去时）」。"
+            ],
+            "phrases": [
+              {
+                "text": "producer",
+                "meaning": "生产者、制片人（可数）",
+                "usage": "注意区分：producer（生产者）/ consumer（消费者）/ product（产品）。常见搭配：a major producer / oil producer。",
+                "example": "Brazil is a major soybean producer. 巴西是大豆主要生产国。"
+              },
+              {
+                "text": "Sir",
+                "meaning": "先生、长官（对男性的尊称）；（Sir）爵士、阁下（信函称呼 Dear Sir）",
+                "usage": "本句中作n.，可按「主系表（一般过去时）」定位它在句中的位置。",
+                "example": "Sir Alfred Hitchcock was an English movie director and producer. 希区柯克爵士是英国人，干的是导演兼制片的活儿。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：producer（生产者）/ consumer（消费者）/ product（产品）。",
+              "was：过去时，与全文回顾生平的基调一致"
+            ],
+            "paragraphRole": "开门见山报出人物身份与国籍，为后面『悬念大师』的称号和创作生涯立好坐标。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 65,
+          "end": 183,
+          "text": "Famously 26 to as 'The Master of Suspense,' Hitchcock is one of the most influential filmmakers in the history of 27 .",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Famously",
+              "normalized": "famously",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 17,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 19,
+              "surface": "'",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 29,
+              "surface": "Master",
+              "normalized": "master",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 41,
+              "surface": "Suspense",
+              "normalized": "suspense",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": "'",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 44,
+              "end": 53,
+              "surface": "Hitchcock",
+              "normalized": "hitchcock",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "one",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 67,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 72,
+              "surface": "most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 84,
+              "surface": "influential",
+              "normalized": "influential",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 95,
+              "surface": "filmmakers",
+              "normalized": "filmmakers",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 102,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 110,
+              "surface": "history",
+              "normalized": "history",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 113,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 116,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 117,
+              "end": 118,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "著名地 26 被称为『悬念大师』，希区柯克是 27 的历史上最有影响力的电影人之一。",
+            "translationNatural": "他素来被称作『悬念大师』，也算得上电影史上最有分量的导演之一。",
+            "structMarkup": "(Famously 26 to as 'The Master of Suspense,') 【Hitchcock】 _is_ ~one of the most influential filmmakers~ (in the history of 27) .",
+            "structureSummary": "过去分词短语作状语（含 refer to...as 被动式）+ 主系表（含最高级与 of 短语后置定语）",
+            "components": [
+              {
+                "part": "Famously 26 to as 'The Master of Suspense,'",
+                "role": "状语",
+                "note": "句首过去分词短语作状语；26 空需过去分词，与 to as 拼成 be referred to as 的被动搭配"
+              },
+              {
+                "part": "Hitchcock",
+                "role": "主语",
+                "note": "改用姓氏回指首句全名，避免重复"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "此处转现在时，表示其历史地位至今仍被认可，与首句 was 的生平叙述拉开层次"
+              },
+              {
+                "part": "one of the most influential filmmakers",
+                "role": "表语",
+                "note": "one of + the + 最高级 + 复数名词，意为『最……之一』"
+              },
+              {
+                "part": "in the history of 27",
+                "role": "定语",
+                "note": "of 之后须接名词，27 空填 cinema 才成『电影史』，与『最有影响力的电影人』范围相称"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「过去分词短语作状语（含 refer to...as 被动式）+ 主系表（含最高级与 of 短语后置定语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "famously",
+                "meaning": "著名的、出名的、闻名的（be famous for 因…闻名 / be famous as 作为…出名；本文 Organisers of a famous music festival 某著名音乐节主办方）（famous 的副词形式）",
+                "usage": "注意区分：famously（副词）/ famous（原形）。",
+                "example": "Famously 26 to as 'The Master of Suspense,' Hitchcock is one of the most influential filmmakers in the history of 27 . 他素来被称作『悬念大师』，也算得上电影史上最有分量的导演之一。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：famously（副词）/ famous（原形）。",
+              "本句主干为「过去分词短语作状语（含 refer to...as 被动式）+ 主系表（含最高级与 of 短语后置定语）」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "把首句的身份介绍升级为历史定位，顺带用 26、27 两空分别考过去分词搭配与名词词义。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 184,
+          "end": 283,
+          "text": "He was an extraordinary director who entertained his audience with 28 and gripping suspense movies.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 23,
+              "surface": "extraordinary",
+              "normalized": "extraordinary",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 32,
+              "surface": "director",
+              "normalized": "director",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 36,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 48,
+              "surface": "entertained",
+              "normalized": "entertained",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 52,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 61,
+              "surface": "audience",
+              "normalized": "audience",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 66,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 69,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 70,
+              "end": 73,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 82,
+              "surface": "gripping",
+              "normalized": "gripping",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 91,
+              "surface": "suspense",
+              "normalized": "suspense",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 98,
+              "surface": "movies",
+              "normalized": "movies",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 99,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他是一位非凡的导演，他用 28 且扣人心弦的悬疑片娱乐了他的观众。",
+            "translationNatural": "这位导演了不起，靠一部部既抓人又紧张的悬疑片把观众伺候得服服帖帖。",
+            "structMarkup": "【He】 _was_ ~an extraordinary director~ {who entertained his audience with 28 and gripping suspense movies}.",
+            "structureSummary": "主系表 + 定语从句（who 引导）+ 介词短语作方式状语",
+            "components": [
+              {
+                "part": "He",
+                "role": "主语",
+                "note": "回指 Hitchcock，后面由 who 引出定语从句"
+              },
+              {
+                "part": "was",
+                "role": "系动词",
+                "note": "承接首句的生平叙述时态"
+              },
+              {
+                "part": "an extraordinary director",
+                "role": "表语",
+                "note": "先给一句总评，把依据留给紧随其后的从句"
+              },
+              {
+                "part": "who entertained his audience with 28 and gripping suspense movies",
+                "role": "定语从句",
+                "note": "who 指代 director 并在从句里作主语；28 与 gripping 并列作定语修饰 movies，故须形容词"
+              },
+              {
+                "part": "with 28 and gripping suspense movies",
+                "role": "状语",
+                "note": "with 引出『拿什么取悦观众』，两个并列形容词共同限定 suspense movies"
+              }
+            ],
+            "clauses": [
+              "定语从句「who entertained his audience with 28 and gripping suspense movies」：who 指代 director 并在从句里作主语；28 与 gripping 并列作定语修饰 movies，故须形容词",
+              "本句主干为「主系表 + 定语从句（who 引导）+ 介词短语作方式状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "extraordinary",
+                "meaning": "非凡的、卓越的、特别的；异常的、离奇的（an extraordinary achievement 非凡成就）",
+                "usage": "本句中作adj.，可按「主系表 + 定语从句（who 引导）+ 介词短语作方式状语」定位它在句中的位置。",
+                "example": "He was an extraordinary director who entertained his audience with 28 and gripping suspense movies. 这位导演了不起，靠一部部既抓人又紧张的悬疑片把观众伺候得服服帖帖。"
+              }
+            ],
+            "pitfalls": [
+              "本句主干为「主系表 + 定语从句（who 引导）+ 介词短语作方式状语」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "用具体的作品特色坐实上句的『最有影响力』，并把 28 空安在与 gripping 并列的形容词位置。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. Hence, his movies are 30 of the guilt and innocence of the wrongdoer and the victim. He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. The principal characters in his movies were often ordinary people 32 in unwanted and unavoidable situations.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 146,
+          "text": "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "His",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 15,
+              "surface": "fascination",
+              "normalized": "fascination",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "crime",
+              "normalized": "crime",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "began",
+              "normalized": "began",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 35,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 44,
+              "surface": "early",
+              "normalized": "early",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 53,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "he",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 64,
+              "end": 66,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 77,
+              "surface": "father",
+              "normalized": "father",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 81,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 86,
+              "surface": "made",
+              "normalized": "made",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "him",
+              "normalized": "him",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 96,
+              "surface": "spend",
+              "normalized": "spend",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 98,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 102,
+              "surface": "few",
+              "normalized": "few",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 110,
+              "surface": "minutes",
+              "normalized": "minutes",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 117,
+              "surface": "inside",
+              "normalized": "inside",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 119,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 126,
+              "surface": "prison",
+              "normalized": "prison",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 130,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 134,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 145,
+              "surface": "misconduct",
+              "normalized": "misconduct",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 146,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他对犯罪的着迷在很小的年纪就开始了，当时他因行为不端被他的父亲 29，那位父亲让他在一个监狱里待几分钟。",
+            "translationNatural": "他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。",
+            "structMarkup": "【His fascination with crime】 _began at an early age_ {when he was 29 by his father} {who made him spend a few minutes inside a prison for his misconduct}.",
+            "structureSummary": "主谓 + 时间状语 + 时间状语从句（when 引导，含被动语态与 who 定语从句）",
+            "components": [
+              {
+                "part": "His fascination with crime",
+                "role": "主语",
+                "note": "抽象名词短语作主语；with crime 限定是『对哪方面』的着迷"
+              },
+              {
+                "part": "began at an early age",
+                "role": "谓语",
+                "note": "began 为不及物动词过去式，at an early age 点明起点之早"
+              },
+              {
+                "part": "when he was 29 by his father",
+                "role": "状语从句",
+                "note": "when 引导时间状语从句；was + 过去分词构成被动，29 空需过去分词且要与 by his father 的施动关系相配"
+              },
+              {
+                "part": "who made him spend a few minutes inside a prison for his misconduct",
+                "role": "定语从句",
+                "note": "who 修饰 his father；make sb do 用不带 to 的不定式，for his misconduct 交代受罚缘由"
+              }
+            ],
+            "clauses": [
+              "状语从句「when he was 29 by his father」：when 引导时间状语从句；was + 过去分词构成被动，29 空需过去分词且要与 by his father 的施动关系相配",
+              "定语从句「who made him spend a few minutes inside a prison for his misconduct」：who 修饰 his father；make sb do 用不带 to 的不定式，for his misconduct 交代受罚缘由",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "made",
+                "meaning": "做、制造；使得、使成为；获得（make 的过去式/过去分词）",
+                "usage": "注意区分：be made of（由…制成，看得出原料）/ be made from（由…制成，看不出原料）/ be made in（产地）/ be made to do（被迫做，被动须加 to）/ make sb do（主动使役不带 to）/ make（make-made-made）。",
+                "example": "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+              },
+              {
+                "text": "spend",
+                "meaning": "花费（时间/金钱）、度过、消耗、用尽（spend ... on sth / doing）",
+                "usage": "注意区分：sb spends time/money on sth 或 (in) doing（人作主语）/ sth costs sb money（物作主语）/ it takes sb time to do（it 作形式主语）/ sb pays money for sth（介词 for）/ spend、cost、take、pay 主语与句型不同，不能互换。",
+                "example": "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+              },
+              {
+                "text": "minutes",
+                "meaning": "分钟（minute 的复数）；会议记录",
+                "usage": "注意区分：minutes（分钟/会议记录）/ minute（微小的，读 /maɪˈnjuːt/）。常见搭配：ten minutes / in a few minutes。",
+                "example": "Ten minutes of exercise a week helps. 每周锻炼十分钟就有帮助。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：be made of（由…制成，看得出原料）/ be made from（由…制成，看不出原料）/ be made in（产地）/ be made to do（被迫做，被动须加 to）/ make sb do（主动使役不带 to）/ make（make-made-made）。",
+              "注意区分：sb spends time/money on sth 或 (in) doing（人作主语）/ sth costs sb money（物作主语）/ it takes sb time to do（it 作形式主语）/ sb pays money for sth（介词 for）/ spend、cost、take、pay 主语与句型不同，不能互换。"
+            ],
+            "paragraphRole": "追到童年那次惩罚，替全篇『为何偏爱罪与罚』给出源头，也把 29 空设在被动谓语上。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 147,
+          "end": 231,
+          "text": "Hence, his movies are 30 of the guilt and innocence of the wrongdoer and the victim.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Hence",
+              "normalized": "hence",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 17,
+              "surface": "movies",
+              "normalized": "movies",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 31,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 37,
+              "surface": "guilt",
+              "normalized": "guilt",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 41,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 51,
+              "surface": "innocence",
+              "normalized": "innocence",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 68,
+              "surface": "wrongdoer",
+              "normalized": "wrongdoer",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 72,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 76,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 83,
+              "surface": "victim",
+              "normalized": "victim",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 84,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "因此，他的电影是 30 于作恶者与受害者的有罪与无辜的。",
+            "translationNatural": "所以他的片子总绕着『谁有罪、谁清白』打转，把加害人和受害人一并摆上台面。",
+            "structMarkup": "(Hence), 【his movies】 _are 30 of_ ~the guilt and innocence of the wrongdoer and the victim~.",
+            "structureSummary": "主系表（be + 形容词 + of 短语）",
+            "components": [
+              {
+                "part": "Hence",
+                "role": "状语",
+                "note": "承接上句童年经历引出结果，逗号后接主句"
+              },
+              {
+                "part": "his movies",
+                "role": "主语",
+                "note": "复数主语，系动词用 are"
+              },
+              {
+                "part": "are 30 of",
+                "role": "系动词",
+                "note": "空号夹在 are 与 of 之间，须填能与 of 搭配的形容词，be symbolic of 即『象征……』"
+              },
+              {
+                "part": "the guilt and innocence of the wrongdoer and the victim",
+                "role": "宾语",
+                "note": "作 of 的宾语；guilt 与 innocence、wrongdoer 与 victim 两对反义并置，正是希区柯克电影的核心张力"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（be + 形容词 + of 短语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "Hence",
+                "meaning": "因此、所以、由此（正式用语，表推论，后常接名词或 -ing）；从此以后（…years hence …年后）",
+                "usage": "本句中作adv.，可按「主系表（be + 形容词 + of 短语）」定位它在句中的位置。",
+                "example": "Hence, his movies are 30 of the guilt and innocence of the wrongdoer and the victim. 所以他的片子总绕着『谁有罪、谁清白』打转，把加害人和受害人一并摆上台面。"
+              }
+            ],
+            "pitfalls": [
+              "Hence：承接上句童年经历引出结果，逗号后接主句",
+              "本句主干为「主系表（be + 形容词 + of 短语）」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "把上句的童年印记落成作品主题，30 空考 be ... of 这一形容词搭配。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 232,
+          "end": 389,
+          "text": "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "gift",
+              "normalized": "gift",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 26,
+              "surface": "creating",
+              "normalized": "creating",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 34,
+              "surface": "stories",
+              "normalized": "stories",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 49,
+              "surface": "consisted",
+              "normalized": "consisted",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 59,
+              "surface": "deceit",
+              "normalized": "deceit",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 60,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 61,
+              "end": 68,
+              "surface": "robbery",
+              "normalized": "robbery",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 69,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 70,
+              "end": 76,
+              "surface": "murder",
+              "normalized": "murder",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 77,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 78,
+              "end": 88,
+              "surface": "corruption",
+              "normalized": "corruption",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 90,
+              "end": 93,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 99,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 108,
+              "surface": "criminal",
+              "normalized": "criminal",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 111,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 112,
+              "end": 116,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 127,
+              "surface": "incredible",
+              "normalized": "incredible",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 132,
+              "surface": "plot",
+              "normalized": "plot",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 139,
+              "surface": "twists",
+              "normalized": "twists",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 142,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 146,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 156,
+              "surface": "storyline",
+              "normalized": "storyline",
+              "isWord": true
+            },
+            {
+              "start": 156,
+              "end": 157,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他有一个创造故事的天赋，那些故事由欺骗、抢劫、谋杀、腐败以及其他刑事的 31 组成，并在情节里带着难以置信的剧情反转。",
+            "translationNatural": "他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。",
+            "structMarkup": "【He】 _had a gift for creating stories_ {that consisted of deceit, robbery, murder, corruption, and other criminal 31} (with incredible plot twists in the storyline).",
+            "structureSummary": "主谓宾 + 定语从句（that 引导，含 consist of 与并列宾语）+ 介词短语作伴随状语",
+            "components": [
+              {
+                "part": "He",
+                "role": "主语",
+                "note": "承上，仍指传主"
+              },
+              {
+                "part": "had a gift for creating stories",
+                "role": "谓语",
+                "note": "have a gift for doing 意为『有做某事的天赋』，for 后接动名词"
+              },
+              {
+                "part": "that consisted of deceit, robbery, murder, corruption, and other criminal 31",
+                "role": "定语从句",
+                "note": "that 修饰 stories 并在从句中作主语；consist of 后接一串并列罪名，31 须复数名词与它们同类"
+              },
+              {
+                "part": "with incredible plot twists in the storyline",
+                "role": "状语",
+                "note": "with 短语补出这些故事的卖点——反转；in the storyline 限定反转出现的位置"
+              }
+            ],
+            "clauses": [
+              "定语从句「that consisted of deceit, robbery, murder, corruption, and other crimi」：that 修饰 stories 并在从句中作主语；consist of 后接一串并列罪名，31 须复数名词与它们同类",
+              "本句主干为「主谓宾 + 定语从句（that 引导，含 consist of 与并列宾语）+ 介词短语作伴随状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "creating",
+                "meaning": "创造、造成（create sth）（create 的现在分词/动名词形式）",
+                "usage": "注意区分：creating（现在分词/动名词）/ create（原形）。",
+                "example": "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+              },
+              {
+                "text": "incredible",
+                "meaning": "难以置信的、惊人的",
+                "usage": "注意区分：incredible（难以置信的，指事物令人惊叹）/ incredulous（表示怀疑的、不相信的，指人的态度）/ credible（可信的）/ credit（信用；学分）。",
+                "example": "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：creating（现在分词/动名词）/ create（原形）。",
+              "注意区分：incredible（难以置信的，指事物令人惊叹）/ incredulous（表示怀疑的、不相信的，指人的态度）/ credible（可信的）/ credit（信用；学分）。"
+            ],
+            "paragraphRole": "铺开罪案清单来证明『有天赋』，31 空借 and other criminal 逼出一个复数名词。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 390,
+          "end": 498,
+          "text": "The principal characters in his movies were often ordinary people 32 in unwanted and unavoidable situations.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 13,
+              "surface": "principal",
+              "normalized": "principal",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 24,
+              "surface": "characters",
+              "normalized": "characters",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 31,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 38,
+              "surface": "movies",
+              "normalized": "movies",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "surface": "often",
+              "normalized": "often",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 58,
+              "surface": "ordinary",
+              "normalized": "ordinary",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 65,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 69,
+              "end": 71,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 80,
+              "surface": "unwanted",
+              "normalized": "unwanted",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 84,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 96,
+              "surface": "unavoidable",
+              "normalized": "unavoidable",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 107,
+              "surface": "situations",
+              "normalized": "situations",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 108,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他电影里的主角常常是普通人，32 于不想要且无法避免的处境之中。",
+            "translationNatural": "他片中的主人公多半是寻常百姓，偏偏被卷进躲不开、甩不掉的麻烦里。",
+            "structMarkup": "【The principal characters in his movies】 _were often ordinary people_ (32 in unwanted and unavoidable situations).",
+            "structureSummary": "主系表 + 过去分词短语作后置定语",
+            "components": [
+              {
+                "part": "The principal characters in his movies",
+                "role": "主语",
+                "note": "复数主语，in his movies 作后置限定，谓语用 were"
+              },
+              {
+                "part": "were often ordinary people",
+                "role": "系动词",
+                "note": "频度副词 often 置于系动词之后，表语点明主角身份"
+              },
+              {
+                "part": "32 in unwanted and unavoidable situations",
+                "role": "定语",
+                "note": "过去分词短语后置修饰 ordinary people；be caught in 是固定搭配，32 须过去分词"
+              },
+              {
+                "part": "unwanted and unavoidable situations",
+                "role": "宾语",
+                "note": "两个带否定前缀的形容词并列，写出处境既非本意又无从逃脱"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主系表 + 过去分词短语作后置定语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "situations",
+                "meaning": "情形、处境（situation 的复数）",
+                "usage": "注意区分：situation（情形）/ condition（条件/状况）/ circumstance（环境，常用复数）。常见搭配：in certain situations / a difficult situation。",
+                "example": "Data is impractical in certain situations. 数据在某些情形下不实用。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：situation（情形）/ condition（条件/状况）/ circumstance（环境，常用复数）。"
+            ],
+            "paragraphRole": "收束本段对『希区柯克式主角』的刻画，32 空考过去分词作后置定语。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "He was 33 productive and his amazing body of work is considered fascinating by the critics. Most of his movies have 34 the test of time and are considered to be masterpieces. He is also remembered by other filmmakers, for he continues to inspire them to be passionate about their work. He is also 35 by people around the world for his entertaining and exciting stories.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 91,
+          "text": "He was 33 productive and his amazing body of work is considered fascinating by the critics.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 10,
+              "end": 20,
+              "surface": "productive",
+              "normalized": "productive",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "amazing",
+              "normalized": "amazing",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "body",
+              "normalized": "body",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 44,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 49,
+              "surface": "work",
+              "normalized": "work",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 63,
+              "surface": "considered",
+              "normalized": "considered",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 75,
+              "surface": "fascinating",
+              "normalized": "fascinating",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 82,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 90,
+              "surface": "critics",
+              "normalized": "critics",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 91,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他是 33 多产的，并且他惊人的作品总量被评论家认为是迷人的。",
+            "translationNatural": "他一辈子高产得吓人，评论界也公认这批作品耐看。",
+            "structMarkup": "【He】 _was 33 productive_ and 【his amazing body of work】 _is considered fascinating by the critics_.",
+            "structureSummary": "并列句（and 连接两个分句：主系表 + 被动语态主谓补）",
+            "components": [
+              {
+                "part": "He",
+                "role": "主语",
+                "note": "第一分句主语，回指 Hitchcock"
+              },
+              {
+                "part": "was 33 productive",
+                "role": "系动词",
+                "note": "33 空位于 was 与形容词 productive 之间，须副词修饰，highly productive 即『极为多产』"
+              },
+              {
+                "part": "and",
+                "role": "连词",
+                "note": "连接两个并列分句，前说产量、后说口碑"
+              },
+              {
+                "part": "his amazing body of work",
+                "role": "主语",
+                "note": "a body of work 指『全部作品、作品总量』，核心词 body 为单数"
+              },
+              {
+                "part": "is considered fascinating by the critics",
+                "role": "谓语",
+                "note": "被动语态加宾语补足语；is 用现在时说明评价延续至今"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「并列句（and 连接两个分句：主系表 + 被动语态主谓补）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "productive",
+                "meaning": "多产的、高效的、富有成效的、有产出的",
+                "usage": "注意区分：productive（多产的、富有成效的）/ productivity（生产率）/ produce（动词）/ productive 与 efficient（efficient 指效率高、不浪费，productive 指产出多）。",
+                "example": "He was 33 productive and his amazing body of work is considered fascinating by the critics. 他一辈子高产得吓人，评论界也公认这批作品耐看。"
+              },
+              {
+                "text": "work",
+                "meaning": "工作；运转、奏效 / 工作、作品",
+                "usage": "注意区分：work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）。常见搭配：work well / at work。",
+                "example": "The approach works in practice. 这个方法在实践中奏效。"
+              },
+              {
+                "text": "considered",
+                "meaning": "consider 的过去分词，认为、考虑",
+                "usage": "常见搭配：be considered to be。",
+                "example": "He was 33 productive and his amazing body of work is considered fascinating by the critics. 他一辈子高产得吓人，评论界也公认这批作品耐看。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：productive（多产的、富有成效的）/ productivity（生产率）/ produce（动词）/ productive 与 efficient（efficient 指效率高、不浪费，productive 指产出多）。",
+              "注意区分：work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）。"
+            ],
+            "paragraphRole": "转入创作生涯的总评，33 空考副词修饰形容词，后半句用评论界口碑垫场。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 92,
+          "end": 174,
+          "text": "Most of his movies have 34 the test of time and are considered to be masterpieces.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "surface": "movies",
+              "normalized": "movies",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 23,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "test",
+              "normalized": "test",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 47,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 62,
+              "surface": "considered",
+              "normalized": "considered",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 81,
+              "surface": "masterpieces",
+              "normalized": "masterpieces",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 82,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他的大多数电影已经 34 了时间的考验，并且被认为是杰作。",
+            "translationNatural": "他大部分片子都经得起年月淘洗，到今天仍被奉为经典。",
+            "structMarkup": "【Most of his movies】 _have 34 the test of time_ _and are considered to be masterpieces_.",
+            "structureSummary": "主谓宾（现在完成时）+ 并列谓语（被动 + 不定式作主语补足语）",
+            "components": [
+              {
+                "part": "Most of his movies",
+                "role": "主语",
+                "note": "most of + 复数名词，谓语用复数 have"
+              },
+              {
+                "part": "have 34 the test of time",
+                "role": "谓语",
+                "note": "现在完成时，34 空须过去分词；stand the test of time 是固定说法『经得起时间考验』"
+              },
+              {
+                "part": "and are considered to be masterpieces",
+                "role": "谓语",
+                "note": "and 接第二个并列谓语；consider sth to be 的被动式，to be masterpieces 作主语补足语"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主谓宾（现在完成时）+ 并列谓语（被动 + 不定式作主语补足语）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "time",
+                "meaning": "时间；次数；时机 / 计时",
+                "usage": "注意区分：times（时代）/ time（时间，不可数）。常见搭配：at the same time / take time off。",
+                "example": "It takes time to change habits. 改变习惯需要时间。"
+              },
+              {
+                "text": "considered",
+                "meaning": "consider 的过去分词，认为、考虑",
+                "usage": "常见搭配：be considered to be。",
+                "example": "Most of his movies have 34 the test of time and are considered to be masterpieces. 他大部分片子都经得起年月淘洗，到今天仍被奉为经典。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：times（时代）/ time（时间，不可数）。"
+            ],
+            "paragraphRole": "用『经得起时间考验』给上句总评上硬证据，34 空考现在完成时里的固定搭配。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 175,
+          "end": 285,
+          "text": "He is also remembered by other filmmakers, for he continues to inspire them to be passionate about their work.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 5,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 21,
+              "surface": "remembered",
+              "normalized": "remembered",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 30,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 41,
+              "surface": "filmmakers",
+              "normalized": "filmmakers",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 46,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "he",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 59,
+              "surface": "continues",
+              "normalized": "continues",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 70,
+              "surface": "inspire",
+              "normalized": "inspire",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 92,
+              "surface": "passionate",
+              "normalized": "passionate",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 98,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 104,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 109,
+              "surface": "work",
+              "normalized": "work",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 110,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他也被其他电影人铭记，因为他持续激励他们去对他们的工作充满热情。",
+            "translationNatural": "同行也一直记着他：到今天他还在给后辈打气，让人对自己的活儿保有热乎劲儿。",
+            "structMarkup": "【He】 _is also remembered by other filmmakers_, {for he continues to inspire them to be passionate about their work}.",
+            "structureSummary": "主谓（被动）+ 原因状语从句（for 引导，含 continue to do 与不定式作宾补）",
+            "components": [
+              {
+                "part": "He",
+                "role": "主语",
+                "note": "承接上句"
+              },
+              {
+                "part": "is also remembered by other filmmakers",
+                "role": "谓语",
+                "note": "被动语态，by 引出施动者；also 与下句 also 呼应，追加一层影响"
+              },
+              {
+                "part": "for he continues to inspire them to be passionate about their work",
+                "role": "状语从句",
+                "note": "for 作并列连词补充原因，不能置句首；continue to do 后接 inspire sb to do"
+              },
+              {
+                "part": "to be passionate about their work",
+                "role": "补语",
+                "note": "不定式作 them 的宾语补足语，说明被激励去达成的状态"
+              }
+            ],
+            "clauses": [
+              "状语从句「for he continues to inspire them to be passionate about their work」：for 作并列连词补充原因，不能置句首；continue to do 后接 inspire sb to do",
+              "本句主干为「主谓（被动）+ 原因状语从句（for 引导，含 continue to do 与不定式作宾补）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "continues",
+                "meaning": "继续（continue to do / continue doing）（continue 的复数/三单形式）",
+                "usage": "注意区分：continues（复数/三单）/ continue（原形）。",
+                "example": "He is also remembered by other filmmakers, for he continues to inspire them to be passionate about their work. 同行也一直记着他：到今天他还在给后辈打气，让人对自己的活儿保有热乎劲儿。"
+              },
+              {
+                "text": "be passionate about",
+                "meaning": "充满热情的",
+                "usage": "注意区分：be passionate about（对…充满热情，介词 about）/ passionate（热情的、激昂的）/ passion（激情；酷爱）/ passionate 与 compassionate（有同情心的，形近义远）/ passive（被动的，同根义不同）。常见搭配：be passionate about。",
+                "example": "He is passionate about music. 他对音乐充满热情。"
+              },
+              {
+                "text": "work",
+                "meaning": "工作；运转、奏效 / 工作、作品",
+                "usage": "注意区分：work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）。常见搭配：work well / at work。",
+                "example": "The approach works in practice. 这个方法在实践中奏效。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：continues（复数/三单）/ continue（原形）。",
+              "注意区分：be passionate about（对…充满热情，介词 about）/ passionate（热情的、激昂的）/ passion（激情；酷爱）/ passionate 与 compassionate（有同情心的，形近义远）/ passive（被动的，同根义不同）。",
+              "注意区分：work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）。"
+            ],
+            "paragraphRole": "把影响从『作品』扩到『人』，为末句再补一句全世界影迷的推崇做铺垫。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 286,
+          "end": 369,
+          "text": "He is also 35 by people around the world for his entertaining and exciting stories.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "He",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 5,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 13,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 14,
+              "end": 16,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 23,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 30,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 34,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 40,
+              "surface": "world",
+              "normalized": "world",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 61,
+              "surface": "entertaining",
+              "normalized": "entertaining",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 65,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 74,
+              "surface": "exciting",
+              "normalized": "exciting",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 82,
+              "surface": "stories",
+              "normalized": "stories",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 83,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他也因他的有趣且刺激的故事被世界各地的人们 35。",
+            "translationNatural": "不光同行，全球观众也因为他那些又好玩又带劲的故事一直捧他。",
+            "structMarkup": "【He】 _is also 35 by_ ~people around the world~ (for his entertaining and exciting stories).",
+            "structureSummary": "主谓（被动）+ 状语（by 短语 + for 短语）",
+            "components": [
+              {
+                "part": "He",
+                "role": "主语",
+                "note": "与首句同一人，全段四个分句共用"
+              },
+              {
+                "part": "is also 35 by",
+                "role": "谓语",
+                "note": "被动语态，35 空须过去分词；also 与上句 also 呼应，从同行扩到大众"
+              },
+              {
+                "part": "people around the world",
+                "role": "宾语",
+                "note": "by 引出施动者，around the world 作后置定语，指全球影迷"
+              },
+              {
+                "part": "for his entertaining and exciting stories",
+                "role": "状语",
+                "note": "for 此处表理由，说明为何被推崇；两个 -ing 形容词并列修饰 stories"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓（被动）+ 状语（by 短语 + for 短语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "around the world",
+                "meaning": "世界；领域；世人",
+                "usage": "注意区分：world（世界）/ word（单词）读音与拼写易混。常见搭配：around the world / the world of work。",
+                "example": "The idea spread around the world. 这个想法传遍世界。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：world（世界）/ word（单词）读音与拼写易混。"
+            ],
+            "paragraphRole": "以『被全世界推崇』收束全篇，35 空考被动谓语里的过去分词，与 33 空的副词、34 空的完成时形成词性对照。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "caught"
+        },
+        {
+          "key": "B",
+          "text": "cinema"
+        },
+        {
+          "key": "C",
+          "text": "engaging"
+        },
+        {
+          "key": "D",
+          "text": "graphically"
+        },
+        {
+          "key": "E",
+          "text": "highly"
+        },
+        {
+          "key": "F",
+          "text": "incentive"
+        },
+        {
+          "key": "G",
+          "text": "instincts"
+        },
+        {
+          "key": "H",
+          "text": "offences"
+        },
+        {
+          "key": "I",
+          "text": "punished"
+        },
+        {
+          "key": "J",
+          "text": "referred"
+        },
+        {
+          "key": "K",
+          "text": "stood"
+        },
+        {
+          "key": "L",
+          "text": "symbolic"
+        },
+        {
+          "key": "M",
+          "text": "tuned"
+        },
+        {
+          "key": "N",
+          "text": "visually"
+        },
+        {
+          "key": "O",
+          "text": "worshipped"
+        }
+      ],
+      "answer": "J"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "caught"
+        },
+        {
+          "key": "B",
+          "text": "cinema"
+        },
+        {
+          "key": "C",
+          "text": "engaging"
+        },
+        {
+          "key": "D",
+          "text": "graphically"
+        },
+        {
+          "key": "E",
+          "text": "highly"
+        },
+        {
+          "key": "F",
+          "text": "incentive"
+        },
+        {
+          "key": "G",
+          "text": "instincts"
+        },
+        {
+          "key": "H",
+          "text": "offences"
+        },
+        {
+          "key": "I",
+          "text": "punished"
+        },
+        {
+          "key": "J",
+          "text": "referred"
+        },
+        {
+          "key": "K",
+          "text": "stood"
+        },
+        {
+          "key": "L",
+          "text": "symbolic"
+        },
+        {
+          "key": "M",
+          "text": "tuned"
+        },
+        {
+          "key": "N",
+          "text": "visually"
+        },
+        {
+          "key": "O",
+          "text": "worshipped"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "caught"
+        },
+        {
+          "key": "B",
+          "text": "cinema"
+        },
+        {
+          "key": "C",
+          "text": "engaging"
+        },
+        {
+          "key": "D",
+          "text": "graphically"
+        },
+        {
+          "key": "E",
+          "text": "highly"
+        },
+        {
+          "key": "F",
+          "text": "incentive"
+        },
+        {
+          "key": "G",
+          "text": "instincts"
+        },
+        {
+          "key": "H",
+          "text": "offences"
+        },
+        {
+          "key": "I",
+          "text": "punished"
+        },
+        {
+          "key": "J",
+          "text": "referred"
+        },
+        {
+          "key": "K",
+          "text": "stood"
+        },
+        {
+          "key": "L",
+          "text": "symbolic"
+        },
+        {
+          "key": "M",
+          "text": "tuned"
+        },
+        {
+          "key": "N",
+          "text": "visually"
+        },
+        {
+          "key": "O",
+          "text": "worshipped"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "caught"
+        },
+        {
+          "key": "B",
+          "text": "cinema"
+        },
+        {
+          "key": "C",
+          "text": "engaging"
+        },
+        {
+          "key": "D",
+          "text": "graphically"
+        },
+        {
+          "key": "E",
+          "text": "highly"
+        },
+        {
+          "key": "F",
+          "text": "incentive"
+        },
+        {
+          "key": "G",
+          "text": "instincts"
+        },
+        {
+          "key": "H",
+          "text": "offences"
+        },
+        {
+          "key": "I",
+          "text": "punished"
+        },
+        {
+          "key": "J",
+          "text": "referred"
+        },
+        {
+          "key": "K",
+          "text": "stood"
+        },
+        {
+          "key": "L",
+          "text": "symbolic"
+        },
+        {
+          "key": "M",
+          "text": "tuned"
+        },
+        {
+          "key": "N",
+          "text": "visually"
+        },
+        {
+          "key": "O",
+          "text": "worshipped"
+        }
+      ],
+      "answer": "I"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "caught"
+        },
+        {
+          "key": "B",
+          "text": "cinema"
+        },
+        {
+          "key": "C",
+          "text": "engaging"
+        },
+        {
+          "key": "D",
+          "text": "graphically"
+        },
+        {
+          "key": "E",
+          "text": "highly"
+        },
+        {
+          "key": "F",
+          "text": "incentive"
+        },
+        {
+          "key": "G",
+          "text": "instincts"
+        },
+        {
+          "key": "H",
+          "text": "offences"
+        },
+        {
+          "key": "I",
+          "text": "punished"
+        },
+        {
+          "key": "J",
+          "text": "referred"
+        },
+        {
+          "key": "K",
+          "text": "stood"
+        },
+        {
+          "key": "L",
+          "text": "symbolic"
+        },
+        {
+          "key": "M",
+          "text": "tuned"
+        },
+        {
+          "key": "N",
+          "text": "visually"
+        },
+        {
+          "key": "O",
+          "text": "worshipped"
+        }
+      ],
+      "answer": "L"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "caught"
+        },
+        {
+          "key": "B",
+          "text": "cinema"
+        },
+        {
+          "key": "C",
+          "text": "engaging"
+        },
+        {
+          "key": "D",
+          "text": "graphically"
+        },
+        {
+          "key": "E",
+          "text": "highly"
+        },
+        {
+          "key": "F",
+          "text": "incentive"
+        },
+        {
+          "key": "G",
+          "text": "instincts"
+        },
+        {
+          "key": "H",
+          "text": "offences"
+        },
+        {
+          "key": "I",
+          "text": "punished"
+        },
+        {
+          "key": "J",
+          "text": "referred"
+        },
+        {
+          "key": "K",
+          "text": "stood"
+        },
+        {
+          "key": "L",
+          "text": "symbolic"
+        },
+        {
+          "key": "M",
+          "text": "tuned"
+        },
+        {
+          "key": "N",
+          "text": "visually"
+        },
+        {
+          "key": "O",
+          "text": "worshipped"
+        }
+      ],
+      "answer": "H"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "caught"
+        },
+        {
+          "key": "B",
+          "text": "cinema"
+        },
+        {
+          "key": "C",
+          "text": "engaging"
+        },
+        {
+          "key": "D",
+          "text": "graphically"
+        },
+        {
+          "key": "E",
+          "text": "highly"
+        },
+        {
+          "key": "F",
+          "text": "incentive"
+        },
+        {
+          "key": "G",
+          "text": "instincts"
+        },
+        {
+          "key": "H",
+          "text": "offences"
+        },
+        {
+          "key": "I",
+          "text": "punished"
+        },
+        {
+          "key": "J",
+          "text": "referred"
+        },
+        {
+          "key": "K",
+          "text": "stood"
+        },
+        {
+          "key": "L",
+          "text": "symbolic"
+        },
+        {
+          "key": "M",
+          "text": "tuned"
+        },
+        {
+          "key": "N",
+          "text": "visually"
+        },
+        {
+          "key": "O",
+          "text": "worshipped"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "caught"
+        },
+        {
+          "key": "B",
+          "text": "cinema"
+        },
+        {
+          "key": "C",
+          "text": "engaging"
+        },
+        {
+          "key": "D",
+          "text": "graphically"
+        },
+        {
+          "key": "E",
+          "text": "highly"
+        },
+        {
+          "key": "F",
+          "text": "incentive"
+        },
+        {
+          "key": "G",
+          "text": "instincts"
+        },
+        {
+          "key": "H",
+          "text": "offences"
+        },
+        {
+          "key": "I",
+          "text": "punished"
+        },
+        {
+          "key": "J",
+          "text": "referred"
+        },
+        {
+          "key": "K",
+          "text": "stood"
+        },
+        {
+          "key": "L",
+          "text": "symbolic"
+        },
+        {
+          "key": "M",
+          "text": "tuned"
+        },
+        {
+          "key": "N",
+          "text": "visually"
+        },
+        {
+          "key": "O",
+          "text": "worshipped"
+        }
+      ],
+      "answer": "E"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "caught"
+        },
+        {
+          "key": "B",
+          "text": "cinema"
+        },
+        {
+          "key": "C",
+          "text": "engaging"
+        },
+        {
+          "key": "D",
+          "text": "graphically"
+        },
+        {
+          "key": "E",
+          "text": "highly"
+        },
+        {
+          "key": "F",
+          "text": "incentive"
+        },
+        {
+          "key": "G",
+          "text": "instincts"
+        },
+        {
+          "key": "H",
+          "text": "offences"
+        },
+        {
+          "key": "I",
+          "text": "punished"
+        },
+        {
+          "key": "J",
+          "text": "referred"
+        },
+        {
+          "key": "K",
+          "text": "stood"
+        },
+        {
+          "key": "L",
+          "text": "symbolic"
+        },
+        {
+          "key": "M",
+          "text": "tuned"
+        },
+        {
+          "key": "N",
+          "text": "visually"
+        },
+        {
+          "key": "O",
+          "text": "worshipped"
+        }
+      ],
+      "answer": "K"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "caught"
+        },
+        {
+          "key": "B",
+          "text": "cinema"
+        },
+        {
+          "key": "C",
+          "text": "engaging"
+        },
+        {
+          "key": "D",
+          "text": "graphically"
+        },
+        {
+          "key": "E",
+          "text": "highly"
+        },
+        {
+          "key": "F",
+          "text": "incentive"
+        },
+        {
+          "key": "G",
+          "text": "instincts"
+        },
+        {
+          "key": "H",
+          "text": "offences"
+        },
+        {
+          "key": "I",
+          "text": "punished"
+        },
+        {
+          "key": "J",
+          "text": "referred"
+        },
+        {
+          "key": "K",
+          "text": "stood"
+        },
+        {
+          "key": "L",
+          "text": "symbolic"
+        },
+        {
+          "key": "M",
+          "text": "tuned"
+        },
+        {
+          "key": "N",
+          "text": "visually"
+        },
+        {
+          "key": "O",
+          "text": "worshipped"
+        }
+      ],
+      "answer": "O"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "caught"
+    },
+    {
+      "key": "B",
+      "word": "cinema"
+    },
+    {
+      "key": "C",
+      "word": "engaging"
+    },
+    {
+      "key": "D",
+      "word": "graphically"
+    },
+    {
+      "key": "E",
+      "word": "highly"
+    },
+    {
+      "key": "F",
+      "word": "incentive"
+    },
+    {
+      "key": "G",
+      "word": "instincts"
+    },
+    {
+      "key": "H",
+      "word": "offences"
+    },
+    {
+      "key": "I",
+      "word": "punished"
+    },
+    {
+      "key": "J",
+      "word": "referred"
+    },
+    {
+      "key": "K",
+      "word": "stood"
+    },
+    {
+      "key": "L",
+      "word": "symbolic"
+    },
+    {
+      "key": "M",
+      "word": "tuned"
+    },
+    {
+      "key": "N",
+      "word": "visually"
+    },
+    {
+      "key": "O",
+      "word": "worshipped"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "J",
+      "answerWord": "referred",
+      "reason": "空号位于句首状语 'Famously ___ to as...' 中，后面紧跟 to as，需要过去分词构成分词短语作状语；be referred to as / refer to A as B 是固定搭配，意为『把 A 称作 B』、被动即『被称为』。希区柯克被称作『悬念大师』，语义与语法双合，故填 referred。",
+      "distractors": "I) punished 同为过去分词，但『被惩罚 as 悬念大师』不通；K) stood 是不及物动词过去式，不能接 to as 构成被动；M) tuned（tune to 调谐）语义与称号无关。"
+    },
+    "27": {
+      "answerKey": "B",
+      "answerWord": "cinema",
+      "reason": "空号在介词 of 之后、in the history of ___ 之中，须填名词作宾语。『电影史上最有影响力的电影人之一』要求一个表示领域的名词，cinema（电影、电影艺术）正好构成 the history of cinema。",
+      "distractors": "F) incentive（动机）、G) instincts（本能）虽是名词，但『动机的历史』『本能的历史』与 filmmakers 不搭；L) symbolic 是形容词，不能作 of 的宾语。"
+    },
+    "28": {
+      "answerKey": "C",
+      "answerWord": "engaging",
+      "reason": "空号与 gripping 由 and 并列，共同作定语修饰 suspense movies，因此须填形容词。engaging（引人入胜的）与 gripping（扣人心弦的）语义同向并列，写出希区柯克悬疑片既抓人又紧张，最贴合。",
+      "distractors": "D) graphically、N) visually 都是副词，不能与形容词 gripping 并列作定语；L) symbolic 虽是形容词，但『象征性的悬疑片』不如 engaging 与 gripping 的同义叠加自然，且它要留给 30 空。"
+    },
+    "29": {
+      "answerKey": "I",
+      "answerWord": "punished",
+      "reason": "空号在 when 从句 'he was ___ by his father' 中，was 后接 by 短语，须过去分词构成被动。后半句 for his misconduct（因行为不端）与『被父亲罚进监狱待几分钟』直接呼应，punished 正好点出这层因果。",
+      "distractors": "J) referred 已用于 26 空，且『被父亲提及』与进监狱的惩罚不搭；A) caught 虽可接 by，但 catch sb 不与 for his misconduct 的处罚语义吻合；K) stood 不及物，不能用于被动。"
+    },
+    "30": {
+      "answerKey": "L",
+      "answerWord": "symbolic",
+      "reason": "空号在 are ___ of 之间，须填能接 of 的形容词作表语；be symbolic of 是固定搭配『象征……的』。后文 guilt and innocence、wrongdoer and victim 正是影片所象征的对立主题，语义吻合。",
+      "distractors": "C) engaging 已用于 28 空，且 be engaging of 不成搭配；E) highly 是副词，不能作表语；M) tuned 不与 of 搭配表『象征』。"
+    },
+    "31": {
+      "answerKey": "H",
+      "answerWord": "offences",
+      "reason": "空号在 and other criminal ___ 之中，criminal 是形容词，后面须名词；前面 deceit、robbery、murder、corruption 都是罪名，other 提示同类并列，offences（罪行、违法行径）用复数正好总括『其他刑事犯罪』。",
+      "distractors": "G) instincts（本能）语义与罪名无关，不与 criminal 搭配；F) incentive 是单数且意为『动机』，不合列举；B) cinema 已用于 27 空。"
+    },
+    "32": {
+      "answerKey": "A",
+      "answerWord": "caught",
+      "reason": "空号在名词短语 ordinary people 之后，与 in ... situations 连成后置定语，须过去分词；be caught in 是固定搭配『陷入（某种处境）』。『普通人陷入不想遇到又躲不掉的境地』正是希区柯克主角的典型设定。",
+      "distractors": "M) tuned（tuned in 调谐/收听）语义不合；I) punished 已用于 29 空，且 punished in situations 不搭配；O) worshipped（被崇拜）与『身陷困境』感情色彩相反。"
+    },
+    "33": {
+      "answerKey": "E",
+      "answerWord": "highly",
+      "reason": "空号在 was 与形容词 productive 之间，须副词修饰形容词。highly productive 意为『极为多产、高产』，与后文 amazing body of work（惊人的作品量）互相印证。",
+      "distractors": "D) graphically（生动地、图表式地）、N) visually（视觉上）虽是副词，但不修饰『多产』；L) symbolic 是形容词，词性不符。"
+    },
+    "34": {
+      "answerKey": "K",
+      "answerWord": "stood",
+      "reason": "空号在 have ___ the test of time 中，助动词 have 后须过去分词构成现在完成时；stand the test of time 是固定搭配『经得起时间考验』，stood 为 stand 的过去分词，与下句『被视为杰作』衔接自然。",
+      "distractors": "M) tuned（tune the test of time）不搭配；J) referred 已用于 26 空，且 refer the test 不通；I) punished 已用于 29 空，语义与『经得起考验』相反。"
+    },
+    "35": {
+      "answerKey": "O",
+      "answerWord": "worshipped",
+      "reason": "空号在 He is also ___ by people around the world 中，is 后接 by 施动者，须过去分词构成被动。worshipped（被推崇、备受爱戴）与上半段 is also remembered 并列，把影响从同行扩到全球观众，for his ... stories 正好给出被推崇的理由。",
+      "distractors": "A) caught 已用于 32 空，且『因故事被众人抓住』不通；I) punished 已用于 29 空，感情色彩相反；H) offences 是名词，不能作被动谓语。"
+    }
+  },
+  "lexicon": {
+    "age": {
+      "phonetic": "/eɪdʒ/",
+      "pos": "n./v.",
+      "sense": "年龄、年纪；时代、时期；变老、老化",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "early age"
+      ],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ],
+      "more": {
+        "confusables": "age / agencies（同族不同词形，注意词性与用法）"
+      }
+    },
+    "amazing": {
+      "phonetic": "/əˈmeɪzɪŋ/",
+      "pos": "adj.",
+      "sense": "惊人的、了不起的、令人惊喜的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "his amazing",
+        "amazing body"
+      ],
+      "examples": [
+        "He was 33 productive and his amazing body of work is considered fascinating by the critics. 他一辈子高产得吓人，评论界也公认这批作品耐看。"
+      ]
+    },
+    "around": {
+      "phonetic": "/əˈraʊnd/",
+      "pos": "prep./adv.",
+      "sense": "围绕、在…四周；大约、到处、转过来（本文 discussion around careers 围绕职业的讨论 / around 30% 约 30%）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "people around"
+      ],
+      "examples": [
+        "He is also 35 by people around the world for his entertaining and exciting stories. 不光同行，全球观众也因为他那些又好玩又带劲的故事一直捧他。"
+      ]
+    },
+    "audience": {
+      "phonetic": "/ˈɔːdiəns/",
+      "pos": "n.",
+      "sense": "观众、听众、读者、受众；接见、会见（a large / target audience）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "his audience",
+        "audience with"
+      ],
+      "examples": [
+        "He was an extraordinary director who entertained his audience with 28 and gripping suspense movies. 这位导演了不起，靠一部部既抓人又紧张的悬疑片把观众伺候得服服帖帖。"
+      ],
+      "more": {
+        "roots": "audience 含 -ance / -ence（名词后缀，表行为或状态）"
+      }
+    },
+    "began": {
+      "phonetic": "/bɪˈɡæn/",
+      "pos": "v.",
+      "sense": "开始、着手、启动（begin 的过去式；begin to do / begin doing）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "crime began",
+        "began at"
+      ],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ]
+    },
+    "body": {
+      "phonetic": "/ˈbɒdi/",
+      "pos": "n.",
+      "sense": "身体、躯体；主体、正文；团体、机构",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "amazing body",
+        "body of",
+        "body of work"
+      ],
+      "examples": [
+        "He was 33 productive and his amazing body of work is considered fascinating by the critics. 他一辈子高产得吓人，评论界也公认这批作品耐看。"
+      ]
+    },
+    "characters": {
+      "phonetic": "/ˈkærəktəz/",
+      "pos": "n.",
+      "sense": "性格、品质；角色、人物；文字、字符；特点（character 的复数；阅读中常指游戏 / 故事角色）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "principal characters",
+        "characters in",
+        "characters in his"
+      ],
+      "examples": [
+        "The principal characters in his movies were often ordinary people 32 in unwanted and unavoidable situations. 他片中的主人公多半是寻常百姓，偏偏被卷进躲不开、甩不掉的麻烦里。"
+      ],
+      "more": {
+        "confusables": "characters / characteristic（同族不同词形，注意词性与用法）"
+      }
+    },
+    "considered": {
+      "phonetic": "/kənˈsɪdəd/",
+      "pos": "v.",
+      "sense": "consider 的过去分词，认为、考虑",
+      "collocations": [
+        "be considered to be",
+        "considered fascinating",
+        "considered to"
+      ],
+      "examples": [
+        "He was 33 productive and his amazing body of work is considered fascinating by the critics. 他一辈子高产得吓人，评论界也公认这批作品耐看。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "considered / consideration / consider（同族不同词形，注意词性与用法）"
+      }
+    },
+    "consisted": {
+      "phonetic": "/kənˈsɪstɪd/",
+      "pos": "v.",
+      "sense": "由…组成、由…构成、在于（consist 的过去式/过去分词；consist of 由…组成 / consist in 在于）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "consisted of",
+        "consisted of deceit"
+      ],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ],
+      "more": {
+        "confusables": "consisted / consistent（同族不同词形，注意词性与用法）"
+      }
+    },
+    "continues": {
+      "phonetic": "/kənˈtɪnjuːz/",
+      "pos": "v.",
+      "sense": "继续（continue to do / continue doing）（continue 的复数/三单形式）",
+      "lemma": "continue",
+      "collocations": [
+        "continues to",
+        "continues to inspire"
+      ],
+      "examples": [
+        "He is also remembered by other filmmakers, for he continues to inspire them to be passionate about their work. 同行也一直记着他：到今天他还在给后辈打气，让人对自己的活儿保有热乎劲儿。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "continue + -s（复数/三单）",
+        "confusables": "continues（复数/三单）/ continue（原形）"
+      }
+    },
+    "corruption": {
+      "phonetic": "/kəˈrʌpʃn/",
+      "pos": "n.",
+      "sense": "腐败、贪污、堕落、腐化；（数据、文件的）损坏、讹误",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ],
+      "more": {
+        "roots": "corruption 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "creating": {
+      "phonetic": "/kriˈeɪtɪŋ/",
+      "pos": "v.",
+      "sense": "创造、造成（create sth）（create 的现在分词/动名词形式）",
+      "lemma": "create",
+      "collocations": [
+        "creating stories",
+        "gift for creating"
+      ],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "create + -ing（现在分词/动名词）",
+        "confusables": "creating（现在分词/动名词）/ create（原形）"
+      }
+    },
+    "crime": {
+      "phonetic": "/kraɪm/",
+      "pos": "n.",
+      "sense": "犯罪、罪行、违法活动（crime rate 犯罪率；commit a crime 犯罪）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "crime began",
+        "fascination with crime"
+      ],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ],
+      "more": {
+        "confusables": "crime / criminal（同族不同词形，注意词性与用法）"
+      }
+    },
+    "criminal": {
+      "phonetic": "/ˈkrɪmɪnl/",
+      "pos": "adj./n.",
+      "sense": "犯罪的、刑事的；罪犯",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ]
+    },
+    "critics": {
+      "phonetic": "/ˈkrɪtɪks/",
+      "pos": "n.",
+      "sense": "评论家、批评者、评论员（critic 的复数；critics say / argue 批评者认为）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "He was 33 productive and his amazing body of work is considered fascinating by the critics. 他一辈子高产得吓人，评论界也公认这批作品耐看。"
+      ],
+      "more": {
+        "confusables": "critics / critical（同族不同词形，注意词性与用法）"
+      }
+    },
+    "deceit": {
+      "phonetic": "/dɪˈsiːt/",
+      "pos": "n.",
+      "sense": "欺骗、欺诈、诡计、不诚实（deceive 的名词；文学、诚信话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "consisted of deceit"
+      ],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ]
+    },
+    "director": {
+      "phonetic": "/dəˈrektə/",
+      "pos": "n.",
+      "sense": "主任、主管、董事、导演、指挥、负责人（board of directors 董事会）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "movie director",
+        "extraordinary director"
+      ],
+      "examples": [
+        "Sir Alfred Hitchcock was an English movie director and producer. 希区柯克爵士是英国人，干的是导演兼制片的活儿。"
+      ],
+      "more": {
+        "confusables": "director / direct / direction（同族不同词形，注意词性与用法）"
+      }
+    },
+    "early": {
+      "phonetic": "/ˈɜːli/",
+      "pos": "adj./adv.",
+      "sense": "早的、早期的、初期的；提早、在早期（early on 早先）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "early age"
+      ],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ],
+      "more": {
+        "confusables": "early / earlier（同族不同词形，注意词性与用法）"
+      }
+    },
+    "entertained": {
+      "phonetic": "/ˌentəˈteɪnd/",
+      "pos": "v./adj.",
+      "sense": "招待、款待、使快乐、使消遣；怀有（想法、希望）（entertain 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "entertained his",
+        "entertained his audience"
+      ],
+      "examples": [
+        "He was an extraordinary director who entertained his audience with 28 and gripping suspense movies. 这位导演了不起，靠一部部既抓人又紧张的悬疑片把观众伺候得服服帖帖。"
+      ],
+      "more": {
+        "confusables": "entertained / entertaining（同族不同词形，注意词性与用法）"
+      }
+    },
+    "entertaining": {
+      "phonetic": "/ˌentəˈteɪnɪŋ/",
+      "pos": "adj./v.",
+      "sense": "有趣的、娱乐性强的、令人愉快的；招待、使快乐（entertain 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "his entertaining"
+      ],
+      "examples": [
+        "He is also 35 by people around the world for his entertaining and exciting stories. 不光同行，全球观众也因为他那些又好玩又带劲的故事一直捧他。"
+      ]
+    },
+    "exciting": {
+      "phonetic": "/ɪkˈsaɪtɪŋ/",
+      "pos": "adj./v.",
+      "sense": "令人兴奋的、使人激动的、刺激的；使兴奋（excite 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "exciting stories"
+      ],
+      "examples": [
+        "He is also 35 by people around the world for his entertaining and exciting stories. 不光同行，全球观众也因为他那些又好玩又带劲的故事一直捧他。"
+      ]
+    },
+    "extraordinary": {
+      "phonetic": "/ɪkˈstrɔːdnri/",
+      "pos": "adj.",
+      "sense": "非凡的、卓越的、特别的；异常的、离奇的（an extraordinary achievement 非凡成就）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "extraordinary director"
+      ],
+      "examples": [
+        "He was an extraordinary director who entertained his audience with 28 and gripping suspense movies. 这位导演了不起，靠一部部既抓人又紧张的悬疑片把观众伺候得服服帖帖。"
+      ]
+    },
+    "famously": {
+      "phonetic": "/ˈfeɪməsli/",
+      "pos": "adj.",
+      "sense": "著名的、出名的、闻名的（be famous for 因…闻名 / be famous as 作为…出名；本文 Organisers of a famous music festival 某著名音乐节主办方）（famous 的副词形式）",
+      "lemma": "famous",
+      "collocations": [],
+      "examples": [
+        "Famously 26 to as 'The Master of Suspense,' Hitchcock is one of the most influential filmmakers in the history of 27 . 他素来被称作『悬念大师』，也算得上电影史上最有分量的导演之一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "famous + -ly（副词）",
+        "confusables": "famously（副词）/ famous（原形）"
+      }
+    },
+    "fascinating": {
+      "phonetic": "/ˈfæsɪneɪtɪŋ/",
+      "pos": "adj.",
+      "sense": "极有吸引力的、迷人的、令人着迷的（a fascinating story/insight 引人入胜的故事/见解）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "considered fascinating",
+        "fascinating by"
+      ],
+      "examples": [
+        "He was 33 productive and his amazing body of work is considered fascinating by the critics. 他一辈子高产得吓人，评论界也公认这批作品耐看。"
+      ]
+    },
+    "fascination": {
+      "phonetic": "/ˌfæsɪˈneɪʃn/",
+      "pos": "n.",
+      "sense": "着迷、入迷、痴迷、魅力、令人着迷的事物（a fascination with/for 对…的迷恋；fascinate 的名词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "His fascination",
+        "fascination with",
+        "fascination with crime"
+      ],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ],
+      "more": {
+        "roots": "fascination 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "father": {
+      "phonetic": "/ˈfɑːðə/",
+      "pos": "n./v.",
+      "sense": "父亲、爸爸；创始人、奠基者、神父；成为…的父亲、创立（the father of …之父；founding father 奠基者）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "his father"
+      ],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ]
+    },
+    "filmmakers": {
+      "phonetic": "/ˈfɪlmmeɪkəz/",
+      "pos": "n.",
+      "sense": "电影制作人、电影人（filmmaker 的复数；影视话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "influential filmmakers",
+        "filmmakers in"
+      ],
+      "examples": [
+        "Famously 26 to as 'The Master of Suspense,' Hitchcock is one of the most influential filmmakers in the history of 27 . 他素来被称作『悬念大师』，也算得上电影史上最有分量的导演之一。"
+      ]
+    },
+    "gift": {
+      "phonetic": "/ɡɪft/",
+      "pos": "n.",
+      "sense": "礼物、赠品；天赋、才能、禀赋（a gift for …的天赋；gifted 有天赋的）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "gift for",
+        "gift for creating"
+      ],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ],
+      "more": {
+        "confusables": "gift / gifted（同族不同词形，注意词性与用法）"
+      }
+    },
+    "gripping": {
+      "phonetic": "/ˈɡrɪpɪŋ/",
+      "pos": "adj./v.",
+      "sense": "扣人心弦的、引人入胜的；紧握、抓住（grip 的现在分词；a gripping story 扣人心弦的故事）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "gripping suspense"
+      ],
+      "examples": [
+        "He was an extraordinary director who entertained his audience with 28 and gripping suspense movies. 这位导演了不起，靠一部部既抓人又紧张的悬疑片把观众伺候得服服帖帖。"
+      ]
+    },
+    "guilt": {
+      "phonetic": "/ɡɪlt/",
+      "pos": "n.",
+      "sense": "内疚、愧疚、自责；罪责、有罪（guilt about/at 对…的内疚；反义 innocence）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Hence, his movies are 30 of the guilt and innocence of the wrongdoer and the victim. 所以他的片子总绕着『谁有罪、谁清白』打转，把加害人和受害人一并摆上台面。"
+      ],
+      "more": {
+        "confusables": "guilt / guilty（同族不同词形，注意词性与用法）"
+      }
+    },
+    "hence": {
+      "phonetic": "/hens/",
+      "pos": "adv.",
+      "sense": "因此、所以、由此（正式用语，表推论，后常接名词或 -ing）；从此以后（…years hence …年后）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Hence, his movies are 30 of the guilt and innocence of the wrongdoer and the victim. 所以他的片子总绕着『谁有罪、谁清白』打转，把加害人和受害人一并摆上台面。"
+      ],
+      "more": {
+        "roots": "hence 含 -ance / -ence（名词后缀，表行为或状态）"
+      }
+    },
+    "history": {
+      "phonetic": "/ˈhɪstri/",
+      "pos": "n.",
+      "sense": "历史、历史学；来历、经历、病史、沿革",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "history of"
+      ],
+      "examples": [
+        "Famously 26 to as 'The Master of Suspense,' Hitchcock is one of the most influential filmmakers in the history of 27 . 他素来被称作『悬念大师』，也算得上电影史上最有分量的导演之一。"
+      ],
+      "more": {
+        "confusables": "history / historically / historian（同族不同词形，注意词性与用法）"
+      }
+    },
+    "incredible": {
+      "phonetic": "/ɪnˈkredəbl/",
+      "pos": "adj.",
+      "sense": "难以置信的、惊人的",
+      "collocations": [
+        "incredible plot"
+      ],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "in-（否定前缀）+ cred（相信，词根 cred = believe，同 credit/credible）+ -ible（可…的）",
+        "confusables": "incredible（难以置信的，指事物令人惊叹）/ incredulous（表示怀疑的、不相信的，指人的态度）/ credible（可信的）/ credit（信用；学分）"
+      }
+    },
+    "influential": {
+      "phonetic": "/ˌɪnfluˈenʃl/",
+      "pos": "adj.",
+      "sense": "有影响力的、有势力的、起重要作用的（an influential author/study 有影响力的作者 / 研究）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "influential filmmakers"
+      ],
+      "examples": [
+        "Famously 26 to as 'The Master of Suspense,' Hitchcock is one of the most influential filmmakers in the history of 27 . 他素来被称作『悬念大师』，也算得上电影史上最有分量的导演之一。"
+      ]
+    },
+    "innocence": {
+      "phonetic": "/ˈɪnəsns/",
+      "pos": "n.",
+      "sense": "无辜、清白、无罪；天真、单纯、幼稚（innocent 的名词；反义 guilt；成长/法律话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "innocence of"
+      ],
+      "examples": [
+        "Hence, his movies are 30 of the guilt and innocence of the wrongdoer and the victim. 所以他的片子总绕着『谁有罪、谁清白』打转，把加害人和受害人一并摆上台面。"
+      ],
+      "more": {
+        "roots": "innocence 含 -ance / -ence（名词后缀，表行为或状态）"
+      }
+    },
+    "inside": {
+      "phonetic": "/ˌɪnˈsaɪd/",
+      "pos": "prep./adv./n./adj.",
+      "sense": "在…里面、往里面、在内部；内部、内侧；里面的、内幕的（inside out 里朝外；inside information 内幕消息）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "minutes inside"
+      ],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ],
+      "more": {
+        "confusables": "inside / insisted / insights（同族不同词形，注意词性与用法）"
+      }
+    },
+    "inspire": {
+      "phonetic": "/ɪnˈspaɪə/",
+      "pos": "v.",
+      "sense": "激励、鼓舞、启发、唤起（灵感）；使产生（某种感受）（inspire sb to do 激励某人做）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "continues to inspire"
+      ],
+      "examples": [
+        "He is also remembered by other filmmakers, for he continues to inspire them to be passionate about their work. 同行也一直记着他：到今天他还在给后辈打气，让人对自己的活儿保有热乎劲儿。"
+      ],
+      "more": {
+        "confusables": "inspire / inspiring（同族不同词形，注意词性与用法）"
+      }
+    },
+    "made": {
+      "phonetic": "/meɪd/",
+      "pos": "v.",
+      "sense": "做、制造；使得、使成为；获得（make 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be made of（由…制成，看得出原料）/ be made from（由…制成，看不出原料）/ be made in（产地）/ be made to do（被迫做，被动须加 to）/ make sb do（主动使役不带 to）/ make（make-made-made）"
+      },
+      "collocations": [],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ]
+    },
+    "master": {
+      "phonetic": "/ˈmɑːstə/",
+      "pos": "n./v./adj.",
+      "sense": "主人、雇主、大师、名家、硕士、男教师；掌握、精通、控制；主要的（master a skill 掌握技能）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Master of",
+        "Master of Suspense"
+      ],
+      "examples": [
+        "Famously 26 to as 'The Master of Suspense,' Hitchcock is one of the most influential filmmakers in the history of 27 . 他素来被称作『悬念大师』，也算得上电影史上最有分量的导演之一。"
+      ],
+      "more": {
+        "confusables": "master / mastered / masterpieces（同族不同词形，注意词性与用法）"
+      }
+    },
+    "masterpieces": {
+      "phonetic": "/ˈmɑːstəpiːsɪz/",
+      "pos": "n.",
+      "sense": "杰作、代表作、名作（masterpiece 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Most of his movies have 34 the test of time and are considered to be masterpieces. 他大部分片子都经得起年月淘洗，到今天仍被奉为经典。"
+      ]
+    },
+    "minutes": {
+      "phonetic": "/ˈmɪnɪts/",
+      "pos": "n.",
+      "sense": "分钟（minute 的复数）；会议记录",
+      "lemma": "minute",
+      "collocations": [
+        "ten minutes",
+        "in a few minutes"
+      ],
+      "examples": [
+        "Ten minutes of exercise a week helps. 每周锻炼十分钟就有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "minutes（分钟/会议记录）/ minute（微小的，读 /maɪˈnjuːt/）"
+      }
+    },
+    "misconduct": {
+      "phonetic": "/ˌmɪsˈkɒndʌkt/",
+      "pos": "n.",
+      "sense": "不当行为、渎职、不端行为（尤指职业或学术不端）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "his misconduct"
+      ],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ]
+    },
+    "movie": {
+      "phonetic": "/ˈmuːvi/",
+      "pos": "n.",
+      "sense": "电影、影片（美式；英式 film；movie star 电影明星；影视话题高频）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "English movie",
+        "movie director"
+      ],
+      "examples": [
+        "Sir Alfred Hitchcock was an English movie director and producer. 希区柯克爵士是英国人，干的是导演兼制片的活儿。"
+      ],
+      "more": {
+        "confusables": "movie / movies（同族不同词形，注意词性与用法）"
+      }
+    },
+    "movies": {
+      "phonetic": "/ˈmuːviz/",
+      "pos": "n.",
+      "sense": "电影、影片（movie 的复数；go to the movies 去看电影，美式）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "suspense movies",
+        "his movies"
+      ],
+      "examples": [
+        "He was an extraordinary director who entertained his audience with 28 and gripping suspense movies. 这位导演了不起，靠一部部既抓人又紧张的悬疑片把观众伺候得服服帖帖。"
+      ],
+      "more": {
+        "confusables": "movies / movie（同族不同词形，注意词性与用法）"
+      }
+    },
+    "murder": {
+      "phonetic": "/ˈmɜːdə/",
+      "pos": "n./v.",
+      "sense": "谋杀、凶杀、杀人案；谋杀、糟蹋（commit murder 犯谋杀罪；悬疑/犯罪话题）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ]
+    },
+    "often": {
+      "phonetic": "/ˈɒfn/",
+      "pos": "adv.",
+      "sense": "经常、常常",
+      "collocations": [
+        "often ordinary"
+      ],
+      "examples": [
+        "The principal characters in his movies were often ordinary people 32 in unwanted and unavoidable situations. 他片中的主人公多半是寻常百姓，偏偏被卷进躲不开、甩不掉的麻烦里。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "ordinary": {
+      "phonetic": "/ˈɔːdnri/",
+      "pos": "adj.",
+      "sense": "普通的、平凡的、平常的、一般的（out of the ordinary 不寻常）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "often ordinary",
+        "ordinary people"
+      ],
+      "examples": [
+        "The principal characters in his movies were often ordinary people 32 in unwanted and unavoidable situations. 他片中的主人公多半是寻常百姓，偏偏被卷进躲不开、甩不掉的麻烦里。"
+      ]
+    },
+    "passionate": {
+      "phonetic": "/ˈpæʃənət/",
+      "pos": "adj.",
+      "sense": "充满热情的",
+      "collocations": [
+        "be passionate about",
+        "passionate about"
+      ],
+      "examples": [
+        "He is passionate about music. 他对音乐充满热情。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "passion（激情，pass 感受，词根）+ -ate（形容词后缀）",
+        "confusables": "be passionate about（对…充满热情，介词 about）/ passionate（热情的、激昂的）/ passion（激情；酷爱）/ passionate 与 compassionate（有同情心的，形近义远）/ passive（被动的，同根义不同）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "plot": {
+      "phonetic": "/plɒt/",
+      "pos": "n./v.",
+      "sense": "情节、布局；小块土地、地块；阴谋；密谋、标绘（plot 一词多义；the plot of a film 电影情节）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "incredible plot",
+        "plot twists"
+      ],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ],
+      "more": {
+        "confusables": "plot / plots（同族不同词形，注意词性与用法）"
+      }
+    },
+    "principal": {
+      "phonetic": "/ˈprɪnsəpl/",
+      "pos": "adj./n.",
+      "sense": "主要的、首要的、最重要的；校长、负责人；本金（易与 principle「原则、原理」混淆）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "principal characters"
+      ],
+      "examples": [
+        "The principal characters in his movies were often ordinary people 32 in unwanted and unavoidable situations. 他片中的主人公多半是寻常百姓，偏偏被卷进躲不开、甩不掉的麻烦里。"
+      ]
+    },
+    "prison": {
+      "phonetic": "/ˈprɪzn/",
+      "pos": "n.",
+      "sense": "监狱、牢房、看守所；监禁（in prison 坐牢；be sent to prison 被判刑入狱）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "prison for",
+        "prison for his"
+      ],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ],
+      "more": {
+        "confusables": "prison / prisoner（同族不同词形，注意词性与用法）"
+      }
+    },
+    "producer": {
+      "phonetic": "/prəˈdjuːsə(r)/",
+      "pos": "n.",
+      "sense": "生产者、制片人（可数）",
+      "collocations": [
+        "a major producer",
+        "oil producer"
+      ],
+      "examples": [
+        "Brazil is a major soybean producer. 巴西是大豆主要生产国。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "produce（生产）+ -er（表人/物的后缀，去 e）",
+        "confusables": "producer（生产者）/ consumer（消费者）/ product（产品）"
+      }
+    },
+    "productive": {
+      "phonetic": "/prəˈdʌktɪv/",
+      "pos": "adj.",
+      "sense": "多产的、高效的、富有成效的、有产出的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "product（产物）+ -ive（形容词后缀）",
+        "confusables": "productive（多产的、富有成效的）/ productivity（生产率）/ produce（动词）/ productive 与 efficient（efficient 指效率高、不浪费，productive 指产出多）"
+      },
+      "collocations": [],
+      "examples": [
+        "He was 33 productive and his amazing body of work is considered fascinating by the critics. 他一辈子高产得吓人，评论界也公认这批作品耐看。"
+      ]
+    },
+    "remembered": {
+      "phonetic": "/rɪˈmembəd/",
+      "pos": "v.",
+      "sense": "记得、想起、记住、纪念（remember 的过去式/过去分词；be remembered for 因…被铭记）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "remembered by"
+      ],
+      "examples": [
+        "He is also remembered by other filmmakers, for he continues to inspire them to be passionate about their work. 同行也一直记着他：到今天他还在给后辈打气，让人对自己的活儿保有热乎劲儿。"
+      ]
+    },
+    "robbery": {
+      "phonetic": "/ˈrɒbəri/",
+      "pos": "n.",
+      "sense": "抢劫、劫掠、盗窃（rob 的名词形式；a bank robbery 银行抢劫）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ]
+    },
+    "sir": {
+      "phonetic": "/sɜː/",
+      "pos": "n.",
+      "sense": "先生、长官（对男性的尊称）；（Sir）爵士、阁下（信函称呼 Dear Sir）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Sir Alfred"
+      ],
+      "examples": [
+        "Sir Alfred Hitchcock was an English movie director and producer. 希区柯克爵士是英国人，干的是导演兼制片的活儿。"
+      ]
+    },
+    "situations": {
+      "phonetic": "/ˌsɪtʃuˈeɪʃnz/",
+      "pos": "n.",
+      "sense": "情形、处境（situation 的复数）",
+      "lemma": "situation",
+      "collocations": [
+        "in certain situations",
+        "a difficult situation"
+      ],
+      "examples": [
+        "Data is impractical in certain situations. 数据在某些情形下不实用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "situation（情形）/ condition（条件/状况）/ circumstance（环境，常用复数）"
+      }
+    },
+    "spend": {
+      "phonetic": "/spend/",
+      "pos": "v.",
+      "sense": "花费（时间/金钱）、度过、消耗、用尽（spend ... on sth / doing）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sb spends time/money on sth 或 (in) doing（人作主语）/ sth costs sb money（物作主语）/ it takes sb time to do（it 作形式主语）/ sb pays money for sth（介词 for）/ spend、cost、take、pay 主语与句型不同，不能互换"
+      },
+      "collocations": [],
+      "examples": [
+        "His fascination with crime began at an early age when he was 29 by his father who made him spend a few minutes inside a prison for his misconduct. 他打小就迷犯罪题材：小时候犯了错，父亲罚他进牢房里待上几分钟。"
+      ]
+    },
+    "stories": {
+      "phonetic": "/ˈstɔːriz/",
+      "pos": "n.",
+      "sense": "故事、小说、传闻、报道、经历；楼层（story 的复数；英式楼层拼作 storey）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "creating stories",
+        "exciting stories"
+      ],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ]
+    },
+    "storyline": {
+      "phonetic": "/ˈstɔːrilaɪn/",
+      "pos": "n.",
+      "sense": "故事情节、剧情主线（story + line；影视/文学话题）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ]
+    },
+    "suspense": {
+      "phonetic": "/səˈspens/",
+      "pos": "n.",
+      "sense": "悬念、悬疑、焦急等待、悬而未决（keep sb in suspense 让某人悬着心；影视/叙事话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "Master of Suspense",
+        "gripping suspense",
+        "suspense movies"
+      ],
+      "examples": [
+        "Famously 26 to as 'The Master of Suspense,' Hitchcock is one of the most influential filmmakers in the history of 27 . 他素来被称作『悬念大师』，也算得上电影史上最有分量的导演之一。"
+      ]
+    },
+    "test": {
+      "phonetic": "/test/",
+      "pos": "n./v.",
+      "sense": "测试、测验、检验、试验、考验；测试、检验、化验（test sb on sth / put sth to the test）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "test of",
+        "test of time"
+      ],
+      "examples": [
+        "Most of his movies have 34 the test of time and are considered to be masterpieces. 他大部分片子都经得起年月淘洗，到今天仍被奉为经典。"
+      ],
+      "more": {
+        "confusables": "test / tests（同族不同词形，注意词性与用法）"
+      }
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "twists": {
+      "phonetic": "/twɪsts/",
+      "pos": "v./n.",
+      "sense": "扭转、转动、缠绕、歪曲、曲折；（情节）转折（twist 的三单/复数；plot twists 剧情反转）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "plot twists",
+        "twists in"
+      ],
+      "examples": [
+        "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal 31 with incredible plot twists in the storyline. 他天生会编故事：欺骗、抢劫、凶杀、贪腐，各类罪案一应俱全，情节还冷不丁来个惊天反转。"
+      ]
+    },
+    "unavoidable": {
+      "phonetic": "/ˌʌnəˈvɔɪdəbl/",
+      "pos": "adj.",
+      "sense": "不可避免的、无法规避的、必然的（an unavoidable consequence 必然后果；反义 avoidable）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "unavoidable situations"
+      ],
+      "examples": [
+        "The principal characters in his movies were often ordinary people 32 in unwanted and unavoidable situations. 他片中的主人公多半是寻常百姓，偏偏被卷进躲不开、甩不掉的麻烦里。"
+      ],
+      "more": {
+        "roots": "unavoidable 含 -able / -ible（形容词后缀，表「可……的」）"
+      }
+    },
+    "unwanted": {
+      "phonetic": "/ˌʌnˈwɒntɪd/",
+      "pos": "adj.",
+      "sense": "不需要的、多余的、不受欢迎的、无人要的（unwanted advice 多余的建议）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "The principal characters in his movies were often ordinary people 32 in unwanted and unavoidable situations. 他片中的主人公多半是寻常百姓，偏偏被卷进躲不开、甩不掉的麻烦里。"
+      ]
+    },
+    "victim": {
+      "phonetic": "/ˈvɪktɪm/",
+      "pos": "n.",
+      "sense": "受害者、遇难者、牺牲品、受骗者（fall victim to 成为…的受害者；犯罪/灾害话题）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Hence, his movies are 30 of the guilt and innocence of the wrongdoer and the victim. 所以他的片子总绕着『谁有罪、谁清白』打转，把加害人和受害人一并摆上台面。"
+      ]
+    },
+    "work": {
+      "phonetic": "/wɜːk/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品",
+      "collocations": [
+        "work well",
+        "at work",
+        "work out"
+      ],
+      "examples": [
+        "The approach works in practice. 这个方法在实践中奏效。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）"
+      }
+    },
+    "world": {
+      "phonetic": "/wɜːld/",
+      "pos": "n.",
+      "sense": "世界；领域；世人",
+      "collocations": [
+        "around the world",
+        "the world of work",
+        "real world"
+      ],
+      "examples": [
+        "The idea spread around the world. 这个想法传遍世界。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "world（世界）/ word（单词）读音与拼写易混"
+      }
+    },
+    "wrongdoer": {
+      "phonetic": "/ˈrɒŋduːə/",
+      "pos": "n.",
+      "sense": "做坏事的人、违法者、作恶者（wrong + doer；法律/道德话题）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "Hence, his movies are 30 of the guilt and innocence of the wrongdoer and the victim. 所以他的片子总绕着『谁有罪、谁清白』打转，把加害人和受害人一并摆上台面。"
+      ]
+    }
+  }
+}

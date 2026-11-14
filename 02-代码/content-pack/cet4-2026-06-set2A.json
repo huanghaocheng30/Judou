@@ -1,0 +1,5597 @@
+{
+  "sourceKey": "cet4-2026-06-set2A",
+  "articleId": "set2A",
+  "packVersion": "2026.11.13",
+  "meta": {
+    "examYear": 2026,
+    "examMonth": 6,
+    "setNo": 2,
+    "section": "仔细阅读",
+    "passageLabel": "Passage One",
+    "title": "Understanding the Impostor Phenomenon",
+    "wordCount": 351
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon. They think that any success is due to external circumstances or just luck and chance. Those people live in constant fear that their \"deception\" will be exposed.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 123,
+          "text": "People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "People",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 25,
+              "surface": "systematically",
+              "normalized": "systematically",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 39,
+              "surface": "underestimate",
+              "normalized": "underestimate",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 50,
+              "surface": "themselves",
+              "normalized": "themselves",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 60,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 64,
+              "surface": "own",
+              "normalized": "own",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 76,
+              "surface": "performance",
+              "normalized": "performance",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 83,
+              "surface": "suffer",
+              "normalized": "suffer",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 88,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 92,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 102,
+              "surface": "so-called",
+              "normalized": "so-called",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 111,
+              "surface": "Impostor",
+              "normalized": "impostor",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 122,
+              "surface": "Phenomenon",
+              "normalized": "phenomenon",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 123,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "那些系统性地低估自己以及自身表现的人，受着所谓「冒充者现象」的困扰。",
+            "translationNatural": "总习惯性地看低自己、贬低自身成绩的人，其实正受困于所谓的「冒充者综合征」。",
+            "structMarkup": "【People】 {who systematically underestimate themselves and their own performance} _suffer from_ ~the so-called Impostor Phenomenon~.",
+            "structureSummary": "主谓宾结构；主语 People 由 who 引导的定语从句修饰，谓语为 suffer from，宾语是带 so-called 修饰的名词短语。",
+            "components": [
+              {
+                "part": "People",
+                "role": "主语",
+                "note": "全句主语，泛指某一类人，随后由定语从句收紧范围"
+              },
+              {
+                "part": "who systematically underestimate themselves and their own performance",
+                "role": "定语从句",
+                "note": "who 修饰 People，点明这类人「系统性地低估自己与自身表现」"
+              },
+              {
+                "part": "suffer from",
+                "role": "谓语",
+                "note": "固定动词短语作谓语，意为「受……之苦 / 患有」"
+              },
+              {
+                "part": "the so-called Impostor Phenomenon",
+                "role": "宾语",
+                "note": "suffer from 的宾语，so-called 说明这是人们惯用的称谓"
+              }
+            ],
+            "clauses": [
+              "定语从句「who systematically underestimate themselves and their own performance」：who 修饰 People，点明这类人「系统性地低估自己与自身表现」",
+              "本句主干为「主谓宾结构；主语 People 由 who 引导的定语从句修饰，谓语为 suffer from，宾语是带 so-called 修饰的名词短语。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "performance",
+                "meaning": "表现、业绩；表演",
+                "usage": "注意区分：performance（表现）/ perform（动词）。常见搭配：job performance / improve performance。",
+                "example": "Error rates stayed stable in student performance. 学生作文的错误率保持稳定。"
+              },
+              {
+                "text": "suffer from",
+                "meaning": "遭受（suffer sth）；受苦（suffer from）",
+                "usage": "注意区分：suffer sth（遭受，及物）/ suffer from（患……病）。常见搭配：suffer an injury / suffer from。",
+                "example": "Local farmers will suffer under this situation. 当地农民会在此情形下受损。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：performance（表现）/ perform（动词）。",
+              "注意区分：suffer sth（遭受，及物）/ suffer from（患……病）。"
+            ],
+            "paragraphRole": "开篇为「冒充者现象」下定义，直接亮出这类人最核心的特征——长期低估自己，为全篇立论。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 124,
+          "end": 209,
+          "text": "They think that any success is due to external circumstances or just luck and chance.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "any",
+              "normalized": "any",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 27,
+              "surface": "success",
+              "normalized": "success",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 34,
+              "surface": "due",
+              "normalized": "due",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 46,
+              "surface": "external",
+              "normalized": "external",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 60,
+              "surface": "circumstances",
+              "normalized": "circumstances",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 68,
+              "surface": "just",
+              "normalized": "just",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 73,
+              "surface": "luck",
+              "normalized": "luck",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 84,
+              "surface": "chance",
+              "normalized": "chance",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 85,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他们认为任何成功都归因于外部环境，或者仅仅是运气与偶然。",
+            "translationNatural": "在他们眼里，凡是成绩都得算在外部条件或干脆是走运头上，跟自己没关系。",
+            "structMarkup": "【They】 _think_ {that any success is due to external circumstances or just luck and chance}.",
+            "structureSummary": "主谓 + that 引导的宾语从句；从句为主系表，due to 介词短语作表语，or 并列两类外因。",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "回指上句 People，泛指有此类倾向的人"
+              },
+              {
+                "part": "think",
+                "role": "谓语",
+                "note": "及物动词，后接 that 宾语从句引出其看法"
+              },
+              {
+                "part": "that any success is due to external circumstances or just luck and chance",
+                "role": "宾语从句",
+                "note": "作 think 的宾语，陈述他们把成功一律外推的归因方式"
+              },
+              {
+                "part": "due to external circumstances or just luck and chance",
+                "role": "表语",
+                "note": "due to 短语在从句中作表语，or 并列「外部环境」与「运气偶然」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that any success is due to external circumstances or just luck and cha」：作 think 的宾语，陈述他们把成功一律外推的归因方式",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "due to",
+                "meaning": "由于、因为",
+                "usage": "介词短语，后接名词；比 because of 更书面，常作表语或状语。",
+                "example": "The delay was due to heavy rain. 延误是因为大雨。"
+              },
+              {
+                "text": "think",
+                "meaning": "想、认为；思考",
+                "usage": "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。常见搭配：think about / think of。",
+                "example": "Many think the risk is small. 很多人认为风险很小。"
+              },
+              {
+                "text": "success",
+                "meaning": "成功、成就",
+                "usage": "常见搭配：achieve success / the key to success。",
+                "example": "Hard work is not the only route to success. 努力并非成功的唯一路径。"
+              }
+            ],
+            "pitfalls": [
+              "due to 后接名词，不能接句子。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。"
+            ],
+            "paragraphRole": "承接定义，揭示这类人解释成功的固定套路：一律归给外因，正是第46题要辨别的态度。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 210,
+          "end": 284,
+          "text": "Those people live in constant fear that their \"deception\" will be exposed.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Those",
+              "normalized": "those",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 12,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "surface": "live",
+              "normalized": "live",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 20,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 29,
+              "surface": "constant",
+              "normalized": "constant",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "fear",
+              "normalized": "fear",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 45,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 47,
+              "end": 56,
+              "surface": "deception",
+              "normalized": "deception",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 73,
+              "surface": "exposed",
+              "normalized": "exposed",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 74,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "那些人活在持续的恐惧里，生怕他们所谓的「欺骗」有朝一日被揭穿。",
+            "translationNatural": "他们成天提心吊胆，总怕自己「冒牌」的底细哪天被当众戳破。",
+            "structMarkup": "【Those people】 _live in constant fear_ {that their \"deception\" will be exposed}.",
+            "structureSummary": "主谓结构 + in 介词短语作状语；that 引导同位语从句具体说明 fear 的内容，从句用被动语态。",
+            "components": [
+              {
+                "part": "Those people",
+                "role": "主语",
+                "note": "指示词 Those 加名词，回指前文所描述的那群人"
+              },
+              {
+                "part": "live in constant fear",
+                "role": "谓语",
+                "note": "live 作谓语，in constant fear 描摹其长期所处的心境"
+              },
+              {
+                "part": "in constant fear",
+                "role": "介词短语",
+                "note": "介词短语作状语，意为「处于挥之不去的恐惧中」"
+              },
+              {
+                "part": "that their \"deception\" will be exposed",
+                "role": "同位语从句",
+                "note": "补充说明 fear 的具体内容；引号给「欺骗」添上自嘲式距离，从句用将来时被动"
+              }
+            ],
+            "clauses": [
+              "同位语从句「that their \"deception\" will be exposed」：补充说明 fear 的具体内容；引号给「欺骗」添上自嘲式距离，从句用将来时被动",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "constant",
+                "meaning": "持续的、不变的",
+                "usage": "注意区分：constant（持续不断的；恒定不变的）/ continuous（连续不间断的）/ continual（频繁发生、时断时续的）/ constant 与 consistent（前者「不变/不停」，后者「前后一致」）。常见搭配：constant exercise / under constant pressure。",
+                "example": "Constant practice makes perfect. 持续练习才能熟能生巧。"
+              },
+              {
+                "text": "fear",
+                "meaning": "恐惧、害怕、担忧；畏惧、恐怕、担心",
+                "usage": "注意区分：fear（害怕、恐惧，名词/动词）/ fear of（对…的恐惧，介词 of）/ for fear that/of（唯恐，从句常用 should/might）/ fear to do（不敢做）/ afraid（只作表语，be afraid of，不说 an afraid boy）。",
+                "example": "Those people live in constant fear that their \"deception\" will be exposed. 他们成天提心吊胆，总怕自己「冒牌」的底细哪天被当众戳破。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：constant（持续不断的；恒定不变的）/ continuous（连续不间断的）/ continual（频繁发生、时断时续的）/ constant 与 consistent（前者「不变/不停」，后者「前后一致」）。"
+            ],
+            "paragraphRole": "补上这类人的心理状态：因怕被拆穿而长期焦虑，把定义里的「冒充」二字坐实，呼应第46题。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "It is common for people to question their abilities now and again. A healthy amount of reflection and self-doubt can protect a person from acting impulsively. However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance. They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. Failures, on the other hand, are always internalised as the result of their own shortcomings.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 66,
+          "text": "It is common for people to question their abilities now and again.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 5,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 12,
+              "surface": "common",
+              "normalized": "common",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 23,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 35,
+              "surface": "question",
+              "normalized": "question",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 51,
+              "surface": "abilities",
+              "normalized": "abilities",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 55,
+              "surface": "now",
+              "normalized": "now",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 59,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 65,
+              "surface": "again",
+              "normalized": "again",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 66,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "人们时不时地质疑自己的能力，这是很常见的。",
+            "translationNatural": "偶尔怀疑一下自己几斤几两，其实人人都会有，再正常不过。",
+            "structMarkup": "【It】 _is_ ~common~ 【for people to question their abilities now and again】.",
+            "structureSummary": "It 作形式主语 + 系表结构；真正主语是句末 for people to question... 的不定式复合结构。",
+            "components": [
+              {
+                "part": "It",
+                "role": "形式主语",
+                "note": "占位的形式主语，无实义，真正主语在句末不定式"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接形式主语与表语 common"
+              },
+              {
+                "part": "common",
+                "role": "表语",
+                "note": "形容词作表语，判断这种情况「很常见」"
+              },
+              {
+                "part": "for people to question their abilities now and again",
+                "role": "逻辑主语",
+                "note": "for + 名词 + 不定式构成真正主语，说明谁、做什么"
+              },
+              {
+                "part": "now and again",
+                "role": "状语",
+                "note": "频度副词短语，强调「偶尔、时不时」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「It 作形式主语 + 系表结构；真正主语是句末 for people to question... 的不定式复合结构。」。"
+            ],
+            "phrases": [
+              {
+                "text": "common",
+                "meaning": "常见的、普遍的；共同的",
+                "usage": "注意区分：common（常见/共同）/ ordinary（普通）/ usual（通常的）。常见搭配：in common / common sense。",
+                "example": "Paternity leave is becoming more common. 陪产假越来越普遍。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "question",
+                "meaning": "问题（需回答）；疑问 / 质疑",
+                "usage": "注意区分：question（疑问）/ problem（难题）/ out of the question（不可能）。常见搭配：ask a question / the question is。",
+                "example": "This seemingly easy question drives the need to understand. 这个看似简单的问题催生了理解的需要。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：common（常见/共同）/ ordinary（普通）/ usual（通常的）。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：question（疑问）/ problem（难题）/ out of the question（不可能）。"
+            ],
+            "paragraphRole": "本段先立一个常识靶子：偶发的自我怀疑人人都有，为下文区分「健康」与「病态」做铺垫。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 67,
+          "end": 158,
+          "text": "A healthy amount of reflection and self-doubt can protect a person from acting impulsively.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "A",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 9,
+              "surface": "healthy",
+              "normalized": "healthy",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 16,
+              "surface": "amount",
+              "normalized": "amount",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 30,
+              "surface": "reflection",
+              "normalized": "reflection",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 34,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 45,
+              "surface": "self-doubt",
+              "normalized": "self-doubt",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 49,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 57,
+              "surface": "protect",
+              "normalized": "protect",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 59,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 66,
+              "surface": "person",
+              "normalized": "person",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 71,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 78,
+              "surface": "acting",
+              "normalized": "acting",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 90,
+              "surface": "impulsively",
+              "normalized": "impulsively",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 91,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "适度的反思与自我怀疑能够防止一个人冲动行事。",
+            "translationNatural": "适度的反思和自我怀疑反而是好事，能让人不至于一时冲动。",
+            "structMarkup": "【A healthy amount of reflection and self-doubt】 _can protect_ ~a person~ (from acting impulsively).",
+            "structureSummary": "主谓宾结构；情态动词 can + protect，后接 protect...from... 搭配，from 后为动名词短语。",
+            "components": [
+              {
+                "part": "A healthy amount of reflection and self-doubt",
+                "role": "主语",
+                "note": "名词短语作主语，healthy amount 限定为「适度」而非过度"
+              },
+              {
+                "part": "can protect",
+                "role": "谓语",
+                "note": "情态动词 can + 动词原形，表「能够起到保护作用」"
+              },
+              {
+                "part": "a person",
+                "role": "宾语",
+                "note": "protect 的宾语，指被保护的对象"
+              },
+              {
+                "part": "from acting impulsively",
+                "role": "介词短语",
+                "note": "protect...from... 固定搭配，from 后接动名词，说明免于何种行为"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾结构；情态动词 can + protect，后接 protect...from... 搭配，from 后为动名词短语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "healthy",
+                "meaning": "健康的；有益健康的",
+                "usage": "注意区分：healthy（健康的）/ healthful（有益健康的）/ health（健康，名词）。常见搭配：a healthy diet / healthy habits。",
+                "example": "They start a healthy diet. 他们开始健康饮食。"
+              },
+              {
+                "text": "amount",
+                "meaning": "数量（不可数）；总额 / 合计为",
+                "usage": "注意区分：amount of（接不可数）/ number of（接可数）。常见搭配：a large amount of / the amount of。",
+                "example": "They share the same amount of care. 他们承担同等数量的照护。"
+              },
+              {
+                "text": "protect",
+                "meaning": "保护（protect sb from sth）",
+                "usage": "注意区分：protect from/against（保护免受）/ prevention（预防）。常见搭配：protect against / protect sb from。",
+                "example": "Law can protect minors online. 法律可以保护网上未成年人。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：healthy（健康的）/ healthful（有益健康的）/ health（健康，名词）。",
+              "注意区分：amount of（接不可数）/ number of（接可数）。",
+              "注意区分：protect from/against（保护免受）/ prevention（预防）。"
+            ],
+            "paragraphRole": "正面说明「适度自我怀疑」的益处——防止冲动，对应第47题的正确选项。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 159,
+          "end": 285,
+          "text": "However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "However",
+              "normalized": "however",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 33,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 45,
+              "surface": "permanently",
+              "normalized": "permanently",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 53,
+              "surface": "plagued",
+              "normalized": "plagued",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 58,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 66,
+              "surface": "massive",
+              "normalized": "massive",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 73,
+              "surface": "amount",
+              "normalized": "amount",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 87,
+              "surface": "self-doubt",
+              "normalized": "self-doubt",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 95,
+              "surface": "despite",
+              "normalized": "despite",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 106,
+              "surface": "delivering",
+              "normalized": "delivering",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 108,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 113,
+              "surface": "good",
+              "normalized": "good",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 125,
+              "surface": "performance",
+              "normalized": "performance",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 126,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "然而，也有人尽管交出了不错的表现，却长期被大量的自我怀疑所折磨。",
+            "translationNatural": "可偏偏有一类人，成绩明明不差，却常年被铺天盖地的自我怀疑缠着不放。",
+            "structMarkup": "(However), _there are_ 【people】 {who are permanently plagued by a massive amount of self-doubt} (despite delivering a good performance).",
+            "structureSummary": "However 转折状语 + there be 存在句 + who 定语从句（被动语态）+ despite 介词短语作让步状语。",
+            "components": [
+              {
+                "part": "However",
+                "role": "状语",
+                "note": "转折副词，把话题从「健康」翻转到「病态」"
+              },
+              {
+                "part": "there are",
+                "role": "系动词",
+                "note": "there be 存在句，真正主语是 people 及其定语从句"
+              },
+              {
+                "part": "people",
+                "role": "主语",
+                "note": "存在句真正主语，后由 who 从句限定"
+              },
+              {
+                "part": "who are permanently plagued by a massive amount of self-doubt",
+                "role": "定语从句",
+                "note": "who 修饰 people，被动 be plagued by 表「被……折磨」"
+              },
+              {
+                "part": "despite delivering a good performance",
+                "role": "介词短语",
+                "note": "despite 引出让步，说明「即便表现不俗」仍如此"
+              }
+            ],
+            "clauses": [
+              "定语从句「who are permanently plagued by a massive amount of self-doubt」：who 修饰 people，被动 be plagued by 表「被……折磨」",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "however",
+                "meaning": "然而（副词，须用分号或句号连接）；无论怎样",
+                "usage": "注意区分：however（副词，不能像 but 那样直接连两个分句）/ but（连词）。常见搭配：however, ... / however much。",
+                "example": "However, the study also shows a gap. 然而，研究也显示出一道差距。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "amount",
+                "meaning": "数量（不可数）；总额 / 合计为",
+                "usage": "注意区分：amount of（接不可数）/ number of（接可数）。常见搭配：a large amount of / the amount of。",
+                "example": "They share the same amount of care. 他们承担同等数量的照护。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "用 However 一转，点出与「适度」相对的另一极：表现良好却仍长期重度自我怀疑，界定病态人群。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 286,
+          "end": 546,
+          "text": "They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 28,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 38,
+              "surface": "successes",
+              "normalized": "successes",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 42,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 46,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 48,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 56,
+              "surface": "product",
+              "normalized": "product",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 59,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 65,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 71,
+              "surface": "skill",
+              "normalized": "skill",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 74,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 79,
+              "surface": "hard",
+              "normalized": "hard",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 84,
+              "surface": "work",
+              "normalized": "work",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 85,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 86,
+              "end": 93,
+              "surface": "instead",
+              "normalized": "instead",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 98,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 108,
+              "surface": "attribute",
+              "normalized": "attribute",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 114,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 118,
+              "surface": "own",
+              "normalized": "own",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 128,
+              "surface": "successes",
+              "normalized": "successes",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 131,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 140,
+              "surface": "external",
+              "normalized": "external",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 154,
+              "surface": "circumstances",
+              "normalized": "circumstances",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 155,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 156,
+              "end": 159,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 167,
+              "surface": "example",
+              "normalized": "example",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 168,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 169,
+              "end": 171,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 176,
+              "surface": "luck",
+              "normalized": "luck",
+              "isWord": true
+            },
+            {
+              "start": 177,
+              "end": 180,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 187,
+              "surface": "chance",
+              "normalized": "chance",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 188,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 189,
+              "end": 191,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 192,
+              "end": 199,
+              "surface": "believe",
+              "normalized": "believe",
+              "isWord": true
+            },
+            {
+              "start": 200,
+              "end": 204,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 205,
+              "end": 210,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 211,
+              "end": 222,
+              "surface": "performance",
+              "normalized": "performance",
+              "isWord": true
+            },
+            {
+              "start": 223,
+              "end": 225,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 226,
+              "end": 235,
+              "surface": "massively",
+              "normalized": "massively",
+              "isWord": true
+            },
+            {
+              "start": 236,
+              "end": 249,
+              "surface": "overestimated",
+              "normalized": "overestimated",
+              "isWord": true
+            },
+            {
+              "start": 250,
+              "end": 252,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 253,
+              "end": 259,
+              "surface": "others",
+              "normalized": "others",
+              "isWord": true
+            },
+            {
+              "start": 259,
+              "end": 260,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他们认为自己所有的成功都不是其技能或努力的产物，反而把自己的成功归因于外部环境，例如运气与偶然，或者认为自己的表现被他人大大高估了。",
+            "translationNatural": "他们觉得成绩跟本事、跟下过的功夫统统无关，反倒一股脑推给外部条件——比方说走运；再不然就认定，别人把他们的水平抬得过高了。",
+            "structMarkup": "【They】 _think_ {that all of their successes are not a product of their skill or hard work}, (instead) they _attribute their own successes to external circumstances_, (for example), to luck and chance, or believe {that their performance is massively overestimated by others}.",
+            "structureSummary": "并列复合句：前半为 think + that 宾语从句（主系表），instead 后以 attribute...to... 与 believe + that 从句并列，for example 为插入语。",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "回指长期自我怀疑者"
+              },
+              {
+                "part": "think",
+                "role": "谓语",
+                "note": "及物动词，后接 that 宾语从句"
+              },
+              {
+                "part": "that all of their successes are not a product of their skill or hard work",
+                "role": "宾语从句",
+                "note": "think 的宾语，先否定「能力或努力」这一内因"
+              },
+              {
+                "part": "instead",
+                "role": "状语",
+                "note": "转折副词，引出与前面相反的另一套归因"
+              },
+              {
+                "part": "attribute their own successes to external circumstances",
+                "role": "谓语",
+                "note": "attribute...to... 把成功「归因于」外部环境"
+              },
+              {
+                "part": "for example",
+                "role": "插入语",
+                "note": "插入举例，引出 luck and chance 这一具体外因"
+              },
+              {
+                "part": "that their performance is massively overestimated by others",
+                "role": "宾语从句",
+                "note": "believe 的宾语，用被动式说「表现被他人高估」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that all of their successes are not a product of their skill or hard w」：think 的宾语，先否定「能力或努力」这一内因",
+              "宾语从句「that their performance is massively overestimated by others」：believe 的宾语，用被动式说「表现被他人高估」",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "for example",
+                "meaning": "例如",
+                "usage": "插入语，常用逗号隔开，可置于句首、句中或句末。",
+                "example": "Many habits, for example, are hard to break. 比如很多习惯很难改。"
+              },
+              {
+                "text": "think",
+                "meaning": "想、认为；思考",
+                "usage": "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。常见搭配：think about / think of。",
+                "example": "Many think the risk is small. 很多人认为风险很小。"
+              },
+              {
+                "text": "work",
+                "meaning": "工作；运转、奏效 / 工作、作品",
+                "usage": "注意区分：work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）。常见搭配：work well / at work。",
+                "example": "The approach works in practice. 这个方法在实践中奏效。"
+              }
+            ],
+            "pitfalls": [
+              "for example 可独立作插入语，such as 不能。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "instead 是副词，不能直接连接两个名词；instead of 才是介词短语。"
+            ],
+            "paragraphRole": "展开病态归因的具体逻辑：否认能力与努力、把成功外推、认定他人高估自己，为第48题埋下依据。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 547,
+          "end": 640,
+          "text": "Failures, on the other hand, are always internalised as the result of their own shortcomings.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Failures",
+              "normalized": "failures",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 10,
+              "end": 12,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 27,
+              "surface": "hand",
+              "normalized": "hand",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 28,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 39,
+              "surface": "always",
+              "normalized": "always",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 52,
+              "surface": "internalised",
+              "normalized": "internalised",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 55,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 59,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 66,
+              "surface": "result",
+              "normalized": "result",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 69,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 79,
+              "surface": "own",
+              "normalized": "own",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 92,
+              "surface": "shortcomings",
+              "normalized": "shortcomings",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 93,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "而失败，在另一方面，则总是被内化为他们自身缺点的结果。",
+            "translationNatural": "可一遇到失败，他们又照单全收，认定全是自己不行所致。",
+            "structMarkup": "【Failures】, (on the other hand), _are always internalised_ (as the result of their own shortcomings).",
+            "structureSummary": "主谓（被动语态）+ 主语后插入语 + as 介词短语作补语；always 为频度状语。",
+            "components": [
+              {
+                "part": "Failures",
+                "role": "主语",
+                "note": "复数名词作主语，话题从成功转到失败"
+              },
+              {
+                "part": "on the other hand",
+                "role": "插入语",
+                "note": "成对转折语，与成功归因形成另一面"
+              },
+              {
+                "part": "are always internalised",
+                "role": "谓语",
+                "note": "被动 be + 过去分词（英式拼写 internalised），always 表一贯如此"
+              },
+              {
+                "part": "as the result of their own shortcomings",
+                "role": "补语",
+                "note": "as 短语说明失败被归结成什么，即「自身缺陷所致」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓（被动语态）+ 主语后插入语 + as 介词短语作补语；always 为频度状语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "on the other hand",
+                "meaning": "另一方面",
+                "usage": "常与 on the one hand 搭配，引出对比。",
+                "example": "It's cheap; on the other hand, it breaks easily. 它便宜，但另一方面容易坏。"
+              },
+              {
+                "text": "failures",
+                "meaning": "失败、不成功；失败的人 / 事；故障、失灵；未能做到（failure to do 未做…）（failure 的复数/三单形式）",
+                "usage": "注意区分：failures（复数/三单）/ failure（原形）。",
+                "example": "Failures, on the other hand, are always internalised as the result of their own shortcomings. 可一遇到失败，他们又照单全收，认定全是自己不行所致。"
+              },
+              {
+                "text": "result",
+                "meaning": "结果（可数）/ 导致（result in）、由……造成（result from）",
+                "usage": "注意区分：result in（导致）/ result from（起因于）/ as a result of（由于）。常见搭配：result in / result from。",
+                "example": "The result was surprising. 结果令人意外。"
+              }
+            ],
+            "pitfalls": [
+              "on the other hand 表对比，不表递进。",
+              "注意区分：failures（复数/三单）/ failure（原形）。",
+              "注意区分：on the one hand ... on the other hand（一方面……另一方面）/ hand in（上交）。"
+            ],
+            "paragraphRole": "用 on the other hand 收束对比：成功外推、失败内化，把这类人扭曲的归因模式讲完整。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "Psychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. They were then asked why they think they did so well.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 126,
+          "text": "Psychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 13,
+              "surface": "Psychologists",
+              "normalized": "psychologists",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "surface": "Martin",
+              "normalized": "martin",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 32,
+              "surface": "Luther",
+              "normalized": "luther",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 43,
+              "surface": "University",
+              "normalized": "university",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 60,
+              "surface": "Halle-Wittenberg",
+              "normalized": "halle-wittenberg",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 69,
+              "surface": "examined",
+              "normalized": "examined",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 73,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 79,
+              "surface": "topic",
+              "normalized": "topic",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 83,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 87,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 93,
+              "surface": "first",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 98,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 104,
+              "surface": "under",
+              "normalized": "under",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 114,
+              "surface": "real-life",
+              "normalized": "real-life",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 125,
+              "surface": "conditions",
+              "normalized": "conditions",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 126,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "来自马丁·路德大学哈勒-维滕贝格的心理学家们首次在真实生活条件下考察了这一课题。",
+            "translationNatural": "哈勒-维滕贝格马丁·路德大学的心理学者头一回把这一现象搬到真实情境里做研究。",
+            "structMarkup": "【Psychologists】 (from Martin Luther University Halle-Wittenberg) _examined_ ~the topic~ for the first time (under real-life conditions).",
+            "structureSummary": "主谓宾结构；主语后 from 介词短语作后置定语，for the first time 与 under real-life conditions 作状语。",
+            "components": [
+              {
+                "part": "Psychologists",
+                "role": "主语",
+                "note": "复数名词作主语，指研究团队"
+              },
+              {
+                "part": "from Martin Luther University Halle-Wittenberg",
+                "role": "后置定语",
+                "note": "from 短语修饰 Psychologists，点明所属机构"
+              },
+              {
+                "part": "examined",
+                "role": "谓语",
+                "note": "及物动词过去式，意为「考察、研究」"
+              },
+              {
+                "part": "the topic",
+                "role": "宾语",
+                "note": "examined 的宾语，回指冒充者现象这一课题"
+              },
+              {
+                "part": "under real-life conditions",
+                "role": "状语",
+                "note": "介词短语作条件状语，强调「在真实生活条件下」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾结构；主语后 from 介词短语作后置定语，for the first time 与 under real-life conditions 作状语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "psychologists",
+                "meaning": "心理学家、心理学研究者（psychologist 的复数/三单形式）",
+                "usage": "注意区分：psychologists（复数/三单）/ psychologist（原形）。",
+                "example": "Psychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. 哈勒-维滕贝格马丁·路德大学的心理学者头一回把这一现象搬到真实情境里做研究。"
+              },
+              {
+                "text": "university",
+                "meaning": "大学（可数）",
+                "usage": "注意区分：university（大学）/ college（学院）/ at university（在读大学，不加 the）。常见搭配：at university / university students。",
+                "example": "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+              },
+              {
+                "text": "for the first time",
+                "meaning": "时间；次数；时机 / 计时",
+                "usage": "注意区分：times（时代）/ time（时间，不可数）。常见搭配：at the same time / take time off。",
+                "example": "It takes time to change habits. 改变习惯需要时间。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：psychologists（复数/三单）/ psychologist（原形）。",
+              "注意区分：university（大学）/ college（学院）/ at university（在读大学，不加 the）。",
+              "注意区分：times（时代）/ time（时间，不可数）。"
+            ],
+            "paragraphRole": "本段转入实证研究，交代研究主体与「首次在真实条件下」这一设计亮点，领起后文实验。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 127,
+          "end": 271,
+          "text": "Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 11,
+              "surface": "Seventy-six",
+              "normalized": "seventy-six",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 24,
+              "surface": "participants",
+              "normalized": "participants",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 34,
+              "surface": "completed",
+              "normalized": "completed",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 36,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 42,
+              "surface": "range",
+              "normalized": "range",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 45,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 58,
+              "surface": "intelligence",
+              "normalized": "intelligence",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 64,
+              "surface": "tests",
+              "normalized": "tests",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 68,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 77,
+              "surface": "received",
+              "normalized": "received",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 86,
+              "surface": "positive",
+              "normalized": "positive",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 95,
+              "surface": "feedback",
+              "normalized": "feedback",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 103,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 104,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 105,
+              "end": 115,
+              "surface": "regardless",
+              "normalized": "regardless",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 118,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 124,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 131,
+              "surface": "actual",
+              "normalized": "actual",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 143,
+              "surface": "performance",
+              "normalized": "performance",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 144,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "76 名参与者完成了一系列智力测验，并无论其实际表现如何都收到了关于测验的正面反馈。",
+            "translationNatural": "76 名受试做完一整套智力测试，不论真实成绩怎样，一律得到了夸奖式的好评。",
+            "structMarkup": "【Seventy-six participants】 _completed_ ~a range of intelligence tests~ and _received positive feedback on them_, (regardless of their actual performance).",
+            "structureSummary": "主谓宾 + and 并列谓语 + regardless of 介词短语作让步状语。",
+            "components": [
+              {
+                "part": "Seventy-six participants",
+                "role": "主语",
+                "note": "数词 + 名词作主语，交代样本量"
+              },
+              {
+                "part": "completed",
+                "role": "谓语",
+                "note": "第一个并列谓语，意为「完成」"
+              },
+              {
+                "part": "a range of intelligence tests",
+                "role": "宾语",
+                "note": "completed 的宾语，a range of 表「一系列」"
+              },
+              {
+                "part": "received positive feedback on them",
+                "role": "谓语",
+                "note": "and 连接的第二个并列谓语，说明统一给予好评"
+              },
+              {
+                "part": "regardless of their actual performance",
+                "role": "介词短语",
+                "note": "regardless of 表「不论」，点明反馈与真实成绩无关，是实验关键操纵"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + and 并列谓语 + regardless of 介词短语作让步状语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "regardless of",
+                "meaning": "不管、无论",
+                "usage": "介词短语后接名词或 wh- 从句。",
+                "example": "Everyone is welcome regardless of age. 不论年龄都欢迎。"
+              },
+              {
+                "text": "a range of",
+                "meaning": "一系列、不同层次的",
+                "usage": "后接复数名词，强调覆盖范围。",
+                "example": "A range of options is available. 有一系列选项可选。"
+              }
+            ],
+            "pitfalls": [
+              "regardless of 已含「无论」，后面不再加 no matter。",
+              "range from A to B 表示「从 A 到 B 不等」，介词是 from...to。"
+            ],
+            "paragraphRole": "铺陈实验核心操纵：一律给正面反馈、不看真实成绩，为追问受试如何归因搭好台子。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 272,
+          "end": 325,
+          "text": "They were then asked why they think they did so well.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "then",
+              "normalized": "then",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "asked",
+              "normalized": "asked",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "why",
+              "normalized": "why",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 35,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "did",
+              "normalized": "did",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 47,
+              "surface": "so",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 52,
+              "surface": "well",
+              "normalized": "well",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "随后他们被问到，为什么认为自己做得这么好。",
+            "translationNatural": "接着研究者问他们：觉得自己考得这么好，原因是什么？",
+            "structMarkup": "【They】 _were then asked_ {why they think they did so well}.",
+            "structureSummary": "主谓（被动语态）+ why 引导的宾语从句；从句内 think 后再接省略 that 的宾语从句。",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "指参与实验的受试者"
+              },
+              {
+                "part": "were then asked",
+                "role": "谓语",
+                "note": "被动语态，then 表实验流程的先后"
+              },
+              {
+                "part": "why they think they did so well",
+                "role": "宾语从句",
+                "note": "why 引导，作 asked 的内容；其中 they did so well 又是 think 的宾语"
+              },
+              {
+                "part": "they did so well",
+                "role": "宾语从句",
+                "note": "think 后省略 that 的宾语从句，so well 回指「考得好」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「why they think they did so well」：why 引导，作 asked 的内容；其中 they did so well 又是 think 的宾语",
+              "宾语从句「they did so well」：think 后省略 that 的宾语从句，so well 回指「考得好」",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "think",
+                "meaning": "想、认为；思考",
+                "usage": "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。常见搭配：think about / think of。",
+                "example": "Many think the risk is small. 很多人认为风险很小。"
+              },
+              {
+                "text": "well",
+                "meaning": "好地（副词）；健康的（形容词）；井（名词）",
+                "usage": "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。常见搭配：as well / well-being。",
+                "example": "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。",
+              "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。"
+            ],
+            "paragraphRole": "点出实验真正想测的东西：让受试解释「为何考得好」，从而观察其归因倾向，紧扣第48题。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "The study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance. Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. These results are also completely unrelated to age and gender.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 146,
+          "text": "The study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 16,
+              "surface": "showed",
+              "normalized": "showed",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "two",
+              "normalized": "two",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 27,
+              "surface": "things",
+              "normalized": "things",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 28,
+              "surface": ":",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 29,
+              "end": 34,
+              "surface": "First",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 35,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 36,
+              "end": 39,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 53,
+              "surface": "self-reported",
+              "normalized": "self-reported",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 60,
+              "surface": "degree",
+              "normalized": "degree",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 72,
+              "surface": "Impostor",
+              "normalized": "impostor",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 83,
+              "surface": "Phenomenon",
+              "normalized": "phenomenon",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 86,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 98,
+              "surface": "related",
+              "normalized": "related",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 101,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 108,
+              "surface": "actual",
+              "normalized": "actual",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 117,
+              "surface": "measured",
+              "normalized": "measured",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 130,
+              "surface": "intelligence",
+              "normalized": "intelligence",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 133,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 145,
+              "surface": "performance",
+              "normalized": "performance",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 146,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这项研究显示出两点：第一，自我报告的冒充者现象程度与实际测得的智力或表现并不相关。",
+            "translationNatural": "研究得出两个结论：其一，一个人自评有多「冒充者」，跟他实测的智力、成绩压根不挂钩。",
+            "structMarkup": "【The study】 _showed_ ~two things~: First, 【the self-reported degree of Impostor Phenomenon】 ~is not related to actual measured intelligence or performance~.",
+            "structureSummary": "主谓宾 + 冒号引出 First 分句；该分句为主系表（is not related to...），self-reported 与 measured 作前置定语。",
+            "components": [
+              {
+                "part": "The study",
+                "role": "主语",
+                "note": "名词短语作主语，承接实验"
+              },
+              {
+                "part": "showed",
+                "role": "谓语",
+                "note": "及物动词过去式，意为「表明、显示」"
+              },
+              {
+                "part": "two things",
+                "role": "宾语",
+                "note": "showed 的宾语，冒号后具体展开两点"
+              },
+              {
+                "part": "the self-reported degree of Impostor Phenomenon",
+                "role": "主语",
+                "note": "First 分句主语，self-reported 强调「自评」程度"
+              },
+              {
+                "part": "is not related to actual measured intelligence or performance",
+                "role": "表语",
+                "note": "be related to 的否定式作表语，or 并列两项客观指标"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 冒号引出 First 分句；该分句为主系表（is not related to...），self-reported 与 measured 作前置定语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "showed",
+                "meaning": "显示、表明（show that）；展示 / 演出、展览（show 的过去式/过去分词形式）",
+                "usage": "注意区分：showed（过去式/过去分词）/ show（原形）。",
+                "example": "The study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance. 研究得出两个结论：其一，一个人自评有多「冒充者」，跟他实测的智力、成绩压根不挂钩。"
+              },
+              {
+                "text": "things",
+                "meaning": "事情、东西（thing 的复数）",
+                "usage": "注意区分：things（事情/东西）/ stuff（东西，不可数，口语）。常见搭配：all things considered / the thing is。",
+                "example": "They have to do all these things first. 他们必须先做所有这些事。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：study（研究，可数）/ research（研究，不可数）。",
+              "注意区分：showed（过去式/过去分词）/ show（原形）。",
+              "注意区分：things（事情/东西）/ stuff（东西，不可数，口语）。"
+            ],
+            "paragraphRole": "本段公布研究结论，先给出第一点：冒充者倾向的强弱与真实智力、表现无关，破除「能力差才心虚」的直觉。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 147,
+          "end": 407,
+          "text": "Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Secondly",
+              "normalized": "secondly",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "test",
+              "normalized": "test",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "surface": "supported",
+              "normalized": "supported",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 43,
+              "surface": "assumption",
+              "normalized": "assumption",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 55,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 60,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 71,
+              "surface": "tendency",
+              "normalized": "tendency",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 74,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 82,
+              "surface": "exhibit",
+              "normalized": "exhibit",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 86,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 95,
+              "surface": "Impostor",
+              "normalized": "impostor",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 106,
+              "surface": "Phenomenon",
+              "normalized": "phenomenon",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 114,
+              "surface": "devalue",
+              "normalized": "devalue",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 120,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 132,
+              "surface": "objectively",
+              "normalized": "objectively",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 141,
+              "surface": "measured",
+              "normalized": "measured",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 153,
+              "surface": "performance",
+              "normalized": "performance",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 157,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 158,
+              "end": 167,
+              "surface": "attribute",
+              "normalized": "attribute",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 176,
+              "surface": "positive",
+              "normalized": "positive",
+              "isWord": true
+            },
+            {
+              "start": 177,
+              "end": 184,
+              "surface": "results",
+              "normalized": "results",
+              "isWord": true
+            },
+            {
+              "start": 185,
+              "end": 187,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 188,
+              "end": 196,
+              "surface": "external",
+              "normalized": "external",
+              "isWord": true
+            },
+            {
+              "start": 197,
+              "end": 203,
+              "surface": "causes",
+              "normalized": "causes",
+              "isWord": true
+            },
+            {
+              "start": 204,
+              "end": 208,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 209,
+              "end": 211,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 212,
+              "end": 216,
+              "surface": "luck",
+              "normalized": "luck",
+              "isWord": true
+            },
+            {
+              "start": 217,
+              "end": 220,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 221,
+              "end": 227,
+              "surface": "chance",
+              "normalized": "chance",
+              "isWord": true
+            },
+            {
+              "start": 227,
+              "end": 228,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 229,
+              "end": 232,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 233,
+              "end": 236,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 237,
+              "end": 239,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 240,
+              "end": 245,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 246,
+              "end": 249,
+              "surface": "own",
+              "normalized": "own",
+              "isWord": true
+            },
+            {
+              "start": 250,
+              "end": 259,
+              "surface": "abilities",
+              "normalized": "abilities",
+              "isWord": true
+            },
+            {
+              "start": 259,
+              "end": 260,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "第二，该测试支持了这样一个假设：有表现出冒充者现象倾向的人会贬低其客观测得的表现，并把正面结果归因于诸如运气与偶然之类的外部原因，而不归因于他们自身的能力。",
+            "translationNatural": "其二，实验印证了假设：越有冒充者倾向的人，越会看低自己实测的成绩，把好结果推给运气等外因，唯独不认自己的本事。",
+            "structMarkup": "(Secondly), 【the test】 _supported_ ~the assumption~ {that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities}.",
+            "structureSummary": "Secondly 状语 + 主谓宾（supported the assumption）+ that 引导同位语从句；从句含 devalue...and attribute...but not... 并列谓语与 such as 举例。",
+            "components": [
+              {
+                "part": "Secondly",
+                "role": "状语",
+                "note": "序数副词，承接上句 First 引出第二点结论"
+              },
+              {
+                "part": "the test",
+                "role": "主语",
+                "note": "指前文的实验"
+              },
+              {
+                "part": "supported",
+                "role": "谓语",
+                "note": "及物动词过去式，意为「支持、印证」"
+              },
+              {
+                "part": "the assumption",
+                "role": "宾语",
+                "note": "supported 的宾语，后接 that 从句说明假设内容"
+              },
+              {
+                "part": "that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities",
+                "role": "同位语从句",
+                "note": "展开 assumption 的具体内容，是第48、49题的依据"
+              }
+            ],
+            "clauses": [
+              "同位语从句「that people with a tendency to exhibit the Impostor Phenomenon devalue」：展开 assumption 的具体内容，是第48、49题的依据",
+              "本句主干为「Secondly 状语 + 主谓宾（supported the assumption）+ that 引导同位语从句；从句含 devalue...and attribute...but not... 并列谓语与 such as 举例。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              },
+              {
+                "text": "secondly",
+                "meaning": "秒、瞬间、片刻；第二（的）、次等的、另一的；支持、附议（动词读 /sɪˈkɒnd/）（second 的副词形式）",
+                "usage": "注意区分：secondly（副词）/ second（原形）。",
+                "example": "Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. 其二，实验印证了假设：越有冒充者倾向的人，越会看低自己实测的成绩，把好结果推给运气等外因，唯独不认自己的本事。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              }
+            ],
+            "pitfalls": [
+              "such as 用于举例，for example 常作插入语，位置不同。",
+              "注意区分：secondly（副词）/ second（原形）。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。"
+            ],
+            "paragraphRole": "给出第二点结论并把机制说透：贬低客观成绩、把好评外归因，正是第48题所说的「给表现打分偏低」。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 408,
+          "end": 470,
+          "text": "These results are also completely unrelated to age and gender.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "These",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 13,
+              "surface": "results",
+              "normalized": "results",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 22,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 33,
+              "surface": "completely",
+              "normalized": "completely",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 43,
+              "surface": "unrelated",
+              "normalized": "unrelated",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 46,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 50,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 61,
+              "surface": "gender",
+              "normalized": "gender",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这些结果也完全与年龄和性别无关。",
+            "translationNatural": "而且这些结论跟年龄、性别也半点关系都没有。",
+            "structMarkup": "【These results】 _are_ (also completely) ~unrelated to age and gender~.",
+            "structureSummary": "主系表结构；also / completely 作状语，unrelated to 形容词短语作表语。",
+            "components": [
+              {
+                "part": "These results",
+                "role": "主语",
+                "note": "回指上两句的两项研究发现"
+              },
+              {
+                "part": "are",
+                "role": "系动词",
+                "note": "连接主语与表语"
+              },
+              {
+                "part": "also completely",
+                "role": "状语",
+                "note": "also 承接、completely 强化否定程度"
+              },
+              {
+                "part": "unrelated to age and gender",
+                "role": "表语",
+                "note": "unrelated to 短语作表语，排除年龄与性别的影响"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表结构；also / completely 作状语，unrelated to 形容词短语作表语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "results",
+                "meaning": "结果（result 的复数）；成绩",
+                "usage": "注意区分：results（复数）/ result（单数）。常见搭配：the results show / test results。",
+                "example": "The results suggest a clear difference. 结果表明有明显差异。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：results（复数）/ result（单数）。",
+              "本句主干为「主系表结构；also / completely 作状语，unrelated to 形容词短语作表语。」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "补一句排除性结论：上述规律不受年龄、性别干扰，让研究结论更周全。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "A permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes. They observed that there is a particularly high number of successful women who do not think they are very intelligent. The Impostor Phenomenon is not defined as a mental illness. However, people who suffer from it show a higher vulnerability to depression.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 200,
+          "text": "A permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "A",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 11,
+              "surface": "permanent",
+              "normalized": "permanent",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 27,
+              "surface": "underestimation",
+              "normalized": "underestimation",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 36,
+              "surface": "one's",
+              "normalized": "one's",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "surface": "own",
+              "normalized": "own",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 50,
+              "surface": "abilities",
+              "normalized": "abilities",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 53,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 59,
+              "surface": "often",
+              "normalized": "often",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 71,
+              "surface": "accompanied",
+              "normalized": "accompanied",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 74,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 78,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 83,
+              "surface": "fear",
+              "normalized": "fear",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 88,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 93,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 102,
+              "surface": "supposed",
+              "normalized": "supposed",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 115,
+              "surface": "intellectual",
+              "normalized": "intellectual",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 125,
+              "surface": "deception",
+              "normalized": "deception",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 130,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 133,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 141,
+              "surface": "exposed",
+              "normalized": "exposed",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 148,
+              "surface": "sooner",
+              "normalized": "sooner",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 151,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 157,
+              "surface": "later",
+              "normalized": "later",
+              "isWord": true
+            },
+            {
+              "start": 158,
+              "end": 161,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 162,
+              "end": 166,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 171,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 176,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 177,
+              "end": 180,
+              "surface": "pay",
+              "normalized": "pay",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 184,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 185,
+              "end": 190,
+              "surface": "price",
+              "normalized": "price",
+              "isWord": true
+            },
+            {
+              "start": 191,
+              "end": 194,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 195,
+              "end": 199,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 199,
+              "end": 200,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "对自身能力的长期低估，常常伴随着一种恐惧：这种所谓智力上的欺骗迟早会被揭穿，而且他们将为此付出代价。",
+            "translationNatural": "老是看低自己的人，往往还揣着一份怕：怕这层「智力造假」早晚露馅，怕到时要为此买单。",
+            "structMarkup": "【A permanent underestimation of one's own abilities】 _is often accompanied by_ ~the fear~ {that this supposed intellectual deception will be exposed sooner or later} {and that they will pay the price for this}.",
+            "structureSummary": "主系表（被动 is accompanied by）+ the fear 后接两个并列 that 同位语从句，说明恐惧的两重内容。",
+            "components": [
+              {
+                "part": "A permanent underestimation of one's own abilities",
+                "role": "主语",
+                "note": "名词短语作主语，one's 与 abilities 点明「对自身能力的长期低估」"
+              },
+              {
+                "part": "is often accompanied by",
+                "role": "谓语",
+                "note": "被动结构 be accompanied by，意为「常伴随着」"
+              },
+              {
+                "part": "the fear",
+                "role": "宾语",
+                "note": "by 的宾语，后接两个同位语从句展开其内容"
+              },
+              {
+                "part": "that this supposed intellectual deception will be exposed sooner or later",
+                "role": "同位语从句",
+                "note": "第一重恐惧：所谓「智力欺骗」迟早被拆穿"
+              },
+              {
+                "part": "and that they will pay the price for this",
+                "role": "同位语从句",
+                "note": "and 连接第二重恐惧：怕为此付出代价"
+              }
+            ],
+            "clauses": [
+              "同位语从句「that this supposed intellectual deception will be exposed sooner or la」：第一重恐惧：所谓「智力欺骗」迟早被拆穿",
+              "同位语从句「and that they will pay the price for this」：and 连接第二重恐惧：怕为此付出代价",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "abilities",
+                "meaning": "能力、才能、本领（ability 的复数）",
+                "usage": "注意区分：abilities 指多种技能，ability 泛指能力；搭配都用 to do，不用 of doing。",
+                "example": "A permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. 老是看低自己的人，往往还揣着一份怕：怕这层「智力造假」早晚露馅，怕到时要为此买单。"
+              },
+              {
+                "text": "fear",
+                "meaning": "恐惧、害怕、担忧；畏惧、恐怕、担心",
+                "usage": "注意区分：fear（害怕、恐惧，名词/动词）/ fear of（对…的恐惧，介词 of）/ for fear that/of（唯恐，从句常用 should/might）/ fear to do（不敢做）/ afraid（只作表语，be afraid of，不说 an afraid boy）。",
+                "example": "A permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. 老是看低自己的人，往往还揣着一份怕：怕这层「智力造假」早晚露馅，怕到时要为此买单。"
+              },
+              {
+                "text": "intellectual",
+                "meaning": "智力的、脑力的、知识的；知识分子、脑力劳动者",
+                "usage": "注意区分：intellectual（智力的；知识分子，形容词/名词）/ intelligence（智力，不可数）/ intelligent（聪明的）/ intellect（智力，书面）/ intellectual property（知识产权）。",
+                "example": "A permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. 老是看低自己的人，往往还揣着一份怕：怕这层「智力造假」早晚露馅，怕到时要为此买单。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：abilities 指多种技能，ability 泛指能力；搭配都用 to do，不用 of doing。",
+              "注意区分：fear（害怕、恐惧，名词/动词）/ fear of（对…的恐惧，介词 of）/ for fear that/of（唯恐，从句常用 should/might）/ fear to do（不敢做）/ afraid（只作表语，be afraid of，不说 an afraid boy）。"
+            ],
+            "paragraphRole": "末段先补心理代价：长期低估自我的人活在「迟早露馅、终要付账」的双重恐惧里，呼应第49题。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 201,
+          "end": 305,
+          "text": "The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "Impostor",
+              "normalized": "impostor",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 23,
+              "surface": "Phenomenon",
+              "normalized": "phenomenon",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 33,
+              "surface": "first",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 43,
+              "surface": "described",
+              "normalized": "described",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 46,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 51,
+              "surface": "1978",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 57,
+              "surface": "US",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 71,
+              "surface": "psychologists",
+              "normalized": "psychologists",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 79,
+              "surface": "Pauline",
+              "normalized": "pauline",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 86,
+              "surface": "Clance",
+              "normalized": "clance",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 90,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 98,
+              "surface": "Suzanne",
+              "normalized": "suzanne",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 103,
+              "surface": "Imes",
+              "normalized": "imes",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 104,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "冒充者现象于 1978 年由美国心理学家 Pauline Clance 和 Suzanne Imes 首次描述。",
+            "translationNatural": "这一概念最早由美国心理学家 Pauline Clance 与 Suzanne Imes 在 1978 年提出。",
+            "structMarkup": "【The Impostor Phenomenon】 _was first described_ (in 1978) (by US psychologists Pauline Clance and Suzanne Imes).",
+            "structureSummary": "主谓（被动语态）+ in 1978 时间状语 + by 短语引出施事者；first 作状语。",
+            "components": [
+              {
+                "part": "The Impostor Phenomenon",
+                "role": "主语",
+                "note": "概念名作主语"
+              },
+              {
+                "part": "was first described",
+                "role": "谓语",
+                "note": "被动 be + 过去分词，first 标明「首次」"
+              },
+              {
+                "part": "in 1978",
+                "role": "状语",
+                "note": "时间状语，给出概念提出的年份"
+              },
+              {
+                "part": "by US psychologists Pauline Clance and Suzanne Imes",
+                "role": "介词短语",
+                "note": "by 引出施事，US psychologists 后接两人姓名作同位说明"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓（被动语态）+ in 1978 时间状语 + by 短语引出施事者；first 作状语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "psychologists",
+                "meaning": "心理学家、心理学研究者（psychologist 的复数/三单形式）",
+                "usage": "注意区分：psychologists（复数/三单）/ psychologist（原形）。",
+                "example": "The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes. 这一概念最早由美国心理学家 Pauline Clance 与 Suzanne Imes 在 1978 年提出。"
+              },
+              {
+                "text": "first",
+                "meaning": "第一；最早的；首先、初次",
+                "usage": "本句中作num./adj./adv.，可按「主谓（被动语态）+ in 1978 时间状语 + by 短语引出施事者；first 作状语。」定位它在句中的位置。",
+                "example": "The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes. 这一概念最早由美国心理学家 Pauline Clance 与 Suzanne Imes 在 1978 年提出。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：psychologists（复数/三单）/ psychologist（原形）。",
+              "by US psychologists Pauline Clance and Suzanne Imes：by 引出施事，US psychologists 后接两人姓名作同位说明"
+            ],
+            "paragraphRole": "插入概念史：点明 1978 年由两位美国心理学家首次提出，为第50题定位出处。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 306,
+          "end": 424,
+          "text": "They observed that there is a particularly high number of successful women who do not think they are very intelligent.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 13,
+              "surface": "observed",
+              "normalized": "observed",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 24,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 29,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 42,
+              "surface": "particularly",
+              "normalized": "particularly",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "high",
+              "normalized": "high",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 54,
+              "surface": "number",
+              "normalized": "number",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 57,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 68,
+              "surface": "successful",
+              "normalized": "successful",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 74,
+              "surface": "women",
+              "normalized": "women",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 78,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 85,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 91,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 96,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 100,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 105,
+              "surface": "very",
+              "normalized": "very",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 117,
+              "surface": "intelligent",
+              "normalized": "intelligent",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 118,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他们观察到，有相当多的成功女性并不认为自己很聪明。",
+            "translationNatural": "两位学者发现，事业有成的女性里，有特别多的人压根不觉得自己聪明。",
+            "structMarkup": "【They】 _observed_ {that there is a particularly high number of successful women who do not think they are very intelligent}.",
+            "structureSummary": "主谓 + that 宾语从句；从句为 there be 存在句，主语后接 who 定语从句，从句内又含 think 的宾语从句。",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "回指上句两位心理学家"
+              },
+              {
+                "part": "observed",
+                "role": "谓语",
+                "note": "及物动词过去式，后接 that 宾语从句"
+              },
+              {
+                "part": "that there is a particularly high number of successful women who do not think they are very intelligent",
+                "role": "宾语从句",
+                "note": "observed 的宾语，陈述其观察到的现象"
+              },
+              {
+                "part": "who do not think they are very intelligent",
+                "role": "定语从句",
+                "note": "who 修饰 successful women，从句内省略 that 的宾语从句说明自我认知"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that there is a particularly high number of successful women who do no」：observed 的宾语，陈述其观察到的现象",
+              "定语从句「who do not think they are very intelligent」：who 修饰 successful women，从句内省略 that 的宾语从句说明自我认知",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。"
+            ],
+            "phrases": [
+              {
+                "text": "observed",
+                "meaning": "观察、注意到、看到；遵守；评论、说（observe 的过去式）",
+                "usage": "注意区分：observe（观察；遵守；评论，及物）/ observe sb do（看到全过程）与 observe sb doing（看到正在做）/ notice（无意中注意到）/ observation（观察，名词）/ observe a rule（遵守规则）。",
+                "example": "They observed that there is a particularly high number of successful women who do not think they are very intelligent. 两位学者发现，事业有成的女性里，有特别多的人压根不觉得自己聪明。"
+              },
+              {
+                "text": "high",
+                "meaning": "高的；高度的 / 高高地",
+                "usage": "注意区分：high（具体高）/ highly（抽象程度高，如 highly likely）。常见搭配：high school / high rates。",
+                "example": "Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"
+              },
+              {
+                "text": "number",
+                "meaning": "数字、数量；号码",
+                "usage": "注意区分：a number of（许多，谓语复数）/ the number of（数量，谓语单数）。常见搭配：a number of（许多） / the number of（……的数量）。",
+                "example": "A number of studies agree. 许多研究结论一致。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "补述当年观察到的典型人群——成功却不自信的女性，丰富概念背景，也呼应「低估自我」主题。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 425,
+          "end": 484,
+          "text": "The Impostor Phenomenon is not defined as a mental illness.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "Impostor",
+              "normalized": "impostor",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 23,
+              "surface": "Phenomenon",
+              "normalized": "phenomenon",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 38,
+              "surface": "defined",
+              "normalized": "defined",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 50,
+              "surface": "mental",
+              "normalized": "mental",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 58,
+              "surface": "illness",
+              "normalized": "illness",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 59,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "冒充者现象并未被界定为一种精神疾病。",
+            "translationNatural": "严格说来，它并不算一种精神疾病。",
+            "structMarkup": "【The Impostor Phenomenon】 _is not defined_ (as a mental illness).",
+            "structureSummary": "主系表（被动否定）+ as 介词短语作补语。",
+            "components": [
+              {
+                "part": "The Impostor Phenomenon",
+                "role": "主语",
+                "note": "概念名作主语"
+              },
+              {
+                "part": "is not defined",
+                "role": "谓语",
+                "note": "被动否定式，意为「未被界定为」"
+              },
+              {
+                "part": "as a mental illness",
+                "role": "补语",
+                "note": "as 短语说明界定的类别，明确「不是精神疾病」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（被动否定）+ as 介词短语作补语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "mental illness",
+                "meaning": "心理的、精神的；脑力的",
+                "usage": "注意区分：mental（心理的）/ physical（身体的）。常见搭配：mental health / mental illness。",
+                "example": "Social support improves mental health. 社会支持改善心理健康。"
+              },
+              {
+                "text": "defined",
+                "meaning": "界定、给…下定义、阐明（define 过去式/分词）；明确的、轮廓分明的",
+                "usage": "本句中作v./adj.，可按「主系表（被动否定）+ as 介词短语作补语。」定位它在句中的位置。",
+                "example": "The Impostor Phenomenon is not defined as a mental illness. 严格说来，它并不算一种精神疾病。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：mental（心理的）/ physical（身体的）。",
+              "as a mental illness：as 短语说明界定的类别，明确「不是精神疾病」"
+            ],
+            "paragraphRole": "给出临床界定上的关键澄清：它不算精神疾病，为下句的转折蓄势。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 485,
+          "end": 562,
+          "text": "However, people who suffer from it show a higher vulnerability to depression.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "However",
+              "normalized": "however",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 15,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 26,
+              "surface": "suffer",
+              "normalized": "suffer",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "show",
+              "normalized": "show",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 41,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 48,
+              "surface": "higher",
+              "normalized": "higher",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 62,
+              "surface": "vulnerability",
+              "normalized": "vulnerability",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 76,
+              "surface": "depression",
+              "normalized": "depression",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 77,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "然而，受其困扰的人表现出对抑郁更高的易感性。",
+            "translationNatural": "不过，有这种倾向的人，确实更容易陷入抑郁。",
+            "structMarkup": "(However), 【people】 {who suffer from it} _show_ ~a higher vulnerability to depression~.",
+            "structureSummary": "However 转折状语 + 主谓宾；主语后 who 定语从句，宾语含比较级 higher。",
+            "components": [
+              {
+                "part": "However",
+                "role": "状语",
+                "note": "转折副词，与上句「不是疾病」形成对照"
+              },
+              {
+                "part": "people",
+                "role": "主语",
+                "note": "泛指受此困扰的人群"
+              },
+              {
+                "part": "who suffer from it",
+                "role": "定语从句",
+                "note": "who 修饰 people，it 回指冒充者现象"
+              },
+              {
+                "part": "show",
+                "role": "谓语",
+                "note": "及物动词，意为「表现出」"
+              },
+              {
+                "part": "a higher vulnerability to depression",
+                "role": "宾语",
+                "note": "show 的宾语，比较级 higher 点明「更易抑郁」"
+              }
+            ],
+            "clauses": [
+              "定语从句「who suffer from it」：who 修饰 people，it 回指冒充者现象",
+              "本句主干为「However 转折状语 + 主谓宾；主语后 who 定语从句，宾语含比较级 higher。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "however",
+                "meaning": "然而（副词，须用分号或句号连接）；无论怎样",
+                "usage": "注意区分：however（副词，不能像 but 那样直接连两个分句）/ but（连词）。常见搭配：however, ... / however much。",
+                "example": "However, the study also shows a gap. 然而，研究也显示出一道差距。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "suffer from",
+                "meaning": "遭受（suffer sth）；受苦（suffer from）",
+                "usage": "注意区分：suffer sth（遭受，及物）/ suffer from（患……病）。常见搭配：suffer an injury / suffer from。",
+                "example": "Local farmers will suffer under this situation. 当地农民会在此情形下受损。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：however（副词，不能像 but 那样直接连两个分句）/ but（连词）。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：suffer sth（遭受，及物）/ suffer from（患……病）。"
+            ],
+            "paragraphRole": "以 However 收束全文，落到最实在的代价：虽非疾病，却更易抑郁——正是第50题的答案。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 46,
+      "stem": "What do we learn from the passage about people who suffer from the so-called Impostor Phenomenon?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They systematically underestimate their chances of success."
+        },
+        {
+          "key": "B",
+          "text": "They tend to attribute their achievements to good fortune."
+        },
+        {
+          "key": "C",
+          "text": "They seem to live in constant fear of being deceived."
+        },
+        {
+          "key": "D",
+          "text": "They generally rely on luck and chance for success."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 47,
+      "stem": "What do people with a healthy amount of reflection and self-doubt tend to do?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Credit all their successes to hard work."
+        },
+        {
+          "key": "B",
+          "text": "Strive hard to perfect their skills."
+        },
+        {
+          "key": "C",
+          "text": "Refrain from acting on impulse."
+        },
+        {
+          "key": "D",
+          "text": "Deliver a better performance."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 48,
+      "stem": "What do Impostor Phenomenon sufferers often do according to psychologists from Martin Luther University Halle-Wittenberg?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attribute their accomplishments to others."
+        },
+        {
+          "key": "B",
+          "text": "Deny their actual measured intelligence."
+        },
+        {
+          "key": "C",
+          "text": "Claim to have confidence in their own abilities."
+        },
+        {
+          "key": "D",
+          "text": "Mark down their objectively rated performance."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 49,
+      "stem": "What happens when a person permanently underestimates their own abilities?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They will focus their attention on external factors."
+        },
+        {
+          "key": "B",
+          "text": "They will be fearful of potential consequences."
+        },
+        {
+          "key": "C",
+          "text": "They will count on good fortune for success."
+        },
+        {
+          "key": "D",
+          "text": "They will keep improving their own skills."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 50,
+      "stem": "What did US psychologists Pauline Clance and Suzanne Imes say about Impostor Phenomenon sufferers?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are more liable to have depression."
+        },
+        {
+          "key": "B",
+          "text": "They seldom realise their potential fully."
+        },
+        {
+          "key": "C",
+          "text": "They will develop mental illnesses."
+        },
+        {
+          "key": "D",
+          "text": "They will pay higher prices one day."
+        }
+      ],
+      "answer": "A"
+    }
+  ],
+  "lexicon": {
+    "abilities": {
+      "phonetic": "/əˈbɪlətiz/",
+      "pos": "n.",
+      "sense": "能力、才能、本领（ability 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "able（能够）+ -ity（名词后缀）+ -ies（复数，辅音 + y → ies）",
+        "confusables": "abilities 指多种技能，ability 泛指能力；搭配都用 to do，不用 of doing"
+      },
+      "collocations": [
+        "abilities now"
+      ],
+      "examples": [
+        "It is common for people to question their abilities now and again. 偶尔怀疑一下自己几斤几两，其实人人都会有，再正常不过。"
+      ]
+    },
+    "acting": {
+      "phonetic": "/æktɪŋ/",
+      "pos": "v./n.",
+      "sense": "行动、做事；表演、扮演；行为、法令（本文 consumers to not only demand change—but to act themselves 消费者不仅要呼吁改变，更要自己行动）（act 的现在分词/动名词形式）",
+      "lemma": "act",
+      "collocations": [
+        "acting impulsively",
+        "person from acting"
+      ],
+      "examples": [
+        "A healthy amount of reflection and self-doubt can protect a person from acting impulsively. 适度的反思和自我怀疑反而是好事，能让人不至于一时冲动。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "act + -ing（现在分词/动名词）",
+        "confusables": "acting（现在分词/动名词）/ act（原形）"
+      }
+    },
+    "actual": {
+      "phonetic": "/ˈæktʃuəl/",
+      "pos": "adj.",
+      "sense": "实际的、真实的、现存的（in actual fact 事实上）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "actual performance",
+        "actual measured",
+        "related to actual"
+      ],
+      "examples": [
+        "Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. 76 名受试做完一整套智力测试，不论真实成绩怎样，一律得到了夸奖式的好评。"
+      ],
+      "more": {
+        "confusables": "actual / actually（同族不同词形，注意词性与用法）"
+      }
+    },
+    "again": {
+      "phonetic": "/əˈɡen/",
+      "pos": "adv.",
+      "sense": "再一次、又一次、重新",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "It is common for people to question their abilities now and again. 偶尔怀疑一下自己几斤几两，其实人人都会有，再正常不过。"
+      ]
+    },
+    "age": {
+      "phonetic": "/eɪdʒ/",
+      "pos": "n./v.",
+      "sense": "年龄、年纪；时代、时期；变老、老化",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "unrelated to age"
+      ],
+      "examples": [
+        "These results are also completely unrelated to age and gender. 而且这些结论跟年龄、性别也半点关系都没有。"
+      ],
+      "more": {
+        "confusables": "age / agencies（同族不同词形，注意词性与用法）"
+      }
+    },
+    "always": {
+      "phonetic": "/ˈɔːlweɪz/",
+      "pos": "adv.",
+      "sense": "总是、一直、永远；始终（本文指「总是成为他人的囚徒」）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "always internalised"
+      ],
+      "examples": [
+        "Failures, on the other hand, are always internalised as the result of their own shortcomings. 可一遇到失败，他们又照单全收，认定全是自己不行所致。"
+      ]
+    },
+    "amount": {
+      "phonetic": "/əˈmaʊnt/",
+      "pos": "n./v.",
+      "sense": "数量（不可数）；总额 / 合计为",
+      "collocations": [
+        "a large amount of",
+        "the amount of",
+        "amount to"
+      ],
+      "examples": [
+        "They share the same amount of care. 他们承担同等数量的照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "a-（=ad- 朝向）+ mount（山，词根，同 mountain）→ 累积成堆 → 总量",
+        "confusables": "amount of（接不可数）/ number of（接可数）"
+      }
+    },
+    "asked": {
+      "phonetic": "/ɑːskt/",
+      "pos": "v.",
+      "sense": "问、询问；要求、请求；邀请（ask 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "They were then asked why they think they did so well. 接着研究者问他们：觉得自己考得这么好，原因是什么？"
+      ]
+    },
+    "assumption": {
+      "phonetic": "/əˈsʌmpʃn/",
+      "pos": "n.",
+      "sense": "假定、假设；承担、就任",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. 其二，实验印证了假设：越有冒充者倾向的人，越会看低自己实测的成绩，把好结果推给运气等外因，唯独不认自己的本事。"
+      ],
+      "more": {
+        "confusables": "assumption / assumptions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "believe": {
+      "phonetic": "/bɪˈliːv/",
+      "pos": "v.",
+      "sense": "相信、认为",
+      "collocations": [
+        "believe in",
+        "believe that"
+      ],
+      "examples": [
+        "I believe he is right. 我认为他是对的。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "causes": {
+      "phonetic": "/ˈkɔːzɪz/",
+      "pos": "n./v.",
+      "sense": "原因、起因、事业（cause 的复数）；导致、引起（第三人称单数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "external causes"
+      ],
+      "examples": [
+        "Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. 其二，实验印证了假设：越有冒充者倾向的人，越会看低自己实测的成绩，把好结果推给运气等外因，唯独不认自己的本事。"
+      ],
+      "more": {
+        "confusables": "causes / cause（同族不同词形，注意词性与用法）"
+      }
+    },
+    "chance": {
+      "phonetic": "/tʃɑːns/",
+      "pos": "n.",
+      "sense": "机会、机遇；可能性、概率；偶然（by chance 碰巧）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "chance（机会，可数；可能性，不可数）/ by chance（偶然，副词短语）/ take a chance（冒险）/ chance to do / have a chance of doing / chance 与 opportunity（较正式，指有利时机）/ chance 与 change 拼写易混"
+      },
+      "collocations": [],
+      "examples": [
+        "They think that any success is due to external circumstances or just luck and chance. 在他们眼里，凡是成绩都得算在外部条件或干脆是走运头上，跟自己没关系。"
+      ]
+    },
+    "common": {
+      "phonetic": "/ˈkɒmən/",
+      "pos": "adj.",
+      "sense": "常见的、普遍的；共同的",
+      "collocations": [
+        "in common",
+        "common sense",
+        "common practice"
+      ],
+      "examples": [
+        "Paternity leave is becoming more common. 陪产假越来越普遍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "common（常见/共同）/ ordinary（普通）/ usual（通常的）"
+      }
+    },
+    "completed": {
+      "phonetic": "/kəmˈpliːtɪd/",
+      "pos": "v./adj.",
+      "sense": "complete 的过去式/过去分词（完成）；已完成的",
+      "lemma": "complete",
+      "collocations": [
+        "completed the survey",
+        "a completed task"
+      ],
+      "examples": [
+        "Two hundred teenagers completed the survey. 两百名青少年完成了调查。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "completed（已完成）/ complete（完整的/完成）"
+      }
+    },
+    "completely": {
+      "phonetic": "/kəmˈpliːtli/",
+      "pos": "adv.",
+      "sense": "完全地、彻底地",
+      "collocations": [
+        "completely unrelated"
+      ],
+      "examples": [
+        "These results are also completely unrelated to age and gender. 而且这些结论跟年龄、性别也半点关系都没有。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "completely / completed / complete（同族不同词形，注意词性与用法）"
+      }
+    },
+    "conditions": {
+      "phonetic": "/kənˈdɪʃnz/",
+      "pos": "n.",
+      "sense": "条件；状况、病症（condition 的复数）",
+      "lemma": "condition",
+      "collocations": [
+        "mental health conditions",
+        "living conditions",
+        "under certain conditions"
+      ],
+      "examples": [
+        "Isolation is linked to mental health conditions. 孤立与心理健康问题相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "condition（状况/病症）/ situation（情形）/ state（状态）"
+      }
+    },
+    "constant": {
+      "phonetic": "/ˈkɒnstənt/",
+      "pos": "adj.",
+      "sense": "持续的、不变的",
+      "collocations": [
+        "constant exercise",
+        "under constant pressure"
+      ],
+      "examples": [
+        "Constant practice makes perfect. 持续练习才能熟能生巧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（加强）+ st（站立，词根 sta = stand，同 stand/stable/status）+ -ant",
+        "confusables": "constant（持续不断的；恒定不变的）/ continuous（连续不间断的）/ continual（频繁发生、时断时续的）/ constant 与 consistent（前者「不变/不停」，后者「前后一致」）"
+      }
+    },
+    "defined": {
+      "phonetic": "/dɪˈfaɪnd/",
+      "pos": "v./adj.",
+      "sense": "界定、给…下定义、阐明（define 过去式/分词）；明确的、轮廓分明的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "defined as"
+      ],
+      "examples": [
+        "The Impostor Phenomenon is not defined as a mental illness. 严格说来，它并不算一种精神疾病。"
+      ],
+      "more": {
+        "confusables": "defined / define / definition（同族不同词形，注意词性与用法）"
+      }
+    },
+    "degree": {
+      "phonetic": "/dɪˈɡriː/",
+      "pos": "n.",
+      "sense": "程度；学位",
+      "collocations": [
+        "the degree to which",
+        "self-reported degree",
+        "degree of"
+      ],
+      "examples": [
+        "The study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance. 研究得出两个结论：其一，一个人自评有多「冒充者」，跟他实测的智力、成绩压根不挂钩。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "degree（程度；学位；度，可数）/ to some / a certain degree（在某种程度上，= to some extent）/ by degrees（逐渐地）/ a bachelor's degree（学士学位）/ degree 与 diploma（diploma 是「文凭」，degree 是「学位」）"
+      }
+    },
+    "delivering": {
+      "phonetic": "/dɪˈlɪvəɪŋ/",
+      "pos": "v.",
+      "sense": "递送、交付、发表、兑现、实现；接生（本文 actually deliver your desired outcome 真正带来你想要的结果 / deliver a speech）（deliver 的现在分词/动名词形式）",
+      "lemma": "deliver",
+      "collocations": [
+        "despite delivering"
+      ],
+      "examples": [
+        "However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance. 可偏偏有一类人，成绩明明不差，却常年被铺天盖地的自我怀疑缠着不放。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "deliver + -ing（现在分词/动名词）",
+        "confusables": "delivering（现在分词/动名词）/ deliver（原形）"
+      }
+    },
+    "described": {
+      "phonetic": "/dɪˈskraɪbd/",
+      "pos": "v.",
+      "sense": "描述、描写、形容（describe 的过去式/过去分词；be described as 被称作、被说成）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "first described",
+        "described in"
+      ],
+      "examples": [
+        "The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes. 这一概念最早由美国心理学家 Pauline Clance 与 Suzanne Imes 在 1978 年提出。"
+      ],
+      "more": {
+        "confusables": "described / describe（同族不同词形，注意词性与用法）"
+      }
+    },
+    "despite": {
+      "phonetic": "/dɪˈspaɪt/",
+      "pos": "prep.",
+      "sense": "尽管、虽然（后接名词或动名词，不接从句）",
+      "collocations": [
+        "despite the fact that",
+        "despite progress",
+        "despite doing"
+      ],
+      "examples": [
+        "Despite progress, women still struggle. 尽管有进步，女性仍在艰难争取。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "despite + 名词（不是从句）/ although + 从句"
+      }
+    },
+    "due": {
+      "phonetic": "/djuː/",
+      "pos": "adj./prep.",
+      "sense": "预期的、到期的；（due to）由于",
+      "collocations": [
+        "due to",
+        "be due to do",
+        "due date"
+      ],
+      "examples": [
+        "The change is due to new law. 这一变化源于新法律。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "due to（由于，介词短语）/ because of（同义）/ be due to do（预计做）"
+      }
+    },
+    "examined": {
+      "phonetic": "/ɪɡˈzæmɪnd/",
+      "pos": "v.",
+      "sense": "examine 的过去式，考察、研究、检查",
+      "collocations": [
+        "Halle-Wittenberg examined"
+      ],
+      "examples": [
+        "Psychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. 哈勒-维滕贝格马丁·路德大学的心理学者头一回把这一现象搬到真实情境里做研究。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "examined / examine / examination（同族不同词形，注意词性与用法）"
+      }
+    },
+    "example": {
+      "phonetic": "/ɪɡˈzɑːmpl/",
+      "pos": "n.",
+      "sense": "例子、实例；榜样",
+      "collocations": [
+        "for example",
+        "an example of",
+        "set an example"
+      ],
+      "examples": [
+        "For example, texting and reading coexist. 例如，发短信和读书并存。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "for example（插入语，缩写 e.g.）/ such as（后接名词）"
+      }
+    },
+    "external": {
+      "phonetic": "/ɪkˈstɜːnl/",
+      "pos": "adj.",
+      "sense": "外部的、外来的、外界的、外表的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "extern（外部，词根 exter = outward，同 exterior/extra/extreme）+ -al（形容词后缀）",
+        "confusables": "external（外部的、外来的，如 external factors）/ internal（内部的，反义）/ exterior / interior（多指建筑物内外或人的外表/内心）/ external 与 outer（更口语，只指位置）"
+      },
+      "collocations": [
+        "external circumstances",
+        "due to external",
+        "successes to external"
+      ],
+      "examples": [
+        "They think that any success is due to external circumstances or just luck and chance. 在他们眼里，凡是成绩都得算在外部条件或干脆是走运头上，跟自己没关系。"
+      ]
+    },
+    "failures": {
+      "phonetic": "/ˈfeɪljəz/",
+      "pos": "n.",
+      "sense": "失败、不成功；失败的人 / 事；故障、失灵；未能做到（failure to do 未做…）（failure 的复数/三单形式）",
+      "lemma": "failure",
+      "collocations": [],
+      "examples": [
+        "Failures, on the other hand, are always internalised as the result of their own shortcomings. 可一遇到失败，他们又照单全收，认定全是自己不行所致。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "failure + -s（复数/三单）",
+        "confusables": "failures（复数/三单）/ failure（原形）"
+      }
+    },
+    "fear": {
+      "phonetic": "/fɪə(r)/",
+      "pos": "n./v.",
+      "sense": "恐惧、害怕、担忧；畏惧、恐怕、担心",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fear（害怕、恐惧，名词/动词）/ fear of（对…的恐惧，介词 of）/ for fear that/of（唯恐，从句常用 should/might）/ fear to do（不敢做）/ afraid（只作表语，be afraid of，不说 an afraid boy）"
+      },
+      "collocations": [
+        "constant fear"
+      ],
+      "examples": [
+        "Those people live in constant fear that their \"deception\" will be exposed. 他们成天提心吊胆，总怕自己「冒牌」的底细哪天被当众戳破。"
+      ]
+    },
+    "first": {
+      "phonetic": "/fɜːst/",
+      "pos": "num./adj./adv.",
+      "sense": "第一；最早的；首先、初次",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "first time",
+        "first described"
+      ],
+      "examples": [
+        "Psychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. 哈勒-维滕贝格马丁·路德大学的心理学者头一回把这一现象搬到真实情境里做研究。"
+      ]
+    },
+    "gender": {
+      "phonetic": "/ˈdʒendə/",
+      "pos": "n.",
+      "sense": "性别；（语法的）性（gender differences 性别差异；gender gap 性别鸿沟）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "These results are also completely unrelated to age and gender. 而且这些结论跟年龄、性别也半点关系都没有。"
+      ],
+      "more": {
+        "confusables": "gender / genders（同族不同词形，注意词性与用法）"
+      }
+    },
+    "good": {
+      "phonetic": "/ɡʊd/",
+      "pos": "adj./n.",
+      "sense": "好的；有益的 / 好处（不可数）",
+      "collocations": [
+        "be good at",
+        "good for",
+        "a good deal of"
+      ],
+      "examples": [
+        "A rich social life is good for health. 丰富社交生活有益健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "good at（擅长）/ good for（对……有益）/ well（副词，身体好）"
+      }
+    },
+    "hand": {
+      "phonetic": "/hænd/",
+      "pos": "n./v.",
+      "sense": "手；帮助（give sb a hand）/ 递（动词）",
+      "collocations": [
+        "on the other hand",
+        "give a hand",
+        "hand in"
+      ],
+      "examples": [
+        "On the other hand, there is a rational approach. 另一方面，也有理性的方法。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "on the one hand ... on the other hand（一方面……另一方面）/ hand in（上交）"
+      }
+    },
+    "hard": {
+      "phonetic": "/hɑːd/",
+      "pos": "adj./adv.",
+      "sense": "硬的、坚固的、困难的、艰苦的；努力地、猛烈地",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "hard work"
+      ],
+      "examples": [
+        "They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. 他们觉得成绩跟本事、跟下过的功夫统统无关，反倒一股脑推给外部条件——比方说走运；再不然就认定，别人把他们的水平抬得过高了。"
+      ],
+      "more": {
+        "confusables": "hard / harder / hardware（同族不同词形，注意词性与用法）"
+      }
+    },
+    "healthy": {
+      "phonetic": "/ˈhelθi/",
+      "pos": "adj.",
+      "sense": "健康的；有益健康的",
+      "collocations": [
+        "a healthy diet",
+        "healthy habits",
+        "stay healthy"
+      ],
+      "examples": [
+        "They start a healthy diet. 他们开始健康饮食。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "health（健康）+ -y（形容词后缀）",
+        "confusables": "healthy（健康的）/ healthful（有益健康的）/ health（健康，名词）"
+      }
+    },
+    "high": {
+      "phonetic": "/haɪ/",
+      "pos": "adj./adv.",
+      "sense": "高的；高度的 / 高高地",
+      "collocations": [
+        "high school",
+        "high rates",
+        "highly（注意区分）"
+      ],
+      "examples": [
+        "Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "high（具体高）/ highly（抽象程度高，如 highly likely）"
+      }
+    },
+    "higher": {
+      "phonetic": "/ˈhaɪə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更高的（high 的比较级）；更高地",
+      "lemma": "high",
+      "collocations": [
+        "higher rates",
+        "higher than",
+        "higher education"
+      ],
+      "examples": [
+        "Isolation is linked to higher rates of disease. 孤立与更高的发病率相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "higher（更高）/ hire（雇用）同音"
+      }
+    },
+    "however": {
+      "phonetic": "/haʊˈevə(r)/",
+      "pos": "adv./conj.",
+      "sense": "然而（副词，须用分号或句号连接）；无论怎样",
+      "collocations": [
+        "however, ...",
+        "however much"
+      ],
+      "examples": [
+        "However, the study also shows a gap. 然而，研究也显示出一道差距。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "however（副词，不能像 but 那样直接连两个分句）/ but（连词）"
+      }
+    },
+    "illness": {
+      "phonetic": "/ˈɪlnəs/",
+      "pos": "n.",
+      "sense": "疾病、生病、病痛（ill 的名词形式；a serious illness 重病）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "mental illness"
+      ],
+      "examples": [
+        "The Impostor Phenomenon is not defined as a mental illness. 严格说来，它并不算一种精神疾病。"
+      ],
+      "more": {
+        "roots": "illness 含 -ness（名词后缀，表性质或状态）"
+      }
+    },
+    "instead": {
+      "phonetic": "/ɪnˈsted/",
+      "pos": "adv.",
+      "sense": "代替、反而、却（副词；instead of 才是介词短语，后接名词/动名词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "instead（副词「代替、反而」，单独用，放句首或句末，不接宾语）/ instead of（介词短语「而不是」，后接名词/代词/动名词）/ rather than（连接平行结构）/ instead 与 take the place of（动词短语取代）"
+      },
+      "collocations": [],
+      "examples": [
+        "They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. 他们觉得成绩跟本事、跟下过的功夫统统无关，反倒一股脑推给外部条件——比方说走运；再不然就认定，别人把他们的水平抬得过高了。"
+      ]
+    },
+    "intellectual": {
+      "phonetic": "/ˌɪntəˈlektʃuəl/",
+      "pos": "adj./n.",
+      "sense": "智力的、脑力的、知识的；知识分子、脑力劳动者",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "intellect（智力，intel- = inter- 之间 + lect 选/读，词根，同 select/collect）+ -ual",
+        "confusables": "intellectual（智力的；知识分子，形容词/名词）/ intelligence（智力，不可数）/ intelligent（聪明的）/ intellect（智力，书面）/ intellectual property（知识产权）"
+      },
+      "collocations": [
+        "supposed intellectual",
+        "intellectual deception"
+      ],
+      "examples": [
+        "A permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. 老是看低自己的人，往往还揣着一份怕：怕这层「智力造假」早晚露馅，怕到时要为此买单。"
+      ]
+    },
+    "intelligence": {
+      "phonetic": "/ɪnˈtelɪdʒəns/",
+      "pos": "n.",
+      "sense": "智力、智慧、理解力；情报；人工智能（AI）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "intelligence（智力；情报，不可数，不说 intelligences）/ intelligent（聪明的）/ intellect（智力，书面）/ intellectual（智力的；知识分子）/ artificial intelligence (AI) / wisdom（智慧，含判断力与经验）"
+      },
+      "collocations": [
+        "intelligence tests",
+        "range of intelligence",
+        "measured intelligence"
+      ],
+      "examples": [
+        "Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. 76 名受试做完一整套智力测试，不论真实成绩怎样，一律得到了夸奖式的好评。"
+      ]
+    },
+    "intelligent": {
+      "phonetic": "/ɪnˈtelɪdʒənt/",
+      "pos": "adj.",
+      "sense": "聪明的、有才智的、智能的、理智的",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "They observed that there is a particularly high number of successful women who do not think they are very intelligent. 两位学者发现，事业有成的女性里，有特别多的人压根不觉得自己聪明。"
+      ],
+      "more": {
+        "confusables": "intelligent / intelligence（同族不同词形，注意词性与用法）"
+      }
+    },
+    "later": {
+      "phonetic": "/ˈleɪtə/",
+      "pos": "adv./adj.",
+      "sense": "后来、以后、稍后；较晚的、后期的（本文 50 years later 五十年后 / middle and late adulthood 中老年）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "A permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. 老是看低自己的人，往往还揣着一份怕：怕这层「智力造假」早晚露馅，怕到时要为此买单。"
+      ],
+      "more": {
+        "confusables": "later / late / latest（同族不同词形，注意词性与用法）"
+      }
+    },
+    "live": {
+      "phonetic": "/lɪv/",
+      "pos": "v./adj.",
+      "sense": "生活、居住、活着、生存；现场的、直播的（形容词读 /laɪv/）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "people live",
+        "live in",
+        "live in constant"
+      ],
+      "examples": [
+        "Those people live in constant fear that their \"deception\" will be exposed. 他们成天提心吊胆，总怕自己「冒牌」的底细哪天被当众戳破。"
+      ],
+      "more": {
+        "confusables": "live / livelier / liver（同族不同词形，注意词性与用法）"
+      }
+    },
+    "luck": {
+      "phonetic": "/lʌk/",
+      "pos": "n.",
+      "sense": "运气、机遇",
+      "collocations": [
+        "good luck",
+        "by luck"
+      ],
+      "examples": [
+        "It was pure luck. 那纯属运气。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "massive": {
+      "phonetic": "/ˈmæsɪv/",
+      "pos": "adj.",
+      "sense": "巨大的、大量的、大规模的、厚重的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "massive amount"
+      ],
+      "examples": [
+        "However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance. 可偏偏有一类人，成绩明明不差，却常年被铺天盖地的自我怀疑缠着不放。"
+      ],
+      "more": {
+        "confusables": "massive / massively（同族不同词形，注意词性与用法）"
+      }
+    },
+    "massively": {
+      "phonetic": "/ˈmæsɪvli/",
+      "pos": "adv.",
+      "sense": "极大地、大幅度地、大规模地",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "massively overestimated"
+      ],
+      "examples": [
+        "They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. 他们觉得成绩跟本事、跟下过的功夫统统无关，反倒一股脑推给外部条件——比方说走运；再不然就认定，别人把他们的水平抬得过高了。"
+      ],
+      "more": {
+        "confusables": "massively / massive（同族不同词形，注意词性与用法）"
+      }
+    },
+    "mental": {
+      "phonetic": "/ˈmentl/",
+      "pos": "adj.",
+      "sense": "心理的、精神的；脑力的",
+      "collocations": [
+        "mental health",
+        "mental illness",
+        "mental effort"
+      ],
+      "examples": [
+        "Social support improves mental health. 社会支持改善心理健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ment（心智、思维，词根 ment = mind，同 mentality/dementia）+ -al（形容词后缀）",
+        "confusables": "mental（心理的）/ physical（身体的）"
+      }
+    },
+    "now": {
+      "phonetic": "/naʊ/",
+      "pos": "adv.",
+      "sense": "现在；如今；立刻",
+      "collocations": [
+        "right now",
+        "by now",
+        "now that"
+      ],
+      "examples": [
+        "They are now six times longer. 它们现在长了六倍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "now（现在）/ now that（既然，连词）"
+      }
+    },
+    "number": {
+      "phonetic": "/ˈnʌmbə(r)/",
+      "pos": "n.",
+      "sense": "数字、数量；号码",
+      "collocations": [
+        "a number of（许多）",
+        "the number of（……的数量）",
+        "in large numbers"
+      ],
+      "examples": [
+        "A number of studies agree. 许多研究结论一致。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "a number of（许多，谓语复数）/ the number of（数量，谓语单数）"
+      }
+    },
+    "objectively": {
+      "phonetic": "/əbˈdʒektɪvli/",
+      "pos": "adj./n.",
+      "sense": "客观的；目标（objective 的副词形式）",
+      "lemma": "objective",
+      "collocations": [
+        "objectively measured"
+      ],
+      "examples": [
+        "Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. 其二，实验印证了假设：越有冒充者倾向的人，越会看低自己实测的成绩，把好结果推给运气等外因，唯独不认自己的本事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "objective + -ly（副词）",
+        "confusables": "objectively（副词）/ objective（原形）"
+      }
+    },
+    "observed": {
+      "phonetic": "/əbˈzɜːvd/",
+      "pos": "v.",
+      "sense": "观察、注意到、看到；遵守；评论、说（observe 的过去式）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ob-（朝向）+ serv（注视、守护，词根，同 preserve/reserve）+ -ed",
+        "confusables": "observe（观察；遵守；评论，及物）/ observe sb do（看到全过程）与 observe sb doing（看到正在做）/ notice（无意中注意到）/ observation（观察，名词）/ observe a rule（遵守规则）"
+      },
+      "collocations": [],
+      "examples": [
+        "They observed that there is a particularly high number of successful women who do not think they are very intelligent. 两位学者发现，事业有成的女性里，有特别多的人压根不觉得自己聪明。"
+      ]
+    },
+    "often": {
+      "phonetic": "/ˈɒfn/",
+      "pos": "adv.",
+      "sense": "经常、常常",
+      "collocations": [
+        "often accompanied"
+      ],
+      "examples": [
+        "A permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. 老是看低自己的人，往往还揣着一份怕：怕这层「智力造假」早晚露馅，怕到时要为此买单。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "others": {
+      "phonetic": "/ˈʌðəz/",
+      "pos": "pron./n.",
+      "sense": "其他人/物、别的人/物（other 的复数；some...others 一些…另一些）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "others（其他人/物，泛指，常与 some 呼应 some…others…）/ the others（特定范围内「其余全部」）/ another（三者以上的「另一个」，接单数）/ the other（两者中的「另一个」，one…the other…）/ others 后不再接名词"
+      },
+      "collocations": [
+        "overestimated by others"
+      ],
+      "examples": [
+        "They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. 他们觉得成绩跟本事、跟下过的功夫统统无关，反倒一股脑推给外部条件——比方说走运；再不然就认定，别人把他们的水平抬得过高了。"
+      ]
+    },
+    "participants": {
+      "phonetic": "/pɑːˈtɪsɪpənts/",
+      "pos": "n.",
+      "sense": "participant 的复数，参与者、受试者",
+      "collocations": [
+        "Seventy-six participants",
+        "participants completed"
+      ],
+      "examples": [
+        "Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. 76 名受试做完一整套智力测试，不论真实成绩怎样，一律得到了夸奖式的好评。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "particularly": {
+      "phonetic": "/pəˈtɪkjələli/",
+      "pos": "adv.",
+      "sense": "尤其、特别、格外",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "particularly high"
+      ],
+      "examples": [
+        "They observed that there is a particularly high number of successful women who do not think they are very intelligent. 两位学者发现，事业有成的女性里，有特别多的人压根不觉得自己聪明。"
+      ],
+      "more": {
+        "confusables": "particularly / particular（同族不同词形，注意词性与用法）"
+      }
+    },
+    "pay": {
+      "phonetic": "/peɪ/",
+      "pos": "v./n.",
+      "sense": "支付（pay for sth）；付出代价 / 薪水（不可数）",
+      "collocations": [
+        "pay for",
+        "pay attention to",
+        "equal pay"
+      ],
+      "examples": [
+        "Women still earn lower pay. 女性薪酬仍然更低。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "pay for（为……付款）/ pay attention to（注意）/ pay off（还清/奏效）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "performance": {
+      "phonetic": "/pəˈfɔːməns/",
+      "pos": "n.",
+      "sense": "表现、业绩；表演",
+      "collocations": [
+        "job performance",
+        "improve performance",
+        "a performance of"
+      ],
+      "examples": [
+        "Error rates stayed stable in student performance. 学生作文的错误率保持稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "perform（执行）+ -ance",
+        "confusables": "performance（表现）/ perform（动词）"
+      }
+    },
+    "permanently": {
+      "phonetic": "/ˈpɜːmənəntli/",
+      "pos": "adv.",
+      "sense": "永久地、长期不变地",
+      "collocations": [
+        "permanently plagued"
+      ],
+      "examples": [
+        "However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance. 可偏偏有一类人，成绩明明不差，却常年被铺天盖地的自我怀疑缠着不放。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "permanently 含 -ly（副词后缀）"
+      }
+    },
+    "person": {
+      "phonetic": "/ˈpɜːsn/",
+      "pos": "n.",
+      "sense": "人（可数，复数 people/persons）",
+      "collocations": [
+        "a person who",
+        "in person",
+        "per person"
+      ],
+      "examples": [
+        "Can a person really be a multitasker? 一个人真的能一心多用吗？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "person（单数）/ people（复数）/ persons（法律用语复数）"
+      }
+    },
+    "positive": {
+      "phonetic": "/ˈpɒzətɪv/",
+      "pos": "adj.",
+      "sense": "积极的、正面的；确定的；阳性的",
+      "collocations": [
+        "positive behaviors",
+        "positive impact",
+        "test positive"
+      ],
+      "examples": [
+        "The facts are much more positive. 事实要正面得多。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "positive（积极的）/ negative（消极的）"
+      }
+    },
+    "price": {
+      "phonetic": "/praɪs/",
+      "pos": "n./v.",
+      "sense": "价格（可数）/ 定价",
+      "collocations": [
+        "the price of",
+        "at a price",
+        "price rise"
+      ],
+      "examples": [
+        "The higher the price will jump. 价格会涨得越高。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "price（价格）/ cost（成本）/ prize（奖品）"
+      }
+    },
+    "product": {
+      "phonetic": "/ˈprɒdʌkt/",
+      "pos": "n.",
+      "sense": "产品、制品；产物、结果（本文 a product that is so nakedly unnecessary 如此多余的产品 / on-the-go products 即饮产品）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "product of"
+      ],
+      "examples": [
+        "They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. 他们觉得成绩跟本事、跟下过的功夫统统无关，反倒一股脑推给外部条件——比方说走运；再不然就认定，别人把他们的水平抬得过高了。"
+      ],
+      "more": {
+        "confusables": "product / productivity / production（同族不同词形，注意词性与用法）"
+      }
+    },
+    "protect": {
+      "phonetic": "/prəˈtekt/",
+      "pos": "v.",
+      "sense": "保护（protect sb from sth）",
+      "collocations": [
+        "protect against",
+        "protect sb from"
+      ],
+      "examples": [
+        "Law can protect minors online. 法律可以保护网上未成年人。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "protect from/against（保护免受）/ prevention（预防）"
+      }
+    },
+    "psychologists": {
+      "phonetic": "/saɪˈkɒlədʒɪstts/",
+      "pos": "n.",
+      "sense": "心理学家、心理学研究者（psychologist 的复数/三单形式）",
+      "lemma": "psychologist",
+      "collocations": [
+        "Psychologists from",
+        "Psychologists from Martin",
+        "psychologists Pauline"
+      ],
+      "examples": [
+        "Psychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. 哈勒-维滕贝格马丁·路德大学的心理学者头一回把这一现象搬到真实情境里做研究。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "psychologist + -s（复数/三单）",
+        "confusables": "psychologists（复数/三单）/ psychologist（原形）"
+      }
+    },
+    "question": {
+      "phonetic": "/ˈkwestʃən/",
+      "pos": "n./v.",
+      "sense": "问题（需回答）；疑问 / 质疑",
+      "collocations": [
+        "ask a question",
+        "the question is",
+        "out of the question"
+      ],
+      "examples": [
+        "This seemingly easy question drives the need to understand. 这个看似简单的问题催生了理解的需要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "question（疑问）/ problem（难题）/ out of the question（不可能）"
+      }
+    },
+    "range": {
+      "phonetic": "/reɪndʒ/",
+      "pos": "n./v.",
+      "sense": "范围（可数）；一系列 / 从……到……不等（range from）",
+      "collocations": [
+        "a range of",
+        "range from A to B",
+        "in range"
+      ],
+      "examples": [
+        "A range of factors matters. 一系列因素都重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "range from A to B（从……到……不等）/ a range of（一系列）"
+      }
+    },
+    "received": {
+      "phonetic": "/rɪˈsiːvd/",
+      "pos": "v./adj.",
+      "sense": "收到、得到、接受、接待（receive 的过去式/过去分词）；被普遍接受的（received wisdom 公认看法）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "received positive"
+      ],
+      "examples": [
+        "Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. 76 名受试做完一整套智力测试，不论真实成绩怎样，一律得到了夸奖式的好评。"
+      ],
+      "more": {
+        "confusables": "received / receiving（同族不同词形，注意词性与用法）"
+      }
+    },
+    "regardless": {
+      "phonetic": "/rɪˈɡɑːdləs/",
+      "pos": "adv.",
+      "sense": "不管怎样（regardless of 后接名词）",
+      "collocations": [
+        "regardless of",
+        "regardless, ..."
+      ],
+      "examples": [
+        "Regardless of the cost, firms must act. 无论代价如何，公司必须行动。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "regard（顾及、看待）+ -less（否定形容词后缀，「不顾…的」）",
+        "confusables": "regardless of（不管，后接名词）/ regardless（不管怎样，副词）"
+      }
+    },
+    "result": {
+      "phonetic": "/rɪˈzʌlt/",
+      "pos": "n./v.",
+      "sense": "结果（可数）/ 导致（result in）、由……造成（result from）",
+      "collocations": [
+        "result in",
+        "result from",
+        "as a result"
+      ],
+      "examples": [
+        "The result was surprising. 结果令人意外。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "result in（导致）/ result from（起因于）/ as a result of（由于）"
+      }
+    },
+    "results": {
+      "phonetic": "/rɪˈzʌlts/",
+      "pos": "n.",
+      "sense": "结果（result 的复数）；成绩",
+      "lemma": "result",
+      "collocations": [
+        "the results show",
+        "test results"
+      ],
+      "examples": [
+        "The results suggest a clear difference. 结果表明有明显差异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "results（复数）/ result（单数）"
+      }
+    },
+    "secondly": {
+      "phonetic": "/ˈsekəndli/",
+      "pos": "n./adj./v.",
+      "sense": "秒、瞬间、片刻；第二（的）、次等的、另一的；支持、附议（动词读 /sɪˈkɒnd/）（second 的副词形式）",
+      "lemma": "second",
+      "collocations": [],
+      "examples": [
+        "Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. 其二，实验印证了假设：越有冒充者倾向的人，越会看低自己实测的成绩，把好结果推给运气等外因，唯独不认自己的本事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "second + -ly（副词）",
+        "confusables": "secondly（副词）/ second（原形）"
+      }
+    },
+    "show": {
+      "phonetic": "/ʃəʊ/",
+      "pos": "v./n.",
+      "sense": "显示、表明（show that）；展示 / 演出、展览",
+      "collocations": [
+        "show that",
+        "show up",
+        "a show of"
+      ],
+      "examples": [
+        "The study shows how roles endure. 研究显示角色如何延续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "show（显示）/ prove（证明，更强）/ indicate（表明，正式）"
+      }
+    },
+    "showed": {
+      "phonetic": "/ʃəʊd/",
+      "pos": "v./n.",
+      "sense": "显示、表明（show that）；展示 / 演出、展览（show 的过去式/过去分词形式）",
+      "lemma": "show",
+      "collocations": [
+        "study showed",
+        "showed two",
+        "showed two things"
+      ],
+      "examples": [
+        "The study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance. 研究得出两个结论：其一，一个人自评有多「冒充者」，跟他实测的智力、成绩压根不挂钩。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "show + -ed（过去式/过去分词）",
+        "confusables": "showed（过去式/过去分词）/ show（原形）"
+      }
+    },
+    "skill": {
+      "phonetic": "/skɪl/",
+      "pos": "n.",
+      "sense": "技能、技巧、技艺；熟练（本文 language seems to be a skill 语言似乎是一种技能 / building financial skills 培养理财技能）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. 他们觉得成绩跟本事、跟下过的功夫统统无关，反倒一股脑推给外部条件——比方说走运；再不然就认定，别人把他们的水平抬得过高了。"
+      ],
+      "more": {
+        "confusables": "skill / skilled / skills（同族不同词形，注意词性与用法）"
+      }
+    },
+    "so-called": {
+      "phonetic": "/ˌsəʊ ˈkɔːld/",
+      "pos": "adj.",
+      "sense": "所谓的、号称…的（常含不认同或名不副实的语气；so-called experts 所谓的专家）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "so-called Impostor"
+      ],
+      "examples": [
+        "People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon. 总习惯性地看低自己、贬低自身成绩的人，其实正受困于所谓的「冒充者综合征」。"
+      ]
+    },
+    "sooner": {
+      "phonetic": "/suːnə(r)/",
+      "pos": "adv.",
+      "sense": "不久、很快（soon 的比较级形式）",
+      "lemma": "soon",
+      "collocations": [
+        "exposed sooner"
+      ],
+      "examples": [
+        "A permanent underestimation of one's own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. 老是看低自己的人，往往还揣着一份怕：怕这层「智力造假」早晚露馅，怕到时要为此买单。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "soon + -er（比较级）",
+        "confusables": "sooner（比较级）/ soon（原形）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "success": {
+      "phonetic": "/səkˈses/",
+      "pos": "n.",
+      "sense": "成功、成就",
+      "collocations": [
+        "achieve success",
+        "the key to success"
+      ],
+      "examples": [
+        "Hard work is not the only route to success. 努力并非成功的唯一路径。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "success / successful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "successful": {
+      "phonetic": "/səkˈsesfl/",
+      "pos": "adj.",
+      "sense": "成功的",
+      "collocations": [
+        "a successful outcome",
+        "successful in doing"
+      ],
+      "examples": [
+        "The policy has been broadly successful. 该政策总体上是成功的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "successful（成功的）/ successive（连续的）"
+      }
+    },
+    "suffer": {
+      "phonetic": "/ˈsʌfə(r)/",
+      "pos": "v.",
+      "sense": "遭受（suffer sth）；受苦（suffer from）",
+      "collocations": [
+        "suffer an injury",
+        "suffer from",
+        "suffer losses"
+      ],
+      "examples": [
+        "Local farmers will suffer under this situation. 当地农民会在此情形下受损。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "suffer sth（遭受，及物）/ suffer from（患……病）"
+      }
+    },
+    "supported": {
+      "phonetic": "/səˈpɔːtɪd/",
+      "pos": "v.",
+      "sense": "support 的过去分词，支持、资助",
+      "collocations": [
+        "test supported"
+      ],
+      "examples": [
+        "Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. 其二，实验印证了假设：越有冒充者倾向的人，越会看低自己实测的成绩，把好结果推给运气等外因，唯独不认自己的本事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "supported / support / supporters（同族不同词形，注意词性与用法）"
+      }
+    },
+    "tendency": {
+      "phonetic": "/ˈtendənsi/",
+      "pos": "n.",
+      "sense": "倾向、趋势",
+      "collocations": [
+        "a tendency to do",
+        "have a tendency"
+      ],
+      "examples": [
+        "He has a tendency to overthink. 他容易想太多。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "tend（倾向、伸展，词根 tend = stretch，同 extend/attend）+ -ency（名词后缀）",
+        "confusables": "tendency（倾向、趋势，可数）/ tendency to do / towards（用不定式或 towards）/ tend to do（往往会做）/ trend（已显现的趋势、潮流）/ inclination（意愿上的倾向）"
+      }
+    },
+    "test": {
+      "phonetic": "/test/",
+      "pos": "n./v.",
+      "sense": "测试、测验、检验、试验、考验；测试、检验、化验（test sb on sth / put sth to the test）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "test supported"
+      ],
+      "examples": [
+        "Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. 其二，实验印证了假设：越有冒充者倾向的人，越会看低自己实测的成绩，把好结果推给运气等外因，唯独不认自己的本事。"
+      ],
+      "more": {
+        "confusables": "test / tests（同族不同词形，注意词性与用法）"
+      }
+    },
+    "tests": {
+      "phonetic": "/tests/",
+      "pos": "n./v.",
+      "sense": "测试、测验、考试、检验、化验、考验（复数/三单）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "intelligence tests"
+      ],
+      "examples": [
+        "Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. 76 名受试做完一整套智力测试，不论真实成绩怎样，一律得到了夸奖式的好评。"
+      ],
+      "more": {
+        "confusables": "tests / test（同族不同词形，注意词性与用法）"
+      }
+    },
+    "themselves": {
+      "phonetic": "/ðəmˈselvz/",
+      "pos": "pron.",
+      "sense": "他们自己、她们自己、它们自己；本身",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "underestimate themselves"
+      ],
+      "examples": [
+        "People who systematically underestimate themselves and their own performance suffer from the so-called Impostor Phenomenon. 总习惯性地看低自己、贬低自身成绩的人，其实正受困于所谓的「冒充者综合征」。"
+      ]
+    },
+    "things": {
+      "phonetic": "/θɪŋz/",
+      "pos": "n.",
+      "sense": "事情、东西（thing 的复数）",
+      "lemma": "thing",
+      "collocations": [
+        "all things considered",
+        "the thing is",
+        "things like that"
+      ],
+      "examples": [
+        "They have to do all these things first. 他们必须先做所有这些事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "things（事情/东西）/ stuff（东西，不可数，口语）"
+      }
+    },
+    "think": {
+      "phonetic": "/θɪŋk/",
+      "pos": "v.",
+      "sense": "想、认为；思考",
+      "collocations": [
+        "think about",
+        "think of",
+        "I think that"
+      ],
+      "examples": [
+        "Many think the risk is small. 很多人认为风险很小。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "think about（考虑）/ think of（想起）/ think over（仔细考虑）"
+      }
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "university": {
+      "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+      "pos": "n.",
+      "sense": "大学（可数）",
+      "collocations": [
+        "at university",
+        "university students",
+        "a research university"
+      ],
+      "examples": [
+        "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "university（大学）/ college（学院）/ at university（在读大学，不加 the）"
+      }
+    },
+    "well": {
+      "phonetic": "/wel/",
+      "pos": "adv./adj.",
+      "sense": "好地（副词）；健康的（形容词）；井（名词）",
+      "collocations": [
+        "as well",
+        "well-being",
+        "do well"
+      ],
+      "examples": [
+        "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "well（好地/健康）/ good（好的，形容词）/ as well（也）"
+      }
+    },
+    "women": {
+      "phonetic": "/ˈwɪmɪn/",
+      "pos": "n.",
+      "sense": "woman 的复数，女人、女性",
+      "collocations": [
+        "successful women"
+      ],
+      "examples": [
+        "They observed that there is a particularly high number of successful women who do not think they are very intelligent. 两位学者发现，事业有成的女性里，有特别多的人压根不觉得自己聪明。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "work": {
+      "phonetic": "/wɜːk/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品",
+      "collocations": [
+        "work well",
+        "at work",
+        "work out"
+      ],
+      "examples": [
+        "The approach works in practice. 这个方法在实践中奏效。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）"
+      }
+    }
+  }
+}

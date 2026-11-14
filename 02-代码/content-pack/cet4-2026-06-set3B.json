@@ -1,0 +1,5490 @@
+{
+  "sourceKey": "cet4-2026-06-set3B",
+  "articleId": "set3B",
+  "packVersion": "2026.11.13",
+  "meta": {
+    "examYear": 2026,
+    "examMonth": 6,
+    "setNo": 3,
+    "section": "仔细阅读",
+    "passageLabel": "Passage Two",
+    "title": "Feeling Known Makes Us Honest",
+    "wordCount": 350
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "After finding out details about a stranger, we mistakenly think that they also know about us. As a result, we act more honestly around them, according to a recent study in Nature.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 93,
+          "text": "After finding out details about a stranger, we mistakenly think that they also know about us.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "After",
+              "normalized": "after",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 13,
+              "surface": "finding",
+              "normalized": "finding",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 25,
+              "surface": "details",
+              "normalized": "details",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 31,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 33,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 42,
+              "surface": "stranger",
+              "normalized": "stranger",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 44,
+              "end": 46,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 57,
+              "surface": "mistakenly",
+              "normalized": "mistakenly",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 63,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 68,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 73,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 83,
+              "surface": "know",
+              "normalized": "know",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 89,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 93,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在查明了一个陌生人的详细情况之后，我们错误地认为他们也了解我们。",
+            "translationNatural": "一旦摸清某个陌生人的底细，我们就会误以为对方同样了解自己。",
+            "structMarkup": "(After finding out details about a stranger), 【we】 _mistakenly think_ {that they also know about us}.",
+            "structureSummary": "句首 After 介词短语作时间状语，主句为「主语 we + 谓语 mistakenly think + that 宾语从句」；that 从句用陈述语序。",
+            "components": [
+              {
+                "part": "After finding out details about a stranger",
+                "role": "状语",
+                "note": "句首 after + 动名词短语作时间状语，交代「打听到陌生人细节」这一前提"
+              },
+              {
+                "part": "details about a stranger",
+                "role": "宾语",
+                "note": "作 finding out 的宾语，about 短语限定「关于陌生人的细节」"
+              },
+              {
+                "part": "we",
+                "role": "主语",
+                "note": "泛指人称主语，指一般意义上的「我们」"
+              },
+              {
+                "part": "mistakenly think",
+                "role": "谓语",
+                "note": "副词 mistakenly 修饰限定动词 think，点明这是一种「误以为」"
+              },
+              {
+                "part": "that they also know about us",
+                "role": "宾语从句",
+                "note": "that 引导，作 think 的宾语，说明我们误判出的内容"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that they also know about us」：that 引导，作 think 的宾语，说明我们误判出的内容",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "finding",
+                "meaning": "研究发现、结论（可数）；find 的现在分词",
+                "usage": "注意区分：finding（研究发现）/ findings（多项结论）/ find（发现）。常见搭配：the findings suggest / research findings。",
+                "example": "That finding suggests the quantified self is limited. 这一发现表明量化自我是有限的。"
+              },
+              {
+                "text": "details",
+                "meaning": "detail 的复数，细节",
+                "usage": "注意区分：in detail（详细地，副词短语，detail 用单数、无冠词）/ go into detail(s)（详述）/ detailed（详细的，形容词）/ detail 与 details（复数指「具体细节」）。常见搭配：focus on details。",
+                "example": "After finding out details about a stranger, we mistakenly think that they also know about us. 一旦摸清某个陌生人的底细，我们就会误以为对方同样了解自己。"
+              },
+              {
+                "text": "think",
+                "meaning": "想、认为；思考",
+                "usage": "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。常见搭配：think about / think of。",
+                "example": "Many think the risk is small. 很多人认为风险很小。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "注意区分：finding（研究发现）/ findings（多项结论）/ find（发现）。",
+              "注意区分：in detail（详细地，副词短语，detail 用单数、无冠词）/ go into detail(s)（详述）/ detailed（详细的，形容词）/ detail 与 details（复数指「具体细节」）。"
+            ],
+            "paragraphRole": "开篇第一句直接抛出全文核心现象——了解陌生人会让我们误以为被对方了解，正是第51题要找的研究发现。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 94,
+          "end": 179,
+          "text": "As a result, we act more honestly around them, according to a recent study in Nature.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "As",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 11,
+              "surface": "result",
+              "normalized": "result",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "act",
+              "normalized": "act",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 33,
+              "surface": "honestly",
+              "normalized": "honestly",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 40,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 45,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 46,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 47,
+              "end": 56,
+              "surface": "according",
+              "normalized": "according",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 59,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 61,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 68,
+              "surface": "recent",
+              "normalized": "recent",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 74,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 77,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 84,
+              "surface": "Nature",
+              "normalized": "nature",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 85,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "其结果是，我们在他们周围会表现得更诚实，这是根据《自然》杂志上一项近期研究得出的结论。",
+            "translationNatural": "于是跟这些人相处时我们反倒更老实了——这是《自然》上一项新研究给出的结论。",
+            "structMarkup": "(As a result), 【we】 _act_ (more honestly) (around them), (according to a recent study in Nature).",
+            "structureSummary": "As a result 结果状语 + 主谓（we act）+ more honestly 方式状语 + around them 介词短语 + according to 来源状语；句末出处状语与首段研究呼应。",
+            "components": [
+              {
+                "part": "As a result",
+                "role": "状语",
+                "note": "固定短语作结果状语，承接上句的「误以为被了解」"
+              },
+              {
+                "part": "we",
+                "role": "主语",
+                "note": "泛指人称主语，与上句 we 同指"
+              },
+              {
+                "part": "act",
+                "role": "谓语",
+                "note": "不及物动词作谓语，意为「行事、表现」"
+              },
+              {
+                "part": "more honestly",
+                "role": "状语",
+                "note": "副词比较级作方式状语，点明「更诚实」这一行为变化"
+              },
+              {
+                "part": "around them",
+                "role": "介词短语",
+                "note": "介词短语作状语，限定「在他们面前 / 与他们相处时」"
+              },
+              {
+                "part": "according to a recent study in Nature",
+                "role": "状语",
+                "note": "according to 短语说明结论来源，in Nature 点明刊载期刊"
+              }
+            ],
+            "clauses": [
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。",
+              "本句主干为「As a result 结果状语 + 主谓（we act）+ more honestly 方式状语 + around them 介词短语 + according to 来源状语；句末出处状语与首段研究呼应。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "according to",
+                "meaning": "根据、据……所说",
+                "usage": "引出信息来源，后接名词或代词，不接从句。",
+                "example": "According to the report, costs rose. 据报告，成本上升了。"
+              },
+              {
+                "text": "As a result",
+                "meaning": "因此、结果是",
+                "usage": "副词性连接成分，常置于句首并用逗号隔开。",
+                "example": "It rained all day; as a result, the match was cancelled. 下了一整天雨，结果比赛取消了。"
+              }
+            ],
+            "pitfalls": [
+              "according to 不用于表达自己观点，不说 according to me。",
+              "as a result 是副词短语，不能直接连接两个句子，要用分号或句号；as a result of 后才接名词。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "第二句把上句的「误判」落到可见后果（更诚实）并注明研究出处，与首句合起来完整回答第51题。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Past research has found that we tend to assume social relationships are reciprocal(相互的). Most of the time, this assumption is accurate: someone you think of as a friend will usually consider you a friend too. But sometimes our social ties are more one-sided: for example, you might learn something about a stranger who doesn't know you at all. Researchers Anuj Shah and Michael LaForest wondered whether our tendency to believe that social ties are reciprocal could lead us to mistakenly feel that a stranger does actually know us.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 88,
+          "text": "Past research has found that we tend to assume social relationships are reciprocal(相互的).",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Past",
+              "normalized": "past",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 13,
+              "surface": "research",
+              "normalized": "research",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 23,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 28,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 31,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 36,
+              "surface": "tend",
+              "normalized": "tend",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 39,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 46,
+              "surface": "assume",
+              "normalized": "assume",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 53,
+              "surface": "social",
+              "normalized": "social",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 67,
+              "surface": "relationships",
+              "normalized": "relationships",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 71,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 82,
+              "surface": "reciprocal",
+              "normalized": "reciprocal",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 87,
+              "surface": "(相互的)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 87,
+              "end": 88,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "以往的研究已经发现，我们往往倾向于假定社会关系是相互的。",
+            "translationNatural": "早有研究指出，人默认「你怎么待人，人就怎么待你」，关系都是相互的。",
+            "structMarkup": "【Past research】 _has found_ {that we tend to assume social relationships are reciprocal(相互的)}.",
+            "structureSummary": "主句「Past research has found」+ that 引导宾语从句；从句内 tend to assume 后又接一个省略 that 的宾语从句（social relationships are reciprocal(相互的)），含试卷中文括注。",
+            "components": [
+              {
+                "part": "Past research",
+                "role": "主语",
+                "note": "名词短语作主语，点明结论来自「以往研究」"
+              },
+              {
+                "part": "has found",
+                "role": "谓语",
+                "note": "现在完成时，强调研究结论对当下仍有影响"
+              },
+              {
+                "part": "that we tend to assume social relationships are reciprocal(相互的)",
+                "role": "宾语从句",
+                "note": "that 引导，作 found 的宾语，陈述「关系相互」这一默认假定"
+              },
+              {
+                "part": "social relationships",
+                "role": "主语",
+                "note": "内层宾语从句的主语，指人与人之间的社会关系"
+              },
+              {
+                "part": "reciprocal(相互的)",
+                "role": "表语",
+                "note": "形容词作表语，含试卷给出的中文括注「相互的」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that we tend to assume social relationships are reciprocal(相互的)」：that 引导，作 found 的宾语，陈述「关系相互」这一默认假定",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "tend to",
+                "meaning": "往往会、倾向于",
+                "usage": "后接动词原形，表示一般性倾向。",
+                "example": "People tend to overestimate risk. 人们往往高估风险。"
+              },
+              {
+                "text": "past",
+                "meaning": "过（时间）；过去的；过去",
+                "usage": "注意区分：past（过去的/经过）/ passed（pass 的过去式）。常见搭配：past one's prime / in the past。",
+                "example": "He was regarded as past his prime. 他被认为已过巅峰期。"
+              },
+              {
+                "text": "research",
+                "meaning": "研究（不可数）；调查 / 研究",
+                "usage": "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。常见搭配：a body of research / research on sth。",
+                "example": "A growing body of research supports this. 越来越多的研究支持这一点。"
+              }
+            ],
+            "pitfalls": [
+              "tend to 后接动词原形，不接动名词。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。"
+            ],
+            "paragraphRole": "本段先摆出作为理论前提的「关系相互」假设，为第52题关于该假设适用范围的判断铺底。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 89,
+          "end": 208,
+          "text": "Most of the time, this assumption is accurate: someone you think of as a friend will usually consider you a friend too.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 18,
+              "end": 22,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 33,
+              "surface": "assumption",
+              "normalized": "assumption",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 45,
+              "surface": "accurate",
+              "normalized": "accurate",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 46,
+              "surface": ":",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 47,
+              "end": 54,
+              "surface": "someone",
+              "normalized": "someone",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 64,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 72,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 79,
+              "surface": "friend",
+              "normalized": "friend",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 84,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 92,
+              "surface": "usually",
+              "normalized": "usually",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 101,
+              "surface": "consider",
+              "normalized": "consider",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 105,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 107,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 114,
+              "surface": "friend",
+              "normalized": "friend",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 118,
+              "surface": "too",
+              "normalized": "too",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 119,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在大多数时候，这一假定是准确的：你视为朋友的那个人，通常也会把你看作朋友。",
+            "translationNatural": "多数情况下这套假定没错：你把谁当朋友，对方一般也拿你当朋友。",
+            "structMarkup": "(Most of the time), 【this assumption】 _is_ ~accurate~: 【someone you think of as a friend】 _will usually consider you a friend too_.",
+            "structureSummary": "「Most of the time 状语 + 主系表（this assumption is accurate）」+ 冒号后接一个解释性分句；分句主语 someone 后含省略关系词的定语从句 you think of as a friend，谓语 consider 接「宾语 you + 宾补 a friend」。",
+            "components": [
+              {
+                "part": "Most of the time",
+                "role": "状语",
+                "note": "频度短语作时间状语，限定「多数情况下」"
+              },
+              {
+                "part": "this assumption",
+                "role": "主语",
+                "note": "回指上句「关系相互」的假定"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与表语 accurate"
+              },
+              {
+                "part": "accurate",
+                "role": "表语",
+                "note": "形容词作表语，说明该假定「大体成立」"
+              },
+              {
+                "part": "someone you think of as a friend",
+                "role": "主语",
+                "note": "冒号后解释性分句的主语，内含修饰 someone 的定语从句"
+              },
+              {
+                "part": "will usually consider you a friend too",
+                "role": "谓语",
+                "note": "分句谓语部分，consider 接宾语 you 与宾补 a friend，too 表「也」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「「Most of the time 状语 + 主系表（this assumption is accurate）」+ 冒号后接一个解释性分句；分句主语 someone 后含省略关系词的定语从句 you think of as a friend，谓语 consider 接「宾语 you + 宾补 a friend」。」。"
+            ],
+            "phrases": [
+              {
+                "text": "time",
+                "meaning": "时间；次数；时机 / 计时",
+                "usage": "注意区分：times（时代）/ time（时间，不可数）。常见搭配：at the same time / take time off。",
+                "example": "It takes time to change habits. 改变习惯需要时间。"
+              },
+              {
+                "text": "someone",
+                "meaning": "某人、有人、某个人（用于肯定句，与 someone 同义）",
+                "usage": "注意区分：someone（某人，不定代词，谓语用单数，= somebody）/ someone else（别人，else 后置）/ someone 多用于肯定句，疑问/否定常用 anyone / some one（分写指「某一个」，可接 of）。",
+                "example": "Most of the time, this assumption is accurate: someone you think of as a friend will usually consider you a friend too. 多数情况下这套假定没错：你把谁当朋友，对方一般也拿你当朋友。"
+              },
+              {
+                "text": "think of",
+                "meaning": "想、认为；思考",
+                "usage": "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。常见搭配：think about / think of。",
+                "example": "Many think the risk is small. 很多人认为风险很小。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：times（时代）/ time（时间，不可数）。",
+              "注意区分：someone（某人，不定代词，谓语用单数，= somebody）/ someone else（别人，else 后置）/ someone 多用于肯定句，疑问/否定常用 anyone / some one（分写指「某一个」，可接 of）。",
+              "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。"
+            ],
+            "paragraphRole": "用「多数时候成立」为 reciprocal 假设下一注脚，说明它并非绝对，正好埋下第52题「并非放之四海皆准」的伏笔。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 209,
+          "end": 343,
+          "text": "But sometimes our social ties are more one-sided: for example, you might learn something about a stranger who doesn't know you at all.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 13,
+              "surface": "sometimes",
+              "normalized": "sometimes",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 24,
+              "surface": "social",
+              "normalized": "social",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "ties",
+              "normalized": "ties",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 33,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 38,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 48,
+              "surface": "one-sided",
+              "normalized": "one-sided",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 49,
+              "surface": ":",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 50,
+              "end": 53,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 61,
+              "surface": "example",
+              "normalized": "example",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 63,
+              "end": 66,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 72,
+              "surface": "might",
+              "normalized": "might",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 78,
+              "surface": "learn",
+              "normalized": "learn",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 88,
+              "surface": "something",
+              "normalized": "something",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 94,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 96,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 105,
+              "surface": "stranger",
+              "normalized": "stranger",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 109,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 117,
+              "surface": "doesn't",
+              "normalized": "doesn't",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 122,
+              "surface": "know",
+              "normalized": "know",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 126,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 129,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 133,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 134,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但有时我们的社会联系更为单向：例如，你可能会了解到某个根本不认识你的陌生人的一些情况。",
+            "translationNatural": "可关系也有单向的时候：比如你打听到了一个压根不认识你的陌生人的事。",
+            "structMarkup": "(But sometimes) 【our social ties】 _are_ ~more one-sided~: (for example), you might learn ~something about a stranger~ {who doesn't know you at all}.",
+            "structureSummary": "But 转折 + 主系表（our social ties are more one-sided）+ 冒号后 for example 举例；例中 who doesn't know you at all 为修饰 a stranger 的定语从句，点明「单向关系」。",
+            "components": [
+              {
+                "part": "But sometimes",
+                "role": "状语",
+                "note": "转折连词 + 频度副词，引出与上句相反的例外情形"
+              },
+              {
+                "part": "our social ties",
+                "role": "主语",
+                "note": "名词短语作主语，指我们的社会联系"
+              },
+              {
+                "part": "are",
+                "role": "系动词",
+                "note": "连接主语与表语 more one-sided"
+              },
+              {
+                "part": "more one-sided",
+                "role": "表语",
+                "note": "形容词比较级作表语，点明关系是「单向而非相互」"
+              },
+              {
+                "part": "for example",
+                "role": "插入语",
+                "note": "插入语，引出对单向关系的具体例证"
+              },
+              {
+                "part": "something about a stranger",
+                "role": "宾语",
+                "note": "might learn 的宾语，about 短语限定信息来源"
+              },
+              {
+                "part": "who doesn't know you at all",
+                "role": "定语从句",
+                "note": "who 引导，修饰 a stranger，强调对方「根本不认识你」"
+              }
+            ],
+            "clauses": [
+              "定语从句「who doesn't know you at all」：who 引导，修饰 a stranger，强调对方「根本不认识你」",
+              "本句主干为「But 转折 + 主系表（our social ties are more one-sided）+ 冒号后 for example 举例；例中 who doesn't know you at all 为修饰 a stranger 的定语从句，点明「单向关系」。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "for example",
+                "meaning": "例如",
+                "usage": "插入语，常用逗号隔开，可置于句首、句中或句末。",
+                "example": "Many habits, for example, are hard to break. 比如很多习惯很难改。"
+              },
+              {
+                "text": "learn",
+                "meaning": "学习、学会",
+                "usage": "常见搭配：learn to do / learn from。",
+                "example": "We learn from mistakes. 我们从错误中学习。"
+              },
+              {
+                "text": "something",
+                "meaning": "某事、某物（不定代词）",
+                "usage": "注意区分：something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）。常见搭配：something like / something to do with。",
+                "example": "If you feel something should not be done... 如果你觉得某事不该做……"
+              }
+            ],
+            "pitfalls": [
+              "for example 可独立作插入语，such as 不能。",
+              "注意区分：for example（插入语，缩写 e.g.）/ such as（后接名词）。",
+              "注意区分：something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）。"
+            ],
+            "paragraphRole": "与上句「多数成立」形成转折，给出 reciprocal 假设失效的「单向关系」情形，直接支撑第52题「并非每种情况都成立」。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 344,
+          "end": 531,
+          "text": "Researchers Anuj Shah and Michael LaForest wondered whether our tendency to believe that social ties are reciprocal could lead us to mistakenly feel that a stranger does actually know us.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 11,
+              "surface": "Researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "Anuj",
+              "normalized": "anuj",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "Shah",
+              "normalized": "shah",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 33,
+              "surface": "Michael",
+              "normalized": "michael",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 42,
+              "surface": "LaForest",
+              "normalized": "laforest",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 51,
+              "surface": "wondered",
+              "normalized": "wondered",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 59,
+              "surface": "whether",
+              "normalized": "whether",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 63,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 72,
+              "surface": "tendency",
+              "normalized": "tendency",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 75,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 83,
+              "surface": "believe",
+              "normalized": "believe",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 88,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 95,
+              "surface": "social",
+              "normalized": "social",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 100,
+              "surface": "ties",
+              "normalized": "ties",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 104,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 115,
+              "surface": "reciprocal",
+              "normalized": "reciprocal",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 121,
+              "surface": "could",
+              "normalized": "could",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 126,
+              "surface": "lead",
+              "normalized": "lead",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 129,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 132,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 143,
+              "surface": "mistakenly",
+              "normalized": "mistakenly",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 148,
+              "surface": "feel",
+              "normalized": "feel",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 153,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 155,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 156,
+              "end": 164,
+              "surface": "stranger",
+              "normalized": "stranger",
+              "isWord": true
+            },
+            {
+              "start": 165,
+              "end": 169,
+              "surface": "does",
+              "normalized": "does",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 178,
+              "surface": "actually",
+              "normalized": "actually",
+              "isWord": true
+            },
+            {
+              "start": 179,
+              "end": 183,
+              "surface": "know",
+              "normalized": "know",
+              "isWord": true
+            },
+            {
+              "start": 184,
+              "end": 186,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 186,
+              "end": 187,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "研究者 Anuj Shah 与 Michael LaForest 想弄明白：我们那种「社会关系是相互的」的倾向，是否会让我们误以为某个陌生人其实真的了解我们。",
+            "translationNatural": "两位研究者于是追问：人总默认关系对等，这份惯性会不会让我们错把一个陌生人当成「也认识我」的人？",
+            "structMarkup": "【Researchers Anuj Shah and Michael LaForest】 _wondered_ {whether our tendency to believe that social ties are reciprocal could lead us to mistakenly feel that a stranger does actually know us}.",
+            "structureSummary": "主句「Researchers... wondered」+ whether 引导宾语从句；从句主语 our tendency 后接不定式后置定语（内含 that 宾语从句），谓语 could lead us to... feel 后再接 that 宾语从句，层层嵌套。",
+            "components": [
+              {
+                "part": "Researchers Anuj Shah and Michael LaForest",
+                "role": "主语",
+                "note": "名词短语作主语，点出两位研究者的姓名"
+              },
+              {
+                "part": "wondered",
+                "role": "谓语",
+                "note": "及物动词作谓语，意为「想弄明白、想知道」"
+              },
+              {
+                "part": "whether our tendency to believe that social ties are reciprocal could lead us to mistakenly feel that a stranger does actually know us",
+                "role": "宾语从句",
+                "note": "whether 引导，作 wondered 的宾语，陈述待验证的猜想"
+              },
+              {
+                "part": "our tendency to believe that social ties are reciprocal",
+                "role": "主语",
+                "note": "whether 从句的主语，to believe... 为 tendency 的后置定语"
+              },
+              {
+                "part": "to believe that social ties are reciprocal",
+                "role": "后置定语",
+                "note": "不定式作 tendency 的后置定语，内含 that 宾语从句"
+              },
+              {
+                "part": "could lead us to mistakenly feel",
+                "role": "谓语",
+                "note": "whether 从句的谓语部分，lead sb to do 意为「使某人去做」"
+              },
+              {
+                "part": "that a stranger does actually know us",
+                "role": "宾语从句",
+                "note": "feel 的宾语从句，does 为强调助动词，actually 强化「真的」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「whether our tendency to believe that social ties are reciprocal could 」：whether 引导，作 wondered 的宾语，陈述待验证的猜想",
+              "宾语从句「that a stranger does actually know us」：feel 的宾语从句，does 为强调助动词，actually 强化「真的」",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "wondered",
+                "meaning": "想知道、纳闷；惊奇（wonder 的过去式/过去分词形式）",
+                "usage": "注意区分：wondered（过去式/过去分词）/ wonder（原形）。",
+                "example": "Researchers Anuj Shah and Michael LaForest wondered whether our tendency to believe that social ties are reciprocal could lead us to mistakenly feel that a stranger does actually know us. 两位研究者于是追问：人总默认关系对等，这份惯性会不会让我们错把一个陌生人当成「也认识我」的人？"
+              },
+              {
+                "text": "whether",
+                "meaning": "是否；无论（whether ... or ...）",
+                "usage": "注意区分：whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）。常见搭配：whether or not / whether to do。",
+                "example": "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+              },
+              {
+                "text": "tendency",
+                "meaning": "倾向、趋势",
+                "usage": "注意区分：tendency（倾向、趋势，可数）/ tendency to do / towards（用不定式或 towards）/ tend to do（往往会做）/ trend（已显现的趋势、潮流）/ inclination（意愿上的倾向）。常见搭配：a tendency to do / have a tendency。",
+                "example": "He has a tendency to overthink. 他容易想太多。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "注意区分：wondered（过去式/过去分词）/ wonder（原形）。",
+              "注意区分：whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）。"
+            ],
+            "paragraphRole": "本段末句把假设推到研究问题本身——「相互性」信念会不会诱发对陌生人的误判，正是第53题所问的研究动机。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "In a series of lab-based studies, this is exactly what the researchers found. When we know about strangers, we erroneously think they also know about us. But the really interesting finding came when the researchers stepped out of the lab, to conduct a field experiment. The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. They then sent out these leaflets to every apartment in a number of housing developments in disadvantaged areas. The officers themselves also dropped off cards to local residents containing similar information.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 77,
+          "text": "In a series of lab-based studies, this is exactly what the researchers found.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 11,
+              "surface": "series",
+              "normalized": "series",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 24,
+              "surface": "lab-based",
+              "normalized": "lab-based",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 32,
+              "surface": "studies",
+              "normalized": "studies",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 33,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 34,
+              "end": 38,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 49,
+              "surface": "exactly",
+              "normalized": "exactly",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 70,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 76,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 77,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在一系列以实验室为基础的研究中，这正是研究者们所发现的情况。",
+            "translationNatural": "一连串实验室做下来，结果恰恰印证了研究者的猜想。",
+            "structMarkup": "(In a series of lab-based studies), 【this】 _is_ {exactly what the researchers found}.",
+            "structureSummary": "句首 In 介词短语作状语 + 主系表；表语为 what 引导的表语从句（exactly what the researchers found），what 在从句中作 found 的宾语。",
+            "components": [
+              {
+                "part": "In a series of lab-based studies",
+                "role": "状语",
+                "note": "句首 in 介词短语作范围状语，点明「在一系列实验室研究中」"
+              },
+              {
+                "part": "lab-based",
+                "role": "定语",
+                "note": "复合形容词作前置定语，修饰 studies"
+              },
+              {
+                "part": "this",
+                "role": "主语",
+                "note": "回指上段末提出的猜想"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与表语从句"
+              },
+              {
+                "part": "exactly what the researchers found",
+                "role": "表语从句",
+                "note": "what 引导的表语从句，exactly 强调「正是如此」"
+              }
+            ],
+            "clauses": [
+              "表语从句「exactly what the researchers found」：what 引导的表语从句，exactly 强调「正是如此」",
+              "本句主干为「句首 In 介词短语作状语 + 主系表；表语为 what 引导的表语从句（exactly what the researchers found），what 在从句中作 found 的宾语。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "studies",
+                "meaning": "研究（study 的复数）；study 的第三人称单数",
+                "usage": "注意区分：studies（复数/三单）/ study（单数）。常见搭配：studies show that / recent studies。",
+                "example": "Studies suggest a strong link. 研究表明存在强关联。"
+              },
+              {
+                "text": "exactly",
+                "meaning": "精确的、确切的（exact 的副词形式）",
+                "usage": "注意区分：exactly（副词）/ exact（原形）。",
+                "example": "In a series of lab-based studies, this is exactly what the researchers found. 一连串实验室做下来，结果恰恰印证了研究者的猜想。"
+              },
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：studies（复数/三单）/ study（单数）。",
+              "注意区分：exactly（副词）/ exact（原形）。",
+              "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。"
+            ],
+            "paragraphRole": "本段首句承上启下：用实验室研究确认「误以为被了解」确实存在，为下文转入现场实验作过渡。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 78,
+          "end": 153,
+          "text": "When we know about strangers, we erroneously think they also know about us.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "When",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 12,
+              "surface": "know",
+              "normalized": "know",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 18,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "surface": "strangers",
+              "normalized": "strangers",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 29,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 44,
+              "surface": "erroneously",
+              "normalized": "erroneously",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 50,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 55,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 60,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 65,
+              "surface": "know",
+              "normalized": "know",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 71,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 74,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 75,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "当我们了解到陌生人的情况时，我们会错误地认为他们也了解我们。",
+            "translationNatural": "只要对陌生人有所了解，我们就错以为人家也认识自己。",
+            "structMarkup": "{When we know about strangers}, 【we】 _erroneously think_ {they also know about us}.",
+            "structureSummary": "When 引导时间状语从句 + 主句「we erroneously think +（省略 that）宾语从句」；erroneously 与首段 mistakenly 同义呼应。",
+            "components": [
+              {
+                "part": "When we know about strangers",
+                "role": "状语从句",
+                "note": "When 引导时间状语从句，设定「了解陌生人」这一条件"
+              },
+              {
+                "part": "we",
+                "role": "主语",
+                "note": "主句主语，泛指「我们」"
+              },
+              {
+                "part": "erroneously think",
+                "role": "谓语",
+                "note": "副词 erroneously 修饰 think，意为「错误地认为」"
+              },
+              {
+                "part": "they also know about us",
+                "role": "宾语从句",
+                "note": "省略 that 的宾语从句，作 think 的宾语"
+              },
+              {
+                "part": "about strangers",
+                "role": "介词短语",
+                "note": "介词短语说明「了解」的对象是陌生人"
+              }
+            ],
+            "clauses": [
+              "状语从句「When we know about strangers」：When 引导时间状语从句，设定「了解陌生人」这一条件",
+              "宾语从句「they also know about us」：省略 that 的宾语从句，作 think 的宾语"
+            ],
+            "phrases": [
+              {
+                "text": "think",
+                "meaning": "想、认为；思考",
+                "usage": "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。常见搭配：think about / think of。",
+                "example": "Many think the risk is small. 很多人认为风险很小。"
+              },
+              {
+                "text": "know",
+                "meaning": "知道、了解、懂得；认识、熟悉；会（语言等）",
+                "usage": "本句中作v.，可按「When 引导时间状语从句 + 主句「we erroneously think +（省略 that）宾语从句」；erroneously 与首段 mistakenly 同义呼应。」定位它在句中的位置。",
+                "example": "When we know about strangers, we erroneously think they also know about us. 只要对陌生人有所了解，我们就错以为人家也认识自己。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。",
+              "When we know about strangers：When 引导时间状语从句，设定「了解陌生人」这一条件"
+            ],
+            "paragraphRole": "用一句简洁复述实验室阶段的核心结论，与首段呼应，同时把论述从「猜想」推进到「已被证实」。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 154,
+          "end": 269,
+          "text": "But the really interesting finding came when the researchers stepped out of the lab, to conduct a field experiment.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 14,
+              "surface": "really",
+              "normalized": "really",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 26,
+              "surface": "interesting",
+              "normalized": "interesting",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 34,
+              "surface": "finding",
+              "normalized": "finding",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "came",
+              "normalized": "came",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 44,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 60,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 68,
+              "surface": "stepped",
+              "normalized": "stepped",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 72,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 75,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 79,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 83,
+              "surface": "lab",
+              "normalized": "lab",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 84,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 85,
+              "end": 87,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 95,
+              "surface": "conduct",
+              "normalized": "conduct",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 97,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 103,
+              "surface": "field",
+              "normalized": "field",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 114,
+              "surface": "experiment",
+              "normalized": "experiment",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 115,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但真正有意思的发现，出现在研究者们走出实验室、去做一次现场实验的时候。",
+            "translationNatural": "可最耐人寻味的结果，是他们离开实验室、跑到真实社区做现场实验时冒出来的。",
+            "structMarkup": "(But) 【the really interesting finding】 _came_ {when the researchers stepped out of the lab}, (to conduct a field experiment).",
+            "structureSummary": "But 转折 + 主谓（the... finding came）+ when 时间状语从句 + 句末不定式作目的状语；when 从句点出「有趣发现」出现的时间点。",
+            "components": [
+              {
+                "part": "But",
+                "role": "状语",
+                "note": "转折连词，从实验室结果转向更值得注意的发现"
+              },
+              {
+                "part": "the really interesting finding",
+                "role": "主语",
+                "note": "名词短语作主语，really 强化 interesting"
+              },
+              {
+                "part": "came",
+                "role": "谓语",
+                "note": "不及物动词作谓语，意为「出现、产生」"
+              },
+              {
+                "part": "when the researchers stepped out of the lab",
+                "role": "状语从句",
+                "note": "when 引导时间状语从句，点明「走出实验室」之时"
+              },
+              {
+                "part": "to conduct a field experiment",
+                "role": "状语",
+                "note": "句末不定式作目的状语，说明走出实验室是为了做现场实验"
+              }
+            ],
+            "clauses": [
+              "状语从句「when the researchers stepped out of the lab」：when 引导时间状语从句，点明「走出实验室」之时",
+              "本句主干为「But 转折 + 主谓（the... finding came）+ when 时间状语从句 + 句末不定式作目的状语；when 从句点出「有趣发现」出现的时间点。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "really",
+                "meaning": "真正地、确实；非常（口语）",
+                "usage": "注意区分：really（真正地）/ real（形容词）/ actually（实际上）。常见搭配：really important / not really。",
+                "example": "They do not really reflect everyday behaviour. 它们并没有真正反映日常行为。"
+              },
+              {
+                "text": "interesting",
+                "meaning": "利益；兴趣；利息（interest 的现在分词/动名词形式）",
+                "usage": "注意区分：interesting（现在分词/动名词）/ interest（原形）。",
+                "example": "But the really interesting finding came when the researchers stepped out of the lab, to conduct a field experiment. 可最耐人寻味的结果，是他们离开实验室、跑到真实社区做现场实验时冒出来的。"
+              },
+              {
+                "text": "finding",
+                "meaning": "研究发现、结论（可数）；find 的现在分词",
+                "usage": "注意区分：finding（研究发现）/ findings（多项结论）/ find（发现）。常见搭配：the findings suggest / research findings。",
+                "example": "That finding suggests the quantified self is limited. 这一发现表明量化自我是有限的。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：really（真正地）/ real（形容词）/ actually（实际上）。",
+              "注意区分：interesting（现在分词/动名词）/ interest（原形）。",
+              "注意区分：finding（研究发现）/ findings（多项结论）/ find（发现）。"
+            ],
+            "paragraphRole": "「But + really interesting finding」明确把最关键的发现定位到现场实验，直接回答第54题「何时发现有趣结果」。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 270,
+          "end": 459,
+          "text": "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "team",
+              "normalized": "team",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 18,
+              "surface": "developed",
+              "normalized": "developed",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 27,
+              "surface": "leaflets",
+              "normalized": "leaflets",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "(传单)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 32,
+              "end": 42,
+              "surface": "containing",
+              "normalized": "containing",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 49,
+              "surface": "fairly",
+              "normalized": "fairly",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 58,
+              "surface": "ordinary",
+              "normalized": "ordinary",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 70,
+              "surface": "information",
+              "normalized": "information",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 76,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 82,
+              "surface": "local",
+              "normalized": "local",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 92,
+              "surface": "community",
+              "normalized": "community",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 99,
+              "surface": "police",
+              "normalized": "police",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 108,
+              "surface": "officers",
+              "normalized": "officers",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 109,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 110,
+              "end": 114,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 117,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 123,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 133,
+              "surface": "favourite",
+              "normalized": "favourite",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 138,
+              "surface": "food",
+              "normalized": "food",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 139,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 140,
+              "end": 147,
+              "surface": "hobbies",
+              "normalized": "hobbies",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 148,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 149,
+              "end": 151,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 159,
+              "surface": "reasons",
+              "normalized": "reasons",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 163,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 171,
+              "surface": "joining",
+              "normalized": "joining",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 175,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 176,
+              "end": 182,
+              "surface": "police",
+              "normalized": "police",
+              "isWord": true
+            },
+            {
+              "start": 183,
+              "end": 188,
+              "surface": "force",
+              "normalized": "force",
+              "isWord": true
+            },
+            {
+              "start": 188,
+              "end": 189,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "团队制作了一些传单，里面是有关当地社区警员相当普通的信息，比如他们最爱吃的食物、业余爱好，或是入警的缘由。",
+            "translationNatural": "他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。",
+            "structMarkup": "【The team】 _developed_ ~leaflets(传单)~ (containing fairly ordinary information about local community police officers), (such as their favourite food, hobbies, or reasons for joining the police force).",
+            "structureSummary": "主谓宾（The team developed leaflets(传单)）+ 现在分词短语 containing... 作后置定语 + such as 举例；about 介词短语与 such as 短语共同说明传单内容。",
+            "components": [
+              {
+                "part": "The team",
+                "role": "主语",
+                "note": "名词短语作主语，指研究团队"
+              },
+              {
+                "part": "developed",
+                "role": "谓语",
+                "note": "及物动词作谓语，意为「制作、设计」"
+              },
+              {
+                "part": "leaflets(传单)",
+                "role": "宾语",
+                "note": "developed 的宾语，含试卷中文括注「传单」"
+              },
+              {
+                "part": "containing fairly ordinary information about local community police officers",
+                "role": "后置定语",
+                "note": "现在分词短语作后置定语，修饰 leaflets(传单)"
+              },
+              {
+                "part": "about local community police officers",
+                "role": "介词短语",
+                "note": "介词短语限定信息的内容对象"
+              },
+              {
+                "part": "such as their favourite food, hobbies, or reasons for joining the police force",
+                "role": "定语",
+                "note": "such as 引出对 information 的举例说明"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（The team developed leaflets(传单)）+ 现在分词短语 containing... 作后置定语 + such as 举例；about 介词短语与 such as 短语共同说明传单内容。」。"
+            ],
+            "phrases": [
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              },
+              {
+                "text": "team",
+                "meaning": "团队、小组",
+                "usage": "常见搭配：a team of researchers。",
+                "example": "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+              },
+              {
+                "text": "developed",
+                "meaning": "发展、开发、培养、研制（develop 过去式/分词）；发达的、成熟的",
+                "usage": "注意区分：developed（发达的；发育的，形容词）/ developing（发展中的，反义）/ developed countries（发达国家）/ development（发展，名词）/ develop（动词）。",
+                "example": "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+              }
+            ],
+            "pitfalls": [
+              "such as 用于举例，for example 常作插入语，位置不同。",
+              "注意区分：developed（发达的；发育的，形容词）/ developing（发展中的，反义）/ developed countries（发达国家）/ development（发展，名词）/ develop（动词）。",
+              "注意区分：information（信息、资料，不可数，不说 informations；一条信息说 a piece of information）/ information on/about（关于…的信息）/ inform sb of sth（介词 of）/ informative（信息量大的）。"
+            ],
+            "paragraphRole": "具体交代现场实验的「刺激材料」——印有警员个人信息的传单，为后文居民反应与犯罪数据的变化埋下操作细节。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 460,
+          "end": 572,
+          "text": "They then sent out these leaflets to every apartment in a number of housing developments in disadvantaged areas.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "then",
+              "normalized": "then",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "sent",
+              "normalized": "sent",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 24,
+              "surface": "these",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 33,
+              "surface": "leaflets",
+              "normalized": "leaflets",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 42,
+              "surface": "every",
+              "normalized": "every",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 52,
+              "surface": "apartment",
+              "normalized": "apartment",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 55,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 64,
+              "surface": "number",
+              "normalized": "number",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 75,
+              "surface": "housing",
+              "normalized": "housing",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 88,
+              "surface": "developments",
+              "normalized": "developments",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 91,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 105,
+              "surface": "disadvantaged",
+              "normalized": "disadvantaged",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 111,
+              "surface": "areas",
+              "normalized": "areas",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 112,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "随后他们把这些传单分发到若干位于弱势地区的住宅小区中的每一套公寓。",
+            "translationNatural": "接着，他们把传单塞进了几个贫困片区住宅楼里每一户的信箱。",
+            "structMarkup": "【They】 _then sent out_ ~these leaflets~ (to every apartment) (in a number of housing developments in disadvantaged areas).",
+            "structureSummary": "主谓宾（They sent out these leaflets）+ to 介词短语作对象状语 + 两层 in 介词短语作后置定语限定地点；then 表实验步骤的先后。",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "回指上句 The team"
+              },
+              {
+                "part": "then sent out",
+                "role": "谓语",
+                "note": "副词 then + 动词短语 sent out，表「随后分发」"
+              },
+              {
+                "part": "these leaflets",
+                "role": "宾语",
+                "note": "sent out 的宾语，回指上句传单"
+              },
+              {
+                "part": "to every apartment",
+                "role": "介词短语",
+                "note": "to 短语作对象状语，点明投递到「每一户」"
+              },
+              {
+                "part": "in a number of housing developments in disadvantaged areas",
+                "role": "定语",
+                "note": "两层 in 介词短语作后置定语，限定投递范围"
+              },
+              {
+                "part": "in disadvantaged areas",
+                "role": "介词短语",
+                "note": "介词短语点明社区位于「弱势地区」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（They sent out these leaflets）+ to 介词短语作对象状语 + 两层 in 介词短语作后置定语限定地点；then 表实验步骤的先后。」。"
+            ],
+            "phrases": [
+              {
+                "text": "a number of",
+                "meaning": "许多、若干",
+                "usage": "后接复数名词，谓语用复数；区别于 the number of（……的数量，谓语单数）。",
+                "example": "A number of students were absent. 好些学生缺席。"
+              },
+              {
+                "text": "number",
+                "meaning": "数字、数量；号码",
+                "usage": "注意区分：a number of（许多，谓语复数）/ the number of（数量，谓语单数）。常见搭配：a number of（许多） / the number of（……的数量）。",
+                "example": "A number of studies agree. 许多研究结论一致。"
+              },
+              {
+                "text": "developments",
+                "meaning": "发展、开发；research and development 研发（development 的复数/三单形式）",
+                "usage": "注意区分：developments（复数/三单）/ development（原形）。",
+                "example": "They then sent out these leaflets to every apartment in a number of housing developments in disadvantaged areas. 接着，他们把传单塞进了几个贫困片区住宅楼里每一户的信箱。"
+              }
+            ],
+            "pitfalls": [
+              "a number of 作主语时谓语用复数，the number of 才用单数。",
+              "注意区分：a number of（许多，谓语复数）/ the number of（数量，谓语单数）。",
+              "注意区分：developments（复数/三单）/ development（原形）。"
+            ],
+            "paragraphRole": "承接上句写出传单的投放范围与对象，完成现场实验「施加干预」这一步，为第55题的社区对比圈定实验组。"
+          }
+        },
+        {
+          "idx": 5,
+          "start": 573,
+          "end": 670,
+          "text": "The officers themselves also dropped off cards to local residents containing similar information.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "officers",
+              "normalized": "officers",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 23,
+              "surface": "themselves",
+              "normalized": "themselves",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 28,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "dropped",
+              "normalized": "dropped",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "surface": "off",
+              "normalized": "off",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 46,
+              "surface": "cards",
+              "normalized": "cards",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 55,
+              "surface": "local",
+              "normalized": "local",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 65,
+              "surface": "residents",
+              "normalized": "residents",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 76,
+              "surface": "containing",
+              "normalized": "containing",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 84,
+              "surface": "similar",
+              "normalized": "similar",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 96,
+              "surface": "information",
+              "normalized": "information",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 97,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "警员们本人还向当地居民投递了卡片，上面载有类似的信息。",
+            "translationNatural": "警员自己也出面，给居民挨家送了写着同样内容的卡片。",
+            "structMarkup": "【The officers themselves】 _also dropped off_ ~cards~ (to local residents) (containing similar information).",
+            "structureSummary": "主谓宾 + to 介词短语作对象状语 + 现在分词短语 containing similar information 作 cards 的后置定语；also 呼应上句，表明干预渠道再加一种。",
+            "components": [
+              {
+                "part": "The officers themselves",
+                "role": "主语",
+                "note": "名词短语作主语，themselves 强调「警员本人」"
+              },
+              {
+                "part": "also dropped off",
+                "role": "谓语",
+                "note": "副词 also + 动词短语 dropped off，表「也亲自送达」"
+              },
+              {
+                "part": "cards",
+                "role": "宾语",
+                "note": "dropped off 的宾语"
+              },
+              {
+                "part": "to local residents",
+                "role": "介词短语",
+                "note": "to 短语作对象状语，点明送达对象"
+              },
+              {
+                "part": "containing similar information",
+                "role": "后置定语",
+                "note": "现在分词短语作后置定语，修饰 cards，说明卡片内容与传单类似"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + to 介词短语作对象状语 + 现在分词短语 containing similar information 作 cards 的后置定语；also 呼应上句，表明干预渠道再加一种。」。"
+            ],
+            "phrases": [
+              {
+                "text": "local",
+                "meaning": "本地的、当地的 / 当地人",
+                "usage": "注意区分：local（本地的）/ regional（区域的）/ global（全球的）。常见搭配：local farmers / local government。",
+                "example": "Local farmers will suffer. 当地农民会受损。"
+              },
+              {
+                "text": "similar",
+                "meaning": "相似的、类似的",
+                "usage": "注意区分：similar to（与……相似）/ the same as（与……相同）。常见搭配：be similar to / similar percentages。",
+                "example": "Men reported similar levels of enjoyment. 男性报告的享受程度相近。"
+              },
+              {
+                "text": "information",
+                "meaning": "信息、资料、情报、讯息（不可数）",
+                "usage": "注意区分：information（信息、资料，不可数，不说 informations；一条信息说 a piece of information）/ information on/about（关于…的信息）/ inform sb of sth（介词 of）/ informative（信息量大的）。",
+                "example": "The officers themselves also dropped off cards to local residents containing similar information. 警员自己也出面，给居民挨家送了写着同样内容的卡片。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：local（本地的）/ regional（区域的）/ global（全球的）。",
+              "注意区分：similar to（与……相似）/ the same as（与……相同）。",
+              "注意区分：information（信息、资料，不可数，不说 informations；一条信息说 a piece of information）/ information on/about（关于…的信息）/ inform sb of sth（介词 of）/ informative（信息量大的）。"
+            ],
+            "paragraphRole": "补上第二条干预渠道（警员亲自送卡片），说明实验让居民「了解警员」的力度，使后续「误以为被认识」的效应更可信。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "Two months later, the researchers surveyed residents at these housing developments as well as control areas that did not receive leaflets or outreach cards. Residents were asked to imagine that they had committed a crime and how likely it would be that local officers would find out about it. They also rated how well the officers in the area knew them.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 156,
+          "text": "Two months later, the researchers surveyed residents at these housing developments as well as control areas that did not receive leaflets or outreach cards.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Two",
+              "normalized": "two",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "surface": "months",
+              "normalized": "months",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "later",
+              "normalized": "later",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 33,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 42,
+              "surface": "surveyed",
+              "normalized": "surveyed",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 52,
+              "surface": "residents",
+              "normalized": "residents",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 55,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 61,
+              "surface": "these",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 69,
+              "surface": "housing",
+              "normalized": "housing",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 82,
+              "surface": "developments",
+              "normalized": "developments",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 85,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 90,
+              "surface": "well",
+              "normalized": "well",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 101,
+              "surface": "control",
+              "normalized": "control",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 107,
+              "surface": "areas",
+              "normalized": "areas",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 112,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 116,
+              "surface": "did",
+              "normalized": "did",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 120,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 128,
+              "surface": "receive",
+              "normalized": "receive",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 137,
+              "surface": "leaflets",
+              "normalized": "leaflets",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 140,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 149,
+              "surface": "outreach",
+              "normalized": "outreach",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 155,
+              "surface": "cards",
+              "normalized": "cards",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 156,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "两个月后，研究者调查了这些住宅小区的居民，以及那些没有收到传单或外联卡片的对照区域的居民。",
+            "translationNatural": "两个月过去，研究者问卷访问了收到传单小区的居民，也访问了没收到任何材料的对照区居民。",
+            "structMarkup": "(Two months later), 【the researchers】 _surveyed_ ~residents at these housing developments as well as control areas~ {that did not receive leaflets or outreach cards}.",
+            "structureSummary": "句首时间状语 + 主谓宾；宾语由 as well as 并列两类居民，句末 that 引导定语从句修饰 control areas，界定「未收到材料的对照区」。",
+            "components": [
+              {
+                "part": "Two months later",
+                "role": "状语",
+                "note": "时间短语作状语，点明调查在干预两个月后进行"
+              },
+              {
+                "part": "the researchers",
+                "role": "主语",
+                "note": "名词短语作主语"
+              },
+              {
+                "part": "surveyed",
+                "role": "谓语",
+                "note": "及物动词作谓语，意为「调查、问卷访问」"
+              },
+              {
+                "part": "residents at these housing developments as well as control areas",
+                "role": "宾语",
+                "note": "surveyed 的宾语，as well as 并列实验组与对照组居民"
+              },
+              {
+                "part": "at these housing developments",
+                "role": "介词短语",
+                "note": "介词短语限定实验组居民所在小区"
+              },
+              {
+                "part": "that did not receive leaflets or outreach cards",
+                "role": "定语从句",
+                "note": "that 引导定语从句，修饰 control areas"
+              }
+            ],
+            "clauses": [
+              "定语从句「that did not receive leaflets or outreach cards」：that 引导定语从句，修饰 control areas",
+              "as + 形容词/副词原级 + as 构成同级比较。"
+            ],
+            "phrases": [
+              {
+                "text": "as well as",
+                "meaning": "以及、除……之外还",
+                "usage": "连接并列成分；作主语时谓语与前面的名词一致。",
+                "example": "The manager as well as his team was late. 经理和他的团队都迟到了。"
+              },
+              {
+                "text": "surveyed",
+                "meaning": "调查（可数）/ 调查、审视（survey 的过去式/过去分词形式）",
+                "usage": "注意区分：surveyed（过去式/过去分词）/ survey（原形）。",
+                "example": "Two months later, the researchers surveyed residents at these housing developments as well as control areas that did not receive leaflets or outreach cards. 两个月过去，研究者问卷访问了收到传单小区的居民，也访问了没收到任何材料的对照区居民。"
+              },
+              {
+                "text": "developments",
+                "meaning": "发展、开发；research and development 研发（development 的复数/三单形式）",
+                "usage": "注意区分：developments（复数/三单）/ development（原形）。",
+                "example": "Two months later, the researchers surveyed residents at these housing developments as well as control areas that did not receive leaflets or outreach cards. 两个月过去，研究者问卷访问了收到传单小区的居民，也访问了没收到任何材料的对照区居民。"
+              }
+            ],
+            "pitfalls": [
+              "A as well as B 作主语时，谓语与 A 保持一致。",
+              "as...as 中间必须用原级，不能用比较级。"
+            ],
+            "paragraphRole": "设立实验组与对照组的对比框架，并点明调查时点，为下句两项测量与末段结果差异做好铺垫。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 157,
+          "end": 292,
+          "text": "Residents were asked to imagine that they had committed a crime and how likely it would be that local officers would find out about it.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "Residents",
+              "normalized": "residents",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "asked",
+              "normalized": "asked",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 31,
+              "surface": "imagine",
+              "normalized": "imagine",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 36,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 55,
+              "surface": "committed",
+              "normalized": "committed",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 63,
+              "surface": "crime",
+              "normalized": "crime",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 67,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 71,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 78,
+              "surface": "likely",
+              "normalized": "likely",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 87,
+              "surface": "would",
+              "normalized": "would",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 95,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 101,
+              "surface": "local",
+              "normalized": "local",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 110,
+              "surface": "officers",
+              "normalized": "officers",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 116,
+              "surface": "would",
+              "normalized": "would",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 121,
+              "surface": "find",
+              "normalized": "find",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 125,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 131,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 134,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 135,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "居民被要求想象自己犯下了一桩罪行，以及当地警员查明此事的可能性有多大。",
+            "translationNatural": "问卷让居民设想：假如自己犯了事，片儿警查出真相的概率有多高。",
+            "structMarkup": "【Residents】 _were asked_ (to imagine that they had committed a crime and how likely it would be that local officers would find out about it).",
+            "structureSummary": "被动主谓（Residents were asked）+ 不定式作补语；to imagine 后接由 and 并列的两个宾语从句（that... 与 how likely...），后一从句含形式主语 it 与 that 主语从句。",
+            "components": [
+              {
+                "part": "Residents",
+                "role": "主语",
+                "note": "名词作主语，指受访居民"
+              },
+              {
+                "part": "were asked",
+                "role": "谓语",
+                "note": "被动语态作谓语，意为「被要求」"
+              },
+              {
+                "part": "to imagine that they had committed a crime and how likely it would be that local officers would find out about it",
+                "role": "补语",
+                "note": "不定式作补语说明 asked 的要求内容，内含并列的宾语从句"
+              },
+              {
+                "part": "that they had committed a crime",
+                "role": "宾语从句",
+                "note": "imagine 的第一个宾语从句，过去完成时表「假想已犯罪」"
+              },
+              {
+                "part": "how likely it would be that local officers would find out about it",
+                "role": "宾语从句",
+                "note": "how 引导，与上一从句并列作 imagine 的宾语；it 为形式主语"
+              },
+              {
+                "part": "that local officers would find out about it",
+                "role": "主语从句",
+                "note": "how 从句中形式主语 it 所指的真正主语从句"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that they had committed a crime」：imagine 的第一个宾语从句，过去完成时表「假想已犯罪」",
+              "宾语从句「how likely it would be that local officers would find out about it」：how 引导，与上一从句并列作 imagine 的宾语；it 为形式主语",
+              "主语从句「that local officers would find out about it」：how 从句中形式主语 it 所指的真正主语从句"
+            ],
+            "phrases": [
+              {
+                "text": "find out",
+                "meaning": "查明、发现",
+                "usage": "强调经打听/调查得知，常接 wh- 从句或 that 从句。",
+                "example": "We found out who did it. 我们查清了是谁干的。"
+              },
+              {
+                "text": "imagine",
+                "meaning": "想象、设想；料想、认为；臆想",
+                "usage": "注意区分：imagine doing（想象做，接动名词，不接 to do）/ imaginary（虚构的，指不存在）/ imaginative（有想象力的，指人）/ imaginable（可想象到的，常与最高级连用）/ imagine (sb) doing。",
+                "example": "Residents were asked to imagine that they had committed a crime and how likely it would be that local officers would find out about it. 问卷让居民设想：假如自己犯了事，片儿警查出真相的概率有多高。"
+              },
+              {
+                "text": "committed",
+                "meaning": "尽心尽力的、坚定的、忠诚的；承诺、犯（罪/错）（过去式）",
+                "usage": "注意区分：be committed to（致力于，to 是介词，接名词/doing，不接动词原形）/ commit a crime（犯罪）/ commit oneself to（承诺做）/ commitment（承诺、投入，名词）。",
+                "example": "Residents were asked to imagine that they had committed a crime and how likely it would be that local officers would find out about it. 问卷让居民设想：假如自己犯了事，片儿警查出真相的概率有多高。"
+              }
+            ],
+            "pitfalls": [
+              "find out 强调「查出来」，find 只是「找到」。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "给出第一项测量——对「犯罪会被发现」的主观概率判断，正是末段实验组「更怕被抓」这一结果的直接来源。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 293,
+          "end": 353,
+          "text": "They also rated how well the officers in the area knew them.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "rated",
+              "normalized": "rated",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "well",
+              "normalized": "well",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 37,
+              "surface": "officers",
+              "normalized": "officers",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 40,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 49,
+              "surface": "area",
+              "normalized": "area",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "knew",
+              "normalized": "knew",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 59,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 60,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他们还评估了这片区域的警员对他们有多了解。",
+            "translationNatural": "此外，居民还打了分：觉得本片区的警员到底有多认识自己。",
+            "structMarkup": "【They】 _also rated_ {how well the officers in the area knew them}.",
+            "structureSummary": "主谓 + how 引导宾语从句；also 承接上句，从句内 in the area 作 the officers 的后置定语。",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "回指上句 Residents"
+              },
+              {
+                "part": "also rated",
+                "role": "谓语",
+                "note": "副词 also + 动词 rated，意为「还评估了」"
+              },
+              {
+                "part": "how well the officers in the area knew them",
+                "role": "宾语从句",
+                "note": "how 引导宾语从句，作 rated 的宾语"
+              },
+              {
+                "part": "in the area",
+                "role": "介词短语",
+                "note": "介词短语作后置定语，修饰 the officers"
+              },
+              {
+                "part": "knew them",
+                "role": "谓语",
+                "note": "宾语从句内部的谓语 + 宾语"
+              }
+            ],
+            "clauses": [
+              "宾语从句「how well the officers in the area knew them」：how 引导宾语从句，作 rated 的宾语",
+              "本句主干为「主谓 + how 引导宾语从句；also 承接上句，从句内 in the area 作 the officers 的后置定语。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "well",
+                "meaning": "好地（副词）；健康的（形容词）；井（名词）",
+                "usage": "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。常见搭配：as well / well-being。",
+                "example": "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+              },
+              {
+                "text": "area",
+                "meaning": "地区；领域、方面（可数）",
+                "usage": "注意区分：area（地区/领域）/ region（区域）。常见搭配：in the area of / a research area。",
+                "example": "This is a growing research area. 这是一个不断发展的研究领域。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。",
+              "注意区分：area（地区/领域）/ region（区域）。"
+            ],
+            "paragraphRole": "给出第二项测量——「警员是否了解我」的主观评分，直接检验开篇「误以为被了解」的心理是否真的被传单唤起。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "The team found that residents of the developments that had received the leaflets believed it more likely that local officers would find out about illegal activity than residents of the control areas. Even more strikingly, the team found that immediately after the leaflet distribution, there were fewer criminal complaints and arrests in the areas around the developments that had received the leaflets than around the control developments.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 199,
+          "text": "The team found that residents of the developments that had received the leaflets believed it more likely that local officers would find out about illegal activity than residents of the control areas.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "team",
+              "normalized": "team",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 29,
+              "surface": "residents",
+              "normalized": "residents",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 36,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 49,
+              "surface": "developments",
+              "normalized": "developments",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 67,
+              "surface": "received",
+              "normalized": "received",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 71,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 80,
+              "surface": "leaflets",
+              "normalized": "leaflets",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 89,
+              "surface": "believed",
+              "normalized": "believed",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 97,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 104,
+              "surface": "likely",
+              "normalized": "likely",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 109,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 115,
+              "surface": "local",
+              "normalized": "local",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 124,
+              "surface": "officers",
+              "normalized": "officers",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 130,
+              "surface": "would",
+              "normalized": "would",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 135,
+              "surface": "find",
+              "normalized": "find",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 139,
+              "surface": "out",
+              "normalized": "out",
+              "isWord": true
+            },
+            {
+              "start": 140,
+              "end": 145,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 153,
+              "surface": "illegal",
+              "normalized": "illegal",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 162,
+              "surface": "activity",
+              "normalized": "activity",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 167,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 177,
+              "surface": "residents",
+              "normalized": "residents",
+              "isWord": true
+            },
+            {
+              "start": 178,
+              "end": 180,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 184,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 185,
+              "end": 192,
+              "surface": "control",
+              "normalized": "control",
+              "isWord": true
+            },
+            {
+              "start": 193,
+              "end": 198,
+              "surface": "areas",
+              "normalized": "areas",
+              "isWord": true
+            },
+            {
+              "start": 198,
+              "end": 199,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "团队发现，收到过传单的那些小区的居民，比起对照区域的居民，更认为当地警员会查出违法行为。",
+            "translationNatural": "结果显示：拿到传单的居民，比没拿到的更笃信「犯了事警察一定会查出来」。",
+            "structMarkup": "【The team】 _found_ {that residents of the developments that had received the leaflets believed it more likely that local officers would find out about illegal activity than residents of the control areas}.",
+            "structureSummary": "主谓（The team found）+ that 宾语从句；从句主语 residents 后含 that 定语从句修饰 developments，谓语 believed 用「形式宾语 it + 宾补 more likely + that 真正宾语从句」，句末 than 短语引出对照组构成比较。",
+            "components": [
+              {
+                "part": "The team",
+                "role": "主语",
+                "note": "名词短语作主语，指研究团队"
+              },
+              {
+                "part": "found",
+                "role": "谓语",
+                "note": "及物动词作谓语，引出研究发现"
+              },
+              {
+                "part": "that residents of the developments that had received the leaflets believed it more likely that local officers would find out about illegal activity than residents of the control areas",
+                "role": "宾语从句",
+                "note": "that 引导，作 found 的宾语，陈述实验组与对照组的差异"
+              },
+              {
+                "part": "that had received the leaflets",
+                "role": "定语从句",
+                "note": "that 引导定语从句，修饰 developments"
+              },
+              {
+                "part": "believed it more likely",
+                "role": "谓语",
+                "note": "宾语从句的谓语，it 为形式宾语，more likely 为宾补"
+              },
+              {
+                "part": "that local officers would find out about illegal activity",
+                "role": "宾语从句",
+                "note": "believed 的真正宾语从句（形式宾语 it 所指内容）"
+              },
+              {
+                "part": "than residents of the control areas",
+                "role": "状语",
+                "note": "than 引出比较对象，与实验组居民对照"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that residents of the developments that had received the leaflets beli」：that 引导，作 found 的宾语，陈述实验组与对照组的差异",
+              "定语从句「that had received the leaflets」：that 引导定语从句，修饰 developments",
+              "宾语从句「that local officers would find out about illegal activity」：believed 的真正宾语从句（形式宾语 it 所指内容）"
+            ],
+            "phrases": [
+              {
+                "text": "find out",
+                "meaning": "查明、发现",
+                "usage": "强调经打听/调查得知，常接 wh- 从句或 that 从句。",
+                "example": "We found out who did it. 我们查清了是谁干的。"
+              },
+              {
+                "text": "team",
+                "meaning": "团队、小组",
+                "usage": "常见搭配：a team of researchers。",
+                "example": "The team found that residents of the developments that had received the leaflets believed it more likely that local officers would find out about illegal activity than residents of the control areas. 结果显示：拿到传单的居民，比没拿到的更笃信「犯了事警察一定会查出来」。"
+              },
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              }
+            ],
+            "pitfalls": [
+              "find out 强调「查出来」，find 只是「找到」。",
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "给出第一项结果——实验组主观上更怕被抓，印证「误以为被了解」确实被传单激活，为第55题的犯罪变化提供心理解释。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 200,
+          "end": 440,
+          "text": "Even more strikingly, the team found that immediately after the leaflet distribution, there were fewer criminal complaints and arrests in the areas around the developments that had received the leaflets than around the control developments.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Even",
+              "normalized": "even",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 20,
+              "surface": "strikingly",
+              "normalized": "strikingly",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 21,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "team",
+              "normalized": "team",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 36,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 53,
+              "surface": "immediately",
+              "normalized": "immediately",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 59,
+              "surface": "after",
+              "normalized": "after",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 63,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 71,
+              "surface": "leaflet",
+              "normalized": "leaflet",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 84,
+              "surface": "distribution",
+              "normalized": "distribution",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 85,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 86,
+              "end": 91,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 96,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 102,
+              "surface": "fewer",
+              "normalized": "fewer",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 111,
+              "surface": "criminal",
+              "normalized": "criminal",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 122,
+              "surface": "complaints",
+              "normalized": "complaints",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 126,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 134,
+              "surface": "arrests",
+              "normalized": "arrests",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 137,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 141,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 147,
+              "surface": "areas",
+              "normalized": "areas",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 154,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 158,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 171,
+              "surface": "developments",
+              "normalized": "developments",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 176,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 177,
+              "end": 180,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 189,
+              "surface": "received",
+              "normalized": "received",
+              "isWord": true
+            },
+            {
+              "start": 190,
+              "end": 193,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 194,
+              "end": 202,
+              "surface": "leaflets",
+              "normalized": "leaflets",
+              "isWord": true
+            },
+            {
+              "start": 203,
+              "end": 207,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 208,
+              "end": 214,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 215,
+              "end": 218,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 219,
+              "end": 226,
+              "surface": "control",
+              "normalized": "control",
+              "isWord": true
+            },
+            {
+              "start": 227,
+              "end": 239,
+              "surface": "developments",
+              "normalized": "developments",
+              "isWord": true
+            },
+            {
+              "start": 239,
+              "end": 240,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "更为显著的是，团队发现，就在传单分发之后不久，收到传单的小区周边地带的犯罪投诉与逮捕数量，少于对照小区周边。",
+            "translationNatural": "更绝的是：传单刚发完，拿到传单那片小区周边的报案和抓捕，竟比对照片区还少。",
+            "structMarkup": "(Even more strikingly), 【the team】 _found_ {that immediately after the leaflet distribution, there were fewer criminal complaints and arrests in the areas around the developments that had received the leaflets than around the control developments}.",
+            "structureSummary": "Even more strikingly 评注状语 + 主谓（the team found）+ that 宾语从句；从句内 immediately after... 时间状语 + there be 存在句 + in 地点状语（含 that 定语从句）+ than 比较短语。",
+            "components": [
+              {
+                "part": "Even more strikingly",
+                "role": "状语",
+                "note": "评注性副词短语作状语，强调结果「更令人意外」"
+              },
+              {
+                "part": "the team",
+                "role": "主语",
+                "note": "名词短语作主语"
+              },
+              {
+                "part": "found",
+                "role": "谓语",
+                "note": "及物动词作谓语，引出更关键的发现"
+              },
+              {
+                "part": "that immediately after the leaflet distribution, there were fewer criminal complaints and arrests in the areas around the developments that had received the leaflets than around the control developments",
+                "role": "宾语从句",
+                "note": "that 引导，作 found 的宾语"
+              },
+              {
+                "part": "immediately after the leaflet distribution",
+                "role": "状语",
+                "note": "时间状语，点明「传单一发放完」"
+              },
+              {
+                "part": "there were fewer criminal complaints and arrests",
+                "role": "谓语",
+                "note": "there be 存在句，fewer 表数量更少"
+              },
+              {
+                "part": "that had received the leaflets",
+                "role": "定语从句",
+                "note": "修饰 developments，限定「收到传单的小区」"
+              },
+              {
+                "part": "than around the control developments",
+                "role": "状语",
+                "note": "than 引出比较对象，与实验组周边区域对照"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that immediately after the leaflet distribution, there were fewer crim」：that 引导，作 found 的宾语",
+              "定语从句「that had received the leaflets」：修饰 developments，限定「收到传单的小区」",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。"
+            ],
+            "phrases": [
+              {
+                "text": "team",
+                "meaning": "团队、小组",
+                "usage": "常见搭配：a team of researchers。",
+                "example": "Even more strikingly, the team found that immediately after the leaflet distribution, there were fewer criminal complaints and arrests in the areas around the developments that had received the leaflets than around the control developments. 更绝的是：传单刚发完，拿到传单那片小区周边的报案和抓捕，竟比对照片区还少。"
+              },
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              },
+              {
+                "text": "immediately",
+                "meaning": "立即的、即刻的、当前的；直接的、最近的（immediate family 直系亲属）（immediate 的副词形式）",
+                "usage": "注意区分：immediately（副词）/ immediate（原形）。",
+                "example": "Even more strikingly, the team found that immediately after the leaflet distribution, there were fewer criminal complaints and arrests in the areas around the developments that had received the leaflets than around the control developments. 更绝的是：传单刚发完，拿到传单那片小区周边的报案和抓捕，竟比对照片区还少。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "以「更令人意外」递进给出第二项、也是决定性的结果——实验组周边违法更少，正面回答第55题，并回扣第51题「被认识感让人更诚实」。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 51,
+      "stem": "What is the finding of a recent study in Nature?",
+      "options": [
+        {
+          "key": "A",
+          "text": "People are more honest with those who know them than with total strangers."
+        },
+        {
+          "key": "B",
+          "text": "People we want to have detailed information about are keen to know about us."
+        },
+        {
+          "key": "C",
+          "text": "People who get to know about a person wrongly assume the person knows them too."
+        },
+        {
+          "key": "D",
+          "text": "People who are familiar with each other tend to behave honestly in their everyday dealings."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 52,
+      "stem": "What does the passage say about the assumption that social relationships are reciprocal?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is more the exception than the rule."
+        },
+        {
+          "key": "B",
+          "text": "It does not hold true in every situation."
+        },
+        {
+          "key": "C",
+          "text": "It does not apply to complex relationships."
+        },
+        {
+          "key": "D",
+          "text": "It is more accurate in one-sided social ties."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 53,
+      "stem": "What did Anuj Shah and Michael LaForest want to find out about the belief that social relationships are reciprocal?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Whether it may resolve misunderstandings about social ties."
+        },
+        {
+          "key": "B",
+          "text": "Whether it could help develop one's relationships with strangers."
+        },
+        {
+          "key": "C",
+          "text": "Whether it could help strengthen interpersonal relationships."
+        },
+        {
+          "key": "D",
+          "text": "Whether it may lead to false assumptions about a stranger."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 54,
+      "stem": "When did Anuj Shah and Michael LaForest find something really interesting in their research?",
+      "options": [
+        {
+          "key": "A",
+          "text": "During lab-based studies."
+        },
+        {
+          "key": "B",
+          "text": "During a field experiment."
+        },
+        {
+          "key": "C",
+          "text": "While investigating local residents' crime."
+        },
+        {
+          "key": "D",
+          "text": "While talking to police officers nearby."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 55,
+      "stem": "What happened in the areas around the housing developments subjected to the studies?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They saw fewer crimes than the control developments."
+        },
+        {
+          "key": "B",
+          "text": "They witnessed a swifter elimination of illegal activities."
+        },
+        {
+          "key": "C",
+          "text": "Local police responded more quickly to criminal complaints than before."
+        },
+        {
+          "key": "D",
+          "text": "Local police related better to residents there than to those in other areas."
+        }
+      ],
+      "answer": "A"
+    }
+  ],
+  "lexicon": {
+    "according": {
+      "phonetic": "/əˈkɔːdɪŋ/",
+      "pos": "prep.（用于 according to）",
+      "sense": "根据、按照（according to）",
+      "collocations": [
+        "according to the study",
+        "according to sb"
+      ],
+      "examples": [
+        "According to the study, rates are stable. 根据这项研究，比率稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "according to（根据，后接来源）/ because of（因为）"
+      }
+    },
+    "act": {
+      "phonetic": "/ækt/",
+      "pos": "v./n.",
+      "sense": "行动、做事；表演、扮演；行为、法令（本文 consumers to not only demand change—but to act themselves 消费者不仅要呼吁改变，更要自己行动）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "As a result, we act more honestly around them, according to a recent study in Nature. 于是跟这些人相处时我们反倒更老实了——这是《自然》上一项新研究给出的结论。"
+      ],
+      "more": {
+        "confusables": "act / actually / activity（同族不同词形，注意词性与用法）"
+      }
+    },
+    "activity": {
+      "phonetic": "/ækˈtɪvəti/",
+      "pos": "n.",
+      "sense": "活动（可数）；活跃（不可数）",
+      "collocations": [
+        "physical activity",
+        "digital activity",
+        "a range of activities"
+      ],
+      "examples": [
+        "Physical activity improves mood. 身体活动能改善情绪。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "act（行动）+ -ivity",
+        "confusables": "activity（活动）/ action（行动）/ act（行为）"
+      }
+    },
+    "actually": {
+      "phonetic": "/ˈæktʃuəli/",
+      "pos": "adv.",
+      "sense": "实际上、事实上；居然（表出乎意料）",
+      "collocations": [
+        "actually, ...",
+        "not actually"
+      ],
+      "examples": [
+        "In reality the female actually did most of it. 现实中主要还是女性在做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "actual（实际的）+ -ly（副词后缀）",
+        "confusables": "actually（实际上）/ currently（目前）/ in fact（事实上）"
+      }
+    },
+    "area": {
+      "phonetic": "/ˈeəriə/",
+      "pos": "n.",
+      "sense": "地区；领域、方面（可数）",
+      "collocations": [
+        "in the area of",
+        "a research area",
+        "rural areas"
+      ],
+      "examples": [
+        "This is a growing research area. 这是一个不断发展的研究领域。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "area（地区/领域）/ region（区域）"
+      }
+    },
+    "areas": {
+      "phonetic": "/ˈeəriəz/",
+      "pos": "n.",
+      "sense": "地区、领域（area 的复数）",
+      "lemma": "area",
+      "collocations": [
+        "rural areas",
+        "key areas"
+      ],
+      "examples": [
+        "Progress varies across areas. 不同领域的进展不一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "areas（复数）/ area（单数）"
+      }
+    },
+    "around": {
+      "phonetic": "/əˈraʊnd/",
+      "pos": "prep./adv.",
+      "sense": "围绕、在…四周；大约、到处、转过来（本文 discussion around careers 围绕职业的讨论 / around 30% 约 30%）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "honestly around",
+        "areas around"
+      ],
+      "examples": [
+        "As a result, we act more honestly around them, according to a recent study in Nature. 于是跟这些人相处时我们反倒更老实了——这是《自然》上一项新研究给出的结论。"
+      ]
+    },
+    "asked": {
+      "phonetic": "/ɑːskt/",
+      "pos": "v.",
+      "sense": "问、询问；要求、请求；邀请（ask 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "asked to",
+        "asked to imagine"
+      ],
+      "examples": [
+        "Residents were asked to imagine that they had committed a crime and how likely it would be that local officers would find out about it. 问卷让居民设想：假如自己犯了事，片儿警查出真相的概率有多高。"
+      ]
+    },
+    "assume": {
+      "phonetic": "/əˈsjuːm/",
+      "pos": "v.",
+      "sense": "假定、认为、想当然；承担（责任）、呈现（形态）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "as-（=ad- 朝向）+ sum（拿取，词根 sum/sumpt，同 consume/presume/resume）+ -e",
+        "confusables": "assume（假定；承担；呈现）/ assume that（认为）/ assuming (that)（假如，连词）/ assume 与 presume（presume 偏「基于证据姑且认定」）/ assumption（名词）"
+      },
+      "collocations": [
+        "assume social",
+        "tend to assume"
+      ],
+      "examples": [
+        "Past research has found that we tend to assume social relationships are reciprocal(相互的). 早有研究指出，人默认「你怎么待人，人就怎么待你」，关系都是相互的。"
+      ]
+    },
+    "assumption": {
+      "phonetic": "/əˈsʌmpʃn/",
+      "pos": "n.",
+      "sense": "假定、假设；承担、就任",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "Most of the time, this assumption is accurate: someone you think of as a friend will usually consider you a friend too. 多数情况下这套假定没错：你把谁当朋友，对方一般也拿你当朋友。"
+      ],
+      "more": {
+        "confusables": "assumption / assumptions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "believe": {
+      "phonetic": "/bɪˈliːv/",
+      "pos": "v.",
+      "sense": "相信、认为",
+      "collocations": [
+        "believe in",
+        "believe that"
+      ],
+      "examples": [
+        "I believe he is right. 我认为他是对的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "believe / believed（同族不同词形，注意词性与用法）"
+      }
+    },
+    "believed": {
+      "phonetic": "/bɪˈliːvd/",
+      "pos": "v.",
+      "sense": "相信、认为（believe 的过去式/过去分词形式）",
+      "lemma": "believe",
+      "collocations": [
+        "leaflets believed"
+      ],
+      "examples": [
+        "The team found that residents of the developments that had received the leaflets believed it more likely that local officers would find out about illegal activity than residents of the control areas. 结果显示：拿到传单的居民，比没拿到的更笃信「犯了事警察一定会查出来」。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "believe + -d（过去式/过去分词）",
+        "confusables": "believed（过去式/过去分词）/ believe（原形）"
+      }
+    },
+    "committed": {
+      "phonetic": "/kəˈmɪtɪd/",
+      "pos": "adj./v.",
+      "sense": "尽心尽力的、坚定的、忠诚的；承诺、犯（罪/错）（过去式）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "commit（承诺；犯）+ -ed（过去分词，注意双写 t：committed）",
+        "confusables": "be committed to（致力于，to 是介词，接名词/doing，不接动词原形）/ commit a crime（犯罪）/ commit oneself to（承诺做）/ commitment（承诺、投入，名词）"
+      },
+      "collocations": [],
+      "examples": [
+        "Residents were asked to imagine that they had committed a crime and how likely it would be that local officers would find out about it. 问卷让居民设想：假如自己犯了事，片儿警查出真相的概率有多高。"
+      ]
+    },
+    "community": {
+      "phonetic": "/kəˈmjuːnəti/",
+      "pos": "n.",
+      "sense": "社区、社群；群体、界、共同体（the scientific community 科学界）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "local community",
+        "community police"
+      ],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ],
+      "more": {
+        "confusables": "community / communicative / communicate（同族不同词形，注意词性与用法）"
+      }
+    },
+    "conduct": {
+      "phonetic": "/kənˈdʌkt/",
+      "pos": "v./n.",
+      "sense": "实施、进行、开展（研究、调查）、指挥、传导；行为、举止（名词读 /ˈkɒndʌkt/，动词读 /kənˈdʌkt/）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "But the really interesting finding came when the researchers stepped out of the lab, to conduct a field experiment. 可最耐人寻味的结果，是他们离开实验室、跑到真实社区做现场实验时冒出来的。"
+      ],
+      "more": {
+        "confusables": "conduct / conducted（同族不同词形，注意词性与用法）"
+      }
+    },
+    "consider": {
+      "phonetic": "/kənˈsɪdə(r)/",
+      "pos": "v.",
+      "sense": "考虑、细想；认为、把…看作；顾及、体谅",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "consider doing（考虑做，接动名词，不接 to do）/ consider sb/sth (to be) + adj/n（认为…是）/ consider that（认为）/ take … into consideration（把…考虑在内）/ considerate（体贴的）与 considerable（相当大的）形近义远"
+      },
+      "collocations": [
+        "usually consider"
+      ],
+      "examples": [
+        "Most of the time, this assumption is accurate: someone you think of as a friend will usually consider you a friend too. 多数情况下这套假定没错：你把谁当朋友，对方一般也拿你当朋友。"
+      ]
+    },
+    "containing": {
+      "phonetic": "/kənˈteɪnɪŋ/",
+      "pos": "v.",
+      "sense": "包含、含有、容纳、装有；控制、抑制（情绪/火势/扩散）（contain 的现在分词；sugar-containing 含糖的）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "containing fairly",
+        "residents containing",
+        "containing similar"
+      ],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ]
+    },
+    "control": {
+      "phonetic": "/kənˈtrəʊl/",
+      "pos": "n./v.",
+      "sense": "控制、掌控",
+      "collocations": [
+        "under control",
+        "control oneself"
+      ],
+      "examples": [
+        "Try to control your temper. 尽量控制住脾气。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "control / contrary / contribute（同族不同词形，注意词性与用法）"
+      }
+    },
+    "crime": {
+      "phonetic": "/kraɪm/",
+      "pos": "n.",
+      "sense": "犯罪、罪行、违法活动（crime rate 犯罪率；commit a crime 犯罪）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Residents were asked to imagine that they had committed a crime and how likely it would be that local officers would find out about it. 问卷让居民设想：假如自己犯了事，片儿警查出真相的概率有多高。"
+      ],
+      "more": {
+        "confusables": "crime / criminal（同族不同词形，注意词性与用法）"
+      }
+    },
+    "criminal": {
+      "phonetic": "/ˈkrɪmɪnl/",
+      "pos": "adj./n.",
+      "sense": "犯罪的、刑事的；罪犯",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "fewer criminal",
+        "criminal complaints"
+      ],
+      "examples": [
+        "Even more strikingly, the team found that immediately after the leaflet distribution, there were fewer criminal complaints and arrests in the areas around the developments that had received the leaflets than around the control developments. 更绝的是：传单刚发完，拿到传单那片小区周边的报案和抓捕，竟比对照片区还少。"
+      ]
+    },
+    "details": {
+      "phonetic": "/ˈdiːteɪlz/",
+      "pos": "n.",
+      "sense": "detail 的复数，细节",
+      "collocations": [
+        "focus on details",
+        "details about",
+        "finding out details"
+      ],
+      "examples": [
+        "After finding out details about a stranger, we mistakenly think that they also know about us. 一旦摸清某个陌生人的底细，我们就会误以为对方同样了解自己。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "detail（细节，de- 彻底 + tail 切，词根，同 tailor/retail）+ -s（复数）",
+        "confusables": "in detail（详细地，副词短语，detail 用单数、无冠词）/ go into detail(s)（详述）/ detailed（详细的，形容词）/ detail 与 details（复数指「具体细节」）"
+      }
+    },
+    "developed": {
+      "phonetic": "/dɪˈveləpt/",
+      "pos": "v./adj.",
+      "sense": "发展、开发、培养、研制（develop 过去式/分词）；发达的、成熟的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "develop（发展）+ -ed",
+        "confusables": "developed（发达的；发育的，形容词）/ developing（发展中的，反义）/ developed countries（发达国家）/ development（发展，名词）/ develop（动词）"
+      },
+      "collocations": [
+        "team developed",
+        "developed leaflets"
+      ],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ]
+    },
+    "developments": {
+      "phonetic": "/dɪˈveləpməntts/",
+      "pos": "n.",
+      "sense": "发展、开发；research and development 研发（development 的复数/三单形式）",
+      "lemma": "development",
+      "collocations": [
+        "housing developments",
+        "developments in",
+        "developments in disadvantaged"
+      ],
+      "examples": [
+        "They then sent out these leaflets to every apartment in a number of housing developments in disadvantaged areas. 接着，他们把传单塞进了几个贫困片区住宅楼里每一户的信箱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "development + -s（复数/三单）",
+        "confusables": "developments（复数/三单）/ development（原形）"
+      }
+    },
+    "disadvantaged": {
+      "phonetic": "/ˌdɪsədˈvɑːntɪdʒd/",
+      "pos": "n.",
+      "sense": "劣势、不利条件（可数）（disadvantage 的过去式/过去分词形式）",
+      "lemma": "disadvantage",
+      "collocations": [
+        "disadvantaged areas",
+        "developments in disadvantaged"
+      ],
+      "examples": [
+        "They then sent out these leaflets to every apartment in a number of housing developments in disadvantaged areas. 接着，他们把传单塞进了几个贫困片区住宅楼里每一户的信箱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "disadvantage + -d（过去式/过去分词）",
+        "confusables": "disadvantaged（过去式/过去分词）/ disadvantage（原形）"
+      }
+    },
+    "doesn't": {
+      "phonetic": "/ˈdʌznt/",
+      "pos": "缩略",
+      "sense": "does not 的缩写（第三人称单数否定）",
+      "collocations": [
+        "doesn't mean",
+        "doesn't apply"
+      ],
+      "examples": [
+        "That doesn't mean it's all good news. 这并不意味着全是好消息。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "doesn't（does not）/ don't（do not，复数或第一二人称）"
+      }
+    },
+    "exactly": {
+      "phonetic": "/ɪɡˈzæktli/",
+      "pos": "adj.",
+      "sense": "精确的、确切的（exact 的副词形式）",
+      "lemma": "exact",
+      "collocations": [],
+      "examples": [
+        "In a series of lab-based studies, this is exactly what the researchers found. 一连串实验室做下来，结果恰恰印证了研究者的猜想。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "exact + -ly（副词）",
+        "confusables": "exactly（副词）/ exact（原形）"
+      }
+    },
+    "example": {
+      "phonetic": "/ɪɡˈzɑːmpl/",
+      "pos": "n.",
+      "sense": "例子、实例；榜样",
+      "collocations": [
+        "for example",
+        "an example of",
+        "set an example"
+      ],
+      "examples": [
+        "For example, texting and reading coexist. 例如，发短信和读书并存。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "for example（插入语，缩写 e.g.）/ such as（后接名词）"
+      }
+    },
+    "experiment": {
+      "phonetic": "/ɪkˈsperɪmənt/",
+      "pos": "n./v.",
+      "sense": "实验、试验；尝试、实践（do/conduct an experiment 做实验；experiment with 试用）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "field experiment"
+      ],
+      "examples": [
+        "But the really interesting finding came when the researchers stepped out of the lab, to conduct a field experiment. 可最耐人寻味的结果，是他们离开实验室、跑到真实社区做现场实验时冒出来的。"
+      ],
+      "more": {
+        "roots": "experiment 含 -ment（名词后缀，表结果、手段或过程）"
+      }
+    },
+    "fairly": {
+      "phonetic": "/ˈfeəli/",
+      "pos": "adv.",
+      "sense": "相当地、还算；公平地、公正地",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "containing fairly",
+        "fairly ordinary"
+      ],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ],
+      "more": {
+        "roots": "fairly 含 -ly（副词后缀）"
+      }
+    },
+    "feel": {
+      "phonetic": "/fiːl/",
+      "pos": "v./n.",
+      "sense": "感觉、觉得；摸起来、感觉到；触感、气氛（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "mistakenly feel"
+      ],
+      "examples": [
+        "Researchers Anuj Shah and Michael LaForest wondered whether our tendency to believe that social ties are reciprocal could lead us to mistakenly feel that a stranger does actually know us. 两位研究者于是追问：人总默认关系对等，这份惯性会不会让我们错把一个陌生人当成「也认识我」的人？"
+      ],
+      "more": {
+        "confusables": "feel / feeling（同族不同词形，注意词性与用法）"
+      }
+    },
+    "fewer": {
+      "phonetic": "/ˈfjuːə(r)/",
+      "pos": "adj./pron.",
+      "sense": "较少的、更少的（few 的比较级，修饰可数名词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fewer（较少的，修饰可数名词复数，如 fewer people）/ less（较少的，修饰不可数名词，如 less time）/ fewer 与 less 口语常混（less 配可数是非正式）/ few（几乎没，否定）/ a few（有几个，肯定）"
+      },
+      "collocations": [
+        "fewer criminal"
+      ],
+      "examples": [
+        "Even more strikingly, the team found that immediately after the leaflet distribution, there were fewer criminal complaints and arrests in the areas around the developments that had received the leaflets than around the control developments. 更绝的是：传单刚发完，拿到传单那片小区周边的报案和抓捕，竟比对照片区还少。"
+      ]
+    },
+    "field": {
+      "phonetic": "/fiːld/",
+      "pos": "n.",
+      "sense": "领域；田野；场地（可数）",
+      "collocations": [
+        "in the field of",
+        "a field of study"
+      ],
+      "examples": [
+        "She works in the field of education. 她在教育领域工作。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "field（领域/田野）/ area（地区/领域）"
+      }
+    },
+    "find": {
+      "phonetic": "/faɪnd/",
+      "pos": "v.",
+      "sense": "发现、找到；认为（find sth + adj.）",
+      "collocations": [
+        "find that...",
+        "find it hard to do",
+        "find out"
+      ],
+      "examples": [
+        "They find the rule acceptable. 他们觉得这条规则可以接受。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "find（找到，结果）/ search（搜寻，过程）/ find out（查明）"
+      }
+    },
+    "finding": {
+      "phonetic": "/ˈfaɪndɪŋ/",
+      "pos": "n./v.",
+      "sense": "研究发现、结论（可数）；find 的现在分词",
+      "lemma": "find",
+      "collocations": [
+        "the findings suggest",
+        "research findings"
+      ],
+      "examples": [
+        "That finding suggests the quantified self is limited. 这一发现表明量化自我是有限的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "finding（研究发现）/ findings（多项结论）/ find（发现）"
+      }
+    },
+    "food": {
+      "phonetic": "/fuːd/",
+      "pos": "n.",
+      "sense": "食物（一般不可数）",
+      "collocations": [
+        "food supply",
+        "fast food",
+        "food security"
+      ],
+      "examples": [
+        "Food prices are rising. 食品价格在上涨。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "food（食物，泛指不可数）/ foods（多种食品，可数）"
+      }
+    },
+    "force": {
+      "phonetic": "/fɔːs/",
+      "pos": "n./v.",
+      "sense": "力量、武力、暴力；作用力、军队；强迫、迫使、用力推动",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "police force"
+      ],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ]
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "friend": {
+      "phonetic": "/frend/",
+      "pos": "n.",
+      "sense": "朋友、友人；支持者、同盟者",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Most of the time, this assumption is accurate: someone you think of as a friend will usually consider you a friend too. 多数情况下这套假定没错：你把谁当朋友，对方一般也拿你当朋友。"
+      ],
+      "more": {
+        "confusables": "friend / friends / friendly（同族不同词形，注意词性与用法）"
+      }
+    },
+    "hobbies": {
+      "phonetic": "/ˈhɒbiz/",
+      "pos": "n.",
+      "sense": "业余爱好（hobby 的复数/三单形式）",
+      "lemma": "hobby",
+      "collocations": [],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "hobby + -ies（复数/三单）",
+        "confusables": "hobbies（复数/三单）/ hobby（原形）"
+      }
+    },
+    "imagine": {
+      "phonetic": "/ɪˈmædʒɪn/",
+      "pos": "v.",
+      "sense": "想象、设想；料想、认为；臆想",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "imag（形象，词根，同 image）+ -ine（动词后缀）",
+        "confusables": "imagine doing（想象做，接动名词，不接 to do）/ imaginary（虚构的，指不存在）/ imaginative（有想象力的，指人）/ imaginable（可想象到的，常与最高级连用）/ imagine (sb) doing"
+      },
+      "collocations": [
+        "asked to imagine"
+      ],
+      "examples": [
+        "Residents were asked to imagine that they had committed a crime and how likely it would be that local officers would find out about it. 问卷让居民设想：假如自己犯了事，片儿警查出真相的概率有多高。"
+      ]
+    },
+    "immediately": {
+      "phonetic": "/ɪˈmiːdiətli/",
+      "pos": "adj.",
+      "sense": "立即的、即刻的、当前的；直接的、最近的（immediate family 直系亲属）（immediate 的副词形式）",
+      "lemma": "immediate",
+      "collocations": [],
+      "examples": [
+        "Even more strikingly, the team found that immediately after the leaflet distribution, there were fewer criminal complaints and arrests in the areas around the developments that had received the leaflets than around the control developments. 更绝的是：传单刚发完，拿到传单那片小区周边的报案和抓捕，竟比对照片区还少。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "immediate + -ly（副词）",
+        "confusables": "immediately（副词）/ immediate（原形）"
+      }
+    },
+    "information": {
+      "phonetic": "/ˌɪnfəˈmeɪʃn/",
+      "pos": "n.",
+      "sense": "信息、资料、情报、讯息（不可数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "inform（告知）+ -ation（名词后缀）",
+        "confusables": "information（信息、资料，不可数，不说 informations；一条信息说 a piece of information）/ information on/about（关于…的信息）/ inform sb of sth（介词 of）/ informative（信息量大的）"
+      },
+      "collocations": [
+        "ordinary information",
+        "information about",
+        "information about local"
+      ],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ]
+    },
+    "interesting": {
+      "phonetic": "/ˈɪntrəstɪŋ/",
+      "pos": "n.",
+      "sense": "利益；兴趣；利息（interest 的现在分词/动名词形式）",
+      "lemma": "interest",
+      "collocations": [
+        "really interesting",
+        "interesting finding"
+      ],
+      "examples": [
+        "But the really interesting finding came when the researchers stepped out of the lab, to conduct a field experiment. 可最耐人寻味的结果，是他们离开实验室、跑到真实社区做现场实验时冒出来的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "interest + -ing（现在分词/动名词）",
+        "confusables": "interesting（现在分词/动名词）/ interest（原形）"
+      }
+    },
+    "knew": {
+      "phonetic": "/njuː/",
+      "pos": "v.",
+      "sense": "知道、了解、懂得、认识（know 的过去式）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "area knew"
+      ],
+      "examples": [
+        "They also rated how well the officers in the area knew them. 此外，居民还打了分：觉得本片区的警员到底有多认识自己。"
+      ]
+    },
+    "know": {
+      "phonetic": "/nəʊ/",
+      "pos": "v.",
+      "sense": "知道、了解、懂得；认识、熟悉；会（语言等）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "know about",
+        "doesn't know",
+        "actually know"
+      ],
+      "examples": [
+        "After finding out details about a stranger, we mistakenly think that they also know about us. 一旦摸清某个陌生人的底细，我们就会误以为对方同样了解自己。"
+      ],
+      "more": {
+        "confusables": "know / known / knowledge（同族不同词形，注意词性与用法）"
+      }
+    },
+    "lab": {
+      "phonetic": "/læb/",
+      "pos": "n.",
+      "sense": "实验室、实验楼（laboratory 的常用缩略，现已作独立常用词；lab tests 实验室检测）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "But the really interesting finding came when the researchers stepped out of the lab, to conduct a field experiment. 可最耐人寻味的结果，是他们离开实验室、跑到真实社区做现场实验时冒出来的。"
+      ],
+      "more": {
+        "confusables": "lab / labor（同族不同词形，注意词性与用法）"
+      }
+    },
+    "later": {
+      "phonetic": "/ˈleɪtə/",
+      "pos": "adv./adj.",
+      "sense": "后来、以后、稍后；较晚的、后期的（本文 50 years later 五十年后 / middle and late adulthood 中老年）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "months later"
+      ],
+      "examples": [
+        "Two months later, the researchers surveyed residents at these housing developments as well as control areas that did not receive leaflets or outreach cards. 两个月过去，研究者问卷访问了收到传单小区的居民，也访问了没收到任何材料的对照区居民。"
+      ],
+      "more": {
+        "confusables": "later / late / latest（同族不同词形，注意词性与用法）"
+      }
+    },
+    "lead": {
+      "phonetic": "/liːd/",
+      "pos": "v./n.",
+      "sense": "导致（lead to）；领导、带领 / 领先",
+      "collocations": [
+        "lead to",
+        "lead a parade",
+        "take the lead"
+      ],
+      "examples": [
+        "Isolation can lead to poor health. 孤立可能导致健康不佳。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lead to（导致）/ lead（铅，读 /led/）/ led（过去式）"
+      }
+    },
+    "learn": {
+      "phonetic": "/lɜːn/",
+      "pos": "v.",
+      "sense": "学习、学会",
+      "collocations": [
+        "learn to do",
+        "learn from"
+      ],
+      "examples": [
+        "We learn from mistakes. 我们从错误中学习。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "learn / learning（同族不同词形，注意词性与用法）"
+      }
+    },
+    "likely": {
+      "phonetic": "/ˈlaɪkli/",
+      "pos": "adj./adv.",
+      "sense": "可能的；很可能（be likely to do）",
+      "collocations": [
+        "be likely to do",
+        "more likely than",
+        "most likely"
+      ],
+      "examples": [
+        "Kids are likely to copy their parents. 孩子很可能模仿父母。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "likely（可作 adj./adv.）/ probable/possible（只作形容词）"
+      }
+    },
+    "local": {
+      "phonetic": "/ˈləʊkl/",
+      "pos": "adj./n.",
+      "sense": "本地的、当地的 / 当地人",
+      "collocations": [
+        "local farmers",
+        "local government"
+      ],
+      "examples": [
+        "Local farmers will suffer. 当地农民会受损。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "local（本地的）/ regional（区域的）/ global（全球的）"
+      }
+    },
+    "months": {
+      "phonetic": "/mʌnθs/",
+      "pos": "n.",
+      "sense": "月、月份（复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Two months",
+        "months later"
+      ],
+      "examples": [
+        "Two months later, the researchers surveyed residents at these housing developments as well as control areas that did not receive leaflets or outreach cards. 两个月过去，研究者问卷访问了收到传单小区的居民，也访问了没收到任何材料的对照区居民。"
+      ],
+      "more": {
+        "confusables": "months / month（同族不同词形，注意词性与用法）"
+      }
+    },
+    "nature": {
+      "phonetic": "/ˈneɪtʃə(r)/",
+      "pos": "n.",
+      "sense": "自然、自然界、大自然；本质、本性、天性；种类",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "study in Nature"
+      ],
+      "examples": [
+        "As a result, we act more honestly around them, according to a recent study in Nature. 于是跟这些人相处时我们反倒更老实了——这是《自然》上一项新研究给出的结论。"
+      ],
+      "more": {
+        "confusables": "nature / naturally / natural（同族不同词形，注意词性与用法）"
+      }
+    },
+    "number": {
+      "phonetic": "/ˈnʌmbə(r)/",
+      "pos": "n.",
+      "sense": "数字、数量；号码",
+      "collocations": [
+        "a number of（许多）",
+        "the number of（……的数量）",
+        "in large numbers"
+      ],
+      "examples": [
+        "A number of studies agree. 许多研究结论一致。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "a number of（许多，谓语复数）/ the number of（数量，谓语单数）"
+      }
+    },
+    "ordinary": {
+      "phonetic": "/ˈɔːdnri/",
+      "pos": "adj.",
+      "sense": "普通的、平凡的、平常的、一般的（out of the ordinary 不寻常）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "fairly ordinary",
+        "ordinary information"
+      ],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ]
+    },
+    "outreach": {
+      "phonetic": "/ˈaʊtriːtʃ/",
+      "pos": "n.",
+      "sense": "外展服务、对外拓展（服务/活动）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "outreach cards"
+      ],
+      "examples": [
+        "Two months later, the researchers surveyed residents at these housing developments as well as control areas that did not receive leaflets or outreach cards. 两个月过去，研究者问卷访问了收到传单小区的居民，也访问了没收到任何材料的对照区居民。"
+      ]
+    },
+    "past": {
+      "phonetic": "/pɑːst/",
+      "pos": "prep./adj./n.",
+      "sense": "过（时间）；过去的；过去",
+      "collocations": [
+        "past one's prime",
+        "in the past",
+        "over the past decade"
+      ],
+      "examples": [
+        "He was regarded as past his prime. 他被认为已过巅峰期。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "past（过去的/经过）/ passed（pass 的过去式）"
+      }
+    },
+    "police": {
+      "phonetic": "/pəˈliːs/",
+      "pos": "n./v.",
+      "sense": "警察、警方（集合名词，谓语用复数）；维持治安、监管",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "community police",
+        "police officers",
+        "police force"
+      ],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ],
+      "more": {
+        "confusables": "police / policies / political（同族不同词形，注意词性与用法）"
+      }
+    },
+    "rated": {
+      "phonetic": "/ˈreɪtɪd/",
+      "pos": "v./adj.",
+      "sense": "评价、评级、评估、列为（rate 的过去式）；有…评级的",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "They also rated how well the officers in the area knew them. 此外，居民还打了分：觉得本片区的警员到底有多认识自己。"
+      ],
+      "more": {
+        "confusables": "rated / rate（同族不同词形，注意词性与用法）"
+      }
+    },
+    "really": {
+      "phonetic": "/ˈrɪəli/",
+      "pos": "adv.",
+      "sense": "真正地、确实；非常（口语）",
+      "collocations": [
+        "really important",
+        "not really",
+        "really?"
+      ],
+      "examples": [
+        "They do not really reflect everyday behaviour. 它们并没有真正反映日常行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "really（真正地）/ real（形容词）/ actually（实际上）"
+      }
+    },
+    "reasons": {
+      "phonetic": "/ˈriːznz/",
+      "pos": "n./v.",
+      "sense": "原因、理由、道理、理性（复数）；推理、推断（第三人称单数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "reason（原因、理由）+ -s（复数）",
+        "confusables": "reason（原因、理由，可数；理性，不可数）/ reason for（介词 for，不用 of）/ the reason why/that（…的原因）/ The reason is that…（表语从句用 that，不用 because）/ cause（强调直接导致）"
+      },
+      "collocations": [
+        "reasons for",
+        "reasons for joining"
+      ],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ]
+    },
+    "received": {
+      "phonetic": "/rɪˈsiːvd/",
+      "pos": "v./adj.",
+      "sense": "收到、得到、接受、接待（receive 的过去式/过去分词）；被普遍接受的（received wisdom 公认看法）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "The team found that residents of the developments that had received the leaflets believed it more likely that local officers would find out about illegal activity than residents of the control areas. 结果显示：拿到传单的居民，比没拿到的更笃信「犯了事警察一定会查出来」。"
+      ],
+      "more": {
+        "confusables": "received / receiving（同族不同词形，注意词性与用法）"
+      }
+    },
+    "recent": {
+      "phonetic": "/ˈriːsnt/",
+      "pos": "adj.",
+      "sense": "最近的、近来的",
+      "collocations": [
+        "recent study",
+        "in recent years",
+        "a recent report"
+      ],
+      "examples": [
+        "One recent study found a surprising result. 最近一项研究发现了意外的结果。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "recent（最近的）/ recently（副词）/ resent（怨恨）"
+      }
+    },
+    "relationships": {
+      "phonetic": "/rɪˈleɪʃnʃɪps/",
+      "pos": "n.",
+      "sense": "关系、关联、人际关系（relationship 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "relation（关系）+ -ship（名词后缀，表状态/关系）+ -s",
+        "confusables": "relationship（关系、关联，可数）/ relationship between A and B / relationship with sb（介词 with）/ relations 复数常指「两国/团体间关系」/ in relation to（关于，介词短语）"
+      },
+      "collocations": [
+        "social relationships"
+      ],
+      "examples": [
+        "Past research has found that we tend to assume social relationships are reciprocal(相互的). 早有研究指出，人默认「你怎么待人，人就怎么待你」，关系都是相互的。"
+      ]
+    },
+    "research": {
+      "phonetic": "/rɪˈsɜːtʃ/",
+      "pos": "n./v.",
+      "sense": "研究（不可数）；调查 / 研究",
+      "collocations": [
+        "a body of research",
+        "research on sth",
+        "research shows"
+      ],
+      "examples": [
+        "A growing body of research supports this. 越来越多的研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "research（不可数）/ study（可数，一项研究）/ researches（罕用）"
+      }
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "researcher 的复数，研究人员",
+      "collocations": [
+        "Researchers Anuj",
+        "researchers found",
+        "researchers stepped"
+      ],
+      "examples": [
+        "Researchers Anuj Shah and Michael LaForest wondered whether our tendency to believe that social ties are reciprocal could lead us to mistakenly feel that a stranger does actually know us. 两位研究者于是追问：人总默认关系对等，这份惯性会不会让我们错把一个陌生人当成「也认识我」的人？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researchers / researcher（同族不同词形，注意词性与用法）"
+      }
+    },
+    "result": {
+      "phonetic": "/rɪˈzʌlt/",
+      "pos": "n./v.",
+      "sense": "结果（可数）/ 导致（result in）、由……造成（result from）",
+      "collocations": [
+        "result in",
+        "result from",
+        "as a result"
+      ],
+      "examples": [
+        "The result was surprising. 结果令人意外。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "result in（导致）/ result from（起因于）/ as a result of（由于）"
+      }
+    },
+    "series": {
+      "phonetic": "/ˈsɪəriːz/",
+      "pos": "n.",
+      "sense": "一系列、一连串；系列节目/丛书（单复数同形）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "series of",
+        "series of lab-based"
+      ],
+      "examples": [
+        "In a series of lab-based studies, this is exactly what the researchers found. 一连串实验室做下来，结果恰恰印证了研究者的猜想。"
+      ],
+      "more": {
+        "confusables": "series / serious / seriously（同族不同词形，注意词性与用法）"
+      }
+    },
+    "similar": {
+      "phonetic": "/ˈsɪmələ(r)/",
+      "pos": "adj.",
+      "sense": "相似的、类似的",
+      "collocations": [
+        "be similar to",
+        "similar percentages",
+        "in a similar way"
+      ],
+      "examples": [
+        "Men reported similar levels of enjoyment. 男性报告的享受程度相近。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "similar to（与……相似）/ the same as（与……相同）"
+      }
+    },
+    "social": {
+      "phonetic": "/ˈsəʊʃl/",
+      "pos": "adj.",
+      "sense": "社会的、社会性的；社交的、交际的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "assume social",
+        "social relationships",
+        "social ties"
+      ],
+      "examples": [
+        "Past research has found that we tend to assume social relationships are reciprocal(相互的). 早有研究指出，人默认「你怎么待人，人就怎么待你」，关系都是相互的。"
+      ],
+      "more": {
+        "confusables": "social / society / socializing（同族不同词形，注意词性与用法）"
+      }
+    },
+    "someone": {
+      "phonetic": "/ˈsʌmwʌn/",
+      "pos": "pron./n.",
+      "sense": "某人、有人、某个人（用于肯定句，与 someone 同义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "someone（某人，不定代词，谓语用单数，= somebody）/ someone else（别人，else 后置）/ someone 多用于肯定句，疑问/否定常用 anyone / some one（分写指「某一个」，可接 of）"
+      },
+      "collocations": [],
+      "examples": [
+        "Most of the time, this assumption is accurate: someone you think of as a friend will usually consider you a friend too. 多数情况下这套假定没错：你把谁当朋友，对方一般也拿你当朋友。"
+      ]
+    },
+    "something": {
+      "phonetic": "/ˈsʌmθɪŋ/",
+      "pos": "pron.",
+      "sense": "某事、某物（不定代词）",
+      "collocations": [
+        "something like",
+        "something to do with",
+        "or something"
+      ],
+      "examples": [
+        "If you feel something should not be done... 如果你觉得某事不该做……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "something（某物）/ anything（任何物，否定疑问）/ nothing（没有东西）"
+      }
+    },
+    "sometimes": {
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "pos": "adv.",
+      "sense": "有时、偶尔、间或（频度副词；区别于 sometime「在某个时候」）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "But sometimes our social ties are more one-sided: for example, you might learn something about a stranger who doesn't know you at all. 可关系也有单向的时候：比如你打听到了一个压根不认识你的陌生人的事。"
+      ]
+    },
+    "strikingly": {
+      "phonetic": "/ˈstraɪkɪŋli/",
+      "pos": "adv.",
+      "sense": "显著地、引人注目地、突出地、惊人地（strikingly different 截然不同）",
+      "isCet4HighFreq": false,
+      "collocations": [],
+      "examples": [
+        "Even more strikingly, the team found that immediately after the leaflet distribution, there were fewer criminal complaints and arrests in the areas around the developments that had received the leaflets than around the control developments. 更绝的是：传单刚发完，拿到传单那片小区周边的报案和抓捕，竟比对照片区还少。"
+      ],
+      "more": {
+        "roots": "strikingly 含 -ly（副词后缀）"
+      }
+    },
+    "studies": {
+      "phonetic": "/ˈstʌdiz/",
+      "pos": "n./v.",
+      "sense": "研究（study 的复数）；study 的第三人称单数",
+      "lemma": "study",
+      "collocations": [
+        "studies show that",
+        "recent studies"
+      ],
+      "examples": [
+        "Studies suggest a strong link. 研究表明存在强关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "studies（复数/三单）/ study（单数）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "surveyed": {
+      "phonetic": "/ˈsɜːveɪd/",
+      "pos": "n./v.",
+      "sense": "调查（可数）/ 调查、审视（survey 的过去式/过去分词形式）",
+      "lemma": "survey",
+      "collocations": [
+        "researchers surveyed",
+        "surveyed residents"
+      ],
+      "examples": [
+        "Two months later, the researchers surveyed residents at these housing developments as well as control areas that did not receive leaflets or outreach cards. 两个月过去，研究者问卷访问了收到传单小区的居民，也访问了没收到任何材料的对照区居民。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "survey + -ed（过去式/过去分词）",
+        "confusables": "surveyed（过去式/过去分词）/ survey（原形）"
+      }
+    },
+    "team": {
+      "phonetic": "/tiːm/",
+      "pos": "n.",
+      "sense": "团队、小组",
+      "collocations": [
+        "a team of researchers",
+        "team developed",
+        "team found"
+      ],
+      "examples": [
+        "The team developed leaflets(传单) containing fairly ordinary information about local community police officers, such as their favourite food, hobbies, or reasons for joining the police force. 他们印了一批传单，写的都是社区民警再寻常不过的事：爱吃什么、有什么爱好、当初为什么当警察。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "team / teamwork（同族不同词形，注意词性与用法）"
+      }
+    },
+    "tend": {
+      "phonetic": "/tend/",
+      "pos": "v.",
+      "sense": "倾向于、往往会（tend to do）；照料（tend to sb）",
+      "collocations": [
+        "tend to do",
+        "tend to be",
+        "tend towards"
+      ],
+      "examples": [
+        "Men tend to exhibit more of these behaviors. 男性往往表现出更多这类行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tend to do（倾向于）/ tend to sb（照料某人）"
+      }
+    },
+    "tendency": {
+      "phonetic": "/ˈtendənsi/",
+      "pos": "n.",
+      "sense": "倾向、趋势",
+      "collocations": [
+        "a tendency to do",
+        "have a tendency"
+      ],
+      "examples": [
+        "He has a tendency to overthink. 他容易想太多。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "tend（倾向、伸展，词根 tend = stretch，同 extend/attend）+ -ency（名词后缀）",
+        "confusables": "tendency（倾向、趋势，可数）/ tendency to do / towards（用不定式或 towards）/ tend to do（往往会做）/ trend（已显现的趋势、潮流）/ inclination（意愿上的倾向）"
+      }
+    },
+    "themselves": {
+      "phonetic": "/ðəmˈselvz/",
+      "pos": "pron.",
+      "sense": "他们自己、她们自己、它们自己；本身",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "officers themselves"
+      ],
+      "examples": [
+        "The officers themselves also dropped off cards to local residents containing similar information. 警员自己也出面，给居民挨家送了写着同样内容的卡片。"
+      ]
+    },
+    "think": {
+      "phonetic": "/θɪŋk/",
+      "pos": "v.",
+      "sense": "想、认为；思考",
+      "collocations": [
+        "think about",
+        "think of",
+        "I think that"
+      ],
+      "examples": [
+        "Many think the risk is small. 很多人认为风险很小。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "think about（考虑）/ think of（想起）/ think over（仔细考虑）"
+      }
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "usually": {
+      "phonetic": "/ˈjuːʒuəli/",
+      "pos": "adv.",
+      "sense": "通常、经常、平常、一贯",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "usual（通常的）+ -ly（副词后缀）",
+        "confusables": "usually（通常、一般，频率约八九成，副词）/ often（约五六成）/ always（总是）/ as usual（像往常一样，usual 是形容词）/ normally（近义）"
+      },
+      "collocations": [
+        "usually consider"
+      ],
+      "examples": [
+        "Most of the time, this assumption is accurate: someone you think of as a friend will usually consider you a friend too. 多数情况下这套假定没错：你把谁当朋友，对方一般也拿你当朋友。"
+      ]
+    },
+    "well": {
+      "phonetic": "/wel/",
+      "pos": "adv./adj.",
+      "sense": "好地（副词）；健康的（形容词）；井（名词）",
+      "collocations": [
+        "as well",
+        "well-being",
+        "do well"
+      ],
+      "examples": [
+        "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "well（好地/健康）/ good（好的，形容词）/ as well（也）"
+      }
+    },
+    "whether": {
+      "phonetic": "/ˈweðə(r)/",
+      "pos": "conj.",
+      "sense": "是否；无论（whether ... or ...）",
+      "collocations": [
+        "whether or not",
+        "whether to do",
+        "whether it comes from"
+      ],
+      "examples": [
+        "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）"
+      }
+    },
+    "wondered": {
+      "phonetic": "/ˈwʌndə(r)d/",
+      "pos": "v./n.",
+      "sense": "想知道、纳闷；惊奇（wonder 的过去式/过去分词形式）",
+      "lemma": "wonder",
+      "collocations": [
+        "LaForest wondered",
+        "wondered whether"
+      ],
+      "examples": [
+        "Researchers Anuj Shah and Michael LaForest wondered whether our tendency to believe that social ties are reciprocal could lead us to mistakenly feel that a stranger does actually know us. 两位研究者于是追问：人总默认关系对等，这份惯性会不会让我们错把一个陌生人当成「也认识我」的人？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "wonder + -ed（过去式/过去分词）",
+        "confusables": "wondered（过去式/过去分词）/ wonder（原形）"
+      }
+    }
+  }
+}

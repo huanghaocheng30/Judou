@@ -1,0 +1,4622 @@
+{
+  "sourceKey": "cet4-2024-12-set2Cloze",
+  "articleId": "set2Cloze",
+  "packVersion": "2026.11.07-3",
+  "meta": {
+    "examYear": 2024,
+    "examMonth": 12,
+    "setNo": 2,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "Vision Deprivation and Hearing in Adult Mice",
+    "wordCount": 246
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. New research from biologists at the University of Maryland 26 that sight deprivation also changes the way brain cells 27 with one another, shifting the mice's sensitivity to different frequencies.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 158,
+          "text": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 10,
+              "surface": "Scientists",
+              "normalized": "scientists",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 21,
+              "surface": "known",
+              "normalized": "known",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 36,
+              "surface": "depriving",
+              "normalized": "depriving",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 42,
+              "surface": "adult",
+              "normalized": "adult",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "mice",
+              "normalized": "mice",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 50,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 57,
+              "surface": "vision",
+              "normalized": "vision",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 61,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 70,
+              "surface": "increase",
+              "normalized": "increase",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 74,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 86,
+              "surface": "sensitivity",
+              "normalized": "sensitivity",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 100,
+              "surface": "individual",
+              "normalized": "individual",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 108,
+              "surface": "neurons",
+              "normalized": "neurons",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 113,
+              "surface": "(神经元)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 114,
+              "end": 116,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 120,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 125,
+              "surface": "part",
+              "normalized": "part",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 128,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 132,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 138,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 146,
+              "surface": "devoted",
+              "normalized": "devoted",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 149,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 157,
+              "surface": "hearing",
+              "normalized": "hearing",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 158,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "科学家们已经知道，剥夺成年小鼠的视觉能够提高大脑中专门负责听觉的那部分里单个神经元(神经元)的敏感度。",
+            "translationNatural": "学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。",
+            "structMarkup": "【Scientists】 _have known_ {that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，从句主语为动名词短语）",
+            "components": [
+              {
+                "part": "Scientists",
+                "role": "主语",
+                "note": "复数泛指科研群体，谓语用现在完成时 have known"
+              },
+              {
+                "part": "have known",
+                "role": "谓语",
+                "note": "现在完成时表示「迄今已确立的认识」，后接 that 从句"
+              },
+              {
+                "part": "that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing",
+                "role": "宾语从句",
+                "note": "从句主语是动名词短语，故谓语用 can increase；devoted to hearing 是过去分词短语作后置定语"
+              },
+              {
+                "part": "depriving adult mice of vision",
+                "role": "主语（从句内）",
+                "note": "动名词短语作主语；deprive sb of sth 意为「剥夺某人某物」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that depriving adult mice of vision can increase the sensitivity of in」：从句主语是动名词短语，故谓语用 can increase；devoted to hearing 是过去分词短语作后置定语",
+              "主语（从句内）「depriving adult mice of vision」：动名词短语作主语；deprive sb of sth 意为「剥夺某人某物」"
+            ],
+            "phrases": [
+              {
+                "text": "scientists",
+                "meaning": "科学家（scientist 的复数）",
+                "usage": "注意区分：scientist（科学家）/ science（科学）。常见搭配：social scientists / scientists found。",
+                "example": "Social scientists found digital use beneficial. 社会科学家发现数字使用有益。"
+              },
+              {
+                "text": "known",
+                "meaning": "已知的、闻名的、公认的（known as 以…著称）；know 的过去分词",
+                "usage": "注意区分：be known as（作为…而出名，后接身份）/ be known for（因…而出名，后接原因或特点）/ be known to（为…所熟知，后接人）/ know（know-knew-known）/ well-known（著名的，形容词）。",
+                "example": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+              },
+              {
+                "text": "depriving",
+                "meaning": "剥夺、使丧失、使不能享有（deprive sb of sth 的现在分词）",
+                "usage": "注意区分：deprive sb of sth（剥夺某人某物，介词 of，被动 be deprived of）/ deprive 与 rob（rob sb of sth，句型相同）/ deprivation（剥夺、匮乏，名词）。",
+                "example": "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：scientist（科学家）/ science（科学）。",
+              "注意区分：be known as（作为…而出名，后接身份）/ be known for（因…而出名，后接原因或特点）/ be known to（为…所熟知，后接人）/ know（know-knew-known）/ well-known（著名的，形容词）。",
+              "注意区分：deprive sb of sth（剥夺某人某物，介词 of，被动 be deprived of）/ deprive 与 rob（rob sb of sth，句型相同）/ deprivation（剥夺、匮乏，名词）。"
+            ],
+            "paragraphRole": "抛出全文的已知背景：视觉剥夺会提升听觉神经元敏感度，为下一句的新发现（不止于此）铺台阶。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 159,
+          "end": 355,
+          "text": "New research from biologists at the University of Maryland 26 that sight deprivation also changes the way brain cells 27 with one another, shifting the mice's sensitivity to different frequencies.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "New",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "research",
+              "normalized": "research",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 28,
+              "surface": "biologists",
+              "normalized": "biologists",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 31,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 46,
+              "surface": "University",
+              "normalized": "university",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 58,
+              "surface": "Maryland",
+              "normalized": "maryland",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 61,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 62,
+              "end": 66,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 72,
+              "surface": "sight",
+              "normalized": "sight",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 84,
+              "surface": "deprivation",
+              "normalized": "deprivation",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 89,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 97,
+              "surface": "changes",
+              "normalized": "changes",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 101,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 105,
+              "surface": "way",
+              "normalized": "way",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 111,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 117,
+              "surface": "cells",
+              "normalized": "cells",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 120,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 121,
+              "end": 125,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 129,
+              "surface": "one",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 137,
+              "surface": "another",
+              "normalized": "another",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 138,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 139,
+              "end": 147,
+              "surface": "shifting",
+              "normalized": "shifting",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 151,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 158,
+              "surface": "mice's",
+              "normalized": "mice's",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 170,
+              "surface": "sensitivity",
+              "normalized": "sensitivity",
+              "isWord": true
+            },
+            {
+              "start": 171,
+              "end": 173,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 174,
+              "end": 183,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 184,
+              "end": 195,
+              "surface": "frequencies",
+              "normalized": "frequencies",
+              "isWord": true
+            },
+            {
+              "start": 195,
+              "end": 196,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "来自马里兰大学生物学家的新研究 26 了：视觉剥夺也改变脑细胞彼此 27 的方式，把小鼠对不同频率的敏感度转移了。",
+            "translationNatural": "马里兰大学生物学家的新研究进一步揭示：失明不光提敏感度，还会改变脑细胞之间的协作方式，让小鼠对不同声音频率的响应重新排布。",
+            "structMarkup": "【New research from biologists at the University of Maryland】 _26_ {that sight deprivation also changes the way brain cells 27 with one another}, (shifting the mice's sensitivity to different frequencies).",
+            "structureSummary": "主谓 + 宾语从句（that 引导，内含省略关系代词的定语从句）+ 现在分词短语作结果状语",
+            "components": [
+              {
+                "part": "New research from biologists at the University of Maryland",
+                "role": "主语",
+                "note": "核心词是 research，from... 只是后置定语，谓语用单数过去式"
+              },
+              {
+                "part": "26",
+                "role": "谓语",
+                "note": "空号处位于主语与 that 从句之间，必须填及物动词过去式作谓语（revealed）"
+              },
+              {
+                "part": "that sight deprivation also changes the way brain cells 27 with one another",
+                "role": "宾语从句",
+                "note": "that 引导；the way 后接省略关系代词的定语从句 brain cells 27 with one another"
+              },
+              {
+                "part": "shifting the mice's sensitivity to different frequencies",
+                "role": "状语",
+                "note": "现在分词短语作结果状语，说明改变交互方式带来的后果"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that sight deprivation also changes the way brain cells 27 with one an」：that 引导；the way 后接省略关系代词的定语从句 brain cells 27 with one another",
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。"
+            ],
+            "phrases": [
+              {
+                "text": "research",
+                "meaning": "研究（不可数）；调查 / 研究",
+                "usage": "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。常见搭配：a body of research / research on sth。",
+                "example": "A growing body of research supports this. 越来越多的研究支持这一点。"
+              },
+              {
+                "text": "university",
+                "meaning": "大学（可数）",
+                "usage": "注意区分：university（大学）/ college（学院）/ at university（在读大学，不加 the）。常见搭配：at university / university students。",
+                "example": "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+              },
+              {
+                "text": "changes",
+                "meaning": "变化（change 的复数）；change 的第三人称单数",
+                "usage": "注意区分：changes（复数/三单）/ change（单数）。常见搭配：make changes / changes in sth。",
+                "example": "Women reported more changes in career potential. 女性报告了更多职业潜力的变化。"
+              }
+            ],
+            "pitfalls": [
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。",
+              "注意区分：new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）。",
+              "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。"
+            ],
+            "paragraphRole": "用新研究把首句的旧结论往前推一步，同时埋下 26、27 两空。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 246,
+          "text": "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 26,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 35,
+              "surface": "learning",
+              "normalized": "learning",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 58,
+              "surface": "manipulating",
+              "normalized": "manipulating",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 65,
+              "surface": "vision",
+              "normalized": "vision",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 69,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 74,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 76,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 79,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 80,
+              "end": 86,
+              "surface": "effect",
+              "normalized": "effect",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 93,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 101,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 104,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 107,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 114,
+              "surface": "animal",
+              "normalized": "animal",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 117,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 122,
+              "surface": "hear",
+              "normalized": "hear",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 127,
+              "surface": "long",
+              "normalized": "long",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 133,
+              "surface": "after",
+              "normalized": "after",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 137,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 144,
+              "surface": "window",
+              "normalized": "window",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 148,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 157,
+              "surface": "auditory",
+              "normalized": "auditory",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 162,
+              "surface": "(听觉的)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 163,
+              "end": 171,
+              "surface": "learning",
+              "normalized": "learning",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 175,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 176,
+              "end": 183,
+              "surface": "thought",
+              "normalized": "thought",
+              "isWord": true
+            },
+            {
+              "start": 184,
+              "end": 186,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 191,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 192,
+              "end": 194,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 195,
+              "end": 196,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 196,
+              "end": 197,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 198,
+              "end": 202,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 203,
+              "end": 210,
+              "surface": "Patrick",
+              "normalized": "patrick",
+              "isWord": true
+            },
+            {
+              "start": 211,
+              "end": 217,
+              "surface": "Kanold",
+              "normalized": "kanold",
+              "isWord": true
+            },
+            {
+              "start": 217,
+              "end": 218,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 219,
+              "end": 225,
+              "surface": "senior",
+              "normalized": "senior",
+              "isWord": true
+            },
+            {
+              "start": 226,
+              "end": 232,
+              "surface": "author",
+              "normalized": "author",
+              "isWord": true
+            },
+            {
+              "start": 233,
+              "end": 235,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 236,
+              "end": 239,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 240,
+              "end": 245,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 245,
+              "end": 246,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "「这项研究 28 了我们正在了解的关于操纵视觉如何能对动物听觉的能力产生一个 29 的影响，即便在听觉(听觉的)学习窗口被认为已经 30 很久之后，」该研究的资深作者 Patrick Kanold 说。",
+            "translationNatural": "论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。",
+            "structMarkup": "\"【This study】 _28_ ~what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear~ (long after the window for auditory(听觉的) learning was thought to have 30) ,\" said Patrick Kanold, senior author of the study.",
+            "structureSummary": "直接引语（主谓 + what 引导的宾语从句，内含 how 宾语从句与 after 时间状语从句）+ 引出语（含同位语）",
+            "components": [
+              {
+                "part": "This study",
+                "role": "主语",
+                "note": "单数名词短语，谓语需用第三人称单数（reinforces）"
+              },
+              {
+                "part": "28",
+                "role": "谓语",
+                "note": "空号在主语之后、what 从句之前，需及物动词三单，且要能带宾语从句"
+              },
+              {
+                "part": "what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear",
+                "role": "宾语",
+                "note": "what 引导的名词性从句作宾语；about 后接 how 引导的从句"
+              },
+              {
+                "part": "long after the window for auditory(听觉的) learning was thought to have 30",
+                "role": "状语",
+                "note": "after 引导时间状语从句，long 加强；was thought to have done 是不定式完成式"
+              },
+              {
+                "part": "said Patrick Kanold, senior author of the study",
+                "role": "引出语",
+                "note": "主谓倒装的引述句，senior author of the study 是同位语说明身份"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「直接引语（主谓 + what 引导的宾语从句，内含 how 宾语从句与 after 时间状语从句）+ 引出语（含同位语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "vision",
+                "meaning": "视力、视野；想象、幻象；愿景、远见",
+                "usage": "注意区分：vision（视力；愿景、远见；幻象）/ visual（视觉的，形容词）/ visible（看得见的）/ sight（多指视力/景象）/ view（看法；景色）。",
+                "example": "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+              },
+              {
+                "text": "effect",
+                "meaning": "效应、影响、结果",
+                "usage": "注意区分：effect（名词，影响）/ affect（动词，影响）。常见搭配：the source of this effect / side effect。",
+                "example": "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：study（研究，可数）/ research（研究，不可数）。",
+              "注意区分：vision（视力；愿景、远见；幻象）/ visual（视觉的，形容词）/ visible（看得见的）/ sight（多指视力/景象）/ view（看法；景色）。",
+              "注意区分：effect（名词，影响）/ affect（动词，影响）。"
+            ],
+            "paragraphRole": "借权威研究者之口点出研究意义：听觉可塑期并非童年就彻底关死，28–30 三空集中在此句。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "It was once thought that the sensory regions of the brain were not 31 after a critical period in childhood. This is why children learn languages much more 32 than adults. Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 107,
+          "text": "It was once thought that the sensory regions of the brain were not 31 after a critical period in childhood.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "once",
+              "normalized": "once",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 19,
+              "surface": "thought",
+              "normalized": "thought",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "sensory",
+              "normalized": "sensory",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 44,
+              "surface": "regions",
+              "normalized": "regions",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 47,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 57,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "were",
+              "normalized": "were",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 66,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 69,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "surface": "after",
+              "normalized": "after",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 77,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 86,
+              "surface": "critical",
+              "normalized": "critical",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 93,
+              "surface": "period",
+              "normalized": "period",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 96,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 106,
+              "surface": "childhood",
+              "normalized": "childhood",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 107,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "曾经被认的是：大脑的感觉区域在童年的一个关键期之后不是 31 的。",
+            "translationNatural": "过去人们一直以为，过了童年那段关键期，大脑各感觉区就定型了、不再能变。",
+            "structMarkup": "【It】 _was once thought_ {that the sensory regions of the brain were not 31 after a critical period in childhood}.",
+            "structureSummary": "It 形式主语 + 被动谓语 + 主语从句（that 引导）+ 时间状语",
+            "components": [
+              {
+                "part": "It",
+                "role": "主语",
+                "note": "形式主语，真正主语是后面的 that 从句"
+              },
+              {
+                "part": "was once thought",
+                "role": "谓语",
+                "note": "被动语态，once 点明「曾今」的旧观点，与后文 disproved 呼应"
+              },
+              {
+                "part": "that the sensory regions of the brain were not 31 after a critical period in childhood",
+                "role": "主语从句",
+                "note": "从句是主系表结构，31 空需形容词作表语"
+              },
+              {
+                "part": "after a critical period in childhood",
+                "role": "状语",
+                "note": "介词短语作时间状语，限定「不再可塑」的起点"
+              }
+            ],
+            "clauses": [
+              "主语从句「that the sensory regions of the brain were not 31 after a critical per」：从句是主系表结构，31 空需形容词作表语",
+              "本句主干为「It 形式主语 + 被动谓语 + 主语从句（that 引导）+ 时间状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "once",
+                "meaning": "一次；曾经 / 一旦（连词）",
+                "usage": "注意区分：at once（立即/一次性）/ once（一次/一旦）。常见搭配：at once / once again。",
+                "example": "The web is headed for change once again. 网络再次走向变革。"
+              },
+              {
+                "text": "thought",
+                "meaning": "想法、念头、思考、思潮、关心；想、认为（think 的过去式/过去分词）",
+                "usage": "注意区分：thought（think 的过去式/过去分词；想法，名词）/ though（虽然，连词）/ through（穿过，介词）/ thorough（彻底的，形容词）—— 四词拼写易混 / think-thought-thought / thoughts（想法，复数）。",
+                "example": "It was once thought that the sensory regions of the brain were not 31 after a critical period in childhood. 过去人们一直以为，过了童年那段关键期，大脑各感觉区就定型了、不再能变。"
+              },
+              {
+                "text": "regions",
+                "meaning": "地区（region 的复数）",
+                "usage": "注意区分：regions（地区）/ areas（地区）/ districts（行政区）。常见搭配：coffee-growing regions / in some regions。",
+                "example": "Crop losses vary by region. 作物损失因地区而异。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：at once（立即/一次性）/ once（一次/一旦）。",
+              "注意区分：thought（think 的过去式/过去分词；想法，名词）/ though（虽然，连词）/ through（穿过，介词）/ thorough（彻底的，形容词）—— 四词拼写易混 / think-thought-thought / thoughts（想法，复数）。",
+              "注意区分：regions（地区）/ areas（地区）/ districts（行政区）。"
+            ],
+            "paragraphRole": "摆出被推翻的旧假设，为下一句用儿童学语言作例证、再下一句用实验反驳做铺垫。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 108,
+          "end": 170,
+          "text": "This is why children learn languages much more 32 than adults.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "why",
+              "normalized": "why",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 20,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "learn",
+              "normalized": "learn",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 36,
+              "surface": "languages",
+              "normalized": "languages",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 61,
+              "surface": "adults",
+              "normalized": "adults",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这就是为什么儿童学习语言比成年人 32 得多。",
+            "translationNatural": "也正因如此，小孩学语言比大人轻松得多。",
+            "structMarkup": "【This】 _is_ {why children learn languages much more 32 than adults}.",
+            "structureSummary": "主系表 + 表语从句（why 引导）+ 比较结构",
+            "components": [
+              {
+                "part": "This",
+                "role": "主语",
+                "note": "回指上一句的旧观点"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与表语从句"
+              },
+              {
+                "part": "why children learn languages much more 32 than adults",
+                "role": "表语从句",
+                "note": "why 引导；32 空需副词修饰 learn，much more 加强比较级"
+              },
+              {
+                "part": "much more 32 than adults",
+                "role": "状语",
+                "note": "比较结构，说明儿童与成人学语言的差异程度"
+              }
+            ],
+            "clauses": [
+              "表语从句「why children learn languages much more 32 than adults」：why 引导；32 空需副词修饰 learn，much more 加强比较级",
+              "本句含比较结构（比较级 + than），than 后是被比较对象。"
+            ],
+            "phrases": [
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "This is why children learn languages much more 32 than adults. 也正因如此，小孩学语言比大人轻松得多。"
+              },
+              {
+                "text": "learn",
+                "meaning": "学习、学会",
+                "usage": "常见搭配：learn to do / learn from。",
+                "example": "We learn from mistakes. 我们从错误中学习。"
+              },
+              {
+                "text": "languages",
+                "meaning": "语言（language 的复数/三单形式）",
+                "usage": "注意区分：languages（复数/三单）/ language（原形）。",
+                "example": "This is why children learn languages much more 32 than adults. 也正因如此，小孩学语言比大人轻松得多。"
+              }
+            ],
+            "pitfalls": [
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+              "注意区分：languages（复数/三单）/ language（原形）。"
+            ],
+            "paragraphRole": "用「小孩学语言更快」这一日常观察给旧假设撑腰，反衬下句实验结论的颠覆性。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 171,
+          "end": 387,
+          "text": "Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Kanold's",
+              "normalized": "kanold's",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 16,
+              "surface": "earlier",
+              "normalized": "earlier",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 25,
+              "surface": "research",
+              "normalized": "research",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 35,
+              "surface": "disproved",
+              "normalized": "disproved",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 45,
+              "surface": "idea",
+              "normalized": "idea",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 56,
+              "surface": "showing",
+              "normalized": "showing",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 61,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 71,
+              "surface": "depriving",
+              "normalized": "depriving",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 77,
+              "surface": "adult",
+              "normalized": "adult",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "mice",
+              "normalized": "mice",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 85,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 92,
+              "surface": "vision",
+              "normalized": "vision",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 96,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 98,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 104,
+              "surface": "short",
+              "normalized": "short",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 111,
+              "surface": "period",
+              "normalized": "period",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 121,
+              "surface": "increased",
+              "normalized": "increased",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 125,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 137,
+              "surface": "sensitivity",
+              "normalized": "sensitivity",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 140,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 151,
+              "surface": "individual",
+              "normalized": "individual",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 159,
+              "surface": "neurons",
+              "normalized": "neurons",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 162,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 166,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 175,
+              "surface": "auditory",
+              "normalized": "auditory",
+              "isWord": true
+            },
+            {
+              "start": 176,
+              "end": 182,
+              "surface": "cortex",
+              "normalized": "cortex",
+              "isWord": true
+            },
+            {
+              "start": 182,
+              "end": 186,
+              "surface": "(皮质)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 186,
+              "end": 187,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 188,
+              "end": 193,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 194,
+              "end": 196,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 197,
+              "end": 204,
+              "surface": "devoted",
+              "normalized": "devoted",
+              "isWord": true
+            },
+            {
+              "start": 205,
+              "end": 207,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 208,
+              "end": 215,
+              "surface": "hearing",
+              "normalized": "hearing",
+              "isWord": true
+            },
+            {
+              "start": 215,
+              "end": 216,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "Kanold 更早的研究通过展示短期剥夺成年小鼠的视觉提高了听觉皮质(皮质)中单个神经元的敏感度，推翻了这个想法，该皮质是专门负责听觉的。",
+            "translationNatural": "可卡诺尔德早先的实验已经把这个说法推翻了：只要让成年小鼠短时间不见光，听觉皮层里单个神经元的敏感度就会上升——而这片皮层正是管听的。",
+            "structMarkup": "【Kanold's earlier research】 _disproved_ this idea (by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质)), {which is devoted to hearing}.",
+            "structureSummary": "主谓宾 + 方式状语（by + 动名词，内含 that 宾语从句）+ 非限制性定语从句（which 引导）",
+            "components": [
+              {
+                "part": "Kanold's earlier research",
+                "role": "主语",
+                "note": "名词所有格作定语，核心词 research 为单数"
+              },
+              {
+                "part": "disproved",
+                "role": "谓语",
+                "note": "及物动词过去式，宾语 this idea 回指旧假设"
+              },
+              {
+                "part": "by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质)",
+                "role": "状语",
+                "note": "by + 动名词作方式状语；that 从句里主语仍是动名词短语"
+              },
+              {
+                "part": "which is devoted to hearing",
+                "role": "定语从句",
+                "note": "which 引导非限制性定语从句修饰 the auditory cortex(皮质)，逗号隔开不能用 that"
+              }
+            ],
+            "clauses": [
+              "定语从句「which is devoted to hearing」：which 引导非限制性定语从句修饰 the auditory cortex(皮质)，逗号隔开不能用 that",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "earlier",
+                "meaning": "更早的；更早地（early 的比较级）",
+                "usage": "注意区分：earlier（更早）/ earliest（最早）/ early（早）。常见搭配：earlier studies / as mentioned earlier。",
+                "example": "Earlier research reached similar conclusions. 早期研究得出了类似结论。"
+              },
+              {
+                "text": "research",
+                "meaning": "研究（不可数）；调查 / 研究",
+                "usage": "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。常见搭配：a body of research / research on sth。",
+                "example": "A growing body of research supports this. 越来越多的研究支持这一点。"
+              },
+              {
+                "text": "idea",
+                "meaning": "想法、主意（可数）；概念",
+                "usage": "注意区分：idea（想法）/ ideal（理想的）/ concept（概念）。常见搭配：have an idea / the idea that。",
+                "example": "This idea is supported by prior research. 这一想法有先前研究支持。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "正式推翻旧假设，把「成年听觉区仍可塑」的证据坐实，也让 31 空的答案站得住。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "Young brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to 33 frequencies based on what they are used to hearing. The researchers found that, in adult mice, a week in the dark also changed the 34 of space to different frequencies.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 171,
+          "text": "Young brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to 33 frequencies based on what they are used to hearing.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "Young",
+              "normalized": "young",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 12,
+              "surface": "brains",
+              "normalized": "brains",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "surface": "wire",
+              "normalized": "wire",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 28,
+              "surface": "themselves",
+              "normalized": "themselves",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 38,
+              "surface": "according",
+              "normalized": "according",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 52,
+              "surface": "sounds",
+              "normalized": "sounds",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 57,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "hear",
+              "normalized": "hear",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 73,
+              "surface": "frequently",
+              "normalized": "frequently",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 74,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 75,
+              "end": 84,
+              "surface": "assigning",
+              "normalized": "assigning",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 90,
+              "surface": "areas",
+              "normalized": "areas",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 97,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 106,
+              "surface": "auditory",
+              "normalized": "auditory",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 113,
+              "surface": "cortex",
+              "normalized": "cortex",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 116,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 119,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 120,
+              "end": 131,
+              "surface": "frequencies",
+              "normalized": "frequencies",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 137,
+              "surface": "based",
+              "normalized": "based",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 140,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 145,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 150,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 154,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 159,
+              "surface": "used",
+              "normalized": "used",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 162,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 170,
+              "surface": "hearing",
+              "normalized": "hearing",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 171,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "年轻的大脑根据它们经常听到的声音给自己布线，把听觉皮质的区域分配给 33 频率，依据是它们习惯于听到什么。",
+            "translationNatural": "幼年大脑会按常听到的声音来「接线」：把听觉皮层各块地盘划给特定的频率，划法取决于平时听惯了什么。",
+            "structMarkup": "【Young brains】 _wire themselves_ (according to the sounds they hear frequently), (assigning areas of the auditory cortex to 33 frequencies) (based on what they are used to hearing).",
+            "structureSummary": "主谓宾 + 方式状语 + 现在分词短语作伴随状语（含省略关系代词的定语从句与 what 宾语从句）",
+            "components": [
+              {
+                "part": "Young brains",
+                "role": "主语",
+                "note": "复数主语，谓语用原形 wire"
+              },
+              {
+                "part": "wire themselves",
+                "role": "谓语",
+                "note": "wire 此处作动词「布线、建立神经连接」，反身代词 themselves 作宾语"
+              },
+              {
+                "part": "according to the sounds they hear frequently",
+                "role": "状语",
+                "note": "according to 引出依据；they hear frequently 是省略关系代词的定语从句修饰 sounds"
+              },
+              {
+                "part": "assigning areas of the auditory cortex to 33 frequencies",
+                "role": "状语",
+                "note": "现在分词作伴随说明；33 空在 to 与 frequencies 之间，需形容词"
+              },
+              {
+                "part": "based on what they are used to hearing",
+                "role": "状语",
+                "note": "过去分词短语作依据；what 从句作 on 的宾语，be used to 后接动名词"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。"
+            ],
+            "phrases": [
+              {
+                "text": "according to",
+                "meaning": "根据、据……所说",
+                "usage": "引出信息来源，后接名词或代词，不接从句。",
+                "example": "According to the report, costs rose. 据报告，成本上升了。"
+              },
+              {
+                "text": "used to",
+                "meaning": "过去常常",
+                "usage": "后接动词原形；be used to 后接名词/动名词，意为「习惯于」。",
+                "example": "He used to smoke. 他以前抽烟。"
+              }
+            ],
+            "pitfalls": [
+              "according to 不用于表达自己观点，不说 according to me。",
+              "used to do（过去常常）/ be used to doing（习惯于）意思不同。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "交代幼年听觉皮层「按频率分区」的常规机制，为下句成年小鼠黑暗一周后分区被改写做对照。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 172,
+          "end": 288,
+          "text": "The researchers found that, in adult mice, a week in the dark also changed the 34 of space to different frequencies.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 15,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 21,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 26,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 27,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 36,
+              "surface": "adult",
+              "normalized": "adult",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "mice",
+              "normalized": "mice",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 44,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 49,
+              "surface": "week",
+              "normalized": "week",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 56,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 61,
+              "surface": "dark",
+              "normalized": "dark",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 66,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 74,
+              "surface": "changed",
+              "normalized": "changed",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 78,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 82,
+              "end": 84,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 90,
+              "surface": "space",
+              "normalized": "space",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 103,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 115,
+              "surface": "frequencies",
+              "normalized": "frequencies",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 116,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "研究者们发现，在成年小鼠中，黑暗中的一周也改变了空间对不同频率的 34。",
+            "translationNatural": "研究者还发现：成年小鼠在黑暗里待上一周，皮层空间分配给各频率的格局同样会变。",
+            "structMarkup": "【The researchers】 _found_ {that, in adult mice, a week in the dark also changed the 34 of space to different frequencies}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，含插入语）+ 后置定语",
+            "components": [
+              {
+                "part": "The researchers",
+                "role": "主语",
+                "note": "复数主语，谓语用过去式 found"
+              },
+              {
+                "part": "found",
+                "role": "谓语",
+                "note": "后接 that 从句陈述发现"
+              },
+              {
+                "part": "that, in adult mice, a week in the dark also changed the 34 of space to different frequencies",
+                "role": "宾语从句",
+                "note": "in adult mice 是插入语，前后逗号隔开；从句主语是 a week in the dark"
+              },
+              {
+                "part": "the 34 of space to different frequencies",
+                "role": "宾语（从句内）",
+                "note": "34 空在 the 与 of 之间，需名词；to different frequencies 是后置修饰"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that, in adult mice, a week in the dark also changed the 34 of space t」：in adult mice 是插入语，前后逗号隔开；从句主语是 a week in the dark",
+              "宾语（从句内）「the 34 of space to different frequencies」：34 空在 the 与 of 之间，需名词；to different frequencies 是后置修饰",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              },
+              {
+                "text": "week",
+                "meaning": "周、星期",
+                "usage": "注意区分：week（星期）/ weak（虚弱的）。常见搭配：last week / two weeks of leave。",
+                "example": "They took 16 weeks of paid leave. 他们休了 16 周带薪假。"
+              },
+              {
+                "text": "different",
+                "meaning": "不同的；各种各样的",
+                "usage": "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。常见搭配：different from / a different picture。",
+                "example": "Their experiences were considerably different. 他们的经历相当不同。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。",
+              "注意区分：week（星期）/ weak（虚弱的）。"
+            ],
+            "paragraphRole": "把幼年机制与成年实验并到一起，证明「分区」在成年仍会变，34 空考名词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "\"We don't know why we are seeing these patterns,\" Kanold said. \"We 35 that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 62,
+          "text": "\"We don't know why we are seeing these patterns,\" Kanold said.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 1,
+              "end": 3,
+              "surface": "We",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "don't",
+              "normalized": "don't",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "know",
+              "normalized": "know",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "why",
+              "normalized": "why",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 32,
+              "surface": "seeing",
+              "normalized": "seeing",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "these",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 47,
+              "surface": "patterns",
+              "normalized": "patterns",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 48,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 48,
+              "end": 49,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 50,
+              "end": 56,
+              "surface": "Kanold",
+              "normalized": "kanold",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 61,
+              "surface": "said",
+              "normalized": "said",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "「我们不知道为什么我们正在看到这些模式，」Kanold 说。",
+            "translationNatural": "卡诺尔德坦言：为什么会呈现这些规律，他们也没有答案。",
+            "structMarkup": "\"【We】 _don't know_ {why we are seeing these patterns},\" Kanold said.",
+            "structureSummary": "直接引语（主谓 + 宾语从句 why 引导）+ 引出语",
+            "components": [
+              {
+                "part": "We",
+                "role": "主语",
+                "note": "研究者自称，表明这是坦承而非结论"
+              },
+              {
+                "part": "don't know",
+                "role": "谓语",
+                "note": "后接 why 从句作宾语，否定形式"
+              },
+              {
+                "part": "why we are seeing these patterns",
+                "role": "宾语从句",
+                "note": "why 引导，用陈述语序；现在进行时强调现象正在被观察到"
+              },
+              {
+                "part": "Kanold said",
+                "role": "引出语",
+                "note": "常见的引述倒装，主语为专有名词"
+              }
+            ],
+            "clauses": [
+              "宾语从句「why we are seeing these patterns」：why 引导，用陈述语序；现在进行时强调现象正在被观察到",
+              "本句主干为「直接引语（主谓 + 宾语从句 why 引导）+ 引出语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "seeing",
+                "meaning": "看见；明白（I see）；见证（see 的现在分词/动名词形式）",
+                "usage": "注意区分：seeing（现在分词/动名词）/ see（原形）。",
+                "example": "\"We don't know why we are seeing these patterns,\" Kanold said. 卡诺尔德坦言：为什么会呈现这些规律，他们也没有答案。"
+              },
+              {
+                "text": "know",
+                "meaning": "知道、了解、懂得；认识、熟悉；会（语言等）",
+                "usage": "本句中作v.，可按「直接引语（主谓 + 宾语从句 why 引导）+ 引出语」定位它在句中的位置。",
+                "example": "\"We don't know why we are seeing these patterns,\" Kanold said. 卡诺尔德坦言：为什么会呈现这些规律，他们也没有答案。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：seeing（现在分词/动名词）/ see（原形）。",
+              "We：研究者自称，表明这是坦承而非结论",
+              "don't know：后接 why 从句作宾语，否定形式"
+            ],
+            "paragraphRole": "以「尚不清楚机理」收束观察结果，给下一句的推测留出空间。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 63,
+          "end": 164,
+          "text": "\"We 35 that it may have to do with what the mice are paying attention to while they are in the dark.\"",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 1,
+              "end": 3,
+              "surface": "We",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 23,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 29,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 43,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "mice",
+              "normalized": "mice",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 52,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 59,
+              "surface": "paying",
+              "normalized": "paying",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 69,
+              "surface": "attention",
+              "normalized": "attention",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 72,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 78,
+              "surface": "while",
+              "normalized": "while",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 83,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 87,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 94,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 99,
+              "surface": "dark",
+              "normalized": "dark",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 100,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 100,
+              "end": 101,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "「我们 35：它可能与小鼠在黑暗中时正在注意什么有关。」",
+            "translationNatural": "他们猜，这大概跟小鼠待在黑暗里时把注意力放在哪儿有关。",
+            "structMarkup": "\"【We】 _35_ {that it may have to do with what the mice are paying attention to} (while they are in the dark).\"",
+            "structureSummary": "直接引语（主谓 + 宾语从句 that 引导，内含 what 宾语从句与 while 时间状语从句）",
+            "components": [
+              {
+                "part": "We",
+                "role": "主语",
+                "note": "承接上句的研究者"
+              },
+              {
+                "part": "35",
+                "role": "谓语",
+                "note": "空号在主语与 that 从句之间，需接宾语从句的动词原形（speculate）"
+              },
+              {
+                "part": "that it may have to do with what the mice are paying attention to",
+                "role": "宾语从句",
+                "note": "that 引导；may 表不确定推测；have to do with 意为「与……有关」"
+              },
+              {
+                "part": "what the mice are paying attention to",
+                "role": "宾语从句",
+                "note": "what 引导，作介词 with 的宾语，注意 pay attention to 的 to 悬在句末"
+              },
+              {
+                "part": "while they are in the dark",
+                "role": "状语",
+                "note": "while 引导时间状语从句，限定注意力发生的时间条件"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that it may have to do with what the mice are paying attention to」：that 引导；may 表不确定推测；have to do with 意为「与……有关」",
+              "宾语从句「what the mice are paying attention to」：what 引导，作介词 with 的宾语，注意 pay attention to 的 to 悬在句末",
+              "句中含让步/对比连词，引导状语从句；主句不再用 but 呼应。"
+            ],
+            "phrases": [
+              {
+                "text": "attention",
+                "meaning": "注意力（不可数）；关注",
+                "usage": "注意区分：pay attention to（注意）/ attention to（注意）/ attend（参加）。常见搭配：pay attention to / attention span。",
+                "example": "Short forms may shorten attention span. 短形式可能缩短注意力持续时间。"
+              },
+              {
+                "text": "mice",
+                "meaning": "老鼠、小鼠（mouse 的复数；实验研究常用 mice）",
+                "usage": "本句中作n.，可按「直接引语（主谓 + 宾语从句 that 引导，内含 what 宾语从句与 while 时间状语从句）」定位它在句中的位置。",
+                "example": "\"We 35 that it may have to do with what the mice are paying attention to while they are in the dark.\" 他们猜，这大概跟小鼠待在黑暗里时把注意力放在哪儿有关。"
+              }
+            ],
+            "pitfalls": [
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "注意区分：pay attention to（注意）/ attention to（注意）/ attend（参加）。"
+            ],
+            "paragraphRole": "给出全文唯一带猜测语气的解释，35 空考能带 that 从句的动词，且与上文 don't know 呼应。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptable"
+        },
+        {
+          "key": "B",
+          "text": "closed"
+        },
+        {
+          "key": "C",
+          "text": "distribution"
+        },
+        {
+          "key": "D",
+          "text": "interact"
+        },
+        {
+          "key": "E",
+          "text": "narration"
+        },
+        {
+          "key": "F",
+          "text": "neutral"
+        },
+        {
+          "key": "G",
+          "text": "permanently"
+        },
+        {
+          "key": "H",
+          "text": "prescribes"
+        },
+        {
+          "key": "I",
+          "text": "readily"
+        },
+        {
+          "key": "J",
+          "text": "registered"
+        },
+        {
+          "key": "K",
+          "text": "reinforces"
+        },
+        {
+          "key": "L",
+          "text": "revealed"
+        },
+        {
+          "key": "M",
+          "text": "significant"
+        },
+        {
+          "key": "N",
+          "text": "specific"
+        },
+        {
+          "key": "O",
+          "text": "speculate"
+        }
+      ],
+      "answer": "L"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptable"
+        },
+        {
+          "key": "B",
+          "text": "closed"
+        },
+        {
+          "key": "C",
+          "text": "distribution"
+        },
+        {
+          "key": "D",
+          "text": "interact"
+        },
+        {
+          "key": "E",
+          "text": "narration"
+        },
+        {
+          "key": "F",
+          "text": "neutral"
+        },
+        {
+          "key": "G",
+          "text": "permanently"
+        },
+        {
+          "key": "H",
+          "text": "prescribes"
+        },
+        {
+          "key": "I",
+          "text": "readily"
+        },
+        {
+          "key": "J",
+          "text": "registered"
+        },
+        {
+          "key": "K",
+          "text": "reinforces"
+        },
+        {
+          "key": "L",
+          "text": "revealed"
+        },
+        {
+          "key": "M",
+          "text": "significant"
+        },
+        {
+          "key": "N",
+          "text": "specific"
+        },
+        {
+          "key": "O",
+          "text": "speculate"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptable"
+        },
+        {
+          "key": "B",
+          "text": "closed"
+        },
+        {
+          "key": "C",
+          "text": "distribution"
+        },
+        {
+          "key": "D",
+          "text": "interact"
+        },
+        {
+          "key": "E",
+          "text": "narration"
+        },
+        {
+          "key": "F",
+          "text": "neutral"
+        },
+        {
+          "key": "G",
+          "text": "permanently"
+        },
+        {
+          "key": "H",
+          "text": "prescribes"
+        },
+        {
+          "key": "I",
+          "text": "readily"
+        },
+        {
+          "key": "J",
+          "text": "registered"
+        },
+        {
+          "key": "K",
+          "text": "reinforces"
+        },
+        {
+          "key": "L",
+          "text": "revealed"
+        },
+        {
+          "key": "M",
+          "text": "significant"
+        },
+        {
+          "key": "N",
+          "text": "specific"
+        },
+        {
+          "key": "O",
+          "text": "speculate"
+        }
+      ],
+      "answer": "K"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptable"
+        },
+        {
+          "key": "B",
+          "text": "closed"
+        },
+        {
+          "key": "C",
+          "text": "distribution"
+        },
+        {
+          "key": "D",
+          "text": "interact"
+        },
+        {
+          "key": "E",
+          "text": "narration"
+        },
+        {
+          "key": "F",
+          "text": "neutral"
+        },
+        {
+          "key": "G",
+          "text": "permanently"
+        },
+        {
+          "key": "H",
+          "text": "prescribes"
+        },
+        {
+          "key": "I",
+          "text": "readily"
+        },
+        {
+          "key": "J",
+          "text": "registered"
+        },
+        {
+          "key": "K",
+          "text": "reinforces"
+        },
+        {
+          "key": "L",
+          "text": "revealed"
+        },
+        {
+          "key": "M",
+          "text": "significant"
+        },
+        {
+          "key": "N",
+          "text": "specific"
+        },
+        {
+          "key": "O",
+          "text": "speculate"
+        }
+      ],
+      "answer": "M"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptable"
+        },
+        {
+          "key": "B",
+          "text": "closed"
+        },
+        {
+          "key": "C",
+          "text": "distribution"
+        },
+        {
+          "key": "D",
+          "text": "interact"
+        },
+        {
+          "key": "E",
+          "text": "narration"
+        },
+        {
+          "key": "F",
+          "text": "neutral"
+        },
+        {
+          "key": "G",
+          "text": "permanently"
+        },
+        {
+          "key": "H",
+          "text": "prescribes"
+        },
+        {
+          "key": "I",
+          "text": "readily"
+        },
+        {
+          "key": "J",
+          "text": "registered"
+        },
+        {
+          "key": "K",
+          "text": "reinforces"
+        },
+        {
+          "key": "L",
+          "text": "revealed"
+        },
+        {
+          "key": "M",
+          "text": "significant"
+        },
+        {
+          "key": "N",
+          "text": "specific"
+        },
+        {
+          "key": "O",
+          "text": "speculate"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptable"
+        },
+        {
+          "key": "B",
+          "text": "closed"
+        },
+        {
+          "key": "C",
+          "text": "distribution"
+        },
+        {
+          "key": "D",
+          "text": "interact"
+        },
+        {
+          "key": "E",
+          "text": "narration"
+        },
+        {
+          "key": "F",
+          "text": "neutral"
+        },
+        {
+          "key": "G",
+          "text": "permanently"
+        },
+        {
+          "key": "H",
+          "text": "prescribes"
+        },
+        {
+          "key": "I",
+          "text": "readily"
+        },
+        {
+          "key": "J",
+          "text": "registered"
+        },
+        {
+          "key": "K",
+          "text": "reinforces"
+        },
+        {
+          "key": "L",
+          "text": "revealed"
+        },
+        {
+          "key": "M",
+          "text": "significant"
+        },
+        {
+          "key": "N",
+          "text": "specific"
+        },
+        {
+          "key": "O",
+          "text": "speculate"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptable"
+        },
+        {
+          "key": "B",
+          "text": "closed"
+        },
+        {
+          "key": "C",
+          "text": "distribution"
+        },
+        {
+          "key": "D",
+          "text": "interact"
+        },
+        {
+          "key": "E",
+          "text": "narration"
+        },
+        {
+          "key": "F",
+          "text": "neutral"
+        },
+        {
+          "key": "G",
+          "text": "permanently"
+        },
+        {
+          "key": "H",
+          "text": "prescribes"
+        },
+        {
+          "key": "I",
+          "text": "readily"
+        },
+        {
+          "key": "J",
+          "text": "registered"
+        },
+        {
+          "key": "K",
+          "text": "reinforces"
+        },
+        {
+          "key": "L",
+          "text": "revealed"
+        },
+        {
+          "key": "M",
+          "text": "significant"
+        },
+        {
+          "key": "N",
+          "text": "specific"
+        },
+        {
+          "key": "O",
+          "text": "speculate"
+        }
+      ],
+      "answer": "I"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptable"
+        },
+        {
+          "key": "B",
+          "text": "closed"
+        },
+        {
+          "key": "C",
+          "text": "distribution"
+        },
+        {
+          "key": "D",
+          "text": "interact"
+        },
+        {
+          "key": "E",
+          "text": "narration"
+        },
+        {
+          "key": "F",
+          "text": "neutral"
+        },
+        {
+          "key": "G",
+          "text": "permanently"
+        },
+        {
+          "key": "H",
+          "text": "prescribes"
+        },
+        {
+          "key": "I",
+          "text": "readily"
+        },
+        {
+          "key": "J",
+          "text": "registered"
+        },
+        {
+          "key": "K",
+          "text": "reinforces"
+        },
+        {
+          "key": "L",
+          "text": "revealed"
+        },
+        {
+          "key": "M",
+          "text": "significant"
+        },
+        {
+          "key": "N",
+          "text": "specific"
+        },
+        {
+          "key": "O",
+          "text": "speculate"
+        }
+      ],
+      "answer": "N"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptable"
+        },
+        {
+          "key": "B",
+          "text": "closed"
+        },
+        {
+          "key": "C",
+          "text": "distribution"
+        },
+        {
+          "key": "D",
+          "text": "interact"
+        },
+        {
+          "key": "E",
+          "text": "narration"
+        },
+        {
+          "key": "F",
+          "text": "neutral"
+        },
+        {
+          "key": "G",
+          "text": "permanently"
+        },
+        {
+          "key": "H",
+          "text": "prescribes"
+        },
+        {
+          "key": "I",
+          "text": "readily"
+        },
+        {
+          "key": "J",
+          "text": "registered"
+        },
+        {
+          "key": "K",
+          "text": "reinforces"
+        },
+        {
+          "key": "L",
+          "text": "revealed"
+        },
+        {
+          "key": "M",
+          "text": "significant"
+        },
+        {
+          "key": "N",
+          "text": "specific"
+        },
+        {
+          "key": "O",
+          "text": "speculate"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptable"
+        },
+        {
+          "key": "B",
+          "text": "closed"
+        },
+        {
+          "key": "C",
+          "text": "distribution"
+        },
+        {
+          "key": "D",
+          "text": "interact"
+        },
+        {
+          "key": "E",
+          "text": "narration"
+        },
+        {
+          "key": "F",
+          "text": "neutral"
+        },
+        {
+          "key": "G",
+          "text": "permanently"
+        },
+        {
+          "key": "H",
+          "text": "prescribes"
+        },
+        {
+          "key": "I",
+          "text": "readily"
+        },
+        {
+          "key": "J",
+          "text": "registered"
+        },
+        {
+          "key": "K",
+          "text": "reinforces"
+        },
+        {
+          "key": "L",
+          "text": "revealed"
+        },
+        {
+          "key": "M",
+          "text": "significant"
+        },
+        {
+          "key": "N",
+          "text": "specific"
+        },
+        {
+          "key": "O",
+          "text": "speculate"
+        }
+      ],
+      "answer": "O"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "adaptable"
+    },
+    {
+      "key": "B",
+      "word": "closed"
+    },
+    {
+      "key": "C",
+      "word": "distribution"
+    },
+    {
+      "key": "D",
+      "word": "interact"
+    },
+    {
+      "key": "E",
+      "word": "narration"
+    },
+    {
+      "key": "F",
+      "word": "neutral"
+    },
+    {
+      "key": "G",
+      "word": "permanently"
+    },
+    {
+      "key": "H",
+      "word": "prescribes"
+    },
+    {
+      "key": "I",
+      "word": "readily"
+    },
+    {
+      "key": "J",
+      "word": "registered"
+    },
+    {
+      "key": "K",
+      "word": "reinforces"
+    },
+    {
+      "key": "L",
+      "word": "revealed"
+    },
+    {
+      "key": "M",
+      "word": "significant"
+    },
+    {
+      "key": "N",
+      "word": "specific"
+    },
+    {
+      "key": "O",
+      "word": "speculate"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "L",
+      "answerWord": "revealed",
+      "reason": "空格在主语 New research from biologists at the University of Maryland 与 that 宾语从句之间，句子缺谓语，需及物动词过去式（全文叙述用过去时）。revealed that... 意为「揭示了……」，正好引出新发现的内容，与首句 Scientists have known 的旧认识形成递进。",
+      "distractors": "H) prescribes 虽是动词三单，但时态与「规定」的语义都不合；K) reinforces 为三单现在时，与本句过去时叙述不符；E) narration 是名词，不能作谓语。"
+    },
+    "27": {
+      "answerKey": "D",
+      "answerWord": "interact",
+      "reason": "空格在 the way (that) brain cells ___ with one another 这个定语从句里，主语 brain cells 为复数，需动词原形；interact with 是固定搭配「与……相互作用」，正好说明脑细胞彼此联系的方式，与下句 shifting the sensitivity 的结果衔接。",
+      "distractors": "K) reinforces 是三单，主谓不一致且不与 with 搭配；O) speculate 虽为动词原形，但「推测 with one another」语义不通；J) registered 是过去式/过去分词，时态与结构都不合。"
+    },
+    "28": {
+      "answerKey": "K",
+      "answerWord": "reinforces",
+      "reason": "主语 This study 是单数，空格后接 what 引导的宾语从句，需及物动词第三人称单数现在时。reinforces（强化、进一步印证）与「这项研究印证了正在形成的认识」语义吻合，且引语内部用现在时，与 was thought 的过去形成对照。",
+      "distractors": "L) revealed 是过去式，与引语中的现在时语境不合，且已用于 26 空；H) prescribes（规定）不能带「我们正在了解的内容」作宾语；D) interact 为原形，主谓不一致。"
+    },
+    "29": {
+      "answerKey": "M",
+      "answerWord": "significant",
+      "reason": "空格处于 have a ___ effect on 之间，需形容词作定语。have a significant effect on 是高频搭配「对……有显著影响」，与全文强调变化之大的语气一致。",
+      "distractors": "F) neutral（中性的）与「影响显著」语义相反；N) specific 虽是形容词，但「特定的影响」不如 significant 贴合，且它要留给 33 空；A) adaptable 多修饰人或系统，不修饰 effect。"
+    },
+    "30": {
+      "answerKey": "B",
+      "answerWord": "closed",
+      "reason": "空格在 was thought to have ___ 之中，to have 后需过去分词构成不定式完成式，表示「被认为早已发生」；the window ... was thought to have closed 意为「窗口被认为早已关闭」，closed 与 window（关键期窗口）搭配自然。",
+      "distractors": "J) registered 虽是过去分词，但「窗口被登记」语义不通；G) permanently 是副词，词性不符；L) revealed 是过去式而非所需形式，且语义不合。"
+    },
+    "31": {
+      "answerKey": "A",
+      "answerWord": "adaptable",
+      "reason": "空格在 were not ___ 之后作表语，需形容词。旧观点认为童年关键期后感觉区「不再可适应、可塑」，adaptable 正好点出这一属性，与下句 Kanold's earlier research disproved this idea 构成被推翻的对象。",
+      "distractors": "F) neutral（中立的）与「大脑是否还能变」无关；M) significant 不能描述 sensory regions 的性质；G) permanently 是副词，不能作表语。"
+    },
+    "32": {
+      "answerKey": "I",
+      "answerWord": "readily",
+      "reason": "空格在 learn languages much more ___ than adults 中，需副词修饰动词 learn，且能与 more 构成比较级。readily（容易地、不费力地）说明儿童学语言比成人省力，正好呼应上句「感觉区可塑」的旧解释。",
+      "distractors": "G) permanently（永久地）不修饰「学语言」这一动作；M) significant 是形容词，词性不符；J) registered 是动词形式，不能作副词。"
+    },
+    "33": {
+      "answerKey": "N",
+      "answerWord": "specific",
+      "reason": "空格在 assign areas of the auditory cortex to ___ frequencies 中，需形容词修饰 frequencies。把皮层区域分配给「特定的」频率，specific 与上文 according to the sounds they hear frequently 的分区逻辑一致。",
+      "distractors": "M) significant 已用于 29 空且「显著的频率」语义不合；F) neutral 与「按频率分工」矛盾；C) distribution 是名词，词性不符。"
+    },
+    "34": {
+      "answerKey": "C",
+      "answerWord": "distribution",
+      "reason": "空格在 changed the ___ of space to different frequencies 中，the 与 of 之间需名词；distribution of space（空间的分配、分布格局）与上文 assigning areas ... to frequencies 同义复现，说明分区格局被改动。",
+      "distractors": "E) narration（叙述）语义完全不合；L) revealed 是动词，词性不符；N) specific 是形容词，不能作 changed 的宾语。"
+    },
+    "35": {
+      "answerKey": "O",
+      "answerWord": "speculate",
+      "reason": "空格在 We ___ that... 中，主语 We 后需能接 that 宾语从句的动词原形；上句刚说 don't know，此处用 speculate（推测）正好承接不确定语气，从句里的 may 也与之呼应。",
+      "distractors": "D) interact 是不及物动词，不能直接接 that 从句；K) reinforces 是三单，主谓不一致；H) prescribes（规定）与「猜测」语义相反。"
+    }
+  },
+  "lexicon": {
+    "ability": {
+      "phonetic": "/əˈbɪləti/",
+      "pos": "n.",
+      "sense": "能力（可数/不可数）；才能",
+      "collocations": [
+        "the ability to do sth",
+        "natural ability",
+        "to the best of one's ability"
+      ],
+      "examples": [
+        "The ability to focus is underrated. 专注的能力被低估了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "able（能够）+ -ity",
+        "confusables": "ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）"
+      }
+    },
+    "according": {
+      "phonetic": "/əˈkɔːdɪŋ/",
+      "pos": "prep.（用于 according to）",
+      "sense": "根据、按照（according to）",
+      "collocations": [
+        "according to the study",
+        "according to sb"
+      ],
+      "examples": [
+        "According to the study, rates are stable. 根据这项研究，比率稳定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "according to（根据，后接来源）/ because of（因为）"
+      }
+    },
+    "adult": {
+      "phonetic": "/ˈædʌlt/",
+      "pos": "n./adj.",
+      "sense": "成年人、成体；成年的、成熟的（adult 也可指成年动物；adulthood 成年期）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "depriving adult",
+        "adult mice"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ],
+      "more": {
+        "confusables": "adult / adults / adulthood（同族不同词形，注意词性与用法）"
+      }
+    },
+    "adults": {
+      "phonetic": "/ˈædʌlts/",
+      "pos": "n.",
+      "sense": "成年人（adult 的复数）",
+      "lemma": "adult",
+      "collocations": [
+        "adults and children",
+        "young adults"
+      ],
+      "examples": [
+        "Kids know how adults are expected to write. 孩子知道大人该怎么写。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "adults（复数）/ adult（单数）"
+      }
+    },
+    "animal": {
+      "phonetic": "/ˈænɪml/",
+      "pos": "n./adj.",
+      "sense": "动物（可数）/ 动物的",
+      "collocations": [
+        "animal welfare",
+        "animal products"
+      ],
+      "examples": [
+        "Animal farming uses much land. 畜牧业占用大量土地。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "anim（生命、气息，词根，同 animate/unanimous）+ -al",
+        "confusables": "animal（动物）/ creature（生物）"
+      }
+    },
+    "areas": {
+      "phonetic": "/ˈeəriəz/",
+      "pos": "n.",
+      "sense": "地区、领域（area 的复数）",
+      "lemma": "area",
+      "collocations": [
+        "rural areas",
+        "key areas"
+      ],
+      "examples": [
+        "Progress varies across areas. 不同领域的进展不一。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "areas（复数）/ area（单数）"
+      }
+    },
+    "assigning": {
+      "phonetic": "/əˈsaɪnɪŋ/",
+      "pos": "v.",
+      "sense": "分配、布置（任务）、指派；把…归因于（assign 的现在分词；assign sth to sb）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "assigning areas"
+      ],
+      "examples": [
+        "Young brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to 33 frequencies based on what they are used to hearing. 幼年大脑会按常听到的声音来「接线」：把听觉皮层各块地盘划给特定的频率，划法取决于平时听惯了什么。"
+      ]
+    },
+    "attention": {
+      "phonetic": "/əˈtenʃn/",
+      "pos": "n.",
+      "sense": "注意力（不可数）；关注",
+      "collocations": [
+        "pay attention to",
+        "attention span",
+        "draw attention"
+      ],
+      "examples": [
+        "Short forms may shorten attention span. 短形式可能缩短注意力持续时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "at-（=ad- 朝向）+ tent（伸展，词根 tend/tent = stretch，同 attend/extend）+ -ion（名词后缀）",
+        "confusables": "pay attention to（注意）/ attention to（注意）/ attend（参加）"
+      }
+    },
+    "auditory": {
+      "phonetic": "/ˈɔːdətri/",
+      "pos": "adj.",
+      "sense": "听觉的、与听力有关的（auditory cortex 听觉皮层，生理 / 神经科学话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "window for auditory",
+        "auditory cortex"
+      ],
+      "examples": [
+        "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+      ]
+    },
+    "author": {
+      "phonetic": "/ˈɔːθə/",
+      "pos": "n./v.",
+      "sense": "作者、作家；撰写（本文 influential authors / a best-selling author 畅销书作者 / senior author 资深作者）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "senior author",
+        "author of"
+      ],
+      "examples": [
+        "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+      ],
+      "more": {
+        "confusables": "author / authors / authentic（同族不同词形，注意词性与用法）"
+      }
+    },
+    "based": {
+      "phonetic": "/beɪst/",
+      "pos": "v./adj.",
+      "sense": "base 的过去式/过去分词；（be based on）基于",
+      "lemma": "base",
+      "collocations": [
+        "be based on",
+        "based on evidence"
+      ],
+      "examples": [
+        "Decisions based on data are not always right. 基于数据的决定并不总对。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "based on（基于，被动/状语）/ basing on（主动，主语须是人）"
+      }
+    },
+    "biologists": {
+      "phonetic": "/baɪˈɒlədʒɪsts/",
+      "pos": "n.",
+      "sense": "生物学家（biologist 的复数，科普阅读常见）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "biologists at",
+        "research from biologists"
+      ],
+      "examples": [
+        "New research from biologists at the University of Maryland 26 that sight deprivation also changes the way brain cells 27 with one another, shifting the mice's sensitivity to different frequencies. 马里兰大学生物学家的新研究进一步揭示：失明不光提敏感度，还会改变脑细胞之间的协作方式，让小鼠对不同声音频率的响应重新排布。"
+      ]
+    },
+    "brain": {
+      "phonetic": "/breɪn/",
+      "pos": "n.",
+      "sense": "大脑、脑力、智力（brains 才气）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brain devoted",
+        "way brain",
+        "brain cells"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ],
+      "more": {
+        "confusables": "brain / brains / brain-training（同族不同词形，注意词性与用法）"
+      }
+    },
+    "brains": {
+      "phonetic": "/breɪnz/",
+      "pos": "n.",
+      "sense": "大脑（brain 的复数）；智力",
+      "lemma": "brain",
+      "collocations": [
+        "our brains",
+        "brain activity"
+      ],
+      "examples": [
+        "Our brains cannot truly multitask. 我们的大脑无法真正同时处理多任务。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "brains（大脑）/ brain（单数）"
+      }
+    },
+    "cells": {
+      "phonetic": "/selz/",
+      "pos": "n.",
+      "sense": "细胞；小房间、牢房；电池、蜂巢小室（cell 的复数，科普与日常一词多义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brain cells"
+      ],
+      "examples": [
+        "New research from biologists at the University of Maryland 26 that sight deprivation also changes the way brain cells 27 with one another, shifting the mice's sensitivity to different frequencies. 马里兰大学生物学家的新研究进一步揭示：失明不光提敏感度，还会改变脑细胞之间的协作方式，让小鼠对不同声音频率的响应重新排布。"
+      ]
+    },
+    "changed": {
+      "phonetic": "/tʃeɪndʒd/",
+      "pos": "v.",
+      "sense": "change 的过去分词，改变",
+      "collocations": [],
+      "examples": [
+        "The researchers found that, in adult mice, a week in the dark also changed the 34 of space to different frequencies. 研究者还发现：成年小鼠在黑暗里待上一周，皮层空间分配给各频率的格局同样会变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "changed / change / change-induced（同族不同词形，注意词性与用法）"
+      }
+    },
+    "changes": {
+      "phonetic": "/ˈtʃeɪndʒɪz/",
+      "pos": "n./v.",
+      "sense": "变化（change 的复数）；change 的第三人称单数",
+      "lemma": "change",
+      "collocations": [
+        "make changes",
+        "changes in sth",
+        "climate changes"
+      ],
+      "examples": [
+        "Women reported more changes in career potential. 女性报告了更多职业潜力的变化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "changes（复数/三单）/ change（单数）"
+      }
+    },
+    "childhood": {
+      "phonetic": "/ˈtʃaɪldhʊd/",
+      "pos": "n.",
+      "sense": "童年、幼年、孩童时期",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "child（儿童）+ -hood（名词后缀，表时期/状态，同 neighborhood/likelihood）",
+        "confusables": "childhood（童年，不可数或单数，in one's childhood）/ child（儿童）/ childish（幼稚的，贬义）/ -hood 表「…时期/身份」（brotherhood、neighborhood）"
+      },
+      "collocations": [
+        "period in childhood"
+      ],
+      "examples": [
+        "It was once thought that the sensory regions of the brain were not 31 after a critical period in childhood. 过去人们一直以为，过了童年那段关键期，大脑各感觉区就定型了、不再能变。"
+      ]
+    },
+    "children": {
+      "phonetic": "/ˈtʃɪldrən/",
+      "pos": "n.",
+      "sense": "儿童、小孩、子女（child 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "child（孩子）+ -ren（不规则复数，不说 childs）",
+        "confusables": "children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）"
+      },
+      "collocations": [
+        "children learn"
+      ],
+      "examples": [
+        "This is why children learn languages much more 32 than adults. 也正因如此，小孩学语言比大人轻松得多。"
+      ]
+    },
+    "cortex": {
+      "phonetic": "/ˈkɔːteks/",
+      "pos": "n.",
+      "sense": "（大脑 / 器官的）皮层、皮质（cerebral cortex 大脑皮层，神经科学话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "auditory cortex",
+        "cortex to"
+      ],
+      "examples": [
+        "Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing. 可卡诺尔德早先的实验已经把这个说法推翻了：只要让成年小鼠短时间不见光，听觉皮层里单个神经元的敏感度就会上升——而这片皮层正是管听的。"
+      ]
+    },
+    "critical": {
+      "phonetic": "/ˈkrɪtɪkl/",
+      "pos": "adj.",
+      "sense": "至关重要的；批判的（本文取前者）",
+      "collocations": [
+        "be critical to",
+        "a critical moment"
+      ],
+      "examples": [
+        "Sleep is critical to health. 睡眠对健康至关重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "crit（判断、分辨，词根 crit = judge，同 critic/criticism）+ -ical（形容词后缀）",
+        "confusables": "critical（关键的/批判的）/ crucial（决定性的）"
+      }
+    },
+    "dark": {
+      "phonetic": "/dɑːk/",
+      "pos": "adj./n.",
+      "sense": "黑暗的、昏暗的；深色的、阴暗的；黑暗、暗处、黑夜（in the dark 不知情）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "The researchers found that, in adult mice, a week in the dark also changed the 34 of space to different frequencies. 研究者还发现：成年小鼠在黑暗里待上一周，皮层空间分配给各频率的格局同样会变。"
+      ],
+      "more": {
+        "confusables": "dark / darker（同族不同词形，注意词性与用法）"
+      }
+    },
+    "deprivation": {
+      "phonetic": "/ˌdeprɪˈveɪʃn/",
+      "pos": "n.",
+      "sense": "剥夺、丧失、匮乏（sleep deprivation 睡眠不足，健康 / 社科话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "sight deprivation"
+      ],
+      "examples": [
+        "New research from biologists at the University of Maryland 26 that sight deprivation also changes the way brain cells 27 with one another, shifting the mice's sensitivity to different frequencies. 马里兰大学生物学家的新研究进一步揭示：失明不光提敏感度，还会改变脑细胞之间的协作方式，让小鼠对不同声音频率的响应重新排布。"
+      ],
+      "more": {
+        "roots": "deprivation 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "depriving": {
+      "phonetic": "/dɪˈpraɪvɪŋ/",
+      "pos": "v.",
+      "sense": "剥夺、使丧失、使不能享有（deprive sb of sth 的现在分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "de-（去除）+ priv（剥夺，词根，同 private/privilege）+ -ing",
+        "confusables": "deprive sb of sth（剥夺某人某物，介词 of，被动 be deprived of）/ deprive 与 rob（rob sb of sth，句型相同）/ deprivation（剥夺、匮乏，名词）"
+      },
+      "collocations": [
+        "depriving adult"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ]
+    },
+    "devoted": {
+      "phonetic": "/dɪˈvəʊtɪd/",
+      "pos": "adj./v.",
+      "sense": "忠诚的、挚爱的、投入的；把…专用于、献身（devote 的过去式/过去分词；be devoted to 致力于）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brain devoted",
+        "devoted to",
+        "devoted to hearing"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ]
+    },
+    "different": {
+      "phonetic": "/ˈdɪfrənt/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的",
+      "collocations": [
+        "different from",
+        "a different picture",
+        "different points of view"
+      ],
+      "examples": [
+        "Their experiences were considerably different. 他们的经历相当不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "disproved": {
+      "phonetic": "/ˌdɪsˈpruːvd/",
+      "pos": "v.",
+      "sense": "证明…有误、驳倒、推翻（disprove 的过去式/过去分词；反义 prove）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "research disproved"
+      ],
+      "examples": [
+        "Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing. 可卡诺尔德早先的实验已经把这个说法推翻了：只要让成年小鼠短时间不见光，听觉皮层里单个神经元的敏感度就会上升——而这片皮层正是管听的。"
+      ]
+    },
+    "earlier": {
+      "phonetic": "/ˈɜːliə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更早的；更早地（early 的比较级）",
+      "lemma": "early",
+      "collocations": [
+        "earlier studies",
+        "as mentioned earlier"
+      ],
+      "examples": [
+        "Earlier research reached similar conclusions. 早期研究得出了类似结论。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "earlier（更早）/ earliest（最早）/ early（早）"
+      }
+    },
+    "effect": {
+      "phonetic": "/ɪˈfekt/",
+      "pos": "n.",
+      "sense": "效应、影响、结果",
+      "collocations": [
+        "the source of this effect",
+        "side effect"
+      ],
+      "examples": [
+        "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ef-（=ex- 出）+ fect（做，词根 fact/fect = do，同 factory/perfect/infect）→ 做出来的结果 → 效果",
+        "confusables": "effect（名词，影响）/ affect（动词，影响）"
+      }
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "frequencies": {
+      "phonetic": "/ˈfriːkwənsiz/",
+      "pos": "n.",
+      "sense": "频率、频次、发生次数（frequency 的复数；high/low frequencies 高 / 低频）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "different frequencies",
+        "frequencies based"
+      ],
+      "examples": [
+        "New research from biologists at the University of Maryland 26 that sight deprivation also changes the way brain cells 27 with one another, shifting the mice's sensitivity to different frequencies. 马里兰大学生物学家的新研究进一步揭示：失明不光提敏感度，还会改变脑细胞之间的协作方式，让小鼠对不同声音频率的响应重新排布。"
+      ]
+    },
+    "frequently": {
+      "phonetic": "/ˈfriːkwəntli/",
+      "pos": "adv.",
+      "sense": "频繁地、经常地、屡次（相当于 often，书面语）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "hear frequently"
+      ],
+      "examples": [
+        "Young brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to 33 frequencies based on what they are used to hearing. 幼年大脑会按常听到的声音来「接线」：把听觉皮层各块地盘划给特定的频率，划法取决于平时听惯了什么。"
+      ],
+      "more": {
+        "roots": "frequently 含 -ly（副词后缀）"
+      }
+    },
+    "hear": {
+      "phonetic": "/hɪə/",
+      "pos": "v.",
+      "sense": "听见、听到；听说、得知；听取、审理（hear from 收到…音信；hear of 听说）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "hear long",
+        "animal to hear",
+        "hear frequently"
+      ],
+      "examples": [
+        "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+      ],
+      "more": {
+        "confusables": "hear / heart / heard（同族不同词形，注意词性与用法）"
+      }
+    },
+    "hearing": {
+      "phonetic": "/ˈhɪərɪŋ/",
+      "pos": "n./v.",
+      "sense": "听力、听觉；听证会、审讯、申辩机会；听见（hear 的现在分词；hearing loss 听力损失）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "devoted to hearing",
+        "used to hearing"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ]
+    },
+    "idea": {
+      "phonetic": "/aɪˈdɪə/",
+      "pos": "n.",
+      "sense": "想法、主意（可数）；概念",
+      "collocations": [
+        "have an idea",
+        "the idea that",
+        "no idea"
+      ],
+      "examples": [
+        "This idea is supported by prior research. 这一想法有先前研究支持。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "idea（想法）/ ideal（理想的）/ concept（概念）"
+      }
+    },
+    "increase": {
+      "phonetic": "/ɪnˈkriːs/",
+      "pos": "v./n.",
+      "sense": "增加（动词读 /ɪnˈkriːs/）；增加（名词读 /ˈɪnkriːs/）",
+      "collocations": [
+        "increase in sth",
+        "increase the chances of",
+        "a sharp increase"
+      ],
+      "examples": [
+        "More women reported an increase in responsibilities. 更多女性报告责任增加。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increase（动词）/ increase in（名词 + 介词）"
+      }
+    },
+    "increased": {
+      "phonetic": "/ɪnˈkriːst/",
+      "pos": "v./adj.",
+      "sense": "increase 的过去式/过去分词（增加）；增加的",
+      "lemma": "increase",
+      "collocations": [
+        "increased responsibilities",
+        "increased risk"
+      ],
+      "examples": [
+        "14% said job satisfaction increased. 14% 说工作满意度上升了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increased（增加的，作定语）/ increasing（不断增加的）"
+      }
+    },
+    "individual": {
+      "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+      "pos": "n./adj.",
+      "sense": "个人、个体；个别的、单独的、独特的（individual differences 个体差异）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "individual neurons",
+        "sensitivity of individual"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ],
+      "more": {
+        "confusables": "individual / individuals（同族不同词形，注意词性与用法）"
+      }
+    },
+    "know": {
+      "phonetic": "/nəʊ/",
+      "pos": "v.",
+      "sense": "知道、了解、懂得；认识、熟悉；会（语言等）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "don't know"
+      ],
+      "examples": [
+        "\"We don't know why we are seeing these patterns,\" Kanold said. 卡诺尔德坦言：为什么会呈现这些规律，他们也没有答案。"
+      ],
+      "more": {
+        "confusables": "know / known / knowledge（同族不同词形，注意词性与用法）"
+      }
+    },
+    "known": {
+      "phonetic": "/nəʊn/",
+      "pos": "adj./v.",
+      "sense": "已知的、闻名的、公认的（known as 以…著称）；know 的过去分词",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be known as（作为…而出名，后接身份）/ be known for（因…而出名，后接原因或特点）/ be known to（为…所熟知，后接人）/ know（know-knew-known）/ well-known（著名的，形容词）"
+      },
+      "collocations": [],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ]
+    },
+    "languages": {
+      "phonetic": "/ˈlæŋɡwɪdʒɪz/",
+      "pos": "n.",
+      "sense": "语言（language 的复数/三单形式）",
+      "lemma": "language",
+      "collocations": [
+        "learn languages"
+      ],
+      "examples": [
+        "This is why children learn languages much more 32 than adults. 也正因如此，小孩学语言比大人轻松得多。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "language + -s（复数/三单）",
+        "confusables": "languages（复数/三单）/ language（原形）"
+      }
+    },
+    "learn": {
+      "phonetic": "/lɜːn/",
+      "pos": "v.",
+      "sense": "学习、学会",
+      "collocations": [
+        "learn to do",
+        "learn from"
+      ],
+      "examples": [
+        "We learn from mistakes. 我们从错误中学习。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "learn / learning（同族不同词形，注意词性与用法）"
+      }
+    },
+    "learning": {
+      "phonetic": "/ˈlɜːnɪŋ/",
+      "pos": "n./v.",
+      "sense": "学习、学问；learn 的现在分词/动名词",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "learning about"
+      ],
+      "examples": [
+        "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+      ]
+    },
+    "long": {
+      "phonetic": "/lɒŋ/",
+      "pos": "adj./adv.",
+      "sense": "长的、长期的 / 长久地",
+      "collocations": [
+        "long-term",
+        "as long as",
+        "no longer"
+      ],
+      "examples": [
+        "The impact is long-term. 影响是长期的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "long（长）/ lengthy（冗长的）/ as long as（只要）"
+      }
+    },
+    "manipulating": {
+      "phonetic": "/məˈnɪpjuleɪtɪŋ/",
+      "pos": "v.",
+      "sense": "操纵、控制、（熟练地）操作 / 处理；篡改（manipulate 的现在分词；本文 manipulating vision 操控视觉 / manipulating the DNA of plants 改造植物 DNA）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "manipulating vision"
+      ],
+      "examples": [
+        "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+      ]
+    },
+    "mice": {
+      "phonetic": "/maɪs/",
+      "pos": "n.",
+      "sense": "老鼠、小鼠（mouse 的复数；实验研究常用 mice）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "adult mice",
+        "mice of",
+        "mice of vision"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ]
+    },
+    "neurons": {
+      "phonetic": "/ˈnjʊərɒnz/",
+      "pos": "n.",
+      "sense": "神经元、神经细胞（neuron 的复数；大脑、听觉与记忆研究话题）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "individual neurons",
+        "neurons in"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ],
+      "more": {
+        "confusables": "neurons / neuroscience（同族不同词形，注意词性与用法）"
+      }
+    },
+    "new": {
+      "phonetic": "/njuː/",
+      "pos": "adj.",
+      "sense": "新的；新近的",
+      "collocations": [
+        "new technologies",
+        "brand new",
+        "new to sth"
+      ],
+      "examples": [
+        "New tools always provoke worry. 新工具总会引发担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "once": {
+      "phonetic": "/wʌns/",
+      "pos": "adv./conj.",
+      "sense": "一次；曾经 / 一旦（连词）",
+      "collocations": [
+        "at once",
+        "once again",
+        "once you start"
+      ],
+      "examples": [
+        "The web is headed for change once again. 网络再次走向变革。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "at once（立即/一次性）/ once（一次/一旦）"
+      }
+    },
+    "part": {
+      "phonetic": "/pɑːt/",
+      "pos": "n./v.",
+      "sense": "部分、部件；角色、职责；分开、分离（part with 割舍）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "part of"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ],
+      "more": {
+        "confusables": "part / parts / participants（同族不同词形，注意词性与用法）"
+      }
+    },
+    "patterns": {
+      "phonetic": "/ˈpætnz/",
+      "pos": "n.",
+      "sense": "pattern 的复数，模式、规律",
+      "collocations": [],
+      "examples": [
+        "\"We don't know why we are seeing these patterns,\" Kanold said. 卡诺尔德坦言：为什么会呈现这些规律，他们也没有答案。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "patterns / pattern（同族不同词形，注意词性与用法）"
+      }
+    },
+    "paying": {
+      "phonetic": "/ˈpeɪɪŋ/",
+      "pos": "v.",
+      "sense": "pay 的动名词，付款",
+      "collocations": [
+        "paying attention"
+      ],
+      "examples": [
+        "\"We 35 that it may have to do with what the mice are paying attention to while they are in the dark.\" 他们猜，这大概跟小鼠待在黑暗里时把注意力放在哪儿有关。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "period": {
+      "phonetic": "/ˈpɪəriəd/",
+      "pos": "n.",
+      "sense": "时期、一段时间、时代；课时、一节课；句号；经期",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "peri-（周围）+ hod（路，词根 hod = way，同 method）",
+        "confusables": "period（时期；句号；课时，可数）/ a period of（一段…时期）/ era / epoch（时代，更宏大）/ full stop（英式「句号」）/ period 与 point（小数点不是 period）"
+      },
+      "collocations": [
+        "critical period",
+        "period in",
+        "period in childhood"
+      ],
+      "examples": [
+        "It was once thought that the sensory regions of the brain were not 31 after a critical period in childhood. 过去人们一直以为，过了童年那段关键期，大脑各感觉区就定型了、不再能变。"
+      ]
+    },
+    "regions": {
+      "phonetic": "/ˈriːdʒənz/",
+      "pos": "n.",
+      "sense": "地区（region 的复数）",
+      "lemma": "region",
+      "collocations": [
+        "coffee-growing regions",
+        "in some regions"
+      ],
+      "examples": [
+        "Crop losses vary by region. 作物损失因地区而异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "regions（地区）/ areas（地区）/ districts（行政区）"
+      }
+    },
+    "research": {
+      "phonetic": "/rɪˈsɜːtʃ/",
+      "pos": "n./v.",
+      "sense": "研究（不可数）；调查 / 研究",
+      "collocations": [
+        "a body of research",
+        "research on sth",
+        "research shows"
+      ],
+      "examples": [
+        "A growing body of research supports this. 越来越多的研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "research（不可数）/ study（可数，一项研究）/ researches（罕用）"
+      }
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "researcher 的复数，研究人员",
+      "collocations": [
+        "researchers found"
+      ],
+      "examples": [
+        "The researchers found that, in adult mice, a week in the dark also changed the 34 of space to different frequencies. 研究者还发现：成年小鼠在黑暗里待上一周，皮层空间分配给各频率的格局同样会变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researchers / researcher（同族不同词形，注意词性与用法）"
+      }
+    },
+    "said": {
+      "phonetic": "/sed/",
+      "pos": "v./adj.",
+      "sense": "说、讲、表明（say 的过去式/过去分词）；上述的（the said…）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "said Patrick",
+        "Kanold said"
+      ],
+      "examples": [
+        "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+      ]
+    },
+    "scientists": {
+      "phonetic": "/ˈsaɪəntɪsts/",
+      "pos": "n.",
+      "sense": "科学家（scientist 的复数）",
+      "lemma": "scientist",
+      "collocations": [
+        "social scientists",
+        "scientists found"
+      ],
+      "examples": [
+        "Social scientists found digital use beneficial. 社会科学家发现数字使用有益。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "science（科学）+ -ist",
+        "confusables": "scientist（科学家）/ science（科学）"
+      }
+    },
+    "seeing": {
+      "phonetic": "/siːɪŋ/",
+      "pos": "v.",
+      "sense": "看见；明白（I see）；见证（see 的现在分词/动名词形式）",
+      "lemma": "see",
+      "collocations": [],
+      "examples": [
+        "\"We don't know why we are seeing these patterns,\" Kanold said. 卡诺尔德坦言：为什么会呈现这些规律，他们也没有答案。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "see + -ing（现在分词/动名词）",
+        "confusables": "seeing（现在分词/动名词）/ see（原形）"
+      }
+    },
+    "senior": {
+      "phonetic": "/ˈsiːniə/",
+      "pos": "adj./n.",
+      "sense": "资深的、高级的、年长的；上级、长辈、高年级 / 大四学生（本文 middle or senior management 中高层管理 / senior author 资深作者）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "senior author"
+      ],
+      "examples": [
+        "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+      ]
+    },
+    "sensitivity": {
+      "phonetic": "/ˌsensəˈtɪvəti/",
+      "pos": "n.",
+      "sense": "敏感、敏感性、灵敏度；体贴、善解人意（sensitivity to 对…的敏感）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sensitivity of",
+        "sensitivity of individual",
+        "mice's sensitivity"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ],
+      "more": {
+        "roots": "sensitivity 含 -ity（名词后缀，表性质或状态）"
+      }
+    },
+    "sensory": {
+      "phonetic": "/ˈsensəri/",
+      "pos": "adj.",
+      "sense": "感官的、感觉的（sensory information / experience 感官信息、感官体验）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "sensory regions"
+      ],
+      "examples": [
+        "It was once thought that the sensory regions of the brain were not 31 after a critical period in childhood. 过去人们一直以为，过了童年那段关键期，大脑各感觉区就定型了、不再能变。"
+      ]
+    },
+    "shifting": {
+      "phonetic": "/ʃɪftɪŋ/",
+      "pos": "n./v.",
+      "sense": "转变、变化、轮班、班次；转移、改变、换挡、推卸（shift 的现在分词/动名词形式）",
+      "lemma": "shift",
+      "collocations": [],
+      "examples": [
+        "New research from biologists at the University of Maryland 26 that sight deprivation also changes the way brain cells 27 with one another, shifting the mice's sensitivity to different frequencies. 马里兰大学生物学家的新研究进一步揭示：失明不光提敏感度，还会改变脑细胞之间的协作方式，让小鼠对不同声音频率的响应重新排布。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "shift + -ing（现在分词/动名词）",
+        "confusables": "shifting（现在分词/动名词）/ shift（原形）"
+      }
+    },
+    "short": {
+      "phonetic": "/ʃɔːt/",
+      "pos": "adj.",
+      "sense": "短的、矮的；不足的（be short of）",
+      "collocations": [
+        "short-form writing",
+        "in short",
+        "be short of"
+      ],
+      "examples": [
+        "Short-form writing dominates social media. 短文本写作主导社交媒体。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "short（短的）/ shortly（不久）/ in short（简言之）"
+      }
+    },
+    "showing": {
+      "phonetic": "/ʃəʊɪŋ/",
+      "pos": "v./n.",
+      "sense": "显示、表明（show that）；展示 / 演出、展览（show 的现在分词/动名词形式）",
+      "lemma": "show",
+      "collocations": [
+        "idea by showing"
+      ],
+      "examples": [
+        "Kanold's earlier research disproved this idea by showing that depriving adult mice of vision for a short period increased the sensitivity of individual neurons in the auditory cortex(皮质), which is devoted to hearing. 可卡诺尔德早先的实验已经把这个说法推翻了：只要让成年小鼠短时间不见光，听觉皮层里单个神经元的敏感度就会上升——而这片皮层正是管听的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "show + -ing（现在分词/动名词）",
+        "confusables": "showing（现在分词/动名词）/ show（原形）"
+      }
+    },
+    "sight": {
+      "phonetic": "/saɪt/",
+      "pos": "n./v.",
+      "sense": "视力、视觉；景象、名胜（sights）；看见、瞥见（at first sight / catch sight of / lose sight of）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "sight deprivation"
+      ],
+      "examples": [
+        "New research from biologists at the University of Maryland 26 that sight deprivation also changes the way brain cells 27 with one another, shifting the mice's sensitivity to different frequencies. 马里兰大学生物学家的新研究进一步揭示：失明不光提敏感度，还会改变脑细胞之间的协作方式，让小鼠对不同声音频率的响应重新排布。"
+      ]
+    },
+    "sounds": {
+      "phonetic": "/saʊndz/",
+      "pos": "n./v.",
+      "sense": "声音、声响（复数）；听起来、似乎（三单）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Young brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to 33 frequencies based on what they are used to hearing. 幼年大脑会按常听到的声音来「接线」：把听觉皮层各块地盘划给特定的频率，划法取决于平时听惯了什么。"
+      ],
+      "more": {
+        "confusables": "sounds / sound（同族不同词形，注意词性与用法）"
+      }
+    },
+    "space": {
+      "phonetic": "/speɪs/",
+      "pos": "n./v.",
+      "sense": "空间、空地、太空、余地、间隔；留间隔、隔开（open / green space 开放与绿地空间）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "space to",
+        "space to different"
+      ],
+      "examples": [
+        "The researchers found that, in adult mice, a week in the dark also changed the 34 of space to different frequencies. 研究者还发现：成年小鼠在黑暗里待上一周，皮层空间分配给各频率的格局同样会变。"
+      ],
+      "more": {
+        "confusables": "space / spaces（同族不同词形，注意词性与用法）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "thought": {
+      "phonetic": "/θɔːt/",
+      "pos": "n./v.",
+      "sense": "想法、念头、思考、思潮、关心；想、认为（think 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "thought（think 的过去式/过去分词；想法，名词）/ though（虽然，连词）/ through（穿过，介词）/ thorough（彻底的，形容词）—— 四词拼写易混 / think-thought-thought / thoughts（想法，复数）"
+      },
+      "collocations": [
+        "thought to",
+        "once thought"
+      ],
+      "examples": [
+        "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+      ]
+    },
+    "university": {
+      "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+      "pos": "n.",
+      "sense": "大学（可数）",
+      "collocations": [
+        "at university",
+        "university students",
+        "a research university"
+      ],
+      "examples": [
+        "Stanford University scholars studied the data. 斯坦福大学的学者研究了这些数据。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "university（大学）/ college（学院）/ at university（在读大学，不加 the）"
+      }
+    },
+    "used": {
+      "phonetic": "/juːzd/",
+      "pos": "v./adj.",
+      "sense": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+      "lemma": "use",
+      "collocations": [
+        "used to do",
+        "be used to doing",
+        "be used for"
+      ],
+      "examples": [
+        "They used flexible work arrangements. 他们使用了弹性工作安排。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）"
+      }
+    },
+    "vision": {
+      "phonetic": "/ˈvɪʒn/",
+      "pos": "n.",
+      "sense": "视力、视野；想象、幻象；愿景、远见",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "vis（看，词根 vid/vis = see，同 visible/video/visual/provide）+ -ion（名词后缀）",
+        "confusables": "vision（视力；愿景、远见；幻象）/ visual（视觉的，形容词）/ visible（看得见的）/ sight（多指视力/景象）/ view（看法；景色）"
+      },
+      "collocations": [
+        "mice of vision",
+        "manipulating vision",
+        "vision for"
+      ],
+      "examples": [
+        "Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons(神经元) in the part of the brain devoted to hearing. 学界早就发现：把成年小鼠的视力剥夺掉，它大脑里管听觉的那块区域，单个神经元的敏感度反而会升高。"
+      ]
+    },
+    "way": {
+      "phonetic": "/weɪ/",
+      "pos": "n.",
+      "sense": "方法、方式；路；程度（in a way）",
+      "collocations": [
+        "the best way to do sth",
+        "in some ways",
+        "by the way"
+      ],
+      "examples": [
+        "There is no simple way to fix it. 没有简单的办法解决它。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "way（方法）/ road（道路）/ method（方法，正式）"
+      }
+    },
+    "week": {
+      "phonetic": "/wiːk/",
+      "pos": "n.",
+      "sense": "周、星期",
+      "collocations": [
+        "last week",
+        "two weeks of leave",
+        "a week ago"
+      ],
+      "examples": [
+        "They took 16 weeks of paid leave. 他们休了 16 周带薪假。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "week（星期）/ weak（虚弱的）"
+      }
+    },
+    "window": {
+      "phonetic": "/ˈwɪndəʊ/",
+      "pos": "n.",
+      "sense": "窗、窗户、窗口、橱窗；（喻）一段时期或机会（a window of opportunity）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "window for",
+        "window for auditory"
+      ],
+      "examples": [
+        "\"This study 28 what we are learning about how manipulating vision can have a 29 effect on the ability of an animal to hear long after the window for auditory(听觉的) learning was thought to have 30 ,\" said Patrick Kanold, senior author of the study. 论文资深作者帕特里克·卡诺尔德说：这项研究印证了他们正在弄清的一件事——即便早已过了人们以为「听觉学习窗口关闭」的年纪，改动视觉仍能对动物的听力产生显著影响。"
+      ]
+    },
+    "wire": {
+      "phonetic": "/ˈwaɪə/",
+      "pos": "n./v.",
+      "sense": "金属丝、电线、导线、铁丝；给…装电线、布线（wired / wireless）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brains wire",
+        "wire themselves"
+      ],
+      "examples": [
+        "Young brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to 33 frequencies based on what they are used to hearing. 幼年大脑会按常听到的声音来「接线」：把听觉皮层各块地盘划给特定的频率，划法取决于平时听惯了什么。"
+      ],
+      "more": {
+        "confusables": "wire / wired（同族不同词形，注意词性与用法）"
+      }
+    },
+    "young": {
+      "phonetic": "/jʌŋ/",
+      "pos": "adj.",
+      "sense": "年轻的、幼小的；青年的（本文指年轻人 / 年轻时）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Young brains"
+      ],
+      "examples": [
+        "Young brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to 33 frequencies based on what they are used to hearing. 幼年大脑会按常听到的声音来「接线」：把听觉皮层各块地盘划给特定的频率，划法取决于平时听惯了什么。"
+      ]
+    }
+  }
+}

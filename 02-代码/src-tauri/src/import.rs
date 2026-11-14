@@ -271,7 +271,7 @@ fn affected_articles(db: &Db, manifest: &Manifest) -> Result<Vec<usize>, Startup
 
 // ───────────────────────── 单事务写入 ─────────────────────────
 
-/// ponytail: 每篇现 prepare 9 条语句（12 篇 = 108 次 prepare，全量导入实测 252ms），不引语句缓存；
+/// ponytail: 每篇现 prepare 9 条语句（72 篇 = 648 次 prepare，M16 实测量级见执行自测），不引语句缓存；
 /// 天花板 = prepare 次数与篇数成正比，等单篇上万 token 或内容包翻几倍，再改成全局 prepare 复用（节点口径不变）。
 fn write_all(tx: &Transaction<'_>, manifest: &Manifest, loaded: &[(usize, ArticlePack)]) -> Result<i64, CommandError> {
     for (index, article_pack) in loaded {
@@ -539,7 +539,7 @@ fn write_article(
     Ok(())
 }
 
-/// 词库：12 篇切片合并去重（normalized 主键）
+/// 词库：全量切片合并去重（normalized 主键）
 ///
 /// `word` = 该 normalized **首次出现** token 的 surface（先到优先、**不覆盖**）：
 /// 首次导入时按 manifest → 段落 → 句子 → token 顺序扫描，先写进去的就是权威值；
@@ -604,7 +604,7 @@ fn first_surfaces(pack: &ArticlePack) -> HashMap<String, String> {
 
 /// `article.source` 取值规则（B4 / 裁决 #11）：`CET-<N> <年>年<月>月真题`
 ///
-/// 现行内置包 12 篇实测全为 `CET-4 2023年12月真题`；缺 `examMonth` 时退化为 `…年真题` 并记 warning。
+/// 现行内置包实测全为 `CET-4 <年>年<月>月真题`（2023-12 与 2024-06~2026-06 两批）；缺 `examMonth` 时退化为 `…年真题` 并记 warning。
 fn article_source(meta: &ManifestArticle, exam_month: Option<i64>) -> String {
     let level: String = meta.exam_type.chars().filter(char::is_ascii_digit).collect();
     let prefix = if level.is_empty() {
@@ -671,7 +671,7 @@ mod tests {
         Path::new(env!("CARGO_MANIFEST_DIR")).join("..").join(pack::PACK_DIR_NAME)
     }
 
-    /// 首启导入 12 篇 → 九表计数逐项对上；二启零写入（total_changes 差值 = 0、MAX(id) 不变）。
+    /// 首启导入 72 篇 → 九表计数逐项对上；二启零写入（total_changes 差值 = 0、MAX(id) 不变）。
     /// 这条用例能证明失败：导入前九表全空（本包实测 0/12）。
     #[test]
     fn import_is_idempotent_and_counts_match_totals() {
@@ -681,7 +681,7 @@ mod tests {
         let manifest = pack::load_manifest(&dir).expect("manifest 应能解析");
 
         let first = run(&db, &dir, &manifest).expect("首启导入应成功");
-        assert_eq!(first.imported, 12, "首启应导入 12 篇");
+        assert_eq!(first.imported, 72, "首启应导入 72 篇");
         assert_eq!(first.skipped, 0);
 
         let counts = |db: &Db| -> Vec<(String, i64)> {
@@ -698,7 +698,7 @@ mod tests {
             .expect("读计数失败")
         };
         let after_first = counts(&db);
-        let expected = [12, 90, 274, 6699, 274, 213, 1561, 30, 90];
+        let expected = [72, 538, 1771, 39996, 1771, 213, 3914, 180, 540];
         for (index, (table, actual)) in after_first.iter().enumerate() {
             assert_eq!(*actual, expected[index], "{table} 行数应为 {}", expected[index]);
         }
@@ -715,7 +715,7 @@ mod tests {
         let second = run(&db, &dir, &manifest).expect("二启应成功");
         let delta = db.total_changes().expect("读写入计数失败") - before;
         assert_eq!(second.imported, 0, "二启不应再写");
-        assert_eq!(second.skipped, 12);
+        assert_eq!(second.skipped, 72);
         assert_eq!(delta, 0, "二启必须零写入，实测写入 {delta} 行");
         assert_eq!(counts(&db), after_first, "二启后行数不应变化");
         let max_article_id_again: i64 = db
@@ -749,14 +749,14 @@ mod tests {
 
         let report = run(&db, &dir, &manifest).expect("补导应成功");
         assert_eq!(report.imported, 1, "应只补 1 篇");
-        assert_eq!(report.skipped, 11);
+        assert_eq!(report.skipped, 71);
 
         let article = count_rows(&db, "article").expect("计数失败");
         let sentence = count_rows(&db, "sentence").expect("计数失败");
         let token = count_rows(&db, "token").expect("计数失败");
-        assert_eq!(article, 12);
-        assert_eq!(sentence, 274);
-        assert_eq!(token, 6699);
+        assert_eq!(article, 72);
+        assert_eq!(sentence, 1771);
+        assert_eq!(token, 39996);
 
         std::fs::remove_dir_all(path.parent().expect("有父目录")).ok();
     }
@@ -784,12 +784,12 @@ mod tests {
             Ok(())
         })
         .expect("删测试题目失败");
-        assert_eq!(count_rows(&db, "question").expect("计数失败"), 88, "删 2 行后应剩 88 行");
+        assert_eq!(count_rows(&db, "question").expect("计数失败"), 538, "删 2 行后应剩 538 行");
 
         let report = run(&db, &dir, &manifest).expect("整篇重导应成功");
         assert_eq!(report.imported, 1, "应只重导受影响的 1 篇（第三态而非全量/跳过）");
-        assert_eq!(report.skipped, 11);
-        assert_eq!(count_rows(&db, "question").expect("计数失败"), 90, "该篇题目应回全量");
+        assert_eq!(report.skipped, 71);
+        assert_eq!(count_rows(&db, "question").expect("计数失败"), 540, "该篇题目应回全量");
 
         // 第二段：删 sentence 行会级联带走 sentence_analysis / token_analysis（无法归属到篇）
         // → 回退全量重导（D3 的安全兜底），九表计数同样必须回全量
@@ -804,12 +804,12 @@ mod tests {
             Ok(())
         })
         .expect("删测试句子失败");
-        assert_eq!(count_rows(&db, "sentence").expect("计数失败"), 272);
+        assert_eq!(count_rows(&db, "sentence").expect("计数失败"), 1769);
 
         let fallback = run(&db, &dir, &manifest).expect("全量重导应成功");
-        assert_eq!(fallback.imported, 12, "分析表缺行无法归属 → 回退全量重导");
-        assert_eq!(count_rows(&db, "sentence").expect("计数失败"), 274);
-        assert_eq!(count_rows(&db, "token").expect("计数失败"), 6699);
+        assert_eq!(fallback.imported, 72, "分析表缺行无法归属 → 回退全量重导");
+        assert_eq!(count_rows(&db, "sentence").expect("计数失败"), 1771);
+        assert_eq!(count_rows(&db, "token").expect("计数失败"), 39996);
 
         std::fs::remove_dir_all(path.parent().expect("有父目录")).ok();
     }
@@ -856,9 +856,9 @@ mod tests {
         .expect("改测试版本失败");
 
         let report = run(&db, &dir, &manifest).expect("重导应成功");
-        assert_eq!(report.imported, 12, "版本不一致应全量重导");
+        assert_eq!(report.imported, 72, "版本不一致应全量重导");
         assert_eq!(ids(&db), ids_before, "重导不得重排 sentence_id（用户笔记挂在这里）");
-        assert_eq!(count_rows(&db, "sentence").expect("计数失败"), 274, "重导不得产生重复句子");
+        assert_eq!(count_rows(&db, "sentence").expect("计数失败"), 1771, "重导不得产生重复句子");
 
         std::fs::remove_dir_all(path.parent().expect("有父目录")).ok();
     }

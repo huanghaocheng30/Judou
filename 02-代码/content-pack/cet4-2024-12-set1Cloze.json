@@ -1,0 +1,4976 @@
+{
+  "sourceKey": "cet4-2024-12-set1Cloze",
+  "articleId": "set1Cloze",
+  "packVersion": "2026.11.07-3",
+  "meta": {
+    "examYear": 2024,
+    "examMonth": 12,
+    "setNo": 1,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "Language Mastery Is a Lifelong Journey",
+    "wordCount": 248
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "When Toni Morrison died in 2019, the world lost one of its most influential authors. But Morrison was not an early success. Her first novel was not published until she was 39, and her last appeared when she was 84. And Morrison was not 26 in this regard. Numerous writers produce masterpieces well into their 70s and beyond. Such 27 accomplishments highlight an important point. Our capacity to speak, write and learn new vocabulary does not seem to 28 with age. Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 84,
+          "text": "When Toni Morrison died in 2019, the world lost one of its most influential authors.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "When",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "Toni",
+              "normalized": "toni",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 18,
+              "surface": "Morrison",
+              "normalized": "morrison",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 23,
+              "surface": "died",
+              "normalized": "died",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "2019,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 33,
+              "end": 36,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 42,
+              "surface": "world",
+              "normalized": "world",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "lost",
+              "normalized": "lost",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "one",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "its",
+              "normalized": "its",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 63,
+              "surface": "most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 75,
+              "surface": "influential",
+              "normalized": "influential",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 83,
+              "surface": "authors",
+              "normalized": "authors",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 84,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "当托妮·莫里森于 2019 年去世时，世界失去了它最有影响力的作者之一。",
+            "translationNatural": "2019 年托妮·莫里森一走，文坛便少了位分量极重的作家。",
+            "structMarkup": "{When Toni Morrison died in 2019}, 【the world】 _lost_ ~one of its most influential authors~.",
+            "structureSummary": "时间状语从句（When 引导）+ 主谓宾",
+            "components": [
+              {
+                "part": "When Toni Morrison died in 2019",
+                "role": "状语从句",
+                "note": "When 交代时间背景；从句用一般过去时，与主句 lost 时态一致"
+              },
+              {
+                "part": "the world",
+                "role": "主语",
+                "note": "以「世界」借指世人／文坛，是拟人化主语，不是字面的地球"
+              },
+              {
+                "part": "lost",
+                "role": "谓语",
+                "note": "及物动词过去式，宾语是后面的 one of..."
+              },
+              {
+                "part": "one of its most influential authors",
+                "role": "宾语",
+                "note": "one of + 最高级 + 复数名词，表示「最……之一」"
+              }
+            ],
+            "clauses": [
+              "状语从句「When Toni Morrison died in 2019」：When 交代时间背景；从句用一般过去时，与主句 lost 时态一致",
+              "本句主干为「时间状语从句（When 引导）+ 主谓宾」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "world",
+                "meaning": "世界；领域；世人",
+                "usage": "注意区分：world（世界）/ word（单词）读音与拼写易混。常见搭配：around the world / the world of work。",
+                "example": "The idea spread around the world. 这个想法传遍世界。"
+              },
+              {
+                "text": "died",
+                "meaning": "死、死亡；消失、消亡（die 的过去式/过去分词；die of/from 死于）",
+                "usage": "本句中作v.，可按「时间状语从句（When 引导）+ 主谓宾」定位它在句中的位置。",
+                "example": "When Toni Morrison died in 2019, the world lost one of its most influential authors. 2019 年托妮·莫里森一走，文坛便少了位分量极重的作家。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：world（世界）/ word（单词）读音与拼写易混。",
+              "When Toni Morrison died in 2019：When 交代时间背景；从句用一般过去时，与主句 lost 时态一致",
+              "the world：以「世界」借指世人／文坛，是拟人化主语，不是字面的地球"
+            ],
+            "paragraphRole": "用名人辞世开篇，借「损失」引出对其创作生涯的回溯，为「大器晚成」的反差埋线。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 85,
+          "end": 123,
+          "text": "But Morrison was not an early success.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "Morrison",
+              "normalized": "morrison",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 29,
+              "surface": "early",
+              "normalized": "early",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 37,
+              "surface": "success",
+              "normalized": "success",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 38,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但是莫里森并不是一个早年的成功者。",
+            "translationNatural": "可她偏偏不属于少年得志那一类。",
+            "structMarkup": "(But) 【Morrison】 _was not_ ~an early success~.",
+            "structureSummary": "主系表（否定句）+ 转折连词",
+            "components": [
+              {
+                "part": "But",
+                "role": "状语",
+                "note": "句首转折，推翻读者由首句可能生出的「一贯成名」预设"
+              },
+              {
+                "part": "Morrison",
+                "role": "主语",
+                "note": "用姓氏回指上句，避免重复全名"
+              },
+              {
+                "part": "was not",
+                "role": "系动词",
+                "note": "系动词过去式否定，后接名词性表语"
+              },
+              {
+                "part": "an early success",
+                "role": "表语",
+                "note": "success 在此可数化，指「成功的人」；early 点出年龄维度"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（否定句）+ 转折连词」。"
+            ],
+            "phrases": [
+              {
+                "text": "success",
+                "meaning": "成功、成就",
+                "usage": "常见搭配：achieve success / the key to success。",
+                "example": "Hard work is not the only route to success. 努力并非成功的唯一路径。"
+              },
+              {
+                "text": "early",
+                "meaning": "早的、早期的、初期的；提早、在早期（early on 早先）",
+                "usage": "本句中作adj./adv.，可按「主系表（否定句）+ 转折连词」定位它在句中的位置。",
+                "example": "But Morrison was not an early success. 可她偏偏不属于少年得志那一类。"
+              }
+            ],
+            "pitfalls": [
+              "was not：系动词过去式否定，后接名词性表语",
+              "本句主干为「主系表（否定句）+ 转折连词」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "亮出第一层反差，把注意力从「去世」转到「成名早晚」这条时间线索上。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 124,
+          "end": 214,
+          "text": "Her first novel was not published until she was 39, and her last appeared when she was 84.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Her",
+              "normalized": "her",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "first",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "novel",
+              "normalized": "novel",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 23,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 33,
+              "surface": "published",
+              "normalized": "published",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 39,
+              "surface": "until",
+              "normalized": "until",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 43,
+              "surface": "she",
+              "normalized": "she",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 47,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "39,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 52,
+              "end": 55,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 59,
+              "surface": "her",
+              "normalized": "her",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 64,
+              "surface": "last",
+              "normalized": "last",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 73,
+              "surface": "appeared",
+              "normalized": "appeared",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 82,
+              "surface": "she",
+              "normalized": "she",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 86,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "84",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 89,
+              "end": 90,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "她的第一部小说直到她 39 岁才被出版，而她最后一部在她 84 岁时问世。",
+            "translationNatural": "处女作拖到 39 岁才出，收官之作则是 84 岁那年才面世。",
+            "structMarkup": "【Her first novel】 _was not published_ {until she was 39}, and 【her last】 _appeared_ when she was 84.",
+            "structureSummary": "and 连接的并列句（前分句含 not...until 时间状语从句且为被动语态；后分句含 when 时间状语从句）",
+            "components": [
+              {
+                "part": "Her first novel",
+                "role": "主语",
+                "note": "第一分句主语，与后分句 her last 构成首／末对举"
+              },
+              {
+                "part": "was not published",
+                "role": "谓语",
+                "note": "一般过去时被动；not...until 意为「直到……才」，否定词实际修饰 until"
+              },
+              {
+                "part": "until she was 39",
+                "role": "状语从句",
+                "note": "until 引导时间下限，说明出版之晚"
+              },
+              {
+                "part": "her last",
+                "role": "主语",
+                "note": "last 后省略 novel，靠 first 补足理解，避免重复"
+              },
+              {
+                "part": "appeared",
+                "role": "谓语",
+                "note": "不及物动词，此处指书「问世、出版」，与 published 换词避复"
+              }
+            ],
+            "clauses": [
+              "状语从句「until she was 39」：until 引导时间下限，说明出版之晚",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "novel",
+                "meaning": "新颖的、新奇的（形容词）；小说（名词）",
+                "usage": "注意区分：novel（新颖的/小说）/ novelty（新奇）/ new（新的）。常见搭配：novel situations / a novel idea。",
+                "example": "Novel situations limit the practicality of data. 全新情境会限制数据的实用性。"
+              },
+              {
+                "text": "published",
+                "meaning": "publish 的过去式/过去分词（发表、出版）",
+                "usage": "注意区分：published（发表）/ publication（发表，名词）/ publish。常见搭配：published in the journal / be published。",
+                "example": "One recent study published in PLOS ONE found... 最近发表在《PLOS ONE》上的一项研究……"
+              },
+              {
+                "text": "until",
+                "meaning": "直到（时间）；直到……才（用于否定句）",
+                "usage": "注意区分：until（直到）/ till（同义，口语）/ not ... until（直到……才）。常见搭配：until now / not ... until。",
+                "example": "Kids may not change until they are older. 孩子可能到更大才会改变。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "用两个具体年龄把「晚成」坐实，同时暗示创作寿命延续到高龄，为全篇「语言不随年龄衰退」张本。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 215,
+          "end": 254,
+          "text": "And Morrison was not 26 in this regard.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "And",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "Morrison",
+              "normalized": "morrison",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 38,
+              "surface": "regard",
+              "normalized": "regard",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 39,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "而且莫里森在这一方面并不是 26 的。",
+            "translationNatural": "这种「晚成到老」的情况，她并不是独一份。",
+            "structMarkup": "(And) 【Morrison】 _was not_ ~26~ (in this regard).",
+            "structureSummary": "主系表（否定句）+ 介词短语作状语",
+            "components": [
+              {
+                "part": "And",
+                "role": "状语",
+                "note": "并列连词，表示补上同类情形，而非另起话题"
+              },
+              {
+                "part": "Morrison",
+                "role": "主语",
+                "note": "继续回指，话题人物保持不变"
+              },
+              {
+                "part": "was not",
+                "role": "系动词",
+                "note": "否定系动词，后面需要形容词性表语"
+              },
+              {
+                "part": "26",
+                "role": "表语",
+                "note": "空号夹在 was not 与介词短语之间，需形容词；上句说她晚成，此处说这并不「独一无二」"
+              },
+              {
+                "part": "in this regard",
+                "role": "状语",
+                "note": "方面状语，意为「在这一点上」，把判断限定在「晚成」这件事"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主系表（否定句）+ 介词短语作状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "regard",
+                "meaning": "认为、看作、看待；关注、尊重、致意（regard A as B / in regard to / with regard to）",
+                "usage": "本句中作v./n.，可按「主系表（否定句）+ 介词短语作状语」定位它在句中的位置。",
+                "example": "And Morrison was not 26 in this regard. 这种「晚成到老」的情况，她并不是独一份。"
+              }
+            ],
+            "pitfalls": [
+              "And：并列连词，表示补上同类情形，而非另起话题",
+              "本句主干为「主系表（否定句）+ 介词短语作状语」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "从个案转向群体，用「并非独有」自然引出下一句的「众多作家」。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 255,
+          "end": 324,
+          "text": "Numerous writers produce masterpieces well into their 70s and beyond.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Numerous",
+              "normalized": "numerous",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 16,
+              "surface": "writers",
+              "normalized": "writers",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 24,
+              "surface": "produce",
+              "normalized": "produce",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 37,
+              "surface": "masterpieces",
+              "normalized": "masterpieces",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 42,
+              "surface": "well",
+              "normalized": "well",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 53,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "70",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "surface": "s",
+              "normalized": "s",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 61,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 68,
+              "surface": "beyond",
+              "normalized": "beyond",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 69,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "众多作家在远远进入他们七十多岁乃至更往后时仍产出杰作。",
+            "translationNatural": "不少作家七老八十了，照样写得出一流作品。",
+            "structMarkup": "【Numerous writers】 _produce_ ~masterpieces~ (well into their 70s and beyond).",
+            "structureSummary": "主谓宾 + 介词短语作时间状语",
+            "components": [
+              {
+                "part": "Numerous writers",
+                "role": "主语",
+                "note": "复数主语，谓语用原形 produce，表示一类普遍现象"
+              },
+              {
+                "part": "produce",
+                "role": "谓语",
+                "note": "一般现在时不指某次出版，而指规律"
+              },
+              {
+                "part": "masterpieces",
+                "role": "宾语",
+                "note": "复数可数名词，与前文 novel 同属创作成果"
+              },
+              {
+                "part": "well into their 70s and beyond",
+                "role": "状语",
+                "note": "well 加强介词短语，强调「远不止七十岁」，不是「好好地进入」"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 介词短语作时间状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "well",
+                "meaning": "好地（副词）；健康的（形容词）；井（名词）",
+                "usage": "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。常见搭配：as well / well-being。",
+                "example": "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+              },
+              {
+                "text": "Numerous",
+                "meaning": "众多的、许多的（修饰复数名词；本文 Numerous writers / Numerous documentaries 众多作家 / 众多纪录片）",
+                "usage": "本句中作adj.，可按「主谓宾 + 介词短语作时间状语」定位它在句中的位置。",
+                "example": "Numerous writers produce masterpieces well into their 70s and beyond. 不少作家七老八十了，照样写得出一流作品。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。",
+              "well into their 70s and beyond：well 加强介词短语，强调「远不止七十岁」，不是「好好地进入」"
+            ],
+            "paragraphRole": "把莫里森一个人的经历扩展为作家的普遍现象，直接坐实上句「并不独有」。"
+          }
+        },
+        {
+          "idx": 5,
+          "start": 325,
+          "end": 378,
+          "text": "Such 27 accomplishments highlight an important point.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 8,
+              "end": 23,
+              "surface": "accomplishments",
+              "normalized": "accomplishments",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 33,
+              "surface": "highlight",
+              "normalized": "highlight",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 46,
+              "surface": "important",
+              "normalized": "important",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "point",
+              "normalized": "point",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这样的 27 成就凸显了一个重要的道理。",
+            "translationNatural": "正是这类文学成就，点出了一个要紧的结论。",
+            "structMarkup": "【Such 27 accomplishments】 _highlight_ ~an important point~.",
+            "structureSummary": "主谓宾 + 形容词作前置定语",
+            "components": [
+              {
+                "part": "Such 27 accomplishments",
+                "role": "主语",
+                "note": "Such 回指晚年杰作；27 空位于 Such 与名词之间，需形容词，语义指向「写作／文学」"
+              },
+              {
+                "part": "highlight",
+                "role": "谓语",
+                "note": "及物动词，意为「使……凸显、点明」，比 show 更强调由事实带出道理"
+              },
+              {
+                "part": "an important point",
+                "role": "宾语",
+                "note": "point 在此意为「观点、道理」，可数故加 an"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 形容词作前置定语」。"
+            ],
+            "phrases": [
+              {
+                "text": "important",
+                "meaning": "重要的、重大的；有影响力的",
+                "usage": "注意区分：important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）。",
+                "example": "Such 27 accomplishments highlight an important point. 正是这类文学成就，点出了一个要紧的结论。"
+              },
+              {
+                "text": "point",
+                "meaning": "观点、要点（可数）；分数 / 指出（point out）",
+                "usage": "注意区分：point out（指出）/ point to（表明）/ the point is（关键是）。常见搭配：the point is / point out。",
+                "example": "The point is not to blame parents. 重点不是责怪家长。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）。",
+              "注意区分：point out（指出）/ point to（表明）/ the point is（关键是）。"
+            ],
+            "paragraphRole": "承上启下：由「现象」转入「观点」，提示下文要给出关于语言与年龄的判断。"
+          }
+        },
+        {
+          "idx": 6,
+          "start": 379,
+          "end": 462,
+          "text": "Our capacity to speak, write and learn new vocabulary does not seem to 28 with age.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "capacity",
+              "normalized": "capacity",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 21,
+              "surface": "speak",
+              "normalized": "speak",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 22,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 23,
+              "end": 28,
+              "surface": "write",
+              "normalized": "write",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "learn",
+              "normalized": "learn",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 42,
+              "surface": "new",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 53,
+              "surface": "vocabulary",
+              "normalized": "vocabulary",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 58,
+              "surface": "does",
+              "normalized": "does",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 62,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 67,
+              "surface": "seem",
+              "normalized": "seem",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 82,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 83,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们去说、去写、去学新词的能力，似乎并不随年龄而 28。",
+            "translationNatural": "人说、写、记新词这套本事，好像并不会因为上了年纪就走下坡。",
+            "structMarkup": "【Our capacity to speak, write and learn new vocabulary】 _does not seem_ (to 28) (with age).",
+            "structureSummary": "主谓 + 不定式短语作后置定语 + seem to 不定式（否定）",
+            "components": [
+              {
+                "part": "Our capacity to speak, write and learn new vocabulary",
+                "role": "主语",
+                "note": "核心词是单数 capacity，故助动词用 does；三个并列不定式作后置定语"
+              },
+              {
+                "part": "does not seem",
+                "role": "谓语",
+                "note": "否定助动词 + seem，表示「看似不……」，语气留有余地"
+              },
+              {
+                "part": "to 28",
+                "role": "补语",
+                "note": "seem 后接 to do；28 空需动词原形，与「随年龄变差」呼应"
+              },
+              {
+                "part": "with age",
+                "role": "状语",
+                "note": "with 在此表伴随变化，相当于 as we get older"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓 + 不定式短语作后置定语 + seem to 不定式（否定）」。"
+            ],
+            "phrases": [
+              {
+                "text": "speak",
+                "meaning": "说话、讲（某种语言）",
+                "usage": "常见搭配：speak in the abstract / speak English。",
+                "example": "Our capacity to speak, write and learn new vocabulary does not seem to 28 with age. 人说、写、记新词这套本事，好像并不会因为上了年纪就走下坡。"
+              },
+              {
+                "text": "learn",
+                "meaning": "学习、学会",
+                "usage": "常见搭配：learn to do / learn from。",
+                "example": "We learn from mistakes. 我们从错误中学习。"
+              },
+              {
+                "text": "seem",
+                "meaning": "似乎、好像（seem + adj. / seem to do）",
+                "usage": "注意区分：seem（似乎）/ appear（显得，更正式）/ look（看起来）。常见搭配：seem to be / it seems that。",
+                "example": "People who skip leisure seem higher in status. 跳过休闲的人似乎地位更高。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）。",
+              "注意区分：seem（似乎）/ appear（显得，更正式）/ look（看起来）。"
+            ],
+            "paragraphRole": "首次正面写出全文论点「语言能力不随年龄退化」；28 空考动词原形。"
+          }
+        },
+        {
+          "idx": 7,
+          "start": 463,
+          "end": 612,
+          "text": "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "eyesight",
+              "normalized": "eyesight",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "dim",
+              "normalized": "dim",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 35,
+              "surface": "recall",
+              "normalized": "recall",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 39,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 46,
+              "surface": "weaken",
+              "normalized": "weaken",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 52,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 53,
+              "end": 55,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 66,
+              "surface": "comparison",
+              "normalized": "comparison",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 67,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 68,
+              "end": 71,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 79,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 82,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 90,
+              "surface": "produce",
+              "normalized": "produce",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 94,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 97,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 100,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 101,
+              "end": 109,
+              "surface": "language",
+              "normalized": "language",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 112,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 117,
+              "surface": "well",
+              "normalized": "well",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 127,
+              "surface": "preserved",
+              "normalized": "preserved",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 132,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 138,
+              "surface": "older",
+              "normalized": "older",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 148,
+              "surface": "adulthood",
+              "normalized": "adulthood",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 149,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们的视力可能变暗，我们的回忆力可能变弱，但是相比之下，我们去产出和去 29 语言的能力被完好地保存到成年晚期。",
+            "translationNatural": "眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。",
+            "structMarkup": "【Our eyesight】 _may dim_ and 【our recall】 _may weaken_, but, (by comparison), 【our ability to produce and to 29 language】 _is well preserved_ (into older adulthood).",
+            "structureSummary": "but 连接的并列句（前分句含两个并列主谓；后分句为被动语态主谓 + 并列不定式作后置定语）",
+            "components": [
+              {
+                "part": "Our eyesight",
+                "role": "主语",
+                "note": "先让步，举一项随年龄衰退的身体机能"
+              },
+              {
+                "part": "may dim",
+                "role": "谓语",
+                "note": "情态动词 + 动词原形；dim 由形容词转动词，意为「变模糊」"
+              },
+              {
+                "part": "our recall",
+                "role": "主语",
+                "note": "与 eyesight 并列的第二个让步主语，recall 作名词指「记忆力」"
+              },
+              {
+                "part": "may weaken",
+                "role": "谓语",
+                "note": "与 may dim 平行，共同构成让步半句"
+              },
+              {
+                "part": "by comparison",
+                "role": "插入语",
+                "note": "前后逗号隔开，明确提示下面要拿语言能力作对比"
+              },
+              {
+                "part": "our ability to produce and to 29 language",
+                "role": "主语",
+                "note": "核心词 ability；produce 与 29 两个不定式并列，29 空需动词原形，与「产出语言」相对的是「理解语言」"
+              },
+              {
+                "part": "is well preserved",
+                "role": "谓语",
+                "note": "一般现在时被动语态，well 修饰过去分词，强调保存程度"
+              },
+              {
+                "part": "into older adulthood",
+                "role": "状语",
+                "note": "时间状语，把「保存得好」限定到老年阶段"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「but 连接的并列句（前分句含两个并列主谓；后分句为被动语态主谓 + 并列不定式作后置定语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "ability",
+                "meaning": "能力（可数/不可数）；才能",
+                "usage": "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。常见搭配：the ability to do sth / natural ability。",
+                "example": "The ability to focus is underrated. 专注的能力被低估了。"
+              },
+              {
+                "text": "language",
+                "meaning": "语言",
+                "usage": "常见搭配：the English language / body language。",
+                "example": "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood. 眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。"
+              },
+              {
+                "text": "well",
+                "meaning": "好地（副词）；健康的（形容词）；井（名词）",
+                "usage": "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。常见搭配：as well / well-being。",
+                "example": "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。",
+              "注意区分：well（好地/健康）/ good（好的，形容词）/ as well（也）。",
+              "注意区分：preserved（过去式/过去分词）/ preserve（原形）。"
+            ],
+            "paragraphRole": "用视力、记忆力衰退作让步对照，反衬语言能力被完好保留，把首段论点压实；29 空考与 produce 并列的动词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood. One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. The researchers also studied a 32 of college students and found that their average vocabulary contained 33 16,000 words. In another study, older adults, with an average age of 75, 34 better than participants in their youth or middle years on tasks that required them to determine the meaning of words. Thus, language seems to be a skill that, contrary to what many might 35 , does not weaken with age.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 170,
+          "text": "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "Indeed",
+              "normalized": "indeed",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "surface": "latest",
+              "normalized": "latest",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 27,
+              "surface": "research",
+              "normalized": "research",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 32,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 36,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 44,
+              "surface": "emerged",
+              "normalized": "emerged",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 47,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 56,
+              "surface": "language",
+              "normalized": "language",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 66,
+              "surface": "aging",
+              "normalized": "aging",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 72,
+              "surface": "shows",
+              "normalized": "shows",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 77,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 86,
+              "surface": "language",
+              "normalized": "language",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 94,
+              "surface": "mastery",
+              "normalized": "mastery",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 97,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 99,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 102,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 103,
+              "end": 107,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 110,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 116,
+              "surface": "begin",
+              "normalized": "begin",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 119,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 127,
+              "surface": "infants",
+              "normalized": "infants",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 131,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 140,
+              "surface": "continue",
+              "normalized": "continue",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 143,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 147,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 151,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 156,
+              "surface": "rest",
+              "normalized": "rest",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 159,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 163,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 164,
+              "end": 169,
+              "surface": "lives",
+              "normalized": "lives",
+              "isWord": true
+            },
+            {
+              "start": 169,
+              "end": 170,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "的确，已经出现的关于语言与衰老的最新研究表明，语言掌握是一个我们从婴儿期就开始、并在此后余生继续下去的 30。",
+            "translationNatural": "确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。",
+            "structMarkup": "(Indeed), 【the latest research】 {that has emerged on language and aging} _shows_ {that language mastery is a 30 that we begin as infants and continue on for the rest of our lives}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导）+ 定语从句（that 引导，修饰 research）",
+            "components": [
+              {
+                "part": "Indeed",
+                "role": "状语",
+                "note": "评注性状语，加强肯定语气，承接上段结论"
+              },
+              {
+                "part": "the latest research",
+                "role": "主语",
+                "note": "核心词；后面 that 从句是后置定语，别把 shows 的主语误看成 language and aging"
+              },
+              {
+                "part": "that has emerged on language and aging",
+                "role": "定语从句",
+                "note": "that 在从句中作主语修饰 research；emerge 在此指「（新研究）问世」"
+              },
+              {
+                "part": "shows",
+                "role": "谓语",
+                "note": "第三人称单数，后接 that 宾语从句陈述研究发现"
+              },
+              {
+                "part": "that language mastery is a 30 that we begin as infants and continue on for the rest of our lives",
+                "role": "宾语从句",
+                "note": "从句为「主系表」；30 空作表语需名词，后接定语从句修饰它"
+              }
+            ],
+            "clauses": [
+              "定语从句「that has emerged on language and aging」：that 在从句中作主语修饰 research；emerge 在此指「（新研究）问世」",
+              "宾语从句「that language mastery is a 30 that we begin as infants and continue on」：从句为「主系表」；30 空作表语需名词，后接定语从句修饰它",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "indeed",
+                "meaning": "确实、的确（加强语气）；甚至",
+                "usage": "注意区分：indeed（确实）/ really（真的）/ actually（实际上）。常见搭配：indeed, ... / very ... indeed。",
+                "example": "Indeed, their digital use can be beneficial. 确实，他们的数字使用可以是有益的。"
+              },
+              {
+                "text": "research",
+                "meaning": "研究（不可数）；调查 / 研究",
+                "usage": "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。常见搭配：a body of research / research on sth。",
+                "example": "A growing body of research supports this. 越来越多的研究支持这一点。"
+              },
+              {
+                "text": "language",
+                "meaning": "语言",
+                "usage": "常见搭配：the English language / body language。",
+                "example": "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. 确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "由个人观察转入研究证据，用「从婴儿到余生」的时间跨度引出「语言掌握是一个历程」；30 空考名词。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 171,
+          "end": 295,
+          "text": "Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 12,
+              "surface": "aspects",
+              "normalized": "aspects",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 28,
+              "surface": "language",
+              "normalized": "language",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 38,
+              "surface": "abilities",
+              "normalized": "abilities",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 39,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 40,
+              "end": 44,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 47,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 61,
+              "surface": "knowledge",
+              "normalized": "knowledge",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 64,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 69,
+              "surface": "word",
+              "normalized": "word",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 78,
+              "surface": "meanings",
+              "normalized": "meanings",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 79,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 80,
+              "end": 82,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 83,
+              "end": 90,
+              "surface": "improve",
+              "normalized": "improve",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 97,
+              "surface": "during",
+              "normalized": "during",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 104,
+              "surface": "middle",
+              "normalized": "middle",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 108,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 113,
+              "surface": "late",
+              "normalized": "late",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 123,
+              "surface": "adulthood",
+              "normalized": "adulthood",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 124,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们语言能力的一些方面，例如我们对词义的知识，31 在中年和晚成年期有所提升。",
+            "translationNatural": "像词汇量这类语言本事，反倒是到了中年、老年还在长。",
+            "structMarkup": "【Some aspects of our language abilities】, (such as our knowledge of word meanings), (31) _improve_ (during middle and late adulthood).",
+            "structureSummary": "主谓 + 插入语（such as）+ 副词作状语",
+            "components": [
+              {
+                "part": "Some aspects of our language abilities",
+                "role": "主语",
+                "note": "复数主语，谓语用原形 improve；of 短语限定是哪方面的「方面」"
+              },
+              {
+                "part": "such as our knowledge of word meanings",
+                "role": "插入语",
+                "note": "举例说明 some aspects，前后逗号隔开，抽掉后主干仍完整"
+              },
+              {
+                "part": "31",
+                "role": "状语",
+                "note": "空号在主语与谓语之间，需副词；与「不退化」递进，表示「实际上还提升」"
+              },
+              {
+                "part": "improve",
+                "role": "谓语",
+                "note": "不及物动词，与上文 does not seem to deteriorate 构成递进"
+              },
+              {
+                "part": "during middle and late adulthood",
+                "role": "状语",
+                "note": "时间状语，把「提升」限定在中老年，呼应全篇年龄线索"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓 + 插入语（such as）+ 副词作状语」。"
+            ],
+            "phrases": [
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              },
+              {
+                "text": "aspects",
+                "meaning": "方面、层面、角度（复数）",
+                "usage": "注意区分：aspect（方面，an aspect of sth）/ in this respect / in this regard（在这方面，用 respect/regard，不说 in this aspect）/ perspective（视角、观点）。",
+                "example": "Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood. 像词汇量这类语言本事，反倒是到了中年、老年还在长。"
+              },
+              {
+                "text": "language",
+                "meaning": "语言",
+                "usage": "常见搭配：the English language / body language。",
+                "example": "Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood. 像词汇量这类语言本事，反倒是到了中年、老年还在长。"
+              }
+            ],
+            "pitfalls": [
+              "such as 用于举例，for example 常作插入语，位置不同。",
+              "注意区分：aspect（方面，an aspect of sth）/ in this respect / in this regard（在这方面，用 respect/regard，不说 in this aspect）/ perspective（视角、观点）。",
+              "注意区分：abilities 指多种技能，ability 泛指能力；搭配都用 to do，不用 of doing。"
+            ],
+            "paragraphRole": "把「不退化」推进一层为「还会变好」，为下句的研究数据立靶；31 空考副词。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 296,
+          "end": 401,
+          "text": "One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "One",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 22,
+              "surface": "example",
+              "normalized": "example",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 23,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 24,
+              "end": 29,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 41,
+              "surface": "adults",
+              "normalized": "adults",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "sixty",
+              "normalized": "sixty",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 56,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 59,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 67,
+              "surface": "average",
+              "normalized": "average",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 78,
+              "surface": "vocabulary",
+              "normalized": "vocabulary",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 83,
+              "surface": "size",
+              "normalized": "size",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 86,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 91,
+              "surface": "over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 98,
+              "surface": "21,000",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 99,
+              "end": 104,
+              "surface": "words",
+              "normalized": "words",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 105,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一项研究，例如，发现六十岁以上的成年人拥有平均超过 21,000 词的词汇量规模。",
+            "translationNatural": "举例说，有研究发现六十岁以上的人平均掌握两万一千多个词。",
+            "structMarkup": "【One study】, (for example), _found_ {that adults over sixty had an average vocabulary size of over 21,000 words}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导）+ 插入语",
+            "components": [
+              {
+                "part": "One study",
+                "role": "主语",
+                "note": "单数主语，谓语用过去式 found，指某一项具体研究"
+              },
+              {
+                "part": "for example",
+                "role": "插入语",
+                "note": "举例连接语，承接上句 Some aspects，前后逗号隔开"
+              },
+              {
+                "part": "found",
+                "role": "谓语",
+                "note": "及物动词过去式，后接 that 从句给出发现"
+              },
+              {
+                "part": "that adults over sixty had an average vocabulary size of over 21,000 words",
+                "role": "宾语从句",
+                "note": "从句用陈述语序；over 出现两次，前者指年龄、后者指数量"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that adults over sixty had an average vocabulary size of over 21,000 w」：从句用陈述语序；over 出现两次，前者指年龄、后者指数量",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "for example",
+                "meaning": "例如",
+                "usage": "插入语，常用逗号隔开，可置于句首、句中或句末。",
+                "example": "Many habits, for example, are hard to break. 比如很多习惯很难改。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              }
+            ],
+            "pitfalls": [
+              "for example 可独立作插入语，such as 不能。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。"
+            ],
+            "paragraphRole": "用具体数据把「词汇量随年龄增长」坐实，为下句与大学生对比做铺垫。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 402,
+          "end": 522,
+          "text": "The researchers also studied a 32 of college students and found that their average vocabulary contained 33 16,000 words.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 15,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 28,
+              "surface": "studied",
+              "normalized": "studied",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 30,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 44,
+              "surface": "college",
+              "normalized": "college",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 53,
+              "surface": "students",
+              "normalized": "students",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 63,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 68,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 74,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 82,
+              "surface": "average",
+              "normalized": "average",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 93,
+              "surface": "vocabulary",
+              "normalized": "vocabulary",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 103,
+              "surface": "contained",
+              "normalized": "contained",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 106,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 107,
+              "end": 113,
+              "surface": "16,000",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 114,
+              "end": 119,
+              "surface": "words",
+              "normalized": "words",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 120,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "研究者们还研究了一个大学生 32，并发现他们的平均词汇量包含 33 16,000 个词。",
+            "translationNatural": "同一批研究者又测了一组大学生，结果这些年轻人的词汇量大约只有一万六。",
+            "structMarkup": "【The researchers】 _also studied_ ~a 32 of college students~ and _found_ {that their average vocabulary contained 33 16,000 words}.",
+            "structureSummary": "主谓宾 + and 并列谓语 + 宾语从句（that 引导）",
+            "components": [
+              {
+                "part": "The researchers",
+                "role": "主语",
+                "note": "回指上句的研究者，also 表明这是同一团队的追加样本"
+              },
+              {
+                "part": "also studied",
+                "role": "谓语",
+                "note": "also 位于实义动词前；studied 与后面 found 由 and 并列作谓语"
+              },
+              {
+                "part": "a 32 of college students",
+                "role": "宾语",
+                "note": "32 空位于 a ... of 之间，需名词；a sample of 表示「一组……样本」"
+              },
+              {
+                "part": "found",
+                "role": "谓语",
+                "note": "与 studied 并列的第二个过去式谓语"
+              },
+              {
+                "part": "that their average vocabulary contained 33 16,000 words",
+                "role": "宾语从句",
+                "note": "33 空紧挨数字，需修饰数量的副词，表示「大约」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that their average vocabulary contained 33 16,000 words」：33 空紧挨数字，需修饰数量的副词，表示「大约」",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "studied",
+                "meaning": "研究、调查；学习 / 研究、学习（study 的过去式/过去分词形式）",
+                "usage": "注意区分：studied（过去式/过去分词）/ study（原形）。",
+                "example": "The researchers also studied a 32 of college students and found that their average vocabulary contained 33 16,000 words. 同一批研究者又测了一组大学生，结果这些年轻人的词汇量大约只有一万六。"
+              },
+              {
+                "text": "students",
+                "meaning": "学生、大学生、学员（student 的复数）",
+                "usage": "注意区分：student（学生，尤中学及以上/大学；也泛指研究者）/ pupil（尤英式，中小学生；也指瞳孔）/ study（学习；研究）/ studious（用功的）。",
+                "example": "The researchers also studied a 32 of college students and found that their average vocabulary contained 33 16,000 words. 同一批研究者又测了一组大学生，结果这些年轻人的词汇量大约只有一万六。"
+              },
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "注意区分：studied（过去式/过去分词）/ study（原形）。",
+              "注意区分：student（学生，尤中学及以上/大学；也泛指研究者）/ pupil（尤英式，中小学生；也指瞳孔）/ study（学习；研究）/ studious（用功的）。"
+            ],
+            "paragraphRole": "引入大学生对照组，用两代人的词汇量差强化「年长不劣势」；32、33 两空分别考名词与约数副词。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 523,
+          "end": 703,
+          "text": "In another study, older adults, with an average age of 75, 34 better than participants in their youth or middle years on tasks that required them to determine the meaning of words.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 10,
+              "surface": "another",
+              "normalized": "another",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 18,
+              "end": 23,
+              "surface": "older",
+              "normalized": "older",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 30,
+              "surface": "adults",
+              "normalized": "adults",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 32,
+              "end": 36,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 39,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 47,
+              "surface": "average",
+              "normalized": "average",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "75,",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 59,
+              "end": 61,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 62,
+              "end": 68,
+              "surface": "better",
+              "normalized": "better",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 73,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 86,
+              "surface": "participants",
+              "normalized": "participants",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 95,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 101,
+              "surface": "youth",
+              "normalized": "youth",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 104,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 111,
+              "surface": "middle",
+              "normalized": "middle",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 117,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 120,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 126,
+              "surface": "tasks",
+              "normalized": "tasks",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 131,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 140,
+              "surface": "required",
+              "normalized": "required",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 145,
+              "surface": "them",
+              "normalized": "them",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 148,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 158,
+              "surface": "determine",
+              "normalized": "determine",
+              "isWord": true
+            },
+            {
+              "start": 159,
+              "end": 162,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 170,
+              "surface": "meaning",
+              "normalized": "meaning",
+              "isWord": true
+            },
+            {
+              "start": 171,
+              "end": 173,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 174,
+              "end": 179,
+              "surface": "words",
+              "normalized": "words",
+              "isWord": true
+            },
+            {
+              "start": 179,
+              "end": 180,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在另一项研究中，平均年龄 75 岁的年长成人，在要求他们判定词义的任务上，比处在青年或中年的参与者 34 得更好。",
+            "translationNatural": "还有一项实验里，平均 75 岁的老人做「判断词义」的题目，成绩竟比年轻人、中年人还好。",
+            "structMarkup": "(In another study), 【older adults】, (with an average age of 75), _34_ (better than participants in their youth or middle years) on tasks {that required them to determine the meaning of words}.",
+            "structureSummary": "主谓 + 比较状语（than）+ 介词短语作状语 + 定语从句（that 引导）",
+            "components": [
+              {
+                "part": "In another study",
+                "role": "状语",
+                "note": "介词短语引出第二个实验，与 One study 呼应"
+              },
+              {
+                "part": "older adults",
+                "role": "主语",
+                "note": "复数主语，是被比较的一方"
+              },
+              {
+                "part": "with an average age of 75",
+                "role": "插入语",
+                "note": "补充主语年龄，前后逗号隔开，不参与主干"
+              },
+              {
+                "part": "34",
+                "role": "谓语",
+                "note": "空号在主语与 than 之间，需动词过去式作谓语；perform better than 是固定说法"
+              },
+              {
+                "part": "better than participants in their youth or middle years",
+                "role": "状语",
+                "note": "比较结构，than 后是被比较对象"
+              },
+              {
+                "part": "that required them to determine the meaning of words",
+                "role": "定语从句",
+                "note": "that 修饰 tasks 并在从句中作主语；require sb to do 为固定搭配"
+              }
+            ],
+            "clauses": [
+              "定语从句「that required them to determine the meaning of words」：that 修饰 tasks 并在从句中作主语；require sb to do 为固定搭配",
+              "本句含比较结构（比较级 + than），than 后是被比较对象。"
+            ],
+            "phrases": [
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "older",
+                "meaning": "老的、年老的、旧的、古老的、从前的；…岁的（old 的比较级形式）",
+                "usage": "注意区分：older（比较级）/ old（原形）。",
+                "example": "In another study, older adults, with an average age of 75, 34 better than participants in their youth or middle years on tasks that required them to determine the meaning of words. 还有一项实验里，平均 75 岁的老人做「判断词义」的题目，成绩竟比年轻人、中年人还好。"
+              },
+              {
+                "text": "adults",
+                "meaning": "成年人（adult 的复数）",
+                "usage": "注意区分：adults（复数）/ adult（单数）。常见搭配：adults and children / young adults。",
+                "example": "Kids know how adults are expected to write. 孩子知道大人该怎么写。"
+              }
+            ],
+            "pitfalls": [
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "注意区分：study（研究，可数）/ research（研究，不可数）。",
+              "注意区分：older（比较级）/ old（原形）。"
+            ],
+            "paragraphRole": "换「词义判断任务」这个角度继续证明年长者不输年轻人；34 空考动词过去式。"
+          }
+        },
+        {
+          "idx": 5,
+          "start": 704,
+          "end": 803,
+          "text": "Thus, language seems to be a skill that, contrary to what many might 35 , does not weaken with age.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Thus",
+              "normalized": "thus",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 6,
+              "end": 14,
+              "surface": "language",
+              "normalized": "language",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "seems",
+              "normalized": "seems",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 28,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 34,
+              "surface": "skill",
+              "normalized": "skill",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 40,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 41,
+              "end": 49,
+              "surface": "contrary",
+              "normalized": "contrary",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 57,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 68,
+              "surface": "might",
+              "normalized": "might",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 71,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 72,
+              "end": 73,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "does",
+              "normalized": "does",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 82,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 89,
+              "surface": "weaken",
+              "normalized": "weaken",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 94,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 98,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 99,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "因此，语言似乎是一种技能，这种技能与许多人可能 35 的相反，并不随年龄变弱。",
+            "translationNatural": "所以说到底，语言这门本事跟很多人想的正相反——它不会随年纪变弱。",
+            "structMarkup": "(Thus), 【language】 _seems to be_ ~a skill~ {that, contrary to what many might 35 , does not weaken with age}.",
+            "structureSummary": "主系表 + 定语从句（that 引导，从句内嵌插入语与宾语从句）",
+            "components": [
+              {
+                "part": "Thus",
+                "role": "状语",
+                "note": "结论连接副词，收束本段两个研究证据"
+              },
+              {
+                "part": "language",
+                "role": "主语",
+                "note": "抽象不可数名词，谓语用单数 seems"
+              },
+              {
+                "part": "seems to be",
+                "role": "谓语",
+                "note": "seem + 不定式，表示不绝对化的判断"
+              },
+              {
+                "part": "a skill",
+                "role": "表语",
+                "note": "核心表语，后接 that 定语从句"
+              },
+              {
+                "part": "that, contrary to what many might 35 , does not weaken with age",
+                "role": "定语从句",
+                "note": "that 修饰 a skill 并在从句中作主语；插入语把它与谓语 does not weaken 隔开，别误判从句缺主语；35 空在 might 后需动词原形"
+              }
+            ],
+            "clauses": [
+              "定语从句「that, contrary to what many might 35 , does not weaken with age」：that 修饰 a skill 并在从句中作主语；插入语把它与谓语 does not weaken 隔开，别误判从句缺主语；35 空在 might 后需动词原形",
+              "本句主干为「主系表 + 定语从句（that 引导，从句内嵌插入语与宾语从句）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "language",
+                "meaning": "语言",
+                "usage": "常见搭配：the English language / body language。",
+                "example": "Thus, language seems to be a skill that, contrary to what many might 35 , does not weaken with age. 所以说到底，语言这门本事跟很多人想的正相反——它不会随年纪变弱。"
+              },
+              {
+                "text": "seems",
+                "meaning": "似乎、好像（seem + adj. / seem to do）（seem 的复数/三单形式）",
+                "usage": "注意区分：seems（复数/三单）/ seem（原形）。",
+                "example": "Thus, language seems to be a skill that, contrary to what many might 35 , does not weaken with age. 所以说到底，语言这门本事跟很多人想的正相反——它不会随年纪变弱。"
+              },
+              {
+                "text": "contrary to",
+                "meaning": "相反的；相反（on the contrary）",
+                "usage": "注意区分：on the contrary（相反）/ on the other hand（另一方面）。常见搭配：on the contrary / contrary to。",
+                "example": "Contrary to popular belief, teens do read. 与流行看法相反，青少年确实会读书。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：seems（复数/三单）/ seem（原形）。",
+              "注意区分：on the contrary（相反）/ on the other hand（另一方面）。"
+            ],
+            "paragraphRole": "用两个研究收出全文结论，并借 contrary to 点破「与常识相反」；35 空考 might 后的动词原形。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "assume"
+        },
+        {
+          "key": "D",
+          "text": "component"
+        },
+        {
+          "key": "E",
+          "text": "comprehend"
+        },
+        {
+          "key": "F",
+          "text": "deteriorate"
+        },
+        {
+          "key": "G",
+          "text": "equivalent"
+        },
+        {
+          "key": "H",
+          "text": "journey"
+        },
+        {
+          "key": "I",
+          "text": "literary"
+        },
+        {
+          "key": "J",
+          "text": "performed"
+        },
+        {
+          "key": "K",
+          "text": "rarely"
+        },
+        {
+          "key": "L",
+          "text": "sample"
+        },
+        {
+          "key": "M",
+          "text": "undermined"
+        },
+        {
+          "key": "N",
+          "text": "unique"
+        },
+        {
+          "key": "O",
+          "text": "unit"
+        }
+      ],
+      "answer": "N"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "assume"
+        },
+        {
+          "key": "D",
+          "text": "component"
+        },
+        {
+          "key": "E",
+          "text": "comprehend"
+        },
+        {
+          "key": "F",
+          "text": "deteriorate"
+        },
+        {
+          "key": "G",
+          "text": "equivalent"
+        },
+        {
+          "key": "H",
+          "text": "journey"
+        },
+        {
+          "key": "I",
+          "text": "literary"
+        },
+        {
+          "key": "J",
+          "text": "performed"
+        },
+        {
+          "key": "K",
+          "text": "rarely"
+        },
+        {
+          "key": "L",
+          "text": "sample"
+        },
+        {
+          "key": "M",
+          "text": "undermined"
+        },
+        {
+          "key": "N",
+          "text": "unique"
+        },
+        {
+          "key": "O",
+          "text": "unit"
+        }
+      ],
+      "answer": "I"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "assume"
+        },
+        {
+          "key": "D",
+          "text": "component"
+        },
+        {
+          "key": "E",
+          "text": "comprehend"
+        },
+        {
+          "key": "F",
+          "text": "deteriorate"
+        },
+        {
+          "key": "G",
+          "text": "equivalent"
+        },
+        {
+          "key": "H",
+          "text": "journey"
+        },
+        {
+          "key": "I",
+          "text": "literary"
+        },
+        {
+          "key": "J",
+          "text": "performed"
+        },
+        {
+          "key": "K",
+          "text": "rarely"
+        },
+        {
+          "key": "L",
+          "text": "sample"
+        },
+        {
+          "key": "M",
+          "text": "undermined"
+        },
+        {
+          "key": "N",
+          "text": "unique"
+        },
+        {
+          "key": "O",
+          "text": "unit"
+        }
+      ],
+      "answer": "F"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "assume"
+        },
+        {
+          "key": "D",
+          "text": "component"
+        },
+        {
+          "key": "E",
+          "text": "comprehend"
+        },
+        {
+          "key": "F",
+          "text": "deteriorate"
+        },
+        {
+          "key": "G",
+          "text": "equivalent"
+        },
+        {
+          "key": "H",
+          "text": "journey"
+        },
+        {
+          "key": "I",
+          "text": "literary"
+        },
+        {
+          "key": "J",
+          "text": "performed"
+        },
+        {
+          "key": "K",
+          "text": "rarely"
+        },
+        {
+          "key": "L",
+          "text": "sample"
+        },
+        {
+          "key": "M",
+          "text": "undermined"
+        },
+        {
+          "key": "N",
+          "text": "unique"
+        },
+        {
+          "key": "O",
+          "text": "unit"
+        }
+      ],
+      "answer": "E"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "assume"
+        },
+        {
+          "key": "D",
+          "text": "component"
+        },
+        {
+          "key": "E",
+          "text": "comprehend"
+        },
+        {
+          "key": "F",
+          "text": "deteriorate"
+        },
+        {
+          "key": "G",
+          "text": "equivalent"
+        },
+        {
+          "key": "H",
+          "text": "journey"
+        },
+        {
+          "key": "I",
+          "text": "literary"
+        },
+        {
+          "key": "J",
+          "text": "performed"
+        },
+        {
+          "key": "K",
+          "text": "rarely"
+        },
+        {
+          "key": "L",
+          "text": "sample"
+        },
+        {
+          "key": "M",
+          "text": "undermined"
+        },
+        {
+          "key": "N",
+          "text": "unique"
+        },
+        {
+          "key": "O",
+          "text": "unit"
+        }
+      ],
+      "answer": "H"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "assume"
+        },
+        {
+          "key": "D",
+          "text": "component"
+        },
+        {
+          "key": "E",
+          "text": "comprehend"
+        },
+        {
+          "key": "F",
+          "text": "deteriorate"
+        },
+        {
+          "key": "G",
+          "text": "equivalent"
+        },
+        {
+          "key": "H",
+          "text": "journey"
+        },
+        {
+          "key": "I",
+          "text": "literary"
+        },
+        {
+          "key": "J",
+          "text": "performed"
+        },
+        {
+          "key": "K",
+          "text": "rarely"
+        },
+        {
+          "key": "L",
+          "text": "sample"
+        },
+        {
+          "key": "M",
+          "text": "undermined"
+        },
+        {
+          "key": "N",
+          "text": "unique"
+        },
+        {
+          "key": "O",
+          "text": "unit"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "assume"
+        },
+        {
+          "key": "D",
+          "text": "component"
+        },
+        {
+          "key": "E",
+          "text": "comprehend"
+        },
+        {
+          "key": "F",
+          "text": "deteriorate"
+        },
+        {
+          "key": "G",
+          "text": "equivalent"
+        },
+        {
+          "key": "H",
+          "text": "journey"
+        },
+        {
+          "key": "I",
+          "text": "literary"
+        },
+        {
+          "key": "J",
+          "text": "performed"
+        },
+        {
+          "key": "K",
+          "text": "rarely"
+        },
+        {
+          "key": "L",
+          "text": "sample"
+        },
+        {
+          "key": "M",
+          "text": "undermined"
+        },
+        {
+          "key": "N",
+          "text": "unique"
+        },
+        {
+          "key": "O",
+          "text": "unit"
+        }
+      ],
+      "answer": "L"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "assume"
+        },
+        {
+          "key": "D",
+          "text": "component"
+        },
+        {
+          "key": "E",
+          "text": "comprehend"
+        },
+        {
+          "key": "F",
+          "text": "deteriorate"
+        },
+        {
+          "key": "G",
+          "text": "equivalent"
+        },
+        {
+          "key": "H",
+          "text": "journey"
+        },
+        {
+          "key": "I",
+          "text": "literary"
+        },
+        {
+          "key": "J",
+          "text": "performed"
+        },
+        {
+          "key": "K",
+          "text": "rarely"
+        },
+        {
+          "key": "L",
+          "text": "sample"
+        },
+        {
+          "key": "M",
+          "text": "undermined"
+        },
+        {
+          "key": "N",
+          "text": "unique"
+        },
+        {
+          "key": "O",
+          "text": "unit"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "assume"
+        },
+        {
+          "key": "D",
+          "text": "component"
+        },
+        {
+          "key": "E",
+          "text": "comprehend"
+        },
+        {
+          "key": "F",
+          "text": "deteriorate"
+        },
+        {
+          "key": "G",
+          "text": "equivalent"
+        },
+        {
+          "key": "H",
+          "text": "journey"
+        },
+        {
+          "key": "I",
+          "text": "literary"
+        },
+        {
+          "key": "J",
+          "text": "performed"
+        },
+        {
+          "key": "K",
+          "text": "rarely"
+        },
+        {
+          "key": "L",
+          "text": "sample"
+        },
+        {
+          "key": "M",
+          "text": "undermined"
+        },
+        {
+          "key": "N",
+          "text": "unique"
+        },
+        {
+          "key": "O",
+          "text": "unit"
+        }
+      ],
+      "answer": "J"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "actually"
+        },
+        {
+          "key": "B",
+          "text": "approximately"
+        },
+        {
+          "key": "C",
+          "text": "assume"
+        },
+        {
+          "key": "D",
+          "text": "component"
+        },
+        {
+          "key": "E",
+          "text": "comprehend"
+        },
+        {
+          "key": "F",
+          "text": "deteriorate"
+        },
+        {
+          "key": "G",
+          "text": "equivalent"
+        },
+        {
+          "key": "H",
+          "text": "journey"
+        },
+        {
+          "key": "I",
+          "text": "literary"
+        },
+        {
+          "key": "J",
+          "text": "performed"
+        },
+        {
+          "key": "K",
+          "text": "rarely"
+        },
+        {
+          "key": "L",
+          "text": "sample"
+        },
+        {
+          "key": "M",
+          "text": "undermined"
+        },
+        {
+          "key": "N",
+          "text": "unique"
+        },
+        {
+          "key": "O",
+          "text": "unit"
+        }
+      ],
+      "answer": "C"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "actually"
+    },
+    {
+      "key": "B",
+      "word": "approximately"
+    },
+    {
+      "key": "C",
+      "word": "assume"
+    },
+    {
+      "key": "D",
+      "word": "component"
+    },
+    {
+      "key": "E",
+      "word": "comprehend"
+    },
+    {
+      "key": "F",
+      "word": "deteriorate"
+    },
+    {
+      "key": "G",
+      "word": "equivalent"
+    },
+    {
+      "key": "H",
+      "word": "journey"
+    },
+    {
+      "key": "I",
+      "word": "literary"
+    },
+    {
+      "key": "J",
+      "word": "performed"
+    },
+    {
+      "key": "K",
+      "word": "rarely"
+    },
+    {
+      "key": "L",
+      "word": "sample"
+    },
+    {
+      "key": "M",
+      "word": "undermined"
+    },
+    {
+      "key": "N",
+      "word": "unique"
+    },
+    {
+      "key": "O",
+      "word": "unit"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "N",
+      "answerWord": "unique",
+      "reason": "空格在 was not 之后、介词短语 in this regard 之前，需形容词作表语。上文说莫里森 39 岁才出书、84 岁仍有作品，下句紧接「众多作家」也如此，可见要表达「她在这点上并不独一无二」，unique 正好呼应 Numerous writers。",
+      "distractors": "D) component（组成部分）、O) unit（单位）是名词，词性不符；G) equivalent（等同的）虽为形容词，但 was not equivalent in this regard 搭配生硬，且与下句「众多作家同样如此」语义相左。"
+    },
+    "27": {
+      "answerKey": "I",
+      "answerWord": "literary",
+      "reason": "空格夹在 Such 与名词 accomplishments 之间，需形容词作定语。这些 accomplishments 指上文作家晚年写出的 masterpieces，属文学创作，故用 literary（文学的），Such literary accomplishments 即「这类文学成就」。",
+      "distractors": "N) unique（独特的）虽是形容词，但上句刚用 unique 说明「并非独有」，再说「独特的成就」语义自相矛盾；M) undermined 是过去分词不能作前置定语；K) rarely 是副词，词性不符。"
+    },
+    "28": {
+      "answerKey": "F",
+      "answerWord": "deteriorate",
+      "reason": "空格在 does not seem to 之后，需动词原形；with age 点明「随年龄」。前句说视力、记忆力会衰退，转折后说语言能力「似乎并不」如此，故用 deteriorate（退化、变坏），与上文 dim / weaken 同向呼应。",
+      "distractors": "C) assume（假定）、E) comprehend（理解）虽是动词原形，但「似乎不假定／不理解语言」与语境不合；M) undermined 是过去式／过去分词，不能接在 to 之后。"
+    },
+    "29": {
+      "answerKey": "E",
+      "answerWord": "comprehend",
+      "reason": "空格与 to produce 并列，同作 ability 的后置定语（to produce and to ___ language），需动词原形。produce language 指「产出语言（说、写）」，与之相对的应是「理解语言」，comprehend 正好构成「产出与理解」这对完整能力，并与下文 determine the meaning of words 呼应。",
+      "distractors": "F) deteriorate（退化）虽是动词原形，但「退化语言」语义不通且 28 空已用；C) assume 代入 the ability to assume language 不成搭配；J) performed 是过去式，不能接在 to 后。"
+    },
+    "30": {
+      "answerKey": "H",
+      "answerWord": "journey",
+      "reason": "空格在系动词 is 与不定冠词 a 之后，需可数名词作表语；后接定语从句 that we begin as infants and continue on for the rest of our lives（从婴儿开始、延续余生），正是「一段旅程」的时间跨度，故用 journey。",
+      "distractors": "D) component（组成部分）、O) unit（单位）虽是名词，但「从婴儿开始并延续一生」无法修饰「组成部分／单位」；L) sample（样本）语义不合且 32 空需要它。"
+    },
+    "31": {
+      "answerKey": "A",
+      "answerWord": "actually",
+      "reason": "空格位于主语 Some aspects... 与谓语 improve 之间，需副词作状语。上段刚说语言能力「不随年龄退化」，本句进一步说词汇知识「还会提升」，用 actually（实际上、竟然）强调这一递进与出乎意料，贴合研究口吻。",
+      "distractors": "B) approximately（大约）只修饰数量，不能修饰动词 improve；K) rarely（很少）与下文「词汇量上升」的研究数据直接矛盾；A 项以外无合适副词。"
+    },
+    "32": {
+      "answerKey": "L",
+      "answerWord": "sample",
+      "reason": "空格在不定冠词 a 与 of college students 之间，需可数名词；a sample of + 人群 是研究语境中「一组……样本」的固定说法，与上句 One study 的受试对象形成对照。",
+      "distractors": "D) component、O) unit 是名词但 a component/unit of college students 不成搭配；H) journey 已用于 30 空，且「一段大学生旅程」语义不通。"
+    },
+    "33": {
+      "answerKey": "B",
+      "answerWord": "approximately",
+      "reason": "空格紧挨数字 16,000 words，句子主谓宾已完整，需修饰数量的副词，表示「约一万六千词」。前文 21,000 用确数 over 21,000，此处换算成约数用 approximately 最自然。（新东方答案速查把本空误记为 K rarely，但三份逐空解析均证实应为 B approximately，rarely 与数量不搭配。）",
+      "distractors": "A) actually（实际上）不修饰具体数字且 31 空已用；K) rarely（很少）是频率副词，不能放在数字前；M) undermined 词性不符。"
+    },
+    "34": {
+      "answerKey": "J",
+      "answerWord": "performed",
+      "reason": "空格在主语 older adults 与比较状语 better than participants 之间，需动词过去式作谓语；perform better than... on tasks 是「在任务上表现优于……」的固定搭配，与实验叙述的过去时完全吻合。",
+      "distractors": "M) undermined（削弱）是及物动词过去式，后面没有宾语且语义与 better 矛盾；C) assume、E) comprehend 是动词原形，与全段过去时不符；L) sample 是名词，词性不符。"
+    },
+    "35": {
+      "answerKey": "C",
+      "answerWord": "assume",
+      "reason": "空格在情态动词 might 之后，需动词原形；contrary to what many might ___ 意为「与许多人可能……的（想法）相反」，assume（想当然地认为、假定）正好表达「人们原以为语言会随年龄退化」这一被下文推翻的成见。",
+      "distractors": "E) comprehend（理解）虽是动词原形，但 what many might comprehend 与「成见」语义不合且 29 空已用；F) deteriorate 是不及物动词，不能接 what 作宾语；J) performed 是过去式，不能跟在 might 后。"
+    }
+  },
+  "lexicon": {
+    "abilities": {
+      "phonetic": "/əˈbɪlətiz/",
+      "pos": "n.",
+      "sense": "能力、才能、本领（ability 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "able（能够）+ -ity（名词后缀）+ -ies（复数，辅音 + y → ies）",
+        "confusables": "abilities 指多种技能，ability 泛指能力；搭配都用 to do，不用 of doing"
+      },
+      "collocations": [
+        "language abilities"
+      ],
+      "examples": [
+        "Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood. 像词汇量这类语言本事，反倒是到了中年、老年还在长。"
+      ]
+    },
+    "ability": {
+      "phonetic": "/əˈbɪləti/",
+      "pos": "n.",
+      "sense": "能力（可数/不可数）；才能",
+      "collocations": [
+        "the ability to do sth",
+        "natural ability",
+        "to the best of one's ability"
+      ],
+      "examples": [
+        "The ability to focus is underrated. 专注的能力被低估了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "able（能够）+ -ity",
+        "confusables": "ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）"
+      }
+    },
+    "accomplishments": {
+      "phonetic": "/əˈkʌmplɪʃmənts/",
+      "pos": "n.",
+      "sense": "成就、成绩、才艺；完成、达成（accomplishment 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "accomplishments highlight"
+      ],
+      "examples": [
+        "Such 27 accomplishments highlight an important point. 正是这类文学成就，点出了一个要紧的结论。"
+      ]
+    },
+    "adulthood": {
+      "phonetic": "/ˈædʌlthʊd/",
+      "pos": "n.",
+      "sense": "成年、成年期（本文 into older adulthood 步入老年 / enter adulthood with confidence 自信地步入成年）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "older adulthood",
+        "late adulthood"
+      ],
+      "examples": [
+        "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood. 眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。"
+      ]
+    },
+    "adults": {
+      "phonetic": "/ˈædʌlts/",
+      "pos": "n.",
+      "sense": "成年人（adult 的复数）",
+      "lemma": "adult",
+      "collocations": [
+        "adults and children",
+        "young adults"
+      ],
+      "examples": [
+        "Kids know how adults are expected to write. 孩子知道大人该怎么写。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "adults（复数）/ adult（单数）"
+      }
+    },
+    "age": {
+      "phonetic": "/eɪdʒ/",
+      "pos": "n./v.",
+      "sense": "年龄、年纪；时代、时期；变老、老化",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "average age",
+        "age of",
+        "weaken with age"
+      ],
+      "examples": [
+        "Our capacity to speak, write and learn new vocabulary does not seem to 28 with age. 人说、写、记新词这套本事，好像并不会因为上了年纪就走下坡。"
+      ],
+      "more": {
+        "confusables": "age / agencies（同族不同词形，注意词性与用法）"
+      }
+    },
+    "aging": {
+      "phonetic": "/eɪdʒɪŋ/",
+      "pos": "n./v.",
+      "sense": "年龄、年纪；时代、时期；变老、老化（age 的现在分词/动名词形式）",
+      "lemma": "age",
+      "collocations": [
+        "aging shows"
+      ],
+      "examples": [
+        "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. 确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "age + -ing（现在分词/动名词）",
+        "confusables": "aging（现在分词/动名词）/ age（原形）"
+      }
+    },
+    "appeared": {
+      "phonetic": "/əˈpɪəd/",
+      "pos": "v.",
+      "sense": "出现、显现、露面；似乎、显得（appear 的过去式/过去分词；appear to be 似乎是）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "last appeared"
+      ],
+      "examples": [
+        "Her first novel was not published until she was 39, and her last appeared when she was 84. 处女作拖到 39 岁才出，收官之作则是 84 岁那年才面世。"
+      ],
+      "more": {
+        "confusables": "appeared / appears / appearance（同族不同词形，注意词性与用法）"
+      }
+    },
+    "aspects": {
+      "phonetic": "/ˈæspekts/",
+      "pos": "n.",
+      "sense": "方面、层面、角度（复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "a-（=ad- 朝向）+ spect（看，词根，同 inspect/respect）+ -s → 看到的各个面 → 方面",
+        "confusables": "aspect（方面，an aspect of sth）/ in this respect / in this regard（在这方面，用 respect/regard，不说 in this aspect）/ perspective（视角、观点）"
+      },
+      "collocations": [
+        "aspects of"
+      ],
+      "examples": [
+        "Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood. 像词汇量这类语言本事，反倒是到了中年、老年还在长。"
+      ]
+    },
+    "authors": {
+      "phonetic": "/ˈɔːθəz/",
+      "pos": "n.",
+      "sense": "作者、著者、作家（author 的复数；本文指研究报告撰写者）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "influential authors"
+      ],
+      "examples": [
+        "When Toni Morrison died in 2019, the world lost one of its most influential authors. 2019 年托妮·莫里森一走，文坛便少了位分量极重的作家。"
+      ],
+      "more": {
+        "confusables": "authors / authorised / author（同族不同词形，注意词性与用法）"
+      }
+    },
+    "average": {
+      "phonetic": "/ˈævərɪdʒ/",
+      "pos": "n./adj./v.",
+      "sense": "平均数、平均水平；平均的、普通的（above/below average）；平均为",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "average vocabulary",
+        "average age"
+      ],
+      "examples": [
+        "One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. 举例说，有研究发现六十岁以上的人平均掌握两万一千多个词。"
+      ]
+    },
+    "begin": {
+      "phonetic": "/bɪˈɡɪn/",
+      "pos": "v.",
+      "sense": "开始、着手、启动（本文 a quest we begin as infants 始于婴儿期 / hard to know where to even begin 不知从何下手）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "begin as",
+        "begin as infants"
+      ],
+      "examples": [
+        "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. 确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。"
+      ],
+      "more": {
+        "confusables": "begin / beginning（同族不同词形，注意词性与用法）"
+      }
+    },
+    "better": {
+      "phonetic": "/ˈbetə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更好的；更好地（good/well 的比较级）",
+      "collocations": [
+        "better than",
+        "a better understanding",
+        "get better"
+      ],
+      "examples": [
+        "Sleep is better than more coffee. 睡眠比多喝咖啡更管用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "better（更好）/ had better（最好，后接动词原形）"
+      }
+    },
+    "beyond": {
+      "phonetic": "/bɪˈjɒnd/",
+      "pos": "prep./adv.",
+      "sense": "超出、超过；在…另一边、更远处；除…之外（本文 well into their 70s and beyond 七十多岁乃至更老 / beyond the vehicle purchase 购车之后）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Numerous writers produce masterpieces well into their 70s and beyond. 不少作家七老八十了，照样写得出一流作品。"
+      ]
+    },
+    "capacity": {
+      "phonetic": "/kəˈpæsəti/",
+      "pos": "n.",
+      "sense": "容量、容纳能力；能力、承载力；身份、职位（the capacity to do 做…的能力）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "capacity to",
+        "capacity to speak"
+      ],
+      "examples": [
+        "Our capacity to speak, write and learn new vocabulary does not seem to 28 with age. 人说、写、记新词这套本事，好像并不会因为上了年纪就走下坡。"
+      ],
+      "more": {
+        "roots": "capacity 含 -ity（名词后缀，表性质或状态）"
+      }
+    },
+    "college": {
+      "phonetic": "/ˈkɒlɪdʒ/",
+      "pos": "n.",
+      "sense": "大学、学院；上大学（本文 college students 大学生 / graduated from college 大学毕业）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "college students"
+      ],
+      "examples": [
+        "The researchers also studied a 32 of college students and found that their average vocabulary contained 33 16,000 words. 同一批研究者又测了一组大学生，结果这些年轻人的词汇量大约只有一万六。"
+      ],
+      "more": {
+        "confusables": "college / colleague / colleagues（同族不同词形，注意词性与用法）"
+      }
+    },
+    "comparison": {
+      "phonetic": "/kəmˈpærɪsn/",
+      "pos": "n.",
+      "sense": "比较、对照；比喻、类比（in/by comparison with 与…相比）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood. 眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。"
+      ]
+    },
+    "contained": {
+      "phonetic": "/kənˈteɪnd/",
+      "pos": "v.",
+      "sense": "包含、含有、容纳；控制、抑制（情绪 / 火势）（contain 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "vocabulary contained"
+      ],
+      "examples": [
+        "The researchers also studied a 32 of college students and found that their average vocabulary contained 33 16,000 words. 同一批研究者又测了一组大学生，结果这些年轻人的词汇量大约只有一万六。"
+      ]
+    },
+    "continue": {
+      "phonetic": "/kənˈtɪnjuː/",
+      "pos": "v.",
+      "sense": "继续（continue to do / continue doing）",
+      "collocations": [
+        "continue to do",
+        "continue doing",
+        "continue with"
+      ],
+      "examples": [
+        "The practice continues in many firms. 这种做法在许多公司延续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（一起）+ tin（握、持，词根 ten/tain/tin = hold，同 contain/maintain）+ -ue",
+        "confusables": "continue to do / continue doing（都对，前者强调新阶段）/ continuous（连续的）"
+      }
+    },
+    "contrary": {
+      "phonetic": "/ˈkɒntrəri/",
+      "pos": "adj./n.",
+      "sense": "相反的；相反（on the contrary）",
+      "collocations": [
+        "on the contrary",
+        "contrary to",
+        "the contrary"
+      ],
+      "examples": [
+        "Contrary to popular belief, teens do read. 与流行看法相反，青少年确实会读书。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "contr-（相反，词根 contra = against，同 contrast/contradict/counter）+ -ary",
+        "confusables": "on the contrary（相反）/ on the other hand（另一方面）"
+      }
+    },
+    "determine": {
+      "phonetic": "/dɪˈtɜːmɪn/",
+      "pos": "v.",
+      "sense": "确定、决定；查明、测定（本文指 determine the meaning of words 判定词义 / determine the changes 决定做何改变）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In another study, older adults, with an average age of 75, 34 better than participants in their youth or middle years on tasks that required them to determine the meaning of words. 还有一项实验里，平均 75 岁的老人做「判断词义」的题目，成绩竟比年轻人、中年人还好。"
+      ],
+      "more": {
+        "confusables": "determine / determination / determinant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "died": {
+      "phonetic": "/daɪd/",
+      "pos": "v.",
+      "sense": "死、死亡；消失、消亡（die 的过去式/过去分词；die of/from 死于）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Morrison died",
+        "died in"
+      ],
+      "examples": [
+        "When Toni Morrison died in 2019, the world lost one of its most influential authors. 2019 年托妮·莫里森一走，文坛便少了位分量极重的作家。"
+      ]
+    },
+    "dim": {
+      "phonetic": "/dɪm/",
+      "pos": "adj./v.",
+      "sense": "昏暗的、暗淡的；模糊的、朦胧的；（前景）渺茫的；使变暗 / 变模糊",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood. 眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。"
+      ]
+    },
+    "early": {
+      "phonetic": "/ˈɜːli/",
+      "pos": "adj./adv.",
+      "sense": "早的、早期的、初期的；提早、在早期（early on 早先）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "early success"
+      ],
+      "examples": [
+        "But Morrison was not an early success. 可她偏偏不属于少年得志那一类。"
+      ],
+      "more": {
+        "confusables": "early / earlier（同族不同词形，注意词性与用法）"
+      }
+    },
+    "emerged": {
+      "phonetic": "/ɪˈmɜːdʒd/",
+      "pos": "v.",
+      "sense": "出现、浮现、显露；兴起、脱颖而出；暴露出（emerge 的过去式/过去分词；it emerged that… 结果是）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "emerged on",
+        "emerged on language"
+      ],
+      "examples": [
+        "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. 确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。"
+      ]
+    },
+    "example": {
+      "phonetic": "/ɪɡˈzɑːmpl/",
+      "pos": "n.",
+      "sense": "例子、实例；榜样",
+      "collocations": [
+        "for example",
+        "an example of",
+        "set an example"
+      ],
+      "examples": [
+        "For example, texting and reading coexist. 例如，发短信和读书并存。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "for example（插入语，缩写 e.g.）/ such as（后接名词）"
+      }
+    },
+    "eyesight": {
+      "phonetic": "/ˈaɪsaɪt/",
+      "pos": "n.",
+      "sense": "视力、目力（good/poor eyesight 视力好 / 差）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood. 眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。"
+      ]
+    },
+    "first": {
+      "phonetic": "/fɜːst/",
+      "pos": "num./adj./adv.",
+      "sense": "第一；最早的；首先、初次",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "first novel"
+      ],
+      "examples": [
+        "Her first novel was not published until she was 39, and her last appeared when she was 84. 处女作拖到 39 岁才出，收官之作则是 84 岁那年才面世。"
+      ]
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "highlight": {
+      "phonetic": "/ˈhaɪlaɪt/",
+      "pos": "v./n.",
+      "sense": "突出、强调、使醒目；最精彩的部分、亮点、重点（highlight the need for 凸显…的必要）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "accomplishments highlight"
+      ],
+      "examples": [
+        "Such 27 accomplishments highlight an important point. 正是这类文学成就，点出了一个要紧的结论。"
+      ]
+    },
+    "important": {
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "pos": "adj.",
+      "sense": "重要的、重大的；有影响力的",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）"
+      },
+      "collocations": [
+        "important point"
+      ],
+      "examples": [
+        "Such 27 accomplishments highlight an important point. 正是这类文学成就，点出了一个要紧的结论。"
+      ]
+    },
+    "improve": {
+      "phonetic": "/ɪmˈpruːv/",
+      "pos": "v.",
+      "sense": "改善、提高（及物与不及物皆可）",
+      "collocations": [
+        "improve health",
+        "improve mood",
+        "improve on sth"
+      ],
+      "examples": [
+        "Social life can improve mood. 社交生活能改善情绪。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "improve（改善本身）/ improve on（在……基础上做得更好）"
+      }
+    },
+    "indeed": {
+      "phonetic": "/ɪnˈdiːd/",
+      "pos": "adv.",
+      "sense": "确实、的确（加强语气）；甚至",
+      "collocations": [
+        "indeed, ...",
+        "very ... indeed"
+      ],
+      "examples": [
+        "Indeed, their digital use can be beneficial. 确实，他们的数字使用可以是有益的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "indeed（确实）/ really（真的）/ actually（实际上）"
+      }
+    },
+    "infants": {
+      "phonetic": "/ˈɪnfənts/",
+      "pos": "n.",
+      "sense": "婴儿、幼儿（infant 的复数；阅读中常指语言习得 / 发育研究对象）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "begin as infants"
+      ],
+      "examples": [
+        "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. 确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。"
+      ]
+    },
+    "influential": {
+      "phonetic": "/ˌɪnfluˈenʃl/",
+      "pos": "adj.",
+      "sense": "有影响力的、有势力的、起重要作用的（an influential author/study 有影响力的作者 / 研究）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "influential authors"
+      ],
+      "examples": [
+        "When Toni Morrison died in 2019, the world lost one of its most influential authors. 2019 年托妮·莫里森一走，文坛便少了位分量极重的作家。"
+      ]
+    },
+    "knowledge": {
+      "phonetic": "/ˈnɒlɪdʒ/",
+      "pos": "n.",
+      "sense": "知识、学问、了解、知晓（不可数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "knowledge（知识、了解，不可数，不说 knowledges）/ a (good) knowledge of（对…的了解，可加 a）/ to the best of one's knowledge（据某人所知）/ knowledgeable（知识渊博的）/ know（动词）/ acknowledgement（承认，拼写易混）"
+      },
+      "collocations": [
+        "knowledge of",
+        "knowledge of word"
+      ],
+      "examples": [
+        "Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood. 像词汇量这类语言本事，反倒是到了中年、老年还在长。"
+      ]
+    },
+    "language": {
+      "phonetic": "/ˈlæŋɡwɪdʒ/",
+      "pos": "n.",
+      "sense": "语言",
+      "collocations": [
+        "the English language",
+        "body language"
+      ],
+      "examples": [
+        "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood. 眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "last": {
+      "phonetic": "/lɑːst/",
+      "pos": "adj./v.",
+      "sense": "最后的；上一个的 / 持续",
+      "collocations": [
+        "last week",
+        "at last",
+        "last for"
+      ],
+      "examples": [
+        "In the last 12 months, few were bullied. 过去 12 个月里很少有人被欺凌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "last（最后的/上一个）/ latest（最新的）/ latter（后者）"
+      }
+    },
+    "late": {
+      "phonetic": "/leɪt/",
+      "pos": "adj./adv.",
+      "sense": "迟的、晚的、后期的、已故的；迟、晚、最近",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "late adulthood"
+      ],
+      "examples": [
+        "Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood. 像词汇量这类语言本事，反倒是到了中年、老年还在长。"
+      ],
+      "more": {
+        "confusables": "late / latest / later（同族不同词形，注意词性与用法）"
+      }
+    },
+    "latest": {
+      "phonetic": "/ˈleɪtɪst/",
+      "pos": "adj./n.",
+      "sense": "最新的、最近的；最新消息 / 款式（late 的最高级；本文 the latest figures / the latest analyst data 最新数据 / the latest research 最新研究）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "latest research"
+      ],
+      "examples": [
+        "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. 确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。"
+      ],
+      "more": {
+        "confusables": "latest / late / later（同族不同词形，注意词性与用法）"
+      }
+    },
+    "learn": {
+      "phonetic": "/lɜːn/",
+      "pos": "v.",
+      "sense": "学习、学会",
+      "collocations": [
+        "learn to do",
+        "learn from"
+      ],
+      "examples": [
+        "We learn from mistakes. 我们从错误中学习。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "learn / learning（同族不同词形，注意词性与用法）"
+      }
+    },
+    "lives": {
+      "phonetic": "/lɪvz/",
+      "pos": "v./adj.",
+      "sense": "生活、居住、活着、生存；现场的、直播的（形容词读 /laɪv/）（live 的复数/三单形式）",
+      "lemma": "live",
+      "collocations": [],
+      "examples": [
+        "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. 确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "live + -s（复数/三单）",
+        "confusables": "lives（复数/三单）/ live（原形）"
+      }
+    },
+    "lost": {
+      "phonetic": "/lɒst/",
+      "pos": "v./adj.",
+      "sense": "失去、丢失、输掉、迷失（lose 的过去式）；迷路的、丢失的、不知所措的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "world lost"
+      ],
+      "examples": [
+        "When Toni Morrison died in 2019, the world lost one of its most influential authors. 2019 年托妮·莫里森一走，文坛便少了位分量极重的作家。"
+      ]
+    },
+    "masterpieces": {
+      "phonetic": "/ˈmɑːstəpiːsɪz/",
+      "pos": "n.",
+      "sense": "杰作、代表作、名作（masterpiece 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "produce masterpieces",
+        "masterpieces well"
+      ],
+      "examples": [
+        "Numerous writers produce masterpieces well into their 70s and beyond. 不少作家七老八十了，照样写得出一流作品。"
+      ]
+    },
+    "mastery": {
+      "phonetic": "/ˈmɑːstəri/",
+      "pos": "n.",
+      "sense": "精通、掌握、熟练（mastery of sth 对…的熟练掌握）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "language mastery"
+      ],
+      "examples": [
+        "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. 确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。"
+      ],
+      "more": {
+        "confusables": "mastery / mastered / masterpieces（同族不同词形，注意词性与用法）"
+      }
+    },
+    "meaning": {
+      "phonetic": "/ˈmiːnɪŋ/",
+      "pos": "n./adj./v.",
+      "sense": "意义、含义、意思；意味深长的；意味着、打算（mean 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "meaning of",
+        "meaning of words"
+      ],
+      "examples": [
+        "In another study, older adults, with an average age of 75, 34 better than participants in their youth or middle years on tasks that required them to determine the meaning of words. 还有一项实验里，平均 75 岁的老人做「判断词义」的题目，成绩竟比年轻人、中年人还好。"
+      ],
+      "more": {
+        "confusables": "meaning / meaningful / meanings（同族不同词形，注意词性与用法）"
+      }
+    },
+    "meanings": {
+      "phonetic": "/ˈmiːnɪŋz/",
+      "pos": "n./adj./v.",
+      "sense": "意义、含义、意思；意味深长的；意味着、打算（mean 的现在分词）（meaning 的复数/三单形式）",
+      "lemma": "meaning",
+      "collocations": [
+        "word meanings"
+      ],
+      "examples": [
+        "Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood. 像词汇量这类语言本事，反倒是到了中年、老年还在长。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "meaning + -s（复数/三单）",
+        "confusables": "meanings（复数/三单）/ meaning（原形）"
+      }
+    },
+    "middle": {
+      "phonetic": "/ˈmɪdl/",
+      "pos": "n./adj.",
+      "sense": "中间、中部、中央、腰部；中间的、中部的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "middle years"
+      ],
+      "examples": [
+        "Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood. 像词汇量这类语言本事，反倒是到了中年、老年还在长。"
+      ]
+    },
+    "new": {
+      "phonetic": "/njuː/",
+      "pos": "adj.",
+      "sense": "新的；新近的",
+      "collocations": [
+        "new technologies",
+        "brand new",
+        "new to sth"
+      ],
+      "examples": [
+        "New tools always provoke worry. 新工具总会引发担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "novel": {
+      "phonetic": "/ˈnɒvl/",
+      "pos": "adj./n.",
+      "sense": "新颖的、新奇的（形容词）；小说（名词）",
+      "collocations": [
+        "novel situations",
+        "a novel idea",
+        "read a novel"
+      ],
+      "examples": [
+        "Novel situations limit the practicality of data. 全新情境会限制数据的实用性。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "novel（新颖的/小说）/ novelty（新奇）/ new（新的）"
+      }
+    },
+    "numerous": {
+      "phonetic": "/ˈnjuːmərəs/",
+      "pos": "adj.",
+      "sense": "众多的、许多的（修饰复数名词；本文 Numerous writers / Numerous documentaries 众多作家 / 众多纪录片）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Numerous writers"
+      ],
+      "examples": [
+        "Numerous writers produce masterpieces well into their 70s and beyond. 不少作家七老八十了，照样写得出一流作品。"
+      ],
+      "more": {
+        "roots": "numerous 含 -ous（形容词后缀）"
+      }
+    },
+    "older": {
+      "phonetic": "/əʊldə(r)/",
+      "pos": "adj.",
+      "sense": "老的、年老的、旧的、古老的、从前的；…岁的（old 的比较级形式）",
+      "lemma": "old",
+      "collocations": [
+        "older adulthood",
+        "preserved into older",
+        "older adults"
+      ],
+      "examples": [
+        "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood. 眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "old + -er（比较级）",
+        "confusables": "older（比较级）/ old（原形）"
+      }
+    },
+    "participants": {
+      "phonetic": "/pɑːˈtɪsɪpənts/",
+      "pos": "n.",
+      "sense": "participant 的复数，参与者、受试者",
+      "collocations": [
+        "participants in"
+      ],
+      "examples": [
+        "In another study, older adults, with an average age of 75, 34 better than participants in their youth or middle years on tasks that required them to determine the meaning of words. 还有一项实验里，平均 75 岁的老人做「判断词义」的题目，成绩竟比年轻人、中年人还好。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "point": {
+      "phonetic": "/pɔɪnt/",
+      "pos": "n./v.",
+      "sense": "观点、要点（可数）；分数 / 指出（point out）",
+      "collocations": [
+        "the point is",
+        "point out",
+        "make a point"
+      ],
+      "examples": [
+        "The point is not to blame parents. 重点不是责怪家长。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "point out（指出）/ point to（表明）/ the point is（关键是）"
+      }
+    },
+    "preserved": {
+      "phonetic": "/prɪˈzɜːvd/",
+      "pos": "v./n.",
+      "sense": "保护、保存、维持、保留；腌制、保藏；专属领域（preserve 的过去式/过去分词形式）",
+      "lemma": "preserve",
+      "collocations": [
+        "well preserved",
+        "preserved into",
+        "preserved into older"
+      ],
+      "examples": [
+        "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood. 眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "preserve + -d（过去式/过去分词）",
+        "confusables": "preserved（过去式/过去分词）/ preserve（原形）"
+      }
+    },
+    "produce": {
+      "phonetic": "/prəˈdjuːs/",
+      "pos": "v./n.",
+      "sense": "生产、制造、产出、产生；农产品、产物（名词读 /ˈprɒdjuːs/）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "writers produce",
+        "produce masterpieces",
+        "ability to produce"
+      ],
+      "examples": [
+        "Numerous writers produce masterpieces well into their 70s and beyond. 不少作家七老八十了，照样写得出一流作品。"
+      ],
+      "more": {
+        "confusables": "produce / productivity / production（同族不同词形，注意词性与用法）"
+      }
+    },
+    "published": {
+      "phonetic": "/ˈpʌblɪʃt/",
+      "pos": "v.",
+      "sense": "publish 的过去式/过去分词（发表、出版）",
+      "lemma": "publish",
+      "collocations": [
+        "published in the journal",
+        "be published",
+        "publish a study"
+      ],
+      "examples": [
+        "One recent study published in PLOS ONE found... 最近发表在《PLOS ONE》上的一项研究……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "published（发表）/ publication（发表，名词）/ publish"
+      }
+    },
+    "recall": {
+      "phonetic": "/rɪˈkɔːl/",
+      "pos": "v./n.",
+      "sense": "回忆、回想起、记得；召回（产品或人员）；记忆力、召回",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood. 眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。"
+      ]
+    },
+    "regard": {
+      "phonetic": "/rɪˈɡɑːd/",
+      "pos": "v./n.",
+      "sense": "认为、看作、看待；关注、尊重、致意（regard A as B / in regard to / with regard to）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "And Morrison was not 26 in this regard. 这种「晚成到老」的情况，她并不是独一份。"
+      ],
+      "more": {
+        "confusables": "regard / regardless / regained（同族不同词形，注意词性与用法）"
+      }
+    },
+    "required": {
+      "phonetic": "/rɪˈkwaɪə(r)d/",
+      "pos": "v.",
+      "sense": "需要、要求（require sb to do / require that）（require 的过去式/过去分词形式）",
+      "lemma": "require",
+      "collocations": [],
+      "examples": [
+        "In another study, older adults, with an average age of 75, 34 better than participants in their youth or middle years on tasks that required them to determine the meaning of words. 还有一项实验里，平均 75 岁的老人做「判断词义」的题目，成绩竟比年轻人、中年人还好。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "require + -d（过去式/过去分词）",
+        "confusables": "required（过去式/过去分词）/ require（原形）"
+      }
+    },
+    "research": {
+      "phonetic": "/rɪˈsɜːtʃ/",
+      "pos": "n./v.",
+      "sense": "研究（不可数）；调查 / 研究",
+      "collocations": [
+        "a body of research",
+        "research on sth",
+        "research shows"
+      ],
+      "examples": [
+        "A growing body of research supports this. 越来越多的研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "research（不可数）/ study（可数，一项研究）/ researches（罕用）"
+      }
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "researcher 的复数，研究人员",
+      "collocations": [],
+      "examples": [
+        "The researchers also studied a 32 of college students and found that their average vocabulary contained 33 16,000 words. 同一批研究者又测了一组大学生，结果这些年轻人的词汇量大约只有一万六。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researchers / researcher（同族不同词形，注意词性与用法）"
+      }
+    },
+    "rest": {
+      "phonetic": "/rest/",
+      "pos": "n./v.",
+      "sense": "休息、睡眠；其余、剩余部分、其他人；倚靠、搁置、取决于",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "rest of"
+      ],
+      "examples": [
+        "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. 确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。"
+      ],
+      "more": {
+        "confusables": "rest / restrain / restrictions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "seem": {
+      "phonetic": "/siːm/",
+      "pos": "v.",
+      "sense": "似乎、好像（seem + adj. / seem to do）",
+      "collocations": [
+        "seem to be",
+        "it seems that",
+        "seemingly"
+      ],
+      "examples": [
+        "People who skip leisure seem higher in status. 跳过休闲的人似乎地位更高。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "seem（似乎）/ appear（显得，更正式）/ look（看起来）"
+      }
+    },
+    "seems": {
+      "phonetic": "/siːmz/",
+      "pos": "v.",
+      "sense": "似乎、好像（seem + adj. / seem to do）（seem 的复数/三单形式）",
+      "lemma": "seem",
+      "collocations": [
+        "language seems",
+        "seems to"
+      ],
+      "examples": [
+        "Thus, language seems to be a skill that, contrary to what many might 35 , does not weaken with age. 所以说到底，语言这门本事跟很多人想的正相反——它不会随年纪变弱。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "seem + -s（复数/三单）",
+        "confusables": "seems（复数/三单）/ seem（原形）"
+      }
+    },
+    "shows": {
+      "phonetic": "/ʃəʊz/",
+      "pos": "v./n.",
+      "sense": "显示、表明、展示（show 的第三人称单数）；演出、节目（复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "aging shows"
+      ],
+      "examples": [
+        "Indeed, the latest research that has emerged on language and aging shows that language mastery is a 30 that we begin as infants and continue on for the rest of our lives. 确实，最新研究也这么说：驾驭语言是一趟从婴儿起步、一直走到生命尽头的旅程。"
+      ],
+      "more": {
+        "confusables": "shows / show（同族不同词形，注意词性与用法）"
+      }
+    },
+    "size": {
+      "phonetic": "/saɪz/",
+      "pos": "n./v.",
+      "sense": "大小、尺寸、规模、尺码；按大小排列或归类（常与数量、份量对比）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "vocabulary size",
+        "size of"
+      ],
+      "examples": [
+        "One study, for example, found that adults over sixty had an average vocabulary size of over 21,000 words. 举例说，有研究发现六十岁以上的人平均掌握两万一千多个词。"
+      ],
+      "more": {
+        "roots": "size 含 -ize / -ise（动词后缀，表「使……化」）"
+      }
+    },
+    "skill": {
+      "phonetic": "/skɪl/",
+      "pos": "n.",
+      "sense": "技能、技巧、技艺；熟练（本文 language seems to be a skill 语言似乎是一种技能 / building financial skills 培养理财技能）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Thus, language seems to be a skill that, contrary to what many might 35 , does not weaken with age. 所以说到底，语言这门本事跟很多人想的正相反——它不会随年纪变弱。"
+      ],
+      "more": {
+        "confusables": "skill / skilled / skills（同族不同词形，注意词性与用法）"
+      }
+    },
+    "speak": {
+      "phonetic": "/spiːk/",
+      "pos": "v.",
+      "sense": "说话、讲（某种语言）",
+      "collocations": [
+        "speak in the abstract",
+        "speak English"
+      ],
+      "examples": [
+        "Our capacity to speak, write and learn new vocabulary does not seem to 28 with age. 人说、写、记新词这套本事，好像并不会因为上了年纪就走下坡。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "students": {
+      "phonetic": "/ˈstjuːdnts/",
+      "pos": "n.",
+      "sense": "学生、大学生、学员（student 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "study（学习）+ -ent（表人）+ -s（复数）",
+        "confusables": "student（学生，尤中学及以上/大学；也泛指研究者）/ pupil（尤英式，中小学生；也指瞳孔）/ study（学习；研究）/ studious（用功的）"
+      },
+      "collocations": [
+        "college students"
+      ],
+      "examples": [
+        "The researchers also studied a 32 of college students and found that their average vocabulary contained 33 16,000 words. 同一批研究者又测了一组大学生，结果这些年轻人的词汇量大约只有一万六。"
+      ]
+    },
+    "studied": {
+      "phonetic": "/ˈstʌdid/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习（study 的过去式/过去分词形式）",
+      "lemma": "study",
+      "collocations": [],
+      "examples": [
+        "The researchers also studied a 32 of college students and found that their average vocabulary contained 33 16,000 words. 同一批研究者又测了一组大学生，结果这些年轻人的词汇量大约只有一万六。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "study + -ied（过去式/过去分词）",
+        "confusables": "studied（过去式/过去分词）/ study（原形）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "success": {
+      "phonetic": "/səkˈses/",
+      "pos": "n.",
+      "sense": "成功、成就",
+      "collocations": [
+        "achieve success",
+        "the key to success"
+      ],
+      "examples": [
+        "Hard work is not the only route to success. 努力并非成功的唯一路径。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "success / successful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "tasks": {
+      "phonetic": "/tɑːsks/",
+      "pos": "n.",
+      "sense": "任务（task 的复数）",
+      "lemma": "task",
+      "collocations": [
+        "household tasks",
+        "complete a task"
+      ],
+      "examples": [
+        "Splitting tasks fairly matters. 公平分担任务很重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "task（任务）/ work（工作）/ chore（家务杂事）"
+      }
+    },
+    "until": {
+      "phonetic": "/ənˈtɪl/",
+      "pos": "prep./conj.",
+      "sense": "直到（时间）；直到……才（用于否定句）",
+      "collocations": [
+        "until now",
+        "not ... until",
+        "until then"
+      ],
+      "examples": [
+        "Kids may not change until they are older. 孩子可能到更大才会改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "until（直到）/ till（同义，口语）/ not ... until（直到……才）"
+      }
+    },
+    "vocabulary": {
+      "phonetic": "/vəˈkæbjələri/",
+      "pos": "n.",
+      "sense": "词汇、词汇量、词汇表、用语（learn new vocabulary / a wide vocabulary）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "new vocabulary",
+        "average vocabulary",
+        "vocabulary size"
+      ],
+      "examples": [
+        "Our capacity to speak, write and learn new vocabulary does not seem to 28 with age. 人说、写、记新词这套本事，好像并不会因为上了年纪就走下坡。"
+      ]
+    },
+    "weaken": {
+      "phonetic": "/ˈwiːkən/",
+      "pos": "v.",
+      "sense": "（使）变弱、削弱、减弱、动摇（weaken the case / 削弱论据；反义 strengthen）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "weaken with",
+        "weaken with age"
+      ],
+      "examples": [
+        "Our eyesight may dim and our recall may weaken, but, by comparison, our ability to produce and to 29 language is well preserved into older adulthood. 眼睛会花、记性会退，可一比之下，说话、懂话这套本事到老都还留得住。"
+      ],
+      "more": {
+        "confusables": "weaken / weakening（同族不同词形，注意词性与用法）"
+      }
+    },
+    "well": {
+      "phonetic": "/wel/",
+      "pos": "adv./adj.",
+      "sense": "好地（副词）；健康的（形容词）；井（名词）",
+      "collocations": [
+        "as well",
+        "well-being",
+        "do well"
+      ],
+      "examples": [
+        "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "well（好地/健康）/ good（好的，形容词）/ as well（也）"
+      }
+    },
+    "word": {
+      "phonetic": "/wɜːd/",
+      "pos": "n.",
+      "sense": "词、单词、字；话语、言语、消息、信息、承诺、命令",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "word meanings",
+        "knowledge of word"
+      ],
+      "examples": [
+        "Some aspects of our language abilities, such as our knowledge of word meanings, 31 improve during middle and late adulthood. 像词汇量这类语言本事，反倒是到了中年、老年还在长。"
+      ],
+      "more": {
+        "confusables": "word / words / wordier（同族不同词形，注意词性与用法）"
+      }
+    },
+    "words": {
+      "phonetic": "/wɜːdz/",
+      "pos": "n.",
+      "sense": "单词、话语（word 的复数）",
+      "lemma": "word",
+      "collocations": [
+        "in other words",
+        "in a word",
+        "words of"
+      ],
+      "examples": [
+        "In other words, the more we believe in effort... 换句话说，我们越相信努力……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in other words（换句话说）/ in a word（简言之）/ word（单词）"
+      }
+    },
+    "world": {
+      "phonetic": "/wɜːld/",
+      "pos": "n.",
+      "sense": "世界；领域；世人",
+      "collocations": [
+        "around the world",
+        "the world of work",
+        "real world"
+      ],
+      "examples": [
+        "The idea spread around the world. 这个想法传遍世界。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "world（世界）/ word（单词）读音与拼写易混"
+      }
+    },
+    "write": {
+      "phonetic": "/raɪt/",
+      "pos": "v.",
+      "sense": "写、书写、写作、写信（本文 speak, write and learn new vocabulary / write a book 写书）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Our capacity to speak, write and learn new vocabulary does not seem to 28 with age. 人说、写、记新词这套本事，好像并不会因为上了年纪就走下坡。"
+      ],
+      "more": {
+        "confusables": "write / writing / written（同族不同词形，注意词性与用法）"
+      }
+    },
+    "writers": {
+      "phonetic": "/ˈraɪtəz/",
+      "pos": "n.",
+      "sense": "作者、作家（writer 的复数；Numerous writers 众多作家）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "Numerous writers",
+        "writers produce"
+      ],
+      "examples": [
+        "Numerous writers produce masterpieces well into their 70s and beyond. 不少作家七老八十了，照样写得出一流作品。"
+      ],
+      "more": {
+        "confusables": "writers / writes / write（同族不同词形，注意词性与用法）"
+      }
+    },
+    "years": {
+      "phonetic": "/jɪəz/",
+      "pos": "n.",
+      "sense": "年、年份；岁数、年纪（year 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "year（年）+ -s（复数）",
+        "confusables": "year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）"
+      },
+      "collocations": [
+        "middle years",
+        "years on",
+        "years on tasks"
+      ],
+      "examples": [
+        "In another study, older adults, with an average age of 75, 34 better than participants in their youth or middle years on tasks that required them to determine the meaning of words. 还有一项实验里，平均 75 岁的老人做「判断词义」的题目，成绩竟比年轻人、中年人还好。"
+      ]
+    },
+    "youth": {
+      "phonetic": "/juːθ/",
+      "pos": "n.",
+      "sense": "青年时期、青春；年轻人、青年（本文 in their youth 年轻时 / Australia's youth 澳大利亚年轻人）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "In another study, older adults, with an average age of 75, 34 better than participants in their youth or middle years on tasks that required them to determine the meaning of words. 还有一项实验里，平均 75 岁的老人做「判断词义」的题目，成绩竟比年轻人、中年人还好。"
+      ]
+    }
+  }
+}

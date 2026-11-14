@@ -1,39 +1,42 @@
 #!/usr/bin/env node
 /**
- * M1 AC6 断言 + **M2 回归基线**：把运行期库里的 274 句 / 6699 token 灌进纯函数 `renderTokens`，逐条验：
+ * M1 AC6 断言 + **M2 回归基线**：把**内容包全量**（72 篇 / 1771 句 / 39996 token）灌进纯函数 `renderTokens`，逐条验：
  *   ① 每个 token 之前的那段文本（`text.slice(prev, t.start)`）全是空白
  *   ② `text.slice(t.start, t.end) === t.surface`（**0 例外**）
  *   ③ 末 token 的 `end === text.length`
- *   ④ 空格分母精确：非词（isWord===false）纯数字 token 共 92 个 → ∈ blankNos 的 30 个出
- *      `data-blank-no`（节点 kind=blank）、另外 62 个不出
+ *   ④ 空格分母精确：非词（isWord===false）纯数字 token 共 429 个 → ∈ blankNos 的 176 个出
+ *      `data-blank-no`（节点 kind=blank）、另外 253 个不出
+ *      注：blank 表有 180 行，其中 **4 个空格位在正文里没有对应数字 token**
+ *      （2024-06-set1Cloze #28 / 2026-06-set1Cloze #35 / 2026-06-set2Cloze #33、#34）
+ *      —— 源内容缺陷，已记 M16 执行自测 concerns；脚本把它显式打印成缺口清单，不静默吞掉
  *   ⑤ 固有数字零误判：150 / 1997 / 88,000 不得成为空格节点
  *   ⑥ 长文（set3Long，58 句 / 1208 token）纯函数重复 100 次取中位数 < 50ms
  *   ⑦ 拼回原文：所有节点 text 顺序拼接 === 句原文（不漏字、不重复）
  *   ⑧ 段落级还原：`renderParagraph(paragraph.text, sentences)` 拼出的段落文本 === `paragraph.text`
- *      （90 段逐一，句间/句末空隙不得丢；修复前「句子 text 直接拼接」有 75 段不等）
+ *      （538 段逐一，句间/句末空隙不得丢；修复前「句子 text 直接拼接」有 75/90 段不等）
  *   ⑨ 结构：句段数 === 句子总数，空隙段只出现在句间/首尾
+ *
+ * 数据源（M16 D4）：**脚本内自建 `:memory:` 临时库**（`lib/temp-pack-db.mjs`：跑真迁移 SQL + 按 manifest
+ * 顺序灌 content-pack），不再读 `%APPDATA%\com.judou.app\judou.db`——门禁验的是「schema + 内容包」，
+ * 不该以「用户机器上启动过应用」为前提。
  *
  * 为什么跑纯函数而不是 DOM：`render.ts` 不依赖 DOM（05 §四 规则 7），
  * node 里直接 import 同一份实现即可；DOM 层面的题目折叠/选项不可点由 CDP 断言（M2 AC6）。
  *
- * 口径（D-M1-4 收口）：脚本里的数字（274 句 / 6699 token / 90 段 / 30·62 空格 / 58 句·1208 token）
- * 都是**内置内容包当前事实**（manifest packVersion 对应值），不是常量契约；内容包升级时同步更新断言。
+ * 口径（D-M1-4 收口 / M16 更新）：脚本里的数字（1771 句 / 39996 token / 538 段 / 429·176 空格 /
+ * 58 句·1208 token）都是**内置内容包当前事实**（manifest packVersion 对应值），不是常量契约；
+ * 内容包升级时跑 `node scripts/gen-pack-manifest.mjs` 后同步这些数字。
  *
- * 用法：node scripts/verify-render.mjs [dbPath]
+ * 用法：node scripts/verify-render.mjs
  */
-import { DatabaseSync } from "node:sqlite";
-import { existsSync } from "node:fs";
 import path from "node:path";
+import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { openTempPackDb } from "./lib/temp-pack-db.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const dbPath = process.argv[2] ?? path.join(process.env.APPDATA ?? "", "com.judou.app", "judou.db");
 const renderPath = path.join(root, "src", "lib", "render.ts");
 
-if (!existsSync(dbPath)) {
-  console.error(`FAIL: 库文件不存在（应用是否启动过？）：${dbPath}`);
-  process.exit(1);
-}
 if (!existsSync(renderPath)) {
   console.error(`FAIL: 纯函数不存在：${renderPath}`);
   process.exit(1);
@@ -42,7 +45,7 @@ if (!existsSync(renderPath)) {
 // Node 24 可直接 import .ts（要求 erasable 语法，见 02 D6 R8）
 const { renderTokens, renderParagraph } = await import(`file://${renderPath.replace(/\\/g, "/")}`);
 
-const db = new DatabaseSync(dbPath, { readOnly: true });
+const db = openTempPackDb({ withContent: true });
 
 const sentences = db
   .prepare(
@@ -90,10 +93,9 @@ const fail = (msg) => {
   failed = true;
 };
 
-console.log(`库路径: ${dbPath}`);
 console.log(`句子 ${sentences.length} / token ${tokenRows.length}`);
-if (sentences.length !== 274) fail(`句子应为 274，实测 ${sentences.length}`);
-if (tokenRows.length !== 6699) fail(`token 应为 6699，实测 ${tokenRows.length}`);
+if (sentences.length !== 1771) fail(`句子应为 1771，实测 ${sentences.length}`);
+if (tokenRows.length !== 39996) fail(`token 应为 39996，实测 ${tokenRows.length}`);
 
 // ── ①②③⑦ 切片与拼回（全量逐句） ──
 let slicedOk = 0;
@@ -197,11 +199,11 @@ for (const paragraph of paragraphs) {
 console.log(`  ⑧ 段落还原        ${paraOk}/${paraOk + paraBad}（库内共 ${paragraphs.length} 段）`);
 console.log(`  ⑨ 句段 / 空隙段   ${sentenceParts} 句段 / ${gapParts} 空隙段（其中非空 ${gapNonEmpty}）`);
 if (paraSamples.length) console.log(`  样例（最多 3 条）：${JSON.stringify(paraSamples)}`);
-if (paragraphs.length !== 90) fail(`段落应为 90，实测 ${paragraphs.length}`);
+if (paragraphs.length !== 538) fail(`段落应为 538，实测 ${paragraphs.length}`);
 if (sentenceParts !== sentences.length) fail(`句段应 ${sentences.length} 个，实测 ${sentenceParts}`);
 if (paraBad) fail(`有 ${paraBad} 段渲染后与 paragraph.text 不等（句间空隙丢失 → 句子粘连）`);
 
-// ── ④ 空格分母：92 个非词纯数字 → 30 出空格 / 62 不出 ──
+// ── ④ 空格分母：429 个非词纯数字 → 176 出空格 / 253 不出（180 个 blank 行里 4 个正文缺位）──
 console.log(`\n── 空格分母（isWord===false ∧ /^\\d+$/ ∧ ∈ blankNos）──`);
 let nonWordNumeric = 0;
 let blankHit = 0;
@@ -228,13 +230,35 @@ for (const sentence of sentences) {
     else fail(`token「${token.surface}」(start=${token.start}) 空格判定错：应为${shouldBeBlank ? "空格" : "普通文本"}`);
   }
 }
-console.log(`  非词纯数字 token      ${nonWordNumeric}（期望 92）`);
-console.log(`  其中出空格节点        ${blankHit}（期望 30）`);
-console.log(`  其中不出空格节点      ${blankMiss}（期望 62）`);
+console.log(`  非词纯数字 token      ${nonWordNumeric}（期望 429）`);
+console.log(`  其中出空格节点        ${blankHit}（期望 176）`);
+console.log(`  其中不出空格节点      ${blankMiss}（期望 253）`);
 console.log(`  空格节点 surface 集合 ${JSON.stringify([...blankSurfaces].sort((a, b) => Number(a) - Number(b)))}`);
-if (nonWordNumeric !== 92) fail(`非词纯数字应为 92，实测 ${nonWordNumeric}`);
-if (blankHit !== 30) fail(`空格节点应为 30，实测 ${blankHit}`);
-if (blankMiss !== 62) fail(`非空格的非词数字应为 62，实测 ${blankMiss}`);
+if (nonWordNumeric !== 429) fail(`非词纯数字应为 429，实测 ${nonWordNumeric}`);
+if (blankHit !== 176) fail(`空格节点应为 176，实测 ${blankHit}`);
+if (blankMiss !== 253) fail(`非空格的非词数字应为 253，实测 ${blankMiss}`);
+
+// ── ④b 空格缺口清单：blank 行里正文没有对应数字 token 的（源内容缺陷，显式打印、不静默吞）──
+const blankDeclared = db
+  .prepare(
+    "SELECT b.blank_no, a.id AS article_id, a.source_key FROM blank b JOIN article a ON a.id = b.article_id ORDER BY a.source_key, b.blank_no",
+  )
+  .all();
+const numericByArticle = new Map();
+for (const sentence of sentences) {
+  const set = numericByArticle.get(sentence.article_id) ?? new Set();
+  for (const token of tokensBySentence.get(sentence.id) ?? []) {
+    if (token.isWord === false && /^\d+$/.test(token.surface)) set.add(token.surface);
+  }
+  numericByArticle.set(sentence.article_id, set);
+}
+const missingBlanks = blankDeclared.filter(
+  (row) => !(numericByArticle.get(row.article_id) ?? new Set()).has(String(row.blank_no)),
+);
+console.log(
+  `  blank 行 ${blankDeclared.length} ｜ 正文缺位 ${missingBlanks.length}` +
+    (missingBlanks.length ? ` → ${missingBlanks.map((r) => `${r.source_key}#${r.blank_no}`).join(", ")}` : ""),
+);
 
 // ── ⑤ 固有数字零误判 ──
 console.log(`\n── 固有数字零误判 ──`);
@@ -281,4 +305,4 @@ if (failed) {
   console.error("\nFAIL: renderTokens 未通过 AC6 判据");
   process.exit(1);
 }
-console.log("\nPASS: 6699 token 切片零例外 / 空格 30·62 / 固有数字零误判 / 长文中位数 < 50ms / 拼回原文 / 段落 90/90 无损还原");
+console.log("\nPASS: 39996 token 切片零例外 / 空格 176·253（4 处内容缺口已列）/ 固有数字零误判 / 长文中位数 < 50ms / 拼回原文 / 段落 538/538 无损还原");

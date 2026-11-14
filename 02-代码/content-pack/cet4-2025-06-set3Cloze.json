@@ -1,0 +1,4820 @@
+{
+  "sourceKey": "cet4-2025-06-set3Cloze",
+  "articleId": "set3Cloze",
+  "packVersion": "2026.11.08-1",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 6,
+    "setNo": 3,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "The Brain's Amazing Ability to Change",
+    "wordCount": 248
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "The human brain has the ability to constantly form new networks and connections between brain cells. This means the brain has an almost magical ability to change. This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 100,
+          "text": "The human brain has the ability to constantly form new networks and connections between brain cells.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "surface": "human",
+              "normalized": "human",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 23,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 31,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 45,
+              "surface": "constantly",
+              "normalized": "constantly",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 50,
+              "surface": "form",
+              "normalized": "form",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "new",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 63,
+              "surface": "networks",
+              "normalized": "networks",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 67,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 79,
+              "surface": "connections",
+              "normalized": "connections",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 87,
+              "surface": "between",
+              "normalized": "between",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 93,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 99,
+              "surface": "cells",
+              "normalized": "cells",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 100,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "人类大脑拥有去不断地在脑细胞之间形成新网络与连接的能力。",
+            "translationNatural": "人脑能不断在脑细胞之间搭起新的网络和连线。",
+            "structMarkup": "【The human brain】 _has the ability_ (to constantly form new networks and connections) (between brain cells).",
+            "structureSummary": "主谓宾 + 不定式作后置定语（含介词短语作状语）",
+            "components": [
+              {
+                "part": "The human brain",
+                "role": "主语",
+                "note": "单数名词短语，谓语用第三人称单数 has；定冠词 the 把对象锁定为「人脑」这一整体，而非某个具体的大脑"
+              },
+              {
+                "part": "has the ability",
+                "role": "谓语+宾语",
+                "note": "have the ability to do 是固定框架，能力的具体内容由后面的不定式补出，宾语到 ability 先收住"
+              },
+              {
+                "part": "to constantly form new networks and connections",
+                "role": "定语",
+                "note": "不定式作 ability 的后置定语；constantly 插在 to 与 form 之间，修饰「形成」这一动作的持续反复"
+              },
+              {
+                "part": "between brain cells",
+                "role": "状语",
+                "note": "介词短语限定 networks and connections 发生在「脑细胞之间」，把连接的位置钉死，而不是别处"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 不定式作后置定语（含介词短语作状语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "ability",
+                "meaning": "能力（可数/不可数）；才能",
+                "usage": "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。常见搭配：the ability to do sth / natural ability。",
+                "example": "The ability to focus is underrated. 专注的能力被低估了。"
+              },
+              {
+                "text": "human",
+                "meaning": "人的、人类的、有人情味的；人、人类（human being）",
+                "usage": "本句中作adj./n.，可按「主谓宾 + 不定式作后置定语（含介词短语作状语）」定位它在句中的位置。",
+                "example": "The human brain has the ability to constantly form new networks and connections between brain cells. 人脑能不断在脑细胞之间搭起新的网络和连线。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。",
+              "注意区分：new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）。"
+            ],
+            "paragraphRole": "开篇立起全文命题：大脑具备持续重组连接的能力，为下句「几乎神奇的可变性」和 26 空所在的半球切除研究定调。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 101,
+          "end": 162,
+          "text": "This means the brain has an almost magical ability to change.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "means",
+              "normalized": "means",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 27,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 34,
+              "surface": "almost",
+              "normalized": "almost",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 42,
+              "surface": "magical",
+              "normalized": "magical",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 50,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 53,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 60,
+              "surface": "change",
+              "normalized": "change",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 61,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这意味着大脑拥有一种几乎神奇的去改变的能力。",
+            "translationNatural": "换句话说，大脑改变自身这件事，简直像会变魔术。",
+            "structMarkup": "【This】 _means_ {the brain has an almost magical ability to change}.",
+            "structureSummary": "主谓 + 宾语从句（省略连词 that）+ 不定式作后置定语",
+            "components": [
+              {
+                "part": "This",
+                "role": "主语",
+                "note": "回指上一句「能不断形成新连接」这整件事，用代词避免把长句整个复述一遍"
+              },
+              {
+                "part": "means",
+                "role": "谓语",
+                "note": "后接省略 that 的宾语从句，作用是把前句的客观机制换一种说法点明，而非引出新事实"
+              },
+              {
+                "part": "the brain has an almost magical ability to change",
+                "role": "宾语从句",
+                "note": "从句内仍是 have the ability to do 框架；almost magical 把前句的客观描述升格为带感叹色彩的评价"
+              },
+              {
+                "part": "to change",
+                "role": "定语",
+                "note": "不定式作 ability 的后置定语；此处 change 不及物，指大脑自身改变，不接宾语，与首句 form 的及物用法形成对照"
+              }
+            ],
+            "clauses": [
+              "宾语从句「the brain has an almost magical ability to change」：从句内仍是 have the ability to do 框架；almost magical 把前句的客观描述升格为带感叹色彩的评价",
+              "本句主干为「主谓 + 宾语从句（省略连词 that）+ 不定式作后置定语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "means",
+                "meaning": "mean 的第三人称单数；手段、方法（单复同形）",
+                "usage": "注意区分：by no means（绝不）/ by all means（当然可以）/ means（单复同形）。常见搭配：by means of / a means of。",
+                "example": "She argues the data means little. 她认为这些数据意义不大。"
+              },
+              {
+                "text": "ability",
+                "meaning": "能力（可数/不可数）；才能",
+                "usage": "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。常见搭配：the ability to do sth / natural ability。",
+                "example": "The ability to focus is underrated. 专注的能力被低估了。"
+              },
+              {
+                "text": "change",
+                "meaning": "改变、变化 / 变化、零钱",
+                "usage": "注意区分：change（改变）/ exchange（交换）/ alter（改动，更正式）。常见搭配：change behaviour / climate change。",
+                "example": "Attitudes are changing slowly. 态度正在缓慢改变。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：by no means（绝不）/ by all means（当然可以）/ means（单复同形）。",
+              "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。",
+              "注意区分：change（改变）/ exchange（交换）/ alter（改动，更正式）。"
+            ],
+            "paragraphRole": "把首句的客观机制翻成一句带评价的判断（almost magical），为紧接的 26 空「这一特性尤其明显」搭好被修饰的对象。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 163,
+          "end": 342,
+          "text": "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 19,
+              "surface": "characteristic",
+              "normalized": "characteristic",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 26,
+              "end": 34,
+              "surface": "apparent",
+              "normalized": "apparent",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 39,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 43,
+              "surface": "new",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 51,
+              "end": 59,
+              "surface": "focusing",
+              "normalized": "focusing",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 69,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 73,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 83,
+              "surface": "underwent",
+              "normalized": "underwent",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 85,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 101,
+              "surface": "hemispherectomy",
+              "normalized": "hemispherectomy",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 102,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 103,
+              "end": 104,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 113,
+              "surface": "surgical",
+              "normalized": "surgical",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 123,
+              "surface": "procedure",
+              "normalized": "procedure",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 126,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 132,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 137,
+              "surface": "half",
+              "normalized": "half",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 140,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 144,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 150,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 153,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 161,
+              "surface": "removed",
+              "normalized": "removed",
+              "isWord": true
+            },
+            {
+              "start": 162,
+              "end": 164,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 165,
+              "end": 170,
+              "surface": "treat",
+              "normalized": "treat",
+              "isWord": true
+            },
+            {
+              "start": 171,
+              "end": 178,
+              "surface": "illness",
+              "normalized": "illness",
+              "isWord": true
+            },
+            {
+              "start": 178,
+              "end": 179,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这一特性在一项新研究中是 26 明显的，该研究聚焦于接受了大脑半球切除术的人，一种在其中一半大脑被移除以治疗疾病的外科手术。",
+            "translationNatural": "这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。",
+            "structMarkup": "【This characteristic】 is 26 apparent (in a new study), (focusing on people who underwent a hemispherectomy), a surgical procedure in which half of the brain is removed to treat illness.",
+            "structureSummary": "主系表 + 现在分词短语作状语 + 定语从句（who 引导）+ 同位语（含 in which 引导的定语从句）",
+            "components": [
+              {
+                "part": "This characteristic",
+                "role": "主语",
+                "note": "回指前两句的可塑性，用名词短语把抽象性质收成一个可被副词修饰的对象"
+              },
+              {
+                "part": "is 26 apparent",
+                "role": "系表",
+                "note": "26 空夹在系动词 is 与形容词 apparent 之间，需填副词修饰 apparent；particularly 正合「尤其明显」"
+              },
+              {
+                "part": "in a new study",
+                "role": "状语",
+                "note": "介词短语点明这一特性是在哪个场合被观察到的，把论断从泛泛而谈落到具体研究"
+              },
+              {
+                "part": "focusing on people who underwent a hemispherectomy",
+                "role": "状语",
+                "note": "现在分词短语补充说明研究内容；who 引导定语从句修饰 people，underwent 是过去式"
+              },
+              {
+                "part": "a surgical procedure in which half of the brain is removed to treat illness",
+                "role": "同位语",
+                "note": "逗号后的名词短语复述 hemispherectomy 这个生僻术语；in which 引导定语从句，被动 is removed 说明手术动作"
+              }
+            ],
+            "clauses": [
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。",
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。"
+            ],
+            "phrases": [
+              {
+                "text": "characteristic",
+                "meaning": "特征、特点、特性；典型的、特有的（be characteristic of）",
+                "usage": "注意区分：characteristic（典型的，形容词；特征，可数名词）/ be characteristic of（是…的特征，介词 of）/ character（性格；人物；字符）/ characterize（以…为特征）。",
+                "example": "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness. 这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "用一项半球切除研究把「可塑性」落到实证上，并借 is 26 apparent 埋下第 26 空（副词），句末同位语又为 27 空的 organ 铺垫。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "The findings showed that, despite missing half of this critical 27 , participants could function well. This was because the 28 half of their brain strengthened. In fact, researchers found that connections and thus communication—between parts of different brain networks are actually stronger in people who had hemispherectomies than in people with intact brains. This 29 that the brain is able to compensate for loss of certain brain structure.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 102,
+          "text": "The findings showed that, despite missing half of this critical 27 , participants could function well.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "The",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "findings",
+              "normalized": "findings",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 19,
+              "surface": "showed",
+              "normalized": "showed",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 25,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 26,
+              "end": 33,
+              "surface": "despite",
+              "normalized": "despite",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 41,
+              "surface": "missing",
+              "normalized": "missing",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "half",
+              "normalized": "half",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 63,
+              "surface": "critical",
+              "normalized": "critical",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 66,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 67,
+              "end": 68,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 69,
+              "end": 81,
+              "surface": "participants",
+              "normalized": "participants",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 87,
+              "surface": "could",
+              "normalized": "could",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 96,
+              "surface": "function",
+              "normalized": "function",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 101,
+              "surface": "well",
+              "normalized": "well",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 102,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这些发现表明，尽管缺失了这一关键 27 的一半，参与者仍能良好地运作。",
+            "translationNatural": "结果显示：哪怕少了半个这么要紧的器官，受试者照样能正常运转。",
+            "structMarkup": "【The findings】 _showed_ that, (despite missing half of this critical 27) , ~participants could function well~.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，含 despite 介词短语作让步状语）",
+            "components": [
+              {
+                "part": "The findings",
+                "role": "主语",
+                "note": "复数名词，谓语用过去式 showed，回指上段那项研究得出的结果"
+              },
+              {
+                "part": "showed",
+                "role": "谓语",
+                "note": "后接 that 宾语从句陈述结论，与全文实验叙述的过去时态保持一致"
+              },
+              {
+                "part": "despite missing half of this critical 27",
+                "role": "状语",
+                "note": "despite 是介词，后接动名词 missing；27 空被 this critical 修饰、又作 half of 的宾语，需名词，organ 指「大脑这一器官」；卷面空号后另有一空格再接逗号，是原题占位排版"
+              },
+              {
+                "part": "participants could function well",
+                "role": "宾语从句主干",
+                "note": "从句用 could 表过去具备的能力；function 作动词意为「正常运作」，与前面的「缺失一半」构成全篇最核心的反差"
+              }
+            ],
+            "clauses": [
+              "宾语从句主干「participants could function well」：从句用 could 表过去具备的能力；function 作动词意为「正常运作」，与前面的「缺失一半」构成全篇最核心的反差",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "findings",
+                "meaning": "研究结果、调查发现（finding 的复数）",
+                "usage": "注意区分：findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings。",
+                "example": "The findings showed that, despite missing half of this critical 27 , participants could function well. 结果显示：哪怕少了半个这么要紧的器官，受试者照样能正常运转。"
+              },
+              {
+                "text": "showed",
+                "meaning": "显示、表明（show that）；展示 / 演出、展览（show 的过去式/过去分词形式）",
+                "usage": "注意区分：showed（过去式/过去分词）/ show（原形）。",
+                "example": "The findings showed that, despite missing half of this critical 27 , participants could function well. 结果显示：哪怕少了半个这么要紧的器官，受试者照样能正常运转。"
+              },
+              {
+                "text": "despite",
+                "meaning": "尽管、虽然（后接名词或动名词，不接从句）",
+                "usage": "注意区分：despite + 名词（不是从句）/ although + 从句。常见搭配：despite the fact that / despite progress。",
+                "example": "Despite progress, women still struggle. 尽管有进步，女性仍在艰难争取。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "注意区分：findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings。",
+              "注意区分：showed（过去式/过去分词）/ show（原形）。"
+            ],
+            "paragraphRole": "抛出全篇最反直觉的结果：切掉半个大脑仍能正常生活，27 空考被 this critical 修饰的名词。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 103,
+          "end": 160,
+          "text": "This was because the 28 half of their brain strengthened.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 16,
+              "surface": "because",
+              "normalized": "because",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 24,
+              "end": 28,
+              "surface": "half",
+              "normalized": "half",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 31,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 37,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 43,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 56,
+              "surface": "strengthened",
+              "normalized": "strengthened",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这是因为他们大脑的 28 那一半增强了。",
+            "translationNatural": "原因在于：留下来的那半边大脑反而变强了。",
+            "structMarkup": "【This】 was because 【the 28 half of their brain】 _strengthened_.",
+            "structureSummary": "主系表 + 表语从句（because 引导）",
+            "components": [
+              {
+                "part": "This",
+                "role": "主语",
+                "note": "回指上一句「受试者仍能正常运作」这一结果，而非回指某个名词"
+              },
+              {
+                "part": "was because",
+                "role": "系表",
+                "note": "because 引导的是表语从句、用来解释主语 This，而不是另起一个修饰谓语的原因状语从句"
+              },
+              {
+                "part": "the 28 half of their brain",
+                "role": "从句主语",
+                "note": "28 空在定冠词 the 与名词 half 之间，需形容词；remaining 意为「剩下的」，与被切除的那一半正相对"
+              },
+              {
+                "part": "strengthened",
+                "role": "从句谓语",
+                "note": "不及物用法，指余下半脑的连接被强化，正好解释上句为何功能没跟着受损"
+              }
+            ],
+            "clauses": [
+              "从句主语「the 28 half of their brain」：28 空在定冠词 the 与名词 half 之间，需形容词；remaining 意为「剩下的」，与被切除的那一半正相对",
+              "从句谓语「strengthened」：不及物用法，指余下半脑的连接被强化，正好解释上句为何功能没跟着受损",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。"
+            ],
+            "phrases": [
+              {
+                "text": "half of",
+                "meaning": "一半、半数",
+                "usage": "常见搭配：half of / in half。",
+                "example": "Half of the students agreed. 一半学生同意。"
+              },
+              {
+                "text": "strengthened",
+                "meaning": "加强、增强（strengthen 的过去式/过去分词形式）",
+                "usage": "注意区分：strengthened（过去式/过去分词）/ strengthen（原形）。",
+                "example": "This was because the 28 half of their brain strengthened. 原因在于：留下来的那半边大脑反而变强了。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "注意区分：strengthened（过去式/过去分词）/ strengthen（原形）。"
+            ],
+            "paragraphRole": "给出上句反常结果的机制：剩余半脑代偿增强，28 空考与「被切除」相对的形容词。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 161,
+          "end": 362,
+          "text": "In fact, researchers found that connections and thus communication—between parts of different brain networks are actually stronger in people who had hemispherectomies than in people with intact brains.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 7,
+              "surface": "fact",
+              "normalized": "fact",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 20,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 43,
+              "surface": "connections",
+              "normalized": "connections",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 47,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 52,
+              "surface": "thus",
+              "normalized": "thus",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 66,
+              "surface": "communication",
+              "normalized": "communication",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 67,
+              "surface": "—",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 67,
+              "end": 74,
+              "surface": "between",
+              "normalized": "between",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 80,
+              "surface": "parts",
+              "normalized": "parts",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 83,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 93,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 99,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 108,
+              "surface": "networks",
+              "normalized": "networks",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 112,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 121,
+              "surface": "actually",
+              "normalized": "actually",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 130,
+              "surface": "stronger",
+              "normalized": "stronger",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 133,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 140,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 144,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 148,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 166,
+              "surface": "hemispherectomies",
+              "normalized": "hemispherectomies",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 171,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 174,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 181,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 182,
+              "end": 186,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 193,
+              "surface": "intact",
+              "normalized": "intact",
+              "isWord": true
+            },
+            {
+              "start": 194,
+              "end": 200,
+              "surface": "brains",
+              "normalized": "brains",
+              "isWord": true
+            },
+            {
+              "start": 200,
+              "end": 201,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "事实上，研究者发现，不同大脑网络各部分之间的连接、因而还有通信，在做过半球切除术的人身上，实际上比在拥有完整大脑的人身上更强。",
+            "translationNatural": "研究还测到：动过半脑切除手术的人，不同脑网络之间的连接、乃至信息传递，反而比大脑完好的人更强。",
+            "structMarkup": "(In fact), _researchers found_ that 【connections and thus communication—between parts of different brain networks】 {are actually stronger in people who had hemispherectomies than in people with intact brains}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，含破折号插入语、than 比较结构与 who 引导的定语从句）",
+            "components": [
+              {
+                "part": "In fact",
+                "role": "状语",
+                "note": "把上句的推断推进到实测证据，语气上加重一层，暗示下面要给硬数据"
+              },
+              {
+                "part": "researchers found",
+                "role": "谓语",
+                "note": "后接 that 宾语从句，found 表「测出、发现」而非「创立」，与上一句的推断拉开层次"
+              },
+              {
+                "part": "connections and thus communication—between parts of different brain networks",
+                "role": "宾语从句主语",
+                "note": "两个并列名词由 and thus 连接，thus 点出「连接带来通信」的因果；破折号后的介词短语补明连接发生在「不同网络各部分之间」"
+              },
+              {
+                "part": "are actually stronger in people who had hemispherectomies than in people with intact brains",
+                "role": "从句系表",
+                "note": "stronger ... than ... 比较结构；who 引导定语从句修饰 people，with intact brains 作为对照组与之并列"
+              }
+            ],
+            "clauses": [
+              "宾语从句主语「connections and thus communication—between parts of different brain ne」：两个并列名词由 and thus 连接，thus 点出「连接带来通信」的因果；破折号后的介词短语补明连接发生在「不同网络各部分之间」",
+              "从句系表「are actually stronger in people who had hemispherectomies than in peop」：stronger ... than ... 比较结构；who 引导定语从句修饰 people，with intact brains 作为对照组与之并列",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "In fact",
+                "meaning": "事实上",
+                "usage": "作插入语，用于强调或修正前文。",
+                "example": "In fact, no one objected. 事实上没人反对。"
+              },
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              },
+              {
+                "text": "communication",
+                "meaning": "交流、沟通、交际；通信、传达；信息",
+                "usage": "注意区分：communication（交流、沟通，不可数；communications 指「通信手段/通信学科」）/ communicate with sb（与某人交流，介词 with）/ communicate sth to sb（把…传达给）。",
+                "example": "In fact, researchers found that connections and thus communication—between parts of different brain networks are actually stronger in people who had hemispherectomies than in people with intact brains. 研究还测到：动过半脑切除手术的人，不同脑网络之间的连接、乃至信息传递，反而比大脑完好的人更强。"
+              }
+            ],
+            "pitfalls": [
+              "in fact 是副词性插入语，不能当连词连接两个分句。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。"
+            ],
+            "paragraphRole": "用「连接反而更强」的实测数据坐实代偿机制，为下句 29 空「这表明……」提供直接依据。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 363,
+          "end": 444,
+          "text": "This 29 that the brain is able to compensate for loss of certain brain structure.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 8,
+              "end": 12,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "able",
+              "normalized": "able",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 44,
+              "surface": "compensate",
+              "normalized": "compensate",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 53,
+              "surface": "loss",
+              "normalized": "loss",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 56,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 64,
+              "surface": "certain",
+              "normalized": "certain",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 70,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 80,
+              "surface": "structure",
+              "normalized": "structure",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 81,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这 29 大脑能够去补偿某些大脑结构的损失。",
+            "translationNatural": "这说明：大脑有能力把某些脑结构缺失造成的窟窿补上。",
+            "structMarkup": "【This】 _29_ {that the brain is able to compensate for loss of certain brain structure}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导）",
+            "components": [
+              {
+                "part": "This",
+                "role": "主语",
+                "note": "回指上一句「连接更强」的发现，作第三人称单数主语，决定谓语必须带 -s"
+              },
+              {
+                "part": "29",
+                "role": "谓语",
+                "note": "空号独占谓语位置，后接完整 that 从句，需能带宾语从句的三单动词现在式；indicates 意为「表明」，正是「数据 → 结论」的标准动词"
+              },
+              {
+                "part": "that the brain is able to compensate for loss of certain brain structure",
+                "role": "宾语从句",
+                "note": "that 引导作 29 的宾语；be able to 表能力，compensate for 意为「补偿」，与前文 strengthened、took over 同一语义链"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that the brain is able to compensate for loss of certain brain structu」：that 引导作 29 的宾语；be able to 表能力，compensate for 意为「补偿」，与前文 strengthened、took over 同一语义链",
+              "本句主干为「主谓 + 宾语从句（that 引导）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "able to",
+                "meaning": "能够的（be able to do）",
+                "usage": "注意区分：be able to（能够）/ can（情态动词，不能与 will 连用）/ ability（名词）。常见搭配：be able to do / able to。",
+                "example": "They are able to delete the posts. 他们能够删除这些帖子。"
+              },
+              {
+                "text": "certain",
+                "meaning": "某些（不指明）；确定的、有把握的",
+                "usage": "注意区分：certain（某些/确定的）/ some（一些）/ sure（确信的，多作表语）。常见搭配：certain situations / be certain of。",
+                "example": "In certain situations data is useless. 在某些情况下数据没用。"
+              },
+              {
+                "text": "structure",
+                "meaning": "结构、构造、建筑物、机构；组织、安排、构建",
+                "usage": "注意区分：structure（结构；建筑物）/ structural（结构上的）/ construct（建造）/ destroy（破坏，de- + struct）/ instruct（指导）/ infrastructure（基础设施）。",
+                "example": "This 29 that the brain is able to compensate for loss of certain brain structure. 这说明：大脑有能力把某些脑结构缺失造成的窟窿补上。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：be able to（能够）/ can（情态动词，不能与 will 连用）/ ability（名词）。",
+              "注意区分：certain（某些/确定的）/ some（一些）/ sure（确信的，多作表语）。",
+              "注意区分：structure（结构；建筑物）/ structural（结构上的）/ construct（建造）/ destroy（破坏，de- + struct）/ instruct（指导）/ infrastructure（基础设施）。"
+            ],
+            "paragraphRole": "用一句结论收束本段：数据指向大脑的代偿能力，29 空考能接 that 从句的三单动词。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "There are many other cases in the medical 30 that document the brain's amazing ability to 31 For example, a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain 32 for sight. But a few years after his surgery, scientists found that he could 33 see. They determined that this was because other parts of his brain took over the missing part's 34 tasks. Another study involved people who could smell, despite missing the region in the brain that processes information about smells. Though they are not sure how these individuals 35 the ability to smell, scientists believe it is possible that another part of the brain took on that task.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 92,
+          "text": "There are many other cases in the medical 30 that document the brain's amazing ability to 31",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "There",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 26,
+              "surface": "cases",
+              "normalized": "cases",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 29,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 33,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 41,
+              "surface": "medical",
+              "normalized": "medical",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 44,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 45,
+              "end": 49,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 58,
+              "surface": "document",
+              "normalized": "document",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 62,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 70,
+              "surface": "brain's",
+              "normalized": "brain's",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 78,
+              "surface": "amazing",
+              "normalized": "amazing",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 86,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 92,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在医学 30 里有许多其他的案例，它们记录了大脑去 31 的惊异能力。",
+            "translationNatural": "医学文献里还记着不少别的病例，都印证了大脑自我调整的惊人本事。",
+            "structMarkup": "There are 【many other cases】 (in the medical 30) {that document the brain's amazing ability} (to 31)",
+            "structureSummary": "There be 句型 + 定语从句（that 引导）+ 不定式作后置定语",
+            "components": [
+              {
+                "part": "many other cases",
+                "role": "主语",
+                "note": "There be 句型的真正主语是复数 cases，故用 are；many other 承接上段的半球切除研究，表示要往外扩展"
+              },
+              {
+                "part": "in the medical 30",
+                "role": "状语",
+                "note": "30 空被形容词 medical 修饰、作介词 in 的宾语，需名词；literature 与 medical 构成「医学文献」这一固定说法"
+              },
+              {
+                "part": "that document the brain's amazing ability",
+                "role": "定语从句",
+                "note": "that 修饰 cases，在从句中作主语；document 此处是动词「记载、佐证」，不是常见的名词「文件」"
+              },
+              {
+                "part": "to 31",
+                "role": "定语",
+                "note": "不定式作 ability 的后置定语；31 空在 to 之后需动词原形，adapt 意为「适应、自我调整」；卷面此处无句号，下一句以 For example 直接承接"
+              }
+            ],
+            "clauses": [
+              "定语从句「that document the brain's amazing ability」：that 修饰 cases，在从句中作主语；document 此处是动词「记载、佐证」，不是常见的名词「文件」",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。"
+            ],
+            "phrases": [
+              {
+                "text": "ability",
+                "meaning": "能力（可数/不可数）；才能",
+                "usage": "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。常见搭配：the ability to do sth / natural ability。",
+                "example": "The ability to focus is underrated. 专注的能力被低估了。"
+              },
+              {
+                "text": "cases",
+                "meaning": "事例、情况、案例、病例、案件（case 的复数）",
+                "usage": "本句中作n.，可按「There be 句型 + 定语从句（that 引导）+ 不定式作后置定语」定位它在句中的位置。",
+                "example": "There are many other cases in the medical 30 that document the brain's amazing ability to 31 医学文献里还记着不少别的病例，都印证了大脑自我调整的惊人本事。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "注意区分：ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）。"
+            ],
+            "paragraphRole": "从单个研究扩展到「医学文献中的众多病例」，30 空考 medical 搭配的名词、31 空考 ability to 后的动词原形。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 93,
+          "end": 236,
+          "text": "For example, a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain 32 for sight.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "For",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "surface": "example",
+              "normalized": "example",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "young",
+              "normalized": "young",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "boy",
+              "normalized": "boy",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "had",
+              "normalized": "had",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 30,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 42,
+              "surface": "significant",
+              "normalized": "significant",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 50,
+              "surface": "portion",
+              "normalized": "portion",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 53,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 63,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 71,
+              "surface": "removed",
+              "normalized": "removed",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 83,
+              "surface": "medical",
+              "normalized": "medical",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 91,
+              "surface": "reasons",
+              "normalized": "reasons",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 92,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 93,
+              "end": 98,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 107,
+              "surface": "included",
+              "normalized": "included",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 111,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 116,
+              "surface": "part",
+              "normalized": "part",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 119,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 123,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 129,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 132,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 133,
+              "end": 136,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 142,
+              "surface": "sight",
+              "normalized": "sight",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 143,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "例如，一个小男孩因医疗原因被移除了他大脑的相当一部分，其中包括大脑中 32 视觉的那部分。",
+            "translationNatural": "比如有个小男孩因治病切掉了一大块脑组织，管视觉的那块也在里头。",
+            "structMarkup": "(For example), 【a young boy】 _had a significant portion of his brain removed for medical reasons_, {which included the part of the brain 32 for sight}.",
+            "structureSummary": "主谓宾 + 宾语补足语（过去分词）+ 非限制性定语从句（which 引导，含形容词短语作后置定语）",
+            "components": [
+              {
+                "part": "For example",
+                "role": "状语",
+                "note": "举例连接语，把上句泛说的 many other cases 落到具体个案上"
+              },
+              {
+                "part": "a young boy",
+                "role": "主语",
+                "note": "单数主语，谓语用过去式 had，与全文病例叙述时态一致"
+              },
+              {
+                "part": "had a significant portion of his brain removed for medical reasons",
+                "role": "谓语+宾语+宾补",
+                "note": "have sth done 结构，removed 是过去分词作宾补，表「由医生切除」而非自己动手；for medical reasons 点明缘由"
+              },
+              {
+                "part": "which included the part of the brain 32 for sight",
+                "role": "定语从句",
+                "note": "which 指代前面被切除的那部分脑组织；32 空与 for sight 构成 responsible for（负责……），需形容词作后置定语修饰 the part"
+              }
+            ],
+            "clauses": [
+              "定语从句「which included the part of the brain 32 for sight」：which 指代前面被切除的那部分脑组织；32 空与 for sight 构成 responsible for（负责……），需形容词作后置定语修饰 the part",
+              "本句主干为「主谓宾 + 宾语补足语（过去分词）+ 非限制性定语从句（which 引导，含形容词短语作后置定语）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "For example",
+                "meaning": "例如",
+                "usage": "插入语，常用逗号隔开，可置于句首、句中或句末。",
+                "example": "Many habits, for example, are hard to break. 比如很多习惯很难改。"
+              },
+              {
+                "text": "significant",
+                "meaning": "显著的、重要的；统计上显著的",
+                "usage": "注意区分：significant（显著的）/ significance（意义）。常见搭配：a significant problem / significant difference。",
+                "example": "Loneliness is a significant problem. 孤独是个重要问题。"
+              },
+              {
+                "text": "removed",
+                "meaning": "移走、拿开、去除、消除、脱下；免职、开除（remove 的过去式/过去分词形式）",
+                "usage": "注意区分：removed（过去式/过去分词）/ remove（原形）。",
+                "example": "For example, a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain 32 for sight. 比如有个小男孩因治病切掉了一大块脑组织，管视觉的那块也在里头。"
+              }
+            ],
+            "pitfalls": [
+              "for example 可独立作插入语，such as 不能。",
+              "注意区分：for example（插入语，缩写 e.g.）/ such as（后接名词）。",
+              "注意区分：significant（显著的）/ significance（意义）。"
+            ],
+            "paragraphRole": "用男童病例坐实代偿现象，32 空考 responsible for sight 这一后置形容词短语。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 237,
+          "end": 310,
+          "text": "But a few years after his surgery, scientists found that he could 33 see.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "surface": "few",
+              "normalized": "few",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 21,
+              "surface": "after",
+              "normalized": "after",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 33,
+              "surface": "surgery",
+              "normalized": "surgery",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 34,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 35,
+              "end": 45,
+              "surface": "scientists",
+              "normalized": "scientists",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 51,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 56,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 59,
+              "surface": "he",
+              "normalized": "he",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 65,
+              "surface": "could",
+              "normalized": "could",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 69,
+              "end": 72,
+              "surface": "see",
+              "normalized": "see",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 73,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但是在他手术几年之后，科学家发现他能够 33 看见。",
+            "translationNatural": "可术后没几年，研究人员发现他居然还看得见。",
+            "structMarkup": "(But a few years after his surgery), _scientists found_ that {he could 33 see}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，含情态动词 + 副词 + 动词）",
+            "components": [
+              {
+                "part": "But a few years after his surgery",
+                "role": "状语",
+                "note": "But 转折推翻上句「切掉视觉区」可能带来的预期；时间短语把观察点推到手术数年之后"
+              },
+              {
+                "part": "scientists found",
+                "role": "谓语",
+                "note": "后接 that 宾语从句，与前文 researchers found 同一叙述套路，主语换词避免重复"
+              },
+              {
+                "part": "he could 33 see",
+                "role": "宾语从句",
+                "note": "33 空夹在情态动词 could 与实义动词 see 之间，需副词；still 表「仍然」，强调视觉能力没被切除带走"
+              }
+            ],
+            "clauses": [
+              "宾语从句「he could 33 see」：33 空夹在情态动词 could 与实义动词 see 之间，需副词；still 表「仍然」，强调视觉能力没被切除带走",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "years",
+                "meaning": "年、年份；岁数、年纪（year 的复数）",
+                "usage": "注意区分：year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）。",
+                "example": "But a few years after his surgery, scientists found that he could 33 see. 可术后没几年，研究人员发现他居然还看得见。"
+              },
+              {
+                "text": "scientists found",
+                "meaning": "科学家（scientist 的复数）",
+                "usage": "注意区分：scientist（科学家）/ science（科学）。常见搭配：social scientists / scientists found。",
+                "example": "Social scientists found digital use beneficial. 社会科学家发现数字使用有益。"
+              },
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "注意区分：year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）。",
+              "注意区分：scientist（科学家）/ science（科学）。"
+            ],
+            "paragraphRole": "给出与上句「切掉视觉区」相反的结果（仍能看见），33 空考修饰 see 的持续义副词。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 311,
+          "end": 412,
+          "text": "They determined that this was because other parts of his brain took over the missing part's 34 tasks.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 15,
+              "surface": "determined",
+              "normalized": "determined",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "was",
+              "normalized": "was",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 37,
+              "surface": "because",
+              "normalized": "because",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 43,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "surface": "parts",
+              "normalized": "parts",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 52,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 56,
+              "surface": "his",
+              "normalized": "his",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 62,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 67,
+              "surface": "took",
+              "normalized": "took",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 72,
+              "surface": "over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 76,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 84,
+              "surface": "missing",
+              "normalized": "missing",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 91,
+              "surface": "part's",
+              "normalized": "part's",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 94,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 95,
+              "end": 100,
+              "surface": "tasks",
+              "normalized": "tasks",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 101,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他们判定，这是因为他大脑的其他部分接管了缺失部分的 34 任务。",
+            "translationNatural": "他们推断：是大脑别处顶了上来，把被切掉那块原本负责的活儿接了过去。",
+            "structMarkup": "【They】 _determined_ that {this was because other parts of his brain took over the missing part's 34 tasks}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，内含 because 表语从句）",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "回指上一句的 scientists，用代词保持段落衔接"
+              },
+              {
+                "part": "determined",
+                "role": "谓语",
+                "note": "意为「断定、查明」，后接 that 从句给出解释，比 found 更强调经过推理得出的结论"
+              },
+              {
+                "part": "this was because other parts of his brain took over the missing part's 34 tasks",
+                "role": "宾语从句",
+                "note": "从句内再用 because 表语从句解释上句「仍能看见」；take over 意为「接管」，是全文代偿主题的第二个动词表达"
+              },
+              {
+                "part": "the missing part's 34 tasks",
+                "role": "宾语",
+                "note": "34 空在名词所有格 part's 与名词 tasks 之间，需形容词；visual 与 32 空的 sight 呼应，指「视觉方面的任务」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「this was because other parts of his brain took over the missing part's」：从句内再用 because 表语从句解释上句「仍能看见」；take over 意为「接管」，是全文代偿主题的第二个动词表达",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。"
+            ],
+            "phrases": [
+              {
+                "text": "determined",
+                "meaning": "确定、决定；查明、测定（本文指 determine the meaning of words 判定词义 / determine the changes 决定做何改变）（determine 的过去式/过去分词形式）",
+                "usage": "注意区分：determined（过去式/过去分词）/ determine（原形）。",
+                "example": "They determined that this was because other parts of his brain took over the missing part's 34 tasks. 他们推断：是大脑别处顶了上来，把被切掉那块原本负责的活儿接了过去。"
+              },
+              {
+                "text": "parts of",
+                "meaning": "部分（part 的复数）；零件",
+                "usage": "注意区分：part（部分）/ portion（一份）/ play a part in（起作用）。常见搭配：parts of / play a part in。",
+                "example": "It is not, for most teens, a cycle of abuse in most parts. 对多数青少年而言并非如此。"
+              },
+              {
+                "text": "tasks",
+                "meaning": "任务（task 的复数）",
+                "usage": "注意区分：task（任务）/ work（工作）/ chore（家务杂事）。常见搭配：household tasks / complete a task。",
+                "example": "Splitting tasks fairly matters. 公平分担任务很重要。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "注意区分：determined（过去式/过去分词）/ determine（原形）。",
+              "注意区分：part（部分）/ portion（一份）/ play a part in（起作用）。"
+            ],
+            "paragraphRole": "把「仍能看见」归因于其它脑区接管视觉任务，34 空考修饰 tasks 的形容词，与 32 空的 sight 首尾呼应。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 413,
+          "end": 540,
+          "text": "Another study involved people who could smell, despite missing the region in the brain that processes information about smells.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "Another",
+              "normalized": "another",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 13,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 22,
+              "surface": "involved",
+              "normalized": "involved",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 29,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 33,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 39,
+              "surface": "could",
+              "normalized": "could",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 45,
+              "surface": "smell",
+              "normalized": "smell",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 46,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 47,
+              "end": 54,
+              "surface": "despite",
+              "normalized": "despite",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 62,
+              "surface": "missing",
+              "normalized": "missing",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 66,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 73,
+              "surface": "region",
+              "normalized": "region",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 80,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 86,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 91,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 101,
+              "surface": "processes",
+              "normalized": "processes",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 113,
+              "surface": "information",
+              "normalized": "information",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 119,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 126,
+              "surface": "smells",
+              "normalized": "smells",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 127,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "另一项研究涉及了能够闻的人，尽管缺失了大脑中处理关于气味信息的区域。",
+            "translationNatural": "还有一项研究里，有些人明明少了负责处理气味的脑区，却照样闻得到。",
+            "structMarkup": "【Another study】 _involved people who could smell_, (despite missing the region in the brain) {that processes information about smells}.",
+            "structureSummary": "主谓宾 + 定语从句（who 引导）+ despite 让步状语（内含 that 引导的定语从句）",
+            "components": [
+              {
+                "part": "Another study",
+                "role": "主语",
+                "note": "Another 承接前面的 boy 病例，标记第二个例证，把代偿模式再复现一次"
+              },
+              {
+                "part": "involved people who could smell",
+                "role": "谓语+宾语",
+                "note": "involve 意为「涉及、以……为研究对象」；who 引导定语从句修饰 people，could smell 与后面的「缺失」先埋反差"
+              },
+              {
+                "part": "despite missing the region in the brain",
+                "role": "状语",
+                "note": "despite + 动名词，与 27 空所在句完全同构，再次用「缺失某部分」制造转折"
+              },
+              {
+                "part": "that processes information about smells",
+                "role": "定语从句",
+                "note": "that 修饰 region，在从句中作主语；process 作动词意为「处理」，宾语是 information about smells"
+              }
+            ],
+            "clauses": [
+              "定语从句「that processes information about smells」：that 修饰 region，在从句中作主语；process 作动词意为「处理」，宾语是 information about smells",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "despite",
+                "meaning": "尽管、虽然（后接名词或动名词，不接从句）",
+                "usage": "注意区分：despite + 名词（不是从句）/ although + 从句。常见搭配：despite the fact that / despite progress。",
+                "example": "Despite progress, women still struggle. 尽管有进步，女性仍在艰难争取。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：study（研究，可数）/ research（研究，不可数）。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。"
+            ],
+            "paragraphRole": "换嗅觉再举一例，把「缺失某脑区却保留功能」的模式复现一次，为 35 空的「保留能力」蓄势。"
+          }
+        },
+        {
+          "idx": 5,
+          "start": 541,
+          "end": 696,
+          "text": "Though they are not sure how these individuals 35 the ability to smell, scientists believe it is possible that another part of the brain took on that task.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "Though",
+              "normalized": "though",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "sure",
+              "normalized": "sure",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 34,
+              "surface": "these",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 46,
+              "surface": "individuals",
+              "normalized": "individuals",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 50,
+              "end": 53,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 61,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 64,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 70,
+              "surface": "smell",
+              "normalized": "smell",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 71,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 72,
+              "end": 82,
+              "surface": "scientists",
+              "normalized": "scientists",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 90,
+              "surface": "believe",
+              "normalized": "believe",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 93,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 96,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 105,
+              "surface": "possible",
+              "normalized": "possible",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 110,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 118,
+              "surface": "another",
+              "normalized": "another",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 123,
+              "surface": "part",
+              "normalized": "part",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 126,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 130,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 136,
+              "surface": "brain",
+              "normalized": "brain",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 141,
+              "surface": "took",
+              "normalized": "took",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 144,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 149,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 150,
+              "end": 154,
+              "surface": "task",
+              "normalized": "task",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 155,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "尽管他们不确定这些个体如何 35 闻的能力，科学家相信，大脑的另一部分承担了那项任务是可能的。",
+            "translationNatural": "虽说科学家还没弄清这些人是怎么把嗅觉保下来的，但他们推测，大概是脑子别处把这份差事揽了过去。",
+            "structMarkup": "{Though they are not sure how these individuals 35 the ability to smell}, _scientists believe_ {it is possible that another part of the brain took on that task}.",
+            "structureSummary": "让步状语从句（Though 引导，含 how 引导的宾语从句）+ 主谓 + 宾语从句（it 形式主语，含 that 主语从句）",
+            "components": [
+              {
+                "part": "Though they are not sure how these individuals 35 the ability to smell",
+                "role": "状语从句",
+                "note": "Though 引导让步；how 引导宾语从句作 sure 的宾语；35 空是从句谓语，后接宾语 the ability，需及物动词过去式，retained 意为「保留」"
+              },
+              {
+                "part": "scientists believe",
+                "role": "谓语",
+                "note": "主句谓语，后接省略 that 的宾语从句，与从句里的「不确定」形成语气上的对照"
+              },
+              {
+                "part": "it is possible that another part of the brain took on that task",
+                "role": "宾语从句",
+                "note": "it 作形式主语，真正主语是后面的 that 从句；take on 意为「承担」，与上句 took over 同义换词"
+              }
+            ],
+            "clauses": [
+              "状语从句「Though they are not sure how these individuals 35 the ability to smell」：Though 引导让步；how 引导宾语从句作 sure 的宾语；35 空是从句谓语，后接宾语 the ability，需及物动词过去式，retained 意为「保留」",
+              "宾语从句「it is possible that another part of the brain took on that task」：it 作形式主语，真正主语是后面的 that 从句；take on 意为「承担」，与上句 took over 同义换词",
+              "It is ... that 是形式主语句型，it 无实义，真正的主语是后面的 that 从句。"
+            ],
+            "phrases": [
+              {
+                "text": "though",
+                "meaning": "虽然（连词）；不过（副词，置于句末）",
+                "usage": "注意区分：though（虽然/不过）/ although（虽然，更正式，不放句末）/ even though（即便，语气更强）。常见搭配：even though / though, ...。",
+                "example": "It was just an obstacle, though, that had to be overcome. 不过那只是个必需克服的障碍。"
+              },
+              {
+                "text": "sure",
+                "meaning": "确信的、肯定的、一定的；当然、确实（make sure 确保；for sure 确实）",
+                "usage": "注意区分：be sure of/about（对…有把握，介词 of/about）/ be sure to do（务必做；一定会做）/ make sure (that)（确保，后接从句）/ for sure（确实，口语）/ certain（更正式）/ sure 作副词「当然」（美语口语）。",
+                "example": "Though they are not sure how these individuals 35 the ability to smell, scientists believe it is possible that another part of the brain took on that task. 虽说科学家还没弄清这些人是怎么把嗅觉保下来的，但他们推测，大概是脑子别处把这份差事揽了过去。"
+              },
+              {
+                "text": "individuals",
+                "meaning": "individual 的复数，个人、个体",
+                "usage": "注意区分：individual（个人，可数；个别的，形容词）/ individually（各自地）/ independently（独立地）/ personal（个人的、私人的，形容词）/ people（集合复数）。",
+                "example": "Though they are not sure how these individuals 35 the ability to smell, scientists believe it is possible that another part of the brain took on that task. 虽说科学家还没弄清这些人是怎么把嗅觉保下来的，但他们推测，大概是脑子别处把这份差事揽了过去。"
+              }
+            ],
+            "pitfalls": [
+              "形式主语 it 不能换成 this 或 that。",
+              "although/though 引导让步从句时，主句不能再用 but（汉语习惯会说「虽然……但是」）。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。"
+            ],
+            "paragraphRole": "以「机制未明但推测有代偿」收束全篇，35 空考与 the ability 搭配的及物动词过去式，回扣全文的可塑性主题。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adapt"
+        },
+        {
+          "key": "B",
+          "text": "hardly"
+        },
+        {
+          "key": "C",
+          "text": "indicates"
+        },
+        {
+          "key": "D",
+          "text": "insist"
+        },
+        {
+          "key": "E",
+          "text": "literature"
+        },
+        {
+          "key": "F",
+          "text": "organ"
+        },
+        {
+          "key": "G",
+          "text": "particularly"
+        },
+        {
+          "key": "H",
+          "text": "remaining"
+        },
+        {
+          "key": "I",
+          "text": "responsible"
+        },
+        {
+          "key": "J",
+          "text": "retained"
+        },
+        {
+          "key": "K",
+          "text": "still"
+        },
+        {
+          "key": "L",
+          "text": "strategy"
+        },
+        {
+          "key": "M",
+          "text": "transformed"
+        },
+        {
+          "key": "N",
+          "text": "underlines"
+        },
+        {
+          "key": "O",
+          "text": "visual"
+        }
+      ],
+      "answer": "G"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adapt"
+        },
+        {
+          "key": "B",
+          "text": "hardly"
+        },
+        {
+          "key": "C",
+          "text": "indicates"
+        },
+        {
+          "key": "D",
+          "text": "insist"
+        },
+        {
+          "key": "E",
+          "text": "literature"
+        },
+        {
+          "key": "F",
+          "text": "organ"
+        },
+        {
+          "key": "G",
+          "text": "particularly"
+        },
+        {
+          "key": "H",
+          "text": "remaining"
+        },
+        {
+          "key": "I",
+          "text": "responsible"
+        },
+        {
+          "key": "J",
+          "text": "retained"
+        },
+        {
+          "key": "K",
+          "text": "still"
+        },
+        {
+          "key": "L",
+          "text": "strategy"
+        },
+        {
+          "key": "M",
+          "text": "transformed"
+        },
+        {
+          "key": "N",
+          "text": "underlines"
+        },
+        {
+          "key": "O",
+          "text": "visual"
+        }
+      ],
+      "answer": "F"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adapt"
+        },
+        {
+          "key": "B",
+          "text": "hardly"
+        },
+        {
+          "key": "C",
+          "text": "indicates"
+        },
+        {
+          "key": "D",
+          "text": "insist"
+        },
+        {
+          "key": "E",
+          "text": "literature"
+        },
+        {
+          "key": "F",
+          "text": "organ"
+        },
+        {
+          "key": "G",
+          "text": "particularly"
+        },
+        {
+          "key": "H",
+          "text": "remaining"
+        },
+        {
+          "key": "I",
+          "text": "responsible"
+        },
+        {
+          "key": "J",
+          "text": "retained"
+        },
+        {
+          "key": "K",
+          "text": "still"
+        },
+        {
+          "key": "L",
+          "text": "strategy"
+        },
+        {
+          "key": "M",
+          "text": "transformed"
+        },
+        {
+          "key": "N",
+          "text": "underlines"
+        },
+        {
+          "key": "O",
+          "text": "visual"
+        }
+      ],
+      "answer": "H"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adapt"
+        },
+        {
+          "key": "B",
+          "text": "hardly"
+        },
+        {
+          "key": "C",
+          "text": "indicates"
+        },
+        {
+          "key": "D",
+          "text": "insist"
+        },
+        {
+          "key": "E",
+          "text": "literature"
+        },
+        {
+          "key": "F",
+          "text": "organ"
+        },
+        {
+          "key": "G",
+          "text": "particularly"
+        },
+        {
+          "key": "H",
+          "text": "remaining"
+        },
+        {
+          "key": "I",
+          "text": "responsible"
+        },
+        {
+          "key": "J",
+          "text": "retained"
+        },
+        {
+          "key": "K",
+          "text": "still"
+        },
+        {
+          "key": "L",
+          "text": "strategy"
+        },
+        {
+          "key": "M",
+          "text": "transformed"
+        },
+        {
+          "key": "N",
+          "text": "underlines"
+        },
+        {
+          "key": "O",
+          "text": "visual"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adapt"
+        },
+        {
+          "key": "B",
+          "text": "hardly"
+        },
+        {
+          "key": "C",
+          "text": "indicates"
+        },
+        {
+          "key": "D",
+          "text": "insist"
+        },
+        {
+          "key": "E",
+          "text": "literature"
+        },
+        {
+          "key": "F",
+          "text": "organ"
+        },
+        {
+          "key": "G",
+          "text": "particularly"
+        },
+        {
+          "key": "H",
+          "text": "remaining"
+        },
+        {
+          "key": "I",
+          "text": "responsible"
+        },
+        {
+          "key": "J",
+          "text": "retained"
+        },
+        {
+          "key": "K",
+          "text": "still"
+        },
+        {
+          "key": "L",
+          "text": "strategy"
+        },
+        {
+          "key": "M",
+          "text": "transformed"
+        },
+        {
+          "key": "N",
+          "text": "underlines"
+        },
+        {
+          "key": "O",
+          "text": "visual"
+        }
+      ],
+      "answer": "E"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adapt"
+        },
+        {
+          "key": "B",
+          "text": "hardly"
+        },
+        {
+          "key": "C",
+          "text": "indicates"
+        },
+        {
+          "key": "D",
+          "text": "insist"
+        },
+        {
+          "key": "E",
+          "text": "literature"
+        },
+        {
+          "key": "F",
+          "text": "organ"
+        },
+        {
+          "key": "G",
+          "text": "particularly"
+        },
+        {
+          "key": "H",
+          "text": "remaining"
+        },
+        {
+          "key": "I",
+          "text": "responsible"
+        },
+        {
+          "key": "J",
+          "text": "retained"
+        },
+        {
+          "key": "K",
+          "text": "still"
+        },
+        {
+          "key": "L",
+          "text": "strategy"
+        },
+        {
+          "key": "M",
+          "text": "transformed"
+        },
+        {
+          "key": "N",
+          "text": "underlines"
+        },
+        {
+          "key": "O",
+          "text": "visual"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adapt"
+        },
+        {
+          "key": "B",
+          "text": "hardly"
+        },
+        {
+          "key": "C",
+          "text": "indicates"
+        },
+        {
+          "key": "D",
+          "text": "insist"
+        },
+        {
+          "key": "E",
+          "text": "literature"
+        },
+        {
+          "key": "F",
+          "text": "organ"
+        },
+        {
+          "key": "G",
+          "text": "particularly"
+        },
+        {
+          "key": "H",
+          "text": "remaining"
+        },
+        {
+          "key": "I",
+          "text": "responsible"
+        },
+        {
+          "key": "J",
+          "text": "retained"
+        },
+        {
+          "key": "K",
+          "text": "still"
+        },
+        {
+          "key": "L",
+          "text": "strategy"
+        },
+        {
+          "key": "M",
+          "text": "transformed"
+        },
+        {
+          "key": "N",
+          "text": "underlines"
+        },
+        {
+          "key": "O",
+          "text": "visual"
+        }
+      ],
+      "answer": "I"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adapt"
+        },
+        {
+          "key": "B",
+          "text": "hardly"
+        },
+        {
+          "key": "C",
+          "text": "indicates"
+        },
+        {
+          "key": "D",
+          "text": "insist"
+        },
+        {
+          "key": "E",
+          "text": "literature"
+        },
+        {
+          "key": "F",
+          "text": "organ"
+        },
+        {
+          "key": "G",
+          "text": "particularly"
+        },
+        {
+          "key": "H",
+          "text": "remaining"
+        },
+        {
+          "key": "I",
+          "text": "responsible"
+        },
+        {
+          "key": "J",
+          "text": "retained"
+        },
+        {
+          "key": "K",
+          "text": "still"
+        },
+        {
+          "key": "L",
+          "text": "strategy"
+        },
+        {
+          "key": "M",
+          "text": "transformed"
+        },
+        {
+          "key": "N",
+          "text": "underlines"
+        },
+        {
+          "key": "O",
+          "text": "visual"
+        }
+      ],
+      "answer": "K"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adapt"
+        },
+        {
+          "key": "B",
+          "text": "hardly"
+        },
+        {
+          "key": "C",
+          "text": "indicates"
+        },
+        {
+          "key": "D",
+          "text": "insist"
+        },
+        {
+          "key": "E",
+          "text": "literature"
+        },
+        {
+          "key": "F",
+          "text": "organ"
+        },
+        {
+          "key": "G",
+          "text": "particularly"
+        },
+        {
+          "key": "H",
+          "text": "remaining"
+        },
+        {
+          "key": "I",
+          "text": "responsible"
+        },
+        {
+          "key": "J",
+          "text": "retained"
+        },
+        {
+          "key": "K",
+          "text": "still"
+        },
+        {
+          "key": "L",
+          "text": "strategy"
+        },
+        {
+          "key": "M",
+          "text": "transformed"
+        },
+        {
+          "key": "N",
+          "text": "underlines"
+        },
+        {
+          "key": "O",
+          "text": "visual"
+        }
+      ],
+      "answer": "O"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "adapt"
+        },
+        {
+          "key": "B",
+          "text": "hardly"
+        },
+        {
+          "key": "C",
+          "text": "indicates"
+        },
+        {
+          "key": "D",
+          "text": "insist"
+        },
+        {
+          "key": "E",
+          "text": "literature"
+        },
+        {
+          "key": "F",
+          "text": "organ"
+        },
+        {
+          "key": "G",
+          "text": "particularly"
+        },
+        {
+          "key": "H",
+          "text": "remaining"
+        },
+        {
+          "key": "I",
+          "text": "responsible"
+        },
+        {
+          "key": "J",
+          "text": "retained"
+        },
+        {
+          "key": "K",
+          "text": "still"
+        },
+        {
+          "key": "L",
+          "text": "strategy"
+        },
+        {
+          "key": "M",
+          "text": "transformed"
+        },
+        {
+          "key": "N",
+          "text": "underlines"
+        },
+        {
+          "key": "O",
+          "text": "visual"
+        }
+      ],
+      "answer": "J"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "adapt"
+    },
+    {
+      "key": "B",
+      "word": "hardly"
+    },
+    {
+      "key": "C",
+      "word": "indicates"
+    },
+    {
+      "key": "D",
+      "word": "insist"
+    },
+    {
+      "key": "E",
+      "word": "literature"
+    },
+    {
+      "key": "F",
+      "word": "organ"
+    },
+    {
+      "key": "G",
+      "word": "particularly"
+    },
+    {
+      "key": "H",
+      "word": "remaining"
+    },
+    {
+      "key": "I",
+      "word": "responsible"
+    },
+    {
+      "key": "J",
+      "word": "retained"
+    },
+    {
+      "key": "K",
+      "word": "still"
+    },
+    {
+      "key": "L",
+      "word": "strategy"
+    },
+    {
+      "key": "M",
+      "word": "transformed"
+    },
+    {
+      "key": "N",
+      "word": "underlines"
+    },
+    {
+      "key": "O",
+      "word": "visual"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "G",
+      "answerWord": "particularly",
+      "reason": "空格夹在系动词 is 与形容词 apparent 之间，需要副词修饰 apparent。前两句已把大脑可塑性说成「几乎神奇」，此处说这一特性在一项半球切除研究里「尤其」明显，particularly 正好把泛指的判断收窄到具体例证上。",
+      "distractors": "B) hardly（几乎不）是否定副词，填进去变成「几乎不明显」，与下文研究正要证明的结论相反；K) still 虽是副词，但强调「仍然」的时间延续，不表达「格外、尤其」这一程度；F) organ 是名词，词性不符。"
+    },
+    "27": {
+      "answerKey": "F",
+      "answerWord": "organ",
+      "reason": "空格被 this critical 修饰、又作 half of 的宾语，必须是单数名词。上文反复说「切掉一半大脑」，这里把大脑称作「这一关键器官」，organ 与 half of 搭配自然；卷面 27 后另有空格再接逗号，是原题占位排版，不影响词性判断。",
+      "distractors": "E) literature（文献）虽是名词，但「半个关键文献」不成话，且与全文讲器官的语境无关；L) strategy（策略）语义不搭；H) remaining 是形容词，不能作 half of 的宾语。"
+    },
+    "28": {
+      "answerKey": "H",
+      "answerWord": "remaining",
+      "reason": "空格在定冠词 the 与名词 half 之间，需要形容词作前置定语。前句说「缺失了一半」，此处解释原因时自然指「剩下的那一半」变强了，remaining 与被切除的那一半形成明确对立，正好接上 strengthened。",
+      "distractors": "O) visual 是形容词，但「视觉的一半大脑」与上文 hemispherectomy（按左右半球切）不符，本段也还没谈到视觉；J) retained 虽含「保留」义，却是过去分词，通常不作前置定语修饰 half；M) transformed 强调「被转变」，与「余下半脑自己变强」的语义链条对不上。"
+    },
+    "29": {
+      "answerKey": "C",
+      "answerWord": "indicates",
+      "reason": "主语 This 是第三人称单数，空格后紧接 that 引导的完整从句，需要能带宾语从句的及物动词三单现在式。前句是实测数据（连接更强），此处用 indicates（表明）引出推结论，正是「数据 → 结论」的标准写法。",
+      "distractors": "N) underlines（强调、凸显）虽也是三单动词，但通常接名词宾语，不接 that 从句；D) insist 是动词原形，与三单主语不一致，且多接 on 或表「坚持主张」；K) still 是副词，不能独占谓语。"
+    },
+    "30": {
+      "answerKey": "E",
+      "answerWord": "literature",
+      "reason": "空格被形容词 medical 修饰、作介词 in 的宾语，需要名词。medical literature 是固定说法，指「医学文献」；many other cases in the medical literature 即「医学文献里还记载着许多别的病例」，与上文「一项研究」形成从点到面的扩展。",
+      "distractors": "F) organ 已用于 27 空，且「在医学器官里有许多案例」讲不通；L) strategy（策略）语义不搭；A) adapt 是动词，不能作介词 in 的宾语。"
+    },
+    "31": {
+      "answerKey": "A",
+      "answerWord": "adapt",
+      "reason": "空格位于不定式符号 to 之后、作 ability 的后置定语，需要动词原形。the brain's amazing ability to adapt 意为「大脑惊人的适应／自我调整能力」，正好统摄下文「切掉视觉区仍能看见」「缺失嗅区仍能闻」两类代偿案例。",
+      "distractors": "D) insist 虽是动词原形，但表「坚持」，不能与 ability 搭配成「坚持的能力」，语义也与代偿无关；M) transformed 是过去分词，不能跟在 to 后构成不定式；C) indicates 是三单形式，词形不符。"
+    },
+    "32": {
+      "answerKey": "I",
+      "answerWord": "responsible",
+      "reason": "空格在名词短语 the part of the brain 之后、介词短语 for sight 之前，需要能与 for 搭配的形容词作后置定语。responsible for sight 意为「负责视觉的（那部分）」，是固定搭配，正好点明被切掉的正是视觉中枢。",
+      "distractors": "H) remaining 已用于 28 空，且 remaining for sight 不成搭配，还与「被切除」矛盾；O) visual 虽与 sight 相关，但一般作前置定语（如 34 空的 visual tasks），不与 for 连用；J) retained 是过去分词，不与 for sight 构成固定短语。"
+    },
+    "33": {
+      "answerKey": "K",
+      "answerWord": "still",
+      "reason": "空格夹在情态动词 could 与实义动词 see 之间，需要副词。上句刚说切除的脑组织包含视觉区，此处用 But 转折说术后数年「仍然」看得见，still 表状态延续、未被打断，正是这句反差的核心。",
+      "distractors": "G) particularly 已用于 26 空，且「尤其看得见」不合此处「居然还看得见」的意外语气；B) hardly 是否定副词，填进去变成「几乎看不见」，与下文解释代偿机制的走向相反；O) visual 是形容词，不能修饰动词 see。"
+    },
+    "34": {
+      "answerKey": "O",
+      "answerWord": "visual",
+      "reason": "空格在名词所有格 the missing part's 与名词 tasks 之间，需要形容词作定语。被切掉的正是 32 空 responsible for sight 的那部分，它原本承担的自然是 visual tasks（视觉任务），visual 与 sight 同义回环，把整段个案扣合。",
+      "distractors": "H) remaining 已用于 28 空，且「剩下的任务」与「被切掉那部分的任务」指向相反；I) responsible 已用于 32 空，且不与名词 tasks 直接搭配（应说 responsible for...）；J) retained 是过去分词，「被保留的任务」在此讲不通。"
+    },
+    "35": {
+      "answerKey": "J",
+      "answerWord": "retained",
+      "reason": "空格作 how 从句的谓语，后接宾语 the ability to smell，需要及物动词过去式（与全文叙述时态一致）。retain the ability to smell 意为「保留了嗅觉能力」，正呼应上句「缺失嗅区却仍能闻」这一反常现象。",
+      "distractors": "M) transformed 虽可作过去式，但 transform the ability 意为「改变能力」，与「仍保有」的语义不符，且常接 into；A) adapt 已用于 31 空，且不及物倾向明显，不能直接接 the ability 作宾语；C) indicates 已用于 29 空，时态与词形都不合。"
+    }
+  },
+  "lexicon": {
+    "ability": {
+      "phonetic": "/əˈbɪləti/",
+      "pos": "n.",
+      "sense": "能力（可数/不可数）；才能",
+      "collocations": [
+        "the ability to do sth",
+        "natural ability",
+        "to the best of one's ability"
+      ],
+      "examples": [
+        "The ability to focus is underrated. 专注的能力被低估了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "able（能够）+ -ity",
+        "confusables": "ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）"
+      }
+    },
+    "able": {
+      "phonetic": "/ˈeɪbl/",
+      "pos": "adj.",
+      "sense": "能够的（be able to do）",
+      "collocations": [
+        "be able to do",
+        "able to"
+      ],
+      "examples": [
+        "They are able to delete the posts. 他们能够删除这些帖子。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be able to（能够）/ can（情态动词，不能与 will 连用）/ ability（名词）"
+      }
+    },
+    "actually": {
+      "phonetic": "/ˈæktʃuəli/",
+      "pos": "adv.",
+      "sense": "实际上、事实上；居然（表出乎意料）",
+      "collocations": [
+        "actually, ...",
+        "not actually"
+      ],
+      "examples": [
+        "In reality the female actually did most of it. 现实中主要还是女性在做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "actual（实际的）+ -ly（副词后缀）",
+        "confusables": "actually（实际上）/ currently（目前）/ in fact（事实上）"
+      }
+    },
+    "almost": {
+      "phonetic": "/ˈɔːlməʊst/",
+      "pos": "adv.",
+      "sense": "几乎、差不多",
+      "collocations": [
+        "almost magical"
+      ],
+      "examples": [
+        "This means the brain has an almost magical ability to change. 换句话说，大脑改变自身这件事，简直像会变魔术。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "amazing": {
+      "phonetic": "/əˈmeɪzɪŋ/",
+      "pos": "adj.",
+      "sense": "惊人的、了不起的、令人惊喜的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brain's amazing",
+        "amazing ability"
+      ],
+      "examples": [
+        "There are many other cases in the medical 30 that document the brain's amazing ability to 31 医学文献里还记着不少别的病例，都印证了大脑自我调整的惊人本事。"
+      ]
+    },
+    "apparent": {
+      "phonetic": "/əˈpærənt/",
+      "pos": "adj.",
+      "sense": "明显的、显而易见的；表面上的、貌似的（it is apparent that 显然；apparently 看来、据说）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "apparent in"
+      ],
+      "examples": [
+        "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness. 这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。"
+      ]
+    },
+    "believe": {
+      "phonetic": "/bɪˈliːv/",
+      "pos": "v.",
+      "sense": "相信、认为",
+      "collocations": [
+        "believe in",
+        "believe that"
+      ],
+      "examples": [
+        "I believe he is right. 我认为他是对的。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "boy": {
+      "phonetic": "/bɔɪ/",
+      "pos": "n.",
+      "sense": "男孩、少年、儿子；小伙子、伙计（口语称呼）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "young boy"
+      ],
+      "examples": [
+        "For example, a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain 32 for sight. 比如有个小男孩因治病切掉了一大块脑组织，管视觉的那块也在里头。"
+      ],
+      "more": {
+        "confusables": "boy / boys（同族不同词形，注意词性与用法）"
+      }
+    },
+    "brain": {
+      "phonetic": "/breɪn/",
+      "pos": "n.",
+      "sense": "大脑、脑力、智力（brains 才气）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "human brain",
+        "brain cells",
+        "brain strengthened"
+      ],
+      "examples": [
+        "The human brain has the ability to constantly form new networks and connections between brain cells. 人脑能不断在脑细胞之间搭起新的网络和连线。"
+      ],
+      "more": {
+        "confusables": "brain / brains / brain-training（同族不同词形，注意词性与用法）"
+      }
+    },
+    "brains": {
+      "phonetic": "/breɪnz/",
+      "pos": "n.",
+      "sense": "大脑（brain 的复数）；智力",
+      "lemma": "brain",
+      "collocations": [
+        "our brains",
+        "brain activity"
+      ],
+      "examples": [
+        "Our brains cannot truly multitask. 我们的大脑无法真正同时处理多任务。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "brains（大脑）/ brain（单数）"
+      }
+    },
+    "cases": {
+      "phonetic": "/ˈkeɪsɪz/",
+      "pos": "n.",
+      "sense": "事例、情况、案例、病例、案件（case 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "cases in"
+      ],
+      "examples": [
+        "There are many other cases in the medical 30 that document the brain's amazing ability to 31 医学文献里还记着不少别的病例，都印证了大脑自我调整的惊人本事。"
+      ],
+      "more": {
+        "confusables": "cases / case（同族不同词形，注意词性与用法）"
+      }
+    },
+    "cells": {
+      "phonetic": "/selz/",
+      "pos": "n.",
+      "sense": "细胞；小房间、牢房；电池、蜂巢小室（cell 的复数，科普与日常一词多义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brain cells"
+      ],
+      "examples": [
+        "The human brain has the ability to constantly form new networks and connections between brain cells. 人脑能不断在脑细胞之间搭起新的网络和连线。"
+      ]
+    },
+    "certain": {
+      "phonetic": "/ˈsɜːtn/",
+      "pos": "adj.",
+      "sense": "某些（不指明）；确定的、有把握的",
+      "collocations": [
+        "certain situations",
+        "be certain of",
+        "to a certain extent"
+      ],
+      "examples": [
+        "In certain situations data is useless. 在某些情况下数据没用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "certain（某些/确定的）/ some（一些）/ sure（确信的，多作表语）"
+      }
+    },
+    "change": {
+      "phonetic": "/tʃeɪndʒ/",
+      "pos": "v./n.",
+      "sense": "改变、变化 / 变化、零钱",
+      "collocations": [
+        "change behaviour",
+        "climate change",
+        "make a change"
+      ],
+      "examples": [
+        "Attitudes are changing slowly. 态度正在缓慢改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "change（改变）/ exchange（交换）/ alter（改动，更正式）"
+      }
+    },
+    "characteristic": {
+      "phonetic": "/ˌkærəktəˈrɪstɪk/",
+      "pos": "n./adj.",
+      "sense": "特征、特点、特性；典型的、特有的（be characteristic of）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "character（特征）+ -istic（形容词/名词后缀）",
+        "confusables": "characteristic（典型的，形容词；特征，可数名词）/ be characteristic of（是…的特征，介词 of）/ character（性格；人物；字符）/ characterize（以…为特征）"
+      },
+      "collocations": [],
+      "examples": [
+        "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness. 这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。"
+      ]
+    },
+    "communication": {
+      "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+      "pos": "n.",
+      "sense": "交流、沟通、交际；通信、传达；信息",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "communicate（交流）+ -ion（名词后缀，去 e）",
+        "confusables": "communication（交流、沟通，不可数；communications 指「通信手段/通信学科」）/ communicate with sb（与某人交流，介词 with）/ communicate sth to sb（把…传达给）"
+      },
+      "collocations": [
+        "thus communication"
+      ],
+      "examples": [
+        "In fact, researchers found that connections and thus communication—between parts of different brain networks are actually stronger in people who had hemispherectomies than in people with intact brains. 研究还测到：动过半脑切除手术的人，不同脑网络之间的连接、乃至信息传递，反而比大脑完好的人更强。"
+      ]
+    },
+    "compensate": {
+      "phonetic": "/ˈkɒmpenseɪt/",
+      "pos": "v.",
+      "sense": "补偿、赔偿、弥补、抵消（compensate for 弥补 / compensate sb for sth 赔偿某人）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "compensate for",
+        "compensate for loss",
+        "able to compensate"
+      ],
+      "examples": [
+        "This 29 that the brain is able to compensate for loss of certain brain structure. 这说明：大脑有能力把某些脑结构缺失造成的窟窿补上。"
+      ],
+      "more": {
+        "confusables": "compensate / compensated（同族不同词形，注意词性与用法）"
+      }
+    },
+    "connections": {
+      "phonetic": "/kəˈnekʃnz/",
+      "pos": "n.",
+      "sense": "connection 的复数，人脉、联系（本文指人脉）",
+      "collocations": [],
+      "examples": [
+        "The human brain has the ability to constantly form new networks and connections between brain cells. 人脑能不断在脑细胞之间搭起新的网络和连线。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "connections / connection（同族不同词形，注意词性与用法）"
+      }
+    },
+    "constantly": {
+      "phonetic": "/ˈkɒnstəntli/",
+      "pos": "adv.",
+      "sense": "不断地、时常地",
+      "collocations": [
+        "constantly form",
+        "ability to constantly"
+      ],
+      "examples": [
+        "The human brain has the ability to constantly form new networks and connections between brain cells. 人脑能不断在脑细胞之间搭起新的网络和连线。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "constantly / constant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "critical": {
+      "phonetic": "/ˈkrɪtɪkl/",
+      "pos": "adj.",
+      "sense": "至关重要的；批判的（本文取前者）",
+      "collocations": [
+        "be critical to",
+        "a critical moment"
+      ],
+      "examples": [
+        "Sleep is critical to health. 睡眠对健康至关重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "crit（判断、分辨，词根 crit = judge，同 critic/criticism）+ -ical（形容词后缀）",
+        "confusables": "critical（关键的/批判的）/ crucial（决定性的）"
+      }
+    },
+    "despite": {
+      "phonetic": "/dɪˈspaɪt/",
+      "pos": "prep.",
+      "sense": "尽管、虽然（后接名词或动名词，不接从句）",
+      "collocations": [
+        "despite the fact that",
+        "despite progress",
+        "despite doing"
+      ],
+      "examples": [
+        "Despite progress, women still struggle. 尽管有进步，女性仍在艰难争取。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "despite + 名词（不是从句）/ although + 从句"
+      }
+    },
+    "determined": {
+      "phonetic": "/dɪˈtɜːmɪnd/",
+      "pos": "v.",
+      "sense": "确定、决定；查明、测定（本文指 determine the meaning of words 判定词义 / determine the changes 决定做何改变）（determine 的过去式/过去分词形式）",
+      "lemma": "determine",
+      "collocations": [],
+      "examples": [
+        "They determined that this was because other parts of his brain took over the missing part's 34 tasks. 他们推断：是大脑别处顶了上来，把被切掉那块原本负责的活儿接了过去。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "determine + -d（过去式/过去分词）",
+        "confusables": "determined（过去式/过去分词）/ determine（原形）"
+      }
+    },
+    "different": {
+      "phonetic": "/ˈdɪfrənt/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的",
+      "collocations": [
+        "different from",
+        "a different picture",
+        "different points of view"
+      ],
+      "examples": [
+        "Their experiences were considerably different. 他们的经历相当不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "document": {
+      "phonetic": "/ˈdɒkjumənt/",
+      "pos": "n./v.",
+      "sense": "文件、文献、文档、证件；记录、记载、用文献证明（动词读 /ˈdɒkjument/）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "There are many other cases in the medical 30 that document the brain's amazing ability to 31 医学文献里还记着不少别的病例，都印证了大脑自我调整的惊人本事。"
+      ],
+      "more": {
+        "confusables": "document / documentaries（同族不同词形，注意词性与用法）"
+      }
+    },
+    "example": {
+      "phonetic": "/ɪɡˈzɑːmpl/",
+      "pos": "n.",
+      "sense": "例子、实例；榜样",
+      "collocations": [
+        "for example",
+        "an example of",
+        "set an example"
+      ],
+      "examples": [
+        "For example, texting and reading coexist. 例如，发短信和读书并存。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "for example（插入语，缩写 e.g.）/ such as（后接名词）"
+      }
+    },
+    "fact": {
+      "phonetic": "/fækt/",
+      "pos": "n.",
+      "sense": "事实（可数）",
+      "collocations": [
+        "in fact",
+        "the fact that",
+        "a matter of fact"
+      ],
+      "examples": [
+        "In fact, they spend hours changing settings. 事实上他们花数小时修改设置。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in fact（事实上）/ as a matter of fact（同义，更口语）/ the fact that（同位语从句）"
+      }
+    },
+    "findings": {
+      "phonetic": "/ˈfaɪndɪŋz/",
+      "pos": "n.",
+      "sense": "研究结果、调查发现（finding 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "find（发现）+ -ing + -s",
+        "confusables": "findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings"
+      },
+      "collocations": [
+        "findings showed"
+      ],
+      "examples": [
+        "The findings showed that, despite missing half of this critical 27 , participants could function well. 结果显示：哪怕少了半个这么要紧的器官，受试者照样能正常运转。"
+      ]
+    },
+    "focusing": {
+      "phonetic": "/ˈfəʊkəsɪŋ/",
+      "pos": "v.",
+      "sense": "focus 的现在分词，聚焦",
+      "collocations": [
+        "focusing on",
+        "focusing on people"
+      ],
+      "examples": [
+        "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness. 这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "form": {
+      "phonetic": "/fɔːm/",
+      "pos": "n./v.",
+      "sense": "形式、形状、种类、形态；表格；形成、组成、养成、构成",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "constantly form",
+        "form new",
+        "form new networks"
+      ],
+      "examples": [
+        "The human brain has the ability to constantly form new networks and connections between brain cells. 人脑能不断在脑细胞之间搭起新的网络和连线。"
+      ],
+      "more": {
+        "confusables": "form / former / formula（同族不同词形，注意词性与用法）"
+      }
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "function": {
+      "phonetic": "/ˈfʌŋkʃn/",
+      "pos": "n./v.",
+      "sense": "功能、作用、职能；函数；运作、起作用（function as 充当）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "function well"
+      ],
+      "examples": [
+        "The findings showed that, despite missing half of this critical 27 , participants could function well. 结果显示：哪怕少了半个这么要紧的器官，受试者照样能正常运转。"
+      ],
+      "more": {
+        "roots": "function 含 -tion / -sion（名词后缀，表动作或状态）"
+      }
+    },
+    "half": {
+      "phonetic": "/hɑːf/",
+      "pos": "n./adj./adv.",
+      "sense": "一半、半数",
+      "collocations": [
+        "half of",
+        "in half"
+      ],
+      "examples": [
+        "Half of the students agreed. 一半学生同意。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "half / halfway（同族不同词形，注意词性与用法）"
+      }
+    },
+    "human": {
+      "phonetic": "/ˈhjuːmən/",
+      "pos": "adj./n.",
+      "sense": "人的、人类的、有人情味的；人、人类（human being）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "human brain"
+      ],
+      "examples": [
+        "The human brain has the ability to constantly form new networks and connections between brain cells. 人脑能不断在脑细胞之间搭起新的网络和连线。"
+      ],
+      "more": {
+        "confusables": "human / humanity / human-made（同族不同词形，注意词性与用法）"
+      }
+    },
+    "illness": {
+      "phonetic": "/ˈɪlnəs/",
+      "pos": "n.",
+      "sense": "疾病、生病、病痛（ill 的名词形式；a serious illness 重病）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "treat illness"
+      ],
+      "examples": [
+        "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness. 这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。"
+      ],
+      "more": {
+        "roots": "illness 含 -ness（名词后缀，表性质或状态）"
+      }
+    },
+    "included": {
+      "phonetic": "/ɪnˈkluːdd/",
+      "pos": "v.",
+      "sense": "包括、包含；把…列为一部分（本文 which will include my family, my hobbies, my workout 包括家人、爱好、健身）（include 的过去式/过去分词形式）",
+      "lemma": "include",
+      "collocations": [],
+      "examples": [
+        "For example, a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain 32 for sight. 比如有个小男孩因治病切掉了一大块脑组织，管视觉的那块也在里头。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "include + -d（过去式/过去分词）",
+        "confusables": "included（过去式/过去分词）/ include（原形）"
+      }
+    },
+    "individuals": {
+      "phonetic": "/ˌɪndɪˈvɪdʒuəlz/",
+      "pos": "n.",
+      "sense": "individual 的复数，个人、个体",
+      "collocations": [],
+      "examples": [
+        "Though they are not sure how these individuals 35 the ability to smell, scientists believe it is possible that another part of the brain took on that task. 虽说科学家还没弄清这些人是怎么把嗅觉保下来的，但他们推测，大概是脑子别处把这份差事揽了过去。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "in-（不）+ divid（分割，词根，同 divide/dividend）+ -ual + -s → 本义「不可再分的」→ 个人",
+        "confusables": "individual（个人，可数；个别的，形容词）/ individually（各自地）/ independently（独立地）/ personal（个人的、私人的，形容词）/ people（集合复数）"
+      }
+    },
+    "information": {
+      "phonetic": "/ˌɪnfəˈmeɪʃn/",
+      "pos": "n.",
+      "sense": "信息、资料、情报、讯息（不可数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "inform（告知）+ -ation（名词后缀）",
+        "confusables": "information（信息、资料，不可数，不说 informations；一条信息说 a piece of information）/ information on/about（关于…的信息）/ inform sb of sth（介词 of）/ informative（信息量大的）"
+      },
+      "collocations": [
+        "processes information",
+        "information about",
+        "information about smells"
+      ],
+      "examples": [
+        "Another study involved people who could smell, despite missing the region in the brain that processes information about smells. 还有一项研究里，有些人明明少了负责处理气味的脑区，却照样闻得到。"
+      ]
+    },
+    "intact": {
+      "phonetic": "/ɪnˈtækt/",
+      "pos": "adj.",
+      "sense": "完整无缺的、未受损的、原封不动的（remain/keep intact 保持完好）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "intact brains",
+        "people with intact"
+      ],
+      "examples": [
+        "In fact, researchers found that connections and thus communication—between parts of different brain networks are actually stronger in people who had hemispherectomies than in people with intact brains. 研究还测到：动过半脑切除手术的人，不同脑网络之间的连接、乃至信息传递，反而比大脑完好的人更强。"
+      ]
+    },
+    "involved": {
+      "phonetic": "/ɪnˈvɒlvd/",
+      "pos": "v./adj.",
+      "sense": "涉及、包含、使参与、使卷入（involve 的过去式/过去分词）；参与的、有关联的、复杂难懂的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "study involved",
+        "involved people"
+      ],
+      "examples": [
+        "Another study involved people who could smell, despite missing the region in the brain that processes information about smells. 还有一项研究里，有些人明明少了负责处理气味的脑区，却照样闻得到。"
+      ]
+    },
+    "loss": {
+      "phonetic": "/lɒs/",
+      "pos": "n.",
+      "sense": "丧失、损失、丢失；亏损、失败（本文 species loss 物种流失 / crop losses 作物减产 / weight loss 减重）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "loss of",
+        "loss of certain",
+        "compensate for loss"
+      ],
+      "examples": [
+        "This 29 that the brain is able to compensate for loss of certain brain structure. 这说明：大脑有能力把某些脑结构缺失造成的窟窿补上。"
+      ]
+    },
+    "magical": {
+      "phonetic": "/ˈmædʒɪkl/",
+      "pos": "adj.",
+      "sense": "神奇的、有魔力的、迷人的、不可思议的（a magical moment 神奇时刻）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "almost magical",
+        "magical ability"
+      ],
+      "examples": [
+        "This means the brain has an almost magical ability to change. 换句话说，大脑改变自身这件事，简直像会变魔术。"
+      ],
+      "more": {
+        "confusables": "magical / magic（同族不同词形，注意词性与用法）"
+      }
+    },
+    "means": {
+      "phonetic": "/miːnz/",
+      "pos": "v./n.",
+      "sense": "mean 的第三人称单数；手段、方法（单复同形）",
+      "lemma": "mean",
+      "collocations": [
+        "by means of",
+        "a means of",
+        "by no means"
+      ],
+      "examples": [
+        "She argues the data means little. 她认为这些数据意义不大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "by no means（绝不）/ by all means（当然可以）/ means（单复同形）"
+      }
+    },
+    "medical": {
+      "phonetic": "/ˈmedɪkl/",
+      "pos": "adj.",
+      "sense": "医学的、医疗的、医用的（medical care 医疗；medical 话题常与手术、研究并提）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "medical reasons",
+        "removed for medical"
+      ],
+      "examples": [
+        "There are many other cases in the medical 30 that document the brain's amazing ability to 31 医学文献里还记着不少别的病例，都印证了大脑自我调整的惊人本事。"
+      ],
+      "more": {
+        "confusables": "medical / medicine（同族不同词形，注意词性与用法）"
+      }
+    },
+    "missing": {
+      "phonetic": "/ˈmɪsɪŋ/",
+      "pos": "adj./v.",
+      "sense": "缺失的、找不到的、失踪的、缺席的；错过、想念（现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "despite missing",
+        "missing half",
+        "missing part's"
+      ],
+      "examples": [
+        "The findings showed that, despite missing half of this critical 27 , participants could function well. 结果显示：哪怕少了半个这么要紧的器官，受试者照样能正常运转。"
+      ]
+    },
+    "networks": {
+      "phonetic": "/ˈnetwɜːks/",
+      "pos": "n.",
+      "sense": "网络、网状系统、关系网、广播网（network 的复数；social networks 社交网络）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "new networks",
+        "brain networks"
+      ],
+      "examples": [
+        "The human brain has the ability to constantly form new networks and connections between brain cells. 人脑能不断在脑细胞之间搭起新的网络和连线。"
+      ],
+      "more": {
+        "confusables": "networks / networked（同族不同词形，注意词性与用法）"
+      }
+    },
+    "new": {
+      "phonetic": "/njuː/",
+      "pos": "adj.",
+      "sense": "新的；新近的",
+      "collocations": [
+        "new technologies",
+        "brand new",
+        "new to sth"
+      ],
+      "examples": [
+        "New tools always provoke worry. 新工具总会引发担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "part": {
+      "phonetic": "/pɑːt/",
+      "pos": "n./v.",
+      "sense": "部分、部件；角色、职责；分开、分离（part with 割舍）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "part of",
+        "another part"
+      ],
+      "examples": [
+        "For example, a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain 32 for sight. 比如有个小男孩因治病切掉了一大块脑组织，管视觉的那块也在里头。"
+      ],
+      "more": {
+        "confusables": "part / parts / participants（同族不同词形，注意词性与用法）"
+      }
+    },
+    "participants": {
+      "phonetic": "/pɑːˈtɪsɪpənts/",
+      "pos": "n.",
+      "sense": "participant 的复数，参与者、受试者",
+      "collocations": [],
+      "examples": [
+        "The findings showed that, despite missing half of this critical 27 , participants could function well. 结果显示：哪怕少了半个这么要紧的器官，受试者照样能正常运转。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "parts": {
+      "phonetic": "/pɑːts/",
+      "pos": "n.",
+      "sense": "部分（part 的复数）；零件",
+      "lemma": "part",
+      "collocations": [
+        "parts of",
+        "play a part in",
+        "spare parts"
+      ],
+      "examples": [
+        "It is not, for most teens, a cycle of abuse in most parts. 对多数青少年而言并非如此。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "part（部分）/ portion（一份）/ play a part in（起作用）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "portion": {
+      "phonetic": "/ˈpɔːʃn/",
+      "pos": "n.",
+      "sense": "一部分、一份、份量、（食物的）一客（a portion of …的一部分；portion size 份量）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "significant portion",
+        "portion of",
+        "portion of his"
+      ],
+      "examples": [
+        "For example, a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain 32 for sight. 比如有个小男孩因治病切掉了一大块脑组织，管视觉的那块也在里头。"
+      ],
+      "more": {
+        "confusables": "portion / portions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "possible": {
+      "phonetic": "/ˈpɒsəbl/",
+      "pos": "adj.",
+      "sense": "可能的；可行的",
+      "collocations": [
+        "as soon as possible",
+        "it is possible to",
+        "the best possible"
+      ],
+      "examples": [
+        "They arrive at the best possible decisions. 他们做出尽可能最好的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "possible（可能）/ possibly（副词）/ probable（更可能）"
+      }
+    },
+    "procedure": {
+      "phonetic": "/prəˈsiːdʒə/",
+      "pos": "n.",
+      "sense": "程序、步骤、手续、流程、常规做法；（外科）手术（standard procedure 标准流程）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "surgical procedure",
+        "procedure in"
+      ],
+      "examples": [
+        "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness. 这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。"
+      ]
+    },
+    "processes": {
+      "phonetic": "/ˈprəʊsesɪz/",
+      "pos": "n./v.",
+      "sense": "过程（process 的复数）；处理（动词三单）",
+      "lemma": "process",
+      "collocations": [
+        "cognitive processes",
+        "decision processes"
+      ],
+      "examples": [
+        "Decision processes vary by person. 决策过程因人而异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "processes（过程）/ process（单数/处理）"
+      }
+    },
+    "reasons": {
+      "phonetic": "/ˈriːznz/",
+      "pos": "n./v.",
+      "sense": "原因、理由、道理、理性（复数）；推理、推断（第三人称单数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "reason（原因、理由）+ -s（复数）",
+        "confusables": "reason（原因、理由，可数；理性，不可数）/ reason for（介词 for，不用 of）/ the reason why/that（…的原因）/ The reason is that…（表语从句用 that，不用 because）/ cause（强调直接导致）"
+      },
+      "collocations": [
+        "medical reasons"
+      ],
+      "examples": [
+        "For example, a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain 32 for sight. 比如有个小男孩因治病切掉了一大块脑组织，管视觉的那块也在里头。"
+      ]
+    },
+    "region": {
+      "phonetic": "/ˈriːdʒən/",
+      "pos": "n.",
+      "sense": "地区、区域、地带、行政区；（身体）部位、领域（in the region of 大约；tropical regions 热带地区）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "region in"
+      ],
+      "examples": [
+        "Another study involved people who could smell, despite missing the region in the brain that processes information about smells. 还有一项研究里，有些人明明少了负责处理气味的脑区，却照样闻得到。"
+      ],
+      "more": {
+        "confusables": "region / regions / register（同族不同词形，注意词性与用法）"
+      }
+    },
+    "removed": {
+      "phonetic": "/rɪˈmuːvd/",
+      "pos": "v.",
+      "sense": "移走、拿开、去除、消除、脱下；免职、开除（remove 的过去式/过去分词形式）",
+      "lemma": "remove",
+      "collocations": [
+        "removed to",
+        "removed to treat",
+        "brain removed"
+      ],
+      "examples": [
+        "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness. 这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "remove + -d（过去式/过去分词）",
+        "confusables": "removed（过去式/过去分词）/ remove（原形）"
+      }
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "researcher 的复数，研究人员",
+      "collocations": [
+        "researchers found"
+      ],
+      "examples": [
+        "In fact, researchers found that connections and thus communication—between parts of different brain networks are actually stronger in people who had hemispherectomies than in people with intact brains. 研究还测到：动过半脑切除手术的人，不同脑网络之间的连接、乃至信息传递，反而比大脑完好的人更强。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researchers / researcher（同族不同词形，注意词性与用法）"
+      }
+    },
+    "scientists": {
+      "phonetic": "/ˈsaɪəntɪsts/",
+      "pos": "n.",
+      "sense": "科学家（scientist 的复数）",
+      "lemma": "scientist",
+      "collocations": [
+        "social scientists",
+        "scientists found"
+      ],
+      "examples": [
+        "Social scientists found digital use beneficial. 社会科学家发现数字使用有益。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "science（科学）+ -ist",
+        "confusables": "scientist（科学家）/ science（科学）"
+      }
+    },
+    "see": {
+      "phonetic": "/siː/",
+      "pos": "v.",
+      "sense": "看见；明白（I see）；见证",
+      "collocations": [
+        "see that",
+        "as we can see",
+        "see sb do/doing"
+      ],
+      "examples": [
+        "We see the same pattern again. 我们又看到了同样的模式。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "see（看见，无意）/ look at（看，有意）/ watch（观看，持续）"
+      }
+    },
+    "showed": {
+      "phonetic": "/ʃəʊd/",
+      "pos": "v./n.",
+      "sense": "显示、表明（show that）；展示 / 演出、展览（show 的过去式/过去分词形式）",
+      "lemma": "show",
+      "collocations": [
+        "findings showed"
+      ],
+      "examples": [
+        "The findings showed that, despite missing half of this critical 27 , participants could function well. 结果显示：哪怕少了半个这么要紧的器官，受试者照样能正常运转。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "show + -ed（过去式/过去分词）",
+        "confusables": "showed（过去式/过去分词）/ show（原形）"
+      }
+    },
+    "sight": {
+      "phonetic": "/saɪt/",
+      "pos": "n./v.",
+      "sense": "视力、视觉；景象、名胜（sights）；看见、瞥见（at first sight / catch sight of / lose sight of）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "For example, a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain 32 for sight. 比如有个小男孩因治病切掉了一大块脑组织，管视觉的那块也在里头。"
+      ]
+    },
+    "significant": {
+      "phonetic": "/sɪɡˈnɪfɪkənt/",
+      "pos": "adj.",
+      "sense": "显著的、重要的；统计上显著的",
+      "collocations": [
+        "a significant problem",
+        "significant difference",
+        "statistically significant"
+      ],
+      "examples": [
+        "Loneliness is a significant problem. 孤独是个重要问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "signify（表示）+ -cant",
+        "confusables": "significant（显著的）/ significance（意义）"
+      }
+    },
+    "smell": {
+      "phonetic": "/smel/",
+      "pos": "v./n.",
+      "sense": "闻、嗅、闻起来有…气味；气味、嗅觉、臭味（smell of 有…味；作系动词后接形容词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "ability to smell"
+      ],
+      "examples": [
+        "Another study involved people who could smell, despite missing the region in the brain that processes information about smells. 还有一项研究里，有些人明明少了负责处理气味的脑区，却照样闻得到。"
+      ],
+      "more": {
+        "confusables": "smell / smells（同族不同词形，注意词性与用法）"
+      }
+    },
+    "smells": {
+      "phonetic": "/smelz/",
+      "pos": "v./n.",
+      "sense": "闻起来、发出…气味；气味（smell 的三单/复数；it smells good 闻着香）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "information about smells"
+      ],
+      "examples": [
+        "Another study involved people who could smell, despite missing the region in the brain that processes information about smells. 还有一项研究里，有些人明明少了负责处理气味的脑区，却照样闻得到。"
+      ],
+      "more": {
+        "confusables": "smells / smell（同族不同词形，注意词性与用法）"
+      }
+    },
+    "strengthened": {
+      "phonetic": "/ˈstreŋθnd/",
+      "pos": "v.",
+      "sense": "加强、增强（strengthen 的过去式/过去分词形式）",
+      "lemma": "strengthen",
+      "collocations": [
+        "brain strengthened"
+      ],
+      "examples": [
+        "This was because the 28 half of their brain strengthened. 原因在于：留下来的那半边大脑反而变强了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "strengthen + -ed（过去式/过去分词）",
+        "confusables": "strengthened（过去式/过去分词）/ strengthen（原形）"
+      }
+    },
+    "stronger": {
+      "phonetic": "/strɒŋə(r)/",
+      "pos": "adj.",
+      "sense": "强壮的、强烈的、坚定的（strong 的比较级形式）",
+      "lemma": "strong",
+      "collocations": [
+        "actually stronger",
+        "stronger in",
+        "stronger in people"
+      ],
+      "examples": [
+        "In fact, researchers found that connections and thus communication—between parts of different brain networks are actually stronger in people who had hemispherectomies than in people with intact brains. 研究还测到：动过半脑切除手术的人，不同脑网络之间的连接、乃至信息传递，反而比大脑完好的人更强。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "strong + -er（比较级）",
+        "confusables": "stronger（比较级）/ strong（原形）"
+      }
+    },
+    "structure": {
+      "phonetic": "/ˈstrʌktʃə(r)/",
+      "pos": "n./v.",
+      "sense": "结构、构造、建筑物、机构；组织、安排、构建",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "struct（建造，词根 struct = build，同 construct/destroy/instruct）+ -ure（名词后缀）",
+        "confusables": "structure（结构；建筑物）/ structural（结构上的）/ construct（建造）/ destroy（破坏，de- + struct）/ instruct（指导）/ infrastructure（基础设施）"
+      },
+      "collocations": [
+        "brain structure"
+      ],
+      "examples": [
+        "This 29 that the brain is able to compensate for loss of certain brain structure. 这说明：大脑有能力把某些脑结构缺失造成的窟窿补上。"
+      ]
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "sure": {
+      "phonetic": "/ʃɔː(r)/",
+      "pos": "adj./adv.",
+      "sense": "确信的、肯定的、一定的；当然、确实（make sure 确保；for sure 确实）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be sure of/about（对…有把握，介词 of/about）/ be sure to do（务必做；一定会做）/ make sure (that)（确保，后接从句）/ for sure（确实，口语）/ certain（更正式）/ sure 作副词「当然」（美语口语）"
+      },
+      "collocations": [],
+      "examples": [
+        "Though they are not sure how these individuals 35 the ability to smell, scientists believe it is possible that another part of the brain took on that task. 虽说科学家还没弄清这些人是怎么把嗅觉保下来的，但他们推测，大概是脑子别处把这份差事揽了过去。"
+      ]
+    },
+    "surgery": {
+      "phonetic": "/ˈsɜːdʒəri/",
+      "pos": "n.",
+      "sense": "外科手术、手术；诊所、门诊（brain surgery 脑部手术；医学话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "his surgery"
+      ],
+      "examples": [
+        "But a few years after his surgery, scientists found that he could 33 see. 可术后没几年，研究人员发现他居然还看得见。"
+      ],
+      "more": {
+        "confusables": "surgery / surge（同族不同词形，注意词性与用法）"
+      }
+    },
+    "surgical": {
+      "phonetic": "/ˈsɜːdʒɪkl/",
+      "pos": "adj.",
+      "sense": "外科的、手术的、外科手术用的（surgical procedure 外科手术）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "surgical procedure"
+      ],
+      "examples": [
+        "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness. 这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。"
+      ]
+    },
+    "task": {
+      "phonetic": "/tɑːsk/",
+      "pos": "n./v.",
+      "sense": "任务（可数）/ 使……费力",
+      "collocations": [
+        "household tasks",
+        "complete a task",
+        "a difficult task"
+      ],
+      "examples": [
+        "Doing each task well is hard when switching. 切换时把每项任务做好很难。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "task（任务）/ work（工作，不可数）/ chore（家务）"
+      }
+    },
+    "tasks": {
+      "phonetic": "/tɑːsks/",
+      "pos": "n.",
+      "sense": "任务（task 的复数）",
+      "lemma": "task",
+      "collocations": [
+        "household tasks",
+        "complete a task"
+      ],
+      "examples": [
+        "Splitting tasks fairly matters. 公平分担任务很重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "task（任务）/ work（工作）/ chore（家务杂事）"
+      }
+    },
+    "though": {
+      "phonetic": "/ðəʊ/",
+      "pos": "conj./adv.",
+      "sense": "虽然（连词）；不过（副词，置于句末）",
+      "collocations": [
+        "even though",
+        "though, ...",
+        "as though"
+      ],
+      "examples": [
+        "It was just an obstacle, though, that had to be overcome. 不过那只是个必需克服的障碍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "though（虽然/不过）/ although（虽然，更正式，不放句末）/ even though（即便，语气更强）"
+      }
+    },
+    "took": {
+      "phonetic": "/tʊk/",
+      "pos": "v.",
+      "sense": "拿、取、带、花费、乘坐、吃（药）、记录、理解（take 的过去式）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "brain took",
+        "took over",
+        "took on"
+      ],
+      "examples": [
+        "They determined that this was because other parts of his brain took over the missing part's 34 tasks. 他们推断：是大脑别处顶了上来，把被切掉那块原本负责的活儿接了过去。"
+      ]
+    },
+    "treat": {
+      "phonetic": "/triːt/",
+      "pos": "v./n.",
+      "sense": "对待、看待、处理、治疗、款待、请客；款待、乐事（treat A as B 视 A 为 B；treatment 治疗）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "treat illness",
+        "removed to treat"
+      ],
+      "examples": [
+        "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness. 这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。"
+      ]
+    },
+    "underwent": {
+      "phonetic": "/ˌʌndəˈwent/",
+      "pos": "v.",
+      "sense": "经历、经受（undergo 的过去式；常指经历手术、变化或考验）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "This characteristic is 26 apparent in a new study, focusing on people who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness. 这种特质在一项新研究里体现得格外突出：研究跟踪了做过「半脑切除」的人，也就是为治病切掉一半大脑的那种手术。"
+      ]
+    },
+    "well": {
+      "phonetic": "/wel/",
+      "pos": "adv./adj.",
+      "sense": "好地（副词）；健康的（形容词）；井（名词）",
+      "collocations": [
+        "as well",
+        "well-being",
+        "do well"
+      ],
+      "examples": [
+        "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "well（好地/健康）/ good（好的，形容词）/ as well（也）"
+      }
+    },
+    "years": {
+      "phonetic": "/jɪəz/",
+      "pos": "n.",
+      "sense": "年、年份；岁数、年纪（year 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "year（年）+ -s（复数）",
+        "confusables": "year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）"
+      },
+      "collocations": [],
+      "examples": [
+        "But a few years after his surgery, scientists found that he could 33 see. 可术后没几年，研究人员发现他居然还看得见。"
+      ]
+    },
+    "young": {
+      "phonetic": "/jʌŋ/",
+      "pos": "adj.",
+      "sense": "年轻的、幼小的；青年的（本文指年轻人 / 年轻时）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "young boy"
+      ],
+      "examples": [
+        "For example, a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain 32 for sight. 比如有个小男孩因治病切掉了一大块脑组织，管视觉的那块也在里头。"
+      ]
+    }
+  }
+}

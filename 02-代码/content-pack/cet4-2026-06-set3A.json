@@ -1,0 +1,5760 @@
+{
+  "sourceKey": "cet4-2026-06-set3A",
+  "articleId": "set3A",
+  "packVersion": "2026.11.13",
+  "meta": {
+    "examYear": 2026,
+    "examMonth": 6,
+    "setNo": 3,
+    "section": "仔细阅读",
+    "passageLabel": "Passage One",
+    "title": "Understanding Disgust and Moral Development",
+    "wordCount": 351
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "Disgust is a universal human emotion. One type of disgust is called physical disgust, which protects us from eating or touching things that could be dangerous for us, such as raw meat or insects. Children experience physical disgust from a very early age, but do not achieve an understanding of the concept until they are around four years old.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 37,
+          "text": "Disgust is a universal human emotion.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "Disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 22,
+              "surface": "universal",
+              "normalized": "universal",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 28,
+              "surface": "human",
+              "normalized": "human",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "emotion",
+              "normalized": "emotion",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 37,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "厌恶是一种普遍的人类情绪。",
+            "translationNatural": "厌恶，是人人都会有的一种基本情绪。",
+            "structMarkup": "【Disgust】 _is_ ~a universal human emotion~.",
+            "structureSummary": "简单主系表结构；主语 Disgust 为不可数抽象名词，is 连接表语 a universal human emotion，universal 作前置定语。",
+            "components": [
+              {
+                "part": "Disgust",
+                "role": "主语",
+                "note": "全句主语，抽象名词，泛指「厌恶」这种情绪，也是全文的论题"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "把主语与表语的判断关系连起来，本身无实义"
+              },
+              {
+                "part": "a universal human emotion",
+                "role": "表语",
+                "note": "名词短语作表语，说明厌恶的归属——一种普遍的人类情绪"
+              },
+              {
+                "part": "universal",
+                "role": "定语",
+                "note": "前置形容词，强调这种情绪跨越人群、人人皆有"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「简单主系表结构；主语 Disgust 为不可数抽象名词，is 连接表语 a universal human emotion，universal 作前置定语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "universal",
+                "meaning": "普遍的、全体的；通用的；全世界的",
+                "usage": "本句中作adj.，可按「简单主系表结构；主语 Disgust 为不可数抽象名词，is 连接表语 a universal human emotion，universal 作前置定语。」定位它在句中的位置。",
+                "example": "Disgust is a universal human emotion. 厌恶，是人人都会有的一种基本情绪。"
+              }
+            ],
+            "pitfalls": [
+              "本句主干为「简单主系表结构；主语 Disgust 为不可数抽象名词，is 连接表语 a universal human emotion，universal 作前置定语。」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "开篇给「厌恶」下定义，点明它是人类共有的情绪，为下文区分生理厌恶与道德厌恶立下总纲。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 38,
+          "end": 195,
+          "text": "One type of disgust is called physical disgust, which protects us from eating or touching things that could be dangerous for us, such as raw meat or insects.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "One",
+              "normalized": "one",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "type",
+              "normalized": "type",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 19,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 29,
+              "surface": "called",
+              "normalized": "called",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 38,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 46,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 48,
+              "end": 53,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 62,
+              "surface": "protects",
+              "normalized": "protects",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 70,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 77,
+              "surface": "eating",
+              "normalized": "eating",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 80,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 89,
+              "surface": "touching",
+              "normalized": "touching",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 96,
+              "surface": "things",
+              "normalized": "things",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 101,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 107,
+              "surface": "could",
+              "normalized": "could",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 110,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 120,
+              "surface": "dangerous",
+              "normalized": "dangerous",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 124,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 127,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 128,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 129,
+              "end": 133,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 136,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 140,
+              "surface": "raw",
+              "normalized": "raw",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 145,
+              "surface": "meat",
+              "normalized": "meat",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 148,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 156,
+              "surface": "insects",
+              "normalized": "insects",
+              "isWord": true
+            },
+            {
+              "start": 156,
+              "end": 157,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "厌恶的一种类型被称作生理厌恶，它保护我们不去吃或触碰那些可能对我们有危险的东西，例如生肉或昆虫。",
+            "translationNatural": "厌恶里有一类叫「生理厌恶」，作用是拦着我们别去碰、别去吃可能有害的东西，像生肉、虫子之类。",
+            "structMarkup": "【One type of disgust】 _is called_ (physical disgust), {which protects us from eating or touching things that could be dangerous for us, such as raw meat or insects}.",
+            "structureSummary": "主谓补（被动 is called）+ which 引导的非限制性定语从句补充说明；从句内 that 定语从句修饰 things，such as 举例收尾。",
+            "components": [
+              {
+                "part": "One type of disgust",
+                "role": "主语",
+                "note": "of disgust 限定范围，指「厌恶中的一类」"
+              },
+              {
+                "part": "is called",
+                "role": "谓语",
+                "note": "被动谓语，意为「被称作」，后接名称作补语"
+              },
+              {
+                "part": "physical disgust",
+                "role": "补语",
+                "note": "给出这一类型的名称「生理厌恶」，是 called 的补足成分"
+              },
+              {
+                "part": "which protects us from eating or touching things that could be dangerous for us, such as raw meat or insects",
+                "role": "非限制性定语从句",
+                "note": "which 回指 physical disgust，说明其「防危险」的保护作用"
+              },
+              {
+                "part": "that could be dangerous for us",
+                "role": "定语从句",
+                "note": "修饰 things，把对象限定为「可能对我们有害的」东西"
+              },
+              {
+                "part": "such as raw meat or insects",
+                "role": "插入语",
+                "note": "举例性插入，把危险物具体化为生肉与昆虫"
+              }
+            ],
+            "clauses": [
+              "非限制性定语从句「which protects us from eating or touching things that could be dangero」：which 回指 physical disgust，说明其「防危险」的保护作用",
+              "定语从句「that could be dangerous for us」：修饰 things，把对象限定为「可能对我们有害的」东西",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              },
+              {
+                "text": "physical",
+                "meaning": "身体的；物理的；实物的",
+                "usage": "注意区分：physical（身体的/物理的）/ mental（心理的）。常见搭配：physical health / physical activity。",
+                "example": "Mental and physical health are linked. 心理与身体健康相互关联。"
+              },
+              {
+                "text": "protects",
+                "meaning": "保护（protect sb from sth）（protect 的复数/三单形式）",
+                "usage": "注意区分：protects（复数/三单）/ protect（原形）。",
+                "example": "One type of disgust is called physical disgust, which protects us from eating or touching things that could be dangerous for us, such as raw meat or insects. 厌恶里有一类叫「生理厌恶」，作用是拦着我们别去碰、别去吃可能有害的东西，像生肉、虫子之类。"
+              }
+            ],
+            "pitfalls": [
+              "such as 用于举例，for example 常作插入语，位置不同。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "紧接定义引出第一类厌恶——生理厌恶，并说明它「让人远离危险」的保护功能，正是第46题答案的依据。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 196,
+          "end": 344,
+          "text": "Children experience physical disgust from a very early age, but do not achieve an understanding of the concept until they are around four years old.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 19,
+              "surface": "experience",
+              "normalized": "experience",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 28,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "very",
+              "normalized": "very",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 54,
+              "surface": "early",
+              "normalized": "early",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 59,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 60,
+              "end": 63,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 66,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 78,
+              "surface": "achieve",
+              "normalized": "achieve",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "an",
+              "normalized": "an",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 95,
+              "surface": "understanding",
+              "normalized": "understanding",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 98,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 102,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 110,
+              "surface": "concept",
+              "normalized": "concept",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 116,
+              "surface": "until",
+              "normalized": "until",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 121,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 125,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 132,
+              "surface": "around",
+              "normalized": "around",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 137,
+              "surface": "four",
+              "normalized": "four",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 143,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 147,
+              "surface": "old",
+              "normalized": "old",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 148,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "儿童从很小的时候起就体验到生理厌恶，但要到大约四岁时才获得对这一概念的理解。",
+            "translationNatural": "孩子很小就会有生理上的厌恶反应，可真正「懂」这是什么、在脑子里成一个概念，得等到四岁左右。",
+            "structMarkup": "【Children】 _experience_ ~physical disgust~ (from a very early age), but _do not achieve_ ~an understanding of the concept~ {until they are around four years old}.",
+            "structureSummary": "but 连接并列谓语；前半 experience...from... 介词短语作状语，后半否定式 do not achieve... 由 until 状语从句限定时间。",
+            "components": [
+              {
+                "part": "Children",
+                "role": "主语",
+                "note": "泛指儿童群体，是全段讨论的对象"
+              },
+              {
+                "part": "experience",
+                "role": "谓语",
+                "note": "及物动词，意为「体验到、产生」"
+              },
+              {
+                "part": "physical disgust",
+                "role": "宾语",
+                "note": "承接上句所说的生理厌恶，作 experience 的宾语"
+              },
+              {
+                "part": "from a very early age",
+                "role": "介词短语",
+                "note": "作时间状语，强调这种反应出现得极早"
+              },
+              {
+                "part": "do not achieve",
+                "role": "谓语",
+                "note": "but 后的并列谓语，否定式，指「尚未获得」"
+              },
+              {
+                "part": "an understanding of the concept",
+                "role": "宾语",
+                "note": "of the concept 说明理解的对象是「这一概念」"
+              },
+              {
+                "part": "until they are around four years old",
+                "role": "状语从句",
+                "note": "until 引导时间状语从句，点明理解出现的年龄门槛"
+              }
+            ],
+            "clauses": [
+              "状语从句「until they are around four years old」：until 引导时间状语从句，点明理解出现的年龄门槛",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。"
+            ],
+            "phrases": [
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "Children experience physical disgust from a very early age, but do not achieve an understanding of the concept until they are around four years old. 孩子很小就会有生理上的厌恶反应，可真正「懂」这是什么、在脑子里成一个概念，得等到四岁左右。"
+              },
+              {
+                "text": "experience",
+                "meaning": "经验（不可数）；经历（可数）/ 经历、体验",
+                "usage": "注意区分：experience（经验，不可数）/ experiences（经历，可数）。常见搭配：work experience / a lot of experience。",
+                "example": "Relying on instincts needs vast experience. 依靠直觉需要大量经验。"
+              },
+              {
+                "text": "physical",
+                "meaning": "身体的；物理的；实物的",
+                "usage": "注意区分：physical（身体的/物理的）/ mental（心理的）。常见搭配：physical health / physical activity。",
+                "example": "Mental and physical health are linked. 心理与身体健康相互关联。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+              "注意区分：experience（经验，不可数）/ experiences（经历，可数）。"
+            ],
+            "paragraphRole": "补出关键的时间差：生理厌恶出现很早，但对它的「概念性理解」要到四岁，为后文谈道德厌恶出现更晚埋下伏笔。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Some researchers maintain that there is another type of disgust, called moral disgust, that protects us from engaging in activities that can be perceived as morally wrong. Examples of moral disgust are stealing, lying or cheating.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 171,
+          "text": "Some researchers maintain that there is another type of disgust, called moral disgust, that protects us from engaging in activities that can be perceived as morally wrong.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 16,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 25,
+              "surface": "maintain",
+              "normalized": "maintain",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 36,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 39,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 47,
+              "surface": "another",
+              "normalized": "another",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 52,
+              "surface": "type",
+              "normalized": "type",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 55,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 63,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 64,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 65,
+              "end": 71,
+              "surface": "called",
+              "normalized": "called",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 77,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 85,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 86,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 87,
+              "end": 91,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 100,
+              "surface": "protects",
+              "normalized": "protects",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 103,
+              "surface": "us",
+              "normalized": "us",
+              "isWord": true
+            },
+            {
+              "start": 104,
+              "end": 108,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 117,
+              "surface": "engaging",
+              "normalized": "engaging",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 120,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 131,
+              "surface": "activities",
+              "normalized": "activities",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 136,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 137,
+              "end": 140,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 143,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 153,
+              "surface": "perceived",
+              "normalized": "perceived",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 156,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 164,
+              "surface": "morally",
+              "normalized": "morally",
+              "isWord": true
+            },
+            {
+              "start": 165,
+              "end": 170,
+              "surface": "wrong",
+              "normalized": "wrong",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 171,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一些研究者坚持认为，还有另一类厌恶，叫作道德厌恶，它阻止我们参与那些可被视作道德上错误的行为。",
+            "translationNatural": "有学者主张，厌恶还有一类叫「道德厌恶」，专门拦着我们去做那些在道德上站不住脚的事。",
+            "structMarkup": "【Some researchers】 _maintain_ {that there is another type of disgust, called moral disgust, that protects us from engaging in activities that can be perceived as morally wrong}.",
+            "structureSummary": "主谓 + that 宾语从句；从句为 there be 存在句，主语后接过去分词短语作后置定语及层层 that 定语从句限定。",
+            "components": [
+              {
+                "part": "Some researchers",
+                "role": "主语",
+                "note": "Some 表明只是部分学者，为下段 However 的质疑留余地"
+              },
+              {
+                "part": "maintain",
+                "role": "谓语",
+                "note": "意为「坚持认为、主张」，后接 that 从句陈述观点"
+              },
+              {
+                "part": "that there is another type of disgust, called moral disgust, that protects us from engaging in activities that can be perceived as morally wrong",
+                "role": "宾语从句",
+                "note": "作 maintain 的内容，引出「另一类厌恶」的存在"
+              },
+              {
+                "part": "another type of disgust",
+                "role": "主语",
+                "note": "there be 从句的真正主语，与上文 physical disgust 并列为第二类"
+              },
+              {
+                "part": "called moral disgust",
+                "role": "后置定语",
+                "note": "过去分词短语作后置定语，给出这一类型的名称"
+              },
+              {
+                "part": "that protects us from engaging in activities",
+                "role": "定语从句",
+                "note": "修饰 disgust，说明其「阻止参与」的功能"
+              },
+              {
+                "part": "that can be perceived as morally wrong",
+                "role": "定语从句",
+                "note": "修饰 activities，界定何为「道德上错误」的行为"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that there is another type of disgust, called moral disgust, that prot」：作 maintain 的内容，引出「另一类厌恶」的存在",
+              "定语从句「that protects us from engaging in activities」：修饰 disgust，说明其「阻止参与」的功能",
+              "定语从句「that can be perceived as morally wrong」：修饰 activities，界定何为「道德上错误」的行为"
+            ],
+            "phrases": [
+              {
+                "text": "maintain that",
+                "meaning": "维持、保持；坚持认为（maintain that）",
+                "usage": "注意区分：maintain（维持/主张）/ maintenance（维护，名词）。常见搭配：maintain that / maintain contact。",
+                "example": "Some maintain that multitasking is possible. 有人坚持认为多任务处理是可能的。"
+              },
+              {
+                "text": "protects",
+                "meaning": "保护（protect sb from sth）（protect 的复数/三单形式）",
+                "usage": "注意区分：protects（复数/三单）/ protect（原形）。",
+                "example": "Some researchers maintain that there is another type of disgust, called moral disgust, that protects us from engaging in activities that can be perceived as morally wrong. 有学者主张，厌恶还有一类叫「道德厌恶」，专门拦着我们去做那些在道德上站不住脚的事。"
+              },
+              {
+                "text": "activities",
+                "meaning": "活动（activity 的复数）",
+                "usage": "注意区分：activities（复数）/ activity（单数）。常见搭配：daily activities / extracurricular activities。",
+                "example": "What are my activities and my social network? 我有哪些活动、我的社交圈是什么？"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "提出全文核心主张之一——存在「道德厌恶」，并说明它防范的是道德上的过错，对应第47题。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 172,
+          "end": 230,
+          "text": "Examples of moral disgust are stealing, lying or cheating.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Examples",
+              "normalized": "examples",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 17,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 25,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 29,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 38,
+              "surface": "stealing",
+              "normalized": "stealing",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 39,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 40,
+              "end": 45,
+              "surface": "lying",
+              "normalized": "lying",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 57,
+              "surface": "cheating",
+              "normalized": "cheating",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 58,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "道德厌恶的例子是偷窃、说谎或欺骗。",
+            "translationNatural": "哪些算道德厌恶？偷东西、撒谎、作弊，就是最典型的几个。",
+            "structMarkup": "【Examples of moral disgust】 _are_ ~stealing, lying or cheating~.",
+            "structureSummary": "主系表结构；主语后 of 短语作后置定语，表语由三个并列动名词构成，or 收尾。",
+            "components": [
+              {
+                "part": "Examples of moral disgust",
+                "role": "主语",
+                "note": "of 短语说明是「道德厌恶」的例子"
+              },
+              {
+                "part": "are",
+                "role": "系动词",
+                "note": "连接主语与表语，与复数表语一致"
+              },
+              {
+                "part": "stealing, lying or cheating",
+                "role": "表语",
+                "note": "三个动名词并列，列举具体的不道德行为"
+              },
+              {
+                "part": "of moral disgust",
+                "role": "后置定语",
+                "note": "限定 examples 的所属范围"
+              }
+            ],
+            "clauses": [
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。",
+              "本句主干为「主系表结构；主语后 of 短语作后置定语，表语由三个并列动名词构成，or 收尾。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "examples",
+                "meaning": "例子、实例、榜样、范例（example 复数；for example 例如）",
+                "usage": "注意区分：for example（例如，= for instance，作插入语，后接句子或名词短语，不接 doing）/ set an example to/for sb（树立榜样）/ an example of（…的例子，介词 of）/ example 与 sample（实物样本）。",
+                "example": "Examples of moral disgust are stealing, lying or cheating. 哪些算道德厌恶？偷东西、撒谎、作弊，就是最典型的几个。"
+              },
+              {
+                "text": "cheating",
+                "meaning": "欺骗、作弊、骗取；骗子、欺骗行为（cheat 的现在分词/动名词形式）",
+                "usage": "注意区分：cheating（现在分词/动名词）/ cheat（原形）。",
+                "example": "Examples of moral disgust are stealing, lying or cheating. 哪些算道德厌恶？偷东西、撒谎、作弊，就是最典型的几个。"
+              }
+            ],
+            "pitfalls": [
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。",
+              "注意区分：for example（例如，= for instance，作插入语，后接句子或名词短语，不接 doing）/ set an example to/for sb（树立榜样）/ an example of（…的例子，介词 of）/ example 与 sample（实物样本）。",
+              "注意区分：cheating（现在分词/动名词）/ cheat（原形）。"
+            ],
+            "paragraphRole": "用三个具体行为把抽象的「道德厌恶」落到实处，帮助读者把握它指向的是道德过失。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "However, not all academics think that moral disgust really exists. Some say that when we refer to disgust in relation to moral issues, we are using disgust as a metaphor(隐喻), and what we are feeling is in reality anger.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 66,
+          "text": "However, not all academics think that moral disgust really exists.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "However",
+              "normalized": "however",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 26,
+              "surface": "academics",
+              "normalized": "academics",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 32,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 43,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 51,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 58,
+              "surface": "really",
+              "normalized": "really",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 65,
+              "surface": "exists",
+              "normalized": "exists",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 66,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "然而，并非所有学者都认为道德厌恶真的存在。",
+            "translationNatural": "不过，也不是学界人人买账——有人根本不承认「道德厌恶」这回事。",
+            "structMarkup": "(However), 【not all academics】 _think_ {that moral disgust really exists}.",
+            "structureSummary": "However 转折状语 + 部分否定 not all... 作主语 + think + that 宾语从句。",
+            "components": [
+              {
+                "part": "However",
+                "role": "状语",
+                "note": "转折副词，把笔锋从「存在」转向「存疑」"
+              },
+              {
+                "part": "not all academics",
+                "role": "主语",
+                "note": "not all 构成部分否定，意为「并非所有学者」"
+              },
+              {
+                "part": "think",
+                "role": "谓语",
+                "note": "后接 that 从句引出看法"
+              },
+              {
+                "part": "that moral disgust really exists",
+                "role": "宾语从句",
+                "note": "陈述被部分学者质疑的那个命题"
+              },
+              {
+                "part": "moral disgust",
+                "role": "主语",
+                "note": "从句内的主语，回指第二类厌恶"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that moral disgust really exists」：陈述被部分学者质疑的那个命题",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "however",
+                "meaning": "然而（副词，须用分号或句号连接）；无论怎样",
+                "usage": "注意区分：however（副词，不能像 but 那样直接连两个分句）/ but（连词）。常见搭配：however, ... / however much。",
+                "example": "However, the study also shows a gap. 然而，研究也显示出一道差距。"
+              },
+              {
+                "text": "academics",
+                "meaning": "学业的、学术的；大学的；大学教师、学者（academic 的复数/三单形式）",
+                "usage": "注意区分：academics（复数/三单）/ academic（原形）。",
+                "example": "However, not all academics think that moral disgust really exists. 不过，也不是学界人人买账——有人根本不承认「道德厌恶」这回事。"
+              },
+              {
+                "text": "think",
+                "meaning": "想、认为；思考",
+                "usage": "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。常见搭配：think about / think of。",
+                "example": "Many think the risk is small. 很多人认为风险很小。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "注意区分：however（副词，不能像 but 那样直接连两个分句）/ but（连词）。",
+              "注意区分：academics（复数/三单）/ academic（原形）。"
+            ],
+            "paragraphRole": "用 However 一转，抛出对「道德厌恶」存在性的质疑，与上段主张形成对立，领起本段的反驳。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 67,
+          "end": 219,
+          "text": "Some say that when we refer to disgust in relation to moral issues, we are using disgust as a metaphor(隐喻), and what we are feeling is in reality anger.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "surface": "say",
+              "normalized": "say",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 27,
+              "surface": "refer",
+              "normalized": "refer",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 38,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 50,
+              "surface": "relation",
+              "normalized": "relation",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 53,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 59,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 66,
+              "surface": "issues",
+              "normalized": "issues",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 67,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 68,
+              "end": 70,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 74,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 80,
+              "surface": "using",
+              "normalized": "using",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 88,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 91,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 93,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 94,
+              "end": 102,
+              "surface": "metaphor",
+              "normalized": "metaphor",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 106,
+              "surface": "(隐喻)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 106,
+              "end": 107,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 108,
+              "end": 111,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 116,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 119,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 123,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 131,
+              "surface": "feeling",
+              "normalized": "feeling",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 134,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 137,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 145,
+              "surface": "reality",
+              "normalized": "reality",
+              "isWord": true
+            },
+            {
+              "start": 146,
+              "end": 151,
+              "surface": "anger",
+              "normalized": "anger",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 152,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "有人说，当我们就道德问题而谈到厌恶时，我们是在把厌恶用作一个隐喻(隐喻)，而我们真正感受到的其实是愤怒。",
+            "translationNatural": "有人干脆说：所谓道德上的「厌恶」，不过是个比喻，我们心里真正冒出来的那股火，其实是愤怒。",
+            "structMarkup": "【Some】 _say_ {that when we refer to disgust in relation to moral issues, we are using disgust as a metaphor(隐喻), and what we are feeling is in reality anger}.",
+            "structureSummary": "主谓 + that 宾语从句；从句内 when 状语从句 + and 并列两个分句，后一分句以 what 主语从句开头，in reality 作状语。",
+            "components": [
+              {
+                "part": "Some",
+                "role": "主语",
+                "note": "承上指「持质疑态度的部分学者」"
+              },
+              {
+                "part": "say",
+                "role": "谓语",
+                "note": "后接 that 从句陈述其解释"
+              },
+              {
+                "part": "that when we refer to disgust in relation to moral issues, we are using disgust as a metaphor(隐喻), and what we are feeling is in reality anger",
+                "role": "宾语从句",
+                "note": "say 的内容，内含时间状语从句与 and 并列的判断"
+              },
+              {
+                "part": "when we refer to disgust in relation to moral issues",
+                "role": "状语从句",
+                "note": "限定「谈的是道德语境下的厌恶」这一前提"
+              },
+              {
+                "part": "as a metaphor(隐喻)",
+                "role": "介词短语",
+                "note": "点明 disgust 在此被当作比喻用法；括注为试卷原注"
+              },
+              {
+                "part": "what we are feeling",
+                "role": "主语从句",
+                "note": "后一分句 is 的主语，指「我们实际感受到的东西」"
+              },
+              {
+                "part": "in reality",
+                "role": "状语",
+                "note": "强调真实情绪与字面说法之间的落差"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that when we refer to disgust in relation to moral issues, we are usin」：say 的内容，内含时间状语从句与 and 并列的判断",
+              "状语从句「when we refer to disgust in relation to moral issues」：限定「谈的是道德语境下的厌恶」这一前提",
+              "主语从句「what we are feeling」：后一分句 is 的主语，指「我们实际感受到的东西」"
+            ],
+            "phrases": [
+              {
+                "text": "refer to",
+                "meaning": "指的是；提及；参考",
+                "usage": "to 是介词，后接名词或动名词。",
+                "example": "The term refers to a habit. 这个术语指一种习惯。"
+              },
+              {
+                "text": "issues",
+                "meaning": "问题、议题；发布（issue 的复数/三单形式）",
+                "usage": "注意区分：issues（复数/三单）/ issue（原形）。",
+                "example": "Some say that when we refer to disgust in relation to moral issues, we are using disgust as a metaphor(隐喻), and what we are feeling is in reality anger. 有人干脆说：所谓道德上的「厌恶」，不过是个比喻，我们心里真正冒出来的那股火，其实是愤怒。"
+              },
+              {
+                "text": "using",
+                "meaning": "use 的现在分词（使用）",
+                "usage": "注意区分：using（现在分词）/ used（过去式/过去分词）。常见搭配：by using sth / using data。",
+                "example": "Results improve by using existing technology. 使用现有技术就能改善结果。"
+              }
+            ],
+            "pitfalls": [
+              "refer to 中 to 是介词，后接动名词。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "具体展开质疑：所谓道德厌恶只是隐喻，实为愤怒，直接否定其作为独立情绪的地位，是理解全文争论的关键。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it. Children learn about emotions in many different ways. Of special relevance are parents-children conversations about emotions. Indeed, children whose parents talk about emotions often have a better emotional understanding than children whose parents do not discuss emotions often.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 124,
+          "text": "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "If",
+              "normalized": "if",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 16,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 24,
+              "surface": "appears",
+              "normalized": "appears",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 30,
+              "surface": "quite",
+              "normalized": "quite",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "late",
+              "normalized": "late",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 50,
+              "surface": "development",
+              "normalized": "development",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 51,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 60,
+              "surface": "makes",
+              "normalized": "makes",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 66,
+              "surface": "sense",
+              "normalized": "sense",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 69,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 75,
+              "surface": "think",
+              "normalized": "think",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 80,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 86,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 90,
+              "end": 98,
+              "surface": "actually",
+              "normalized": "actually",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 100,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 107,
+              "surface": "social",
+              "normalized": "social",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 117,
+              "surface": "component",
+              "normalized": "component",
+              "isWord": true
+            },
+            {
+              "start": 118,
+              "end": 120,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 123,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 124,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "如果道德厌恶在发育过程中出现得相当晚，那么认为它其实带有社会成分就是合乎情理的。",
+            "translationNatural": "道德厌恶要是到很晚才冒出来，那就有理由推想：它多半是靠后天社会经验一点点攒出来的。",
+            "structMarkup": "{If moral disgust appears quite late in development}, it _makes sense_ 【to think that there is actually a social component to it】.",
+            "structureSummary": "If 条件状语从句 + 主句（it 作形式主语）makes sense + 不定式作逻辑主语，其中 think 后接 that 宾语从句（there be 句）。",
+            "components": [
+              {
+                "part": "If moral disgust appears quite late in development",
+                "role": "状语从句",
+                "note": "条件从句，以「出现得晚」作为推理前提"
+              },
+              {
+                "part": "makes sense",
+                "role": "谓语",
+                "note": "固定表达，意为「合乎情理、说得通」"
+              },
+              {
+                "part": "to think that there is actually a social component to it",
+                "role": "逻辑主语",
+                "note": "不定式短语是形式主语 it 所指的真正主语"
+              },
+              {
+                "part": "that there is actually a social component to it",
+                "role": "宾语从句",
+                "note": "作 think 的宾语，陈述「存在社会成分」这一推断"
+              },
+              {
+                "part": "a social component",
+                "role": "主语",
+                "note": "there be 从句的真正主语，指社会性因素"
+              },
+              {
+                "part": "actually",
+                "role": "状语",
+                "note": "强调该成分确实存在，带有纠正语感"
+              }
+            ],
+            "clauses": [
+              "状语从句「If moral disgust appears quite late in development」：条件从句，以「出现得晚」作为推理前提",
+              "宾语从句「that there is actually a social component to it」：作 think 的宾语，陈述「存在社会成分」这一推断",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。"
+            ],
+            "phrases": [
+              {
+                "text": "development",
+                "meaning": "发展、开发；research and development 研发",
+                "usage": "常见搭配：research and development。",
+                "example": "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it. 道德厌恶要是到很晚才冒出来，那就有理由推想：它多半是靠后天社会经验一点点攒出来的。"
+              },
+              {
+                "text": "sense",
+                "meaning": "感觉、意识；意义、含义；判断力；意识到、觉察到（make sense 讲得通）",
+                "usage": "注意区分：sense（感觉、感官；意义；判断力）/ make sense（讲得通、有道理）/ make sense of（弄懂…）/ in a sense（在某种意义上）/ common sense（常识，不可数）/ sensible（明智的）与 sensitive（敏感的）。",
+                "example": "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it. 道德厌恶要是到很晚才冒出来，那就有理由推想：它多半是靠后天社会经验一点点攒出来的。"
+              },
+              {
+                "text": "think",
+                "meaning": "想、认为；思考",
+                "usage": "注意区分：think about（考虑）/ think of（想起）/ think over（仔细考虑）。常见搭配：think about / think of。",
+                "example": "Many think the risk is small. 很多人认为风险很小。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "if 引导条件从句时，从句不用 will 表将来。"
+            ],
+            "paragraphRole": "从「出现得晚」推出「含社会成分」这一因果推断，为第48题「需经社会互动习得」提供直接依据。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 125,
+          "end": 178,
+          "text": "Children learn about emotions in many different ways.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "learn",
+              "normalized": "learn",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 29,
+              "surface": "emotions",
+              "normalized": "emotions",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 47,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 52,
+              "surface": "ways",
+              "normalized": "ways",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "儿童以许多不同的方式了解情绪。",
+            "translationNatural": "孩子弄懂各种情绪，途径其实五花八门。",
+            "structMarkup": "【Children】 _learn about_ ~emotions~ (in many different ways).",
+            "structureSummary": "主谓宾结构；learn about 为固定短语，in many different ways 作方式状语。",
+            "components": [
+              {
+                "part": "Children",
+                "role": "主语",
+                "note": "泛指儿童，承接上段对儿童情绪的讨论"
+              },
+              {
+                "part": "learn about",
+                "role": "谓语",
+                "note": "固定短语，意为「了解、学习」"
+              },
+              {
+                "part": "emotions",
+                "role": "宾语",
+                "note": "指各类情绪，作 learn about 的宾语"
+              },
+              {
+                "part": "in many different ways",
+                "role": "介词短语",
+                "note": "作方式状语，强调习得渠道的多样性"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾结构；learn about 为固定短语，in many different ways 作方式状语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "Children learn about emotions in many different ways. 孩子弄懂各种情绪，途径其实五花八门。"
+              },
+              {
+                "text": "learn",
+                "meaning": "学习、学会",
+                "usage": "常见搭配：learn to do / learn from。",
+                "example": "We learn from mistakes. 我们从错误中学习。"
+              },
+              {
+                "text": "emotions",
+                "meaning": "emotion 的复数，情感、情绪",
+                "usage": "注意区分：emotion（情绪，强烈而短暂）/ feeling（感觉，较泛）/ mood（心境，持续较久）/ emotional（情绪的；易动感情的）/ emotive（引发强烈情绪的，多指话题）。",
+                "example": "Children learn about emotions in many different ways. 孩子弄懂各种情绪，途径其实五花八门。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+              "注意区分：emotion（情绪，强烈而短暂）/ feeling（感觉，较泛）/ mood（心境，持续较久）/ emotional（情绪的；易动感情的）/ emotive（引发强烈情绪的，多指话题）。",
+              "注意区分：different from（英式常用）/ different than（美式口语）/ different to（英式口语）。"
+            ],
+            "paragraphRole": "先给一个宽泛前提：儿童习得情绪的渠道很多，为下一句聚焦「亲子对话」做铺垫。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 179,
+          "end": 250,
+          "text": "Of special relevance are parents-children conversations about emotions.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "Of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 10,
+              "surface": "special",
+              "normalized": "special",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 20,
+              "surface": "relevance",
+              "normalized": "relevance",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 41,
+              "surface": "parents-children",
+              "normalized": "parents-children",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 55,
+              "surface": "conversations",
+              "normalized": "conversations",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 61,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 70,
+              "surface": "emotions",
+              "normalized": "emotions",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 71,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "具有特别相关性的是父母与子女之间关于情绪的对话。",
+            "translationNatural": "在这些渠道里，最要紧的，要数父母跟孩子聊情绪的那些对话。",
+            "structMarkup": "~Of special relevance~ _are_ 【parents-children conversations about emotions】.",
+            "structureSummary": "完全倒装句：介词短语 Of special relevance 前置作表语，are 为系动词，真正主语是句末名词短语；about emotions 作后置定语。",
+            "components": [
+              {
+                "part": "Of special relevance",
+                "role": "表语",
+                "note": "of + 抽象名词相当于形容词，前置以承接上文并强调"
+              },
+              {
+                "part": "are",
+                "role": "系动词",
+                "note": "与前置表语、后置主语构成倒装"
+              },
+              {
+                "part": "parents-children conversations about emotions",
+                "role": "主语",
+                "note": "倒装句的真正主语，指亲子间围绕情绪的交谈"
+              },
+              {
+                "part": "parents-children",
+                "role": "定语",
+                "note": "复合前置定语，用连字符把「父母—子女」并成一体"
+              },
+              {
+                "part": "about emotions",
+                "role": "后置定语",
+                "note": "限定谈话的主题是情绪"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「完全倒装句：介词短语 Of special relevance 前置作表语，are 为系动词，真正主语是句末名词短语；about emotions 作后置定语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "special",
+                "meaning": "特殊的、特别的",
+                "usage": "常见搭配：special interest groups。",
+                "example": "Of special relevance are parents-children conversations about emotions. 在这些渠道里，最要紧的，要数父母跟孩子聊情绪的那些对话。"
+              },
+              {
+                "text": "conversations",
+                "meaning": "交谈、谈话；（引申）话题、讨论、议论（本文 That's a conversation that appears to be gathering pace 这场讨论似乎正升温 / a very privileged conversation）（conversation 的复数/三单形式）",
+                "usage": "注意区分：conversations（复数/三单）/ conversation（原形）。",
+                "example": "Of special relevance are parents-children conversations about emotions. 在这些渠道里，最要紧的，要数父母跟孩子聊情绪的那些对话。"
+              },
+              {
+                "text": "emotions",
+                "meaning": "emotion 的复数，情感、情绪",
+                "usage": "注意区分：emotion（情绪，强烈而短暂）/ feeling（感觉，较泛）/ mood（心境，持续较久）/ emotional（情绪的；易动感情的）/ emotive（引发强烈情绪的，多指话题）。",
+                "example": "Of special relevance are parents-children conversations about emotions. 在这些渠道里，最要紧的，要数父母跟孩子聊情绪的那些对话。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：conversations（复数/三单）/ conversation（原形）。",
+              "注意区分：emotion（情绪，强烈而短暂）/ feeling（感觉，较泛）/ mood（心境，持续较久）/ emotional（情绪的；易动感情的）/ emotive（引发强烈情绪的，多指话题）。"
+            ],
+            "paragraphRole": "收束「途径很多」，把焦点收窄到亲子情绪对话，点明本研究最关注的社会互动形式。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 251,
+          "end": 404,
+          "text": "Indeed, children whose parents talk about emotions often have a better emotional understanding than children whose parents do not discuss emotions often.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "Indeed",
+              "normalized": "indeed",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 8,
+              "end": 16,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "whose",
+              "normalized": "whose",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 30,
+              "surface": "parents",
+              "normalized": "parents",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "talk",
+              "normalized": "talk",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 50,
+              "surface": "emotions",
+              "normalized": "emotions",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 56,
+              "surface": "often",
+              "normalized": "often",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 61,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 63,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 70,
+              "surface": "better",
+              "normalized": "better",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 80,
+              "surface": "emotional",
+              "normalized": "emotional",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 94,
+              "surface": "understanding",
+              "normalized": "understanding",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 99,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 108,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 109,
+              "end": 114,
+              "surface": "whose",
+              "normalized": "whose",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 122,
+              "surface": "parents",
+              "normalized": "parents",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 125,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 129,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 137,
+              "surface": "discuss",
+              "normalized": "discuss",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 146,
+              "surface": "emotions",
+              "normalized": "emotions",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 152,
+              "surface": "often",
+              "normalized": "often",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 153,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "的确，父母常谈论情绪的孩子，往往比父母不常讨论情绪的孩子拥有更好的情绪理解力。",
+            "translationNatural": "确实如此：家里大人常聊情绪的孩子，对情绪的体察，通常胜过那些大人很少谈情绪的孩子。",
+            "structMarkup": "(Indeed), 【children whose parents talk about emotions】 often _have_ ~a better emotional understanding~ {than children whose parents do not discuss emotions often}.",
+            "structureSummary": "Indeed 状语 + 主语（含 whose 定语从句）+ 谓语 + 比较级宾语 + than 引导的比较状语从句；从句内又嵌 whose 定语从句。",
+            "components": [
+              {
+                "part": "Indeed",
+                "role": "插入语",
+                "note": "表确认与递进，强化上句的判断"
+              },
+              {
+                "part": "children whose parents talk about emotions",
+                "role": "主语",
+                "note": "whose 从句限定「父母常谈情绪」的那一组孩子"
+              },
+              {
+                "part": "whose parents talk about emotions",
+                "role": "定语从句",
+                "note": "修饰 children，给出分组条件"
+              },
+              {
+                "part": "have",
+                "role": "谓语",
+                "note": "意为「拥有」，连接主语与比较级宾语"
+              },
+              {
+                "part": "a better emotional understanding",
+                "role": "宾语",
+                "note": "比较级 better 点明理解水平的差异"
+              },
+              {
+                "part": "than children whose parents do not discuss emotions often",
+                "role": "状语从句",
+                "note": "比较状语从句，引出对照组的孩子"
+              },
+              {
+                "part": "whose parents do not discuss emotions often",
+                "role": "定语从句",
+                "note": "说明对照组「父母不常谈情绪」"
+              }
+            ],
+            "clauses": [
+              "定语从句「whose parents talk about emotions」：修饰 children，给出分组条件",
+              "状语从句「than children whose parents do not discuss emotions often」：比较状语从句，引出对照组的孩子",
+              "定语从句「whose parents do not discuss emotions often」：说明对照组「父母不常谈情绪」"
+            ],
+            "phrases": [
+              {
+                "text": "indeed",
+                "meaning": "确实、的确（加强语气）；甚至",
+                "usage": "注意区分：indeed（确实）/ really（真的）/ actually（实际上）。常见搭配：indeed, ... / very ... indeed。",
+                "example": "Indeed, their digital use can be beneficial. 确实，他们的数字使用可以是有益的。"
+              },
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "Indeed, children whose parents talk about emotions often have a better emotional understanding than children whose parents do not discuss emotions often. 确实如此：家里大人常聊情绪的孩子，对情绪的体察，通常胜过那些大人很少谈情绪的孩子。"
+              },
+              {
+                "text": "emotions",
+                "meaning": "emotion 的复数，情感、情绪",
+                "usage": "注意区分：emotion（情绪，强烈而短暂）/ feeling（感觉，较泛）/ mood（心境，持续较久）/ emotional（情绪的；易动感情的）/ emotive（引发强烈情绪的，多指话题）。",
+                "example": "Indeed, children whose parents talk about emotions often have a better emotional understanding than children whose parents do not discuss emotions often. 确实如此：家里大人常聊情绪的孩子，对情绪的体察，通常胜过那些大人很少谈情绪的孩子。"
+              }
+            ],
+            "pitfalls": [
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。"
+            ],
+            "paragraphRole": "用对比结论坐实「亲子情绪对话」的作用：常聊情绪的孩子理解力更强，支撑第48题的社会习得说。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "However, there are no studies that have examined how parents and children talk about disgust. This is what we set up to examine in our study.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 93,
+          "text": "However, there are no studies that have examined how parents and children talk about disgust.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "However",
+              "normalized": "however",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "no",
+              "normalized": "no",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 29,
+              "surface": "studies",
+              "normalized": "studies",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 34,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 48,
+              "surface": "examined",
+              "normalized": "examined",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 52,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 60,
+              "surface": "parents",
+              "normalized": "parents",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 64,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 73,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "talk",
+              "normalized": "talk",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 84,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 92,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 93,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "然而，还没有研究考察过父母与子女是如何谈论厌恶的。",
+            "translationNatural": "可偏偏这一块是空白：从来没人专门研究过，家长和孩子到底怎么聊「厌恶」。",
+            "structMarkup": "(However), _there are_ 【no studies】 {that have examined how parents and children talk about disgust}.",
+            "structureSummary": "However 转折 + there be 存在句（否定）+ that 定语从句修饰 studies，从句内 how 引导宾语从句作 examined 的宾语。",
+            "components": [
+              {
+                "part": "However",
+                "role": "状语",
+                "note": "从「已知规律」转向「尚缺的证据」"
+              },
+              {
+                "part": "there are",
+                "role": "系动词",
+                "note": "there be 存在句，no 使整句带否定意味"
+              },
+              {
+                "part": "no studies",
+                "role": "主语",
+                "note": "存在句真正主语，强调相关研究为零"
+              },
+              {
+                "part": "that have examined how parents and children talk about disgust",
+                "role": "定语从句",
+                "note": "修饰 studies，说明缺少的是哪一类研究"
+              },
+              {
+                "part": "how parents and children talk about disgust",
+                "role": "宾语从句",
+                "note": "作 examined 的宾语，点明待考察的具体问题"
+              }
+            ],
+            "clauses": [
+              "定语从句「that have examined how parents and children talk about disgust」：修饰 studies，说明缺少的是哪一类研究",
+              "宾语从句「how parents and children talk about disgust」：作 examined 的宾语，点明待考察的具体问题",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。"
+            ],
+            "phrases": [
+              {
+                "text": "however",
+                "meaning": "然而（副词，须用分号或句号连接）；无论怎样",
+                "usage": "注意区分：however（副词，不能像 but 那样直接连两个分句）/ but（连词）。常见搭配：however, ... / however much。",
+                "example": "However, the study also shows a gap. 然而，研究也显示出一道差距。"
+              },
+              {
+                "text": "studies",
+                "meaning": "研究（study 的复数）；study 的第三人称单数",
+                "usage": "注意区分：studies（复数/三单）/ study（单数）。常见搭配：studies show that / recent studies。",
+                "example": "Studies suggest a strong link. 研究表明存在强关联。"
+              },
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "However, there are no studies that have examined how parents and children talk about disgust. 可偏偏这一块是空白：从来没人专门研究过，家长和孩子到底怎么聊「厌恶」。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "以 However 点出研究空白——亲子如何谈厌恶尚无人研究，自然引出下一句「这正是我们要做的」。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 94,
+          "end": 141,
+          "text": "This is what we set up to examine in our study.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 12,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "set",
+              "normalized": "set",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "up",
+              "normalized": "up",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 33,
+              "surface": "examine",
+              "normalized": "examine",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 36,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "surface": "our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 46,
+              "surface": "study",
+              "normalized": "study",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这正是我们在自己的研究中所着手考察的东西。",
+            "translationNatural": "我们这项研究，要补的就是这个缺口。",
+            "structMarkup": "【This】 _is_ {what we set up to examine in our study}.",
+            "structureSummary": "主系表结构；This 回指上句空白，is 后接 what 引导的表语从句，in our study 作状语。",
+            "components": [
+              {
+                "part": "This",
+                "role": "主语",
+                "note": "回指上句所说的「研究空白」"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "连接主语与表语从句"
+              },
+              {
+                "part": "what we set up to examine in our study",
+                "role": "表语从句",
+                "note": "说明「这」具体指什么——本研究要考察的内容"
+              },
+              {
+                "part": "we",
+                "role": "主语",
+                "note": "表语从句内的主语，指研究者及其同事"
+              },
+              {
+                "part": "set up",
+                "role": "谓语",
+                "note": "set up to do 意为「着手、设立以做」"
+              },
+              {
+                "part": "in our study",
+                "role": "介词短语",
+                "note": "作状语，把考察限定在本研究范围内"
+              }
+            ],
+            "clauses": [
+              "表语从句「what we set up to examine in our study」：说明「这」具体指什么——本研究要考察的内容",
+              "本句主干为「主系表结构；This 回指上句空白，is 后接 what 引导的表语从句，in our study 作状语。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "up to",
+                "meaning": "多达；取决于；由……决定",
+                "usage": "多义短语，需按语境判断。",
+                "example": "It's up to you to decide. 由你来决定。"
+              },
+              {
+                "text": "examine",
+                "meaning": "审查、仔细查看",
+                "usage": "注意区分：examine（检查、审视；考试，及物）/ examine sth / examine whether / examine 与 inspect（查验、视察）/ examine 与 check（核对）/ examination（名词）。常见搭配：examine studies / examine with care。",
+                "example": "This is what we set up to examine in our study. 我们这项研究，要补的就是这个缺口。"
+              },
+              {
+                "text": "study",
+                "meaning": "研究、调查；学习 / 研究、学习",
+                "usage": "注意区分：study（研究，可数）/ research（研究，不可数）。常见搭配：a study on sth / research study。",
+                "example": "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+              }
+            ],
+            "pitfalls": [
+              "up to 表数量时意为「多达」，表责任时意为「由……决定」。",
+              "注意区分：set up（建立）/ set off（出发/引发）/ set out（着手）。",
+              "注意区分：examine（检查、审视；考试，及物）/ examine sth / examine whether / examine 与 inspect（查验、视察）/ examine 与 check（核对）/ examination（名词）。"
+            ],
+            "paragraphRole": "点明研究动机与问题：专门考察亲子如何谈论厌恶，直接对应第49题所问的实验目的。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "We asked 68 English-speaking mothers and their four-, six- or eight-year-old children to discuss some stories about moral and physical disgust. Our preliminary findings show mothers and children do talk about disgust, but mainly about physical disgust and not so much about moral disgust.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 143,
+          "text": "We asked 68 English-speaking mothers and their four-, six- or eight-year-old children to discuss some stories about moral and physical disgust.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "We",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "asked",
+              "normalized": "asked",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "surface": "68",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 12,
+              "end": 28,
+              "surface": "English-speaking",
+              "normalized": "english-speaking",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "mothers",
+              "normalized": "mothers",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 46,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 51,
+              "surface": "four",
+              "normalized": "four",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 52,
+              "surface": "-",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "six",
+              "normalized": "six",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 58,
+              "surface": "-",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 59,
+              "end": 61,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 76,
+              "surface": "eight-year-old",
+              "normalized": "eight-year-old",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 85,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 88,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 96,
+              "surface": "discuss",
+              "normalized": "discuss",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 101,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 109,
+              "surface": "stories",
+              "normalized": "stories",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 115,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 121,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 125,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 134,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 142,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 143,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们请 68 位讲英语的母亲，以及她们四岁、六岁或八岁的孩子，讨论一些关于道德厌恶与生理厌恶的故事。",
+            "translationNatural": "我们找了 68 位说英语的妈妈，带上各自 4 岁、6 岁或 8 岁的孩子，让他们围绕几则涉及道德厌恶和生理厌恶的小故事聊一聊。",
+            "structMarkup": "【We】 _asked_ ~68 English-speaking mothers and their four-, six- or eight-year-old children~ (to discuss some stories about moral and physical disgust).",
+            "structureSummary": "主谓宾 + 不定式作宾补（ask sb to do）；宾语含长串并列修饰，about 介词短语作 stories 的后置定语。",
+            "components": [
+              {
+                "part": "We",
+                "role": "主语",
+                "note": "指研究团队"
+              },
+              {
+                "part": "asked",
+                "role": "谓语",
+                "note": "ask sb to do 意为「请某人做某事」"
+              },
+              {
+                "part": "68 English-speaking mothers and their four-, six- or eight-year-old children",
+                "role": "宾语",
+                "note": "交代样本量（68 位母亲）与 4/6/8 岁三个年龄组的孩子"
+              },
+              {
+                "part": "to discuss some stories about moral and physical disgust",
+                "role": "补语",
+                "note": "不定式作宾语补足语，说明被要求完成的讨论任务"
+              },
+              {
+                "part": "about moral and physical disgust",
+                "role": "后置定语",
+                "note": "限定故事涉及的两类厌恶主题"
+              },
+              {
+                "part": "English-speaking",
+                "role": "定语",
+                "note": "复合形容词作定语，说明母亲的语言背景"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾 + 不定式作宾补（ask sb to do）；宾语含长串并列修饰，about 介词短语作 stories 的后置定语。」。"
+            ],
+            "phrases": [
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "We asked 68 English-speaking mothers and their four-, six- or eight-year-old children to discuss some stories about moral and physical disgust. 我们找了 68 位说英语的妈妈，带上各自 4 岁、6 岁或 8 岁的孩子，让他们围绕几则涉及道德厌恶和生理厌恶的小故事聊一聊。"
+              },
+              {
+                "text": "physical",
+                "meaning": "身体的；物理的；实物的",
+                "usage": "注意区分：physical（身体的/物理的）/ mental（心理的）。常见搭配：physical health / physical activity。",
+                "example": "Mental and physical health are linked. 心理与身体健康相互关联。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：six（六）/ sixth（第六）。",
+              "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+              "注意区分：physical（身体的/物理的）/ mental（心理的）。"
+            ],
+            "paragraphRole": "交代实验对象与任务：不同年龄的母子共读厌恶主题故事，落实第49题所说的实验设计。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 144,
+          "end": 288,
+          "text": "Our preliminary findings show mothers and children do talk about disgust, but mainly about physical disgust and not so much about moral disgust.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 15,
+              "surface": "preliminary",
+              "normalized": "preliminary",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 24,
+              "surface": "findings",
+              "normalized": "findings",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "show",
+              "normalized": "show",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 37,
+              "surface": "mothers",
+              "normalized": "mothers",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 41,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 50,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 53,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 58,
+              "surface": "talk",
+              "normalized": "talk",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 64,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 72,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 73,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 84,
+              "surface": "mainly",
+              "normalized": "mainly",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 90,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 99,
+              "surface": "physical",
+              "normalized": "physical",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 107,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 111,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 115,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 116,
+              "end": 118,
+              "surface": "so",
+              "normalized": "so",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 123,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 129,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 135,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 143,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 144,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们的初步发现显示，母亲和孩子的确会谈论厌恶，但主要谈的是生理厌恶，而不太谈道德厌恶。",
+            "translationNatural": "初步结果出来了：母子俩确实会聊到「厌恶」，可聊来聊去几乎都是生理那一类，道德厌恶很少被提起。",
+            "structMarkup": "【Our preliminary findings】 _show_ {mothers and children do talk about disgust, but mainly about physical disgust and not so much about moral disgust}.",
+            "structureSummary": "主谓 + 省略 that 的宾语从句；从句以强调式 do talk 开头，but 转折后用 mainly...not so much... 对比两类主题。",
+            "components": [
+              {
+                "part": "Our preliminary findings",
+                "role": "主语",
+                "note": "preliminary 表明这是阶段性结果"
+              },
+              {
+                "part": "show",
+                "role": "谓语",
+                "note": "后接省略 that 的宾语从句"
+              },
+              {
+                "part": "mothers and children do talk about disgust, but mainly about physical disgust and not so much about moral disgust",
+                "role": "宾语从句",
+                "note": "show 的内容，先肯定再转折对比"
+              },
+              {
+                "part": "do talk",
+                "role": "谓语",
+                "note": "从句谓语，助动词 do 表强调「确实会谈」"
+              },
+              {
+                "part": "mainly about physical disgust",
+                "role": "介词短语",
+                "note": "指出讨论集中在生理厌恶上"
+              },
+              {
+                "part": "not so much about moral disgust",
+                "role": "介词短语",
+                "note": "not so much 说明道德厌恶被提及得很少"
+              }
+            ],
+            "clauses": [
+              "宾语从句「mothers and children do talk about disgust, but mainly about physical 」：show 的内容，先肯定再转折对比",
+              "本句主干为「主谓 + 省略 that 的宾语从句；从句以强调式 do talk 开头，but 转折后用 mainly...not so much... 对比两类主题。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "findings",
+                "meaning": "研究结果、调查发现（finding 的复数）",
+                "usage": "注意区分：findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings。",
+                "example": "Our preliminary findings show mothers and children do talk about disgust, but mainly about physical disgust and not so much about moral disgust. 初步结果出来了：母子俩确实会聊到「厌恶」，可聊来聊去几乎都是生理那一类，道德厌恶很少被提起。"
+              },
+              {
+                "text": "show",
+                "meaning": "显示、表明（show that）；展示 / 演出、展览",
+                "usage": "注意区分：show（显示）/ prove（证明，更强）/ indicate（表明，正式）。常见搭配：show that / show up。",
+                "example": "The study shows how roles endure. 研究显示角色如何延续。"
+              },
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "Our preliminary findings show mothers and children do talk about disgust, but mainly about physical disgust and not so much about moral disgust. 初步结果出来了：母子俩确实会聊到「厌恶」，可聊来聊去几乎都是生理那一类，道德厌恶很少被提起。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings。",
+              "注意区分：show（显示）/ prove（证明，更强）/ indicate（表明，正式）。",
+              "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。"
+            ],
+            "paragraphRole": "报告首个发现：亲子会谈厌恶，却几乎只谈生理厌恶，为第50题「孩子难以理解道德厌恶」埋下证据。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "text": "When we asked mothers and children to discuss moral issues, such as whether it is OK to play with a child who has stolen someone else's snack, they linked this type of moral wrongdoing with the emotion of anger and not disgust.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 227,
+          "text": "When we asked mothers and children to discuss moral issues, such as whether it is OK to play with a child who has stolen someone else's snack, they linked this type of moral wrongdoing with the emotion of anger and not disgust.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "When",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 13,
+              "surface": "asked",
+              "normalized": "asked",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 21,
+              "surface": "mothers",
+              "normalized": "mothers",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 34,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 37,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 45,
+              "surface": "discuss",
+              "normalized": "discuss",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 51,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 58,
+              "surface": "issues",
+              "normalized": "issues",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 59,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 60,
+              "end": 64,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 67,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 75,
+              "surface": "whether",
+              "normalized": "whether",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 84,
+              "surface": "OK",
+              "normalized": "ok",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 87,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 92,
+              "surface": "play",
+              "normalized": "play",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 97,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 99,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 105,
+              "surface": "child",
+              "normalized": "child",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 109,
+              "surface": "who",
+              "normalized": "who",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 113,
+              "surface": "has",
+              "normalized": "has",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 120,
+              "surface": "stolen",
+              "normalized": "stolen",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 128,
+              "surface": "someone",
+              "normalized": "someone",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 135,
+              "surface": "else's",
+              "normalized": "else's",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 141,
+              "surface": "snack",
+              "normalized": "snack",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 142,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 143,
+              "end": 147,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 148,
+              "end": 154,
+              "surface": "linked",
+              "normalized": "linked",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 159,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 164,
+              "surface": "type",
+              "normalized": "type",
+              "isWord": true
+            },
+            {
+              "start": 165,
+              "end": 167,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 173,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 174,
+              "end": 184,
+              "surface": "wrongdoing",
+              "normalized": "wrongdoing",
+              "isWord": true
+            },
+            {
+              "start": 185,
+              "end": 189,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 190,
+              "end": 193,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 194,
+              "end": 201,
+              "surface": "emotion",
+              "normalized": "emotion",
+              "isWord": true
+            },
+            {
+              "start": 202,
+              "end": 204,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 205,
+              "end": 210,
+              "surface": "anger",
+              "normalized": "anger",
+              "isWord": true
+            },
+            {
+              "start": 211,
+              "end": 214,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 215,
+              "end": 218,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 219,
+              "end": 226,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 226,
+              "end": 227,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "当我们请母亲和孩子讨论道德问题——例如，和偷了别人零食的孩子一起玩是否可以——时，他们把这类道德过错与愤怒这种情绪联系起来，而不是与厌恶联系起来。",
+            "translationNatural": "我们让母子聊道德话题，比如「能不能跟偷了别人点心的小孩一起玩」；结果他们把这种过错归到「生气」上头，压根没往「厌恶」上想。",
+            "structMarkup": "{When we asked mothers and children to discuss moral issues}, (such as whether it is OK to play with a child who has stolen someone else's snack), 【they】 _linked_ ~this type of moral wrongdoing~ (with the emotion of anger and not disgust).",
+            "structureSummary": "When 时间状语从句 + such as 插入举例（内含 whether 名词性从句与 who 定语从句）+ 主句；主句用 link...with...and not... 结构。",
+            "components": [
+              {
+                "part": "When we asked mothers and children to discuss moral issues",
+                "role": "状语从句",
+                "note": "交代实验情境——让母子讨论道德议题"
+              },
+              {
+                "part": "such as whether it is OK to play with a child who has stolen someone else's snack",
+                "role": "插入语",
+                "note": "举出一个具体的道德两难例子"
+              },
+              {
+                "part": "whether it is OK to play with a child who has stolen someone else's snack",
+                "role": "宾语从句",
+                "note": "作 such as 的宾语，提出「是否得当」的判断题"
+              },
+              {
+                "part": "who has stolen someone else's snack",
+                "role": "定语从句",
+                "note": "修饰 a child，给出「偷别人零食」的过错设定"
+              },
+              {
+                "part": "they",
+                "role": "主语",
+                "note": "主句主语，回指参与讨论的母子"
+              },
+              {
+                "part": "linked",
+                "role": "谓语",
+                "note": "link A with B 意为「把 A 与 B 联系起来」"
+              },
+              {
+                "part": "this type of moral wrongdoing",
+                "role": "宾语",
+                "note": "指上例那一类道德过错"
+              },
+              {
+                "part": "with the emotion of anger and not disgust",
+                "role": "介词短语",
+                "note": "with 引出被关联的情绪，and not disgust 明确排除厌恶"
+              }
+            ],
+            "clauses": [
+              "状语从句「When we asked mothers and children to discuss moral issues」：交代实验情境——让母子讨论道德议题",
+              "宾语从句「whether it is OK to play with a child who has stolen someone else's sn」：作 such as 的宾语，提出「是否得当」的判断题",
+              "定语从句「who has stolen someone else's snack」：修饰 a child，给出「偷别人零食」的过错设定"
+            ],
+            "phrases": [
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              },
+              {
+                "text": "children",
+                "meaning": "儿童、小孩、子女（child 的复数）",
+                "usage": "注意区分：children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）。",
+                "example": "When we asked mothers and children to discuss moral issues, such as whether it is OK to play with a child who has stolen someone else's snack, they linked this type of moral wrongdoing with the emotion of anger and not disgust. 我们让母子聊道德话题，比如「能不能跟偷了别人点心的小孩一起玩」；结果他们把这种过错归到「生气」上头，压根没往「厌恶」上想。"
+              },
+              {
+                "text": "issues",
+                "meaning": "问题、议题；发布（issue 的复数/三单形式）",
+                "usage": "注意区分：issues（复数/三单）/ issue（原形）。",
+                "example": "When we asked mothers and children to discuss moral issues, such as whether it is OK to play with a child who has stolen someone else's snack, they linked this type of moral wrongdoing with the emotion of anger and not disgust. 我们让母子聊道德话题，比如「能不能跟偷了别人点心的小孩一起玩」；结果他们把这种过错归到「生气」上头，压根没往「厌恶」上想。"
+              }
+            ],
+            "pitfalls": [
+              "such as 用于举例，for example 常作插入语，位置不同。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "现在完成时不能与明确的过去时间点（如 yesterday、in 2020）连用。"
+            ],
+            "paragraphRole": "给出关键实验证据：面对道德过错，母子联想到的是愤怒而非厌恶，支撑第50题关于道德厌恶在儿童中难以成立的推断。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "text": "Does this mean that moral disgust does not exist? Some researchers suggest moral disgust exists in adults. Our findings suggest that moral disgust is either understood at a later age or is only used metaphorically, if at all, in children as old as eight years.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 49,
+          "text": "Does this mean that moral disgust does not exist?",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Does",
+              "normalized": "does",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "mean",
+              "normalized": "mean",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 25,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 33,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 38,
+              "surface": "does",
+              "normalized": "does",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 42,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 48,
+              "surface": "exist",
+              "normalized": "exist",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 49,
+              "surface": "?",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这是否意味着道德厌恶并不存在？",
+            "translationNatural": "这么看来，是不是根本就没有「道德厌恶」这回事？",
+            "structMarkup": "_Does_ 【this】 _mean_ {that moral disgust does not exist}?",
+            "structureSummary": "一般疑问句；Does 提前构成疑问，this 作主语，mean 后接 that 宾语从句，从句为否定式主谓结构。",
+            "components": [
+              {
+                "part": "this",
+                "role": "主语",
+                "note": "回指上文「母子把道德过错联想到愤怒而非厌恶」的发现"
+              },
+              {
+                "part": "Does",
+                "role": "谓语",
+                "note": "句首助动词，构成一般疑问句"
+              },
+              {
+                "part": "mean",
+                "role": "谓语",
+                "note": "实义动词，意为「意味着」，后接 that 从句"
+              },
+              {
+                "part": "that moral disgust does not exist",
+                "role": "宾语从句",
+                "note": "mean 的内容，用否定式提出疑问"
+              },
+              {
+                "part": "moral disgust",
+                "role": "主语",
+                "note": "从句主语，被质疑其存在性的对象"
+              },
+              {
+                "part": "does not exist",
+                "role": "谓语",
+                "note": "从句谓语，否定式，意为「不存在」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that moral disgust does not exist」：mean 的内容，用否定式提出疑问",
+              "本句为疑问句；一般疑问句把助动词/系动词提前，特殊疑问句用疑问词开头。"
+            ],
+            "phrases": [
+              {
+                "text": "mean that",
+                "meaning": "意味着、意思是；打算 / 吝啬的、刻薄的",
+                "usage": "注意区分：mean to do（打算做）/ mean doing（意味着）。常见搭配：mean that / mean to do。",
+                "example": "This would mean the end of a career. 这就意味着职业生涯的终结。"
+              },
+              {
+                "text": "exist",
+                "meaning": "存在（不及物）",
+                "usage": "注意区分：exist（存在）/ exist in（存在于）/ exit（出口）。常见搭配：exist in / no longer exist。",
+                "example": "Technologies that already exist could help. 已有的技术就能帮上忙。"
+              }
+            ],
+            "pitfalls": [
+              "疑问句中的宾语从句仍用陈述语序，不能倒装。",
+              "注意区分：mean to do（打算做）/ mean doing（意味着）。",
+              "注意区分：exist（存在）/ exist in（存在于）/ exit（出口）。"
+            ],
+            "paragraphRole": "以反问收束实验发现、引出结论段的思辨：既然孩子只联想到愤怒，是否说明道德厌恶压根不成立？"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 50,
+          "end": 106,
+          "text": "Some researchers suggest moral disgust exists in adults.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 16,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 24,
+              "surface": "suggest",
+              "normalized": "suggest",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 30,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 38,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 45,
+              "surface": "exists",
+              "normalized": "exists",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 48,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 55,
+              "surface": "adults",
+              "normalized": "adults",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 56,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "一些研究者提出，道德厌恶在成年人中是存在的。",
+            "translationNatural": "也有学者认为，成年人身上确实有道德厌恶，只是孩子另当别论。",
+            "structMarkup": "【Some researchers】 _suggest_ {moral disgust exists in adults}.",
+            "structureSummary": "主谓 + 省略 that 的宾语从句；从句为主谓结构，in adults 作状语限定范围。",
+            "components": [
+              {
+                "part": "Some researchers",
+                "role": "主语",
+                "note": "Some 表明是另一部分学者的看法"
+              },
+              {
+                "part": "suggest",
+                "role": "谓语",
+                "note": "意为「提出、认为」，后接省略 that 的宾语从句"
+              },
+              {
+                "part": "moral disgust exists in adults",
+                "role": "宾语从句",
+                "note": "suggest 的内容，断言其在成人中存在"
+              },
+              {
+                "part": "moral disgust",
+                "role": "主语",
+                "note": "从句主语，全篇讨论的对象"
+              },
+              {
+                "part": "in adults",
+                "role": "介词短语",
+                "note": "作状语，把「存在」限定在成年人群体"
+              }
+            ],
+            "clauses": [
+              "宾语从句「moral disgust exists in adults」：suggest 的内容，断言其在成人中存在",
+              "本句主干为「主谓 + 省略 that 的宾语从句；从句为主谓结构，in adults 作状语限定范围。」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "suggest",
+                "meaning": "建议、提议；表明、暗示、使人想到",
+                "usage": "注意区分：suggest doing（建议做，接动名词，不说 suggest to do）/ suggest that + (should) do（建议，从句虚拟，should 可省）/ suggest that + 陈述语气（暗示、表明）/ advise sb to do（句型不同）/ suggestion（建议；迹象）。",
+                "example": "Some researchers suggest moral disgust exists in adults. 也有学者认为，成年人身上确实有道德厌恶，只是孩子另当别论。"
+              },
+              {
+                "text": "exists",
+                "meaning": "存在（不及物）（exist 的复数/三单形式）",
+                "usage": "注意区分：exists（复数/三单）/ exist（原形）。",
+                "example": "Some researchers suggest moral disgust exists in adults. 也有学者认为，成年人身上确实有道德厌恶，只是孩子另当别论。"
+              },
+              {
+                "text": "adults",
+                "meaning": "成年人（adult 的复数）",
+                "usage": "注意区分：adults（复数）/ adult（单数）。常见搭配：adults and children / young adults。",
+                "example": "Kids know how adults are expected to write. 孩子知道大人该怎么写。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：suggest doing（建议做，接动名词，不说 suggest to do）/ suggest that + (should) do（建议，从句虚拟，should 可省）/ suggest that + 陈述语气（暗示、表明）/ advise sb to do（句型不同）/ suggestion（建议；迹象）。",
+              "注意区分：exists（复数/三单）/ exist（原形）。",
+              "注意区分：adults（复数）/ adult（单数）。"
+            ],
+            "paragraphRole": "先让一步，承认部分学者认为道德厌恶存在于成人，为下句把结论收窄到「儿童」做对照。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 107,
+          "end": 260,
+          "text": "Our findings suggest that moral disgust is either understood at a later age or is only used metaphorically, if at all, in children as old as eight years.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Our",
+              "normalized": "our",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "findings",
+              "normalized": "findings",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 20,
+              "surface": "suggest",
+              "normalized": "suggest",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 25,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 31,
+              "surface": "moral",
+              "normalized": "moral",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 39,
+              "surface": "disgust",
+              "normalized": "disgust",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 42,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 49,
+              "surface": "either",
+              "normalized": "either",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 60,
+              "surface": "understood",
+              "normalized": "understood",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 65,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 71,
+              "surface": "later",
+              "normalized": "later",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "age",
+              "normalized": "age",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 86,
+              "surface": "only",
+              "normalized": "only",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 91,
+              "surface": "used",
+              "normalized": "used",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 106,
+              "surface": "metaphorically",
+              "normalized": "metaphorically",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 107,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 108,
+              "end": 110,
+              "surface": "if",
+              "normalized": "if",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 113,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 117,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 118,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 119,
+              "end": 121,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 130,
+              "surface": "children",
+              "normalized": "children",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 133,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 137,
+              "surface": "old",
+              "normalized": "old",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 140,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 146,
+              "surface": "eight",
+              "normalized": "eight",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 152,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 153,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们的发现表明，道德厌恶要么在更大的年龄才被理解，要么即便存在，也至多在八岁大的儿童身上被用作隐喻。",
+            "translationNatural": "我们的结论是：道德厌恶要么得等孩子再大些才懂，要么就算在八岁的孩子嘴里出现，也顶多是个比喻——甚至未必真有。",
+            "structMarkup": "【Our findings】 _suggest_ {that moral disgust is either understood at a later age or is only used metaphorically, if at all, in children as old as eight years}.",
+            "structureSummary": "主谓 + that 宾语从句；从句用 either...or... 并列两个被动谓语，if at all 作插入语，in children as old as eight years 作范围状语。",
+            "components": [
+              {
+                "part": "Our findings",
+                "role": "主语",
+                "note": "指本研究的实验结果"
+              },
+              {
+                "part": "suggest",
+                "role": "谓语",
+                "note": "意为「表明、提示」，后接 that 从句给出结论"
+              },
+              {
+                "part": "that moral disgust is either understood at a later age or is only used metaphorically, if at all, in children as old as eight years",
+                "role": "宾语从句",
+                "note": "用 either...or... 给出两种可能解释"
+              },
+              {
+                "part": "moral disgust",
+                "role": "主语",
+                "note": "从句主语，全篇讨论的对象"
+              },
+              {
+                "part": "is either understood at a later age",
+                "role": "谓语",
+                "note": "并列谓语之一，被动式，指「到更晚年龄才被理解」"
+              },
+              {
+                "part": "or is only used metaphorically",
+                "role": "谓语",
+                "note": "并列谓语之二，被动式，指「仅被当作隐喻使用」"
+              },
+              {
+                "part": "if at all",
+                "role": "插入语",
+                "note": "让步收紧语气，意为「即便果真如此 / 如果说有的话」"
+              },
+              {
+                "part": "in children as old as eight years",
+                "role": "介词短语",
+                "note": "作范围状语，把结论限定在「最大八岁」的儿童"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that moral disgust is either understood at a later age or is only used」：用 either...or... 给出两种可能解释",
+              "as + 形容词/副词原级 + as 构成同级比较。",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "findings",
+                "meaning": "研究结果、调查发现（finding 的复数）",
+                "usage": "注意区分：findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings。",
+                "example": "Our findings suggest that moral disgust is either understood at a later age or is only used metaphorically, if at all, in children as old as eight years. 我们的结论是：道德厌恶要么得等孩子再大些才懂，要么就算在八岁的孩子嘴里出现，也顶多是个比喻——甚至未必真有。"
+              },
+              {
+                "text": "suggest",
+                "meaning": "建议、提议；表明、暗示、使人想到",
+                "usage": "注意区分：suggest doing（建议做，接动名词，不说 suggest to do）/ suggest that + (should) do（建议，从句虚拟，should 可省）/ suggest that + 陈述语气（暗示、表明）/ advise sb to do（句型不同）/ suggestion（建议；迹象）。",
+                "example": "Our findings suggest that moral disgust is either understood at a later age or is only used metaphorically, if at all, in children as old as eight years. 我们的结论是：道德厌恶要么得等孩子再大些才懂，要么就算在八岁的孩子嘴里出现，也顶多是个比喻——甚至未必真有。"
+              },
+              {
+                "text": "either",
+                "meaning": "两者之一（either...or）；也不（否定句末）",
+                "usage": "注意区分：either...or（两者之一）/ neither...nor（两者都不）/ either（也，否定句末）。常见搭配：either ... or / not ... either。",
+                "example": "Either way, the result is the same. 无论哪种方式，结果一样。"
+              }
+            ],
+            "pitfalls": [
+              "as...as 中间必须用原级，不能用比较级。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "if 引导条件从句时，从句不用 will 表将来。",
+              "both...and / either...or / neither...nor 是固定配对，不能交叉混用。"
+            ],
+            "paragraphRole": "给出全文结论：道德厌恶要么晚熟、要么在儿童中仅作隐喻（甚至不存在），正是第50题「孩子几乎无法理解」的答案所在。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 46,
+      "stem": "What does the passage tell us about physical disgust?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is an emotion as contrasted with thoughts."
+        },
+        {
+          "key": "B",
+          "text": "It is a concept beyond children's understanding."
+        },
+        {
+          "key": "C",
+          "text": "It is a mechanism to keep us from being harmed."
+        },
+        {
+          "key": "D",
+          "text": "It is an experience gained from any form of danger."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 47,
+      "stem": "How do some researchers perceive moral disgust?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It tends to appear in various forms of wrongdoing."
+        },
+        {
+          "key": "B",
+          "text": "It is just as annoying to people as physical disgust."
+        },
+        {
+          "key": "C",
+          "text": "It is a term used by common folk to describe anger."
+        },
+        {
+          "key": "D",
+          "text": "It stops people from doing anything morally wrong."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 48,
+      "stem": "Why does moral disgust appear quite late in children's development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It needs to be learnt through social interactions."
+        },
+        {
+          "key": "B",
+          "text": "They have little control over its learning process."
+        },
+        {
+          "key": "C",
+          "text": "It is too complex for them to acquire."
+        },
+        {
+          "key": "D",
+          "text": "Their parents seldom talk about emotions."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 49,
+      "stem": "What did the author and his colleagues want to examine in their experiment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "What parents tell children against moral wrongdoing."
+        },
+        {
+          "key": "B",
+          "text": "What parents and children link moral wrongdoing to."
+        },
+        {
+          "key": "C",
+          "text": "How moral disgust is seen by children aged 4, 6 and 8."
+        },
+        {
+          "key": "D",
+          "text": "How disgust is discussed between parents and children."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 50,
+      "stem": "What can we infer about moral disgust from the author and his colleagues' findings?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is a notion hardly comprehensible to children."
+        },
+        {
+          "key": "B",
+          "text": "It rarely exists in children younger than eight."
+        },
+        {
+          "key": "C",
+          "text": "It is a term most parents use when talking to children."
+        },
+        {
+          "key": "D",
+          "text": "It exists in adults with a strong sense of justice."
+        }
+      ],
+      "answer": "A"
+    }
+  ],
+  "lexicon": {
+    "academics": {
+      "phonetic": "/ˌækəˈdemɪkz/",
+      "pos": "adj./n.",
+      "sense": "学业的、学术的；大学的；大学教师、学者（academic 的复数/三单形式）",
+      "lemma": "academic",
+      "collocations": [
+        "academics think"
+      ],
+      "examples": [
+        "However, not all academics think that moral disgust really exists. 不过，也不是学界人人买账——有人根本不承认「道德厌恶」这回事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "academic + -s（复数/三单）",
+        "confusables": "academics（复数/三单）/ academic（原形）"
+      }
+    },
+    "achieve": {
+      "phonetic": "/əˈtʃiːv/",
+      "pos": "v.",
+      "sense": "实现、达到（目标、成功）",
+      "collocations": [
+        "achieve a goal",
+        "achieve success"
+      ],
+      "examples": [
+        "She achieved her goal in two years. 她两年内实现了目标。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "achieve / achieved / achieving（同族不同词形，注意词性与用法）"
+      }
+    },
+    "activities": {
+      "phonetic": "/ækˈtɪvətiz/",
+      "pos": "n.",
+      "sense": "活动（activity 的复数）",
+      "lemma": "activity",
+      "collocations": [
+        "daily activities",
+        "extracurricular activities"
+      ],
+      "examples": [
+        "What are my activities and my social network? 我有哪些活动、我的社交圈是什么？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "activities（复数）/ activity（单数）"
+      }
+    },
+    "actually": {
+      "phonetic": "/ˈæktʃuəli/",
+      "pos": "adv.",
+      "sense": "实际上、事实上；居然（表出乎意料）",
+      "collocations": [
+        "actually, ...",
+        "not actually"
+      ],
+      "examples": [
+        "In reality the female actually did most of it. 现实中主要还是女性在做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "actual（实际的）+ -ly（副词后缀）",
+        "confusables": "actually（实际上）/ currently（目前）/ in fact（事实上）"
+      }
+    },
+    "adults": {
+      "phonetic": "/ˈædʌlts/",
+      "pos": "n.",
+      "sense": "成年人（adult 的复数）",
+      "lemma": "adult",
+      "collocations": [
+        "adults and children",
+        "young adults"
+      ],
+      "examples": [
+        "Kids know how adults are expected to write. 孩子知道大人该怎么写。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "adults（复数）/ adult（单数）"
+      }
+    },
+    "age": {
+      "phonetic": "/eɪdʒ/",
+      "pos": "n./v.",
+      "sense": "年龄、年纪；时代、时期；变老、老化",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "early age",
+        "later age"
+      ],
+      "examples": [
+        "Children experience physical disgust from a very early age, but do not achieve an understanding of the concept until they are around four years old. 孩子很小就会有生理上的厌恶反应，可真正「懂」这是什么、在脑子里成一个概念，得等到四岁左右。"
+      ],
+      "more": {
+        "confusables": "age / agencies（同族不同词形，注意词性与用法）"
+      }
+    },
+    "anger": {
+      "phonetic": "/ˈæŋɡə(r)/",
+      "pos": "n./v.",
+      "sense": "愤怒、怒气；使发怒、激怒",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "reality anger",
+        "emotion of anger"
+      ],
+      "examples": [
+        "Some say that when we refer to disgust in relation to moral issues, we are using disgust as a metaphor(隐喻), and what we are feeling is in reality anger. 有人干脆说：所谓道德上的「厌恶」，不过是个比喻，我们心里真正冒出来的那股火，其实是愤怒。"
+      ]
+    },
+    "appears": {
+      "phonetic": "/əˈpɪəz/",
+      "pos": "v.",
+      "sense": "似乎、显得；出现、呈现（appear 的三单；本文 a conversation that appears to be gathering pace 一场似乎正升温的讨论）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "disgust appears",
+        "appears quite"
+      ],
+      "examples": [
+        "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it. 道德厌恶要是到很晚才冒出来，那就有理由推想：它多半是靠后天社会经验一点点攒出来的。"
+      ],
+      "more": {
+        "confusables": "appears / appealing / appearance（同族不同词形，注意词性与用法）"
+      }
+    },
+    "around": {
+      "phonetic": "/əˈraʊnd/",
+      "pos": "prep./adv.",
+      "sense": "围绕、在…四周；大约、到处、转过来（本文 discussion around careers 围绕职业的讨论 / around 30% 约 30%）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "around four"
+      ],
+      "examples": [
+        "Children experience physical disgust from a very early age, but do not achieve an understanding of the concept until they are around four years old. 孩子很小就会有生理上的厌恶反应，可真正「懂」这是什么、在脑子里成一个概念，得等到四岁左右。"
+      ]
+    },
+    "asked": {
+      "phonetic": "/ɑːskt/",
+      "pos": "v.",
+      "sense": "问、询问；要求、请求；邀请（ask 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "asked mothers"
+      ],
+      "examples": [
+        "We asked 68 English-speaking mothers and their four-, six- or eight-year-old children to discuss some stories about moral and physical disgust. 我们找了 68 位说英语的妈妈，带上各自 4 岁、6 岁或 8 岁的孩子，让他们围绕几则涉及道德厌恶和生理厌恶的小故事聊一聊。"
+      ]
+    },
+    "better": {
+      "phonetic": "/ˈbetə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更好的；更好地（good/well 的比较级）",
+      "collocations": [
+        "better than",
+        "a better understanding",
+        "get better"
+      ],
+      "examples": [
+        "Sleep is better than more coffee. 睡眠比多喝咖啡更管用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "better（更好）/ had better（最好，后接动词原形）"
+      }
+    },
+    "called": {
+      "phonetic": "/kɔːld/",
+      "pos": "v.",
+      "sense": "把…叫作、称作；打电话给；召唤、召开（call 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "called physical",
+        "called moral"
+      ],
+      "examples": [
+        "One type of disgust is called physical disgust, which protects us from eating or touching things that could be dangerous for us, such as raw meat or insects. 厌恶里有一类叫「生理厌恶」，作用是拦着我们别去碰、别去吃可能有害的东西，像生肉、虫子之类。"
+      ],
+      "more": {
+        "confusables": "called / call（同族不同词形，注意词性与用法）"
+      }
+    },
+    "cheating": {
+      "phonetic": "/tʃiːtɪŋ/",
+      "pos": "v./n.",
+      "sense": "欺骗、作弊、骗取；骗子、欺骗行为（cheat 的现在分词/动名词形式）",
+      "lemma": "cheat",
+      "collocations": [],
+      "examples": [
+        "Examples of moral disgust are stealing, lying or cheating. 哪些算道德厌恶？偷东西、撒谎、作弊，就是最典型的几个。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "cheat + -ing（现在分词/动名词）",
+        "confusables": "cheating（现在分词/动名词）/ cheat（原形）"
+      }
+    },
+    "child": {
+      "phonetic": "/tʃaɪld/",
+      "pos": "n.",
+      "sense": "小孩、儿童、子女（复数 children；本文 at least one dependent child 至少一名需抚养的子女 / children learn languages）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "When we asked mothers and children to discuss moral issues, such as whether it is OK to play with a child who has stolen someone else's snack, they linked this type of moral wrongdoing with the emotion of anger and not disgust. 我们让母子聊道德话题，比如「能不能跟偷了别人点心的小孩一起玩」；结果他们把这种过错归到「生气」上头，压根没往「厌恶」上想。"
+      ],
+      "more": {
+        "confusables": "child / children / childhood（同族不同词形，注意词性与用法）"
+      }
+    },
+    "children": {
+      "phonetic": "/ˈtʃɪldrən/",
+      "pos": "n.",
+      "sense": "儿童、小孩、子女（child 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "child（孩子）+ -ren（不规则复数，不说 childs）",
+        "confusables": "children（孩子们，child 的复数）/ child（单数）/ childhood（童年，名词）/ childish（幼稚的，贬义）/ childlike（天真的，褒义）"
+      },
+      "collocations": [
+        "Children experience",
+        "Children learn",
+        "children talk"
+      ],
+      "examples": [
+        "Children experience physical disgust from a very early age, but do not achieve an understanding of the concept until they are around four years old. 孩子很小就会有生理上的厌恶反应，可真正「懂」这是什么、在脑子里成一个概念，得等到四岁左右。"
+      ]
+    },
+    "concept": {
+      "phonetic": "/ˈkɒnsept/",
+      "pos": "n.",
+      "sense": "概念、观念（可数）",
+      "collocations": [
+        "the concept of",
+        "a key concept",
+        "grasp the concept"
+      ],
+      "examples": [
+        "The concept of the quantified self is limited. 「量化自我」这个概念有局限。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（共同）+ cept（抓取，词根 cap/cept = take，同 accept/receive/perceive）→ 抓出共同点形成「概念」",
+        "confusables": "concept（概念）/ conception（构想/受孕）/ idea（想法）"
+      }
+    },
+    "conversations": {
+      "phonetic": "/ˌkɒnvəˈseɪʃnz/",
+      "pos": "n.",
+      "sense": "交谈、谈话；（引申）话题、讨论、议论（本文 That's a conversation that appears to be gathering pace 这场讨论似乎正升温 / a very privileged conversation）（conversation 的复数/三单形式）",
+      "lemma": "conversation",
+      "collocations": [
+        "parents-children conversations",
+        "conversations about",
+        "conversations about emotions"
+      ],
+      "examples": [
+        "Of special relevance are parents-children conversations about emotions. 在这些渠道里，最要紧的，要数父母跟孩子聊情绪的那些对话。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "conversation + -s（复数/三单）",
+        "confusables": "conversations（复数/三单）/ conversation（原形）"
+      }
+    },
+    "development": {
+      "phonetic": "/dɪˈveləpmənt/",
+      "pos": "n.",
+      "sense": "发展、开发；research and development 研发",
+      "collocations": [
+        "research and development",
+        "late in development"
+      ],
+      "examples": [
+        "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it. 道德厌恶要是到很晚才冒出来，那就有理由推想：它多半是靠后天社会经验一点点攒出来的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "development / developmental（同族不同词形，注意词性与用法）"
+      }
+    },
+    "different": {
+      "phonetic": "/ˈdɪfrənt/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的",
+      "collocations": [
+        "different from",
+        "a different picture",
+        "different points of view"
+      ],
+      "examples": [
+        "Their experiences were considerably different. 他们的经历相当不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "early": {
+      "phonetic": "/ˈɜːli/",
+      "pos": "adj./adv.",
+      "sense": "早的、早期的、初期的；提早、在早期（early on 早先）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "early age"
+      ],
+      "examples": [
+        "Children experience physical disgust from a very early age, but do not achieve an understanding of the concept until they are around four years old. 孩子很小就会有生理上的厌恶反应，可真正「懂」这是什么、在脑子里成一个概念，得等到四岁左右。"
+      ],
+      "more": {
+        "confusables": "early / earlier（同族不同词形，注意词性与用法）"
+      }
+    },
+    "eating": {
+      "phonetic": "/ˈiːtɪŋ/",
+      "pos": "v./n.",
+      "sense": "eat 的现在分词；饮食（不可数）",
+      "lemma": "eat",
+      "collocations": [
+        "eating habits",
+        "healthy eating"
+      ],
+      "examples": [
+        "Healthy eating starts early. 健康饮食从小开始。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "eating（饮食）/ eat（吃）"
+      }
+    },
+    "either": {
+      "phonetic": "/ˈaɪðə(r)/",
+      "pos": "conj./adv./det.",
+      "sense": "两者之一（either...or）；也不（否定句末）",
+      "collocations": [
+        "either ... or",
+        "not ... either",
+        "either of"
+      ],
+      "examples": [
+        "Either way, the result is the same. 无论哪种方式，结果一样。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "either...or（两者之一）/ neither...nor（两者都不）/ either（也，否定句末）"
+      }
+    },
+    "emotional": {
+      "phonetic": "/ɪˈməʊʃənl/",
+      "pos": "adj.",
+      "sense": "情感的、情绪的；激动人心的（本文 emotional distress 情绪困扰 / your emotional state 情绪状态 / resultant emotions 随之而来的情绪）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "better emotional",
+        "emotional understanding"
+      ],
+      "examples": [
+        "Indeed, children whose parents talk about emotions often have a better emotional understanding than children whose parents do not discuss emotions often. 确实如此：家里大人常聊情绪的孩子，对情绪的体察，通常胜过那些大人很少谈情绪的孩子。"
+      ],
+      "more": {
+        "confusables": "emotional / emotions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "emotions": {
+      "phonetic": "/ɪˈməʊʃnz/",
+      "pos": "n.",
+      "sense": "emotion 的复数，情感、情绪",
+      "collocations": [
+        "emotions in",
+        "learn about emotions",
+        "conversations about emotions"
+      ],
+      "examples": [
+        "Children learn about emotions in many different ways. 孩子弄懂各种情绪，途径其实五花八门。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "e-（=ex- 向外）+ mot（动，词根 mot/mov = move，同 motion/motive/promote）+ -ion + -s → 外露的波动 → 情绪",
+        "confusables": "emotion（情绪，强烈而短暂）/ feeling（感觉，较泛）/ mood（心境，持续较久）/ emotional（情绪的；易动感情的）/ emotive（引发强烈情绪的，多指话题）"
+      }
+    },
+    "examine": {
+      "phonetic": "/ɪɡˈzæmɪn/",
+      "pos": "v.",
+      "sense": "审查、仔细查看",
+      "collocations": [
+        "examine studies",
+        "examine with care"
+      ],
+      "examples": [
+        "This is what we set up to examine in our study. 我们这项研究，要补的就是这个缺口。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "examine（检查、审视；考试，及物）/ examine sth / examine whether / examine 与 inspect（查验、视察）/ examine 与 check（核对）/ examination（名词）"
+      }
+    },
+    "examined": {
+      "phonetic": "/ɪɡˈzæmɪnd/",
+      "pos": "v.",
+      "sense": "examine 的过去式，考察、研究、检查",
+      "collocations": [],
+      "examples": [
+        "However, there are no studies that have examined how parents and children talk about disgust. 可偏偏这一块是空白：从来没人专门研究过，家长和孩子到底怎么聊「厌恶」。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "examined / examine / examination（同族不同词形，注意词性与用法）"
+      }
+    },
+    "examples": {
+      "phonetic": "/ɪɡˈzɑːmplz/",
+      "pos": "n.",
+      "sense": "例子、实例、榜样、范例（example 复数；for example 例如）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "example（例子）+ -s（复数）",
+        "confusables": "for example（例如，= for instance，作插入语，后接句子或名词短语，不接 doing）/ set an example to/for sb（树立榜样）/ an example of（…的例子，介词 of）/ example 与 sample（实物样本）"
+      },
+      "collocations": [
+        "Examples of",
+        "Examples of moral"
+      ],
+      "examples": [
+        "Examples of moral disgust are stealing, lying or cheating. 哪些算道德厌恶？偷东西、撒谎、作弊，就是最典型的几个。"
+      ]
+    },
+    "exist": {
+      "phonetic": "/ɪɡˈzɪst/",
+      "pos": "v.",
+      "sense": "存在（不及物）",
+      "collocations": [
+        "exist in",
+        "no longer exist",
+        "cease to exist"
+      ],
+      "examples": [
+        "Technologies that already exist could help. 已有的技术就能帮上忙。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "ex-（出）+ (s)ist（站立，词根，同 insist/persist/resist/consist）→ 站出来 → 存在",
+        "confusables": "exist（存在）/ exist in（存在于）/ exit（出口）"
+      }
+    },
+    "exists": {
+      "phonetic": "/ɪɡˈzɪstts/",
+      "pos": "v.",
+      "sense": "存在（不及物）（exist 的复数/三单形式）",
+      "lemma": "exist",
+      "collocations": [
+        "really exists",
+        "disgust exists",
+        "exists in"
+      ],
+      "examples": [
+        "However, not all academics think that moral disgust really exists. 不过，也不是学界人人买账——有人根本不承认「道德厌恶」这回事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "exist + -s（复数/三单）",
+        "confusables": "exists（复数/三单）/ exist（原形）"
+      }
+    },
+    "experience": {
+      "phonetic": "/ɪkˈspɪəriəns/",
+      "pos": "n./v.",
+      "sense": "经验（不可数）；经历（可数）/ 经历、体验",
+      "collocations": [
+        "work experience",
+        "a lot of experience",
+        "experience sth"
+      ],
+      "examples": [
+        "Relying on instincts needs vast experience. 依靠直觉需要大量经验。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "experience（经验，不可数）/ experiences（经历，可数）"
+      }
+    },
+    "feeling": {
+      "phonetic": "/ˈfiːlɪŋ/",
+      "pos": "n.",
+      "sense": "感觉、知觉、感触；情感、看法（feelings 感情、情绪）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Some say that when we refer to disgust in relation to moral issues, we are using disgust as a metaphor(隐喻), and what we are feeling is in reality anger. 有人干脆说：所谓道德上的「厌恶」，不过是个比喻，我们心里真正冒出来的那股火，其实是愤怒。"
+      ]
+    },
+    "findings": {
+      "phonetic": "/ˈfaɪndɪŋz/",
+      "pos": "n.",
+      "sense": "研究结果、调查发现（finding 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "find（发现）+ -ing + -s",
+        "confusables": "findings（研究结果、发现，常用复数名词）/ find（找到，动词）/ finding（单项发现，可数）/ findings 与 conclusion（conclusion 是「结论」，findings 是「发现的事实」）/ research findings"
+      },
+      "collocations": [
+        "preliminary findings",
+        "findings show",
+        "findings suggest"
+      ],
+      "examples": [
+        "Our preliminary findings show mothers and children do talk about disgust, but mainly about physical disgust and not so much about moral disgust. 初步结果出来了：母子俩确实会聊到「厌恶」，可聊来聊去几乎都是生理那一类，道德厌恶很少被提起。"
+      ]
+    },
+    "however": {
+      "phonetic": "/haʊˈevə(r)/",
+      "pos": "adv./conj.",
+      "sense": "然而（副词，须用分号或句号连接）；无论怎样",
+      "collocations": [
+        "however, ...",
+        "however much"
+      ],
+      "examples": [
+        "However, the study also shows a gap. 然而，研究也显示出一道差距。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "however（副词，不能像 but 那样直接连两个分句）/ but（连词）"
+      }
+    },
+    "human": {
+      "phonetic": "/ˈhjuːmən/",
+      "pos": "adj./n.",
+      "sense": "人的、人类的、有人情味的；人、人类（human being）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "universal human",
+        "human emotion"
+      ],
+      "examples": [
+        "Disgust is a universal human emotion. 厌恶，是人人都会有的一种基本情绪。"
+      ],
+      "more": {
+        "confusables": "human / humanity / human-made（同族不同词形，注意词性与用法）"
+      }
+    },
+    "indeed": {
+      "phonetic": "/ɪnˈdiːd/",
+      "pos": "adv.",
+      "sense": "确实、的确（加强语气）；甚至",
+      "collocations": [
+        "indeed, ...",
+        "very ... indeed"
+      ],
+      "examples": [
+        "Indeed, their digital use can be beneficial. 确实，他们的数字使用可以是有益的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "indeed（确实）/ really（真的）/ actually（实际上）"
+      }
+    },
+    "issues": {
+      "phonetic": "/ˈɪʃuːz/",
+      "pos": "n./v.",
+      "sense": "问题、议题；发布（issue 的复数/三单形式）",
+      "lemma": "issue",
+      "collocations": [
+        "moral issues"
+      ],
+      "examples": [
+        "Some say that when we refer to disgust in relation to moral issues, we are using disgust as a metaphor(隐喻), and what we are feeling is in reality anger. 有人干脆说：所谓道德上的「厌恶」，不过是个比喻，我们心里真正冒出来的那股火，其实是愤怒。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "issue + -s（复数/三单）",
+        "confusables": "issues（复数/三单）/ issue（原形）"
+      }
+    },
+    "late": {
+      "phonetic": "/leɪt/",
+      "pos": "adj./adv.",
+      "sense": "迟的、晚的、后期的、已故的；迟、晚、最近",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "quite late",
+        "late in",
+        "late in development"
+      ],
+      "examples": [
+        "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it. 道德厌恶要是到很晚才冒出来，那就有理由推想：它多半是靠后天社会经验一点点攒出来的。"
+      ],
+      "more": {
+        "confusables": "late / latest / later（同族不同词形，注意词性与用法）"
+      }
+    },
+    "later": {
+      "phonetic": "/ˈleɪtə/",
+      "pos": "adv./adj.",
+      "sense": "后来、以后、稍后；较晚的、后期的（本文 50 years later 五十年后 / middle and late adulthood 中老年）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "later age"
+      ],
+      "examples": [
+        "Our findings suggest that moral disgust is either understood at a later age or is only used metaphorically, if at all, in children as old as eight years. 我们的结论是：道德厌恶要么得等孩子再大些才懂，要么就算在八岁的孩子嘴里出现，也顶多是个比喻——甚至未必真有。"
+      ],
+      "more": {
+        "confusables": "later / late / latest（同族不同词形，注意词性与用法）"
+      }
+    },
+    "learn": {
+      "phonetic": "/lɜːn/",
+      "pos": "v.",
+      "sense": "学习、学会",
+      "collocations": [
+        "learn to do",
+        "learn from"
+      ],
+      "examples": [
+        "We learn from mistakes. 我们从错误中学习。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "learn / learning（同族不同词形，注意词性与用法）"
+      }
+    },
+    "linked": {
+      "phonetic": "/lɪŋkt/",
+      "pos": "v.",
+      "sense": "link 的过去式/过去分词；（be linked to）与……相关",
+      "lemma": "link",
+      "collocations": [
+        "be linked to",
+        "closely linked"
+      ],
+      "examples": [
+        "Isolation is linked to higher rates of disease. 孤立与更高发病率相关。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be linked to（相关）/ link A to B（连接）"
+      }
+    },
+    "mainly": {
+      "phonetic": "/meɪnli/",
+      "pos": "adj./n.",
+      "sense": "主要的、最重要的、总的；总管道、干线、（the mains）市政电源/水源（main 的副词形式）",
+      "lemma": "main",
+      "collocations": [
+        "mainly about",
+        "mainly about physical"
+      ],
+      "examples": [
+        "Our preliminary findings show mothers and children do talk about disgust, but mainly about physical disgust and not so much about moral disgust. 初步结果出来了：母子俩确实会聊到「厌恶」，可聊来聊去几乎都是生理那一类，道德厌恶很少被提起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "main + -ly（副词）",
+        "confusables": "mainly（副词）/ main（原形）"
+      }
+    },
+    "maintain": {
+      "phonetic": "/meɪnˈteɪn/",
+      "pos": "v.",
+      "sense": "维持、保持；坚持认为（maintain that）",
+      "collocations": [
+        "maintain that",
+        "maintain contact",
+        "maintain balance"
+      ],
+      "examples": [
+        "Some maintain that multitasking is possible. 有人坚持认为多任务处理是可能的。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "main-（=manu 手，词根 man = hand，同 manual/manufacture）+ tain（握、持，词根，同 contain/retain/sustain）→ 拿在手里维持",
+        "confusables": "maintain（维持/主张）/ maintenance（维护，名词）"
+      }
+    },
+    "makes": {
+      "phonetic": "/meɪks/",
+      "pos": "v.",
+      "sense": "做、制造；使得、使成为；获得（make 的第三人称单数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "makes sense"
+      ],
+      "examples": [
+        "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it. 道德厌恶要是到很晚才冒出来，那就有理由推想：它多半是靠后天社会经验一点点攒出来的。"
+      ],
+      "more": {
+        "confusables": "makes / make（同族不同词形，注意词性与用法）"
+      }
+    },
+    "mean": {
+      "phonetic": "/miːn/",
+      "pos": "v./adj.",
+      "sense": "意味着、意思是；打算 / 吝啬的、刻薄的",
+      "collocations": [
+        "mean that",
+        "mean to do",
+        "by no means"
+      ],
+      "examples": [
+        "This would mean the end of a career. 这就意味着职业生涯的终结。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "mean to do（打算做）/ mean doing（意味着）"
+      }
+    },
+    "meat": {
+      "phonetic": "/miːt/",
+      "pos": "n.",
+      "sense": "肉、肉类、食用肉；实质、要点（meat 与 flesh 区分；the meat of the argument 论点核心）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "raw meat"
+      ],
+      "examples": [
+        "One type of disgust is called physical disgust, which protects us from eating or touching things that could be dangerous for us, such as raw meat or insects. 厌恶里有一类叫「生理厌恶」，作用是拦着我们别去碰、别去吃可能有害的东西，像生肉、虫子之类。"
+      ],
+      "more": {
+        "confusables": "meat / meat-free / meatless（同族不同词形，注意词性与用法）"
+      }
+    },
+    "moral": {
+      "phonetic": "/ˈmɒrəl/",
+      "pos": "adj./n.",
+      "sense": "道德的、道义上的、品行端正的；寓意、教训、道德（moral values 道德观；the moral of the story 故事寓意）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "called moral",
+        "moral disgust",
+        "Examples of moral"
+      ],
+      "examples": [
+        "Some researchers maintain that there is another type of disgust, called moral disgust, that protects us from engaging in activities that can be perceived as morally wrong. 有学者主张，厌恶还有一类叫「道德厌恶」，专门拦着我们去做那些在道德上站不住脚的事。"
+      ],
+      "more": {
+        "confusables": "moral / morality / morally（同族不同词形，注意词性与用法）"
+      }
+    },
+    "morally": {
+      "phonetic": "/ˈmɒrəlli/",
+      "pos": "adj./n.",
+      "sense": "道德的、道义上的、品行端正的；寓意、教训、道德（moral values 道德观；the moral of the story 故事寓意）（moral 的副词形式）",
+      "lemma": "moral",
+      "collocations": [
+        "morally wrong",
+        "perceived as morally"
+      ],
+      "examples": [
+        "Some researchers maintain that there is another type of disgust, called moral disgust, that protects us from engaging in activities that can be perceived as morally wrong. 有学者主张，厌恶还有一类叫「道德厌恶」，专门拦着我们去做那些在道德上站不住脚的事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "moral + -ly（副词）",
+        "confusables": "morally（副词）/ moral（原形）"
+      }
+    },
+    "often": {
+      "phonetic": "/ˈɒfn/",
+      "pos": "adv.",
+      "sense": "经常、常常",
+      "collocations": [
+        "emotions often"
+      ],
+      "examples": [
+        "Indeed, children whose parents talk about emotions often have a better emotional understanding than children whose parents do not discuss emotions often. 确实如此：家里大人常聊情绪的孩子，对情绪的体察，通常胜过那些大人很少谈情绪的孩子。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "old": {
+      "phonetic": "/əʊld/",
+      "pos": "adj.",
+      "sense": "老的、年老的、旧的、古老的、从前的；…岁的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "years old",
+        "old as",
+        "old as eight"
+      ],
+      "examples": [
+        "Children experience physical disgust from a very early age, but do not achieve an understanding of the concept until they are around four years old. 孩子很小就会有生理上的厌恶反应，可真正「懂」这是什么、在脑子里成一个概念，得等到四岁左右。"
+      ]
+    },
+    "parents": {
+      "phonetic": "/ˈpeərənts/",
+      "pos": "n.",
+      "sense": "父亲（或母亲）、家长、双亲（复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "parents talk"
+      ],
+      "examples": [
+        "Indeed, children whose parents talk about emotions often have a better emotional understanding than children whose parents do not discuss emotions often. 确实如此：家里大人常聊情绪的孩子，对情绪的体察，通常胜过那些大人很少谈情绪的孩子。"
+      ],
+      "more": {
+        "confusables": "parents / parent（同族不同词形，注意词性与用法）"
+      }
+    },
+    "perceived": {
+      "phonetic": "/pəˈsiːvd/",
+      "pos": "v.",
+      "sense": "察觉、认为（perceive sth as）（perceive 的过去式/过去分词形式）",
+      "lemma": "perceive",
+      "collocations": [
+        "perceived as",
+        "perceived as morally"
+      ],
+      "examples": [
+        "Some researchers maintain that there is another type of disgust, called moral disgust, that protects us from engaging in activities that can be perceived as morally wrong. 有学者主张，厌恶还有一类叫「道德厌恶」，专门拦着我们去做那些在道德上站不住脚的事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "perceive + -d（过去式/过去分词）",
+        "confusables": "perceived（过去式/过去分词）/ perceive（原形）"
+      }
+    },
+    "physical": {
+      "phonetic": "/ˈfɪzɪkl/",
+      "pos": "adj.",
+      "sense": "身体的；物理的；实物的",
+      "collocations": [
+        "physical health",
+        "physical activity",
+        "physical presence"
+      ],
+      "examples": [
+        "Mental and physical health are linked. 心理与身体健康相互关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "physica（自然）+ -al",
+        "confusables": "physical（身体的/物理的）/ mental（心理的）"
+      }
+    },
+    "play": {
+      "phonetic": "/pleɪ/",
+      "pos": "v./n.",
+      "sense": "玩、玩耍、扮演、参加（运动）、播放；剧本、游戏、作用（本文 play a key role 起关键作用 / play catch-up 奋起直追）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "play with"
+      ],
+      "examples": [
+        "When we asked mothers and children to discuss moral issues, such as whether it is OK to play with a child who has stolen someone else's snack, they linked this type of moral wrongdoing with the emotion of anger and not disgust. 我们让母子聊道德话题，比如「能不能跟偷了别人点心的小孩一起玩」；结果他们把这种过错归到「生气」上头，压根没往「厌恶」上想。"
+      ]
+    },
+    "protects": {
+      "phonetic": "/prəˈtektts/",
+      "pos": "v.",
+      "sense": "保护（protect sb from sth）（protect 的复数/三单形式）",
+      "lemma": "protect",
+      "collocations": [],
+      "examples": [
+        "One type of disgust is called physical disgust, which protects us from eating or touching things that could be dangerous for us, such as raw meat or insects. 厌恶里有一类叫「生理厌恶」，作用是拦着我们别去碰、别去吃可能有害的东西，像生肉、虫子之类。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "protect + -s（复数/三单）",
+        "confusables": "protects（复数/三单）/ protect（原形）"
+      }
+    },
+    "quite": {
+      "phonetic": "/kwaɪt/",
+      "pos": "adv.",
+      "sense": "相当；完全；十分",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "appears quite",
+        "quite late"
+      ],
+      "examples": [
+        "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it. 道德厌恶要是到很晚才冒出来，那就有理由推想：它多半是靠后天社会经验一点点攒出来的。"
+      ],
+      "more": {
+        "confusables": "quite / quit / quitting（同族不同词形，注意词性与用法）"
+      }
+    },
+    "reality": {
+      "phonetic": "/riˈæləti/",
+      "pos": "n.",
+      "sense": "现实、实际情况（可数/不可数）",
+      "collocations": [
+        "in reality",
+        "the reality is",
+        "face reality"
+      ],
+      "examples": [
+        "In reality, the female did most of the care. 现实中主要是女性在做照护。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in reality（实际上）/ reality（现实）/ real（真实的）"
+      }
+    },
+    "really": {
+      "phonetic": "/ˈrɪəli/",
+      "pos": "adv.",
+      "sense": "真正地、确实；非常（口语）",
+      "collocations": [
+        "really important",
+        "not really",
+        "really?"
+      ],
+      "examples": [
+        "They do not really reflect everyday behaviour. 它们并没有真正反映日常行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "really（真正地）/ real（形容词）/ actually（实际上）"
+      }
+    },
+    "refer": {
+      "phonetic": "/rɪˈfɜː(r)/",
+      "pos": "v.",
+      "sense": "指称（refer to）；参考",
+      "collocations": [
+        "refer to",
+        "refer to sb as"
+      ],
+      "examples": [
+        "They refer to this as the third space. 他们把这称作第三空间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "refer to（提及/指称）/ refer to as（称为）/ reference（参考）"
+      }
+    },
+    "relation": {
+      "phonetic": "/rɪˈleɪʃn/",
+      "pos": "n.",
+      "sense": "关系、关联、联系；亲属；叙述（in relation to 关于、与…相比）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "relation to",
+        "relation to moral",
+        "disgust in relation"
+      ],
+      "examples": [
+        "Some say that when we refer to disgust in relation to moral issues, we are using disgust as a metaphor(隐喻), and what we are feeling is in reality anger. 有人干脆说：所谓道德上的「厌恶」，不过是个比喻，我们心里真正冒出来的那股火，其实是愤怒。"
+      ],
+      "more": {
+        "confusables": "relation / relationships / relationship（同族不同词形，注意词性与用法）"
+      }
+    },
+    "relevance": {
+      "phonetic": "/ˈreləvəns/",
+      "pos": "n.",
+      "sense": "相关性、关联、切题、意义（relevance to 与…的相关性；研究/论证话题）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "special relevance"
+      ],
+      "examples": [
+        "Of special relevance are parents-children conversations about emotions. 在这些渠道里，最要紧的，要数父母跟孩子聊情绪的那些对话。"
+      ],
+      "more": {
+        "confusables": "relevance / relevant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "researcher 的复数，研究人员",
+      "collocations": [
+        "researchers maintain",
+        "researchers suggest"
+      ],
+      "examples": [
+        "Some researchers maintain that there is another type of disgust, called moral disgust, that protects us from engaging in activities that can be perceived as morally wrong. 有学者主张，厌恶还有一类叫「道德厌恶」，专门拦着我们去做那些在道德上站不住脚的事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researchers / researcher（同族不同词形，注意词性与用法）"
+      }
+    },
+    "say": {
+      "phonetic": "/seɪ/",
+      "pos": "v./n.",
+      "sense": "说、讲、表明、写道；发言权、决定权（have a say）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Some say that when we refer to disgust in relation to moral issues, we are using disgust as a metaphor(隐喻), and what we are feeling is in reality anger. 有人干脆说：所谓道德上的「厌恶」，不过是个比喻，我们心里真正冒出来的那股火，其实是愤怒。"
+      ],
+      "more": {
+        "confusables": "say / says / sayings（同族不同词形，注意词性与用法）"
+      }
+    },
+    "sense": {
+      "phonetic": "/sens/",
+      "pos": "n./v.",
+      "sense": "感觉、意识；意义、含义；判断力；意识到、觉察到（make sense 讲得通）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "sense（感觉、感官；意义；判断力）/ make sense（讲得通、有道理）/ make sense of（弄懂…）/ in a sense（在某种意义上）/ common sense（常识，不可数）/ sensible（明智的）与 sensitive（敏感的）"
+      },
+      "collocations": [
+        "makes sense",
+        "sense to",
+        "sense to think"
+      ],
+      "examples": [
+        "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it. 道德厌恶要是到很晚才冒出来，那就有理由推想：它多半是靠后天社会经验一点点攒出来的。"
+      ]
+    },
+    "set": {
+      "phonetic": "/set/",
+      "pos": "v./n./adj.",
+      "sense": "设置、放（动词）；一套（名词）；固定的（形容词）",
+      "collocations": [
+        "set boundaries",
+        "a set of",
+        "set up"
+      ],
+      "examples": [
+        "Parents need to set firm boundaries. 家长需要设定明确界限。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "set up（建立）/ set off（出发/引发）/ set out（着手）"
+      }
+    },
+    "show": {
+      "phonetic": "/ʃəʊ/",
+      "pos": "v./n.",
+      "sense": "显示、表明（show that）；展示 / 演出、展览",
+      "collocations": [
+        "show that",
+        "show up",
+        "a show of"
+      ],
+      "examples": [
+        "The study shows how roles endure. 研究显示角色如何延续。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "show（显示）/ prove（证明，更强）/ indicate（表明，正式）"
+      }
+    },
+    "six": {
+      "phonetic": "/sɪks/",
+      "pos": "num.",
+      "sense": "六（数词）",
+      "collocations": [
+        "six times longer",
+        "six weeks"
+      ],
+      "examples": [
+        "Essays are now six times longer. 现在文章长了六倍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "six（六）/ sixth（第六）"
+      }
+    },
+    "snack": {
+      "phonetic": "/snæk/",
+      "pos": "n./v.",
+      "sense": "小吃、零食、点心；吃零食（snack foods / between-meal snacks）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "else's snack"
+      ],
+      "examples": [
+        "When we asked mothers and children to discuss moral issues, such as whether it is OK to play with a child who has stolen someone else's snack, they linked this type of moral wrongdoing with the emotion of anger and not disgust. 我们让母子聊道德话题，比如「能不能跟偷了别人点心的小孩一起玩」；结果他们把这种过错归到「生气」上头，压根没往「厌恶」上想。"
+      ]
+    },
+    "social": {
+      "phonetic": "/ˈsəʊʃl/",
+      "pos": "adj.",
+      "sense": "社会的、社会性的；社交的、交际的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "social component"
+      ],
+      "examples": [
+        "If moral disgust appears quite late in development, it makes sense to think that there is actually a social component to it. 道德厌恶要是到很晚才冒出来，那就有理由推想：它多半是靠后天社会经验一点点攒出来的。"
+      ],
+      "more": {
+        "confusables": "social / society / socializing（同族不同词形，注意词性与用法）"
+      }
+    },
+    "someone": {
+      "phonetic": "/ˈsʌmwʌn/",
+      "pos": "pron./n.",
+      "sense": "某人、有人、某个人（用于肯定句，与 someone 同义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "someone（某人，不定代词，谓语用单数，= somebody）/ someone else（别人，else 后置）/ someone 多用于肯定句，疑问/否定常用 anyone / some one（分写指「某一个」，可接 of）"
+      },
+      "collocations": [
+        "stolen someone",
+        "someone else's"
+      ],
+      "examples": [
+        "When we asked mothers and children to discuss moral issues, such as whether it is OK to play with a child who has stolen someone else's snack, they linked this type of moral wrongdoing with the emotion of anger and not disgust. 我们让母子聊道德话题，比如「能不能跟偷了别人点心的小孩一起玩」；结果他们把这种过错归到「生气」上头，压根没往「厌恶」上想。"
+      ]
+    },
+    "special": {
+      "phonetic": "/ˈspeʃl/",
+      "pos": "adj.",
+      "sense": "特殊的、特别的",
+      "collocations": [
+        "special interest groups",
+        "special relevance"
+      ],
+      "examples": [
+        "Of special relevance are parents-children conversations about emotions. 在这些渠道里，最要紧的，要数父母跟孩子聊情绪的那些对话。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "special / specific（同族不同词形，注意词性与用法）"
+      }
+    },
+    "stories": {
+      "phonetic": "/ˈstɔːriz/",
+      "pos": "n.",
+      "sense": "故事、小说、传闻、报道、经历；楼层（story 的复数；英式楼层拼作 storey）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "stories about",
+        "stories about moral"
+      ],
+      "examples": [
+        "We asked 68 English-speaking mothers and their four-, six- or eight-year-old children to discuss some stories about moral and physical disgust. 我们找了 68 位说英语的妈妈，带上各自 4 岁、6 岁或 8 岁的孩子，让他们围绕几则涉及道德厌恶和生理厌恶的小故事聊一聊。"
+      ]
+    },
+    "studies": {
+      "phonetic": "/ˈstʌdiz/",
+      "pos": "n./v.",
+      "sense": "研究（study 的复数）；study 的第三人称单数",
+      "lemma": "study",
+      "collocations": [
+        "studies show that",
+        "recent studies"
+      ],
+      "examples": [
+        "Studies suggest a strong link. 研究表明存在强关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "studies（复数/三单）/ study（单数）"
+      }
+    },
+    "study": {
+      "phonetic": "/ˈstʌdi/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习",
+      "collocations": [
+        "a study on sth",
+        "research study",
+        "study at university"
+      ],
+      "examples": [
+        "The study tracked 200 teenagers. 这项研究追踪了 200 名青少年。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "study（研究，可数）/ research（研究，不可数）"
+      }
+    },
+    "suggest": {
+      "phonetic": "/səˈdʒest/",
+      "pos": "v.",
+      "sense": "建议、提议；表明、暗示、使人想到",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "suggest doing（建议做，接动名词，不说 suggest to do）/ suggest that + (should) do（建议，从句虚拟，should 可省）/ suggest that + 陈述语气（暗示、表明）/ advise sb to do（句型不同）/ suggestion（建议；迹象）"
+      },
+      "collocations": [
+        "researchers suggest",
+        "suggest moral",
+        "findings suggest"
+      ],
+      "examples": [
+        "Some researchers suggest moral disgust exists in adults. 也有学者认为，成年人身上确实有道德厌恶，只是孩子另当别论。"
+      ]
+    },
+    "talk": {
+      "phonetic": "/tɔːk/",
+      "pos": "v./n.",
+      "sense": "说话、谈话、交谈、谈论、演讲、谈判；谈话、演讲、闲话、话题",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "parents talk",
+        "talk about",
+        "talk about emotions"
+      ],
+      "examples": [
+        "Indeed, children whose parents talk about emotions often have a better emotional understanding than children whose parents do not discuss emotions often. 确实如此：家里大人常聊情绪的孩子，对情绪的体察，通常胜过那些大人很少谈情绪的孩子。"
+      ],
+      "more": {
+        "confusables": "talk / talked / talking（同族不同词形，注意词性与用法）"
+      }
+    },
+    "things": {
+      "phonetic": "/θɪŋz/",
+      "pos": "n.",
+      "sense": "事情、东西（thing 的复数）",
+      "lemma": "thing",
+      "collocations": [
+        "all things considered",
+        "the thing is",
+        "things like that"
+      ],
+      "examples": [
+        "They have to do all these things first. 他们必须先做所有这些事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "things（事情/东西）/ stuff（东西，不可数，口语）"
+      }
+    },
+    "think": {
+      "phonetic": "/θɪŋk/",
+      "pos": "v.",
+      "sense": "想、认为；思考",
+      "collocations": [
+        "think about",
+        "think of",
+        "I think that"
+      ],
+      "examples": [
+        "Many think the risk is small. 很多人认为风险很小。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "think about（考虑）/ think of（想起）/ think over（仔细考虑）"
+      }
+    },
+    "touching": {
+      "phonetic": "/tʌtʃɪŋ/",
+      "pos": "v./n.",
+      "sense": "触摸、接触、碰、触动、涉及；触觉、触感、联系（keep in touch / get in touch / a touch of）（touch 的现在分词/动名词形式）",
+      "lemma": "touch",
+      "collocations": [
+        "touching things"
+      ],
+      "examples": [
+        "One type of disgust is called physical disgust, which protects us from eating or touching things that could be dangerous for us, such as raw meat or insects. 厌恶里有一类叫「生理厌恶」，作用是拦着我们别去碰、别去吃可能有害的东西，像生肉、虫子之类。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "touch + -ing（现在分词/动名词）",
+        "confusables": "touching（现在分词/动名词）/ touch（原形）"
+      }
+    },
+    "type": {
+      "phonetic": "/taɪp/",
+      "pos": "n./v.",
+      "sense": "类型、种类、品种、典型、字体、铅字；打字、测定…的类型",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "type of",
+        "type of disgust",
+        "another type"
+      ],
+      "examples": [
+        "One type of disgust is called physical disgust, which protects us from eating or touching things that could be dangerous for us, such as raw meat or insects. 厌恶里有一类叫「生理厌恶」，作用是拦着我们别去碰、别去吃可能有害的东西，像生肉、虫子之类。"
+      ],
+      "more": {
+        "confusables": "type / types（同族不同词形，注意词性与用法）"
+      }
+    },
+    "understanding": {
+      "phonetic": "/ˌʌndəˈstændɪŋ/",
+      "pos": "v.",
+      "sense": "理解、明白；得知、获悉；体谅（understand 的现在分词/动名词形式）",
+      "lemma": "understand",
+      "collocations": [
+        "understanding of",
+        "emotional understanding"
+      ],
+      "examples": [
+        "Children experience physical disgust from a very early age, but do not achieve an understanding of the concept until they are around four years old. 孩子很小就会有生理上的厌恶反应，可真正「懂」这是什么、在脑子里成一个概念，得等到四岁左右。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "understand + -ing（现在分词/动名词）",
+        "confusables": "understanding（现在分词/动名词）/ understand（原形）"
+      }
+    },
+    "understood": {
+      "phonetic": "/ˌʌndəˈstʊd/",
+      "pos": "v.",
+      "sense": "understand 的过去式与过去分词（理解）",
+      "lemma": "understand",
+      "collocations": [
+        "be understood as",
+        "widely understood"
+      ],
+      "examples": [
+        "The finding is understood as a warning. 这一发现被理解为警示。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "understood（过去式/过去分词）/ understand（原形）"
+      }
+    },
+    "universal": {
+      "phonetic": "/ˌjuːnɪˈvɜːsl/",
+      "pos": "adj.",
+      "sense": "普遍的、全体的；通用的；全世界的",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "universal human"
+      ],
+      "examples": [
+        "Disgust is a universal human emotion. 厌恶，是人人都会有的一种基本情绪。"
+      ],
+      "more": {
+        "confusables": "universal / university（同族不同词形，注意词性与用法）"
+      }
+    },
+    "until": {
+      "phonetic": "/ənˈtɪl/",
+      "pos": "prep./conj.",
+      "sense": "直到（时间）；直到……才（用于否定句）",
+      "collocations": [
+        "until now",
+        "not ... until",
+        "until then"
+      ],
+      "examples": [
+        "Kids may not change until they are older. 孩子可能到更大才会改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "until（直到）/ till（同义，口语）/ not ... until（直到……才）"
+      }
+    },
+    "used": {
+      "phonetic": "/juːzd/",
+      "pos": "v./adj.",
+      "sense": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+      "lemma": "use",
+      "collocations": [
+        "used to do",
+        "be used to doing",
+        "be used for"
+      ],
+      "examples": [
+        "They used flexible work arrangements. 他们使用了弹性工作安排。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）"
+      }
+    },
+    "using": {
+      "phonetic": "/ˈjuːzɪŋ/",
+      "pos": "v.",
+      "sense": "use 的现在分词（使用）",
+      "lemma": "use",
+      "collocations": [
+        "by using sth",
+        "using data"
+      ],
+      "examples": [
+        "Results improve by using existing technology. 使用现有技术就能改善结果。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "using（现在分词）/ used（过去式/过去分词）"
+      }
+    },
+    "ways": {
+      "phonetic": "/weɪz/",
+      "pos": "n.",
+      "sense": "方式、方法（way 的复数）",
+      "lemma": "way",
+      "collocations": [
+        "in many ways",
+        "in some ways",
+        "find ways to"
+      ],
+      "examples": [
+        "In some ways the risks are overstated. 某些方面风险被夸大了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in some ways（在某些方面）/ in a way（在某种意义上）"
+      }
+    },
+    "whether": {
+      "phonetic": "/ˈweðə(r)/",
+      "pos": "conj.",
+      "sense": "是否；无论（whether ... or ...）",
+      "collocations": [
+        "whether or not",
+        "whether to do",
+        "whether it comes from"
+      ],
+      "examples": [
+        "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）"
+      }
+    },
+    "wrong": {
+      "phonetic": "/rɒŋ/",
+      "pos": "adj./adv./n.",
+      "sense": "错误的、不对的、不合适的、不道德的、出毛病的；错误地、不对；错误、坏事、不公、冤屈",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "morally wrong"
+      ],
+      "examples": [
+        "Some researchers maintain that there is another type of disgust, called moral disgust, that protects us from engaging in activities that can be perceived as morally wrong. 有学者主张，厌恶还有一类叫「道德厌恶」，专门拦着我们去做那些在道德上站不住脚的事。"
+      ],
+      "more": {
+        "confusables": "wrong / wrongdoer（同族不同词形，注意词性与用法）"
+      }
+    },
+    "years": {
+      "phonetic": "/jɪəz/",
+      "pos": "n.",
+      "sense": "年、年份；岁数、年纪（year 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "year（年）+ -s（复数）",
+        "confusables": "year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）"
+      },
+      "collocations": [
+        "four years",
+        "years old",
+        "eight years"
+      ],
+      "examples": [
+        "Children experience physical disgust from a very early age, but do not achieve an understanding of the concept until they are around four years old. 孩子很小就会有生理上的厌恶反应，可真正「懂」这是什么、在脑子里成一个概念，得等到四岁左右。"
+      ]
+    }
+  }
+}

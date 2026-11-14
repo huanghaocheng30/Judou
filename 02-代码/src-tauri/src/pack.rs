@@ -654,13 +654,13 @@ mod tests {
         Path::new(env!("CARGO_MANIFEST_DIR")).join("..").join(PACK_DIR_NAME)
     }
 
-    /// 13 个数据文件必须都能被解析（AC1 的解析面；SHA-256 由 verify-pack.mjs 守）
+    /// 73 个数据文件必须都能被解析（AC1 的解析面；SHA-256 由 verify-pack.mjs 守）
     #[test]
     fn manifest_and_all_articles_parse() {
         let dir = pack_dir();
         let manifest = load_manifest(&dir).expect("manifest 应能解析");
-        assert_eq!(manifest.pack_version, "2026.11.05-1");
-        assert_eq!(manifest.articles.len(), 12, "manifest 应声明 12 篇");
+        assert_eq!(manifest.pack_version, "2026.11.14-1");
+        assert_eq!(manifest.articles.len(), 72, "manifest 应声明 72 篇");
 
         let mut paragraphs = 0;
         let mut sentences = 0;
@@ -745,13 +745,13 @@ mod tests {
         std::env::temp_dir().join(format!("judou-pack-test-{}-{tag}-{nanos}", std::process::id()))
     }
 
-    /// ① 内嵌资源可枚举：13 个文件（12 篇 + manifest）都在二进制里
+    /// ① 内嵌资源可枚举：73 个文件（72 篇 + manifest）都在二进制里
     #[test]
     fn embedded_pack_is_enumerable() {
         let files: Vec<&Path> = EMBEDDED_PACK.files().map(|file| file.path()).collect();
         assert!(
-            files.len() >= 13,
-            "内嵌资源应至少 13 个文件，实测 {}",
+            files.len() >= 73,
+            "内嵌资源应至少 73 个文件，实测 {}",
             files.len()
         );
         assert!(
@@ -760,7 +760,7 @@ mod tests {
         );
     }
 
-    /// ② 解压后 manifest 可解析、13 个文件落盘（AC2 第三级 / AC6）
+    /// ② 解压后 manifest 可解析、73 个文件落盘（AC2 第三级 / AC6）
     #[test]
     fn extraction_produces_loadable_pack() {
         let app_data = temp_app_data("extract");
@@ -769,10 +769,10 @@ mod tests {
         assert!(dir.join(MANIFEST_FILE).is_file(), "解压后应含 manifest.json");
 
         let manifest = load_manifest(&dir).expect("解压后 manifest 应能解析");
-        assert_eq!(manifest.articles.len(), 12, "解压后的包应声明 12 篇");
+        assert_eq!(manifest.articles.len(), 72, "解压后的包应声明 72 篇");
 
         let count = std::fs::read_dir(&dir).expect("目录应可读").count();
-        assert_eq!(count, 13, "解压后应有 13 个文件，实测 {count}");
+        assert_eq!(count, 73, "解压后应有 73 个文件，实测 {count}");
         let _ = std::fs::remove_dir_all(&app_data);
     }
 
@@ -801,7 +801,7 @@ mod tests {
         let _ = std::fs::remove_dir_all(&app_data);
     }
 
-    /// 标签查询：内置 12 篇全部有中文题型名与篇序标签
+    /// 标签查询：内置 72 篇全部有中文题型名与篇序标签
     #[test]
     fn labels_cover_all_articles() {
         let manifest = load_manifest(&pack_dir()).expect("manifest 应能解析");

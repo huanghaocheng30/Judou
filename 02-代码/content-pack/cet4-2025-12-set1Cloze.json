@@ -1,0 +1,4445 @@
+{
+  "sourceKey": "cet4-2025-12-set1Cloze",
+  "articleId": "set1Cloze",
+  "packVersion": "2026.11.08-2",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 12,
+    "setNo": 1,
+    "section": "选词填空",
+    "passageLabel": "Banked Cloze",
+    "title": "When Choice Overload Backfires",
+    "wordCount": 246
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "People tend to want as many choices as possible. They believe this will maximize their 26 of making the best decision. But research shows that, when it comes to actually making a 27 from all of these choices, people can become 28 and avoid making a decision altogether. Even worse, when people finally do decide, they are generally less satisfied with their decision and feel more regretful over whatever choice they made.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 48,
+          "text": "People tend to want as many choices as possible.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "People",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "tend",
+              "normalized": "tend",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "want",
+              "normalized": "want",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 27,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 35,
+              "surface": "choices",
+              "normalized": "choices",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 47,
+              "surface": "possible",
+              "normalized": "possible",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 48,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "人们倾向于想要尽可能多的选择。",
+            "translationNatural": "人总想要尽可能多的选项。",
+            "structMarkup": "【People】 _tend to want_ ~as many choices as possible~.",
+            "structureSummary": "主谓宾（含 as...as possible 比较结构）",
+            "components": [
+              {
+                "part": "People",
+                "role": "主语",
+                "note": "复数主语，谓语用 tend 的原形"
+              },
+              {
+                "part": "tend to want",
+                "role": "谓语",
+                "note": "tend to do 表示「往往、倾向于」，to want 是不定式作补语"
+              },
+              {
+                "part": "as many choices as possible",
+                "role": "宾语",
+                "note": "as...as possible 表「尽可能……」，choices 是 want 的宾语"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（含 as...as possible 比较结构）」。"
+            ],
+            "phrases": [
+              {
+                "text": "tend to",
+                "meaning": "往往会、倾向于",
+                "usage": "后接动词原形，表示一般性倾向。",
+                "example": "People tend to overestimate risk. 人们往往高估风险。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "tend",
+                "meaning": "倾向于、往往会（tend to do）；照料（tend to sb）",
+                "usage": "注意区分：tend to do（倾向于）/ tend to sb（照料某人）。常见搭配：tend to do / tend to be。",
+                "example": "Men tend to exhibit more of these behaviors. 男性往往表现出更多这类行为。"
+              }
+            ],
+            "pitfalls": [
+              "tend to 后接动词原形，不接动名词。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：tend to do（倾向于）/ tend to sb（照料某人）。"
+            ],
+            "paragraphRole": "首段抛出核心矛盾：人们想要尽可能多的选择，但研究证明选项越多反而越让人困惑、逃避决定且更后悔。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 49,
+          "end": 118,
+          "text": "They believe this will maximize their 26 of making the best decision.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "They",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 12,
+              "surface": "believe",
+              "normalized": "believe",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 22,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 31,
+              "surface": "maximize",
+              "normalized": "maximize",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 37,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 40,
+              "surface": "26",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 41,
+              "end": 43,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 50,
+              "surface": "making",
+              "normalized": "making",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 59,
+              "surface": "best",
+              "normalized": "best",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 68,
+              "surface": "decision",
+              "normalized": "decision",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 69,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "他们相信这会最大化他们做出最佳决策的 26。",
+            "translationNatural": "他们觉得，这样能让自己做出最佳决定的 26 最大化。",
+            "structMarkup": "【They】 _believe_ {this will maximize their 26 of making the best decision}.",
+            "structureSummary": "主谓 + 宾语从句（that 省略，内含 of 介词短语）",
+            "components": [
+              {
+                "part": "They",
+                "role": "主语",
+                "note": "指代上一句的人们"
+              },
+              {
+                "part": "believe",
+                "role": "谓语",
+                "note": "后接 that 省略的从句说明相信的内容"
+              },
+              {
+                "part": "this will maximize their 26 of making the best decision",
+                "role": "宾语从句",
+                "note": "省略 that，从句主语 this，谓语 will maximize，of making... 作后置定语"
+              }
+            ],
+            "clauses": [
+              "宾语从句「this will maximize their 26 of making the best decision」：省略 that，从句主语 this，谓语 will maximize，of making... 作后置定语",
+              "本句主干为「主谓 + 宾语从句（that 省略，内含 of 介词短语）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "believe",
+                "meaning": "相信、认为",
+                "usage": "常见搭配：believe in / believe that。",
+                "example": "I believe he is right. 我认为他是对的。"
+              },
+              {
+                "text": "making",
+                "meaning": "做、制造；使得；获得、挣得（本文按语境取义）（make 的现在分词/动名词形式）",
+                "usage": "注意区分：making（现在分词/动名词）/ make（原形）。",
+                "example": "They believe this will maximize their 26 of making the best decision. 他们觉得，这样能让自己做出最佳决定的 26 最大化。"
+              },
+              {
+                "text": "decision",
+                "meaning": "决定、抉择",
+                "usage": "注意区分：make / take / reach a decision（做决定，用 make/take，不说 do a decision）/ decision to do（用不定式，不用 of doing）/ decisive（决定性的，形容词）。常见搭配：make a decision / reach a decision。",
+                "example": "We made a decision quickly. 我们很快做了决定。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：making（现在分词/动名词）/ make（原形）。",
+              "注意区分：make / take / reach a decision（做决定，用 make/take，不说 do a decision）/ decision to do（用不定式，不用 of doing）/ decisive（决定性的，形容词）。"
+            ],
+            "paragraphRole": "解释人们偏爱多选项的心理：以为更多选择能放大选对的概率，为后文反转铺垫。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 119,
+          "end": 269,
+          "text": "But research shows that, when it comes to actually making a 27 from all of these choices, people can become 28 and avoid making a decision altogether.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "But",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 12,
+              "surface": "research",
+              "normalized": "research",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 18,
+              "surface": "shows",
+              "normalized": "shows",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 23,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 24,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 38,
+              "surface": "comes",
+              "normalized": "comes",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 50,
+              "surface": "actually",
+              "normalized": "actually",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 57,
+              "surface": "making",
+              "normalized": "making",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 59,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 62,
+              "surface": "27",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 63,
+              "end": 67,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 71,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 74,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 80,
+              "surface": "these",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 88,
+              "surface": "choices",
+              "normalized": "choices",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 89,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 90,
+              "end": 96,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 100,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 107,
+              "surface": "become",
+              "normalized": "become",
+              "isWord": true
+            },
+            {
+              "start": 108,
+              "end": 110,
+              "surface": "28",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 111,
+              "end": 114,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 120,
+              "surface": "avoid",
+              "normalized": "avoid",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 127,
+              "surface": "making",
+              "normalized": "making",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 129,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 130,
+              "end": 138,
+              "surface": "decision",
+              "normalized": "decision",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 149,
+              "surface": "altogether",
+              "normalized": "altogether",
+              "isWord": true
+            },
+            {
+              "start": 149,
+              "end": 150,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "但研究表明，当真正要从所有这些选择中做出一个 27 时，人们会变得 28，并完全避免做决定。",
+            "translationNatural": "但研究指出，当真要从一堆选项里挑一个 27 时，人就会变得 28，索性不做决定了。",
+            "structMarkup": "(But) 【research】 _shows_ {that, when it comes to actually making a 27 from all of these choices, people can become 28 and avoid making a decision altogether}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，内含 when 时间状语从句）",
+            "components": [
+              {
+                "part": "But",
+                "role": "插入语",
+                "note": "转折连词，引出与「想要更多选择」相反的研究发现"
+              },
+              {
+                "part": "research",
+                "role": "主语",
+                "note": "单数主语，谓语用 shows"
+              },
+              {
+                "part": "shows",
+                "role": "谓语",
+                "note": "后接 that 从句陈述研究结论"
+              },
+              {
+                "part": "that, when it comes to actually making a 27 from all of these choices, people can become 28 and avoid making a decision altogether",
+                "role": "宾语从句",
+                "note": "that 引导，从句内嵌 when it comes to... 时间状语，people 是从句主语"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that, when it comes to actually making a 27 from all of these choices,」：that 引导，从句内嵌 when it comes to... 时间状语，people 是从句主语",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "when it comes to",
+                "meaning": "说到、涉及",
+                "usage": "to 是介词，后接名词或动名词。",
+                "example": "When it comes to money, be careful. 说到钱要谨慎。"
+              },
+              {
+                "text": "research shows",
+                "meaning": "研究（不可数）；调查 / 研究",
+                "usage": "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。常见搭配：a body of research / research on sth。",
+                "example": "A growing body of research supports this. 越来越多的研究支持这一点。"
+              },
+              {
+                "text": "comes",
+                "meaning": "come 的第三人称单数（来）",
+                "usage": "注意区分：comes（三单）/ come（原形）。常见搭配：comes from / comes with。",
+                "example": "With success comes new pressure. 成功带来新的压力。"
+              }
+            ],
+            "pitfalls": [
+              "when it comes to 后接动名词，不接原形。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。"
+            ],
+            "paragraphRole": "用研究结论反转前文：面对过多选项，人会陷入困惑并干脆不做决定。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 270,
+          "end": 422,
+          "text": "Even worse, when people finally do decide, they are generally less satisfied with their decision and feel more regretful over whatever choice they made.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Even",
+              "normalized": "even",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "worse",
+              "normalized": "worse",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 23,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 31,
+              "surface": "finally",
+              "normalized": "finally",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 34,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 41,
+              "surface": "decide",
+              "normalized": "decide",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 43,
+              "end": 47,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 61,
+              "surface": "generally",
+              "normalized": "generally",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 66,
+              "surface": "less",
+              "normalized": "less",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 76,
+              "surface": "satisfied",
+              "normalized": "satisfied",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 81,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 87,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 96,
+              "surface": "decision",
+              "normalized": "decision",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 100,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 105,
+              "surface": "feel",
+              "normalized": "feel",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 110,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 120,
+              "surface": "regretful",
+              "normalized": "regretful",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 125,
+              "surface": "over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 134,
+              "surface": "whatever",
+              "normalized": "whatever",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 141,
+              "surface": "choice",
+              "normalized": "choice",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 146,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 151,
+              "surface": "made",
+              "normalized": "made",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 152,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "更糟的是，当人们最终确实做了决定，他们通常对自己的决定更不满意，并对他们所做的任何选择感到更后悔。",
+            "translationNatural": "更糟的是，等人们终于下定决心，往往反而更不待见自己的决定，对选了啥也更后悔。",
+            "structMarkup": "(Even worse,) {when people finally do decide}, 【they】 _are generally less satisfied with their decision and feel more regretful over whatever choice they made_.",
+            "structureSummary": "时间状语从句 + 主谓（并列：系表 + 谓语）",
+            "components": [
+              {
+                "part": "Even worse,",
+                "role": "状语",
+                "note": "评注性状语，引出递进的负面结果"
+              },
+              {
+                "part": "when people finally do decide",
+                "role": "状语从句",
+                "note": "when 引导时间从句，do 表强调"
+              },
+              {
+                "part": "they",
+                "role": "主语",
+                "note": "指代 people"
+              },
+              {
+                "part": "are generally less satisfied with their decision and feel more regretful over whatever choice they made",
+                "role": "谓语",
+                "note": "并列谓语，前半为系表（less satisfied），后半 feel 接形容词 regretful"
+              }
+            ],
+            "clauses": [
+              "状语从句「when people finally do decide」：when 引导时间从句，do 表强调",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "finally",
+                "meaning": "最后、终于（强调次序或结果）",
+                "usage": "注意区分：finally（最后）/ eventually（最终，强调结果）/ at last（终于）。常见搭配：finally, ... / finally arrived。",
+                "example": "The law was finally passed. 法律终于通过。"
+              },
+              {
+                "text": "generally",
+                "meaning": "通常、一般地；普遍地",
+                "usage": "注意区分：generally（通常）/ in general（总的来说）/ general（总体的）。常见搭配：generally speaking / generally accepted。",
+                "example": "General management generally helps. 总体管理通常有帮助。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：finally（最后）/ eventually（最终，强调结果）/ at last（终于）。"
+            ],
+            "paragraphRole": "进一步指出即便做了决定，满意度也更低、后悔更强，凸显选择过载的代价。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Why does this happen? Research shows that when people choose from many options, they 29 more in the decision, but feel less confident in their ability to decide well. In other words, when we are 30 with more choices, making the \"right\" or \"correct\" decision begins to feel more 31 and, at the same time, more difficult to do. This may contribute to the deep fear that we will make the wrong decision.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 21,
+          "text": "Why does this happen?",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "Why",
+              "normalized": "why",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 8,
+              "surface": "does",
+              "normalized": "does",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 20,
+              "surface": "happen",
+              "normalized": "happen",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 21,
+              "surface": "?",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "为什么会发生这种情况？",
+            "translationNatural": "这到底是怎么回事？",
+            "structMarkup": "(Why) does 【this】 happen?",
+            "structureSummary": "特殊疑问句（疑问副词 Why 提前，助动词 does）",
+            "components": [
+              {
+                "part": "Why",
+                "role": "状语",
+                "note": "疑问副词，提问原因，置于句首"
+              },
+              {
+                "part": "this",
+                "role": "主语",
+                "note": "指代上文现象"
+              },
+              {
+                "part": "does this happen",
+                "role": "谓语",
+                "note": "does 助动词与 happen 构成疑问谓语，主语 this 插入其中"
+              }
+            ],
+            "clauses": [
+              "本句为疑问句；一般疑问句把助动词/系动词提前，特殊疑问句用疑问词开头。",
+              "本句主干为「特殊疑问句（疑问副词 Why 提前，助动词 does）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "happen",
+                "meaning": "发生（不及物）；碰巧（happen to do）",
+                "usage": "注意区分：happen to sb（发生在某人身上）/ happen to do（碰巧）/ take place（发生，正式）。常见搭配：happen to / what happened。",
+                "example": "Could the same thing happen to crops? 同样的事会发生在农作物上吗？"
+              }
+            ],
+            "pitfalls": [
+              "疑问句中的宾语从句仍用陈述语序，不能倒装。",
+              "注意区分：happen to sb（发生在某人身上）/ happen to do（碰巧）/ take place（发生，正式）。"
+            ],
+            "paragraphRole": "用设问引出第二段：探究为何更多选择反而带来更糟结果。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 22,
+          "end": 166,
+          "text": "Research shows that when people choose from many options, they 29 more in the decision, but feel less confident in their ability to decide well.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 8,
+              "surface": "Research",
+              "normalized": "research",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "shows",
+              "normalized": "shows",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 24,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 31,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 38,
+              "surface": "choose",
+              "normalized": "choose",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 56,
+              "surface": "options",
+              "normalized": "options",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 65,
+              "surface": "29",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 66,
+              "end": 70,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 86,
+              "surface": "decision",
+              "normalized": "decision",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 87,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 88,
+              "end": 91,
+              "surface": "but",
+              "normalized": "but",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 96,
+              "surface": "feel",
+              "normalized": "feel",
+              "isWord": true
+            },
+            {
+              "start": 97,
+              "end": 101,
+              "surface": "less",
+              "normalized": "less",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 111,
+              "surface": "confident",
+              "normalized": "confident",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 114,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 120,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 128,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 131,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 138,
+              "surface": "decide",
+              "normalized": "decide",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 143,
+              "surface": "well",
+              "normalized": "well",
+              "isWord": true
+            },
+            {
+              "start": 143,
+              "end": 144,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "研究表明，当人们从许多选项中选择时，他们会在决定上 29 更多，但对做好决定的能力感觉更没信心。",
+            "translationNatural": "研究显示，当面对一堆选项，人会在做决定上 29 更多，却对「能不能选好」更没把握。",
+            "structMarkup": "【Research】 _shows_ {that when people choose from many options, they 29 more in the decision, but feel less confident in their ability to decide well}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，内含 when 时间状语从句 + but 并列）",
+            "components": [
+              {
+                "part": "Research",
+                "role": "主语",
+                "note": "单数主语"
+              },
+              {
+                "part": "shows",
+                "role": "谓语",
+                "note": "后接 that 从句"
+              },
+              {
+                "part": "that when people choose from many options, they 29 more in the decision, but feel less confident in their ability to decide well",
+                "role": "宾语从句",
+                "note": "that 引导，从句内嵌 when 时间状语，but 连接并列谓语"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that when people choose from many options, they 29 more in the decisio」：that 引导，从句内嵌 when 时间状语，but 连接并列谓语",
+              "that 引导宾语从句，作前面动词的宾语，从句用陈述语序。"
+            ],
+            "phrases": [
+              {
+                "text": "research shows",
+                "meaning": "研究（不可数）；调查 / 研究",
+                "usage": "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。常见搭配：a body of research / research on sth。",
+                "example": "A growing body of research supports this. 越来越多的研究支持这一点。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "options",
+                "meaning": "选择、选项、可选择的事物；选修课；买卖权（option 的复数/三单形式）",
+                "usage": "注意区分：options（复数/三单）/ option（原形）。",
+                "example": "Research shows that when people choose from many options, they 29 more in the decision, but feel less confident in their ability to decide well. 研究显示，当面对一堆选项，人会在做决定上 29 更多，却对「能不能选好」更没把握。"
+              }
+            ],
+            "pitfalls": [
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。"
+            ],
+            "paragraphRole": "给出原因一：选项多使人投入更多却信心更弱，解释困惑与犹豫的来源。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 167,
+          "end": 325,
+          "text": "In other words, when we are 30 with more choices, making the \"right\" or \"correct\" decision begins to feel more 31 and, at the same time, more difficult to do.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "In",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "other",
+              "normalized": "other",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "surface": "words",
+              "normalized": "words",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 15,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 30,
+              "surface": "30",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 48,
+              "surface": "choices",
+              "normalized": "choices",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 49,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 50,
+              "end": 56,
+              "surface": "making",
+              "normalized": "making",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 60,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 62,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 62,
+              "end": 67,
+              "surface": "right",
+              "normalized": "right",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 68,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 69,
+              "end": 71,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 73,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 73,
+              "end": 80,
+              "surface": "correct",
+              "normalized": "correct",
+              "isWord": true
+            },
+            {
+              "start": 80,
+              "end": 81,
+              "surface": "\"",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 82,
+              "end": 90,
+              "surface": "decision",
+              "normalized": "decision",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 97,
+              "surface": "begins",
+              "normalized": "begins",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 100,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 105,
+              "surface": "feel",
+              "normalized": "feel",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 110,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 113,
+              "surface": "31",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 114,
+              "end": 117,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 118,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 119,
+              "end": 121,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 125,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 130,
+              "surface": "same",
+              "normalized": "same",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 135,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 136,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 137,
+              "end": 141,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 151,
+              "surface": "difficult",
+              "normalized": "difficult",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 154,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 157,
+              "surface": "do",
+              "normalized": "do",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 158,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "换句话说，当我们面对更多选择时，做「对」或「正确」的决定开始让人感觉更 31，同时更难做到。",
+            "translationNatural": "换言之，选项越多，做出「正确」决定就变得越 31，也越难下手。",
+            "structMarkup": "(In other words,) {when we are 30 with more choices}, 【making the \"right\" or \"correct\" decision】 _begins to feel more 31 and, at the same time, more difficult to do_.",
+            "structureSummary": "插入语 + 时间状语从句 + 主谓（动名词主语 + 系表）",
+            "components": [
+              {
+                "part": "In other words,",
+                "role": "插入语",
+                "note": "换种说法，承上启下"
+              },
+              {
+                "part": "when we are 30 with more choices",
+                "role": "状语从句",
+                "note": "when 引导时间/条件从句，be 30 with 为谓语结构"
+              },
+              {
+                "part": "making the \"right\" or \"correct\" decision",
+                "role": "主语",
+                "note": "动名词短语作主语，谓语用 begins（单数）"
+              },
+              {
+                "part": "begins to feel more 31 and, at the same time, more difficult to do",
+                "role": "谓语",
+                "note": "begins to feel 系表，more 31 与 more difficult 并列"
+              }
+            ],
+            "clauses": [
+              "状语从句「when we are 30 with more choices」：when 引导时间/条件从句，be 30 with 为谓语结构",
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。",
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。"
+            ],
+            "phrases": [
+              {
+                "text": "In other words",
+                "meaning": "换句话说",
+                "usage": "换述连接语，后接对前句的重述。",
+                "example": "In other words, the plan failed. 换句话说，计划失败了。"
+              },
+              {
+                "text": "the same",
+                "meaning": "同样的",
+                "usage": "same 前通常有 the；the same as 表「与……相同」。",
+                "example": "The same thing happened last year. 去年也发生了同样的事。"
+              }
+            ],
+            "pitfalls": [
+              "in other words 后接完整句子，不是单词同义替换。",
+              "same 前一般要加 the；比较对象用 as 不用 with。",
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "解释原因二：面对更多选项，做「正确」决定显得更重要也更难，加剧选错恐惧。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 326,
+          "end": 400,
+          "text": "This may contribute to the deep fear that we will make the wrong decision.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "surface": "may",
+              "normalized": "may",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 19,
+              "surface": "contribute",
+              "normalized": "contribute",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 26,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 31,
+              "surface": "deep",
+              "normalized": "deep",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 36,
+              "surface": "fear",
+              "normalized": "fear",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 44,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 49,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "make",
+              "normalized": "make",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 64,
+              "surface": "wrong",
+              "normalized": "wrong",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 73,
+              "surface": "decision",
+              "normalized": "decision",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 74,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这可能加剧那种我们将做出错误决定的深深恐惧。",
+            "translationNatural": "这或许会加重我们「会选错」的深层恐惧。",
+            "structMarkup": "【This】 _may contribute to_ ~the deep fear~ {that we will make the wrong decision}.",
+            "structureSummary": "主谓宾 + 同位语从句（that 引导，修饰 fear）",
+            "components": [
+              {
+                "part": "This",
+                "role": "主语",
+                "note": "指代上文「越选越没信心、越难选」的现象"
+              },
+              {
+                "part": "may contribute to",
+                "role": "谓语",
+                "note": "contribute to 表示「促成、加剧」，to 为介词"
+              },
+              {
+                "part": "the deep fear",
+                "role": "宾语",
+                "note": "核心名词 fear，deep 作前置定语"
+              },
+              {
+                "part": "that we will make the wrong decision",
+                "role": "同位语从句",
+                "note": "that 引导，解释 fear 的具体内容"
+              }
+            ],
+            "clauses": [
+              "同位语从句「that we will make the wrong decision」：that 引导，解释 fear 的具体内容",
+              "本句主干为「主谓宾 + 同位语从句（that 引导，修饰 fear）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "contribute to",
+                "meaning": "有助于、促成",
+                "usage": "to 是介词，后接名词或动名词。",
+                "example": "Exercise contributes to good health. 运动有益健康。"
+              },
+              {
+                "text": "fear",
+                "meaning": "恐惧、害怕、担忧；畏惧、恐怕、担心",
+                "usage": "注意区分：fear（害怕、恐惧，名词/动词）/ fear of（对…的恐惧，介词 of）/ for fear that/of（唯恐，从句常用 should/might）/ fear to do（不敢做）/ afraid（只作表语，be afraid of，不说 an afraid boy）。",
+                "example": "This may contribute to the deep fear that we will make the wrong decision. 这或许会加重我们「会选错」的深层恐惧。"
+              },
+              {
+                "text": "make",
+                "meaning": "做、制造；使得；获得、挣得（本文按语境取义）",
+                "usage": "注意区分：make（做、制造；使得；获得）/ make sb do（使某人做，不带 to；被动变 be made to do）/ make + 宾语 + 形容词（make it clear）/ make 与 do（do 指做抽象事务，make 指制作/产生）/ make a decision / mistake（用 make 不用 do）。",
+                "example": "This may contribute to the deep fear that we will make the wrong decision. 这或许会加重我们「会选错」的深层恐惧。"
+              }
+            ],
+            "pitfalls": [
+              "contribute to 后接动名词，不接动词原形。",
+              "注意区分：contribute to（有助于；向…投稿；捐助，to 是介词，接名词/doing）/ contribute sth to（把…贡献给）/ contribution（名词）/ attribute A to B（把 A 归因于 B）。",
+              "注意区分：fear（害怕、恐惧，名词/动词）/ fear of（对…的恐惧，介词 of）/ for fear that/of（唯恐，从句常用 should/might）/ fear to do（不敢做）/ afraid（只作表语，be afraid of，不说 an afraid boy）。"
+            ],
+            "paragraphRole": "收束原因段：上述心理共同催生「怕选错」的深层恐惧。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "How can we solve this problem? I believe this fear could be tempered by putting decisions into perspective. It might help to remember that many of the choices you make, such as what to have for lunch, will not 32 much in the future and that, even more important choices, like accepting a new job, can 33 be changed. It could also help to 34 these situations with clear guidelines and ideas of what you want from the 35 of options, which can narrow the possible choices, and also make you more confident about your ability to make the right decision.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 30,
+          "text": "How can we solve this problem?",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "How",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "surface": "we",
+              "normalized": "we",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "solve",
+              "normalized": "solve",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 29,
+              "surface": "problem",
+              "normalized": "problem",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 30,
+              "surface": "?",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我们如何能解决这个问题？",
+            "translationNatural": "那我们该怎么破这个局？",
+            "structMarkup": "(How) can 【we】 solve this problem?",
+            "structureSummary": "特殊疑问句（How 提前，情态动词 can）",
+            "components": [
+              {
+                "part": "How",
+                "role": "状语",
+                "note": "疑问副词，提问方式"
+              },
+              {
+                "part": "we",
+                "role": "主语",
+                "note": "泛指我们"
+              },
+              {
+                "part": "can we solve this problem",
+                "role": "谓语",
+                "note": "情态动词 can 与实义动词 solve 共同构成谓语（we 为主语插入其中），this problem 为其宾语"
+              }
+            ],
+            "clauses": [
+              "本句为疑问句；一般疑问句把助动词/系动词提前，特殊疑问句用疑问词开头。",
+              "本句主干为「特殊疑问句（How 提前，情态动词 can）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "problem",
+                "meaning": "问题、难题（可数）",
+                "usage": "注意区分：problem（问题，需解决）/ question（疑问，需回答）。常见搭配：a serious problem / solve a problem。",
+                "example": "Loneliness is a significant problem. 孤独是个重要问题。"
+              },
+              {
+                "text": "solve",
+                "meaning": "解决；解答",
+                "usage": "本句中作v.，可按「特殊疑问句（How 提前，情态动词 can）」定位它在句中的位置。",
+                "example": "How can we solve this problem? 那我们该怎么破这个局？"
+              }
+            ],
+            "pitfalls": [
+              "疑问句中的宾语从句仍用陈述语序，不能倒装。",
+              "注意区分：problem（问题，需解决）/ question（疑问，需回答）。"
+            ],
+            "paragraphRole": "用设问开启第三段，转向「如何解决选择过载」的对策。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 31,
+          "end": 107,
+          "text": "I believe this fear could be tempered by putting decisions into perspective.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "I",
+              "normalized": "i",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 9,
+              "surface": "believe",
+              "normalized": "believe",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "surface": "fear",
+              "normalized": "fear",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 25,
+              "surface": "could",
+              "normalized": "could",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 28,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 37,
+              "surface": "tempered",
+              "normalized": "tempered",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 40,
+              "surface": "by",
+              "normalized": "by",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 48,
+              "surface": "putting",
+              "normalized": "putting",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 58,
+              "surface": "decisions",
+              "normalized": "decisions",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 63,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 75,
+              "surface": "perspective",
+              "normalized": "perspective",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 76,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我相信这种恐惧可以通过把决定放到正确的视角中而被缓和。",
+            "translationNatural": "我觉得，只要换个角度看待这些决定，这种恐惧就能被化解。",
+            "structMarkup": "【I】 _believe_ {this fear could be tempered by putting decisions into perspective}.",
+            "structureSummary": "主谓 + 宾语从句（that 省略）+ 被动语态 + 方式状语",
+            "components": [
+              {
+                "part": "I",
+                "role": "主语",
+                "note": "作者自称"
+              },
+              {
+                "part": "believe",
+                "role": "谓语",
+                "note": "后接 that 省略的从句"
+              },
+              {
+                "part": "this fear could be tempered by putting decisions into perspective",
+                "role": "宾语从句",
+                "note": "省略 that，从句用被动语态，by 短语表方式"
+              }
+            ],
+            "clauses": [
+              "宾语从句「this fear could be tempered by putting decisions into perspective」：省略 that，从句用被动语态，by 短语表方式",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "believe",
+                "meaning": "相信、认为",
+                "usage": "常见搭配：believe in / believe that。",
+                "example": "I believe he is right. 我认为他是对的。"
+              },
+              {
+                "text": "fear",
+                "meaning": "恐惧、害怕、担忧；畏惧、恐怕、担心",
+                "usage": "注意区分：fear（害怕、恐惧，名词/动词）/ fear of（对…的恐惧，介词 of）/ for fear that/of（唯恐，从句常用 should/might）/ fear to do（不敢做）/ afraid（只作表语，be afraid of，不说 an afraid boy）。",
+                "example": "I believe this fear could be tempered by putting decisions into perspective. 我觉得，只要换个角度看待这些决定，这种恐惧就能被化解。"
+              },
+              {
+                "text": "perspective",
+                "meaning": "视角、观点（可数）；透视法",
+                "usage": "注意区分：perspective（视角）/ prospect（前景）/ perception（看法）。常见搭配：from a perspective / put sth into perspective。",
+                "example": "Adults' perspective shapes the panic. 成年人的视角塑造了这种恐慌。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：fear（害怕、恐惧，名词/动词）/ fear of（对…的恐惧，介词 of）/ for fear that/of（唯恐，从句常用 should/might）/ fear to do（不敢做）/ afraid（只作表语，be afraid of，不说 an afraid boy）。",
+              "注意区分：perspective（视角）/ prospect（前景）/ perception（看法）。"
+            ],
+            "paragraphRole": "提出对策核心：把决定放平看待，可化解对选错的恐惧。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 108,
+          "end": 315,
+          "text": "It might help to remember that many of the choices you make, such as what to have for lunch, will not 32 much in the future and that, even more important choices, like accepting a new job, can 33 be changed.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "might",
+              "normalized": "might",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "help",
+              "normalized": "help",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 16,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 25,
+              "surface": "remember",
+              "normalized": "remember",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 38,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 42,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 50,
+              "surface": "choices",
+              "normalized": "choices",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 54,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 59,
+              "surface": "make",
+              "normalized": "make",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 60,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 61,
+              "end": 65,
+              "surface": "such",
+              "normalized": "such",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 68,
+              "surface": "as",
+              "normalized": "as",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 73,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 81,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 85,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 91,
+              "surface": "lunch",
+              "normalized": "lunch",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 92,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 93,
+              "end": 97,
+              "surface": "will",
+              "normalized": "will",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 101,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 104,
+              "surface": "32",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 105,
+              "end": 109,
+              "surface": "much",
+              "normalized": "much",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 112,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 116,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 123,
+              "surface": "future",
+              "normalized": "future",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 127,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 128,
+              "end": 132,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 133,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 134,
+              "end": 138,
+              "surface": "even",
+              "normalized": "even",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 143,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 153,
+              "surface": "important",
+              "normalized": "important",
+              "isWord": true
+            },
+            {
+              "start": 154,
+              "end": 161,
+              "surface": "choices",
+              "normalized": "choices",
+              "isWord": true
+            },
+            {
+              "start": 161,
+              "end": 162,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 163,
+              "end": 167,
+              "surface": "like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 177,
+              "surface": "accepting",
+              "normalized": "accepting",
+              "isWord": true
+            },
+            {
+              "start": 178,
+              "end": 179,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 180,
+              "end": 183,
+              "surface": "new",
+              "normalized": "new",
+              "isWord": true
+            },
+            {
+              "start": 184,
+              "end": 187,
+              "surface": "job",
+              "normalized": "job",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 188,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 189,
+              "end": 192,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 193,
+              "end": 195,
+              "surface": "33",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 196,
+              "end": 198,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 199,
+              "end": 206,
+              "surface": "changed",
+              "normalized": "changed",
+              "isWord": true
+            },
+            {
+              "start": 206,
+              "end": 207,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "记住这一点或许有帮助：你做的许多选择（比如午餐吃什么）将来并不会 32 太多，而即便是更重要的选择（如接受一份新工作）也 33 能被改变。",
+            "translationNatural": "不妨记住：你的大多数选择（午餐吃啥之类）以后并没那么 32，就连更重要的（比如换工作）也 33 能改。",
+            "structMarkup": "【It】 _might help_ 【to remember that many of the choices you make, such as what to have for lunch, will not 32 much in the future and that, even more important choices, like accepting a new job, can 33 be changed】.",
+            "structureSummary": "形式主语 + 谓语 + 真主语（不定式，含两个并列 that 宾语从句）",
+            "components": [
+              {
+                "part": "It",
+                "role": "形式主语",
+                "note": "形式主语，真正主语是不定式 to remember..."
+              },
+              {
+                "part": "might help",
+                "role": "谓语",
+                "note": "情态动词 + help，后接不定式"
+              },
+              {
+                "part": "to remember that many of the choices you make, such as what to have for lunch, will not 32 much in the future and that, even more important choices, like accepting a new job, can 33 be changed",
+                "role": "主语",
+                "note": "不定式短语作真正主语，带 and 连接的两个 that 从句"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「形式主语 + 谓语 + 真主语（不定式，含两个并列 that 宾语从句）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "such as",
+                "meaning": "例如",
+                "usage": "后接名词性成分列举，不能独立成句。",
+                "example": "Sports such as running are popular. 像跑步这类运动很受欢迎。"
+              },
+              {
+                "text": "help",
+                "meaning": "帮助（help sb do sth / help with）；帮助（不可数）",
+                "usage": "注意区分：help sb do/to do（不带 doing）/ can't help doing（忍不住）。常见搭配：help sb do sth / help with。",
+                "example": "Instincts can help you decide fast. 直觉能帮你快速决定。"
+              },
+              {
+                "text": "make",
+                "meaning": "做、制造；使得；获得、挣得（本文按语境取义）",
+                "usage": "注意区分：make（做、制造；使得；获得）/ make sb do（使某人做，不带 to；被动变 be made to do）/ make + 宾语 + 形容词（make it clear）/ make 与 do（do 指做抽象事务，make 指制作/产生）/ make a decision / mistake（用 make 不用 do）。",
+                "example": "It might help to remember that many of the choices you make, such as what to have for lunch, will not 32 much in the future and that, even more important choices, like accepting a new job, can 33 be changed. 不妨记住：你的大多数选择（午餐吃啥之类）以后并没那么 32，就连更重要的（比如换工作）也 33 能改。"
+              }
+            ],
+            "pitfalls": [
+              "such as 用于举例，for example 常作插入语，位置不同。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "展开对策一：多数选择无关紧要且可更改，故不必过度纠结。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 316,
+          "end": 549,
+          "text": "It could also help to 34 these situations with clear guidelines and ideas of what you want from the 35 of options, which can narrow the possible choices, and also make you more confident about your ability to make the right decision.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "It",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 8,
+              "surface": "could",
+              "normalized": "could",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "help",
+              "normalized": "help",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 24,
+              "surface": "34",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 25,
+              "end": 30,
+              "surface": "these",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 41,
+              "surface": "situations",
+              "normalized": "situations",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "clear",
+              "normalized": "clear",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 63,
+              "surface": "guidelines",
+              "normalized": "guidelines",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 67,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 73,
+              "surface": "ideas",
+              "normalized": "ideas",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 76,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 81,
+              "surface": "what",
+              "normalized": "what",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 85,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 90,
+              "surface": "want",
+              "normalized": "want",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 95,
+              "surface": "from",
+              "normalized": "from",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 99,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 100,
+              "end": 102,
+              "surface": "35",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 103,
+              "end": 105,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 113,
+              "surface": "options",
+              "normalized": "options",
+              "isWord": true
+            },
+            {
+              "start": 113,
+              "end": 114,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 115,
+              "end": 120,
+              "surface": "which",
+              "normalized": "which",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 124,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 125,
+              "end": 131,
+              "surface": "narrow",
+              "normalized": "narrow",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 135,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 136,
+              "end": 144,
+              "surface": "possible",
+              "normalized": "possible",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 152,
+              "surface": "choices",
+              "normalized": "choices",
+              "isWord": true
+            },
+            {
+              "start": 152,
+              "end": 153,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 154,
+              "end": 157,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 158,
+              "end": 162,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 167,
+              "surface": "make",
+              "normalized": "make",
+              "isWord": true
+            },
+            {
+              "start": 168,
+              "end": 171,
+              "surface": "you",
+              "normalized": "you",
+              "isWord": true
+            },
+            {
+              "start": 172,
+              "end": 176,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 177,
+              "end": 186,
+              "surface": "confident",
+              "normalized": "confident",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 192,
+              "surface": "about",
+              "normalized": "about",
+              "isWord": true
+            },
+            {
+              "start": 193,
+              "end": 197,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 198,
+              "end": 205,
+              "surface": "ability",
+              "normalized": "ability",
+              "isWord": true
+            },
+            {
+              "start": 206,
+              "end": 208,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 209,
+              "end": 213,
+              "surface": "make",
+              "normalized": "make",
+              "isWord": true
+            },
+            {
+              "start": 214,
+              "end": 217,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 218,
+              "end": 223,
+              "surface": "right",
+              "normalized": "right",
+              "isWord": true
+            },
+            {
+              "start": 224,
+              "end": 232,
+              "surface": "decision",
+              "normalized": "decision",
+              "isWord": true
+            },
+            {
+              "start": 232,
+              "end": 233,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "它也能帮助用清晰的准则和你想要的、从 35 选项中得到的想法来 34 这些情境，这能缩小可能的选择范围，并让你更确信自己做出正确决定的能力。",
+            "translationNatural": "同样管用的是：用明确的准则、以及你从 35 选项里想要的那种标准，去 34 这些处境，从而收窄可选范围，也让你更相信自己能选对。",
+            "structMarkup": "【It】 _could also help_ 【to 34 these situations with clear guidelines and ideas of what you want from the 35 of options, which can narrow the possible choices, and also make you more confident about your ability to make the right decision】.",
+            "structureSummary": "形式主语 + 谓语 + 真主语（不定式，含 what 从句与 which 定语从句）",
+            "components": [
+              {
+                "part": "It",
+                "role": "形式主语",
+                "note": "形式主语，真正主语是不定式"
+              },
+              {
+                "part": "could also help",
+                "role": "谓语",
+                "note": "情态动词 + help，also 表补充"
+              },
+              {
+                "part": "to 34 these situations with clear guidelines and ideas of what you want from the 35 of options, which can narrow the possible choices, and also make you more confident about your ability to make the right decision",
+                "role": "主语",
+                "note": "不定式作真正主语；with 短语表方式，of what... 嵌套 what 从句，which 引导定语从句修饰前面整件事"
+              }
+            ],
+            "clauses": [
+              "关系词引导定语从句，修饰前面的先行词；从句内部用陈述语序。",
+              "本句主干为「形式主语 + 谓语 + 真主语（不定式，含 what 从句与 which 定语从句）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "help",
+                "meaning": "帮助（help sb do sth / help with）；帮助（不可数）",
+                "usage": "注意区分：help sb do/to do（不带 doing）/ can't help doing（忍不住）。常见搭配：help sb do sth / help with。",
+                "example": "Instincts can help you decide fast. 直觉能帮你快速决定。"
+              },
+              {
+                "text": "situations",
+                "meaning": "情形、处境（situation 的复数）",
+                "usage": "注意区分：situation（情形）/ condition（条件/状况）/ circumstance（环境，常用复数）。常见搭配：in certain situations / a difficult situation。",
+                "example": "Data is impractical in certain situations. 数据在某些情形下不实用。"
+              },
+              {
+                "text": "clear",
+                "meaning": "清楚的、明显的；清澈的 / 清除",
+                "usage": "注意区分：clear（清楚的）/ clean（干净的）/ clearly（明显地）。常见搭配：it is clear that / make clear。",
+                "example": "The benefits of multitasking are clear. 多任务处理的好处很明显。"
+              }
+            ],
+            "pitfalls": [
+              "定语从句中关系词已充当成分，从句里不要再重复该代词。",
+              "注意区分：help sb do/to do（不带 doing）/ can't help doing（忍不住）。",
+              "注意区分：situation（情形）/ condition（条件/状况）/ circumstance（环境，常用复数）。"
+            ],
+            "paragraphRole": "展开对策二：用清晰准则与「从一批选项里挑」的思路收窄范围、增强信心，收束全文。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 26,
+      "stem": "第 26 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "approximately"
+        },
+        {
+          "key": "B",
+          "text": "case"
+        },
+        {
+          "key": "C",
+          "text": "chance"
+        },
+        {
+          "key": "D",
+          "text": "confused"
+        },
+        {
+          "key": "E",
+          "text": "crucial"
+        },
+        {
+          "key": "F",
+          "text": "deposited"
+        },
+        {
+          "key": "G",
+          "text": "enter"
+        },
+        {
+          "key": "H",
+          "text": "invest"
+        },
+        {
+          "key": "I",
+          "text": "matter"
+        },
+        {
+          "key": "J",
+          "text": "presented"
+        },
+        {
+          "key": "K",
+          "text": "range"
+        },
+        {
+          "key": "L",
+          "text": "regular"
+        },
+        {
+          "key": "M",
+          "text": "seize"
+        },
+        {
+          "key": "N",
+          "text": "selection"
+        },
+        {
+          "key": "O",
+          "text": "ultimately"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 27,
+      "stem": "第 27 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "approximately"
+        },
+        {
+          "key": "B",
+          "text": "case"
+        },
+        {
+          "key": "C",
+          "text": "chance"
+        },
+        {
+          "key": "D",
+          "text": "confused"
+        },
+        {
+          "key": "E",
+          "text": "crucial"
+        },
+        {
+          "key": "F",
+          "text": "deposited"
+        },
+        {
+          "key": "G",
+          "text": "enter"
+        },
+        {
+          "key": "H",
+          "text": "invest"
+        },
+        {
+          "key": "I",
+          "text": "matter"
+        },
+        {
+          "key": "J",
+          "text": "presented"
+        },
+        {
+          "key": "K",
+          "text": "range"
+        },
+        {
+          "key": "L",
+          "text": "regular"
+        },
+        {
+          "key": "M",
+          "text": "seize"
+        },
+        {
+          "key": "N",
+          "text": "selection"
+        },
+        {
+          "key": "O",
+          "text": "ultimately"
+        }
+      ],
+      "answer": "N"
+    },
+    {
+      "no": 28,
+      "stem": "第 28 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "approximately"
+        },
+        {
+          "key": "B",
+          "text": "case"
+        },
+        {
+          "key": "C",
+          "text": "chance"
+        },
+        {
+          "key": "D",
+          "text": "confused"
+        },
+        {
+          "key": "E",
+          "text": "crucial"
+        },
+        {
+          "key": "F",
+          "text": "deposited"
+        },
+        {
+          "key": "G",
+          "text": "enter"
+        },
+        {
+          "key": "H",
+          "text": "invest"
+        },
+        {
+          "key": "I",
+          "text": "matter"
+        },
+        {
+          "key": "J",
+          "text": "presented"
+        },
+        {
+          "key": "K",
+          "text": "range"
+        },
+        {
+          "key": "L",
+          "text": "regular"
+        },
+        {
+          "key": "M",
+          "text": "seize"
+        },
+        {
+          "key": "N",
+          "text": "selection"
+        },
+        {
+          "key": "O",
+          "text": "ultimately"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 29,
+      "stem": "第 29 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "approximately"
+        },
+        {
+          "key": "B",
+          "text": "case"
+        },
+        {
+          "key": "C",
+          "text": "chance"
+        },
+        {
+          "key": "D",
+          "text": "confused"
+        },
+        {
+          "key": "E",
+          "text": "crucial"
+        },
+        {
+          "key": "F",
+          "text": "deposited"
+        },
+        {
+          "key": "G",
+          "text": "enter"
+        },
+        {
+          "key": "H",
+          "text": "invest"
+        },
+        {
+          "key": "I",
+          "text": "matter"
+        },
+        {
+          "key": "J",
+          "text": "presented"
+        },
+        {
+          "key": "K",
+          "text": "range"
+        },
+        {
+          "key": "L",
+          "text": "regular"
+        },
+        {
+          "key": "M",
+          "text": "seize"
+        },
+        {
+          "key": "N",
+          "text": "selection"
+        },
+        {
+          "key": "O",
+          "text": "ultimately"
+        }
+      ],
+      "answer": "H"
+    },
+    {
+      "no": 30,
+      "stem": "第 30 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "approximately"
+        },
+        {
+          "key": "B",
+          "text": "case"
+        },
+        {
+          "key": "C",
+          "text": "chance"
+        },
+        {
+          "key": "D",
+          "text": "confused"
+        },
+        {
+          "key": "E",
+          "text": "crucial"
+        },
+        {
+          "key": "F",
+          "text": "deposited"
+        },
+        {
+          "key": "G",
+          "text": "enter"
+        },
+        {
+          "key": "H",
+          "text": "invest"
+        },
+        {
+          "key": "I",
+          "text": "matter"
+        },
+        {
+          "key": "J",
+          "text": "presented"
+        },
+        {
+          "key": "K",
+          "text": "range"
+        },
+        {
+          "key": "L",
+          "text": "regular"
+        },
+        {
+          "key": "M",
+          "text": "seize"
+        },
+        {
+          "key": "N",
+          "text": "selection"
+        },
+        {
+          "key": "O",
+          "text": "ultimately"
+        }
+      ],
+      "answer": "J"
+    },
+    {
+      "no": 31,
+      "stem": "第 31 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "approximately"
+        },
+        {
+          "key": "B",
+          "text": "case"
+        },
+        {
+          "key": "C",
+          "text": "chance"
+        },
+        {
+          "key": "D",
+          "text": "confused"
+        },
+        {
+          "key": "E",
+          "text": "crucial"
+        },
+        {
+          "key": "F",
+          "text": "deposited"
+        },
+        {
+          "key": "G",
+          "text": "enter"
+        },
+        {
+          "key": "H",
+          "text": "invest"
+        },
+        {
+          "key": "I",
+          "text": "matter"
+        },
+        {
+          "key": "J",
+          "text": "presented"
+        },
+        {
+          "key": "K",
+          "text": "range"
+        },
+        {
+          "key": "L",
+          "text": "regular"
+        },
+        {
+          "key": "M",
+          "text": "seize"
+        },
+        {
+          "key": "N",
+          "text": "selection"
+        },
+        {
+          "key": "O",
+          "text": "ultimately"
+        }
+      ],
+      "answer": "E"
+    },
+    {
+      "no": 32,
+      "stem": "第 32 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "approximately"
+        },
+        {
+          "key": "B",
+          "text": "case"
+        },
+        {
+          "key": "C",
+          "text": "chance"
+        },
+        {
+          "key": "D",
+          "text": "confused"
+        },
+        {
+          "key": "E",
+          "text": "crucial"
+        },
+        {
+          "key": "F",
+          "text": "deposited"
+        },
+        {
+          "key": "G",
+          "text": "enter"
+        },
+        {
+          "key": "H",
+          "text": "invest"
+        },
+        {
+          "key": "I",
+          "text": "matter"
+        },
+        {
+          "key": "J",
+          "text": "presented"
+        },
+        {
+          "key": "K",
+          "text": "range"
+        },
+        {
+          "key": "L",
+          "text": "regular"
+        },
+        {
+          "key": "M",
+          "text": "seize"
+        },
+        {
+          "key": "N",
+          "text": "selection"
+        },
+        {
+          "key": "O",
+          "text": "ultimately"
+        }
+      ],
+      "answer": "I"
+    },
+    {
+      "no": 33,
+      "stem": "第 33 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "approximately"
+        },
+        {
+          "key": "B",
+          "text": "case"
+        },
+        {
+          "key": "C",
+          "text": "chance"
+        },
+        {
+          "key": "D",
+          "text": "confused"
+        },
+        {
+          "key": "E",
+          "text": "crucial"
+        },
+        {
+          "key": "F",
+          "text": "deposited"
+        },
+        {
+          "key": "G",
+          "text": "enter"
+        },
+        {
+          "key": "H",
+          "text": "invest"
+        },
+        {
+          "key": "I",
+          "text": "matter"
+        },
+        {
+          "key": "J",
+          "text": "presented"
+        },
+        {
+          "key": "K",
+          "text": "range"
+        },
+        {
+          "key": "L",
+          "text": "regular"
+        },
+        {
+          "key": "M",
+          "text": "seize"
+        },
+        {
+          "key": "N",
+          "text": "selection"
+        },
+        {
+          "key": "O",
+          "text": "ultimately"
+        }
+      ],
+      "answer": "O"
+    },
+    {
+      "no": 34,
+      "stem": "第 34 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "approximately"
+        },
+        {
+          "key": "B",
+          "text": "case"
+        },
+        {
+          "key": "C",
+          "text": "chance"
+        },
+        {
+          "key": "D",
+          "text": "confused"
+        },
+        {
+          "key": "E",
+          "text": "crucial"
+        },
+        {
+          "key": "F",
+          "text": "deposited"
+        },
+        {
+          "key": "G",
+          "text": "enter"
+        },
+        {
+          "key": "H",
+          "text": "invest"
+        },
+        {
+          "key": "I",
+          "text": "matter"
+        },
+        {
+          "key": "J",
+          "text": "presented"
+        },
+        {
+          "key": "K",
+          "text": "range"
+        },
+        {
+          "key": "L",
+          "text": "regular"
+        },
+        {
+          "key": "M",
+          "text": "seize"
+        },
+        {
+          "key": "N",
+          "text": "selection"
+        },
+        {
+          "key": "O",
+          "text": "ultimately"
+        }
+      ],
+      "answer": "G"
+    },
+    {
+      "no": 35,
+      "stem": "第 35 空",
+      "options": [
+        {
+          "key": "A",
+          "text": "approximately"
+        },
+        {
+          "key": "B",
+          "text": "case"
+        },
+        {
+          "key": "C",
+          "text": "chance"
+        },
+        {
+          "key": "D",
+          "text": "confused"
+        },
+        {
+          "key": "E",
+          "text": "crucial"
+        },
+        {
+          "key": "F",
+          "text": "deposited"
+        },
+        {
+          "key": "G",
+          "text": "enter"
+        },
+        {
+          "key": "H",
+          "text": "invest"
+        },
+        {
+          "key": "I",
+          "text": "matter"
+        },
+        {
+          "key": "J",
+          "text": "presented"
+        },
+        {
+          "key": "K",
+          "text": "range"
+        },
+        {
+          "key": "L",
+          "text": "regular"
+        },
+        {
+          "key": "M",
+          "text": "seize"
+        },
+        {
+          "key": "N",
+          "text": "selection"
+        },
+        {
+          "key": "O",
+          "text": "ultimately"
+        }
+      ],
+      "answer": "K"
+    }
+  ],
+  "wordBank": [
+    {
+      "key": "A",
+      "word": "approximately"
+    },
+    {
+      "key": "B",
+      "word": "case"
+    },
+    {
+      "key": "C",
+      "word": "chance"
+    },
+    {
+      "key": "D",
+      "word": "confused"
+    },
+    {
+      "key": "E",
+      "word": "crucial"
+    },
+    {
+      "key": "F",
+      "word": "deposited"
+    },
+    {
+      "key": "G",
+      "word": "enter"
+    },
+    {
+      "key": "H",
+      "word": "invest"
+    },
+    {
+      "key": "I",
+      "word": "matter"
+    },
+    {
+      "key": "J",
+      "word": "presented"
+    },
+    {
+      "key": "K",
+      "word": "range"
+    },
+    {
+      "key": "L",
+      "word": "regular"
+    },
+    {
+      "key": "M",
+      "word": "seize"
+    },
+    {
+      "key": "N",
+      "word": "selection"
+    },
+    {
+      "key": "O",
+      "word": "ultimately"
+    }
+  ],
+  "blankNos": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "blanks": {
+    "26": {
+      "answerKey": "C",
+      "answerWord": "chance",
+      "reason": "空格位于及物动词 maximize 的宾语位置（their ___ of making...），需名词。maximize one's chance of doing 是固定搭配，意为「最大化做出最佳决定的机会」。选项中 chance 正合此意。",
+      "distractors": "B) case（情况）虽为名词，但 make a case 意为「提出理由」，不与 maximize 搭配；N) selection（选择）与上文 choices 语义重复且搭配不当。"
+    },
+    "27": {
+      "answerKey": "N",
+      "answerWord": "selection",
+      "reason": "空格在 making a ___ from all of these choices 中，a 后接单数名词，且与 from 搭配，表示「从众多选项中做出一个选择」。make a selection 是常用表达。",
+      "distractors": "C) chance（机会）不能与 from 搭配表「从中选取」；I) matter（要紧/事情）词性与搭配均不符。"
+    },
+    "28": {
+      "answerKey": "D",
+      "answerWord": "confused",
+      "reason": "空格在系动词 become 之后，需形容词作表语。下文说人们「avoid making a decision altogether（干脆不做决定）」，说明面对过多选项会陷入困惑，become confused 意为「变得困惑」。",
+      "distractors": "E) crucial（关键的）、C) chance 等均非形容词表语且语义不符；H) invest（投资）为动词，词性不对。"
+    },
+    "29": {
+      "answerKey": "H",
+      "answerWord": "invest",
+      "reason": "空格在主语 they 与介词短语 in the decision 之间，句子为一般现在时，需及物动词原形作谓语，后接 in 构成 invest ... in（在……上投入）。研究说人们会在决定上投入更多（精力/心思）。",
+      "distractors": "G) enter（进入）、M) seize（抓住）虽为动词，但不与 in the decision 搭配出「投入」之意；B) case 名词，词性不符。"
+    },
+    "30": {
+      "answerKey": "J",
+      "answerWord": "presented",
+      "reason": "空格在 we are ___ with more choices 中，be 动词后接过去分词构成被动，且常见搭配 be presented with（被给予、面对）。这里指「当我们面对更多选择时」。",
+      "distractors": "F) deposited（存放）语义不通；D) confused 虽可接但 be confused with 意为「与……混淆」，与此处「面对」不符；G) enter 不用于被动 be entered with。"
+    },
+    "31": {
+      "answerKey": "E",
+      "answerWord": "crucial",
+      "reason": "空格在系动词 feel 之后、more 之前，more 修饰形容词构成比较级，需形容词。前文说选择越多越没信心，此处「做正确决定开始感觉更 ___ 且更难」，crucial（关键的）与 difficult 并列，表示「更关键也更难」。",
+      "distractors": "I) matter（要紧，动词/名词）不能作形容词比较级；H) invest 动词；C) chance 名词，均不符。"
+    },
+    "32": {
+      "answerKey": "I",
+      "answerWord": "matter",
+      "reason": "空格在 will not ___ much in the future 中，需动词原形（will 后接原形），much 为程度状语。matter 意为「要紧、有关系」，will not matter much 表示「将来并不那么重要」，与后文「更重要的选择也能改」呼应。",
+      "distractors": "N) selection（名词）、E) crucial（形容词）均不能作 will 后的谓语动词；K) range 虽可作动词但语义「在……范围内变动」不符。"
+    },
+    "33": {
+      "answerKey": "O",
+      "answerWord": "ultimately",
+      "reason": "空格在 can ___ be changed 中，位于情态动词 can 与 be changed 之间，需副词修饰被动语态，表示「最终能被改变」。ultimately（最终）契合「即便重要选择，到头来也能改」的语境。",
+      "distractors": "A) approximately（大约）语义不符；I) matter 是动词不能修饰 be changed；L) regular（规律的）形容词，词性不对。"
+    },
+    "34": {
+      "answerKey": "G",
+      "answerWord": "enter",
+      "reason": "空格在 to ___ these situations 中，不定式符号 to 后接动词原形。enter these situations 意为「进入/涉足这些情境」，此处指「着手应对这些处境（用清晰准则）」。",
+      "distractors": "H) invest 虽为动词但 invest 不与 situations 搭配；M) seize（抓住）语义不搭；F) deposited 过去式，不能接在 to 后。"
+    },
+    "35": {
+      "answerKey": "K",
+      "answerWord": "range",
+      "reason": "空格在 the ___ of options 中，需名词，与 of options 构成名词短语，表示「一系列/一批选项」。range 意为「范围、一系列」，the range of options 即「选项的范围」。",
+      "distractors": "L) regular（规律的，形容词）不能作介词 of 前的名词中心词；B) case（情况）语义不符；N) selection 虽可但此处强调「从一批选项里挑」，range 更贴切且避免与 27 空重复。"
+    }
+  },
+  "lexicon": {
+    "ability": {
+      "phonetic": "/əˈbɪləti/",
+      "pos": "n.",
+      "sense": "能力（可数/不可数）；才能",
+      "collocations": [
+        "the ability to do sth",
+        "natural ability",
+        "to the best of one's ability"
+      ],
+      "examples": [
+        "The ability to focus is underrated. 专注的能力被低估了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "able（能够）+ -ity",
+        "confusables": "ability to do（不是 of doing）/ capability（能力，偏完成复杂任务）"
+      }
+    },
+    "actually": {
+      "phonetic": "/ˈæktʃuəli/",
+      "pos": "adv.",
+      "sense": "实际上、事实上；居然（表出乎意料）",
+      "collocations": [
+        "actually, ...",
+        "not actually"
+      ],
+      "examples": [
+        "In reality the female actually did most of it. 现实中主要还是女性在做。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "actual（实际的）+ -ly（副词后缀）",
+        "confusables": "actually（实际上）/ currently（目前）/ in fact（事实上）"
+      }
+    },
+    "avoid": {
+      "phonetic": "/əˈvɔɪd/",
+      "pos": "v.",
+      "sense": "避免、避开",
+      "collocations": [
+        "avoid doing sth",
+        "avoid a risk"
+      ],
+      "examples": [
+        "Avoid making the same mistake. 避免犯同样的错。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "avoid doing（避免做，avoid 后接动名词，不接 to do）/ avoid sth（避开某物）/ avoid 与 prevent（prevent sb from doing 阻止）/ avoid 与 escape（escape 也可接 doing）"
+      }
+    },
+    "become": {
+      "phonetic": "/bɪˈkʌm/",
+      "pos": "v.",
+      "sense": "变得（系动词）；成为",
+      "collocations": [
+        "become clear",
+        "become a parent",
+        "become aware of"
+      ],
+      "examples": [
+        "It has become a public health problem. 它已成为公共卫生问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "become（变得/成为）/ get（变得，口语）/ turn（变成，强调转变结果）"
+      }
+    },
+    "begins": {
+      "phonetic": "/bɪˈɡɪnz/",
+      "pos": "v.",
+      "sense": "开始、着手、启动（本文 a quest we begin as infants 始于婴儿期 / hard to know where to even begin 不知从何下手）（begin 的复数/三单形式）",
+      "lemma": "begin",
+      "collocations": [
+        "decision begins",
+        "begins to",
+        "begins to feel"
+      ],
+      "examples": [
+        "In other words, when we are 30 with more choices, making the \"right\" or \"correct\" decision begins to feel more 31 and, at the same time, more difficult to do. 换言之，选项越多，做出「正确」决定就变得越 31，也越难下手。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "begin + -s（复数/三单）",
+        "confusables": "begins（复数/三单）/ begin（原形）"
+      }
+    },
+    "believe": {
+      "phonetic": "/bɪˈliːv/",
+      "pos": "v.",
+      "sense": "相信、认为",
+      "collocations": [
+        "believe in",
+        "believe that"
+      ],
+      "examples": [
+        "I believe he is right. 我认为他是对的。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "best": {
+      "phonetic": "/best/",
+      "pos": "adj./adv./n.",
+      "sense": "最好的（good/well 的最高级）；最、最好地；最好的人或物",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "best decision"
+      ],
+      "examples": [
+        "They believe this will maximize their 26 of making the best decision. 他们觉得，这样能让自己做出最佳决定的 26 最大化。"
+      ],
+      "more": {
+        "confusables": "best / best-selling（同族不同词形，注意词性与用法）"
+      }
+    },
+    "changed": {
+      "phonetic": "/tʃeɪndʒd/",
+      "pos": "v.",
+      "sense": "change 的过去分词，改变",
+      "collocations": [],
+      "examples": [
+        "It might help to remember that many of the choices you make, such as what to have for lunch, will not 32 much in the future and that, even more important choices, like accepting a new job, can 33 be changed. 不妨记住：你的大多数选择（午餐吃啥之类）以后并没那么 32，就连更重要的（比如换工作）也 33 能改。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "changed / change / change-induced（同族不同词形，注意词性与用法）"
+      }
+    },
+    "choice": {
+      "phonetic": "/tʃɔɪs/",
+      "pos": "n.",
+      "sense": "选择、抉择、选择权；入选者、精选品",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "choice（选择，名词；精选的，形容词）/ make a choice（用 make 不用 do）/ choose（动词，choose-chose-chosen）/ have no choice but to do（别无选择只能做）/ choice 与 option（option 侧重可选方案）"
+      },
+      "collocations": [
+        "whatever choice"
+      ],
+      "examples": [
+        "Even worse, when people finally do decide, they are generally less satisfied with their decision and feel more regretful over whatever choice they made. 更糟的是，等人们终于下定决心，往往反而更不待见自己的决定，对选了啥也更后悔。"
+      ]
+    },
+    "choices": {
+      "phonetic": "/ˈtʃɔɪsɪz/",
+      "pos": "n.",
+      "sense": "选择、抉择、选项（choice 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "choices as",
+        "choices as possible",
+        "important choices"
+      ],
+      "examples": [
+        "People tend to want as many choices as possible. 人总想要尽可能多的选项。"
+      ],
+      "more": {
+        "confusables": "choices / choice（同族不同词形，注意词性与用法）"
+      }
+    },
+    "choose": {
+      "phonetic": "/tʃuːz/",
+      "pos": "v.",
+      "sense": "选择、挑选、决定（choose to do 选择做；choose between/from 在…中挑选）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "people choose",
+        "choose from"
+      ],
+      "examples": [
+        "Research shows that when people choose from many options, they 29 more in the decision, but feel less confident in their ability to decide well. 研究显示，当面对一堆选项，人会在做决定上 29 更多，却对「能不能选好」更没把握。"
+      ],
+      "more": {
+        "confusables": "choose / choosing（同族不同词形，注意词性与用法）"
+      }
+    },
+    "clear": {
+      "phonetic": "/klɪə(r)/",
+      "pos": "adj./v.",
+      "sense": "清楚的、明显的；清澈的 / 清除",
+      "collocations": [
+        "it is clear that",
+        "make clear",
+        "clear up"
+      ],
+      "examples": [
+        "The benefits of multitasking are clear. 多任务处理的好处很明显。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "clear（清楚的）/ clean（干净的）/ clearly（明显地）"
+      }
+    },
+    "comes": {
+      "phonetic": "/kʌmz/",
+      "pos": "v.",
+      "sense": "come 的第三人称单数（来）",
+      "lemma": "come",
+      "collocations": [
+        "comes from",
+        "comes with",
+        "as it comes"
+      ],
+      "examples": [
+        "With success comes new pressure. 成功带来新的压力。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "comes（三单）/ come（原形）"
+      }
+    },
+    "confident": {
+      "phonetic": "/ˈkɒnfɪdənt/",
+      "pos": "adj.",
+      "sense": "自信的、有信心的、确信的（be confident of/that）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（加强）+ fid（信任，词根 fid = trust，同 confidence/fidelity）+ -ent（形容词后缀）",
+        "confusables": "be confident of/about（对…有信心，介词 of/about）/ be confident that（确信）/ confidence（信心，名词）/ confidential（机密的，只差 -ial 意思全变）/ self-confidence（自信）"
+      },
+      "collocations": [
+        "confident in",
+        "confident about"
+      ],
+      "examples": [
+        "Research shows that when people choose from many options, they 29 more in the decision, but feel less confident in their ability to decide well. 研究显示，当面对一堆选项，人会在做决定上 29 更多，却对「能不能选好」更没把握。"
+      ]
+    },
+    "contribute": {
+      "phonetic": "/kənˈtrɪbjuːt/",
+      "pos": "v.",
+      "sense": "有助于、贡献（contribute to）",
+      "collocations": [
+        "contribute to",
+        "contribute money"
+      ],
+      "examples": [
+        "Sleep contributes to good memory. 睡眠有助于好记性。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（共同）+ tribut（给予，词根 trib = give，同 tribute/distribute/attribute）+ -e",
+        "confusables": "contribute to（有助于；向…投稿；捐助，to 是介词，接名词/doing）/ contribute sth to（把…贡献给）/ contribution（名词）/ attribute A to B（把 A 归因于 B）"
+      }
+    },
+    "correct": {
+      "phonetic": "/kəˈrekt/",
+      "pos": "adj./v.",
+      "sense": "正确的；纠正、改正",
+      "collocations": [
+        "the correct answer",
+        "correct a mistake"
+      ],
+      "examples": [
+        "Please correct my spelling. 请改正我的拼写。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "correct / corrected（同族不同词形，注意词性与用法）"
+      }
+    },
+    "decide": {
+      "phonetic": "/dɪˈsaɪd/",
+      "pos": "v.",
+      "sense": "决定、抉择；判定、断定（本文 decide which showed a real face 判断哪张是真人）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "decide well",
+        "ability to decide"
+      ],
+      "examples": [
+        "Even worse, when people finally do decide, they are generally less satisfied with their decision and feel more regretful over whatever choice they made. 更糟的是，等人们终于下定决心，往往反而更不待见自己的决定，对选了啥也更后悔。"
+      ],
+      "more": {
+        "confusables": "decide / decision / decisions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "decision": {
+      "phonetic": "/dɪˈsɪʒn/",
+      "pos": "n.",
+      "sense": "决定、抉择",
+      "collocations": [
+        "make a decision",
+        "reach a decision"
+      ],
+      "examples": [
+        "We made a decision quickly. 我们很快做了决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "de-（离开）+ cis（切，词根 cid/cis = cut，同 decide/precise/concise）+ -ion → 切断其他选项 → 决定",
+        "confusables": "make / take / reach a decision（做决定，用 make/take，不说 do a decision）/ decision to do（用不定式，不用 of doing）/ decisive（决定性的，形容词）"
+      }
+    },
+    "decisions": {
+      "phonetic": "/dɪˈsɪʒnz/",
+      "pos": "n.",
+      "sense": "决定、抉择、决断（decision 的复数；make decisions 作决定）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "putting decisions",
+        "decisions into",
+        "decisions into perspective"
+      ],
+      "examples": [
+        "I believe this fear could be tempered by putting decisions into perspective. 我觉得，只要换个角度看待这些决定，这种恐惧就能被化解。"
+      ],
+      "more": {
+        "confusables": "decisions / decision（同族不同词形，注意词性与用法）"
+      }
+    },
+    "deep": {
+      "phonetic": "/diːp/",
+      "pos": "adj./adv./n.",
+      "sense": "深的、纵深的、深刻的、深奥的；深深地；深处（deep into the night / in deep water）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "deep fear"
+      ],
+      "examples": [
+        "This may contribute to the deep fear that we will make the wrong decision. 这或许会加重我们「会选错」的深层恐惧。"
+      ],
+      "more": {
+        "confusables": "deep / deepen / deeper（同族不同词形，注意词性与用法）"
+      }
+    },
+    "difficult": {
+      "phonetic": "/ˈdɪfɪkəlt/",
+      "pos": "adj.",
+      "sense": "困难的；难以……的",
+      "collocations": [
+        "difficult to do",
+        "a difficult choice"
+      ],
+      "examples": [
+        "This word is difficult to pronounce. 这个词很难念。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "difficult / difficulties / difficulty（同族不同词形，注意词性与用法）"
+      }
+    },
+    "fear": {
+      "phonetic": "/fɪə(r)/",
+      "pos": "n./v.",
+      "sense": "恐惧、害怕、担忧；畏惧、恐怕、担心",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fear（害怕、恐惧，名词/动词）/ fear of（对…的恐惧，介词 of）/ for fear that/of（唯恐，从句常用 should/might）/ fear to do（不敢做）/ afraid（只作表语，be afraid of，不说 an afraid boy）"
+      },
+      "collocations": [
+        "deep fear"
+      ],
+      "examples": [
+        "This may contribute to the deep fear that we will make the wrong decision. 这或许会加重我们「会选错」的深层恐惧。"
+      ]
+    },
+    "feel": {
+      "phonetic": "/fiːl/",
+      "pos": "v./n.",
+      "sense": "感觉、觉得；摸起来、感觉到；触感、气氛（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "begins to feel"
+      ],
+      "examples": [
+        "Even worse, when people finally do decide, they are generally less satisfied with their decision and feel more regretful over whatever choice they made. 更糟的是，等人们终于下定决心，往往反而更不待见自己的决定，对选了啥也更后悔。"
+      ],
+      "more": {
+        "confusables": "feel / feeling（同族不同词形，注意词性与用法）"
+      }
+    },
+    "finally": {
+      "phonetic": "/ˈfaɪnəli/",
+      "pos": "adv.",
+      "sense": "最后、终于（强调次序或结果）",
+      "collocations": [
+        "finally, ...",
+        "finally arrived"
+      ],
+      "examples": [
+        "The law was finally passed. 法律终于通过。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "finally（最后）/ eventually（最终，强调结果）/ at last（终于）"
+      }
+    },
+    "future": {
+      "phonetic": "/ˈfjuːtʃə(r)/",
+      "pos": "n./adj.",
+      "sense": "未来 / 未来的",
+      "collocations": [
+        "in the future",
+        "future food supply",
+        "near future"
+      ],
+      "examples": [
+        "The future of food is uncertain. 食物的未来不确定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in the future（将来）/ in future（英式：从今往后）"
+      }
+    },
+    "generally": {
+      "phonetic": "/ˈdʒenrəli/",
+      "pos": "adv.",
+      "sense": "通常、一般地；普遍地",
+      "collocations": [
+        "generally speaking",
+        "generally accepted"
+      ],
+      "examples": [
+        "General management generally helps. 总体管理通常有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "generally（通常）/ in general（总的来说）/ general（总体的）"
+      }
+    },
+    "guidelines": {
+      "phonetic": "/ˈɡaɪdlaɪnz/",
+      "pos": "n.",
+      "sense": "准则、指导原则（guideline 的复数）",
+      "lemma": "guideline",
+      "collocations": [
+        "follow guidelines",
+        "issue guidelines"
+      ],
+      "examples": [
+        "New guidelines were issued last month. 上个月发布了新准则。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "guidelines（准则）/ rules（规则）"
+      }
+    },
+    "happen": {
+      "phonetic": "/ˈhæpən/",
+      "pos": "v.",
+      "sense": "发生（不及物）；碰巧（happen to do）",
+      "collocations": [
+        "happen to",
+        "what happened",
+        "happen to do"
+      ],
+      "examples": [
+        "Could the same thing happen to crops? 同样的事会发生在农作物上吗？"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "happen to sb（发生在某人身上）/ happen to do（碰巧）/ take place（发生，正式）"
+      }
+    },
+    "help": {
+      "phonetic": "/help/",
+      "pos": "v./n.",
+      "sense": "帮助（help sb do sth / help with）；帮助（不可数）",
+      "collocations": [
+        "help sb do sth",
+        "help with",
+        "can't help doing"
+      ],
+      "examples": [
+        "Instincts can help you decide fast. 直觉能帮你快速决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "help sb do/to do（不带 doing）/ can't help doing（忍不住）"
+      }
+    },
+    "ideas": {
+      "phonetic": "/aɪˈdɪəz/",
+      "pos": "n.",
+      "sense": "idea 的复数，想法、主意",
+      "collocations": [
+        "ideas of"
+      ],
+      "examples": [
+        "It could also help to 34 these situations with clear guidelines and ideas of what you want from the 35 of options, which can narrow the possible choices, and also make you more confident about your ability to make the right decision. 同样管用的是：用明确的准则、以及你从 35 选项里想要的那种标准，去 34 这些处境，从而收窄可选范围，也让你更相信自己能选对。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "ideas / idea（同族不同词形，注意词性与用法）"
+      }
+    },
+    "important": {
+      "phonetic": "/ɪmˈpɔːtnt/",
+      "pos": "adj.",
+      "sense": "重要的、重大的；有影响力的",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "important（重要的）/ be important to / for sb（to 侧重「对某人而言」，for 侧重「对某人有益/必要」）/ It is important that + (should) do（从句用虚拟语气）/ importance（名词）/ vital / crucial（语气更强）"
+      },
+      "collocations": [
+        "important choices"
+      ],
+      "examples": [
+        "It might help to remember that many of the choices you make, such as what to have for lunch, will not 32 much in the future and that, even more important choices, like accepting a new job, can 33 be changed. 不妨记住：你的大多数选择（午餐吃啥之类）以后并没那么 32，就连更重要的（比如换工作）也 33 能改。"
+      ]
+    },
+    "job": {
+      "phonetic": "/dʒɒb/",
+      "pos": "n.",
+      "sense": "工作、职业、职位；任务、职责、活儿",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "new job"
+      ],
+      "examples": [
+        "It might help to remember that many of the choices you make, such as what to have for lunch, will not 32 much in the future and that, even more important choices, like accepting a new job, can 33 be changed. 不妨记住：你的大多数选择（午餐吃啥之类）以后并没那么 32，就连更重要的（比如换工作）也 33 能改。"
+      ],
+      "more": {
+        "confusables": "job / jobs（同族不同词形，注意词性与用法）"
+      }
+    },
+    "like": {
+      "phonetic": "/laɪk/",
+      "pos": "prep./v./conj.",
+      "sense": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+      "collocations": [
+        "like this",
+        "feel like",
+        "such as"
+      ],
+      "examples": [
+        "Tools like this save time. 这样的工具能省时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
+      }
+    },
+    "lunch": {
+      "phonetic": "/lʌntʃ/",
+      "pos": "n./v.",
+      "sense": "午餐、午饭、午餐时间；吃午饭、请…吃午饭（have lunch / lunch break 午休）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "It might help to remember that many of the choices you make, such as what to have for lunch, will not 32 much in the future and that, even more important choices, like accepting a new job, can 33 be changed. 不妨记住：你的大多数选择（午餐吃啥之类）以后并没那么 32，就连更重要的（比如换工作）也 33 能改。"
+      ]
+    },
+    "made": {
+      "phonetic": "/meɪd/",
+      "pos": "v.",
+      "sense": "做、制造；使得、使成为；获得（make 的过去式/过去分词）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "be made of（由…制成，看得出原料）/ be made from（由…制成，看不出原料）/ be made in（产地）/ be made to do（被迫做，被动须加 to）/ make sb do（主动使役不带 to）/ make（make-made-made）"
+      },
+      "collocations": [],
+      "examples": [
+        "Even worse, when people finally do decide, they are generally less satisfied with their decision and feel more regretful over whatever choice they made. 更糟的是，等人们终于下定决心，往往反而更不待见自己的决定，对选了啥也更后悔。"
+      ]
+    },
+    "make": {
+      "phonetic": "/meɪk/",
+      "pos": "v.",
+      "sense": "做、制造；使得；获得、挣得（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make（做、制造；使得；获得）/ make sb do（使某人做，不带 to；被动变 be made to do）/ make + 宾语 + 形容词（make it clear）/ make 与 do（do 指做抽象事务，make 指制作/产生）/ make a decision / mistake（用 make 不用 do）"
+      },
+      "collocations": [
+        "ability to make"
+      ],
+      "examples": [
+        "This may contribute to the deep fear that we will make the wrong decision. 这或许会加重我们「会选错」的深层恐惧。"
+      ]
+    },
+    "making": {
+      "phonetic": "/meɪkɪŋ/",
+      "pos": "v.",
+      "sense": "做、制造；使得；获得、挣得（本文按语境取义）（make 的现在分词/动名词形式）",
+      "lemma": "make",
+      "collocations": [
+        "actually making",
+        "avoid making"
+      ],
+      "examples": [
+        "They believe this will maximize their 26 of making the best decision. 他们觉得，这样能让自己做出最佳决定的 26 最大化。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "make + -ing（现在分词/动名词）",
+        "confusables": "making（现在分词/动名词）/ make（原形）"
+      }
+    },
+    "new": {
+      "phonetic": "/njuː/",
+      "pos": "adj.",
+      "sense": "新的；新近的",
+      "collocations": [
+        "new technologies",
+        "brand new",
+        "new to sth"
+      ],
+      "examples": [
+        "New tools always provoke worry. 新工具总会引发担忧。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "new（新的）/ news（新闻，不可数）/ novel（新颖的，更正式）"
+      }
+    },
+    "options": {
+      "phonetic": "/ˈɒpʃnz/",
+      "pos": "n.",
+      "sense": "选择、选项、可选择的事物；选修课；买卖权（option 的复数/三单形式）",
+      "lemma": "option",
+      "collocations": [],
+      "examples": [
+        "Research shows that when people choose from many options, they 29 more in the decision, but feel less confident in their ability to decide well. 研究显示，当面对一堆选项，人会在做决定上 29 更多，却对「能不能选好」更没把握。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "option + -s（复数/三单）",
+        "confusables": "options（复数/三单）/ option（原形）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "perspective": {
+      "phonetic": "/pəˈspektɪv/",
+      "pos": "n.",
+      "sense": "视角、观点（可数）；透视法",
+      "collocations": [
+        "from a perspective",
+        "put sth into perspective",
+        "a new perspective"
+      ],
+      "examples": [
+        "Adults' perspective shapes the panic. 成年人的视角塑造了这种恐慌。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "perspective（视角）/ prospect（前景）/ perception（看法）"
+      }
+    },
+    "possible": {
+      "phonetic": "/ˈpɒsəbl/",
+      "pos": "adj.",
+      "sense": "可能的；可行的",
+      "collocations": [
+        "as soon as possible",
+        "it is possible to",
+        "the best possible"
+      ],
+      "examples": [
+        "They arrive at the best possible decisions. 他们做出尽可能最好的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "possible（可能）/ possibly（副词）/ probable（更可能）"
+      }
+    },
+    "problem": {
+      "phonetic": "/ˈprɒbləm/",
+      "pos": "n.",
+      "sense": "问题、难题（可数）",
+      "collocations": [
+        "a serious problem",
+        "solve a problem",
+        "no problem"
+      ],
+      "examples": [
+        "Loneliness is a significant problem. 孤独是个重要问题。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "problem（问题，需解决）/ question（疑问，需回答）"
+      }
+    },
+    "putting": {
+      "phonetic": "/ˈpʊtɪŋ/",
+      "pos": "v.",
+      "sense": "放置、使处于（某状态）、表达、提出、赋予（put 的现在分词；put pressure on 施压于）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "putting decisions",
+        "tempered by putting"
+      ],
+      "examples": [
+        "I believe this fear could be tempered by putting decisions into perspective. 我觉得，只要换个角度看待这些决定，这种恐惧就能被化解。"
+      ]
+    },
+    "remember": {
+      "phonetic": "/rɪˈmembə(r)/",
+      "pos": "v.",
+      "sense": "记得；记住；想起",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "help to remember"
+      ],
+      "examples": [
+        "It might help to remember that many of the choices you make, such as what to have for lunch, will not 32 much in the future and that, even more important choices, like accepting a new job, can 33 be changed. 不妨记住：你的大多数选择（午餐吃啥之类）以后并没那么 32，就连更重要的（比如换工作）也 33 能改。"
+      ],
+      "more": {
+        "confusables": "remember / remembered（同族不同词形，注意词性与用法）"
+      }
+    },
+    "research": {
+      "phonetic": "/rɪˈsɜːtʃ/",
+      "pos": "n./v.",
+      "sense": "研究（不可数）；调查 / 研究",
+      "collocations": [
+        "a body of research",
+        "research on sth",
+        "research shows"
+      ],
+      "examples": [
+        "A growing body of research supports this. 越来越多的研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "research（不可数）/ study（可数，一项研究）/ researches（罕用）"
+      }
+    },
+    "right": {
+      "phonetic": "/raɪt/",
+      "pos": "adj./adv./n./v.",
+      "sense": "正确的、对的、合适的、右边的、正当的；正好、直接地、向右；右边、权利、正确；纠正",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "right decision"
+      ],
+      "examples": [
+        "In other words, when we are 30 with more choices, making the \"right\" or \"correct\" decision begins to feel more 31 and, at the same time, more difficult to do. 换言之，选项越多，做出「正确」决定就变得越 31，也越难下手。"
+      ]
+    },
+    "satisfied": {
+      "phonetic": "/ˈsætɪsfaɪd/",
+      "pos": "adj./v.",
+      "sense": "满意的、满足的、信服的；使满意、满足（satisfy 的过去式）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "satisfy（使满意）+ -ed（过去分词/形容词，y → ied）",
+        "confusables": "be satisfied with（对…感到满意，介词 with，不用 to/about）/ satisfied（感到满意的，主语是人）/ satisfying（令人满意的，主语是物）/ satisfactory（达标的、尚可的）/ dissatisfied（不满意的）"
+      },
+      "collocations": [
+        "satisfied with"
+      ],
+      "examples": [
+        "Even worse, when people finally do decide, they are generally less satisfied with their decision and feel more regretful over whatever choice they made. 更糟的是，等人们终于下定决心，往往反而更不待见自己的决定，对选了啥也更后悔。"
+      ]
+    },
+    "shows": {
+      "phonetic": "/ʃəʊz/",
+      "pos": "v./n.",
+      "sense": "显示、表明、展示（show 的第三人称单数）；演出、节目（复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "research shows",
+        "Research shows"
+      ],
+      "examples": [
+        "But research shows that, when it comes to actually making a 27 from all of these choices, people can become 28 and avoid making a decision altogether. 但研究指出，当真要从一堆选项里挑一个 27 时，人就会变得 28，索性不做决定了。"
+      ],
+      "more": {
+        "confusables": "shows / show（同族不同词形，注意词性与用法）"
+      }
+    },
+    "situations": {
+      "phonetic": "/ˌsɪtʃuˈeɪʃnz/",
+      "pos": "n.",
+      "sense": "情形、处境（situation 的复数）",
+      "lemma": "situation",
+      "collocations": [
+        "in certain situations",
+        "a difficult situation"
+      ],
+      "examples": [
+        "Data is impractical in certain situations. 数据在某些情形下不实用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "situation（情形）/ condition（条件/状况）/ circumstance（环境，常用复数）"
+      }
+    },
+    "solve": {
+      "phonetic": "/sɒlv/",
+      "pos": "v.",
+      "sense": "解决；解答",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "How can we solve this problem? 那我们该怎么破这个局？"
+      ],
+      "more": {
+        "confusables": "solve / solving（同族不同词形，注意词性与用法）"
+      }
+    },
+    "tend": {
+      "phonetic": "/tend/",
+      "pos": "v.",
+      "sense": "倾向于、往往会（tend to do）；照料（tend to sb）",
+      "collocations": [
+        "tend to do",
+        "tend to be",
+        "tend towards"
+      ],
+      "examples": [
+        "Men tend to exhibit more of these behaviors. 男性往往表现出更多这类行为。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "tend to do（倾向于）/ tend to sb（照料某人）"
+      }
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "want": {
+      "phonetic": "/wɒnt/",
+      "pos": "v.",
+      "sense": "想要（want to do / want sb to do）；需要",
+      "collocations": [
+        "want to do",
+        "want sb to do",
+        "for want of"
+      ],
+      "examples": [
+        "They want to appear more adult. 他们想显得更成熟。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "want to do（想要）/ need to do（需要）/ would like to do（更礼貌）"
+      }
+    },
+    "well": {
+      "phonetic": "/wel/",
+      "pos": "adv./adj.",
+      "sense": "好地（副词）；健康的（形容词）；井（名词）",
+      "collocations": [
+        "as well",
+        "well-being",
+        "do well"
+      ],
+      "examples": [
+        "Social health matters to overall well-being. 社交健康关系到整体幸福。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "well（好地/健康）/ good（好的，形容词）/ as well（也）"
+      }
+    },
+    "words": {
+      "phonetic": "/wɜːdz/",
+      "pos": "n.",
+      "sense": "单词、话语（word 的复数）",
+      "lemma": "word",
+      "collocations": [
+        "in other words",
+        "in a word",
+        "words of"
+      ],
+      "examples": [
+        "In other words, the more we believe in effort... 换句话说，我们越相信努力……"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "in other words（换句话说）/ in a word（简言之）/ word（单词）"
+      }
+    },
+    "worse": {
+      "phonetic": "/wɜːs/",
+      "pos": "adj./adv.",
+      "sense": "更坏的、更差的、更糟的；更差地、更糟（bad / badly 的比较级；worse still 更糟的是）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "Even worse, when people finally do decide, they are generally less satisfied with their decision and feel more regretful over whatever choice they made. 更糟的是，等人们终于下定决心，往往反而更不待见自己的决定，对选了啥也更后悔。"
+      ],
+      "more": {
+        "confusables": "worse / worsen（同族不同词形，注意词性与用法）"
+      }
+    },
+    "wrong": {
+      "phonetic": "/rɒŋ/",
+      "pos": "adj./adv./n.",
+      "sense": "错误的、不对的、不合适的、不道德的、出毛病的；错误地、不对；错误、坏事、不公、冤屈",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "wrong decision"
+      ],
+      "examples": [
+        "This may contribute to the deep fear that we will make the wrong decision. 这或许会加重我们「会选错」的深层恐惧。"
+      ],
+      "more": {
+        "confusables": "wrong / wrongdoer（同族不同词形，注意词性与用法）"
+      }
+    }
+  }
+}

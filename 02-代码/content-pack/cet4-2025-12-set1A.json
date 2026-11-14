@@ -1,0 +1,6046 @@
+{
+  "sourceKey": "cet4-2025-12-set1A",
+  "articleId": "set1A",
+  "packVersion": "2026.11.08-2",
+  "meta": {
+    "examYear": 2025,
+    "examMonth": 12,
+    "setNo": 1,
+    "section": "仔细阅读",
+    "passageLabel": "Passage One",
+    "title": "Timing Your Medicine Right",
+    "wordCount": 345
+  },
+  "paragraphs": [
+    {
+      "idx": 0,
+      "text": "All living organisms on Earth are exposed to a 24-hour day-night cycle. This cycle is the reason why people rest at night and are active during the day. Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. For example, eating at night can lead to weight gain over time because food intake at night leads to increased fat storage.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 71,
+          "text": "All living organisms on Earth are exposed to a 24-hour day-night cycle.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "All",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "surface": "living",
+              "normalized": "living",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 20,
+              "surface": "organisms",
+              "normalized": "organisms",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 29,
+              "surface": "Earth",
+              "normalized": "earth",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 33,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 41,
+              "surface": "exposed",
+              "normalized": "exposed",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 44,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 46,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 49,
+              "surface": "24",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "surface": "-",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 50,
+              "end": 54,
+              "surface": "hour",
+              "normalized": "hour",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 64,
+              "surface": "day-night",
+              "normalized": "day-night",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 70,
+              "surface": "cycle",
+              "normalized": "cycle",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 71,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "所有地球上的生物都暴露在一个 24 小时昼夜循环之中。",
+            "translationNatural": "地球上所有生物都置身于昼夜交替的 24 小时循环里。",
+            "structMarkup": "【All living organisms on Earth】 _are exposed to_ ~a 24-hour day-night cycle~.",
+            "structureSummary": "主谓宾（be exposed to 被动结构）",
+            "components": [
+              {
+                "part": "All living organisms on Earth",
+                "role": "主语",
+                "note": "核心词 organisms，前面 all living 与 on Earth 层层限定，泛指一切生物"
+              },
+              {
+                "part": "are exposed to",
+                "role": "谓语",
+                "note": "被动语态；be exposed to 意为「暴露于……」，点明生物无法摆脱这一循环"
+              },
+              {
+                "part": "a 24-hour day-night cycle",
+                "role": "宾语",
+                "note": "day-night 复合形容词修饰 cycle，是后文 circadian rhythm 的同位说法"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主谓宾（be exposed to 被动结构）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "on earth",
+                "meaning": "地球（the earth）；泥土；究竟（on earth）",
+                "usage": "注意区分：earth（地球/泥土）/ world（世界）。常见搭配：on earth / the earth's climate。",
+                "example": "The earth's climate is changing. 地球气候正在改变。"
+              },
+              {
+                "text": "living",
+                "meaning": "活着的、现存的；生计、生活方式；生活、居住（live 的现在分词）",
+                "usage": "本句中作adj./n./v.，可按「主谓宾（be exposed to 被动结构）」定位它在句中的位置。",
+                "example": "All living organisms on Earth are exposed to a 24-hour day-night cycle. 地球上所有生物都置身于昼夜交替的 24 小时循环里。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：earth（地球/泥土）/ world（世界）。"
+            ],
+            "paragraphRole": "开篇点明昼夜节律是生物共有的客观背景，为下文「行为时机影响健康」铺垫。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 72,
+          "end": 152,
+          "text": "This cycle is the reason why people rest at night and are active during the day.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "cycle",
+              "normalized": "cycle",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 13,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 24,
+              "surface": "reason",
+              "normalized": "reason",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 28,
+              "surface": "why",
+              "normalized": "why",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 35,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "rest",
+              "normalized": "rest",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 43,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 49,
+              "surface": "night",
+              "normalized": "night",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 53,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 64,
+              "surface": "active",
+              "normalized": "active",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 71,
+              "surface": "during",
+              "normalized": "during",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 75,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 79,
+              "surface": "day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 80,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这个循环就是为什么人们在夜里休息、在白天活跃的原因。",
+            "translationNatural": "正是这个循环，决定了人夜里休息、白天活跃。",
+            "structMarkup": "【This cycle】 _is_ ~the reason~ {why people rest at night and are active during the day}.",
+            "structureSummary": "主系表（表语含 why 定语从句）",
+            "components": [
+              {
+                "part": "This cycle",
+                "role": "主语",
+                "note": "回指上句的 24-hour day-night cycle，用 this 衔接已知信息"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "主系表结构，连接主语与表语 the reason"
+              },
+              {
+                "part": "the reason",
+                "role": "表语",
+                "note": "说明 cycle 的作用定位，后接 why 从句解释其内容"
+              },
+              {
+                "part": "why people rest at night and are active during the day",
+                "role": "定语从句",
+                "note": "why 修饰 reason，从句内两个并列谓语 rest 与 are active 构成昼夜对照"
+              }
+            ],
+            "clauses": [
+              "定语从句「why people rest at night and are active during the day」：why 修饰 reason，从句内两个并列谓语 rest 与 are active 构成昼夜对照",
+              "本句主干为「主系表（表语含 why 定语从句）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "active",
+                "meaning": "积极的、活跃的；主动的",
+                "usage": "注意区分：active（活跃的）/ passive（被动的）。常见搭配：physically active / active role。",
+                "example": "Being active improves mood. 保持活跃能改善情绪。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。",
+              "注意区分：active（活跃的）/ passive（被动的）。"
+            ],
+            "paragraphRole": "把上句的循环落成「人作息规律」的具体原因，承接并具体化。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 153,
+          "end": 320,
+          "text": "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 12,
+              "surface": "Consequently",
+              "normalized": "consequently",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "all",
+              "normalized": "all",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 23,
+              "surface": "human",
+              "normalized": "human",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 28,
+              "surface": "body",
+              "normalized": "body",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 38,
+              "surface": "functions",
+              "normalized": "functions",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "surface": "also",
+              "normalized": "also",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 50,
+              "surface": "follow",
+              "normalized": "follow",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 55,
+              "surface": "this",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 61,
+              "surface": "daily",
+              "normalized": "daily",
+              "isWord": true
+            },
+            {
+              "start": 62,
+              "end": 68,
+              "surface": "rhythm",
+              "normalized": "rhythm",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 69,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 70,
+              "end": 73,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 77,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 84,
+              "surface": "timing",
+              "normalized": "timing",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 87,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 97,
+              "surface": "behaviors",
+              "normalized": "behaviors",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 102,
+              "surface": "like",
+              "normalized": "like",
+              "isWord": true
+            },
+            {
+              "start": 103,
+              "end": 111,
+              "surface": "exercise",
+              "normalized": "exercise",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 114,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 119,
+              "surface": "food",
+              "normalized": "food",
+              "isWord": true
+            },
+            {
+              "start": 120,
+              "end": 126,
+              "surface": "intake",
+              "normalized": "intake",
+              "isWord": true
+            },
+            {
+              "start": 127,
+              "end": 130,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 131,
+              "end": 144,
+              "surface": "significantly",
+              "normalized": "significantly",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 154,
+              "surface": "influence",
+              "normalized": "influence",
+              "isWord": true
+            },
+            {
+              "start": 155,
+              "end": 159,
+              "surface": "your",
+              "normalized": "your",
+              "isWord": true
+            },
+            {
+              "start": 160,
+              "end": 166,
+              "surface": "health",
+              "normalized": "health",
+              "isWord": true
+            },
+            {
+              "start": 166,
+              "end": 167,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "因此，所有人体功能也遵循这一日常节律，并且诸如运动或进食之类的行为时机能够显著影响你的健康。",
+            "translationNatural": "于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。",
+            "structMarkup": "(Consequently), 【all human body functions】 also _follow_ ~this daily rhythm~, and 【the timing of behaviors like exercise or food intake】 _can significantly influence_ ~your health~.",
+            "structureSummary": "并列复合句（Consequently 状语 + 两个独立分句由 and 连接）",
+            "components": [
+              {
+                "part": "Consequently",
+                "role": "状语",
+                "note": "承接上句，引出因果推论"
+              },
+              {
+                "part": "all human body functions",
+                "role": "主语",
+                "note": "前半句主语，谓语用复数 follow"
+              },
+              {
+                "part": "follow",
+                "role": "谓语",
+                "note": "意为「遵循」，把 body functions 与 daily rhythm 绑在一起"
+              },
+              {
+                "part": "this daily rhythm",
+                "role": "宾语",
+                "note": "daily rhythm 换词呼应前文的 cycle，避免重复"
+              },
+              {
+                "part": "the timing of behaviors like exercise or food intake",
+                "role": "主语",
+                "note": "后半句主语；the timing of ... 意为「……的时机」，like 引出举例"
+              },
+              {
+                "part": "can significantly influence",
+                "role": "谓语",
+                "note": "significantly 强调影响之大，正是第 46 题 A 项「considerable impact」的对应"
+              },
+              {
+                "part": "your health",
+                "role": "宾语",
+                "note": "行为时机影响的落点"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「并列复合句（Consequently 状语 + 两个独立分句由 and 连接）」。"
+            ],
+            "phrases": [
+              {
+                "text": "consequently",
+                "meaning": "因此、所以、结果（表因果，正式）",
+                "usage": "注意区分：consequently（因此、结果，强调因果，常置句首用逗号隔开）/ subsequently（随后，强调时间先后）/ consequently 是副词，不能像 so 那样直接连接两句。",
+                "example": "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+              },
+              {
+                "text": "functions",
+                "meaning": "功能、作用、职能；函数；运作、起作用（function as 充当）（function 的复数/三单形式）",
+                "usage": "注意区分：functions（复数/三单）/ function（原形）。",
+                "example": "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+              },
+              {
+                "text": "daily",
+                "meaning": "每天的；每天",
+                "usage": "常见搭配：daily actions / on a daily basis。",
+                "example": "The shop opens daily. 这家店每天都开。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：consequently（因此、结果，强调因果，常置句首用逗号隔开）/ subsequently（随后，强调时间先后）/ consequently 是副词，不能像 so 那样直接连接两句。",
+              "注意区分：functions（复数/三单）/ function（原形）。",
+              "注意区分：timing（现在分词/动名词）/ time（原形）。"
+            ],
+            "paragraphRole": "由「机能随节律」推进到「行为时机影响健康」，直接抛出第 46 题考点。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 321,
+          "end": 444,
+          "text": "For example, eating at night can lead to weight gain over time because food intake at night leads to increased fat storage.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "For",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "surface": "example",
+              "normalized": "example",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 13,
+              "end": 19,
+              "surface": "eating",
+              "normalized": "eating",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 28,
+              "surface": "night",
+              "normalized": "night",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 37,
+              "surface": "lead",
+              "normalized": "lead",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 40,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 47,
+              "surface": "weight",
+              "normalized": "weight",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 52,
+              "surface": "gain",
+              "normalized": "gain",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 57,
+              "surface": "over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 70,
+              "surface": "because",
+              "normalized": "because",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 75,
+              "surface": "food",
+              "normalized": "food",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 82,
+              "surface": "intake",
+              "normalized": "intake",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 85,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 91,
+              "surface": "night",
+              "normalized": "night",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 97,
+              "surface": "leads",
+              "normalized": "leads",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 100,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 101,
+              "end": 110,
+              "surface": "increased",
+              "normalized": "increased",
+              "isWord": true
+            },
+            {
+              "start": 111,
+              "end": 114,
+              "surface": "fat",
+              "normalized": "fat",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 122,
+              "surface": "storage",
+              "normalized": "storage",
+              "isWord": true
+            },
+            {
+              "start": 122,
+              "end": 123,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "例如，夜间进食能导致体重增加随着时间的推移，因为夜间进食导致增加的脂肪储存。",
+            "translationNatural": "比如，夜里吃东西久而久之会让人发胖，因为夜间进食会促使脂肪更多地囤积。",
+            "structMarkup": "(For example), 【eating at night】 _can lead to_ ~weight gain~ (over time) {because food intake at night leads to increased fat storage}.",
+            "structureSummary": "主谓宾 + 原因状语从句（because 引导）",
+            "components": [
+              {
+                "part": "For example",
+                "role": "插入语",
+                "note": "引出对上句「时机影响健康」的具体例证"
+              },
+              {
+                "part": "eating at night",
+                "role": "主语",
+                "note": "动名词短语作主语，谓语用 can lead to"
+              },
+              {
+                "part": "can lead to",
+                "role": "谓语",
+                "note": "lead to 意为「导致」"
+              },
+              {
+                "part": "weight gain",
+                "role": "宾语",
+                "note": "lead to 的宾语，即夜间进食的后果"
+              },
+              {
+                "part": "over time",
+                "role": "状语",
+                "note": "时间状语，说明体重上升是慢慢累积的"
+              },
+              {
+                "part": "because food intake at night leads to increased fat storage",
+                "role": "状语从句",
+                "note": "because 解释原因；fat storage 与 weight gain 互为因果链条"
+              }
+            ],
+            "clauses": [
+              "状语从句「because food intake at night leads to increased fat storage」：because 解释原因；fat storage 与 weight gain 互为因果链条",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。",
+              "逗号后的现在分词短语作伴随状语或补充说明，逻辑主语与主句主语一致。"
+            ],
+            "phrases": [
+              {
+                "text": "For example",
+                "meaning": "例如",
+                "usage": "插入语，常用逗号隔开，可置于句首、句中或句末。",
+                "example": "Many habits, for example, are hard to break. 比如很多习惯很难改。"
+              },
+              {
+                "text": "lead to",
+                "meaning": "导致",
+                "usage": "to 是介词，后接名词或动名词。",
+                "example": "Poor sleep can lead to mistakes. 睡眠差会导致出错。"
+              }
+            ],
+            "pitfalls": [
+              "for example 可独立作插入语，such as 不能。",
+              "lead to 中的 to 是介词，后接动名词而非原形。",
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "分词短语作状语时，逻辑主语必须与主句主语一致，否则成垂悬分词。"
+            ],
+            "paragraphRole": "用「夜间进食致胖」把抽象结论落到可感的例子，收束首段。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "text": "Many drug targets in the body follow a 24-hour cycle, too. This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 58,
+          "text": "Many drug targets in the body follow a 24-hour cycle, too.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "surface": "drug",
+              "normalized": "drug",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 17,
+              "surface": "targets",
+              "normalized": "targets",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 20,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 24,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "surface": "body",
+              "normalized": "body",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 36,
+              "surface": "follow",
+              "normalized": "follow",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 38,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 39,
+              "end": 41,
+              "surface": "24",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "surface": "-",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "hour",
+              "normalized": "hour",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "cycle",
+              "normalized": "cycle",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 53,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 54,
+              "end": 57,
+              "surface": "too",
+              "normalized": "too",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 58,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "身体里许多药物靶点也遵循一个 24 小时的循环。",
+            "translationNatural": "人体内的许多药物作用靶点，同样遵循 24 小时节律。",
+            "structMarkup": "【Many drug targets in the body】 _follow_ ~a 24-hour cycle~, (too).",
+            "structureSummary": "主谓宾（+ too 副词）",
+            "components": [
+              {
+                "part": "Many drug targets in the body",
+                "role": "主语",
+                "note": "核心词 targets；drug targets 指药物在体内的作用对象（蛋白等）"
+              },
+              {
+                "part": "follow",
+                "role": "谓语",
+                "note": "与首段 body functions follow 同词，形成由「机能」到「靶点」的递进"
+              },
+              {
+                "part": "a 24-hour cycle",
+                "role": "宾语",
+                "note": "再次点明节律周期"
+              },
+              {
+                "part": "too",
+                "role": "状语",
+                "note": "把药物靶点与上段人体机能并列，提示话题转向用药"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（+ too 副词）」。"
+            ],
+            "phrases": [
+              {
+                "text": "drug",
+                "meaning": "药物、药品；毒品",
+                "usage": "注意区分：drug（药、药物；毒品，可数，贬义可专指毒品）/ medicine（药，治病用，不含毒品义）/ medication（药物，正式）/ take / be on drugs（服药或吸毒，视语境）/ drug 与 pharmacy（药房）。常见搭配：drug research / a new drug。",
+                "example": "Many drug targets in the body follow a 24-hour cycle, too. 人体内的许多药物作用靶点，同样遵循 24 小时节律。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：drug（药、药物；毒品，可数，贬义可专指毒品）/ medicine（药，治病用，不含毒品义）/ medication（药物，正式）/ take / be on drugs（服药或吸毒，视语境）/ drug 与 pharmacy（药房）。",
+              "本句主干为「主谓宾（+ too 副词）」，读长句时先锁定限定动词再找修饰成分。"
+            ],
+            "paragraphRole": "用 too 把节律从「人体机能」转到「药物靶点」，开启用药时机主题。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 59,
+          "end": 205,
+          "text": "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "surface": "means",
+              "normalized": "means",
+              "isWord": true
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 28,
+              "surface": "specific",
+              "normalized": "specific",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 37,
+              "surface": "proteins",
+              "normalized": "proteins",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 39,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 44,
+              "surface": "drug",
+              "normalized": "drug",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 47,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 56,
+              "surface": "designed",
+              "normalized": "designed",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 59,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 66,
+              "surface": "modify",
+              "normalized": "modify",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 70,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 76,
+              "surface": "react",
+              "normalized": "react",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 88,
+              "surface": "differently",
+              "normalized": "differently",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 91,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 95,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 104,
+              "surface": "medicine",
+              "normalized": "medicine",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 109,
+              "surface": "over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 110,
+              "end": 113,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 120,
+              "surface": "course",
+              "normalized": "course",
+              "isWord": true
+            },
+            {
+              "start": 121,
+              "end": 123,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 125,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 126,
+              "end": 128,
+              "surface": "24",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 128,
+              "end": 129,
+              "surface": "-",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 129,
+              "end": 133,
+              "surface": "hour",
+              "normalized": "hour",
+              "isWord": true
+            },
+            {
+              "start": 134,
+              "end": 138,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 139,
+              "end": 145,
+              "surface": "period",
+              "normalized": "period",
+              "isWord": true
+            },
+            {
+              "start": 145,
+              "end": 146,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这意味着一种药物被设计去修改的那些特定蛋白质，能够在一段 24 小时的时间周期里对药物做出不同的反应。",
+            "translationNatural": "也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。",
+            "structMarkup": "【This】 _means_ {that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，从句主语含定语从句）",
+            "components": [
+              {
+                "part": "This",
+                "role": "主语",
+                "note": "回指上句「靶点也循节律」，用 this 概括为已知前提"
+              },
+              {
+                "part": "means",
+                "role": "谓语",
+                "note": "后接 that 从句给出推论"
+              },
+              {
+                "part": "that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period",
+                "role": "宾语从句",
+                "note": "作 means 的宾语；从句主语是 proteins，谓语是 can react"
+              },
+              {
+                "part": "the specific proteins a drug is designed to modify",
+                "role": "主语",
+                "note": "宾语从句主语；a drug is designed to modify 是定语从句，省略了 that/which"
+              },
+              {
+                "part": "a drug is designed to modify",
+                "role": "定语从句",
+                "note": "修饰 proteins，说明这些蛋白正是药物要改变的对象"
+              },
+              {
+                "part": "can react differently to",
+                "role": "谓语",
+                "note": "react to 意为「对……作出反应」，differently 是后文「按时服药更有效」的伏笔"
+              },
+              {
+                "part": "the medicine",
+                "role": "宾语",
+                "note": "react to 的宾语"
+              },
+              {
+                "part": "over the course of a 24-hour time period",
+                "role": "状语",
+                "note": "时间状语，呼应节律周期"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that the specific proteins a drug is designed to modify can react diff」：作 means 的宾语；从句主语是 proteins，谓语是 can react",
+              "定语从句「a drug is designed to modify」：修饰 proteins，说明这些蛋白正是药物要改变的对象",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "means",
+                "meaning": "mean 的第三人称单数；手段、方法（单复同形）",
+                "usage": "注意区分：by no means（绝不）/ by all means（当然可以）/ means（单复同形）。常见搭配：by means of / a means of。",
+                "example": "She argues the data means little. 她认为这些数据意义不大。"
+              },
+              {
+                "text": "specific",
+                "meaning": "具体的、明确的、特定的、特有的（specific to 为…所特有）",
+                "usage": "注意区分：specific（明确的、特定的，形容词）/ be specific about（对…说清楚，介词 about）/ specifically（明确地；专门地，副词）/ specifics（具体细节，复数名词）/ specify（明确说明，动词）。",
+                "example": "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. 也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。"
+              },
+              {
+                "text": "proteins",
+                "meaning": "蛋白质（可数/不可数）（protein 的复数/三单形式）",
+                "usage": "注意区分：proteins（复数/三单）/ protein（原形）。",
+                "example": "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. 也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：by no means（绝不）/ by all means（当然可以）/ means（单复同形）。",
+              "注意区分：specific（明确的、特定的，形容词）/ be specific about（对…说清楚，介词 about）/ specifically（明确地；专门地，副词）/ specifics（具体细节，复数名词）/ specify（明确说明，动词）。"
+            ],
+            "paragraphRole": "把「靶点循节律」推演为「蛋白反应随时间变化」，是作答第 47 题的关键句。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 206,
+          "end": 426,
+          "text": "Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 7,
+              "surface": "Because",
+              "normalized": "because",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "surface": "how",
+              "normalized": "how",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 20,
+              "surface": "body",
+              "normalized": "body",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 29,
+              "surface": "responds",
+              "normalized": "responds",
+              "isWord": true
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 34,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 39,
+              "surface": "drug",
+              "normalized": "drug",
+              "isWord": true
+            },
+            {
+              "start": 40,
+              "end": 43,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 44,
+              "end": 50,
+              "surface": "differ",
+              "normalized": "differ",
+              "isWord": true
+            },
+            {
+              "start": 51,
+              "end": 60,
+              "surface": "depending",
+              "normalized": "depending",
+              "isWord": true
+            },
+            {
+              "start": 61,
+              "end": 63,
+              "surface": "on",
+              "normalized": "on",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 67,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 72,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 75,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 78,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 84,
+              "surface": "taken",
+              "normalized": "taken",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 85,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 86,
+              "end": 88,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 98,
+              "surface": "logically",
+              "normalized": "logically",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 106,
+              "surface": "follows",
+              "normalized": "follows",
+              "isWord": true
+            },
+            {
+              "start": 107,
+              "end": 111,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 118,
+              "surface": "taking",
+              "normalized": "taking",
+              "isWord": true
+            },
+            {
+              "start": 119,
+              "end": 128,
+              "surface": "medicines",
+              "normalized": "medicines",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 131,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 132,
+              "end": 140,
+              "surface": "specific",
+              "normalized": "specific",
+              "isWord": true
+            },
+            {
+              "start": 141,
+              "end": 146,
+              "surface": "times",
+              "normalized": "times",
+              "isWord": true
+            },
+            {
+              "start": 147,
+              "end": 152,
+              "surface": "could",
+              "normalized": "could",
+              "isWord": true
+            },
+            {
+              "start": 153,
+              "end": 157,
+              "surface": "help",
+              "normalized": "help",
+              "isWord": true
+            },
+            {
+              "start": 158,
+              "end": 166,
+              "surface": "increase",
+              "normalized": "increase",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 172,
+              "surface": "their",
+              "normalized": "their",
+              "isWord": true
+            },
+            {
+              "start": 173,
+              "end": 186,
+              "surface": "effectiveness",
+              "normalized": "effectiveness",
+              "isWord": true
+            },
+            {
+              "start": 187,
+              "end": 190,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 191,
+              "end": 197,
+              "surface": "reduce",
+              "normalized": "reduce",
+              "isWord": true
+            },
+            {
+              "start": 198,
+              "end": 206,
+              "surface": "unwanted",
+              "normalized": "unwanted",
+              "isWord": true
+            },
+            {
+              "start": 207,
+              "end": 211,
+              "surface": "side",
+              "normalized": "side",
+              "isWord": true
+            },
+            {
+              "start": 212,
+              "end": 219,
+              "surface": "effects",
+              "normalized": "effects",
+              "isWord": true
+            },
+            {
+              "start": 219,
+              "end": 220,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "因为身体对一种药物如何反应能够有所不同，取决于它被服用的时间，所以逻辑上可以得出：在特定的时间服药能够帮助增加它们的有效性并减少不想要的副作用。",
+            "translationNatural": "既然身体对药物的反应会随服药时间而变，那么顺理成章地，选对时间吃药就能提高药效、减少副作用。",
+            "structMarkup": "{Because how the body responds to a drug can differ depending on the time it is taken}, 【it】 _logically follows_ {that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects}.",
+            "structureSummary": "原因状语从句（含 how 主语从句）+ 主句（it 形式主语 + that 主语从句）",
+            "components": [
+              {
+                "part": "Because how the body responds to a drug can differ depending on the time it is taken",
+                "role": "状语从句",
+                "note": "because 引出原因；内嵌 how 主语从句说明「反应如何不同」"
+              },
+              {
+                "part": "how the body responds to a drug",
+                "role": "主语从句",
+                "note": "how 引导，在 because 从句中作主语"
+              },
+              {
+                "part": "it",
+                "role": "形式主语",
+                "note": "形式主语，真正主语是后面 that 从句"
+              },
+              {
+                "part": "logically follows",
+                "role": "谓语",
+                "note": "it follows that ... 意为「由此得出……」，logically 强调推理自然"
+              },
+              {
+                "part": "that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects",
+                "role": "主语从句",
+                "note": "真正主语；两个并列谓语 help increase 与 reduce 说清按时服药的好处"
+              },
+              {
+                "part": "taking medicines at specific times",
+                "role": "主语",
+                "note": "主语从句内的动名词短语，是「选对时间服药」的抽象表达"
+              },
+              {
+                "part": "could help increase their effectiveness and reduce unwanted side effects",
+                "role": "谓语",
+                "note": "their 指代 medicines；effectiveness 与 side effects 一正一反"
+              }
+            ],
+            "clauses": [
+              "状语从句「Because how the body responds to a drug can differ depending on the ti」：because 引出原因；内嵌 how 主语从句说明「反应如何不同」",
+              "主语从句「how the body responds to a drug」：how 引导，在 because 从句中作主语",
+              "主语从句「that taking medicines at specific times could help increase their effe」：真正主语；两个并列谓语 help increase 与 reduce 说清按时服药的好处"
+            ],
+            "phrases": [
+              {
+                "text": "drug",
+                "meaning": "药物、药品；毒品",
+                "usage": "注意区分：drug（药、药物；毒品，可数，贬义可专指毒品）/ medicine（药，治病用，不含毒品义）/ medication（药物，正式）/ take / be on drugs（服药或吸毒，视语境）/ drug 与 pharmacy（药房）。常见搭配：drug research / a new drug。",
+                "example": "Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects. 既然身体对药物的反应会随服药时间而变，那么顺理成章地，选对时间吃药就能提高药效、减少副作用。"
+              },
+              {
+                "text": "depending on",
+                "meaning": "depend 的现在分词；（depending on）取决于",
+                "usage": "注意区分：depending on（取决于）/ depend on（依赖）。常见搭配：depending on / depending on whether。",
+                "example": "Results vary depending on the group. 结果因群体而异。"
+              },
+              {
+                "text": "time",
+                "meaning": "时间；次数；时机 / 计时",
+                "usage": "注意区分：times（时代）/ time（时间，不可数）。常见搭配：at the same time / take time off。",
+                "example": "It takes time to change habits. 改变习惯需要时间。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "由「反应随时变」推出「按时服药更有效且少副作用」，点明全文核心主张。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "text": "When doctors prescribe medicine for people, they rarely consider the best time to take it. There are two main reasons for that oversight. First, many physicians are not aware that some drugs work better during a specific time of the day. And second, most drugs have not been studied for possible different effects during a 24-hour cycle. Therefore, patients are directed to take most drugs during the morning or evening primarily to ensure compliance.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 90,
+          "text": "When doctors prescribe medicine for people, they rarely consider the best time to take it.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "When",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 12,
+              "surface": "doctors",
+              "normalized": "doctors",
+              "isWord": true
+            },
+            {
+              "start": 13,
+              "end": 22,
+              "surface": "prescribe",
+              "normalized": "prescribe",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 31,
+              "surface": "medicine",
+              "normalized": "medicine",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 42,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 43,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 44,
+              "end": 48,
+              "surface": "they",
+              "normalized": "they",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 55,
+              "surface": "rarely",
+              "normalized": "rarely",
+              "isWord": true
+            },
+            {
+              "start": 56,
+              "end": 64,
+              "surface": "consider",
+              "normalized": "consider",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 68,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 73,
+              "surface": "best",
+              "normalized": "best",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 78,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 79,
+              "end": 81,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 86,
+              "surface": "take",
+              "normalized": "take",
+              "isWord": true
+            },
+            {
+              "start": 87,
+              "end": 89,
+              "surface": "it",
+              "normalized": "it",
+              "isWord": true
+            },
+            {
+              "start": 89,
+              "end": 90,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "当医生为人们开药时，他们很少考虑服用它的最佳时间。",
+            "translationNatural": "医生给人开药时，几乎从不考虑什么时候吃效果最好。",
+            "structMarkup": "{When doctors prescribe medicine for people}, 【they】 _rarely consider_ ~the best time to take it~.",
+            "structureSummary": "时间状语从句 + 主句（主谓宾）",
+            "components": [
+              {
+                "part": "When doctors prescribe medicine for people",
+                "role": "状语从句",
+                "note": "when 引导时间状语，交代主句动作发生的场景"
+              },
+              {
+                "part": "they",
+                "role": "主语",
+                "note": "指代 doctors"
+              },
+              {
+                "part": "rarely consider",
+                "role": "谓语",
+                "note": "rarely 否定副词，点出医生的疏忽，是后文 oversight 的先声"
+              },
+              {
+                "part": "the best time to take it",
+                "role": "宾语",
+                "note": "consider 的宾语；to take it 不定式作后置定语"
+              }
+            ],
+            "clauses": [
+              "状语从句「When doctors prescribe medicine for people」：when 引导时间状语，交代主句动作发生的场景",
+              "含否定或半否定成分；若置于句首，主句须部分倒装。"
+            ],
+            "phrases": [
+              {
+                "text": "medicine",
+                "meaning": "医学（不可数）；药物（可数/不可数）",
+                "usage": "注意区分：medicine（药物/医学）/ drug（药物/毒品）/ medication（药物，正式）。常见搭配：study medicine / take medicine。",
+                "example": "She studied medicine at university. 她在大学学医。"
+              },
+              {
+                "text": "people",
+                "meaning": "人们（复数集合名词，谓语用复数）；民族（可数）",
+                "usage": "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。常见搭配：young people / people in business。",
+                "example": "Most people agree on this point. 多数人同意这一点。"
+              },
+              {
+                "text": "consider",
+                "meaning": "考虑、细想；认为、把…看作；顾及、体谅",
+                "usage": "注意区分：consider doing（考虑做，接动名词，不接 to do）/ consider sb/sth (to be) + adj/n（认为…是）/ consider that（认为）/ take … into consideration（把…考虑在内）/ considerate（体贴的）与 considerable（相当大的）形近义远。",
+                "example": "When doctors prescribe medicine for people, they rarely consider the best time to take it. 医生给人开药时，几乎从不考虑什么时候吃效果最好。"
+              }
+            ],
+            "pitfalls": [
+              "否定副词置于句首时主句要部分倒装（助动词提前）。",
+              "注意区分：medicine（药物/医学）/ drug（药物/毒品）/ medication（药物，正式）。",
+              "注意区分：people（人们，复数）/ person（一个人）/ peoples（多个民族）。"
+            ],
+            "paragraphRole": "笔锋一转，指出医生并不考虑服药时机，与上文主张形成反差。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 91,
+          "end": 137,
+          "text": "There are two main reasons for that oversight.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "There",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "surface": "two",
+              "normalized": "two",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "surface": "main",
+              "normalized": "main",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 26,
+              "surface": "reasons",
+              "normalized": "reasons",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 35,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 45,
+              "surface": "oversight",
+              "normalized": "oversight",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 46,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "对于那个疏忽，有两个主要原因。",
+            "translationNatural": "这种疏忽主要有两个原因。",
+            "structMarkup": "【There】 _are_ ~two main reasons for that oversight~.",
+            "structureSummary": "there be 存在句（主系表）",
+            "components": [
+              {
+                "part": "There",
+                "role": "形式主语",
+                "note": "存在句引导词，真正主语是后面的 reasons"
+              },
+              {
+                "part": "are",
+                "role": "系动词",
+                "note": "与复数主语 reasons 一致"
+              },
+              {
+                "part": "two main reasons for that oversight",
+                "role": "表语",
+                "note": "that oversight 回指上句「不考虑最佳时间」；for 引出针对对象"
+              }
+            ],
+            "clauses": [
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。",
+              "本句主干为「there be 存在句（主系表）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "reasons",
+                "meaning": "原因、理由、道理、理性（复数）；推理、推断（第三人称单数）",
+                "usage": "注意区分：reason（原因、理由，可数；理性，不可数）/ reason for（介词 for，不用 of）/ the reason why/that（…的原因）/ The reason is that…（表语从句用 that，不用 because）/ cause（强调直接导致）。",
+                "example": "There are two main reasons for that oversight. 这种疏忽主要有两个原因。"
+              },
+              {
+                "text": "main",
+                "meaning": "主要的、最重要的、总的；总管道、干线、（the mains）市政电源/水源",
+                "usage": "本句中作adj./n.，可按「there be 存在句（主系表）」定位它在句中的位置。",
+                "example": "There are two main reasons for that oversight. 这种疏忽主要有两个原因。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "注意区分：reason（原因、理由，可数；理性，不可数）/ reason for（介词 for，不用 of）/ the reason why/that（…的原因）/ The reason is that…（表语从句用 that，不用 because）/ cause（强调直接导致）。"
+            ],
+            "paragraphRole": "用存在句承上启下，预告接下来要讲两大原因。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 138,
+          "end": 237,
+          "text": "First, many physicians are not aware that some drugs work better during a specific time of the day.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 5,
+              "surface": "First",
+              "normalized": "first",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "surface": "many",
+              "normalized": "many",
+              "isWord": true
+            },
+            {
+              "start": 12,
+              "end": 22,
+              "surface": "physicians",
+              "normalized": "physicians",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 26,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 36,
+              "surface": "aware",
+              "normalized": "aware",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 46,
+              "surface": "some",
+              "normalized": "some",
+              "isWord": true
+            },
+            {
+              "start": 47,
+              "end": 52,
+              "surface": "drugs",
+              "normalized": "drugs",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 57,
+              "surface": "work",
+              "normalized": "work",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 64,
+              "surface": "better",
+              "normalized": "better",
+              "isWord": true
+            },
+            {
+              "start": 65,
+              "end": 71,
+              "surface": "during",
+              "normalized": "during",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 73,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 82,
+              "surface": "specific",
+              "normalized": "specific",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 87,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 90,
+              "surface": "of",
+              "normalized": "of",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 94,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 98,
+              "surface": "day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 99,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "首先，许多医生没有意识到某些药物在一天中的特定时间效果更好。",
+            "translationNatural": "其一，不少医生没意识到：有些药在一天里某个时段效果更好。",
+            "structMarkup": "(First), 【many physicians】 _are not aware_ {that some drugs work better during a specific time of the day}.",
+            "structureSummary": "主谓（系表）+ 宾语从句（that 引导）",
+            "components": [
+              {
+                "part": "First",
+                "role": "状语",
+                "note": "列举词，对应下句 And second"
+              },
+              {
+                "part": "many physicians",
+                "role": "主语",
+                "note": "physicians 换词指代 doctors"
+              },
+              {
+                "part": "are not aware",
+                "role": "谓语",
+                "note": "be aware (that) 意为「意识到」，否定式说明确实不知情"
+              },
+              {
+                "part": "that some drugs work better during a specific time of the day",
+                "role": "宾语从句",
+                "note": "作 aware 的宾语；work better 即「疗效更佳」"
+              },
+              {
+                "part": "during a specific time of the day",
+                "role": "状语",
+                "note": "时间状语，限定「特定时段」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that some drugs work better during a specific time of the day」：作 aware 的宾语；work better 即「疗效更佳」",
+              "本句主干为「主谓（系表）+ 宾语从句（that 引导）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "drugs",
+                "meaning": "药物、药品；毒品（drug 的复数/三单形式）",
+                "usage": "注意区分：drugs（复数/三单）/ drug（原形）。",
+                "example": "First, many physicians are not aware that some drugs work better during a specific time of the day. 其一，不少医生没意识到：有些药在一天里某个时段效果更好。"
+              },
+              {
+                "text": "work",
+                "meaning": "工作；运转、奏效 / 工作、作品",
+                "usage": "注意区分：work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）。常见搭配：work well / at work。",
+                "example": "The approach works in practice. 这个方法在实践中奏效。"
+              },
+              {
+                "text": "better",
+                "meaning": "更好的；更好地（good/well 的比较级）",
+                "usage": "注意区分：better（更好）/ had better（最好，后接动词原形）。常见搭配：better than / a better understanding。",
+                "example": "Sleep is better than more coffee. 睡眠比多喝咖啡更管用。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：drugs（复数/三单）/ drug（原形）。",
+              "注意区分：work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）。",
+              "注意区分：better（更好）/ had better（最好，后接动词原形）。"
+            ],
+            "paragraphRole": "给出第一个原因：医生不清楚药物有时段疗效差异。"
+          }
+        },
+        {
+          "idx": 3,
+          "start": 238,
+          "end": 337,
+          "text": "And second, most drugs have not been studied for possible different effects during a 24-hour cycle.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 3,
+              "surface": "And",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "surface": "second",
+              "normalized": "second",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "surface": "most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "surface": "drugs",
+              "normalized": "drugs",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 27,
+              "surface": "have",
+              "normalized": "have",
+              "isWord": true
+            },
+            {
+              "start": 28,
+              "end": 31,
+              "surface": "not",
+              "normalized": "not",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 36,
+              "surface": "been",
+              "normalized": "been",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 44,
+              "surface": "studied",
+              "normalized": "studied",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 48,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 57,
+              "surface": "possible",
+              "normalized": "possible",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 67,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 68,
+              "end": 75,
+              "surface": "effects",
+              "normalized": "effects",
+              "isWord": true
+            },
+            {
+              "start": 76,
+              "end": 82,
+              "surface": "during",
+              "normalized": "during",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 84,
+              "surface": "a",
+              "normalized": "a",
+              "isWord": true
+            },
+            {
+              "start": 85,
+              "end": 87,
+              "surface": "24",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 87,
+              "end": 88,
+              "surface": "-",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 88,
+              "end": 92,
+              "surface": "hour",
+              "normalized": "hour",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 98,
+              "surface": "cycle",
+              "normalized": "cycle",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 99,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "并且第二，大多数药物还没有被研究关于在 24 小时循环期间可能的不同效果。",
+            "translationNatural": "其二，多数药物在 24 小时周期里会不会有不同效果，还没被研究过。",
+            "structMarkup": "(And second), 【most drugs】 _have not been studied_ (for possible different effects) (during a 24-hour cycle).",
+            "structureSummary": "主谓（现在完成时被动）+ 状语",
+            "components": [
+              {
+                "part": "And second",
+                "role": "状语",
+                "note": "与 First 并列，引出第二个原因"
+              },
+              {
+                "part": "most drugs",
+                "role": "主语",
+                "note": "被动句主语，即研究对象"
+              },
+              {
+                "part": "have not been studied",
+                "role": "谓语",
+                "note": "现在完成时被动，强调「至今仍未研究」的状态"
+              },
+              {
+                "part": "for possible different effects",
+                "role": "状语",
+                "note": "目的/方面状语，说明研究的缺失方向"
+              },
+              {
+                "part": "during a 24-hour cycle",
+                "role": "状语",
+                "note": "时间状语，回扣节律主题"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主谓（现在完成时被动）+ 状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "drugs",
+                "meaning": "药物、药品；毒品（drug 的复数/三单形式）",
+                "usage": "注意区分：drugs（复数/三单）/ drug（原形）。",
+                "example": "And second, most drugs have not been studied for possible different effects during a 24-hour cycle. 其二，多数药物在 24 小时周期里会不会有不同效果，还没被研究过。"
+              },
+              {
+                "text": "studied",
+                "meaning": "研究、调查；学习 / 研究、学习（study 的过去式/过去分词形式）",
+                "usage": "注意区分：studied（过去式/过去分词）/ study（原形）。",
+                "example": "And second, most drugs have not been studied for possible different effects during a 24-hour cycle. 其二，多数药物在 24 小时周期里会不会有不同效果，还没被研究过。"
+              },
+              {
+                "text": "possible",
+                "meaning": "可能的；可行的",
+                "usage": "注意区分：possible（可能）/ possibly（副词）/ probable（更可能）。常见搭配：as soon as possible / it is possible to。",
+                "example": "They arrive at the best possible decisions. 他们做出尽可能最好的决定。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：drugs（复数/三单）/ drug（原形）。",
+              "注意区分：studied（过去式/过去分词）/ study（原形）。"
+            ],
+            "paragraphRole": "给出第二个原因：药物本身缺乏时段效应的研究证据。"
+          }
+        },
+        {
+          "idx": 4,
+          "start": 338,
+          "end": 451,
+          "text": "Therefore, patients are directed to take most drugs during the morning or evening primarily to ensure compliance.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "Therefore",
+              "normalized": "therefore",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 11,
+              "end": 19,
+              "surface": "patients",
+              "normalized": "patients",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 23,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 32,
+              "surface": "directed",
+              "normalized": "directed",
+              "isWord": true
+            },
+            {
+              "start": 33,
+              "end": 35,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 36,
+              "end": 40,
+              "surface": "take",
+              "normalized": "take",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 45,
+              "surface": "most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 51,
+              "surface": "drugs",
+              "normalized": "drugs",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 58,
+              "surface": "during",
+              "normalized": "during",
+              "isWord": true
+            },
+            {
+              "start": 59,
+              "end": 62,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 70,
+              "surface": "morning",
+              "normalized": "morning",
+              "isWord": true
+            },
+            {
+              "start": 71,
+              "end": 73,
+              "surface": "or",
+              "normalized": "or",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 81,
+              "surface": "evening",
+              "normalized": "evening",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 91,
+              "surface": "primarily",
+              "normalized": "primarily",
+              "isWord": true
+            },
+            {
+              "start": 92,
+              "end": 94,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 101,
+              "surface": "ensure",
+              "normalized": "ensure",
+              "isWord": true
+            },
+            {
+              "start": 102,
+              "end": 112,
+              "surface": "compliance",
+              "normalized": "compliance",
+              "isWord": true
+            },
+            {
+              "start": 112,
+              "end": 113,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "因此，病人们被指示在早晨或傍晚服用大多数药物，主要为了确保依从性。",
+            "translationNatural": "所以，医生多半只让病人早上或晚上吃药，主要图个「能按时吃上」。",
+            "structMarkup": "(Therefore), 【patients】 _are directed to take_ ~most drugs~ (during the morning or evening) (primarily to ensure compliance).",
+            "structureSummary": "主谓（被动 + 不定式）+ 目的状语",
+            "components": [
+              {
+                "part": "Therefore",
+                "role": "状语",
+                "note": "承接上文两原因，导出结果"
+              },
+              {
+                "part": "patients",
+                "role": "主语",
+                "note": "被动句主语，即被安排服药的人"
+              },
+              {
+                "part": "are directed to take",
+                "role": "谓语",
+                "note": "被动 + 不定式；direct sb to do 意为「指示某人做」"
+              },
+              {
+                "part": "most drugs",
+                "role": "宾语",
+                "note": "take 的宾语"
+              },
+              {
+                "part": "during the morning or evening",
+                "role": "状语",
+                "note": "时间状语，说明服药被安排在什么时段"
+              },
+              {
+                "part": "primarily to ensure compliance",
+                "role": "状语",
+                "note": "目的状语；compliance 指「遵医嘱服药」，是第 49 题 B 项 instructed 的对应"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主谓（被动 + 不定式）+ 目的状语」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "therefore",
+                "meaning": "因此（正式，连接因果）",
+                "usage": "注意区分：therefore（因此，正式）/ so（所以，口语）/ thus（因此，书面）。常见搭配：therefore, ... / and therefore。",
+                "example": "The data is limited; therefore instinct matters. 数据有限，因此直觉重要。"
+              },
+              {
+                "text": "patients",
+                "meaning": "病人、患者；有耐心的、忍耐的（be patient with sb）（patient 的复数/三单形式）",
+                "usage": "注意区分：patients（复数/三单）/ patient（原形）。",
+                "example": "Therefore, patients are directed to take most drugs during the morning or evening primarily to ensure compliance. 所以，医生多半只让病人早上或晚上吃药，主要图个「能按时吃上」。"
+              },
+              {
+                "text": "take",
+                "meaning": "拿、带；花费、需要；采取、接受（本文按语境取义）",
+                "usage": "注意区分：take（带走，离开说话人；it takes sb time to do 花费；拿、乘坐）/ bring（带来，朝说话人）/ fetch（去取来）/ spend（人作主语：sb spends … on/doing）/ cost（物作主语：sth costs sb …）/ take part in（参加）、take place（发生，无被动）。",
+                "example": "Therefore, patients are directed to take most drugs during the morning or evening primarily to ensure compliance. 所以，医生多半只让病人早上或晚上吃药，主要图个「能按时吃上」。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：therefore（因此，正式）/ so（所以，口语）/ thus（因此，书面）。",
+              "注意区分：patients（复数/三单）/ patient（原形）。"
+            ],
+            "paragraphRole": "小结：因上述原因，服药时间仅为「方便遵医嘱」，并非为疗效，引出第 49 题。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "text": "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. This is because the liver enzyme(酶) these drugs target is more active at night.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 171,
+          "text": "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "Over",
+              "normalized": "over",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "50",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 8,
+              "end": 13,
+              "surface": "years",
+              "normalized": "years",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "ago",
+              "normalized": "ago",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 18,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 19,
+              "end": 30,
+              "surface": "researchers",
+              "normalized": "researchers",
+              "isWord": true
+            },
+            {
+              "start": 31,
+              "end": 36,
+              "surface": "found",
+              "normalized": "found",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 41,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 45,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 57,
+              "surface": "cholesterol",
+              "normalized": "cholesterol",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "drug",
+              "normalized": "drug",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 74,
+              "surface": "simvastatin",
+              "normalized": "simvastatin",
+              "isWord": true
+            },
+            {
+              "start": 75,
+              "end": 77,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 92,
+              "surface": "effective",
+              "normalized": "effective",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 95,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 96,
+              "end": 104,
+              "surface": "lowering",
+              "normalized": "lowering",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 116,
+              "surface": "cholesterol",
+              "normalized": "cholesterol",
+              "isWord": true
+            },
+            {
+              "start": 117,
+              "end": 123,
+              "surface": "levels",
+              "normalized": "levels",
+              "isWord": true
+            },
+            {
+              "start": 124,
+              "end": 128,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 129,
+              "end": 134,
+              "surface": "taken",
+              "normalized": "taken",
+              "isWord": true
+            },
+            {
+              "start": 135,
+              "end": 137,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 143,
+              "surface": "night",
+              "normalized": "night",
+              "isWord": true
+            },
+            {
+              "start": 144,
+              "end": 150,
+              "surface": "rather",
+              "normalized": "rather",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 155,
+              "surface": "than",
+              "normalized": "than",
+              "isWord": true
+            },
+            {
+              "start": 156,
+              "end": 162,
+              "surface": "during",
+              "normalized": "during",
+              "isWord": true
+            },
+            {
+              "start": 163,
+              "end": 166,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 167,
+              "end": 170,
+              "surface": "day",
+              "normalized": "day",
+              "isWord": true
+            },
+            {
+              "start": 170,
+              "end": 171,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "超过 50 年前，研究者们发现那款降胆固醇药物辛伐他汀在降低胆固醇水平方面更有效，当在夜间服用而非在白天时。",
+            "translationNatural": "五十多年前研究者就发现：降胆固醇药辛伐他汀，晚上吃比白天吃更能降血脂。",
+            "structMarkup": "(Over 50 years ago), 【researchers】 _found_ {that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day}.",
+            "structureSummary": "主谓 + 宾语从句（that 引导，内含 when 时间状语从句）",
+            "components": [
+              {
+                "part": "Over 50 years ago",
+                "role": "状语",
+                "note": "时间状语，强调这一发现年代久远"
+              },
+              {
+                "part": "researchers",
+                "role": "主语",
+                "note": "谓语用 found 的复数主谓一致"
+              },
+              {
+                "part": "found",
+                "role": "谓语",
+                "note": "后接 that 从句陈述研究发现"
+              },
+              {
+                "part": "that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day",
+                "role": "宾语从句",
+                "note": "found 的宾语；内含 when taken 省略主谓的时间状语"
+              },
+              {
+                "part": "the cholesterol drug simvastatin",
+                "role": "主语",
+                "note": "宾语从句主语，simvastatin 是药名"
+              },
+              {
+                "part": "is more effective at lowering cholesterol levels",
+                "role": "谓语",
+                "note": "be effective at doing 意为「做……更有效」"
+              },
+              {
+                "part": "when taken at night rather than during the day",
+                "role": "状语从句",
+                "note": "when taken = when it is taken，省略主谓；rather than 对比昼夜"
+              }
+            ],
+            "clauses": [
+              "宾语从句「that the cholesterol drug simvastatin is more effective at lowering ch」：found 的宾语；内含 when taken 省略主谓的时间状语",
+              "状语从句「when taken at night rather than during the day」：when taken = when it is taken，省略主谓；rather than 对比昼夜",
+              "本句含比较结构（比较级 + than），than 后是被比较对象。"
+            ],
+            "phrases": [
+              {
+                "text": "rather than",
+                "meaning": "而不是",
+                "usage": "连接并列成分，前后形式要一致；后接动词时常用原形。",
+                "example": "I'd walk rather than wait. 我宁愿走路也不等。"
+              },
+              {
+                "text": "years",
+                "meaning": "年、年份；岁数、年纪（year 的复数）",
+                "usage": "注意区分：year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）。",
+                "example": "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. 五十多年前研究者就发现：降胆固醇药辛伐他汀，晚上吃比白天吃更能降血脂。"
+              },
+              {
+                "text": "found",
+                "meaning": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+                "usage": "注意区分：found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）。常见搭配：found that... / be found to be。",
+                "example": "Researchers found a clear link. 研究者发现了明确的关联。"
+              }
+            ],
+            "pitfalls": [
+              "rather than 连接的两个成分词性要平行。",
+              "比较级 + than 引出比较对象；两者比较用比较级，三者以上用最高级。",
+              "宾语从句用陈述语序，不要把助动词提到主语前。",
+              "instead 是副词，不能直接连接两个名词；instead of 才是介词短语。"
+            ],
+            "paragraphRole": "用辛伐他汀的实例证实「夜里吃更好」，为「按时服药」主张提供证据。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 172,
+          "end": 251,
+          "text": "This is because the liver enzyme(酶) these drugs target is more active at night.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "This",
+              "normalized": "this",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 8,
+              "end": 15,
+              "surface": "because",
+              "normalized": "because",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 25,
+              "surface": "liver",
+              "normalized": "liver",
+              "isWord": true
+            },
+            {
+              "start": 26,
+              "end": 32,
+              "surface": "enzyme",
+              "normalized": "enzyme",
+              "isWord": true
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "surface": "(酶)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 36,
+              "end": 41,
+              "surface": "these",
+              "normalized": "these",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 47,
+              "surface": "drugs",
+              "normalized": "drugs",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 54,
+              "surface": "target",
+              "normalized": "target",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 57,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 62,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 63,
+              "end": 69,
+              "surface": "active",
+              "normalized": "active",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 72,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 73,
+              "end": 78,
+              "surface": "night",
+              "normalized": "night",
+              "isWord": true
+            },
+            {
+              "start": 78,
+              "end": 79,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "这是因为这些药物所靶向的肝脏酶在夜间更活跃。",
+            "translationNatural": "原因就在于：这些药物瞄准的肝脏酶，到了夜里更活跃。",
+            "structMarkup": "【This】 _is_ {because the liver enzyme(酶) these drugs target is more active at night}.",
+            "structureSummary": "主系表（表语为 because 表语从句，内含定语从句）",
+            "components": [
+              {
+                "part": "This",
+                "role": "主语",
+                "note": "回指上句「夜间服药更有效」这一现象"
+              },
+              {
+                "part": "is",
+                "role": "系动词",
+                "note": "主系表，表语由 because 从句充当"
+              },
+              {
+                "part": "because the liver enzyme(酶) these drugs target is more active at night",
+                "role": "表语从句",
+                "note": "because 引导的表语从句，解释原因"
+              },
+              {
+                "part": "the liver enzyme(酶) these drugs target",
+                "role": "主语",
+                "note": "表语从句主语；these drugs target 是定语从句，省略 that/which"
+              },
+              {
+                "part": "these drugs target",
+                "role": "定语从句",
+                "note": "修饰 enzyme，说明是药物所作用的对象"
+              },
+              {
+                "part": "is more active at night",
+                "role": "谓语",
+                "note": "active 与上文 effective 呼应， nighttime 是机制所在"
+              }
+            ],
+            "clauses": [
+              "表语从句「because the liver enzyme(酶) these drugs target is more active at night」：because 引导的表语从句，解释原因",
+              "定语从句「these drugs target」：修饰 enzyme，说明是药物所作用的对象",
+              "句中含从属连词引导状语从句，说明原因、目的、条件或时间。"
+            ],
+            "phrases": [
+              {
+                "text": "drugs",
+                "meaning": "药物、药品；毒品（drug 的复数/三单形式）",
+                "usage": "注意区分：drugs（复数/三单）/ drug（原形）。",
+                "example": "This is because the liver enzyme(酶) these drugs target is more active at night. 原因就在于：这些药物瞄准的肝脏酶，到了夜里更活跃。"
+              },
+              {
+                "text": "active",
+                "meaning": "积极的、活跃的；主动的",
+                "usage": "注意区分：active（活跃的）/ passive（被动的）。常见搭配：physically active / active role。",
+                "example": "Being active improves mood. 保持活跃能改善情绪。"
+              }
+            ],
+            "pitfalls": [
+              "because 引导从句，because of 后只能接名词；两者不能混用。",
+              "注意区分：drugs（复数/三单）/ drug（原形）。",
+              "注意区分：active（活跃的）/ passive（被动的）。"
+            ],
+            "paragraphRole": "从药理机制上解释上句的实例，使「夜间服药更优」言之有据。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "text": "Taking medicine at the wrong time can even cause harm. My colleagues and I wondered whether midazolam, the most common sedative(镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night. Currently, there are no guidelines regarding when midazolam should be administered.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 54,
+          "text": "Taking medicine at the wrong time can even cause harm.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 6,
+              "surface": "Taking",
+              "normalized": "taking",
+              "isWord": true
+            },
+            {
+              "start": 7,
+              "end": 15,
+              "surface": "medicine",
+              "normalized": "medicine",
+              "isWord": true
+            },
+            {
+              "start": 16,
+              "end": 18,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 23,
+              "end": 28,
+              "surface": "wrong",
+              "normalized": "wrong",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 33,
+              "surface": "time",
+              "normalized": "time",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 37,
+              "surface": "can",
+              "normalized": "can",
+              "isWord": true
+            },
+            {
+              "start": 38,
+              "end": 42,
+              "surface": "even",
+              "normalized": "even",
+              "isWord": true
+            },
+            {
+              "start": 43,
+              "end": 48,
+              "surface": "cause",
+              "normalized": "cause",
+              "isWord": true
+            },
+            {
+              "start": 49,
+              "end": 53,
+              "surface": "harm",
+              "normalized": "harm",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 54,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "在错误的时间服药甚至可能造成伤害。",
+            "translationNatural": "吃错时间，甚至可能有害。",
+            "structMarkup": "【Taking medicine at the wrong time】 _can even cause_ ~harm~.",
+            "structureSummary": "主谓宾（动名词短语作主语）",
+            "components": [
+              {
+                "part": "Taking medicine at the wrong time",
+                "role": "主语",
+                "note": "动名词短语作主语，与上文「对的时间」形成反面"
+              },
+              {
+                "part": "can even cause",
+                "role": "谓语",
+                "note": "even 递进，把话题从「减效」推到「有害」"
+              },
+              {
+                "part": "harm",
+                "role": "宾语",
+                "note": "cause 的宾语，后果比副作用更重"
+              }
+            ],
+            "clauses": [
+              "本句是简单句，没有从句；主干为「主谓宾（动名词短语作主语）」。"
+            ],
+            "phrases": [
+              {
+                "text": "taking",
+                "meaning": "拿、带；花费、需要；采取、接受（本文按语境取义）（take 的现在分词/动名词形式）",
+                "usage": "注意区分：taking（现在分词/动名词）/ take（原形）。",
+                "example": "Taking medicine at the wrong time can even cause harm. 吃错时间，甚至可能有害。"
+              },
+              {
+                "text": "medicine",
+                "meaning": "医学（不可数）；药物（可数/不可数）",
+                "usage": "注意区分：medicine（药物/医学）/ drug（药物/毒品）/ medication（药物，正式）。常见搭配：study medicine / take medicine。",
+                "example": "She studied medicine at university. 她在大学学医。"
+              },
+              {
+                "text": "time",
+                "meaning": "时间；次数；时机 / 计时",
+                "usage": "注意区分：times（时代）/ time（时间，不可数）。常见搭配：at the same time / take time off。",
+                "example": "It takes time to change habits. 改变习惯需要时间。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：taking（现在分词/动名词）/ take（原形）。",
+              "注意区分：medicine（药物/医学）/ drug（药物/毒品）/ medication（药物，正式）。",
+              "注意区分：times（时代）/ time（时间，不可数）。"
+            ],
+            "paragraphRole": "用反面论证强化「时机重要」，从减效升级到有害。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 55,
+          "end": 245,
+          "text": "My colleagues and I wondered whether midazolam, the most common sedative(镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 2,
+              "surface": "My",
+              "normalized": "my",
+              "isWord": true
+            },
+            {
+              "start": 3,
+              "end": 13,
+              "surface": "colleagues",
+              "normalized": "colleagues",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 18,
+              "end": 19,
+              "surface": "I",
+              "normalized": "i",
+              "isWord": true
+            },
+            {
+              "start": 20,
+              "end": 28,
+              "surface": "wondered",
+              "normalized": "wondered",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 36,
+              "surface": "whether",
+              "normalized": "whether",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 46,
+              "surface": "midazolam",
+              "normalized": "midazolam",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 48,
+              "end": 51,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 56,
+              "surface": "most",
+              "normalized": "most",
+              "isWord": true
+            },
+            {
+              "start": 57,
+              "end": 63,
+              "surface": "common",
+              "normalized": "common",
+              "isWord": true
+            },
+            {
+              "start": 64,
+              "end": 72,
+              "surface": "sedative",
+              "normalized": "sedative",
+              "isWord": true
+            },
+            {
+              "start": 72,
+              "end": 77,
+              "surface": "(镇静剂)",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 78,
+              "end": 82,
+              "surface": "used",
+              "normalized": "used",
+              "isWord": true
+            },
+            {
+              "start": 83,
+              "end": 85,
+              "surface": "in",
+              "normalized": "in",
+              "isWord": true
+            },
+            {
+              "start": 86,
+              "end": 94,
+              "surface": "surgical",
+              "normalized": "surgical",
+              "isWord": true
+            },
+            {
+              "start": 95,
+              "end": 105,
+              "surface": "procedures",
+              "normalized": "procedures",
+              "isWord": true
+            },
+            {
+              "start": 106,
+              "end": 115,
+              "surface": "worldwide",
+              "normalized": "worldwide",
+              "isWord": true
+            },
+            {
+              "start": 115,
+              "end": 116,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 117,
+              "end": 122,
+              "surface": "might",
+              "normalized": "might",
+              "isWord": true
+            },
+            {
+              "start": 123,
+              "end": 132,
+              "surface": "interfere",
+              "normalized": "interfere",
+              "isWord": true
+            },
+            {
+              "start": 133,
+              "end": 137,
+              "surface": "with",
+              "normalized": "with",
+              "isWord": true
+            },
+            {
+              "start": 138,
+              "end": 141,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 142,
+              "end": 150,
+              "surface": "internal",
+              "normalized": "internal",
+              "isWord": true
+            },
+            {
+              "start": 151,
+              "end": 156,
+              "surface": "clock",
+              "normalized": "clock",
+              "isWord": true
+            },
+            {
+              "start": 157,
+              "end": 161,
+              "surface": "that",
+              "normalized": "that",
+              "isWord": true
+            },
+            {
+              "start": 162,
+              "end": 170,
+              "surface": "protects",
+              "normalized": "protects",
+              "isWord": true
+            },
+            {
+              "start": 171,
+              "end": 174,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 175,
+              "end": 180,
+              "surface": "heart",
+              "normalized": "heart",
+              "isWord": true
+            },
+            {
+              "start": 181,
+              "end": 183,
+              "surface": "at",
+              "normalized": "at",
+              "isWord": true
+            },
+            {
+              "start": 184,
+              "end": 189,
+              "surface": "night",
+              "normalized": "night",
+              "isWord": true
+            },
+            {
+              "start": 189,
+              "end": 190,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我和我的同事们想知道，咪达唑仑——全球外科手术中使用最广泛的镇静剂——是否可能干扰夜间保护心脏的内部时钟。",
+            "translationNatural": "我和同事好奇：全世界手术中最常用的镇静剂咪达唑仑，会不会搅乱夜里护心的体内生物钟。",
+            "structMarkup": "【My colleagues and I】 _wondered_ {whether midazolam, the most common sedative(镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night}.",
+            "structureSummary": "主谓 + 宾语从句（whether 引导，内含同位语与定语从句）",
+            "components": [
+              {
+                "part": "My colleagues and I",
+                "role": "主语",
+                "note": "复数主语，谓语用 wondered"
+              },
+              {
+                "part": "wondered",
+                "role": "谓语",
+                "note": "后接 whether 从句表达「想知道是否」"
+              },
+              {
+                "part": "whether midazolam, the most common sedative(镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night",
+                "role": "宾语从句",
+                "note": "whether 引导，作 wondered 的宾语"
+              },
+              {
+                "part": "midazolam",
+                "role": "主语",
+                "note": "宾语从句主语，药名"
+              },
+              {
+                "part": "the most common sedative(镇静剂) used in surgical procedures worldwide",
+                "role": "同位语",
+                "note": "解释 midazolam 是什么，used ... 过去分词作后置定语"
+              },
+              {
+                "part": "might interfere with",
+                "role": "谓语",
+                "note": "interfere with 意为「干扰」"
+              },
+              {
+                "part": "the internal clock that protects the heart at night",
+                "role": "宾语",
+                "note": "interfere with 的宾语；that 定语从句修饰 clock"
+              },
+              {
+                "part": "that protects the heart at night",
+                "role": "定语从句",
+                "note": "修饰 internal clock，说明其护心功能"
+              }
+            ],
+            "clauses": [
+              "宾语从句「whether midazolam, the most common sedative(镇静剂) used in surgical proc」：whether 引导，作 wondered 的宾语",
+              "定语从句「that protects the heart at night」：修饰 internal clock，说明其护心功能"
+            ],
+            "phrases": [
+              {
+                "text": "colleagues",
+                "meaning": "同事（colleague 的复数）",
+                "usage": "注意区分：colleague（同事）/ college（学院）。常见搭配：a colleague of mine / colleagues at work。",
+                "example": "She discussed it with colleagues. 她和同事讨论了这件事。"
+              },
+              {
+                "text": "wondered",
+                "meaning": "想知道、纳闷；惊奇（wonder 的过去式/过去分词形式）",
+                "usage": "注意区分：wondered（过去式/过去分词）/ wonder（原形）。",
+                "example": "My colleagues and I wondered whether midazolam, the most common sedative(镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night. 我和同事好奇：全世界手术中最常用的镇静剂咪达唑仑，会不会搅乱夜里护心的体内生物钟。"
+              },
+              {
+                "text": "whether",
+                "meaning": "是否；无论（whether ... or ...）",
+                "usage": "注意区分：whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）。常见搭配：whether or not / whether to do。",
+                "example": "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：colleague（同事）/ college（学院）。",
+              "注意区分：wondered（过去式/过去分词）/ wonder（原形）。",
+              "注意区分：whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）。"
+            ],
+            "paragraphRole": "以具体药物 midazolam 引出未知风险，体现「需更多研究」的必要性。"
+          }
+        },
+        {
+          "idx": 2,
+          "start": 246,
+          "end": 329,
+          "text": "Currently, there are no guidelines regarding when midazolam should be administered.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 9,
+              "surface": "Currently",
+              "normalized": "currently",
+              "isWord": true
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "surface": ",",
+              "normalized": null,
+              "isWord": false
+            },
+            {
+              "start": 11,
+              "end": 16,
+              "surface": "there",
+              "normalized": "there",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 20,
+              "surface": "are",
+              "normalized": "are",
+              "isWord": true
+            },
+            {
+              "start": 21,
+              "end": 23,
+              "surface": "no",
+              "normalized": "no",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 34,
+              "surface": "guidelines",
+              "normalized": "guidelines",
+              "isWord": true
+            },
+            {
+              "start": 35,
+              "end": 44,
+              "surface": "regarding",
+              "normalized": "regarding",
+              "isWord": true
+            },
+            {
+              "start": 45,
+              "end": 49,
+              "surface": "when",
+              "normalized": "when",
+              "isWord": true
+            },
+            {
+              "start": 50,
+              "end": 59,
+              "surface": "midazolam",
+              "normalized": "midazolam",
+              "isWord": true
+            },
+            {
+              "start": 60,
+              "end": 66,
+              "surface": "should",
+              "normalized": "should",
+              "isWord": true
+            },
+            {
+              "start": 67,
+              "end": 69,
+              "surface": "be",
+              "normalized": "be",
+              "isWord": true
+            },
+            {
+              "start": 70,
+              "end": 82,
+              "surface": "administered",
+              "normalized": "administered",
+              "isWord": true
+            },
+            {
+              "start": 82,
+              "end": 83,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "目前，没有关于咪达唑仑应当何时被给药的指南。",
+            "translationNatural": "眼下，至于咪达唑仑该什么时候用，根本没有指南。",
+            "structMarkup": "(Currently), 【there】 _are_ ~no guidelines~ (regarding when midazolam should be administered).",
+            "structureSummary": "there be 存在句 + 后置定语（regarding 介词短语）",
+            "components": [
+              {
+                "part": "Currently",
+                "role": "状语",
+                "note": "时间状语，强调现状"
+              },
+              {
+                "part": "there",
+                "role": "形式主语",
+                "note": "存在句引导词，真正主语是 guidelines"
+              },
+              {
+                "part": "are",
+                "role": "系动词",
+                "note": "与复数 guidelines 一致"
+              },
+              {
+                "part": "no guidelines",
+                "role": "表语",
+                "note": "存在句真正主语，否定式点出空白"
+              },
+              {
+                "part": "regarding when midazolam should be administered",
+                "role": "定语",
+                "note": "regarding 介词短语作 guidelines 的后置定语；when 从句作其宾语"
+              },
+              {
+                "part": "when midazolam should be administered",
+                "role": "宾语从句",
+                "note": "作 regarding 的宾语，即「何时给药」"
+              }
+            ],
+            "clauses": [
+              "宾语从句「when midazolam should be administered」：作 regarding 的宾语，即「何时给药」",
+              "There be 句型中 there 是引导词，真正的主语在 be 之后，谓语与之一致。",
+              "be + 过去分词构成被动语态，主语是动作的承受者。"
+            ],
+            "phrases": [
+              {
+                "text": "currently",
+                "meaning": "目前、当前",
+                "usage": "注意区分：currently（目前）/ actually（实际上）/ presently（不久/目前）。常见搭配：currently available / currently working。",
+                "example": "The tool is currently free. 该工具目前免费。"
+              },
+              {
+                "text": "guidelines",
+                "meaning": "准则、指导原则（guideline 的复数）",
+                "usage": "注意区分：guidelines（准则）/ rules（规则）。常见搭配：follow guidelines / issue guidelines。",
+                "example": "New guidelines were issued last month. 上个月发布了新准则。"
+              },
+              {
+                "text": "regarding",
+                "meaning": "认为、看作、看待；关注、尊重、致意（regard A as B / in regard to / with regard to）（regard 的现在分词/动名词形式）",
+                "usage": "注意区分：regarding（现在分词/动名词）/ regard（原形）。",
+                "example": "Currently, there are no guidelines regarding when midazolam should be administered. 眼下，至于咪达唑仑该什么时候用，根本没有指南。"
+              }
+            ],
+            "pitfalls": [
+              "There be 句型谓语的单复数跟 be 后面的名词走。",
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。"
+            ],
+            "paragraphRole": "指出该药给药时机尚无指南，进一步凸显研究缺口。"
+          }
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "text": "More research is needed to determine the best times to administer treatments for different diseases. I believe taking drug timing into account could help make treatments more effective and help more people worldwide.",
+      "sentences": [
+        {
+          "idx": 0,
+          "start": 0,
+          "end": 100,
+          "text": "More research is needed to determine the best times to administer treatments for different diseases.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 4,
+              "surface": "More",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 5,
+              "end": 13,
+              "surface": "research",
+              "normalized": "research",
+              "isWord": true
+            },
+            {
+              "start": 14,
+              "end": 16,
+              "surface": "is",
+              "normalized": "is",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 23,
+              "surface": "needed",
+              "normalized": "needed",
+              "isWord": true
+            },
+            {
+              "start": 24,
+              "end": 26,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 27,
+              "end": 36,
+              "surface": "determine",
+              "normalized": "determine",
+              "isWord": true
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "surface": "the",
+              "normalized": "the",
+              "isWord": true
+            },
+            {
+              "start": 41,
+              "end": 45,
+              "surface": "best",
+              "normalized": "best",
+              "isWord": true
+            },
+            {
+              "start": 46,
+              "end": 51,
+              "surface": "times",
+              "normalized": "times",
+              "isWord": true
+            },
+            {
+              "start": 52,
+              "end": 54,
+              "surface": "to",
+              "normalized": "to",
+              "isWord": true
+            },
+            {
+              "start": 55,
+              "end": 65,
+              "surface": "administer",
+              "normalized": "administer",
+              "isWord": true
+            },
+            {
+              "start": 66,
+              "end": 76,
+              "surface": "treatments",
+              "normalized": "treatments",
+              "isWord": true
+            },
+            {
+              "start": 77,
+              "end": 80,
+              "surface": "for",
+              "normalized": "for",
+              "isWord": true
+            },
+            {
+              "start": 81,
+              "end": 90,
+              "surface": "different",
+              "normalized": "different",
+              "isWord": true
+            },
+            {
+              "start": 91,
+              "end": 99,
+              "surface": "diseases",
+              "normalized": "diseases",
+              "isWord": true
+            },
+            {
+              "start": 99,
+              "end": 100,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "更多的研究被需要，以决定为不同疾病实施治疗的最佳时间。",
+            "translationNatural": "还需要更多研究，来确定针对不同疾病的最佳治疗时机。",
+            "structMarkup": "【More research】 _is needed_ (to determine the best times to administer treatments for different diseases).",
+            "structureSummary": "主谓（被动）+ 目的状语（不定式）",
+            "components": [
+              {
+                "part": "More research",
+                "role": "主语",
+                "note": "被动句主语，谓语用单数 is"
+              },
+              {
+                "part": "is needed",
+                "role": "谓语",
+                "note": "被动语态，needed 表「被需要」"
+              },
+              {
+                "part": "to determine the best times to administer treatments for different diseases",
+                "role": "状语",
+                "note": "目的不定式；内嵌 the best times to administer ... 不定式作后置定语"
+              },
+              {
+                "part": "the best times to administer treatments for different diseases",
+                "role": "宾语",
+                "note": "determine 的宾语"
+              }
+            ],
+            "clauses": [
+              "be + 过去分词构成被动语态，主语是动作的承受者。",
+              "本句主干为「主谓（被动）+ 目的状语（不定式）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "research",
+                "meaning": "研究（不可数）；调查 / 研究",
+                "usage": "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。常见搭配：a body of research / research on sth。",
+                "example": "A growing body of research supports this. 越来越多的研究支持这一点。"
+              },
+              {
+                "text": "needed",
+                "meaning": "需要（情态/实义动词）；需要、需求（名词）（need 的过去式/过去分词形式）",
+                "usage": "注意区分：needed（过去式/过去分词）/ need（原形）。",
+                "example": "More research is needed to determine the best times to administer treatments for different diseases. 还需要更多研究，来确定针对不同疾病的最佳治疗时机。"
+              },
+              {
+                "text": "times",
+                "meaning": "次数；时代（time 的复数）；乘以",
+                "usage": "注意区分：times（次数/时代）/ time（时间）。常见搭配：three times / at times。",
+                "example": "He won three times. 他赢过三次。"
+              }
+            ],
+            "pitfalls": [
+              "被动语态的过去分词不能误写成过去式；不及物动词没有被动。",
+              "注意区分：research（不可数）/ study（可数，一项研究）/ researches（罕用）。",
+              "注意区分：needed（过去式/过去分词）/ need（原形）。"
+            ],
+            "paragraphRole": "提出呼吁：还需研究以找准各病最佳治疗时机，承上启下。"
+          }
+        },
+        {
+          "idx": 1,
+          "start": 101,
+          "end": 216,
+          "text": "I believe taking drug timing into account could help make treatments more effective and help more people worldwide.",
+          "tokens": [
+            {
+              "start": 0,
+              "end": 1,
+              "surface": "I",
+              "normalized": "i",
+              "isWord": true
+            },
+            {
+              "start": 2,
+              "end": 9,
+              "surface": "believe",
+              "normalized": "believe",
+              "isWord": true
+            },
+            {
+              "start": 10,
+              "end": 16,
+              "surface": "taking",
+              "normalized": "taking",
+              "isWord": true
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "surface": "drug",
+              "normalized": "drug",
+              "isWord": true
+            },
+            {
+              "start": 22,
+              "end": 28,
+              "surface": "timing",
+              "normalized": "timing",
+              "isWord": true
+            },
+            {
+              "start": 29,
+              "end": 33,
+              "surface": "into",
+              "normalized": "into",
+              "isWord": true
+            },
+            {
+              "start": 34,
+              "end": 41,
+              "surface": "account",
+              "normalized": "account",
+              "isWord": true
+            },
+            {
+              "start": 42,
+              "end": 47,
+              "surface": "could",
+              "normalized": "could",
+              "isWord": true
+            },
+            {
+              "start": 48,
+              "end": 52,
+              "surface": "help",
+              "normalized": "help",
+              "isWord": true
+            },
+            {
+              "start": 53,
+              "end": 57,
+              "surface": "make",
+              "normalized": "make",
+              "isWord": true
+            },
+            {
+              "start": 58,
+              "end": 68,
+              "surface": "treatments",
+              "normalized": "treatments",
+              "isWord": true
+            },
+            {
+              "start": 69,
+              "end": 73,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 74,
+              "end": 83,
+              "surface": "effective",
+              "normalized": "effective",
+              "isWord": true
+            },
+            {
+              "start": 84,
+              "end": 87,
+              "surface": "and",
+              "normalized": "and",
+              "isWord": true
+            },
+            {
+              "start": 88,
+              "end": 92,
+              "surface": "help",
+              "normalized": "help",
+              "isWord": true
+            },
+            {
+              "start": 93,
+              "end": 97,
+              "surface": "more",
+              "normalized": "more",
+              "isWord": true
+            },
+            {
+              "start": 98,
+              "end": 104,
+              "surface": "people",
+              "normalized": "people",
+              "isWord": true
+            },
+            {
+              "start": 105,
+              "end": 114,
+              "surface": "worldwide",
+              "normalized": "worldwide",
+              "isWord": true
+            },
+            {
+              "start": 114,
+              "end": 115,
+              "surface": ".",
+              "normalized": null,
+              "isWord": false
+            }
+          ],
+          "analysis": {
+            "translationLiteral": "我相信把药物时机考虑在内能够帮助使治疗更有效，并且帮助全世界更多人。",
+            "translationNatural": "我认为，把服药时机纳入考量，能让治疗更有效，也能惠及全球更多人。",
+            "structMarkup": "【I】 _believe_ {taking drug timing into account could help make treatments more effective and help more people worldwide}.",
+            "structureSummary": "主谓 + 宾语从句（that 省略，内含动名词主语与并列谓语）",
+            "components": [
+              {
+                "part": "I",
+                "role": "主语",
+                "note": "作者本人，谓语用 believe"
+              },
+              {
+                "part": "believe",
+                "role": "谓语",
+                "note": "后接省略 that 的宾语从句，表作者观点"
+              },
+              {
+                "part": "taking drug timing into account could help make treatments more effective and help more people worldwide",
+                "role": "宾语从句",
+                "note": "believe 的宾语；两个并列谓语 help ... and help ... 收束全文主张"
+              },
+              {
+                "part": "taking drug timing into account",
+                "role": "主语",
+                "note": "宾语从句主语（动名词短语）；take ... into account 意为「把……考虑在内」"
+              },
+              {
+                "part": "could help make treatments more effective and help more people worldwide",
+                "role": "谓语",
+                "note": "并列谓语；more effective 与 more people 分别对应疗效与惠及面"
+              }
+            ],
+            "clauses": [
+              "宾语从句「taking drug timing into account could help make treatments more effect」：believe 的宾语；两个并列谓语 help ... and help ... 收束全文主张",
+              "本句主干为「主谓 + 宾语从句（that 省略，内含动名词主语与并列谓语）」，先找限定动词再切分修饰成分。"
+            ],
+            "phrases": [
+              {
+                "text": "believe",
+                "meaning": "相信、认为",
+                "usage": "常见搭配：believe in / believe that。",
+                "example": "I believe he is right. 我认为他是对的。"
+              },
+              {
+                "text": "taking",
+                "meaning": "拿、带；花费、需要；采取、接受（本文按语境取义）（take 的现在分词/动名词形式）",
+                "usage": "注意区分：taking（现在分词/动名词）/ take（原形）。",
+                "example": "I believe taking drug timing into account could help make treatments more effective and help more people worldwide. 我认为，把服药时机纳入考量，能让治疗更有效，也能惠及全球更多人。"
+              },
+              {
+                "text": "drug",
+                "meaning": "药物、药品；毒品",
+                "usage": "注意区分：drug（药、药物；毒品，可数，贬义可专指毒品）/ medicine（药，治病用，不含毒品义）/ medication（药物，正式）/ take / be on drugs（服药或吸毒，视语境）/ drug 与 pharmacy（药房）。常见搭配：drug research / a new drug。",
+                "example": "I believe taking drug timing into account could help make treatments more effective and help more people worldwide. 我认为，把服药时机纳入考量，能让治疗更有效，也能惠及全球更多人。"
+              }
+            ],
+            "pitfalls": [
+              "注意区分：taking（现在分词/动名词）/ take（原形）。",
+              "注意区分：drug（药、药物；毒品，可数，贬义可专指毒品）/ medicine（药，治病用，不含毒品义）/ medication（药物，正式）/ take / be on drugs（服药或吸毒，视语境）/ drug 与 pharmacy（药房）。",
+              "注意区分：timing（现在分词/动名词）/ time（原形）。"
+            ],
+            "paragraphRole": "作者收尾表态：重视服药时机能增效并惠及更多人，是第 50 题 A 项依据。"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "no": 46,
+      "stem": "What do we learn from the passage about the timing of our behaviors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It has a considerable impact on our health."
+        },
+        {
+          "key": "B",
+          "text": "It confines us to a 24-hour day-night cycle."
+        },
+        {
+          "key": "C",
+          "text": "It requires us to follow a particular rhythm."
+        },
+        {
+          "key": "D",
+          "text": "It holds the key to all human body functions."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 47,
+      "stem": "What does the author say about the proteins in our body?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They can modify the effects of medicines in different ways."
+        },
+        {
+          "key": "B",
+          "text": "They can reduce unwanted side effects of certain medicines."
+        },
+        {
+          "key": "C",
+          "text": "Their reaction to medicines changes during the day-night cycle."
+        },
+        {
+          "key": "D",
+          "text": "Their design determines how differently they react to medicines."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 48,
+      "stem": "What do doctors do when prescribing medicine for people?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They give little thought to the time of taking it for maximum effect."
+        },
+        {
+          "key": "B",
+          "text": "They rarely consider which medicine works better for which patient."
+        },
+        {
+          "key": "C",
+          "text": "They tell patients its possible side effects during a period of 24 hours."
+        },
+        {
+          "key": "D",
+          "text": "They tell patients to comply with the directions of drug manufacturers."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 49,
+      "stem": "Why do doctors advise patients to take most drugs in the morning or in the evening?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To discourage them from making complaints."
+        },
+        {
+          "key": "B",
+          "text": "To ensure they take the drugs as instructed."
+        },
+        {
+          "key": "C",
+          "text": "To comply with new research findings strictly."
+        },
+        {
+          "key": "D",
+          "text": "To guarantee the maximum effect of the drugs."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 50,
+      "stem": "What does the author suggest near the end of the passage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Considering drug-taking timing when prescribing drugs for patients."
+        },
+        {
+          "key": "B",
+          "text": "Making treatments less complex by taking drug timing into account."
+        },
+        {
+          "key": "C",
+          "text": "Conducting more studies to find out the best timing for treating different diseases."
+        },
+        {
+          "key": "D",
+          "text": "Finding out the most effective drugs for treating diseases through further research."
+        }
+      ],
+      "answer": "A"
+    }
+  ],
+  "lexicon": {
+    "account": {
+      "phonetic": "/əˈkaʊnt/",
+      "pos": "n./v.",
+      "sense": "账户；描述；解释；账目（v. 解释；占比）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "timing into account"
+      ],
+      "examples": [
+        "I believe taking drug timing into account could help make treatments more effective and help more people worldwide. 我认为，把服药时机纳入考量，能让治疗更有效，也能惠及全球更多人。"
+      ]
+    },
+    "active": {
+      "phonetic": "/ˈæktɪv/",
+      "pos": "adj.",
+      "sense": "积极的、活跃的；主动的",
+      "collocations": [
+        "physically active",
+        "active role",
+        "active member"
+      ],
+      "examples": [
+        "Being active improves mood. 保持活跃能改善情绪。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "active（活跃的）/ passive（被动的）"
+      }
+    },
+    "aware": {
+      "phonetic": "/əˈweə/",
+      "pos": "adj.",
+      "sense": "意识到的、知道的（be aware of / be aware that；本文 Almost everyone is aware of this 几乎人人都知道这一点）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "First, many physicians are not aware that some drugs work better during a specific time of the day. 其一，不少医生没意识到：有些药在一天里某个时段效果更好。"
+      ],
+      "more": {
+        "confusables": "aware / awareness（同族不同词形，注意词性与用法）"
+      }
+    },
+    "behaviors": {
+      "phonetic": "/bɪˈheɪvjəz/",
+      "pos": "n.",
+      "sense": "behavior 的复数形式",
+      "collocations": [
+        "behaviors like",
+        "timing of behaviors"
+      ],
+      "examples": [
+        "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "behaviors / behavior / behaviours（同族不同词形，注意词性与用法）"
+      }
+    },
+    "believe": {
+      "phonetic": "/bɪˈliːv/",
+      "pos": "v.",
+      "sense": "相信、认为",
+      "collocations": [
+        "believe in",
+        "believe that"
+      ],
+      "examples": [
+        "I believe he is right. 我认为他是对的。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "best": {
+      "phonetic": "/best/",
+      "pos": "adj./adv./n.",
+      "sense": "最好的（good/well 的最高级）；最、最好地；最好的人或物",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "best time",
+        "best times"
+      ],
+      "examples": [
+        "When doctors prescribe medicine for people, they rarely consider the best time to take it. 医生给人开药时，几乎从不考虑什么时候吃效果最好。"
+      ],
+      "more": {
+        "confusables": "best / best-selling（同族不同词形，注意词性与用法）"
+      }
+    },
+    "better": {
+      "phonetic": "/ˈbetə(r)/",
+      "pos": "adj./adv.",
+      "sense": "更好的；更好地（good/well 的比较级）",
+      "collocations": [
+        "better than",
+        "a better understanding",
+        "get better"
+      ],
+      "examples": [
+        "Sleep is better than more coffee. 睡眠比多喝咖啡更管用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "better（更好）/ had better（最好，后接动词原形）"
+      }
+    },
+    "body": {
+      "phonetic": "/ˈbɒdi/",
+      "pos": "n.",
+      "sense": "身体、躯体；主体、正文；团体、机构",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "human body",
+        "body functions",
+        "body follow"
+      ],
+      "examples": [
+        "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+      ]
+    },
+    "cause": {
+      "phonetic": "/kɔːz/",
+      "pos": "v./n.",
+      "sense": "导致、引起（动词）；原因、事业（名词）",
+      "collocations": [
+        "cause problems",
+        "the cause of",
+        "a good cause"
+      ],
+      "examples": [
+        "Aggressive behaviour reportedly caused by games. 攻击行为据称由游戏引起。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "cause（原因/导致）/ reason（理由）/ lead to（导致）"
+      }
+    },
+    "cholesterol": {
+      "phonetic": "/kəˈlestərɒl/",
+      "pos": "n.",
+      "sense": "胆固醇（健康、营养话题高频；cholesterol level 胆固醇水平）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "cholesterol drug",
+        "lowering cholesterol",
+        "cholesterol levels"
+      ],
+      "examples": [
+        "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. 五十多年前研究者就发现：降胆固醇药辛伐他汀，晚上吃比白天吃更能降血脂。"
+      ],
+      "more": {
+        "confusables": "cholesterol / cholesterol-free（同族不同词形，注意词性与用法）"
+      }
+    },
+    "colleagues": {
+      "phonetic": "/ˈkɒliːɡz/",
+      "pos": "n.",
+      "sense": "同事（colleague 的复数）",
+      "lemma": "colleague",
+      "collocations": [
+        "a colleague of mine",
+        "colleagues at work"
+      ],
+      "examples": [
+        "She discussed it with colleagues. 她和同事讨论了这件事。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "colleague（同事）/ college（学院）"
+      }
+    },
+    "common": {
+      "phonetic": "/ˈkɒmən/",
+      "pos": "adj.",
+      "sense": "常见的、普遍的；共同的",
+      "collocations": [
+        "in common",
+        "common sense",
+        "common practice"
+      ],
+      "examples": [
+        "Paternity leave is becoming more common. 陪产假越来越普遍。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "common（常见/共同）/ ordinary（普通）/ usual（通常的）"
+      }
+    },
+    "consequently": {
+      "phonetic": "/ˈkɒnsɪkwəntli/",
+      "pos": "adv.",
+      "sense": "因此、所以、结果（表因果，正式）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "con-（加强）+ sequ（跟随，词根 sequ = follow，同 sequence/consequence/execute）+ -ent + -ly",
+        "confusables": "consequently（因此、结果，强调因果，常置句首用逗号隔开）/ subsequently（随后，强调时间先后）/ consequently 是副词，不能像 so 那样直接连接两句"
+      },
+      "collocations": [],
+      "examples": [
+        "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+      ]
+    },
+    "consider": {
+      "phonetic": "/kənˈsɪdə(r)/",
+      "pos": "v.",
+      "sense": "考虑、细想；认为、把…看作；顾及、体谅",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "consider doing（考虑做，接动名词，不接 to do）/ consider sb/sth (to be) + adj/n（认为…是）/ consider that（认为）/ take … into consideration（把…考虑在内）/ considerate（体贴的）与 considerable（相当大的）形近义远"
+      },
+      "collocations": [
+        "rarely consider"
+      ],
+      "examples": [
+        "When doctors prescribe medicine for people, they rarely consider the best time to take it. 医生给人开药时，几乎从不考虑什么时候吃效果最好。"
+      ]
+    },
+    "course": {
+      "phonetic": "/kɔːs/",
+      "pos": "n.",
+      "sense": "课程；过程、进程；路线（of course 当然）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "course of"
+      ],
+      "examples": [
+        "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. 也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。"
+      ],
+      "more": {
+        "confusables": "course / court / courage（同族不同词形，注意词性与用法）"
+      }
+    },
+    "currently": {
+      "phonetic": "/ˈkʌrəntli/",
+      "pos": "adv.",
+      "sense": "目前、当前",
+      "collocations": [
+        "currently available",
+        "currently working"
+      ],
+      "examples": [
+        "The tool is currently free. 该工具目前免费。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "currently（目前）/ actually（实际上）/ presently（不久/目前）"
+      }
+    },
+    "cycle": {
+      "phonetic": "/ˈsaɪkl/",
+      "pos": "n./v.",
+      "sense": "循环、周期；自行车、摩托车；骑自行车（本文 work-life balance is「a cycle, not an achievement」平衡是循环而非一劳永逸的成就）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "day-night cycle",
+        "hour cycle"
+      ],
+      "examples": [
+        "All living organisms on Earth are exposed to a 24-hour day-night cycle. 地球上所有生物都置身于昼夜交替的 24 小时循环里。"
+      ],
+      "more": {
+        "confusables": "cycle / cycling（同族不同词形，注意词性与用法）"
+      }
+    },
+    "daily": {
+      "phonetic": "/ˈdeɪli/",
+      "pos": "adj./adv.",
+      "sense": "每天的；每天",
+      "collocations": [
+        "daily actions",
+        "on a daily basis"
+      ],
+      "examples": [
+        "The shop opens daily. 这家店每天都开。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "daily 含 -ly（副词后缀）"
+      }
+    },
+    "day": {
+      "phonetic": "/deɪ/",
+      "pos": "n.",
+      "sense": "一天、白天；时期、时代（these days 如今）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "This cycle is the reason why people rest at night and are active during the day. 正是这个循环，决定了人夜里休息、白天活跃。"
+      ],
+      "more": {
+        "confusables": "day / day-to-day / days（同族不同词形，注意词性与用法）"
+      }
+    },
+    "depending": {
+      "phonetic": "/dɪˈpendɪŋ/",
+      "pos": "v./prep.",
+      "sense": "depend 的现在分词；（depending on）取决于",
+      "lemma": "depend",
+      "collocations": [
+        "depending on",
+        "depending on whether"
+      ],
+      "examples": [
+        "Results vary depending on the group. 结果因群体而异。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "depending on（取决于）/ depend on（依赖）"
+      }
+    },
+    "designed": {
+      "phonetic": "/dɪˈzaɪnd/",
+      "pos": "n./v.",
+      "sense": "设计（不可数/可数）；计划 / 设计（design 的过去式/过去分词形式）",
+      "lemma": "design",
+      "collocations": [
+        "designed to",
+        "designed to modify"
+      ],
+      "examples": [
+        "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. 也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "design + -ed（过去式/过去分词）",
+        "confusables": "designed（过去式/过去分词）/ design（原形）"
+      }
+    },
+    "determine": {
+      "phonetic": "/dɪˈtɜːmɪn/",
+      "pos": "v.",
+      "sense": "确定、决定；查明、测定（本文指 determine the meaning of words 判定词义 / determine the changes 决定做何改变）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "needed to determine"
+      ],
+      "examples": [
+        "More research is needed to determine the best times to administer treatments for different diseases. 还需要更多研究，来确定针对不同疾病的最佳治疗时机。"
+      ],
+      "more": {
+        "confusables": "determine / determination / determinant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "different": {
+      "phonetic": "/ˈdɪfrənt/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的",
+      "collocations": [
+        "different from",
+        "a different picture",
+        "different points of view"
+      ],
+      "examples": [
+        "Their experiences were considerably different. 他们的经历相当不同。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "different from（英式常用）/ different than（美式口语）/ different to（英式口语）"
+      }
+    },
+    "differently": {
+      "phonetic": "/ˈdɪfrəntli/",
+      "pos": "adj.",
+      "sense": "不同的；各种各样的（different 的副词形式）",
+      "lemma": "different",
+      "collocations": [
+        "react differently",
+        "differently to"
+      ],
+      "examples": [
+        "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. 也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "different + -ly（副词）",
+        "confusables": "differently（副词）/ different（原形）"
+      }
+    },
+    "directed": {
+      "phonetic": "/dəˈrektɪd/",
+      "pos": "adj./v.",
+      "sense": "定向的、有指导的、直截了当的；指导、指向、导演（过去式）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "directed to",
+        "directed to take"
+      ],
+      "examples": [
+        "Therefore, patients are directed to take most drugs during the morning or evening primarily to ensure compliance. 所以，医生多半只让病人早上或晚上吃药，主要图个「能按时吃上」。"
+      ],
+      "more": {
+        "confusables": "directed / direct / direction（同族不同词形，注意词性与用法）"
+      }
+    },
+    "diseases": {
+      "phonetic": "/dɪˈziːzz/",
+      "pos": "n.",
+      "sense": "疾病（可数/不可数）（disease 的复数/三单形式）",
+      "lemma": "disease",
+      "collocations": [
+        "different diseases"
+      ],
+      "examples": [
+        "More research is needed to determine the best times to administer treatments for different diseases. 还需要更多研究，来确定针对不同疾病的最佳治疗时机。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "disease + -s（复数/三单）",
+        "confusables": "diseases（复数/三单）/ disease（原形）"
+      }
+    },
+    "doctors": {
+      "phonetic": "/ˈdɒktəz/",
+      "pos": "n.",
+      "sense": "医生、大夫；博士（doctor 的复数）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "doctors prescribe"
+      ],
+      "examples": [
+        "When doctors prescribe medicine for people, they rarely consider the best time to take it. 医生给人开药时，几乎从不考虑什么时候吃效果最好。"
+      ]
+    },
+    "drug": {
+      "phonetic": "/drʌɡ/",
+      "pos": "n.",
+      "sense": "药物、药品；毒品",
+      "collocations": [
+        "drug research",
+        "a new drug"
+      ],
+      "examples": [
+        "Many drug targets in the body follow a 24-hour cycle, too. 人体内的许多药物作用靶点，同样遵循 24 小时节律。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "drug（药、药物；毒品，可数，贬义可专指毒品）/ medicine（药，治病用，不含毒品义）/ medication（药物，正式）/ take / be on drugs（服药或吸毒，视语境）/ drug 与 pharmacy（药房）"
+      }
+    },
+    "drugs": {
+      "phonetic": "/drʌɡz/",
+      "pos": "n.",
+      "sense": "药物、药品；毒品（drug 的复数/三单形式）",
+      "lemma": "drug",
+      "collocations": [
+        "drugs work",
+        "drugs target"
+      ],
+      "examples": [
+        "First, many physicians are not aware that some drugs work better during a specific time of the day. 其一，不少医生没意识到：有些药在一天里某个时段效果更好。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "drug + -s（复数/三单）",
+        "confusables": "drugs（复数/三单）/ drug（原形）"
+      }
+    },
+    "earth": {
+      "phonetic": "/ɜːθ/",
+      "pos": "n.",
+      "sense": "地球（the earth）；泥土；究竟（on earth）",
+      "collocations": [
+        "on earth",
+        "the earth's climate"
+      ],
+      "examples": [
+        "The earth's climate is changing. 地球气候正在改变。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "earth（地球/泥土）/ world（世界）"
+      }
+    },
+    "eating": {
+      "phonetic": "/ˈiːtɪŋ/",
+      "pos": "v./n.",
+      "sense": "eat 的现在分词；饮食（不可数）",
+      "lemma": "eat",
+      "collocations": [
+        "eating habits",
+        "healthy eating"
+      ],
+      "examples": [
+        "Healthy eating starts early. 健康饮食从小开始。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "eating（饮食）/ eat（吃）"
+      }
+    },
+    "effective": {
+      "phonetic": "/ɪˈfektɪv/",
+      "pos": "adj.",
+      "sense": "有效的、起作用的；实际的",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "effect（效果）+ -ive（形容词后缀）",
+        "confusables": "effective（有效的，指「达到预期效果」）/ efficient（效率高的，指「少投入多产出」）/ be effective against（对…有效，如药物）/ take effect（生效，动词短语）"
+      },
+      "collocations": [
+        "effective at",
+        "effective at lowering"
+      ],
+      "examples": [
+        "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. 五十多年前研究者就发现：降胆固醇药辛伐他汀，晚上吃比白天吃更能降血脂。"
+      ]
+    },
+    "effects": {
+      "phonetic": "/ɪˈfekts/",
+      "pos": "n./v.",
+      "sense": "影响、效果、作用（effect 的复数）；引起、实现（第三人称单数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "effect（效果）+ -s（复数）",
+        "confusables": "effect（效果、影响，可数）/ side effects（副作用）/ have an effect on（介词 on）/ cause and effect（因果）/ affect（动词「影响」，勿混）"
+      },
+      "collocations": [
+        "side effects",
+        "different effects"
+      ],
+      "examples": [
+        "Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects. 既然身体对药物的反应会随服药时间而变，那么顺理成章地，选对时间吃药就能提高药效、减少副作用。"
+      ]
+    },
+    "ensure": {
+      "phonetic": "/ɪnˈʃʊə(r)/",
+      "pos": "v.",
+      "sense": "确保、保证、使安全（ensure that）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "en-（使…）+ sure（确定）→ 使确定 → 确保",
+        "confusables": "ensure（确保，及物，ensure that / ensure sth）/ insure（给…投保；美语也作确保）/ assure（向某人保证，assure sb that，须接人）/ make sure（口语）/ ensure 不接 sb that"
+      },
+      "collocations": [
+        "ensure compliance",
+        "primarily to ensure"
+      ],
+      "examples": [
+        "Therefore, patients are directed to take most drugs during the morning or evening primarily to ensure compliance. 所以，医生多半只让病人早上或晚上吃药，主要图个「能按时吃上」。"
+      ]
+    },
+    "example": {
+      "phonetic": "/ɪɡˈzɑːmpl/",
+      "pos": "n.",
+      "sense": "例子、实例；榜样",
+      "collocations": [
+        "for example",
+        "an example of",
+        "set an example"
+      ],
+      "examples": [
+        "For example, texting and reading coexist. 例如，发短信和读书并存。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "for example（插入语，缩写 e.g.）/ such as（后接名词）"
+      }
+    },
+    "exercise": {
+      "phonetic": "/ˈeksəsaɪz/",
+      "pos": "n./v.",
+      "sense": "锻炼（不可数）；练习、习题（可数）/ 锻炼",
+      "collocations": [
+        "do exercise",
+        "regular exercise",
+        "an exercise in sth"
+      ],
+      "examples": [
+        "Regular exercise improves sleep. 规律锻炼能改善睡眠。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "exercise（锻炼，不可数）/ exercises（练习题，可数）"
+      }
+    },
+    "fat": {
+      "phonetic": "/fæt/",
+      "pos": "adj./n.",
+      "sense": "胖的；脂肪（不可数）",
+      "collocations": [
+        "low in fat",
+        "body fat"
+      ],
+      "examples": [
+        "Diets low in fat are not always healthier. 低脂饮食不一定更健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "fat（脂肪/胖）/ fatty（含脂肪的）"
+      }
+    },
+    "first": {
+      "phonetic": "/fɜːst/",
+      "pos": "num./adj./adv.",
+      "sense": "第一；最早的；首先、初次",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "First, many physicians are not aware that some drugs work better during a specific time of the day. 其一，不少医生没意识到：有些药在一天里某个时段效果更好。"
+      ]
+    },
+    "follow": {
+      "phonetic": "/ˈfɒləʊ/",
+      "pos": "v.",
+      "sense": "跟随、接着发生；遵循、听从；听懂、关注；沿着",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "body follow"
+      ],
+      "examples": [
+        "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+      ],
+      "more": {
+        "confusables": "follow / follow-up / following（同族不同词形，注意词性与用法）"
+      }
+    },
+    "follows": {
+      "phonetic": "/ˈfɒləʊz/",
+      "pos": "v.",
+      "sense": "跟随、接着发生；遵循、听从；听懂、关注；沿着（follow 的复数/三单形式）",
+      "lemma": "follow",
+      "collocations": [
+        "logically follows"
+      ],
+      "examples": [
+        "Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects. 既然身体对药物的反应会随服药时间而变，那么顺理成章地，选对时间吃药就能提高药效、减少副作用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "follow + -s（复数/三单）",
+        "confusables": "follows（复数/三单）/ follow（原形）"
+      }
+    },
+    "food": {
+      "phonetic": "/fuːd/",
+      "pos": "n.",
+      "sense": "食物（一般不可数）",
+      "collocations": [
+        "food supply",
+        "fast food",
+        "food security"
+      ],
+      "examples": [
+        "Food prices are rising. 食品价格在上涨。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "food（食物，泛指不可数）/ foods（多种食品，可数）"
+      }
+    },
+    "found": {
+      "phonetic": "/faʊnd/",
+      "pos": "v.",
+      "sense": "find 的过去式与过去分词（发现）；另作独立动词「创建、创办」",
+      "lemma": "find",
+      "collocations": [
+        "found that...",
+        "be found to be",
+        "found a company"
+      ],
+      "examples": [
+        "Researchers found a clear link. 研究者发现了明确的关联。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "found（find 的过去式）/ find（原形）/ founded（创建，独立动词的过去式）"
+      }
+    },
+    "functions": {
+      "phonetic": "/ˈfʌŋkʃnz/",
+      "pos": "n./v.",
+      "sense": "功能、作用、职能；函数；运作、起作用（function as 充当）（function 的复数/三单形式）",
+      "lemma": "function",
+      "collocations": [
+        "body functions"
+      ],
+      "examples": [
+        "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "function + -s（复数/三单）",
+        "confusables": "functions（复数/三单）/ function（原形）"
+      }
+    },
+    "gain": {
+      "phonetic": "/ɡeɪn/",
+      "pos": "v./n.",
+      "sense": "获得、赢得、增加、受益；（钟）走快；收益、增加、好处",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "weight gain",
+        "gain over",
+        "gain over time"
+      ],
+      "examples": [
+        "For example, eating at night can lead to weight gain over time because food intake at night leads to increased fat storage. 比如，夜里吃东西久而久之会让人发胖，因为夜间进食会促使脂肪更多地囤积。"
+      ],
+      "more": {
+        "confusables": "gain / gains（同族不同词形，注意词性与用法）"
+      }
+    },
+    "guidelines": {
+      "phonetic": "/ˈɡaɪdlaɪnz/",
+      "pos": "n.",
+      "sense": "准则、指导原则（guideline 的复数）",
+      "lemma": "guideline",
+      "collocations": [
+        "follow guidelines",
+        "issue guidelines"
+      ],
+      "examples": [
+        "New guidelines were issued last month. 上个月发布了新准则。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "guidelines（准则）/ rules（规则）"
+      }
+    },
+    "harm": {
+      "phonetic": "/hɑːm/",
+      "pos": "n./v.",
+      "sense": "伤害、损害、危害（do harm to 对…有害）；伤害、损害",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "cause harm"
+      ],
+      "examples": [
+        "Taking medicine at the wrong time can even cause harm. 吃错时间，甚至可能有害。"
+      ],
+      "more": {
+        "confusables": "harm / harmonise / harmful（同族不同词形，注意词性与用法）"
+      }
+    },
+    "health": {
+      "phonetic": "/helθ/",
+      "pos": "n.",
+      "sense": "健康；医疗、卫生",
+      "collocations": [
+        "mental health",
+        "public health",
+        "health care"
+      ],
+      "examples": [
+        "Social ties affect health. 社会联系影响健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "whole（完整）+ -th → 身心完整",
+        "confusables": "health（名词）/ healthy（形容词）"
+      }
+    },
+    "heart": {
+      "phonetic": "/hɑːt/",
+      "pos": "n.",
+      "sense": "心、心脏；内心、核心、要点（本文 a racing heart 怦怦直跳的心 / heart disease 心脏病 / by heart 熟记）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "heart at",
+        "heart at night"
+      ],
+      "examples": [
+        "My colleagues and I wondered whether midazolam, the most common sedative(镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night. 我和同事好奇：全世界手术中最常用的镇静剂咪达唑仑，会不会搅乱夜里护心的体内生物钟。"
+      ],
+      "more": {
+        "confusables": "heart / hear / hearing（同族不同词形，注意词性与用法）"
+      }
+    },
+    "help": {
+      "phonetic": "/help/",
+      "pos": "v./n.",
+      "sense": "帮助（help sb do sth / help with）；帮助（不可数）",
+      "collocations": [
+        "help sb do sth",
+        "help with",
+        "can't help doing"
+      ],
+      "examples": [
+        "Instincts can help you decide fast. 直觉能帮你快速决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "help sb do/to do（不带 doing）/ can't help doing（忍不住）"
+      }
+    },
+    "hour": {
+      "phonetic": "/ˈaʊə/",
+      "pos": "n.",
+      "sense": "小时、钟头、一段时间、时刻、课时、固定时间（复数 hours；rush hour 高峰时段；for hours 好几个小时）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "hour day-night",
+        "hour cycle",
+        "hour time"
+      ],
+      "examples": [
+        "All living organisms on Earth are exposed to a 24-hour day-night cycle. 地球上所有生物都置身于昼夜交替的 24 小时循环里。"
+      ],
+      "more": {
+        "confusables": "hour / hours / hourly（同族不同词形，注意词性与用法）"
+      }
+    },
+    "human": {
+      "phonetic": "/ˈhjuːmən/",
+      "pos": "adj./n.",
+      "sense": "人的、人类的、有人情味的；人、人类（human being）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "human body"
+      ],
+      "examples": [
+        "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+      ],
+      "more": {
+        "confusables": "human / humanity / human-made（同族不同词形，注意词性与用法）"
+      }
+    },
+    "increase": {
+      "phonetic": "/ɪnˈkriːs/",
+      "pos": "v./n.",
+      "sense": "增加（动词读 /ɪnˈkriːs/）；增加（名词读 /ˈɪnkriːs/）",
+      "collocations": [
+        "increase in sth",
+        "increase the chances of",
+        "a sharp increase"
+      ],
+      "examples": [
+        "More women reported an increase in responsibilities. 更多女性报告责任增加。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increase（动词）/ increase in（名词 + 介词）"
+      }
+    },
+    "increased": {
+      "phonetic": "/ɪnˈkriːst/",
+      "pos": "v./adj.",
+      "sense": "increase 的过去式/过去分词（增加）；增加的",
+      "lemma": "increase",
+      "collocations": [
+        "increased responsibilities",
+        "increased risk"
+      ],
+      "examples": [
+        "14% said job satisfaction increased. 14% 说工作满意度上升了。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "increased（增加的，作定语）/ increasing（不断增加的）"
+      }
+    },
+    "influence": {
+      "phonetic": "/ˈɪnfluəns/",
+      "pos": "n./v.",
+      "sense": "影响",
+      "collocations": [
+        "influence on",
+        "have an influence"
+      ],
+      "examples": [
+        "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "influence（影响，名词；及物动词，直接接宾语，不加介词）/ have an influence on/upon（介词 on）/ influence sb to do / influence 与 affect（动词）/ effect（名词）/ under the influence of（在…影响下）"
+      }
+    },
+    "intake": {
+      "phonetic": "/ˈɪnteɪk/",
+      "pos": "n.",
+      "sense": "摄入（量）、吸入（量）；纳入（人数）、招生数；进气 / 进水口（recommended intake 建议摄入量）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "food intake",
+        "intake at",
+        "intake at night"
+      ],
+      "examples": [
+        "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+      ]
+    },
+    "lead": {
+      "phonetic": "/liːd/",
+      "pos": "v./n.",
+      "sense": "导致（lead to）；领导、带领 / 领先",
+      "collocations": [
+        "lead to",
+        "lead a parade",
+        "take the lead"
+      ],
+      "examples": [
+        "Isolation can lead to poor health. 孤立可能导致健康不佳。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "lead to（导致）/ lead（铅，读 /led/）/ led（过去式）"
+      }
+    },
+    "leads": {
+      "phonetic": "/liːddz/",
+      "pos": "v./n.",
+      "sense": "导致（lead to）；领导、带领 / 领先（lead 的复数/三单形式）",
+      "lemma": "lead",
+      "collocations": [
+        "night leads",
+        "leads to",
+        "leads to increased"
+      ],
+      "examples": [
+        "For example, eating at night can lead to weight gain over time because food intake at night leads to increased fat storage. 比如，夜里吃东西久而久之会让人发胖，因为夜间进食会促使脂肪更多地囤积。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "lead + -s（复数/三单）",
+        "confusables": "leads（复数/三单）/ lead（原形）"
+      }
+    },
+    "levels": {
+      "phonetic": "/ˈlevlz/",
+      "pos": "n./adj./v.",
+      "sense": "水平、程度、级别、层次；平的、同高度的；弄平、使持平（level 的复数/三单形式）",
+      "lemma": "level",
+      "collocations": [
+        "cholesterol levels"
+      ],
+      "examples": [
+        "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. 五十多年前研究者就发现：降胆固醇药辛伐他汀，晚上吃比白天吃更能降血脂。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "level + -s（复数/三单）",
+        "confusables": "levels（复数/三单）/ level（原形）"
+      }
+    },
+    "like": {
+      "phonetic": "/laɪk/",
+      "pos": "prep./v./conj.",
+      "sense": "像（介词）；喜欢（动词）；口语连词「像……那样」",
+      "collocations": [
+        "like this",
+        "feel like",
+        "such as"
+      ],
+      "examples": [
+        "Tools like this save time. 这样的工具能省时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "like（介词，后接名词）/ as（连词，后接从句）"
+      }
+    },
+    "liver": {
+      "phonetic": "/ˈlɪvə/",
+      "pos": "n.",
+      "sense": "肝、肝脏；（食用的）肝；营养/健康话题中常与蛋白质代谢并提",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "liver enzyme"
+      ],
+      "examples": [
+        "This is because the liver enzyme(酶) these drugs target is more active at night. 原因就在于：这些药物瞄准的肝脏酶，到了夜里更活跃。"
+      ],
+      "more": {
+        "confusables": "liver / live / livelier（同族不同词形，注意词性与用法）"
+      }
+    },
+    "living": {
+      "phonetic": "/ˈlɪvɪŋ/",
+      "pos": "adj./n./v.",
+      "sense": "活着的、现存的；生计、生活方式；生活、居住（live 的现在分词）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "living organisms"
+      ],
+      "examples": [
+        "All living organisms on Earth are exposed to a 24-hour day-night cycle. 地球上所有生物都置身于昼夜交替的 24 小时循环里。"
+      ]
+    },
+    "logically": {
+      "phonetic": "/ˈlɒdʒɪkli/",
+      "pos": "adv.",
+      "sense": "逻辑上、合乎逻辑地、按理说",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "logically follows"
+      ],
+      "examples": [
+        "Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects. 既然身体对药物的反应会随服药时间而变，那么顺理成章地，选对时间吃药就能提高药效、减少副作用。"
+      ],
+      "more": {
+        "confusables": "logically / logical（同族不同词形，注意词性与用法）"
+      }
+    },
+    "lowering": {
+      "phonetic": "/ˈləʊə(r)ɪŋ/",
+      "pos": "v./adj.",
+      "sense": "降低（动词）；更低的（low 的比较级）（lower 的现在分词/动名词形式）",
+      "lemma": "lower",
+      "collocations": [
+        "lowering cholesterol",
+        "effective at lowering"
+      ],
+      "examples": [
+        "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. 五十多年前研究者就发现：降胆固醇药辛伐他汀，晚上吃比白天吃更能降血脂。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "lower + -ing（现在分词/动名词）",
+        "confusables": "lowering（现在分词/动名词）/ lower（原形）"
+      }
+    },
+    "main": {
+      "phonetic": "/meɪn/",
+      "pos": "adj./n.",
+      "sense": "主要的、最重要的、总的；总管道、干线、（the mains）市政电源/水源",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "two main",
+        "main reasons"
+      ],
+      "examples": [
+        "There are two main reasons for that oversight. 这种疏忽主要有两个原因。"
+      ],
+      "more": {
+        "confusables": "main / maintain / mainstream（同族不同词形，注意词性与用法）"
+      }
+    },
+    "make": {
+      "phonetic": "/meɪk/",
+      "pos": "v.",
+      "sense": "做、制造；使得；获得、挣得（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "make（做、制造；使得；获得）/ make sb do（使某人做，不带 to；被动变 be made to do）/ make + 宾语 + 形容词（make it clear）/ make 与 do（do 指做抽象事务，make 指制作/产生）/ make a decision / mistake（用 make 不用 do）"
+      },
+      "collocations": [
+        "help make",
+        "make treatments"
+      ],
+      "examples": [
+        "I believe taking drug timing into account could help make treatments more effective and help more people worldwide. 我认为，把服药时机纳入考量，能让治疗更有效，也能惠及全球更多人。"
+      ]
+    },
+    "means": {
+      "phonetic": "/miːnz/",
+      "pos": "v./n.",
+      "sense": "mean 的第三人称单数；手段、方法（单复同形）",
+      "lemma": "mean",
+      "collocations": [
+        "by means of",
+        "a means of",
+        "by no means"
+      ],
+      "examples": [
+        "She argues the data means little. 她认为这些数据意义不大。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "by no means（绝不）/ by all means（当然可以）/ means（单复同形）"
+      }
+    },
+    "medicine": {
+      "phonetic": "/ˈmedsn/",
+      "pos": "n.",
+      "sense": "医学（不可数）；药物（可数/不可数）",
+      "collocations": [
+        "study medicine",
+        "take medicine"
+      ],
+      "examples": [
+        "She studied medicine at university. 她在大学学医。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "medic（医治，词根 med = heal，同 medical/remedy/medication）+ -ine（名词后缀）",
+        "confusables": "medicine（药物/医学）/ drug（药物/毒品）/ medication（药物，正式）"
+      }
+    },
+    "medicines": {
+      "phonetic": "/ˈmedsnz/",
+      "pos": "n.",
+      "sense": "医学（不可数）；药物（可数/不可数）（medicine 的复数/三单形式）",
+      "lemma": "medicine",
+      "collocations": [
+        "taking medicines",
+        "medicines at",
+        "medicines at specific"
+      ],
+      "examples": [
+        "Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects. 既然身体对药物的反应会随服药时间而变，那么顺理成章地，选对时间吃药就能提高药效、减少副作用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "medicine + -s（复数/三单）",
+        "confusables": "medicines（复数/三单）/ medicine（原形）"
+      }
+    },
+    "modify": {
+      "phonetic": "/ˈmɒdɪfaɪ/",
+      "pos": "v.",
+      "sense": "修改、更改、调整；（语法）修饰（科技文中常指改造基因、修改设计）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "designed to modify"
+      ],
+      "examples": [
+        "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. 也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。"
+      ],
+      "more": {
+        "confusables": "modify / modifications（同族不同词形，注意词性与用法）"
+      }
+    },
+    "needed": {
+      "phonetic": "/niːdɪd/",
+      "pos": "v./n.",
+      "sense": "需要（情态/实义动词）；需要、需求（名词）（need 的过去式/过去分词形式）",
+      "lemma": "need",
+      "collocations": [
+        "needed to",
+        "needed to determine"
+      ],
+      "examples": [
+        "More research is needed to determine the best times to administer treatments for different diseases. 还需要更多研究，来确定针对不同疾病的最佳治疗时机。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "need + -ed（过去式/过去分词）",
+        "confusables": "needed（过去式/过去分词）/ need（原形）"
+      }
+    },
+    "night": {
+      "phonetic": "/naɪt/",
+      "pos": "n.",
+      "sense": "夜晚，夜间",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "rest at night",
+        "eating at night",
+        "night leads"
+      ],
+      "examples": [
+        "This cycle is the reason why people rest at night and are active during the day. 正是这个循环，决定了人夜里休息、白天活跃。"
+      ]
+    },
+    "patients": {
+      "phonetic": "/ˈpeɪʃntts/",
+      "pos": "n./adj.",
+      "sense": "病人、患者；有耐心的、忍耐的（be patient with sb）（patient 的复数/三单形式）",
+      "lemma": "patient",
+      "collocations": [],
+      "examples": [
+        "Therefore, patients are directed to take most drugs during the morning or evening primarily to ensure compliance. 所以，医生多半只让病人早上或晚上吃药，主要图个「能按时吃上」。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "patient + -s（复数/三单）",
+        "confusables": "patients（复数/三单）/ patient（原形）"
+      }
+    },
+    "people": {
+      "phonetic": "/ˈpiːpl/",
+      "pos": "n.",
+      "sense": "人们（复数集合名词，谓语用复数）；民族（可数）",
+      "collocations": [
+        "young people",
+        "people in business",
+        "a lot of people"
+      ],
+      "examples": [
+        "Most people agree on this point. 多数人同意这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "people（人们，复数）/ person（一个人）/ peoples（多个民族）"
+      }
+    },
+    "period": {
+      "phonetic": "/ˈpɪəriəd/",
+      "pos": "n.",
+      "sense": "时期、一段时间、时代；课时、一节课；句号；经期",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "peri-（周围）+ hod（路，词根 hod = way，同 method）",
+        "confusables": "period（时期；句号；课时，可数）/ a period of（一段…时期）/ era / epoch（时代，更宏大）/ full stop（英式「句号」）/ period 与 point（小数点不是 period）"
+      },
+      "collocations": [
+        "time period"
+      ],
+      "examples": [
+        "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. 也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。"
+      ]
+    },
+    "physicians": {
+      "phonetic": "/fɪˈzɪʃnz/",
+      "pos": "n.",
+      "sense": "医生、内科医师（physician 的复数，正式用语；日常多用 doctor）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "First, many physicians are not aware that some drugs work better during a specific time of the day. 其一，不少医生没意识到：有些药在一天里某个时段效果更好。"
+      ]
+    },
+    "possible": {
+      "phonetic": "/ˈpɒsəbl/",
+      "pos": "adj.",
+      "sense": "可能的；可行的",
+      "collocations": [
+        "as soon as possible",
+        "it is possible to",
+        "the best possible"
+      ],
+      "examples": [
+        "They arrive at the best possible decisions. 他们做出尽可能最好的决定。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "possible（可能）/ possibly（副词）/ probable（更可能）"
+      }
+    },
+    "primarily": {
+      "phonetic": "/ˈpraɪmərəli/",
+      "pos": "adv.",
+      "sense": "主要地、首要地、根本上、首先",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "primary（首要的，prim 第一，词根）+ -ly（副词后缀）",
+        "confusables": "primarily（主要地、首要地，副词）/ primary（首要的；初级的，形容词）/ mainly / principally（近义）/ primary school（小学，英式）"
+      },
+      "collocations": [
+        "evening primarily",
+        "primarily to",
+        "primarily to ensure"
+      ],
+      "examples": [
+        "Therefore, patients are directed to take most drugs during the morning or evening primarily to ensure compliance. 所以，医生多半只让病人早上或晚上吃药，主要图个「能按时吃上」。"
+      ]
+    },
+    "procedures": {
+      "phonetic": "/prəˈsiːdʒəz/",
+      "pos": "n.",
+      "sense": "程序、步骤、手续、流程、常规做法；（外科）手术（standard procedure 标准流程）（procedure 的复数/三单形式）",
+      "lemma": "procedure",
+      "collocations": [
+        "surgical procedures",
+        "procedures worldwide"
+      ],
+      "examples": [
+        "My colleagues and I wondered whether midazolam, the most common sedative(镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night. 我和同事好奇：全世界手术中最常用的镇静剂咪达唑仑，会不会搅乱夜里护心的体内生物钟。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "procedure + -s（复数/三单）",
+        "confusables": "procedures（复数/三单）/ procedure（原形）"
+      }
+    },
+    "protects": {
+      "phonetic": "/prəˈtektts/",
+      "pos": "v.",
+      "sense": "保护（protect sb from sth）（protect 的复数/三单形式）",
+      "lemma": "protect",
+      "collocations": [],
+      "examples": [
+        "My colleagues and I wondered whether midazolam, the most common sedative(镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night. 我和同事好奇：全世界手术中最常用的镇静剂咪达唑仑，会不会搅乱夜里护心的体内生物钟。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "protect + -s（复数/三单）",
+        "confusables": "protects（复数/三单）/ protect（原形）"
+      }
+    },
+    "proteins": {
+      "phonetic": "/ˈprəʊtiːnz/",
+      "pos": "n.",
+      "sense": "蛋白质（可数/不可数）（protein 的复数/三单形式）",
+      "lemma": "protein",
+      "collocations": [
+        "specific proteins"
+      ],
+      "examples": [
+        "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. 也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "protein + -s（复数/三单）",
+        "confusables": "proteins（复数/三单）/ protein（原形）"
+      }
+    },
+    "rarely": {
+      "phonetic": "/ˈreəli/",
+      "pos": "adv.",
+      "sense": "很少、难得、罕有地（否定副词，置句首时主句部分倒装）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "rarely consider"
+      ],
+      "examples": [
+        "When doctors prescribe medicine for people, they rarely consider the best time to take it. 医生给人开药时，几乎从不考虑什么时候吃效果最好。"
+      ],
+      "more": {
+        "roots": "rarely 含 -ly（副词后缀）"
+      }
+    },
+    "rather": {
+      "phonetic": "/ˈrɑːðə(r)/",
+      "pos": "adv.",
+      "sense": "相当；rather than 而不是",
+      "collocations": [
+        "rather than",
+        "but rather"
+      ],
+      "examples": [
+        "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. 五十多年前研究者就发现：降胆固醇药辛伐他汀，晚上吃比白天吃更能降血脂。"
+      ],
+      "isCet4HighFreq": true
+    },
+    "react": {
+      "phonetic": "/riˈækt/",
+      "pos": "v.",
+      "sense": "反应；作出反应；反对",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "react differently"
+      ],
+      "examples": [
+        "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. 也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。"
+      ]
+    },
+    "reason": {
+      "phonetic": "/ˈriːzn/",
+      "pos": "n./v.",
+      "sense": "原因、理由、道理；理性、理智；推理、推断、劝说",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "This cycle is the reason why people rest at night and are active during the day. 正是这个循环，决定了人夜里休息、白天活跃。"
+      ],
+      "more": {
+        "confusables": "reason / reasoning / reasoned（同族不同词形，注意词性与用法）"
+      }
+    },
+    "reasons": {
+      "phonetic": "/ˈriːznz/",
+      "pos": "n./v.",
+      "sense": "原因、理由、道理、理性（复数）；推理、推断（第三人称单数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "reason（原因、理由）+ -s（复数）",
+        "confusables": "reason（原因、理由，可数；理性，不可数）/ reason for（介词 for，不用 of）/ the reason why/that（…的原因）/ The reason is that…（表语从句用 that，不用 because）/ cause（强调直接导致）"
+      },
+      "collocations": [
+        "main reasons",
+        "reasons for"
+      ],
+      "examples": [
+        "There are two main reasons for that oversight. 这种疏忽主要有两个原因。"
+      ]
+    },
+    "reduce": {
+      "phonetic": "/rɪˈdjuːs/",
+      "pos": "v.",
+      "sense": "减少、降低（及物）；使沦为（reduce to）",
+      "collocations": [
+        "reduce the likelihood",
+        "reduce stress",
+        "reduce to"
+      ],
+      "examples": [
+        "Data reduces the likelihood of errors. 数据能降低出错的可能性。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "reduce（及物，减少某物）/ decrease（不及物，自身减少）/ lower（降低）"
+      }
+    },
+    "regarding": {
+      "phonetic": "/rɪˈɡɑːdɪŋ/",
+      "pos": "v./n.",
+      "sense": "认为、看作、看待；关注、尊重、致意（regard A as B / in regard to / with regard to）（regard 的现在分词/动名词形式）",
+      "lemma": "regard",
+      "collocations": [
+        "guidelines regarding"
+      ],
+      "examples": [
+        "Currently, there are no guidelines regarding when midazolam should be administered. 眼下，至于咪达唑仑该什么时候用，根本没有指南。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "regard + -ing（现在分词/动名词）",
+        "confusables": "regarding（现在分词/动名词）/ regard（原形）"
+      }
+    },
+    "research": {
+      "phonetic": "/rɪˈsɜːtʃ/",
+      "pos": "n./v.",
+      "sense": "研究（不可数）；调查 / 研究",
+      "collocations": [
+        "a body of research",
+        "research on sth",
+        "research shows"
+      ],
+      "examples": [
+        "A growing body of research supports this. 越来越多的研究支持这一点。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "research（不可数）/ study（可数，一项研究）/ researches（罕用）"
+      }
+    },
+    "researchers": {
+      "phonetic": "/rɪˈsɜːtʃəz/",
+      "pos": "n.",
+      "sense": "researcher 的复数，研究人员",
+      "collocations": [
+        "researchers found"
+      ],
+      "examples": [
+        "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. 五十多年前研究者就发现：降胆固醇药辛伐他汀，晚上吃比白天吃更能降血脂。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "researchers / researcher（同族不同词形，注意词性与用法）"
+      }
+    },
+    "rest": {
+      "phonetic": "/rest/",
+      "pos": "n./v.",
+      "sense": "休息、睡眠；其余、剩余部分、其他人；倚靠、搁置、取决于",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "people rest",
+        "rest at",
+        "rest at night"
+      ],
+      "examples": [
+        "This cycle is the reason why people rest at night and are active during the day. 正是这个循环，决定了人夜里休息、白天活跃。"
+      ],
+      "more": {
+        "confusables": "rest / restrain / restrictions（同族不同词形，注意词性与用法）"
+      }
+    },
+    "second": {
+      "phonetic": "/ˈsekənd/",
+      "pos": "n./adj./v.",
+      "sense": "秒、瞬间、片刻；第二（的）、次等的、另一的；支持、附议（动词读 /sɪˈkɒnd/）",
+      "isCet4HighFreq": true,
+      "collocations": [],
+      "examples": [
+        "And second, most drugs have not been studied for possible different effects during a 24-hour cycle. 其二，多数药物在 24 小时周期里会不会有不同效果，还没被研究过。"
+      ],
+      "more": {
+        "confusables": "second / secondary（同族不同词形，注意词性与用法）"
+      }
+    },
+    "side": {
+      "phonetic": "/saɪd/",
+      "pos": "n./adj.",
+      "sense": "一边、方面（可数）；旁边的",
+      "collocations": [
+        "on the other side",
+        "side effects",
+        "side by side"
+      ],
+      "examples": [
+        "On the other side of the coin, there are optimists. 反过来说，也有乐观者。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "on the other side（另一方面）/ on the other hand（另一方面，更常用）"
+      }
+    },
+    "significantly": {
+      "phonetic": "/sɪɡˈnɪfɪkəntli/",
+      "pos": "adv.",
+      "sense": "显著地、明显地",
+      "collocations": [
+        "significantly influence"
+      ],
+      "examples": [
+        "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "significantly / significant（同族不同词形，注意词性与用法）"
+      }
+    },
+    "specific": {
+      "phonetic": "/spəˈsɪfɪk/",
+      "pos": "adj.",
+      "sense": "具体的、明确的、特定的、特有的（specific to 为…所特有）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "speci（种类，词根，同 species/specify）+ -fic（做，词根）",
+        "confusables": "specific（明确的、特定的，形容词）/ be specific about（对…说清楚，介词 about）/ specifically（明确地；专门地，副词）/ specifics（具体细节，复数名词）/ specify（明确说明，动词）"
+      },
+      "collocations": [
+        "specific proteins",
+        "specific times",
+        "medicines at specific"
+      ],
+      "examples": [
+        "This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24-hour time period. 也就是说，药物本要调控的那些特定蛋白质，在一天 24 小时里对药物的反应会不一样。"
+      ]
+    },
+    "storage": {
+      "phonetic": "/ˈstɔːrɪdʒ/",
+      "pos": "n.",
+      "sense": "储存（不可数）；存储空间",
+      "collocations": [
+        "food storage",
+        "data storage"
+      ],
+      "examples": [
+        "Better storage reduces spoilage. 更好的储存减少腐坏。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "storage（储存）/ store（储存/商店）"
+      }
+    },
+    "studied": {
+      "phonetic": "/ˈstʌdid/",
+      "pos": "n./v.",
+      "sense": "研究、调查；学习 / 研究、学习（study 的过去式/过去分词形式）",
+      "lemma": "study",
+      "collocations": [
+        "studied for",
+        "studied for possible"
+      ],
+      "examples": [
+        "And second, most drugs have not been studied for possible different effects during a 24-hour cycle. 其二，多数药物在 24 小时周期里会不会有不同效果，还没被研究过。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "study + -ied（过去式/过去分词）",
+        "confusables": "studied（过去式/过去分词）/ study（原形）"
+      }
+    },
+    "surgical": {
+      "phonetic": "/ˈsɜːdʒɪkl/",
+      "pos": "adj.",
+      "sense": "外科的、手术的、外科手术用的（surgical procedure 外科手术）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "surgical procedures",
+        "used in surgical"
+      ],
+      "examples": [
+        "My colleagues and I wondered whether midazolam, the most common sedative(镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night. 我和同事好奇：全世界手术中最常用的镇静剂咪达唑仑，会不会搅乱夜里护心的体内生物钟。"
+      ]
+    },
+    "take": {
+      "phonetic": "/teɪk/",
+      "pos": "v.",
+      "sense": "拿、带；花费、需要；采取、接受（本文按语境取义）",
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "take（带走，离开说话人；it takes sb time to do 花费；拿、乘坐）/ bring（带来，朝说话人）/ fetch（去取来）/ spend（人作主语：sb spends … on/doing）/ cost（物作主语：sth costs sb …）/ take part in（参加）、take place（发生，无被动）"
+      },
+      "collocations": [
+        "time to take",
+        "directed to take"
+      ],
+      "examples": [
+        "When doctors prescribe medicine for people, they rarely consider the best time to take it. 医生给人开药时，几乎从不考虑什么时候吃效果最好。"
+      ]
+    },
+    "taken": {
+      "phonetic": "/ˈteɪkən/",
+      "pos": "v.",
+      "sense": "拿、带、采取、花费、理解（take 的过去分词；本文 be taken seriously 被认真对待 / be taken in 被接纳）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "taken at",
+        "taken at night"
+      ],
+      "examples": [
+        "Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects. 既然身体对药物的反应会随服药时间而变，那么顺理成章地，选对时间吃药就能提高药效、减少副作用。"
+      ],
+      "more": {
+        "confusables": "taken / take / take-home（同族不同词形，注意词性与用法）"
+      }
+    },
+    "taking": {
+      "phonetic": "/teɪkɪŋ/",
+      "pos": "v.",
+      "sense": "拿、带；花费、需要；采取、接受（本文按语境取义）（take 的现在分词/动名词形式）",
+      "lemma": "take",
+      "collocations": [
+        "taking medicines",
+        "Taking medicine",
+        "believe taking"
+      ],
+      "examples": [
+        "Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects. 既然身体对药物的反应会随服药时间而变，那么顺理成章地，选对时间吃药就能提高药效、减少副作用。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "take + -ing（现在分词/动名词）",
+        "confusables": "taking（现在分词/动名词）/ take（原形）"
+      }
+    },
+    "target": {
+      "phonetic": "/ˈtɑːɡɪt/",
+      "pos": "n.",
+      "sense": "目标；靶子；对象",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "drugs target"
+      ],
+      "examples": [
+        "This is because the liver enzyme(酶) these drugs target is more active at night. 原因就在于：这些药物瞄准的肝脏酶，到了夜里更活跃。"
+      ],
+      "more": {
+        "confusables": "target / targets（同族不同词形，注意词性与用法）"
+      }
+    },
+    "targets": {
+      "phonetic": "/ˈtɑːɡɪts/",
+      "pos": "n./v.",
+      "sense": "目标、对象、靶子、指标（复数）；把…作为目标、瞄准（三单）",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "drug targets",
+        "targets in"
+      ],
+      "examples": [
+        "Many drug targets in the body follow a 24-hour cycle, too. 人体内的许多药物作用靶点，同样遵循 24 小时节律。"
+      ],
+      "more": {
+        "confusables": "targets / target（同族不同词形，注意词性与用法）"
+      }
+    },
+    "therefore": {
+      "phonetic": "/ˈðeəfɔː(r)/",
+      "pos": "adv.",
+      "sense": "因此（正式，连接因果）",
+      "collocations": [
+        "therefore, ...",
+        "and therefore"
+      ],
+      "examples": [
+        "The data is limited; therefore instinct matters. 数据有限，因此直觉重要。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "therefore（因此，正式）/ so（所以，口语）/ thus（因此，书面）"
+      }
+    },
+    "time": {
+      "phonetic": "/taɪm/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时",
+      "collocations": [
+        "at the same time",
+        "take time off",
+        "for the first time"
+      ],
+      "examples": [
+        "It takes time to change habits. 改变习惯需要时间。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "synonyms": "period, moment, occasion",
+        "confusables": "times（时代）/ time（时间，不可数）"
+      }
+    },
+    "times": {
+      "phonetic": "/taɪmz/",
+      "pos": "n.",
+      "sense": "次数；时代（time 的复数）；乘以",
+      "lemma": "time",
+      "collocations": [
+        "three times",
+        "at times",
+        "in modern times"
+      ],
+      "examples": [
+        "He won three times. 他赢过三次。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "times（次数/时代）/ time（时间）"
+      }
+    },
+    "timing": {
+      "phonetic": "/taɪmɪŋ/",
+      "pos": "n./v.",
+      "sense": "时间；次数；时机 / 计时（time 的现在分词/动名词形式）",
+      "lemma": "time",
+      "collocations": [
+        "timing of",
+        "timing of behaviors",
+        "drug timing"
+      ],
+      "examples": [
+        "Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. 于是，人体各项机能也都跟着这套日常节律走，而运动、吃饭等行为在什么时候做，会明显影响你的健康。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "time + -ing（现在分词/动名词）",
+        "confusables": "timing（现在分词/动名词）/ time（原形）"
+      }
+    },
+    "unwanted": {
+      "phonetic": "/ˌʌnˈwɒntɪd/",
+      "pos": "adj.",
+      "sense": "不需要的、多余的、不受欢迎的、无人要的（unwanted advice 多余的建议）",
+      "isCet4HighFreq": false,
+      "collocations": [
+        "reduce unwanted",
+        "unwanted side"
+      ],
+      "examples": [
+        "Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects. 既然身体对药物的反应会随服药时间而变，那么顺理成章地，选对时间吃药就能提高药效、减少副作用。"
+      ]
+    },
+    "used": {
+      "phonetic": "/juːzd/",
+      "pos": "v./adj.",
+      "sense": "use 的过去式/过去分词；（be used to）习惯于；（used to）过去常常",
+      "lemma": "use",
+      "collocations": [
+        "used to do",
+        "be used to doing",
+        "be used for"
+      ],
+      "examples": [
+        "They used flexible work arrangements. 他们使用了弹性工作安排。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "used to do（过去常常）/ be used to doing（习惯于）/ be used to do（被用来做）"
+      }
+    },
+    "weight": {
+      "phonetic": "/weɪt/",
+      "pos": "n.",
+      "sense": "体重、重量",
+      "collocations": [
+        "lose weight",
+        "put on weight"
+      ],
+      "examples": [
+        "He is trying to lose weight. 他在努力减重。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "weight / weigh（同族不同词形，注意词性与用法）"
+      }
+    },
+    "whether": {
+      "phonetic": "/ˈweðə(r)/",
+      "pos": "conj.",
+      "sense": "是否；无论（whether ... or ...）",
+      "collocations": [
+        "whether or not",
+        "whether to do",
+        "whether it comes from"
+      ],
+      "examples": [
+        "Social support—whether from friends or family—helps. 社会支持——无论来自朋友还是家人——都有帮助。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "whether ... or（无论/是否）/ if（不能用于介词后或句首主语从句）"
+      }
+    },
+    "wondered": {
+      "phonetic": "/ˈwʌndə(r)d/",
+      "pos": "v./n.",
+      "sense": "想知道、纳闷；惊奇（wonder 的过去式/过去分词形式）",
+      "lemma": "wonder",
+      "collocations": [
+        "wondered whether"
+      ],
+      "examples": [
+        "My colleagues and I wondered whether midazolam, the most common sedative(镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night. 我和同事好奇：全世界手术中最常用的镇静剂咪达唑仑，会不会搅乱夜里护心的体内生物钟。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "wonder + -ed（过去式/过去分词）",
+        "confusables": "wondered（过去式/过去分词）/ wonder（原形）"
+      }
+    },
+    "work": {
+      "phonetic": "/wɜːk/",
+      "pos": "v./n.",
+      "sense": "工作；运转、奏效 / 工作、作品",
+      "collocations": [
+        "work well",
+        "at work",
+        "work out"
+      ],
+      "examples": [
+        "The approach works in practice. 这个方法在实践中奏效。"
+      ],
+      "isCet4HighFreq": true,
+      "more": {
+        "confusables": "work（工作，不可数）/ job（职位，可数）/ works（工厂；作品）"
+      }
+    },
+    "wrong": {
+      "phonetic": "/rɒŋ/",
+      "pos": "adj./adv./n.",
+      "sense": "错误的、不对的、不合适的、不道德的、出毛病的；错误地、不对；错误、坏事、不公、冤屈",
+      "isCet4HighFreq": true,
+      "collocations": [
+        "wrong time"
+      ],
+      "examples": [
+        "Taking medicine at the wrong time can even cause harm. 吃错时间，甚至可能有害。"
+      ],
+      "more": {
+        "confusables": "wrong / wrongdoer（同族不同词形，注意词性与用法）"
+      }
+    },
+    "years": {
+      "phonetic": "/jɪəz/",
+      "pos": "n.",
+      "sense": "年、年份；岁数、年纪（year 的复数）",
+      "isCet4HighFreq": true,
+      "more": {
+        "roots": "year（年）+ -s（复数）",
+        "confusables": "year（年，可数）/ for years（好多年，与完成时连用）/ in a year's time（一年后）/ a five-year-old（复合词中 year 不用复数）/ ear（耳朵，拼写易混）"
+      },
+      "collocations": [
+        "years ago"
+      ],
+      "examples": [
+        "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. 五十多年前研究者就发现：降胆固醇药辛伐他汀，晚上吃比白天吃更能降血脂。"
+      ]
+    }
+  }
+}
