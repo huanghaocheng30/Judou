@@ -381,7 +381,7 @@ export function Settings() {
       <section className="card settings-section" aria-labelledby="onboarding-title" data-onboarding-section>
         <h2 id="onboarding-title">入门任务</h2>
         <p className="card-hint">
-          三项任务做完全自动打勾（按你的真实使用判定）。想再走一遍就点「重新开始入门任务」。
+          两项任务做完全自动打勾（按你的真实使用判定）。想再走一遍就点「重新开始入门任务」。
         </p>
         <Onboarding variant="settings" />
       </section>

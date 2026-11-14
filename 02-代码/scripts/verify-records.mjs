@@ -504,6 +504,28 @@ check("M13-6 正文层显示「已加入生词本」（AC6②）：data-in-vocab
   return "data-in-vocab + 双层 + 复习模式清空";
 });
 
+// ───────── M11 遗留修复（2026-11-14）：入门任务进度分母不得写死 ─────────
+// M11 删掉「导入过一篇文章」后任务只剩 read/vocab 两项，但 UI 仍写死 /3、
+// 文案还写「三项」。真机截图：标题「入门任务（0/3）」下只列 2 条。
+check("入门任务进度分母取自 TASKS 数组（不得写死数字）", () => {
+  const onboarding = read("src/components/Onboarding.tsx");
+  assert(!/\{doneCount\}\s*\/\s*\d/.test(onboarding),
+    "标题硬编码数字分母（如 {doneCount}/3）；必须写 {TASKS.length} 跟随任务数组长度");
+  assert(/\{doneCount\}\/\{TASKS\.length\}/.test(onboarding),
+    "标题分母必须是 {TASKS.length}（跟随数组长度，避免以后再写死）");
+  return "{doneCount}/{TASKS.length}";
+});
+
+check("M11 遗留：入门任务文案不再出现「三项」（实际 2 项）", () => {
+  const onboarding = read("src/components/Onboarding.tsx");
+  const settings = read("src/pages/Settings.tsx");
+  assert(!/三项/.test(onboarding),
+    "Onboarding.tsx 仍出现「三项」（M11 移除导入后只有 read / vocab 两项）");
+  assert(!/三项/.test(settings),
+    "Settings.tsx 入门任务提示仍出现「三项」");
+  return "0 处「三项」";
+});
+
 console.log(`\nM6 门禁：${passed} 通过 / ${failures.length} 失败`);
 if (failures.length > 0) {
   for (const failure of failures) console.error(`  - ${failure}`);

@@ -3,9 +3,9 @@
  *
  * 为什么换掉说明卡：三屏卡只是「讲一遍怎么用」，用户看完仍不知道下一步做什么，
  * 用户原话「完全没有起到引导的作用」——所以改成**可勾选的入门任务清单**：
- * 三项任务各自按**真实数据**判定完成，做完自动打勾，不需要用户自己上报。
+ * 两项任务各自按**真实数据**判定完成，做完自动打勾，不需要用户自己上报。
  *
- * 三项判定（全部复用既有 `get_stats`，**不新增命令、不改表**）：
+ * 两项判定（全部复用既有 `get_stats`，**不新增命令、不改表**）：
  * ① 打开一篇精读并点开一句话 → `readingRecordCount`（`reading_record` 行数）≥ 1
  * ② 收藏一个生词             → `vocabCount`（`vocab_entry` 行数）≥ 1
  *
@@ -135,7 +135,7 @@ export function Onboarding({ variant }: { variant: "today" | "settings" }) {
     <section className="onboarding" data-onboarding data-onboarding-variant={variant}>
       <header className="onboarding-head">
         <h2 className="onboarding-title">
-          入门任务（{doneCount}/3）
+          入门任务（{doneCount}/{TASKS.length}）
         </h2>
         <div className="onboarding-head-actions">
           {variant === "today" ? (
@@ -165,7 +165,7 @@ export function Onboarding({ variant }: { variant: "today" | "settings" }) {
       {collapsed ? null : (
         <>
           <p className="onboarding-hint">
-            三项做完会自动打勾（数据来自你的真实使用，不需要手动标记）。
+            做完会自动打勾（数据来自你的真实使用，不需要手动标记）。
           </p>
           <ol className="onboarding-list onboarding-checklist">
             {TASKS.map((task, index) => {
