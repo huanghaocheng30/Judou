@@ -119,7 +119,9 @@ fn setup(app: &AppHandle) -> Result<(), StartupErrorInfo> {
     app.manage(db);
 
     let resource_dir = app.path().resource_dir().ok();
-    let pack_dir = pack::resolve_pack_dir(resource_dir.as_deref())?;
+    // M12 D2：第三个参数给 app_data_dir——Android 上 Tauri v2 的 bundle.resources 不生效，
+    // 前两级拿不到包时从内嵌资源解压到这里（幂等）。
+    let pack_dir = pack::resolve_pack_dir(resource_dir.as_deref(), Some(data_dir.as_path()))?;
     let manifest = pack::load_manifest(&pack_dir)?;
 
     // 内置内容包导入（幂等；失败不是 panic，而是错误页）

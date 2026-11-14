@@ -16,10 +16,20 @@ use std::path::{Component, Path, PathBuf};
 
 use serde::{Deserialize, Serialize};
 
+use include_dir::{include_dir, Dir};
+
 /// 内容包目录名（`bundle.resources` 的映射目标与开发期回落路径同名）
 pub const PACK_DIR_NAME: &str = "content-pack";
 /// manifest 文件名（唯一版本权威所在）
 pub const MANIFEST_FILE: &str = "manifest.json";
+
+/// M12 D1：把 `content-pack/`（13 文件 3.5 MB）**编译期嵌入二进制**。
+///
+/// 为什么必须内嵌：Tauri v2 的 `bundle.resources` 在 **Android 不生效**——APK 里
+/// `*content-pack*` 条目实测 0 个，`resource_dir()` 拿不到包，真机停在 `pack_missing` 错误页。
+/// 内嵌后由 `ensure_pack_extracted` 在首次启动解压到 `app_data_dir`（AC2 第三级）；
+/// 桌面侧前两级先命中，行为不变（AC3）。
+pub static EMBEDDED_PACK: Dir<'static> = include_dir!("$CARGO_MANIFEST_DIR/../content-pack");
 
 /// 启动期内容包错误。
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -389,19 +399,105 @@ pub struct LexiconPack {
 
 // ─────────────────────── 定位 / 读取 / 限域 ───────────────────────
 
-/// 包目录定位：优先 `resource_dir()/content-pack`（安装后），回落
-/// `CARGO_MANIFEST_DIR/../content-pack`（`tauri dev` 下资源未拷进 target，02 D2 双路径回落）。
-pub fn resolve_pack_dir(resource_dir: Option<&Path>) -> Result<PathBuf, StartupError> {
+/// 包目录定位（**三级 fallback，顺序固定** · AC2）：
+/// ① `resource_dir()/content-pack`（桌面安装态）
+/// ② `CARGO_MANIFEST_DIR/../content-pack`（`tauri dev`：资源未拷进 target，02 D2 双路径回落）
+/// ③ **`app_data_dir/content-pack`：不存在则从内嵌资源解压一次**（Android；Tauri v2 的
+///    `bundle.resources` 在 Android 不生效，见 `EMBEDDED_PACK`）
+pub fn resolve_pack_dir(
+    resource_dir: Option<&Path>,
+    app_data_dir: Option<&Path>,
+) -> Result<PathBuf, StartupError> {
     let mut candidates: Vec<PathBuf> = Vec::new();
     if let Some(dir) = resource_dir {
         candidates.push(dir.join(PACK_DIR_NAME));
     }
     candidates.push(Path::new(env!("CARGO_MANIFEST_DIR")).join("..").join(PACK_DIR_NAME));
 
-    let found = first_with_manifest(candidates)?;
+    let found = match first_with_manifest(candidates) {
+        Ok(found) => found,
+        // 前两级都没有 → 第三级：内嵌资源解压（Android 的常态；桌面不会走到这里）
+        Err(_) => {
+            let app_data = app_data_dir.ok_or(StartupError::PackMissing)?;
+            println!("[judou] content-pack 未随资源目录提供，改用内嵌资源解压");
+            ensure_pack_extracted(app_data).map_err(|err| {
+                // 失败不是 panic（AC6）：记录真实 io 错误，向上转成错误页
+                eprintln!("[judou][pack] 内嵌内容包解压失败：{err}");
+                StartupError::PackMissing
+            })?
+        }
+    };
     // 打印解析路径（AC1 的「日志打印解析路径」，复用现有 println 通道，不新造日志层）
     println!("[judou] content-pack dir = {}", found.display());
     Ok(found)
+}
+
+/// 把内嵌的 `content-pack` 解压到 `<app_data_dir>/content-pack`（M12 AC2 第三级 / AC6）。
+///
+/// 幂等：`manifest.json` 已存在且**能解析** → 直接返回，不重写任何字节（启动第二次起零 IO 写）。
+/// 安全：只写 `app_data_dir` 下；路径组件必须是 `Normal`（拒 `..` / 绝对路径）；
+/// 已存在的文件不覆盖；任何失败返回 `io::Error`，**不 panic**。
+///
+/// ponytail: 解压用 `include_dir` + `std::fs::write`（标准库够用），未引 `zip`/`fs-extra`；
+/// 天花板 = 每次启动只做一次「manifest 可解析」探测，不做内容哈希比对（包随二进制走，不会半新半旧）。
+pub fn ensure_pack_extracted(app_data_dir: &Path) -> std::io::Result<PathBuf> {
+    let target = app_data_dir.join(PACK_DIR_NAME);
+
+    // 幂等分支：manifest 可解析即视为已就绪（不重写）
+    if load_manifest(&target).is_ok() {
+        return Ok(target);
+    }
+
+    std::fs::create_dir_all(&target)?;
+    // 限域校验：canonicalize 后必须仍在 app_data_dir 内
+    let root = app_data_dir.canonicalize()?;
+    let real_target = target.canonicalize()?;
+    if !real_target.starts_with(&root) {
+        return Err(std::io::Error::new(
+            std::io::ErrorKind::PermissionDenied,
+            format!("解压目标越界：{}", real_target.display()),
+        ));
+    }
+
+    extract_dir(&EMBEDDED_PACK, &target)?;
+
+    if !target.join(MANIFEST_FILE).is_file() {
+        return Err(std::io::Error::new(
+            std::io::ErrorKind::InvalidData,
+            format!("内嵌内容包不含 {MANIFEST_FILE}"),
+        ));
+    }
+    println!("[judou] content-pack 已解压到 {}", target.display());
+    Ok(target)
+}
+
+/// 递归落盘内嵌目录：逐文件校验相对路径 + 不覆盖已存在文件。
+fn extract_dir(dir: &Dir<'_>, target: &Path) -> std::io::Result<()> {
+    for file in dir.files() {
+        let rel = file.path();
+        if rel.as_os_str().is_empty()
+            || rel
+                .components()
+                .any(|component| !matches!(component, Component::Normal(_)))
+        {
+            return Err(std::io::Error::new(
+                std::io::ErrorKind::InvalidInput,
+                format!("内嵌资源路径越界：{}", rel.display()),
+            ));
+        }
+        let dest = target.join(rel);
+        if dest.is_file() {
+            continue; // 不覆盖已存在文件（幂等）
+        }
+        if let Some(parent) = dest.parent() {
+            std::fs::create_dir_all(parent)?;
+        }
+        std::fs::write(&dest, file.contents())?;
+    }
+    for sub in dir.dirs() {
+        extract_dir(sub, target)?;
+    }
+    Ok(())
 }
 
 /// 取第一个「含 manifest.json」的候选目录；都不含 → `PackMissing`。
@@ -636,6 +732,73 @@ mod tests {
         assert_eq!(info.kind, "pack_missing");
         assert!(info.file.is_none());
         assert!(!info.message.contains("Z:\\"), "错误文案不得含探测到的绝对路径");
+    }
+
+    // ─────────── M12 D1：内嵌资源 + 三级 fallback 解压（Android 用） ───────────
+
+    /// 每个测试用独立临时目录（进程号 + 标签 + 纳秒），避免并发互相踩
+    fn temp_app_data(tag: &str) -> PathBuf {
+        let nanos = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .map(|d| d.as_nanos())
+            .unwrap_or(0);
+        std::env::temp_dir().join(format!("judou-pack-test-{}-{tag}-{nanos}", std::process::id()))
+    }
+
+    /// ① 内嵌资源可枚举：13 个文件（12 篇 + manifest）都在二进制里
+    #[test]
+    fn embedded_pack_is_enumerable() {
+        let files: Vec<&Path> = EMBEDDED_PACK.files().map(|file| file.path()).collect();
+        assert!(
+            files.len() >= 13,
+            "内嵌资源应至少 13 个文件，实测 {}",
+            files.len()
+        );
+        assert!(
+            files.iter().any(|path| *path == Path::new(MANIFEST_FILE)),
+            "内嵌资源应含 {MANIFEST_FILE}"
+        );
+    }
+
+    /// ② 解压后 manifest 可解析、13 个文件落盘（AC2 第三级 / AC6）
+    #[test]
+    fn extraction_produces_loadable_pack() {
+        let app_data = temp_app_data("extract");
+        let dir = ensure_pack_extracted(&app_data).expect("解压应成功");
+        assert_eq!(dir, app_data.join(PACK_DIR_NAME), "解压目标应为 <app_data>/content-pack");
+        assert!(dir.join(MANIFEST_FILE).is_file(), "解压后应含 manifest.json");
+
+        let manifest = load_manifest(&dir).expect("解压后 manifest 应能解析");
+        assert_eq!(manifest.articles.len(), 12, "解压后的包应声明 12 篇");
+
+        let count = std::fs::read_dir(&dir).expect("目录应可读").count();
+        assert_eq!(count, 13, "解压后应有 13 个文件，实测 {count}");
+        let _ = std::fs::remove_dir_all(&app_data);
+    }
+
+    /// ③ 幂等：二次调用不重写（manifest 的 mtime 与文件数均不变）
+    #[test]
+    fn extraction_is_idempotent() {
+        let app_data = temp_app_data("idem");
+        let first = ensure_pack_extracted(&app_data).expect("首次解压应成功");
+        let manifest_path = first.join(MANIFEST_FILE);
+        let before_mtime = std::fs::metadata(&manifest_path)
+            .and_then(|meta| meta.modified())
+            .expect("应能读到 manifest mtime");
+        let before_count = std::fs::read_dir(&first).expect("目录应可读").count();
+
+        let second = ensure_pack_extracted(&app_data).expect("二次调用应成功");
+        assert_eq!(first, second, "二次调用应返回同一路径");
+        let after_mtime = std::fs::metadata(&manifest_path)
+            .and_then(|meta| meta.modified())
+            .expect("应能读到 manifest mtime");
+        assert_eq!(before_mtime, after_mtime, "二次调用不得重写 manifest.json");
+        assert_eq!(
+            before_count,
+            std::fs::read_dir(&second).expect("目录应可读").count(),
+            "二次调用不得增删文件"
+        );
+        let _ = std::fs::remove_dir_all(&app_data);
     }
 
     /// 标签查询：内置 12 篇全部有中文题型名与篇序标签

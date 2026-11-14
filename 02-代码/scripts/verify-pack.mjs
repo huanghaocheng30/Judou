@@ -110,6 +110,41 @@ if (undeclared.length) fail(`包内有 manifest 未声明的文件：${undeclare
 // 来源目录里除内容包外还有生成期切片，这里只做提示（不参与判据）
 console.log(`来源目录文件数: ${sourceFiles.length}（含生成期 \`_\` 切片，仅作提示）`);
 
+// ⑤ M12 D3：content-pack 必须**编进二进制**（Tauri v2 的 bundle.resources 在 Android 不生效）
+//    源码侧断言：pack.rs 有 include_dir 内嵌 + app_data_dir 第三级 fallback；lib.rs 传入 app_data_dir
+const packRs = readFileSync(path.join(root, "src-tauri", "src", "pack.rs"), "utf8");
+const libRs = readFileSync(path.join(root, "src-tauri", "src", "lib.rs"), "utf8");
+const sourceChecks = [
+  ["pack.rs 有 include_dir!(...content-pack)", /include_dir!\(\s*"\$CARGO_MANIFEST_DIR\/\.\.\/content-pack"\s*\)/.test(packRs)],
+  ["pack.rs 有内嵌资源静态 EMBEDDED_PACK", /static\s+EMBEDDED_PACK/.test(packRs)],
+  ["pack.rs 有 ensure_pack_extracted(app_data_dir)", /fn\s+ensure_pack_extracted\(\s*app_data_dir/.test(packRs)],
+  ["pack.rs resolve_pack_dir 收 app_data_dir 参数（第三级 fallback）", /fn\s+resolve_pack_dir\([\s\S]{0,200}?app_data_dir/.test(packRs)],
+  ["lib.rs 调用点传入 app_data_dir", /resolve_pack_dir\([\s\S]{0,200}?data_dir\.as_path\(\)/.test(libRs)],
+];
+console.log("\n内嵌断言（M12 D3）：");
+for (const [label, ok] of sourceChecks) {
+  console.log(`  ${ok ? "ok  " : "FAIL"} ${label}`);
+  if (!ok) fail(`内嵌断言未通过：${label}`);
+}
+
+// 二进制侧断言（可选）：Android 的 .so 或桌面 debug 产物里能找到包内特征串
+// 候选按「存在即查」处理：都没构建过就跳过（源码断言已覆盖 CI 场景）
+const binaries = [
+  path.join(root, "src-tauri", "target", "aarch64-linux-android", "debug", "libjudou_lib.so"),
+  path.join(root, "src-tauri", "target", "aarch64-linux-android", "debug", "libjudou.so"),
+];
+const present = binaries.filter((file) => existsSync(file));
+if (!present.length) {
+  console.log("  跳过 二进制特征串扫描：未找到 Android .so 产物（先跑 tauri android build）");
+} else {
+  for (const file of present) {
+    const bytes = readFileSync(file);
+    const hasMarker = bytes.includes(Buffer.from("cet4-2023-12", "utf8"));
+    console.log(`  ${hasMarker ? "ok  " : "FAIL"} ${path.relative(root, file)} 含包内特征串 cet4-2023-12（${(bytes.length / 1048576).toFixed(1)} MB）`);
+    if (!hasMarker) fail(`${path.relative(root, file)} 未内嵌 content-pack 特征串`);
+  }
+}
+
 if (failed) {
   console.error("\nFAIL: 内容包落位与设计区不一致");
   process.exit(1);
