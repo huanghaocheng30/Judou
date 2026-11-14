@@ -22,3 +22,7 @@ dsh-image-gen/
 
 # 02-代码 的物理目录（ASCII，供 Android NDK 构建；逻辑路径 02-代码 是指向它的 junction）
 /code/
+
+# 大二进制不入库（GitHub 单文件上限 100 MB）——只记录生成命令与路径
+*.apk
+*.aab
