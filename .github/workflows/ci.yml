@@ -22,9 +22,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 必须 Node 22+：verify-sql / note / note-marks / vocab / review / render / analysis / tables
+      # 使用 node:sqlite（Node 22 起内置，24 稳定）。Node 20 会直接崩。
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
           cache-dependency-path: 02-代码/package-lock.json
 
