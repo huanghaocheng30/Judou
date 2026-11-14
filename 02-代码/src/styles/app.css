@@ -1122,6 +1122,10 @@ button {
    若将来要区分「已写笔记」的第二视觉层级，走 `[data-has-note="1"]` 换填充色即可，不需要新组件。 */
 .sentence-mark {
   position: relative;
+  /* M13 真机修复：角标整体抬到静态行内文本（`.tok`）之上。
+     `opacity < 1` 与 `position` 已让它参与层叠排序，但 `z-index: auto` 时仍可能被后绘制的相邻 token
+     抢走触摸命中——显式给 2，配合 `z-index: 10` 的 `::after` 热区（见下方 @media 块）。 */
+  z-index: 2;
   top: -0.45em;
   margin-left: 2px;
   font-family: var(--sans);
@@ -1141,22 +1145,31 @@ button {
 /* M13 AC4：触摸热区 ≥44×44 CSS px（Android 触控目标下限）。
    - 用 `::after` 绝对定位**只扩热区**：不占布局（不重排段落）、不改视觉尺寸（角标仍 2 字 × 10px）；
    - 只在 `pointer: coarse`（触屏）启用——桌面鼠标设备维持原样，1920 布局与改前逐项一致；
-   - `z-index: 1` 只高过静态行内文本，远低于抽屉(20)/底部 Tab(30)，不会盖住弹层；
-   - 命中后事件照旧冒泡到 `.sentence`（角标本身不接事件，与改造前的模型一致）。
+   - **真机修复（2026-11-14）**：原实现 `left:50%` 居中、`z-index:1`，真机上点句末仍弹相邻单词词卡。
+     实测根因两条：
+     ① 触摸命中走 Chrome 的 touch adjustment（把点击吸附到最近的**带处理器**节点）——`.tok` 有 onClick，
+        `.sentence-mark` 没有，于是吸附到相邻单词。修复：`.sentence-mark` 补 onClick（见 Reader.tsx），
+        热区层级抬到 `z-index: 10`；
+     ② 原热区左右对称展开，而用户直觉的「句子末尾」是**句号一带（角标左侧）**，左侧 22px 覆盖不到句号。
+        修复：热区左沿钉在角标左侧 26px（`translate(-26px, -50%)`），覆盖「句号 + 左侧 2~3 个字符」，
+        右侧仅留 18px 罩住角标本体。
+   - 命中后事件由 `.sentence-mark` 自己的 onClick 接住并 stopPropagation（不再依赖冒泡——touch adjustment
+     已经把目标改成它了，冒泡路径与原来一致）。
    取舍记录：热区必然跨到上下行文字带，这是 44px 下限与 32px 行高的物理冲突；
    选「句末角标命中更省事」而非「零重叠」——重叠面积与误触实测见执行自测。 */
 @media (pointer: coarse) {
   .sentence-mark::after {
     content: "";
     position: absolute;
-    left: 50%;
     top: 50%;
+    left: 0;
     width: 44px;
     height: 44px;
-    transform: translate(-50%, -50%);
+    /* 左扩 26px（覆盖句号 + 左 2~3 字符），右侧留 18px 罩角标 */
+    transform: translate(-26px, -50%);
     background: transparent;
     pointer-events: auto;
-    z-index: 1;
+    z-index: 10;
   }
 }
 

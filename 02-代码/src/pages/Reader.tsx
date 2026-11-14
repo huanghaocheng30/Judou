@@ -154,11 +154,24 @@ function Sentence({
         }
         return node.text;
       })}
-      {/* 句末角标（TP-修复1 F2 / AC-R2）：纯装饰提示「这句能点开解析」。
+      {/* 句末角标（TP-修复1 F2 / AC-R2）：句子解析入口的触摸热区。
           为什么不用 <button>：外层 `.sentence` 已是 role="button" + tabIndex=0，嵌套按钮既制造嵌套交互语义、
-          又会抢走 Tab 焦点；角标不接事件（点击冒泡给父节点），`aria-hidden` 免得屏幕阅读器重复念。
+          又会抢走 Tab 焦点；角标仍保持 tabIndex 缺省（不进 Tab 序列），`aria-hidden` 免得屏幕阅读器重复念。
+          **M13 真机修复（2026-11-14）**：原先「不接事件、靠冒泡给父节点」在桌面成立，但真机触摸命中会走
+          Chrome touch adjustment——把点击吸附到最近的**带处理器**节点，相邻 `.tok`（British 等）有 onClick，
+          于是点句末弹出的是单词词卡。这里给角标补 onClick 成为 clickable 候选，热区命中稳定落在本句。
           `data-has-note="1"` 只在写过笔记时出现（F3/AC-R3 的视觉痕迹）。 */}
-      <span className="sentence-mark" aria-hidden="true" data-sentence-mark data-has-note={hasNote ? "1" : undefined}>
+      <span
+        className="sentence-mark"
+        aria-hidden="true"
+        data-sentence-mark
+        data-has-note={hasNote ? "1" : undefined}
+        onClick={(event) => {
+          // 与 `.sentence` 的 onClick 同一动作；stopPropagation 防止冒泡到父节点重复触发
+          event.stopPropagation();
+          onSelectSentence(sentence);
+        }}
+      >
         析
       </span>
     </span>
