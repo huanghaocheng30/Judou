@@ -1,11 +1,11 @@
-﻿# Android Release APK · 句读 v0.2.1
+# Android Release APK · 句读 v0.2.1
 
 **签名完成（2026-11-14 14:53）**
 
 | 项 | 值 |
 |---|---|
 | 产物 | `app-arm64-release.apk` |
-| **体积** | **16.81 MB**（debug 253.5 MB → **缩小 93.3%**） |
+| **体积** | **17.04 MB**（debug 253.5 MB → **缩小 93.3%**） |
 | 签名 | ✅ `CN=judou, OU=dev, O=judou, L=Beijing, ST=Beijing, C=CN` |
 | 包名 / 版本 | `com.judou.app` / versionCode 2001 / versionName 0.2.1 |
 | ABI | 仅 arm64-v8a |
@@ -47,3 +47,13 @@ cd E:\Judou; .\build-android-release.ps1
 | 只有 arm64-v8a | 老机型（armv7）装不了 |
 | 未上架 | 分发需自行传给用户（微信/网盘） |
 | 导出 PDF | Android 上已降级为禁用 + 说明（M10） |
+---
+
+## 更新记录
+
+- **2026-11-14 16:20** ｜ 重新打包（含新图标 + 427 行死 CSS 清理）：
+  - APK **17.04 MB**（图标源图变大导致 +0.23 MB）
+  - 新图标：圆角米白卡片 + 深灰线条 + 蓝色高亮行（1024 源图裁剪，
+px tauri icon 生成全套）
+  - 手机端图标实测：**圆角自然，与系统图标风格统一**
+  - 首启实测：**入门任务（0/2）**（M11 计数修复生效）、数据已清空
