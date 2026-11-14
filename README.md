@@ -96,12 +96,14 @@
 
 | 平台 | 文件 | 体积 | 说明 |
 |---|---|---|---|
-| **Windows 10/11** | `句读_0.2.1_x64-setup.exe` | 5.7 MB | NSIS 安装包，双击即装，**免 UAC**（`installMode=currentUser`） |
+| **Windows 10/11** | `judou_0.2.1_x64-setup.exe` | 5.7 MB | NSIS 安装包，双击即装，**免 UAC**（`installMode=currentUser`） |
 | **Android 8.0+** | `app-arm64-release.apk` | 34.6 MB | 仅 **arm64-v8a**（2017 年后主流机型）；装前需允许「安装未知来源应用」 |
 
 **数据位置**
 - Windows：`%APPDATA%\com.judou.app\judou.db` —— 卸载不删除，重装不丢
 - Android：`/data/user/0/com.judou.app/` —— 卸载会清空
+
+> 📌 Windows 安装包在 Release 页显示为 `judou_0.2.1_x64-setup.exe`（GitHub 会过滤附件名里的中文，故用 ASCII 名）。
 
 **首启会导入 72 篇内置内容**（约 1.9 秒），之后不再重复。
 
