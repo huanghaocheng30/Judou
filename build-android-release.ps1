@@ -1,4 +1,4 @@
-# build-android-release.ps1 · 句读 Android 签名 Release APK 构建脚本
+﻿# build-android-release.ps1 · 句读 Android 签名 Release APK 构建脚本
 #
 # 用法（密码只放环境变量，不落盘、不入库）：
 #   $env:JUDOU_KEYSTORE  = 'E:\keys\judou-release.keystore'
