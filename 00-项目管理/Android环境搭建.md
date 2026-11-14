@@ -247,3 +247,54 @@ BUILD SUCCESSFUL in 27s
 | 导出改造（Android 分享/打印 Intent） | 半天 |
 | 路径 API 审计（`app_data_dir` / 绝对路径） | 半天 |
 | release 签名 + `tauri android build --release` | 2 小时 |
+---
+
+## 十、Android 构建链陷阱（2026-11-14 实测，会咬人）
+
+`npx tauri android build` 在 **symlink 步骤失败退出时**会：
+1. **清空** `gen/android/app/src/main/jniLibs/*/` 里的 `.so`
+2. **不复制** 前端 `dist/*` 到 `gen/android/app/src/main/assets/`
+
+后果：打出的 APK **缺 .so → 启动静默闪退**（`am start` 返回 `Status: ok`，但 `pidof` 为空）；或 **assets 空 → 白屏**。
+
+### 正确复现顺序（每一步都不能省）
+
+`powershell
+# 1) tauri CLI 编译 Rust（symlink 报错忽略，只要看到 "Finished dev profile"）
+cd E:\Judou\code
+npx tauri android build --debug --apk --target aarch64
+
+# 2) 手动复制 .so
+Copy-Item src-tauri\target\aarch64-linux-android\debug\libjudou_lib.so 
+          src-tauri\gen\android\app\src\main\jniLibs\arm64-v8a\ -Force
+
+# 3) 手动复制前端资源到 assets（CLI 失败后不会做这步）
+Copy-Item dist\* src-tauri\gen\android\app\src\main\assets\ -Recurse -Force
+
+# 4) Gradle 打包
+cd src-tauri\gen\android
+.\gradlew.bat assembleArm64Debug --no-daemon -x rustBuildArm64Debug
+
+# 5) 装包前校验（关键！）
+#    APK 必须同时含 lib/arm64-v8a/libjudou_lib.so 与 assets/assets/*.js|css
+`
+
+### 装包前校验脚本（zip 列表）
+
+`powershell
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+`=[System.IO.Compression.ZipFile]::OpenRead(<APK路径>)
+.Entries | Where-Object { `.FullName -like 'lib/*' -or `.FullName -like 'assets/*' } | Select-Object FullName
+.Dispose()
+`
+
+### 其它两条硬约束
+
+| 约束 | 说明 |
+|---|---|
+| **必须用 `E:\Judou\code`** 构建 | `02-代码` 含非 ASCII，Gradle 直接拒 |
+| **必须先 `npm run build`** | 否则 `dist/` 是旧的，step 3 复制的是旧前端 |
+
+### 同源性校验（证明「测的=交的」）
+
+重跑 `npm run build` 后对比文件名 hash 与 APK 内 `assets/assets/*` 是否一致——一致才说明真机验证的包与本轮产物同源。
