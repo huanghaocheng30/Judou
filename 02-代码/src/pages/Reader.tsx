@@ -23,7 +23,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import { AnalysisPanel, useWideLayout } from "../components/AnalysisPanel";
 import type { AnalysisSelection } from "../components/AnalysisPanel";
-import { completeReview, getArticleContent, getArticleNoteMarks, getReviewPlan, markArticleCompleted, touchReading } from "../lib/api";
+import { completeReview, getArticleContent, getArticleNoteMarks, getReviewPlan, listVocab, markArticleCompleted, touchReading } from "../lib/api";
 import { renderParagraph, renderTokens } from "../lib/render";
 import type { TokenNode } from "../lib/render";
 import type { ApiSentence, ArticleContent, NoteMarks, ReviewPlan, ReviewResult } from "../lib/types";
@@ -56,6 +56,12 @@ interface SentenceProps {
   hasNote: boolean;
   /** 本篇有词笔记的 tokenId 集合（F4 的 `tokenIds`）→ 词节点 `data-has-note="1"` */
   noteTokenIds: ReadonlySet<number>;
+  /**
+   * 已在生词本里的 normalized 集合（M13 AC6②）→ 词节点 `data-in-vocab="1"`。
+   * **按 normalized 而非 tokenId 匹配**：生词本按 `normalized` 聚合（同词不同句只有一条），
+   * 一篇里同一个词可能出现多次，按 tokenId 命中会漏掉其中一部分。
+   */
+  vocabNorm: ReadonlySet<string>;
   /** 本句是否处于「点回原句」的 2s 高亮（AC5）→ `data-highlight="1"` + `.sentence-flash` */
   highlighted: boolean;
   /** 要高亮的词 id（`?token=`，可选；null = 只高亮整句） */
@@ -70,6 +76,7 @@ function Sentence({
   sentence,
   hasNote,
   noteTokenIds,
+  vocabNorm,
   highlighted,
   highlightTokenId,
   onSelectSentence,
@@ -106,6 +113,7 @@ function Sentence({
               data-start={node.start}
               data-highlight={tokenHighlighted ? "1" : undefined}
               data-has-note={node.tokenId !== undefined && noteTokenIds.has(node.tokenId) ? "1" : undefined}
+              data-in-vocab={node.normalized !== undefined && vocabNorm.has(node.normalized) ? "1" : undefined}
               role="button"
               tabIndex={0}
               aria-label={`查看「${node.text}」的词卡`}
@@ -199,6 +207,17 @@ export function Reader() {
   const [revealed, setRevealed] = useState<number[]>([]);
   /** 本篇笔记标记（F4/AC-R3）：一次 IPC 全量取，句末角标与词节点据此打 `data-has-note` */
   const [noteMarks, setNoteMarks] = useState<NoteMarks>({ sentenceIds: [], tokenIds: [] });
+  /**
+   * 已在生词本里的 normalized 集合（M13 AC6②）。
+   *
+   * 用户反馈（2026-11-14）：「应在文章页面就能看出这个单词已加入单词本——就像有笔记的词底部有红线，
+   * 不是在点击单词之后才从词卡得知」。所以标记落在**正文 token 层**（`data-in-vocab`），
+   * 与 `data-has-note` 同级，不依赖打开词卡。
+   *
+   * 键是 `normalized`（生词本的聚合键，同词不同句只有一条）：按 tokenId 匹配会漏掉同词的其他出现位置。
+   * 一次文章加载只查一次全量（`listVocab` 单次 IPC），不在渲染时逐个词查库。
+   */
+  const [vocabNorm, setVocabNorm] = useState<ReadonlySet<string>>(() => new Set<string>());
   const wide = useWideLayout();
 
   // M6 · AC4 阅读埋点：进入写一次 `last_read_at`，离开时累加 `duration_sec` 并记下位置。
@@ -268,6 +287,45 @@ export function Reader() {
       cancelled = true;
     };
   }, [articleId]);
+
+  // 生词本标记（M13 AC6②）：与笔记标记并列的**一次**全量查询，独立降级——
+  // 生词本读失败只让标记缺失（空集合 + 控制台留痕），不能拖垮正文阅读。
+  useEffect(() => {
+    if (!articleId) {
+      setVocabNorm(new Set<string>());
+      return;
+    }
+    let cancelled = false;
+    listVocab()
+      .then((value) => {
+        // 只留 normalized：正文匹配只需要它，不把整条 VocabEntry 留在内存里
+        if (!cancelled) setVocabNorm(new Set(value.entries.map((entry) => entry.normalized)));
+      })
+      .catch((err: unknown) => {
+        if (!cancelled) {
+          console.warn("[judou] 读生词本失败，正文「已加入生词本」标记降级为空：", err);
+          setVocabNorm(new Set<string>());
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [articleId]);
+
+  /**
+   * 收藏 / 移出后**就地**改标记（M13 AC6② 实时性）：零额外 IPC——
+   * 面板已经把 `normalized` 给了，不必为一次标记变化再查一遍全量生词本。
+   * 值没变时返回同一个 Set 引用，React 不重渲染（与 `handleNoteSaved` 同一口径）。
+   */
+  const handleVocabChange = useCallback((normalized: string, added: boolean): void => {
+    setVocabNorm((current) => {
+      if (current.has(normalized) === added) return current;
+      const next = new Set(current);
+      if (added) next.add(normalized);
+      else next.delete(normalized);
+      return next;
+    });
+  }, []);
 
   // 写/清笔记后就地更新标记（F3/AC-R3「写后出现、清空消失」）：**零额外 IPC**——
   // 用 NoteEditor 保存成功回调做本地增量，不为一次标记变化再查一遍全篇。
@@ -492,6 +550,7 @@ export function Reader() {
                     sentence={paragraph.sentences[part.sentenceIndex]}
                     hasNote={noteMarks.sentenceIds.includes(paragraph.sentences[part.sentenceIndex].id)}
                     noteTokenIds={noteTokenIdSet}
+                    vocabNorm={vocabNorm}
                     highlighted={
                       highlight !== null && highlight.sentenceId === paragraph.sentences[part.sentenceIndex].id
                     }
@@ -618,6 +677,7 @@ export function Reader() {
         selection={selection}
         onClose={closePanel}
         onNoteSaved={handleNoteSaved}
+        onVocabChange={handleVocabChange}
       />
     </section>
   );

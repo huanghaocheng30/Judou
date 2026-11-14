@@ -461,6 +461,49 @@ check("M13-5 单词标记：有笔记＝加粗下划线；已收藏＝词卡可�
   return "下划线 + 已收藏底色";
 });
 
+check("M13-6 正文层显示「已加入生词本」（AC6②）：data-in-vocab + 零新色值 + 与笔记线双层共存", () => {
+  const reader = read("src/pages/Reader.tsx");
+  const appCss = read("src/styles/app.css");
+  // 剥注释再匹配（注释里会引用选择器文本，不剥离会误命中）
+  const css = appCss.replace(/\/\*[\s\S]*?\*\//g, "");
+  const readerCode = reader.replace(/\/\*[\s\S]*?\*\//g, "").replace(/\/\/[^\n]*/g, "");
+
+  // 1) 词节点真的带上标记（不是只写在注释里）
+  assert(/data-in-vocab=\{/.test(readerCode), "Reader.tsx 词节点必须绑定 data-in-vocab 属性（正文层可见，不靠点开词卡）");
+  // 2) 命中依据是 normalized（生词本聚合键）而不是 tokenId（同词多句会漏）
+  assert(/vocabNorm\.has\(\s*node\.normalized\s*\)/.test(readerCode),
+    "data-in-vocab 必须按 node.normalized 命中（生词本按 normalized 聚合，按 tokenId 会漏同词异句）");
+  // 3) 一次文章加载只调一次 listVocab（不引入请求风暴）
+  const listVocabCalls = (readerCode.match(/listVocab\(/g) ?? []).length;
+  assert(listVocabCalls === 1, `Reader.tsx 里 listVocab( 应恰好 1 处（实测 ${listVocabCalls}）`);
+  // 4) 收藏/移出后实时更新（不重开文章）——面板回调 + Reader 侧增量
+  assert(/onVocabChange=\{/.test(readerCode), "Reader 必须把 onVocabChange 传给 AnalysisPanel（收藏/移出后正文标记要即时变化）");
+
+  // 5) 样式：零布局影响（background-image，不加 padding/border 撑行盒）
+  const vocabBlock = /\.tok\[data-in-vocab="1"\]\s*\{([^}]*)\}/.exec(css);
+  assert(vocabBlock, "缺 .tok[data-in-vocab=\"1\"] 规则");
+  assert(/background-image:\s*linear-gradient/.test(vocabBlock[1]),
+    "已收藏标记必须用 background-image 渐变（零布局影响，不改字宽/行高）");
+  assert(!/padding:|border-bottom:|text-decoration:/.test(vocabBlock[1]),
+    "不得用 padding/border-bottom/text-decoration（会改行盒或字宽，整段重排）");
+
+  // 6) 零新色值：新规则只用 tokens.css 既有变量（不出现 #hex / rgb() / hsl()）
+  assert(!/#[0-9a-fA-F]{3,8}\b|rgba?\(|hsla?\(/.test(vocabBlock[1]),
+    "已收藏标记的颜色必须复用既有 CSS 变量（零新色值，契约约束）");
+
+  // 7) 与「有笔记」的红线区分：双层 gradient 规则存在
+  const bothBlock = /\.tok\[data-has-note="1"\]\[data-in-vocab="1"\]\s*\{([^}]*)\}/.exec(css);
+  assert(bothBlock, "缺「既有笔记又已收藏」的双层规则（两标记必须同时可见、互不吞掉）");
+  assert(/var\(--rose\)/.test(bothBlock[1]) && /var\(--accent\)/.test(bothBlock[1]),
+    "双层规则必须同时含 var(--rose)（笔记）与 var(--accent)（生词本）两道色带");
+
+  // 8) 复习模式与既有 data-has-note 同处清空（D4 只隐藏视觉，不删 DOM）
+  assert(/\[data-review-mode="1"\]\s+\.tok\[data-in-vocab="1"\]\s*\{[^}]*background-image:\s*none/.test(css),
+    "复习模式必须清空 data-in-vocab 的底色（与 data-has-note 同处处理）");
+
+  return "data-in-vocab + 双层 + 复习模式清空";
+});
+
 console.log(`\nM6 门禁：${passed} 通过 / ${failures.length} 失败`);
 if (failures.length > 0) {
   for (const failure of failures) console.error(`  - ${failure}`);

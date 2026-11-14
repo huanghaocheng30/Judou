@@ -1197,6 +1197,31 @@ button {
   background-size: 100% 100%;
 }
 
+/* M13 AC6②：「已在生词本」的单词在**正文层**直接可见。
+   用户反馈（2026-11-14）：「希望在文章页面就能看出这个单词被加入单词本，就像有笔记的词底部有红线，
+   不是在点击单词之后才从词卡知道」——所以标记落在 token 上，与 `data-has-note` 同级别。
+   两种线必须一眼可分：
+   - 有笔记 ＝ 玫红（--rose）2px，贴行盒最底；
+   - 已收藏 ＝ 强调色（--accent）3px，比笔记线更粗（生词本是「要复习」的动作，视觉权重更高）。
+   两者都用 `background-image` 渐变：不插 DOM、不改字宽字距、不撑行盒高度＝不重排段落（与上面同一条约束）。
+   零新色值：两色都是 tokens.css 既有变量，深色主题自动跟随。
+   复习模式仍由 `[data-review-mode="1"] .tok[data-in-vocab="1"] { background-image: none }` 清空。 */
+.tok[data-in-vocab="1"] {
+  background-image: linear-gradient(to top, var(--accent) 0 3px, transparent 3px);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 100%;
+}
+
+/* 既有笔记又在生词本：双层——底层玫红 2px，其上强调色 3px（合计 5px 内两道色带，互不吞掉）。
+   特异度 (0,3,0) 高于上面两条 (0,2,0)，不依赖书写顺序。 */
+.tok[data-has-note="1"][data-in-vocab="1"] {
+  background-image: linear-gradient(to top, var(--rose) 0 2px, var(--accent) 2px 5px, transparent 5px);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 100%;
+}
+
 /* 窄屏抽屉拖动条：指针拖拽 + 键盘 ↑↓/Home/End（D10「拖动条 + 键盘可用」） */
 .drawer-handle {
   display: flex;
@@ -1806,6 +1831,12 @@ button {
 }
 
 [data-review-mode="1"] .tok[data-has-note="1"] {
+  background-image: none;
+}
+
+/* 复习模式同样清空「已加入生词本」标记（D4：「复习模式已隐藏笔记标记与生词收藏按钮」）。
+   两条清空规则都不删 DOM，只压视觉——CDP 仍能断言到节点与属性。 */
+[data-review-mode="1"] .tok[data-in-vocab="1"] {
   background-image: none;
 }
 

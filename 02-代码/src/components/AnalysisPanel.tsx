@@ -88,6 +88,12 @@ export interface AnalysisPanelProps {
    * 由 `Reader` 就地增量更新句/词标记，**不为一次标记变化再查一遍全篇**（AC-R3 一次 IPC）。
    */
   onNoteSaved?: (kind: "sentence" | "word", id: number, hasContent: boolean) => void;
+  /**
+   * 收藏 / 移出成功回调（M13 AC6②）：`added=false` 表示刚移出生词本。
+   * 由 `Reader` 就地增量改正文层的 `data-in-vocab` 标记——
+   * 用户点「加入生词本」后**不用重开文章**，词下面的线立刻出现（零额外 IPC）。
+   */
+  onVocabChange?: (normalized: string, added: boolean) => void;
 }
 
 /** 骨架占位：`loading` 时可见（不空白闪烁） */
@@ -101,7 +107,7 @@ function PanelSkeleton() {
   );
 }
 
-export function AnalysisPanel({ articleId, selection, onClose, onNoteSaved }: AnalysisPanelProps) {
+export function AnalysisPanel({ articleId, selection, onClose, onNoteSaved, onVocabChange }: AnalysisPanelProps) {
   const wide = useWideLayout();
   const [status, setStatus] = useState<PanelStatus>("none");
   const [sentenceCard, setSentenceCard] = useState<SentenceCardModel | null>(null);
@@ -220,22 +226,31 @@ export function AnalysisPanel({ articleId, selection, onClose, onNoteSaved }: An
     setVocabBusy(true);
     setVocabError(null);
     void addVocabFromToken(wordId)
-      .then((result) => setVocabEntry(result.entry))
+      .then((result) => {
+        setVocabEntry(result.entry);
+        // 正文层标记即时生效（M13 AC6②）：用返回值里的 normalized（聚合键），不是本次点击的 surface
+        onVocabChange?.(result.entry.normalized, true);
+      })
       .catch((err: unknown) => setVocabError(describeCommandError(err)))
       .finally(() => setVocabBusy(false));
-  }, [wordId, vocabBusy]);
+  }, [wordId, vocabBusy, onVocabChange]);
 
   /** 移出（D5）：成功后置回 `none`（按钮变回「加入生词本」），失败保留 `added` 并提示可再试 */
   const handleVocabRemove = useCallback((): void => {
     const id = vocabEntry === null ? null : vocabEntry.id;
+    // 先留住 normalized：delete 成功后 vocabEntry 会被置 null，之后就拿不到聚合键了
+    const removedNorm = vocabEntry === null ? null : vocabEntry.normalized;
     if (id === null || vocabBusy) return;
     setVocabBusy(true);
     setVocabError(null);
     void deleteVocab(id)
-      .then(() => setVocabEntry(null))
+      .then(() => {
+        setVocabEntry(null);
+        if (removedNorm !== null) onVocabChange?.(removedNorm, false);
+      })
       .catch((err: unknown) => setVocabError(describeCommandError(err)))
       .finally(() => setVocabBusy(false));
-  }, [vocabEntry, vocabBusy]);
+  }, [vocabEntry, vocabBusy, onVocabChange]);
 
   // 窄屏未选中：不渲染抽屉（不占位、不挡正文）
   if (!wide && status === "none") return null;
